@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/lang/php/5.2/pkg/PLIST-gmp,v 1.4 2012/01/29 14:53:21 espie Exp $
+@option no-default-conflict
+@conflict php-gmp->=5.2,<5.3
+@conflict php5-gmp->=5.2
+@pkgpath www/php5/extensions,-gmp
+lib/php-${PV}/modules/gmp.so
+share/examples/php-${PV}/gmp.ini
+@sample ${SYSCONFDIR}/php-${PV}.sample/gmp.ini

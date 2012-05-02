@@ -1,0 +1,12 @@
+$OpenBSD: ports/www/chromium/patches/patch-net_disk_cache_disk_format_h,v 1.4 2012/02/17 10:19:51 robert Exp $
+--- net/disk_cache/disk_format.h.orig	Fri Jan 27 09:01:26 2012
++++ net/disk_cache/disk_format.h	Thu Feb  9 09:31:06 2012
+@@ -158,7 +158,7 @@ struct RankingsNode {
+ };
+ #pragma pack(pop)
+ 
+-COMPILE_ASSERT(sizeof(RankingsNode) == 36, bad_RankingsNode);
++//COMPILE_ASSERT(sizeof(RankingsNode) == 36, bad_RankingsNode);
+ 
+ const uint32 kBlockMagic = 0xC104CAC3;
+ const int kBlockHeaderSize = 8192;  // Two pages: almost 64k entries

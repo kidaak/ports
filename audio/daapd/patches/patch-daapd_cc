@@ -1,0 +1,12 @@
+$OpenBSD: ports/audio/daapd/patches/patch-daapd_cc,v 1.3 2012/03/06 11:43:39 ajacoutot Exp $
+--- daapd.cc.orig	Sun Mar  5 14:39:37 2006
++++ daapd.cc	Tue Jun  2 16:20:11 2009
+@@ -829,7 +829,7 @@ InitParams *readConfig( InitParams& initParams ) {
+ 		}
+ 	}
+ 	
+-	conf = fopen( "/etc/daapd.conf", "r" );
++	conf = fopen( "_SYSCONFDIR_/daapd.conf", "r" );
+ 	if( conf != NULL ) {
+ 		return( parseConfig( conf, initParams ) );
+ 	}

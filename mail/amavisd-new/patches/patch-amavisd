@@ -1,0 +1,11 @@
+$OpenBSD: ports/mail/amavisd-new/patches/patch-amavisd,v 1.9 2011/07/20 14:46:20 giovanni Exp $
+--- amavisd.orig	Fri Jul  1 18:21:07 2011
++++ amavisd	Tue Jul 12 10:39:35 2011
+@@ -24679,6 +24679,7 @@ sub new_SpamAssassin_instance {
+     rules_filename       => $sa_configpath,
+     site_rules_filename  => $sa_siteconfigpath,
+ #   LOCAL_STATE_DIR   => '/var/lib',
++    LOCAL_STATE_DIR   => '/var/db/spamassassin',
+ #   PREFIX            => '/usr/local',
+ #   DEF_RULES_DIR     => '/usr/local/share/spamassassin',
+ #   LOCAL_RULES_DIR   => '/usr/local/etc/mail/spamassassin',

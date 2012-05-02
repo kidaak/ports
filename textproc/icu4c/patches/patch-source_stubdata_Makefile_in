@@ -1,0 +1,13 @@
+Needed to fix a linker warning message about size mismatch. Credits to
+Andreas Vogele <andreas@kurzegrasse.de> for this one.
+
+--- source/stubdata/Makefile.in.orig	Mon Sep 22 21:03:42 2008
++++ source/stubdata/Makefile.in	Wed Oct 29 11:50:47 2008
+@@ -41,6 +41,7 @@ ALL_TARGETS = $(TARGET) $(ALL_SO_TARGETS)
+ 
+ DYNAMICCPPFLAGS = $(SHAREDLIBCPPFLAGS)
+ DYNAMICCFLAGS = $(SHAREDLIBCFLAGS)
++DYNAMICCFLAGS += -finhibit-size-directive
+ DYNAMICCXXFLAGS = $(SHAREDLIBCXXFLAGS)
+ 
+ ifneq ($(top_builddir),$(top_srcdir))

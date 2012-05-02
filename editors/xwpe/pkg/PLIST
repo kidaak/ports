@@ -1,0 +1,13 @@
+@comment $OpenBSD: ports/editors/xwpe/pkg/PLIST,v 1.5 2008/12/09 10:46:35 jasper Exp $
+@bin bin/we
+bin/wpe
+bin/xwe
+bin/xwpe
+lib/xwpe/
+lib/xwpe/help.key
+lib/xwpe/help.xwpe
+lib/xwpe/syntax_def
+@man man/man1/we.1
+@man man/man1/wpe.1
+@man man/man1/xwe.1
+@man man/man1/xwpe.1

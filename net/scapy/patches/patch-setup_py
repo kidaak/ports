@@ -1,0 +1,12 @@
+$OpenBSD: ports/net/scapy/patches/patch-setup_py,v 1.2 2010/10/05 09:18:05 armani Exp $
+--- setup.py.orig	Mon Dec 14 16:31:55 2009
++++ setup.py	Mon Oct  4 07:43:18 2010
+@@ -44,7 +44,7 @@ setup(
+     version = '2.1.0', 
+     packages=['scapy','scapy/arch', 'scapy/arch/windows', 'scapy/layers','scapy/asn1','scapy/tools','scapy/modules', 'scapy/crypto'],
+     scripts = SCRIPTS,
+-    data_files = [('share/man/man1', ["doc/scapy.1.gz"])],
++    data_files = [('man/man1', ["doc/scapy.1"])],
+ 
+     # Metadata
+     author = 'Philippe BIONDI',

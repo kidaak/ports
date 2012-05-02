@@ -1,0 +1,21 @@
+$OpenBSD: ports/x11/gnome/session/patches/patch-gnome-session_main_c,v 1.9 2012/02/16 22:23:25 ajacoutot Exp $
+
+Set XDG_MENU_PREFIX so that menu is created from
+SYSCONFDIR/xdg/menus/gnome-applications.menu
+
+--- gnome-session/main.c.orig	Thu Sep  8 00:55:51 2011
++++ gnome-session/main.c	Tue Feb  7 09:36:03 2012
+@@ -334,6 +334,13 @@ main (int argc, char **argv)
+          */
+         gsm_util_setenv ("GNOME_DESKTOP_SESSION_ID", "this-is-deprecated");
+ 
++        /* Set default menu to gnome-applications.menu if XDG_MENU_PREFIX
++         * is not set.
++         */
++        if (!g_getenv ("XDG_MENU_PREFIX")) {
++                gsm_util_setenv ("XDG_MENU_PREFIX", "gnome-");
++        }
++
+         client_store = gsm_store_new ();
+ 
+         xsmp_server = gsm_xsmp_server_new (client_store);

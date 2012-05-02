@@ -1,0 +1,11 @@
+$OpenBSD: ports/security/cyrus-sasl2/patches/patch-saslauthd_auth_sasldb_c,v 1.2 2011/09/20 23:01:29 ajacoutot Exp $
+--- saslauthd/auth_sasldb.c.orig	Thu Dec  3 20:07:03 2009
++++ saslauthd/auth_sasldb.c	Mon Sep 19 09:35:57 2011
+@@ -40,6 +40,7 @@
+ 
+ #include <string.h>
+ #include <stdlib.h>
++#include <unistd.h>
+ #include <pwd.h>
+ #include <config.h>
+ /* END PUBLIC DEPENDENCIES */

@@ -1,0 +1,19 @@
+--- Makefile.in.orig	Tue Feb 26 02:37:48 2008
++++ Makefile.in	Sun Jan 18 10:09:36 2009
+@@ -120,6 +120,7 @@ LTOBJS := $(OBJS:.o=.lo)
+ SRC_DIRS = \
+ 	src/common \
+ 	src/hostapi/alsa \
++	src/hostapi/sndio \
+ 	src/hostapi/asihpi \
+ 	src/hostapi/asio \
+ 	src/hostapi/coreaudio \
+@@ -136,7 +137,7 @@ SRC_DIRS = \
+ SUBDIRS =
+ @ENABLE_CXX_TRUE@SUBDIRS += bindings/cpp
+ 
+-all: lib/$(PALIB) all-recursive tests
++all: lib/$(PALIB) all-recursive
+ 
+ tests: bin-stamp $(TESTS)
+ 

@@ -1,0 +1,90 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_ECLogger_cpp,v 1.13 2012/02/27 19:01:34 ajacoutot Exp $
+
+Needs newlocale(3).
+
+--- common/ECLogger.cpp.orig	Thu Dec 22 01:02:33 2011
++++ common/ECLogger.cpp	Thu Dec 22 12:14:19 2011
+@@ -55,6 +55,10 @@
+ #include <assert.h>
+ #include "stringutil.h"
+ 
++#ifdef __OpenBSD__
++#include <signal.h>
++#endif
++
+ #include "config.h"
+ #if HAVE_SYSLOG_H
+ #include <syslog.h>
+@@ -78,15 +82,19 @@ ECLogger::ECLogger(int max_ll) {
+ 	max_loglevel = max_ll;
+ 	msgbuffer = new char[_LOG_BUFSIZE];
+ 	// get system locale for time, NULL is returned if locale was not found.
++#ifndef __OpenBSD__
+ 	timelocale = createlocale(LC_TIME, "");
++#endif
+ 	prefix = LP_NONE;
+ 	m_ulRef = 1;
+ }
+ 
+ ECLogger::~ECLogger() {
+ 	delete [] msgbuffer;
++#ifndef __OpenBSD__
+ 	if (timelocale)
+ 		freelocale(timelocale);
++#endif
+ 
+ 	pthread_mutex_destroy(&msgbuflock);
+ }
+@@ -101,9 +109,11 @@ char* ECLogger::MakeTimestamp() {
+ 
+ 	localtime_r(&now, &local);
+ 
++#ifndef __OpenBSD__
+ 	if (timelocale)
+ 		strftime_l(timestring, _LOG_TSSIZE, "%c", &local, timelocale);
+ 	else
++#endif
+ 		strftime(timestring, _LOG_TSSIZE, "%c", &local);
+ 
+ 	return timestring;
+@@ -224,7 +234,7 @@ void ECLogger_File::DoPrefix() {
+ 	if (timestamp)
+ 		fnPrintf(log, "%s: ", MakeTimestamp());
+ 	if (prefix == LP_TID)
+-		fnPrintf(log, "[0x%08x] ", (unsigned int)pthread_self());
++		fnPrintf(log, "[0x%08x] ", (uintptr_t)pthread_self());
+ 	else if (prefix == LP_PID)
+ 		fnPrintf(log, "[%5d] ", getpid());
+ }
+@@ -475,7 +485,7 @@ void ECLogger_Pipe::Log(int loglevel, const std::strin
+ 	off += 1;
+ 
+ 	if (prefix == LP_TID)
+-		len = snprintf(msgbuffer+off, _LOG_BUFSIZE -off, "[0x%08x] ", (unsigned int)pthread_self());
++		len = snprintf(msgbuffer+off, _LOG_BUFSIZE -off, "[0x%08x] ", (uintptr_t)pthread_self());
+ 	else if (prefix == LP_PID)
+ 		len = snprintf(msgbuffer+off, _LOG_BUFSIZE -off, "[%5d] ", getpid());
+ 	off += len;
+@@ -509,7 +519,7 @@ void ECLogger_Pipe::LogVA(int loglevel, const char *fo
+ 	off += 1;
+ 
+ 	if (prefix == LP_TID)
+-		len = snprintf(msgbuffer+off, _LOG_BUFSIZE -off, "[0x%08x] ", (unsigned int)pthread_self());
++		len = snprintf(msgbuffer+off, _LOG_BUFSIZE -off, "[0x%08x] ", (uintptr_t)pthread_self());
+ 	else if (prefix == LP_PID)
+ 		len = snprintf(msgbuffer+off, _LOG_BUFSIZE -off, "[%5d] ", getpid());
+ 	off += len;
+@@ -586,9 +596,13 @@ namespace PrivatePipe {
+ 		int l;
+ 		bool bNPTL = true;
+ 
++#if defined(__linux__)
+ 		confstr(_CS_GNU_LIBPTHREAD_VERSION, buffer, sizeof(buffer));
+ 		if (strncmp(buffer, "linuxthreads", strlen("linuxthreads")) == 0)
+ 			bNPTL = false;
++#elif defined(__OpenBSD__)
++		bNPTL = true;
++#endif
+ 		
+ 		m_lpConfig = lpConfig;
+ 		m_lpFileLogger = lpFileLogger;

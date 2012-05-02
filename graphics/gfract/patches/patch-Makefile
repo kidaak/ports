@@ -1,0 +1,30 @@
+$OpenBSD: ports/graphics/gfract/patches/patch-Makefile,v 1.4 2010/09/30 07:26:04 ajacoutot Exp $
+
+XXX make it compile with gtk+2 2.22 (*_DISABLE_DEPRECATED)
+
+--- Makefile.orig	Tue Apr 18 17:31:44 2006
++++ Makefile	Thu Sep 30 08:33:08 2010
+@@ -2,8 +2,7 @@ PROG := gfract
+ 
+ CXX := g++
+ 
+-DEFS := -Wall -ansi -pedantic -D_GNU_SOURCE -DGDK_DISABLE_DEPRECATED \
+-	-DGTK_DISABLE_DEPRECATED
++DEFS := -Wall -ansi -pedantic -D_GNU_SOURCE
+ 
+ DEFS := $(shell pkg-config --cflags gtk+-2.0 libpng) $(DEFS)
+ 
+@@ -19,11 +18,11 @@ HEADERS := $(wildcard *.h *.xpm)
+ 
+ $(PROG): $(OBJS)
+ 	@echo Linking $(PROG)
+-	@$(CXX) $(CXXFLAGS) $(OBJS) $(LDFLAGS) -o $(PROG)
++	$(CXX) $(CXXFLAGS) $(OBJS) $(LDFLAGS) -o $(PROG)
+ 
+ %.o: %.cpp $(HEADERS)
+ 	@echo Compiling $<
+-	@$(CXX) $(CXXFLAGS) -c $< -o $@
++	$(CXX) $(DEFS) $(CXXFLAGS) -c $< -o $@
+ 
+ clean:
+ 	rm -f $(PROG) $(OBJS)

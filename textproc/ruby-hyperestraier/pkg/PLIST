@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/textproc/ruby-hyperestraier/pkg/PLIST,v 1.5 2011/07/19 18:00:16 jeremy Exp $
+bin/estcmd${BIN_SUFFIX}.rb
+${MODRUBY_SITEARCHDIR}/estraier.so
+${MODRUBY_RELEXAMPLEDIR}/
+${MODRUBY_RELEXAMPLEDIR}/hyperestraier/
+${MODRUBY_RELEXAMPLEDIR}/hyperestraier/example001.rb
+${MODRUBY_RELEXAMPLEDIR}/hyperestraier/example002.rb

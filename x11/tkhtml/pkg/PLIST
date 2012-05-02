@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/x11/tkhtml/pkg/PLIST,v 1.2 2011/01/05 17:50:48 sebastia Exp $
+lib/tcl/tkhtml/
+@lib lib/tcl/tkhtml/libTkhtml30.so.${LIBTkhtml30_VERSION}
+lib/tcl/tkhtml/pkgIndex.tcl
+@man man/mann/tkhtml.n

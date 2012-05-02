@@ -1,0 +1,31 @@
+# $OpenBSD: ports/x11/wmpinboard/Makefile,v 1.16 2012/03/29 13:39:01 sthen Exp $
+
+COMMENT=		wm-dockapp; resembling a miniature pin board
+
+DISTNAME=		wmpinboard-1.0
+CATEGORIES=		x11 x11/windowmaker
+
+MAINTAINER=		Peter Stromberg <wilfried@openbsd.org>
+
+# GPL
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+WANTLIB=		X11 Xext Xpm c
+
+MASTER_SITES=		${HOMEPAGE}
+
+SEPARATE_BUILD=		Yes
+USE_GROFF =		Yes
+NO_REGRESS=		Yes
+CONFIGURE_STYLE=	gnu
+
+post-patch:
+	@cd ${WRKSRC}/src && rm -f getopt*
+
+do-install:
+	${INSTALL_PROGRAM} ${WRKBUILD}/src/wmpinboard ${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/man/wmpinboard.1 ${PREFIX}/man/man1
+
+.include <bsd.port.mk>

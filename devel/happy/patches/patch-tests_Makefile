@@ -1,0 +1,17 @@
+$OpenBSD: ports/devel/happy/patches/patch-tests_Makefile,v 1.2 2010/04/22 21:48:51 kili Exp $
+
+AttrGrammer stuff doesn't exist.
+
+--- tests/Makefile.orig	Thu Apr 23 15:29:07 2009
++++ tests/Makefile	Thu Apr  8 12:31:17 2010
+@@ -3,9 +3,7 @@ HC=ghc
+ 
+ TESTS = Test.ly TestMulti.ly TestPrecedence.ly bug001.ly \
+ 	monad001.y monad002.ly precedence001.ly precedence002.y \
+-	bogus-token.y bug002.y Partial.ly \
+-	AttrGrammar001.y AttrGrammar002.y \
+-	test_rules.y
++	bogus-token.y bug002.y Partial.ly test_rules.y
+ 
+ ERROR_TESTS = error001.y
+ 

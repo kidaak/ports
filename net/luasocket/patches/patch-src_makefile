@@ -1,0 +1,12 @@
+$OpenBSD: ports/net/luasocket/patches/patch-src_makefile,v 1.3 2009/09/06 13:46:58 jolan Exp $
+--- src/makefile.orig	Sun Oct 14 23:21:05 2007
++++ src/makefile	Sun Sep  6 08:27:43 2009
+@@ -47,7 +47,7 @@ UNIX_OBJS:=\
+ 	usocket.o \
+ 	unix.o
+ 
+-all: $(SOCKET_SO) $(MIME_SO) 
++all: $(SOCKET_SO) $(MIME_SO) $(UNIX_SO)
+ 
+ $(SOCKET_SO): $(SOCKET_OBJS)
+ 	$(LD) $(LDFLAGS) -o $@ $(SOCKET_OBJS)

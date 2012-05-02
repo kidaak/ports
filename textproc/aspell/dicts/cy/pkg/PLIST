@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/textproc/aspell/dicts/cy/pkg/PLIST,v 1.2 2008/10/28 16:54:11 jasper Exp $
+lib/aspell/cy.dat
+share/aspell/cy.multi
+share/aspell/cy.rws
+share/aspell/welsh.alias

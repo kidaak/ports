@@ -1,0 +1,21 @@
+$OpenBSD: ports/converters/mpack/patches/patch-unixpk_c,v 1.4 2012/01/08 00:12:13 sthen Exp $
+--- unixpk.c.orig	Mon Jul 21 21:50:41 2003
++++ unixpk.c	Sun Jan  8 00:04:20 2012
+@@ -25,6 +25,8 @@
+ #include <stdio.h>
+ #include <string.h>
+ #include <errno.h>
++#include <stdlib.h>
++#include <unistd.h>
+ #include "common.h"
+ #include "version.h"
+ #include "xmalloc.h"
+@@ -167,7 +169,7 @@ int main(int argc, char **argv)
+ 	    strcpy(fnamebuf, "/usr/tmp");
+ 	}
+ 	strcat(fnamebuf, "/mpackXXXXXX");
+-	mktemp(fnamebuf);
++	close(mkstemp(fnamebuf));
+ 	outfname = strsave(fnamebuf);
+     }
+ 

@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/textproc/mozilla-dicts/pkg/PLIST-cs,v 1.3 2010/11/12 21:41:35 martynas Exp $
+share/mozilla-dicts/
+share/mozilla-dicts/Cestina.aff
+share/mozilla-dicts/Cestina.dic
+share/mozilla-dicts/cs.aff
+share/mozilla-dicts/cs.dic

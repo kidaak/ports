@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/security/ctunnel/pkg/PLIST,v 1.2 2011/01/12 15:19:15 pea Exp $
+@bin bin/ctunnel
+@man man/man1/ctunnel.1
+share/doc/ctunnel/
+share/doc/ctunnel/README

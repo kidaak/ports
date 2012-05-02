@@ -1,0 +1,12 @@
+$OpenBSD: ports/mail/maildrop/patches/patch-maildrop_Makefile_in,v 1.3 2009/10/28 14:21:38 giovanni Exp $
+--- maildrop/Makefile.in.orig	Sat Jun 27 19:28:17 2009
++++ maildrop/Makefile.in	Wed Jul 15 15:07:13 2009
+@@ -146,7 +146,7 @@ AUTOMAKE = @AUTOMAKE@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@
++CFLAGS = @CFLAGS@ -I/usr/local/include
+ COURIERAUTHCONFIG = @COURIERAUTHCONFIG@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@

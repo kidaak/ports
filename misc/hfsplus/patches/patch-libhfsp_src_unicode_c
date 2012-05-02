@@ -1,0 +1,22 @@
+$OpenBSD: ports/misc/hfsplus/patches/patch-libhfsp_src_unicode_c,v 1.2 2011/04/22 11:37:46 sthen Exp $
+--- libhfsp/src/unicode.c.orig	Tue Mar  5 19:50:29 2002
++++ libhfsp/src/unicode.c	Sun Apr 17 09:57:44 2011
+@@ -13,11 +13,17 @@
+ #  include "config.h"
+ # endif
+  
+-#include <stdlib.h>
++#if defined(__OpenBSD__)
++#include <sys/types.h>
++#include <sys/endian.h>
++#include <stddef.h>
++#include <stdlib.h>
++#else
+ #include <endian.h>
+ #include <byteswap.h>
+ #include <linux/string.h>
++#endif
+ 
+ #define __USE_GNU
+     /* need wcsrtomb */
+ #include <wchar.h>

@@ -1,0 +1,21 @@
+$OpenBSD: ports/mail/claws-mail/patches/patch-src_inc_c,v 1.6 2008/10/17 12:46:33 landry Exp $
+--- src/inc.c.orig	Thu Sep 18 05:44:28 2008
++++ src/inc.c	Sat Oct  4 16:02:19 2008
+@@ -85,7 +85,7 @@ static GdkPixbuf *currentpix;
+ static GdkPixbuf *errorpix;
+ static GdkPixbuf *okpix;
+ 
+-#define MSGBUFSIZE	8192
++#define MESSAGEBUFSIZE	8192
+ 
+ static void inc_finished		(MainWindow		*mainwin,
+ 					 gboolean		 new_messages,
+@@ -946,7 +946,7 @@ static void inc_progress_dialog_set_label(IncProgressD
+ static void inc_progress_dialog_set_progress(IncProgressDialog *inc_dialog,
+ 					     IncSession *inc_session)
+ {
+-	gchar buf[MSGBUFSIZE];
++	gchar buf[MESSAGEBUFSIZE];
+ 	Pop3Session *pop3_session = POP3_SESSION(inc_session->session);
+ 	gchar *total_size_str;
+ 	gint cur_total;

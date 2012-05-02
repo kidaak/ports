@@ -1,0 +1,33 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_Makefile_in,v 1.15 2012/03/15 17:04:31 ajacoutot Exp $
+
+*** Warning: This system can not link to static lib archive ../../common/libcommon_XXX.la.
+
+--- common/Makefile.in.orig	Tue Mar 13 11:28:10 2012
++++ common/Makefile.in	Thu Mar 15 16:43:08 2012
+@@ -354,7 +354,7 @@ AM_CPPFLAGS = $(DEBUGFLAGS) $(BOOST_CPPFLAGS) -DLINUX 
+ 	-I${top_srcdir}/mapi4linux/include -I${top_srcdir}/provider/common \
+ 	-I${top_srcdir}/libfreebusy
+ 
+-libcommon_mapi_la_LDFLAGS = -static
++libcommon_mapi_la_LDFLAGS = -version-info $(ECCLIENT_LIBRARY_VERSION)
+ libcommon_mapi_la_SOURCES = CommonUtil.cpp				\
+ 			rtfutil.cpp									\
+ 			codepage.cpp								\
+@@ -374,7 +374,7 @@ libcommon_mapi_la_SOURCES = CommonUtil.cpp				\
+ 			ECIterators.cpp								\
+ 			MAPINotifSink.cpp
+ 
+-libcommon_util_la_LDFLAGS = -static
++libcommon_util_la_LDFLAGS = -version-info $(ECCLIENT_LIBRARY_VERSION)
+ libcommon_util_la_SOURCES = platform.cpp platform.linux.cpp md5.cpp \
+ 	base64.cpp ECLogger.cpp ECConfig.cpp ECConfigImpl.cpp \
+ 	ECFifoBuffer.cpp ECSerializer.cpp ECCache.cpp my_getopt.cpp \
+@@ -385,7 +385,7 @@ libcommon_util_la_SOURCES = platform.cpp platform.linu
+ 	ECGetText.cpp threadutil.cpp ECRestriction.cpp userutil.cpp \
+ 	ECFeatures.cpp ECACL.cpp fileutil.cpp ECThreadPool.cpp \
+ 	$(am__append_1)
+-libcommon_ssl_la_LDFLAGS = -static
++libcommon_ssl_la_LDFLAGS = -version-info $(ECCLIENT_LIBRARY_VERSION)
+ libcommon_ssl_la_SOURCES = \
+ 			SSLUtil.cpp								\
+ 			ECChannel.cpp

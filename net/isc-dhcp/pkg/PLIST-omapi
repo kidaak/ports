@@ -1,0 +1,23 @@
+@comment $OpenBSD: ports/net/isc-dhcp/pkg/PLIST-omapi,v 1.4 2012/01/14 12:43:25 sthen Exp $
+@conflict isc-dhcp-*
+@bin bin/omshell
+include/dhcpctl/
+include/dhcpctl/dhcpctl.h
+include/isc-dhcp/
+include/isc-dhcp/dst.h
+include/omapip/
+include/omapip/alloc.h
+include/omapip/buffer.h
+include/omapip/convert.h
+include/omapip/hash.h
+include/omapip/isclib.h
+include/omapip/omapip.h
+include/omapip/omapip_p.h
+include/omapip/result.h
+include/omapip/trace.h
+lib/libdhcpctl.a
+lib/libdst.a
+lib/libomapi.a
+@man man/man1/omshell.1
+@man man/man3/dhcpctl.3
+@man man/man3/omapi.3

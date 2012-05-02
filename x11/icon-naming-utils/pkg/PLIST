@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/x11/icon-naming-utils/pkg/PLIST,v 1.2 2012/03/19 10:28:48 ajacoutot Exp $
+libexec/icon-name-mapping
+share/dtds/
+share/dtds/legacy-icon-mapping.dtd
+share/icon-naming-utils/
+share/icon-naming-utils/legacy-icon-mapping.xml
+share/pkgconfig/
+share/pkgconfig/icon-naming-utils.pc

@@ -1,0 +1,12 @@
+$OpenBSD: ports/x11/qt4/patches/patch-config_tests_unix_nis_nis_cpp,v 1.4 2009/10/11 09:43:08 espie Exp $
+--- config.tests/unix/nis/nis.cpp.orig	Tue Sep 29 13:01:31 2009
++++ config.tests/unix/nis/nis.cpp	Sat Oct 10 13:19:31 2009
+@@ -41,6 +41,8 @@
+ 
+ #include <sys/types.h>
+ #include <rpc/rpc.h>
++#include <sys/types.h>
++#include <rpc/rpc.h>
+ #include <rpcsvc/ypclnt.h>
+ #include <rpcsvc/yp_prot.h>
+ 

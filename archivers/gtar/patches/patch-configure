@@ -1,0 +1,12 @@
+$OpenBSD: ports/archivers/gtar/patches/patch-configure,v 1.12 2011/03/15 21:10:13 naddy Exp $
+--- configure.orig	Sat Mar 12 10:50:18 2011
++++ configure	Tue Mar 15 20:50:30 2011
+@@ -53560,7 +53560,7 @@ fi
+ $as_echo "$acl_cv_rpath" >&6; }
+   wl="$acl_cv_wl"
+   acl_libext="$acl_cv_libext"
+-  acl_shlibext="$acl_cv_shlibext"
++  acl_shlibext="${SHLIBEXT-$acl_cv_shlibext}"
+   acl_libname_spec="$acl_cv_libname_spec"
+   acl_library_names_spec="$acl_cv_library_names_spec"
+   acl_hardcode_libdir_flag_spec="$acl_cv_hardcode_libdir_flag_spec"

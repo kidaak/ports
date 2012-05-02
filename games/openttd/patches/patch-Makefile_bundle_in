@@ -1,0 +1,23 @@
+$OpenBSD: ports/games/openttd/patches/patch-Makefile_bundle_in,v 1.4 2012/01/13 07:54:43 ajacoutot Exp $
+
+Don't gzip(1) the manual page.
+
+--- Makefile.bundle.in.orig	Sun Dec  4 20:40:50 2011
++++ Makefile.bundle.in	Fri Jan 13 08:36:07 2012
+@@ -81,7 +81,6 @@ endif
+ ifdef MAN_DIR
+ 	$(Q)mkdir -p "$(BUNDLE_DIR)/man/"
+ 	$(Q)cp "$(ROOT_DIR)/docs/openttd.6"       "$(BUNDLE_DIR)/man/"
+-	$(Q)gzip -9 "$(BUNDLE_DIR)/man/openttd.6"
+ endif
+ 	$(Q)cp "$(ROOT_DIR)/media/openttd.32.xpm" "$(BUNDLE_DIR)/media/"
+ 	$(Q)cp "$(ROOT_DIR)/media/openttd."*.png  "$(BUNDLE_DIR)/media/"
+@@ -224,7 +223,7 @@ endif
+ ifdef MAN_DIR
+ ifndef DO_NOT_INSTALL_MAN
+ 	$(Q)install -d "$(INSTALL_MAN_DIR)"
+-	$(Q)install -m 644 "$(BUNDLE_DIR)/man/openttd.6.gz" "$(INSTALL_MAN_DIR)/${BINARY_NAME}.6.gz"
++	$(Q)install -m 644 "$(BUNDLE_DIR)/man/openttd.6" "$(INSTALL_MAN_DIR)/${BINARY_NAME}.6"
+ endif
+ endif
+ ifdef MENU_DIR

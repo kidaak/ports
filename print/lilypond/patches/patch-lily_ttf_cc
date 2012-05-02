@@ -1,0 +1,21 @@
+$OpenBSD: ports/print/lilypond/patches/patch-lily_ttf_cc,v 1.4 2011/07/06 14:14:06 kili Exp $
+--- lily/ttf.cc.orig	Sun Jun 12 16:05:50 2011
++++ lily/ttf.cc	Sun Jun 19 13:45:47 2011
+@@ -440,7 +440,7 @@ print_trailer (void *out,
+       if (!glyph_name[0] && ic_map.find (i) != ic_map.end ())
+ 	{
+ 	  FT_ULong ucode = ic_map[i];
+-	  get_unicode_name (glyph_name, ucode);
++	  get_unicode_name (glyph_name, sizeof(glyph_name), ucode);
+ 	}
+ 
+       if (i == 0)
+@@ -449,7 +449,7 @@ print_trailer (void *out,
+ 	glyph_name[0] = '\0';
+ 
+       if (!glyph_name[0])
+-	get_glyph_index_name (glyph_name, i);
++	get_glyph_index_name (glyph_name, sizeof(glyph_name), i);
+ 
+       if (glyph_name[0])
+ 	{

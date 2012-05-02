@@ -1,0 +1,12 @@
+$OpenBSD: ports/textproc/libxslt/patches/patch-libxslt_Makefile_in,v 1.4 2009/10/11 10:40:22 steven Exp $
+--- libxslt/Makefile.in.orig	Thu Sep 24 16:43:14 2009
++++ libxslt/Makefile.in	Sat Oct 10 18:16:55 2009
+@@ -678,7 +678,7 @@ install-dvi-am:
+ 
+ install-exec-am: install-libLTLIBRARIES
+ 	@$(NORMAL_INSTALL)
+-	$(MAKE) $(AM_MAKEFLAGS) install-exec-hook
++#	$(MAKE) $(AM_MAKEFLAGS) install-exec-hook
+ install-html: install-html-am
+ 
+ install-html-am:

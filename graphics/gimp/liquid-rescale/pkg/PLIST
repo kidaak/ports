@@ -1,0 +1,25 @@
+@comment $OpenBSD: ports/graphics/gimp/liquid-rescale/pkg/PLIST,v 1.2 2011/05/11 08:09:06 ajacoutot Exp $
+lib/gimp/
+lib/gimp/2.0/
+lib/gimp/2.0/plug-ins/
+@bin lib/gimp/2.0/plug-ins/gimp-lqr-plugin
+@comment lib/locale/
+share/gimp-lqr-plugin/
+share/gimp-lqr-plugin/help/
+share/gimp-lqr-plugin/help/en/
+share/gimp-lqr-plugin/help/en/gimp-help.xml
+share/gimp-lqr-plugin/help/en/index.html
+share/gimp-lqr-plugin/help/es_ES/
+share/gimp-lqr-plugin/help/es_ES/gimp-help.xml
+share/gimp-lqr-plugin/help/es_ES/index.html
+share/gimp-lqr-plugin/help/images/
+share/gimp-lqr-plugin/help/images/dialog1.png
+share/gimp-lqr-plugin/help/images/dialog1_it.png
+share/gimp-lqr-plugin/help/images/dialog2.png
+share/gimp-lqr-plugin/help/images/dialog2_it.png
+share/gimp-lqr-plugin/help/images/dialog3.png
+share/gimp-lqr-plugin/help/images/dialog3_it.png
+share/gimp-lqr-plugin/help/images/wilber.png
+share/gimp-lqr-plugin/help/it/
+share/gimp-lqr-plugin/help/it/gimp-help.xml
+share/gimp-lqr-plugin/help/it/index.html

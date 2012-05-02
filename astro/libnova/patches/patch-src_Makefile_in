@@ -1,0 +1,10 @@
+--- src/Makefile.in.orig	Wed Jan 14 01:10:35 2009
++++ src/Makefile.in	Sat Mar 21 09:04:32 2009
+@@ -246,7 +246,6 @@ libnova_la_SOURCES = \
+ 
+ libnova_la_LDFLAGS = \
+ 	-version-info $(LT_VERSION) \
+-	-release $(LT_RELEASE) \
+ 	-no-undefined \
+ 	-export-dynamic
+ 

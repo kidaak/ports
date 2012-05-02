@@ -1,0 +1,12 @@
+$OpenBSD: ports/games/gcompris/patches/patch-Makefile_in,v 1.12 2011/11/18 11:14:39 ajacoutot Exp $
+--- Makefile.in.orig	Mon Oct 24 21:42:16 2011
++++ Makefile.in	Fri Nov 18 11:45:38 2011
+@@ -927,7 +927,7 @@ install-data-local:
+ 	@$(NORMAL_INSTALL)
+ 	if test -d $(srcdir)/$(PACKAGE_DATA_DIR); then \
+ 	  $(mkinstalldirs) $(DESTDIR)/$(pkgdatadir)/$(PACKAGE_DATA_DIR); \
+-	  cd $(srcdir)/$(PACKAGE_DATA_DIR) ; tar cf - --dereference --exclude "Makefile.in" --exclude "*.in" --exclude "*~" --exclude "Makefile" --exclude "Makefile.am" --exclude .git * | ( cd $(DESTDIR)/$(pkgdatadir)/$(PACKAGE_DATA_DIR) ; tar xf -) ; cd .. ; \
++	  cd $(srcdir)/$(PACKAGE_DATA_DIR) ; gtar cf - --dereference --exclude "Makefile.in" --exclude "*.in" --exclude "*~" --exclude "Makefile" --exclude "Makefile.am" --exclude .git * | ( cd $(DESTDIR)/$(pkgdatadir)/$(PACKAGE_DATA_DIR) ; gtar xf -) ; cd .. ; \
+ 	fi
+ 
+ dist-hook:

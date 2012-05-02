@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/x11/mxconns/pkg/PLIST,v 1.5 2011/04/10 18:02:55 jasper Exp $
+@pkgpath x11/mxconns,lesstif
+@bin bin/mxconns
+@man man/man1/mxconns.1

@@ -1,0 +1,33 @@
+@comment $OpenBSD: ports/graphics/feh/pkg/PLIST,v 1.8 2011/10/11 07:49:07 dcoppa Exp $
+@bin bin/feh
+bin/feh-cam
+bin/gen-cam-menu
+@man man/man1/feh-cam.1
+@man man/man1/feh.1
+@man man/man1/gen-cam-menu.1
+share/doc/feh/
+share/doc/feh/AUTHORS
+share/doc/feh/ChangeLog
+share/doc/feh/README
+share/doc/feh/TODO
+share/examples/feh/
+@sample ${SYSCONFDIR}/feh/
+share/examples/feh/buttons
+@sample ${SYSCONFDIR}/feh/buttons
+share/examples/feh/keys
+@sample ${SYSCONFDIR}/feh/keys
+share/examples/feh/themes
+@sample ${SYSCONFDIR}/feh/themes
+share/feh/
+share/feh/fonts/
+share/feh/fonts/black.style
+share/feh/fonts/menu.style
+share/feh/fonts/yudit.ttf
+share/feh/images/
+share/feh/images/logo.svg
+share/feh/images/menubg_aluminium.png
+share/feh/images/menubg_aqua.png
+share/feh/images/menubg_black.png
+share/feh/images/menubg_brushed.png
+share/feh/images/menubg_default.png
+share/feh/images/menubg_sky.png

@@ -1,0 +1,12 @@
+$OpenBSD: ports/mail/libspf2/patches/patch-src_spfd_Makefile_in,v 1.2 2008/11/05 17:20:08 jasper Exp $
+--- src/spfd/Makefile.in.orig	Thu Oct 16 00:39:03 2008
++++ src/spfd/Makefile.in	Thu Oct 23 09:02:26 2008
+@@ -39,7 +39,7 @@ NORMAL_UNINSTALL = :
+ PRE_UNINSTALL = :
+ POST_UNINSTALL = :
+ host_triplet = @host@
+-bin_PROGRAMS = spfd$(EXEEXT) spfd_static$(EXEEXT)
++bin_PROGRAMS = spfd$(EXEEXT)
+ subdir = src/spfd
+ DIST_COMMON = $(srcdir)/Makefile.am $(srcdir)/Makefile.in
+ ACLOCAL_M4 = $(top_srcdir)/aclocal.m4

@@ -1,0 +1,11 @@
+$OpenBSD: ports/www/cherokee/patches/patch-constants_h_pre,v 1.2 2010/12/20 07:51:58 ajacoutot Exp $
+--- constants.h.pre.orig	Tue Jan 12 09:52:45 2010
++++ constants.h.pre	Wed Dec 15 16:37:42 2010
+@@ -16,6 +16,6 @@
+ # define CHEROKEE_ICONSDIR    "%prefix%/share/cherokee/icons"
+ # define CHEROKEE_THEMEDIR    "%prefix%/share/cherokee/themes"
+ # define CHEROKEE_PANIC_PATH  "%prefix%/bin/cherokee-panic"
+-# define CHEROKEE_RRD_DIR     "%localstatedir%/lib/cherokee/graphs"
++# define CHEROKEE_RRD_DIR     "%localstatedir%/db/cherokee/graphs"
+ 
+ #endif

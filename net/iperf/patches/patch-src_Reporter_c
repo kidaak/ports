@@ -1,0 +1,13 @@
+$OpenBSD: ports/net/iperf/patches/patch-src_Reporter_c,v 1.2 2009/05/16 21:48:20 rui Exp $
+--- src/Reporter.c.orig	Tue Apr  8 03:37:54 2008
++++ src/Reporter.c	Sat May 16 12:29:06 2009
+@@ -309,6 +309,9 @@ ReportHeader* InitReport( thread_Settings *agent ) {
+ #else
+         // set start time
+         gettimeofday( &(reporthdr->report.startTime), NULL );
++        reporthdr->report.nextTime = reporthdr->report.startTime;
++        TimeAdd(reporthdr->report.nextTime, reporthdr->report.intervalTime);
++
+         /*
+          * Process the report in this thread
+          */

@@ -1,0 +1,12 @@
+--- astrolog.h.orig	Sun Jan 11 21:19:47 2009
++++ astrolog.h	Sun Jan 11 21:19:48 2009
+@@ -131,7 +131,9 @@
+ */
+ 
+ #ifndef PC
++#ifndef DEFAULT_DIR
+ #define DEFAULT_DIR "~/astrolog"
++#endif
+ #else
+ #define DEFAULT_DIR "C:\\ASTROLOG"
+ #endif

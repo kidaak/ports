@@ -1,0 +1,12 @@
+$OpenBSD: ports/print/system-config-printer/patches/patch-udev_udev-configure-printer_c,v 1.2 2011/07/16 07:00:04 ajacoutot Exp $
+--- udev/udev-configure-printer.c.orig	Fri Jul 15 14:00:48 2011
++++ udev/udev-configure-printer.c	Sat Jul 16 08:47:48 2011
+@@ -720,7 +720,7 @@ device_id_from_bluetooth (const char *bdaddr, struct d
+   gchar *argv[4];
+ 
+   id->full_device_id = id->mfg = id->mdl = id->sern = NULL;
+-  argv[0] = g_strdup ("/usr/lib/cups/backend/bluetooth");
++  argv[0] = g_strdup ("${LOCALBASE}/libexec/cups/backend/bluetooth");
+   argv[1] = g_strdup ("--get-deviceid");
+   argv[2] = g_strdup (bdaddr);
+   argv[3] = NULL;

@@ -1,0 +1,14 @@
+$OpenBSD: ports/sysutils/ddrescue/patches/patch-configure,v 1.2 2010/08/24 11:40:21 jasper Exp $
+--- configure.orig	Tue Aug 24 13:38:07 2010
++++ configure	Tue Aug 24 13:39:26 2010
+@@ -26,10 +26,6 @@ datadir='$(prefix)/share'
+ infodir='$(datadir)/info'
+ mandir='$(datadir)/man'
+ sysconfdir='$(prefix)/etc'
+-CXX=
+-CPPFLAGS=
+-CXXFLAGS='-Wall -W -O2'
+-LDFLAGS=
+ 
+ # Loop over all args
+ while [ -n "$1" ] ; do

@@ -1,0 +1,43 @@
+@comment $OpenBSD: ports/security/hs-crypto-api/pkg/PLIST,v 1.4 2012/01/22 17:21:54 kili Exp $
+lib/ghc/${DISTNAME}/
+lib/ghc/${DISTNAME}/Crypto/
+lib/ghc/${DISTNAME}/Crypto/CPoly.hi
+lib/ghc/${DISTNAME}/Crypto/Classes.hi
+lib/ghc/${DISTNAME}/Crypto/HMAC.hi
+lib/ghc/${DISTNAME}/Crypto/Modes.hi
+lib/ghc/${DISTNAME}/Crypto/Padding.hi
+lib/ghc/${DISTNAME}/Crypto/Random.hi
+lib/ghc/${DISTNAME}/Crypto/Types.hi
+lib/ghc/${DISTNAME}/Crypto/Util.hi
+lib/ghc/${DISTNAME}/HS${DISTNAME}.o
+lib/ghc/${DISTNAME}/libHS${DISTNAME}.a
+lib/ghc/${DISTNAME}/register.sh
+@exec /usr/bin/env HOME=/nonexistent %D/lib/ghc/${DISTNAME}/register.sh -v0
+@unexec /usr/bin/env HOME=/nonexistent %D/lib/ghc/${DISTNAME}/unregister.sh -v0 --force
+lib/ghc/${DISTNAME}/unregister.sh
+share/doc/hs-${DISTNAME}/
+share/doc/hs-${DISTNAME}/LICENSE
+share/doc/hs-${DISTNAME}/html/
+share/doc/hs-${DISTNAME}/html/Crypto-Classes.html
+share/doc/hs-${DISTNAME}/html/Crypto-HMAC.html
+share/doc/hs-${DISTNAME}/html/Crypto-Modes.html
+share/doc/hs-${DISTNAME}/html/Crypto-Padding.html
+share/doc/hs-${DISTNAME}/html/Crypto-Random.html
+share/doc/hs-${DISTNAME}/html/Crypto-Types.html
+share/doc/hs-${DISTNAME}/html/crypto-api.haddock
+share/doc/hs-${DISTNAME}/html/doc-index.html
+share/doc/hs-${DISTNAME}/html/frames.html
+share/doc/hs-${DISTNAME}/html/haddock-util.js
+share/doc/hs-${DISTNAME}/html/hslogo-16.png
+share/doc/hs-${DISTNAME}/html/index-frames.html
+share/doc/hs-${DISTNAME}/html/index.html
+share/doc/hs-${DISTNAME}/html/mini_Crypto-Classes.html
+share/doc/hs-${DISTNAME}/html/mini_Crypto-HMAC.html
+share/doc/hs-${DISTNAME}/html/mini_Crypto-Modes.html
+share/doc/hs-${DISTNAME}/html/mini_Crypto-Padding.html
+share/doc/hs-${DISTNAME}/html/mini_Crypto-Random.html
+share/doc/hs-${DISTNAME}/html/mini_Crypto-Types.html
+share/doc/hs-${DISTNAME}/html/minus.gif
+share/doc/hs-${DISTNAME}/html/ocean.css
+share/doc/hs-${DISTNAME}/html/plus.gif
+share/doc/hs-${DISTNAME}/html/synopsis.png

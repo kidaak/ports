@@ -1,0 +1,16 @@
+$OpenBSD: ports/www/seamonkey/patches/patch-mozilla_media_libsydneyaudio_src_Makefile_in,v 1.5 2012/03/16 21:38:33 landry Exp $
+--- mozilla/media/libsydneyaudio/src/Makefile.in.orig	Fri Mar  9 21:29:23 2012
++++ mozilla/media/libsydneyaudio/src/Makefile.in	Sat Mar 10 13:20:45 2012
+@@ -100,6 +100,12 @@ CSRCS		= \
+ 		$(NULL)
+ endif
+ 
++ifeq ($(OS_ARCH),OpenBSD)
++CSRCS		= \
++		sydney_audio_sndio.c \
++		$(NULL)
++endif
++
+ ifeq ($(OS_ARCH),WINNT)
+ OS_LIBS += winmm.lib
+ endif

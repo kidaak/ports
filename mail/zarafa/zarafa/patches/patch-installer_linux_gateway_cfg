@@ -1,0 +1,46 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-installer_linux_gateway_cfg,v 1.9 2012/01/05 11:08:44 ajacoutot Exp $
+--- installer/linux/gateway.cfg.orig	Wed Dec 21 20:17:06 2011
++++ installer/linux/gateway.cfg	Thu Jan  5 12:07:15 2012
+@@ -14,16 +14,16 @@ server_hostname = 
+ server_hostname_greeting = no
+ 
+ # drop privileges and run the process as this user
+-run_as_user = 
++run_as_user = _zarafa
+ 
+ # drop privileges and run the process as this group
+-run_as_group = 
++run_as_group = _zarafa
+ 
+-# create a pid file for stopping the service via the init.d scripts
++# write the process ID number to this file
+ pid_file = /var/run/zarafa-gateway.pid
+ 
+ # run server in this path (when not using the -F switch)
+-running_path = /
++running_path = /var/empty
+ 
+ # enable/disable POP3, and POP3 listen port
+ pop3_enable	=	yes
+@@ -63,10 +63,10 @@ imap_expunge_on_delete = no
+ imap_store_rfc822 = yes
+ 
+ # File with RSA key for SSL
+-ssl_private_key_file	=	/etc/zarafa/gateway/privkey.pem
++ssl_private_key_file	=	${SYSCONFDIR}/zarafa/gateway/privkey.pem
+ 
+ #File with certificate for SSL
+-ssl_certificate_file	=	/etc/zarafa/gateway/cert.pem
++ssl_certificate_file	=	${SYSCONFDIR}/zarafa/gateway/cert.pem
+ 
+ # Verify client certificate
+ ssl_verify_client	=	no
+@@ -76,7 +76,7 @@ ssl_verify_file		=	
+ ssl_verify_path		=
+ 
+ # Process model, using pthreads (thread) or processes (fork)
+-process_model = fork
++process_model = thread
+ 
+ ##############################################################
+ # GATEWAY LOG SETTINGS

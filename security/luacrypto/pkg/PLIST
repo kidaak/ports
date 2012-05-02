@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/security/luacrypto/pkg/PLIST,v 1.4 2011/04/18 18:12:47 jasper Exp $
+lib/lua/5.1/crypto.so
+share/doc/luacrypto/
+share/doc/luacrypto/examples.html
+share/doc/luacrypto/index.html
+share/doc/luacrypto/license.html
+share/doc/luacrypto/luacrypto-128.png
+share/doc/luacrypto/manual.html

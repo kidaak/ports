@@ -1,0 +1,50 @@
+$OpenBSD: ports/print/hplip/patches/patch-base_utils_py,v 1.4 2012/01/17 09:54:27 ajacoutot Exp $
+--- base/utils.py.orig	Fri Dec  9 12:20:37 2011
++++ base/utils.py	Mon Jan 16 18:48:20 2012
+@@ -498,7 +498,7 @@ class UserSettings(object): # Note: Deprecated after 2
+         if len(path):
+             self.cmd_pcard = 'hp-unload -d %DEVICE_URI%'
+         else:
+-            self.cmd_pcard = 'python %HOME%/unload.py -d %DEVICE_URI%'
++            self.cmd_pcard = '${MODPY_BIN} %HOME%/unload.py -d %DEVICE_URI%'
+ 
+         # Copy
+         path = which('hp-makecopies')
+@@ -506,7 +506,7 @@ class UserSettings(object): # Note: Deprecated after 2
+         if len(path):
+             self.cmd_copy = 'hp-makecopies -d %DEVICE_URI%'
+         else:
+-            self.cmd_copy = 'python %HOME%/makecopies.py -d %DEVICE_URI%'
++            self.cmd_copy = '${MODPY_BIN} %HOME%/makecopies.py -d %DEVICE_URI%'
+ 
+         # Fax
+         path = which('hp-sendfax')
+@@ -514,7 +514,7 @@ class UserSettings(object): # Note: Deprecated after 2
+         if len(path):
+             self.cmd_fax = 'hp-sendfax -d %FAX_URI%'
+         else:
+-            self.cmd_fax = 'python %HOME%/sendfax.py -d %FAX_URI%'
++            self.cmd_fax = '${MODPY_BIN} %HOME%/sendfax.py -d %FAX_URI%'
+ 
+         # Fax Address Book
+         path = which('hp-fab')
+@@ -522,7 +522,7 @@ class UserSettings(object): # Note: Deprecated after 2
+         if len(path):
+             self.cmd_fab = 'hp-fab'
+         else:
+-            self.cmd_fab = 'python %HOME%/fab.py'
++            self.cmd_fab = '${MODPY_BIN} %HOME%/fab.py'
+ 
+     def load(self):
+         self.loadDefaults()
+@@ -841,8 +841,8 @@ def all(S,f=lambda x:x):
+     return True
+ 
+ 
+-BROWSERS = ['firefox', 'mozilla', 'konqueror', 'galeon', 'skipstone'] # in preferred order
+-BROWSER_OPTS = {'firefox': '-new-window', 'mozilla' : '', 'konqueror': '', 'galeon': '-w', 'skipstone': ''}
++BROWSERS = ['xdg-open']
++BROWSER_OPTS = {'xdg-open' : ''}
+ 
+ 
+ def find_browser():

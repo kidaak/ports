@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/devel/re2c/pkg/PLIST,v 1.2 2008/09/19 00:26:43 sthen Exp $
+@bin bin/re2c
+@man man/man1/re2c.1

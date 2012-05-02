@@ -1,0 +1,21 @@
+$OpenBSD: ports/textproc/libxml/patches/patch-xstc_Makefile_in,v 1.4 2010/11/15 09:54:11 jasper Exp $
+--- xstc/Makefile.in.orig	Thu Nov  4 18:28:16 2010
++++ xstc/Makefile.in	Fri Nov 12 15:00:38 2010
+@@ -501,7 +501,7 @@ $(TESTDIRS) Tests/Metadata/$(NISTTESTDEF_2) Tests/Meta
+ 	   else echo "Dont' know how to fetch $(TARBALLURL_2)" ; fi ; fi ; fi)
+ 	-@(if [ -f $(TARBALL_2) ] ; then \
+ 	   echo -n "extracting test data (NIST)..." ; \
+-	   $(TAR) -xzf $(TARBALL_2) --wildcards '*/Datatypes' '*/Metadata/$(NISTTESTDEF_2)' ; \
++	   $(TAR) -xzf $(TARBALL_2) '*/Datatypes' '*/Metadata/$(NISTTESTDEF_2)' ; \
+ 	   echo "done" ; \
+ 	   fi)
+ 	-@(if [ ! -f $(TARBALL) ] ; then \
+@@ -513,7 +513,7 @@ $(TESTDIRS) Tests/Metadata/$(NISTTESTDEF_2) Tests/Meta
+ 	   else echo "Dont' know how to fetch $(TARBALLURL)" ; fi ; fi ; fi)
+ 	-@(if [ -f $(TARBALL) ] ; then \
+ 	   echo -n "extracting test data (Sun, Microsoft)..." ; \
+-	   $(TAR) -C Tests -xzf $(TARBALL) --wildcards '*/suntest' '*/msxsdtest' '*/$(MSTESTDEF)' '*/$(SUNTESTDEF)' ; \
++	   $(TAR) -C Tests -xzf $(TARBALL) '*/suntest' '*/msxsdtest' '*/$(MSTESTDEF)' '*/$(SUNTESTDEF)' ; \
+ 	   if [ -d Tests/suntest ] ; then rm -r Tests/suntest ; fi ; \
+ 	   if [ -d Tests/msxsdtest ] ; then rm -r Tests/msxsdtest ; fi ; \
+ 	   mv Tests/xmlschema2002-01-16/* Tests ; \

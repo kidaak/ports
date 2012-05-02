@@ -1,0 +1,19 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/mail/courier-imap/pkg/courier_pop3.rc,v 1.5 2011/03/20 13:06:23 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/libexec/pop3d.rc"
+
+. /etc/rc.d/rc.subr
+
+pexp=".*courierlogger.*pop3d.pid"
+
+rc_start() {
+	${rcexec} "${daemon} start"
+}
+
+rc_stop() {
+	${daemon} stop
+}
+
+rc_cmd $1

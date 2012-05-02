@@ -1,0 +1,43 @@
+$OpenBSD: ports/net/rsnapshot/patches/patch-rsnapshot_conf_default_in,v 1.3 2008/09/27 11:54:11 ajacoutot Exp $
+--- rsnapshot.conf.default.in.orig	Sun Apr 27 12:26:16 2008
++++ rsnapshot.conf.default.in	Fri Sep 19 15:33:52 2008
+@@ -54,7 +54,7 @@ snapshot_root	/.snapshots/
+ 
+ # Uncomment this to enable remote ssh backups over rsync.
+ #
+-#@CMD_SSH@
++@CMD_SSH@
+ 
+ # Comment this out to disable syslog support.
+ #
+@@ -132,8 +132,6 @@ lockfile	/var/run/rsnapshot.pid
+ #ssh_args	-p 22
+ 
+ # Default arguments for the "du" program (for disk space reporting).
+-# The GNU version of "du" is preferred. See the man page for more details.
+-# If your version of "du" doesn't support the -h flag, try -k flag instead.
+ #
+ #du_args	-csh
+ 
+@@ -164,7 +162,7 @@ lockfile	/var/run/rsnapshot.pid
+ # This is the best way to support special files (FIFOs, etc) cross-platform.
+ # The default is 0 (off).
+ #
+-#link_dest	0
++link_dest	1
+ 
+ # When sync_first is enabled, it changes the default behaviour of rsnapshot.
+ # Normally, when rsnapshot is called with its lowest interval
+@@ -193,9 +191,9 @@ lockfile	/var/run/rsnapshot.pid
+ ###############################
+ 
+ # LOCALHOST
+-backup	/home/		localhost/
+-backup	/etc/		localhost/
+-backup	/usr/local/	localhost/
++#backup	/home/		localhost/
++#backup	/etc/		localhost/
++#backup	/usr/local/	localhost/
+ #backup	/var/log/rsnapshot		localhost/
+ #backup	/etc/passwd	localhost/
+ #backup	/home/foo/My Documents/		localhost/

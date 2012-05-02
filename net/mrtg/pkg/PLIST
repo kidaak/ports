@@ -1,0 +1,49 @@
+@comment $OpenBSD: ports/net/mrtg/pkg/PLIST,v 1.27 2011/03/20 06:43:47 ajacoutot Exp $
+@newgroup _mrtg:578
+@newuser _mrtg:578:578:daemon:MRTG account:/var/empty:/sbin/nologin
+bin/cfgmaker
+bin/indexmaker
+bin/mrtg
+bin/mrtg-traffic-sum
+@bin bin/rateup
+libdata/perl5/site_perl/MRTG_lib.pm
+libdata/perl5/site_perl/Net_SNMP_util.pm
+libdata/perl5/site_perl/Pod/
+libdata/perl5/site_perl/Pod/InputObjects.pm
+libdata/perl5/site_perl/Pod/Parser.pm
+libdata/perl5/site_perl/Pod/PlainText.pm
+libdata/perl5/site_perl/Pod/Select.pm
+libdata/perl5/site_perl/Pod/Usage.pm
+libdata/perl5/site_perl/locales_mrtg.pm
+@man man/man1/cfgmaker.1
+@man man/man1/indexmaker.1
+@man man/man1/mrtg-contrib.1
+@man man/man1/mrtg-faq.1
+@man man/man1/mrtg-forum.1
+@man man/man1/mrtg-ipv6.1
+@man man/man1/mrtg-logfile.1
+@man man/man1/mrtg-mibhelp.1
+@man man/man1/mrtg-nt-guide.1
+@man man/man1/mrtg-nw-guide.1
+@man man/man1/mrtg-reference.1
+@man man/man1/mrtg-rrd.1
+@man man/man1/mrtg-squid.1
+@man man/man1/mrtg-traffic-sum.1
+@man man/man1/mrtg-unix-guide.1
+@man man/man1/mrtg-webserver.1
+@man man/man1/mrtg.1
+@man man/man1/mrtglib.1
+share/examples/mrtg/
+share/examples/mrtg/mrtg.cfg
+@sample ${SYSCONFDIR}/mrtg.cfg
+share/mrtg/
+share/mrtg/favicon.ico
+share/mrtg/mrtg-l.gif
+share/mrtg/mrtg-l.png
+share/mrtg/mrtg-m.gif
+share/mrtg/mrtg-m.png
+share/mrtg/mrtg-r.gif
+share/mrtg/mrtg-r.png
+share/mrtg/mrtg-ti.gif
+share/mrtg/mrtg-ti.png
+@rcscript ${RCDIR}/mrtg

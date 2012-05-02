@@ -1,0 +1,33 @@
+$OpenBSD: ports/www/midori/patches/patch-wscript,v 1.20 2012/04/16 10:08:43 landry Exp $
+
+Fix paths to config files.
+
+--- wscript.orig	Sat Apr 14 21:17:35 2012
++++ wscript	Sun Apr 15 11:43:17 2012
+@@ -73,7 +73,7 @@ def rc_file(self, node):
+     self.compiled_tasks.append (rctask)
+ rc_file = extension ('.rc')(rc_file)
+ Task.simple_task_type ('winrc', '${WINRC} -o${TGT} ${SRC}', color='BLUE',
+-    before='cc cxx', shell=False)
++    before='cc cxx')
+ 
+ def configure (conf):
+     def option_checkfatal (option, desc):
+@@ -459,7 +459,7 @@ def build (bld):
+             'AUTHORS COPYING ChangeLog EXPAT README data/faq.html data/faq.css')
+ 
+     # Install default configuration
+-    bld.install_files ('${SYSCONFDIR}/xdg/' + APPNAME + '/', 'data/search')
++    bld.install_files ('${MDATADIR}/examples/' + APPNAME + '/', 'data/search')
+ 
+     if bld.env['INTLTOOL']:
+         obj = bld.new_task_gen ('intltool_po')
+@@ -531,7 +531,7 @@ def build (bld):
+             for extension in extensions:
+                 source = 'data/extensions/' + extension +  '/config'
+                 if os.path.exists (source):
+-                    bld.install_files ('${SYSCONFDIR}/xdg/' + APPNAME + \
++                    bld.install_files ('${MDATADIR}/examples/' + APPNAME + \
+                                        '/extensions/' + extension, source)
+ 
+     if Options.commands['check'] or bld.env['tests']:

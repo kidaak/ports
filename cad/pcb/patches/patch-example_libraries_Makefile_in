@@ -1,0 +1,12 @@
+$OpenBSD: ports/cad/pcb/patches/patch-example_libraries_Makefile_in,v 1.6 2011/11/17 12:41:08 jasper Exp $
+--- example/libraries/Makefile.in.orig	Sun Sep 18 22:06:20 2011
++++ example/libraries/Makefile.in	Wed Nov 16 14:48:24 2011
+@@ -298,7 +298,7 @@ target_alias = @target_alias@
+ top_build_prefix = @top_build_prefix@
+ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+-examplesdir = @docdir@/examples/libraries
++examplesdir = ${datadir}/examples/pcb/libraries
+ examples_DATA = ${EXAMPLES}
+ EXTRA_DIST = ${EXAMPLES}
+ EXAMPLES = \

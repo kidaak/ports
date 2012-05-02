@@ -1,0 +1,24 @@
+$OpenBSD: ports/graphics/pstoedit/patches/patch-src_Makefile_in,v 1.5 2010/07/22 19:44:07 steven Exp $
+--- src/Makefile.in.orig	Thu Aug 13 10:18:34 2009
++++ src/Makefile.in	Wed Jul 21 22:59:54 2010
+@@ -396,7 +396,7 @@ libpstoedit_la_SOURCES = \
+ 	genericints.h 				\
+ 	version.h
+ 
+-libpstoedit_la_LIBADD = ${CXX_STD_LIB} ${CXX_RUNTIME_LIB} -ldl -lm
++libpstoedit_la_LIBADD = ${CXX_STD_LIB} ${CXX_RUNTIME_LIB} -lm
+ libpstoedit_la_LDFLAGS = -no-undefined
+ pstoedit_SOURCES = cmdmain.cpp
+ pstoedit_LDFLAGS = -no-undefined -L. libpstoedit.la ${LIBLD_LDFLAGS}
+@@ -524,9 +524,9 @@ clean-pkglibLTLIBRARIES:
+ libp2edrvlplot.la: $(libp2edrvlplot_la_OBJECTS) $(libp2edrvlplot_la_DEPENDENCIES) 
+ 	$(CXXLINK) $(am_libp2edrvlplot_la_rpath) $(libp2edrvlplot_la_LDFLAGS) $(libp2edrvlplot_la_OBJECTS) $(libp2edrvlplot_la_LIBADD) $(LIBS)
+ libp2edrvmagick++.la: $(libp2edrvmagick___la_OBJECTS) $(libp2edrvmagick___la_DEPENDENCIES) 
+-	$(CXXLINK) $(am_libp2edrvmagick___la_rpath) $(libp2edrvmagick___la_LDFLAGS) $(libp2edrvmagick___la_OBJECTS) $(libp2edrvmagick___la_LIBADD) $(LIBS)
++	$(CXXLINK) -module -avoid-version $(am_libp2edrvmagick___la_rpath) $(libp2edrvmagick___la_LDFLAGS) $(libp2edrvmagick___la_OBJECTS) $(libp2edrvmagick___la_LIBADD) $(LIBS)
+ libp2edrvstd.la: $(libp2edrvstd_la_OBJECTS) $(libp2edrvstd_la_DEPENDENCIES) 
+-	$(CXXLINK) -rpath $(pkglibdir) $(libp2edrvstd_la_LDFLAGS) $(libp2edrvstd_la_OBJECTS) $(libp2edrvstd_la_LIBADD) $(LIBS)
++	$(CXXLINK) -module -avoid-version -rpath $(pkglibdir) $(libp2edrvstd_la_LDFLAGS) $(libp2edrvstd_la_OBJECTS) $(libp2edrvstd_la_LIBADD) $(LIBS)
+ libp2edrvswf.la: $(libp2edrvswf_la_OBJECTS) $(libp2edrvswf_la_DEPENDENCIES) 
+ 	$(CXXLINK) $(am_libp2edrvswf_la_rpath) $(libp2edrvswf_la_LDFLAGS) $(libp2edrvswf_la_OBJECTS) $(libp2edrvswf_la_LIBADD) $(LIBS)
+ libp2edrvwmf.la: $(libp2edrvwmf_la_OBJECTS) $(libp2edrvwmf_la_DEPENDENCIES) 

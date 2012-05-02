@@ -1,0 +1,26 @@
+@comment $OpenBSD: ports/mail/courier-imap/pkg/PLIST-pop3,v 1.11 2011/08/23 07:24:28 giovanni Exp $
+@pkgpath courier/imap,-pop3,no_trashquota
+@pkgpath courier/imap,-pop3,no_trashquota,imap_bugs
+@pkgpath courier/imap,-pop3,imap_bugs
+@newgroup _courier:571
+@newuser _courier:571:571:daemon:Courier Mail Server:/var/empty:/sbin/nologin
+@extraunexec rm -rf ${SYSCONFDIR}/*
+@extraunexec rm -rf ${COURIERSTATE}/*
+@bin bin/pop3d
+libexec/pop3d-ssl.rc
+libexec/pop3d.rc
+@man man/man8/mkpop3dcert.8
+sbin/mkpop3dcert
+@bin sbin/pop3login
+@mode 600
+share/examples/courier/pop3d-ssl.dist
+@sample ${SYSCONFDIR}/pop3d-ssl
+share/examples/courier/pop3d.cnf
+@sample ${SYSCONFDIR}/pop3d.cnf
+share/examples/courier/pop3d.dist
+@sample ${SYSCONFDIR}/pop3d
+@owner
+@group
+@mode
+@rcscript ${RCDIR}/courier_pop3
+@rcscript ${RCDIR}/courier_pop3_ssl

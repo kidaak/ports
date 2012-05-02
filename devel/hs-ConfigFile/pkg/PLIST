@@ -1,0 +1,37 @@
+@comment $OpenBSD: ports/devel/hs-ConfigFile/pkg/PLIST,v 1.6 2011/12/05 14:53:01 dcoppa Exp $
+lib/ghc/${DISTNAME}/
+lib/ghc/${DISTNAME}/Data/
+lib/ghc/${DISTNAME}/Data/ConfigFile/
+lib/ghc/${DISTNAME}/Data/ConfigFile.hi
+lib/ghc/${DISTNAME}/Data/ConfigFile/Lexer.hi
+lib/ghc/${DISTNAME}/Data/ConfigFile/Monadic.hi
+lib/ghc/${DISTNAME}/Data/ConfigFile/Parser.hi
+lib/ghc/${DISTNAME}/Data/ConfigFile/Types.hi
+lib/ghc/${DISTNAME}/HS${DISTNAME}.o
+lib/ghc/${DISTNAME}/libHS${DISTNAME}.a
+lib/ghc/${DISTNAME}/register.sh
+@exec /usr/bin/env HOME=/nonexistent %D/lib/ghc/${DISTNAME}/register.sh -v0
+@unexec /usr/bin/env HOME=/nonexistent %D/lib/ghc/${DISTNAME}/unregister.sh -v0 --force
+lib/ghc/${DISTNAME}/unregister.sh
+share/doc/hs-${DISTNAME}/
+share/doc/hs-${DISTNAME}/COPYRIGHT
+share/doc/hs-${DISTNAME}/html/
+share/doc/hs-${DISTNAME}/html/ConfigFile.haddock
+share/doc/hs-${DISTNAME}/html/Data-ConfigFile-Monadic.html
+share/doc/hs-${DISTNAME}/html/Data-ConfigFile-Parser.html
+share/doc/hs-${DISTNAME}/html/Data-ConfigFile-Types.html
+share/doc/hs-${DISTNAME}/html/Data-ConfigFile.html
+share/doc/hs-${DISTNAME}/html/doc-index.html
+share/doc/hs-${DISTNAME}/html/frames.html
+share/doc/hs-${DISTNAME}/html/haddock-util.js
+share/doc/hs-${DISTNAME}/html/hslogo-16.png
+share/doc/hs-${DISTNAME}/html/index-frames.html
+share/doc/hs-${DISTNAME}/html/index.html
+share/doc/hs-${DISTNAME}/html/mini_Data-ConfigFile-Monadic.html
+share/doc/hs-${DISTNAME}/html/mini_Data-ConfigFile-Parser.html
+share/doc/hs-${DISTNAME}/html/mini_Data-ConfigFile-Types.html
+share/doc/hs-${DISTNAME}/html/mini_Data-ConfigFile.html
+share/doc/hs-${DISTNAME}/html/minus.gif
+share/doc/hs-${DISTNAME}/html/ocean.css
+share/doc/hs-${DISTNAME}/html/plus.gif
+share/doc/hs-${DISTNAME}/html/synopsis.png

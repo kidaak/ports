@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/net/unison/snapshot/pkg/PLIST,v 1.1.1.1 2005/05/22 17:44:41 sturm Exp $
+bin/unison
+share/doc/unison/
+share/doc/unison/BUGS.txt
+share/doc/unison/NEWS
+share/doc/unison/README

@@ -1,0 +1,13 @@
+$OpenBSD: ports/games/wesnoth/patches/patch-src_multiplayer_create_cpp,v 1.2 2012/04/07 08:32:32 kirby Exp $
+--- src/multiplayer_create.cpp.orig	Sat Jan  7 06:35:17 2012
++++ src/multiplayer_create.cpp	Mon Feb 13 17:17:39 2012
+@@ -40,6 +40,9 @@
+ #include "wml_separators.hpp"
+ #include "formula_string_utils.hpp"
+ 
++/* Resolve conflict with nitems() macro from sys/param.h */
++#undef nitems
++
+ static lg::log_domain log_config("config");
+ #define ERR_CF LOG_STREAM(err, log_config)
+ 

@@ -1,0 +1,12 @@
+$OpenBSD: ports/geo/osm2go/patches/patch-data_Makefile_in,v 1.2 2010/05/22 12:29:04 landry Exp $
+--- data/Makefile.in.orig	Wed Oct 14 20:32:57 2009
++++ data/Makefile.in	Sat May 22 14:15:14 2010
+@@ -7,7 +7,7 @@ datadir = @datarootdir@
+ all: $(TEMPLATE_ELEMSTYLES)
+ 
+ elemstyles-mapnik.xml: elemstyles-mapnik.xml.in
+-	perl ./compose-elemstyles.pl 0.4 '#f2eee8' $+ > $@.tmp
++	perl ./compose-elemstyles.pl 0.4 '#f2eee8' elemstyles-mapnik.xml.in > $@.tmp
+ 	mv $@.tmp $@
+ 
+ clean:

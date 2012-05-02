@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/misc/most/pkg/PLIST,v 1.4 2009/10/13 21:47:59 sthen Exp $
+@bin bin/most
+@man man/man1/most.1
+share/doc/most/
+share/doc/most/README
+share/doc/most/changes.txt
+share/doc/most/lesskeys.rc
+share/doc/most/most-fun.txt
+share/doc/most/most.doc
+share/doc/most/most.rc

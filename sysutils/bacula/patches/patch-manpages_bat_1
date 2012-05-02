@@ -1,0 +1,12 @@
+$OpenBSD: ports/sysutils/bacula/patches/patch-manpages_bat_1,v 1.4 2011/11/17 23:45:56 ajacoutot Exp $
+--- manpages/bat.1.orig	Tue Apr 27 15:58:29 2010
++++ manpages/bat.1	Thu Jun 24 16:25:08 2010
+@@ -22,7 +22,7 @@ but it is graphical oriented and more features.
+ bat [\-s] [\-c config_file] [\-d debug_level] [-t]
+ .TP
+ .B \-c <config>
+-Specify configuration file.  Default is bat.conf.
++Specify configuration file.  Default is ${BACULACONF}/bat.conf.
+ .TP
+ .B \-d <nn>
+ Set debug level to \fInn\fP.

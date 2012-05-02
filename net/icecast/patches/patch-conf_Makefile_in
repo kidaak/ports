@@ -1,0 +1,20 @@
+$OpenBSD: ports/net/icecast/patches/patch-conf_Makefile_in,v 1.4 2008/11/18 21:22:02 pea Exp $
+--- conf/Makefile.in.orig	Fri May 30 01:58:57 2008
++++ conf/Makefile.in	Fri Nov  7 10:40:48 2008
+@@ -176,7 +176,7 @@ build_vendor = @build_vendor@
+ builddir = @builddir@
+ datadir = @datadir@
+ datarootdir = @datarootdir@
+-docdir = $(datadir)/$(PACKAGE)/doc
++docdir = $(datadir)/examples/$(PACKAGE)
+ dvidir = @dvidir@
+ exec_prefix = @exec_prefix@
+ host = @host@
+@@ -354,7 +354,6 @@ info-am:
+ 
+ install-data-am: install-docDATA
+ 	@$(NORMAL_INSTALL)
+-	$(MAKE) $(AM_MAKEFLAGS) install-data-hook
+ 
+ install-dvi: install-dvi-am
+ 

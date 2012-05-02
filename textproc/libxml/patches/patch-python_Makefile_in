@@ -1,0 +1,12 @@
+$OpenBSD: ports/textproc/libxml/patches/patch-python_Makefile_in,v 1.11 2010/11/15 09:54:11 jasper Exp $
+--- python/Makefile.in.orig	Thu Nov  4 18:28:16 2010
++++ python/Makefile.in	Fri Nov 12 15:00:38 2010
+@@ -839,7 +839,7 @@ info: info-recursive
+ 
+ info-am:
+ 
+-install-data-am: install-dist_docsDATA install-dist_pythonDATA \
++install-data-am: install-dist_pythonDATA \
+ 	install-pythonDATA install-pythonLTLIBRARIES
+ 
+ install-dvi: install-dvi-recursive

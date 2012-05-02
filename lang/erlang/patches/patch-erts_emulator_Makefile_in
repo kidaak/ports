@@ -1,0 +1,26 @@
+$OpenBSD: ports/lang/erlang/patches/patch-erts_emulator_Makefile_in,v 1.9 2011/12/23 13:40:13 jasper Exp $
+--- erts/emulator/Makefile.in.orig	Mon Oct  3 20:12:07 2011
++++ erts/emulator/Makefile.in	Wed Dec 21 15:09:44 2011
+@@ -213,13 +213,7 @@ ifeq (@EMU_LOCK_CHECKING@,yes)
+ NO_INLINE_FUNCTIONS=true
+ endif
+ 
+-ifneq ($(filter tile-%,$(TARGET)), )
+-# -O2 generally produces faster for tile-cc, because the code is smaller.
+-# Since tile-cc looks like gcc, we need to override the normal gcc -O3 setting.
+ OPT_LEVEL = -O2
+-else
+-OPT_LEVEL = -O3
+-endif
+ 
+ ifeq ($(GCC),yes)
+ ifeq ($(NO_INLINE_FUNCTIONS),true)
+@@ -620,7 +614,7 @@ endif
+ 
+ 
+ $(OBJDIR)/%.o: beam/%.c
+-	$(CC) $(subst -O2, $(GEN_OPT_FLGS), $(CFLAGS)) $(INCLUDES) -c $< -o $@
++	$(CC) $(INCLUDES) $(subst -O2, $(GEN_OPT_FLGS), $(CFLAGS)) -c $< -o $@
+ 
+ $(OBJDIR)/%.o: $(TARGET)/%.c
+ 	$(CC) $(CFLAGS) $(INCLUDES) -Idrivers/common -c $< -o $@

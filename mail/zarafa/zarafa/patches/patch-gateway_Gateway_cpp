@@ -1,0 +1,14 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-gateway_Gateway_cpp,v 1.7 2011/06/02 12:46:37 ajacoutot Exp $
+--- gateway/Gateway.cpp.orig	Wed Apr 20 19:51:46 2011
++++ gateway/Gateway.cpp	Mon May  2 12:50:37 2011
+@@ -84,6 +84,10 @@
+ 
+ #include "UnixUtil.h"
+ 
++#ifdef __OpenBSD__
++#include <sys/resource.h>
++#endif
++
+ #if HAVE_ICU
+ #include "unicode/uclean.h"
+ #endif

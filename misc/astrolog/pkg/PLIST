@@ -1,0 +1,11 @@
+@comment $OpenBSD: ports/misc/astrolog/pkg/PLIST,v 1.5 2009/01/15 15:32:24 ajacoutot Exp $
+@bin bin/astrolog
+lib/astrolog/
+lib/astrolog/CHI_24
+lib/astrolog/CPJV_24
+lib/astrolog/LRZ5_24
+lib/astrolog/astrolog.dat
+share/doc/astrolog/
+share/doc/astrolog/Helpfile.${_V}
+share/doc/astrolog/README.${_V}
+share/doc/astrolog/Update.${_V}

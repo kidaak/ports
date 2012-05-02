@@ -1,0 +1,15 @@
+$OpenBSD: ports/net/libbgpdump/patches/patch-configure,v 1.2 2010/10/29 13:53:35 sthen Exp $
+
+Don't hardcode -O3
+
+--- configure.orig	Thu Oct 21 10:51:02 2010
++++ configure	Fri Oct 29 14:30:05 2010
+@@ -1688,7 +1688,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu
+ ac_config_headers="$ac_config_headers bgpdump-config.h"
+ 
+ 
+-CFLAGS="$CFLAGS -g -O3 -Wall"
++CFLAGS="$CFLAGS -Wall"
+ CFLAGS="$CFLAGS -Wsystem-headers -Wno-format-y2k -Wno-sign-compare -Wcast-align"
+ CFLAGS="$CFLAGS -Wmissing-prototypes -Wpointer-arith -Wreturn-type -Wswitch -Wshadow"
+ 

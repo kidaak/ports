@@ -1,0 +1,12 @@
+$OpenBSD: ports/japanese/Wnn/patches/patch-Xwnmo_xjutil_Imakefile,v 1.2 2008/08/30 11:17:00 espie Exp $
+--- Xwnmo/xjutil/Imakefile.orig	Thu Aug 25 01:36:51 1994
++++ Xwnmo/xjutil/Imakefile	Sat Aug 30 13:13:01 2008
+@@ -30,7 +30,7 @@ XCOMM CONNECTION WITH THE USE OR PERFORMANCE OF THIS S
+ XCOMM
+ 
+ LOCAL_INSTFLAGS = $(INSTBINFLAGS) -o $(WNNOWNER)
+-       INCLUDES = -I. $(XWNMOINCLUDES) -I$(XWNMOSRC)
++       INCLUDES = -I. $(XWNMOINCLUDES) -I$(XWNMOSRC) -I/usr/X11R6/include
+ #ifdef UseInstalled
+         DEPLIBS = $(XWNMOJLIB)
+ #else

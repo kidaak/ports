@@ -1,0 +1,13 @@
+$OpenBSD: ports/net/samba/patches/patch-nsswitch_wbinfo_c,v 1.3 2012/04/10 22:01:20 sthen Exp $
+--- nsswitch/wbinfo.c.orig	Sat Apr  7 14:23:20 2012
++++ nsswitch/wbinfo.c	Tue Apr 10 22:56:36 2012
+@@ -27,9 +27,6 @@
+ #include "libwbclient/wbclient.h"
+ #include "lib/popt/popt.h"
+ #include "../libcli/auth/libcli_auth.h"
+-#if (_SAMBA_BUILD_) >= 4
+-#include "lib/cmdline/popt_common.h"
+-#endif
+ 
+ #ifdef DBGC_CLASS
+ #undef DBGC_CLASS

@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/audio/scmpc/pkg/PLIST,v 1.6 2011/05/17 08:52:44 landry Exp $
+@extraunexec rm -rf /var/scmpc/*
+@bin bin/scmpc
+@man man/man1/scmpc.1
+share/examples/scmpc/
+@sample /var/scmpc/
+share/examples/scmpc/scmpc.conf.example
+@sample ${SYSCONFDIR}/scmpc.conf

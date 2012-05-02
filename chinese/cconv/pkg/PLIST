@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/chinese/cconv/pkg/PLIST,v 1.2 2011/07/08 18:03:46 jasper Exp $
+%%SHARED%%
+@bin bin/cconv
+include/cconv/
+include/cconv/cconv.h
+include/cconv/unicode.h
+lib/libcconv.a
+lib/libcconv.la

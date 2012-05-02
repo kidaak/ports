@@ -1,0 +1,5 @@
+# $OpenBSD: ports/www/firefox-i18n/zh-CN/Makefile,v 1.1 2012/01/22 17:10:34 landry Exp $
+
+L = zh-CN
+
+.include <bsd.port.mk>

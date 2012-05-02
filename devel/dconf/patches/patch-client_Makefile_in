@@ -1,0 +1,67 @@
+$OpenBSD: ports/devel/dconf/patches/patch-client_Makefile_in,v 1.7 2012/03/29 06:26:38 ajacoutot Exp $
+--- client/Makefile.in.orig	Mon Mar 19 19:08:41 2012
++++ client/Makefile.in	Fri Mar 23 16:09:20 2012
+@@ -34,7 +34,7 @@ POST_INSTALL = :
+ NORMAL_UNINSTALL = :
+ PRE_UNINSTALL = :
+ POST_UNINSTALL = :
+-shlib_PROGRAMS = libdconf.so.0.0.0$(EXEEXT)
++shlib_PROGRAMS = libdconf.so.${LIBdconf_VERSION}$(EXEEXT)
+ subdir = client
+ DIST_COMMON = $(dconfinclude_HEADERS) $(srcdir)/Makefile.am \
+ 	$(srcdir)/Makefile.in $(srcdir)/dconf.pc.in dconf-client.c \
+@@ -128,7 +128,7 @@ AUTOMAKE = @AUTOMAKE@
+ AWK = @AWK@
+ CC = @CC@
+ CCDEPMODE = @CCDEPMODE@
+-CFLAGS = @CFLAGS@ -Wno-error -Wno-unused-but-set-variable \
++CFLAGS = @CFLAGS@ -Wno-error \
+ 	-Wno-unused-variable
+ CPPFLAGS = @CPPFLAGS@
+ CYGPATH_W = @CYGPATH_W@
+@@ -237,13 +237,13 @@ top_srcdir = @top_srcdir@
+ AM_CFLAGS = -std=c89 -Wall -Wmissing-prototypes -Wwrite-strings -D__dconf_h__ -fPIC -DPIC
+ INCLUDES = -I$(top_srcdir)/common -I$(top_srcdir)/gvdb -I$(top_srcdir)/engine $(gio_CFLAGS)
+ shlibdir = $(libdir)
+-nodist_noinst_DATA = libdconf.so.0 libdconf.so
++nodist_noinst_DATA =
+ dconfinclude_HEADERS = \
+ 	dconf-client.h	\
+ 	dconf.h
+ 
+ libdconf_so_0_0_0_LDADD = $(gio_LIBS)
+-libdconf_so_0_0_0_LDFLAGS = -shared -Wl,-soname=libdconf.so.0
++libdconf_so_0_0_0_LDFLAGS = -shared -Wl,-soname=libdconf.so.${LIBdconf_VERSION}
+ libdconf_so_0_0_0_SOURCES = \
+ 	../common/dconf-shmdir.c	\
+ 	../common/dconf-paths.c		\
+@@ -331,8 +331,8 @@ uninstall-shlibPROGRAMS:
+ 
+ clean-shlibPROGRAMS:
+ 	-test -z "$(shlib_PROGRAMS)" || rm -f $(shlib_PROGRAMS)
+-libdconf.so.0.0.0$(EXEEXT): $(libdconf_so_0_0_0_OBJECTS) $(libdconf_so_0_0_0_DEPENDENCIES) $(EXTRA_libdconf_so_0_0_0_DEPENDENCIES) 
+-	@rm -f libdconf.so.0.0.0$(EXEEXT)
++libdconf.so.${LIBdconf_VERSION}$(EXEEXT): $(libdconf_so_0_0_0_OBJECTS) $(libdconf_so_0_0_0_DEPENDENCIES) $(EXTRA_libdconf_so_0_0_0_DEPENDENCIES) 
++	@rm -f libdconf.so.${LIBdconf_VERSION}$(EXEEXT)
+ 	$(AM_V_CCLD)$(libdconf_so_0_0_0_LINK) $(libdconf_so_0_0_0_OBJECTS) $(libdconf_so_0_0_0_LDADD) $(LIBS)
+ 
+ mostlyclean-compile:
+@@ -694,17 +694,12 @@ uninstall-am: uninstall-dconfincludeHEADERS uninstall-
+ 	uninstall-vapiDATA
+ 
+ 
+-libdconf.so.0 libdconf.so: libdconf.so.0.0.0
+-	$(AM_V_GEN) ln -fs libdconf.so.0.0.0 $@
+-
+ install-data-hook:
+-	ln -fs libdconf.so.0.0.0 $(DESTDIR)$(shlibdir)/libdconf.so.0
+-	ln -fs libdconf.so.0.0.0 $(DESTDIR)$(shlibdir)/libdconf.so
+ 
+ uninstall-hook:
+ 	rm -f $(DESTDIR)$(shlibdir)/libdconf.so.0
+ 	rm -f $(DESTDIR)$(shlibdir)/libdconf.so
+-dconf.vapi: libdconf.so.0
++dconf.vapi: libdconf.so.${LIBdconf_VERSION}
+ 
+ dconf.deps:
+ 	$(AM_V_GEN) echo gio-2.0 > dconf.deps

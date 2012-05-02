@@ -1,0 +1,12 @@
+$OpenBSD: ports/print/hplip/patches/patch-prnt_hpcups_HPCupsFilter_cpp,v 1.5 2012/01/17 09:54:27 ajacoutot Exp $
+--- prnt/hpcups/HPCupsFilter.cpp.orig	Fri Dec  9 12:17:50 2011
++++ prnt/hpcups/HPCupsFilter.cpp	Mon Jan 16 18:48:57 2012
+@@ -845,7 +845,7 @@ void HPCupsFilter::getLogLevel ()
+     FILE    *fp;
+     char    str[258];
+     char    *p;
+-    fp = fopen ("/etc/cups/cupsd.conf", "r");
++    fp = fopen ("${SYSCONFDIR}/cups/cupsd.conf", "r");
+     if (fp == NULL)
+         return;
+     while (!feof (fp))

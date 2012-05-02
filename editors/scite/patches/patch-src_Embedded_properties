@@ -1,0 +1,12 @@
+$OpenBSD: ports/editors/scite/patches/patch-src_Embedded_properties,v 1.5 2011/11/15 19:17:09 jeremy Exp $
+--- src/Embedded.properties.orig	Tue Nov  1 10:44:35 2011
++++ src/Embedded.properties	Tue Nov 15 02:33:40 2011
+@@ -89,7 +89,7 @@ if PLAT_WIN
+ 	command.scite.help.subsystem=2
+ if PLAT_GTK
+ 	command.print.*=a2ps "$(FileNameExt)"
+-	command.scite.help=xdg-open "file://$(SciteDefaultHome)/SciTEDoc.html"
++	command.scite.help=xdg-open "file://__DOCDIR__/SciTEDoc.html"
+ 
+ code.page=0
+ if PLAT_GTK

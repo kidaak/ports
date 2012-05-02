@@ -1,0 +1,31 @@
+# $OpenBSD: ports/graphics/digikam-doc/Makefile,v 1.12 2011/09/16 10:02:36 espie Exp $
+
+COMMENT=		documentation for digikam
+CATEGORIES=		graphics x11 x11/kde
+V=			0.9.3
+DISTNAME=		digikam-doc-$V
+REVISION=		0
+PKGNAME=		digikam-doc-0.9.3
+HOMEPAGE=		http://www.digikam.org/
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=digikam/}
+DISTFILES=		${DISTNAME}.tar.bz2
+
+SHARED_ONLY=Yes
+
+MODULES=	x11/kde
+MODKDE_VERSION=		3.5.7
+CONFIGURE_STYLE=	autoconf
+AUTOCONF_VERSION=	2.61
+CONFIGURE_ARGS+=	${MODKDE_CONFIGURE_ARGS}
+BUILD_DEPENDS+=		x11/kde/libs3
+USE_GMAKE?=		Yes
+CONFIGURE_ENV+=		${MODKDE_CONFIGURE_ENV}
+MAKE_ENV=		${CONFIGURE_ENV}
+
+# GPL
+PERMIT_DISTFILES_CDROM?=	Yes
+PERMIT_DISTFILES_FTP?=		Yes
+PERMIT_PACKAGE_CDROM?=		Yes
+PERMIT_PACKAGE_FTP?=		Yes
+
+.include <bsd.port.mk>

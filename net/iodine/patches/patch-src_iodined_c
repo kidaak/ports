@@ -1,0 +1,17 @@
+$OpenBSD: ports/net/iodine/patches/patch-src_iodined_c,v 1.2 2009/03/30 09:17:45 sthen Exp $
+
+Drop privileges and chroot by default.
+
+--- src/iodined.c.orig	Sat Mar 21 14:07:49 2009
++++ src/iodined.c	Mon Mar 30 10:25:08 2009
+@@ -961,8 +961,8 @@ main(int argc, char **argv)
+ 	int skipipconfig;
+ 	char *netsize;
+ 
+-	username = NULL;
+-	newroot = NULL;
++	username = "_iodine";
++	newroot = "/var/empty";
+ 	device = NULL;
+ 	foreground = 0;
+ 	bind_enable = 0;

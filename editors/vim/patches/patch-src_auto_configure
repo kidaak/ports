@@ -1,0 +1,20 @@
+$OpenBSD: ports/editors/vim/patches/patch-src_auto_configure,v 1.8 2011/06/15 12:27:06 sthen Exp $
+--- src/auto/configure.orig	Wed Jun 15 13:26:17 2011
++++ src/auto/configure	Wed Jun 15 13:26:18 2011
+@@ -11514,6 +11514,7 @@ $as_echo_n "checking for sysctl... " >&6; }
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ #include <sys/types.h>
++#include <sys/param.h>
+ #include <sys/sysctl.h>
+ int
+ main ()
+@@ -12135,7 +12136,7 @@ if ac_fn_c_try_link "$LINENO"; then :
+ $as_echo "gettext() works" >&6; }; have_gettext="yes"
+ else
+   olibs=$LIBS
+-	  LIBS="$LIBS -lintl"
++	  LIBS="$LIBS -lintl -liconv"
+ 	  cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ #include <libintl.h>

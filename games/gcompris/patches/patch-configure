@@ -1,0 +1,24 @@
+$OpenBSD: ports/games/gcompris/patches/patch-configure,v 1.10 2011/11/18 11:14:39 ajacoutot Exp $
+--- configure.orig	Mon Oct 24 21:41:32 2011
++++ configure	Fri Nov 18 11:45:38 2011
+@@ -16191,9 +16191,9 @@ cat >>confdefs.h <<_ACEOF
+ #define DEBUG 1
+ _ACEOF
+ 
+-    CFLAGS="$CFLAGS $OSX_CFLAGS -Wall -Werror -g"
++    CFLAGS="$CFLAGS $OSX_CFLAGS -Wall -g"
+ else
+-    CFLAGS="$CFLAGS $OSX_CFLAGS -Wall -Werror -O2"
++    CFLAGS="$CFLAGS $OSX_CFLAGS -Wall"
+ fi
+ 
+ # Check whether --enable-disable-activation-code was given.
+@@ -17167,7 +17167,7 @@ if test  "x$PYTHON_LIBS" = "x" ; then
+ 
+    python_libdir=`$PYTHON -c "import distutils.sysconfig ; print distutils.sysconfig.get_config_var(\"LIBDIR\")"`
+ 
+-   PYTHON_LIBS="-L${python_libdir} ${python_link}"
++   PYTHON_LIBS="-L${python_libdir} ${python_link} -lutil"
+ fi
+ 
+ 

@@ -1,0 +1,19 @@
+@comment $OpenBSD: ports/games/xonix/pkg/PLIST,v 1.7 2009/08/26 00:15:26 sthen Exp $
+@mode g+s
+@group games
+@bin bin/xonix
+@mode
+@group
+lib/X11/app-defaults/Xonix
+lib/X11/xonix/
+@man man/cat1/xonix.0
+share/examples/xonix/
+@mode 775
+@group games
+@sample /var/games/xonix/
+@mode
+@group
+share/examples/xonix/xonix.scores
+@mode 664
+@group games
+@sample /var/games/xonix/xonix.scores

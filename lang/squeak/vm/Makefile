@@ -1,0 +1,46 @@
+# $OpenBSD: ports/lang/squeak/vm/Makefile,v 1.15 2012/03/29 13:38:40 sthen Exp $
+
+
+COMMENT =	smalltalk system, vm
+
+SRCV =		1
+DISTFILES =	Squeak-$V-${SRCV}.src.tar.gz 
+
+PKGNAME =	squeak-vm-$V.${SRCV}
+REVISION =	1
+
+WRKDIST =	${WRKDIR}/Squeak-$V-${SRCV}
+WRKSRC =	${WRKDIST}/platforms/unix/config
+
+SEPARATE_BUILD =	Yes
+
+MASTER_SITES =	${SQUEAK_SITE}unix-linux/
+
+CONFIGURE_STYLE =	gnu
+AUTOCONF_VERSION =	2.60
+DESTDIRNAME =		ROOT
+CONFIGURE_ENV =		RANLIB=ranlib \
+			ac_cv_socklen_t=yes
+USE_GMAKE =		Yes
+USE_GROFF =		Yes
+
+WANTLIB =		GL X11 m c SM util Xext ICE Xrender Xt pthread \
+			pthread-stubs xcb
+FULLV =			$V-${SRCV}
+
+.if ${MACHINE_ARCH} != "powerpc"
+MAKE_FLAGS +=		INTERP=gnu-interp
+.endif
+
+MAKE_FLAGS +=		docdir=${PREFIX}/share/doc/squeak
+DESTDIRNAME =		ROOT
+SUBST_VARS +=		FULLV
+
+post-extract:
+	# start with the sun sound-plugin that we'll patch
+	mkdir ${WRKDIST}/platforms/unix/vm-sound-OpenBSD
+	cd ${WRKDIST}/platforms/unix && cp vm-sound-Sun/acinclude.m4 vm-sound-OpenBSD && cp vm-sound-Sun/sqUnixSoundSun.c vm-sound-OpenBSD/sqUnixSoundOpenBSD.c
+
+RUN_DEPENDS =		squeak-sources-${SOURCEV}:lang/squeak/sources
+
+.include <bsd.port.mk>

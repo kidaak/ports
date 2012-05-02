@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/devel/mspdebug/pkg/PLIST,v 1.2 2011/11/11 15:48:39 jasper Exp $
+@bin bin/mspdebug
+lib/mspdebug/
+lib/mspdebug/ti_3410.fw.ihex
+@man man/man1/mspdebug.1

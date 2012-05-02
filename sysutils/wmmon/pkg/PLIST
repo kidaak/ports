@@ -1,0 +1,2 @@
+@comment $OpenBSD: ports/sysutils/wmmon/pkg/PLIST,v 1.1.1.1 2000/11/18 13:53:31 naddy Exp $
+bin/wmmon

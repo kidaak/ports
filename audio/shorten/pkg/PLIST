@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/audio/shorten/pkg/PLIST,v 1.3 2011/11/14 17:36:24 naddy Exp $
+@bin bin/shorten
+@man man/man1/shorten.1

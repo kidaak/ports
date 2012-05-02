@@ -1,0 +1,14 @@
+$OpenBSD: ports/lang/ucblogo/patches/patch-wrksp_c,v 1.2 2012/02/21 22:19:31 sthen Exp $
+--- wrksp.c.orig	Mon Aug  8 12:38:17 2005
++++ wrksp.c	Sun May 28 23:42:37 2006
+@@ -23,6 +23,10 @@
+ #include <windows.h>
+ #endif
+ 
++#include <sys/types.h>
++#include <sys/wait.h>
++#include <ctype.h>
++
+ #define WANT_EVAL_REGS 1
+ #include "logo.h"
+ #include "globals.h"

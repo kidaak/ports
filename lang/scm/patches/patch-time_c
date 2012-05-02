@@ -1,0 +1,15 @@
+$OpenBSD: ports/lang/scm/patches/patch-time_c,v 1.2 2009/01/21 18:30:16 kili Exp $
+--- time.c.orig	Thu Jan 31 02:50:25 2008
++++ time.c	Sat Nov 29 15:26:11 2008
+@@ -20,6 +20,11 @@
+ 
+ #include "scm.h"
+ 
++#ifdef __unix__
++# ifndef unix
++#  define unix 1
++# endif
++#endif
+ #ifdef STDC_HEADERS
+ # include <time.h>
+ # ifdef M_SYSV

@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/math/cblas/pkg/PLIST,v 1.2 2010/06/14 05:42:00 jasper Exp $
+%%SHARED%%
+include/cblas.h
+include/cblas_f77.h
+lib/libcblas.a
+lib/libcblas_p.a
+%%no_mips64%%

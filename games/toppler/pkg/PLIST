@@ -1,0 +1,43 @@
+@comment $OpenBSD: ports/games/toppler/pkg/PLIST,v 1.7 2009/12/22 16:28:01 ajacoutot Exp $
+@mode g+s
+@group games
+bin/toppler
+@mode
+@group
+@man man/man6/toppler.6
+share/applications/
+share/applications/toppler.desktop
+share/examples/toppler/
+share/examples/toppler/toppler.hsc
+@mode g+w
+@group games
+@sample /var/games/toppler.hsc
+@mode
+@group
+share/locale/cz/
+share/locale/cz/LC_MESSAGES/
+share/locale/cz/LC_MESSAGES/toppler.mo
+share/locale/de/LC_MESSAGES/toppler.mo
+share/locale/eu/
+share/locale/eu/LC_MESSAGES/
+share/locale/eu/LC_MESSAGES/toppler.mo
+share/locale/fi/LC_MESSAGES/toppler.mo
+share/locale/fr/LC_MESSAGES/toppler.mo
+share/locale/pt/LC_MESSAGES/toppler.mo
+share/locale/ro/LC_MESSAGES/toppler.mo
+share/locale/sv/LC_MESSAGES/toppler.mo
+share/pixmaps/
+share/pixmaps/toppler.xpm
+share/toppler/
+share/toppler/abc.ttm
+share/toppler/ball1.ttm
+share/toppler/ball2.ttm
+share/toppler/ball3.ttm
+share/toppler/david1.ttm
+share/toppler/m1.ttm
+share/toppler/m2.ttm
+share/toppler/pasi2.ttm
+share/toppler/toppler.dat
+share/toppler/toppler.ogg
+@exec %D/bin/update-desktop-database
+@unexec-delete %D/bin/update-desktop-database

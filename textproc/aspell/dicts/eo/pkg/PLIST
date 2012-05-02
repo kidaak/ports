@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/textproc/aspell/dicts/eo/pkg/PLIST,v 1.2 2008/10/28 16:54:11 jasper Exp $
+@pkgpath textproc/aspell/dicts/aspell-eo
+lib/aspell/eo.dat
+lib/aspell/eo_affix.dat
+share/aspell/eo.multi
+share/aspell/eo.rws
+share/aspell/esperanto.alias

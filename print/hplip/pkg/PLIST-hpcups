@@ -1,0 +1,13 @@
+@comment $OpenBSD: ports/print/hplip/pkg/PLIST-hpcups,v 1.4 2012/01/17 09:54:27 ajacoutot Exp $
+@bin libexec/cups/filter/hpcups
+@bin libexec/cups/filter/hpcupsfax
+@bin libexec/cups/filter/hpps
+share/cups/drv/hp/hpcups.drv
+share/doc/pkg-readmes/${FULLPKGNAME}
+share/foomatic/
+share/foomatic/db/
+share/foomatic/db/source/
+share/foomatic/db/source/PPD/
+share/foomatic/db/source/PPD/HP/
+share/foomatic/db/source/PPD/HP/HP-Fax-hpcups.ppd.gz
+share/foomatic/db/source/PPD/HP/HP-Fax2-hpcups.ppd.gz

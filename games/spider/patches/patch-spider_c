@@ -1,0 +1,21 @@
+$OpenBSD: ports/games/spider/patches/patch-spider_c,v 1.2 2008/10/10 22:58:16 sthen Exp $
+--- spider.c.orig	Sat Sep 28 18:46:12 1991
++++ spider.c	Sat Aug  2 19:41:42 2008
+@@ -17,7 +17,7 @@
+ #include	"defs.h"
+ #include	"globals.h"
+ #include	<ctype.h>
+-
++#include <stdlib.h>
+ static void	fix_coords();
+ 
+ int 	deltamod = 0;
+@@ -619,7 +619,7 @@ Type	type;
+ 
+ 	return (type_names[type]);
+ }
+-#endif DEBUG
++#endif
+ 
+ 
+ /*

@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/textproc/aspell/dicts/pl/pkg/PLIST,v 1.2 2008/10/28 16:54:11 jasper Exp $
+@pkgpath textproc/aspell/dicts/aspell-pl
+lib/aspell/pl.dat
+lib/aspell/pl_affix.dat
+share/aspell/pl.multi
+share/aspell/pl.rws
+share/aspell/polish.alias

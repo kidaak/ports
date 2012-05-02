@@ -1,0 +1,23 @@
+# $OpenBSD: ports/misc/p5-Term-Animation/Makefile,v 1.6 2011/03/08 23:45:47 ajacoutot Exp $
+
+COMMENT=		produce sprite animations using ASCII art
+
+DISTNAME=		Term-Animation-2.4
+REVISION=		0
+CATEGORIES=		misc
+
+MAINTAINER=		Girish Venkatachalam <girish1729@gmail.com>
+
+# perl
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+
+MODULES=		cpan
+MODCPAN_EXAMPLES=	Yes
+USE_GROFF =		Yes
+
+RUN_DEPENDS=		devel/p5-Curses
+
+.include <bsd.port.mk>

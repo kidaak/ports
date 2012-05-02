@@ -1,0 +1,12 @@
+$OpenBSD: ports/audio/grip/patches/patch-src_rip_c,v 1.6 2011/04/16 21:21:24 jasper Exp $
+--- src/rip.c.orig	Thu Apr 15 20:21:15 2004
++++ src/rip.c	Tue May 13 16:15:31 2008
+@@ -27,7 +27,7 @@
+ #elif defined (HAVE_SYS_VFS_H)
+ #include <sys/vfs.h>
+ #endif
+-#if defined(__FreeBSD__) || defined(__NetBSD__)
++#if defined(__OpenBSD__) || defined(__NetBSD__)
+ #include <sys/param.h>
+ #include <sys/mount.h>
+ #endif

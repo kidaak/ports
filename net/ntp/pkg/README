@@ -1,0 +1,19 @@
+$OpenBSD: ports/net/ntp/pkg/README,v 1.4 2011/07/11 17:43:14 landry Exp $
+
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+Several steps need to be taken to properly configure the NTP daemon.
+
+1. First, create or update the file ${SYSCONFDIR}/ntp.conf.  Several
+   example configuration files can be found here:
+
+     ${PREFIX}/share/examples/ntp
+
+2. Now xntpd can be started with:
+
+     /etc/rc.d/xntpd start
+
+   Or to start 'xntpd' at every boot, add it to pkg_scripts in
+   /etc/rc.conf.local.

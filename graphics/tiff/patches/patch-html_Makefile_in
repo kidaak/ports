@@ -1,0 +1,12 @@
+$OpenBSD: ports/graphics/tiff/patches/patch-html_Makefile_in,v 1.7 2012/04/14 15:09:55 naddy Exp $
+--- html/Makefile.in.orig	Sat Feb 18 23:02:56 2012
++++ html/Makefile.in	Wed Apr 11 18:20:48 2012
+@@ -267,7 +267,7 @@ build_vendor = @build_vendor@
+ builddir = @builddir@
+ datadir = @datadir@
+ datarootdir = @datarootdir@
+-docdir = $(LIBTIFF_DOCDIR)/html
++docdir = $(LIBTIFF_DOCDIR)
+ dvidir = @dvidir@
+ exec_prefix = @exec_prefix@
+ host = @host@

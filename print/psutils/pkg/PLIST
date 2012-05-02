@@ -1,0 +1,43 @@
+@comment $OpenBSD: ports/print/psutils/pkg/PLIST,v 1.8 2012/02/16 22:13:24 ajacoutot Exp $
+@pkgpath print/psutils[,a3][,a5][,b5][,b4][,letter][,legal][,ledger]
+@pkgpath print/psutils[,tabloid][,statement][,executive][,folio]
+@pkgpath print/psutils[,quarto][,s10x14]
+@bin bin/epsffit
+bin/extractres
+bin/fixdlsrps
+bin/fixfmps
+bin/fixpsditps
+bin/fixpspps
+bin/fixscribeps
+bin/fixtpps
+bin/fixwfwps
+bin/fixwpps
+bin/fixwwps
+bin/getafm
+bin/includeres
+@bin bin/psbook
+bin/psmerge
+@bin bin/psnup
+@bin bin/psresize
+@bin bin/psselect
+@bin bin/pstops
+bin/showchar
+@man man/man1/epsffit.1
+@man man/man1/extractres.1
+@man man/man1/fixdlsrps.1
+@man man/man1/fixfmps.1
+@man man/man1/fixpsditps.1
+@man man/man1/fixpspps.1
+@man man/man1/fixscribeps.1
+@man man/man1/fixtpps.1
+@man man/man1/fixwfwps.1
+@man man/man1/fixwpps.1
+@man man/man1/fixwwps.1
+@man man/man1/getafm.1
+@man man/man1/includeres.1
+@man man/man1/psbook.1
+@man man/man1/psmerge.1
+@man man/man1/psnup.1
+@man man/man1/psresize.1
+@man man/man1/psselect.1
+@man man/man1/pstops.1

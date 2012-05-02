@@ -1,0 +1,25 @@
+$OpenBSD: ports/x11/gnome/gdm/patches/patch-configure,v 1.20 2011/10/07 14:04:18 ajacoutot Exp $
+--- configure.orig	Tue Sep 27 00:50:02 2011
++++ configure	Fri Oct  7 14:44:39 2011
+@@ -22996,6 +22996,8 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ #ifdef __cplusplus
+ extern "C"
+ #endif
++int allow_severity = 1;
++int deny_severity = 1;
+ char hosts_ctl ();
+ int
+ main ()
+@@ -24662,6 +24664,12 @@ else
+   am__EXEEXT_TRUE='#'
+   am__EXEEXT_FALSE=
+ fi
++
++case $host in
++    i386-*-openbsd*|amd64-*-openbsd*)
++        X_CONFIG_OPTIONS="$X_CONFIG_OPTIONS vt5"
++        ;;
++esac
+ 
+ if test -z "${MAINTAINER_MODE_TRUE}" && test -z "${MAINTAINER_MODE_FALSE}"; then
+   as_fn_error $? "conditional \"MAINTAINER_MODE\" was never defined.

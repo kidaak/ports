@@ -1,0 +1,49 @@
+$OpenBSD: ports/audio/cmu-sphinxbase/patches/patch-configure,v 1.2 2010/04/26 07:12:30 eric Exp $
+--- configure.orig	Thu Mar 18 21:49:35 2010
++++ configure	Wed Apr 21 14:24:52 2010
+@@ -7240,13 +7240,13 @@ fi
+ 
+ done
+ 
+-	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for pthread_create in -lpthread" >&5
+-$as_echo_n "checking for pthread_create in -lpthread... " >&6; }
++	{ $as_echo "$as_me:${as_lineno-$LINENO}: checking for pthread_create in -pthread" >&5
++$as_echo_n "checking for pthread_create in -pthread... " >&6; }
+ if test "${ac_cv_lib_pthread_pthread_create+set}" = set; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lpthread  $LIBS"
++LIBS="-pthread  $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -7281,7 +7281,7 @@ if test "x$ac_cv_lib_pthread_pthread_create" = x""yes;
+ #define HAVE_LIBPTHREAD 1
+ _ACEOF
+ 
+-  LIBS="-lpthread $LIBS"
++  LIBS="-pthread $LIBS"
+ 
+ fi
+ 
+@@ -7432,11 +7432,18 @@ fi
+ 
+                         ;;
+                 # FIXME: isn't this the same OSS as on Linux?
+-                *-*-freebsd*|*-*-netbsd*|*-*-openbsd*)
++                *-*-freebsd*|*-*-netbsd*)
+                         ad_files="ad_oss_bsd.lo"
+                         ad_backend="AD_BACKEND_OSS_BSD"
+ 
+ $as_echo "#define AD_BACKEND_OSS_BSD /**/" >>confdefs.h
++
++			;;
++                *-*-openbsd*)
++                        ad_files="ad_sndio.lo"
++                        ad_backend="AD_BACKEND_SNDIO"
++
++$as_echo "#define AD_BACKEND_SNDIO /**/" >>confdefs.h
+ 
+                         ;;
+                 *-*-sunos4*)

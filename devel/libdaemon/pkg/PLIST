@@ -1,0 +1,17 @@
+@comment $OpenBSD: ports/devel/libdaemon/pkg/PLIST,v 1.2 2010/12/14 14:54:35 ajacoutot Exp $
+%%SHARED%%
+include/libdaemon/
+include/libdaemon/daemon.h
+include/libdaemon/dexec.h
+include/libdaemon/dfork.h
+include/libdaemon/dlog.h
+include/libdaemon/dnonblock.h
+include/libdaemon/dpid.h
+include/libdaemon/dsignal.h
+lib/libdaemon.a
+lib/libdaemon.la
+lib/pkgconfig/
+lib/pkgconfig/libdaemon.pc
+share/doc/libdaemon/
+share/doc/libdaemon/README.html
+share/doc/libdaemon/style.css

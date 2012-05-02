@@ -1,0 +1,12 @@
+$OpenBSD: ports/mail/imapfilter/patches/patch-configure,v 1.4 2011/07/09 12:53:52 dcoppa Exp $
+--- configure.orig	Tue Jul  5 15:48:00 2011
++++ configure	Tue Jul  5 15:48:25 2011
+@@ -13,7 +13,7 @@ crammd5="yes"
+ incdirs="-I/usr/local/include"
+ libdirs="-L/usr/local/lib"
+ 
+-mycflags="$CFLAGS -Wall -O"
++mycflags="$CFLAGS -Wall"
+ myldflags="$LDFLAGS"
+ 
+ libs="-lm -llua -lpcre"

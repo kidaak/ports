@@ -1,0 +1,39 @@
+$OpenBSD: ports/emulators/bochs/patches/patch-_bochsrc,v 1.8 2012/01/12 17:01:47 giovanni Exp $
+--- .bochsrc.orig	Fri Jan  6 13:51:12 2012
++++ .bochsrc	Sat Jan  7 13:22:57 2012
+@@ -384,13 +384,13 @@ vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest
+ # The optional parameter 'write_protected' can be used to control the media
+ # write protect switch. By default it is turned off.
+ #=======================================================================
+-floppya: 1_44=/dev/fd0, status=inserted
++#floppya: 1_44=/dev/fd0, status=inserted
+ #floppya: image=../1.44, status=inserted
+ #floppya: 1_44=/dev/fd0H1440, status=inserted
+ #floppya: 1_2=../1_2, status=inserted
+ #floppya: 1_44=a:, status=inserted
+ #floppya: 1_44=a.img, status=inserted, write_protected=1
+-#floppya: 1_44=/dev/rfd0a, status=inserted
++floppya: 1_44=/dev/rfd0a, status=inserted
+ 
+ #=======================================================================
+ # FLOPPYB:
+@@ -529,7 +529,7 @@ boot: disk
+ # 
+ # Default value are sync=none, time0=local
+ #=======================================================================
+-#clock: sync=none, time0=local
++clock: sync=realtime, time0=local
+ 
+ 
+ #=======================================================================
+@@ -553,8 +553,8 @@ floppy_bootsig_check: disabled=0
+ #   log: ./bochs.out
+ #   log: /dev/tty
+ #=======================================================================
+-#log: /dev/null
+-log: bochsout.txt
++log: /dev/null
++#log: bochsout.txt
+ 
+ #=======================================================================
+ # LOGPREFIX:

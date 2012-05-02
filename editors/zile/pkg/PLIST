@@ -1,0 +1,9 @@
+@comment $OpenBSD: ports/editors/zile/pkg/PLIST,v 1.8 2012/03/14 15:10:54 ajacoutot Exp $
+@bin bin/zile
+@comment lib/charset.alias
+@man man/man1/zile.1
+share/doc/zile/
+share/doc/zile/AUTHORS
+share/doc/zile/FAQ
+share/doc/zile/NEWS
+share/doc/zile/dotzile.sample

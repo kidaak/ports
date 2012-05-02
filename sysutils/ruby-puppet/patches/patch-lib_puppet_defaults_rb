@@ -1,0 +1,14 @@
+$OpenBSD: ports/sysutils/ruby-puppet/patches/patch-lib_puppet_defaults_rb,v 1.6 2012/04/13 08:18:30 jasper Exp $
+--- lib/puppet/defaults.rb.orig	Tue Apr 10 20:23:15 2012
++++ lib/puppet/defaults.rb	Fri Apr 13 09:29:03 2012
+@@ -466,8 +466,8 @@ EOT
+   )
+ 
+   setdefaults(:master,
+-    :user => ["puppet", "The user puppet master should run as."],
+-    :group => ["puppet", "The group puppet master should run as."],
++    :user => ["_puppet", "The user puppet master should run as."],
++    :group => ["_puppet", "The group puppet master should run as."],
+     :manifestdir => ["$confdir/manifests", "Where puppet master looks for its manifests."],
+     :manifest => ["$manifestdir/site.pp", "The entry-point manifest for puppet master."],
+     :code => ["", "Code to parse directly.  This is essentially only used

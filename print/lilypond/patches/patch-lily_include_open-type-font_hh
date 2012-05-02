@@ -1,0 +1,14 @@
+$OpenBSD: ports/print/lilypond/patches/patch-lily_include_open-type-font_hh,v 1.2 2011/07/06 14:14:06 kili Exp $
+--- lily/include/open-type-font.hh.orig	Sun Jun 12 16:05:50 2011
++++ lily/include/open-type-font.hh	Sun Jun 19 13:45:40 2011
+@@ -24,8 +24,8 @@
+ #include "font-metric.hh"
+ 
+ Index_to_charcode_map make_index_to_charcode_map (FT_Face face);
+-void get_unicode_name (char*s, FT_ULong code);
+-void get_glyph_index_name (char*s, FT_ULong code);
++void get_unicode_name (char*s, size_t size, FT_ULong code);
++void get_glyph_index_name (char*s, size_t size, FT_ULong code);
+ 
+ class Open_type_font : public Font_metric
+ {

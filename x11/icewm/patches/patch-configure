@@ -1,0 +1,30 @@
+$OpenBSD: ports/x11/icewm/patches/patch-configure,v 1.12 2010/12/12 19:13:01 jasper Exp $
+--- configure.orig	Thu Dec  9 16:07:00 2010
++++ configure	Thu Dec  9 16:07:51 2010
+@@ -2624,7 +2624,7 @@ test -n "$target_alias" &&
+     NONENONEs,x,x, &&
+   program_prefix=${target_alias}-
+ 
+-TARGETS=base
++TARGETS='base docs'
+ APPLICATIONS='icewm icewm-session icesh icewmhint icewmbg icewmtray'
+ TESTCASES=`echo src/test*.cc | sed 's%src/\([^ ]*\)\.cc%\1%g'`
+ TESTCASES="$TESTCASES iceview icesame iceicon icerun icelist" # iceclock
+@@ -4451,7 +4451,7 @@ if test "${ac_cv_lib_intl_strftime+set}" = set; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lintl  $LIBS"
++LIBS="-lintl $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -5772,7 +5772,7 @@ if test "${ac_cv_lib_intl_bindtextdomain+set}" = set; 
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lintl  $LIBS"
++LIBS="-lintl -liconv $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 

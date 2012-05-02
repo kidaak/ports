@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/net/ii/pkg/PLIST,v 1.2 2009/05/25 13:11:07 jim Exp $
+@bin bin/ii
+@man man/man1/ii.1
+share/doc/ii/
+share/doc/ii/FAQ
+share/doc/ii/README
+share/doc/ii/query.sh

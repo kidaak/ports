@@ -1,0 +1,15 @@
+$OpenBSD: ports/x11/hs-xmonad-contrib/patches/patch-XMonad_Util_Loggers_hs,v 1.2 2012/01/12 11:12:38 dcoppa Exp $
+
+Use our apm(8) instead of linux-only acpi
+
+--- XMonad/Util/Loggers.hs.orig	Sat Nov 19 00:26:06 2011
++++ XMonad/Util/Loggers.hs	Wed Jan 11 10:15:37 2012
+@@ -121,7 +121,7 @@ aumixVolume = logCmd "aumix -vq"
+ --   At some point it would be nice to make this more general\/have
+ --   fewer dependencies (assumes @\/usr\/bin\/acpi@ and @sed@ are installed.)
+ battery :: Logger
+-battery = logCmd "/usr/bin/acpi | sed -r 's/.*?: (.*%).*/\\1/; s/[dD]ischarging, ([0-9]+%)/\\1-/; s/[cC]harging, ([0-9]+%)/\\1+/; s/[cC]harged, //'"
++battery = logCmd "printf \"%s%% %s\" \"`apm -l`\" \"`apm -a -v | sed 's|A/C adapter state: ||'`\""
+ 
+ -- | Get the current date and time, and format them via the
+ --   given format string.  The format used is the same as that used

@@ -1,0 +1,27 @@
+$OpenBSD: ports/converters/mpack/patches/patch-decode_c,v 1.4 2012/01/08 00:12:12 sthen Exp $
+--- decode.c.orig	Mon Jul 21 21:47:54 2003
++++ decode.c	Sun Jan  8 00:02:59 2012
+@@ -28,10 +28,11 @@
+ #include <stdio.h>
+ #include <string.h>
+ #include <ctype.h>
++#include <stdlib.h>
++#include <md5.h>
+ #include "xmalloc.h"
+ #include "common.h"
+ #include "part.h"
+-#include "md5.h"
+ 
+ extern char *os_idtodir(char *id);
+ extern FILE *os_newtypedfile(char *fname, char *contentType, int flags, params contentParams);
+@@ -545,8 +546,8 @@ getDispositionFilename(char *disposition)
+ 	SkipWhitespace(&disposition);
+ 	if (!disposition) return 0;
+ 
+-	/* If we're looking at a ";", we found what we're looking for */
+-	if (*disposition++ == ';') break;
++	/* If we're looking at a "=", we found what we're looking for */
++	if (*disposition++ == '=') break;
+     }
+ 
+     SkipWhitespace(&disposition);

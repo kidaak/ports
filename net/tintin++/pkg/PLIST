@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/net/tintin++/pkg/PLIST,v 1.5 2010/01/11 07:19:17 ajacoutot Exp $
+@bin bin/tt++
+lib/tintin/
+lib/tintin/.tt_help.txt.Z

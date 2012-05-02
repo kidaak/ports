@@ -1,0 +1,32 @@
+$OpenBSD: ports/editors/beav/patches/patch-def_h,v 1.2 2010/05/22 15:05:29 espie Exp $
+--- def.h.orig	Sat Dec 13 09:34:59 1997
++++ def.h	Sat May 22 16:59:41 2010
+@@ -12,10 +12,12 @@
+ #ifndef DEF_DEF
+ #define DEF_DEF
+ #define LINT_ARGS   1		/* enable lint type checking */
+-#include        "stdio.h"
++#include        <stdio.h>
++#include        <string.h>
++#include	<stdlib.h>
+ 
+ #ifdef UNIX
+-#include        "sys/types.h"
++#include        <sys/types.h>
+ #endif /* UNIX */
+ 
+ #define BACKUP  1		/* Make backup file.            */
+@@ -562,13 +564,6 @@ extern int auto_update;
+ extern int flush_count;
+ extern int rowb;
+ extern char file_off_bad;
+-
+-/*
+- * Standard I/O.
+- */
+-extern char *malloc ();
+-extern char *strcpy ();
+-extern char *strcat ();
+ 
+ #ifndef NOPROTO
+ #include "prototyp.h"

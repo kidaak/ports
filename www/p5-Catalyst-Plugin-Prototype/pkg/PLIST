@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/www/p5-Catalyst-Plugin-Prototype/pkg/PLIST,v 1.2 2010/07/31 12:17:18 jim Exp $
+${P5SITE}/Catalyst/Helper/
+${P5SITE}/Catalyst/Helper/Prototype.pm
+${P5SITE}/Catalyst/Plugin/
+${P5SITE}/Catalyst/Plugin/Prototype.pm
+@man man/man3p/Catalyst::Helper::Prototype.3p
+@man man/man3p/Catalyst::Plugin::Prototype.3p

@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/multimedia/libdvdnav/pkg/PFRAG.shared,v 1.5 2009/07/30 19:07:15 jakemsr Exp $
+@lib lib/libdvdnav.so.${LIBdvdnav_VERSION}
+@lib lib/libdvdnavmini.so.${LIBdvdnavmini_VERSION}

@@ -1,0 +1,16 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/net/zabbix/pkg/zabbix_proxy.rc,v 1.6 2012/01/20 10:40:42 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/sbin/zabbix_proxy"
+
+. /etc/rc.d/rc.subr
+
+pexp="zabbix_proxy"
+rc_reload=NO
+
+rc_pre() {
+	install -d -o _zabbix -g _zabbix /var/run/zabbix
+}
+
+rc_cmd $1

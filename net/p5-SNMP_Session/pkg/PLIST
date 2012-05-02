@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/net/p5-SNMP_Session/pkg/PLIST,v 1.6 2010/02/26 23:00:56 sthen Exp $
+${P5SITE}/BER.pm
+${P5SITE}/SNMP_Session.pm
+@comment ${P5SITE}/SNMP_Session.pm.orig
+${P5SITE}/SNMP_util.pm

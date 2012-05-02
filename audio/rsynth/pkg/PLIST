@@ -1,0 +1,2 @@
+@comment $OpenBSD: ports/audio/rsynth/pkg/PLIST,v 1.4 2009/12/24 21:45:29 jakemsr Exp $
+@bin bin/say

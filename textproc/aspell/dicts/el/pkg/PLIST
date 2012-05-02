@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/textproc/aspell/dicts/el/pkg/PLIST,v 1.2 2008/10/28 16:54:11 jasper Exp $
+lib/aspell/el.dat
+lib/aspell/el_phonet.dat
+share/aspell/el.multi
+share/aspell/el.rws
+share/aspell/greek.alias

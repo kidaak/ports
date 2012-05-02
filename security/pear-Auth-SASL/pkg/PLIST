@@ -1,0 +1,15 @@
+@comment $OpenBSD: ports/security/pear-Auth-SASL/pkg/PLIST,v 1.3 2010/03/21 01:18:51 sthen Exp $
+@group daemon
+lib/
+lib/php/
+pear/lib/.registry/auth_sasl.reg
+pear/lib/Auth/
+pear/lib/Auth/SASL/
+pear/lib/Auth/SASL.php
+pear/lib/Auth/SASL/Anonymous.php
+pear/lib/Auth/SASL/Common.php
+pear/lib/Auth/SASL/CramMD5.php
+pear/lib/Auth/SASL/DigestMD5.php
+pear/lib/Auth/SASL/External.php
+pear/lib/Auth/SASL/Login.php
+pear/lib/Auth/SASL/Plain.php

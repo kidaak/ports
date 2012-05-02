@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/net/samba/pkg/winbindd.rc,v 1.5 2011/12/17 22:01:13 sthen Exp $
+
+daemon="${TRUEPREFIX}/libexec/winbindd -D"
+
+. /etc/rc.d/rc.subr
+
+smbcontrol="${TRUEPREFIX}/bin/smbcontrol"
+
+rc_check() {
+	${smbcontrol} winbindd ping
+}
+
+rc_reload() {
+	${smbcontrol} winbindd reload-config
+}
+
+rc_stop() {
+	${smbcontrol} winbindd shutdown
+}
+
+rc_cmd $1

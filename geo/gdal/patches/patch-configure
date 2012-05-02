@@ -1,0 +1,13 @@
+$OpenBSD: ports/geo/gdal/patches/patch-configure,v 1.4 2011/12/28 21:14:04 landry Exp $
+ensure MODPY_BIN is picked to try detecting setuptools
+--- configure.orig	Sat Jul  9 18:33:34 2011
++++ configure	Tue Oct  4 14:42:10 2011
+@@ -24384,7 +24384,7 @@ $as_echo_n "checking for python setuptools... " >&6; }
+   print 1
+ except ImportError:
+   pass'
+-  PY_HAVE_SETUPTOOLS=`python -c "$SETUPTEST"`
++  PY_HAVE_SETUPTOOLS=`${MODPY_BIN} -c "$SETUPTEST"`
+   if test "$PY_HAVE_SETUPTOOLS" = "1"; then
+     { $as_echo "$as_me:${as_lineno-$LINENO}: result: found" >&5
+ $as_echo "found" >&6; }

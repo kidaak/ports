@@ -1,0 +1,27 @@
+$OpenBSD: ports/textproc/sphinx/patches/patch-Makefile_in,v 1.2 2009/03/22 15:53:21 jasper Exp $
+--- Makefile.in.orig	Sun Jun  8 10:57:36 2008
++++ Makefile.in	Fri Mar 20 12:04:00 2009
+@@ -239,12 +239,12 @@ sphinx-min.conf.dist: $(top_builddir)/config.status $(
+ uninstall-info-am:
+ install-sysconfDATA: $(sysconf_DATA)
+ 	@$(NORMAL_INSTALL)
+-	test -z "$(sysconfdir)" || $(mkdir_p) "$(DESTDIR)$(sysconfdir)"
++	test -z "$(datadir)/examples/sphinx" || $(mkdir_p) "$(DESTDIR)$(datadir)/examples/sphinx"
+ 	@list='$(sysconf_DATA)'; for p in $$list; do \
+ 	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+ 	  f=$(am__strip_dir) \
+-	  echo " $(sysconfDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(sysconfdir)/$$f'"; \
+-	  $(sysconfDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(sysconfdir)/$$f"; \
++	  echo " $(sysconfDATA_INSTALL) '$$d$$p' '$(DESTDIR)$(datadir)/examples/sphinx/$$f'"; \
++	  $(sysconfDATA_INSTALL) "$$d$$p" "$(DESTDIR)$(datadir)/examples/sphinx/$$f"; \
+ 	done
+ 
+ uninstall-sysconfDATA:
+@@ -619,7 +619,6 @@ uninstall-info: uninstall-info-recursive
+ 
+ 
+ install-data-hook:
+-	mkdir -p $(DESTDIR)$(localstatedir)/data && mkdir -p $(DESTDIR)$(localstatedir)/log
+ # Tell versions [3.59,3.63) of GNU make to not export all variables.
+ # Otherwise a system limit (for SysV at least) may be exceeded.
+ .NOEXPORT:

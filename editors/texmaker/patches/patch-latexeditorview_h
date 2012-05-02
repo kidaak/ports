@@ -1,0 +1,12 @@
+$OpenBSD: ports/editors/texmaker/patches/patch-latexeditorview_h,v 1.3 2011/11/24 13:12:47 shadchin Exp $
+--- latexeditorview.h.orig	Wed Jul 20 14:11:45 2011
++++ latexeditorview.h	Tue Aug 16 20:10:32 2011
+@@ -22,7 +22,7 @@
+ #include "gotolinewidget.h"
+ #include "replacewidget.h"
+ #include "minisplitter.h"
+-#include "hunspell/hunspell.hxx"
++#include <hunspell.hxx>
+ 
+ class LatexEditorView : public QWidget  {
+    Q_OBJECT

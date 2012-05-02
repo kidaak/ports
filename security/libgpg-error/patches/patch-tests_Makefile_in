@@ -1,0 +1,12 @@
+$OpenBSD: ports/security/libgpg-error/patches/patch-tests_Makefile_in,v 1.5 2010/07/27 21:45:06 ajacoutot Exp $
+--- tests/Makefile.in.orig	Wed Jul 21 10:00:00 2010
++++ tests/Makefile.in	Tue Jul 27 23:31:52 2010
+@@ -73,7 +73,7 @@ am__EXEEXT_1 = t-strerror$(EXEEXT) t-syserror$(EXEEXT)
+ PROGRAMS = $(noinst_PROGRAMS)
+ t_strerror_SOURCES = t-strerror.c
+ t_strerror_OBJECTS = t-strerror.$(OBJEXT)
+-t_strerror_LDADD = $(LDADD)
++t_strerror_LDADD = $(LDADD) @LTLIBINTL@
+ t_strerror_DEPENDENCIES = ../src/libgpg-error.la
+ t_syserror_SOURCES = t-syserror.c
+ t_syserror_OBJECTS = t-syserror.$(OBJEXT)

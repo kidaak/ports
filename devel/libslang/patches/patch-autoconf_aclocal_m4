@@ -1,0 +1,46 @@
+$OpenBSD: ports/devel/libslang/patches/patch-autoconf_aclocal_m4,v 1.6 2011/09/21 22:01:56 sthen Exp $
+--- autoconf/aclocal.m4.orig	Mon Apr 11 03:37:07 2011
++++ autoconf/aclocal.m4	Wed Sep 21 20:21:08 2011
+@@ -571,13 +571,13 @@ fi
+ 
+ dnl #Some defaults
+ ELFLIB="lib\$(THIS_LIB).so"
+-ELFLIB_MAJOR="\$(ELFLIB).\$(ELF_MAJOR_VERSION)"
+-ELFLIB_MAJOR_MINOR="\$(ELFLIB_MAJOR).\$(ELF_MINOR_VERSION)"
++ELFLIB_MAJOR="\$(ELFLIB).\$(LIBslang_MAJOR)"
++ELFLIB_MAJOR_MINOR="\$(ELFLIB).\$(LIBslang_MAJOR).\$(LIBslang_MINOR)"
+ ELFLIB_MAJOR_MINOR_MICRO="\$(ELFLIB_MAJOR_MINOR).\$(ELF_MICRO_VERSION)"
+ 
+ dnl# This specifies the target to use in the makefile to install the shared library
+ INSTALL_ELFLIB_TARGET="install-elf-and-links"
+-ELFLIB_BUILD_NAME="\$(ELFLIB_MAJOR_MINOR_MICRO)"
++ELFLIB_BUILD_NAME="\$(ELFLIB_MAJOR_MINOR)"
+ INSTALL_MODULE="\$(INSTALL_DATA)"
+ SLANG_DLL_CFLAGS=""
+ M_LIB="-lm"
+@@ -702,6 +702,25 @@ case "$host_os" in
+     ELF_LINK="\$(CC) \$(LDFLAGS) -shared -Wl,-O1 -Wl,--version-script,\$(VERSION_SCRIPT) -Wl,-soname,\$(ELFLIB_MAJOR)"
+     ELF_DEP_LIBS="\$(DL_LIB)"
+     CC_SHARED="\$(CC) \$(CFLAGS) -shared -fPIC"
++    ;;
++   *openbsd* )
++      DYNAMIC_LINK_FLAGS=""
++      ELF_CC="$CC"
++      case `arch -s` in
++        sparc64)
++          ELF_CFLAGS="$CFLAGS -fPIC"
++         ;;
++        *)
++          ELF_CFLAGS="$CFLAGS -fpic"
++         ;;
++      esac
++      ELF_LINK="$CC -shared $ELF_CFLAGS"
++      ELF_LINK_CMD="\$(ELF_LINK)"
++      ELF_DEP_LIBS=
++      CC_SHARED="$CC -shared $ELF_CFLAGS"
++      if test -z "`echo __ELF__ | $CC -E - | grep __ELF__`"; then
++        DYNAMIC_LINK_FLAGS="-Wl,-E"
++      fi
+     ;;
+   * )
+     echo "Note: ELF compiler for host_os=$host_os may be wrong"

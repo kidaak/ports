@@ -1,0 +1,14 @@
+$OpenBSD: ports/www/mozilla-firefox/patches/patch-parser_html_Makefile_in,v 1.7 2012/03/16 21:31:24 landry Exp $
+
+gcc runs out of memory with optimization.
+
+--- parser/html/Makefile.in.orig	Thu Feb  2 00:39:23 2012
++++ parser/html/Makefile.in	Tue Feb 14 18:42:12 2012
+@@ -120,4 +120,7 @@ INCLUDES	+= \
+ 		-I$(srcdir)/../../content/base/src \
+ 		$(NULL)
+ 
++nsHtml5NamedCharacters.o: CXXFLAGS := $(filter-out -O%,$(CXXFLAGS))
++nsHtml5ElementName.o: CXXFLAGS := $(CXXFLAGS) -O1
++
+ #DEFINES		+= -DENABLE_VOID_MENUITEM

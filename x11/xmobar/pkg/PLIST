@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/x11/xmobar/pkg/PLIST,v 1.2 2010/07/17 14:55:21 kili Exp $
+@bin bin/xmobar
+@comment share/doc/${DISTNAME}/
+@comment share/doc/${DISTNAME}/LICENSE
+share/examples/xmobar/
+share/examples/xmobar/xmobarrc

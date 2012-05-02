@@ -1,0 +1,14 @@
+@comment $OpenBSD: ports/net/ncftp/pkg/PLIST,v 1.6 2008/08/21 14:48:02 naddy Exp $
+@bin bin/ncftp
+@bin bin/ncftpbatch
+@bin bin/ncftpbookmarks
+@bin bin/ncftpget
+@bin bin/ncftpls
+@bin bin/ncftpput
+@bin bin/ncftpspooler
+@man man/man1/ncftp.1
+@man man/man1/ncftpbatch.1
+@man man/man1/ncftpget.1
+@man man/man1/ncftpls.1
+@man man/man1/ncftpput.1
+@man man/man1/ncftpspooler.1

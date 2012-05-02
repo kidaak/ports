@@ -1,0 +1,13 @@
+$OpenBSD: ports/www/mantis/patches/patch-core_php,v 1.2 2008/11/16 10:41:37 mbalmer Exp $
+--- core.php.orig	Thu May 22 19:43:58 2008
++++ core.php	Sun Nov 16 11:30:23 2008
+@@ -69,6 +69,9 @@
+ 	if ( file_exists( dirname( __FILE__ ).DIRECTORY_SEPARATOR.'config_inc.php' ) ) {
+ 		require_once( dirname( __FILE__ ).DIRECTORY_SEPARATOR.'config_inc.php' );
+ 		$t_config_inc_found = true;
++
++		if (isset($g_placeholder) && $g_placeholder == "yes")
++			$t_config_inc_found = false;
+ 	}
+ 
+ 	# Allow an environment variable (defined in an Apache vhost for example)

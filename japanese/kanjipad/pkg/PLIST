@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/japanese/kanjipad/pkg/PLIST,v 1.2 2010/03/21 09:10:52 jasper Exp $
+@bin bin/kanjipad
+@bin bin/kpengine
+share/doc/kanjipad/
+share/doc/kanjipad/README
+share/kanjipad/
+share/kanjipad/jdata.dat

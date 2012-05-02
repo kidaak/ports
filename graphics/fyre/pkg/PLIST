@@ -1,0 +1,17 @@
+@comment $OpenBSD: ports/graphics/fyre/pkg/PLIST,v 1.5 2011/12/03 18:35:11 ajacoutot Exp $
+@bin bin/fyre
+share/fyre/
+share/fyre/about-box.fa
+share/fyre/animation-render.glade
+share/fyre/explorer.glade
+share/fyre/metadata-emblem.png
+share/icons/hicolor/16x16/apps/fyre.png
+share/icons/hicolor/22x22/apps/fyre.png
+share/icons/hicolor/24x24/apps/fyre.png
+share/icons/hicolor/48x48/mimetypes/application-x-fyre-animation.png
+share/icons/hicolor/scalable/apps/fyre.svg
+share/mime/packages/fyre.xml
+@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/update-mime-database %D/share/mime
+@unexec-delete %D/bin/update-mime-database %D/share/mime

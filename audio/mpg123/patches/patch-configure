@@ -1,0 +1,17 @@
+$OpenBSD: ports/audio/mpg123/patches/patch-configure,v 1.7 2010/12/25 20:51:06 naddy Exp $
+--- configure.orig	Wed Dec  8 12:01:59 2010
++++ configure	Sat Dec 18 23:26:48 2010
+@@ -12897,10 +12897,10 @@ fi
+ # opt-in for IEEE754 floating point action
+ # We want to make sure not to apply hacks relying on IEEE754 storage format on platforms where we did not make sure that this actually is valid.
+ # It _should_ be fine for about all computers still out there, but we play safe.
+-ieee=no
++ieee=yes
+ case $host in
+-  i?86-*|x86_64-*|powerpc*|sparc*)
+-    ieee=yes
++  vax-*)
++    ieee=no
+   ;;
+ esac
+ if test "x$ieee" = xyes; then

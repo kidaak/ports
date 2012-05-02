@@ -1,0 +1,15 @@
+@comment $OpenBSD: ports/devel/cmockery/pkg/PLIST,v 1.2 2011/09/16 22:16:50 sthen Exp $
+%%SHARED%%
+include/google/
+include/google/cmockery.h
+lib/libcmockery.a
+lib/libcmockery.la
+share/doc/cmockery/
+share/doc/cmockery/AUTHORS
+share/doc/cmockery/COPYING
+share/doc/cmockery/ChangeLog
+share/doc/cmockery/INSTALL
+share/doc/cmockery/NEWS
+share/doc/cmockery/README
+share/doc/cmockery/index.html
+share/doc/cmockery/makefile

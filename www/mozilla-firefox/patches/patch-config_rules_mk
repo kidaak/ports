@@ -1,0 +1,20 @@
+$OpenBSD: ports/www/mozilla-firefox/patches/patch-config_rules_mk,v 1.16 2012/03/16 21:31:24 landry Exp $
+Add -rpath $(installdir) to be sure libxul/libxpcom can open their
+depending libs when being dlopen()'ed themselves
+--- config/rules.mk.orig	Thu Feb  2 00:38:54 2012
++++ config/rules.mk	Tue Feb 14 18:42:02 2012
+@@ -593,6 +593,14 @@ EXTRA_DSO_LDOPTS += -Wl,-Bsymbolic
+ endif
+ endif
+ 
++ifeq ($(OS_ARCH),OpenBSD)
++ifdef IS_COMPONENT
++EXTRA_DSO_LDOPTS += -Wl,-Bsymbolic
++endif
++DSO_LDOPTS += -Wl,-rpath,'$(installdir)'
++OS_LDFLAGS += -Wl,-rpath,'$(installdir)'
++endif
++
+ ifeq ($(OS_ARCH),NetBSD)
+ ifneq (,$(filter arc cobalt hpcmips mipsco newsmips pmax sgimips,$(OS_TEST)))
+ ifeq ($(MODULE),layout)

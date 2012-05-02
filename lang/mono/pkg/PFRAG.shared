@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/lang/mono/pkg/PFRAG.shared,v 1.3 2011/03/02 08:37:51 robert Exp $
+lib/libMonoPosixHelper.so
+lib/libMonoSupportW.so
+lib/libikvm-native.so
+@lib lib/libmono-2.0.so.${LIBmono-2.0_VERSION}
+@lib lib/libmono-profiler-aot.so.${LIBmono-profiler-aot_VERSION}
+@lib lib/libmono-profiler-cov.so.${LIBmono-profiler-cov_VERSION}
+@lib lib/libmono-profiler-iomap.so.${LIBmono-profiler-iomap_VERSION}
+@lib lib/libmono-profiler-log.so.${LIBmono-profiler-log_VERSION}
+@lib lib/libmonosgen-2.0.so.${LIBmonosgen-2.0_VERSION}

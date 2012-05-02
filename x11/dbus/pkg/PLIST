@@ -1,0 +1,75 @@
+@comment $OpenBSD: ports/x11/dbus/pkg/PLIST,v 1.12 2011/09/09 09:00:25 ajacoutot Exp $
+@newgroup _dbus:572
+@newuser _dbus:572:_dbus:daemon:dbus user:/nonexistent:/sbin/nologin
+%%SHARED%%
+@bin bin/dbus-cleanup-sockets
+@bin bin/dbus-daemon
+@bin bin/dbus-launch
+@bin bin/dbus-monitor
+@bin bin/dbus-send
+@bin bin/dbus-uuidgen
+include/dbus-1.0/
+include/dbus-1.0/dbus/
+include/dbus-1.0/dbus/dbus-address.h
+include/dbus-1.0/dbus/dbus-bus.h
+include/dbus-1.0/dbus/dbus-connection.h
+include/dbus-1.0/dbus/dbus-errors.h
+include/dbus-1.0/dbus/dbus-macros.h
+include/dbus-1.0/dbus/dbus-memory.h
+include/dbus-1.0/dbus/dbus-message.h
+include/dbus-1.0/dbus/dbus-misc.h
+include/dbus-1.0/dbus/dbus-pending-call.h
+include/dbus-1.0/dbus/dbus-protocol.h
+include/dbus-1.0/dbus/dbus-server.h
+include/dbus-1.0/dbus/dbus-shared.h
+include/dbus-1.0/dbus/dbus-signature.h
+include/dbus-1.0/dbus/dbus-threads.h
+include/dbus-1.0/dbus/dbus-types.h
+include/dbus-1.0/dbus/dbus.h
+lib/dbus-1.0/
+lib/dbus-1.0/include/
+lib/dbus-1.0/include/dbus/
+lib/dbus-1.0/include/dbus/dbus-arch-deps.h
+@comment lib/dbus-1.0/test/
+lib/libdbus-1.a
+lib/libdbus-1.la
+lib/pkgconfig/
+lib/pkgconfig/dbus-1.pc
+@mode 4750
+@group _dbus
+@bin libexec/dbus-daemon-launch-helper
+@mode
+@group
+@man man/man1/dbus-cleanup-sockets.1
+@man man/man1/dbus-daemon.1
+@man man/man1/dbus-launch.1
+@man man/man1/dbus-monitor.1
+@man man/man1/dbus-send.1
+@man man/man1/dbus-uuidgen.1
+share/dbus-1/
+share/dbus-1/services/
+share/dbus-1/system-services/
+share/doc/dbus/
+share/doc/dbus/dbus-faq.html
+share/doc/dbus/dbus-specification.html
+share/doc/dbus/dbus-test-plan.html
+share/doc/dbus/dbus-tutorial.html
+share/doc/dbus/diagram.png
+share/doc/dbus/diagram.svg
+share/doc/dbus/system-activation.txt
+share/doc/pkg-readmes/${FULLPKGNAME}
+share/examples/dbus/
+share/examples/dbus/dbus-1/
+@sample ${SYSCONFDIR}/dbus-1/
+share/examples/dbus/dbus-1/session.conf
+@sample ${SYSCONFDIR}/dbus-1/session.conf
+share/examples/dbus/dbus-1/session.d/
+@sample ${SYSCONFDIR}/dbus-1/session.d/
+share/examples/dbus/dbus-1/system.conf
+@sample ${SYSCONFDIR}/dbus-1/system.conf
+share/examples/dbus/dbus-1/system.d/
+@sample ${SYSCONFDIR}/dbus-1/system.d/
+@sample /var/db/dbus/
+@exec ${PREFIX}/bin/dbus-uuidgen --ensure
+@extra /var/db/dbus/machine-id
+@rcscript ${RCDIR}/dbus_daemon

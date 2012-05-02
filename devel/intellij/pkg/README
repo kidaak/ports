@@ -1,0 +1,16 @@
+$OpenBSD: ports/devel/intellij/pkg/README,v 1.2 2011/06/02 13:41:38 ajacoutot Exp $
+
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+Windowing Problems
+==================
+If the splash-screen displays but you then only see a grey main screen,
+install the wmname package and run 'wmname LG3D'. This is a problem that
+has been seen with some Java-based applications used with a non-reparenting
+window manager (e.g. cwm).
+
+Native Libraries
+================
+Functionality depending on native libraries is not likely to work.

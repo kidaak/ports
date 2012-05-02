@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/textproc/mozilla-dicts/pkg/PLIST-ro,v 1.3 2010/11/12 21:41:35 martynas Exp $
+share/mozilla-dicts/
+share/mozilla-dicts/ro.aff
+share/mozilla-dicts/ro.dic
+share/mozilla-dicts/ro_RO-cedilla.aff
+share/mozilla-dicts/ro_RO-cedilla.dic
+share/mozilla-dicts/ro_RO-classic.aff
+share/mozilla-dicts/ro_RO-classic.dic
+share/mozilla-dicts/ro_RO-classiccedilla.aff
+share/mozilla-dicts/ro_RO-classiccedilla.dic

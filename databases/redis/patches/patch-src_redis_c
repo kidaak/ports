@@ -1,0 +1,71 @@
+$OpenBSD: ports/databases/redis/patches/patch-src_redis_c,v 1.9 2012/04/02 12:14:31 dcoppa Exp $
+--- src/redis.c.orig	Fri Mar 30 13:07:18 2012
++++ src/redis.c	Mon Apr  2 14:09:02 2012
+@@ -33,7 +33,9 @@
+ 
+ #ifdef HAVE_BACKTRACE
+ #include <execinfo.h>
++  #ifndef __OpenBSD__
+ #include <ucontext.h>
++  #endif
+ #endif /* HAVE_BACKTRACE */
+ 
+ #include <time.h>
+@@ -43,6 +45,7 @@
+ #include <assert.h>
+ #include <ctype.h>
+ #include <stdarg.h>
++#include <netinet/in.h>
+ #include <arpa/inet.h>
+ #include <sys/stat.h>
+ #include <fcntl.h>
+@@ -1801,7 +1804,9 @@ int main(int argc, char **argv) {
+ 
+ #ifdef HAVE_BACKTRACE
+ static void *getMcontextEip(ucontext_t *uc) {
+-#if defined(__FreeBSD__)
++#if defined(__OpenBSD__)
++    return NULL;
++#elif defined(__FreeBSD__)
+     return (void*) uc->uc_mcontext.mc_eip;
+ #elif defined(__dietlibc__)
+     return (void*) uc->uc_mcontext.eip;
+@@ -1830,14 +1835,6 @@ static void *getMcontextEip(ucontext_t *uc) {
+ #endif
+ }
+ 
+-void bugReportStart(void) {
+-    if (server.bug_report_start == 0) {
+-        redisLog(REDIS_WARNING,
+-            "=== REDIS BUG REPORT START: Cut & paste starting from here ===");
+-        server.bug_report_start = 1;
+-    }
+-}
+-
+ static void sigsegvHandler(int sig, siginfo_t *info, void *secret) {
+     void *trace[100];
+     char **messages = NULL;
+@@ -1913,7 +1910,7 @@ static void sigsegvHandler(int sig, siginfo_t *info, v
+ "=== REDIS BUG REPORT END. Make sure to include from START to END. ===\n\n"
+ "       Please report the crash opening an issue on github:\n\n"
+ "           http://github.com/antirez/redis/issues\n\n"
+-"  Suspect RAM error? Use redis-server --test-memory to veryfy it.\n\n"
++"  Suspect RAM error? Use redis-server --test-memory to verify it.\n\n"
+ );
+     /* free(messages); Don't call free() with possibly corrupted memory. */
+     if (server.daemonize) unlink(server.pidfile);
+@@ -1929,6 +1926,14 @@ static void sigsegvHandler(int sig, siginfo_t *info, v
+     kill(getpid(),sig);
+ }
+ #endif /* HAVE_BACKTRACE */
++
++void bugReportStart(void) {
++    if (server.bug_report_start == 0) {
++        redisLog(REDIS_WARNING,
++            "=== REDIS BUG REPORT START: Cut & paste starting from here ===");
++        server.bug_report_start = 1;
++    }
++}
+ 
+ static void sigtermHandler(int sig) {
+     REDIS_NOTUSED(sig);

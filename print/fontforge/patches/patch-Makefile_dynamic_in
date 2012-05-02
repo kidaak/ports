@@ -1,0 +1,11 @@
+$OpenBSD: ports/print/fontforge/patches/patch-Makefile_dynamic_in,v 1.4 2008/10/27 17:58:52 kili Exp $
+--- Makefile.dynamic.in.orig	Tue Jul 29 02:01:36 2008
++++ Makefile.dynamic.in	Sun Oct 26 14:25:29 2008
+@@ -75,7 +75,6 @@ install_libs: libs
+ 	if test -r libgdraw.la ; then $(LIBTOOL) --mode=install $(INSTALL) -c libgdraw.la $(DESTDIR)$(libdir)/libgdraw.la ; fi
+ #We don't always build libfontforge
+ 	if test -r libfontforge.la ; then $(LIBTOOL) --mode=install $(INSTALL) -c libfontforge.la $(DESTDIR)$(libdir)/libfontforge.la ; fi
+-	$(LIBTOOL) --mode=finish $(DESTDIR)$(libdir)
+ 	mkdir -p $(DESTDIR)$(libdir)/pkgconfig
+ 	$(INSTALL_DATA) fontforge.pc $(DESTDIR)$(libdir)/pkgconfig
+ 

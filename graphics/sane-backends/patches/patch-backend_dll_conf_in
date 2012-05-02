@@ -1,0 +1,28 @@
+$OpenBSD: ports/graphics/sane-backends/patches/patch-backend_dll_conf_in,v 1.6 2011/03/03 13:43:50 ajacoutot Exp $
+--- backend/dll.conf.in.orig	Sun Jan 16 02:01:28 2011
++++ backend/dll.conf.in	Mon Feb 14 06:49:59 2011
+@@ -30,7 +30,7 @@ genesys
+ gt68xx
+ hp
+ hp3900
+-hpsj5s
++#hpsj5s
+ hp3500
+ hp4200
+ hp5400
+@@ -61,7 +61,7 @@ pixma
+ plustek
+ #plustek_pp
+ #pnm
+-qcam
++#qcam
+ ricoh
+ rts8891
+ s9036
+@@ -82,5 +82,5 @@ u12
+ umax
+ #umax_pp
+ umax1220u
+-v4l
++#v4l
+ xerox_mfp

@@ -1,0 +1,13 @@
+$OpenBSD: ports/graphics/pstoedit/patches/patch-configure,v 1.4 2010/07/22 19:44:07 steven Exp $
+--- configure.orig	Wed Jul 21 22:50:32 2010
++++ configure	Wed Jul 21 22:50:42 2010
+@@ -18160,9 +18160,7 @@ $as_echo "GNU on RiscOS" >&6; }
+     { $as_echo "$as_me:$LINENO: result: GNU" >&5
+ $as_echo "GNU" >&6; }
+ #   need to disable long long warning here because of ImageMagick using it
+-    SPECIAL_CXXFLAGS="-DBUGGYGPP -pedantic -Wall -Wwrite-strings -Wcast-qual -Wpointer-arith -Wno-long-long "
+   fi
+-  CXXFLAGS="-g"
+ elif test `echo "$CXX" | egrep -c 'xlC$'` -eq 1; then
+   { $as_echo "$as_me:$LINENO: result: AIX xlC" >&5
+ $as_echo "AIX xlC" >&6; }

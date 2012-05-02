@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/x11/jwm/pkg/PLIST,v 1.2 2011/11/07 09:17:07 dcoppa Exp $
+@bin bin/jwm
+@man man/man1/jwm.1
+share/examples/jwm/
+share/examples/jwm/system.jwmrc
+@sample ${SYSCONFDIR}/system.jwmrc

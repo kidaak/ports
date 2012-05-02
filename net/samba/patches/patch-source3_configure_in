@@ -1,0 +1,13 @@
+$OpenBSD: ports/net/samba/patches/patch-source3_configure_in,v 1.1 2012/04/10 22:01:20 sthen Exp $
+--- source3/configure.in.orig	Sat Apr  7 14:23:20 2012
++++ source3/configure.in	Tue Apr 10 22:56:36 2012
+@@ -1640,8 +1640,7 @@ DSO_EXPORTS=""
+ 			;;
+ 		*openbsd*)  BLDSHARED="true"
+ 			LDSHFLAGS="-shared"
+-			DYNEXP="-Wl,-Bdynamic"
+-			SONAMEFLAG="-Wl,-soname,"
++			DYNEXP="-Wl,--export-dynamic"
+ 			PICFLAG="-fPIC"
+ 			AC_DEFINE(STAT_ST_BLOCKSIZE,512,[The size of a block])
+ 			AC_DEFINE(BROKEN_GETGRNAM,1,[Does getgrnam work correctly])

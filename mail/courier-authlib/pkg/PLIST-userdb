@@ -1,0 +1,13 @@
+@comment $OpenBSD: ports/mail/courier-authlib/pkg/PLIST-userdb,v 1.2 2009/10/28 14:18:05 giovanni Exp $
+%%SHARED%%
+@comment lib/libauthuserdb.a
+@comment lib/libauthuserdb.la
+@bin libexec/courier-authlib/makedatprog
+@comment @man man/man8/makeuserdb.8
+@comment @man man/man8/userdb.8
+@comment @man man/man8/userdbpw.8
+sbin/makeuserdb
+sbin/pw2userdb
+sbin/userdb
+sbin/userdb-test-cram-md5
+@bin sbin/userdbpw

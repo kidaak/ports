@@ -1,0 +1,25 @@
+@comment $OpenBSD: ports/x11/e17/efreet/pkg/PLIST,v 1.6 2011/03/15 19:41:00 jasper Exp $
+%%SHARED%%
+include/efreet-1/
+include/efreet-1/Efreet.h
+include/efreet-1/Efreet_Mime.h
+include/efreet-1/Efreet_Trash.h
+include/efreet-1/efreet_base.h
+include/efreet-1/efreet_desktop.h
+include/efreet-1/efreet_icon.h
+include/efreet-1/efreet_ini.h
+include/efreet-1/efreet_menu.h
+include/efreet-1/efreet_uri.h
+include/efreet-1/efreet_utils.h
+lib/efreet/
+@bin lib/efreet/efreet_desktop_cache_create
+lib/libefreet.a
+lib/libefreet.la
+lib/libefreet_mime.a
+lib/libefreet_mime.la
+lib/libefreet_trash.a
+lib/libefreet_trash.la
+lib/pkgconfig/
+lib/pkgconfig/efreet-mime.pc
+lib/pkgconfig/efreet-trash.pc
+lib/pkgconfig/efreet.pc

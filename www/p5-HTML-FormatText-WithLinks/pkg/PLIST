@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/www/p5-HTML-FormatText-WithLinks/pkg/PLIST,v 1.1.1.1 2009/01/21 17:35:37 simon Exp $
+${P5SITE}/HTML/FormatText/
+${P5SITE}/HTML/FormatText/WithLinks.pm
+@man man/man3p/HTML::FormatText::WithLinks.3p

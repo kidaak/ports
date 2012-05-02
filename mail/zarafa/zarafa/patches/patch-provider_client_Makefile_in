@@ -1,0 +1,15 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_client_Makefile_in,v 1.16 2012/03/15 17:04:31 ajacoutot Exp $
+
+*** Warning: This system can not link to static lib archive ../../common/libcommon_XXX.la.
+
+--- provider/client/Makefile.in.orig	Tue Mar 13 11:28:13 2012
++++ provider/client/Makefile.in	Thu Mar 15 16:42:28 2012
+@@ -321,7 +321,7 @@ AM_CPPFLAGS = $(DEBUGFLAGS) $(BOOST_CPPFLAGS) -DLINUX	
+ 	-I${top_srcdir}/common						\
+ 	-I${top_srcdir}/zarafa-libsync
+ 
+-libzarafaclient_la_LDFLAGS = -avoid-version
++libzarafaclient_la_LDFLAGS =
+ libzarafaclient_la_LIBADD = $(GSOAP_LIBS) $(SSL_LIBS)	\
+ 	${top_builddir}/provider/soap/libgsoap.la			\
+ 	${top_builddir}/provider/soap/libsoapclient.la		\

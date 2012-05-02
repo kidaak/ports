@@ -1,0 +1,8 @@
+# $OpenBSD: ports/x11/kde/base3/files/kdesurc,v 1.1 2007/10/06 22:46:04 ajacoutot Exp $
+#
+# This file specifies the backend to get superuser privileges
+# sudo or su
+#
+
+[super-user-command]
+super-user-command=sudo

@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/www/p5-LWP-UserAgent-Determined/pkg/PLIST,v 1.1.1.1 2004/12/21 20:44:28 sturm Exp $
+${P5SITE}/LWP/UserAgent/
+${P5SITE}/LWP/UserAgent/Determined.pm
+@man man/man3p/LWP::UserAgent::Determined.3p

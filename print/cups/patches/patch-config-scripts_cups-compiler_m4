@@ -1,0 +1,32 @@
+$OpenBSD: ports/print/cups/patches/patch-config-scripts_cups-compiler_m4,v 1.5 2011/09/08 10:33:12 ajacoutot Exp $
+--- config-scripts/cups-compiler.m4.orig	Fri Jun 10 23:16:18 2011
++++ config-scripts/cups-compiler.m4	Fri Sep  2 09:33:11 2011
+@@ -108,7 +108,7 @@ if test -n "$GCC"; then
+ 	if test -z "$OPTIM"; then
+ 		if test "x$with_optim" = x; then
+ 			# Default to optimize-for-size and debug
+-       			OPTIM="-Os -g"
++       			OPTIM=""
+ 		else
+ 			OPTIM="$with_optim $OPTIM"
+ 		fi
+@@ -136,16 +136,9 @@ if test -n "$GCC"; then
+ 	# that depend on a fixed address for common functions.
+ 	AC_MSG_CHECKING(if GCC supports -fPIE)
+ 	OLDCFLAGS="$CFLAGS"
+-	CFLAGS="$CFLAGS -fPIE"
+-	AC_TRY_COMPILE(,,
+-		[case "$CC" in
+-			*clang)
+-				PIEFLAGS="-fPIE -Wl,-pie"
+-				;;
+-			*)
+-				PIEFLAGS="-fPIE -pie"
+-				;;
+-		esac
++	CFLAGS="$CFLAGS -fPIE -pie"
++	AC_RUN_IFELSE(AC_LANG_PROGRAM(),
++		[PIEFLAGS="-fPIE -pie"
+ 		AC_MSG_RESULT(yes)],
+ 		AC_MSG_RESULT(no))
+ 	CFLAGS="$OLDCFLAGS"

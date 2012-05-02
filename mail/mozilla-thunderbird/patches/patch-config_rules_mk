@@ -1,0 +1,16 @@
+$OpenBSD: ports/mail/mozilla-thunderbird/patches/patch-config_rules_mk,v 1.10 2012/01/11 01:10:24 nigel Exp $
+--- config/rules.mk.orig	Thu Dec 15 01:11:08 2011
++++ config/rules.mk	Mon Dec 19 22:30:23 2011
+@@ -573,6 +573,12 @@ endif
+ endif
+ endif
+ 
++ifeq ($(OS_ARCH),OpenBSD)
++ifdef IS_COMPONENT
++EXTRA_DSO_LDOPTS += -Wl,-Bsymbolic
++endif
++endif
++
+ #
+ # HP-UXBeOS specific section: for COMPONENTS only, add -Bsymbolic flag
+ # which uses internal symbols first

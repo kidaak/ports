@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/net/argus/pkg/argus.rc,v 1.5 2010/12/27 14:50:22 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/sbin/argus"
+
+. /etc/rc.d/rc.subr
+
+rc_reload=NO
+
+rc_cmd $1

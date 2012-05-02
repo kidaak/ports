@@ -1,0 +1,11 @@
+$OpenBSD: ports/textproc/gsed/patches/patch-lib_regex_internal_h,v 1.2 2012/02/28 08:46:27 dcoppa Exp $
+--- lib/regex_internal.h.orig	Wed Jun  3 21:10:51 2009
++++ lib/regex_internal.h	Mon Feb 27 12:17:54 2012
+@@ -458,7 +458,6 @@ static unsigned int re_string_context_at (const re_str
+ #define re_string_skip_bytes(pstr,idx) ((pstr)->cur_idx += (idx))
+ #define re_string_set_index(pstr,idx) ((pstr)->cur_idx = (idx))
+ 
+-#include <alloca.h>
+ 
+ #ifndef _LIBC
+ # if HAVE_ALLOCA

@@ -1,0 +1,12 @@
+$OpenBSD: ports/sysutils/deja-dup/patches/patch-data_Makefile_in,v 1.2 2012/03/23 11:38:05 ajacoutot Exp $
+--- data/Makefile.in.orig	Thu Mar 22 13:03:37 2012
++++ data/Makefile.in	Fri Mar 23 12:13:36 2012
+@@ -626,7 +626,7 @@ uninstall-am: uninstall-autostartDATA uninstall-deskto
+ 
+ deja-dup-preferences.desktop.in: deja-dup-preferences.desktop.in.in
+ 	$(install_sh_DATA) $^ $@
+-@HAVE_CCPANEL_TRUE@	sed -i "s/^Categories=.*/\0\n\nNotShowIn=$(shell grep OnlyShowIn $(srcdir)/deja-dup-ccpanel.desktop.in | cut -d= -f2)/" $@
++@HAVE_CCPANEL_TRUE@	perl -pi -e "s/^Categories=.*/\0\n\nNotShowIn=$(shell grep OnlyShowIn $(srcdir)/deja-dup-ccpanel.desktop.in | cut -d= -f2)/" $@
+ 
+ deja-dup-monitor.desktop.in: deja-dup-monitor.desktop.in.in
+ 	sed "s|@pkglibexecdir@|$(pkglibexecdir)|g" $^ > $@

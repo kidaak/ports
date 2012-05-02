@@ -1,0 +1,2 @@
+@comment $OpenBSD: ports/x11/xmold/pkg/PLIST,v 1.2 2000/12/26 16:07:12 kevlo Exp $
+bin/xmold

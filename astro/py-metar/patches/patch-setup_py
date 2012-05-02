@@ -1,0 +1,13 @@
+$OpenBSD: ports/astro/py-metar/patches/patch-setup_py,v 1.6 2011/11/26 11:04:01 benoit Exp $
+--- setup.py.orig	Fri Jun  3 16:24:32 2011
++++ setup.py	Sat Nov 26 11:55:03 2011
+@@ -25,7 +25,7 @@
+       url = "http://www.schwarzvogel.de/software-pymetar.shtml",
+       packages= [ "" ],
+       py_modules=["pymetar"],
+-      scripts = [ "bin/pymetar" ], 
+-      data_files = [("share/doc/pymetar-%s"%pymetar.__version__,
++      scripts = [ "bin/pymet" ], 
++      data_files = [("share/doc/py-metar",
+        ['README', 'COPYING', 'THANKS', 'librarydoc.txt'])]
+       )

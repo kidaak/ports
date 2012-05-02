@@ -1,0 +1,13 @@
+$OpenBSD: ports/devel/cppunit/patches/patch-src_cppunit_Makefile_in,v 1.2 2008/10/24 14:49:44 jasper Exp $
+--- src/cppunit/Makefile.in.orig	Wed Feb 20 06:59:55 2008
++++ src/cppunit/Makefile.in	Sun Oct 19 23:03:52 2008
+@@ -299,8 +299,7 @@ libcppunit_la_SOURCES = \
+   Win32DynamicLibraryManager.cpp
+ 
+ libcppunit_la_LDFLAGS = \
+- -no-undefined -version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE) \
+- -release $(LT_RELEASE)
++ -no-undefined -version-info $(LT_CURRENT):$(LT_REVISION):$(LT_AGE)
+ 
+ all: all-am
+ 

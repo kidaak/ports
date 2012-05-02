@@ -1,0 +1,40 @@
+$OpenBSD: ports/net/argus/patches/patch-Makefile_in,v 1.2 2010/04/15 19:15:19 steven Exp $
+--- Makefile.in.orig	Wed Oct  7 19:13:20 2009
++++ Makefile.in	Sat Apr 10 12:32:04 2010
+@@ -34,7 +34,7 @@ prefix = @prefix@
+ exec_prefix = @exec_prefix@
+ datarootdir = @datarootdir@
+ srcdir = @srcdir@
+-docdir = @datadir@/doc/argus-3.0
++docdir = @datadir@/doc/argus
+ 
+ 
+ #### End of system configuration section. ####
+@@ -70,10 +70,6 @@ install:  force
+ 		(mkdir -p $(DESTDIR)@sbindir@; chmod 755 $(DESTDIR)@sbindir@)
+ 	[ -d $(DESTDIR)@bindir@ ] || \
+ 		(mkdir -p $(DESTDIR)@bindir@; chmod 755 $(DESTDIR)@bindir@)
+-	[ -d $(DESTDIR)$(exec_prefix)/argus ] || \
+-		(mkdir -p $(DESTDIR)$(exec_prefix)/argus; chmod 755 $(DESTDIR)$(exec_prefix)/argus)
+-	[ -d $(DESTDIR)$(exec_prefix)/argus/archive ] || \
+-		(mkdir -p $(DESTDIR)$(exec_prefix)/argus/archive; chmod 755 $(DESTDIR)$(exec_prefix)/argus/archive)
+ 
+ 	@-for d in $(INSTDIRS); \
+ 	do \
+@@ -100,7 +96,6 @@ install-doc:  force
+ 	$(INSTALL) -m 0644 $(srcdir)/doc/FAQ $(DESTDIR)$(docdir)
+ 	$(INSTALL) -m 0644 $(srcdir)/doc/HOW-TO $(DESTDIR)$(docdir)
+ 	$(INSTALL) -m 0644 $(srcdir)/README $(DESTDIR)$(docdir)
+-	$(INSTALL) -m 0644 $(srcdir)/COPYING $(DESTDIR)$(docdir)
+ 
+ uninstall:
+ 	rm -f $(DESTDIR)@mandir@/man5/argus.5
+@@ -117,7 +112,7 @@ uninstall:
+ 
+ installdirs:
+ 	${srcdir}/config/mkinstalldirs $(DESTDIR)$(bindir) $(DESTDIR)$(mandir)\
+-		$(DESTDIR)$(docdir) $(DESTDIR)$(exec_prefix)/argus/archive
++		$(DESTDIR)$(docdir)
+ 
+ Makefile: Makefile.in config.status
+ 	$(SHELL) config.status

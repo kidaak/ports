@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/devel/p5-PerlIO-via-Bzip2/pkg/PLIST,v 1.1.1.1 2008/11/11 14:12:01 kevlo Exp $
+${P5SITE}/PerlIO/
+${P5SITE}/PerlIO/via/
+${P5SITE}/PerlIO/via/Bzip2.pm
+@man man/man3p/PerlIO::via::Bzip2.3p

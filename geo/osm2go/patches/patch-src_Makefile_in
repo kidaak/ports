@@ -1,0 +1,14 @@
+$OpenBSD: ports/geo/osm2go/patches/patch-src_Makefile_in,v 1.2 2010/05/22 12:29:04 landry Exp $
+--- src/Makefile.in.orig	Wed Oct 14 20:32:57 2009
++++ src/Makefile.in	Sat May 22 14:15:51 2010
+@@ -50,8 +50,8 @@ clean:
+ 	rm -f osm2go *.o *~ */*~ \#*\# version.h *.bak
+ 
+ install: $(APP)
+-	install -d $(DESTDIR)$(prefix)$(bindir)
+-	install $(APP) $(DESTDIR)$(prefix)$(bindir)
++	install -d $(PREFIX)$(bindir)
++	install $(APP) $(PREFIX)$(bindir)
+ 
+ dep:
+ 	makedepend -Y -fMakefile.in *.c

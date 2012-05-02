@@ -1,0 +1,98 @@
+@comment $OpenBSD: ports/net/quagga/pkg/PLIST,v 1.13 2012/01/17 17:22:56 sthen Exp $
+@conflict zebra-*
+@newgroup _quagga:525
+@newuser _quagga:525:_quagga:daemon:Quagga Account:/nonexistent:/sbin/nologin
+@extraunexec rm -rf ${STATEDIR}/*
+%%SHARED%%
+@bin bin/vtysh
+include/quagga/
+include/quagga/quagga/
+include/quagga/quagga/buffer.h
+include/quagga/quagga/checksum.h
+include/quagga/quagga/command.h
+include/quagga/quagga/distribute.h
+include/quagga/quagga/filter.h
+include/quagga/quagga/getopt.h
+include/quagga/quagga/hash.h
+include/quagga/quagga/if.h
+include/quagga/quagga/if_rmap.h
+include/quagga/quagga/jhash.h
+include/quagga/quagga/keychain.h
+include/quagga/quagga/linklist.h
+include/quagga/quagga/log.h
+include/quagga/quagga/md5.h
+include/quagga/quagga/memory.h
+include/quagga/quagga/memtypes.h
+include/quagga/quagga/network.h
+include/quagga/quagga/ospfapi/
+include/quagga/quagga/ospfapi/ospf_apiclient.h
+include/quagga/quagga/ospfd/
+include/quagga/quagga/ospfd/ospf_api.h
+include/quagga/quagga/ospfd/ospf_asbr.h
+include/quagga/quagga/ospfd/ospf_dump.h
+include/quagga/quagga/ospfd/ospf_ism.h
+include/quagga/quagga/ospfd/ospf_lsa.h
+include/quagga/quagga/ospfd/ospf_lsdb.h
+include/quagga/quagga/ospfd/ospf_nsm.h
+include/quagga/quagga/ospfd/ospf_opaque.h
+include/quagga/quagga/ospfd/ospfd.h
+include/quagga/quagga/plist.h
+include/quagga/quagga/pqueue.h
+include/quagga/quagga/prefix.h
+include/quagga/quagga/privs.h
+include/quagga/quagga/route_types.h
+include/quagga/quagga/routemap.h
+include/quagga/quagga/sigevent.h
+include/quagga/quagga/smux.h
+include/quagga/quagga/sockopt.h
+include/quagga/quagga/sockunion.h
+include/quagga/quagga/str.h
+include/quagga/quagga/stream.h
+include/quagga/quagga/table.h
+include/quagga/quagga/thread.h
+include/quagga/quagga/vector.h
+include/quagga/quagga/version.h
+include/quagga/quagga/vty.h
+include/quagga/quagga/workqueue.h
+include/quagga/quagga/zassert.h
+include/quagga/quagga/zclient.h
+include/quagga/quagga/zebra.h
+@info info/quagga.info
+lib/libospf.a
+lib/libospf.la
+lib/libospfapiclient.a
+lib/libospfapiclient.la
+lib/libzebra.a
+lib/libzebra.la
+@man man/man1/vtysh.1
+@man man/man8/bgpd.8
+@man man/man8/isisd.8
+@man man/man8/ospf6d.8
+@man man/man8/ospfd.8
+@man man/man8/ripd.8
+@man man/man8/ripngd.8
+@man man/man8/zebra.8
+@bin sbin/bgpd
+@bin sbin/ospf6d
+@bin sbin/ospfclient
+@bin sbin/ospfd
+@bin sbin/ripd
+@bin sbin/ripngd
+@bin sbin/watchquagga
+@bin sbin/zebra
+share/doc/quagga/
+share/doc/quagga/README
+share/doc/quagga/SERVICES
+share/examples/quagga/
+share/examples/quagga/bgpd.conf.sample
+share/examples/quagga/bgpd.conf.sample2
+share/examples/quagga/ospf6d.conf.sample
+share/examples/quagga/ospfd.conf.sample
+share/examples/quagga/ripd.conf.sample
+share/examples/quagga/ripngd.conf.sample
+share/examples/quagga/vtysh.conf.sample
+share/examples/quagga/zebra.conf.sample
+@owner _quagga
+@group _quagga
+@sample ${SYSCONFDIR}/
+@sample ${STATEDIR}/

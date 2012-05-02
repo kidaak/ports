@@ -1,0 +1,29 @@
+$OpenBSD: ports/audio/abcde/patches/patch-abcde,v 1.6 2010/09/05 21:55:42 sthen Exp $
+--- abcde.orig	Sun Aug 14 20:51:53 2005
++++ abcde	Sun Sep  5 22:55:16 2010
+@@ -2058,7 +2058,7 @@ VAPLAYLISTFORMAT='${ARTISTFILE}-${ALBUMFILE}.${OUTPUT}
+ VAPLAYLISTDATAPREFIX=''
+ DOSPLAYLIST=n
+ COMMENT=''
+-ID3TAGV=2
++ID3TAGV=1
+ ENCNICE=10
+ READNICE=10
+ DISTMP3NICE=10
+@@ -2170,7 +2170,7 @@ elif [ X$(uname) = "XDarwin" ] ; then
+ 	NEEDDISKTOOL=y
+ 	CDROMREADERSYNTAX=cddafs
+ elif [ X$(uname) = "XOpenBSD" ] ; then
+-	HTTPGET=wget
++	HTTPGET=ftp
+ 	MD5SUM=md5
+ else
+ 	HTTPGET=wget
+@@ -2207,6 +2207,7 @@ if [ "$HTTPGETOPTS" = "" ] ; then
+ 		wget) HTTPGETOPTS="-q -O -";;
+ 		curl) HTTPGETOPTS="-f -s";;
+ 		fetch)HTTPGETOPTS="-q -o -";;
++		ftp)  HTTPGETOPTS="-V -o -";;
+ 		*) echo "abcde warning: HTTPGET in non-standard and HTTPGETOPTS are not defined." >&2 ;;
+ 	esac
+ fi

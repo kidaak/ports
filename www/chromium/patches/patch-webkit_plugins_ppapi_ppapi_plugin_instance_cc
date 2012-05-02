@@ -1,0 +1,12 @@
+$OpenBSD: ports/www/chromium/patches/patch-webkit_plugins_ppapi_ppapi_plugin_instance_cc,v 1.9 2012/04/03 13:59:35 robert Exp $
+--- webkit/plugins/ppapi/ppapi_plugin_instance.cc.orig	Tue Mar 27 03:01:11 2012
++++ webkit/plugins/ppapi/ppapi_plugin_instance.cc	Sun Apr  1 20:04:46 2012
+@@ -1417,7 +1417,7 @@ bool PluginInstance::PrintPDFOutput(PP_Resource print_
+ #endif  // defined(OS_WIN)
+ 
+   bool ret = false;
+-#if defined(OS_LINUX) || (defined(OS_MACOSX) && defined(USE_SKIA))
++#if defined(OS_LINUX) || ((defined(OS_MACOSX) || defined(OS_OPENBSD)) && defined(USE_SKIA))
+   // On Linux we just set the final bits in the native metafile
+   // (NativeMetafile and PreviewMetafile must have compatible formats,
+   // i.e. both PDF for this to work).

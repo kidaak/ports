@@ -1,0 +1,21 @@
+$OpenBSD: ports/x11/e17/efreet/patches/patch-src_bin_Makefile_in,v 1.2 2011/03/15 19:41:00 jasper Exp $
+--- src/bin/Makefile.in.orig	Tue Mar  8 16:52:20 2011
++++ src/bin/Makefile.in	Tue Mar  8 16:53:22 2011
+@@ -95,7 +95,7 @@ am__v_at_0 = @
+ CCLD = $(CC)
+ LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \
+ 	$(LIBTOOLFLAGS) --mode=link $(CCLD) $(AM_CFLAGS) $(CFLAGS) \
+-	$(AM_LDFLAGS) $(LDFLAGS) -o $@
++	$(AM_LDFLAGS) $(LDFLAGS) -leet -lecore -o $@
+ AM_V_CCLD = $(am__v_CCLD_$(V))
+ am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))
+ am__v_CCLD_0 = @echo "  CCLD  " $@;
+@@ -354,7 +354,7 @@ efreet_desktop_cache_create$(EXEEXT): $(efreet_desktop
+ 	$(AM_V_CCLD)$(LINK) $(efreet_desktop_cache_create_OBJECTS) $(efreet_desktop_cache_create_LDADD) $(LIBS)
+ efreet_icon_cache_create$(EXEEXT): $(efreet_icon_cache_create_OBJECTS) $(efreet_icon_cache_create_DEPENDENCIES) 
+ 	@rm -f efreet_icon_cache_create$(EXEEXT)
+-	$(AM_V_CCLD)$(LINK) $(efreet_icon_cache_create_OBJECTS) $(efreet_icon_cache_create_LDADD) $(LIBS)
++	$(AM_V_CCLD)$(LINK) $(efreet_icon_cache_create_OBJECTS) $(efreet_icon_cache_create_LDADD) -L$(top_builddir)/src/lib/.libs/ -lefreet $(LIBS)
+ 
+ mostlyclean-compile:
+ 	-rm -f *.$(OBJEXT)

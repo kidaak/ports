@@ -1,0 +1,9 @@
+@comment $OpenBSD: ports/net/isc-dhcp/pkg/PLIST-client,v 1.4 2012/01/14 12:43:25 sthen Exp $
+@conflict isc-dhcp-*
+@man man/man5/dhclient.conf.5
+@man man/man5/dhclient.leases.5
+@man man/man8/dhclient-script.8
+@man man/man8/dhclient.8
+@bin sbin/dhclient
+share/examples/isc-dhcp/
+share/examples/isc-dhcp/dhclient.conf

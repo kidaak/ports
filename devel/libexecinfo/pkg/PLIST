@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/devel/libexecinfo/pkg/PLIST,v 1.5 2011/11/16 15:12:53 jasper Exp $
+%%SHARED%%
+%%no_mips64%%
+@bin bin/backtrace_test
+include/execinfo.h
+lib/libexecinfo.a
+lib/libexecinfo_p.a
+@man man/man3/backtrace.3
+@man man/man3/backtrace_symbols.3
+@man man/man3/backtrace_symbols_fd.3

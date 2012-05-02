@@ -1,0 +1,18 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/mail/zarafa/zarafa/pkg/zarafa_server.rc,v 1.5 2011/03/08 13:37:11 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/bin/zarafa-server"
+
+. /etc/rc.d/rc.subr
+
+rc_pre() {
+	i=0
+	while [ $i -lt 10 ]; do
+		${LOCALBASE}/bin/mysqladmin -s ping && break
+		sleep 1
+		i=$((i+1))
+	done
+}
+
+rc_cmd $1

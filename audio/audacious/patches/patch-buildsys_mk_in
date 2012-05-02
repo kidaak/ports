@@ -1,0 +1,24 @@
+$OpenBSD: ports/audio/audacious/patches/patch-buildsys_mk_in,v 1.4 2012/03/20 19:10:18 stsp Exp $
+--- buildsys.mk.in.orig	Fri Jan 20 20:46:56 2012
++++ buildsys.mk.in	Sun Feb  5 19:13:21 2012
+@@ -35,9 +35,9 @@ LD = ${CC}
+ RANLIB = @RANLIB@
+ PYTHON = @PYTHON@
+ ASFLAGS = @ASFLAGS@
+-CFLAGS = @CFLAGS@
++CFLAGS = -I.. @CFLAGS@
+ CXXFLAGS = @CXXFLAGS@
+-CPPFLAGS = @CPPFLAGS@
++CPPFLAGS = -I.. @CPPFLAGS@
+ DFLAGS = @DFLAGS@
+ ERLCFLAGS = @ERLCFLAGS@
+ OBJCFLAGS = @OBJCFLAGS@
+@@ -100,7 +100,7 @@ PLUGIN_OBJS = ${OBJS:.o=.plugin.o}
+ 
+ MO_FILES = ${LOCALES:.po=.mo}
+ 
+-.SILENT:
++#.SILENT:
+ .SUFFIXES:
+ .SUFFIXES: .beam .c .c.dep .cc .cc.dep .class .cxx .cxx.dep .d .erl .lib.o .java .mo .m .m.dep .mm .mm.dep .o .plugin.o .po .py .pyc .rc .S .S.dep .xpm
+ .PHONY: all subdirs pre-depend depend install install-extra uninstall uninstall-extra clean distclean locales

@@ -1,0 +1,25 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/mail/sympa/pkg/sympa.rc,v 1.5 2011/07/06 17:11:03 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/sbin/sympa"
+
+. /etc/rc.d/rc.subr
+
+rc_reload=NO
+
+rc_start() {
+	[ -f /var/spool/lock/sympa ] && \
+		rm /var/spool/lock/sympa
+	${rcexec} "${daemon} start"
+}
+
+rc_stop() {
+	${daemon} stop
+}
+
+rc_check() {
+	${daemon} status
+}
+
+rc_cmd $1

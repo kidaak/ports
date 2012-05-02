@@ -1,0 +1,32 @@
+--- postgrey.orig	Wed May  4 21:54:15 2011
++++ postgrey	Thu May  5 16:44:16 2011
+@@ -26,4 +26,4 @@ use vars qw(@ISA);
+-my $DEFAULT_DBDIR = '/var/spool/postfix/postgrey';
++my $DEFAULT_DBDIR = '/var/db/postgrey';
+ my $CONFIG_DIR = '/etc/postfix';
+ 
+ sub cidr_parse($)
+@@ -585,8 +585,8 @@ sub main()
+             commandline      => [ $0, @ARGV_saved ],
+             port             => [ $opt{inet} ? $opt{inet} : $opt{unix}."|unix" ],
+             proto            => $opt{inet} ? 'tcp' : 'unix',
+-            user             => $opt{user} || 'postgrey',
+-            group            => $opt{group} || 'nogroup',
++            user             => $opt{user} || '_postgrey',
++            group            => $opt{group} || '_postgrey',
+             dbdir            => $opt{dbdir} || $DEFAULT_DBDIR,
+             setsid           => $opt{daemonize} ? 1 : undef,
+             pid_file         => $opt{daemonize} ? $opt{pidfile} : undef,
+@@ -794,9 +794,9 @@ B<postgrey> [I<options>...]
+  -i, --inet=[HOST:]PORT  listen on PORT, localhost if HOST is not specified
+  -d, --daemonize         run in the background
+      --pidfile=PATH      put daemon pid into this file
+-     --user=USER         run as USER (default: postgrey)
+-     --group=GROUP       run as group GROUP (default: nogroup)
+-     --dbdir=PATH        put db files in PATH (default: /var/spool/postfix/postgrey)
++     --user=USER         run as USER (default: _postgrey)
++     --group=GROUP       run as group GROUP (default: _postgrey)
++     --dbdir=PATH        put db files in PATH (default: /var/db/postgrey)
+      --delay=N           greylist for N seconds (default: 300)
+      --max-age=N         delete entries older than N days since the last time
+                          that they have been seen (default: 35)

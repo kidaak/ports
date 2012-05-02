@@ -1,0 +1,26 @@
+$OpenBSD: ports/multimedia/hdhomerun/patches/patch-Makefile,v 1.5 2010/04/08 05:46:53 jolan Exp $
+--- Makefile.orig	Wed Feb  3 18:47:44 2010
++++ Makefile	Wed Apr  7 19:39:22 2010
+@@ -11,11 +11,11 @@ LIBSRCS += hdhomerun_pkt.c
+ LIBSRCS += hdhomerun_sock_posix.c
+ LIBSRCS += hdhomerun_video.c
+ 
+-CC    := $(CROSS_COMPILE)gcc
++#CC    := $(CROSS_COMPILE)gcc
+ STRIP := $(CROSS_COMPILE)strip
+ 
+-CFLAGS += -Wall -O2 -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wpointer-arith
+-LDFLAGS += -lpthread
++CFLAGS += -Wall -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wpointer-arith
++LDFLAGS += -pthread
+ SHARED = -shared -Wl,-soname,libhdhomerun$(LIBEXT)
+ 
+ ifeq ($(OS),Windows_NT)
+@@ -42,7 +42,6 @@ all : hdhomerun_config$(BINEXT) libhdhomerun$(LIBEXT)
+ 
+ hdhomerun_config$(BINEXT) : hdhomerun_config.c $(LIBSRCS)
+ 	$(CC) $(CFLAGS) $+ $(LDFLAGS) -o $@
+-	$(STRIP) $@
+ 
+ libhdhomerun$(LIBEXT) : $(LIBSRCS)
+ 	$(CC) $(CFLAGS) -fPIC -DDLL_EXPORT $(SHARED) $+ $(LDFLAGS) -o $@

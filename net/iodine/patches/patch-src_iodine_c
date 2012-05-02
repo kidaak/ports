@@ -1,0 +1,18 @@
+$OpenBSD: ports/net/iodine/patches/patch-src_iodine_c,v 1.2 2009/03/30 09:17:45 sthen Exp $
+
+Drop privileges and chroot by default.
+
+--- src/iodine.c.orig	Sat Mar 21 14:07:49 2009
++++ src/iodine.c	Mon Mar 30 10:25:08 2009
+@@ -1009,9 +1009,9 @@ main(int argc, char **argv)
+ 	int autodetect_frag_size;
+ 
+ 	memset(password, 0, 33);
+-	username = NULL;
++	username = "_iodine";
+ 	foreground = 0;
+-	newroot = NULL;
++	newroot = "/var/empty";
+ 	device = NULL;
+ 	chunkid = 0;
+ 

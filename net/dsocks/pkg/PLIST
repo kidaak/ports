@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/net/dsocks/pkg/PLIST,v 1.2 2010/08/23 15:44:26 jasper Exp $
+%%SHARED%%
+bin/dsocks-torify.sh
+bin/dsocks.sh
+lib/libdsocks.a
+%%no_mips64%%

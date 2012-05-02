@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/net/nagios/nsca/pkg/PLIST-main,v 1.2 2011/11/12 00:49:49 sthen Exp $
+@pkgpath net/nagios/nsca
+sbin/nsca
+share/doc/nsca/
+share/doc/nsca/README
+share/doc/nsca/SECURITY
+share/examples/nsca/
+share/examples/nsca/nsca.cfg
+@sample ${SYSCONFDIR}/nsca.cfg
+@rcscript ${RCDIR}/nsca

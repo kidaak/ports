@@ -1,0 +1,12 @@
+$OpenBSD: ports/x11/gnustep/base/patches/patch-Source_NSConnection_m,v 1.2 2011/07/19 06:29:09 sebastia Exp $
+--- Source/NSConnection.m.orig	Sat Jun 18 19:46:28 2011
++++ Source/NSConnection.m	Thu Jul  7 19:32:01 2011
+@@ -2487,7 +2487,7 @@ static NSLock	*cached_proxies_gate = nil;
+   NSPortCoder	*decoder = nil;
+   NSPortCoder	*encoder = nil;
+   NSInvocation	*inv = nil;
+-  unsigned	seq;
++  unsigned	seq = 0;
+ 
+   /* Save this for later */
+   [aRmc decodeValueOfObjCType: @encode(int) at: &seq];

@@ -1,0 +1,12 @@
+$OpenBSD: ports/graphics/sane-backends/patches/patch-backend_Makefile_in,v 1.6 2011/03/03 13:43:50 ajacoutot Exp $
+--- backend/Makefile.in.orig	Sun Jan 30 19:50:55 2011
++++ backend/Makefile.in	Mon Feb 14 06:49:59 2011
+@@ -1641,7 +1641,7 @@ AM_LDFLAGS = @STRICT_LDFLAGS@
+ # The -rpath option is added because we are creating _LTLIBRARIES based
+ # on configure substitution.  This causes automake to not know the
+ # correct $libdir and must be added here.
+-DIST_SANELIBS_LDFLAGS = $(AM_LDFLAGS) -rpath '$(libdir)/sane' -version-number $(V_MAJOR):$(V_MINOR):$(V_REV) $(DYNAMIC_FLAG)
++DIST_SANELIBS_LDFLAGS = $(AM_LDFLAGS) -rpath '$(libdir)/sane' -avoid-version $(DYNAMIC_FLAG)
+ DIST_LIBS_LDFLAGS = $(AM_LDFLAGS) -rpath '$(libdir)' -version-number $(V_MAJOR):$(V_MINOR):$(V_REV)
+ FIRMWARE_DIRS = artec_eplus48u gt68xx snapscan epjitsu
+ 

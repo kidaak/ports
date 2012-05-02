@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/audio/libid3tag/pkg/PLIST,v 1.4 2009/07/20 15:36:19 naddy Exp $
+@conflict mad-*
+%%SHARED%%
+include/id3tag.h
+lib/libid3tag.a
+lib/libid3tag.la
+lib/pkgconfig/
+lib/pkgconfig/id3tag.pc

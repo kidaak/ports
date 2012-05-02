@@ -1,0 +1,14 @@
+$OpenBSD: ports/telephony/asterisk/patches/patch-addons_chan_ooh323_c,v 1.2 2012/04/08 22:34:51 sthen Exp $
+--- addons/chan_ooh323.c.orig	Thu Feb 23 03:36:46 2012
++++ addons/chan_ooh323.c	Fri Mar 30 01:18:06 2012
+@@ -2724,8 +2724,10 @@ int reload_config(int reload)
+ 				gTOS = IPTOS_THROUGHPUT;
+ 			else if (!strcasecmp(v->value, "reliability"))
+ 				gTOS = IPTOS_RELIABILITY;
++#ifdef IPTOS_MINCOST
+ 			else if (!strcasecmp(v->value, "mincost"))
+ 				gTOS = IPTOS_MINCOST;
++#endif
+ 			else if (!strcasecmp(v->value, "none"))
+ 				gTOS = 0;
+ 			else

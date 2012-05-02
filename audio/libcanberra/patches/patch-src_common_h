@@ -1,0 +1,12 @@
+$OpenBSD: ports/audio/libcanberra/patches/patch-src_common_h,v 1.2 2010/04/22 16:29:49 ajacoutot Exp $
+--- src/common.h.orig	Sat Feb 20 00:33:47 2010
++++ src/common.h	Thu Apr 22 18:16:26 2010
+@@ -23,6 +23,8 @@
+   <http://www.gnu.org/licenses/>.
+ ***/
+ 
++#include <stdarg.h>
++
+ #include "canberra.h"
+ #include "macro.h"
+ #include "mutex.h"

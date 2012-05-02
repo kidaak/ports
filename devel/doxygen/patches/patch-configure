@@ -1,0 +1,12 @@
+$OpenBSD: ports/devel/doxygen/patches/patch-configure,v 1.5 2010/11/04 20:13:10 sthen Exp $
+--- configure.orig	Fri Jun 25 10:46:38 2010
++++ configure	Thu Sep 16 11:35:26 2010
+@@ -576,7 +576,7 @@ EOF
+ fi
+ if test "$f_wizard" = YES; then
+   cat >> .tmakeconfig <<EOF
+-TMAKE_MOC = $QTDIR/bin/moc
++TMAKE_MOC = ${MOC}
+ EOF
+ fi
+ 

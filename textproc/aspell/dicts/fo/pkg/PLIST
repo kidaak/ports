@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/textproc/aspell/dicts/fo/pkg/PLIST,v 1.3 2012/01/17 11:01:14 ajacoutot Exp $
+lib/aspell/fo.dat
+lib/aspell/fo_phonet.dat
+share/aspell/faroese.alias
+share/aspell/fo.multi
+share/aspell/fo.rws
+share/aspell/føroyskt.alias

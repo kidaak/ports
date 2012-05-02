@@ -1,0 +1,12 @@
+@comment $OpenBSD: ports/multimedia/libmms/pkg/PLIST,v 1.2 2011/11/24 10:45:36 ajacoutot Exp $
+%%SHARED%%
+include/libmms/
+include/libmms/mms.h
+include/libmms/mms_config.h
+include/libmms/mmsh.h
+include/libmms/mmsio.h
+include/libmms/mmsx.h
+lib/libmms.a
+lib/libmms.la
+lib/pkgconfig/
+lib/pkgconfig/libmms.pc

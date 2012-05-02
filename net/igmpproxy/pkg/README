@@ -1,0 +1,27 @@
+$OpenBSD: ports/net/igmpproxy/pkg/README,v 1.3 2011/06/02 13:41:39 ajacoutot Exp $
+
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+To use igmpproxy on OpenBSD, you will need to configure it by
+editing ${SYSCONFDIR}/igmpproxy.conf, and configure the OS for
+multicast forwarding:
+
+# echo multicast_router=YES >> /etc/rc.conf.local
+# echo net.inet.ip.mforwarding=1 >> /etc/sysctl.conf
+
+and restart. Note that client machines using OpenBSD should
+be configured with multicast_host=YES.
+
+To have igmpproxy start at boot time, add this to /etc/rc.local:
+
+if [ -x ${TRUEPREFIX}/sbin/igmpproxy ]; then
+        echo -n ' igmpproxy';   ${TRUEPREFIX}/sbin/igmpproxy
+fi
+
+PF must be configured so that control packets (proto igmp) and
+data packets (destination address within 224.0.0.0/4) are passed.
+
+igmpproxy is licensed under GPLv2 and is based on mrouted code,
+the applicable licenses are below:

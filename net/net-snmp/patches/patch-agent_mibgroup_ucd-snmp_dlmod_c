@@ -1,0 +1,27 @@
+$OpenBSD: ports/net/net-snmp/patches/patch-agent_mibgroup_ucd-snmp_dlmod_c,v 1.5 2011/07/07 20:02:02 sthen Exp $
+--- agent/mibgroup/ucd-snmp/dlmod.c.orig	Fri Jul  1 23:35:46 2011
++++ agent/mibgroup/ucd-snmp/dlmod.c	Wed Jul  6 23:18:52 2011
+@@ -129,7 +129,11 @@ dlmod_load_module(struct dlmod *dlm)
+             return;
+     }
+     {
++#ifdef __ELF__
+         char sym_init[64 + sizeof("init_")];
++#else
++        char sym_init[64 + sizeof("_init_")];
++#endif
+         int  (*dl_init) (void);
+ 
+         snprintf(sym_init, sizeof(sym_init), "init_%s", dlm->name);
+@@ -157,7 +161,11 @@ dlmod_unload_module(struct dlmod *dlm)
+     if (!dlm || dlm->status != DLMOD_LOADED)
+         return;
+ 
++#ifdef __ELF__
+     snprintf(sym_deinit, sizeof(sym_deinit), "deinit_%s", dlm->name);
++#else
++    snprintf(sym_deinit, sizeof(sym_deinit), "_deinit_%s", dlm->name);
++#endif
+     dl_deinit = dlsym(dlm->handle, sym_deinit);
+     if (!dl_deinit) {
+         snprintf(sym_deinit, sizeof(sym_deinit), "shutdown_%s", dlm->name);

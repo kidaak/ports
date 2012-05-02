@@ -1,0 +1,37 @@
+$OpenBSD: ports/net/wget/patches/patch-doc_Makefile_in,v 1.6 2011/10/12 10:18:33 dcoppa Exp $
+--- doc/Makefile.in.orig	Thu Oct  6 09:25:28 2011
++++ doc/Makefile.in	Thu Oct  6 09:27:11 2011
+@@ -1061,7 +1061,7 @@ manext = 1
+ RM = rm -f
+ TEXI2POD = $(srcdir)/texi2pod.pl
+ MAN = wget.$(manext)
+-WGETRC = $(sysconfdir)/wgetrc
++WGETRCDIR = $(prefix)/share/examples/wget
+ SAMPLERCTEXI = sample.wgetrc.munged_for_texi_inclusion
+ 
+ #
+@@ -1558,22 +1558,8 @@ install.man: $(MAN)
+ 
+ # install sample.wgetrc
+ install.wgetrc: $(srcdir)/sample.wgetrc
+-	$(mkinstalldirs) $(DESTDIR)$(sysconfdir)
+-	@if test -f $(DESTDIR)$(WGETRC); then \
+-	  if cmp -s $(srcdir)/sample.wgetrc $(DESTDIR)$(WGETRC); then echo ""; \
+-	     else \
+-	     echo ' $(INSTALL_DATA) $(srcdir)/sample.wgetrc $(DESTDIR)$(WGETRC).new'; \
+-	     $(INSTALL_DATA) $(srcdir)/sample.wgetrc $(DESTDIR)$(WGETRC).new; \
+-	     echo; \
+-	     echo "WARNING: Differing \`$(DESTDIR)$(WGETRC)'"; \
+-	     echo "         exists and has been spared.  You might want to"; \
+-	     echo "         consider merging in the new lines from"; \
+-	     echo "         \`$(DESTDIR)$(WGETRC).new'."; \
+-	     echo; \
+-	  fi; \
+-	else \
+-	  $(INSTALL_DATA) $(srcdir)/sample.wgetrc $(DESTDIR)$(WGETRC); \
+-	fi
++	$(mkinstalldirs) $(DESTDIR)$(WGETRCDIR)
++	$(INSTALL_DATA) $(srcdir)/sample.wgetrc $(DESTDIR)$(WGETRCDIR)
+ 
+ # uninstall man page
+ uninstall.man:

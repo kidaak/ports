@@ -1,0 +1,16 @@
+@comment $OpenBSD: ports/multimedia/libdvdnav/pkg/PLIST,v 1.4 2009/07/30 19:07:15 jakemsr Exp $
+%%SHARED%%
+bin/dvdnav-config
+include/dvdnav/
+include/dvdnav/dvd_types.h
+include/dvdnav/dvdnav.h
+include/dvdnav/dvdnav_events.h
+lib/libdvdnav.a
+lib/libdvdnav.la
+lib/libdvdnavmini.a
+lib/libdvdnavmini.la
+lib/pkgconfig/
+lib/pkgconfig/dvdnav.pc
+lib/pkgconfig/dvdnavmini.pc
+share/aclocal/
+share/aclocal/dvdnav.m4

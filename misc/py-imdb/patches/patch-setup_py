@@ -1,0 +1,51 @@
+$OpenBSD: ports/misc/py-imdb/patches/patch-setup_py,v 1.5 2010/09/17 13:25:00 millert Exp $
+--- setup.py.orig	Sat Jun 19 13:47:49 2010
++++ setup.py	Thu Sep 16 16:07:17 2010
+@@ -2,6 +2,7 @@
+ 
+ import os
+ import sys
++import re
+ import ez_setup
+ ez_setup.use_setuptools()
+ 
+@@ -70,7 +71,7 @@ scripts = ['./bin/get_first_movie.py',
+ 
+ # XXX: I'm not sure that 'etc' is a good idea.  Making it an absolute
+ #      path seems a recipe for a disaster (with bdist_egg, at least).
+-data_files = [('doc', setuptools.findall('docs')), ('etc', ['docs/imdbpy.cfg'])]
++data_files = [('share/doc/py-imdb', setuptools.findall('docs')), ('share/examples/py-imdb', ['docs/imdbpy.cfg'])]
+ 
+ 
+ # Defining these 'features', it's possible to run commands like:
+@@ -129,7 +130,7 @@ params = {
+         'url': home_page,
+         'download_url': dwnl_url,
+         # Scripts.
+-        'scripts': scripts,
++        #'scripts': scripts,
+         # Documentation files.
+         'data_files': data_files,
+         # C extensions.
+@@ -222,17 +223,17 @@ try:
+         languages = runRebuildmo()
+     else:
+         languages = []
+-    if languages:
+-        data_files.append(('imdb/locale', ['imdb/locale/imdbpy.pot']))
++#    if languages:
++#        data_files.append(('share/locale', ['imdb/locale/imdbpy.pot']))
+     for lang in languages:
+         files_found = setuptools.findall('imdb/locale/%s' % lang)
+         if not files_found:
+             continue
+         base_dir = os.path.dirname(files_found[0])
+-        data_files.append(('imdb/locale', ['imdb/locale/imdbpy-%s.po' % lang]))
++#        data_files.append(('share/locale', ['imdb/locale/imdbpy-%s.po' % lang]))
+         if not base_dir:
+             continue
+-        data_files.append((base_dir, files_found))
++        data_files.append((re.sub('^imdb', 'share', base_dir), files_found))
+     setuptools.setup(**params)
+ except SystemExit:
+     print ERR_MSG

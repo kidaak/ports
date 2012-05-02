@@ -1,0 +1,12 @@
+$OpenBSD: ports/news/leafnode/patches/patch-Makefile_in,v 1.21 2011/06/20 08:52:31 fgsch Exp $
+--- Makefile.in.orig	Thu Jun 16 09:36:56 2011
++++ Makefile.in	Thu Jun 16 09:36:58 2011
+@@ -1412,7 +1412,7 @@ info-am:
+ 
+ install-data-am: install-man
+ 	@$(NORMAL_INSTALL)
+-	$(MAKE) $(AM_MAKEFLAGS) install-data-hook
++
+ install-dvi: install-dvi-recursive
+ 
+ install-dvi-am:

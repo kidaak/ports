@@ -1,0 +1,27 @@
+$OpenBSD: ports/print/gutenprint/patches/patch-doc_developer_Makefile_in,v 1.4 2011/05/04 14:55:02 ajacoutot Exp $
+--- doc/developer/Makefile.in.orig	Mon May  2 03:32:19 2011
++++ doc/developer/Makefile.in	Wed May  4 16:41:29 2011
+@@ -576,11 +576,11 @@ html-stamp: $(MANUAL_SRC_FILES)
+ 
+ install-data-local: $(STANDARD_TARGETS)
+ 	if test -n '$(STANDARD_TARGETS)' ; then \
+-	  $(mkdir_p) $(DESTDIR)$(datadir)/$(PACKAGE)/doc/$(HTMLDIR) ; \
++	  $(mkdir_p) $(DESTDIR)$(docdir)/$(HTMLDIR) ; \
+ 	  if test -f gutenprint.pdf ; then \
+-	    $(INSTALL_DATA) gutenprint.pdf $(DESTDIR)$(datadir)/$(PACKAGE)/doc ; \
++	    $(INSTALL_DATA) gutenprint.pdf $(DESTDIR)$(docdir) ; \
+ 	  elif test -f $(srcdir)/gutenprint.pdf ; then \
+-	    $(INSTALL_DATA) $(srcdir)/gutenprint.pdf $(DESTDIR)$(datadir)/$(PACKAGE)/doc ; \
++	    $(INSTALL_DATA) $(srcdir)/gutenprint.pdf $(DESTDIR)$(docdir) ; \
+ 	  fi ; \
+ 	  if test -d $(HTMLDIR) ; then \
+ 	  HTMLGENDIR="$(HTMLDIR)" ; \
+@@ -591,7 +591,7 @@ install-data-local: $(STANDARD_TARGETS)
+ 	  fi ; \
+ 	  for file in $$HTMLGENDIR/*.html $$HTMLGENDIR/*.css ; do \
+ 	    if test -f $$file ; then \
+-	      $(INSTALL_DATA) $$file $(DESTDIR)$(datadir)/$(PACKAGE)/doc/$(HTMLDIR) ; \
++	      $(INSTALL_DATA) $$file $(DESTDIR)$(docdir)/$(HTMLDIR) ; \
+ 	    fi ; \
+ 	  done ; \
+ 	fi

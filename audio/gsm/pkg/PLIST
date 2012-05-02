@@ -1,0 +1,15 @@
+@comment $OpenBSD: ports/audio/gsm/pkg/PLIST,v 1.8 2009/04/05 19:09:32 kili Exp $
+%%SHARED%%
+bin/tcat
+@bin bin/toast
+bin/untoast
+include/gsm.h
+lib/libgsm.a
+@endfake
+@man man/man1/tcat.1
+@man man/man1/toast.1
+@man man/man1/untoast.1
+@man man/man3/gsm.3
+@man man/man3/gsm_explode.3
+@man man/man3/gsm_option.3
+@man man/man3/gsm_print.3

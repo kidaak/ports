@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/devel/giggle/pkg/PFRAG.shared,v 1.3 2011/10/20 20:45:05 jasper Exp $
+lib/giggle/plugins/${GNOME_VERSION}/libpersonal-details.so
+@lib lib/libgiggle-git.so.${LIBgiggle-git_VERSION}
+@lib lib/libgiggle.so.${LIBgiggle_VERSION}

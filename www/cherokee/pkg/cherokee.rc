@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/www/cherokee/pkg/cherokee.rc,v 1.4 2011/12/17 22:01:13 sthen Exp $
+
+daemon="${TRUEPREFIX}/sbin/cherokee -d"
+
+. /etc/rc.d/rc.subr
+
+pexp="${daemon}[^-]"
+
+rc_cmd $1

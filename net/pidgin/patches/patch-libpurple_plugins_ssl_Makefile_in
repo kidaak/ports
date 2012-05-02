@@ -1,0 +1,93 @@
+$OpenBSD: ports/net/pidgin/patches/patch-libpurple_plugins_ssl_Makefile_in,v 1.26 2011/12/13 14:42:55 jasper Exp $
+--- libpurple/plugins/ssl/Makefile.in.orig	Tue Dec  6 03:45:17 2011
++++ libpurple/plugins/ssl/Makefile.in	Sun Dec 11 03:18:55 2011
+@@ -69,6 +69,12 @@ am__base_list = \
+ am__installdirs = "$(DESTDIR)$(plugindir)"
+ LTLIBRARIES = $(plugin_LTLIBRARIES)
+ am__DEPENDENCIES_1 =
++@PLUGINS_TRUE@ssl_openssl_la_DEPENDENCIES = $(am__DEPENDENCIES_1) \
++@PLUGINS_TRUE@  $(am__DEPENDENCIES_1)
++am__ssl_openssl_la_SOURCES_DIST = ssl-openssl.c
++@PLUGINS_TRUE@am_ssl_openssl_la_OBJECTS = ssl-openssl.lo
++ssl_openssl_la_OBJECTS = $(am_ssl_openssl_la_OBJECTS)
++@PLUGINS_TRUE@am_ssl_openssl_la_rpath = -rpath $(plugindir)
+ @PLUGINS_TRUE@ssl_gnutls_la_DEPENDENCIES = $(am__DEPENDENCIES_1) \
+ @PLUGINS_TRUE@	$(am__DEPENDENCIES_1)
+ am__ssl_gnutls_la_SOURCES_DIST = ssl-gnutls.c
+@@ -146,7 +152,7 @@ am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))
+ am__v_GEN_0 = @echo "  GEN   " $@;
+ SOURCES = $(ssl_gnutls_la_SOURCES) $(ssl_nss_la_SOURCES) \
+ 	$(ssl_la_SOURCES)
+-DIST_SOURCES = $(am__ssl_gnutls_la_SOURCES_DIST) \
++DIST_SOURCES = $(am__ssl_openssl_la_SOURCES_DIST) $(am__ssl_gnutls_la_SOURCES_DIST) \
+ 	$(am__ssl_nss_la_SOURCES_DIST) $(am__ssl_la_SOURCES_DIST)
+ ETAGS = etags
+ CTAGS = ctags
+@@ -215,6 +221,8 @@ GNT_MAJOR_VERSION = @GNT_MAJOR_VERSION@
+ GNT_MICRO_VERSION = @GNT_MICRO_VERSION@
+ GNT_MINOR_VERSION = @GNT_MINOR_VERSION@
+ GNT_VERSION = @GNT_VERSION@
++OPENSSL_CFLAGS = @OPENSSL_CFLAGS@
++OPENSSL_LIBS = @OPENSSL_LIBS@
+ GNUTLS_CFLAGS = @GNUTLS_CFLAGS@
+ GNUTLS_LIBS = @GNUTLS_LIBS@
+ GREP = @GREP@
+@@ -400,6 +408,7 @@ EXTRA_DIST = \
+ 
+ plugindir = $(libdir)/purple-$(PURPLE_MAJOR_VERSION)
+ ssl_la_LDFLAGS = -module -avoid-version
++ssl_openssl_la_LDFLAGS = -module -avoid-version
+ ssl_gnutls_la_LDFLAGS = -module -avoid-version
+ ssl_nss_la_LDFLAGS = -module -avoid-version
+ @PLUGINS_TRUE@@USE_GNUTLS_FALSE@@USE_NSS_FALSE@plugin_LTLIBRARIES = \
+@@ -413,19 +422,25 @@ ssl_nss_la_LDFLAGS = -module -avoid-version
+ @PLUGINS_TRUE@@USE_GNUTLS_TRUE@@USE_NSS_FALSE@	ssl.la           \
+ @PLUGINS_TRUE@@USE_GNUTLS_TRUE@@USE_NSS_FALSE@	ssl-gnutls.la
+ 
++@PLUGINS_TRUE@@USE_OPENSSL_TRUE@@USE_GNUTLS_FALSE@plugin_LTLIBRARIES = \
++@PLUGINS_TRUE@@USE_OPENSSL_TRUE@@USE_GNUTLS_FALSE@	ssl.la       \
++@PLUGINS_TRUE@@USE_OPENSSL_TRUE@@USE_GNUTLS_FALSE@	ssl-openssl.la
+ 
+ # I'm sorry to report that Automake Conditionals don't support
+ #   if USE_GNUTLS && USE_NSS
+ # but only support testing a single variable. Hence:
+ @PLUGINS_TRUE@@USE_GNUTLS_TRUE@@USE_NSS_TRUE@plugin_LTLIBRARIES = \
+ @PLUGINS_TRUE@@USE_GNUTLS_TRUE@@USE_NSS_TRUE@	ssl.la           \
++@PLUGINS_TRUE@@USE_GNUTLS_TRUE@@USE_NSS_TRUE@	ssl-openssl.la   \
+ @PLUGINS_TRUE@@USE_GNUTLS_TRUE@@USE_NSS_TRUE@	ssl-gnutls.la    \
+ @PLUGINS_TRUE@@USE_GNUTLS_TRUE@@USE_NSS_TRUE@	ssl-nss.la
+ 
+ @PLUGINS_TRUE@ssl_la_SOURCES = ssl.c
++@PLUGINS_TRUE@ssl_openssl_la_SOURCES = ssl-openssl.c
+ @PLUGINS_TRUE@ssl_gnutls_la_SOURCES = ssl-gnutls.c
+ @PLUGINS_TRUE@ssl_nss_la_SOURCES = ssl-nss.c
+ @PLUGINS_TRUE@ssl_la_LIBADD = $(GLIB_LIBS)
++@PLUGINS_TRUE@ssl_openssl_la_LIBADD = $(GLIB_LIBS) $(OPENSSL_LIBS)
+ @PLUGINS_TRUE@ssl_gnutls_la_LIBADD = $(GLIB_LIBS) $(GNUTLS_LIBS)
+ @PLUGINS_TRUE@ssl_nss_la_LIBADD = $(GLIB_LIBS) $(NSS_LIBS)
+ AM_CPPFLAGS = \
+@@ -437,6 +452,7 @@ AM_CPPFLAGS = \
+ 	$(GLIB_CFLAGS) \
+ 	$(PLUGIN_CFLAGS)
+ 
++ssl_openssl_la_CFLAGS = $(AM_CPPFLGS) $(OPENSSL_CFLAGS)
+ ssl_gnutls_la_CFLAGS = $(AM_CPPFLAGS) $(GNUTLS_CFLAGS)
+ ssl_nss_la_CFLAGS = $(AM_CPPFLAGS) $(NSS_CFLAGS)
+ all: all-am
+@@ -504,6 +520,8 @@ clean-pluginLTLIBRARIES:
+ 	  echo "rm -f \"$${dir}/so_locations\""; \
+ 	  rm -f "$${dir}/so_locations"; \
+ 	done
++ssl-openssl.la: $(ssl_openssl_la_OBJECTS) $(ssl_openssl_la_DEPENDENCIES)
++	$(LINK) $(am_ssl_openssl_la_rpath) $(ssl_openssl_la_LDFLAGS) $(ssl_openssl_la_OBJECTS) $(ssl_openssl_la_LIBADD) $(LIBS)
+ ssl-gnutls.la: $(ssl_gnutls_la_OBJECTS) $(ssl_gnutls_la_DEPENDENCIES) 
+ 	$(AM_V_CCLD)$(ssl_gnutls_la_LINK) $(am_ssl_gnutls_la_rpath) $(ssl_gnutls_la_OBJECTS) $(ssl_gnutls_la_LIBADD) $(LIBS)
+ ssl-nss.la: $(ssl_nss_la_OBJECTS) $(ssl_nss_la_DEPENDENCIES) 
+@@ -518,6 +536,7 @@ distclean-compile:
+ 	-rm -f *.tab.c
+ 
+ @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/ssl.Plo@am__quote@
++@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/ssl-openssl.Plo@am__quote@
+ @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/ssl_gnutls_la-ssl-gnutls.Plo@am__quote@
+ @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/ssl_nss_la-ssl-nss.Plo@am__quote@
+ 

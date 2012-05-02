@@ -1,0 +1,12 @@
+$OpenBSD: ports/graphics/netpbm/patches/patch-GNUmakefile,v 1.5 2010/07/02 02:54:59 naddy Exp $
+--- GNUmakefile.orig	Wed Jun 30 02:04:26 2010
++++ GNUmakefile	Wed Jun 30 02:04:50 2010
+@@ -361,7 +361,7 @@ install-dev: install.hdr install.staticlib install.lib
+ install.hdr: $(PKGDIR)/include
+ 	$(MAKE) -C lib -f $(SRCDIR)/lib/Makefile \
+ 	    SRCDIR=$(SRCDIR) BUILDDIR=$(BUILDDIR) install.hdr
+-	$(INSTALL) -c -m $(INSTALL_PERM_HDR) \
++	$(BSD_INSTALL_DATA) \
+ 	    $(BUILDDIR)/pm_config.h $(PKGDIR)/include
+ 
+ ifeq ($(STATICLIB_TOO),y)

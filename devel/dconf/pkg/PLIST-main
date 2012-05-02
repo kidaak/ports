@@ -1,0 +1,50 @@
+@comment $OpenBSD: ports/devel/dconf/pkg/PLIST-main,v 1.5 2012/03/29 06:26:38 ajacoutot Exp $
+@conflict vala-<0.10
+@pkgpath devel/dconf
+@extraunexec rm -rf ${SYSCONFDIR}/dconf/db/*
+@extraunexec rm -rf ${SYSCONFDIR}/dconf/profile/*
+@bin bin/dconf
+include/dconf/
+include/dconf-dbus-1/
+include/dconf-dbus-1/dconf-dbus-1.h
+include/dconf/dconf-client.h
+include/dconf/dconf-engine.h
+include/dconf/dconf-paths.h
+include/dconf/dconf.h
+lib/gio/modules/libdconfsettings.so
+@lib lib/libdconf-dbus-1.so.${LIBdconf-dbus-1_VERSION}
+@lib lib/libdconf.so.${LIBdconf_VERSION}
+lib/pkgconfig/dconf-dbus-1.pc
+lib/pkgconfig/dconf.pc
+@bin libexec/dconf-service
+share/dbus-1/services/ca.desrt.dconf.service
+share/examples/dconf/
+share/examples/dconf/bash_completion.d/
+@sample ${SYSCONFDIR}/bash_completion.d/
+share/examples/dconf/bash_completion.d/dconf-bash-completion.sh
+@sample ${SYSCONFDIR}/bash_completion.d/dconf-bash-completion.sh
+share/gtk-doc/
+share/gtk-doc/html/
+share/gtk-doc/html/dconf/
+share/gtk-doc/html/dconf/DConfClient.html
+share/gtk-doc/html/dconf/annotation-glossary.html
+share/gtk-doc/html/dconf/api-index-full.html
+share/gtk-doc/html/dconf/ch01.html
+share/gtk-doc/html/dconf/dconf-DConf-Paths.html
+share/gtk-doc/html/dconf/dconf.devhelp2
+share/gtk-doc/html/dconf/home.png
+share/gtk-doc/html/dconf/index.html
+share/gtk-doc/html/dconf/index.sgml
+share/gtk-doc/html/dconf/left.png
+share/gtk-doc/html/dconf/object-tree.html
+share/gtk-doc/html/dconf/right.png
+share/gtk-doc/html/dconf/style.css
+share/gtk-doc/html/dconf/up.png
+share/vala/
+share/vala/vapi/
+share/vala/vapi/dconf.deps
+share/vala/vapi/dconf.vapi
+@sample ${SYSCONFDIR}/dconf/db/
+@sample ${SYSCONFDIR}/dconf/profile/
+@exec %D/bin/gio-querymodules %D/lib/gio/modules/
+@unexec-delete %D/bin/gio-querymodules %D/lib/gio/modules/

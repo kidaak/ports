@@ -1,0 +1,40 @@
+$OpenBSD: ports/textproc/mxml/patches/patch-Makefile_in,v 1.2 2009/01/17 20:28:28 jakemsr Exp $
+--- Makefile.in.orig	Tue Nov 18 06:25:18 2008
++++ Makefile.in	Tue Nov 18 07:55:52 2008
+@@ -143,13 +143,13 @@ install-libmxml.a:
+ 	$(INSTALL_LIB) libmxml.a $(BUILDROOT)$(libdir)
+ 	$(RANLIB) $(BUILDROOT)$(libdir)/libmxml.a
+ 
+-install-libmxml.so.1.4:
++install-libmxml.so.$(LIBmxml_VERSION):
+ 	$(INSTALL_DIR) $(BUILDROOT)$(libdir)
+-	$(INSTALL_LIB) libmxml.so.1.4 $(BUILDROOT)$(libdir)
+-	$(RM) $(BUILDROOT)$(libdir)/libmxml.so
+-	$(LN) libmxml.so.1.4 $(BUILDROOT)$(libdir)/libmxml.so
+-	$(RM) $(BUILDROOT)$(libdir)/libmxml.so.1
+-	$(LN) libmxml.so.1.4 $(BUILDROOT)$(libdir)/libmxml.so.1
++	$(INSTALL_LIB) libmxml.so.$(LIBmxml_VERSION) $(BUILDROOT)$(libdir)
++#	$(RM) $(BUILDROOT)$(libdir)/libmxml.so
++#	$(LN) libmxml.so.1.4 $(BUILDROOT)$(libdir)/libmxml.so
++#	$(RM) $(BUILDROOT)$(libdir)/libmxml.so.1
++#	$(LN) libmxml.so.1.4 $(BUILDROOT)$(libdir)/libmxml.so.1
+ 
+ install-libmxml.sl.1:
+ 	$(INSTALL_DIR) $(BUILDROOT)$(libdir)
+@@ -244,11 +244,11 @@ mxml-entity.o mxml-file.o mxml-private.o: mxml-private
+ # libmxml.so.1.4
+ #
+ 
+-libmxml.so.1.4:	$(LIBOBJS)
+-	$(DSO) $(DSOFLAGS) -o libmxml.so.1.4 $(LIBOBJS)
+-	$(RM) libmxml.so libmxml.so.1
+-	$(LN) libmxml.so.1.4 libmxml.so
+-	$(LN) libmxml.so.1.4 libmxml.so.1
++libmxml.so.$(LIBmxml_VERSION):	$(LIBOBJS)
++	$(DSO) $(DSOFLAGS) -o libmxml.so.$(LIBmxml_VERSION) $(LIBOBJS)
++#	$(RM) libmxml.so libmxml.so.1
++#	$(LN) libmxml.so.1.4 libmxml.so
++#	$(LN) libmxml.so.1.4 libmxml.so.1
+ 
+ 
+ #

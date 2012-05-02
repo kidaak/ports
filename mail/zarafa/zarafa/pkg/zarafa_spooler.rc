@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/mail/zarafa/zarafa/pkg/zarafa_spooler.rc,v 1.6 2011/07/01 23:23:02 robert Exp $
+
+daemon="${TRUEPREFIX}/bin/zarafa-spooler"
+
+. /etc/rc.d/rc.subr
+
+rc_cmd $1

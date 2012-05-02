@@ -1,0 +1,12 @@
+$OpenBSD: ports/inputmethods/uim-chewing/patches/patch-scm_Makefile_in,v 1.2 2011/05/02 06:58:39 kevlo Exp $
+--- scm/Makefile.in.orig	Mon Aug 16 14:02:00 2010
++++ scm/Makefile.in	Mon May  2 13:34:31 2011
+@@ -407,7 +407,7 @@ uninstall-am: uninstall-uim_plugin_dataDATA
+ 
+ 
+ install-data-hook:
+-	uim-module-manager --register chewing
++#	uim-module-manager --register chewing
+ 
+ # Tell versions [3.59,3.63) of GNU make to not export all variables.
+ # Otherwise a system limit (for SysV at least) may be exceeded.

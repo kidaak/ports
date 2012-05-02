@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/security/libassuan/pkg/PLIST,v 1.3 2010/08/19 12:54:14 jasper Exp $
+%%SHARED%%
+bin/libassuan-config
+include/assuan.h
+@info info/assuan.info
+lib/libassuan.a
+lib/libassuan.la
+share/aclocal/libassuan.m4

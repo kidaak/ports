@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/biology/nutdb/pkg/PLIST,v 1.10 2011/11/28 10:18:53 sthen Exp $
+@bin bin/Nutdb
+@bin bin/nutdb
+lib/nutdb/
+lib/nutdb/FOOD_DES.txt
+lib/nutdb/NUT_DATA.txt
+lib/nutdb/WEIGHT.lib
+lib/nutdb/WEIGHT.txt
+lib/nutdb/sr23.nut
+@man man/man1/nutdb.1

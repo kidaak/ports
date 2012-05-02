@@ -1,0 +1,120 @@
+$OpenBSD: ports/editors/scintilla/patches/patch-gtk_makefile,v 1.9 2011/11/15 19:13:39 jeremy Exp $
+--- gtk/makefile.orig	Mon Aug  1 04:49:04 2011
++++ gtk/makefile	Tue Nov 15 19:33:22 2011
+@@ -6,14 +6,7 @@
+ # Builds for GTK+ 2 and no longer supports GTK+ 1.
+ # Also works with ming32-make on Windows.
+ 
+-.SUFFIXES: .cxx .c .o .h .a
+-ifdef CLANG
+-CC = clang
+-CCOMP = clang
+-else
+-CC = g++
+-CCOMP = gcc
+-endif
++.SUFFIXES: .cxx .c .o .h .a .so
+ AR = ar
+ RANLIB = touch
+ 
+@@ -36,17 +29,20 @@ DEL = del /q
+ COMPLIB=..\bin\scintilla.a
+ else
+ DEL = rm -f
+-COMPLIB=../bin/scintilla.a
++COMPLIB=../bin/libscintilla.a
++LEXERLIB=../bin/libscintilla_lexers.a
++SHAREDLIB=../bin/libscintilla.so.${LIBscintilla_VERSION}
++SHAREDLEXER=../bin/libscintilla_lexers.so.${LIBscintilla_lexers_VERSION}
+ endif
+ 
+ vpath %.h ../src ../include ../lexlib
+ vpath %.cxx ../src ../lexlib ../lexers
+ 
+-INCLUDEDIRS=-I ../include -I ../src -I ../lexlib
++INCLUDEDIRS=-I ../include -I ../src -I ../lexlib -I${LOCALBASE}/include
+ ifdef CHECK_DEPRECATED
+ DEPRECATED=-DGDK_PIXBUF_DISABLE_DEPRECATED -DGDK_DISABLE_DEPRECATED -DGTK_DISABLE_DEPRECATED -DDISABLE_GDK_FONT
+ endif
+-CXXBASEFLAGS=-Wall -Wno-missing-braces -Wno-char-subscripts -Wno-long-long -pedantic -DGTK -DSCI_LEXER $(INCLUDEDIRS) $(DEPRECATED)
++CXXBASEFLAGS=-Wall -Wno-missing-braces -Wno-char-subscripts -Wno-long-long -pedantic -DGTK -DSCI_LEXER -Dunix $(INCLUDEDIRS) $(DEPRECATED)
+ 
+ ifdef NOTHREADS
+ THREADFLAGS=-DG_THREADS_IMPL_NONE
+@@ -57,7 +53,7 @@ endif
+ ifdef DEBUG
+ CXXFLAGS=-DDEBUG -g $(CXXBASEFLAGS) $(THREADFLAGS)
+ else
+-CXXFLAGS=-DNDEBUG -Os $(CXXBASEFLAGS) $(THREADFLAGS)
++CXXFLAGS+=-DNDEBUG $(CXXBASEFLAGS) $(THREADFLAGS)
+ endif
+ 
+ CFLAGS:=$(CXXFLAGS)
+@@ -66,28 +62,62 @@ CONFIGFLAGS:=$(shell pkg-config --cflags $(GTKVERSION)
+ MARSHALLER=scintilla-marshal.o
+ 
+ .cxx.o:
+-	$(CC) $(CONFIGFLAGS) $(CXXFLAGS) -c $<
++	$(CXX) $(CONFIGFLAGS) $(CXXFLAGS) -c $<
++.cxx.so:
++	$(CXX) -fPIC $(CONFIGFLAGS) $(CXXFLAGS) -o $@ -c $<
+ .c.o:
+-	$(CCOMP) $(CONFIGFLAGS) $(CFLAGS) -w -c $<
++	$(CC) $(CONFIGFLAGS) $(CFLAGS) -w -c $<
++.c.so:
++	$(CC) -fPIC $(CONFIGFLAGS) $(CFLAGS) -w -o $@ -c $<
+ 
+ LEXOBJS:=$(addsuffix .o,$(basename $(notdir $(wildcard ../lexers/Lex*.cxx))))
+ 
+-all: $(COMPLIB)
++ifeq (${NO_SHARED_LIBS},"yes")
++all: static
++else
++all: static shared
++endif
+ 
++static: $(COMPLIB) $(LEXERLIB)
++shared: $(SHAREDLIB) $(SHAREDLEXER)
++
++install: install-shared
++	mkdir -p ${PREFIX}/include/scintilla
++	install -m 444 ../include/*.h ${PREFIX}/include/scintilla
++	install -m 444 ${COMPLIB} ${LEXERLIB} ${PREFIX}/lib
++
++ifeq (${NO_SHARED_LIBS},"yes")
++install-shared:
++else
++install-shared:
++	install -m 444 ${SHAREDLIB} ${SHAREDLEXER} ${PREFIX}/lib
++endif
++
+ clean:
+ 	$(DEL) *.o $(COMPLIB)
+ 
+ deps:
+-	$(CC) -MM $(CONFIGFLAGS) $(CXXFLAGS) *.cxx ../src/*.cxx | sed -e 's/\/usr.* //' | grep [a-zA-Z] >deps.mak
++	$(CXX) -MM $(CONFIGFLAGS) $(CXXFLAGS) *.cxx ../src/*.cxx | sed -e 's/\/usr.* //' | grep [a-zA-Z] >deps.mak
+ 
+-$(COMPLIB): Accessor.o CharacterSet.o LexerBase.o LexerModule.o LexerSimple.o StyleContext.o WordList.o \
++LIBOBJS = Accessor.o CharacterSet.o LexerBase.o LexerModule.o LexerSimple.o StyleContext.o WordList.o \
+ 	CharClassify.o Decoration.o Document.o PerLine.o Catalogue.o CallTip.o \
+ 	ScintillaBase.o ContractionState.o Editor.o ExternalLexer.o PropSetSimple.o PlatGTK.o \
+ 	KeyMap.o LineMarker.o PositionCache.o ScintillaGTK.o CellBuffer.o ViewStyle.o \
+ 	RESearch.o RunStyles.o Selection.o Style.o Indicator.o AutoComplete.o UniConversion.o XPM.o \
+ 	$(MARSHALLER) $(LEXOBJS)
++
++$(COMPLIB): $(LIBOBJS)
+ 	$(AR) rc $@ $^
+ 	$(RANLIB) $@
++
++$(LEXERLIB): $(LEXOBJS)
++	$(AR) rc $@ $^
++	$(RANLIB) $@
++
++$(SHAREDLIB): $(addsuffix .so,$(basename $(LIBOBJS)))
++	$(CXX) -shared -fPIC -o $@ -Wl,-soname,$(notdir $(SHAREDLIB)) $^
++$(SHAREDLEXER): $(addsuffix .so,$(basename $(LEXOBJS)))
++	$(CXX) -shared -fPIC -o $@ -Wl,-soname,$(notdir $(SHAREDLEXER)) $^
+ 
+ # Automatically generate header dependencies with "make deps"
+ include deps.mak

@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/graphics/gegl/pkg/PLIST-plugins,v 1.4 2011/12/28 09:31:58 ajacoutot Exp $
+@conflict gegl-<0.1.8p0
+@comment lib/gegl-0.1/exr-load.la
+lib/gegl-0.1/exr-load.so
+@comment lib/gegl-0.1/exr-save.la
+lib/gegl-0.1/exr-save.so
+@comment lib/gegl-0.1/ff-load.la
+lib/gegl-0.1/ff-load.so

@@ -1,0 +1,23 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/net/samba/pkg/nmbd.rc,v 1.5 2011/12/17 22:01:13 sthen Exp $
+
+daemon="${TRUEPREFIX}/libexec/nmbd -D"
+
+. /etc/rc.d/rc.subr
+
+smbcontrol="${TRUEPREFIX}/bin/smbcontrol"
+
+rc_check() {
+	${smbcontrol} nmbd ping
+}
+
+rc_reload() {
+	${smbcontrol} nmbd reload-config
+}
+
+rc_stop() {
+	${smbcontrol} nmbd shutdown
+}
+
+rc_cmd $1

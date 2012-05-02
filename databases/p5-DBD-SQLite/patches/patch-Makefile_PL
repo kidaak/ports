@@ -1,0 +1,14 @@
+Upstream forces use of bundled sqlite but we use the one from ports.
+
+$OpenBSD: ports/databases/p5-DBD-SQLite/patches/patch-Makefile_PL,v 1.10 2012/01/22 11:29:55 nigel Exp $
+--- Makefile.PL.orig	Tue Nov 29 00:05:51 2011
++++ Makefile.PL	Sun Dec 18 14:06:22 2011
+@@ -124,7 +124,7 @@ SCOPE: {
+ # a system sqlite is also sophisticated enough to have a patching system
+ # that can change the if ( 0 ) to if ( 1 )
+ my ($sqlite_local, $sqlite_base, $sqlite_lib, $sqlite_inc);
+-if ( 0 ) {
++if ( 1 ) {
+ 	require File::Spec;
+ 	if ( $sqlite_base = (grep(/SQLITE_LOCATION=.*/, @ARGV))[0] ) {
+ 		$sqlite_base =~ /=(.*)/;

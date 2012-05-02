@@ -1,0 +1,12 @@
+$OpenBSD: ports/games/wesnoth/patches/patch-src_preferences_cpp,v 1.3 2012/04/07 08:32:32 kirby Exp $
+--- src/preferences.cpp.orig	Sat Jan  7 06:35:17 2012
++++ src/preferences.cpp	Mon Feb 13 17:17:39 2012
+@@ -34,6 +34,8 @@
+ 
+ #include <sys/stat.h> // for setting the permissions of the preferences file
+ 
++#include <unistd.h>
++
+ static lg::log_domain log_filesystem("filesystem");
+ #define ERR_FS LOG_STREAM(err, log_filesystem)
+ 

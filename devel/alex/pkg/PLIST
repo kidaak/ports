@@ -1,0 +1,35 @@
+@comment $OpenBSD: ports/devel/alex/pkg/PLIST,v 1.4 2010/04/22 21:48:30 kili Exp $
+@bin bin/alex
+share/${DISTNAME}/
+share/${DISTNAME}/AlexTemplate
+share/${DISTNAME}/AlexTemplate-debug
+share/${DISTNAME}/AlexTemplate-ghc
+share/${DISTNAME}/AlexTemplate-ghc-debug
+share/${DISTNAME}/AlexWrapper-basic
+share/${DISTNAME}/AlexWrapper-basic-bytestring
+share/${DISTNAME}/AlexWrapper-gscan
+share/${DISTNAME}/AlexWrapper-monad
+share/${DISTNAME}/AlexWrapper-monad-bytestring
+share/${DISTNAME}/AlexWrapper-monadUserState
+share/${DISTNAME}/AlexWrapper-monadUserState-bytestring
+share/${DISTNAME}/AlexWrapper-posn
+share/${DISTNAME}/AlexWrapper-posn-bytestring
+share/${DISTNAME}/AlexWrapper-strict-bytestring
+share/doc/alex/
+@comment share/doc/${DISTNAME}/
+@comment share/doc/${DISTNAME}/LICENSE
+share/doc/alex/about.html
+share/doc/alex/alex-files.html
+share/doc/alex/api.html
+share/doc/alex/bug-reports.html
+share/doc/alex/charsets.html
+share/doc/alex/fptools.css
+share/doc/alex/index.html
+share/doc/alex/introduction.html
+share/doc/alex/invoking.html
+share/doc/alex/license.html
+share/doc/alex/regexps.html
+share/doc/alex/relnotes-20.html
+share/doc/alex/relnotes-210.html
+share/doc/alex/syntax.html
+share/doc/alex/wrappers.html

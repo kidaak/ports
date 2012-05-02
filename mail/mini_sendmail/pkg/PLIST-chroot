@@ -1,0 +1,2 @@
+@comment $OpenBSD: ports/mail/mini_sendmail/pkg/PLIST-chroot,v 1.4 2010/11/15 18:13:55 jasper Exp $
+@bin bin/mini_sendmail

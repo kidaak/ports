@@ -1,0 +1,20 @@
+Tcl (Tool Command Language) is a very powerful but easy to learn dynamic
+programming language, suitable for a very wide range of uses, including
+web and desktop applications, networking, administration, testing and
+many more. Open source and business-friendly, Tcl is a mature yet
+evolving language that is truly cross platform, easily deployed and
+highly extensible.
+
+Tcl/Tk resources:
+  Newsgroup: comp.lang.tcl
+  Wiki: http://wiki.tcl.tk
+  Book: Practical Programming in Tcl and Tk, 4th Edition
+        ISBN: 0-13-038560-3
+
+"Routine maintenance of Tcl/Tk 8.4 has now come to an end.  We intend
+Tcl/Tk 8.4.19 to be the final 8.4.* releases.  The current stable
+releases of Tcl/Tk are 8.5.2, and development has begun on Tcl/Tk 8.6.
+It is possible that a bug fix of great enough importance or severity
+might prompt a release of 8.4.20, but there is no plan for that at the
+moment.  Even that level of support will fade away quickly."
+- Tcl/Tk 8.4.19 Release Announcement April 18, 2008

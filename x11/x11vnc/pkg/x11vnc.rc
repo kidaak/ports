@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/x11/x11vnc/pkg/x11vnc.rc,v 1.9 2011/09/19 21:33:42 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/bin/x11vnc"
+daemon_flags="-localhost -logfile /var/log/x11vnc -ncache 0 -forever -loop100 -auth guess"
+
+. /etc/rc.d/rc.subr
+
+rc_bg=YES
+rc_reload=NO
+
+rc_cmd $1

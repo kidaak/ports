@@ -1,0 +1,21 @@
+$OpenBSD: ports/mail/courier-authlib/patches/patch-configure,v 1.2 2009/10/28 14:18:05 giovanni Exp $
+--- configure.orig	Sat Jun 27 18:09:14 2009
++++ configure	Wed Jul 15 13:21:59 2009
+@@ -19444,7 +19444,7 @@ then
+ 	$COURIERCONFIG >conftest.out || exit 1
+ 	sed -n '/^mail/p' <conftest.out >conftest2.out || exit 1
+ 	. ./conftest2.out
+-	rm -f conftest.out conftest2.out
++	rm -f ./conftest.out ./conftest2.out
+ 
+ 	cmailuser="$mailuser"
+ 	cmailgroup="$mailgroup"
+@@ -19456,7 +19456,7 @@ then
+ 	$bindir/courierauthconfig --configfiles >conftest.out || exit 1
+ 	sed -n '/^mail/p' <conftest.out >conftest2.out || exit 1
+ 	. ./conftest2.out
+-	rm -f conftest.out conftest2.out
++	rm -f ./conftest.out ./conftest2.out
+ 
+ 	cmailuser="$mailuser"
+ 	cmailgroup="$mailgroup"

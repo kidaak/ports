@@ -1,0 +1,55 @@
+# $OpenBSD: ports/mail/thunderbird-i18n/Makefile,v 1.54 2012/01/22 17:11:57 landry Exp $
+
+SUBDIR = ar
+SUBDIR += be
+SUBDIR += bg
+SUBDIR += bn-BD
+SUBDIR += br
+SUBDIR += ca
+SUBDIR += cs
+SUBDIR += da
+SUBDIR += de
+SUBDIR += el
+SUBDIR += en-GB
+SUBDIR += en-US
+SUBDIR += es-AR
+SUBDIR += es-ES
+SUBDIR += et
+SUBDIR += eu
+SUBDIR += fi
+SUBDIR += fr
+SUBDIR += fy-NL
+SUBDIR += ga-IE
+SUBDIR += gd
+SUBDIR += gl
+SUBDIR += he
+SUBDIR += hu
+SUBDIR += id
+SUBDIR += is
+SUBDIR += it
+SUBDIR += ja
+SUBDIR += ko
+SUBDIR += lt
+SUBDIR += nb-NO
+SUBDIR += nl
+SUBDIR += nn-NO
+SUBDIR += pa-IN
+SUBDIR += pl
+SUBDIR += pt-BR
+SUBDIR += pt-PT
+SUBDIR += rm
+SUBDIR += ro
+SUBDIR += ru
+SUBDIR += si
+SUBDIR += sk
+SUBDIR += sl
+SUBDIR += sq
+SUBDIR += sv-SE
+SUBDIR += ta-LK
+SUBDIR += tr
+SUBDIR += uk
+SUBDIR += vi
+SUBDIR += zh-CN
+SUBDIR += zh-TW
+
+.include <bsd.port.subdir.mk>

@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/mail/sieve-connect/pkg/PLIST,v 1.1.1.1 2011/01/19 12:26:22 pea Exp $
+bin/sieve-connect
+@man man/man1/sieve-connect.1

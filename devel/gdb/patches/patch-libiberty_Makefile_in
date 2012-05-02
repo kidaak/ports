@@ -1,0 +1,12 @@
+$OpenBSD: ports/devel/gdb/patches/patch-libiberty_Makefile_in,v 1.2 2012/03/03 19:22:42 pascal Exp $
+--- libiberty/Makefile.in.orig	Wed Nov  2 23:02:55 2011
++++ libiberty/Makefile.in	Wed Feb 29 00:15:13 2012
+@@ -342,7 +342,7 @@ libiberty.html : $(srcdir)/libiberty.texi $(TEXISRC)
+ @MAINT@	echo stamp > stamp-functions
+ 
+ INSTALL_DEST = @INSTALL_DEST@
+-install: install_to_$(INSTALL_DEST) install-subdir
++install:
+ install-strip: install
+ 
+ .PHONY: install install-strip

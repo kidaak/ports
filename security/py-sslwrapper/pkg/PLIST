@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/security/py-sslwrapper/pkg/PLIST,v 1.3 2011/07/07 17:16:18 jasper Exp $
+lib/python${MODPY_VERSION}/site-packages/POW-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
+lib/python${MODPY_VERSION}/site-packages/POW.so

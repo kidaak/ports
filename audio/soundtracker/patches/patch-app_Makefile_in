@@ -1,0 +1,42 @@
+$OpenBSD: ports/audio/soundtracker/patches/patch-app_Makefile_in,v 1.5 2010/04/08 08:47:09 jasper Exp $
+--- app/Makefile.in.orig	Wed Sep 13 16:37:27 2006
++++ app/Makefile.in	Thu Mar 25 10:50:29 2010
+@@ -661,7 +661,7 @@ info-am:
+ 
+ install-data-am:
+ 
+-install-exec-am: install-binPROGRAMS install-exec-local
++install-exec-am: install-binPROGRAMS
+ 
+ install-info: install-info-recursive
+ 
+@@ -709,29 +709,6 @@ uninstall-info: uninstall-info-recursive
+ 	uninstall-info-recursive uninstall-recursive
+ 
+ 
+-install-exec-local:
+-	case `uname` in \
+-	  OpenBSD) \
+-	    chown root.wheel $(bindir)/soundtracker; \
+-	    ;; \
+-	  NetBSD) \
+-	    chown root.wheel $(bindir)/soundtracker; \
+-	    ;; \
+-	  Darwin) \
+-	    chown root:admin $(bindir)/soundtracker; \
+-	    ;; \
+-	  *) \
+-	    chown root:root $(bindir)/soundtracker; \
+-	    ;; \
+-	esac
+-	chmod +s $(bindir)/soundtracker
+-	@echo ""
+-	@echo "***"
+-	@echo "*** Installing SoundTracker suid root."
+-	@echo "*** This improves sound responsivity, but may be a security risk"
+-	@echo "*** if this is a multi-user machine. See file INSTALL."
+-	@echo "***"
+-	@echo ""
+ # Tell versions [3.59,3.63) of GNU make to not export all variables.
+ # Otherwise a system limit (for SysV at least) may be exceeded.
+ .NOEXPORT:

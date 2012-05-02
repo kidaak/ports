@@ -1,0 +1,25 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_soap_soapdefs_h,v 1.4 2011/06/02 12:46:37 ajacoutot Exp $
+
+Needs newlocale(3) and xlocale.h.
+
+--- provider/soap/soapdefs.h.orig	Tue Mar 29 00:04:06 2011
++++ provider/soap/soapdefs.h	Mon Apr  4 12:26:24 2011
+@@ -2,11 +2,18 @@
+ #define SOAPDEFS_H_
+ 
+ /* we want soap to use strtod_l */
++#ifndef __OpenBSD__
+ #define WITH_C_LOCALE
++#endif
+ 
+ #include <platform.h>
+ 
++#ifdef __OpenBSD__ 
++#include <sys/types.h>
++#include <sys/select.h>
++#else
+ #include <bits/types.h>
++#endif
+ #undef __FD_SETSIZE
+ #define __FD_SETSIZE 8192
+ 

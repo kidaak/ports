@@ -1,0 +1,11 @@
+$OpenBSD: ports/games/wesnoth/patches/patch-src_server_server_cpp,v 1.9 2012/04/07 08:32:32 kirby Exp $
+--- src/server/server.cpp.orig	Sun Jan 22 17:50:25 2012
++++ src/server/server.cpp	Mon Feb 13 17:17:39 2012
+@@ -43,6 +43,7 @@
+ #include "simple_wml.hpp"
+ #include "ban.hpp"
+ 
++#include <unistd.h>
+ 
+ #include "user_handler.hpp"
+ #include "sample_user_handler.hpp"

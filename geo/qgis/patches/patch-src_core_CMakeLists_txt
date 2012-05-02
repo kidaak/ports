@@ -1,0 +1,16 @@
+$OpenBSD: ports/geo/qgis/patches/patch-src_core_CMakeLists_txt,v 1.5 2011/07/07 20:34:27 landry Exp $
+--- src/core/CMakeLists.txt.orig	Sun Jun  5 13:59:48 2011
++++ src/core/CMakeLists.txt	Mon Jun 27 15:28:09 2011
+@@ -339,9 +339,9 @@ ENDIF(APPLE)
+ TARGET_LINK_LIBRARIES(qgis_core
+   ${QT_QTMAIN_LIBRARY} 
+   ${QT_QTXML_LIBRARY} 
+-  ${QT_QTCORE_LIBRARY} 
+-  ${QT_QTGUI_LIBRARY} 
+-  ${QT_QTNETWORK_LIBRARY} 
++  ${QT_QTCORE_LIBRARY} ${QT_QTCORE_LIB_DEPENDENCIES}
++  ${QT_QTGUI_LIBRARY} ${QT_QTGUI_LIB_DEPENDENCIES}
++  ${QT_QTNETWORK_LIBRARY} ${QT_QTNETWORK_LIB_DEPENDENCIES}
+   ${QT_QTSVG_LIBRARY} 
+ 
+   ${PROJ_LIBRARY}

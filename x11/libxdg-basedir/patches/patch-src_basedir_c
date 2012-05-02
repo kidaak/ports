@@ -1,0 +1,20 @@
+$OpenBSD: ports/x11/libxdg-basedir/patches/patch-src_basedir_c,v 1.2 2010/12/15 13:22:03 dcoppa Exp $
+--- src/basedir.c.orig	Tue Jul 13 07:48:54 2010
++++ src/basedir.c	Wed Dec 15 14:13:49 2010
+@@ -91,13 +91,12 @@ static void xdgZeroMemory(void* p, int n)
+ static const char
+ 	DefaultRelativeDataHome[] = DIR_SEPARATOR_STR ".local" DIR_SEPARATOR_STR "share",
+ 	DefaultRelativeConfigHome[] = DIR_SEPARATOR_STR ".config",
+-	DefaultDataDirectories1[] = DIR_SEPARATOR_STR "usr" DIR_SEPARATOR_STR "local" DIR_SEPARATOR_STR "share",
+-	DefaultDataDirectories2[] = DIR_SEPARATOR_STR "usr" DIR_SEPARATOR_STR "share",
+-	DefaultConfigDirectories[] = DIR_SEPARATOR_STR "etc" DIR_SEPARATOR_STR "xdg",
++	DefaultDataDirectories[] = "${LOCALBASE}" DIR_SEPARATOR_STR "share",
++	DefaultConfigDirectories[] = "${SYSCONFDIR}" DIR_SEPARATOR_STR "xdg",
+ 	DefaultRelativeCacheHome[] = DIR_SEPARATOR_STR ".cache";
+ 
+ static const char
+-	*DefaultDataDirectoriesList[] = { DefaultDataDirectories1, DefaultDataDirectories2, NULL },
++	*DefaultDataDirectoriesList[] = { DefaultDataDirectories, NULL },
+ 	*DefaultConfigDirectoriesList[] = { DefaultConfigDirectories, NULL };
+ 
+ typedef struct _xdgCachedData

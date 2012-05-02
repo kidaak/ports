@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/geo/mapserver/pkg/PLIST-main,v 1.2 2012/01/24 12:03:19 sthen Exp $
+@bin cgi-bin/mapserv
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

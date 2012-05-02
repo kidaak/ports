@@ -1,0 +1,52 @@
+$OpenBSD: ports/www/apache-httpd/patches/patch-server_mpm_common_c,v 1.4 2011/09/01 13:40:09 giovanni Exp $
+--- server/mpm_common.c.orig	Thu Apr 14 15:43:04 2011
++++ server/mpm_common.c	Wed Aug 31 12:01:22 2011
+@@ -979,18 +979,18 @@ int ap_signal_server(int *exit_status, apr_pool_t *pco
+             *exit_status = 1;
+             return 1;
+         }
+-        status = "httpd (no pid file) not running";
++        status = "httpd2 (no pid file) not running";
+     }
+     else {
+         if (kill(otherpid, 0) == 0) {
+             running = 1;
+             status = apr_psprintf(pconf,
+-                                  "httpd (pid %" APR_PID_T_FMT ") already "
++                                  "httpd2 (pid %" APR_PID_T_FMT ") already "
+                                   "running", otherpid);
+         }
+         else {
+             status = apr_psprintf(pconf,
+-                                  "httpd (pid %" APR_PID_T_FMT "?) not running",
++                                  "httpd2 (pid %" APR_PID_T_FMT "?) not running",
+                                   otherpid);
+         }
+     }
+@@ -1014,7 +1014,7 @@ int ap_signal_server(int *exit_status, apr_pool_t *pco
+ 
+     if (!strcmp(dash_k_arg, "restart")) {
+         if (!running) {
+-            printf("httpd not running, trying to start\n");
++            printf("httpd2 not running, trying to start\n");
+         }
+         else {
+             *exit_status = send_signal(otherpid, SIGHUP);
+@@ -1024,7 +1024,7 @@ int ap_signal_server(int *exit_status, apr_pool_t *pco
+ 
+     if (!strcmp(dash_k_arg, "graceful")) {
+         if (!running) {
+-            printf("httpd not running, trying to start\n");
++            printf("httpd2 not running, trying to start\n");
+         }
+         else {
+             *exit_status = send_signal(otherpid, AP_SIG_GRACEFUL);
+@@ -1041,7 +1041,7 @@ int ap_signal_server(int *exit_status, apr_pool_t *pco
+             *exit_status = send_signal(otherpid, AP_SIG_GRACEFUL_STOP);
+         }
+ #else
+-        printf("httpd MPM \"" MPM_NAME "\" does not support graceful-stop\n");
++        printf("httpd2 MPM \"" MPM_NAME "\" does not support graceful-stop\n");
+ #endif
+         return 1;
+     }

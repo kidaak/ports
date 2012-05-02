@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/net/tclcurl/pkg/PLIST,v 1.5 2011/01/05 19:30:26 stu Exp $
+lib/tcl/tclcurl/
+@lib lib/tcl/tclcurl/libTclCurl7196.so.${LIBTclCurl7196_VERSION}
+lib/tcl/tclcurl/pkgIndex.tcl
+lib/tcl/tclcurl/tclcurl.tcl
+@man man/mann/tclcurl.n
+@man man/mann/tclcurl_multi.n
+@man man/mann/tclcurl_share.n

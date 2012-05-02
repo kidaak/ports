@@ -1,0 +1,12 @@
+$OpenBSD: ports/security/clamav/patches/patch-etc_Makefile_in,v 1.9 2011/03/02 14:36:49 sthen Exp $
+--- etc/Makefile.in.orig	Mon Feb  7 16:43:23 2011
++++ etc/Makefile.in	Mon Feb  7 19:14:39 2011
+@@ -431,6 +431,8 @@ uninstall-am:
+ 
+ 
+ install-data-local:
++
++NOT-install-data-local:
+ 	$(mkinstalldirs) $(DESTDIR)$(CFGINST)
+ 	@test -f $(DESTDIR)$(CFGINST)/clamd.conf || \
+ 	$(INSTALL_DATA) $(srcdir)/clamd.conf $(DESTDIR)$(CFGINST)

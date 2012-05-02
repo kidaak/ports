@@ -1,0 +1,2 @@
+@comment $OpenBSD: ports/databases/xapian-core/pkg/PFRAG.shared,v 1.1.1.1 2009/07/22 08:17:22 ajacoutot Exp $
+@lib lib/libxapian.so.${LIBxapian_VERSION}

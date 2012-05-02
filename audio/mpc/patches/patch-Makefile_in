@@ -1,0 +1,14 @@
+$OpenBSD: ports/audio/mpc/patches/patch-Makefile_in,v 1.4 2012/03/04 16:57:19 dcoppa Exp $
+--- Makefile.in.orig	Sat Feb  4 23:29:55 2012
++++ Makefile.in	Fri Mar  2 10:58:56 2012
+@@ -222,9 +222,7 @@ top_srcdir = @top_srcdir@
+ ACLOCAL_AMFLAGS = -I m4
+ AUTOMAKE_OPTIONS = foreign 1.10 dist-bzip2
+ man_MANS = doc/mpc.1
+-doc_DATA = AUTHORS COPYING NEWS README \
+-	doc/mpd-m3u-handler.sh doc/mpd-pls-handler.sh doc/mppledit \
+-	doc/mpc-completion.bash
++doc_DATA = AUTHORS COPYING NEWS README
+ 
+ EXTRA_DIST = $(man_MANS) $(doc_DATA)
+ src_mpc_headers = \

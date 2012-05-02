@@ -1,0 +1,15 @@
+@comment $OpenBSD: ports/multimedia/libdv/pkg/PLIST,v 1.4 2009/03/06 20:04:56 jasper Exp $
+%%SHARED%%
+@bin bin/dubdv
+@comment bin/dvconnect
+@bin bin/encodedv
+include/libdv/
+include/libdv/dv.h
+include/libdv/dv_types.h
+lib/libdv.a
+lib/libdv.la
+lib/pkgconfig/
+lib/pkgconfig/libdv.pc
+@man man/man1/dubdv.1
+@comment @man man/man1/dvconnect.1
+@man man/man1/encodedv.1

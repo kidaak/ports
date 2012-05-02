@@ -1,0 +1,11 @@
+@comment $OpenBSD: ports/devel/libyajl/pkg/PLIST,v 1.4 2011/05/05 12:17:44 dcoppa Exp $
+%%SHARED%%
+@bin bin/json_reformat
+@bin bin/json_verify
+include/yajl/
+include/yajl/yajl_common.h
+include/yajl/yajl_gen.h
+include/yajl/yajl_parse.h
+include/yajl/yajl_tree.h
+include/yajl/yajl_version.h
+lib/libyajl_s.a

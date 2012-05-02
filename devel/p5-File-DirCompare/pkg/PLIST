@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/devel/p5-File-DirCompare/pkg/PLIST,v 1.1.1.1 2010/05/12 18:44:16 jamesw Exp $
+${P5SITE}/File/
+${P5SITE}/File/DirCompare.pm
+@man man/man3p/File::DirCompare.3p

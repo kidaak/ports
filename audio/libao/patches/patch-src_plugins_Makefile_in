@@ -1,0 +1,12 @@
+$OpenBSD: ports/audio/libao/patches/patch-src_plugins_Makefile_in,v 1.6 2011/06/08 20:00:47 naddy Exp $
+--- src/plugins/Makefile.in.orig	Tue Feb 22 23:54:29 2011
++++ src/plugins/Makefile.in	Wed Jun  8 15:48:58 2011
+@@ -299,7 +299,7 @@ $(RECURSIVE_TARGETS):
+ 	  else \
+ 	    local_target="$$target"; \
+ 	  fi; \
+-	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) $$local_target) \
++	  (cd $$subdir && $(MAKE) $(AM_MAKEFLAGS) LIBTOOL="$(LIBTOOL) --tag=disable-static" $$local_target) \
+ 	  || eval $$failcom; \
+ 	done; \
+ 	if test "$$dot_seen" = "no"; then \

@@ -1,0 +1,14 @@
+@comment $OpenBSD: ports/security/libssh/pkg/PLIST,v 1.2 2011/08/22 15:05:02 rpointel Exp $
+%%SHARED%%
+include/libssh/
+include/libssh/callbacks.h
+include/libssh/legacy.h
+include/libssh/libssh.h
+include/libssh/server.h
+include/libssh/sftp.h
+include/libssh/ssh2.h
+lib/libssh.a
+lib/libssh_threads.a
+lib/pkgconfig/
+lib/pkgconfig/libssh.pc
+lib/pkgconfig/libssh_threads.pc

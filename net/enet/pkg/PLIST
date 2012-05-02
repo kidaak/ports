@@ -1,0 +1,16 @@
+@comment $OpenBSD: ports/net/enet/pkg/PLIST,v 1.3 2011/06/29 09:06:17 jasper Exp $
+%%SHARED%%
+include/enet/
+include/enet/callbacks.h
+include/enet/enet.h
+include/enet/list.h
+include/enet/protocol.h
+include/enet/time.h
+include/enet/types.h
+include/enet/unix.h
+include/enet/utility.h
+include/enet/win32.h
+lib/libenet.a
+lib/libenet.la
+lib/pkgconfig/
+lib/pkgconfig/libenet.pc

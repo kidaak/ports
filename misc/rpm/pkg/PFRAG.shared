@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/misc/rpm/pkg/PFRAG.shared,v 1.11 2011/10/16 07:03:12 ajacoutot Exp $
+@lib lib/librpm.so.${LIBrpm_VERSION}
+@lib lib/librpmbuild.so.${LIBrpmbuild_VERSION}

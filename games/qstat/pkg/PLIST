@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/games/qstat/pkg/PLIST,v 1.4 2011/06/29 19:25:34 jasper Exp $
+@bin bin/qstat
+share/doc/qstat/
+share/doc/qstat/CHANGES.txt
+share/doc/qstat/qstatdoc.html
+share/examples/qstat/
+share/examples/qstat/qstat.cfg
+@sample ${SYSCONFDIR}/qstat.cfg

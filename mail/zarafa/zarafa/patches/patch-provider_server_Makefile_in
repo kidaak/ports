@@ -1,0 +1,24 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_server_Makefile_in,v 1.13 2012/03/15 17:04:31 ajacoutot Exp $
+
+XXX see USE_LIBTOOL=gnu in the port Makefile
+../../common/.libs/libcommon_mapi.so.X.X:
+undefined reference to `MAPILogonEx' (and more)
+
+--- provider/server/Makefile.in.orig	Tue Mar 13 11:28:14 2012
++++ provider/server/Makefile.in	Thu Mar 15 16:42:28 2012
+@@ -294,12 +294,13 @@ zarafa_server_LDADD = \
+ 	${top_builddir}/provider/soap/libgsoap.la								\
+ 	${top_builddir}/provider/soap/libsoapserver.la							\
+ 	${top_builddir}/provider/common/libzarafacommon.la						\
+-	${top_builddir}/common/libcommon_util.la								\
++	${top_builddir}/mapi4linux/src/libmapi.la								\
+ 	${top_builddir}/common/libcommon_mapi.la								\
++	${top_builddir}/common/libcommon_util.la								\
+ 	${top_builddir}/common/libcommon_ssl.la									\
+ 	$(PROG_LIBS)															\
+ 	$(BOOST_FILESYSTEM_LIBS) $(BOOST_SYSTEM_LIBS) $(ICU_LIBS) $(DL_LIBS)	\
+-	$(MYSQL_LIBS) $(SSL_LIBS) $(PAM_LIBS) $(KRB5_LIBS) $(TCMALLOC_LIBS) -lrt
++	$(MYSQL_LIBS) $(SSL_LIBS) $(PAM_LIBS) $(KRB5_LIBS) $(TCMALLOC_LIBS)
+ 
+ zarafa_server_SOURCES = ECServer.cpp  \
+ 						ECSoapServerConnection.h ECSoapServerConnection.cpp \

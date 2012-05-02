@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/devel/p5-File-Slurp/pkg/PLIST,v 1.1.1.1 2004/12/30 02:43:05 msf Exp $
+${P5SITE}/File/
+${P5SITE}/File/Slurp.pm
+@man man/man3p/File::Slurp.3p

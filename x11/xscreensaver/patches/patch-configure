@@ -1,0 +1,64 @@
+$OpenBSD: ports/x11/xscreensaver/patches/patch-configure,v 1.15 2012/01/08 15:36:26 dcoppa Exp $
+--- configure.orig	Thu Sep 29 06:16:35 2011
++++ configure	Thu Jan  5 22:15:46 2012
+@@ -9874,7 +9874,7 @@ if test "${ac_cv_lib_intl_bindtextdomain+set}" = set; 
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lintl  $LIBS"
++LIBS="-lintl  -liconv $LIBS"
+ cat >conftest.$ac_ext <<_ACEOF
+ /* confdefs.h.  */
+ _ACEOF
+@@ -9945,7 +9945,7 @@ if test "${ac_cv_lib_intl_dgettext+set}" = set; then
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lintl  $LIBS"
++LIBS="-lintl  -liconv $LIBS"
+ cat >conftest.$ac_ext <<_ACEOF
+ /* confdefs.h.  */
+ _ACEOF
+@@ -10018,7 +10018,7 @@ fi
+ 	  fi
+ 
+           if test "$gt_cv_func_dgettext_libintl" = "yes"; then
+-	    LIBS="$LIBS -lintl";
++		LIBS="$LIBS -liconv -lintl";
+           fi
+ 
+ 	  if test "$gt_cv_func_dgettext_libc" = "yes" \
+@@ -17061,18 +17061,18 @@ $as_echo "omitting \"$libdir\" from LDFLAGS" >&6; }
+     fi
+ 
+ 
+-    # Some versions of MesaGL are compiled to require -lpthread.
+-    # So if the Mesa headers exist, and -lpthread exists, then always
+-    # link -lpthread after the Mesa libs (be they named -lGL or -lMesaGL.)
++    # Some versions of MesaGL are compiled to require -pthread.
++    # So if the Mesa headers exist, and -pthread exists, then always
++    # link -pthread after the Mesa libs (be they named -lGL or -lMesaGL.)
+     #
+     if test "$ac_have_mesa_gl" = yes; then
+-      { $as_echo "$as_me:$LINENO: checking for pthread_create in -lpthread" >&5
+-$as_echo_n "checking for pthread_create in -lpthread... " >&6; }
++      { $as_echo "$as_me:$LINENO: checking for pthread_create in -pthread" >&5
++$as_echo_n "checking for pthread_create in -pthread... " >&6; }
+ if test "${ac_cv_lib_pthread_pthread_create+set}" = set; then
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lpthread  $LIBS"
++LIBS="-pthread  $LIBS"
+ cat >conftest.$ac_ext <<_ACEOF
+ /* confdefs.h.  */
+ _ACEOF
+@@ -17132,7 +17132,7 @@ fi
+ { $as_echo "$as_me:$LINENO: result: $ac_cv_lib_pthread_pthread_create" >&5
+ $as_echo "$ac_cv_lib_pthread_pthread_create" >&6; }
+ if test "x$ac_cv_lib_pthread_pthread_create" = x""yes; then
+-  GL_LIBS="-lpthread"
++  GL_LIBS="-pthread"
+ fi
+ 
+     fi

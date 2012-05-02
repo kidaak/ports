@@ -1,0 +1,11 @@
+@comment $OpenBSD: ports/devel/libelf/pkg/PLIST,v 1.2 2010/04/08 15:07:51 ajacoutot Exp $
+%%SHARED%%
+include/libelf/
+include/libelf/elf_repl.h
+include/libelf/gelf.h
+include/libelf/libelf.h
+include/libelf/nlist.h
+include/libelf/sys_elf.h
+lib/libelf.a
+lib/pkgconfig/
+lib/pkgconfig/libelf.pc

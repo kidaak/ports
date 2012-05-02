@@ -1,0 +1,54 @@
+$OpenBSD: ports/devel/sdl/patches/patch-configure,v 1.24 2012/03/22 13:00:42 dcoppa Exp $
+--- configure.orig	Thu Jan 19 07:30:12 2012
++++ configure	Thu Mar 22 13:52:46 2012
+@@ -21000,6 +21000,20 @@ _ACEOF
+     fi
+ }
+ 
++
++CheckSndio()
++{
++	if [ x"$WITH_SNDIO" = x"Yes" ]; then
++
++                cat >>confdefs.h <<\_ACEOF
++#define SDL_AUDIO_DRIVER_SNDIO 1
++_ACEOF
++                SOURCES="$SOURCES $srcdir/src/audio/libsndio/*.c"
++		EXTRA_LDFLAGS="$EXTRA_LDFLAGS -lsndio"
++	fi
++}
++
++
+ CheckPulseAudio()
+ {
+     # Check whether --enable-pulseaudio was given.
+@@ -24073,6 +24087,12 @@ fi
+                     x11_lib='libX11.so'
+                     x11ext_lib='libXext.so'
+                     ;;
++                *-*-openbsd*)
++                    x11_lib='libX11.so'
++                    x11ext_lib='libXext.so'
++                    xrender_lib='libXrender.so'
++                    xrandr_lib='libXrandr.so'
++                    ;;
+                 *)
+                     x11_lib=`find_lib "libX11.so.*" "$X_LIBS -L/usr/X11/$base_libdir -L/usr/X11R6/$base_libdir" | sed 's/.*\/\(.*\)/\1/; q'`
+                     x11ext_lib=`find_lib "libXext.so.*" "$X_LIBS -L/usr/X11/$base_libdir -L/usr/X11R6/$base_libdir" | sed 's/.*\/\(.*\)/\1/; q'`
+@@ -29551,6 +29571,7 @@ _ACEOF
+         CheckALSA
+         CheckARTSC
+         CheckESD
++        CheckSndio
+         CheckPulseAudio
+         CheckNAS
+         CheckX11
+@@ -29586,7 +29607,7 @@ _ACEOF
+                 SOURCES="$SOURCES $srcdir/src/audio/sun/*.c"
+                 have_audio=yes
+             ;;
+-            netbsd|openbsd)
++            netbsd)
+                 cat >>confdefs.h <<\_ACEOF
+ #define SDL_AUDIO_DRIVER_BSD 1
+ _ACEOF

@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/devel/p5-namespace-clean/pkg/PLIST,v 1.2 2012/04/06 09:54:30 sthen Exp $
+${P5SITE}/namespace/
+${P5SITE}/namespace/clean/
+${P5SITE}/namespace/clean.pm
+${P5SITE}/namespace/clean/_PP_OSE.pm
+${P5SITE}/namespace/clean/_PP_OSE_5_8.pm
+@man man/man3p/namespace::clean.3p

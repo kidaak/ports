@@ -1,0 +1,11 @@
+--- xphoon.c.orig	Tue Jun 13 22:50:16 2000
++++ xphoon.c	Tue Feb 15 21:13:26 2011
+@@ -65,7 +65,7 @@ main( argc, argv )
+     int blackflag, demoflag, southflag;
+     int printpid;
+     char* display_name;
+-    long clock;
++    time_t clock;
+     int pid, tty;
+     int size;
+     char* mooncopy;

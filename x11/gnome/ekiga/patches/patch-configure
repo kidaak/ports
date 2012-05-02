@@ -1,0 +1,23 @@
+$OpenBSD: ports/x11/gnome/ekiga/patches/patch-configure,v 1.5 2011/10/26 17:02:53 ajacoutot Exp $
+--- configure.orig	Tue Aug 23 00:54:32 2011
++++ configure	Tue Oct 25 12:52:40 2011
+@@ -16450,8 +16450,8 @@ fi
+ 
+ 
+ if test ".$ac_cv_c_compiler_gnu" = .yes; then
+-   CFLAGS="$CFLAGS -Wall -Wextra -Winit-self -Wswitch-default -Wswitch-enum -Wstrict-aliasing=2 -Wfloat-equal -Wshadow"
+-   CXXFLAGS="$CXXFLAGS -Wall -Wextra -Winit-self -Wswitch-default -Wswitch-enum -Wstrict-aliasing=2 -Wfloat-equal -Wshadow"
++   CFLAGS="$CFLAGS -Wall -Wswitch-default -Wswitch-enum -Wfloat-equal -Wshadow"
++   CXXFLAGS="$CXXFLAGS -Wall -Wswitch-default -Wswitch-enum -Wfloat-equal -Wshadow"
+ fi
+ 
+ case $host in
+@@ -16501,7 +16501,7 @@ case $target_os in
+     gm_platform="linux"
+     ;;
+ 
+-  FreeBSD* | freebsd* | kfreebsd* | NetBSD* | netbsd* )
++  FreeBSD* | freebsd* | kfreebsd* | NetBSD* | netbsd* | OpenBSD* | openbsd* )
+     gm_platform="freebsd"
+     ;;
+ 

@@ -1,0 +1,18 @@
+@comment $OpenBSD: ports/x11/itk/pkg/PLIST,v 1.3 2011/01/05 19:15:09 sebastia Exp $
+%%SHARED%%
+include/itk/
+include/itk/itk.h
+include/itk/itkDecls.h
+lib/tcl/itk/
+lib/tcl/itk/Archetype.itk
+lib/tcl/itk/Toplevel.itk
+lib/tcl/itk/Widget.itk
+lib/tcl/itk/itk.tcl
+lib/tcl/itk/pkgIndex.tcl
+lib/tcl/itk/tclIndex
+@man man/mann/Archetype.n
+@man man/mann/Toplevel.n
+@man man/mann/Widget.n
+@man man/mann/itk.n
+@man man/mann/itkvars.n
+@man man/mann/usual.n

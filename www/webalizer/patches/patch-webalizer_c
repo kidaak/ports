@@ -1,0 +1,30 @@
+$OpenBSD: ports/www/webalizer/patches/patch-webalizer_c,v 1.5 2011/01/05 08:19:18 giovanni Exp $
+--- webalizer.c.orig	Thu Dec 30 14:52:23 2010
++++ webalizer.c	Mon Jan  3 13:01:54 2011
+@@ -771,7 +771,7 @@ int main(int argc, char *argv[])
+       }
+ 
+       /* got a record... */
+-      strcpy(tmp_buf, buffer);            /* save buffer in case of error */
++      strlcpy(tmp_buf, buffer, sizeof tmp_buf);            /* save buffer in case of error */
+       if (parse_record(buffer))           /* parse the record             */
+       {
+          /*********************************************/
+@@ -1190,7 +1190,7 @@ int main(int argc, char *argv[])
+                {
+                   /* Invalid hostname found! */
+                   if (strcmp(log_rec.hostname, host_buf))
+-                     strcpy(log_rec.hostname, host_buf);
++                     strlcpy(log_rec.hostname, host_buf, sizeof(log_rec.hostname));
+                   else strncpy(log_rec.hostname,"Invalid",8);
+                   break;
+                }
+@@ -1204,7 +1204,7 @@ int main(int argc, char *argv[])
+ 
+          /* Catch blank hostnames here */
+          if (log_rec.hostname[0]=='\0')
+-            strncpy(log_rec.hostname,"Unknown",8);
++            strlcpy(log_rec.hostname,"Unknown",sizeof log_rec.hostname);
+ 
+          /* Ignore/Include check */
+          if ( (isinlist(include_sites,log_rec.hostname)==NULL) &&

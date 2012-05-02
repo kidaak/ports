@@ -1,0 +1,23 @@
+$OpenBSD: ports/net/icinga/core/patches/patch-sample-config_icinga_cfg_in,v 1.5 2011/12/03 15:01:38 sthen Exp $
+--- sample-config/icinga.cfg.in.orig	Wed Nov 30 12:08:58 2011
++++ sample-config/icinga.cfg.in	Wed Nov 30 19:35:06 2011
+@@ -1265,7 +1265,7 @@ enable_embedded_perl=0
+ # the HTML documentation on the embedded Perl interpreter for more 
+ # information on how this option works.
+ 
+-use_embedded_perl_implicitly=1
++use_embedded_perl_implicitly=0
+ 
+ 
+ 
+@@ -1349,8 +1349,8 @@ use_true_regexp_matching=0
+ # using the $ADMINEMAIL$ and $ADMINPAGER$ macros in your notification
+ # commands.
+ 
+-admin_email=@icinga_user@@localhost
+-admin_pager=page@icinga_user@@localhost
++admin_email=root@localhost
++admin_pager=root@localhost
+ 
+ 
+ 

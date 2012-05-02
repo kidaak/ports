@@ -1,0 +1,12 @@
+@comment $OpenBSD: ports/databases/ruby-jdbc-mysql/pkg/PLIST,v 1.2 2011/03/14 17:52:59 jeremy Exp $
+${GEM_LIB}/cache/${DISTNAME}.gem
+${GEM_LIB}/gems/${DISTNAME}/
+${GEM_LIB}/gems/${DISTNAME}/LICENSE.txt
+${GEM_LIB}/gems/${DISTNAME}/Manifest.txt
+${GEM_LIB}/gems/${DISTNAME}/README.txt
+${GEM_LIB}/gems/${DISTNAME}/Rakefile
+${GEM_LIB}/gems/${DISTNAME}/lib/
+${GEM_LIB}/gems/${DISTNAME}/lib/jdbc/
+${GEM_LIB}/gems/${DISTNAME}/lib/jdbc/mysql.rb
+${GEM_LIB}/gems/${DISTNAME}/lib/mysql-connector-java-${V}.jar
+${GEM_LIB}/specifications/${DISTNAME}.gemspec

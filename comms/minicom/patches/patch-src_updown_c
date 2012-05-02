@@ -1,0 +1,21 @@
+$OpenBSD: ports/comms/minicom/patches/patch-src_updown_c,v 1.4 2012/03/19 22:17:43 sthen Exp $
+--- src/updown.c.orig	Sun May 30 21:34:00 2010
++++ src/updown.c	Fri Mar 16 22:27:20 2012
+@@ -45,7 +45,7 @@ static int mcd(char *dir)
+ {
+   char buf[256];
+   char err[50];
+-  static char odir[256];
++  static char odir[PATH_MAX];
+   static int init = 0;
+ 
+   if (!init) {
+@@ -294,7 +294,7 @@ void updown(int what, int nr)
+     do_log("%s", cmdline);   /* jl 22.06.97 */
+ 
+   if (P_PFULL(g) == 'N') {
+-    win = mc_wopen(10, 7, 70, 13, BSINGLE, stdattr, mfcolor, mbcolor, 1, 0, 1);
++    win = mc_wopen(5, 5, 74, 11, BSINGLE, stdattr, mfcolor, mbcolor, 1, 0, 1);
+     snprintf(title, sizeof(title), _("%.30s %s - Press CTRL-C to quit"), P_PNAME(g),
+              what == 'U' ? _("upload") : _("download"));
+     mc_wtitle(win, TMID, title);

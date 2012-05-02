@@ -1,0 +1,12 @@
+$OpenBSD: ports/audio/libvorbis/patches/patch-doc_libvorbis_Makefile_in,v 1.2 2012/02/17 22:17:52 naddy Exp $
+--- doc/libvorbis/Makefile.in.orig	Fri Feb  3 23:21:55 2012
++++ doc/libvorbis/Makefile.in	Sun Feb  5 20:12:01 2012
+@@ -178,7 +178,7 @@ build_vendor = @build_vendor@
+ builddir = @builddir@
+ datadir = @datadir@
+ datarootdir = @datarootdir@
+-docdir = $(datadir)/doc/$(PACKAGE)-$(VERSION)/libvorbis
++docdir = $(datadir)/doc/$(PACKAGE)/libvorbis
+ dvidir = @dvidir@
+ exec_prefix = @exec_prefix@
+ host = @host@

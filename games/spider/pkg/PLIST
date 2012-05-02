@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/games/spider/pkg/PLIST,v 1.5 2008/10/14 22:54:22 sthen Exp $
+@bin bin/spider
+lib/X11/spider/
+lib/X11/spider/doc.controls
+lib/X11/spider/doc.examples
+lib/X11/spider/doc.intro
+lib/X11/spider/doc.misc
+lib/X11/spider/doc.rules
+lib/X11/spider/doc.summary
+@man man/cat1/spider.0

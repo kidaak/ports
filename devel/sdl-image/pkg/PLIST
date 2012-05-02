@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/devel/sdl-image/pkg/PLIST,v 1.6 2010/07/09 09:20:53 sthen Exp $
+%%SHARED%%
+include/SDL/
+include/SDL/SDL_image.h
+lib/libSDL_image.a
+lib/libSDL_image.la
+lib/pkgconfig/
+lib/pkgconfig/SDL_image.pc

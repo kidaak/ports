@@ -1,0 +1,32 @@
+$OpenBSD: ports/misc/dvtm/patches/patch-config_mk,v 1.7 2010/11/24 13:09:11 jasper Exp $
+--- config.mk.orig	Fri Oct  8 18:06:05 2010
++++ config.mk	Wed Nov 24 09:28:42 2010
+@@ -3,15 +3,15 @@ VERSION = 0.6
+ 
+ # Customize below to fit your system
+ 
+-PREFIX = /usr/local
+-MANPREFIX = ${PREFIX}/share/man
++#PREFIX = /usr/local
++MANPREFIX = ${PREFIX}/man
+ 
+-INCS = -I. -I/usr/include -I/usr/local/include 
+-LIBS = -lc -lutil -lncursesw
+-#LIBS = -lc -lutil -lncurses
++INCS = -I. -I/usr/include
++#LIBS = -lc -lutil -lncursesw
++LIBS = -lc -lutil -lncurses
+ 
+-CFLAGS += -std=c99 -Os ${INCS} -DVERSION=\"${VERSION}\" -DNDEBUG
+-LDFLAGS += -L/usr/lib -L/usr/local/lib ${LIBS}
++CFLAGS += -std=c99 ${INCS} -DVERSION=\"${VERSION}\" -DNDEBUG
++LDFLAGS += -L/usr/lib ${LIBS}
+ 
+ # Mouse handling
+ CFLAGS += -DCONFIG_MOUSE
+@@ -20,4 +20,4 @@ CFLAGS += -DCONFIG_STATUSBAR
+ 
+ DEBUG_CFLAGS = ${CFLAGS} -UNDEBUG -O0 -g -ggdb -Wall
+ 
+-CC = cc
++CC ?= cc

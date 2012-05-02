@@ -1,0 +1,12 @@
+$OpenBSD: ports/www/epiphany/patches/patch-src_Makefile_in,v 1.5 2012/04/03 15:40:29 ajacoutot Exp $
+--- src/Makefile.in.orig	Tue Mar 27 22:25:08 2012
++++ src/Makefile.in	Sun Apr  1 15:39:59 2012
+@@ -522,7 +522,7 @@ epiphany_LDADD = libephymain.la \
+ 	$(top_builddir)/lib/history/libephyhistory.la \
+ 	$(top_builddir)/lib/libephymisc.la \
+ 	$(top_builddir)/lib/egg/libegg.la $(DEPENDENCIES_LIBS) \
+-	$(LIBINTL) $(am__append_5) $(am__append_6)
++	$(LIBINTL) $(am__append_5) $(am__append_6) -lexecinfo
+ TYPES_SOURCE = \
+ 	ephy-type-builtins.c	\
+ 	ephy-type-builtins.h

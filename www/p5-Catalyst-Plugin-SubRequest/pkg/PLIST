@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/www/p5-Catalyst-Plugin-SubRequest/pkg/PLIST,v 1.2 2012/04/08 21:58:56 sthen Exp $
+${P5SITE}/Catalyst/Plugin/
+${P5SITE}/Catalyst/Plugin/SubRequest.pm
+@man man/man3p/Catalyst::Plugin::SubRequest.3p

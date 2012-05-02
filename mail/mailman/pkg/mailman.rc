@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/mail/mailman/pkg/mailman.rc,v 1.10 2012/01/26 11:34:42 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/lib/mailman/bin/mailmanctl"
+daemon_flags="-s start"
+
+. /etc/rc.d/rc.subr
+
+pexp="${MODPY_BIN} ${daemon}${daemon_flags:+ ${daemon_flags}}"
+rc_reload=NO
+
+rc_stop() {
+	${daemon} stop
+}
+
+rc_cmd $1

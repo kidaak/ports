@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/www/p5-Catalyst-Plugin-ConfigLoader/pkg/PLIST,v 1.3 2012/04/08 21:58:24 sthen Exp $
+${P5SITE}/Catalyst/Plugin/
+${P5SITE}/Catalyst/Plugin/ConfigLoader/
+${P5SITE}/Catalyst/Plugin/ConfigLoader.pm
+${P5SITE}/Catalyst/Plugin/ConfigLoader/Manual.pod
+@man man/man3p/Catalyst::Plugin::ConfigLoader.3p
+@man man/man3p/Catalyst::Plugin::ConfigLoader::Manual.3p

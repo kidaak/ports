@@ -1,0 +1,11 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_CommonUtil_cpp,v 1.4 2011/12/22 17:10:04 ajacoutot Exp $
+--- common/CommonUtil.cpp.orig	Thu Dec 22 01:02:33 2011
++++ common/CommonUtil.cpp	Thu Dec 22 12:14:19 2011
+@@ -85,6 +85,7 @@
+ 
+ #include <sys/types.h>
+ #include <sys/socket.h>
++#include <netinet/in.h>
+ #include <netdb.h>
+ 
+ using namespace std;

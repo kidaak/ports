@@ -1,0 +1,18 @@
+@comment $OpenBSD: ports/devel/ruby-sexp_processor/pkg/PLIST,v 1.5 2010/11/08 23:24:41 jeremy Exp $
+${GEM_LIB}/cache/${DISTNAME}.gem
+${GEM_LIB}/gems/${DISTNAME}/
+${GEM_LIB}/gems/${DISTNAME}/History.txt
+${GEM_LIB}/gems/${DISTNAME}/Manifest.txt
+${GEM_LIB}/gems/${DISTNAME}/README.txt
+${GEM_LIB}/gems/${DISTNAME}/Rakefile
+${GEM_LIB}/gems/${DISTNAME}/lib/
+${GEM_LIB}/gems/${DISTNAME}/lib/composite_sexp_processor.rb
+${GEM_LIB}/gems/${DISTNAME}/lib/sexp.rb
+${GEM_LIB}/gems/${DISTNAME}/lib/sexp_processor.rb
+${GEM_LIB}/gems/${DISTNAME}/lib/unique.rb
+${GEM_LIB}/gems/${DISTNAME}/test/
+${GEM_LIB}/gems/${DISTNAME}/test/test_composite_sexp_processor.rb
+${GEM_LIB}/gems/${DISTNAME}/test/test_environment.rb
+${GEM_LIB}/gems/${DISTNAME}/test/test_sexp.rb
+${GEM_LIB}/gems/${DISTNAME}/test/test_sexp_processor.rb
+${GEM_LIB}/specifications/${DISTNAME}.gemspec

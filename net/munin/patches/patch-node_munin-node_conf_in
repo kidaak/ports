@@ -1,0 +1,12 @@
+$OpenBSD: ports/net/munin/patches/patch-node_munin-node_conf_in,v 1.2 2010/10/23 15:52:22 sthen Exp $
+--- node/munin-node.conf.in.orig	Tue Oct  5 22:40:45 2010
++++ node/munin-node.conf.in	Tue Oct  5 22:40:56 2010
+@@ -10,7 +10,7 @@ background 1
+ setsid 1
+ 
+ user root
+-group root
++group wheel
+ 
+ # Regexps for files to ignore
+ 

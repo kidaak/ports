@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/benchmarks/smtp-benchmark/pkg/PLIST,v 1.2 2011/06/23 22:50:27 naddy Exp $
+@man man/man8/smtpsend.8
+@man man/man8/smtpsink.8
+@bin sbin/smtpsend
+@bin sbin/smtpsink

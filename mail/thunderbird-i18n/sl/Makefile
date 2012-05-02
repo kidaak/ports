@@ -1,0 +1,5 @@
+# $OpenBSD: ports/mail/thunderbird-i18n/sl/Makefile,v 1.1 2012/01/22 17:11:59 landry Exp $
+
+L = sl
+
+.include <bsd.port.mk>

@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/editors/vim-spell/pkg/PLIST-ny,v 1.3 2012/01/17 18:29:43 espie Exp $
+@pkgpath editors/vim-spell,ny
+share/vim/vim${P}/spell/ny.ascii.spl
+share/vim/vim${P}/spell/ny.iso-8859-14.spl
+share/vim/vim${P}/spell/ny.utf-8.spl

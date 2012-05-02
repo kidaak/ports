@@ -1,0 +1,74 @@
+$OpenBSD: ports/net/zabbix/patches/patch-configure,v 1.5 2012/03/20 12:00:37 robert Exp $
+--- configure.orig	Tue Mar 20 12:21:39 2012
++++ configure	Tue Mar 20 12:23:20 2012
+@@ -566,6 +566,9 @@ ac_unique_file="src/zabbix_server/server.c"
+ # Factoring default headers for most tests.
+ ac_includes_default="\
+ #include <stdio.h>
++#include <sys/socket.h>
++#include <sys/param.h>
++#include <netinet/in.h>
+ #ifdef HAVE_SYS_TYPES_H
+ # include <sys/types.h>
+ #endif
+@@ -5901,6 +5904,7 @@ rm -f core conftest.err conftest.$ac_objext conftest.$
+ $as_echo_n "checking for field ss_family in struct sockaddr_storage... " >&6; }
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
++#include <stdio.h>
+ #include <sys/socket.h>
+ int
+ main ()
+@@ -8332,7 +8336,7 @@ $as_echo "yes" >&6; }
+ 
+ 			 JABBER_INCDIR="$IKSEMEL_CPPFLAGS"
+ 			 JABBER_LIBDIR="$IKSEMEL_LDFLAGS"
+-			 JABBER_LIBS="-liksemel"
++			 JABBER_LIBS="-liksemel -pthread"
+ 
+ fi
+        else
+@@ -8342,7 +8346,7 @@ $as_echo_n "checking for iksemel support... " >&6; }
+                if test -f $_libiksemel_with/include/iksemel.h; then
+                        JABBER_INCDIR="-I$_libiksemel_with/include"
+                        JABBER_LIBDIR="-L$_libiksemel_with/lib"
+-                       JABBER_LIBS="-liksemel"
++                       JABBER_LIBS="-liksemel -pthread"
+ 		       { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
+ $as_echo "yes" >&6; }
+                else
+@@ -10079,7 +10083,7 @@ $as_echo "no" >&6; }
+ 
+        if test "x$found_ldap" != "xno"; then
+                if test "x$enable_static" = "xyes"; then
+-                       LDAP_LIBS=" -lgnutls -lpthread -lsasl2 $LDAP_LIBS"
++                       LDAP_LIBS=" -lgnutls -pthread -lsasl2 $LDAP_LIBS"
+                fi
+ 
+                LDAP_CPPFLAGS="-I$LDAP_INCDIR"
+@@ -10138,13 +10142,13 @@ else
+   as_fn_error $? "Not found GnuTLS library" "$LINENO" 5
+ fi
+ 
+-                       { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -lpthread" >&5
+-$as_echo_n "checking for main in -lpthread... " >&6; }
++                       { $as_echo "$as_me:${as_lineno-$LINENO}: checking for main in -pthread" >&5
++$as_echo_n "checking for main in -pthread... " >&6; }
+ if ${ac_cv_lib_pthread_main+:} false; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lpthread  $LIBS"
++LIBS="-pthread  $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -10173,7 +10177,7 @@ if test "x$ac_cv_lib_pthread_main" = xyes; then :
+ #define HAVE_LIBPTHREAD 1
+ _ACEOF
+ 
+-  LIBS="-lpthread $LIBS"
++  LIBS="-pthread $LIBS"
+ 
+ else
+   as_fn_error $? "Not found Pthread library" "$LINENO" 5

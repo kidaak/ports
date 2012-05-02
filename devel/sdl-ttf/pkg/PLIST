@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/devel/sdl-ttf/pkg/PLIST,v 1.8 2012/04/05 11:42:49 ajacoutot Exp $
+%%SHARED%%
+include/SDL/
+include/SDL/SDL_ttf.h
+lib/libSDL_ttf.a
+lib/libSDL_ttf.la
+lib/pkgconfig/
+lib/pkgconfig/SDL_ttf.pc

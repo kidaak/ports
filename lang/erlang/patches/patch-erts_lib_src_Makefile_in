@@ -1,0 +1,12 @@
+$OpenBSD: ports/lang/erlang/patches/patch-erts_lib_src_Makefile_in,v 1.3 2010/09/13 17:31:03 sebastia Exp $
+--- erts/lib_src/Makefile.in.orig	Fri Sep 18 16:08:50 2009
++++ erts/lib_src/Makefile.in	Wed Dec 23 17:02:06 2009
+@@ -37,7 +37,7 @@ INSTALL_PROGRAM=@INSTALL_PROGRAM@
+ ERLANG_OSTYPE=@ERLANG_OSTYPE@
+ 
+ OMIT_FP=false
+-CFLAGS=$(subst O2,O3, @CFLAGS@)
++CFLAGS=@CFLAGS@
+ 
+ ifeq ($(TYPE),debug)
+ CFLAGS=@DEBUG_CFLAGS@ -DDEBUG

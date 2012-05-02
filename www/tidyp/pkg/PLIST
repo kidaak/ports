@@ -1,0 +1,13 @@
+@comment $OpenBSD: ports/www/tidyp/pkg/PLIST,v 1.3 2011/04/05 15:33:14 sthen Exp $
+@pkgpath www/tidy
+@conflict tidy-*
+%%SHARED%%
+bin/tidy
+@bin bin/tidyp
+include/tidyp/
+include/tidyp/buffio.h
+include/tidyp/platform.h
+include/tidyp/tidyp.h
+include/tidyp/tidypenum.h
+lib/libtidyp.a
+lib/libtidyp.la

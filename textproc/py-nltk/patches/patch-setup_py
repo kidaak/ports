@@ -1,0 +1,15 @@
+$OpenBSD: ports/textproc/py-nltk/patches/patch-setup_py,v 1.2 2010/08/30 07:16:02 jasper Exp $
+
+- don't install random java files.
+
+--- setup.py.orig	Mon Aug 30 00:06:34 2010
++++ setup.py	Mon Aug 30 00:06:44 2010
+@@ -32,7 +32,7 @@ setup(
+     
+     #############################################
+     ## Package Data
+-    package_data = {'nltk': ['nltk.jar', 'test/*.doctest']},
++    package_data = {'nltk': ['test/*.doctest']},
+     
+     #############################################
+     ## Package List

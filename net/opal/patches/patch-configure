@@ -1,0 +1,21 @@
+$OpenBSD: ports/net/opal/patches/patch-configure,v 1.4 2011/10/26 16:59:34 ajacoutot Exp $
+--- configure.orig	Fri Oct 14 09:00:11 2011
++++ configure	Tue Oct 25 12:26:05 2011
+@@ -4620,7 +4620,7 @@ fi
+ 
+ WFLAGS=
+ if test "x$ac_cv_c_compiler_gnu" = xyes; then
+-  WFLAGS="-Wall -Wextra -Wstrict-aliasing -Wfloat-equal -Wno-comment -Wno-unused"
++  WFLAGS="-Wall -Wfloat-equal -Wno-comment -Wno-unused"
+   if test ${GXX_MAJOR} -ge 4 ; then
+     WFLAGS="$WFLAGS -Winit-self -Wno-missing-field-initializers"
+   fi
+@@ -5680,7 +5680,7 @@ STDCCFLAGS="$STDCCFLAGS -D__MACOSX__"
+ 
+ 
+ 
+-          LDSOOPTS="-shared -Wl,-soname,\$(LIB_FILENAME_SHARED_PAT)"
++          LDSOOPTS="-shared -fPIC -Wl,-soname,\$(LIB_FILENAME_SHARED_PAT)"
+ 
+           HAVE_RANLIB=yes
+         ;;

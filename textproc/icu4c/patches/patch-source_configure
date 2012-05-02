@@ -1,0 +1,55 @@
+$OpenBSD: ports/textproc/icu4c/patches/patch-source_configure,v 1.8 2011/06/14 10:12:48 ajacoutot Exp $
+--- source/configure.orig	Mon May 23 23:59:04 2011
++++ source/configure	Tue Jun  7 14:44:28 2011
+@@ -5958,13 +5958,13 @@ if test $threads = true; then
+   # If this fails, then we must test for HPUX specials, before
+   # moving on to a more generic test
+ 
+-  { $as_echo "$as_me:${as_lineno-$LINENO}: checking for pthread_attr_init in -lpthread" >&5
+-$as_echo_n "checking for pthread_attr_init in -lpthread... " >&6; }
++  { $as_echo "$as_me:${as_lineno-$LINENO}: checking for pthread_attr_init in -pthread" >&5
++$as_echo_n "checking for pthread_attr_init in -pthread... " >&6; }
+ if test "${ac_cv_lib_pthread_pthread_attr_init+set}" = set; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lpthread  $LIBS"
++LIBS="-pthread  $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -5999,7 +5999,7 @@ if test "x$ac_cv_lib_pthread_pthread_attr_init" = x""y
+ #define HAVE_LIBPTHREAD 1
+ _ACEOF
+ 
+-  LIBS="-lpthread $LIBS"
++  LIBS="-pthread $LIBS"
+ 
+ fi
+ 
+@@ -6087,13 +6087,13 @@ fi
+       ICU_USE_THREADS=1
+     else
+       # For HP 11
+-      { $as_echo "$as_me:${as_lineno-$LINENO}: checking for pthread_mutex_init in -lpthread" >&5
+-$as_echo_n "checking for pthread_mutex_init in -lpthread... " >&6; }
++      { $as_echo "$as_me:${as_lineno-$LINENO}: checking for pthread_mutex_init in -pthread" >&5
++$as_echo_n "checking for pthread_mutex_init in -pthread... " >&6; }
+ if test "${ac_cv_lib_pthread_pthread_mutex_init+set}" = set; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lpthread  $LIBS"
++LIBS="-pthread  $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -6128,7 +6128,7 @@ if test "x$ac_cv_lib_pthread_pthread_mutex_init" = x""
+ #define HAVE_LIBPTHREAD 1
+ _ACEOF
+ 
+-  LIBS="-lpthread $LIBS"
++  LIBS="-pthread $LIBS"
+ 
+ fi
+ 

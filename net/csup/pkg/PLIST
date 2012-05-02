@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/net/csup/pkg/PLIST,v 1.4 2011/01/16 19:13:40 naddy Exp $
+@bin bin/csup
+bin/csuppasswd
+@man man/man1/csup.1
+@man man/man1/csuppasswd.1

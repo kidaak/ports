@@ -1,0 +1,20 @@
+@comment $OpenBSD: ports/x11/e17/edje/pkg/PLIST,v 1.6 2011/03/15 19:40:04 jasper Exp $
+%%SHARED%%
+@bin bin/edje_cc
+@bin bin/edje_decc
+@bin bin/edje_external_inspector
+@bin bin/edje_inspector
+@bin bin/edje_player
+bin/edje_recc
+include/edje-1/
+include/edje-1/Edje.h
+include/edje-1/Edje_Edit.h
+lib/libedje.a
+lib/libedje.la
+lib/pkgconfig/edje.pc
+share/edje/
+share/edje/include/
+share/edje/include/edje.inc
+share/mime/packages/edje.xml
+@exec %D/bin/update-mime-database %D/share/mime
+@unexec-delete %D/bin/update-mime-database %D/share/mime

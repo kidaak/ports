@@ -1,0 +1,32 @@
+$OpenBSD: ports/textproc/discount/patches/patch-Makefile_in,v 1.2 2010/08/30 21:40:29 jasper Exp $
+--- Makefile.in.orig	Thu Jun 17 03:14:33 2010
++++ Makefile.in	Mon Aug 30 15:01:46 2010
+@@ -7,7 +7,7 @@ MANDIR=@mandir@
+ LIBDIR=@libdir@
+ INCDIR=@prefix@/include
+ 
+-PGMS=markdown
++PGMS=discount
+ SAMPLE_PGMS=mkd2html makepage
+ @THEME@SAMPLE_PGMS+= theme
+ MKDLIB=libmarkdown.a
+@@ -47,15 +47,16 @@ install.man:
+ 	@INSTALL_DIR@ $(DESTDIR)/$(MANDIR)/man7
+ 	@INSTALL_DATA@ markdown.7 mkd-extensions.7 $(DESTDIR)/$(MANDIR)/man7
+ 	@INSTALL_DIR@ $(DESTDIR)/$(MANDIR)/man1
+-	@INSTALL_DATA@ markdown.1 $(DESTDIR)/$(MANDIR)/man1
++	@mv markdown.1 discount.1
++	@INSTALL_DATA@ discount.1 $(DESTDIR)/$(MANDIR)/man1
+ 
+ install.everything: install install.man
+ 
+ version.o: version.c VERSION
+ 	$(CC) -DVERSION=\"`cat VERSION`\" -c version.c
+ 
+-markdown: main.o $(MKDLIB)
+-	$(CC) -o markdown main.o -lmarkdown @LIBS@
++discount: main.o $(MKDLIB)
++	$(CC) -o discount main.o -lmarkdown @LIBS@
+ 
+ # example programs
+ @THEME@theme:  theme.o $(MKDLIB) mkdio.h

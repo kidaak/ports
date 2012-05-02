@@ -1,0 +1,26 @@
+$OpenBSD: ports/textproc/mxml/patches/patch-configure,v 1.2 2009/01/17 20:28:28 jakemsr Exp $
+--- configure.orig	Sat Jan 26 12:50:28 2008
++++ configure	Mon Jan 12 00:26:29 2009
+@@ -4661,10 +4661,10 @@ echo "${ECHO_T}yes" >&6; }
+ 		*BSD*)
+ 			{ echo "$as_me:$LINENO: result: yes" >&5
+ echo "${ECHO_T}yes" >&6; }
+-			LIBMXML="libmxml.so.1.4"
++			LIBMXML="libmxml.so.${LIBmxml_VERSION}"
+ 			DSO="\$(CC)"
+-			DSOFLAGS="$DSOFLAGS -Wl,-soname,libmxml.so.1,-R\$(libdir) -shared \$(OPTIM)"
+-			LDFLAGS="$LDFLAGS -Wl,-R\$(libdir)"
++			DSOFLAGS="$DSOFLAGS -shared"
++			LDFLAGS="$LDFLAGS"
+                         ;;
+ 
+ 		Darwin*)
+@@ -4698,7 +4698,7 @@ if test -n "$GCC"; then
+ 	CFLAGS="-Wall $CFLAGS"
+ 
+ 	if test "x$OPTIM" = x; then
+-		OPTIM="-Os -g"
++		: # OPTIM="-Os -g"
+ 	fi
+ 
+ 	if test "x$use_ansi" = xyes; then

@@ -1,0 +1,35 @@
+$OpenBSD: ports/audio/libao/patches/patch-configure,v 1.12 2011/06/08 20:00:47 naddy Exp $
+--- configure.orig	Tue Feb 22 17:30:22 2011
++++ configure	Wed Jun  8 15:48:58 2011
+@@ -11082,9 +11082,9 @@ else
+                 PROFILE="-g -pg -D__NO_MATH_INLINES -fsigned-char" ;;
+      	*)
+                 PLUGIN_LDFLAGS="-export-dynamic -avoid-version"
+-                DEBUG="-g -Wall -D__NO_MATH_INLINES -fsigned-char"
+-                CFLAGS="-O20 -D__NO_MATH_INLINES -fsigned-char"
+-                PROFILE="-O20 -g -pg -D__NO_MATH_INLINES -fsigned-char" ;;
++                DEBUG="-g -Wall -fsigned-char"
++                CFLAGS="-fsigned-char"
++                PROFILE="-g -pg -fsigned-char" ;;
+         esac
+ fi
+ CFLAGS="$CFLAGS $cflags_save -DAO_BUILDING_LIBAO"
+@@ -11127,8 +11127,8 @@ else
+   HAVE_LD_VERSION_SCRIPT_FALSE=
+ fi
+ 
++if false; then		# AC_CHECK_LIB(pthread, pthread_kill)
+ 
+-
+ # we link to libpthread just in case one of our plugins does
+ # in which case this is required to avoid problems on dlclose()
+ { $as_echo "$as_me:${as_lineno-$LINENO}: checking for pthread_kill in -lpthread" >&5
+@@ -11176,7 +11176,7 @@ _ACEOF
+ 
+ fi
+ 
+-
++fi	# AC_CHECK_LIB(pthread, pthread_kill)
+ 
+ case $host in
+     *hpux*)

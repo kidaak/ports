@@ -1,0 +1,24 @@
+@comment $OpenBSD: ports/graphics/djview4/pkg/PLIST,v 1.4 2011/12/03 18:35:11 ajacoutot Exp $
+%%SHARED%%
+bin/djview
+@bin bin/djview4
+lib/netscape/
+lib/netscape/plugins/
+@man man/man1/djview.1
+@man man/man1/djview4.1
+@man man/man1/nsdejavu.1
+share/applications/djvulibre-djview4.desktop
+share/djvu/
+share/djvu/djview4/
+share/djvu/djview4/djview_cs.qm
+share/djvu/djview4/djview_de.qm
+share/djvu/djview4/djview_fr.qm
+share/djvu/djview4/djview_ru.qm
+share/djvu/djview4/djview_uk.qm
+share/icons/hicolor/32x32/apps/djvulibre-djview4.png
+share/icons/hicolor/64x64/apps/djvulibre-djview4.png
+share/icons/hicolor/scalable/apps/djvulibre-djview4.svg
+@exec %D/bin/update-desktop-database
+@unexec-delete %D/bin/update-desktop-database
+@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true

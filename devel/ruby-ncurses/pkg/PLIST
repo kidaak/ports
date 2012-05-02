@@ -1,0 +1,17 @@
+@comment $OpenBSD: ports/devel/ruby-ncurses/pkg/PLIST,v 1.7 2011/07/19 18:04:21 jeremy Exp $
+${MODRUBY_SITEDIR}/ncurses.rb
+${MODRUBY_SITEARCHDIR}/ncurses_bin.so
+${MODRUBY_RELDOCDIR}/
+${MODRUBY_RELDOCDIR}/ncurses/
+${MODRUBY_RELDOCDIR}/ncurses/README
+${MODRUBY_RELEXAMPLEDIR}/
+${MODRUBY_RELEXAMPLEDIR}/ncurses/
+${MODRUBY_RELEXAMPLEDIR}/ncurses/LICENSES_for_examples
+${MODRUBY_RELEXAMPLEDIR}/ncurses/example.rb
+${MODRUBY_RELEXAMPLEDIR}/ncurses/form.rb
+${MODRUBY_RELEXAMPLEDIR}/ncurses/form2.rb
+${MODRUBY_RELEXAMPLEDIR}/ncurses/hello_ncurses.rb
+${MODRUBY_RELEXAMPLEDIR}/ncurses/rain.rb
+${MODRUBY_RELEXAMPLEDIR}/ncurses/read_line.rb
+${MODRUBY_RELEXAMPLEDIR}/ncurses/tclock.rb
+${MODRUBY_RELEXAMPLEDIR}/ncurses/test_scanw.rb

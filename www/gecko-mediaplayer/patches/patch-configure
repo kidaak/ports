@@ -1,0 +1,21 @@
+$OpenBSD: ports/www/gecko-mediaplayer/patches/patch-configure,v 1.10 2012/03/26 14:41:51 dcoppa Exp $
+
+Use '-pthread' instead of '-lpthread' for libpthread linkage
+
+Remove -ldl
+
+Fix GECKO_CFLAGS and GECKO_LIBS
+
+--- configure.orig	Thu Mar 22 04:30:54 2012
++++ configure	Mon Mar 26 16:13:49 2012
+@@ -7350,8 +7350,8 @@ fi
+ if test "${with_xulrunner_sdk+set}" = set; then :
+   withval=$with_xulrunner_sdk;
+ 	XULRUNNER_SDK_PREFIX=$with_xulrunner_sdk
+-	GECKO_CFLAGS="-I$XULRUNNER_SDK_PREFIX/include -I$XULRUNNER_SDK_PREFIX/include/plugin -I$XULRUNNER_SDK_PREFIX/include/nspr -I$XULRUNNER_SDK_PREFIX/include/xpcom -I$XULRUNNER_SDK_PREFIX/include/string -I$XULRUNNER_SDK_PREFIX/include/java"
+-	GECKO_LIBS="-L$XULRUNNER_SDK_PREFIX/lib -lxpcomglue_s -lxul -lxpcom -lplds4 -lplc4 -lnspr4 -lpthread -ldl"
++	GECKO_CFLAGS="-I$XULRUNNER_SDK_PREFIX/include -DOPENBSD"
++	GECKO_LIBS="-L$XULRUNNER_SDK_PREFIX -lxpcomglue_s -lxul -lxpcom -lplds4 -lplc4 -lnspr4 -pthread"
+ 
+ fi
+ 

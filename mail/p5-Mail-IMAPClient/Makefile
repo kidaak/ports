@@ -1,0 +1,21 @@
+# $OpenBSD: ports/mail/p5-Mail-IMAPClient/Makefile,v 1.23 2012/02/20 16:43:26 sthen Exp $
+
+COMMENT=	perl module for an IMAP Client API
+
+VERSION=	3.30
+DISTNAME=	Mail-IMAPClient-${VERSION}
+CATEGORIES=	mail
+
+# Artistic
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+
+MODULES=	cpan
+USE_GROFF =	Yes
+
+RUN_DEPENDS=	devel/p5-Parse-RecDescent
+BUILD_DEPENDS=	${RUN_DEPENDS}
+
+.include <bsd.port.mk>

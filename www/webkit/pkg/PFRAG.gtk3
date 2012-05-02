@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/www/webkit/pkg/PFRAG.gtk3,v 1.3 2012/04/03 15:39:35 landry Exp $
+@bin bin/GtkLauncher-3
+@bin bin/jsc-3
+@lib lib/libjavascriptcoregtk-${WEBKIT_API_VERSION}.so.${LIBjavascriptcoregtk-3.0_VERSION}
+@lib lib/libwebkitgtk-${WEBKIT_API_VERSION}.so.${LIBwebkitgtk-3.0_VERSION}
+lib/pkgconfig/webkitgtk-${WEBKIT_API_VERSION}.pc

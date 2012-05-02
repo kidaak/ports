@@ -1,0 +1,33 @@
+$OpenBSD: ports/devel/nspr/patches/patch-mozilla_nsprpub_pr_src_misc_prinit_c,v 1.8 2011/08/23 20:07:08 landry Exp $
+--- mozilla/nsprpub/pr/src/misc/prinit.c.orig	Wed Jul 27 21:40:42 2011
++++ mozilla/nsprpub/pr/src/misc/prinit.c	Tue Aug 16 09:09:13 2011
+@@ -416,8 +416,6 @@ PR_IMPLEMENT(PRStatus) PR_Cleanup()
+         _PR_CleanupDtoa();
+         _PR_CleanupCallOnce();
+ 		_PR_ShutdownLinker();
+-        _PR_CleanupNet();
+-        _PR_CleanupIO();
+         /* Release the primordial thread's private data, etc. */
+         _PR_CleanupThread(me);
+ 
+@@ -428,6 +426,12 @@ PR_IMPLEMENT(PRStatus) PR_Cleanup()
+ 	    _PR_LogCleanup();
+ 
+         /*
++         * accesses the current thread
++         */
++        _PR_CleanupNet();
++        _PR_CleanupIO();
++
++        /*
+          * This part should look like the end of _PR_NativeRunThread
+          * and _PR_UserRunThread.
+          */
+@@ -439,6 +443,7 @@ PR_IMPLEMENT(PRStatus) PR_Cleanup()
+             PR_DELETE(me->stack);
+             PR_DELETE(me);
+         }
++        _PR_MD_SET_CURRENT_THREAD(NULL);
+ 
+         /*
+          * XXX: We are freeing the heap memory here so that Purify won't

@@ -1,0 +1,30 @@
+$OpenBSD: ports/x11/e17/e/patches/patch-configure,v 1.4 2011/01/16 01:00:11 laurent Exp $
+
+Try to avoid linking against libintl.a
+
+--- configure.orig	Sat Jan  8 15:30:30 2011
++++ configure	Sat Jan  8 16:39:23 2011
+@@ -14206,12 +14206,12 @@ else
+ /* end confdefs.h.  */
+ #include <libintl.h>
+ extern int _nl_msg_cat_cntr;
+-extern int *_nl_domain_bindings;
++extern int libintl_nl_domain_bindings;
+ int
+ main ()
+ {
+ bindtextdomain ("", "");
+-return (int) gettext ("") + _nl_msg_cat_cntr + *_nl_domain_bindings
++return (int) gettext ("") + _nl_msg_cat_cntr + libintl_nl_domain_bindings
+   ;
+   return 0;
+ }
+@@ -14869,7 +14869,7 @@ $as_echo "#define HAVE_DCGETTEXT 1" >>confdefs.h
+   fi
+ 
+ 
+-
++    LIBINTL="$LTLIBINTL"
+     INTLLIBS="$LIBINTL"
+ 
+ 

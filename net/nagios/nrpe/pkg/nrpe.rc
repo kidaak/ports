@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/net/nagios/nrpe/pkg/nrpe.rc,v 1.2 2011/12/17 22:01:13 sthen Exp $
+
+daemon="${TRUEPREFIX}/sbin/nrpe -d"
+
+. /etc/rc.d/rc.subr
+
+rc_cmd $1

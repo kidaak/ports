@@ -1,0 +1,2 @@
+@comment $OpenBSD: ports/x11/xbae/pkg/PFRAG.shared,v 1.1.1.1 2007/03/31 11:49:24 martynas Exp $
+@lib lib/libXbae.so.${LIBXbae_VERSION}

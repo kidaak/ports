@@ -1,0 +1,48 @@
+$OpenBSD: ports/net/opal/patches/patch-plugins_configure,v 1.7 2012/03/02 09:04:21 ajacoutot Exp $
+--- plugins/configure.orig	Wed Feb 22 00:08:24 2012
++++ plugins/configure	Fri Mar  2 09:12:25 2012
+@@ -6482,7 +6482,7 @@ $as_echo "#define PLUGIN_CODEC_DLL_EXPORTS 1" >>confde
+ 
+         *)
+           CFLAGS="$CFLAGS -fPIC"
+-          LDSO='-shared -Wl,-soname,$(SONAME)'
++          LDSO='-shared -fPIC -Wl,-soname,$(SONAME)'
+           PLUGINEXT=so
+           for ac_header in sys/time.h sys/file.h netinet/in.h
+ do :
+@@ -6976,7 +6976,7 @@ else
+   cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+-            #include <gsm/gsm.h>
++            #include <gsm.h>
+ 
+ int
+ main ()
+@@ -7002,7 +7002,7 @@ fi
+ $as_echo "$opal_gsm" >&6; }
+ 
+             if test "x${opal_gsm}" = "xyes" ; then
+-              GSM_CFLAGS="-I/usr/include/gsm -I/usr/local/include/gsm"
++              GSM_CFLAGS="-I${LOCALBASE}/include"
+               GSM_LIBS="-lgsm"
+             fi
+ 
+@@ -7083,7 +7083,7 @@ else
+   cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+-            #include <gsm/gsm.h>
++            #include <gsm.h>
+ 
+ int
+ main ()
+@@ -7109,7 +7109,7 @@ fi
+ $as_echo "$opal_gsm" >&6; }
+ 
+             if test "x${opal_gsm}" = "xyes" ; then
+-              GSM_CFLAGS="-I/usr/include/gsm -I/usr/local/include/gsm"
++              GSM_CFLAGS="-I${LOCALBASE}/include"
+               GSM_LIBS="-lgsm"
+             fi
+ 

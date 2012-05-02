@@ -1,0 +1,46 @@
+$OpenBSD: ports/print/lilypond/patches/patch-lily_pango-font_cc,v 1.2 2011/07/06 14:14:06 kili Exp $
+--- lily/pango-font.cc.orig	Sun Jun 12 16:05:50 2011
++++ lily/pango-font.cc	Sun Jun 19 13:45:40 2011
+@@ -95,19 +95,21 @@ Pango_font::derived_mark () const
+ 
+ void
+ get_glyph_index_name (char *s,
++		      size_t size,
+ 		      FT_ULong code)
+ {
+-  sprintf (s, "glyphIndex%lX", code);
++  snprintf (s, size, "glyphIndex%lX", code);
+ }
+ 
+ void
+ get_unicode_name (char *s,
++		  size_t size,
+ 		  FT_ULong code)
+ {
+   if (code > 0xFFFF)
+-    sprintf (s, "u%lX", code);
++    snprintf (s, size, "u%lX", code);
+   else
+-    sprintf (s, "uni%04lX", code);
++    snprintf (s, size, "uni%04lX", code);
+ }
+ 
+ Stencil
+@@ -195,7 +197,7 @@ Pango_font::pango_item_string_stencil (PangoGlyphItem 
+ 	  && cmap->find (pg) != cmap->end ())
+ 	{
+ 	  FT_ULong char_code = cmap->find (pg)->second;
+-	  get_unicode_name (glyph_name, char_code);
++	  get_unicode_name (glyph_name, sizeof(glyph_name), char_code);
+ 	}
+ 
+       if (glyph_name[0] == '\0' && has_glyph_names)
+@@ -212,7 +214,7 @@ Pango_font::pango_item_string_stencil (PangoGlyphItem 
+ 
+       if (glyph_name[0] == '\0' && is_ttf)
+ 	// Access by glyph index directly.
+-	get_glyph_index_name (glyph_name, pg);
++	get_glyph_index_name (glyph_name, sizeof(glyph_name), pg);
+ 
+       if (glyph_name[0] == '\0')
+ 	{

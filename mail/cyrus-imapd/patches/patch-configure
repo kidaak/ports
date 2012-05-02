@@ -1,0 +1,51 @@
+--- configure.orig	Thu Sep  8 21:03:38 2011
++++ configure	Fri Sep  9 08:38:25 2011
+@@ -5062,9 +5062,7 @@ CFLAGS=$save_CFLAGS
+ fi
+ 
+ if test "$ac_cv_fpic" = "yes"; then
+-    FPIC_CFLAGS="-fPIC"
+-else
+-    FPIC_CFLAGS=""
++    CFLAGS="${CFLAGS} -fPIC"
+ fi
+ { $as_echo "$as_me:${as_lineno-$LINENO}: result: $ac_cv_fpic" >&5
+ $as_echo "$ac_cv_fpic" >&6; }
+@@ -6455,7 +6453,7 @@ fi
+ 
+ 
+ 
+-  LIBS="${LIBS} ${BDB_LIBADD}"
++  LIBS="${BDB_LIBADD} ${LIBS}"
+   CPPFLAGS="${BDB_INCADD} ${CPPFLAGS}"
+ 
+   CYRUSDB_OBJS="$CYRUSDB_OBJS cyrusdb_berkeley.o"
+@@ -9622,7 +9620,7 @@ if ${ac_cv_lib_gssapi_gss_unwrap+:} false; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lgssapi ${GSSAPIBASE_LIBS} -lgssapi -lkrb5 -lasn1 -lroken ${LIB_CRYPT} ${LIB_DES} -lcom_err ${LIB_SOCKET} $LIBS"
++LIBS="-lgssapi ${GSSAPIBASE_LIBS} -lgssapi -lkrb5 -lasn1 -lcrypto ${LIB_CRYPT} ${LIB_DES} -lcom_err ${LIB_SOCKET} $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -9924,8 +9922,8 @@ fi
+     GSSAPIBASE_STATIC_LIBS="$GSSAPIBASE_LIBS $gssapi_dir/libgssapi_krb5.a $gssapi_dir/libkrb5.a $gssapi_dir/libk5crypto.a $gssapi_dir/libcom_err.a ${K5SUPSTATIC}"
+   elif test "$gss_impl" = "heimdal"; then
+     CPPFLAGS="$CPPFLAGS -DKRB5_HEIMDAL"
+-    GSSAPIBASE_LIBS="$GSSAPIBASE_LIBS -lgssapi -lkrb5 -lasn1 -lroken ${LIB_CRYPT} ${LIB_DES} -lcom_err"
+-    GSSAPIBASE_STATIC_LIBS="$GSSAPIBASE_STATIC_LIBS $gssapi_dir/libgssapi.a $gssapi_dir/libkrb5.a $gssapi_dir/libasn1.a $gssapi_dir/libroken.a $gssapi_dir/libcom_err.a ${LIB_CRYPT}"
++    GSSAPIBASE_LIBS="$GSSAPIBASE_LIBS -lgssapi -lkrb5 -lasn1 ${LIB_CRYPT} ${LIB_DES} -lcom_err"
++    GSSAPIBASE_STATIC_LIBS="$GSSAPIBASE_STATIC_LIBS $gssapi_dir/libgssapi.a $gssapi_dir/libkrb5.a $gssapi_dir/libasn1.a $gssapi_dir/libcom_err.a ${LIB_CRYPT}"
+   elif test "$gss_impl" = "cybersafe03"; then
+ # Version of CyberSafe with two libraries
+     CPPFLAGS="$CPPFLAGS -D$platform -I${gssapi}/appsec-sdk/include"
+@@ -10493,7 +10491,7 @@ elif test "${with_perl}" != "no"; then
+     PERL_SUBDIRS="imap"
+     PERL="${with_perl}"
+     case "${target_os}" in
+-        linux*|netbsd*|freebsd*|dragonfly*)
++        linux*|netbsd*|freebsd*|dragonfly*|openbsd*)
+             { $as_echo "$as_me:${as_lineno-$LINENO}: checking for perl cccdlflags needed on \"${target_os}\"" >&5
+ $as_echo_n "checking for perl cccdlflags needed on \"${target_os}\"... " >&6; }
+             eval `${PERL} -V:cccdlflags`

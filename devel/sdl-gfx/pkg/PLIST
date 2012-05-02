@@ -1,0 +1,13 @@
+@comment $OpenBSD: ports/devel/sdl-gfx/pkg/PLIST,v 1.5 2012/04/05 11:39:29 ajacoutot Exp $
+%%SHARED%%
+include/SDL/
+include/SDL/SDL_framerate.h
+include/SDL/SDL_gfxBlitFunc.h
+include/SDL/SDL_gfxPrimitives.h
+include/SDL/SDL_gfxPrimitives_font.h
+include/SDL/SDL_imageFilter.h
+include/SDL/SDL_rotozoom.h
+lib/libSDL_gfx.a
+lib/libSDL_gfx.la
+lib/pkgconfig/
+lib/pkgconfig/SDL_gfx.pc

@@ -1,0 +1,14 @@
+$OpenBSD: ports/net/icinga/core/patches/patch-module_idoutils_src_Makefile_in,v 1.2 2011/12/03 15:01:38 sthen Exp $
+--- module/idoutils/src/Makefile.in.orig	Wed Nov 30 12:08:58 2011
++++ module/idoutils/src/Makefile.in	Wed Nov 30 19:35:06 2011
+@@ -105,7 +105,7 @@ devclean: distclean
+ 
+ install:
+ 	$(INSTALL) -m 775 $(INSTALL_OPTS) -d $(DESTDIR)$(BINDIR)
+-	$(INSTALL) -m 774 $(INSTALL_OPTS) ido2db $(DESTDIR)$(BINDIR)
+-	$(INSTALL) -m 774 $(INSTALL_OPTS) log2ido $(DESTDIR)$(BINDIR)
+-	$(INSTALL) -m 774 $(INSTALL_OPTS) idomod.o $(DESTDIR)$(BINDIR)
++	$(BSD_INSTALL_PROGRAM) ido2db $(DESTDIR)$(BINDIR)
++	$(BSD_INSTALL_PROGRAM) log2ido $(DESTDIR)$(BINDIR)
++	$(BSD_INSTALL_PROGRAM) idomod.o $(DESTDIR)$(BINDIR)
+ 

@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/textproc/spiff/pkg/PLIST,v 1.4 2011/07/03 22:55:26 naddy Exp $
+@bin bin/spiff
+@man man/man1/spiff.1

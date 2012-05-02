@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/textproc/aspell/dicts/wa/pkg/PLIST,v 1.2 2008/10/28 16:54:11 jasper Exp $
+lib/aspell/wa.dat
+lib/aspell/wa_phonet.dat
+share/aspell/wa.multi
+share/aspell/wa.rws
+share/aspell/walloon.alias
+share/aspell/walon.alias

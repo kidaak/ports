@@ -1,0 +1,16 @@
+$OpenBSD: ports/net/wget/patches/patch-src_Makefile_in,v 1.2 2011/10/12 10:14:30 dcoppa Exp $
+
+Fix linking order so this works on static arches too.
+(libidn before libintl before libiconv).
+
+--- src/Makefile.in.orig	Thu Oct  6 09:39:27 2011
++++ src/Makefile.in	Thu Oct  6 09:41:44 2011
+@@ -803,7 +803,7 @@ LIBMULTITHREAD = @LIBMULTITHREAD@
+ LIBOBJS = @LIBOBJS@
+ LIBPTH = @LIBPTH@
+ LIBPTH_PREFIX = @LIBPTH_PREFIX@
+-LIBS = @LIBICONV@ @LIBINTL@ @LIBS@ $(LIB_CLOCK_GETTIME)
++LIBS = @LIBS@ @LIBINTL@ @LIBICONV@ $(LIB_CLOCK_GETTIME)
+ LIBSOCKET = @LIBSOCKET@
+ LIBSSL = @LIBSSL@
+ LIBSSL_PREFIX = @LIBSSL_PREFIX@

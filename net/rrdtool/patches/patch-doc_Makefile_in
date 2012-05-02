@@ -1,0 +1,12 @@
+$OpenBSD: ports/net/rrdtool/patches/patch-doc_Makefile_in,v 1.7 2009/01/26 21:26:32 sthen Exp $
+--- doc/Makefile.in.orig	Wed Jul 23 15:56:19 2008
++++ doc/Makefile.in	Sat Nov 22 14:09:31 2008
+@@ -150,7 +150,7 @@ PYTHON_PLATFORM = @PYTHON_PLATFORM@
+ PYTHON_PREFIX = @PYTHON_PREFIX@
+ PYTHON_VERSION = @PYTHON_VERSION@
+ RANLIB = @RANLIB@
+-RRDDOCDIR = @RRDDOCDIR@
++RRDDOCDIR = $(datadir)/doc/rrdtool
+ RRDGRAPH_YLEGEND_ANGLE = @RRDGRAPH_YLEGEND_ANGLE@
+ RRD_DEFAULT_FONT = @RRD_DEFAULT_FONT@
+ RUBY = @RUBY@

@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/math/ccolamd/pkg/PLIST,v 1.3 2010/10/26 18:06:10 pirofti Exp $
+%%SHARED%%
+include/ccolamd/
+include/ccolamd/ccolamd.h
+lib/libccolamd.a
+lib/libccolamd_p.a
+%%no_mips64%%

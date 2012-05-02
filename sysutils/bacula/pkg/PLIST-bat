@@ -1,0 +1,34 @@
+@comment $OpenBSD: ports/sysutils/bacula/pkg/PLIST-bat,v 1.10 2012/04/03 10:05:47 sthen Exp $
+@man man/man1/bat.1
+@bin sbin/bat
+@mode 750
+@group _bacula
+@sample ${BACULACONF}/
+@mode
+@group
+share/applications/bat.desktop
+share/doc/bacula/html/
+share/doc/bacula/html/clients.html
+share/doc/bacula/html/console.html
+share/doc/bacula/html/filesets.html
+share/doc/bacula/html/index.html
+share/doc/bacula/html/joblist.html
+share/doc/bacula/html/jobplot.html
+share/doc/bacula/html/jobs.html
+share/doc/bacula/html/mail-message-new.png
+share/doc/bacula/html/media.html
+share/doc/bacula/html/restore.html
+share/doc/bacula/html/status.png
+share/doc/bacula/html/storage.html
+share/examples/bacula/
+@mode 644
+share/examples/bacula/bat.conf
+@mode 640
+@group _bacula
+@sample ${BACULACONF}/bat.conf
+@mode
+@group
+share/pixmaps/
+share/pixmaps/bat_icon.png
+@exec %D/bin/update-desktop-database
+@unexec-delete %D/bin/update-desktop-database

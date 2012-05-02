@@ -1,0 +1,2 @@
+@comment $OpenBSD: ports/databases/apache-couchdb/pkg/PFRAG.shared,v 1.2 2010/09/13 17:31:03 sebastia Exp $
+lib/couchdb/erlang/lib/couch-${COUCH_VER}/priv/lib/couch_icu_driver.so

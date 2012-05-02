@@ -1,0 +1,15 @@
+@comment $OpenBSD: ports/misc/srcpd/pkg/PLIST,v 1.2 2012/04/05 20:36:03 jasper Exp $
+@newgroup _srcpd:660
+@newuser _srcpd:660:_srcpd:daemon:srcpd user:/nonexistent:/sbin/nologin
+man/de/
+man/de/man5/
+@man man/de/man5/srcpd.conf.5
+man/de/man8/
+@man man/de/man8/srcpd.8
+@man man/man5/srcpd.conf.5
+@man man/man8/srcpd.8
+@bin sbin/srcpd
+share/examples/srcpd/
+share/examples/srcpd/srcpd.conf
+@sample ${SYSCONFDIR}/srcpd.conf
+@rcscript ${RCDIR}/srcpd

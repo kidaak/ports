@@ -1,0 +1,12 @@
+$OpenBSD: ports/mail/mozilla-thunderbird/patches/patch-mozilla_xpcom_reflect_xptcall_src_md_unix_Makefile_in,v 1.6 2012/03/16 21:35:25 landry Exp $
+--- mozilla/xpcom/reflect/xptcall/src/md/unix/Makefile.in.orig	Fri Mar  9 21:29:51 2012
++++ mozilla/xpcom/reflect/xptcall/src/md/unix/Makefile.in	Sat Mar 10 13:20:45 2012
+@@ -197,7 +197,7 @@ endif
+ #
+ # OpenBSD/ARM
+ #
+-ifneq (,$(filter OpenBSDarmish OpenBSDzaurus,$(OS_ARCH)$(OS_TEST)))
++ifeq ($(OS_ARCH)$(OS_TEST),OpenBSDarm)
+ CPPSRCS		:= xptcinvoke_arm_openbsd.cpp xptcstubs_arm_openbsd.cpp
+ endif
+ 

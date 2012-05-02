@@ -1,0 +1,60 @@
+$OpenBSD: ports/devel/cmake/patches/patch-Modules_FindQt4_cmake,v 1.12 2011/10/14 17:22:10 dcoppa Exp $
+--- Modules/FindQt4.cmake.orig	Tue Oct  4 18:09:24 2011
++++ Modules/FindQt4.cmake	Fri Oct  7 09:15:17 2011
+@@ -473,13 +473,20 @@ GET_FILENAME_COMPONENT(qt_install_version "[HKEY_CURRE
+ # check for qmake
+ # Debian uses qmake-qt4
+ # macports' Qt uses qmake-mac
+-FIND_PROGRAM(QT_QMAKE_EXECUTABLE NAMES qmake qmake4 qmake-qt4 qmake-mac PATHS
+-  "[HKEY_CURRENT_USER\\Software\\Trolltech\\Qt3Versions\\4.0.0;InstallDir]/bin"
+-  "[HKEY_CURRENT_USER\\Software\\Trolltech\\Versions\\4.0.0;InstallDir]/bin"
+-  "[HKEY_CURRENT_USER\\Software\\Trolltech\\Versions\\${qt_install_version};InstallDir]/bin"
+-  $ENV{QTDIR}/bin
+-  DOC "The qmake executable for the Qt installation to use"
+-)
++IF(CMAKE_SYSTEM MATCHES "OpenBSD*")
++  FIND_PROGRAM(QT_QMAKE_EXECUTABLE NAMES qmake4 PATHS
++    $ENV{QTDIR}/bin
++    DOC "The qmake executable for the Qt installation to use"
++  )
++ELSE(CMAKE_SYSTEM MATCHES "OpenBSD*")
++  FIND_PROGRAM(QT_QMAKE_EXECUTABLE NAMES qmake qmake4 qmake-qt4 qmake-mac PATHS
++    "[HKEY_CURRENT_USER\\Software\\Trolltech\\Qt3Versions\\4.0.0;InstallDir]/bin"
++    "[HKEY_CURRENT_USER\\Software\\Trolltech\\Versions\\4.0.0;InstallDir]/bin"
++    "[HKEY_CURRENT_USER\\Software\\Trolltech\\Versions\\${qt_install_version};InstallDir]/bin"
++    $ENV{QTDIR}/bin
++    DOC "The qmake executable for the Qt installation to use"
++  )
++ENDIF(CMAKE_SYSTEM MATCHES "OpenBSD*")
+ 
+ # double check that it was a Qt4 qmake, if not, re-find with different names
+ IF (QT_QMAKE_EXECUTABLE)
+@@ -921,6 +928,12 @@ IF (QT_QMAKE_EXECUTABLE AND QTVERSION)
+     _QT4_ADJUST_LIB_VARS(QAxContainer)
+   ENDIF(Q_WS_WIN)
+ 
++  # Qt4 on OpenBSD needs to be linked with -pthread
++  IF(CMAKE_SYSTEM MATCHES "OpenBSD*")
++    FIND_PACKAGE(Threads)
++    SET(QT_QTCORE_LIBRARY ${QT_QTCORE_LIBRARY}
++              ${CMAKE_THREAD_LIBS_INIT})
++  ENDIF(CMAKE_SYSTEM MATCHES "OpenBSD*")
+ 
+   #######################################
+   #
+@@ -945,13 +958,13 @@ IF (QT_QMAKE_EXECUTABLE AND QTVERSION)
+   ENDIF(QT_QMAKE_CHANGED)
+   
+   FIND_PROGRAM(QT_MOC_EXECUTABLE
+-    NAMES moc-qt4 moc
++    NAMES moc4 moc-qt4 moc
+     PATHS ${QT_BINARY_DIR}
+     NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH
+     )
+ 
+   FIND_PROGRAM(QT_UIC_EXECUTABLE
+-    NAMES uic-qt4 uic
++    NAMES uic4 uic-qt4 uic
+     PATHS ${QT_BINARY_DIR}
+     NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH
+     )

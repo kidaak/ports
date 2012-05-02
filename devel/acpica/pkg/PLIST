@@ -1,0 +1,9 @@
+@comment $OpenBSD: ports/devel/acpica/pkg/PLIST,v 1.2 2011/04/05 08:02:25 sthen Exp $
+@bin bin/acpiexec
+@bin bin/acpinames
+@bin bin/acpisrc
+@bin bin/acpixtract
+@bin bin/iasl
+share/doc/acpica/
+share/doc/acpica/LICENSE
+share/doc/acpica/README

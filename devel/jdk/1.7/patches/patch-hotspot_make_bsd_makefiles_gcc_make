@@ -1,0 +1,12 @@
+$OpenBSD: ports/devel/jdk/1.7/patches/patch-hotspot_make_bsd_makefiles_gcc_make,v 1.4 2011/09/22 20:26:47 kurt Exp $
+--- hotspot/make/bsd/makefiles/gcc.make.orig	Sun Sep 18 10:12:24 2011
++++ hotspot/make/bsd/makefiles/gcc.make	Sun Sep 18 10:12:36 2011
+@@ -130,7 +130,7 @@ else
+ endif
+ 
+ # Compiler warnings are treated as errors
+-WARNINGS_ARE_ERRORS = -Werror
++WARNINGS_ARE_ERRORS = 
+ 
+ # Except for a few acceptable ones
+ # Since GCC 4.3, -Wconversion has changed its meanings to warn these implicit

@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/x11/xbindkeys/pkg/PLIST,v 1.2 2009/02/02 10:28:41 pea Exp $
+@bin bin/xbindkeys
+bin/xbindkeys_show
+@man man/man1/xbindkeys.1
+@man man/man1/xbindkeys_show.1

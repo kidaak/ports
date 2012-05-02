@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/misc/xless/pkg/PLIST,v 1.5 2011/05/05 18:19:11 gsoares Exp $
+@bin bin/xless
+lib/X11/app-defaults/XLess
+lib/X11/app-defaults/XLess-color
+lib/X11/xless.help
+@man man/cat1/xless.0

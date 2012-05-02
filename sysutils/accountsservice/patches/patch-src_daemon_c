@@ -1,0 +1,85 @@
+$OpenBSD: ports/sysutils/accountsservice/patches/patch-src_daemon_c,v 1.13 2012/03/28 09:05:54 ajacoutot Exp $
+--- src/daemon.c.orig	Tue Mar 27 17:47:56 2012
++++ src/daemon.c	Wed Mar 28 10:51:34 2012
+@@ -52,7 +52,7 @@
+ #define PATH_FALSE "/bin/false"
+ #define PATH_GDM_CUSTOM "/etc/gdm/custom.conf"
+ 
+-#define USERDIR LOCALSTATEDIR "/lib/AccountsService/users"
++#define USERDIR LOCALSTATEDIR "/db/AccountsService/users"
+ 
+ static const char *default_excludes[] = {
+         "bin",
+@@ -904,7 +904,11 @@ daemon_create_user_authorized_cb (Daemon              
+         CreateUserData *cd = data;
+         User *user;
+         GError *error;
++#ifndef __OpenBSD__
+         const gchar *argv[9];
++#else
++	gchar *argv[13];
++#endif
+ 
+         if (getpwnam (cd->user_name) != NULL) {
+                 throw_error (context, ERROR_USER_EXISTS, "A user with name '%s' already exists", cd->user_name);
+@@ -921,14 +925,31 @@ daemon_create_user_authorized_cb (Daemon              
+         if (cd->account_type == ACCOUNT_TYPE_ADMINISTRATOR) {
+                 argv[4] = "-G";
+                 argv[5] = "wheel";
++#ifdef __OpenBSD__
++                argv[6] = "-g";
++                argv[7] = "=uid";
++                argv[8] = "-L";
++                argv[9] = "staff";
++                argv[10] = "--";
++                argv[11] = cd->user_name;
++                argv[12] = NULL;
++#else
+                 argv[6] = "--";
+                 argv[7] = cd->user_name;
+                 argv[8] = NULL;
++#endif
+         }
+         else if (cd->account_type == ACCOUNT_TYPE_STANDARD) {
++#ifdef __OpenBSD__
++                argv[4] = "-g";
++                argv[5] = "=uid";
++                argv[6] = cd->user_name;
++                argv[7] = NULL;
++#else
+                 argv[4] = "--";
+                 argv[5] = cd->user_name;
+                 argv[6] = NULL;
++#endif
+         }
+         else {
+                 throw_error (context, ERROR_FAILED, "Don't know how to add user of type %d", cd->account_type);
+@@ -999,6 +1020,28 @@ daemon_delete_user_authorized_cb (Daemon              
+ 
+                 return;
+         }
++
++/*
++ * Under OpenBSD there is no /etc/login.defs (for USERGROUPS_ENAB), so
++ * we need to explicitely remove the user's group if it contains no more
++ * members.
++ */
++#ifdef __OpenBSD__
++        GError *grperror;
++        gchar *grpargv[2];
++
++        sys_log (context, "delete group '%d'", pwent->pw_gid);
++
++        grpargv[0] = "/usr/sbin/groupdel";
++        grpargv[1] = pwent->pw_name;
++
++        grperror = NULL;
++        if (!spawn_with_login_uid (context, grpargv, &grperror)) {
++                throw_error (context, ERROR_FAILED, "running '%s' failed: %s", grpargv[0], grperror->message);
++                g_error_free (grperror);
++                return;
++        }
++#endif
+ 
+         sys_log (context, "delete user '%s' (%d)", pwent->pw_name, ud->uid);
+ 

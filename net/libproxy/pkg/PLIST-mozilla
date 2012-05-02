@@ -1,0 +1,2 @@
+@comment $OpenBSD: ports/net/libproxy/pkg/PLIST-mozilla,v 1.2 2012/03/29 14:58:25 ajacoutot Exp $
+lib/libproxy/0.4.7/modules/pacrunner_mozjs.so

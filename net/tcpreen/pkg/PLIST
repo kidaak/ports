@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/net/tcpreen/pkg/PLIST,v 1.4 2010/09/14 07:03:42 jasper Exp $
+@bin bin/tcpreen
+@man man/man1/tcpreen.1
+share/locale/fr/LC_MESSAGES/tcpreen.mo
+share/locale/pt_BR/LC_MESSAGES/tcpreen.mo

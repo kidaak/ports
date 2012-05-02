@@ -1,0 +1,34 @@
+$OpenBSD: ports/audio/ncmpc/patches/patch-src_screen_c,v 1.4 2012/03/04 16:57:19 dcoppa Exp $
+--- src/screen.c.orig	Sun Feb  5 20:04:22 2012
++++ src/screen.c	Fri Mar  2 13:18:26 2012
+@@ -40,6 +40,8 @@
+ #include "screen_lyrics.h"
+ #include "screen_outputs.h"
+ 
++#include <sys/ioctl.h>
++
+ #include <mpd/client.h>
+ 
+ #include <stdlib.h>
+@@ -47,6 +49,7 @@
+ #include <string.h>
+ #include <time.h>
+ #include <locale.h>
++#include <termios.h>
+ 
+ #ifndef NCMPC_MINI
+ /** welcome message time [s] */
+@@ -200,6 +203,13 @@ screen_exit(void)
+ void
+ screen_resize(struct mpdclient *c)
+ {
++	struct winsize ws;
++
++	if (ioctl(fileno(stdout), TIOCGWINSZ, &ws) == 0) {
++		LINES = ws.ws_row;
++		COLS = ws.ws_col;
++	}
++
+ 	if (COLS<SCREEN_MIN_COLS || LINES<SCREEN_MIN_ROWS) {
+ 		screen_exit();
+ 		fprintf(stderr, "%s\n", _("Error: Screen too small"));

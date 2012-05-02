@@ -1,0 +1,16 @@
+$OpenBSD: ports/net/powerdns/patches/patch-pdns_Makefile_in,v 1.4 2012/01/11 01:41:47 sthen Exp $
+
+Remove target that we take care of in post-install.
+
+--- pdns/Makefile.in.orig	Thu Jan  5 09:27:41 2012
++++ pdns/Makefile.in	Tue Jan 10 14:31:26 2012
+@@ -1286,8 +1286,7 @@ install-dvi: install-dvi-recursive
+ 
+ install-dvi-am:
+ 
+-install-exec-am: install-binPROGRAMS install-sbinPROGRAMS \
+-	install-sysconfDATA
++install-exec-am: install-binPROGRAMS install-sbinPROGRAMS
+ 
+ install-html: install-html-recursive
+ 

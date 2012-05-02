@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/x11/slim/pkg/slim.rc,v 1.3 2011/12/17 22:01:14 sthen Exp $
+
+daemon="${TRUEPREFIX}/bin/slim -d"
+
+. /etc/rc.d/rc.subr
+
+rc_reload=NO
+
+rc_start() {
+	(sleep 5; ${rcexec} "${daemon} ${daemon_flags}")&
+}
+
+rc_cmd $1

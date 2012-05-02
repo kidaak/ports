@@ -1,0 +1,46 @@
+$OpenBSD: ports/games/xpat2/patches/patch-src_Imakefile,v 1.4 2010/10/23 18:24:14 naddy Exp $
+--- src/Imakefile.orig	Sun Nov  5 20:05:10 2000
++++ src/Imakefile	Sat Oct 23 20:18:07 2010
+@@ -188,7 +188,7 @@ STDOBJS		= rules.o commands.o messages.o hints.o layou
+ 		  r_Calculatio.o r_Michaels.o r_Royal.o r_Canfield.o \
+ 		  r_mdCanfield.o r_Bakers.o r_Oonsoo.o r_BlueMoon.o
+ 
+-OBJS		= $(STDOBJS) $(XOBJS) $(KIT_OBJS)
++OBJS		= $(STDOBJS) $(XOBJS) $(KIT_OBJS) -lcompat
+ 
+ 
+ MYPROG		= xpat2
+@@ -205,23 +205,20 @@ XCOMM X-widget.c additionally requires TableauP.h
+ all::		$(MYPROG)
+ 
+ install::	$(MYPROGS)
+-	mkdirhier $(XPATLIBDIR)
+-	chmod 755 $(XPATLIBDIR)
++	mkdirhier $(DESTDIR)$(XPATLIBDIR)
++	chmod 755 $(DESTDIR)$(XPATLIBDIR)
+ 	for f in $(LANGUAGES); do \
+-	  mkdirhier $(APPDEFSDIR)/$$f/app-defaults; \
+-	  cp ../lib/$$f/XPat $(APPDEFSDIR)/$$f/app-defaults; \
+-	  chmod 755 $(APPDEFSDIR)/$$f/app-defaults; \
+-	  chmod 644 $(APPDEFSDIR)/$$f/app-defaults/XPat; \
++	  mkdirhier $(DESTDIR)$(APPDEFSDIR)/$$f/app-defaults; \
++	  cp ../lib/$$f/XPat $(DESTDIR)$(APPDEFSDIR)/$$f/app-defaults; \
++	  chmod 755 $(DESTDIR)$(APPDEFSDIR)/$$f/app-defaults; \
++	  chmod 644 $(DESTDIR)$(APPDEFSDIR)/$$f/app-defaults/XPat; \
+ 	done 
+-	(cd ../lib; tar cf - * | (cd $(XPATLIBDIR); tar xf -))
+-	chown -R root $(XPATLIBDIR)
+-	chmod -R a+r $(XPATLIBDIR)
++	(cd ../lib; tar cf - * | (cd $(DESTDIR)$(XPATLIBDIR); tar xf -))
++	chown -R root $(DESTDIR)$(XPATLIBDIR)
++	chmod -R a+r $(DESTDIR)$(XPATLIBDIR)
+ 	for f in $(LANGUAGES); do \
+-	    chmod 755 $(XPATLIBDIR)/$$f; \
++	    chmod 755 $(DESTDIR)$(XPATLIBDIR)/$$f; \
+ 	done
+-	mkdirhier $(XPATMANDIR)
+-	cp xpat2.man $(XPATMANDIR)/xpat2.6x
+-	chmod 644 $(XPATMANDIR)/xpat2.6x
+ 
+ ComplexProgramTarget($(MYPROG))
+ InstallAppDefaults(XPat)

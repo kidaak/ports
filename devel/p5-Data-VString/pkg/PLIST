@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/devel/p5-Data-VString/pkg/PLIST,v 1.1.1.1 2007/10/25 21:58:38 sthen Exp $
+${P5SITE}/Data/
+${P5SITE}/Data/VString.pm
+@man man/man3p/Data::VString.3p

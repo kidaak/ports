@@ -1,0 +1,118 @@
+$OpenBSD: ports/print/hplip/patches/patch-Makefile_in,v 1.16 2012/02/23 16:03:03 ajacoutot Exp $
+
+libcompat is needed because hplip uses ftime(3).
+
+--- Makefile.in.orig	Wed Feb  1 12:56:54 2012
++++ Makefile.in	Thu Feb 23 16:43:06 2012
+@@ -4095,10 +4095,10 @@ cups_drv = prnt/drv/hpcups.drv
+ @HPLIP_BUILD_TRUE@@SCAN_BUILD_TRUE@        scan/sane/soaphti.h scan/sane/soapi.h scan/sane/xml.c scan/sane/xml.h scan/sane/ledm.h scan/sane/ledmi.h scan/sane/ledm.c \
+ @HPLIP_BUILD_TRUE@@SCAN_BUILD_TRUE@        scan/sane/bb_ledm.c scan/sane/http.h scan/sane/http.c
+ 
+-@DARWIN_BUILD_FALSE@@HPLIP_BUILD_TRUE@@SCAN_BUILD_TRUE@libsane_hpaio_la_LDFLAGS = -version-info 1:0:0
++@DARWIN_BUILD_FALSE@@HPLIP_BUILD_TRUE@@SCAN_BUILD_TRUE@libsane_hpaio_la_LDFLAGS = -module -avoid-version
+ @DARWIN_BUILD_TRUE@@HPLIP_BUILD_TRUE@@SCAN_BUILD_TRUE@libsane_hpaio_la_LDFLAGS = -module -framework CoreFoundation -version-info 1:0:0
+ # The following is a interlibrary dependency that must be compiled first.
+-@HPLIP_BUILD_TRUE@@SCAN_BUILD_TRUE@libsane_hpaio_la_LIBADD = libhpip.la libhpmud.la $(DBUS_LIBS) -lcups -ldl
++@HPLIP_BUILD_TRUE@@SCAN_BUILD_TRUE@libsane_hpaio_la_LIBADD = libhpip.la libhpmud.la $(DBUS_LIBS) -lcups
+ #libsane_hpaio_la_CFLAGS = -DWITH_NONAMESPACES -DSOAP_DEBUG
+ @HPLIP_BUILD_TRUE@@SCAN_BUILD_TRUE@libsane_hpaio_la_CFLAGS = $(DBUS_CFLAGS)
+ 
+@@ -4122,7 +4122,7 @@ cups_drv = prnt/drv/hpcups.drv
+ # hp-mkuri.
+ @HPLIP_BUILD_TRUE@hp_mkuridir = $(bindir)
+ @HPLIP_BUILD_TRUE@hp_mkuri_SOURCES = io/hpmud/hp-mkuri.c
+-@HPLIP_BUILD_TRUE@hp_mkuri_LDADD = -ldl libhpmud.la
++@HPLIP_BUILD_TRUE@hp_mkuri_LDADD = libhpmud.la
+ @HPLIP_BUILD_TRUE@hp_mkuri_CFLAGS = -DCONFDIR=\"$(hplip_confdir)\"
+ 
+ # hpmud.rules
+@@ -4142,7 +4142,7 @@ cups_drv = prnt/drv/hpcups.drv
+ @HPLIP_BUILD_TRUE@pstotiff_SCRIPTS = fax/filters/pstotiff
+ 
+ # hplip.state
+-@HPLIP_BUILD_TRUE@hplip_statedir = /var/lib/hp
++@HPLIP_BUILD_TRUE@hplip_statedir = /var/db/hp
+ @HPLIP_BUILD_TRUE@dist_hplip_state_DATA = hplip.state
+ 
+ # Log Files
+@@ -4318,7 +4318,7 @@ cups_drv = prnt/drv/hpcups.drv
+ @FULL_BUILD_TRUE@@HPLIP_BUILD_TRUE@hppgsz_SOURCES = prnt/hpijs/PrinterProperties.cpp prnt/hpijs/PrinterProperties.h prnt/hpijs/bug.h
+ @FULL_BUILD_TRUE@@HPLIP_BUILD_TRUE@hppgsz_CXXFLAGS = $(libapdk_la_CXXFLAGS)
+ @FULL_BUILD_TRUE@@HPLIP_BUILD_TRUE@hppgsz_CFLAGS = $(libapdk_la_CFLAGS)
+-@FULL_BUILD_TRUE@@HPLIP_BUILD_TRUE@hppgsz_LDADD = libapdk.la -ljpeg -ldl
++@FULL_BUILD_TRUE@@HPLIP_BUILD_TRUE@hppgsz_LDADD = libapdk.la -ljpeg
+ 
+ # hplip.desktop
+ @FULL_BUILD_TRUE@@HPLIP_BUILD_TRUE@hplip_desktopdir = $(icondir)
+@@ -4390,8 +4390,8 @@ libapdk_la_CFLAGS = $(libapdk_la_CXXFLAGS) -Iprnt/hpij
+ 
+ @HPIJS_INSTALL_TRUE@hpijs_CXXFLAGS = $(libapdk_la_CXXFLAGS)
+ @HPIJS_INSTALL_TRUE@hpijs_CFLAGS = $(libapdk_la_CFLAGS)
+-@HPIJS_INSTALL_TRUE@@HPLIP_BUILD_FALSE@hpijs_LDADD = libapdk.la -ljpeg -ldl
+-@HPIJS_INSTALL_TRUE@@HPLIP_BUILD_TRUE@hpijs_LDADD = libapdk.la -ljpeg -ldl libhpip.la libhpmud.la $(DBUS_LIBS)
++@HPIJS_INSTALL_TRUE@@HPLIP_BUILD_FALSE@hpijs_LDADD = libapdk.la -ljpeg
++@HPIJS_INSTALL_TRUE@@HPLIP_BUILD_TRUE@hpijs_LDADD = libapdk.la -ljpeg libhpip.la libhpmud.la $(DBUS_LIBS)
+ 
+ # hpcups
+ #if NEW_HPCUPS
+@@ -4429,7 +4429,7 @@ libapdk_la_CFLAGS = $(libapdk_la_CXXFLAGS) -Iprnt/hpij
+ @HPCUPS_INSTALL_TRUE@        prnt/hpcups/dj4100PrintModes.h
+ 
+ @HPCUPS_INSTALL_TRUE@hpcups_CXXFLAGS = $(APDK_ENDIAN_FLAG) $(DBUS_CFLAGS)
+-@HPCUPS_INSTALL_TRUE@hpcups_LDADD = -ljpeg -ldl -lcups -lcupsimage $(DBUS_LIBS)
++@HPCUPS_INSTALL_TRUE@hpcups_LDADD = -ljpeg -lcups -lcupsimage -lcompat $(DBUS_LIBS)
+ #else
+ #hpcupsdir = $(cupsfilterdir)
+ #hpcups_PROGRAMS = hpcups
+@@ -4437,9 +4437,9 @@ libapdk_la_CFLAGS = $(libapdk_la_CXXFLAGS) -Iprnt/hpij
+ #hpcups_CXXFLAGS = $(libapdk_la_CXXFLAGS)
+ #hpcups_CFLAGS = $(libapdk_la_CFLAGS)
+ #if HPCUPS_ONLY_BUILD
+-#hpcups_LDADD = libapdk.la -ljpeg -ldl -lcups -lcupsimage
++#hpcups_LDADD = libapdk.la -ljpeg -lcups -lcupsimage
+ #else
+-#hpcups_LDADD = libapdk.la -ljpeg -ldl libhpip.la libhpmud.la $(DBUS_LIBS) -lcups -lcupsimage
++#hpcups_LDADD = libapdk.la -ljpeg libhpip.la libhpmud.la $(DBUS_LIBS) -lcups -lcupsimage
+ #endif #HPCUPS_ONLY_BUILD
+ #endif # NEW_HPCUPS
+ # hpcupsfax
+@@ -8388,10 +8388,10 @@ install-data-am: install-cupsdrv2DATA install-cupsdrvD
+ 	install-cupsextLTLIBRARIES install-dist_baseDATA \
+ 	install-dist_cacSCRIPTS install-dist_cmdSCRIPTS \
+ 	install-dist_copierDATA install-dist_faxDATA \
+-	install-dist_fax_filtersDATA install-dist_halpreDATA \
++	install-dist_fax_filtersDATA \
+ 	install-dist_hpcupsfaxppdDATA install-dist_hpfaxSCRIPTS \
+ 	install-dist_hpijsfaxppdDATA install-dist_hplipSCRIPTS \
+-	install-dist_hplip_LogDATA install-dist_hplip_stateDATA \
++	install-dist_hplip_stateDATA \
+ 	install-dist_images_128x128DATA install-dist_images_16x16DATA \
+ 	install-dist_images_24x24DATA install-dist_images_256x256DATA \
+ 	install-dist_images_32x32DATA install-dist_images_64x64DATA \
+@@ -8404,7 +8404,7 @@ install-data-am: install-cupsdrv2DATA install-cupsdrvD
+ 	install-dist_policykit_dbus_shareDATA \
+ 	install-dist_policykit_policyDATA install-dist_postscriptDATA \
+ 	install-dist_ppdDATA install-dist_prntDATA \
+-	install-dist_ripSCRIPTS install-dist_rulesDATA \
++	install-dist_ripSCRIPTS \
+ 	install-dist_scanDATA install-dist_ui4DATA install-dist_uiDATA \
+ 	install-dist_unrelDATA install-dist_www0DATA \
+ 	install-dist_www3DATA install-dist_www4DATA install-docDATA \
+@@ -8609,17 +8609,6 @@ install-dist_hplip_LogDATA:
+ @HPLIP_BUILD_TRUE@	chmod 774 $(DESTDIR)$(hplip_Logdir)
+ 
+ install-data-hook:
+-#	   If scanner build, add hpaio entry to sane dll.conf.
+-@HPLIP_BUILD_TRUE@	if [ "$(scan_build)" = "yes" ]; then \
+-@HPLIP_BUILD_TRUE@	   $(mkinstalldirs) $(DESTDIR)/etc/sane.d; \
+-@HPLIP_BUILD_TRUE@	   if [ ! -f $(DESTDIR)/etc/sane.d/dll.conf ]; then \
+-@HPLIP_BUILD_TRUE@		  touch $(DESTDIR)/etc/sane.d/dll.conf; \
+-@HPLIP_BUILD_TRUE@	   fi; \
+-@HPLIP_BUILD_TRUE@	   if ! grep ^hpaio $(DESTDIR)/etc/sane.d/dll.conf >/dev/null 2>/dev/null ; then \
+-@HPLIP_BUILD_TRUE@		  echo "Adding hpaio entry to /etc/sane.d/dll.conf." ; \
+-@HPLIP_BUILD_TRUE@		  echo hpaio >>$(DESTDIR)/etc/sane.d/dll.conf ; \
+-@HPLIP_BUILD_TRUE@	   fi \
+-@HPLIP_BUILD_TRUE@	fi
+ #	   Create hp-xxx commands in bindir.
+ @FULL_BUILD_TRUE@@HPLIP_BUILD_TRUE@	$(mkinstalldirs) $(DESTDIR)$(bindir)
+ @FULL_BUILD_TRUE@@HPLIP_BUILD_TRUE@	for i in $(dist_cmd_SCRIPTS); do \

@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/x11/bbpager/pkg/PLIST,v 1.4 2009/01/22 20:39:03 sthen Exp $
+@bin bin/bbpager
+share/bbtools/
+share/bbtools/README.bbpager
+share/bbtools/bbpager.rc

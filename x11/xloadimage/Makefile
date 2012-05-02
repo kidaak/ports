@@ -1,0 +1,66 @@
+# $OpenBSD: ports/x11/xloadimage/Makefile,v 1.45 2012/04/13 10:56:41 naddy Exp $
+
+COMMENT=	graphics file viewer for X11
+
+VERSION=	4.1
+REV=		17	# Debian
+
+DISTNAME=	xloadimage.${VERSION}
+PKGNAME=	xloadimage-${VERSION}.${REV}
+EPOCH=		0
+CATEGORIES=	x11 graphics
+
+MAINTAINER=	Christian Weisgerber <naddy@openbsd.org>
+
+# BSD
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+
+MASTER_SITES=	${MASTER_SITE_R5CONTRIB}
+MASTER_SITES0=	ftp://ftp.debian.org/debian/pool/main/x/xloadimage/ \
+		ftp://ftp.de.debian.org/debian/pool/main/x/xloadimage/
+
+DISTFILES=	${DISTNAME}.tar.gz \
+		xloadimage_${VERSION}-${REV}.debian.tar.gz:0
+
+LIB_DEPENDS=	graphics/png \
+		graphics/tiff
+WANTLIB=	X11 c jpeg m png tiff z
+
+USE_GROFF =	Yes
+CONFIGURE_STYLE=gnu
+CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include/libpng \
+		    -I${LOCALBASE}/include" \
+		LDFLAGS="-L${LOCALBASE}/lib"
+NO_REGRESS=	Yes
+
+PATCH_DIST_STRIP= -p1
+
+do-distpatch:
+	@for p in ${WRKDIR}/debian/patches/*.dpatch; do \
+		${PATCH} ${PATCH_DIST_ARGS} < $$p; \
+	done
+
+post-patch:
+	@chmod a+rx ${WRKSRC}/configure
+
+do-install:
+	${INSTALL_PROGRAM} ${WRKBUILD}/xloadimage ${PREFIX}/bin
+	@cd ${PREFIX}/bin && \
+	    ln -sf xloadimage xsetbg && \
+	    ln -sf xloadimage xview
+	${INSTALL_PROGRAM} ${WRKBUILD}/uufilter ${PREFIX}/bin
+	${INSTALL_MAN} ${WRKSRC}/xloadimage.man ${PREFIX}/man/man1/xloadimage.1
+	@perl -i -pe 's:%%SYSCONFDIR%%:${SYSCONFDIR}:' \
+	    ${PREFIX}/man/man1/xloadimage.1
+	@cd ${PREFIX}/man/man1 && \
+	    ln -sf xloadimage.1 xsetbg.1 && \
+	    ln -sf xloadimage.1 xview.1
+	${INSTALL_MAN} ${WRKSRC}/uufilter.man ${PREFIX}/man/man1/uufilter.1
+	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/xloadimage
+	${INSTALL_DATA} ${WRKSRC}/xloadimagerc \
+	    ${PREFIX}/share/examples/xloadimage/xloadimagerc
+
+.include <bsd.port.mk>

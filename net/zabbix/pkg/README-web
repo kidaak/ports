@@ -1,0 +1,32 @@
+$OpenBSD: ports/net/zabbix/pkg/README-web,v 1.5 2011/10/16 15:56:24 ajacoutot Exp $
+
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+The Zabbix web frontend has been installed into
+${PREFIX-web}/zabbix
+
+You should point this to the DocumentRoot of your web-server:
+    # ln -s ../zabbix /var/www/htdocs/zabbix
+(make sure you use a relative symlink since Apache is chrooted)
+
+zabbix-web frontend can use a PostgreSQL, MySQL or SQLite3 database.
+Install the php-pgsql, php-mysql or php-pdo_sqlite package according
+to the one you wish to use.
+
+The web frontend works reasonably well with OpenBSD's chroot'ed
+httpd (the "Status of Zabbix" page uses /bin/ps and /dev/kmem to
+check the process, so it erroneously reports it as not running).
+Some changes from the default configuration are required -
+you can do this by creating symbolic links as follows:
+
+    # ln -s ${PREFIX-web}/conf/modules.sample/zabbix.conf \
+      ${PREFIX-web}/conf/modules
+
+    # ln -fs ${SYSCONFDIR}/php-${MODPHP_VERSION}.sample/zabbix.ini \
+      ${SYSCONFDIR}/php-${MODPHP_VERSION}/zabbix.ini
+
+Zabbix requires a timezone to be configured in PHP; zabbix.ini
+sets this to UTC, you may like to adjust this. After making these
+changes, stop and start httpd.

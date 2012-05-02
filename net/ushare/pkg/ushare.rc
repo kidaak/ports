@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/net/ushare/pkg/ushare.rc,v 1.5 2011/12/17 22:01:13 sthen Exp $
+
+daemon="${TRUEPREFIX}/bin/ushare -D"
+
+. /etc/rc.d/rc.subr
+
+rc_cmd $1

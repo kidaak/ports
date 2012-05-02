@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/editors/ldapvi/pkg/PLIST,v 1.3 2012/01/12 13:59:29 ajacoutot Exp $
+@bin bin/ldapvi
+@man man/man1/ldapvi.1
+share/doc/ldapvi/
+share/doc/ldapvi/bg.png
+share/doc/ldapvi/manual.css
+share/doc/ldapvi/manual.html

@@ -1,0 +1,12 @@
+$OpenBSD: ports/graphics/tiff/patches/patch-Makefile_in,v 1.7 2012/04/14 15:09:55 naddy Exp $
+--- Makefile.in.orig	Wed Apr 11 19:07:52 2012
++++ Makefile.in	Wed Apr 11 19:11:49 2012
+@@ -339,7 +339,7 @@ EXTRA_DIST = \
+ 	libtiff-4.pc.in
+ 
+ dist_doc_DATA = $(docfiles)
+-SUBDIRS = port libtiff tools build contrib test man html
++SUBDIRS = port libtiff tools build test man html
+ pkgconfigdir = $(libdir)/pkgconfig
+ pkgconfig_DATA = libtiff-4.pc
+ all: all-recursive

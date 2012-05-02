@@ -1,0 +1,13 @@
+$OpenBSD: ports/net/snort/patches/patch-src_dynamic-plugins_sf_dynamic_plugins_c,v 1.5 2010/07/12 19:38:40 sthen Exp $
+--- src/dynamic-plugins/sf_dynamic_plugins.c.orig	Tue Jan 26 19:11:07 2010
++++ src/dynamic-plugins/sf_dynamic_plugins.c	Thu Apr 22 07:53:46 2010
+@@ -248,8 +248,7 @@ void LoadAllLibs(char *path, LoadLibraryFunc loadFunc)
+         dir_entry = readdir(directory);
+         while (dir_entry != NULL)
+         {
+-            if ((dir_entry->d_reclen != 0) &&
+-                (fnmatch(MODULE_EXT, dir_entry->d_name, FNM_PATHNAME | FNM_PERIOD) == 0))
++            if (fnmatch(MODULE_EXT, dir_entry->d_name, FNM_PATHNAME | FNM_PERIOD) == 0)
+             {
+                 /* Get the string up until the first dot.  This will be
+                  * considered the file prefix. */

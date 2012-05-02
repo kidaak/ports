@@ -1,0 +1,12 @@
+$OpenBSD: ports/mail/claws-mail/patches/patch-src_procmime_c,v 1.6 2008/10/17 12:46:33 landry Exp $
+--- src/procmime.c.orig	Wed Oct  1 03:10:29 2008
++++ src/procmime.c	Sat Oct  4 16:02:19 2008
+@@ -1085,7 +1085,7 @@ GList *procmime_get_mime_type_list(void)
+ #endif
+ 	{
+ 		fp_is_glob_file = FALSE;
+-		if ((fp = g_fopen("/etc/mime.types", "rb")) == NULL) {
++		if ((fp = g_fopen("/var/www/conf/mime.types", "rb")) == NULL) {
+ 			if ((fp = g_fopen(SYSCONFDIR "/mime.types", "rb")) 
+ 				== NULL) {
+ 				FILE_OP_ERROR(SYSCONFDIR "/mime.types", 

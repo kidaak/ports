@@ -1,0 +1,17 @@
+$OpenBSD: ports/lang/php/5.3/patches/patch-scripts_php-config_in,v 1.2 2012/01/21 23:34:35 sthen Exp $
+--- scripts/php-config.in.orig.port	Mon Apr 18 12:13:37 2011
++++ scripts/php-config.in	Wed Jan 18 14:03:17 2012
+@@ -1,11 +1,11 @@
+ #! /bin/sh
+ 
+ SED="@SED@"
+-prefix="@prefix@"
++prefix=OPENBSD_PEAR_ROOT
+ exec_prefix="@exec_prefix@"
+ version="@PHP_VERSION@"
+ vernum="@PHP_VERSION_ID@"
+-include_dir="@includedir@/php"
++include_dir="@PEAR_INSTALLDIR@/include"
+ includes="-I$include_dir -I$include_dir/main -I$include_dir/TSRM -I$include_dir/Zend -I$include_dir/ext -I$include_dir/ext/date/lib"
+ ldflags="@PHP_LDFLAGS@"
+ libs="@EXTRA_LIBS@"

@@ -1,0 +1,41 @@
+$OpenBSD: ports/mail/sympa/patches/patch-configure,v 1.3 2011/08/16 10:06:58 landry Exp $
+--- configure.orig	Wed Jul 20 18:37:47 2011
++++ configure	Sun Aug  7 11:37:43 2011
+@@ -2724,19 +2724,19 @@ else
+ 
+     # define custom variables
+     initdir=/etc/rc.d/init.d
+-    piddir=$prefix
+-    lockdir=$localstatedir/lock/subsys
++    piddir=$localstatedir/run/sympa
++    lockdir=$localstatedir/spool/lock
+     modulesdir=$prefix/bin
+     scriptdir=$prefix/bin
+     defaultdir=$prefix/default
+-    mailtemplatedir=$defaultdir/mail_tt2
+-    webtemplatedir=$defaultdir/web_tt2
++    mailtemplatedir=$prefix/share/sympa/mail_tt2
++    webtemplatedir=$prefix/share/sympa/web_tt2
+     execcgidir=$prefix/bin
+-    expldir=$prefix/list_data
+-    spooldir=$prefix/spool
+-    staticdir=$prefix/static_content
+-    arcdir=$prefix/arc
+-    bouncedir=$prefix/bounce
++    spooldir=$localstatedir/spool/sympa
++    expldir=$localstatedir/sympa/list_data
++    staticdir=/var/www/sympa
++    arcdir=$localstatedir/sympa/archives
++    bouncedir=$localstatedir/sympa/bounces
+     confdir=/etc
+ fi
+ 
+@@ -4504,7 +4504,7 @@ $as_echo "$as_me: error: invalid value $POSTMAP for po
+ $as_echo "$POSTMAP" >&6; }
+ else
+     # default value
+-    POSTMAP=/usr/sbin/postmap
++    POSTMAP=${LOCALBASE}/sbin/postmap
+ fi
+ 
+ 

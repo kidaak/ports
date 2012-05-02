@@ -1,0 +1,12 @@
+$OpenBSD: ports/lang/librep/patches/patch-librep_pc_in,v 1.6 2011/11/15 19:32:14 jasper Exp $
+--- librep.pc.in.orig	Mon Aug 22 18:52:09 2011
++++ librep.pc.in	Tue Nov 15 20:06:47 2011
+@@ -11,7 +11,7 @@ includedir=@includedir@
+ datarootdir=@datarootdir@
+ 
+ Cflags: -I${includedir}/ -I${repcommonexecdir}/
+-Libs: -L@libdir@ -lrep -lcrypt -lgmp -lm
++Libs: -L@libdir@ -lrep -lgmp -lm
+ 
+ Name: librep
+ Description: librep - a lisp dialect

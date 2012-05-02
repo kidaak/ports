@@ -1,0 +1,16 @@
+@comment $OpenBSD: ports/net/ruby-net-ssh-gateway/pkg/PLIST,v 1.3 2010/11/08 23:24:41 jeremy Exp $
+${GEM_LIB}/cache/${DISTNAME}.gem
+${GEM_LIB}/gems/${DISTNAME}/
+${GEM_LIB}/gems/${DISTNAME}/CHANGELOG.rdoc
+${GEM_LIB}/gems/${DISTNAME}/Manifest
+${GEM_LIB}/gems/${DISTNAME}/README.rdoc
+${GEM_LIB}/gems/${DISTNAME}/Rakefile
+${GEM_LIB}/gems/${DISTNAME}/lib/
+${GEM_LIB}/gems/${DISTNAME}/lib/net/
+${GEM_LIB}/gems/${DISTNAME}/lib/net/ssh/
+${GEM_LIB}/gems/${DISTNAME}/lib/net/ssh/gateway.rb
+${GEM_LIB}/gems/${DISTNAME}/net-ssh-gateway.gemspec
+${GEM_LIB}/gems/${DISTNAME}/setup.rb
+${GEM_LIB}/gems/${DISTNAME}/test/
+${GEM_LIB}/gems/${DISTNAME}/test/gateway_test.rb
+${GEM_LIB}/specifications/${DISTNAME}.gemspec

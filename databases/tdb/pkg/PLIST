@@ -1,0 +1,15 @@
+@comment $OpenBSD: ports/databases/tdb/pkg/PLIST,v 1.4 2011/09/26 09:30:08 sthen Exp $
+@conflict samba-<3.5.0
+%%SHARED%%
+@bin bin/tdbbackup
+@bin bin/tdbdump
+@bin bin/tdbrestore
+@bin bin/tdbtool
+include/tdb.h
+lib/libtdb.a
+lib/pkgconfig/
+lib/pkgconfig/tdb.pc
+share/doc/tdb/
+share/doc/tdb/README
+share/doc/tdb/tdb.magic
+share/doc/tdb/tracing.txt

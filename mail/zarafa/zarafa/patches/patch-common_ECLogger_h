@@ -1,0 +1,16 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_ECLogger_h,v 1.2 2011/09/29 17:12:11 ajacoutot Exp $
+
+Needs newlocale(3).
+
+--- common/ECLogger.h.orig	Mon Sep 26 15:56:08 2011
++++ common/ECLogger.h	Thu Sep 29 16:53:37 2011
+@@ -113,7 +113,9 @@ class ECLogger { (protected)
+ 	int max_loglevel;
+ 	char *msgbuffer;
+ 	pthread_mutex_t msgbuflock;
++#ifndef __OpenBSD__
+ 	locale_t timelocale;
++#endif
+ 	char timestring[_LOG_TSSIZE];
+ 	logprefix prefix;
+ 

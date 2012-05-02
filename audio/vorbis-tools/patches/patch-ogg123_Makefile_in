@@ -1,0 +1,12 @@
+$OpenBSD: ports/audio/vorbis-tools/patches/patch-ogg123_Makefile_in,v 1.10 2010/06/03 15:50:28 naddy Exp $
+--- ogg123/Makefile.in.orig	Fri Mar 26 08:07:18 2010
++++ ogg123/Makefile.in	Sun May 23 19:06:44 2010
+@@ -633,7 +633,7 @@ info: info-am
+ 
+ info-am:
+ 
+-install-data-am: install-docDATA install-man
++install-data-am: install-man
+ 
+ install-exec-am: install-binPROGRAMS
+ 

@@ -1,0 +1,15 @@
+$OpenBSD: ports/www/chromium/patches/patch-v8_src_platform_h,v 1.5 2011/12/14 16:58:19 robert Exp $
+--- v8/src/platform.h.orig	Wed Dec  7 09:04:42 2011
++++ v8/src/platform.h	Tue Dec 13 21:23:12 2011
+@@ -88,7 +88,11 @@ namespace internal {
+ 
+ // Use AtomicWord for a machine-sized pointer. It is assumed that
+ // reads and writes of naturally aligned values of this type are atomic.
++#if defined(__OpenBSD__) && defined(__i386__)
++typedef Atomic32 AtomicWord;
++#else
+ typedef intptr_t AtomicWord;
++#endif
+ 
+ class Semaphore;
+ class Mutex;

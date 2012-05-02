@@ -1,0 +1,21 @@
+$OpenBSD: ports/net/net-snmp/patches/patch-Makefile_top,v 1.14 2011/11/18 12:39:06 sthen Exp $
+--- Makefile.top.orig	Wed Aug 31 03:21:51 2011
++++ Makefile.top	Thu Sep  1 23:24:44 2011
+@@ -39,6 +39,8 @@ LIBTOOLCLEAN	= $(LIBTOOL) --mode=clean rm -f
+ FEATURECHECK	= $(top_srcdir)/local/minimalist/feature-check
+ FEATUREPROCESS	= $(top_srcdir)/local/minimalist/feature-remove
+ INSTALL_DATA    = @INSTALL_DATA@
++INSTALL_PROGRAM = $(LIBTOOL) --mode=install @INSTALL_PROGRAM@
++INSTALL_SCRIPT  = @INSTALL_SCRIPT@
+ SED		= @SED@
+ LN_S		= @LN_S@
+ AUTOCONF	= @AUTOCONF@
+@@ -83,7 +85,7 @@ LIBCURRENT  = 30
+ LIBAGE      = 0
+ LIBREVISION = 1
+ 
+-LIB_LD_CMD      = $(LIBTOOL) --mode=link $(LINKCC) $(CFLAGS) -rpath $(libdir) -version-info $(LIBCURRENT):$(LIBREVISION):$(LIBAGE) -o
++LIB_LD_CMD      = $(LIBTOOL) --mode=link $(CC) $(CFLAGS) -rpath $(libdir) -o
+ LIB_EXTENSION   = la
+ LIB_VERSION     =
+ LIB_LDCONFIG_CMD = $(LIBTOOL) --mode=finish $(libdir)

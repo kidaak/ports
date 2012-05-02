@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/audio/mp3info/pkg/PLIST,v 1.6 2004/08/06 14:37:27 espie Exp $
+bin/mp3info
+@man man/man1/mp3info.1
+!%%no_x11%%

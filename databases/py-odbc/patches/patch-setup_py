@@ -1,0 +1,12 @@
+$OpenBSD: ports/databases/py-odbc/patches/patch-setup_py,v 1.2 2010/09/14 13:16:04 sthen Exp $
+--- setup.py.orig	Mon Sep  6 12:32:26 2010
++++ setup.py	Sun Sep 12 10:35:54 2010
+@@ -63,7 +63,7 @@ def main():
+         extra_compile_args = ['-Wno-write-strings']
+ 
+         # What is the proper way to detect iODBC, MyODBC, unixODBC, etc.?
+-        libraries.append('odbc')
++        libraries.append('iodbc')
+ 
+     macros = [ ('PYODBC_VERSION', version_str) ]
+ 

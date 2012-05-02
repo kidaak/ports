@@ -1,0 +1,13 @@
+$OpenBSD: ports/www/cherokee/patches/patch-admin_wizards_php_py,v 1.2 2010/12/20 07:51:58 ajacoutot Exp $
+--- admin/wizards/php.py.orig	Mon Dec 13 13:58:50 2010
++++ admin/wizards/php.py	Wed Dec 15 16:37:42 2010
+@@ -84,7 +84,8 @@ STD_ETC_PATHS = ['/etc/php.ini',
+                  '/opt/php*/etc/php.ini',
+                  '/opt/local/etc/php*/php.ini',
+                  '/etc/php*/*/php.ini',
+-                 '/etc/php*/php.ini']
++                 '/etc/php*/php.ini',
++		 '/var/www/conf/php.ini']
+ 
+ CFG_PREFIX    = 'tmp!wizard!php'
+ 

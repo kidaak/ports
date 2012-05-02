@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/misc/tkman/pkg/PLIST,v 1.4 2011/01/05 17:34:17 stu Exp $
+bin/retkman
+bin/tkman
+share/doc/tkman/
+share/doc/tkman/manual.html

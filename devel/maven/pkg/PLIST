@@ -1,0 +1,21 @@
+@comment $OpenBSD: ports/devel/maven/pkg/PLIST,v 1.2 2009/08/30 22:05:32 stsp Exp $
+${DISTNAME}/
+${DISTNAME}/LICENSE.txt
+${DISTNAME}/NOTICE.txt
+${DISTNAME}/README.txt
+${DISTNAME}/bin/
+${DISTNAME}/bin/m2.conf
+${DISTNAME}/bin/mvn
+${DISTNAME}/bin/mvnDebug
+${DISTNAME}/boot/
+${DISTNAME}/boot/classworlds-1.1.jar
+${DISTNAME}/conf
+${DISTNAME}/lib/
+${DISTNAME}/lib/maven-2.2.1-uber.jar
+bin/mvn
+share/examples/maven/
+@sample ${SYSCONFDIR}/maven/
+share/examples/maven/maven.rc
+@sample ${SYSCONFDIR}/maven/maven.rc
+share/examples/maven/settings.xml
+@sample ${SYSCONFDIR}/maven/settings.xml

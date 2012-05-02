@@ -1,0 +1,12 @@
+$OpenBSD: ports/databases/iodbc/patches/patch-include_sqltypes_h,v 1.4 2011/06/16 01:29:57 sthen Exp $
+--- include/sqltypes.h.orig	Wed Sep  9 21:06:24 2009
++++ include/sqltypes.h	Fri Jun  3 11:28:05 2011
+@@ -343,7 +343,7 @@ SQL_INTERVAL_STRUCT;
+  */
+ #if (ODBCVER >= 0x0300)
+ 
+-#if (_MSC_VER >= 900)
++#if defined(_MSC_VER) && (_MSC_VER >= 900)
+ #  define ODBCINT64 		__int64
+ #endif
+ 

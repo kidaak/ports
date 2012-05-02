@@ -1,0 +1,17 @@
+$OpenBSD: ports/x11/slim/pkg/README,v 1.3 2011/06/02 13:41:42 ajacoutot Exp $
+
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+On i386, amd64 and VGA-based alpha, slim is launched on vt05 like xdm.
+
+If you're on a zaurus you'll have to change this setting to vt01 in
+${SYSCONFDIR}/slim.conf.
+
+If you're on an arch which doesn't handle virtual terminals (like
+macppc, sparc, sparc64, TGA-based alpha, hp300 or vax), you will have to
+explicitely set getty off on ttyC0 in /etc/ttys to avoid input
+conflicts:
+
+ttyC0 "/usr/libexec/getty Pc" vt220 off secure

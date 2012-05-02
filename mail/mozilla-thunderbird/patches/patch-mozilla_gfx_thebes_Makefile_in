@@ -1,0 +1,15 @@
+$OpenBSD: ports/mail/mozilla-thunderbird/patches/patch-mozilla_gfx_thebes_Makefile_in,v 1.7 2012/03/16 21:35:25 landry Exp $
+????
+--- mozilla/gfx/thebes/Makefile.in.orig	Fri Mar  9 21:28:48 2012
++++ mozilla/gfx/thebes/Makefile.in	Sat Mar 10 13:20:45 2012
+@@ -403,6 +403,10 @@ ifeq ($(MOZ_WIDGET_TOOLKIT),gtk2)
+ CXXFLAGS += $(MOZ_PANGO_CFLAGS)
+ endif
+ 
++ifdef MOZ_ENABLE_COREXFONTS
++EXTRA_DSO_LDOPTS += -lpangox-1.0
++endif
++
+ ifeq ($(MOZ_WIDGET_TOOLKIT),os2)
+ CXXFLAGS += $(CAIRO_FT_CFLAGS)
+ endif

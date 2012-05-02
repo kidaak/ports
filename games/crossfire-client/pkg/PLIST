@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/games/crossfire-client/pkg/PLIST,v 1.6 2010/04/26 01:43:03 jakemsr Exp $
+@bin bin/cfclient
+@bin bin/cfsndserv
+@bin bin/gcfclient2
+@man man/man6/cfclient.6
+@man man/man6/gcfclient.6
+share/crossfire-client/
+share/crossfire-client/bmaps.client
+share/crossfire-client/crossfire.base
+share/crossfire-client/crossfire.clsc

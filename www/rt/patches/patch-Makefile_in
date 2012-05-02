@@ -1,0 +1,64 @@
+--- Makefile.in.orig	Mon Oct 19 21:55:31 2009
++++ Makefile.in	Sun Nov  8 12:37:59 2009
+@@ -56,7 +56,13 @@ INSTALL			=	@INSTALL@
+ 
+ RT_LAYOUT		=	@rt_layout_name@
+ 
+-CONFIG_FILE_PATH	=	@CONFIG_FILE_PATH_R@
++INSTALL			=	@INSTALL@
++INSTALL_DATA		=	@INSTALL_DATA@
++INSTALL_DATA_DIR	=	@INSTALL_DATA_DIR@
++INSTALL_SCRIPT		=	@INSTALL_SCRIPT@
++
++CONFIG_FILE_PATH	=	@prefix@/share/examples/rt3
++
+ CONFIG_FILE		=	$(CONFIG_FILE_PATH)/RT_Config.pm
+ SITE_CONFIG_FILE	=	$(CONFIG_FILE_PATH)/RT_SiteConfig.pm
+ 
+@@ -311,13 +317,13 @@ fixperms:
+ 
+ 	chmod $(RT_READABLE_DIR_MODE) $(DESTDIR)$(RT_BIN_PATH)
+ 
+-	chmod 0755 $(DESTDIR)$(RT_ETC_PATH)
+-	cd $(DESTDIR)$(RT_ETC_PATH) && chmod 0400 $(ETC_FILES)
++	chmod 0755 $(DESTDIR)$(CONFIG_FILE_PATH)
++	cd $(DESTDIR)$(CONFIG_FILE_PATH) && chmod 0400 $(ETC_FILES)
+ 
+ 	#TODO: the config file should probably be able to have its
+ 	# owner set separately from the binaries.
+-	chown -R $(BIN_OWNER) $(DESTDIR)$(RT_ETC_PATH)
+-	chgrp -R $(RTGROUP) $(DESTDIR)$(RT_ETC_PATH)
++	chown -R $(BIN_OWNER) $(DESTDIR)$(CONFIG_FILE_PATH)
++	chgrp -R $(RTGROUP) $(DESTDIR)$(CONFIG_FILE_PATH)
+ 
+ 	chmod 0440 $(DESTDIR)$(CONFIG_FILE)
+ 	chmod 0640 $(DESTDIR)$(SITE_CONFIG_FILE)
+@@ -362,7 +368,7 @@ dirs:
+ 	$(INSTALL) -m 0755 -d $(DESTDIR)$(LOCAL_LEXICON_PATH)
+ # }}}
+ 
+-install: testdeps config-install dirs files-install fixperms instruct
++install: config-install dirs files-install fixperms instruct
+ 
+ files-install: libs-install etc-install config-install bin-install sbin-install html-install local-install doc-install
+ 
+@@ -370,6 +376,7 @@ config-install:
+ @COMMENT_INPLACE_LAYOUT@	$(INSTALL) -m 0755 -o $(BIN_OWNER) -g $(RTGROUP) -d $(DESTDIR)$(CONFIG_FILE_PATH)
+ @COMMENT_INPLACE_LAYOUT@	-$(INSTALL) -m 0440 -o $(BIN_OWNER) -g $(RTGROUP)  etc/RT_Config.pm $(DESTDIR)$(CONFIG_FILE)
+ @COMMENT_INPLACE_LAYOUT@	[ -f $(DESTDIR)$(SITE_CONFIG_FILE) ] || $(INSTALL) -m 0640 -o $(BIN_OWNER) -g $(RTGROUP) etc/RT_SiteConfig.pm $(DESTDIR)$(SITE_CONFIG_FILE) 
++@COMMENT_INPLACE_LAYOUT@	-cp -rp etc/upgrade $(DESTDIR)$(CONFIG_FILE_PATH)
+ @COMMENT_INPLACE_LAYOUT@	@echo "Installed configuration. About to install RT in  $(RT_PATH)"
+ 
+ test: 
+@@ -434,9 +441,9 @@ doc-install:
+ # {{{ etc-install
+ 
+ etc-install:
+-@COMMENT_INPLACE_LAYOUT@	[ -d $(DESTDIR)$(RT_ETC_PATH) ] || $(INSTALL) -m 0755 -d $(DESTDIR)$(RT_ETC_PATH)
++@COMMENT_INPLACE_LAYOUT@	[ -d $(DESTDIR)$(CONFIG_FILE_PATH) ] || $(INSTALL) -m 0755 -d $(DESTDIR)$(CONFIG_FILE_PATH)
+ @COMMENT_INPLACE_LAYOUT@	for file in $(ETC_FILES) ; do \
+-@COMMENT_INPLACE_LAYOUT@	    $(INSTALL) -m 0644 "etc/$$file" "$(DESTDIR)$(RT_ETC_PATH)/" ; \
++@COMMENT_INPLACE_LAYOUT@	    $(INSTALL) -m 0644 -o root -g wheel "etc/$$file" "$(DESTDIR)$(CONFIG_FILE_PATH)/" ; \
+ @COMMENT_INPLACE_LAYOUT@	done
+ # }}}
+ 

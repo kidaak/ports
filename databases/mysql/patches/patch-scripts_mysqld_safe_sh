@@ -1,0 +1,60 @@
+$OpenBSD: ports/databases/mysql/patches/patch-scripts_mysqld_safe_sh,v 1.14 2010/05/24 20:40:41 sthen Exp $
+--- scripts/mysqld_safe.sh.orig	Thu May  6 11:26:32 2010
++++ scripts/mysqld_safe.sh	Thu May 20 20:22:17 2010
+@@ -18,7 +18,8 @@ niceness=0
+ logging=init
+ want_syslog=0
+ syslog_tag=
+-user='@MYSQLD_USER@'
++user='_mysql'
++group='_mysql'
+ pid_file=
+ err_log=
+ 
+@@ -412,8 +413,8 @@ mysql_unix_port_dir=`dirname $safe_mysql_unix_port`
+ if [ ! -d $mysql_unix_port_dir ]
+ then
+   mkdir $mysql_unix_port_dir
+-  chown $user $mysql_unix_port_dir
+-  chmod 755 $mysql_unix_port_dir
++  chown $user:$group $mysql_unix_port_dir
++  chmod 711 $mysql_unix_port_dir
+ fi
+ 
+ # If the user doesn't specify a binary, we assume name "mysqld"
+@@ -577,35 +578,6 @@ do
+     break
+   fi
+ 
+-  if @TARGET_LINUX@ && test $KILL_MYSQLD -eq 1
+-  then
+-    # Test if one process was hanging.
+-    # This is only a fix for Linux (running as base 3 mysqld processes)
+-    # but should work for the rest of the servers.
+-    # The only thing is ps x => redhat 5 gives warnings when using ps -x.
+-    # kill -9 is used or the process won't react on the kill.
+-    numofproces=`ps xaww | grep -v "grep" | grep "$ledir/$MYSQLD\>" | grep -c "pid-file=$pid_file"`
+-
+-    log_notice "Number of processes running now: $numofproces"
+-    I=1
+-    while test "$I" -le "$numofproces"
+-    do 
+-      PROC=`ps xaww | grep "$ledir/$MYSQLD\>" | grep -v "grep" | grep "pid-file=$pid_file" | sed -n '$p'` 
+-
+-      for T in $PROC
+-      do
+-        break
+-      done
+-      #    echo "TEST $I - $T **"
+-      if kill -9 $T
+-      then
+-        log_error "$MYSQLD process hanging, pid $T - killed"
+-      else
+-        break
+-      fi
+-      I=`expr $I + 1`
+-    done
+-  fi
+   log_notice "mysqld restarted"
+ done
+ 

@@ -1,0 +1,12 @@
+$OpenBSD: ports/devel/pkgconfig/patches/patch-Makefile_in,v 1.6 2011/07/08 17:57:44 jasper Exp $
+--- Makefile.in.orig	Sun May 15 14:31:20 2011
++++ Makefile.in	Fri Jul  8 19:52:01 2011
+@@ -167,7 +167,7 @@ CFLAGS = @CFLAGS@
+ CPP = @CPP@
+ CPPFLAGS = @CPPFLAGS@
+ CYGPATH_W = @CYGPATH_W@
+-DEFS = @DEFS@
++DEFS = @DEFS@ -DLOCALBASE="\"${LOCALBASE}\"" -DX11BASE="\"${X11BASE}\""
+ DEPDIR = @DEPDIR@
+ DLLTOOL = @DLLTOOL@
+ DSYMUTIL = @DSYMUTIL@

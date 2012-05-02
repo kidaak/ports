@@ -1,0 +1,105 @@
+$OpenBSD: ports/devel/libgtop2/patches/patch-configure,v 1.17 2011/08/30 12:24:53 jasper Exp $
+--- configure.orig	Tue Aug 30 13:48:13 2011
++++ configure	Tue Aug 30 13:51:10 2011
+@@ -7091,10 +7091,12 @@ newos6*)
+   ;;
+ 
+ openbsd*)
+-  if test -z "`echo __ELF__ | $CC -E - | $GREP __ELF__`" || test "$host_os-$host_cpu" = "openbsd2.8-powerpc"; then
+-    lt_cv_deplibs_check_method='match_pattern /lib[^/]+(\.so\.[0-9]+\.[0-9]+|\.so|_pic\.a)$'
++  lt_cv_file_magic_cmd=/usr/bin/file
++  lt_cv_file_magic_test_file=`echo /usr/lib/libc.so.*`
++  if test -z "`echo __ELF__ | $CC -E - | grep __ELF__`"; then
++    lt_cv_deplibs_check_method='file_magic ELF [0-9][0-9]*-bit [LM]SB shared object'
+   else
+-    lt_cv_deplibs_check_method='match_pattern /lib[^/]+(\.so\.[0-9]+\.[0-9]+|_pic\.a)$'
++    lt_cv_deplibs_check_method='file_magic OpenBSD.* shared library'
+   fi
+   ;;
+ 
+@@ -15007,7 +15009,7 @@ if ${ac_cv_lib_intl_strftime+:} false; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lintl  $LIBS"
++LIBS="-lintl -liconv $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -15040,7 +15042,7 @@ $as_echo "$ac_cv_lib_intl_strftime" >&6; }
+ if test "x$ac_cv_lib_intl_strftime" = xyes; then :
+   $as_echo "#define HAVE_STRFTIME 1" >>confdefs.h
+ 
+-LIBS="-lintl $LIBS"
++LIBS="-lintl -liconv $LIBS"
+ fi
+ 
+ fi
+@@ -15778,7 +15780,7 @@ if ${ac_cv_lib_intl_bindtextdomain+:} false; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lintl  $LIBS"
++LIBS="-lintl -liconv $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -15815,7 +15817,7 @@ if ${ac_cv_lib_intl_ngettext+:} false; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lintl  $LIBS"
++LIBS="-lintl -liconv $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -15852,7 +15854,7 @@ if ${ac_cv_lib_intl_dgettext+:} false; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lintl  $LIBS"
++LIBS="-lintl -liconv $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -15989,7 +15991,7 @@ fi
+         #
+         if test "$gt_cv_func_dgettext_libintl" = "yes" ; then
+           glib_save_LIBS="$LIBS"
+-          LIBS="$LIBS -lintl $libintl_extra_libs"
++          LIBS="$LIBS -lintl -liconv $libintl_extra_libs"
+           unset ac_cv_func_bind_textdomain_codeset
+           for ac_func in bind_textdomain_codeset
+ do :
+@@ -16021,7 +16023,7 @@ done
+       fi
+ 
+       if test "$gt_cv_func_dgettext_libintl" = "yes"; then
+-        INTLLIBS="-lintl $libintl_extra_libs"
++        INTLLIBS="-lintl -liconv $libintl_extra_libs"
+       fi
+ 
+       if test "$gt_cv_have_gettext" = "yes"; then
+@@ -16336,11 +16338,6 @@ glib_save_datarootdir="$datarootdir"
+ test "x$prefix" = xNONE && prefix=$ac_default_prefix
+ test "x$exec_prefix" = xNONE && exec_prefix=$prefix
+ datarootdir=`eval echo "${datarootdir}"`
+-if test "x$CATOBJEXT" = "x.mo" ; then
+-  localedir=`eval echo "${libdir}/locale"`
+-else
+-  localedir=`eval echo "${datadir}/locale"`
+-fi
+ prefix="$glib_save_prefix"
+ exec_prefix="$glib_save_exec_prefix"
+ datarootdir="$glib_save_datarootdir"
+@@ -17498,9 +17495,9 @@ else
+   cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
++#include <sys/param.h>
+ #include <sys/types.h>
+ #include <sys/mount.h>
+-#include <sys/fs_types.h>
+ int
+ main ()
+ {

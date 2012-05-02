@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/security/stegdetect/pkg/PLIST,v 1.4 2010/03/24 17:10:37 jasper Exp $
+@bin bin/stegbreak
+@bin bin/stegdetect
+@man man/man1/stegbreak.1
+@man man/man1/stegdetect.1

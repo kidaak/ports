@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/net/castget/pkg/PLIST,v 1.2 2011/03/04 16:12:01 jasper Exp $
+%%SHARED%%
+@bin bin/castget
+include/libcastget.h
+lib/libcastget.a
+lib/libcastget.la
+@man man/man1/castget.1
+@man man/man5/castgetrc.5
+share/examples/castget/
+share/examples/castget/castgetrc.example

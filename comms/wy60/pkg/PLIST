@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/comms/wy60/pkg/PLIST,v 1.4 2011/11/14 19:33:34 naddy Exp $
+@bin bin/wy60
+@man man/man1/wy60.1
+share/examples/wy60/
+share/examples/wy60/wy60.rc
+@sample ${SYSCONFDIR}/wy60.rc

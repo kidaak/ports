@@ -1,0 +1,13 @@
+@comment $OpenBSD: ports/print/poppler/pkg/PLIST-qt4,v 1.4 2010/10/09 08:05:30 kili Exp $
+%%SHARED%%
+include/poppler/qt4/
+include/poppler/qt4/poppler-annotation.h
+include/poppler/qt4/poppler-export.h
+include/poppler/qt4/poppler-form.h
+include/poppler/qt4/poppler-link.h
+include/poppler/qt4/poppler-optcontent.h
+include/poppler/qt4/poppler-page-transition.h
+include/poppler/qt4/poppler-qt4.h
+lib/libpoppler-qt4.a
+lib/libpoppler-qt4.la
+lib/pkgconfig/poppler-qt4.pc

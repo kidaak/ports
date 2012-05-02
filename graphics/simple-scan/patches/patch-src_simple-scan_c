@@ -1,0 +1,111 @@
+$OpenBSD: ports/graphics/simple-scan/patches/patch-src_simple-scan_c,v 1.4 2012/03/29 06:42:00 ajacoutot Exp $
+
+No gudev under OpenBSD.
+
+--- src/simple-scan.c.orig	Sat Mar 17 02:30:58 2012
++++ src/simple-scan.c	Fri Mar 23 22:11:44 2012
+@@ -14,7 +14,9 @@
+ 
+ #include <glib.h>
+ #include <glib-object.h>
++#ifndef __OpenBSD__
+ #include <gudev/gudev.h>
++#endif
+ #include <stdlib.h>
+ #include <string.h>
+ #include <stdio.h>
+@@ -164,7 +166,9 @@ struct _ApplicationClass {
+ struct _ApplicationPrivate {
+ 	ScanDevice* default_device;
+ 	gboolean have_devices;
++#ifndef __OpenBSD__
+ 	GUdevClient* udev_client;
++#endif
+ 	SimpleScan* ui;
+ 	Scanner* scanner;
+ 	Book* book;
+@@ -347,8 +351,10 @@ static void application_scanner_failed_cb (Application
+ static void _application_scanner_failed_cb_scanner_scan_failed (Scanner* _sender, gint error_code, const gchar* error_string, gpointer self);
+ static void application_scanner_scanning_changed_cb (Application* self, Scanner* scanner);
+ static void _application_scanner_scanning_changed_cb_scanner_scanning_changed (Scanner* _sender, gpointer self);
++#ifndef __OpenBSD__
+ static void application_on_uevent (Application* self, GUdevClient* client, const gchar* action, GUdevDevice* device);
+ static void _application_on_uevent_g_udev_client_uevent (GUdevClient* _sender, const gchar* action, GUdevDevice* device, gpointer self);
++#endif
+ void simple_scan_set_scan_devices (SimpleScan* self, GList* devices);
+ void simple_scan_set_selected_device (SimpleScan* self, const gchar* device);
+ static void _scan_device_unref0_ (gpointer var);
+@@ -485,9 +491,11 @@ static void _application_scanner_scanning_changed_cb_s
+ }
+ 
+ 
++#ifndef __OpenBSD__
+ static void _application_on_uevent_g_udev_client_uevent (GUdevClient* _sender, const gchar* action, GUdevDevice* device, gpointer self) {
+ 	application_on_uevent (self, _sender, action, device);
+ }
++#endif
+ 
+ 
+ static void _scan_device_unref0_ (gpointer var) {
+@@ -529,8 +537,10 @@ Application* application_construct (GType object_type,
+ 	gint _subsystems_size_;
+ 	gchar** _tmp21_;
+ 	gint _tmp21__length1;
++#ifndef __OpenBSD__
+ 	GUdevClient* _tmp22_;
+ 	GUdevClient* _tmp23_;
++#endif
+ 	ScanDevice* _tmp24_;
+ 	self = (Application*) g_type_create_instance (object_type);
+ 	_tmp0_ = device;
+@@ -582,11 +592,13 @@ Application* application_construct (GType object_type,
+ 	_subsystems_size_ = subsystems_length1;
+ 	_tmp21_ = subsystems;
+ 	_tmp21__length1 = subsystems_length1;
++#ifndef __OpenBSD__
+ 	_tmp22_ = g_udev_client_new (_tmp21_);
+ 	_g_object_unref0 (self->priv->udev_client);
+ 	self->priv->udev_client = _tmp22_;
+ 	_tmp23_ = self->priv->udev_client;
+ 	g_signal_connect (_tmp23_, "uevent", (GCallback) _application_on_uevent_g_udev_client_uevent, self);
++#endif
+ 	_tmp24_ = self->priv->default_device;
+ 	if (_tmp24_ != NULL) {
+ 		GList* device_list;
+@@ -1645,8 +1657,10 @@ static void application_quit_cb (Application* self, Si
+ 	_book_unref0 (self->priv->book);
+ 	self->priv->book = NULL;
+ 	ui = NULL;
++#ifndef __OpenBSD__
+ 	_g_object_unref0 (self->priv->udev_client);
+ 	self->priv->udev_client = NULL;
++#endif
+ 	_tmp0_ = self->priv->scanner;
+ 	scanner_free (_tmp0_);
+ 	gtk_main_quit ();
+@@ -1766,6 +1780,7 @@ static void application_log_cb (const gchar* log_domai
+ }
+ 
+ 
++#ifndef __OpenBSD__
+ static void application_on_uevent (Application* self, GUdevClient* client, const gchar* action, GUdevDevice* device) {
+ 	Scanner* _tmp0_;
+ 	g_return_if_fail (self != NULL);
+@@ -1775,6 +1790,7 @@ static void application_on_uevent (Application* self, 
+ 	_tmp0_ = self->priv->scanner;
+ 	scanner_redetect (_tmp0_);
+ }
++#endif
+ 
+ 
+ static glong string_strnlen (gchar* str, glong maxlen) {
+@@ -2582,7 +2598,9 @@ static void application_finalize (Application* obj) {
+ 	Application * self;
+ 	self = APPLICATION (obj);
+ 	_scan_device_unref0 (self->priv->default_device);
++#ifndef __OpenBSD__
+ 	_g_object_unref0 (self->priv->udev_client);
++#endif
+ 	_simple_scan_unref0 (self->priv->ui);
+ 	_scanner_unref0 (self->priv->scanner);
+ 	_book_unref0 (self->priv->book);

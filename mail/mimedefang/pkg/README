@@ -1,0 +1,21 @@
+$OpenBSD: ports/mail/mimedefang/pkg/README,v 1.2 2011/06/02 13:41:39 ajacoutot Exp $
+
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+Post-installation steps
+=======================
+Register the mimedefang milter with sendmail(8) by adding the following
+to your .mc file:
+
+	INPUT_MAIL_FILTER(`mimedefang', \
+		`S=unix:/var/run/mdefang/mimedefang.socket, \
+		F=T, T=S:360s;R:360s;E:15m')dnl
+
+Then re-generate your .cf file.
+
+Start-up order
+==============
+Be sure to start mimedefang_multiplexor before mimedefang_daemon in
+rc.local(8).

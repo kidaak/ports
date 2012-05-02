@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/net/munin/pkg/munin_node.rc,v 1.4 2010/12/27 14:50:22 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/sbin/munin-node"
+
+. /etc/rc.d/rc.subr
+
+pexp="perl: ${daemon}"
+
+rc_pre() {
+        install -d -o _munin /var/run/munin
+}
+
+rc_cmd $1

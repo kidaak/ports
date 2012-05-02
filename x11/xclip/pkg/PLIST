@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/x11/xclip/pkg/PLIST,v 1.3 2009/09/10 21:42:22 martynas Exp $
+@bin bin/xclip
+bin/xclip-copyfile
+bin/xclip-cutfile
+bin/xclip-pastefile
+@man man/man1/xclip.1

@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/editors/vim-spell/pkg/PLIST-zu,v 1.3 2012/01/17 18:29:43 espie Exp $
+@pkgpath editors/vim-spell,zu
+share/vim/vim${P}/spell/zu.ascii.spl
+share/vim/vim${P}/spell/zu.latin1.spl
+share/vim/vim${P}/spell/zu.utf-8.spl

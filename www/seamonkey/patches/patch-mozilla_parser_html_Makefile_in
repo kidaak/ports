@@ -1,0 +1,11 @@
+$OpenBSD: ports/www/seamonkey/patches/patch-mozilla_parser_html_Makefile_in,v 1.5 2012/03/16 21:38:33 landry Exp $
+--- mozilla/parser/html/Makefile.in.orig	Fri Mar  9 21:29:36 2012
++++ mozilla/parser/html/Makefile.in	Sat Mar 10 13:20:44 2012
+@@ -120,4 +120,7 @@ INCLUDES	+= \
+ 		-I$(srcdir)/../../content/base/src \
+ 		$(NULL)
+ 
++nsHtml5NamedCharacters.o: CXXFLAGS := $(filter-out -O%,$(CXXFLAGS))
++nsHtml5ElementName.o: CXXFLAGS := $(CXXFLAGS) -O1
++
+ #DEFINES		+= -DENABLE_VOID_MENUITEM

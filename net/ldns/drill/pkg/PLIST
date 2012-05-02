@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/net/ldns/drill/pkg/PLIST,v 1.2 2008/12/29 08:11:46 jakob Exp $
+@bin bin/drill
+@man man/man1/drill.1

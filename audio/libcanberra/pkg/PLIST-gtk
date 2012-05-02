@@ -1,0 +1,16 @@
+@comment $OpenBSD: ports/audio/libcanberra/pkg/PLIST-gtk,v 1.2 2011/04/27 12:07:53 ajacoutot Exp $
+@conflict libcanberra-<=0.24p1
+%%SHARED%%
+lib/gtk-2.0/
+lib/gtk-2.0/modules/
+@comment lib/gtk-2.0/modules/libcanberra-gtk-module.a
+@comment lib/gtk-2.0/modules/libcanberra-gtk-module.la
+lib/libcanberra-gtk.a
+lib/libcanberra-gtk.la
+lib/pkgconfig/libcanberra-gtk.pc
+share/schemas/
+@unexec GCONF_CONFIG_SOURCE=`%D/bin/gconftool-2 --get-default-source` %D/bin/gconftool-2 --makefile-uninstall-rule %D/${SCHEMAS_INSTDIR}/*.schemas > /dev/null
+${SCHEMAS_INSTDIR}/
+${SCHEMAS_INSTDIR}/libcanberra.schemas
+@exec GCONF_CONFIG_SOURCE=`%D/bin/gconftool-2 --get-default-source` %D/bin/gconftool-2 --makefile-install-rule %D/${SCHEMAS_INSTDIR}/*.schemas > /dev/null
+share/vala/vapi/libcanberra-gtk.vapi

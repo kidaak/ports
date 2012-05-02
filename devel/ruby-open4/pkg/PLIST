@@ -1,0 +1,19 @@
+@comment $OpenBSD: ports/devel/ruby-open4/pkg/PLIST,v 1.2 2010/11/08 23:24:40 jeremy Exp $
+${GEM_LIB}/cache/${DISTNAME}.gem
+${GEM_LIB}/gems/${DISTNAME}/
+${GEM_LIB}/gems/${DISTNAME}/README
+${GEM_LIB}/gems/${DISTNAME}/gemspec.rb
+${GEM_LIB}/gems/${DISTNAME}/install.rb
+${GEM_LIB}/gems/${DISTNAME}/lib/
+${GEM_LIB}/gems/${DISTNAME}/lib/open4.rb
+${GEM_LIB}/gems/${DISTNAME}/sample/
+${GEM_LIB}/gems/${DISTNAME}/sample/bg.rb
+${GEM_LIB}/gems/${DISTNAME}/sample/block.rb
+${GEM_LIB}/gems/${DISTNAME}/sample/exception.rb
+${GEM_LIB}/gems/${DISTNAME}/sample/simple.rb
+${GEM_LIB}/gems/${DISTNAME}/sample/spawn.rb
+${GEM_LIB}/gems/${DISTNAME}/sample/stdin_timeout.rb
+${GEM_LIB}/gems/${DISTNAME}/sample/timeout.rb
+${GEM_LIB}/gems/${DISTNAME}/white_box/
+${GEM_LIB}/gems/${DISTNAME}/white_box/leak.rb
+${GEM_LIB}/specifications/${DISTNAME}.gemspec

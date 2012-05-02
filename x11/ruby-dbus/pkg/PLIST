@@ -1,0 +1,11 @@
+@comment $OpenBSD: ports/x11/ruby-dbus/pkg/PLIST,v 1.2 2010/11/09 18:49:33 jeremy Exp $
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus.rb
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/auth.rb
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/bus.rb
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/export.rb
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/introspect.rb
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/marshall.rb
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/matchrule.rb
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/message.rb
+lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/type.rb

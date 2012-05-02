@@ -1,0 +1,12 @@
+$OpenBSD: ports/devel/p5-Clone/patches/patch-Makefile_PL,v 1.2 2008/10/03 18:29:09 jasper Exp $
+--- Makefile.PL.orig	Mon Oct 15 06:57:20 2007
++++ Makefile.PL	Fri Oct  3 14:48:15 2008
+@@ -8,8 +8,6 @@ WriteMakefile(
+     'LIBS'	=> [''],   # e.g., '-lm' 
+     'DEFINE'	=> '',     # e.g., '-DHAVE_SOMETHING' 
+     'INC'	=> '',     # e.g., '-I/usr/include/other' 
+-#    'OPTIMIZE'	=> '-g',     # e.g., '-I/usr/include/other' 
+-    'OPTIMIZE'	=> '-O3',     # e.g., '-I/usr/include/other' 
+     clean => {FILES => '_Inline'},
+ );
+ 

@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/x11/gob2/pkg/PLIST,v 1.2 2009/07/21 15:46:21 ajacoutot Exp $
+@bin bin/gob2
+@man man/man1/gob2.1
+share/aclocal/gob2.m4

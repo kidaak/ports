@@ -1,0 +1,11 @@
+@comment $OpenBSD: ports/misc/memcached/pkg/PLIST,v 1.6 2011/12/25 14:37:28 sebastia Exp $
+@newgroup _memcached:637
+@newuser _memcached:637:_memcached:daemon:memcache daemon:/var/empty:/sbin/nologin
+@bin bin/memcached
+include/memcached/
+include/memcached/protocol_binary.h
+@man man/man1/memcached.1
+share/doc/memcached/
+share/doc/memcached/protocol.txt
+share/doc/memcached/readme.txt
+@rcscript ${RCDIR}/memcached

@@ -1,0 +1,20 @@
+$OpenBSD: ports/net/zeromq/patches/patch-configure,v 1.2 2011/07/05 13:57:23 jasper Exp $
+--- configure.orig	Thu May 12 12:09:22 2011
++++ configure	Thu Jun 16 02:59:55 2011
+@@ -16088,7 +16088,7 @@
+ 
+ 
+ # Set pedantic
+-libzmq_pedantic="yes"
++libzmq_pedantic="no"
+ 
+ # By default compiling with -Werror except OSX.
+ libzmq_werror="yes"
+@@ -16101,6 +16101,7 @@
+ 
+ # Set some default features required by 0MQ code.
+ CPPFLAGS="-D_REENTRANT -D_THREAD_SAFE $CPPFLAGS"
++LIBS="-lstdc++ -lm -lssl -lcrypto $LIBS"
+ 
+ # For host type checks
+ 

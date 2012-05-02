@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/misc/p5-I18N-Charset/pkg/PLIST,v 1.6 2008/10/08 17:49:03 jasper Exp $
+${P5SITE}/I18N/
+${P5SITE}/I18N/Charset.pm
+@man man/man3p/I18N::Charset.3p

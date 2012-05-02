@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/editors/scintilla/pkg/PLIST,v 1.3 2010/10/03 18:09:01 jeremy Exp $
+include/scintilla/
+include/scintilla/ILexer.h
+include/scintilla/Platform.h
+include/scintilla/SciLexer.h
+include/scintilla/Scintilla.h
+include/scintilla/ScintillaWidget.h
+lib/libscintilla.a
+lib/libscintilla_lexers.a
+%%SHARED%%

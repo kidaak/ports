@@ -1,0 +1,41 @@
+$OpenBSD: ports/devel/glib2/patches/patch-gio_gunixmount_c,v 1.5 2011/08/22 15:26:40 ajacoutot Exp $
+
+https://bugzilla.gnome.org/show_bug.cgi?id=653555
+
+--- gio/gunixmount.c.orig	Sat Nov  6 16:38:54 2010
++++ gio/gunixmount.c	Mon Aug 22 11:43:50 2011
+@@ -29,6 +29,12 @@
+ #include <sys/wait.h>
+ #include <unistd.h>
+ 
++#ifdef __OpenBSD__
++#include <errno.h>
++#include <sys/param.h>
++#include <sys/mount.h>
++#endif
++
+ #include <glib.h>
+ #include "gunixvolumemonitor.h"
+ #include "gunixmount.h"
+@@ -451,10 +457,21 @@ g_unix_mount_eject (GMount             *mount,
+   GUnixMount *unix_mount = G_UNIX_MOUNT (mount);
+   char *argv[] = {"eject", NULL, NULL};
+ 
++/*
++ * eject(1) on OpenBSD does not try to unmount first and only works on
++ * devices, not mount points.
++ */
++#ifdef __OpenBSD__
++  if (unmount(unix_mount->mount_path, MNT_FORCE) < 0)
++    g_warning ("%s unmount failed: %s\n", unix_mount->mount_path, strerror(errno));
++
++  argv[1] = unix_mount->device_path;
++#else
+   if (unix_mount->mount_path != NULL)
+     argv[1] = unix_mount->mount_path;
+   else
+     argv[1] = unix_mount->device_path;
++#endif
+ 
+   eject_unmount_do (mount, cancellable, callback, user_data, argv);
+ }

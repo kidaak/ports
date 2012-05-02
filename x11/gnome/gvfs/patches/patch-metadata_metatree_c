@@ -1,0 +1,12 @@
+$OpenBSD: ports/x11/gnome/gvfs/patches/patch-metadata_metatree_c,v 1.5 2011/04/05 14:43:25 ajacoutot Exp $
+--- metadata/metatree.c.orig	Mon Apr  4 16:49:12 2011
++++ metadata/metatree.c	Mon Apr  4 19:37:55 2011
+@@ -302,7 +302,7 @@ is_on_nfs (char *filename)
+ 			  sizeof (statfs_buffer), 0);
+ # endif
+   if (statfs_result == 0)
+-    res = statfs_buffer.f_type == 0x6969;
++    res = strcmp(statfs_buffer.f_fstypename, MOUNT_NFS) == 0;
+ 
+ #elif defined(USE_STATVFS) && defined(HAVE_STRUCT_STATVFS_F_BASETYPE)
+   statfs_result = statvfs (dirname, &statfs_buffer);

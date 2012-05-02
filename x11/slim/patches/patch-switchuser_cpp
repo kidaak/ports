@@ -1,0 +1,12 @@
+$OpenBSD: ports/x11/slim/patches/patch-switchuser_cpp,v 1.3 2010/08/24 11:37:50 landry Exp $
+--- switchuser.cpp.orig	Thu Jul  8 07:04:10 2010
++++ switchuser.cpp	Mon Aug 23 21:36:45 2010
+@@ -39,6 +39,8 @@ void SwitchUser::Login(const char* cmd, const char* mc
+ 
+ void SwitchUser::SetUserId() {
+     if( (Pw == 0) ||
++            (setsid() == -1) ||
++            (setlogin(Pw->pw_name) != 0) ||
+             (initgroups(Pw->pw_name, Pw->pw_gid) != 0) ||
+             (setgid(Pw->pw_gid) != 0) ||
+             (setuid(Pw->pw_uid) != 0) ) {

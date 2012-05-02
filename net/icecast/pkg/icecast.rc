@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/net/icecast/pkg/icecast.rc,v 1.4 2010/12/27 14:50:22 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/bin/icecast"
+daemon_flags="-b -c /var/icecast/icecast.xml"
+
+. /etc/rc.d/rc.subr
+
+rc_cmd $1

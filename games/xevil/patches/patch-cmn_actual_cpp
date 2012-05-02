@@ -1,0 +1,23 @@
+$OpenBSD: ports/games/xevil/patches/patch-cmn_actual_cpp,v 1.2 2010/06/15 19:04:05 landry Exp $
+--- cmn/actual.cpp.orig	Wed Jan 19 12:54:36 2000
++++ cmn/actual.cpp	Tue Jun 15 20:44:16 2010
+@@ -32,7 +32,9 @@
+ 
+ // Include Files
+ #if X11
+-#include <strstream.h>
++#include <strstream>
++using namespace std;
++using namespace std;
+ #endif
+ #if WIN32
+ #include <strstrea.h>
+@@ -1534,7 +1536,7 @@ Boolean Transmogifier::transmogify_target_filter(const
+                                                  void *closure) {
+   // notThis is used to prevent transmogifying into the same class an object
+   // already is.
+-  ClassId notThis = (ClassId)closure;
++  ClassId notThis = (intptr_t)closure;
+   if (pc->classId == notThis) {
+     return False;
+   }

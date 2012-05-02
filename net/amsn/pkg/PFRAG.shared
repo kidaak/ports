@@ -1,0 +1,9 @@
+@comment $OpenBSD: ports/net/amsn/pkg/PFRAG.shared,v 1.3 2010/09/14 12:34:42 jasper Exp $
+share/amsn/utils/TkCximage/TkCximage.so
+share/amsn/utils/asyncresolver/libasyncresolver.so
+share/amsn/utils/farsight/tcl_farsight.so
+share/amsn/utils/linux/linflash/flash.so
+share/amsn/utils/linux/traydock/libtray.so
+share/amsn/utils/tclISF/tclISF.so
+share/amsn/utils/tcl_siren/tcl_siren.so
+share/amsn/utils/webcamsn/webcamsn.so

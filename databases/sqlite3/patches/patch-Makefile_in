@@ -1,0 +1,64 @@
+$OpenBSD: ports/databases/sqlite3/patches/patch-Makefile_in,v 1.19 2012/03/27 18:34:04 sthen Exp $
+--- Makefile.in.orig	Tue Mar 20 14:20:13 2012
++++ Makefile.in	Mon Mar 26 11:17:20 2012
+@@ -186,7 +186,7 @@ LIBOBJS1 = sqlite3.lo
+ 
+ # Determine the real value of LIBOBJ based on the 'configure' script
+ #
+-LIBOBJ = $(LIBOBJS$(USE_AMALGAMATION))
++LIBOBJ = $(LIBOBJS$(USE_AMALGAMATION)) pthread_stub.lo
+ 
+ 
+ # All of the source code files.
+@@ -283,6 +283,8 @@ SRC = \
+   $(TOP)/src/walker.c \
+   $(TOP)/src/where.c
+ 
++SRC += $(TOP)/src/pthread_stub.c
++
+ # Source code for extensions
+ #
+ SRC += \
+@@ -778,6 +780,9 @@ tclsqlite3$(TEXE):	tclsqlite-shell.lo libsqlite3.la
+ 	$(LTLINK) -o $@ tclsqlite-shell.lo \
+ 		 libsqlite3.la $(LIBTCL)
+ 
++pthread_stub.lo:	$(TOP)/src/pthread_stub.c
++	$(LTCOMPILE) $(TEMP_STORE) -c $(TOP)/src/pthread_stub.c
++
+ # Rules to build opcodes.c and opcodes.h
+ #
+ opcodes.c:	opcodes.h $(TOP)/mkopcodec.awk
+@@ -798,8 +803,12 @@ parse.c:	$(TOP)/src/parse.y lemon$(BEXE) $(TOP)/addopc
+ 	$(NAWK) -f $(TOP)/addopcodes.awk parse.h.temp >parse.h
+ 
+ sqlite3.h:	$(TOP)/src/sqlite.h.in $(TOP)/manifest.uuid $(TOP)/VERSION
+-	$(TCLSH_CMD) $(TOP)/tool/mksqlite3h.tcl $(TOP) >sqlite3.h
+-
++	sed -e '/^#include <sqlite3\.h>$$/d' \
++	    -e 's/--VERS--/$(RELEASE)/' \
++	    -e 's/--VERSION-NUMBER--/$(VERSION_NUMBER)/' \
++	    $(TOP)/src/sqlite.h.in $(TOP)/ext/rtree/sqlite3rtree.h \
++	> sqlite3.h
++ 
+ keywordhash.h:	$(TOP)/tool/mkkeywordhash.c
+ 	$(BCC) -o mkkeywordhash$(BEXE) $(OPT_FEATURE_FLAGS) $(OPTS) $(TOP)/tool/mkkeywordhash.c
+ 	./mkkeywordhash$(BEXE) >keywordhash.h
+@@ -875,7 +884,7 @@ TESTFIXTURE_FLAGS += -DSQLITE_SERVER=1 -DSQLITE_PRIVAT
+ TESTFIXTURE_FLAGS += -DBUILD_sqlite
+ 
+ TESTFIXTURE_SRC0 = $(TESTSRC2) libsqlite3.la
+-TESTFIXTURE_SRC1 = sqlite3.c
++TESTFIXTURE_SRC1 = sqlite3.c $(TOP)/src/pthread_stub.c
+ TESTFIXTURE_SRC = $(TESTSRC) $(TOP)/src/tclsqlite.c $(TESTFIXTURE_SRC$(USE_AMALGAMATION))
+ 
+ testfixture$(TEXE):	$(TESTFIXTURE_SRC)
+@@ -944,6 +953,8 @@ clean:	
+ 
+ distclean:	clean
+ 	rm -f config.log config.status libtool Makefile sqlite3.pc
++
++.PHONY: test
+ 
+ #
+ # Windows section

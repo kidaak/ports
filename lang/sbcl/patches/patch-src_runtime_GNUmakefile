@@ -1,0 +1,15 @@
+$OpenBSD: ports/lang/sbcl/patches/patch-src_runtime_GNUmakefile,v 1.4 2011/07/08 11:42:09 jasper Exp $
+
+Don't override external CFLAGS.
+
+--- src/runtime/GNUmakefile.orig	Sun May  8 19:49:39 2011
++++ src/runtime/GNUmakefile	Sun May  8 20:59:01 2011
+@@ -25,7 +25,7 @@ GREP = grep
+ 
+ include ../../output/prefix.def
+ 
+-CFLAGS = -g -Wall -Wsign-compare -O3
++CFLAGS += -Wall -Wsign-compare
+ ASFLAGS = $(CFLAGS)
+ CPPFLAGS = -I. -DSBCL_PREFIX=\"$(SBCL_PREFIX)\"
+ 

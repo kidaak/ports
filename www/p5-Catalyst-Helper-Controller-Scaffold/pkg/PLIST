@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/www/p5-Catalyst-Helper-Controller-Scaffold/pkg/PLIST,v 1.1.1.1 2006/11/06 12:35:31 espie Exp $
+${P5SITE}/Catalyst/
+${P5SITE}/Catalyst/Helper/
+${P5SITE}/Catalyst/Helper/Controller/
+${P5SITE}/Catalyst/Helper/Controller/Scaffold.pm
+@man man/man3p/Catalyst::Helper::Controller::Scaffold.3p

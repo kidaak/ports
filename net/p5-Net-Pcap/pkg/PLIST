@@ -1,0 +1,13 @@
+@comment $OpenBSD: ports/net/p5-Net-Pcap/pkg/PLIST,v 1.10 2011/04/03 19:41:25 jasper Exp $
+bin/pcapinfo
+${P5ARCH}/Net/
+${P5ARCH}/Net/Pcap.pm
+${P5ARCH}/auto/Net/
+${P5ARCH}/auto/Net/Pcap/
+${P5ARCH}/auto/Net/Pcap/Pcap.bs
+${P5ARCH}/auto/Net/Pcap/Pcap.so
+@man man/man1/pcapinfo.1
+@man man/man3p/Net::Pcap.3p
+share/examples/p5-Net-Pcap/
+share/examples/p5-Net-Pcap/pcapdump
+share/examples/p5-Net-Pcap/pktdump.pl

@@ -1,0 +1,572 @@
+@comment $OpenBSD: ports/x11/tk/8.5/pkg/PLIST,v 1.7 2011/10/17 15:19:22 stu Exp $
+@option no-default-conflict
+@conflict tk->=8.5,<8.6
+%%SHARED%%
+@bin bin/wish8.5
+include/tk8.5/
+include/tk8.5/default.h
+include/tk8.5/tk.h
+include/tk8.5/tkDecls.h
+include/tk8.5/tkInt.h
+include/tk8.5/tkIntDecls.h
+include/tk8.5/tkIntPlatDecls.h
+include/tk8.5/tkPlatDecls.h
+include/tk8.5/tkPort.h
+include/tk8.5/tkUnixDefault.h
+include/tk8.5/tkUnixInt.h
+include/tk8.5/tkUnixPort.h
+include/tk8.5/ttkDecls.h
+include/tk8.5/ttkTheme.h
+lib/libtk85.a
+lib/libtkstub85.a
+lib/tcl/
+lib/tcl/tk8.5/
+lib/tcl/tk8.5/bgerror.tcl
+lib/tcl/tk8.5/button.tcl
+lib/tcl/tk8.5/choosedir.tcl
+lib/tcl/tk8.5/clrpick.tcl
+lib/tcl/tk8.5/comdlg.tcl
+lib/tcl/tk8.5/console.tcl
+lib/tcl/tk8.5/dialog.tcl
+lib/tcl/tk8.5/entry.tcl
+lib/tcl/tk8.5/focus.tcl
+lib/tcl/tk8.5/images/
+lib/tcl/tk8.5/images/README
+lib/tcl/tk8.5/images/logo.eps
+lib/tcl/tk8.5/images/logo100.gif
+lib/tcl/tk8.5/images/logo64.gif
+lib/tcl/tk8.5/images/logoLarge.gif
+lib/tcl/tk8.5/images/logoMed.gif
+lib/tcl/tk8.5/images/pwrdLogo.eps
+lib/tcl/tk8.5/images/pwrdLogo100.gif
+lib/tcl/tk8.5/images/pwrdLogo150.gif
+lib/tcl/tk8.5/images/pwrdLogo175.gif
+lib/tcl/tk8.5/images/pwrdLogo200.gif
+lib/tcl/tk8.5/images/pwrdLogo75.gif
+lib/tcl/tk8.5/images/tai-ku.gif
+lib/tcl/tk8.5/listbox.tcl
+@mandir lib/tcl/tk8.5/man/
+lib/tcl/tk8.5/man/cat1/
+@man lib/tcl/tk8.5/man/cat1/wish.0
+lib/tcl/tk8.5/man/cat3/
+@man lib/tcl/tk8.5/man/cat3/Tk_3DBorderColor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_3DBorderGC.0
+@man lib/tcl/tk8.5/man/cat3/Tk_3DHorizontalBevel.0
+@man lib/tcl/tk8.5/man/cat3/Tk_3DVerticalBevel.0
+@man lib/tcl/tk8.5/man/cat3/Tk_AddOption.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Alloc3DBorderFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_AllocBitmapFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_AllocColorFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_AllocCursorFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_AllocFontFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_AttachHWND.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Attributes.0
+@man lib/tcl/tk8.5/man/cat3/Tk_BindEvent.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasDrawableCoords.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasEventuallyRedraw.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasGetCoord.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasPsBitmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasPsColor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasPsFont.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasPsPath.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasPsStipple.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasPsY.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasSetStippleOrigin.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasTagsOption.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasTextInfo.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasTkwin.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CanvasWindowCoords.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ChangeWindowAttributes.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Changes.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CharBbox.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Class.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ClearSelection.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ClipboardAppend.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ClipboardClear.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CollapseMotionEvents.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Colormap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ComputeTextLayout.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ConfigureInfo.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ConfigureValue.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ConfigureWidget.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ConfigureWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CoordsToWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateBinding.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateBindingTable.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateClientMessageHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateErrorHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateEventHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateGenericHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateImageType.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateItemType.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateOptionTable.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreatePhotoImageFormat.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateSelHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_CreateWindowFromPath.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DefineBitmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DefineCursor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteAllBindings.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteBinding.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteBindingTable.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteClientMessageHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteErrorHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteEventHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteGenericHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteImage.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteOptionTable.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DeleteSelHandler.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Depth.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DestroyWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Display.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DisplayName.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DistanceToTextLayout.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Draw3DPolygon.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Draw3DRectangle.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DrawChars.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DrawFocusHighlight.0
+@man lib/tcl/tk8.5/man/cat3/Tk_DrawTextLayout.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Fill3DPolygon.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Fill3DRectangle.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FindPhoto.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FontId.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Free3DBorder.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Free3DBorderFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeBitmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeBitmapFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeColor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeColorFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeColormap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeConfigOptions.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeCursor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeCursorFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeFont.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeFontFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeGC.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeImage.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeOptions.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreePixmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeSavedOptions.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeTextLayout.0
+@man lib/tcl/tk8.5/man/cat3/Tk_FreeXId.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GeometryRequest.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Get3DBorder.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Get3DBorderFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetAllBindings.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetAnchor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetAnchorFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetAtomName.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetBinding.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetBitmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetBitmapFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetCapStyle.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetColor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetColorByValue.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetColorFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetColormap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetCursor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetCursorFromData.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetCursorFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetDash.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetFont.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetFontFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetFontMetrics.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetGC.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetHINSTANCE.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetHWND.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetImage.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetImageMasterData.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetItemTypes.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetJoinStyle.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetJustify.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetJustifyFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetMMFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetNumMainWindows.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetOption.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetOptionInfo.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetOptionValue.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetPixels.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetPixelsFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetPixmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetRelief.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetReliefFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetRootCoords.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetScreenMM.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetScrollInfo.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetScrollInfoObj.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetSelection.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetUid.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetUserInactiveTime.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetVRootGeometry.0
+@man lib/tcl/tk8.5/man/cat3/Tk_GetVisual.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Grab.0
+@man lib/tcl/tk8.5/man/cat3/Tk_HWNDToWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_HandleEvent.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Height.0
+@man lib/tcl/tk8.5/man/cat3/Tk_IdToWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ImageChanged.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Init.0
+@man lib/tcl/tk8.5/man/cat3/Tk_InitConsoleChannels.0
+@man lib/tcl/tk8.5/man/cat3/Tk_InitImageArgs.0
+@man lib/tcl/tk8.5/man/cat3/Tk_InitOptions.0
+@man lib/tcl/tk8.5/man/cat3/Tk_InitStubs.0
+@man lib/tcl/tk8.5/man/cat3/Tk_InternAtom.0
+@man lib/tcl/tk8.5/man/cat3/Tk_InternalBorderBottom.0
+@man lib/tcl/tk8.5/man/cat3/Tk_InternalBorderLeft.0
+@man lib/tcl/tk8.5/man/cat3/Tk_InternalBorderRight.0
+@man lib/tcl/tk8.5/man/cat3/Tk_InternalBorderTop.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Interp.0
+@man lib/tcl/tk8.5/man/cat3/Tk_IntersectTextLayout.0
+@man lib/tcl/tk8.5/man/cat3/Tk_IsContainer.0
+@man lib/tcl/tk8.5/man/cat3/Tk_IsEmbedded.0
+@man lib/tcl/tk8.5/man/cat3/Tk_IsMapped.0
+@man lib/tcl/tk8.5/man/cat3/Tk_IsTopLevel.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Main.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MainLoop.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MainWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MaintainGeometry.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MakeWindowExist.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ManageGeometry.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MapWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MeasureChars.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MinReqHeight.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MinReqWidth.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MoveResizeWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MoveToplevelWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_MoveWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Name.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOf3DBorder.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfAnchor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfBitmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfCapStyle.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfColor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfCursor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfFont.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfImage.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfJoinStyle.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfJustify.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameOfRelief.0
+@man lib/tcl/tk8.5/man/cat3/Tk_NameToWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Offset.0
+@man lib/tcl/tk8.5/man/cat3/Tk_OwnSelection.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Parent.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ParseArgv.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PathName.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PhotoBlank.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PhotoExpand.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PhotoGetImage.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PhotoGetSize.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PhotoPutBlock.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PhotoPutZoomedBlock.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PhotoSetSize.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PointToChar.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PostscriptFontName.0
+@man lib/tcl/tk8.5/man/cat3/Tk_PreserveColormap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_QueueWindowEvent.0
+@man lib/tcl/tk8.5/man/cat3/Tk_RedrawImage.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ReqHeight.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ReqWidth.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ResetUserInactiveTime.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ResizeWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_RestackWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_RestoreSavedOptions.0
+@man lib/tcl/tk8.5/man/cat3/Tk_RestrictEvents.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SafeInit.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Screen.0
+@man lib/tcl/tk8.5/man/cat3/Tk_ScreenNumber.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetAppName.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetBackgroundFromBorder.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetCaretPos.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetClass.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetClassProcs.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetGrid.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetInternalBorder.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetInternalBorderEx.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetMinimumRequestSize.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetOptions.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetWindowBackground.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetWindowBackgroundPixmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetWindowBorder.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetWindowBorderPixmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetWindowBorderWidth.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetWindowColormap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SetWindowVisual.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SizeOfBitmap.0
+@man lib/tcl/tk8.5/man/cat3/Tk_SizeOfImage.0
+@man lib/tcl/tk8.5/man/cat3/Tk_StrictMotif.0
+@man lib/tcl/tk8.5/man/cat3/Tk_TextLayoutToPostscript.0
+@man lib/tcl/tk8.5/man/cat3/Tk_TextWidth.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Uid.0
+@man lib/tcl/tk8.5/man/cat3/Tk_UndefineCursor.0
+@man lib/tcl/tk8.5/man/cat3/Tk_UnderlineChars.0
+@man lib/tcl/tk8.5/man/cat3/Tk_UnderlineTextLayout.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Ungrab.0
+@man lib/tcl/tk8.5/man/cat3/Tk_UnmaintainGeometry.0
+@man lib/tcl/tk8.5/man/cat3/Tk_UnmapWindow.0
+@man lib/tcl/tk8.5/man/cat3/Tk_UnsetGrid.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Visual.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Width.0
+@man lib/tcl/tk8.5/man/cat3/Tk_WindowId.0
+@man lib/tcl/tk8.5/man/cat3/Tk_X.0
+@man lib/tcl/tk8.5/man/cat3/Tk_Y.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_AddPadding.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_BoxContains.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_CreateTheme.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_ExpandBox.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_GetBorderFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_GetCurrentTheme.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_GetDefaultTheme.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_GetPaddingFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_GetStickyFromObj.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_GetTheme.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_MakeBox.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_MakePadding.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_PackBox.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_PadBox.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_PlaceBox.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_RelievePadding.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_StickBox.0
+@man lib/tcl/tk8.5/man/cat3/Ttk_UniformPadding.0
+lib/tcl/tk8.5/man/catn/
+@man lib/tcl/tk8.5/man/catn/bell.0
+@man lib/tcl/tk8.5/man/catn/bind.0
+@man lib/tcl/tk8.5/man/catn/bindtags.0
+@man lib/tcl/tk8.5/man/catn/bitmap.0
+@man lib/tcl/tk8.5/man/catn/button.0
+@man lib/tcl/tk8.5/man/catn/canvas.0
+@man lib/tcl/tk8.5/man/catn/checkbutton.0
+@man lib/tcl/tk8.5/man/catn/clipboard.0
+@man lib/tcl/tk8.5/man/catn/colors.0
+@man lib/tcl/tk8.5/man/catn/console.0
+@man lib/tcl/tk8.5/man/catn/cursors.0
+@man lib/tcl/tk8.5/man/catn/destroy.0
+@man lib/tcl/tk8.5/man/catn/entry.0
+@man lib/tcl/tk8.5/man/catn/event.0
+@man lib/tcl/tk8.5/man/catn/focus.0
+@man lib/tcl/tk8.5/man/catn/font.0
+@man lib/tcl/tk8.5/man/catn/frame.0
+@man lib/tcl/tk8.5/man/catn/grab.0
+@man lib/tcl/tk8.5/man/catn/grid.0
+@man lib/tcl/tk8.5/man/catn/image.0
+@man lib/tcl/tk8.5/man/catn/keysyms.0
+@man lib/tcl/tk8.5/man/catn/label.0
+@man lib/tcl/tk8.5/man/catn/labelframe.0
+@man lib/tcl/tk8.5/man/catn/listbox.0
+@man lib/tcl/tk8.5/man/catn/loadTk.0
+@man lib/tcl/tk8.5/man/catn/lower.0
+@man lib/tcl/tk8.5/man/catn/menu.0
+@man lib/tcl/tk8.5/man/catn/menubutton.0
+@man lib/tcl/tk8.5/man/catn/message.0
+@man lib/tcl/tk8.5/man/catn/option.0
+@man lib/tcl/tk8.5/man/catn/options.0
+@man lib/tcl/tk8.5/man/catn/pack-old.0
+@man lib/tcl/tk8.5/man/catn/pack.0
+@man lib/tcl/tk8.5/man/catn/panedwindow.0
+@man lib/tcl/tk8.5/man/catn/photo.0
+@man lib/tcl/tk8.5/man/catn/place.0
+@man lib/tcl/tk8.5/man/catn/radiobutton.0
+@man lib/tcl/tk8.5/man/catn/raise.0
+@man lib/tcl/tk8.5/man/catn/scale.0
+@man lib/tcl/tk8.5/man/catn/scrollbar.0
+@man lib/tcl/tk8.5/man/catn/selection.0
+@man lib/tcl/tk8.5/man/catn/send.0
+@man lib/tcl/tk8.5/man/catn/spinbox.0
+@man lib/tcl/tk8.5/man/catn/text.0
+@man lib/tcl/tk8.5/man/catn/tk.0
+@man lib/tcl/tk8.5/man/catn/tk_bindForTraversal.0
+@man lib/tcl/tk8.5/man/catn/tk_bisque.0
+@man lib/tcl/tk8.5/man/catn/tk_chooseColor.0
+@man lib/tcl/tk8.5/man/catn/tk_chooseDirectory.0
+@man lib/tcl/tk8.5/man/catn/tk_dialog.0
+@man lib/tcl/tk8.5/man/catn/tk_focusFollowsMouse.0
+@man lib/tcl/tk8.5/man/catn/tk_focusNext.0
+@man lib/tcl/tk8.5/man/catn/tk_focusPrev.0
+@man lib/tcl/tk8.5/man/catn/tk_getOpenFile.0
+@man lib/tcl/tk8.5/man/catn/tk_getSaveFile.0
+@man lib/tcl/tk8.5/man/catn/tk_menuBar.0
+@man lib/tcl/tk8.5/man/catn/tk_menuSetFocus.0
+@man lib/tcl/tk8.5/man/catn/tk_messageBox.0
+@man lib/tcl/tk8.5/man/catn/tk_optionMenu.0
+@man lib/tcl/tk8.5/man/catn/tk_popup.0
+@man lib/tcl/tk8.5/man/catn/tk_setPalette.0
+@man lib/tcl/tk8.5/man/catn/tk_textCopy.0
+@man lib/tcl/tk8.5/man/catn/tk_textCut.0
+@man lib/tcl/tk8.5/man/catn/tk_textPaste.0
+@man lib/tcl/tk8.5/man/catn/tkerror.0
+@man lib/tcl/tk8.5/man/catn/tkvars.0
+@man lib/tcl/tk8.5/man/catn/tkwait.0
+@man lib/tcl/tk8.5/man/catn/toplevel.0
+@man lib/tcl/tk8.5/man/catn/ttk::button.0
+@man lib/tcl/tk8.5/man/catn/ttk::checkbutton.0
+@man lib/tcl/tk8.5/man/catn/ttk::combobox.0
+@man lib/tcl/tk8.5/man/catn/ttk::entry.0
+@man lib/tcl/tk8.5/man/catn/ttk::frame.0
+@man lib/tcl/tk8.5/man/catn/ttk::intro.0
+@man lib/tcl/tk8.5/man/catn/ttk::label.0
+@man lib/tcl/tk8.5/man/catn/ttk::labelframe.0
+@man lib/tcl/tk8.5/man/catn/ttk::menubutton.0
+@man lib/tcl/tk8.5/man/catn/ttk::notebook.0
+@man lib/tcl/tk8.5/man/catn/ttk::panedwindow.0
+@man lib/tcl/tk8.5/man/catn/ttk::progressbar.0
+@man lib/tcl/tk8.5/man/catn/ttk::radiobutton.0
+@man lib/tcl/tk8.5/man/catn/ttk::scale.0
+@man lib/tcl/tk8.5/man/catn/ttk::scrollbar.0
+@man lib/tcl/tk8.5/man/catn/ttk::separator.0
+@man lib/tcl/tk8.5/man/catn/ttk::sizegrip.0
+@man lib/tcl/tk8.5/man/catn/ttk::spinbox.0
+@man lib/tcl/tk8.5/man/catn/ttk::style.0
+@man lib/tcl/tk8.5/man/catn/ttk::treeview.0
+@man lib/tcl/tk8.5/man/catn/ttk::widget.0
+@man lib/tcl/tk8.5/man/catn/ttk_image.0
+@man lib/tcl/tk8.5/man/catn/ttk_vsapi.0
+@man lib/tcl/tk8.5/man/catn/winfo.0
+@man lib/tcl/tk8.5/man/catn/wm.0
+lib/tcl/tk8.5/man/license.terms
+lib/tcl/tk8.5/menu.tcl
+lib/tcl/tk8.5/mkpsenc.tcl
+lib/tcl/tk8.5/msgbox.tcl
+lib/tcl/tk8.5/msgs/
+lib/tcl/tk8.5/msgs/cs.msg
+lib/tcl/tk8.5/msgs/da.msg
+lib/tcl/tk8.5/msgs/de.msg
+lib/tcl/tk8.5/msgs/el.msg
+lib/tcl/tk8.5/msgs/en.msg
+lib/tcl/tk8.5/msgs/en_gb.msg
+lib/tcl/tk8.5/msgs/eo.msg
+lib/tcl/tk8.5/msgs/es.msg
+lib/tcl/tk8.5/msgs/fr.msg
+lib/tcl/tk8.5/msgs/hu.msg
+lib/tcl/tk8.5/msgs/it.msg
+lib/tcl/tk8.5/msgs/nl.msg
+lib/tcl/tk8.5/msgs/pl.msg
+lib/tcl/tk8.5/msgs/pt.msg
+lib/tcl/tk8.5/msgs/ru.msg
+lib/tcl/tk8.5/msgs/sv.msg
+lib/tcl/tk8.5/obsolete.tcl
+lib/tcl/tk8.5/optMenu.tcl
+lib/tcl/tk8.5/palette.tcl
+lib/tcl/tk8.5/panedwindow.tcl
+lib/tcl/tk8.5/pkgIndex.tcl
+lib/tcl/tk8.5/safetk.tcl
+lib/tcl/tk8.5/scale.tcl
+lib/tcl/tk8.5/scrlbar.tcl
+lib/tcl/tk8.5/spinbox.tcl
+lib/tcl/tk8.5/tclIndex
+lib/tcl/tk8.5/tearoff.tcl
+lib/tcl/tk8.5/text.tcl
+lib/tcl/tk8.5/tk.tcl
+lib/tcl/tk8.5/tkAppInit.c
+lib/tcl/tk8.5/tkConfig.sh
+lib/tcl/tk8.5/tkfbox.tcl
+lib/tcl/tk8.5/ttk/
+lib/tcl/tk8.5/ttk/altTheme.tcl
+lib/tcl/tk8.5/ttk/aquaTheme.tcl
+lib/tcl/tk8.5/ttk/button.tcl
+lib/tcl/tk8.5/ttk/clamTheme.tcl
+lib/tcl/tk8.5/ttk/classicTheme.tcl
+lib/tcl/tk8.5/ttk/combobox.tcl
+lib/tcl/tk8.5/ttk/cursors.tcl
+lib/tcl/tk8.5/ttk/defaults.tcl
+lib/tcl/tk8.5/ttk/entry.tcl
+lib/tcl/tk8.5/ttk/fonts.tcl
+lib/tcl/tk8.5/ttk/menubutton.tcl
+lib/tcl/tk8.5/ttk/notebook.tcl
+lib/tcl/tk8.5/ttk/panedwindow.tcl
+lib/tcl/tk8.5/ttk/progress.tcl
+lib/tcl/tk8.5/ttk/scale.tcl
+lib/tcl/tk8.5/ttk/scrollbar.tcl
+lib/tcl/tk8.5/ttk/sizegrip.tcl
+lib/tcl/tk8.5/ttk/spinbox.tcl
+lib/tcl/tk8.5/ttk/treeview.tcl
+lib/tcl/tk8.5/ttk/ttk.tcl
+lib/tcl/tk8.5/ttk/utils.tcl
+lib/tcl/tk8.5/ttk/vistaTheme.tcl
+lib/tcl/tk8.5/ttk/winTheme.tcl
+lib/tcl/tk8.5/ttk/xpTheme.tcl
+lib/tcl/tk8.5/unsupported.tcl
+lib/tcl/tk8.5/xmfbox.tcl
+share/examples/tk8.5/
+share/examples/tk8.5/README
+share/examples/tk8.5/anilabel.tcl
+share/examples/tk8.5/aniwave.tcl
+share/examples/tk8.5/arrow.tcl
+share/examples/tk8.5/bind.tcl
+share/examples/tk8.5/bitmap.tcl
+share/examples/tk8.5/browse
+share/examples/tk8.5/button.tcl
+share/examples/tk8.5/check.tcl
+share/examples/tk8.5/clrpick.tcl
+share/examples/tk8.5/colors.tcl
+share/examples/tk8.5/combo.tcl
+share/examples/tk8.5/cscroll.tcl
+share/examples/tk8.5/ctext.tcl
+share/examples/tk8.5/dialog1.tcl
+share/examples/tk8.5/dialog2.tcl
+share/examples/tk8.5/en.msg
+share/examples/tk8.5/entry1.tcl
+share/examples/tk8.5/entry2.tcl
+share/examples/tk8.5/entry3.tcl
+share/examples/tk8.5/filebox.tcl
+share/examples/tk8.5/floor.tcl
+share/examples/tk8.5/form.tcl
+share/examples/tk8.5/goldberg.tcl
+share/examples/tk8.5/hello
+share/examples/tk8.5/hscale.tcl
+share/examples/tk8.5/icon.tcl
+share/examples/tk8.5/image1.tcl
+share/examples/tk8.5/image2.tcl
+share/examples/tk8.5/images/
+share/examples/tk8.5/images/earth.gif
+share/examples/tk8.5/images/earthris.gif
+share/examples/tk8.5/images/face.xbm
+share/examples/tk8.5/images/flagdown.xbm
+share/examples/tk8.5/images/flagup.xbm
+share/examples/tk8.5/images/gray25.xbm
+share/examples/tk8.5/images/letters.xbm
+share/examples/tk8.5/images/noletter.xbm
+share/examples/tk8.5/images/pattern.xbm
+share/examples/tk8.5/images/tcllogo.gif
+share/examples/tk8.5/images/teapot.ppm
+share/examples/tk8.5/items.tcl
+share/examples/tk8.5/ixset
+share/examples/tk8.5/knightstour.tcl
+share/examples/tk8.5/label.tcl
+share/examples/tk8.5/labelframe.tcl
+share/examples/tk8.5/license.terms
+share/examples/tk8.5/mclist.tcl
+share/examples/tk8.5/menu.tcl
+share/examples/tk8.5/menubu.tcl
+share/examples/tk8.5/msgbox.tcl
+share/examples/tk8.5/nl.msg
+share/examples/tk8.5/paned1.tcl
+share/examples/tk8.5/paned2.tcl
+share/examples/tk8.5/pendulum.tcl
+share/examples/tk8.5/plot.tcl
+share/examples/tk8.5/puzzle.tcl
+share/examples/tk8.5/radio.tcl
+share/examples/tk8.5/rmt
+share/examples/tk8.5/rolodex
+share/examples/tk8.5/ruler.tcl
+share/examples/tk8.5/sayings.tcl
+share/examples/tk8.5/search.tcl
+share/examples/tk8.5/spin.tcl
+share/examples/tk8.5/square
+share/examples/tk8.5/states.tcl
+share/examples/tk8.5/style.tcl
+share/examples/tk8.5/tclIndex
+share/examples/tk8.5/tcolor
+share/examples/tk8.5/text.tcl
+share/examples/tk8.5/textpeer.tcl
+share/examples/tk8.5/timer
+share/examples/tk8.5/toolbar.tcl
+share/examples/tk8.5/tree.tcl
+share/examples/tk8.5/ttkbut.tcl
+share/examples/tk8.5/ttkmenu.tcl
+share/examples/tk8.5/ttknote.tcl
+share/examples/tk8.5/ttkpane.tcl
+share/examples/tk8.5/ttkprogress.tcl
+share/examples/tk8.5/ttkscale.tcl
+share/examples/tk8.5/twind.tcl
+share/examples/tk8.5/unicodeout.tcl
+share/examples/tk8.5/vscale.tcl
+share/examples/tk8.5/widget

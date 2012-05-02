@@ -1,0 +1,14 @@
+$OpenBSD: ports/geo/qgis/patches/patch-doc_CMakeLists_txt,v 1.5 2011/12/29 21:44:06 landry Exp $
+--- doc/CMakeLists.txt.orig	Sat Dec 10 19:23:35 2011
++++ doc/CMakeLists.txt	Wed Dec 28 22:24:16 2011
+@@ -13,8 +13,8 @@ ENDIF(TXT2TAGS_EXECUTABLE)
+ 
+ SET(QGIS_DOC_FILES ${QGIS_DOC_FILES} index.html changelog.html favicon.ico style.css AUTHORS CONTRIBUTORS SPONSORS DONORS TRANSLATORS)
+ 
+-INSTALL(FILES ${QGIS_DOC_FILES} DESTINATION ${QGIS_DATA_DIR}/doc)
+-INSTALL(FILES images/qgis_new_80pct.png DESTINATION ${QGIS_DATA_DIR}/doc/images)
++INSTALL(FILES ${QGIS_DOC_FILES} DESTINATION ${QGIS_DATA_DIR}/../doc/qgis)
++INSTALL(FILES images/qgis_new_80pct.png DESTINATION ${QGIS_DATA_DIR}/../doc/qgis/images)
+ 
+ IF(WITH_APIDOC)
+   FIND_PACKAGE(Doxygen)

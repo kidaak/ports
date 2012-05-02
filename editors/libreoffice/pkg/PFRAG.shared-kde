@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/editors/libreoffice/pkg/PFRAG.shared-kde,v 1.4 2012/04/03 08:56:50 robert Exp $
+lib/libreoffice/program/fps_kde.uno.so
+lib/libreoffice/program/kdebe1.uno.so
+lib/libreoffice/program/libkab1.so
+lib/libreoffice/program/libkabdrv1.so
+lib/libreoffice/program/libvclplug_kdelo.so

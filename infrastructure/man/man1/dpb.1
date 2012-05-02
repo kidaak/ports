@@ -1,0 +1,829 @@
+.\"	$OpenBSD: ports/infrastructure/man/man1/dpb.1,v 1.39 2012/04/10 17:00:29 espie Exp $
+.\"
+.\" Copyright (c) 2010 Marc Espie <espie@openbsd.org>
+.\"
+.\" Permission to use, copy, modify, and distribute this software for any
+.\" purpose with or without fee is hereby granted, provided that the above
+.\" copyright notice and this permission notice appear in all copies.
+.\"
+.\" THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+.\" WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+.\" MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+.\" ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+.\" WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+.\" ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+.\" OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+.\"
+.Dd $Mdocdate: April 8 2012 $
+.Dt DPB 1
+.Os
+.Sh NAME
+.Nm dpb
+.Nd distributed ports builder
+.Sh SYNOPSIS
+.Nm dpb
+.Bk -words
+.Op Fl acemqrRsuUx
+.Op Fl A Ar arch
+.Op Fl b Ar logfile
+.Op Fl C Ar pathlist
+.Op Fl D Ar PARAM Ns = Ns Ar value
+.Op Fl f Ar m
+.Op Fl F Ar m
+.Op Fl h Ar hosts
+.Op Fl I Ar pathlist
+.Op Fl J Ar p
+.Op Fl j Ar n
+.Op Fl L Ar logdir
+.Op Fl M Ar threshold
+.Op Fl P Ar pathlist
+.Op Fl S Ar sizefile
+.Op Ar pathlist ...
+.Ek
+.Sh DESCRIPTION
+.Nm
+is used to build ports on a cluster of machines, or on a single machine
+with several cores.
+Its name is an acronym for
+.Sq distributed ports builder .
+.Nm
+walks the ports tree to figure out dependencies, and starts building
+as soon as it can.
+.Pp
+On a clean machine,
+.Nm
+will run with sensible defaults if used without options.
+Note, however, that it will produce logs, lock files, packages, and package
+installations.
+.Pp
+.Nm
+can be restricted to a subset of the tree by giving it
+.Ar pathlist ...
+to build as parameters.
+.Pp
+A
+.Ar pathlist
+is either a
+.Xr pkgpath 7
+to build, or a filename that contains pkgpaths (one per line).
+.Ar pathlist
+parameters can also take the form
+.Li filename*scale
+in order to multiply the weights of all
+.Xr pkgpath 7
+in a file by a given
+.Ar scale ,
+or
+.Li pkgpath=value ,
+in order to set the weight of a given
+.Xr pkgpath 7
+to a specific value.
+.Pp
+.Nm
+supports
+.Sq hot-fixes :
+if a particular port errors out, it is possible to fix the problem, remove
+the corresponding lockfile, and
+.Nm
+will pick it up without needing to be stopped and restarted.
+.Pp
+In order to build on a cluster, the ports tree itself should be shared
+through NFS, including distfiles and built packages, but the WRKOBJDIR
+should be local to each machine.
+Option
+.Fl h Ar file
+is used to specify hosts to use,
+.Ar file
+can be as simple as a list of hosts to use, one host per line.
+.Pp
+As
+.Nm
+tends to be run on shared clusters, most filenames will go through some
+control sequence expansions.
+For instance, the default logdir location can be specified as
+.Pa %p/logs/%a .
+The following sequences are recognized:
+.Bl -tag -offset aaaa -width %aa
+.It Cm %a
+architecture being used.
+.It Cm %d
+date at start of
+.Nm ,
+GMtime, formatted as yyyy-mm-dd@hh:mm:ss.
+.It Cm %f
+fetch distfiles location (DISTDIR).
+.It Cm %h
+hostname running
+.Nm .
+.It Cm %p
+portsdir location.
+.It Cm %t
+timestamp (number of seconds since January 1 1970) at start of
+.Nm .
+.El
+.Pp
+Options are as follows:
+.Bl -tag -width pkgpathlong
+.It Fl A Ar arch
+Build packages for given architecture, selecting relevant hosts from the
+cluster.
+By default, the current host's architecture will be used.
+.It Fl a
+Walk the whole tree and builds all packages (default if no
+.Ar pathlist
+is given).
+.It Fl b Ar logfile
+Prime the heuristics module with a previous build log, so that packages that
+take a long time to build will happen earlier.
+.It Fl c
+Clean port working directory and log before each build.
+.It Fl C Ar pathlist
+Don't clean port working directories after build.
+Use a list of simple
+.Xr pkgpath 7 ,
+as this does not take subpackages and flavors into account.
+.It Fl D Ar PARAM Ns = Ns Ar value
+Set defined parameter to value.
+Known parameters are as follows:
+.Bl -tag -width DISP
+.It Ar CDROM_ONLY
+Don't fetch distfiles that are not allowed for cdrom.
+.It Ar CONNECTION_TIMEOUT
+Connection timeout for ssh.
+Defaults to 60 seconds.
+.It Ar DISPLAY_TIMEOUT
+Display timeout (in seconds) while waiting for jobs to finish, so that the
+display is updated even if jobs didn't finish.
+Defaults to 10 seconds.
+.It Ar DONT_BUILD_ONCE
+By default,
+.Nm
+will use the
+.Ev BUILD_ONCE
+optimization if run with
+.Fl a :
+pseudo-flavors that disable subpackages and are not necessary for bootstrap
+will be disabled, so that the same port is built once, as far as possible.
+This flag disables that optimization, which might be desireable if you want
+to build a small subset of packages which would pull in the kitchen sink
+otherwise.
+.It Ar DONT_CLEAN_LOCKS
+By default,
+.Nm
+will clean old locks from dpb running on the same host that no longer exist,
+provided they didn't end in error.
+This is usually the right thing to do after a crash, or after killing dpb
+abruptly.
+Sometimes, one may want manual control over which locks to remove.
+.It Ar FTP_ONLY
+Don't fetch distfiles that are not allowed for ftp.
+.It Ar HISTORY_ONLY
+Don't fetch or build anything.
+Only run
+.Nm
+to figure out old distfiles and update
+.Pa ${FULLDISTDIR}/history .
+.It Ar NO_CURSOR
+Make the terminal cursor invisible if possible.
+Avoids flickering on slow graphics cards.
+.It Ar NO_BUILD_STATS
+Disable reading/saving of default build stats under
+.Pa ${DISTDIR}/build-stats/${ARCH} .
+.It Ar STUCK_TIMEOUT
+Timeout (in seconds * speed factor) after which tasks that don't show
+any progress will be killed.
+This can be set on a per-core basis as the
+.Sq stuck
+property.
+Note that this will always be divided by the core's speed factor.
+.El
+.It Fl e
+The listing job is extra and won't be given back to the pool when it's
+finished.
+.It Fl f Ar m
+Create
+.Ar m
+jobs for fetching files.
+Those are separate from the build jobs, since they don't consume cpu, and they
+run on the localhost.
+Defaults to 2.
+Can be set to 0 to bypass fetching jobs entirely,
+and reduce
+.Nm
+memory footprint by a lot.
+.It Fl F Ar m
+Fetch-only mode, for mirroring hosts.
+Do not build any package but fetch everything, disregarding
+.Ev BROKEN
+and
+.Ev ONLY_FOR_ARCHS
+information.
+.It Fl h Ar hosts
+File with hosts to use for building.
+One host per line, plus properties, such as:
+.Bd -literal
+espie@aeryn jobs=4 arch=i386
+.Ed
+Properties are as follows:
+.Bl -tag -width memory=150
+.It arch=value
+Architecture of the concerned host.
+(there should be a startup task to check consistency, but
+currently this has to be set manually on heterogeneous networks.)
+.It jobs=n
+Number of jobs to run on that host, defaults to hw.ncpu.
+.It memory=thr
+Builds everything below that wrkdir threshold in /tmp, assuming
+it is a memory filesystem.
+Avoid for now, as
+.Xr mfs 8
+has serious race conditions which yield
+random errors under stress conditions such as bulk build.
+.It sf=n
+Speed factor.
+An estimate of that machine's speed with that number of jobs
+compared to other machines in the same network.
+Works better with small values, in the range of 1..50.
+The machine (or machines) with the highest speed factor will
+get access to all jobs, whereas other machines will be clamped
+to stuff which does not take too long.
+Requires previous build information to be effective.
+.It stuck=s
+Stuck timeout (in seconds * sf) after which tasks which show no progress
+will get killed.
+.It timeout=s
+Defines a specific connection timeout for ssh to that host.
+.El
+The
+.Ar hosts
+file can also define a start-up script, as
+.Bd -literal
+STARTUP=path
+.Ed
+which will be run at start-up on each machine.
+There are no fine-grained options to control
+.Xr ssh 1
+options, as those can be specified through virtual host declarations in
+.Xr ssh_config 5 .
+.It Fl I Ar pathlist
+List of
+.Xr pkgpath 7
+to install, on the local box.
+This will also add them to the list of things to build.
+.It Fl J Ar p
+Delete unneeded installed packages during the build.
+Each
+.Ar prepare
+stage is followed by a
+.Ar show-prepare-results
+stage.
+Every
+.Ar p
+build, it will be followed by a
+.Ar junk
+stage which uses
+.Xr pkg_delete 1
+with the
+.Fl aX
+options to delete automatically installed packages that are currently
+not needed.
+.Pp
+.Nm
+keeps track of list of dependencies on a given host, by storing each
+dependency list in the lockfile corresponding to the package being built.
+.Pp
+There is a potential race condition between the
+.Ar depends
+and
+.Ar junk
+stage, which
+.Nm
+solves by preventing more than one job on a given host to be in the
+.Ar depends
+\&...
+.Ar junk
+stages at one time, by using a per-host lock.
+.It Fl j Ar n
+Number of concurrent local jobs to run (defaults to hw.ncpu if no hosts file).
+.It Fl L Ar logdir
+Choose a log directory.
+.Po
+Defaults to
+.Pa ${PORTSDIR}/logs/${ARCH}
+.Pc .
+.It Fl M Ar threshold
+Build ports besides the memory threshold within
+.Pa /tmp .
+Avoid for now, as
+.Xr mfs 8
+has serious race conditions which yield
+random errors under stress conditions such as bulk build.
+.It Fl m
+Force tty-style reporting.
+.It Fl P Ar pathlist
+Read list of
+.Xr pkgpath 7
+from file.
+.It Fl q
+Don't quit while errors/locks are around.
+.It Fl r
+Random build order.
+Disregard any kind of smart heuristics.
+Useful to try to find missing build dependencies.
+.It Fl R
+Rebuild existing packages based on discrepancies between the package
+signature and what the port says it should be.
+Concretely, use to run a partial bulk build after some library change.
+.Pp
+Note that
+.Fl R
+won't always work, as rebuilding a package when another version is already
+installed is not supported.
+It will go into an infinite loop with always-update packages such as sqlports
+or pkglocatedb.
+.It Fl s
+Compute workdir sizes before cleaning up, and stash them in log file
+.Pa ${LOGDIR}/size.log .
+.It Fl S Ar sizefile
+Read a size log file and use it for choosing to put WRKDIR in memory.
+.It Fl u
+Update existing packages during dependency solving.
+Can be used to run a bulk-build on a machine with installed packages,
+but might break a bit, since some packages only build on a clean machine
+right now.
+.It Fl U
+Insist on updating existing packages during dependency solving,
+even if the new package apparently didn't change.
+.It Fl x
+No tty report, only report really important things, like hosts going down
+and coming back up, build errors, or builds not progressing.
+.El
+.Pp
+.Nm
+figures out in which order to build things on the fly, and constantly
+displays information relative to what's currently building.
+There's a list of what is currently running, one line per job.
+Those jobs are ordered in strict chronological order, which means that
+long running builds will tend to percolate to the top of the list.
+Normal jobs look like this:
+.Bd -literal -offset indent
+www/mozilla-firefox(build) [9452] 41% unchanged for 92 seconds
+.Ed
+.Pp
+This contains:
+.Bl -dash
+.It
+the pkgpath being built,
+.It
+the step currently being run,
+.It
+the pid running that task (note that this is always a pid on the host
+running dpb: for distributed builds, it will be an
+.Xr ssh 1
+to another machine),
+.It
+the current size of the log file (displayed as a percentage if option
+.Fl b
+has been used),
+.It
+and a possible notice that things might be stuck when
+the log file doesn't change for long periods.
+.El
+.Pp
+And fetch jobs look like this:
+.Bd -literal -offset indent
+<dist-3.0.tgz(#1) [4321] 25%
+.Ed
+.Pp
+This contains:
+.Bl -dash
+.It
+the file being fetched
+.It
+the number of the
+.Ev MASTER_SITE
+being tried
+.It
+the pid of the
+.Xr ftp 1
+process (note that fetch jobs are always local).
+.It
+a progress percentage.
+.El
+.Pp
+This is followed by a summary display:
+.Bl -tag -width BB=
+.It I=
+number of built packages that can be installed.
+.It B=
+number of built packages, not yet known to be installable,
+because of possibly run depends that still need to be built.
+.It Q=
+number of packages in the queue, e.g., stuff that can be built now, assuming
+we have a free slot.
+.It T=
+number of packages to build, where dependencies are not yet resolved.
+.It F=
+number of distfiles to fetch, when
+.Fl f
+is used.
+.It !=
+number of ignored packages.
+Details in
+.Pa engine.log .
+.It L=
+list of packages that cannot currently be built because of locks.
+.It E=
+list of packages in error, that cannot currently be built.
+.El
+.Pp
+If those two lists are empty, they won't even show up.
+Note that those numbers refer to pkgpaths known to
+.Nm .
+In general, those numbers will be slightly higher than the actual number
+of packages being built, since several paths may lead to the same package.
+.Pp
+.Nm
+uses some heuristics to try to maximise the queue as soon as possible.
+There are also provisions for a feedback-directed build, where information from
+previous builds can be used to try to build long-running jobs first.
+.Pp
+Similarly, fetches will use the continue option of
+.Xr ftp 1 ,
+since distfiles are checksummed after the fetch anyways.
+.Sh LOCKS AND ERRORS
+When building a package,
+.Nm
+produces a lockfile in the lock directory, whose name is deduced from
+the basic pkgpath with slashes replaced by dots.
+This lockfile is filled with such info as the build start time or the host,
+or the needed dependencies for this pkgpath.
+.Pp
+The lockfile will also contain the name of a parent pkgpath, for paths that
+were discovered as dependencies.
+This is particularly useful for bogus paths, where it would be hard to
+know where the path came from otherwise.
+.Pp
+At the end of a succesful build, these lockfiles are removed.
+The lock will stay around in case of errors.
+.Po
+raw
+value from
+.Xr wait 2
+.Pc ,
+and the name of the next task in the build pipeline (with todo=<nothing>
+in case of failure during clean-up).
+Normal list of tasks is:
+.Ar depends prepare fetch patch configure build fake package clean .
+.Pp
+At the end of each job,
+.Nm
+rechecks the lock directory for existing lockfiles.
+If some locks have vanished,
+it will put the corresponding paths back in the queue and attempt
+another build.
+.Pp
+This eases manual repairs: if a package does not build, the user can look
+at the log, go to the port directory, fix the problem, and then remove the lock.
+.Nm
+will pick up the ball and keep building without interruption.
+.Pp
+One can also run several
+.Nm
+in parallel.
+This is not optimal, since each
+.Nm
+ignores the others, and only uses the lock info to avoid the other's
+current work, but it can be handy: in an emergency, one can start a second
+.Nm
+to obtain a specific package right now, in parallel with the original
+.Nm .
+.Pp
+Note that
+.Nm
+is very careful not to run two builds from the same pkgpath at the
+same time, even on different machines:
+in some cases, MULTI_PACKAGES and FLAVOR combinations may lead to the
+same package being built simultaneously, and since the package repository
+is shared, this can easily lead to trouble.
+.Sh SHUTTING DOWN GRACEFULLY
+.Nm
+periodically checks for a file named
+.Pa stop
+in its log directory.
+If this file exists, then it won't start new jobs, and shutdown when
+the current jobs are finished unless
+.Fl q .
+.Pp
+.Nm
+also checks for files named
+.Pa <hostname>-stop
+in its log directory.
+If such a file exists, then it won't start new jobs on
+the corresponding machine.
+.Sh FILES
+Apart from producing packages,
+.Nm
+may create temporary files as
+.Pa ${FULLDISTDIR}/${DISTFILE}.part .
+.Pp
+In fetch mode
+.Po
+.Fl f
+and
+.Fl F
+.Pc ,
+.Nm
+populates
+.Pa ${FULLDISTDIR}/by_cipher/sha256
+with links.
+It also uses
+.Pa ${FULLDISTDIR}/distinfo
+and
+.Pa ${FULLDISTDIR}/history
+as a
+.Sq permanent log :
+.Bl -tag -width distinfo
+.It distinfo
+cache of distfiles checksum.
+Contains all
+.Xr sha256 1
+checksums of known files under
+.Pa ${FULLDISTDIR} .
+Fetching uses this to avoid re-checksumming known files.
+.It history
+Log of old files under distinfo.
+After succesfully scanning a full ports tree
+.Po
+.Nm Fl a
+.Pc ,
+the fetch engine knows precisely which files are needed by the build
+(and their checksums).
+Anything that is
+.Bl -bullet
+.It
+recorded in distinfo but unneeded
+.It
+recorded in distinfo but with the wrong checksum
+.It
+not recorded in distinfo, but not needed
+.El
+will be entered at the end of history as a line:
+.Pp
+.Li ts SHA256 (file) = value
+.Pp
+with
+.Ar ts
+a timestamp from Unix epoch.
+.Pp
+When cleaning up old files, with a tool such as
+.Xr clean-old-distfiles 1 ,
+it is vital to check both the checksum and
+the file name: since mirroring stores permanent links under
+.Pa by_cipher ,
+files which are still needed will appear in history under their old
+checksums, as an indication the link should be removed, but possibly not
+the file itself.
+.El
+.Pp
+If
+.Pa ${DISTDIR}
+ever becomes corrupted,
+removing
+.Pa ${DISTDIR}/distinfo
+will force
+.Nm
+into checking all files again.
+.Pp
+.Nm
+also records rolling build statistics under
+.Pa ${DISTDIR}/build-stats/${ARCH} ,
+and uses them automatically in the absence of
+.Fl b Ar logfile .
+.Pp
+.Nm
+will also create a large number of log files under
+.Pa ${PORTSDIR}/logs/{$ARCH} :
+.Bl -tag -width engine.log
+.It Pa build.log
+Actual build log.
+Each line summarizes build of a single pkgpath, as:
+.Sq pkgpath host time logsize (detailed timing)[!]
+where time is the actual build time in seconds, host is the machine name
+where this occurred, logsize is the corresponding log file size,
+and a ! is appended in case the build didn't succeed.
+.Pp
+The detailed timing info gives a run-down of the build, with clean, fetch,
+prepare, patch (actually extract+patch), configure, build, fake, package, clean
+detailed timing info.
+Note that the actual build time starts at
+.Sq extract
+and finishes at
+.Sq package .
+.It Pa clean.log
+Paths that do not clean correctly, and required sudo to clean the directory.
+.It Pa dependencies.log
+List of pkgpath frequencies, filled at end of LISTING if
+.Fl a .
+Will be automatically reused when restarting a build: a quick LISTING of
+the most important dependencies will happen before the general LISTING.
+.It Pa dist/<distfile>.log
+Log of the
+.Xr ftp 1
+process(es) that attempted to fetch the distfile.
+.It Pa engine.log
+Build engine log.
+Each line corresponds to a state change for a pkgpath and starts with the pid
+of
+.Nm ,
+plus a timestamp of the log entry.
+.Bl -tag -width BB:
+.It ^
+pkgpath temporarily put aside, because a job is running in the same directory.
+.It !
+pkgpath ignored, either directly, or indirectly because a dependency was
+ignored.
+End of the line states reason why ignored.
+.It B
+pkgpath built.
+.It I
+pkgpath can be installed.
+.It J
+job to build pkgpath started.
+Also records the host used for the build.
+.It L
+job did not start, existing lock detected.
+.It N
+job did not finish.
+The host may have gone down.
+.It P
+built package is no longer required for anything.
+.It Q
+pkgpath queued as buildable whenever a slot is free.
+.It T
+pkgpath to build.
+.It V
+pkgpath put back in the buildable queue, after job that was running in
+the same directory returned.
+.El
+.It Pa equiv.log
+Lists of equivalent pkgpaths for the build, when default flavors and default subpackages have been resolved.
+.It Pa fetch/bad.log
+List of URLs that did not lead to a correct distfile, either because
+they were not responding, or because of incorrect checksums.
+.It Pa fetch/distfiles.log
+Full list of distfiles seen through this build.
+Can be used to remove old distfiles.
+.It Pa fetch/good.log
+List of URLs that fetched correctly, along with timing statistics.
+.It Pa fetch/manually.log
+List of pkgpaths that require manual intervention, in human-readable form.
+.It Pa <hostname>-stop
+Not a logfile at all, but created by the user to stop hostname creating
+new jobs.
+.It Pa <hostname>.sig.log
+Complete library signature of the host.
+.It Pa locks/
+Directory where locks are created.
+The slash in a pkgpath is replaced with a dot like so:
+.Pa locks/devel.make
+to flatten the structure.
+.It Pa needed.log
+list of needed dependencies at each point in time for each host when the
+.Fl J
+option has been used.
+.It Pa packages/pkgname.log
+one file or symlink per pkgname.
+.It Pa paths/some/path.log
+one file or symlink per pkgpath.
+.It Pa rebuild.log
+When using
+.Fl R ,
+contains the list of decisions to build/not rebuild a given pkgpath.
+.It Pa signature.log
+Discrepancies between hosts that prevent them from starting up.
+.It Pa size.log
+Size of work directory at the end of each build, built only with
+.Fl s .
+.It Pa stats.log
+Simple log of the B=... line summaries.
+Mostly useful for making plots and tweaking performance.
+.It Pa stop
+Not a logfile at all, but a file created by the user to stop
+.Nm
+creating new jobs.
+.It Pa vars.log
+Logs the directories that were walked in the ports tree for dependency
+information, including the path to a dependency that triggered this
+particular step.
+.El
+.Sh BUGS AND LIMITATIONS
+.Nm
+performs best with lots of paths to build.
+When just used to build a few ports, there's a high risk of starvation
+as there are bottlenecks in parts of the tree.
+.Pp
+Fetch jobs don't deal with checksum changes yet:
+if a fetch fails because of a wrong checksum, if you update the distinfo
+file and remove the lock,
+.Nm
+won't pick it up.
+.Pp
+Note that
+.Nm
+does not manage installed packages in any intelligent way, it will just
+call
+.Xr pkg_add 1
+during its depend stage to install its dependencies.
+With
+.Fl u ,
+it will call pkg_add -r.
+With
+.Fl U ,
+it will call pkg_add -r -D installed,
+but there is nothing else going on.
+This is especially true when using
+.Fl R ,
+ensure the machine is clean of possibly older packages first, or run
+.Nm
+with
+.Fl U .
+.Pp
+In particular
+.Fl R
+and
+.Fl J
+together may lead to strange issues.
+.Pp
+On heterogeneous networks, calibration of build info and choice of speed
+factors is not perfect, and somewhat a dark art.
+Using distinct speed factors on a build log that comes from a single
+machine works fine, but using the build info coming from several machines
+does not work all that well.
+.Pp
+.Nm
+should check
+.Pa /usr/include
+and
+.Pa /usr/X11R6/include
+for consistency, but it doesn't.
+.Pp
+When an host fails consistency check, there is not yet a way to re-add it
+after fixing the problem.
+You have to stop
+.Nm ,
+cleanup and restart.
+.Pp
+There's a bug in
+.Xr mfs 8
+that prevents it from proper use in bulk builds.
+.Pp
+The default limits in
+.Pa login.conf
+are too small for bulk builds on any kind of parallel machines.
+Bump number of processes.
+.Pp
+Even though
+.Nm
+tries really hard to check heterogeneous networks for sanity (checking
+shared libraries and .la files), it is still dependent on the user to
+make sure all the hosts build ports the same way.
+.Pp
+Make sure your NFS setup is consistent.
+The ports dir itself should be exported, including distfiles and packages
+repository, but the WRKOBJDIR should not be on NFS unless you have
+absolutely no choice, or if you exhibit deep masochistic tendencies.
+Pay particular attention to discrepancies in
+.Pa /etc/mk.conf .
+.Pp
+Also,
+.Nm
+connects to external hosts through
+.Xr ssh 1 ,
+relying on
+.Xr ssh_config 5
+for any special cases.
+.Sh SEE ALSO
+.Xr clean-old-distfiles 1 ,
+.Xr pkgpath 7
+.Sh AUTHOR
+Marc Espie
+.Sh HISTORY
+The original
+.Nm dpb
+command was written by Nikolay Sturm.
+This version is a complete rewrite from scratch using all the stuff
+we learnt over the years to make it better.
+.Pp
+There are still a number of changes to make, and some possible avenues
+to explore.
+.Pp
+Better build feedback for next builds would be nice: we need a way to
+calibrate build logs that contain info for several machines (so that we
+can gauge whether a machine is fast or slow).
+It might make sense to have some kind of machine affinity for big packages
+in a cluster, so that we avoid reinstalling big things on each machine if
+we can get away with installing stuff on a single machine.
+We should probably keep the pkgnames around with the pkgpath in the build-log,
+so that we give more credibility to build times that correspond to the
+exact same pkgnames.

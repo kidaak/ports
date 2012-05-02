@@ -1,0 +1,19 @@
+# $OpenBSD: ports/textproc/p5-sdf/Makefile,v 1.13 2010/12/03 11:46:50 ajacoutot Exp $
+
+COMMENT=	simple document format
+
+MODULES=	cpan
+DISTNAME=	sdf-2.001
+REVISION=	1
+CATEGORIES=	textproc
+USE_GROFF =	Yes
+
+MASTER_SITES=	${MASTER_SITE_PERL_CPAN:=Pod/}
+
+# BSD
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+
+.include <bsd.port.mk>

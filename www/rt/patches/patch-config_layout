@@ -1,0 +1,32 @@
+$OpenBSD: ports/www/rt/patches/patch-config_layout,v 1.2 2010/05/29 13:25:06 robert Exp $
+--- config.layout.orig	Mon Oct 19 21:55:31 2009
++++ config.layout	Sun Nov  8 12:37:59 2009
+@@ -84,6 +84,28 @@
+   customlibdir:		${customdir}/lib
+ </Layout>
+ 
++<Layout OpenBSD>
++  prefix:		/usr/local
++  exec_prefix:		/usr/local
++  bindir:		${exec_prefix}/bin
++  sbindir:		${exec_prefix}/sbin
++  sysconfdir:		/etc+
++  mandir:		${prefix}/man
++  libdir:		${prefix}/libdata/perl5/site_perl
++  datadir:		${prefix}/share+
++  htmldir:		${datadir}/html
++  manualdir:		${prefix}/share/doc+
++  logfiledir:		/var/log
++  localstatedir:	/var/www+
++  masonstatedir:	${localstatedir}/mason_data
++  sessionstatedir:	${localstatedir}/session_data
++  customdir:		${datadir}/local
++  custometcdir:		${sysconfdir}/local
++  customhtmldir:	${customdir}/html
++  customlexdir:		${customdir}/po
++  customlibdir:		${libdir}
++</Layout>
++
+ <Layout FreeBSD>
+   prefix:		/usr/local
+   exec_prefix:		${prefix}

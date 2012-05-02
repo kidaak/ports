@@ -1,0 +1,46 @@
+$OpenBSD: ports/net/gtk-gnutella/patches/patch-Configure,v 1.16 2012/03/29 06:19:12 ajacoutot Exp $
+--- Configure.orig	Sun Sep 11 16:28:07 2011
++++ Configure	Thu Mar 29 08:10:00 2012
+@@ -358,7 +358,7 @@ d_open3=''
+ d_pause=''
+ d_poll=''
+ d_popen=''
+-d_portable=''
++d_portable='define'
+ d_posix_fadvise=''
+ d_posix_memalign=''
+ d_pread=''
+@@ -1182,7 +1182,7 @@ for file in $*; do
+ 			dir=`expr X$file : 'X\(.*\)/'`
+ 			file=`expr X$file : 'X.*/\(.*\)'`
+ 			./mkdirp $dir
+-			sh <"$SRC/$dir/$file"
++			cd $dir && sh $SRC/$dir/$file
+ 			;;
+ 		*)
+ 			sh <"$SRC/$file"
+@@ -4580,7 +4580,7 @@ case "$d_dbus" in
+ 		echo "(I'll use '$dbusconfig' to gather that information.)" >&4
+ 
+ 		: Make sure we have a good enough version
+-		version=`$dbusconfig $modver`
++		version=``
+ 		case "$version" in
+ 		'') ;;
+ 		*)
+@@ -10341,15 +10341,6 @@ If you'd like to make any changes to the config.sh fil
+ to configure things, do it as a shell escape now (e.g. !vi config.sh).
+ 
+ EOM
+-	rp="Press return or use a shell escape to edit config.sh:"
+-	. UU/myread
+-	nostick=''
+-	case "$ans" in
+-	'') ;;
+-	*) : in case they cannot read
+-		sh 1>&4 -c "$ans";;
+-	esac
+-	;;
+ esac
+ 
+ : if this fails, just run all the .SH files by hand

@@ -1,0 +1,15 @@
+$OpenBSD: ports/lang/ruby/1.9/patches/patch-common_mk,v 1.4 2012/02/28 00:20:41 jeremy Exp $
+
+Don't regenerate rdoc documentation during install.
+
+--- common.mk.orig	Mon Feb  6 04:53:11 2012
++++ common.mk	Thu Feb 16 08:18:24 2012
+@@ -394,7 +394,7 @@ dont-install-man: $(PREP)
+ post-no-install-man::
+ 	@$(NULLCMD)
+ 
+-install-doc: rdoc pre-install-doc do-install-doc post-install-doc
++install-doc: pre-install-doc do-install-doc post-install-doc
+ pre-install-doc:: install-prereq
+ do-install-doc: $(PROGRAM)
+ 	$(INSTRUBY) --make="$(MAKE)" $(INSTRUBY_ARGS) --install=rdoc --rdoc-output="$(RDOCOUT)"

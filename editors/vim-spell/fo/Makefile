@@ -1,0 +1,5 @@
+# $OpenBSD: ports/editors/vim-spell/fo/Makefile,v 1.1 2012/01/17 18:29:43 espie Exp $
+
+L = fo
+
+.include <bsd.port.mk>

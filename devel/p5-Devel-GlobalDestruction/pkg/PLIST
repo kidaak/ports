@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/devel/p5-Devel-GlobalDestruction/pkg/PLIST,v 1.2 2010/12/28 22:28:28 benoit Exp $
+${P5ARCH}/Devel/
+${P5ARCH}/Devel/GlobalDestruction.pm
+${P5ARCH}/auto/Devel/
+${P5ARCH}/auto/Devel/GlobalDestruction/
+${P5ARCH}/auto/Devel/GlobalDestruction/GlobalDestruction.bs
+${P5ARCH}/auto/Devel/GlobalDestruction/GlobalDestruction.so
+@man man/man3p/Devel::GlobalDestruction.3p

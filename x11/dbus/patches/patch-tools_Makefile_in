@@ -1,0 +1,30 @@
+$OpenBSD: ports/x11/dbus/patches/patch-tools_Makefile_in,v 1.16 2012/03/31 17:56:44 ajacoutot Exp $
+--- tools/Makefile.in.orig	Tue Mar 27 14:01:13 2012
++++ tools/Makefile.in	Sat Mar 31 10:32:00 2012
+@@ -375,7 +375,7 @@ top_build_prefix = @top_build_prefix@
+ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+ configdir = $(sysconfdir)/dbus-1
+-INCLUDES = -I$(top_srcdir) $(DBUS_CLIENT_CFLAGS) $(DBUS_X_CFLAGS) -DDBUS_LOCALEDIR=\"@EXPANDED_DATADIR@/locale\" -DDBUS_COMPILATION -DDBUS_MACHINE_UUID_FILE=\""$(localstatedir)/lib/dbus/machine-id"\"
++INCLUDES = -I$(top_srcdir) $(DBUS_CLIENT_CFLAGS) $(DBUS_X_CFLAGS) -DDBUS_LOCALEDIR=\"@EXPANDED_DATADIR@/locale\" -DDBUS_COMPILATION -DDBUS_MACHINE_UUID_FILE=\""$(localstatedir)/db/dbus/machine-id"\"
+ extra_bin_programs = $(am__append_1)
+ dbus_send_SOURCES = \
+ 	dbus-print-message.c			\
+@@ -416,7 +416,7 @@ CLEANFILES = \
+ 
+ 
+ #create the /var/lib/data directory for dbus-uuidgen
+-localstatelibdir = $(localstatedir)/lib/dbus
++localstatelibdir = $(localstatedir)/db/dbus
+ localstatelib_DATA = 
+ all: all-am
+ 
+@@ -713,7 +713,7 @@ info: info-am
+ 
+ info-am:
+ 
+-install-data-am: install-localstatelibDATA
++install-data-am:
+ 
+ install-dvi: install-dvi-am
+ 

@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/net/ipcad/pkg/ipcad.rc,v 1.2 2011/12/17 22:01:13 sthen Exp $
+
+daemon="${TRUEPREFIX}/sbin/ipcad -d"
+
+. /etc/rc.d/rc.subr
+
+rc_reload=NO
+
+rc_cmd $1

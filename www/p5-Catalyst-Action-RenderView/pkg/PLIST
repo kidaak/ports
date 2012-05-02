@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/www/p5-Catalyst-Action-RenderView/pkg/PLIST,v 1.2 2012/04/08 21:57:39 sthen Exp $
+${P5SITE}/Catalyst/Action/
+${P5SITE}/Catalyst/Action/RenderView.pm
+@man man/man3p/Catalyst::Action::RenderView.3p

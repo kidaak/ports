@@ -1,0 +1,21 @@
+$OpenBSD: ports/productivity/homebank/patches/patch-configure,v 1.4 2011/03/07 19:24:43 ajacoutot Exp $
+--- configure.orig	Sat Feb  5 14:28:08 2011
++++ configure	Sat Feb 26 12:54:23 2011
+@@ -4982,7 +4982,7 @@ if test "${ac_cv_lib_ofx_ofx_set_status_cb+set}" = set
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lofx  $LIBS"
++LIBS="`pkg-config --libs libofx`  $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -5016,7 +5016,7 @@ if test "x$ac_cv_lib_ofx_ofx_set_status_cb" = x""yes; 
+   OFX_0_7="-DOFX_ENABLE"
+ fi
+ 
+-        DEPS_LIBS="-lofx ${DEPS_LIBS}"
++        DEPS_LIBS="`pkg-config --libs libofx` ${DEPS_LIBS}"
+         CFLAGS="${CFLAGS} $OFX_0_7"
+     else
+         noofx=true

@@ -1,0 +1,35 @@
+$OpenBSD: ports/www/sope/patches/patch-configure,v 1.3 2011/04/22 05:34:13 sebastia Exp $
+
+do not link against gnustep-gui in case its installed
+decouple version of sope from the shared library interface versions
+remove unused ssl check that generates a make variable with whitespace in
+its name
+
+--- configure.orig	Wed Apr  6 23:45:23 2011
++++ configure	Wed Apr  6 23:50:53 2011
+@@ -1,4 +1,4 @@
+-#!/bin/bash
++#!/bin/sh
+ 
+ #
+ # Note: When adding make options to this script, ensure that the source still
+@@ -358,9 +358,9 @@ genConfigMake() {
+     cfgwrite "FHS_INSTALL_ROOT:=$ARG_PREFIX"
+     cfgwrite ""
+     cfgwrite "SOPE_SYSLIBDIR=\${DESTDIR}\${FHS_INSTALL_ROOT}/\$(CGS_LIBDIR_NAME)"
+-    cfgwrite "SOPE_LIBDIR=\${SOPE_SYSLIBDIR}/sope-\${MAJOR_VERSION}.\${MINOR_VERSION}"
++    cfgwrite "SOPE_LIBDIR=\${SOPE_SYSLIBDIR}/sope-\${SOPE_MAJOR_VERSION}.\${SOPE_MINOR_VERSION}"
+     cfgwrite "SOPE_SYSSHAREDIR=\${DESTDIR}\${FHS_INSTALL_ROOT}/share"
+-    cfgwrite "SOPE_SHAREDIR=\${SOPE_SYSSHAREDIR}/sope-\${MAJOR_VERSION}.\${MINOR_VERSION}"
++    cfgwrite "SOPE_SHAREDIR=\${SOPE_SYSSHAREDIR}/sope-\${SOPE_MAJOR_VERSION}.\${SOPE_MINOR_VERSION}"
+     cfgwrite "SOPE_DBADAPTORS=\${SOPE_LIBDIR}/dbadaptors"
+     cfgwrite "SOPE_PRODUCTS=\${SOPE_LIBDIR}/products"
+     cfgwrite "SOPE_SAXDRIVERS=\${SOPE_LIBDIR}/saxdrivers"
+@@ -394,6 +394,7 @@ genConfigMake() {
+     cfgwrite "debug:=no"
+   fi
+   cfgwrite ""
++  cfgwrite "NEEDS_GUI=no"
+   
+   if test $ARG_WITH_STRIP = 1; then
+     cfgwrite "# configured to produce stripped code";

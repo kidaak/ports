@@ -1,0 +1,19 @@
+$OpenBSD: ports/textproc/xpdf/patches/patch-doc_sample-xpdfrc,v 1.4 2011/10/01 19:46:35 kili Exp $
+--- doc/sample-xpdfrc.orig	Mon Aug 15 23:08:53 2011
++++ doc/sample-xpdfrc	Thu Aug 18 21:10:22 2011
+@@ -56,7 +56,7 @@
+ 
+ # Set the default PostScript file or command.
+ 
+-#psFile			"|lpr -Pmyprinter"
++psFile			"|lpr"
+ 
+ # Set the default PostScript paper size -- this can be letter, legal,
+ # A4, or A3.  You can also specify a paper size as width and height
+@@ -88,5 +88,5 @@
+ # Set the command used to run a web browser when a URL hyperlink is
+ # clicked.
+ 
+-#launchCommand  viewer-script
++#urlCommand	"firefox -newtab -url 'openURL(%s)'"
+ #urlCommand	"netscape -remote 'openURL(%s)'"

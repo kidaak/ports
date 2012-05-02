@@ -1,0 +1,12 @@
+$OpenBSD: ports/security/stunnel/patches/patch-Makefile_in,v 1.9 2011/12/08 13:42:05 sthen Exp $
+--- Makefile.in.orig	Sat Dec  3 12:41:59 2011
++++ Makefile.in	Mon Dec  5 15:16:47 2011
+@@ -247,7 +247,7 @@ top_build_prefix = @top_build_prefix@
+ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+ ACLOCAL_AMFLAGS = -I m4
+-SUBDIRS = src doc tools
++SUBDIRS = src doc
+ EXTRA_DIST = PORTS BUGS COPYRIGHT.GPL CREDITS INSTALL.W32 INSTALL.WCE \
+ 	INSTALL.FIPS build-android.sh
+ doc_DATA = INSTALL README TODO COPYING AUTHORS ChangeLog PORTS BUGS \

@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/textproc/p5-Text-Textile/pkg/PLIST,v 1.1.1.1 2006/11/04 17:31:48 espie Exp $
+${P5SITE}/Text/
+${P5SITE}/Text/Textile.pm
+@man man/man3p/Text::Textile.3p

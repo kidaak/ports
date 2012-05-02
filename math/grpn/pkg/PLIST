@@ -1,0 +1,2 @@
+@comment $OpenBSD: ports/math/grpn/pkg/PLIST,v 1.2 2010/03/23 20:38:20 jasper Exp $
+@bin bin/grpn

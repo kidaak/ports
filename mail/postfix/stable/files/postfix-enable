@@ -1,0 +1,26 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/mail/postfix/stable/files/postfix-enable,v 1.9 2011/07/15 18:10:18 robert Exp $
+
+if [ -f /etc/mailer.conf.postfix ]; then
+    if [ -f /etc/mailer.conf ]; then
+        mv -f /etc/mailer.conf /etc/mailer.conf.pre-postfix
+        echo "old /etc/mailer.conf saved as /etc/mailer.conf.pre-postfix"
+    fi
+    mv -f /etc/mailer.conf.postfix /etc/mailer.conf
+    echo "postfix /etc/mailer.conf enabled"
+    echo ""
+    echo "NOTE: do not forget to add sendmail_flags=NO to"
+    echo "      /etc/rc.conf.local to disable sendmail." 
+    echo ""
+    echo "NOTE: do not forget to add \"-a /var/spool/postfix/dev/log\" to"
+    echo "      syslogd_flags in /etc/rc.conf.local and restart syslogd."
+    echo ""
+    echo "NOTE: do not forget to add postfix to pkg_scripts in"
+    echo "      /etc/rc.conf.local to start postfix automatically." 
+    echo ""
+    echo "NOTE: do not forget to remove the \"sendmail clientmqueue runner\""
+    echo "      from root's crontab."
+else
+    echo "can't find /etc/mailer.conf.postfix, postfix not enabled"
+fi

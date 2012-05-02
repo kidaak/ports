@@ -1,0 +1,27 @@
+$OpenBSD: ports/x11/fluxbox/patches/patch-src_Makefile_in,v 1.2 2011/10/30 15:16:13 dcoppa Exp $
+
+Don't check for git revision, this is a stable release
+
+--- src/Makefile.in.orig	Sat Oct 29 15:49:04 2011
++++ src/Makefile.in	Sun Oct 30 15:51:09 2011
+@@ -896,7 +896,6 @@ defaults.hh: Makefile
+ 
+ defaults.cc: force
+ 	@( \
+-		GITDIR=$(top_srcdir)/.git; \
+ 		echo '#include "defaults.hh"'; \
+ 		echo ''; \
+ 		echo 'std::string realProgramName(const std::string& name) {'; \
+@@ -904,10 +903,8 @@ defaults.cc: force
+ 		echo '}'; \
+ 		echo ''; \
+ 		echo 'const char* gitrevision() {'; \
+-		echo '  return "'`cat $$GITDIR/$$(cat $$GITDIR/HEAD | cut -f 2 -d ' ')`'";';\
+-		echo '}' ) > defaults_tmp.cc
+-	@if ! cmp defaults_tmp.cc defaults.cc ; then cp defaults_tmp.cc defaults.cc; fi
+-	@rm defaults_tmp.cc
++		echo '  return "";';\
++		echo '}' ) > defaults.cc
+ 
+ force: ;
+ 

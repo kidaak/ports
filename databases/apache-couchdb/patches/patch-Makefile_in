@@ -1,0 +1,34 @@
+$OpenBSD: ports/databases/apache-couchdb/patches/patch-Makefile_in,v 1.7 2011/04/01 07:38:16 jasper Exp $
+--- Makefile.in.orig	Wed Aug 11 20:18:54 2010
++++ Makefile.in	Fri Apr  1 09:37:58 2011
+@@ -291,18 +291,18 @@ version_stage = @version_stage@
+ SUBDIRS = bin etc src share test var utils
+ ACLOCAL_AMFLAGS = -I m4
+ localdoc_DATA = \
+-    AUTHORS.gz \
+-    BUGS.gz \
+-    CHANGES.gz \
+-    DEVELOPERS.gz \
+-    INSTALL.gz \
+-    INSTALL.Unix.gz \
+-    INSTALL.Windows.gz \
+-    LICENSE.gz \
+-    NEWS.gz \
+-    NOTICE.gz \
+-    README.gz \
+-    THANKS.gz
++    AUTHORS \
++    BUGS \
++    CHANGES \
++    DEVELOPERS \
++    INSTALL \
++    INSTALL.Unix \
++    INSTALL.Windows \
++    LICENSE \
++    NEWS \
++    NOTICE \
++    README \
++    THANKS
+ 
+ DISTCLEANFILES = $(localdoc_DATA)
+ EXTRA_DIST = \

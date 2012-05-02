@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/textproc/aspell/dicts/br/pkg/PLIST,v 1.2 2008/10/28 16:54:11 jasper Exp $
+lib/aspell/br.dat
+lib/aspell/br_phonet.dat
+share/aspell/br.multi
+share/aspell/br.rws
+share/aspell/breton.alias
+share/aspell/brezhoneg.alias

@@ -1,0 +1,6 @@
+@comment $OpenBSD: ports/devel/p5-Test-Output/pkg/PLIST,v 1.2 2009/09/04 09:44:29 kevlo Exp $
+${P5SITE}/Test/Output/
+${P5SITE}/Test/Output.pm
+${P5SITE}/Test/Output/Tie.pm
+@man man/man3p/Test::Output.3p
+@man man/man3p/Test::Output::Tie.3p

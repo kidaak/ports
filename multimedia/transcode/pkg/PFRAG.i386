@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/multimedia/transcode/pkg/PFRAG.i386,v 1.4 2009/08/18 22:24:14 sthen Exp $
+@comment lib/transcode/filter_tomsmocomp.la
+lib/transcode/filter_tomsmocomp.so

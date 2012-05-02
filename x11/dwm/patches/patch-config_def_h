@@ -1,0 +1,42 @@
+$OpenBSD: ports/x11/dwm/patches/patch-config_def_h,v 1.8 2010/06/27 01:03:55 jim Exp $
+--- config.def.h.orig	Fri Jun  4 06:39:15 2010
++++ config.def.h	Sat Jun 26 20:24:09 2010
+@@ -1,13 +1,13 @@
+ /* See LICENSE file for copyright and license details. */
+ 
+ /* appearance */
+-static const char font[]            = "-*-terminus-medium-r-*-*-16-*-*-*-*-*-*-*";
+-static const char normbordercolor[] = "#cccccc";
+-static const char normbgcolor[]     = "#cccccc";
+-static const char normfgcolor[]     = "#000000";
+-static const char selbordercolor[]  = "#0066ff";
+-static const char selbgcolor[]      = "#0066ff";
+-static const char selfgcolor[]      = "#ffffff";
++static const char font[]            = "-*-terminus-medium-*-*-*-*-*-*-*-*-*-*-*";
++static const char normbordercolor[] = "#404040";
++static const char normbgcolor[]     = "#202020";
++static const char normfgcolor[]     = "#c0c0c0";
++static const char selbordercolor[]  = "#8888ff";
++static const char selbgcolor[]      = "#404040";
++static const char selfgcolor[]      = "#f0f0f0";
+ static const unsigned int borderpx  = 1;        /* border pixel of windows */
+ static const unsigned int snap      = 32;       /* snap pixel */
+ static const Bool showbar           = True;     /* False means no bar */
+@@ -20,6 +20,8 @@ static const Rule rules[] = {
+ 	/* class      instance    title       tags mask     isfloating   monitor */
+ 	{ "Gimp",     NULL,       NULL,       0,            True,        -1 },
+ 	{ "Firefox",  NULL,       NULL,       1 << 8,       False,       -1 },
++	{ "Xonix",    NULL,       NULL,       0,            True,        -1 },
++	{ NULL,       NULL,       "glxgears", 0,            True,        -1 },
+ };
+ 
+ /* layout(s) */
+@@ -46,7 +48,7 @@ static const Layout layouts[] = {
+ 
+ /* commands */
+ static const char *dmenucmd[] = { "dmenu_run", "-fn", font, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
+-static const char *termcmd[]  = { "uxterm", NULL };
++static const char *termcmd[]  = { "xterm", NULL };
+ 
+ static Key keys[] = {
+ 	/* modifier                     key        function        argument */

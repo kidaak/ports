@@ -1,0 +1,19 @@
+$OpenBSD: ports/lang/mono/patches/patch-mono_mini_main_c,v 1.2 2010/10/15 16:21:07 robert Exp $
+--- mono/mini/main.c.orig	Tue Oct  5 21:59:29 2010
++++ mono/mini/main.c	Wed Oct 13 18:35:09 2010
+@@ -88,10 +88,14 @@ main ()
+ }
+ 
+ #else
+-
++#include <sched.h>
+ int
+ main (int argc, char* argv[])
+ {
++#if defined(__powerpc__) && defined (__GLIBC__)
++  unsigned long mask = 1;
++  sched_setaffinity(0, sizeof(mask), &mask);
++#endif
+ 	mono_build_date = build_date;
+ 	
+ 	return mono_main_with_options (argc, argv);

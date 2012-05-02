@@ -1,0 +1,22 @@
+# $OpenBSD: ports/devel/ruby-gem_plugin/Makefile,v 1.13 2011/09/16 09:24:57 espie Exp $
+
+COMMENT=	install Ruby gems as plugins
+
+DISTNAME=	gem_plugin-0.2.3
+REVISION=	5
+CATEGORIES=	devel
+
+# RubyLicense
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+
+MODULES=	lang/ruby
+
+CONFIGURE_STYLE=ruby gem
+
+BUILD_DEPENDS=	${RUN_DEPENDS}
+RUN_DEPENDS=	${MODRUBY_RAKE_DEPENDS}
+
+.include <bsd.port.mk>

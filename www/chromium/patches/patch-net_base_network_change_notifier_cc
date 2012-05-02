@@ -1,0 +1,11 @@
+$OpenBSD: ports/www/chromium/patches/patch-net_base_network_change_notifier_cc,v 1.4 2011/12/14 16:58:19 robert Exp $
+--- net/base/network_change_notifier.cc.orig	Wed Dec  7 09:01:30 2011
++++ net/base/network_change_notifier.cc	Tue Dec 13 21:23:12 2011
+@@ -64,7 +64,6 @@ NetworkChangeNotifier* NetworkChangeNotifier::Create()
+ #elif defined(OS_MACOSX)
+   return new NetworkChangeNotifierMac();
+ #else
+-  NOTIMPLEMENTED();
+   return NULL;
+ #endif
+ }

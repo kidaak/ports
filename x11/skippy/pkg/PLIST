@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/x11/skippy/pkg/PLIST,v 1.3 2010/11/07 19:28:48 jasper Exp $
+@bin bin/skippy
+share/doc/pkg-readmes/${FULLPKGNAME}
+share/examples/skippy/
+share/examples/skippy/skippyrc-default

@@ -1,0 +1,36 @@
+$OpenBSD: ports/emulators/frodo/patches/patch-Src_SID_cpp,v 1.2 2010/06/30 22:25:57 jakemsr Exp $
+--- Src/SID.cpp.orig	Wed Jan  2 13:18:59 2002
++++ Src/SID.cpp	Thu Jan 14 09:16:38 2010
+@@ -64,6 +64,9 @@ class DigitalPlayer;
+ #define ldSINTAB 9			// size of sinus table (0 to 90 degrees)
+ #endif
+ 
++#ifdef USE_SNDIO
++#include <sndio.h>
++#endif
+ 
+ #ifdef USE_FIXPOINT_MATHS
+ #include "FixPoint.i"
+@@ -481,6 +484,12 @@ class DigitalRenderer : public SIDRenderer { (private)
+ 	uint8 *sound_buffer;
+ 	C64 *the_c64;
+ #endif
++
++#ifdef USE_SNDIO
++	struct sio_hdl *hdl;
++	int16 *sound_calc_buf;
++#endif
++
+ };
+ 
+ // Static data members
+@@ -1353,6 +1362,9 @@ void DigitalRenderer::calc_buffer(int16 *buf, long cou
+ 
+ #elif defined(__linux__)
+ #include "SID_linux.i"
++
++#elif defined(USE_SNDIO)
++#include "SID_sndio.i"
+ 
+ #elif defined(SUN)
+ #include "SID_sun.i"

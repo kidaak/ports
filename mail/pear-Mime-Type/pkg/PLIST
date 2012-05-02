@@ -1,0 +1,25 @@
+@comment $OpenBSD: ports/mail/pear-Mime-Type/pkg/PLIST,v 1.2 2011/04/19 15:46:56 giovanni Exp $
+@group daemon
+pear/doc/MIME_Type/
+pear/doc/MIME_Type/docs/
+pear/doc/MIME_Type/docs/examples/
+pear/doc/MIME_Type/docs/examples/example.php
+pear/lib/.registry/mime_type.reg
+pear/lib/MIME/
+pear/lib/MIME/Type/
+pear/lib/MIME/Type.php
+pear/lib/MIME/Type/Extension.php
+pear/lib/MIME/Type/Parameter.php
+pear/tests/MIME_Type/
+pear/tests/MIME_Type/tests/
+pear/tests/MIME_Type/tests/AllTests.php
+pear/tests/MIME_Type/tests/MIME_Type_ExtensionTest.php
+pear/tests/MIME_Type/tests/TypeTest.php
+pear/tests/MIME_Type/tests/files/
+pear/tests/MIME_Type/tests/files/example.bmp
+pear/tests/MIME_Type/tests/files/example.gif
+pear/tests/MIME_Type/tests/files/example.jpg
+pear/tests/MIME_Type/tests/files/example.png
+pear/tests/MIME_Type/tests/files/example.txt
+pear/tests/MIME_Type/tests/files/example.txt.bz2
+pear/tests/MIME_Type/tests/files/example.txt.gz

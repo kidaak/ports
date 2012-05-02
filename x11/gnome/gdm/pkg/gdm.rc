@@ -1,0 +1,25 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/x11/gnome/gdm/pkg/gdm.rc,v 1.13 2011/09/12 07:39:21 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/sbin/gdm"
+
+. /etc/rc.d/rc.subr
+
+pexp="${TRUEPREFIX}/sbin/gdm-binary"
+rc_reload=NO
+
+#rc_check() {
+#	pkill -0 -u _gdm -f "^${X11BASE}/bin/X.*gdm/auth.*"
+#}
+
+#rc_pre() {
+#	install -d -g _gdm -m 0711 /var/run/gdm
+#	install -d -o _gdm -g _gdm /var/run/gdm/greeter
+#}
+
+rc_start() {
+	(sleep 5; ${rcexec} "${daemon} ${daemon_flags}")&
+}
+
+rc_cmd $1

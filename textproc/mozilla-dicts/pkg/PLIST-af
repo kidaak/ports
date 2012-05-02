@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/textproc/mozilla-dicts/pkg/PLIST-af,v 1.2 2010/11/12 21:41:34 martynas Exp $
+share/mozilla-dicts/
+share/mozilla-dicts/af-ZA.aff
+share/mozilla-dicts/af-ZA.dic

@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/devel/gmp/pkg/PFRAG.shared,v 1.9 2009/06/06 17:45:48 naddy Exp $
+@lib lib/libgmp.so.${LIBgmp_VERSION}
+@lib lib/libgmpxx.so.${LIBgmpxx_VERSION}

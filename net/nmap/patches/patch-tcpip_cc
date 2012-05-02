@@ -1,0 +1,11 @@
+--- tcpip.cc.orig	Fri Jan 21 01:04:16 2011
++++ tcpip.cc	Wed Feb  2 13:12:14 2011
+@@ -120,6 +120,8 @@
+ #endif /* NETINET_IF_ETHER_H */
+ #endif /* HAVE_NETINET_IF_ETHER_H */
+ 
++#include "sctp.h"
++
+ extern NmapOps o;
+ 
+ #ifdef WIN32

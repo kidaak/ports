@@ -1,0 +1,12 @@
+$OpenBSD: ports/editors/elvis/patches/patch-ctags_c,v 1.2 2008/12/11 13:58:14 jasper Exp $
+--- ctags.c.orig	Tue Dec  9 12:02:33 2008
++++ ctags.c	Tue Dec  9 12:04:16 2008
+@@ -241,7 +241,7 @@ int file_copyline(seek, fp, buf)
+ {
+ 	long	oldseek;/* where the file's pointer was before we messed it up */
+ 	int	ch;	/* a single character from the file */
+-	char	next;	/* the next character from this file */
++	int	next;	/* the next character from this file */
+ 	char	*build;	/* where to store the next character */
+ 
+ 	/* go to the start of the line */

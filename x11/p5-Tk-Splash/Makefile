@@ -1,0 +1,23 @@
+# $OpenBSD: ports/x11/p5-Tk-Splash/Makefile,v 1.7 2011/09/16 12:29:16 espie Exp $
+
+COMMENT=	splash screen widget
+
+DISTNAME=	Tk-Splash-0.14
+REVISION=	1
+CATEGORIES=	x11 devel
+
+# GPL
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+
+RUN_DEPENDS=	x11/p5-Tk
+
+MODULES=	cpan
+
+USE_GROFF =	Yes
+
+REGRESS_IS_INTERACTIVE= x11
+
+.include <bsd.port.mk>

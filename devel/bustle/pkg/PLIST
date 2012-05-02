@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/devel/bustle/pkg/PLIST,v 1.2 2011/04/11 14:48:07 kili Exp $
+@bin bin/bustle
+@bin bin/bustle-count
+@bin bin/bustle-dbus-monitor
+@bin bin/bustle-dot
+@bin bin/bustle-time
+share/${DISTNAME}/
+share/${DISTNAME}/LICENSE
+share/${DISTNAME}/bustle.glade
+share/${DISTNAME}/bustle.png

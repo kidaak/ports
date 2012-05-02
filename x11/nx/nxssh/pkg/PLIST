@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/x11/nx/nxssh/pkg/PLIST,v 1.3 2012/01/03 17:42:19 ajacoutot Exp $
+NX/
+NX/bin/
+@bin NX/bin/nxssh

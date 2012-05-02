@@ -1,0 +1,18 @@
+$OpenBSD: ports/x11/tk/8.5/patches/patch-library_tk_tcl,v 1.2 2011/10/17 15:19:22 stu Exp $
+--- library/tk.tcl.orig	Mon Jun 20 16:17:08 2011
++++ library/tk.tcl	Wed Oct  5 11:26:28 2011
+@@ -55,12 +55,12 @@ namespace eval ::ttk {
+     }
+ }
+ 
+-# Add Ttk & Tk's directory to the end of the auto-load search path, if it
++# Add Tk's directory to the end of the auto-load search path, if it
+ # isn't already on the path:
+ 
+ if {[info exists ::auto_path] && ($::tk_library ne "")
+     && ($::tk_library ni $::auto_path)} {
+-    lappend ::auto_path $::tk_library $::ttk::library
++    lappend ::auto_path $::tk_library
+ }
+ 
+ # Turn off strict Motif look and feel as a default.

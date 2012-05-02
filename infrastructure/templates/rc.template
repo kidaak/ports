@@ -1,0 +1,43 @@
+Below is an rc.d(8) script template containing all usable variables and
+functions set to their defaults.
+See rc.subr(8) for more information.
+
+-----------------------------------8<-----------------------------------
+#!/bin/sh
+#
+# $OpenBSD: ports/infrastructure/templates/rc.template,v 1.5 2011/03/10 13:46:59 ajacoutot Exp $
+
+daemon="${TRUEPREFIX}/bin/foobar"
+#daemon_flags=""
+#daemon_user="root"
+
+. /etc/rc.d/rc.subr
+
+#pexp="${daemon}${daemon_flags:+ ${daemon_flags}}"
+#rc_bg= # (undefined)
+#rc_reload= # (undefined)
+
+#rc_pre() {
+#}
+
+#rc_start() {
+#	${rcexec} "${daemon} ${daemon_flags} ${_bg}"
+#}
+
+#rc_check() {
+#	pkill -0 -f "^${pexp}"
+#}
+
+#rc_reload() {
+#	pkill -HUP -f "^${pexp}"
+#}
+
+#rc_stop() {
+#	pkill -f "^${pexp}"
+#}
+
+#rc_post() {
+#}
+
+rc_cmd $1
+-----------------------------------8<-----------------------------------

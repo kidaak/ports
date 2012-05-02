@@ -1,0 +1,33 @@
+@comment $OpenBSD: ports/games/gargoyle/pkg/PLIST,v 1.4 2010/10/23 09:15:16 jasper Exp $
+bin/gargoyle
+lib/libgarglk.so
+libexec/gargoyle/
+@bin libexec/gargoyle/advsys
+@bin libexec/gargoyle/agility
+@bin libexec/gargoyle/alan2
+@bin libexec/gargoyle/alan3
+@bin libexec/gargoyle/frotz
+@bin libexec/gargoyle/gargoyle
+@bin libexec/gargoyle/geas
+@bin libexec/gargoyle/git
+@bin libexec/gargoyle/glulxe
+@bin libexec/gargoyle/hugo
+@bin libexec/gargoyle/jacl
+@bin libexec/gargoyle/level9
+libexec/gargoyle/libgarglk.so
+@bin libexec/gargoyle/magnetic
+@bin libexec/gargoyle/nitfol
+@bin libexec/gargoyle/scare
+@bin libexec/gargoyle/tadsr
+share/doc/gargoyle/
+share/doc/gargoyle/GNU General Public License.txt
+share/doc/gargoyle/HUGO License.txt
+share/doc/gargoyle/LUXI License.txt
+share/doc/gargoyle/Liberation License.txt
+share/doc/gargoyle/Libertine OFL.txt
+share/doc/gargoyle/License.txt
+share/doc/gargoyle/LuxiMono.txt
+share/doc/gargoyle/MIT License.txt
+share/examples/gargoyle/
+share/examples/gargoyle/garglk.ini
+@sample ${SYSCONFDIR}/garglk.ini

@@ -1,0 +1,35 @@
+$OpenBSD: ports/graphics/tkimg/patches/patch-Makefile_in,v 1.3 2011/01/05 18:33:14 sebastia Exp $
+
+Do not use the two-stages install here, just patch the first step (collate)
+and make use of the INSTALL_TARGET in the ports Makefile
+
+--- Makefile.in.orig	Mon May  3 17:32:03 2010
++++ Makefile.in	Sun Dec 19 12:12:54 2010
+@@ -128,20 +128,15 @@ collate: all
+ 		here=`pwd` && \
+ 		cd $$sub && \
+ 		$(MAKE) install \
+-			exec_prefix=$$here/Img/exec_prefix		\
+-			prefix=$$here/Img/prefix			\
+-			pkglibdir=$$here/Img/exec_prefix/lib/Img	\
+-			libdir=$$here/Img/exec_prefix/lib		\
+-			includedir=$$here/Img/prefix/include		\
+-			DESTDIR=					\
++			exec_prefix=$(prefix)/				\
++			prefix=$(prefix)/				\
++			pkglibdir=$(LIB_RUNTIME_DIR)/$${sub}		\
++			libdir=$(prefix)/lib/				\
++			includedir=$(prefix)/include/			\
+ 			|| exit $$? &&					\
+-		cd $$here && \
+-		if test "x$(SHARED_BUILD)" = "x1"; then \
+-		cat Img/exec_prefix/lib/Img/pkgIndex.tcl >> pkgIndex.tcl ; \
+-		fi ; \
++		cd $$here ; \
+ 	done
+-	mv pkgIndex.tcl Img/exec_prefix/lib/Img/pkgIndex.tcl
+-	for p in Img/exec_prefix/lib/*.sh ; do \
++	for p in $(INSTALL_ROOT)/$(prefix)/lib/*.sh ; do \
+ 		sed -e 's#$(libdir)/[^/ ]*\([/ ]\)#$(LIB_RUNTIME_DIR)\1#' \
+ 			$$p > $$p.1 && mv -f $$p.1 $$p ; \
+ 	done

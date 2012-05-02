@@ -1,0 +1,23 @@
+@comment $OpenBSD: ports/net/ruby-stomp/pkg/PLIST,v 1.2 2010/11/08 23:24:42 jeremy Exp $
+${GEM_BIN}/catstomp${GEM_BIN_SUFFIX}
+${GEM_BIN}/stompcat${GEM_BIN_SUFFIX}
+${GEM_LIB}/cache/${DISTNAME}.gem
+${GEM_LIB}/gems/${DISTNAME}/
+${GEM_LIB}/gems/${DISTNAME}/CHANGELOG
+${GEM_LIB}/gems/${DISTNAME}/LICENSE
+${GEM_LIB}/gems/${DISTNAME}/README.rdoc
+${GEM_LIB}/gems/${DISTNAME}/Rakefile
+${GEM_LIB}/gems/${DISTNAME}/bin/
+${GEM_LIB}/gems/${DISTNAME}/bin/catstomp
+${GEM_LIB}/gems/${DISTNAME}/bin/stompcat
+${GEM_LIB}/gems/${DISTNAME}/lib/
+${GEM_LIB}/gems/${DISTNAME}/lib/stomp/
+${GEM_LIB}/gems/${DISTNAME}/lib/stomp.rb
+${GEM_LIB}/gems/${DISTNAME}/lib/stomp/client.rb
+${GEM_LIB}/gems/${DISTNAME}/lib/stomp/connection.rb
+${GEM_LIB}/gems/${DISTNAME}/lib/stomp/message.rb
+${GEM_LIB}/gems/${DISTNAME}/test/
+${GEM_LIB}/gems/${DISTNAME}/test/test_client.rb
+${GEM_LIB}/gems/${DISTNAME}/test/test_connection.rb
+${GEM_LIB}/gems/${DISTNAME}/test/test_helper.rb
+${GEM_LIB}/specifications/${DISTNAME}.gemspec

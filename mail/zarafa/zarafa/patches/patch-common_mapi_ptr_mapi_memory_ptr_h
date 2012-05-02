@@ -1,0 +1,22 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_mapi_ptr_mapi_memory_ptr_h,v 1.3 2011/12/22 17:10:04 ajacoutot Exp $
+
+On OpenBSD, _U is defined in ctype.h.
+
+--- common/mapi_ptr/mapi_memory_ptr.h.orig	Thu Dec 22 01:02:34 2011
++++ common/mapi_ptr/mapi_memory_ptr.h	Thu Dec 22 12:14:19 2011
+@@ -165,11 +165,11 @@ class mapi_memory_ptr (public)
+ 		return proxy(&m_lpMemory);
+ 	}
+ 
+-	template <typename _U>
+-	_U as() { return (_U)m_lpMemory; }
++	template <typename _ZCPU>
++	_ZCPU as() { return (_ZCPU)m_lpMemory; }
+ 
+-	template <typename _U>
+-	const _U as() const { return (_U)m_lpMemory; }
++	template <typename _ZCPU>
++	const _ZCPU as() const { return (_ZCPU)m_lpMemory; }
+ 
+ 	operator void**() {
+ 		if (m_lpMemory) {

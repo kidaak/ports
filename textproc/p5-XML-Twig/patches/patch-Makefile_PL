@@ -1,0 +1,13 @@
+$OpenBSD: ports/textproc/p5-XML-Twig/patches/patch-Makefile_PL,v 1.4 2010/09/09 19:22:50 jasper Exp $
+--- Makefile.PL.orig	Tue Apr 27 10:46:53 2010
++++ Makefile.PL	Thu Sep  9 21:20:39 2010
+@@ -28,8 +28,7 @@ else
+           "    'perl Makefile.PL -n' to skip installation\n";
+     foreach my $prompt (@prompts)
+       { my ($program, $default, $description) = @$prompt;
+-        if( prompt("Do you want to install '$program' ($description)?", $default) =~ /^y/)
+-          { push(@programs, $program); }
++	push(@programs, $program);
+       }
+   }
+ 

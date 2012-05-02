@@ -1,0 +1,26 @@
+# $OpenBSD: ports/x11/xfce4/libxfce4util/Makefile,v 1.18 2011/10/14 12:22:00 jasper Exp $
+
+COMMENT=	Xfce4 basic utility library
+
+XFCE_PROJECT=	libxfce4util
+XFCE_VERSION =	4.8.2
+REVISION =	1
+
+SHARED_LIBS +=  xfce4util            2.0 #.5.1
+
+HOMEPAGE=	http://www.xfce.org/projects/libraries/
+
+# LGPLv2
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+
+MODULES=	x11/xfce4
+
+CONFIGURE_ARGS=	--disable-linker-opts
+
+LIB_DEPENDS=	devel/glib2
+WANTLIB += c ffi glib-2.0 gobject-2.0 gthread-2.0 pcre pthread
+
+.include <bsd.port.mk>

@@ -1,0 +1,14 @@
+$OpenBSD: ports/net/mtr/patches/patch-gtk_c,v 1.2 2010/08/19 16:56:45 jasper Exp $
+
+Fix 64-bit issue.
+
+--- gtk.c.orig	Tue Jul 13 08:25:58 2010
++++ gtk.c	Thu Aug 19 16:19:10 2010
+@@ -21,6 +21,7 @@
+ 
+ #include <stdio.h>
+ #include <stdlib.h>
++#include <string.h>
+ #include <unistd.h>
+ #include <sys/time.h>
+ #include <sys/types.h>

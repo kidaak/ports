@@ -1,0 +1,18 @@
+$OpenBSD: ports/net/socat/patches/patch-doc_socat_1,v 1.3 2009/08/12 22:29:35 sthen Exp $
+--- doc/socat.1.orig	Thu May  7 11:03:10 2009
++++ doc/socat.1	Wed Aug 12 14:24:46 2009
+@@ -3467,11 +3467,11 @@ error\&. 
+ .SH "FILES"
+ 
+ .PP 
+-/usr/bin/socat 
++${LOCALBASE}/bin/socat
+ .br 
+-/usr/bin/filan 
++${LOCALBASE}/bin/filan
+ .br 
+-/usr/bin/procan
++${LOCALBASE}/bin/procan
+ .PP 
+ .SH "ENVIRONMENT VARIABLES"
+ 

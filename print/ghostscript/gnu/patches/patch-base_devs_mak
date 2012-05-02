@@ -1,0 +1,22 @@
+$OpenBSD: ports/print/ghostscript/gnu/patches/patch-base_devs_mak,v 1.3 2011/11/16 12:43:23 kili Exp $
+--- base/devs.mak.orig	Fri Aug  5 13:12:20 2011
++++ base/devs.mak	Mon Nov 14 17:20:40 2011
+@@ -1899,14 +1899,11 @@ $(DD)plibk.dev : $(DEVS_MAK) $(plib_) $(GLD)page.dev $
+ 	$(SETPDEV2) $(DD)plibk $(plib_)
+ 
+ ### ------------------------------- CUPS ------------------------------- ###
+-lcups_dev=$(LCUPSGENDIR)$(D)lcups.dev
+-lcupsi_dev=$(LCUPSIGENDIR)$(D)lcupsi.dev
+-
+ cups_=$(GLOBJ)gdevcups.$(OBJ)
+-$(DD)cups.dev : $(DEVS_MAK) $(lcups_dev) $(lcupsi_dev) $(cups_) $(GDEV)
++$(DD)cups.dev : $(DEVS_MAK) $(cups_) $(GDEV)
+ 	$(SETPDEV2) $(DD)cups $(cups_)
+-	$(ADDMOD) $(DD)cups -include $(lcups_dev)
+-	$(ADDMOD) $(DD)cups -include $(lcupsi_dev)
++	$(ADDMOD) $(DD)cups
++	$(ADDMOD) $(DD)cups
+ 
+ $(GLOBJ)gdevcups.$(OBJ) : cups$(D)gdevcups.c $(std_h)
+-	$(CUPS_CC) $(GLO_)gdevcups.$(OBJ) $(C_) $(CFLAGS) $(I_)$(GLSRC) $(I_)$(GLOBJ) $(I_)$(LCUPSSRCDIR)$(D)libs $(LCUPSSRCDIR)$(D)gdevcups.c
++	$(CUPS_CC) $(GLO_)gdevcups.$(OBJ) $(C_) $(CFLAGS) $(I_)$(GLSRC) $(I_)$(GLOBJ) cups$(D)gdevcups.c

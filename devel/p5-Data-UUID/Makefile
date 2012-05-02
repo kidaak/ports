@@ -1,0 +1,22 @@
+# $OpenBSD: ports/devel/p5-Data-UUID/Makefile,v 1.17 2011/01/04 05:50:38 kevlo Exp $
+
+SHARED_ONLY=	Yes
+COMMENT=	extension for generating GUIDs/UUIDs
+
+MODULES=	cpan
+DISTNAME=	Data-UUID-1.217
+CATEGORIES=	devel
+USE_GROFF =	Yes
+
+MAINTAINER=	Kevin Lo <kevlo@openbsd.org>
+
+# BSD
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+
+MAKE_ENV=	AUTHOR_TESTING=Yes \
+		TEST_POD=Yes
+
+.include <bsd.port.mk>

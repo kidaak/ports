@@ -1,0 +1,56 @@
+# $OpenBSD: ports/x11/gnustep/Makefile,v 1.34 2011/11/17 23:55:48 sebastia Exp $
+
+     SUBDIR =
+     SUBDIR += aclock
+     SUBDIR += addresses
+     SUBDIR += affiche
+     SUBDIR += back
+     SUBDIR += base
+     SUBDIR += batmon
+     SUBDIR += cdplayer
+     SUBDIR += databasin
+     SUBDIR += dbuskit
+     SUBDIR += edenmath
+     SUBDIR += examples
+     SUBDIR += fisicalab
+     SUBDIR += ftp
+     SUBDIR += gemas
+     SUBDIR += gmastermind
+     SUBDIR += gmines
+     SUBDIR += gnumail
+     SUBDIR += gomoku
+     SUBDIR += gorm
+     SUBDIR += graphos
+     SUBDIR += grr
+     SUBDIR += gshisen
+     SUBDIR += gspdf
+     SUBDIR += gui
+     SUBDIR += gworkspace
+     SUBDIR += highlighterkit
+     SUBDIR += imageviewer
+     SUBDIR += jigsaw
+     SUBDIR += lapispuzzle
+     SUBDIR += laternamagica
+     SUBDIR += make
+     SUBDIR += matharray
+     SUBDIR += mpdcon
+     SUBDIR += netclasses
+     SUBDIR += pantomime
+     SUBDIR += pdfkit
+     SUBDIR += performance
+     SUBDIR += price
+     SUBDIR += projectcenter
+     SUBDIR += remotedesk
+     SUBDIR += renaissance
+     SUBDIR += rsskit
+     SUBDIR += simpleagenda
+     SUBDIR += sqlclient
+     SUBDIR += sudoku
+     SUBDIR += systempreferences
+     SUBDIR += terminal
+     SUBDIR += timemon
+     SUBDIR += webserver
+     SUBDIR += webservices
+     SUBDIR += zipper
+
+.include <bsd.port.subdir.mk>

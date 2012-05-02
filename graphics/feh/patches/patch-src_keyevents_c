@@ -1,0 +1,12 @@
+$OpenBSD: ports/graphics/feh/patches/patch-src_keyevents_c,v 1.7 2012/02/21 12:27:25 dcoppa Exp $
+--- src/keyevents.c.orig	Thu Feb  2 21:10:57 2012
++++ src/keyevents.c	Tue Feb 21 12:38:52 2012
+@@ -170,7 +170,7 @@ void init_keyevents(void) {
+ 
+ 	free(confpath);
+ 
+-	if (!conf && ((conf = fopen("/etc/feh/keys", "r")) == NULL))
++	if (!conf && ((conf = fopen("${SYSCONFDIR}/feh/keys", "r")) == NULL))
+ 		return;
+ 
+ 	while (fgets(line, sizeof(line), conf)) {

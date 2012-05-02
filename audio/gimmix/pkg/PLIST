@@ -1,0 +1,14 @@
+@comment $OpenBSD: ports/audio/gimmix/pkg/PLIST,v 1.4 2010/06/10 20:56:35 landry Exp $
+@bin bin/gimmix
+@man man/man1/gimmix.1
+share/applications/gimmix.desktop
+share/gimmix/
+share/gimmix/gimmix.glade
+share/gimmix/gimmix_firstrun.png
+share/pixmaps/
+share/pixmaps/gimmix-album.png
+share/pixmaps/gimmix.png
+share/pixmaps/gimmix_logo_small.png
+share/pixmaps/gimmix_playlist.png
+@exec %D/bin/update-desktop-database
+@unexec-delete %D/bin/update-desktop-database

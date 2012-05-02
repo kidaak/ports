@@ -1,0 +1,27 @@
+$OpenBSD: ports/net/nagios/nagios/patches/patch-include_config_h_in,v 1.7 2011/09/05 14:56:46 sthen Exp $
+--- include/config.h.in.orig	Sat Oct 23 10:56:29 2010
++++ include/config.h.in	Tue Jul 26 13:58:39 2011
+@@ -135,11 +135,6 @@
+ #endif
+ #endif
+ 
+-#undef HAVE_SYS_RESOURCE_H
+-#ifdef HAVE_SYS_RESOURCE_H
+-#include <sys/resource.h>
+-#endif
+-
+ #undef HAVE_LIMITS_H
+ #ifdef HAVE_LIMITS_H
+ #include <limits.h>
+@@ -218,6 +213,11 @@
+ #undef HAVE_SYS_TIMEB_H
+ #if HAVE_SYS_TIMEB_H
+ #include <sys/timeb.h>
++#endif
++
++#undef HAVE_SYS_RESOURCE_H
++#ifdef HAVE_SYS_RESOURCE_H
++#include <sys/resource.h>
+ #endif
+ 
+ #undef HAVE_SYS_IPC_H

@@ -1,0 +1,17 @@
+$OpenBSD: ports/comms/wy60/patches/patch-wy60_c,v 1.2 2011/11/14 19:33:34 naddy Exp $
+
+Don't mix mixed declarations and code, for gcc2.95.
+
+--- wy60.c.orig	Mon Nov 14 20:08:56 2011
++++ wy60.c	Mon Nov 14 20:10:07 2011
+@@ -3347,9 +3347,9 @@ static void userInputReceived(int pty, const char *buf
+   for (i = 0; i < count; i++) {
+     char ch                  = buffer[i];
+ 
+-    logHostKey(ch);
+     KeyDefs *nextKeySequence = currentKeySequence
+                                ? currentKeySequence->down : keyDefinitions;
++    logHostKey(ch);
+ 
+ 
+     for (;;) {

@@ -1,0 +1,12 @@
+$OpenBSD: ports/graphics/libdvbpsi/patches/patch-configure,v 1.6 2011/11/06 20:28:11 kili Exp $
+--- configure.orig	Thu Nov  3 09:34:45 2011
++++ configure	Thu Nov  3 10:03:38 2011
+@@ -11643,8 +11643,6 @@ fi
+ if test "$release" = "true"
+ then
+   CFLAGS="${CFLAGS} -O6"
+-else
+-  CFLAGS="${CFLAGS} -O2"
+ fi
+ 
+ for ac_header in stdint.h inttypes.h

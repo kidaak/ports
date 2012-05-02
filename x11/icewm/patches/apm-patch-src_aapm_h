@@ -1,0 +1,10 @@
+$OpenBSD: ports/x11/icewm/patches/apm-patch-src_aapm_h,v 1.4 2010/12/12 19:13:01 jasper Exp $
+--- src/aapm.h.orig	Thu Dec  9 16:02:17 2010
++++ src/aapm.h	Thu Dec  9 16:02:41 2010
+@@ -1,5 +1,5 @@
+ 
+-#if defined(linux) || (defined (__FreeBSD__)) || (defined(__NetBSD__) && defined(i386))
++#if defined(linux) || (defined (__FreeBSD__)) || (defined(__NetBSD__) && defined(i386)) || defined(__OpenBSD__)
+ 
+ #include "ywindow.h"
+ #include "ytimer.h"

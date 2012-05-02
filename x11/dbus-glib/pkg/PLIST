@@ -1,0 +1,20 @@
+@comment $OpenBSD: ports/x11/dbus-glib/pkg/PLIST,v 1.15 2011/09/29 06:58:13 ajacoutot Exp $
+%%SHARED%%
+@bin bin/dbus-binding-tool
+include/dbus-1.0/
+include/dbus-1.0/dbus/
+include/dbus-1.0/dbus/dbus-glib-bindings.h
+include/dbus-1.0/dbus/dbus-glib-lowlevel.h
+include/dbus-1.0/dbus/dbus-glib.h
+include/dbus-1.0/dbus/dbus-gtype-specialized.h
+include/dbus-1.0/dbus/dbus-gvalue-parse-variant.h
+lib/libdbus-glib-1.a
+lib/libdbus-glib-1.la
+lib/pkgconfig/
+lib/pkgconfig/dbus-glib-1.pc
+@bin libexec/dbus-bash-completion-helper
+@man man/man1/dbus-binding-tool.1
+share/examples/dbus-glib/
+@sample ${SYSCONFDIR}/bash_completion.d/
+share/examples/dbus-glib/dbus-bash-completion.sh
+@sample ${SYSCONFDIR}/bash_completion.d/dbus-bash-completion.sh

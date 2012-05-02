@@ -1,0 +1,69 @@
+$OpenBSD: ports/www/webkit/patches/patch-configure,v 1.9 2012/04/03 15:41:07 landry Exp $
+
+GNOME Bug 627126 - gsettings schema files don't get installed on FreeBSD
+glib commit 136e705e8383ff8848e425ac01278102d7badc52
+
+Don't force the use of -O2, the ports infrastructure
+takes care of that
+
+OpenBSD doesnt have libdl
+
+Fix gstreamer detection : https://bugs.webkit.org/show_bug.cgi?id=82580
+--- configure.orig	Tue Mar 27 18:31:16 2012
++++ configure	Fri Mar 30 22:01:48 2012
+@@ -18544,8 +18544,8 @@ GSTREAMER_0_11_REQUIRED_VERSION=0.11
+ GSTREAMER_0_11_PLUGINS_BASE_REQUIRED_VERSION=0.11.0.2
+ 
+ case "$with_gstreamer" in
+-     0.10) GSTREAMER_REQUIRED_VERSION=GSTREAMER_0_10_REQUIRED_VERSION
+-           GSTREAMER_PLUGINS_BASE_REQUIRED_VERSION=GSTREAMER_0_10_PLUGINS_BASE_REQUIRED_VERSION
++     0.10) GSTREAMER_REQUIRED_VERSION=$GSTREAMER_0_10_REQUIRED_VERSION
++           GSTREAMER_PLUGINS_BASE_REQUIRED_VERSION=$GSTREAMER_0_10_PLUGINS_BASE_REQUIRED_VERSION
+            GST_API_VERSION=0.10
+            ;;
+      0.11) GSTREAMER_REQUIRED_VERSION=GSTREAMER_0_11_REQUIRED_VERSION
+@@ -19139,22 +19139,10 @@ install-data-am: install-gsettings-schemas
+ 
+ .SECONDARY: $(gsettings_SCHEMAS)
+ 
+-gsettings__base_list = \
+-  sed "$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;$$!N;s/\n/ /g" | \
+-  sed "$$!N;$$!N;$$!N;$$!N;s/\n/ /g"
+-
+-install-gsettings-schemas: $(gsettings_SCHEMAS:.xml=.valid) $(gsettings__enum_file)
++install-gsettings-schemas: $(gsettings_SCHEMAS) $(gsettings__enum_file)
+ 	@$(NORMAL_INSTALL)
+ 	test -z "$(gsettingsschemadir)" || $(MKDIR_P) "$(DESTDIR)$(gsettingsschemadir)"
+-	@list='\''$(gsettings__enum_file) $(gsettings_SCHEMAS)'\''; test -n "$(gsettingsschemadir)" || list=; \
+-	for p in $$list; do \
+-	  if test -f "$$p"; then d=; else d="$(srcdir)/"; fi; \
+-	  echo "$$d$$p"; \
+-	done | $(gsettings__base_list) | \
+-	while read files; do \
+-	  echo " $(INSTALL_DATA) $$files '\''$(DESTDIR)$(gsettingsschemadir)'\''"; \
+-	  $(INSTALL_DATA) $$files "$(DESTDIR)$(gsettingsschemadir)" || exit $$?; \
+-	done
++	$(INSTALL_DATA) $^ "$(DESTDIR)$(gsettingsschemadir)"
+ 	test -n "$(GSETTINGS_DISABLE_SCHEMAS_COMPILE)$(DESTDIR)" || $(GLIB_COMPILE_SCHEMAS) $(gsettingsschemadir)
+ 
+ uninstall-gsettings-schemas:
+@@ -20436,7 +20424,7 @@ fi
+ 
+ done
+ 
+-    OPENGL_LIBS="-lGL -ldl"
++    OPENGL_LIBS="-lGL"
+ fi
+ 
+ 
+@@ -21572,8 +21560,8 @@ fi
+ 
+ # Add the appropriate 'O' level for optimized builds
+ if test "$enable_optimizations" = "yes"; then
+-   CXXFLAGS="$CXXFLAGS -O2"
+-   CFLAGS="$CFLAGS -O2"
++   CXXFLAGS="$CXXFLAGS"
++   CFLAGS="$CFLAGS"
+ else
+    CXXFLAGS="$CXXFLAGS -O0"
+    CFLAGS="$CFLAGS -O0"

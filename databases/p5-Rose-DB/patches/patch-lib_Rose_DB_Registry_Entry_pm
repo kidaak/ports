@@ -1,0 +1,37 @@
+$OpenBSD: ports/databases/p5-Rose-DB/patches/patch-lib_Rose_DB_Registry_Entry_pm,v 1.2 2010/01/10 13:45:03 espie Exp $
+--- lib/Rose/DB/Registry/Entry.pm.orig	Mon Sep 14 17:01:58 2009
++++ lib/Rose/DB/Registry/Entry.pm	Sun Jan 10 14:14:31 2010
+@@ -2,7 +2,7 @@ package Rose::DB::Registry::Entry;
+ 
+ use strict;
+ 
+-use Clone::PP();
++use Clone();
+ 
+ use Rose::Object;
+ our @ISA = qw(Rose::Object);
+@@ -186,7 +186,7 @@ sub dump
+   {
+     my $value = $self->$attr();
+     next  unless(defined $value);
+-    $dump{$attr} = Clone::PP::clone($value);
++    $dump{$attr} = Clone::clone($value);
+   }
+ 
+ 
+@@ -196,13 +196,13 @@ sub dump
+   {
+     my $value = $self->{$attr};
+     next  unless(defined $value);
+-    $dump{$attr} = Clone::PP::clone($value);
++    $dump{$attr} = Clone::clone($value);
+   }
+ 
+   return \%dump;
+ }
+ 
+-sub clone { Clone::PP::clone($_[0]) }
++sub clone { Clone::clone($_[0]) }
+ 
+ 1;
+ 

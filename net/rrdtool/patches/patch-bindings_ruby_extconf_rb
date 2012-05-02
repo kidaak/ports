@@ -1,0 +1,11 @@
+$OpenBSD: ports/net/rrdtool/patches/patch-bindings_ruby_extconf_rb,v 1.2 2010/07/03 01:55:24 espie Exp $
+doesnt find the lib it just created for whatever reason...
+--- bindings/ruby/extconf.rb.orig	Mon Jan 19 15:29:14 2009
++++ bindings/ruby/extconf.rb	Sat Jul  3 03:44:44 2010
+@@ -14,5 +14,5 @@ elsif /aix/ =~ RUBY_PLATFORM
+ end
+ 
+ dir_config("rrd","../../src","../../src/.libs")
+-have_library("rrd", "rrd_create")
++$LDFLAGS+= ' -lrrd'
+ create_makefile("RRD")

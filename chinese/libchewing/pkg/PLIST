@@ -1,0 +1,21 @@
+@comment $OpenBSD: ports/chinese/libchewing/pkg/PLIST,v 1.2 2009/01/09 07:33:51 kevlo Exp $
+%%SHARED%%
+include/chewing/
+include/chewing/chewing.h
+include/chewing/chewingio.h
+include/chewing/global.h
+include/chewing/mod_aux.h
+lib/libchewing.a
+lib/libchewing.la
+lib/pkgconfig/
+lib/pkgconfig/chewing.pc
+share/chewing/
+share/chewing/ch_index_begin.dat
+share/chewing/ch_index_phone.dat
+share/chewing/dict.dat
+share/chewing/fonetree.dat
+share/chewing/ph_index.dat
+share/chewing/pinyin.tab
+share/chewing/swkb.dat
+share/chewing/symbols.dat
+share/chewing/us_freq.dat

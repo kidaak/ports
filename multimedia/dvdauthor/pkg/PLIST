@@ -1,0 +1,18 @@
+@comment $OpenBSD: ports/multimedia/dvdauthor/pkg/PLIST,v 1.5 2008/11/20 18:18:35 okan Exp $
+@bin bin/dvdauthor
+bin/dvddirdel
+@bin bin/dvdunauthor
+@bin bin/mpeg2desc
+@bin bin/spumux
+@bin bin/spuunmux
+@man man/man1/dvdauthor.1
+@man man/man1/dvddirdel.1
+@man man/man1/dvdunauthor.1
+@man man/man1/mpeg2desc.1
+@man man/man1/spumux.1
+@man man/man1/spuunmux.1
+share/doc/dvdauthor/
+share/doc/dvdauthor/README
+share/dvdauthor/
+share/dvdauthor/dvdauthor.xsd
+share/dvdauthor/spumux.xsd

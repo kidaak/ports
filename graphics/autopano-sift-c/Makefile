@@ -1,0 +1,44 @@
+# $OpenBSD: ports/graphics/autopano-sift-c/Makefile,v 1.9 2011/09/16 10:02:36 espie Exp $
+
+COMMENT =		identify control points from groups of overlapping images
+
+DISTNAME =		autopano-sift-C-2.5.1
+REVISION=		0
+PKGNAME =		${DISTNAME:L}
+
+CATEGORIES =		graphics
+
+HOMEPAGE =		http://hugin.sourceforge.net/
+
+MAINTAINER =		Stuart Henderson <sthen@openbsd.org>
+
+# GPLv2
+PERMIT_PACKAGE_CDROM =	US patent, see README
+PERMIT_PACKAGE_FTP =	Yes
+PERMIT_DISTFILES_CDROM =US patent, see README
+PERMIT_DISTFILES_FTP =	Yes
+
+WANTLIB +=		c m stdc++ z jpeg pano13 png tiff xml2
+
+MASTER_SITES =		${MASTER_SITE_SOURCEFORGE:=hugin/}
+
+LIB_DEPENDS =		graphics/jpeg \
+			graphics/libpano13 \
+			graphics/png \
+			graphics/tiff \
+			textproc/libxml
+
+MODULES +=		devel/cmake
+CONFIGURE_STYLE =	cmake
+USE_GROFF =		Yes
+
+NO_REGRESS =		Yes
+
+# dos line-endings in file needing patch
+post-extract:
+	@cd ${WRKSRC} && perl -i -pe 's/\r$$//' CMakeLists.txt APSCpp/APSCpp.c
+
+pre-configure:
+	${SUBST_CMD} ${WRKSRC}/CMakeModules/FindPNG.cmake
+
+.include <bsd.port.mk>

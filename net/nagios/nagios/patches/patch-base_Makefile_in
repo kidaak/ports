@@ -1,0 +1,15 @@
+$OpenBSD: ports/net/nagios/nagios/patches/patch-base_Makefile_in,v 1.5 2011/09/05 14:56:46 sthen Exp $
+--- base/Makefile.in.orig	Sat Oct 23 11:00:59 2010
++++ base/Makefile.in	Tue Jul 26 13:58:39 2011
+@@ -204,9 +204,8 @@ install-unstripped:
+ 	$(MAKE) install-basic
+ 
+ install-basic:
+-	$(INSTALL) -m 775 $(INSTALL_OPTS) -d $(DESTDIR)$(BINDIR)
+-	$(INSTALL) -m 774 $(INSTALL_OPTS) @nagios_name@ $(DESTDIR)$(BINDIR)
+-	$(INSTALL) -m 774 $(INSTALL_OPTS) @nagiostats_name@ $(DESTDIR)$(BINDIR)
++	$(BSD_INSTALL_PROGRAM) @nagios_name@ $(DESTDIR)$(prefix)/sbin
++	$(BSD_INSTALL_PROGRAM) @nagiostats_name@ $(DESTDIR)$(BINDIR)
+ 
+ strip-post-install:
+ 	$(STRIP) $(DESTDIR)$(BINDIR)/@nagios_name@

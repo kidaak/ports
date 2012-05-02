@@ -1,0 +1,11 @@
+$OpenBSD: ports/mail/sympa/patches/patch-wwsympa_Makefile_in,v 1.3 2011/08/16 10:06:58 landry Exp $
+--- wwsympa/Makefile.in.orig	Wed Jul 20 18:37:47 2011
++++ wwsympa/Makefile.in	Sun Aug  7 11:37:44 2011
+@@ -640,7 +640,6 @@ install-data-am: install-defaultDATA install-nobase_mo
+ install-exec-am: install-execcgiPROGRAMS install-execcgiSCRIPTS \
+ 	install-sbinSCRIPTS
+ 	@$(NORMAL_INSTALL)
+-	$(MAKE) $(AM_MAKEFLAGS) install-exec-hook
+ 
+ install-info: install-info-recursive
+ 

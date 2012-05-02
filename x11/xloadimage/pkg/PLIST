@@ -1,0 +1,12 @@
+@comment $OpenBSD: ports/x11/xloadimage/pkg/PLIST,v 1.9 2010/10/26 16:57:57 naddy Exp $
+@bin bin/uufilter
+@bin bin/xloadimage
+bin/xsetbg
+bin/xview
+@man man/man1/uufilter.1
+@man man/man1/xloadimage.1
+@man man/man1/xsetbg.1
+@man man/man1/xview.1
+share/examples/xloadimage/
+share/examples/xloadimage/xloadimagerc
+@sample ${SYSCONFDIR}/xloadimagerc

@@ -1,0 +1,22 @@
+$OpenBSD: ports/www/ruby-passenger/patches/patch-ext_boost_detail_endian_hpp,v 1.2 2011/05/17 03:25:18 william Exp $
+
+Sync with ports/devel/boost/patches/patch-boost_detail_endian_hpp
+
+--- ext/boost/detail/endian.hpp.orig	Sun Dec  5 11:52:52 2010
++++ ext/boost/detail/endian.hpp	Wed Apr 27 10:30:11 2011
+@@ -68,6 +68,15 @@
+ 
+ # define BOOST_LITTLE_ENDIAN
+ # define BOOST_BYTE_ORDER 1234
++#elif defined(__OpenBSD__)
++# include <sys/types.h>
++# if (_BYTE_ORDER == _LITTLE_ENDIAN)
++#  define BOOST_LITTLE_ENDIAN
++#  define BOOST_BYTE_ORDER 1234
++# elif (_BYTE_ORDER == _BIG_ENDIAN)
++#  define BOOST_BIG_ENDIAN
++#  define BOOST_BYTE_ORDER 4321
++# endif
+ #else
+ # error The file boost/detail/endian.hpp needs to be set up for your CPU type.
+ #endif

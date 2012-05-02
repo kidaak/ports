@@ -1,0 +1,12 @@
+$OpenBSD: ports/x11/xscreensaver/patches/patch-driver_XScreenSaver_ad_in,v 1.10 2012/01/08 15:36:26 dcoppa Exp $
+--- driver/XScreenSaver.ad.in.orig	Wed Sep 28 12:54:58 2011
++++ driver/XScreenSaver.ad.in	Thu Jan  5 22:15:46 2012
+@@ -177,7 +177,7 @@ GetViewPortIsFullOfLies: False
+ 				bouboule -root				    \n\
+ -				braid -root				    \n\
+ 				coral -root				    \n\
+-				deco -root				    \n\
++				xdeco -root				    \n\
+ 				drift -root				    \n\
+ -				fadeplot -root				    \n\
+ 				galaxy -root				    \n\

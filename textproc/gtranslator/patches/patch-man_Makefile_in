@@ -1,0 +1,12 @@
+$OpenBSD: ports/textproc/gtranslator/patches/patch-man_Makefile_in,v 1.4 2012/03/29 07:16:13 ajacoutot Exp $
+--- man/Makefile.in.orig	Sat Mar 24 13:21:35 2012
++++ man/Makefile.in	Wed Mar 28 16:02:32 2012
+@@ -261,7 +261,7 @@ top_builddir = @top_builddir@
+ top_srcdir = @top_srcdir@
+ gtranslator_man_dir = $(mandir)/man1
+ gtranslator_man__DATA = \
+-	gtranslator.1.gz 
++	gtranslator.1
+ 
+ CLEANFILES = $(gtranslator_man__DATA)
+ EXTRA_DIST = \

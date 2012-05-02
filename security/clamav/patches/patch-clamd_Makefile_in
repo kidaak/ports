@@ -1,0 +1,14 @@
+$OpenBSD: ports/security/clamav/patches/patch-clamd_Makefile_in,v 1.14 2011/03/02 14:36:49 sthen Exp $
+--- clamd/Makefile.in.orig	Mon Feb  7 16:43:23 2011
++++ clamd/Makefile.in	Mon Feb  7 19:14:39 2011
+@@ -183,7 +183,9 @@ INSTALL_SCRIPT = @INSTALL_SCRIPT@
+ INSTALL_STRIP_PROGRAM = @INSTALL_STRIP_PROGRAM@
+ LCOV = @LCOV@
+ LD = @LD@
+-LDFLAGS = @LDFLAGS@
++# Do not generate "LDFLAGS = -L/usr/local/lib" to build on systems that have
++# have an older libclamav installed.
++# LDFLAGS = @LDFLAGS@
+ LIBADD_DL = @LIBADD_DL@
+ LIBADD_DLD_LINK = @LIBADD_DLD_LINK@
+ LIBADD_DLOPEN = @LIBADD_DLOPEN@

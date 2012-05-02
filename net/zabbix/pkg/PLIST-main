@@ -1,0 +1,31 @@
+@comment $OpenBSD: ports/net/zabbix/pkg/PLIST-main,v 1.10 2010/11/22 15:39:21 ajacoutot Exp $
+@pkgpath net/zabbix,-main,mysql
+@pkgpath net/zabbix,-main,pgsql
+@pkgpath net/zabbix,-doc,mysql
+@pkgpath net/zabbix,-doc,pgsql
+@pkgpath net/zabbix,-doc
+@newgroup _zabbix:623
+@newuser _zabbix:623:_zabbix:daemon:zabbix user:/nonexistent:/sbin/nologin
+@bin bin/zabbix_get
+@bin bin/zabbix_sender
+@man man/man1/zabbix_get.1
+@man man/man1/zabbix_sender.1
+@man man/man8/zabbix_agentd.8
+@bin sbin/zabbix_agent
+@bin sbin/zabbix_agentd
+share/examples/zabbix/
+@sample ${SYSCONFDIR}/zabbix/
+share/examples/zabbix/zabbix_agent.conf
+@mode 640
+@group _zabbix
+@sample ${SYSCONFDIR}/zabbix/zabbix_agent.conf
+@mode
+@group
+share/examples/zabbix/zabbix_agentd.conf
+@mode 640
+@group _zabbix
+@sample ${SYSCONFDIR}/zabbix/zabbix_agentd.conf
+@comment share/examples/zabbix/zabbix_agentd.win.conf
+@mode
+@group
+@rcscript ${RCDIR}/zabbix_agentd

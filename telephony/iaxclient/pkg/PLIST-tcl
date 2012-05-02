@@ -1,0 +1,16 @@
+@comment $OpenBSD: ports/telephony/iaxclient/pkg/PLIST-tcl,v 1.2 2011/01/05 18:00:10 sebastia Exp $
+%%SHARED%%
+bin/tkiaxphone
+lib/tcl/
+lib/tcl/tkphone/
+@bin lib/tcl/tkphone/iaxcli
+lib/tcl/tcliaxclient/
+lib/tcl/tcliaxclient/iaxclient.tcl
+lib/tcl/tcliaxclient/pkgIndex.tcl
+lib/tcl/tkphone/monitor.ui
+lib/tcl/tkphone/monitor.ui.tcl
+lib/tcl/tkphone/phone.ui
+lib/tcl/tkphone/phone.ui.tcl
+lib/tcl/tkphone/pref.ui
+lib/tcl/tkphone/pref.ui.tcl
+lib/tcl/tkphone/tkiaxphone

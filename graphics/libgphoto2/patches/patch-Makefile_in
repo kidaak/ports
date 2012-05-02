@@ -1,0 +1,13 @@
+$OpenBSD: ports/graphics/libgphoto2/patches/patch-Makefile_in,v 1.5 2011/11/13 17:15:31 ajacoutot Exp $
+--- Makefile.in.orig	Sun Apr 17 18:18:15 2011
++++ Makefile.in	Sun Nov 13 17:39:49 2011
+@@ -360,8 +360,7 @@ EXTRA_DIST = HACKING MAINTAINERS TESTERS installcheck.
+ SUBDIRS = @subdirs@ libgphoto2 camlibs tests examples po packaging doc
+ pkgconfig_DATA = libgphoto2.pc
+ noinst_DATA = libgphoto2-uninstalled.pc
+-doc_DATA = AUTHORS COPYING NEWS ABOUT-NLS ChangeLog README \
+-	README.packaging
++doc_DATA = README
+ nobase_include_HEADERS = \
+ 	gphoto2/gphoto2.h		\
+ 	gphoto2/gphoto2-abilities-list.h\

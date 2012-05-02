@@ -1,0 +1,127 @@
+$OpenBSD: ports/print/hplip/patches/patch-installer_core_install_py,v 1.9 2012/01/17 09:54:27 ajacoutot Exp $
+--- installer/core_install.py.orig	Fri Dec  9 12:20:31 2011
++++ installer/core_install.py	Mon Jan 16 18:48:21 2012
+@@ -191,7 +191,7 @@ class CoreInstall(object):
+         self.endian = utils.LITTLE_ENDIAN
+         self.distro, self.distro_name, self.distro_version = DISTRO_UNKNOWN, '', DISTRO_VER_UNKNOWN
+         self.distro_version_supported = False
+-        self.install_location = '/usr'
++        self.install_location = '${PREFIX}'
+         self.hplip_present = False
+         self.have_dependencies = {}
+         self.native_cups = True
+@@ -828,14 +828,14 @@ class CoreInstall(object):
+ 
+ 
+     def check_make(self):
+-        return check_tool('make --version', 3.0)
++        return True
+ 
+ 
+     def check_libusb(self):
+         if not check_lib('libusb'):
+             return False
+ 
+-        return len(locate_file_contains("usb.h", '/usr/include', 'usb_init(void)'))
++        return len(locate_file_contains("usb.h", '${LOCALBASE}/include', 'usb_init(void)'))
+ 
+ 
+     def check_libjpeg(self):
+@@ -843,11 +843,11 @@ class CoreInstall(object):
+ 
+ 
+     def check_libcrypto(self):
+-        return check_lib("libcrypto") and check_file("crypto.h")
++        return True
+ 
+ 
+     def check_libpthread(self):
+-        return check_lib("libpthread") and check_file("pthread.h")
++	return True
+ 
+ 
+     def check_libnetsnmp(self):
+@@ -899,7 +899,7 @@ class CoreInstall(object):
+ 
+ 
+     def check_sane_devel(self):
+-        return len(locate_file_contains("sane.h", '/usr/include', 'extern SANE_Status sane_init'))
++	return len(locate_file_contains("sane.h", '${LOCALBASE}/include', 'extern SANE_Status sane_init'))
+ 
+ 
+     def check_xsane(self):
+@@ -988,9 +988,8 @@ class CoreInstall(object):
+ 
+ 
+     def check_dbus(self):
+-        log.debug("Checking for dbus running and header files present (dbus-devel)...")
+-        return check_ps(['dbus-daemon'])  and \
+-            len(locate_file_contains("dbus-message.h", '/usr/include', 'dbus_message_new_signal'))
++        log.debug("Checking for dbus header files present (dbus-devel)...")
++        return check_file("dbus-message.h", "${LOCALBASE}/include")
+ 
+ 
+     def check_cups_devel(self):
+@@ -1008,12 +1007,12 @@ class CoreInstall(object):
+ 
+ 
+     def check_cups_image(self):
+-      return check_file("raster.h", "/usr/include/cups")
++      return check_file("raster.h", "${LOCALBASE}/include/cups")
+ 
+ 
+     def check_hplip(self):
+         log.debug("Checking for HPLIP...")
+-        return locate_files('hplip.conf', '/etc/hp')
++        return locate_files('hplip.conf', '${SYSCONFDIR}/hp')
+ 
+ 
+     def check_hpssd(self):
+@@ -1038,14 +1037,14 @@ class CoreInstall(object):
+     def check_cupsddk(self):
+         log.debug("Checking for cups-ddk...")
+         # TODO: Compute these paths some way or another...
+-        #return check_tool("/usr/lib/cups/driver/drv list") and os.path.exists("/usr/share/cupsddk/include/media.defs")
+-        return (check_file('drv', "/usr/lib/cups/driver") or check_file('drv', "/usr/lib64/cups/driver")) and \
+-            check_file('media.defs', "/usr/share/cupsddk/include")
++        #return check_tool("${LOCALBASE}/libexec/cups/driver/drv list") and os.path.exists("/usr/share/cupsddk/include/media.defs")
++        return (check_file('drv', "${LOCALBASE}/libexec/cups/driver") or check_file('drv', "/usr/lib64/cups/driver")) and \
++            check_file('media.defs', "${LOCALBASE}/share/cupsddk/include")
+ 
+ 
+     def check_policykit(self):
+         log.debug("Checking for PolicyKit...")
+-        return (check_file('PolicyKit.conf', "/etc/PolicyKit") and check_file('org.gnome.PolicyKit.AuthorizationManager.service', "/usr/share/dbus-1/services")) or (check_file('50-localauthority.conf', "/etc/polkit-1/localauthority.conf.d") and check_file('org.freedesktop.PolicyKit1.service', "/usr/share/dbus-1/system-services"))
++        return (check_file('PolicyKit.conf', "${SYSCONFDIR}/PolicyKit") and check_file('org.gnome.PolicyKit.AuthorizationManager.service', "${LOCALBASE}/share/dbus-1/services")) or (check_file('50-localauthority.conf', "${SYSCONFDIR}/polkit-1/localauthority.conf.d") and check_file('org.freedesktop.PolicyKit1.service', "${LOCALBASE}/share/dbus-1/system-services"))
+ 
+     def check_pkg_mgr(self):
+         """
+@@ -1332,7 +1331,7 @@ class CoreInstall(object):
+             cmd = self.su_sudo() % '/etc/init.d/cupsys restart'
+ 
+         else:
+-            cmd = self.su_sudo() % 'killall -HUP cupsd'
++            cmd = self.su_sudo() % 'pkill -HUP cupsd'
+ 
+         self.run(cmd)
+ 
+@@ -1659,7 +1658,7 @@ class CoreInstall(object):
+     def pre_build(self):
+         cmds = []
+         if self.get_distro_ver_data('fix_ppd_symlink', False):
+-            cmds.append(self.su_sudo() % 'python ./installer/fix_symlink.py')
++            cmds.append(self.su_sudo() % '${MODPY_BIN} ./installer/fix_symlink.py')
+ 
+         return cmds
+ 
+@@ -1834,8 +1833,8 @@ class CoreInstall(object):
+         url = "http://hplip.sf.net/plugin.conf"
+         home = sys_conf.get('dirs', 'home')
+ 
+-        if os.path.exists('/etc/hp/plugin.conf'):
+-            url = "file:///etc/hp/plugin.conf"
++        if os.path.exists('${SYSCONFDIR}/hp/plugin.conf'):
++            url = "file:///${SYSCONFDIR}/hp/plugin.conf"
+ 
+         elif os.path.exists(os.path.join(home, 'plugin.conf')):
+             url = "file://" + os.path.join(home, 'plugin.conf')

@@ -1,0 +1,37 @@
+$OpenBSD: ports/net/nagios/nrpe/patches/patch-src_nrpe_c,v 1.5 2011/04/21 11:23:38 sthen Exp $
+--- src/nrpe.c.orig	Tue Sep 14 16:51:48 2010
++++ src/nrpe.c	Thu Apr 21 10:56:51 2011
+@@ -23,6 +23,8 @@
+ #include "../include/nrpe.h"
+ #include "../include/utils.h"
+ 
++#include <poll.h>
++
+ #ifdef HAVE_SSL
+ #include "../include/dh.h"
+ #endif
+@@ -54,7 +56,7 @@ int     num_listen_socks = 0;
+ char    *command_name=NULL;
+ char    *macro_argv[MAX_COMMAND_ARGUMENTS];
+ 
+-char    config_file[MAX_INPUT_BUFFER]="nrpe.cfg";
++char    config_file[MAX_INPUT_BUFFER]="${SYSCONFDIR}/nrpe.cfg";
+ int     log_facility=LOG_DAEMON;
+ 
+ char    *server_port=DEFAULT_SERVER_PORT;
+@@ -836,8 +838,14 @@ void wait_for_connections(void){
+ 					continue;
+ 
+ 				/* socket is nonblocking and we don't have a connection yet */
+-				if(errno==EAGAIN)
++				if(errno==EAGAIN){
++					struct pollfd pfd;
++
++					pfd.fd = sock;
++					pfd.events = POLLIN;
++					poll(&pfd,1,-1);
+ 					continue;
++					}
+ 
+ 				/* fix for HP-UX 11.0 - just retry */
+ 				if(errno==ENOBUFS)

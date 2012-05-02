@@ -1,0 +1,28 @@
+$OpenBSD: ports/security/aide/patches/patch-src_util_c,v 1.3 2010/05/04 14:42:28 ajacoutot Exp $
+--- src/util.c.orig	Wed Feb 17 21:06:57 2010
++++ src/util.c	Tue May  4 16:41:43 2010
+@@ -362,7 +362,6 @@ void sig_handler(int signum)
+   return;
+ }
+ 
+-
+ /* Like strstr but only do search for maximum of n chars.
+    haystack does not have to be NULL terminated
+    needle has to be NULL terminated. NULL in needle is not used in compare.
+@@ -497,7 +496,7 @@ int syslog_facility_lookup(char *s)
+ /* We need these dummy stubs to fool the linker into believing that
+    we do not need them at link time */
+ 
+-void* dlopen(char*filename,int flag)
++/*void* dlopen(char*filename,int flag)
+ {
+   return NULL;
+ }
+@@ -516,6 +515,7 @@ const char* dlerror(void)
+ {
+   return NULL;
+ }
++*/
+ 
+ const char* aide_key_2=CONFHMACKEY_02;
+ const char* db_key_2=DBHMACKEY_02;

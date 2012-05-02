@@ -1,0 +1,86 @@
+$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_libserver_ECDatabaseUtils_cpp,v 1.6 2012/02/16 22:18:36 ajacoutot Exp $
+
+Needs newlocale(3).
+
+--- provider/libserver/ECDatabaseUtils.cpp.orig	Wed Feb  1 22:09:34 2012
++++ provider/libserver/ECDatabaseUtils.cpp	Thu Feb  2 12:28:17 2012
+@@ -547,7 +547,9 @@ ECRESULT CopyDatabasePropValToSOAPPropVal(struct soap 
+ 	std::string	strData;
+ 	unsigned int type = atoi(lpRow[FIELD_NR_TYPE]);
+ 	unsigned int ulPropTag;
++#ifndef __OpenBSD__
+ 	locale_t loc = createlocale(LC_NUMERIC, "C");
++#endif
+ 
+ 	if((type & MVI_FLAG) == MVI_FLAG) {
+ 		// Treat MVI as normal property
+@@ -579,7 +581,11 @@ ECRESULT CopyDatabasePropValToSOAPPropVal(struct soap 
+ 			goto exit;
+ 		}
+ 		lpPropVal->__union = SOAP_UNION_propValData_flt;
++#ifndef __OpenBSD__
+ 		lpPropVal->Value.flt = (float)strtod_l(lpRow[FIELD_NR_DOUBLE], NULL, loc);
++#else
++		lpPropVal->Value.flt = (float)strtod(lpRow[FIELD_NR_DOUBLE], NULL);
++#endif
+ 		break;
+ 	case PT_BOOLEAN:
+ 		if(lpRow[FIELD_NR_ULONG] == NULL) {
+@@ -595,7 +601,11 @@ ECRESULT CopyDatabasePropValToSOAPPropVal(struct soap 
+ 			goto exit;
+ 		}
+ 		lpPropVal->__union = SOAP_UNION_propValData_dbl;
++#ifndef __OpenBSD__
+ 		lpPropVal->Value.dbl = strtod_l(lpRow[FIELD_NR_DOUBLE], NULL, loc);
++#else
++		lpPropVal->Value.dbl = strtod(lpRow[FIELD_NR_DOUBLE], NULL);
++#endif
+ 		break;
+ 	case PT_CURRENCY:
+ 		if(lpRow[FIELD_NR_HI] == NULL || lpRow[FIELD_NR_LO] == NULL) {
+@@ -613,7 +623,11 @@ ECRESULT CopyDatabasePropValToSOAPPropVal(struct soap 
+ 			goto exit;
+ 		}
+ 		lpPropVal->__union = SOAP_UNION_propValData_dbl;
++#ifndef __OpenBSD__
+ 		lpPropVal->Value.dbl = strtod_l(lpRow[FIELD_NR_DOUBLE], NULL, loc);
++#else
++		lpPropVal->Value.dbl = strtod(lpRow[FIELD_NR_DOUBLE], NULL);
++#endif
+ 		break;
+ 	case PT_SYSTIME:
+ 		if(lpRow[FIELD_NR_HI] == NULL || lpRow[FIELD_NR_LO] == NULL) {
+@@ -712,7 +726,11 @@ ECRESULT CopyDatabasePropValToSOAPPropVal(struct soap 
+ 		for(i=0; i < lpPropVal->Value.mvflt.__size; i++)
+ 		{
+ 			ParseMVProp(lpRow[FIELD_NR_DOUBLE], lpLen[FIELD_NR_DOUBLE], &ulLastPos, &strData);
++#ifndef __OpenBSD__
+ 			lpPropVal->Value.mvflt.__ptr[i] = (float)strtod_l(strData.c_str(), NULL, loc);
++#else
++			lpPropVal->Value.mvflt.__ptr[i] = (float)strtod(strData.c_str(), NULL);
++#endif
+ 		}
+ 		break;
+ 	case PT_MV_DOUBLE:
+@@ -729,7 +747,11 @@ ECRESULT CopyDatabasePropValToSOAPPropVal(struct soap 
+ 		for(i=0; i < lpPropVal->Value.mvdbl.__size; i++)
+ 		{
+ 			ParseMVProp(lpRow[FIELD_NR_DOUBLE], lpLen[FIELD_NR_DOUBLE], &ulLastPos, &strData);
++#ifndef __OpenBSD__
+ 			lpPropVal->Value.mvdbl.__ptr[i] = strtod_l(strData.c_str(), NULL, loc);
++#else
++			lpPropVal->Value.mvdbl.__ptr[i] = strtod(strData.c_str(), NULL);
++#endif
+ 		}
+ 		break;
+ 	case PT_MV_CURRENCY:
+@@ -816,7 +838,9 @@ ECRESULT CopyDatabasePropValToSOAPPropVal(struct soap 
+ 	lpPropVal->ulPropTag = ulPropTag;
+ 
+ exit:
++#ifndef __OpenBSD__
+ 	freelocale(loc);
++#endif
+ 	return er;
+ }
+ 

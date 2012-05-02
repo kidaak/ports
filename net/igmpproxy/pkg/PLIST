@@ -1,0 +1,9 @@
+@comment $OpenBSD: ports/net/igmpproxy/pkg/PLIST,v 1.3 2011/04/28 09:45:39 sthen Exp $
+@man man/man5/igmpproxy.conf.5
+@man man/man8/igmpproxy.8
+@bin sbin/igmpproxy
+share/doc/pkg-readmes/${FULLPKGNAME}
+share/examples/igmpproxy/
+share/examples/igmpproxy/igmpproxy.conf
+@sample ${SYSCONFDIR}/igmpproxy.conf
+@rcscript ${RCDIR}/igmpproxy

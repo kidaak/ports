@@ -1,0 +1,12 @@
+$OpenBSD: ports/devel/gconf2/patches/patch-defaults_Makefile_in,v 1.7 2012/03/23 13:24:10 ajacoutot Exp $
+--- defaults/Makefile.in.orig	Sat Mar 10 23:58:21 2012
++++ defaults/Makefile.in	Sat Mar 17 08:13:49 2012
+@@ -328,7 +328,7 @@ gconf_defaults_mechanism_SOURCES = \
+ INCLUDES = \
+ 	-I$(top_srcdir) \
+ 	-I$(top_builddir) \
+-	-DSYSGCONFDIR=\"$(sysgconfdir)\" \
++	-DSYSGCONFDIR=\""/var/db/gconf"\" \
+ 	$(DEFAULTS_CFLAGS)
+ 
+ gconf_defaults_mechanism_LDADD = \

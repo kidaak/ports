@@ -1,0 +1,17 @@
+$OpenBSD: ports/www/mozilla-firefox/patches/patch-media_libsydneyaudio_src_Makefile_in,v 1.5 2012/03/16 21:31:24 landry Exp $
+https://bugzilla.mozilla.org/show_bug.cgi?id=648726
+--- media/libsydneyaudio/src/Makefile.in.orig	Thu Feb  2 00:39:20 2012
++++ media/libsydneyaudio/src/Makefile.in	Tue Feb 14 18:42:12 2012
+@@ -100,6 +100,12 @@ CSRCS		= \
+ 		$(NULL)
+ endif
+ 
++ifeq ($(OS_ARCH),OpenBSD)
++CSRCS		= \
++		sydney_audio_sndio.c \
++		$(NULL)
++endif
++
+ ifeq ($(OS_ARCH),WINNT)
+ OS_LIBS += winmm.lib
+ endif

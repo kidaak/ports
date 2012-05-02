@@ -1,0 +1,39 @@
+$OpenBSD: ports/games/scummvm/patches/patch-configure,v 1.9 2012/02/17 06:59:41 jsg Exp $
+--- configure.orig	Sun Jan 15 20:08:27 2012
++++ configure	Fri Feb 17 13:18:29 2012
+@@ -1613,21 +1613,6 @@ elif test "$have_icc" = yes ; then
+ 	add_line_to_config_mk 'CXX_UPDATE_DEP_FLAG = -MMD -MF "$(*D)/$(DEPDIR)/$(*F).d" -MQ "$@" -MP'
+ fi;
+ 
+-# By default, we add -pedantic to the CXXFLAGS to catch some potentially
+-# non-portable constructs, like use of GNU extensions.
+-# However, some platforms use GNU extensions in system header files, so
+-# for these we must not use -pedantic.
+-case $_host_os in
+-android | gamecube | psp | wii)
+-	;;
+-*)
+-	# ICC does not support pedantic, while GCC and clang do.
+-	if test "$have_icc" = no ; then
+-		CXXFLAGS="$CXXFLAGS -pedantic"
+-	fi
+-	;;
+-esac
+-
+ # If possible, we want to use -Wglobal-constructors
+ # However, not all compilers support that, so check whether the active one does.
+ echocheck "whether -Wglobal-constructors work"
+@@ -3076,9 +3061,11 @@ EOF
+ fi
+ if test "$_flac" = yes ; then
+ 	if test "$_vorbis" = yes ; then
+-		LIBS="$LIBS $FLAC_LIBS $OGG_LIBS -lFLAC -logg"
++		# LIBS="$LIBS $FLAC_LIBS $OGG_LIBS -lFLAC -logg"
++		LIBS="$LIBS `pkg-config --libs flac` -logg"
+ 	else
+-		LIBS="$LIBS $FLAC_LIBS -lFLAC"
++		# LIBS="$LIBS $FLAC_LIBS -lFLAC"
++		LIBS="$LIBS `pkg-config --libs flac`"
+ 	fi
+ 	INCLUDES="$INCLUDES $FLAC_CFLAGS"
+ fi

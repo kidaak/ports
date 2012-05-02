@@ -1,0 +1,10 @@
+@comment $OpenBSD: ports/games/gnuchess/pkg/PLIST,v 1.6 2012/04/08 16:32:29 ajacoutot Exp $
+@bin bin/gnuchess
+bin/gnuchessu
+bin/gnuchessx
+@info info/gnuchess.info
+share/doc/gnuchess/
+share/doc/gnuchess/README
+share/gnuchess/
+share/gnuchess/book.bin
+share/gnuchess/gnuchess.ini

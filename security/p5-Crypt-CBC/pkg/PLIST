@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/security/p5-Crypt-CBC/pkg/PLIST,v 1.6 2008/10/06 17:01:16 jasper Exp $
+${P5SITE}/Crypt/
+${P5SITE}/Crypt/CBC.pm
+@man man/man3p/Crypt::CBC.3p
+share/examples/p5-Crypt-CBC/
+share/examples/p5-Crypt-CBC/aes.pl
+share/examples/p5-Crypt-CBC/des.pl
+share/examples/p5-Crypt-CBC/idea.pl

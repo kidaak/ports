@@ -1,0 +1,23 @@
+$OpenBSD: ports/x11/rdesktop/patches/patch-configure,v 1.8 2012/03/14 18:36:04 gsoares Exp $
+
+Don't pickup libsamplerate if that's installed.
+
+--- configure.orig	Mon Jan  9 11:11:57 2012
++++ configure	Tue Mar 13 13:53:08 2012
+@@ -5757,6 +5757,7 @@ $as_echo "yes" >&6; }
+ 	HAVE_ALSA=1
+ fi
+ 
++if false; then
+ pkg_failed=no
+ { $as_echo "$as_me:${as_lineno-$LINENO}: checking for LIBSAMPLERATE" >&5
+ $as_echo_n "checking for LIBSAMPLERATE... " >&6; }
+@@ -5834,6 +5835,8 @@ fi
+             LIBSAMPLERATE_LIBS="$LIBSAMPLERATE_LIBS -lm"
+         fi
+     fi
++fi
++
+ fi
+ 
+ if test "$sound" != "no"; then

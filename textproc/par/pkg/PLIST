@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/textproc/par/pkg/PLIST,v 1.4 2009/06/25 00:33:41 jolan Exp $
+@conflict rancid-*
+bin/par
+@man man/man1/par.1

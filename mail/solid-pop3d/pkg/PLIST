@@ -1,0 +1,12 @@
+@comment $OpenBSD: ports/mail/solid-pop3d/pkg/PLIST,v 1.8 2011/05/11 12:57:48 jasper Exp $
+@newgroup _solid-pop3d:635
+@newuser _solid-pop3d:635:_solid-pop3d:daemon:solid-pop3d:/nonexistent:/sbin/nologin
+@extraunexec rm -rf /var/spool/spop3d/*
+@man man/man5/dot-spop3d.5
+@man man/man5/spop3d.conf.5
+@man man/man8/spop3d.8
+sbin/spop3d
+%%apop%%
+@sample /var/spool/spop3d/
+@sample /var/spool/spop3d/bulletins/
+@extra ${SYSCONFDIR}/spop3d.conf

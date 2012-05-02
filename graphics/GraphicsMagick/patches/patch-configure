@@ -1,0 +1,21 @@
+$OpenBSD: ports/graphics/GraphicsMagick/patches/patch-configure,v 1.4 2011/01/15 16:17:33 jasper Exp $
+--- configure.orig	Wed Jan 20 18:37:15 2010
++++ configure	Sun Jan  2 16:22:37 2011
+@@ -25259,7 +25259,7 @@ fi
+ #
+ 
+ # Subdirectory under lib to place GraphicsMagick lib files
+-MagickLibSubdir="${PACKAGE_NAME}-${PACKAGE_VERSION}"
++MagickLibSubdir="${PACKAGE_NAME}"
+ 
+ cat >>confdefs.h <<_ACEOF
+ #define MagickLibSubdir "$MagickLibSubdir"
+@@ -25363,7 +25363,7 @@ _ACEOF
+ 
+ #
+ # Path to GraphicsMagick share files
+-MagickShareSubdir="${PACKAGE_NAME}-${PACKAGE_VERSION}"
++MagickShareSubdir="${PACKAGE_NAME}"
+ MagickSharePath="${DATA_DIR}/${MagickShareSubdir}"
+ MagickSharePathDefine="${MagickSharePath}/"
+ case "${build_os}" in

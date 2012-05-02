@@ -1,0 +1,5 @@
+# $OpenBSD: ports/www/seamonkey-i18n/es-AR/Makefile,v 1.1.1.1 2012/02/20 20:32:58 landry Exp $
+
+L = es-AR
+
+.include <bsd.port.mk>

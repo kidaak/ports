@@ -1,0 +1,21 @@
+$OpenBSD: ports/mail/tnef/patches/patch-configure,v 1.4 2011/04/28 02:01:47 gsoares Exp $
+--- configure.orig	Mon Apr 18 22:29:50 2011
++++ configure	Wed Apr 27 14:21:22 2011
+@@ -4618,7 +4618,7 @@ if ${ac_cv_lib_intl_gettext+:} false; then :
+   $as_echo_n "(cached) " >&6
+ else
+   ac_check_lib_save_LIBS=$LIBS
+-LIBS="-lintl  $LIBS"
++LIBS="-lintl -liconv $LIBS"
+ cat confdefs.h - <<_ACEOF >conftest.$ac_ext
+ /* end confdefs.h.  */
+ 
+@@ -4653,7 +4653,7 @@ if test "x$ac_cv_lib_intl_gettext" = xyes; then :
+ #define HAVE_LIBINTL 1
+ _ACEOF
+ 
+-  LIBS="-lintl $LIBS"
++  LIBS="-lintl -liconv $LIBS"
+ 
+ fi
+ 

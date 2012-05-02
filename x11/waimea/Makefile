@@ -1,0 +1,29 @@
+# $OpenBSD: ports/x11/waimea/Makefile,v 1.17 2010/10/24 21:15:35 ajacoutot Exp $
+
+COMMENT=		virtual desktop manager for X11
+
+VERSION=		0.4.0
+DISTNAME=		waimea-${VERSION}
+REVISION=		5
+CATEGORIES=		x11
+
+HOMEPAGE=		http://www.freedesktop.org/wiki/Software/waimea
+
+# GPLv2
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_FTP=	Yes
+
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=waimea/}
+
+USE_GROFF =	Yes
+WANTLIB += ICE SM X11 Xau Xdmcp Xext Xft Xinerama Xrandr Xrender
+WANTLIB += c expat fontconfig freetype m pthread-stubs stdc++
+WANTLIB += xcb z
+
+AUTOCONF_VERSION=	2.52
+CONFIGURE_STYLE=	autoconf
+CONFIGURE_ARGS=		--disable-pixmap
+
+.include <bsd.port.mk>

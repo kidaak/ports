@@ -1,0 +1,9 @@
+$OpenBSD: ports/databases/architect/pkg/README,v 1.2 2011/06/02 13:41:36 ajacoutot Exp $
+
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+To get started with SQL Power*Architect, please see the
+Getting Started wiki page at
+    http://code.google.com/p/power-architect/wiki/GettingStarted

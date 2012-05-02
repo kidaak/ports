@@ -1,0 +1,21 @@
+$OpenBSD: ports/misc/brltty/patches/patch-Programs_serial_c,v 1.2 2010/05/20 09:25:31 espie Exp $
+--- Programs/serial.c.orig	Thu Sep 30 15:13:52 2004
++++ Programs/serial.c	Wed May 19 19:16:40 2010
+@@ -192,6 +192,17 @@ serialInitializeAttributes (struct termios *attributes
+ #ifdef IEXTEN
+   attributes->c_lflag = IEXTEN;
+ #endif /* IEXTEN */
++
++#ifdef _POSIX_VDISABLE
++  if (_POSIX_VDISABLE) {
++    int i;
++    for (i=0; i<NCCS; ++i) {
++      if (i == VTIME) continue;
++      if (i == VMIN) continue;
++      attributes->c_cc[i] = _POSIX_VDISABLE;
++    }
++  }
++#endif /* _POSIX_VDISABLE */
+ }
+ 
+ static int

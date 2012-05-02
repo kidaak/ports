@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/net/xprobe/pkg/PLIST,v 1.5 2011/03/10 20:28:12 jasper Exp $
+@bin bin/xprobe2
+@man man/man1/xprobe2.1
+share/examples/xprobe2/
+share/examples/xprobe2/xprobe2.conf
+@sample ${SYSCONFDIR}/xprobe2/
+@sample ${SYSCONFDIR}/xprobe2/xprobe2.conf

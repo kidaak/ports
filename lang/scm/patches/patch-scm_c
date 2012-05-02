@@ -1,0 +1,17 @@
+$OpenBSD: ports/lang/scm/patches/patch-scm_c,v 1.2 2009/01/21 18:30:16 kili Exp $
+--- scm.c.orig	Thu Jan 31 02:50:33 2008
++++ scm.c	Sat Nov 29 15:26:11 2008
+@@ -721,6 +721,13 @@ void final_scm(freeall)
+ # ifndef MSDOS			/* DJGPP defines both */
+ #  define SYSTNAME "unix"
+ # endif
++#else 
++# ifdef __unix__
++#  define DIRSEP "/"
++#  ifndef MSDOS			/* DJGPP defines both */
++#   define SYSTNAME "unix"
++#  endif
++# endif
+ #endif
+ #ifdef MWC
+ # define SYSTNAME "coherent"

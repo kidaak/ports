@@ -1,0 +1,11 @@
+$OpenBSD: ports/mail/sympa/patches/patch-Makefile_in,v 1.3 2011/08/16 10:06:58 landry Exp $
+--- Makefile.in.orig	Wed Jul 20 18:37:47 2011
++++ Makefile.in	Sun Aug  7 11:37:43 2011
+@@ -573,7 +573,6 @@ info-am:
+ 
+ install-data-am:
+ 	@$(NORMAL_INSTALL)
+-	$(MAKE) $(AM_MAKEFLAGS) install-data-hook
+ 
+ install-exec-am:
+ 

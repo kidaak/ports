@@ -1,0 +1,4 @@
+@comment $OpenBSD: ports/security/p5-Catalyst-Plugin-Authorization-Roles/pkg/PLIST,v 1.2 2012/04/08 22:02:37 sthen Exp $
+${P5SITE}/Catalyst/Plugin/Authorization/
+${P5SITE}/Catalyst/Plugin/Authorization/Roles.pm
+@man man/man3p/Catalyst::Plugin::Authorization::Roles.3p

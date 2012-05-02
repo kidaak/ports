@@ -1,0 +1,28 @@
+$OpenBSD: ports/sysutils/rancid/patches/patch-configure,v 1.4 2010/04/23 11:18:43 pea Exp $
+--- configure.orig	Wed Mar 24 00:34:37 2010
++++ configure	Fri Apr 16 10:21:50 2010
+@@ -6058,7 +6058,7 @@ ac_config_files="$ac_config_files bin/nslogin bin/nsra
+ 
+ ac_config_files="$ac_config_files bin/nxrancid"
+ 
+-ac_config_files="$ac_config_files bin/prancid"
++ac_config_files="$ac_config_files bin/prancid bin/fnlogin"
+ 
+ ac_config_files="$ac_config_files bin/rivlogin bin/rivrancid"
+ 
+@@ -6839,6 +6839,7 @@ do
+     "bin/mrvlogin") CONFIG_FILES="$CONFIG_FILES bin/mrvlogin" ;;
+     "bin/mrvrancid") CONFIG_FILES="$CONFIG_FILES bin/mrvrancid" ;;
+     "bin/nlogin") CONFIG_FILES="$CONFIG_FILES bin/nlogin" ;;
++    "bin/fnlogin") CONFIG_FILES="$CONFIG_FILES bin/fnlogin" ;;
+     "bin/nrancid") CONFIG_FILES="$CONFIG_FILES bin/nrancid" ;;
+     "bin/nslogin") CONFIG_FILES="$CONFIG_FILES bin/nslogin" ;;
+     "bin/nsrancid") CONFIG_FILES="$CONFIG_FILES bin/nsrancid" ;;
+@@ -7567,6 +7568,7 @@ $as_echo X"$file" |
+     "bin/mrvlogin":F) chmod a+x $ac_file ;;
+     "bin/mrvrancid":F) chmod a+x $ac_file ;;
+     "bin/nlogin":F) chmod a+x $ac_file ;;
++    "bin/fnlogin":F) chmod a+x $ac_file ;;
+     "bin/nrancid":F) chmod a+x $ac_file ;;
+     "bin/nslogin":F) chmod a+x $ac_file ;;
+     "bin/nsrancid":F) chmod a+x $ac_file ;;

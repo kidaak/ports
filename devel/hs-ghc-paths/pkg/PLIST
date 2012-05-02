@@ -1,0 +1,12 @@
+@comment $OpenBSD: ports/devel/hs-ghc-paths/pkg/PLIST,v 1.5 2010/11/03 19:23:05 kili Exp $
+lib/ghc/${DISTNAME}/
+lib/ghc/${DISTNAME}/GHC/
+lib/ghc/${DISTNAME}/GHC/Paths.hi
+lib/ghc/${DISTNAME}/HS${DISTNAME}.o
+lib/ghc/${DISTNAME}/libHS${DISTNAME}.a
+lib/ghc/${DISTNAME}/register.sh
+@exec /usr/bin/env HOME=/nonexistent %D/lib/ghc/${DISTNAME}/register.sh -v0
+@unexec /usr/bin/env HOME=/nonexistent %D/lib/ghc/${DISTNAME}/unregister.sh -v0 --force
+lib/ghc/${DISTNAME}/unregister.sh
+@comment share/doc/hs-${DISTNAME}/
+@comment share/doc/hs-${DISTNAME}/LICENSE

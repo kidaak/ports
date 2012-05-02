@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/math/fftw3/pkg/PFRAG.double-main,v 1.2 2008/10/08 22:27:22 steven Exp $
+@pkgpath math/fftw3
+@pkgpath math/fftw3,double
+@bin bin/fftw-wisdom
+lib/libfftw3.a
+lib/libfftw3.la
+lib/pkgconfig/fftw3.pc
+@man man/man1/fftw-wisdom.1

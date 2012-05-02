@@ -1,0 +1,29 @@
+# $OpenBSD: ports/textproc/p5-SWISH-API/Makefile,v 1.7 2010/12/03 11:46:49 ajacoutot Exp $
+
+COMMENT =	Perl interface to the swish-e C library
+SHARED_ONLY =	Yes
+
+DISTNAME =	swish-e-2.4.7
+PKGNAME =	p5-SWISH-API-0.04
+REVISION =	3
+CATEGORIES =	textproc
+MODULES =	cpan
+USE_GROFF =	Yes
+
+HOMEPAGE =	http://swish-e.org/
+MASTER_SITES =	${HOMEPAGE}distribution/
+
+MAINTAINER =	Michael Erdely <merdely@openbsd.org>
+
+# Perl
+PERMIT_PACKAGE_CDROM =	Yes
+PERMIT_PACKAGE_FTP =	Yes
+PERMIT_DISTFILES_CDROM =Yes
+PERMIT_DISTFILES_FTP =	Yes
+
+LIB_DEPENDS =	textproc/swish-e>=2.4.7
+WANTLIB +=	m z swish-e>=2.1
+
+WRKSRC =	${WRKDIST}/perl
+
+.include <bsd.port.mk>

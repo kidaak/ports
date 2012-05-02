@@ -1,0 +1,27 @@
+$OpenBSD: ports/graphics/netpbm/patches/patch-Makefile_common,v 1.7 2010/07/02 02:54:59 naddy Exp $
+--- Makefile.common.orig	Mon Nov 13 05:14:19 2006
++++ Makefile.common	Wed Jun 30 02:05:13 2010
+@@ -408,19 +408,19 @@ install.bin: $(BINARIES:%=%_installbin) $(SCRIPTS:%=%_
+ INSTALLBIN_TARGETS = $(BINARIES:%=%_installbin) netpbm_installbin
+ .PHONY: $(INSTALLBIN_TARGETS)
+ $(INSTALLBIN_TARGETS): $(PKGDIR)/bin
+-	$(INSTALL) -c $(STRIPFLAG) -m $(INSTALL_PERM_BIN) \
++	$(BSD_INSTALL_PROGRAM) \
+ 	  $(@:%_installbin=%) $<
+ 
+ $(SCRIPTS:%=%_installscript): $(PKGDIR)/bin
+-	$(INSTALL) -c -m $(INSTALL_PERM_BIN) \
++	$(BSD_INSTALL_SCRIPT) \
+ 	  $(SRCDIR)/$(SUBDIR)/$(@:%_installscript=%) $<
+ 
+ .PHONY: install.data
+ install.data: $(DATAFILES:%=%_installdata) $(SUBDIRS:%=%/install.data)
+ 
+ .PHONY: $(DATAFILES:%=%_installdata) 
+-$(DATAFILES:%=%_installdata): $(PKGDIR)/misc
+-	$(INSTALL) -c -m $(INSTALL_PERM_DATA) \
++$(DATAFILES:%=%_installdata): $(PKGDIR)/share/netpbm
++	$(BSD_INSTALL_DATA) \
+ 	  $(SRCDIR)/$(SUBDIR)/$(@:%_installdata=%) $<
+ 
+ 

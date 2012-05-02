@@ -1,0 +1,5 @@
+@comment $OpenBSD: ports/misc/bsdiff/pkg/PLIST,v 1.4 2009/05/20 13:22:52 benoit Exp $
+@bin bin/bsdiff
+@bin bin/bspatch
+@man man/man1/bsdiff.1
+@man man/man1/bspatch.1

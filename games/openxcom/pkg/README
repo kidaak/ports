@@ -1,0 +1,13 @@
+$OpenBSD: ports/games/openxcom/pkg/README,v 1.3 2012/02/29 08:25:32 ajacoutot Exp $
+
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+In order to play the game you need original data from
+"UFO: Enemy Unknown" / "X-Com: UFO Defense".
+For a system wide installation you can copy them to:
+    ${PREFIX}/share/openxcom/data/
+
+For a user specific installation you can copy them under:
+    ~/.local/share/openxcom/data/

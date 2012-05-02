@@ -1,0 +1,38 @@
+$OpenBSD: ports/devel/msp430/gcc/patches/patch-libgcc_Makefile_in,v 1.2 2011/09/05 08:00:33 jasper Exp $
+
+Using $(INSTALL_DATA) and chmod generates errors as the operation
+is not permitted. So use plain copy mode and chown/chgrp
+in the post-install target.
+
+--- libgcc/Makefile.in.orig	Tue Mar 30 15:08:52 2010
++++ libgcc/Makefile.in	Thu Sep  1 18:58:32 2011
+@@ -901,7 +901,7 @@ gcc-extra-parts:
+ 	parts="$(GCC_EXTRA_PARTS)";				\
+ 	for file in $$parts; do					\
+ 	  rm -f $(gcc_objdir)$(MULTISUBDIR)/$$file;		\
+-	  $(INSTALL_DATA) $$file $(gcc_objdir)$(MULTISUBDIR)/;	\
++	  install -c $$file $(gcc_objdir)$(MULTISUBDIR)/;	\
+ 	done
+ 
+ all: $(extra-parts)
+@@ -946,17 +946,15 @@ install-shared:
+ install-leaf: $(install-shared) $(install-libunwind)
+ 	$(mkinstalldirs) $(DESTDIR)$(inst_libdir)
+ 
+-	$(INSTALL_DATA) libgcc.a $(DESTDIR)$(inst_libdir)/
+-	chmod 644 $(DESTDIR)$(inst_libdir)/libgcc.a
++	install -c libgcc.a $(DESTDIR)$(inst_libdir)/
+ 	$(RANLIB) $(DESTDIR)$(inst_libdir)/libgcc.a
+-	$(INSTALL_DATA) libgcov.a $(DESTDIR)$(inst_libdir)/
+-	chmod 644 $(DESTDIR)$(inst_libdir)/libgcov.a
++	install -c libgcov.a $(DESTDIR)$(inst_libdir)/
+ 	$(RANLIB) $(DESTDIR)$(inst_libdir)/libgcov.a
+ 
+ 	parts="$(INSTALL_PARTS)";				\
+ 	for file in $$parts; do					\
+ 	  rm -f $(DESTDIR)$(inst_libdir)/$$file;		\
+-	  $(INSTALL_DATA) $$file $(DESTDIR)$(inst_libdir)/;	\
++	  install -c $$file $(DESTDIR)$(inst_libdir)/;	\
+ 	done
+ 
+ install: install-leaf

@@ -1,0 +1,12 @@
+$OpenBSD: ports/security/logsurfer/patches/patch-src_logsurfer_c,v 1.2 2009/11/27 21:30:38 jakob Exp $
+--- src/logsurfer.c.orig	Thu Dec 23 23:22:28 2004
++++ src/logsurfer.c	Fri Nov 27 22:18:53 2009
+@@ -387,7 +387,7 @@ main(argc, argv)
+ 	 */
+ 	logline_buffer_size=4096;
+ 	logline_buffer_pos=0;
+-	if ( (logline_buffer=(char *)malloc(logline_buffer_size)) == NULL ) {
++	if ( (logline_buffer=(char *)calloc(logline_buffer_size,sizeof(char))) == NULL ) {
+ 		(void) fprintf(stderr, "unable to allocate memory for logline_buffer\n");
+ 		exit(99);
+ 	}

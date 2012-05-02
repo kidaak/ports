@@ -1,0 +1,21 @@
+$OpenBSD: ports/emulators/BasiliskII/patches/patch-src_uae_cpu_fpu_fpu_x86_cpp,v 1.2 2010/03/25 08:10:56 jasper Exp $
+--- src/uae_cpu/fpu/fpu_x86.cpp.orig	Thu Mar 25 08:58:23 2010
++++ src/uae_cpu/fpu/fpu_x86.cpp	Thu Mar 25 08:58:59 2010
+@@ -565,7 +565,7 @@ PRIVATE uae_s16 FFPU extended_to_signed_16 ( fpu_regis
+ 	
+ 	__asm__ __volatile__(
+ 			"fldt	%2\n"
+-			"fistp	%0\n"
++			"fistpl	%0\n"
+ 			"fnstsw	%1\n"
+ 		:	"=m" (tmp), "=m" (sw_temp)
+ 		:	"m" (f)
+@@ -605,7 +605,7 @@ PRIVATE uae_s8 FFPU extended_to_signed_8 ( fpu_registe
+ 	
+ 	__asm__ __volatile__(
+ 			"fldt	%2\n"
+-			"fistp	%0\n"
++			"fistpl	%0\n"
+ 			"fnstsw	%1\n"
+ 		:	"=m" (tmp), "=m" (sw_temp)
+ 		:	"m" (f)

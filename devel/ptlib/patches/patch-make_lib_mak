@@ -1,0 +1,36 @@
+$OpenBSD: ports/devel/ptlib/patches/patch-make_lib_mak,v 1.5 2012/03/02 09:03:52 ajacoutot Exp $
+--- make/lib.mak.orig	Tue Feb 21 23:57:07 2012
++++ make/lib.mak	Fri Mar  2 08:37:06 2012
+@@ -28,6 +28,13 @@
+ # $Date: 2009-09-15 21:57:13 -0500 (Tue, 15 Sep 2009) $
+ #
+ 
++ifeq ($(OSTYPE),OpenBSD)
++  ifeq ($(BUILD_TYPE),.)
++    LIBNAME_PAT	= $(LIB_FILENAME).$(MAJOR_VERSION).$(MINOR_VERSION)
++  else
++    LIBNAME_PAT	= $(LIB_FILENAME).$(MAJOR_VERSION).$(MINOR_VERSION)-$(BUILD_TYPE)
++  endif
++else
+ ifeq (,$(findstring $(OSTYPE),Darwin cygwin mingw))
+   ifeq ($(BUILD_TYPE),.)
+     LIBNAME_PAT	= $(LIB_FILENAME).$(MAJOR_VERSION).$(MINOR_VERSION).$(BUILD_NUMBER)
+@@ -41,6 +48,7 @@ else
+     LIBNAME_PAT	= $(subst .$(LIB_SUFFIX),.$(MAJOR_VERSION).$(MINOR_VERSION)-$(BUILD_TYPE)$(BUILD_NUMBER).$(LIB_SUFFIX),$(LIB_FILENAME))
+   endif
+ endif
++endif
+ 
+ LIB_SONAME	= $(LIBNAME_PAT)
+ 
+@@ -101,6 +109,10 @@ ifeq ($(P_SHAREDLIB),1)
+         LDSOOPTS += -Wl,-soname,$(LIB_SONAME)
+       endif
+     endif
++  endif
++
++  ifeq ($(OSTYPE),OpenBSD)
++    LDSOOPTS += -fPIC
+   endif
+ 
+   $(LIBDIR)/$(LIB_FILENAME): $(LIBDIR)/$(LIBNAME_PAT)

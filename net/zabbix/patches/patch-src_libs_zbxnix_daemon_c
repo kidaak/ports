@@ -1,0 +1,12 @@
+$OpenBSD: ports/net/zabbix/patches/patch-src_libs_zbxnix_daemon_c,v 1.8 2012/03/20 12:00:37 robert Exp $
+--- src/libs/zbxnix/daemon.c.orig	Tue Mar 20 10:15:16 2012
++++ src/libs/zbxnix/daemon.c	Tue Mar 20 12:21:24 2012
+@@ -194,7 +194,7 @@ int	daemon_start(int allow_root)
+ 	pid_t			pid;
+ 	struct passwd		*pwd;
+ 	struct sigaction	phan;
+-	char			user[7] = "zabbix";
++	char			user[8] = "_zabbix";
+ 
+ 	/* running as root ? */
+ 	if (0 == allow_root && (0 == getuid() || 0 == getgid()))

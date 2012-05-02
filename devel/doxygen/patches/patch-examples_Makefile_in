@@ -1,0 +1,11 @@
+$OpenBSD: ports/devel/doxygen/patches/patch-examples_Makefile_in,v 1.4 2010/11/04 20:13:10 sthen Exp $
+--- examples/Makefile.in.orig	Sun Jul 20 13:16:34 2008
++++ examples/Makefile.in	Thu Sep 16 11:35:27 2010
+@@ -114,7 +114,5 @@ docstring/html/index.html: docstring.py docstring.cfg
+ 	$(DOXYGEN)/bin/doxygen docstring.cfg
+ 
+ diagrams/html/index.html: diagrams_a.h diagrams_b.h diagrams_c.h diagrams_d.h diagrams_e.h diagrams.cfg
+-ifneq ($(HAVE_DOT),)
+ 	$(DOXYGEN)/bin/doxygen diagrams.cfg
+-endif
+ 

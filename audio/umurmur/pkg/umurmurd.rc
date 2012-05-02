@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# $OpenBSD: ports/audio/umurmur/pkg/umurmurd.rc,v 1.2 2011/07/08 09:09:43 dcoppa Exp $
+
+daemon="${TRUEPREFIX}/bin/umurmurd"
+
+. /etc/rc.d/rc.subr
+
+rc_reload=NO
+
+rc_cmd $1

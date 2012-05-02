@@ -1,0 +1,18 @@
+$OpenBSD: ports/comms/mgetty+sendfax/patches/patch-fax_faxspool_in,v 1.3 2010/06/07 05:59:27 ajacoutot Exp $
+--- fax/faxspool.in.orig	Fri Jun  4 15:01:49 2010
++++ fax/faxspool.in	Mon Jun  7 07:51:55 2010
+@@ -417,11 +417,11 @@ fs_cvt_pdf()
+ 
+ # user name (for fax header only! auth is done by faxq-helper via getuid())
+ ##########
+-if user=`logname 2>/dev/null`
+-then :
++if [ `id -u` = 0 ]; then
++    user=root
+ else
+     id=`id`
+-    user=`expr "$id" : "[^( ]*(\([^)]*\)"`
++    user=`logname`
+ fi
+ test -z "$user" && user=$LOGNAME
+ test -z "$user" && user=$USER

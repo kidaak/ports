@@ -1,0 +1,3 @@
+@comment $OpenBSD: ports/net/p5-POE-Filter-IRCD/pkg/PLIST,v 1.1.1.1 2006/06/12 11:13:10 alek Exp $
+${P5SITE}/POE/Filter/IRCD.pm
+@man man/man3p/POE::Filter::IRCD.3p

@@ -1,0 +1,7 @@
+@comment $OpenBSD: ports/misc/xtar/pkg/PLIST,v 1.6 2011/04/10 18:02:18 jasper Exp $
+@pkgpath misc/xtar,lesstif
+bin/xtar
+lib/X11/app-defaults/XTar
+lib/X11/xtar/
+lib/X11/xtar/xtar.doc
+@man man/cat1/xtar.0

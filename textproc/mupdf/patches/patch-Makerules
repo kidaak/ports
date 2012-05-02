@@ -1,0 +1,33 @@
+$OpenBSD: ports/textproc/mupdf/patches/patch-Makerules,v 1.4 2011/07/13 21:48:48 sthen Exp $
+--- Makerules.orig	Fri Apr 29 20:06:09 2011
++++ Makerules	Wed Jul 13 21:37:52 2011
+@@ -5,6 +5,7 @@ OS := $(OS:MINGW%=MINGW)
+ 
+ CFLAGS += -Wall
+ 
++ifneq "$(OS)" "OpenBSD" # don't override C optimizer flags for ports builds
+ ifeq "$(build)" "debug"
+ CFLAGS += -pipe -g
+ else ifeq "$(build)" "profile"
+@@ -17,6 +18,7 @@ CFLAGS += -pipe -O2 -DNDEBUG -fomit-frame-pointer -mar
+ else
+ $(error unknown build setting: '$(build)')
+ endif
++endif
+ 
+ ifeq "$(OS)" "Linux"
+ SYS_FREETYPE_INC := `pkg-config --cflags freetype2`
+@@ -27,6 +29,13 @@ ifeq "$(OS)" "FreeBSD"
+ SYS_FREETYPE_INC := `pkg-config --cflags freetype2`
+ LDFLAGS += -L/usr/local/lib
+ X11_LIBS := -lX11 -lXext
++endif
++
++ifeq "$(OS)" "OpenBSD"
++SYS_FREETYPE_INC := `pkg-config --cflags freetype2`
++CFLAGS += -I${LOCALBASE}/include
++LDFLAGS += `pkg-config --libs freetype2` -L${LOCALBASE}/lib
++X11_LIBS = -lX11 -lXext
+ endif
+ 
+ # Mac OS X build depends on some thirdparty libs

@@ -1,0 +1,23 @@
+$OpenBSD: ports/audio/vorbis-tools/patches/patch-configure,v 1.8 2010/06/03 15:50:28 naddy Exp $
+--- configure.orig	Fri Mar 26 08:07:20 2010
++++ configure	Sun May 23 19:06:44 2010
+@@ -20398,7 +20398,7 @@ if test -z "$GCC"; then
+                 ;;
+         *)
+                 DEBUG="-g"
+-                CFLAGS="-O"
++                CFLAGS=""
+                 PROFILE="-g -p"
+                 ;;
+         esac
+@@ -20421,8 +20421,8 @@ else
+                 ;;
+         *)
+                 DEBUG="-g -Wall -fsigned-char"
+-                CFLAGS="-O2 -fsigned-char"
+-                PROFILE="-O2 -g -pg -fsigned-char"
++                CFLAGS="-fsigned-char"
++                PROFILE="-g -pg -fsigned-char"
+                 ;;
+         esac
+ fi

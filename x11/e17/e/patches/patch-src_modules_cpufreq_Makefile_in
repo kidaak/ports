@@ -1,0 +1,12 @@
+$OpenBSD: ports/x11/e17/e/patches/patch-src_modules_cpufreq_Makefile_in,v 1.2 2011/01/16 01:00:11 laurent Exp $
+--- src/modules/cpufreq/Makefile.in.orig	Sat Jan  8 15:37:16 2011
++++ src/modules/cpufreq/Makefile.in	Sat Jan  8 15:37:26 2011
+@@ -443,7 +443,7 @@ module_la_LIBADD = @e_libs@ @dlopen_libs@
+ module_la_LDFLAGS = -module -avoid-version
+ module_la_DEPENDENCIES = $(top_builddir)/config.h
+ freqsetdir = $(pkgdir)
+-setuid_root_mode = a=rx,u+xs
++setuid_root_mode = a=rx,u+x
+ setuid_root_user = root
+ freqset_SOURCES = freqset.c
+ all: all-am

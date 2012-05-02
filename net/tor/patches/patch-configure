@@ -1,0 +1,25 @@
+$OpenBSD: ports/net/tor/patches/patch-configure,v 1.15 2011/12/16 20:08:50 sthen Exp $
+--- configure.orig	Thu Dec 15 17:01:54 2011
++++ configure	Fri Dec 16 19:49:38 2011
+@@ -5532,8 +5532,8 @@ for ac_lib in '' nsl; do
+   if test -z "$ac_lib"; then
+     ac_res="none required"
+   else
+-    ac_res=-l$ac_lib
+-    LIBS="-l$ac_lib  $ac_func_search_save_LIBS"
++    ac_res=-$ac_lib
++    LIBS="-$ac_lib  $ac_func_search_save_LIBS"
+   fi
+   if ac_fn_c_try_link "$LINENO"; then :
+   ac_cv_search_gethostbyname=$ac_res
+@@ -5588,8 +5588,8 @@ for ac_lib in '' dl; do
+   if test -z "$ac_lib"; then
+     ac_res="none required"
+   else
+-    ac_res=-l$ac_lib
+-    LIBS="-l$ac_lib  $ac_func_search_save_LIBS"
++    ac_res=-$ac_lib
++    LIBS="-$ac_lib  $ac_func_search_save_LIBS"
+   fi
+   if ac_fn_c_try_link "$LINENO"; then :
+   ac_cv_search_dlopen=$ac_res

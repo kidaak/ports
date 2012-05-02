@@ -1,0 +1,8 @@
+@comment $OpenBSD: ports/print/hplip/pkg/PLIST-libs,v 1.2 2010/01/10 16:43:18 ajacoutot Exp $
+@conflict hplip-<3.9.6b
+lib/libhpip.la
+@lib lib/libhpip.so.${LIBhpip_VERSION}
+lib/libhpmud.la
+@lib lib/libhpmud.so.${LIBhpmud_VERSION}
+share/cups/drv/
+share/cups/drv/hp/

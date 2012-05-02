@@ -1,0 +1,54 @@
+@comment $OpenBSD: ports/www/varnish/pkg/PLIST,v 1.4 2011/12/23 13:06:30 jasper Exp $
+@newgroup _varnish:625
+@newuser _varnish:625:_varnish:daemon:Varnish Cache:/var/varnish:/bin/sh
+@bin bin/varnishadm
+@bin bin/varnishhist
+@bin bin/varnishlog
+@bin bin/varnishncsa
+@bin bin/varnishreplay
+@bin bin/varnishsizes
+@bin bin/varnishstat
+@bin bin/varnishtest
+@bin bin/varnishtop
+include/varnish/
+include/varnish/varnishapi.h
+include/varnish/vcli.h
+include/varnish/vsc.h
+include/varnish/vsc_all.h
+include/varnish/vsc_fields.h
+include/varnish/vsl.h
+include/varnish/vsl_tags.h
+include/varnish/vsm.h
+lib/libvarnishapi.a
+lib/libvarnishapi.la
+@lib lib/libvarnishapi.so.${LIBvarnishapi_VERSION}
+lib/pkgconfig/varnishapi.pc
+lib/varnish/
+lib/varnish/libvarnish.so
+lib/varnish/libvarnishcompat.so
+lib/varnish/libvcl.so
+lib/varnish/libvgz.so
+lib/varnish/vmods/
+lib/varnish/vmods/libvmod_std.so
+@man man/man1/varnishadm.1
+@man man/man1/varnishd.1
+@man man/man1/varnishhist.1
+@man man/man1/varnishlog.1
+@man man/man1/varnishncsa.1
+@man man/man1/varnishreplay.1
+@man man/man1/varnishsizes.1
+@man man/man1/varnishstat.1
+@man man/man1/varnishtest.1
+@man man/man1/varnishtop.1
+@man man/man3/vmod_std.3
+@man man/man7/varnish-cli.7
+@man man/man7/varnish-counters.7
+@man man/man7/vcl.7
+@bin sbin/varnishd
+share/doc/varnish/
+share/examples/varnish/
+@sample ${SYSCONFDIR}/varnish/
+share/examples/varnish/default.vcl
+@sample ${SYSCONFDIR}/varnish/default.vcl
+@exec-add mkdir -p /var/varnish
+@extraunexec rm -fr /var/varnish

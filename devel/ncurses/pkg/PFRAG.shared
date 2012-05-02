@@ -1,0 +1,5 @@
+@comment $OpenBSD$
+@lib lib/libform.so.${LIBform_VERSION}
+@lib lib/libmenu.so.${LIBmenu_VERSION}
+@lib lib/libncurses.so.${LIBncurses_VERSION}
+@lib lib/libpanel.so.${LIBpanel_VERSION}

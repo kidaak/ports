@@ -154,7 +154,7 @@ sub link
 			push @libflags, $a;
 		} else {
 			my $lib = basename $a;
-			if ($lib =~ m/^lib(.*)\.so(\.\d+){2}/) {
+			if ($lib =~ m/^lib(.*)\.so[.0-9]+/) {
 				$lib = $1;
 			} else {
 				say "warning: cannot derive -l flag from library filename, assuming hash key";

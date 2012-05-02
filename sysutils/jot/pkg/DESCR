@@ -1,0 +1,4 @@
+Jot is used to print out increasing, decreasing, random,
+or redundant data, usually numbers, one per line.
+
+This is the OpenBSD version of jot.

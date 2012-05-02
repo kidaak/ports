@@ -1,0 +1,3 @@
+@comment $OpenBSD$
+@bin bin/jot
+@man man/man1/jot.1

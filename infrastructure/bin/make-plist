@@ -1149,7 +1149,7 @@ for my $plist (@l) {
 			if (defined $orig) {
 				if (-e $orig->{filename}.".orig") {
 				    print prettify($orig),".orig present\n";
-				    $letsdie = 1;
+				    $letsdie = 0;
 				}
 			}
 		}

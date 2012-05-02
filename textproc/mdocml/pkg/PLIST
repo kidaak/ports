@@ -1,0 +1,22 @@
+@comment $OpenBSD$
+bin/demandoc
+bin/mandoc
+bin/preconv-mandoc
+include/mandoc/
+include/mandoc/man.h
+include/mandoc/mandoc.h
+include/mandoc/mdoc.h
+lib/mandoc/
+lib/mandoc/libmandoc.a
+@man man/man1/demandoc.1
+@man man/man1/mandoc.1
+@man man/man1/preconv.1
+@man man/man3/mandoc.3
+@man man/man7/eqn.7
+@man man/man7/man.7
+@man man/man7/mandoc_char.7
+@man man/man7/mdoc.7
+@man man/man7/roff.7
+@man man/man7/tbl.7
+share/examples/mandoc/
+share/examples/mandoc/example.style.css

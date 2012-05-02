@@ -332,13 +332,15 @@ MAKE_PROGRAM = ${MAKE}
 USE_LIBTOOL ?= No
 _lt_libs =
 .if ${USE_LIBTOOL:L} != "no"
-.  if ${USE_LIBTOOL:L} == "gnu"
+# XXX: this chould use ifdef-OS glue.
+# Default to always use gnu libtool.
+#.  if ${USE_LIBTOOL:L} == "gnu"
 LIBTOOL ?= ${DEPBASE}/bin/libtool
 BUILD_DEPENDS += devel/libtool
-.  else
-LIBTOOL ?= ${PORTSDIR}/infrastructure/bin/libtool
-MAKE_ENV += PORTSDIR="${PORTSDIR}"
-.  endif
+#.  else
+#LIBTOOL ?= ${PORTSDIR}/infrastructure/bin/libtool
+#MAKE_ENV += PORTSDIR="${PORTSDIR}"
+#.  endif
 CONFIGURE_ENV += LIBTOOL="${LIBTOOL} ${LIBTOOL_FLAGS}" ${_lt_libs}
 MAKE_ENV += LIBTOOL="${LIBTOOL} ${LIBTOOL_FLAGS}" ${_lt_libs}
 MAKE_FLAGS += LIBTOOL="${LIBTOOL} ${LIBTOOL_FLAGS}" ${_lt_libs}
@@ -2527,7 +2529,7 @@ ${_FAKE_COOKIE}: ${_BUILD_COOKIE}
 	fi
 	@${SUDO} install -d -m 755 -o root -g wheel ${WRKINST}
 	@cat ${MTREE_FILE}| \
-		${SUDO} /usr/sbin/mtree -U -e -d -n -p ${WRKINST} >/dev/null
+		${SUDO} mtree -U -e -d -n -p ${WRKINST} >/dev/null
 .for _m in ${MODULES:T:U}
 .  if defined(MOD${_m}_pre-fake)
 	@${MOD${_m}_pre-fake}
@@ -2578,6 +2580,8 @@ ${_FAKE_COOKIE}: ${_BUILD_COOKIE}
 	done
 
 	@${SUDO} ${_MAKE_COOKIE} $@
+	@echo "Removing symlinks created by linker."
+	find ${WRKINST}/${PREFIX}/lib/ -type l -name "lib*.so*" -print0 | xargs -0r rm -f
 
 print-plist:
 	@${_PKG_CREATE} -n -q ${PKG_ARGS${SUBPACKAGE}} ${_PACKAGE_COOKIE${SUBPACKAGE}}
@@ -3210,6 +3214,10 @@ repackage:
 rebuild:
 	@rm -f ${_BUILD_COOKIE}
 	@${_MAKE} build
+
+reconfigure:
+	@rm -f ${_CONFIGURE_COOKIE}
+	@${_MAKE} configure
 
 uninstall deinstall:
 	@${ECHO_MSG} "===> Deinstalling for ${FULLPKGNAME${SUBPACKAGE}}"

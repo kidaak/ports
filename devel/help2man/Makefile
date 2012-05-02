@@ -17,6 +17,7 @@ PERMIT_DISTFILES_FTP=	Yes
 
 SEPARATE_BUILD=	Yes
 CONFIGURE_STYLE= gnu
+CONFIGURE_ENV= 	INSTALL_PROGRAM="install -c -o root -g bin"
 USE_GROFF =	Yes
 
 post-extract:

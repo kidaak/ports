@@ -1,0 +1,4 @@
+- fix @bins
+- fix progress meter not working with make install
+- make ONLY_FOR_ARCHS etc alias x86_64->amd64
+- fix make port-lib-depends-check

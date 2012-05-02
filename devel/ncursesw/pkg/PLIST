@@ -1,0 +1,6 @@
+@comment $OpenBSD$
+%%SHARED%%
+lib/libformw.a
+lib/libmenuw.a
+lib/libncursesw.a
+lib/libpanelw.a

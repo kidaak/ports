@@ -69,9 +69,15 @@ BUILD_PACKAGES =
 # ONLY_FOR_ARCHS/NOT_FOR_ARCHS are special:
 # being undefined is different from being empty
 .  if defined(ONLY_FOR_ARCHS)
+.    if ${ONLY_FOR_ARCHS:Mamd64} != ""
+ONLY_FOR_ARCHS+=x86_64
+.     endif
 ONLY_FOR_ARCHS${_s} ?= ${ONLY_FOR_ARCHS}
 .  endif
 .  if defined(NOT_FOR_ARCHS)
+.    if ${NOT_FOR_ARCHS:Mamd64} != ""
+NOT_FOR_ARCHS+=x86_64
+.    endif
 NOT_FOR_ARCHS${_s} ?= ${NOT_FOR_ARCHS}
 .  endif
 

@@ -409,7 +409,7 @@ sub compare_lists
 		$state->errsay("| then someone probably forgot to bump a REVISION.");
 		$state->errsay("| (see bsd.port.mk(5), PLIST_DB)");
 		system {OpenBSD::Paths->diff} ('diff', '-u', $result, $t);
-		return 1;
+		return 0;
 	}
 	if ($r == 2) {
 		$p1->tofile($result);

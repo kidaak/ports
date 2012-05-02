@@ -60,7 +60,12 @@ use constant {
 };
 
 my @no_shared_archs = qw(m88k vax);
-my $machine_arch = $Config{'ARCH'};
+my $machine_arch;
+if (defined($Config{'ARCH'})) {
+	$machine_arch = $Config{'ARCH'};
+} else {
+	$machine_arch = `uname -m`;
+}
 (my $gnu_arch = $machine_arch) =~ s/amd64/x86_64/;
 my @valid_modes = qw(clean compile execute finish install link uninstall);
 my @valid_src = qw(asm c cc cpp cxx f s);
@@ -667,20 +672,31 @@ sub generate_objlist
 sub get_search_dirs
 {
 	my @libsearchdirs;
-	open(my $fh, '-|', '/sbin/ldconfig -r');
+	my $os = $^O;
+	my $fh;
+	if ($os eq "linux") {
+		open($fh, '-|', 'ldconfig -vNX 2>/dev/null | grep ^/ | cut -f 1 -d :');
+	} else {
+		open($fh, '-|', '/sbin/ldconfig -r');
+	}
 	if (defined $fh) {
 		while (<$fh>) {
-			if (m/^\s*search directories:\s*(.*?)\s*$/o) {
-				foreach my $d (split(/\:/o, $1)) {
-					push @libsearchdirs, $d;
+			if ($os eq "linux") {
+				chomp($_);
+				push @libsearchdirs, $_;
+			} else {
+				if (m/^\s*search directories:\s*(.*?)\s*$/o) {
+					foreach my $d (split(/\:/o, $1)) {
+						push @libsearchdirs, $d;
+					}
+					last;
 				}
-				last;
 			}
 		}
 		close($fh);
 	} else {
 		die "Can't run ldconfig\n";
-        }
+	}
 	return @libsearchdirs;
 }
 

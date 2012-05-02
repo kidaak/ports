@@ -26,6 +26,13 @@ GCC2_ARCHS = aviion luna88k m68k m88k mac68k mvme68k mvme88k vax
 # XXX easier for ports that depend on mono
 MONO_ARCHS = amd64 i386
 
+# On GNU systems amd64 is called x86_64.
+ALL_ARCHS += x86_64
+APM_ARCHS += x86_64
+LP64_ARCHS += x86_64
+GCC4_ARCHS += x86_64
+MONO_ARCHS += x86_64
+
 .for PROP in ALL APM LP64 NO_SHARED GCC4 GCC3 GCC2 MONO
 .  for A B in ${MACHINE_ARCH} ${ARCH}
 .    if !empty(${PROP}_ARCHS:M$A) || !empty(${PROP}_ARCHS:M$B)

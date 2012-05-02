@@ -131,6 +131,7 @@ sub exec
 
 sub parse
 {
+	my $os = $^O;
 	my ($self, $cmd, $names) = @_;
 	my $fullname;
 	my @l = ();
@@ -156,8 +157,10 @@ sub parse
 		if ($line =~ m/^\s+NEEDED\s+(.*?)\s*$/) {
 			my $lib = $1;
 			push(@l, $lib);
-			# detect linux binaries
-			if ($lib eq 'libc.so.6') {
+			# detect linux binaries, except on linux of course,
+			# because there we want binaries tagged @bin
+			# just like on openbsd.
+			if ($lib eq 'libc.so.6' && $os ne "linux") {
 				$linux_binary = 1;
 			}
 		} elsif ($line =~ m/^\s+RPATH\s+(.*)\s*$/) {
@@ -230,6 +233,7 @@ sub exec
 
 sub parse
 {
+	my $os = $^O;
 	my ($self, $cmd, $fullname) = @_;
 	my @l = ();
 	my $linux_binary = 0;
@@ -239,7 +243,7 @@ sub parse
 			my $lib = $1;
 			push(@l, $lib);
 			# detect linux binaries
-			if ($lib eq 'libc.so.6') {
+			if ($lib eq 'libc.so.6' && $os ne "linux") {
 				$linux_binary = 1;
 			}
 		}

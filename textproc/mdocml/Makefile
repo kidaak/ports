@@ -1,6 +1,6 @@
 # $OpenBSD$
 
-COMMENT =		
+COMMENT =		suite of documentation tools
 DISTNAME =		mdocml-1.12.1
 CATEGORIES =		textproc
 

@@ -13,11 +13,11 @@
 #	make show=MAINTAINER
 # in the specific port's directory.
 #
-# The ports@openbsd.org address is the `default' MAINTAINER (the generic
-# OpenBSD ports mailing-list).
+# The obscure-ports@openbsd.fi address is the `default' MAINTAINER
+# (the generic Obscure Linux ports mailing-list).
 
 # Enquiries as to the bsd.port.mk framework should usually be directed
-# to ports@openbsd.org.
+# to obscure-ports@openbsd.fi.
 
 
 .if ${.MAKEFLAGS:MFLAVOR=*}
@@ -1171,7 +1171,7 @@ PATCH_CASES += *) \
 	${PATCH} ${PATCH_DIST_ARGS} < $$patchfile;;
 
 # Documentation
-MAINTAINER ?= The OpenBSD ports mailing-list <ports@openbsd.org>
+MAINTAINER ?= The Obscure Linux ports mailing-list <obscure-ports@openbsd.fi>
 
 .if !defined(CATEGORIES)
 ERRORS += "Fatal: CATEGORIES is mandatory."

@@ -1,0 +1,2 @@
+@comment $OpenBSD$
+@lib lib/libbsd.so.${LIBbsd_VERSION}

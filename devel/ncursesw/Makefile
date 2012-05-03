@@ -52,10 +52,10 @@ NO_REGRESS =		Yes
 #LDFLAGS =		???
 
 do-install:
-.for I in formw menuw ncursesw panelw
+.for l v in ${SHARED_LIBS}
 	${INSTALL_DATA} \
-		${WRKBUILD}/lib/lib${I}.a \
-		${WRKBUILD}/lib/lib${I}.so.* \
+		${WRKBUILD}/lib/lib${l}.a \
+		${WRKBUILD}/lib/lib${l}.so.* \
 		${PREFIX}/lib/
 .endfor
 

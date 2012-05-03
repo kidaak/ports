@@ -1,0 +1,5 @@
+Make is a program designed to simplify the maintenance of other
+programs.  Its input is a list of specifications as to the files
+upon which programs and other files depend.
+
+This is the OpenBSD version of make.

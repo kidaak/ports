@@ -10,7 +10,7 @@ RUN_DEPENDS += \
 		devel/gmake		\
 		devel/libbsd		\
 		devel/ncursesw		\
-		devel/bmake		\
+		devel/make		\
 		editors/vim,no_x11	\
 		misc/findutils		\
 		sysutils/coreutils	\

@@ -15,7 +15,7 @@ PERMIT_DISTFILES_FTP =	Yes
 # "make port-lib-depends-check" can help
 #WANTLIB =		???
 
-MASTER_SITES =		http://openbsd.fi/distfiles/
+MASTER_SITES =		${MASTER_SITE_OBSCURE}
 
 BUILD_DEPENDS =		textproc/mdocml
 

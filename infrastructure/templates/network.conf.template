@@ -8,6 +8,10 @@
 # .include "../templates/network.conf.template"
 #
 
+# Obscure Linux sites
+MASTER_SITE_OBSCURE ?= \
+	http://openbsd.fi/distfiles/obscure/
+
 # List of OpenBSD sites
 MASTER_SITE_OPENBSD ?= \
 	http://ftp.openbsd.org/pub/OpenBSD/distfiles/ \

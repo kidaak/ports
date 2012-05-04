@@ -1,0 +1,14 @@
+GNU Diffutils is a package of several programs related to
+finding differences between files.
+
+Summary of the tools:
+
+ * diff shows the differences between two files,
+   or each corresponding file in two directories
+   and diff3 shows the differences among three files.
+
+ * use sdiff command to merge two files interactively.
+
+ * use cmp command to show the offsets and line numbers
+   where two files differ.
+

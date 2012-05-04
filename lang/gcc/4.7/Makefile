@@ -167,7 +167,8 @@ PKG_ARGS += -DPPC=1
 PKG_ARGS += -DPPC=0
 .endif
 
-.if ${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "amd64"
+.if ${MACHINE_ARCH} == "i386" || ${MACHINE_ARCH} == "amd64" || \
+    ${MACHINE_ARCH} == "x86_64"
 PKG_ARGS += -DI386=1
 .else
 PKG_ARGS += -DI386=0
@@ -224,13 +225,8 @@ post-install:
 .endif
 	chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/lib/gcc/*/$V/include
 	chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/lib/gcc/*/$V/include-fixed
-	chown ${BINOWN}:${BINGRP} ${PREFIX}/lib/gcc/${CONFIG}/${V}/libgcc.a
-	chown ${BINOWN}:${BINGRP} ${PREFIX}/lib/gcc/${CONFIG}/${V}/libgcov.a
-.if ${PIC} == "1"
-	chown ${BINOWN}:${BINGRP} ${PREFIX}/lib/gcc/${CONFIG}/${V}/fpic/libgcc.a
-	chown ${BINOWN}:${BINGRP} \
-		${PREFIX}/lib/gcc/${CONFIG}/${V}/fpic/libgcov.a
-.endif
+	find "${PREFIX}/lib/gcc/${CONFIG}/${V}" -type f -name '*.a' -print0 | \
+		xargs -0r chown ${BINOWN}:${BINGRP}
 
 .include <bsd.port.mk>
 

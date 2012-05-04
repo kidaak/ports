@@ -27,9 +27,9 @@ include/bsd/sys/queue.h
 include/bsd/sys/tree.h
 include/bsd/unistd.h
 include/bsd/vis.h
-include/libutil.h
-include/nlist.h
-include/vis.h
+@comment include/libutil.h
+@comment include/nlist.h
+@comment include/vis.h
 lib/libbsd.a
 lib/pkgconfig/
 lib/pkgconfig/libbsd-overlay.pc

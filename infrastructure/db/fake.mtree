@@ -7,6 +7,8 @@
 	..
     ..
     usr
+	bin
+	..
 	local
 	    bin
 	    ..
@@ -221,6 +223,108 @@
 		..
 		skel
 		..
+	    ..
+	..
+	man
+	    cat1
+	    ..
+	    cat2
+	    ..
+	    cat3
+	    ..
+	    cat3f
+	    ..
+	    cat3p
+	    ..
+	    cat4
+	    ..
+	    cat5
+	    ..
+	    cat6
+	    ..
+	    cat7
+	    ..
+	    cat8
+	    ..
+	    cat9
+	    ..
+	    catl
+	    ..
+	    catn
+	    ..
+	    ja_JP.EUC
+		cat1
+		..
+		cat2
+		..
+		cat3
+		..
+		cat3p
+		..
+		cat4
+		..
+		cat5
+		..
+		cat6
+		..
+		cat7
+		..
+		cat8
+		..
+		cat9
+		..
+		catl
+		..
+		catn
+		..
+		man1
+		..
+		man2
+		..
+		man3
+		..
+		man4
+		..
+		man5
+		..
+		man6
+		..
+		man7
+		..
+		man8
+		..
+		man9
+		..
+		manl
+		..
+		mann
+		..
+	    ..
+	    man1
+	    ..
+	    man2
+	    ..
+	    man3
+	    ..
+	    man3f
+	    ..
+	    man3p
+	    ..
+	    man4
+	    ..
+	    man5
+	    ..
+	    man6
+	    ..
+	    man7
+	    ..
+	    man8
+	    ..
+	    man9
+	    ..
+	    manl
+	    ..
+	    mann
 	    ..
 	..
     ..

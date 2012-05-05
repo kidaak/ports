@@ -1,0 +1,6 @@
+@comment $OpenBSD$
+@bin bin/help
+@bin bin/man
+@man man/man1/help.1
+@man man/man1/man.1
+@man man/man5/man.conf.5

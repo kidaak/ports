@@ -1,0 +1,10 @@
+@comment $OpenBSD$
+@bin bin/ksh
+@bin bin/rksh
+@bin bin/sh
+@man man/man1/ksh.1
+@man man/man1/rksh.1
+@man man/man1/sh.1
+share/examples/ksh/
+share/examples/ksh/ksh.kshrc
+@sample ${SYSCONFDIR}/ksh.kshrc

@@ -1,5 +1,7 @@
 # $OpenBSD$
 
+PREFIX =		/usr
+
 COMMENT =		OpenBSD makefile templates
 DISTNAME =		make-templates-20120504
 CATEGORIES =		devel

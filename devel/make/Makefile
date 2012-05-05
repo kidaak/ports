@@ -1,5 +1,7 @@
 # $OpenBSD$
 
+PREFIX =		/usr
+
 COMMENT =		OpenBSD make: maintain program dependencies
 DISTNAME =		make-20120505
 CATEGORIES =		devel sysutils

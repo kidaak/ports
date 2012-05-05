@@ -1,0 +1,5 @@
+@comment $OpenBSD$
+bin/arch
+bin/machine
+@man man/man1/arch.1
+@man man/man1/machine.1

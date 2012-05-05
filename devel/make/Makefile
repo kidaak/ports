@@ -1,7 +1,7 @@
 # $OpenBSD$
 
 COMMENT =		OpenBSD make: maintain program dependencies
-DISTNAME =		make-20120503
+DISTNAME =		make-20120505
 CATEGORIES =		devel sysutils
 
 #HOMEPAGE =		???	URL
@@ -27,12 +27,6 @@ MASTER_SITES =		${MASTER_SITE_OBSCURE}
 #FAKE_FLAGS =		???
 #REGRESS_FLAGS =	???
 
-#SEPARATE_BUILD =	Yes (build in a directory other than WRKSRC)
-#SEPARATE_BUILD =	flavored (distinct flavors may share a common WRKSRC)
-
-# TODO: regress exists but it's not working yet.
-NO_REGRESS =		Yes
-
 #CFLAGS =		???
 #LDFLAGS =		???
 #MAKE_FILE =		???
@@ -41,17 +35,6 @@ NO_REGRESS =		Yes
 #WRKSRC =		??? if other than ${WRKDIST}
 #WRKBUILD =		??? if other than ${WRKSRC}
 #WRKCONF =		??? if other than ${WRKBUILD}
-
-# TODO: this can build with the OpenBSD's Makefile,
-# but the included .mk sets -nostdinc that will break
-# the build. That will be triggered when it sees ports'
-# ${DESTDIR} variable.
-
-do-build:
-	cd "${WRKSRC}" && \
-		CC="${CC}" ./bootstrap
-	cd "${WRKSRC}" && \
-		mandoc -Tlint -Wfatal make.1
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/make ${PREFIX}/bin/

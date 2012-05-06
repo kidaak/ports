@@ -1,0 +1,9 @@
+@comment $OpenBSD$
+@bin bin/mtree
+@man man/man5/mtree.5
+@man man/man8/mtree.8
+share/doc/mtree/
+share/doc/mtree/CHANGES
+share/doc/mtree/COPYING
+share/doc/mtree/INSTALL
+share/doc/mtree/README

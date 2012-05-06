@@ -1,0 +1,2 @@
+Mtree compares and/or changes the file hierarchy rooted in the current
+directory against a previously made specification.

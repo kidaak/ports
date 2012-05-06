@@ -1,0 +1,10 @@
+@comment $OpenBSD$
+%%SHARED%%
+@bin bin/file
+include/magic.h
+lib/libmagic.a
+lib/libmagic.la
+@man man/man1/file.1
+@man man/man3/libmagic.3
+@man man/man4/magic.4
+share/misc/magic.mgc

@@ -1,0 +1,2 @@
+@comment $OpenBSD$
+@lib lib/libmagic.so.${LIBmagic_VERSION}

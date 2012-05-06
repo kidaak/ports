@@ -24,6 +24,7 @@ RUN_DEPENDS += \
 		sysutils/diffutils	\
 		sysutils/jot		\
 		sysutils/mtree		\
+		sysutils/cksum		\
 		textproc/man		\
 		textproc/mdocml
 

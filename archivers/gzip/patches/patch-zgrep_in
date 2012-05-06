@@ -1,0 +1,63 @@
+$OpenBSD$
+--- zgrep.in.orig	Sun Jan  3 19:26:02 2010
++++ zgrep.in	Wed Apr 20 22:54:45 2011
+@@ -28,7 +28,7 @@ PATH=$bindir:$PATH
+ 
+ grep='${GREP-grep}'
+ 
+-version='zgrep (gzip) @VERSION@
++version='z$grep (gzip) @VERSION@
+ Copyright (C) 2007, 2009-2010 Free Software Foundation, Inc.
+ This is free software.  You may redistribute copies of it under the terms of
+ the GNU General Public License <http://www.gnu.org/licenses/gpl.html>.
+@@ -53,6 +53,7 @@ escape='
+ operands=
+ have_pat=0
+ pat_on_stdin=0
++pat_on_stdin=0
+ files_with_matches=0
+ files_without_matches=0
+ no_filename=0
+@@ -97,6 +98,23 @@ while test $# -ne 0; do
+   (-[drRzZ] | --di* | --exc* | --inc* | --rec* | --nu*)
+     printf >&2 '%s: %s: option not supported\n' "$0" "$option"
+     exit 2;;
++    # The pattern is coming from a file rather than the command-line.
++    # If the file is actually stdin then we need to do a little
++    # magic, (since we use stdin to pass the gzip output to grep).
++    # So find a free fd and change the argument to then use this
++    # file descriptor for the pattern.
++    case $optarg in
++    (" '-'" | " '/dev/stdin'" | " '/dev/fd/0'")
++      pat_on_stdin=1
++      # Start search from 6 since the script already uses 3 and 5
++      for fd in $(seq 6 254); do
++	  if test ! -e /dev/fd/$fd; then
++	      pat_fd=$fd
++	      break;
++	  fi
++      done
++      optarg=/dev/fd/$pat_fd;
++    esac
+   (-[ef]* | --file | --file=* | --reg*)
+     # The pattern is coming from a file rather than the command-line.
+     # If the file is actually stdin then we need to do a little
+@@ -138,7 +156,7 @@ while test $# -ne 0; do
+     files_with_matches=1;;
+   (-L | --files-witho*)
+     files_without_matches=1;;
+-  (--no-f*)
++  (-h | --no-f*)
+     no_filename=1;;
+   (-V | --v | --ve | --ver | --vers | --versi | --versio | --version)
+     echo "$version" || exit 2
+@@ -174,6 +192,9 @@ fi
+ exec 3>&1
+ res=0
+ 
++    if test $pat_on_stdin -eq 1; then
++	eval "exec $pat_fd<&0"
++    fi
+ for i
+ do
+   # Fail if gzip or grep (or sed) fails.

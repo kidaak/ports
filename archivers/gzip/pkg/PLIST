@@ -1,0 +1,28 @@
+@comment $OpenBSD$
+bin/gnugunzip
+bin/gnugzexe
+@bin bin/gnugzip
+bin/gnuuncompress
+bin/gnuzcat
+bin/gnuzcmp
+bin/gnuzdiff
+bin/gnuzegrep
+bin/gnuzfgrep
+bin/gnuzforce
+bin/gnuzgrep
+bin/gnuzless
+bin/gnuzmore
+bin/gnuznew
+@info info/gzip.info
+@comment lib/charset.alias
+@man man/man1/gnugunzip.1
+@man man/man1/gnugzexe.1
+@man man/man1/gnugzip.1
+@man man/man1/gnuzcat.1
+@man man/man1/gnuzcmp.1
+@man man/man1/gnuzdiff.1
+@man man/man1/gnuzforce.1
+@man man/man1/gnuzgrep.1
+@man man/man1/gnuzless.1
+@man man/man1/gnuzmore.1
+@man man/man1/gnuznew.1

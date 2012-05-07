@@ -1,0 +1,7 @@
+@comment $OpenBSD$
+@bin bin/cpio
+@bin bin/pax
+@bin bin/tar
+@man man/man1/cpio.1
+@man man/man1/pax.1
+@man man/man1/tar.1

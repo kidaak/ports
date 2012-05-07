@@ -1,0 +1,7 @@
+Pax will read, write, and list the members of an archive file and will
+copy directory hierarchies.
+
+The tar command creates, adds files to, or extracts files from an archive
+file in ``tar'' format. This is the OpenBSD version of tar.
+
+The cpio command copies files to and from a cpio archive.

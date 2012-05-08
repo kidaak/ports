@@ -1,0 +1,4 @@
+Display file checksums and block counts.
+
+Currently this is a wrapper script around rhash <http://rhash.anz.ru/>
+to implement the same features that OpenBSD 'cksum' utility has.

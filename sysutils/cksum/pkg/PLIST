@@ -1,0 +1,25 @@
+@comment $OpenBSD$
+bin/cksum
+bin/ed2k-link
+bin/gost-hash
+bin/has160-hash
+bin/magnet-link
+bin/rhash
+bin/sfv-hash
+bin/tiger-hash
+bin/tth-hash
+bin/whirlpool-hash
+share/examples/cksum/
+share/examples/cksum/rhashrc
+@sample ${SYSCONFDIR}/rhashrc
+share/man/
+share/man/man1/
+@man share/man/man1/ed2k-link.1
+@man share/man/man1/gost-hash.1
+@man share/man/man1/has160-hash.1
+@man share/man/man1/magnet-link.1
+@man share/man/man1/rhash.1
+@man share/man/man1/sfv-hash.1
+@man share/man/man1/tiger-hash.1
+@man share/man/man1/tth-hash.1
+@man share/man/man1/whirlpool-hash.1

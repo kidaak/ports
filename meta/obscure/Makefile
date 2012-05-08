@@ -2,15 +2,12 @@
 
 COMMENT =	Obscure Linux base packages
 
-VERSION =	0.1
+VERSION =	0
 PKGNAME =	obscure-base-${VERSION}
 
 # todo:
 # cksum
-# pkg-config
-# sed
 # libcap
-# linux-api-headers
 # glibc
 # gcc
 # perl
@@ -18,6 +15,7 @@ RUN_DEPENDS += \
 		archivers/bzip2		\
 		archivers/gtar		\
 		archivers/gzip		\
+		archivers/pax		\
 		archivers/unzip		\
 		archivers/xz		\
 		databases/db/v4,-main	\
@@ -26,7 +24,7 @@ RUN_DEPENDS += \
 		devel/gmake		\
 		devel/libbsd		\
 		devel/libcap		\
-		devel/linux,-headers	\
+		devel/linux		\
 		devel/ncurses		\
 		devel/ncursesw		\
 		devel/make		\
@@ -39,14 +37,15 @@ RUN_DEPENDS += \
 		shells/ksh		\
 		sysutils/arch		\
 		sysutils/binutils	\
+		sysutils/cksum		\
 		sysutils/coreutils	\
 		sysutils/diffutils	\
 		sysutils/file		\
 		sysutils/ggrep		\
 		sysutils/jot		\
 		sysutils/mtree		\
-		sysutils/cksum		\
 		sysutils/pkg-config	\
+		sysutils/sed		\
 		textproc/man		\
 		textproc/mdocml
 

@@ -1,4 +1,8 @@
-Target listing:
+Porting notes for linux
+=======================
+
+Target listing that Linux's source supports,
+can also be obtained with cd ${WRKSRC} && gmake help:
 
 Cleaning targets:
   clean		  - Remove most generated files but keep the config and

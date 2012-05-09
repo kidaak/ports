@@ -1,13 +1,13 @@
 @comment $OpenBSD: ports/misc/fileutils/pkg/PLIST-ls,v 1.6 2009/04/08 16:27:12 ajacoutot Exp $
 @conflict fileutils-*
-@bin bin/gdir
-@bin bin/gdircolors
-@bin bin/gls
-@bin bin/gvdir
-@man man/man1/gdir.1
-@man man/man1/gdircolors.1
-@man man/man1/gls.1
-@man man/man1/gvdir.1
+@bin bin/dir
+@bin bin/dircolors
+@bin bin/ls
+@bin bin/vdir
+@man man/man1/dir.1
+@man man/man1/dircolors.1
+@man man/man1/ls.1
+@man man/man1/vdir.1
 share/locale/cs/LC_MESSAGES/fileutils.mo
 share/locale/da/LC_MESSAGES/fileutils.mo
 share/locale/de/LC_MESSAGES/fileutils.mo

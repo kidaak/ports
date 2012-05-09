@@ -1,5 +1,7 @@
 # $OpenBSD: ports/devel/id-utils/Makefile,v 1.33 2012/03/29 13:38:30 sthen Exp $
 
+BROKEN=		Fix filename collision with gid in sh-utils
+
 COMMENT=	gid/lid tools for looking up variables in code
 
 DISTNAME=	id-utils-3.2d

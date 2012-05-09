@@ -1,71 +1,71 @@
 @comment $OpenBSD: ports/misc/sh-utils/pkg/PLIST,v 1.7 2005/11/19 01:23:42 alek Exp $
-bin/gbasename
-bin/gchroot
-bin/gdate
-bin/gdirname
-bin/gecho
-bin/genv
-bin/gexpr
-bin/gfactor
-bin/gfalse
-bin/ggid
-bin/ggroups
-bin/ghostid
-bin/ghostname
-bin/glogname
-bin/gnice
-bin/gnohup
-bin/gpathchk
-bin/gpinky
-bin/gprintenv
-bin/gprintf
-bin/gpwd
-bin/gseq
-bin/gsleep
-bin/gstty
-@comment bin/gsu
-bin/gtee
-bin/gtest
-bin/gtrue
-bin/gtty
-bin/guname
-bin/gusers
-bin/gwho
-bin/gwhoami
-bin/gyes
+@bin bin/basename
+@bin bin/chroot
+@bin bin/date
+@bin bin/dirname
+@bin bin/echo
+@bin bin/env
+@bin bin/expr
+@bin bin/factor
+@bin bin/false
+@bin bin/gid
+@bin bin/groups
+@bin bin/hostid
+@bin bin/hostname
+@bin bin/logname
+@bin bin/nice
+@bin bin/nohup
+@bin bin/pathchk
+@bin bin/pinky
+@bin bin/printenv
+@bin bin/printf
+@bin bin/pwd
+@bin bin/seq
+@bin bin/sleep
+@bin bin/stty
+@bin bin/su
+@bin bin/tee
+@bin bin/test
+@bin bin/true
+@bin bin/tty
+@bin bin/uname
+@bin bin/users
+@bin bin/who
+@bin bin/whoami
+@bin bin/yes
 @info info/sh-utils.info
-@man man/man1/gbasename.1
-@man man/man1/gchroot.1
-@man man/man1/gdate.1
-@man man/man1/gdirname.1
-@man man/man1/gecho.1
-@man man/man1/genv.1
-@man man/man1/gexpr.1
-@man man/man1/gfalse.1
-@man man/man1/ggid.1
-@man man/man1/ggroups.1
-@man man/man1/ghostid.1
-@man man/man1/ghostname.1
-@man man/man1/glogname.1
-@man man/man1/gnice.1
-@man man/man1/gnohup.1
-@man man/man1/gpathchk.1
-@man man/man1/gpinky.1
-@man man/man1/gprintenv.1
-@man man/man1/gprintf.1
-@man man/man1/gpwd.1
-@man man/man1/gsleep.1
-@man man/man1/gstty.1
-@man man/man1/gsu.1
-@man man/man1/gtee.1
-@man man/man1/gtest.1
-@man man/man1/gtrue.1
-@man man/man1/gtty.1
-@man man/man1/guname.1
-@man man/man1/gusers.1
-@man man/man1/gwho.1
-@man man/man1/gwhoami.1
-@man man/man1/gyes.1
+@man man/man1/basename.1
+@man man/man1/chroot.1
+@man man/man1/date.1
+@man man/man1/dirname.1
+@man man/man1/echo.1
+@man man/man1/env.1
+@man man/man1/expr.1
+@man man/man1/false.1
+@man man/man1/gid.1
+@man man/man1/groups.1
+@man man/man1/hostid.1
+@man man/man1/hostname.1
+@man man/man1/logname.1
+@man man/man1/nice.1
+@man man/man1/nohup.1
+@man man/man1/pathchk.1
+@man man/man1/pinky.1
+@man man/man1/printenv.1
+@man man/man1/printf.1
+@man man/man1/pwd.1
+@man man/man1/sleep.1
+@man man/man1/stty.1
+@man man/man1/su.1
+@man man/man1/tee.1
+@man man/man1/test.1
+@man man/man1/true.1
+@man man/man1/tty.1
+@man man/man1/uname.1
+@man man/man1/users.1
+@man man/man1/who.1
+@man man/man1/whoami.1
+@man man/man1/yes.1
 share/locale/cs/LC_MESSAGES/sh-utils.mo
 share/locale/de/LC_MESSAGES/sh-utils.mo
 share/locale/el/LC_MESSAGES/sh-utils.mo

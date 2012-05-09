@@ -11,6 +11,3 @@ mkfifo (creates FIFOs or named pipes), mknod (creates special files),
 mv (renames files), rm (removes/deletes files), rmdir (removes empty
 directories), sync (synchronizes memory and disk), touch (changes file
 timestamps), and vdir (provides long directory listings).
-
-All the binaries are prefixed by the letter g to differentiate them
-with the standard applications with the same name.

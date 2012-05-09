@@ -3,7 +3,6 @@
 COMMENT=	GNU versions of grep pattern matching utilities
 
 DISTNAME=	grep-2.11
-PKGNAME=	g${DISTNAME}
 CATEGORIES=	sysutils
 HOMEPAGE=	http://www.gnu.org/software/grep/grep.html
 
@@ -26,7 +25,6 @@ LIB_DEPENDS=	devel/pcre
 BUILD_DEPENDS=	devel/gperf
 
 CONFIGURE_STYLE=gnu
-CONFIGURE_ARGS=	--program-prefix=g
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
 MODGNU_CONFIG_GUESS_DIRS=${WRKSRC}/build-aux

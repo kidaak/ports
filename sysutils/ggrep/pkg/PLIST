@@ -1,12 +1,12 @@
 @comment $OpenBSD: ports/sysutils/ggrep/pkg/PLIST,v 1.4 2011/05/31 19:36:36 naddy Exp $
-@bin bin/gegrep
-@bin bin/gfgrep
-@bin bin/ggrep
+@bin bin/egrep
+@bin bin/fgrep
+@bin bin/grep
 @info info/grep.info
 @comment lib/charset.alias
-@man man/man1/gegrep.1
-@man man/man1/gfgrep.1
-@man man/man1/ggrep.1
+@man man/man1/egrep.1
+@man man/man1/fgrep.1
+@man man/man1/grep.1
 share/locale/af/
 share/locale/af/LC_MESSAGES/
 share/locale/af/LC_MESSAGES/grep.mo

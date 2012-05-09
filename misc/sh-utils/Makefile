@@ -22,16 +22,7 @@ SEPARATE_BUILD=		Yes
 USE_GMAKE=		Yes
 USE_GROFF =		Yes
 CONFIGURE_STYLE=	gnu
-CONFIGURE_ARGS=		--program-prefix="g"
 CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include" \
 			LDFLAGS="-L${LOCALBASE}/lib"
-
-# since we got a conflict with id-utils regarding the name gid, rename that
-# binary to ggid.
-
-post-install:
-	@[ -x ${PREFIX}/bin/gid ] && mv ${PREFIX}/bin/gid ${PREFIX}/bin/ggid
-	@[ -f ${PREFIX}/man/man1/gid.1 ] && mv ${PREFIX}/man/man1/gid.1 \
-					       ${PREFIX}/man/man1/ggid.1
 	
 .include <bsd.port.mk>

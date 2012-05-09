@@ -21,14 +21,6 @@ EXTRACT_SUFX =		.tar.xz
 MODULES =		devel/gettext
 
 CONFIGURE_STYLE =	gnu
-CONFIGURE_ARGS =	--program-prefix=g \
-			--without-gmp
-
-# Prevent conflicts with: id, gpr and god
-post-install:
-.for I in gid god gpr
-	mv "${PREFIX}/bin/$I" "${PREFIX}/bin/g$I"
-	mv "${PREFIX}/man/man1/$I.1" "${PREFIX}/man/man1/g$I.1"
-.endfor
+CONFIGURE_ARGS =	--without-gmp
 
 .include <bsd.port.mk>

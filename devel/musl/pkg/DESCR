@@ -1,0 +1,11 @@
+Musl, pronounced like mussel or muscle, is an implementation of the
+C/POSIX standard library intended for use on Linux-based systems,
+licensed under a standard MIT license. Whereas the kernel (Linux)
+governs access to hardware, memory, filesystems, and the privileges
+for accessing these resources, the C library is responsible for
+providing the actual C function interfaces userspace applications see,
+and for constructing higher-level buffered stdio, memory allocation
+management, thread creation and synchronization operations, and so
+on using the lower-level interfaces the kernel provides, as well as
+for implementing pure library routines of the C language like strstr,
+snprintf, strtol, exp, sqrt, etc.

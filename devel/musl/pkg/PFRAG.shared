@@ -1,0 +1,2 @@
+@comment $OpenBSD$
+@lib lib/libc.so.${LIBc_VERSION}

@@ -1,0 +1,53 @@
+$OpenBSD$
+--- Makefile.orig	2012-05-06 21:23:19.000000000 +0000
++++ Makefile	2012-05-09 19:13:01.000000000 +0000
+@@ -8,6 +8,9 @@
+ # Do not make changes here.
+ #
+ 
++LIBC_MAJOR ?= 0
++LIBC_MINOR ?= 0
++
+ exec_prefix = /usr/local
+ bindir = $(exec_prefix)/bin
+ 
+@@ -31,7 +34,7 @@ CFLAGS_ALL = $(CFLAGS_C99FSE)
+ CFLAGS_ALL += -D_XOPEN_SOURCE=700 -I./src/internal -I./include -I./arch/$(ARCH)
+ CFLAGS_ALL += $(CPPFLAGS) $(CFLAGS)
+ CFLAGS_ALL_STATIC = $(CFLAGS_ALL)
+-CFLAGS_ALL_SHARED = $(CFLAGS_ALL) -fPIC -DSHARED -O3
++CFLAGS_ALL_SHARED = $(CFLAGS_ALL) -fPIC -DSHARED
+ 
+ AR      = $(CROSS_COMPILE)ar
+ RANLIB  = $(CROSS_COMPILE)ranlib
+@@ -42,7 +45,7 @@ EMPTY_LIB_NAMES = m rt pthread crypt uti
+ EMPTY_LIBS = $(EMPTY_LIB_NAMES:%=lib/lib%.a)
+ CRT_LIBS = lib/crt1.o lib/Scrt1.o lib/crti.o lib/crtn.o
+ STATIC_LIBS = lib/libc.a
+-SHARED_LIBS = lib/libc.so
++SHARED_LIBS = lib/libc.so.${LIBC_MAJOR}.${LIBC_MINOR}
+ TOOL_LIBS = lib/musl-gcc.specs
+ ALL_LIBS = $(CRT_LIBS) $(STATIC_LIBS) $(SHARED_LIBS) $(EMPTY_LIBS) $(TOOL_LIBS)
+ ALL_TOOLS = tools/musl-gcc
+@@ -88,10 +91,10 @@ include/bits/alltypes.h: include/bits/al
+ %.lo: %.c $(GENH) $(IMPH)
+ 	$(CC) $(CFLAGS_ALL_SHARED) -c -o $@ $<
+ 
+-lib/libc.so: $(LOBJS)
++lib/libc.so.${LIBC_MAJOR}.${LIBC_MINOR}: $(LOBJS)
+ 	$(CC) $(CFLAGS_ALL_SHARED) $(LDFLAGS) -nostdlib -shared \
+ 	-Wl,-e,_start -Wl,-Bsymbolic-functions \
+-	-Wl,-soname=libc.so -o $@ $(LOBJS) -lgcc
++	-Wl,-soname=libc.so.${LIBC_MAJOR} -o $@ $(LOBJS) -lgcc
+ 
+ lib/libc.a: $(OBJS)
+ 	rm -f $@
+@@ -125,7 +128,7 @@ $(DESTDIR)$(includedir)/%: include/%
+ 	install -D -m 644 $< $@
+ 
+ $(DESTDIR)$(LDSO_PATHNAME): $(DESTDIR)$(syslibdir)
+-	ln -sf $(libdir)/libc.so $@ || true
++	ln -sf $(libdir)/libc.so.${LIBC_MAJOR}.${LIBC_MINOR} $@ || true
+ 
+ $(DESTDIR)$(syslibdir):
+ 	install -d -m 755 $(DESTDIR)$(syslibdir)

@@ -387,14 +387,17 @@ sub run_objdump
 
 sub parse_objdump
 {
+	my $os = $^O;
 	my ($cmd, $dest, $fullname) = @_;
 	my @l = ();
 	while (my $line = <$cmd>) {
 		if ($line =~ m/^\s+NEEDED\s+(.*?)\s*$/) {
 			my $lib = $1;
 			push(@l, $lib);
-			# detect linux binaries
-			if ($lib eq 'libc.so.6') {
+			# detect linux binaries, except on linux of course,
+			# because there we want binaries tagged @bin
+			# just like on openbsd.
+			if ($lib eq 'libc.so.6' && $os ne "linux") {
 				return ();
 			}
 		} elsif ($line =~ m/^\s+RPATH\s+(.*)\s*$/) {

@@ -2580,8 +2580,10 @@ ${_FAKE_COOKIE}: ${_BUILD_COOKIE}
 	done
 
 	@${SUDO} ${_MAKE_COOKIE} $@
+.if !defined(PRESERVE_LINKS)
 	@echo "Removing symlinks created by linker."
-	-find ${WRKINST}/${PREFIX}/lib/ -type l -name "lib*.so*" -print0 2>/dev/null | xargs -0r rm -f
+	-find ${WRKINST}/${PREFIX}/lib/ -type l -name "lib*.so*" -print0 2>/dev/null | xargs -0tr -n 1 rm -f
+.endif
 
 print-plist:
 	@${_PKG_CREATE} -n -q ${PKG_ARGS${SUBPACKAGE}} ${_PACKAGE_COOKIE${SUBPACKAGE}}

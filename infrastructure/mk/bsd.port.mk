@@ -851,6 +851,8 @@ _PKG_ADD_AUTO ?=
 _PKG_ADD_AUTO += -a
 .endif
 
+_PATH_ENV = "PATH=$${PATH}"
+
 _TERM_ENV = PKG_TMPDIR=${PKG_TMPDIR}
 .for _v in TERM TERMCAP ftp_proxy http_proxy
 .  if defined(${_v})
@@ -1742,7 +1744,7 @@ ${_INSTALL_COOKIE${_S}}:
 		${SUDO} ${SETENV} ${_TERM_ENV} PKG_PATH=${_PKG_REPO} ${_PKG_ADD} ${_PKG_ADD_AUTO} ${PKGFILE${_S}}; \
 	fi
 .  else
-	@${SUDO} ${SETENV} ${_TERM_ENV} PKG_PATH=${_PKG_REPO} ${_PKG_ADD} ${_PKG_ADD_AUTO} ${PKGFILE${_S}}
+	@${SUDO} ${SETENV} ${_PATH_ENV} ${_TERM_ENV} PKG_PATH=${_PKG_REPO} ${_PKG_ADD} ${_PKG_ADD_AUTO} ${PKGFILE${_S}}
 .  endif
 	@-${SUDO} ${_MAKE_COOKIE} $@
 

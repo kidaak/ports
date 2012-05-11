@@ -111,13 +111,20 @@ sub is_shared_object
 	$filename = resolve_link($filename);
 	my $check=`/usr/bin/file \Q$filename\E`;
 	chomp $check;
-	if (($check =~m/\: ELF (32|64)-bit (MSB|LSB) shared object\,/ &&
-	    $check !~m/^.*(uses shared libs)/) ||
-	    $check =~m/OpenBSD\/.* demand paged shared library/) {
-	    	return 1;
+	# ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked, BuildID[sha1]=0xf05f4491dd3210e8dff2ec760adf438d636b3552, not stripped
+	# ELF 64-bit LSB shared object, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), BuildID[sha1]=0x7eb746583bc06864063e3efc9d876f0a822fc3e1, for GNU/Linux 2.4.0, stripped
+	if ($os eq "linux") {
+		if ($check =~m{: ELF (32|64)-bit (MSB|LSB) shared object,.+dynamically linked}) {
+			return 1;
+		}
 	} else {
-		return 0;
+		if (($check =~m/\: ELF (32|64)-bit (MSB|LSB) shared object\,/ &&
+		$check !~m/^.*(uses shared libs)/) ||
+		$check =~m/OpenBSD\/.* demand paged shared library/) {
+			return 1;
+		}
 	}
+	return 0;
 }
 
 sub is_library

@@ -128,12 +128,21 @@ sub is_library
 
 sub is_binary
 {
+	my $os = $^O;
+	my $regexp;
 	my $filename = shift;
 	return 0 if -l $filename or ! -x $filename;
 	my $check=`/usr/bin/file \Q$filename\E`;
 	chomp $check;
-	if ($check =~m/\: (setuid |setgid |)ELF (32|64)-bit (MSB|LSB) (executable|shared object)\,.+ for OpenBSD\,/) {
-	    	return 1;
+	if ($os eq "linux") {
+		# ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.32, BuildID[sha1]=0x6fe4fdcaa81170442834d5be3e3d0d4598d74e27, stripped
+		$regexp = qr{: (setuid |setgid |)ELF (32|64)-bit (MSB|LSB) (executable|shared object),.+ for GNU/Linux};
+	} else {
+		# ELF 32-bit LSB executable, Intel 80386, version 1, for OpenBSD, dynamically linked (uses shared libs), stripped
+		$regexp = qr{\: (setuid |setgid |)ELF (32|64)-bit (MSB|LSB) (executable|shared object)\,.+ for OpenBSD\,};
+	}
+	if ($check =~ $regexp) {
+		return 1;
 	} else {
 		return 0;
 	}

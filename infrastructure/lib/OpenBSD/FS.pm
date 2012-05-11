@@ -18,6 +18,8 @@ use warnings;
 
 package OpenBSD::FS::File;
 
+my $os = $^O;
+
 sub new
 {
 	my ($class, $filename, $type, $owner, $group) = @_;
@@ -128,7 +130,6 @@ sub is_library
 
 sub is_binary
 {
-	my $os = $^O;
 	my $regexp;
 	my $filename = shift;
 	return 0 if -l $filename or ! -x $filename;
@@ -143,9 +144,8 @@ sub is_binary
 	}
 	if ($check =~ $regexp) {
 		return 1;
-	} else {
-		return 0;
 	}
+	return 0;
 }
 
 sub is_plugin

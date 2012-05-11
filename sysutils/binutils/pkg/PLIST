@@ -1,20 +1,21 @@
 @comment $OpenBSD$
-bin/addr2line
-bin/ar
-bin/as
-bin/c++filt
-bin/elfedit
-bin/gprof
-bin/ld
-bin/ld.bfd
-bin/nm
-bin/objcopy
-bin/objdump
-bin/ranlib
-bin/readelf
-bin/size
-bin/strings
-bin/strip
+%%SHARED%%
+@bin bin/addr2line
+@bin bin/ar
+@bin bin/as
+@bin bin/c++filt
+@bin bin/elfedit
+@bin bin/gprof
+@bin bin/ld
+@bin bin/ld.bfd
+@bin bin/nm
+@bin bin/objcopy
+@bin bin/objdump
+@bin bin/ranlib
+@bin bin/readelf
+@bin bin/size
+@bin bin/strings
+@bin bin/strip
 include/ansidecl.h
 include/bfd.h
 include/bfdlink.h
@@ -180,86 +181,3 @@ share/locale/zh_TW/
 share/locale/zh_TW/LC_MESSAGES/
 share/locale/zh_TW/LC_MESSAGES/binutils.mo
 share/locale/zh_TW/LC_MESSAGES/ld.mo
-${ARCH}-${MACHINE_ARCH}-linux-gnu/
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/ar
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/as
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/ld
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/ld.bfd
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/nm
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/objcopy
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/objdump
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/ranlib
-${ARCH}-${MACHINE_ARCH}-linux-gnu/bin/strip
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.x
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xbn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xd
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xdc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xdw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xr
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xs
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xsc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xsw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xu
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf32_${ARCH}.xw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.x
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xbn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xd
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xdc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xdw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xr
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xs
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xsc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xsw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xu
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_i386.xw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.x
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xbn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xd
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xdc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xdw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xr
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xs
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xsc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xsw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xu
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_k1om.xw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.x
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xbn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xd
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xdc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xdw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xr
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xs
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xsc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xsw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xu
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_l1om.xw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.x
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xbn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xd
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xdc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xdw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xr
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xs
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xsc
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xsw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xu
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/elf_${ARCH}.xw
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/i386linux.x
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/i386linux.xbn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/i386linux.xn
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/i386linux.xr
-${ARCH}-${MACHINE_ARCH}-linux-gnu/lib/ldscripts/i386linux.xu

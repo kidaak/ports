@@ -3,7 +3,7 @@
 PREFIX =		/usr
 
 COMMENT =		OpenBSD make: maintain program dependencies
-DISTNAME =		make-20120505
+DISTNAME =		make-20120512
 CATEGORIES =		devel sysutils
 
 #HOMEPAGE =		???	URL
@@ -41,4 +41,5 @@ MASTER_SITES =		${MASTER_SITE_OBSCURE}
 do-install:
 	${INSTALL_PROGRAM} ${WRKSRC}/make ${PREFIX}/bin/
 	${INSTALL_MAN} ${WRKSRC}/make.1 ${PREFIX}/man/man1/
+
 .include <bsd.port.mk>

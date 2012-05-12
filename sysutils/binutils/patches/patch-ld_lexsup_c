@@ -1,0 +1,42 @@
+$OpenBSD$
+--- ld/lexsup.c.orig	2011-11-21 09:29:38.000000000 +0000
++++ ld/lexsup.c	2012-05-12 00:35:01.000000000 +0000
+@@ -23,6 +23,7 @@
+ #include "sysdep.h"
+ #include "bfd.h"
+ #include "bfdver.h"
++#include <errno.h>
+ #include "libiberty.h"
+ #include <stdio.h>
+ #include <string.h>
+@@ -39,6 +40,7 @@
+ #include "ldfile.h"
+ #include "ldver.h"
+ #include "ldemul.h"
++#include <libgen.h>
+ #include "demangle.h"
+ #ifdef ENABLE_PLUGINS
+ #include "plugin.h"
+@@ -1057,6 +1059,12 @@ parse_args (unsigned argc, char **argv)
+ 	  link_info.optimize = strtoul (optarg, NULL, 0) ? TRUE : FALSE;
+ 	  break;
+ 	case 'o':
++	  /* Set SONAME to be the same as output name */
++	  command_line.soname = basename(optarg);
++	  if (command_line.soname == NULL) {
++	    printf("Error: %s\n", strerror(errno));
++	    exit(1);
++	  }
+ 	  lang_add_output (optarg, 0);
+ 	  break;
+ 	case OPTION_OFORMAT:
+@@ -1217,7 +1225,8 @@ parse_args (unsigned argc, char **argv)
+ 	  break;
+ 	case 'h':		/* Used on Solaris.  */
+ 	case OPTION_SONAME:
+-	  command_line.soname = optarg;
++	  /* NO-OP, -o will set this */
++	  /*command_line.soname = optarg;*/
+ 	  break;
+ 	case OPTION_SORT_COMMON:
+ 	  if (optarg == NULL

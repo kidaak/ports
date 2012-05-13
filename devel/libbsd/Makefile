@@ -33,14 +33,15 @@ MASTER_SITES =		${HOMEPAGE}releases/
 
 MAKE_FLAGS =		LIB_SONAME=libbsd.so.${MAJOR}		\
 			LIB_SHARED=libbsd.so.${MAJOR}.${MINOR}	\
-			prefix=${LOCALBASE}			\
-			exec_prefix=${LOCALBASE}
+			prefix=${TRUEPREFIX}			\
+			exec_prefix=${TRUEPREFIX}
 
 #MAKE_ENV =		
 #FAKE_FLAGS =		???
 
 USE_GMAKE =		Yes
 #USE_GROFF =		Yes
+USE_LIBTOOL =		Yes
 
 NO_REGRESS =		Yes
 

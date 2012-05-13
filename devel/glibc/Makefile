@@ -3,7 +3,34 @@
 COMMENT =		GNU C library
 DISTNAME =		glibc-2.15
 
-#SHARED_LIBS =		???
+SHARED_LIBS +=		ld		0.0
+SHARED_LIBS +=		BrokenLocale	0.0
+SHARED_LIBS +=		SegFault	0.0
+SHARED_LIBS +=		anl		0.0
+SHARED_LIBS +=		c		0.0
+SHARED_LIBS +=		cidn		0.0
+SHARED_LIBS +=		crypt		0.0
+SHARED_LIBS +=		dl		0.0
+SHARED_LIBS +=		m		0.0
+SHARED_LIBS +=		memusage	0.0
+SHARED_LIBS +=		nsl		0.0
+### These must match NSS_SHLIB_REVISION
+SHARED_LIBS +=		nss_compat	0.0
+SHARED_LIBS +=		nss_db		0.0
+SHARED_LIBS +=		nss_dns		0.0
+SHARED_LIBS +=		nss_files	0.0
+SHARED_LIBS +=		nss_hesiod	0.0
+SHARED_LIBS +=		nss_nis		0.0
+SHARED_LIBS +=		nss_nisplus	0.0
+###
+SHARED_LIBS +=		pcprofile	0.0
+SHARED_LIBS +=		pthread		0.0
+SHARED_LIBS +=		pthread		0.0
+SHARED_LIBS +=		rlv		0.0
+SHARED_LIBS +=		rt		0.0
+SHARED_LIBS +=		thread_db	0.0
+SHARED_LIBS +=		util		0.0
+
 
 CATEGORIES =		devel
 
@@ -47,5 +74,16 @@ CONFIGURE_ARGS +=	${CONFIGURE_SHARED}			\
 
 #CFLAGS =		???
 #LDFLAGS =		???
+
+pre-configure:
+.for _N _V in ${SHARED_LIBS}
+	perl -pi -e 's,\$$\{LIB${_N}_VERSION\},${_V},' '${WRKSRC}/shlib-versions'
+.endfor
+
+post-install:
+.for _N _V in ${SHARED_LIBS}
+	rm -f "${PREFIX}/lib/${_N}.${_V}"
+	mv "${PREFIX}/lib/lib${_N}-"*.so "${PREFIX}/lib/lib${_LIB}.so.${_VER}"
+.endfor
 
 .include <bsd.port.mk>

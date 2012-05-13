@@ -1,0 +1,89 @@
+$OpenBSD$
+--- shlib-versions.orig	2012-01-01 12:16:32.000000000 +0000
++++ shlib-versions	2012-05-13 15:11:38.000000000 +0000
+@@ -56,7 +56,7 @@ sparc64.*-.*-linux.*	libm=6			GLIBC_2.2
+ alpha.*-.*-linux.*	libm=6.1
+ ia64-.*-linux.*		libm=6.1		GLIBC_2.2
+ sh.*-.*-linux.*		libm=6			GLIBC_2.2
+-.*-.*-linux.*		libm=6
++.*-.*-linux.*		libm=${LIBm_VERSION}
+ .*-.*-gnu-gnu.*		libm=6
+ 
+ # We provide libc.so.6 for Linux kernel versions 2.0 and later.
+@@ -64,7 +64,7 @@ alpha.*-.*-linux.*	libc=6.1
+ ia64-.*-linux.*		libc=6.1		GLIBC_2.2
+ sh.*-.*-linux.*		libc=6			GLIBC_2.2
+ sparc64.*-.*-linux.*	libc=6			GLIBC_2.2
+-.*-.*-linux.*		libc=6
++.*-.*-linux.*		libc=${LIBc_VERSION}
+ 
+ # libmachuser.so.1 corresponds to mach/*.defs as of Utah's UK22 release.
+ .*-.*-gnu-gnu.*		libmachuser=1
+@@ -91,29 +91,29 @@ x86_64-.*-linux.*	ld=ld-linux-x86-64.so.
+ 
+ # The -ldl interface (see <dlfcn.h>) is the same on all platforms.
+ alpha.*-.*-linux.*	libdl=2.1
+-.*-.*-.*		libdl=2
++.*-.*-.*		libdl=${LIBdl_VERSION}
+ 
+ # So far the -lutil interface is the same on all platforms, except for the
+ # `struct utmp' format, which depends on libc.
+ alpha.*-.*-linux.*	libutil=1.1
+-.*-.*-.*		libutil=1
++.*-.*-.*		libutil=${LIButil_VERSION}
+ 
+ # Version number 2 is used on other systems for the BIND 4.9.5 resolver
+ # interface.
+ alpha.*-.*-linux.*	libresolv=2.1
+-.*-.*-.*		libresolv=2
++.*-.*-.*		libresolv=${LIBresolv_VERSION}
+ 
+ # Interface revision of nss_* modules.  This must match NSS_SHLIB_REVISION
+ # in nss/nsswitch.h, which determines the library names used for service
+ # names given in /etc/nsswitch.conf.
+-.*-.*-.*		libnss_files=2
+-.*-.*-.*		libnss_dns=2
+-.*-.*-.*		libnss_compat=2
+-.*-.*-.*		libnss_nis=2
+-.*-.*-.*		libnss_nisplus=2
+-.*-.*-.*		libnss_ldap=2
+-.*-.*-.*		libnss_hesiod=2
+-.*-.*-.*		libnss_db=2
++.*-.*-.*		libnss_files=${LIBnss_files_VERSION}
++.*-.*-.*		libnss_dns=${LIBnss_dns_VERSION}
++.*-.*-.*		libnss_compat=${LIBnss_compat_VERSION}
++.*-.*-.*		libnss_nis=${LIBnss_nis_VERSION}
++.*-.*-.*		libnss_nisplus=${LIBnss_nisplus_VERSION}
++.*-.*-.*		libnss_ldap=${LIBnss_ldap_VERSION}
++.*-.*-.*		libnss_hesiod=${LIBnss_hesiod_VERSION}
++.*-.*-.*		libnss_db=${LIBnss_db_VERSION}
+ 
+ # Tests for NSS.  They must have the same NSS_SHLIB_REVISION number as
+ # the rest.
+@@ -121,21 +121,21 @@ alpha.*-.*-linux.*	libresolv=2.1
+ 
+ # Version for libnsl with YP and NIS+ functions.
+ alpha.*-.*-linux.*	libnsl=1.1
+-.*-.*-.*		libnsl=1
++.*-.*-.*		libnsl=${LIBnsl_VERSION}
+ 
+ # This defines the shared library version numbers we will install.
+ alpha.*-.*-linux.*	libcrypt=1.1
+-.*-.*-.*		libcrypt=1
++.*-.*-.*		libcrypt=${LIBcrypt_VERSION}
+ 
+ # The gross patch for programs assuming broken locale implementations.
+ alpha.*-.*-linux.*	libBrokenLocale=1.1
+ ia64-.*-.*		libBrokenLocale=1	GLIBC_2.2
+ sh.*-.*-.*		libBrokenLocale=1	GLIBC_2.2
+ sparc64.*-.*-.*		libBrokenLocale=1	GLIBC_2.2
+-.*-.*-.*		libBrokenLocale=1
++.*-.*-.*		libBrokenLocale=${LIBBrokenLocale_VERSION}
+ 
+ # The real-time library from POSIX.1b.
+-.*-.*-.*		librt=1
++.*-.*-.*		librt=${LIBrt_VERSION}
+ 
+ # The asynchronous name lookup library.
+-.*-.*-.*		libanl=1
++.*-.*-.*		libanl=${LIBanl_VERSION}

@@ -1,0 +1,21 @@
+$OpenBSD$
+--- elf/Makefile.orig	2012-05-13 20:06:40.000000000 +0000
++++ elf/Makefile	2012-05-13 20:14:47.000000000 +0000
+@@ -182,7 +182,7 @@ generated += sotruss
+ CPPFLAGS-sotruss-lib = -DNOT_IN_libc
+ $(objpfx)sotruss-lib.so: $(objpfx)sotruss-lib.os
+ 	$(build-module-asneeded)
+-$(objpfx)sotruss-lib.so: $(common-objpfx)libc.so $(objpfx)ld.so \
++$(objpfx)sotruss-lib.so: $(common-objpfx)libc.so$(libc.so-version) $(objpfx)ld.so \
+ 	$(common-objpfx)libc_nonshared.a
+ 
+ $(objpfx)sotruss: sotruss.ksh $(common-objpfx)config.make
+@@ -455,7 +455,7 @@ $(inst_slibdir)/$(rtld-version-installed
+ 
+ $(inst_slibdir)/$(rtld-installed-name): \
+   $(inst_slibdir)/$(rtld-version-installed-name) \
+-  $(inst_slibdir)/libc-$(version).so
++  $(inst_slibdir)/libc.so$(libc.so-version)
+ 	$(make-shlib-link)
+ 
+ # Special target called by parent to install just the dynamic linker.

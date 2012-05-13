@@ -1,0 +1,41 @@
+$OpenBSD$
+--- Makerules.orig	2012-05-13 19:41:58.000000000 +0000
++++ Makerules	2012-05-13 20:14:24.000000000 +0000
+@@ -524,7 +524,7 @@ shlib-lds-flags = -T $(shlib-lds)
+ endif
+ 
+ define build-shlib
+-$(build-shlib-helper) -o $@ $(shlib-lds-flags) \
++$(build-shlib-helper) -o $(@)$($(@F)-version) $(shlib-lds-flags) \
+ 	  $(csu-objpfx)abi-note.o $(build-shlib-objlist)
+ endef
+ else
+@@ -639,16 +639,16 @@ libc_pic_clean := .clean
+ endif
+ 
+ # Use our own special initializer and finalizer files for libc.so.
+-$(common-objpfx)libc.so: $(elfobjdir)/soinit.os \
++$(common-objpfx)libc.so$(libc.so-version): $(elfobjdir)/soinit.os \
+ 			 $(common-objpfx)libc_pic.os$(libc_pic_clean) \
+ 			 $(elfobjdir)/sofini.os \
+ 			 $(elfobjdir)/interp.os $(elfobjdir)/ld.so \
+ 			 $(shlib-lds)
+ 	$(build-shlib)
+ ifeq ($(versioning),yes)
+-$(common-objpfx)libc.so: $(common-objpfx)libc.map
++$(common-objpfx)libc.so$(libc.so-version): $(common-objpfx)libc.map
+ endif
+-common-generated += libc.so libc_pic.os
++common-generated += libc.so$(libc.so-version) libc_pic.os
+ ifdef libc.so-version
+ $(common-objpfx)libc.so$(libc.so-version): $(common-objpfx)libc.so
+ 	$(make-link)
+@@ -715,7 +715,7 @@ include $(patsubst %,$(..)extra-modules.
+ extra-modules-build := $(filter-out $(modules-names-nobuild),$(modules-names))
+ $(extra-modules-build:%=$(objpfx)%.so): $(objpfx)%.so: \
+ 		$(objpfx)%.os $(shlib-lds) \
+-		$(common-objpfx)libc.so $(common-objpfx)libc_nonshared.a
++		$(common-objpfx)libc.so$(libc.so-version) $(common-objpfx)libc_nonshared.a
+ 	$(build-module)
+ endif
+ 

@@ -1,20 +1,20 @@
 @comment $OpenBSD$
 %%SHARED%%
 bin/catchsegv
-bin/gencat
-bin/getconf
-bin/getent
-bin/iconv
+@bin bin/gencat
+@bin bin/getconf
+@bin bin/getent
+@bin bin/iconv
 bin/ldd
-bin/locale
-bin/localedef
-bin/makedb
+@bin bin/locale
+@bin bin/localedef
+@bin bin/makedb
 bin/mtrace
-bin/pcprofiledump
-bin/pldd
-bin/rpcgen
+@bin bin/pcprofiledump
+@bin bin/pldd
+@bin bin/rpcgen
 bin/sotruss
-bin/sprof
+@bin bin/sprof
 bin/tzselect
 bin/xtrace
 include/_G_config.h
@@ -408,61 +408,37 @@ lib/crtn.o
 lib/gconv/
 lib/gconv/gconv-modules
 lib/gcrt1.o
-lib/ld-linux-x86-64.so.2
-lib/libBrokenLocale-2.15.so
 lib/libBrokenLocale.a
-lib/libSegFault.so
-lib/libanl-2.15.so
 lib/libanl.a
 lib/libbsd-compat.a
-lib/libc-2.15.so
 lib/libc.a
 lib/libc.so
 lib/libc_nonshared.a
-lib/libcidn-2.15.so
-lib/libcrypt-2.15.so
 lib/libcrypt.a
-lib/libdl-2.15.so
 lib/libdl.a
 lib/libg.a
 lib/libieee.a
-lib/libm-2.15.so
 lib/libm.a
 lib/libmcheck.a
-lib/libmemusage.so
-lib/libnsl-2.15.so
 lib/libnsl.a
-lib/libnss_compat-2.15.so
-lib/libnss_db-2.15.so
-lib/libnss_dns-2.15.so
-lib/libnss_files-2.15.so
-lib/libnss_hesiod-2.15.so
-lib/libnss_nis-2.15.so
-lib/libnss_nisplus-2.15.so
-lib/libpcprofile.so
-lib/libpthread-2.15.so
 lib/libpthread.a
 lib/libpthread.so
 lib/libpthread_nonshared.a
-lib/libresolv-2.15.so
 lib/libresolv.a
 lib/librpcsvc.a
-lib/librt-2.15.so
 lib/librt.a
-lib/libthread_db-1.0.so
-lib/libutil-2.15.so
 lib/libutil.a
 libexec/getconf/
-libexec/getconf/POSIX_V6_LP64_OFF64
-libexec/getconf/POSIX_V7_LP64_OFF64
-libexec/getconf/XBS5_LP64_OFF64
-libexec/pt_chown
-sbin/iconvconfig
-sbin/ldconfig
-sbin/nscd
-sbin/sln
-sbin/zdump
-sbin/zic
+@bin libexec/getconf/POSIX_V6_LP64_OFF64
+@bin libexec/getconf/POSIX_V7_LP64_OFF64–
+@bin libexec/getconf/XBS5_LP64_OFF64
+@bin libexec/pt_chown
+@bin sbin/iconvconfig
+@bin sbin/ldconfig
+@bin sbin/nscd
+@bin sbin/sln
+@bin sbin/zdump
+@bin sbin/zic
 share/i18n/
 share/i18n/charmaps/
 share/i18n/charmaps/ANSI_X3.110-1983.gz

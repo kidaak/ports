@@ -1,3 +1,0 @@
-@comment $OpenBSD$
-lib/libbfd-${VERSION}.so
-lib/libopcodes-${VERSION}.so

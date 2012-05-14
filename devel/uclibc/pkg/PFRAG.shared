@@ -1,0 +1,9 @@
+@comment $OpenBSD$
+lib/ld.so
+lib/ld.so.0.0
+@lib lib/libc.so.${LIBc_VERSION}
+@lib lib/libcrypt.so.${LIBcrypt_VERSION}
+@lib lib/libdl.so.${LIBdl_VERSION}
+@lib lib/libm.so.${LIBm_VERSION}
+@lib lib/libpthread.so.${LIBpthread_VERSION}
+@lib lib/librt.so.${LIBrt_VERSION}

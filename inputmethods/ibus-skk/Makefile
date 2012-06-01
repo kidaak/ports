@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/ibus-skk/Makefile,v 1.9 2011/10/03 06:42:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	japanese skk input engine for ibus
 

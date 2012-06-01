@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/py-openssl/Makefile,v 1.18 2011/11/25 20:19:30 eric Exp $
+# $OpenBSD$
 
 COMMENT=	Python interface to the OpenSSL library
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/icmpinfo/Makefile,v 1.15 2010/10/18 18:36:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	look at the icmp messages received by the host
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ratproxy/patches/patch-Makefile,v 1.1.1.1 2008/09/23 20:59:40 jasper Exp $
+$OpenBSD$
 
 Disable flare-check target, which in turn disables scanning Flash files.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/flash/Makefile,v 1.12 2010/11/17 08:05:13 espie Exp $
+# $OpenBSD$
 
 COMMENT=	open source standalone flash(tm) player
 

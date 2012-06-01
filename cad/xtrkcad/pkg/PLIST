@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/xtrkcad/pkg/PLIST,v 1.1.1.1 2010/10/24 20:07:55 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/xtrkcad
 share/xtrkcad/
 share/xtrkcad/COPYING

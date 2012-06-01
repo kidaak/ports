@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/recode/Makefile,v 1.33 2011/06/08 17:32:05 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	convert files between character sets and usages
 

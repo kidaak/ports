@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ufraw/Makefile,v 1.30 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	read and manipulate raw images from digital cameras
 

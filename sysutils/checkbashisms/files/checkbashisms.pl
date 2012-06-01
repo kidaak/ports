@@ -1,5 +1,5 @@
 #! /usr/bin/perl -w
-# $OpenBSD: ports/sysutils/checkbashisms/files/checkbashisms.pl,v 1.2 2009/02/14 08:53:21 jasper Exp $
+# $OpenBSD$
 # This script is essentially copied from /usr/share/lintian/checks/scripts,
 # which is:
 #   Copyright (C) 1998 Richard Braakman

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Data-PowerSet/Makefile,v 1.4 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		generate all subsets of a list of elements
 

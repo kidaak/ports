@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/patches-3.1/patch-admin_ltmain_sh,v 1.1 2003/02/08 12:37:50 espie Exp $
+$OpenBSD$
 --- admin/ltmain.sh.orig	Sun Jan  5 16:49:09 2003
 +++ admin/ltmain.sh	Sun Jan  5 17:04:25 2003
 @@ -1249,6 +1249,17 @@ EOF

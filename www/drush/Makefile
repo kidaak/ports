@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drush/Makefile,v 1.4 2012/04/09 16:12:12 espie Exp $
+# $OpenBSD$
 
 COMMENT =	command line access to most of drupal
 CATEGORIES = 	www www/drupal6 devel

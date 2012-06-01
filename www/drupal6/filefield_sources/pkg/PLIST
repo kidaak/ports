@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/filefield_sources/pkg/PLIST,v 1.1.1.1 2010/09/14 09:59:27 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}filefield_sources/

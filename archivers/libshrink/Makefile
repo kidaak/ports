@@ -1,16 +1,16 @@
-# $OpenBSD: ports/archivers/libshrink/Makefile,v 1.6 2011/11/18 11:16:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=	compression wrapper library
 
-DISTNAME=	shrink-0.3.0
+DISTNAME=	shrink-0.5.0
 PKGNAME=	lib${DISTNAME}
 CATEGORIES=    	archivers devel
-SHARED_LIBS=	shrink	1.0
+SHARED_LIBS=	shrink	2.0
 
 HOMEPAGE=	http://opensource.conformal.com/wiki/Shrink	
 MASTER_SITES=	http://opensource.conformal.com/snapshots/shrink/
 
-MAINTAINER=	David Hill <dhill@openbsd.org>
+MAINTAINER=	David Hill <dhill@mindcry.org>
 
 WANTLIB=	c crypto lzma lzo2 ssl util z
 LIB_DEPENDS=	archivers/lzo2 \

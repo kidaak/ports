@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/py-gtk2/patches/patch-examples_Makefile_in,v 1.8 2011/04/01 11:26:08 ajacoutot Exp $
+$OpenBSD$
 --- examples/Makefile.in.orig	Fri Apr  1 12:41:03 2011
 +++ examples/Makefile.in	Fri Apr  1 13:15:39 2011
 @@ -652,7 +652,7 @@ pygtk-demo/pygtk-demo: pygtk-demo/pygtk-demo.in

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/snownews/pkg/PLIST,v 1.12 2008/07/20 17:09:26 martynas Exp $
+@comment $OpenBSD$
 bin/opml2snow
 bin/snow2opml
 @bin bin/snownews

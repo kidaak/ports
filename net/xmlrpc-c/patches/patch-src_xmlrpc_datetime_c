@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xmlrpc-c/patches/patch-src_xmlrpc_datetime_c,v 1.2 2009/05/31 15:54:20 benoit Exp $
+$OpenBSD$
 --- src/xmlrpc_datetime.c.orig	Wed Apr 22 00:42:03 2009
 +++ src/xmlrpc_datetime.c	Tue May 26 01:12:35 2009
 @@ -251,7 +251,11 @@ static void

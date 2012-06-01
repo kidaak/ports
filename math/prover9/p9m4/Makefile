@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/prover9/p9m4/Makefile,v 1.5 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=		prover9/mace4 GUI
 

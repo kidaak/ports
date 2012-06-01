@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/egoboo/patches/patch-game_egoboo_sh,v 1.1.1.1 2009/10/11 14:01:39 phessler Exp $
+$OpenBSD$
 --- game/egoboo.sh.orig	Sat Apr 25 10:32:14 2009
 +++ game/egoboo.sh	Sun Oct 11 15:34:16 2009
 @@ -1,6 +1,6 @@

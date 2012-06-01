@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-File-MMagic-XS/Makefile,v 1.5 2011/03/17 13:31:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	guess file type with XS (a la mod_mime_magic)
 SHARED_ONLY =	Yes

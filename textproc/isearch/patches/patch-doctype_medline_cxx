@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/isearch/patches/patch-doctype_medline_cxx,v 1.2 2010/05/22 11:54:14 espie Exp $
+$OpenBSD$
 --- doctype/medline.cxx.orig	Wed Dec  4 22:02:08 1996
 +++ doctype/medline.cxx	Sat May 22 12:55:04 2010
 @@ -182,7 +182,7 @@ void MEDLINE::ParseRecords (const RECORD& FileRecord)

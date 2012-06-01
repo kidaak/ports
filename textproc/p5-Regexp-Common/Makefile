@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Regexp-Common/Makefile,v 1.10 2011/06/25 08:23:40 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		provide commonly requested regular expressions  
 

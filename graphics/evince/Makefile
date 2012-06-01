@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/evince/Makefile,v 1.78 2012/03/29 07:03:30 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

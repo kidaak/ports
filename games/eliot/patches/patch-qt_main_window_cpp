@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/eliot/patches/patch-qt_main_window_cpp,v 1.2 2012/03/05 18:28:40 landry Exp $
+$OpenBSD$
 Default to where dicts are installed
 --- qt/main_window.cpp.orig	Mon Mar  5 11:45:39 2012
 +++ qt/main_window.cpp	Mon Mar  5 11:45:57 2012

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk2-nodoka-engine/pkg/PLIST,v 1.1.1.1 2009/08/20 19:25:40 landry Exp $
+@comment $OpenBSD$
 @comment lib/gtk-2.0/2.10.0/engines/libnodoka.la
 lib/gtk-2.0/2.10.0/engines/libnodoka.so
 share/doc/gtk2-nodoka-engine/

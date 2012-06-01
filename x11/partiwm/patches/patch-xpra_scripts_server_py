@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/partiwm/patches/patch-xpra_scripts_server_py,v 1.1.1.1 2010/09/06 08:21:09 jasper Exp $
+$OpenBSD$
 
 Remove Linux-ism. /proc/self/fd is usually linked to /dev/fd/ anyway.
 

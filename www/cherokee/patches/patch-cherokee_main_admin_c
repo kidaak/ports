@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/cherokee/patches/patch-cherokee_main_admin_c,v 1.1 2010/12/20 07:51:58 ajacoutot Exp $
+$OpenBSD$
 --- cherokee/main_admin.c.orig	Mon Dec 13 14:01:05 2010
 +++ cherokee/main_admin.c	Mon Dec 20 07:52:33 2010
 @@ -496,7 +496,7 @@ check_for_python (void)

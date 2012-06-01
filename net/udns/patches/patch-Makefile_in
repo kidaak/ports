@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/udns/patches/patch-Makefile_in,v 1.1.1.1 2010/10/23 22:55:01 sebastia Exp $
+$OpenBSD$
 
 run ranlib to fix build on vax and m88k
 

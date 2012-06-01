@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xpat2/pkg/PLIST,v 1.10 2010/10/23 18:24:14 naddy Exp $
+@comment $OpenBSD$
 @mode 2755
 @group games
 @bin bin/xpat2

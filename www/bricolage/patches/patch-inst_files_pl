@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-inst_files_pl,v 1.3 2010/09/05 08:31:33 ajacoutot Exp $
+$OpenBSD$
 --- inst/files.pl.orig	Thu Dec 14 23:34:20 2006
 +++ inst/files.pl	Sun Sep  5 10:19:58 2010
 @@ -58,6 +58,13 @@ $UPGRADE = 1 if $ARGV[0] and $ARGV[0] eq 'UPGRADE';

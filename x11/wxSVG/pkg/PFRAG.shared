@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/wxSVG/pkg/PFRAG.shared,v 1.1.1.1 2008/05/17 17:10:40 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libwxsvg.so.${LIBwxsvg_VERSION}

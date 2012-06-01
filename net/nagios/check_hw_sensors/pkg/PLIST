@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/nagios/check_hw_sensors/pkg/PLIST,v 1.1.1.1 2009/11/12 21:49:26 merdely Exp $
+@comment $OpenBSD$
 libexec/nagios/check_hw_sensors

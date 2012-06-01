@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-build_parsePrep_c,v 1.1.1.1 2000/06/12 18:49:41 espie Exp $
+$OpenBSD$
 --- build/parsePrep.c.orig	Mon Jun 12 02:10:49 2000
 +++ build/parsePrep.c	Mon Jun 12 02:16:15 2000
 @@ -4,6 +4,9 @@

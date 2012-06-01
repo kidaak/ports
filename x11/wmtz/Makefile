@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmtz/Makefile,v 1.16 2010/11/22 08:37:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; displays the time in different time zones
 

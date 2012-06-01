@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/chipmunk/patches/patch-until_V1_2_prim_stuff_h,v 1.1.1.1 2003/10/25 18:33:27 pvalchev Exp $
+$OpenBSD$
 --- until/V1.2/prim_stuff.h.orig	2003-09-19 00:44:33.000000000 -0600
 +++ until/V1.2/prim_stuff.h	2003-09-19 00:47:30.000000000 -0600
 @@ -87,7 +87,7 @@ extern void update_root_mbb(void);

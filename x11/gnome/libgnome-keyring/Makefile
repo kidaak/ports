@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libgnome-keyring/Makefile,v 1.18 2012/04/16 11:57:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library for gnome keyring integration
 

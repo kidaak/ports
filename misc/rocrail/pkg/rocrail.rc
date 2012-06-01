@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/misc/rocrail/pkg/rocrail.rc,v 1.2 2011/11/17 12:33:31 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/rocrail"
 daemon_user="_rocrail"

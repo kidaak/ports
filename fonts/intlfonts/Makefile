@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/intlfonts/Makefile,v 1.1.1.1 2011/07/19 09:16:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	extra japanese fonts
 

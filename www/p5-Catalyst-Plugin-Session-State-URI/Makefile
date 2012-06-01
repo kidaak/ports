@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Session-State-URI/Makefile,v 1.10 2012/04/08 21:58:46 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	catalyst session IDs as URI extensions
 

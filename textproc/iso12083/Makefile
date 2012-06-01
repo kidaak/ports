@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/iso12083/Makefile,v 1.20 2010/09/12 16:49:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	SGML DTDs from The Electronic Publishing SIG
 

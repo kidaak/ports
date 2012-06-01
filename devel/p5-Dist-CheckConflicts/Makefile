@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Dist-CheckConflicts/Makefile,v 1.1.1.1 2011/03/22 23:17:59 simon Exp $
+# $OpenBSD$
 
 COMMENT =	declare version conflicts for your dist
 

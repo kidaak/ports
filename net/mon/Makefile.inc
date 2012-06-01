@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mon/Makefile.inc,v 1.1.1.1 2009/11/10 14:33:50 pea Exp $
+# $OpenBSD$
 
 V = 	1.2.0
 

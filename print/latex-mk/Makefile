@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/latex-mk/Makefile,v 1.6 2010/11/20 09:48:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	set of Makefile fragments to manage LaTeX documents
 

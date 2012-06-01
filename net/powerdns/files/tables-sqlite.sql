@@ -1,4 +1,4 @@
--- $OpenBSD: ports/net/powerdns/files/tables-sqlite.sql,v 1.1.1.1 2008/10/02 18:40:41 jasper Exp $
+-- $OpenBSD$
 -- Taken from FreeBSD's powerdns port.
 
 CREATE TABLE "domains" (

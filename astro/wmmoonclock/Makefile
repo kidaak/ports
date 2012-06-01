@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/wmmoonclock/Makefile,v 1.28 2011/12/18 09:01:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; shows the moon phase
 

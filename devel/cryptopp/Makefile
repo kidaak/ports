@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cryptopp/Makefile,v 1.3 2012/02/29 12:46:30 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT = 	C++ library of cryptographic algorithms
 CATEGORIES = 	devel security

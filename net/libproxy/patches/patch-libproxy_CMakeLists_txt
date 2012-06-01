@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libproxy/patches/patch-libproxy_CMakeLists_txt,v 1.2 2012/03/29 14:58:24 ajacoutot Exp $
+$OpenBSD$
 
 error: '::wcstof' has not been declared
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wm2/Makefile,v 1.12 2011/06/23 22:50:30 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		stylish window manager
 

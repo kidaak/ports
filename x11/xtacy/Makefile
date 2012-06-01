@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xtacy/Makefile,v 1.23 2010/10/24 21:15:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	X11 trippy color-cycling toy
 

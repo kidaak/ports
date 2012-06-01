@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xscrabble/pkg/PLIST,v 1.7 2007/12/08 22:00:02 ajacoutot Exp $
+@comment $OpenBSD$
 @mode 2555
 @group games
 bin/xscrab

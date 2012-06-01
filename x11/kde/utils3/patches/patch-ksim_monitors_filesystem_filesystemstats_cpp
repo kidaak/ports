@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/utils3/patches/patch-ksim_monitors_filesystem_filesystemstats_cpp,v 1.2 2008/03/26 11:11:42 espie Exp $
+$OpenBSD$
 --- ksim/monitors/filesystem/filesystemstats.cpp.orig	Mon Oct  8 11:49:45 2007
 +++ ksim/monitors/filesystem/filesystemstats.cpp	Wed Mar 26 11:51:31 2008
 @@ -30,7 +30,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-GDBM_File/pkg/PLIST,v 1.1.1.1 2006/07/17 23:33:21 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/GDBM_File.pm
 ${P5ARCH}/auto/

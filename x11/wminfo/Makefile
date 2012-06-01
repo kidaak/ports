@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wminfo/Makefile,v 1.16 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; displays scrolling text
 

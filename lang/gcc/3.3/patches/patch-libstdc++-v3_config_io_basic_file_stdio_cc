@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-libstdc++-v3_config_io_basic_file_stdio_cc,v 1.1 2005/10/30 19:24:11 espie Exp $
+$OpenBSD$
 --- libstdc++-v3/config/io/basic_file_stdio.cc.orig	Sun Oct 30 17:42:46 2005
 +++ libstdc++-v3/config/io/basic_file_stdio.cc	Sun Oct 30 17:43:10 2005
 @@ -104,6 +104,7 @@ namespace std 

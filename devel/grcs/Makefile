@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/grcs/Makefile,v 1.5 2010/11/15 19:45:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GNU versions of the rcs utilities
 DISTNAME=	rcs-5.7

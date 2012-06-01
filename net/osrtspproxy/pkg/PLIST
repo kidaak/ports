@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/osrtspproxy/pkg/PLIST,v 1.1.1.1 2007/01/10 10:37:07 grunk Exp $
+@comment $OpenBSD$
 sbin/rtspproxy
 share/doc/osrtspproxy/
 share/doc/osrtspproxy/LICENSE

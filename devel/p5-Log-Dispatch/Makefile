@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Log-Dispatch/Makefile,v 1.12 2011/06/14 12:44:48 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	dispatches messages to one or more outputs
 

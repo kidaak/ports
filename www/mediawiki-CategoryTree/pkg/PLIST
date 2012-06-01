@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/mediawiki-CategoryTree/pkg/PLIST,v 1.1.1.1 2010/04/08 08:03:08 stephan Exp $
+@comment $OpenBSD$
 mediawiki/extensions/CategoryTree/
 mediawiki/extensions/CategoryTree/CategoryPageSubclass.php
 mediawiki/extensions/CategoryTree/CategoryTree.css

@@ -1,8 +1,8 @@
-# $OpenBSD: ports/net/tor/Makefile,v 1.55 2011/12/16 20:08:50 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	anonymity service using onion routing
 
-DISTNAME=	tor-0.2.2.35
+DISTNAME=	tor-0.2.2.36
 CATEGORIES=	net
 HOMEPAGE=	http://www.torproject.org/
 
@@ -19,7 +19,7 @@ WANTLIB += c crypto event m pthread ssl z
 MASTER_SITES=	${HOMEPAGE}dist/
 
 CONFIGURE_STYLE=gnu
-CONFIGURE_ARGS=	--with-ssl-dir=/usr --localstatedir=/var
+CONFIGURE_ARGS=	--with-ssl-dir=/usr
 
 DB_DIR=		/var/tor
 SUBST_VARS+=	DB_DIR

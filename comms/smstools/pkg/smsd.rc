@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/comms/smstools/pkg/smsd.rc,v 1.2 2011/03/02 08:59:20 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/smsd"
 

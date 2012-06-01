@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-sal_osl_unx_interlck_c,v 1.1 2012/04/08 07:52:01 robert Exp $
+$OpenBSD$
 --- sal/osl/unx/interlck.c.orig.port	Fri Apr  6 11:30:06 2012
 +++ sal/osl/unx/interlck.c	Fri Apr  6 11:30:29 2012
 @@ -60,7 +60,7 @@ oslInterlockedCount SAL_CALL osl_incrementInterlockedC

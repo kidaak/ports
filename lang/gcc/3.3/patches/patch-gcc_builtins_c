@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_builtins_c,v 1.2 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/builtins.c.orig	Tue Aug  3 23:06:45 2004
 +++ gcc/builtins.c	Fri Jul 25 12:34:56 2008
 @@ -4003,9 +4003,11 @@ expand_builtin (exp, target, subtarget, mode, ignore)

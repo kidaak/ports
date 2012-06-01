@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libtool/pkg/PLIST-main,v 1.2 2011/09/22 21:10:19 jasper Exp $
+@comment $OpenBSD$
 @pkgpath devel/libtool
 bin/libtool
 bin/libtoolize

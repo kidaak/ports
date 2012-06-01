@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/firmware/upgt/pkg/PLIST,v 1.2 2011/07/08 21:20:49 sthen Exp $
+@comment $OpenBSD$
 @pkgpath upgt-firmware
 @pkgpath sysutils/upgt-firmware
 firmware/upgt-gw3887

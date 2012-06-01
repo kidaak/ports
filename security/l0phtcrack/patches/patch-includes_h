@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/l0phtcrack/patches/patch-includes_h,v 1.2 2010/10/19 07:59:04 jsg Exp $
+$OpenBSD$
 --- includes.h.orig	Sat Oct 16 15:06:42 2010
 +++ includes.h	Sat Oct 16 15:09:06 2010
 @@ -1,9 +1,17 @@

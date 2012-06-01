@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/pstoedit/patches/patch-src_Makefile_in,v 1.5 2010/07/22 19:44:07 steven Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Aug 13 10:18:34 2009
 +++ src/Makefile.in	Wed Jul 21 22:59:54 2010
 @@ -396,7 +396,7 @@ libpstoedit_la_SOURCES = \

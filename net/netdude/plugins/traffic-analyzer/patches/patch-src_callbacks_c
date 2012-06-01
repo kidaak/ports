@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/plugins/traffic-analyzer/patches/patch-src_callbacks_c,v 1.1.1.1 2005/05/27 23:51:07 mjc Exp $
+$OpenBSD$
 --- src/callbacks.c.orig	Thu May 26 13:12:46 2005
 +++ src/callbacks.c	Thu May 26 13:13:02 2005
 @@ -26,6 +26,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE 

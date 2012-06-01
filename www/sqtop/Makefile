@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/sqtop/Makefile,v 1.1.1.1 2012/02/20 16:03:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		top-like monitor for Squid
 

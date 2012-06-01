@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/tlf/patches/patch-rules_Makefile_am,v 1.1.1.1 2007/05/30 05:55:56 jason Exp $
+$OpenBSD$
 --- rules/Makefile.am.orig	Wed Nov 23 00:47:24 2005
 +++ rules/Makefile.am	Wed Nov 23 00:48:15 2005
 @@ -6,20 +6,20 @@ SUBDIRS =

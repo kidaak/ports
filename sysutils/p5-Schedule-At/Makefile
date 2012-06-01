@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Schedule-At/Makefile,v 1.3 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Perl interface for the system 'at' command
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/autopano-sift-c/Makefile,v 1.9 2011/09/16 10:02:36 espie Exp $
+# $OpenBSD$
 
 COMMENT =		identify control points from groups of overlapping images
 

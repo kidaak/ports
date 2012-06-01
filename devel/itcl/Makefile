@@ -1,8 +1,9 @@
-# $OpenBSD: ports/devel/itcl/Makefile,v 1.10 2011/10/30 07:36:05 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	object-oriented extensions to Tcl
 
 VERSION =	3.4.1
+REVISION =	0
 EPOCH =		0
 DISTNAME =	itcl${VERSION}
 PKGNAME =	itcl-${VERSION}

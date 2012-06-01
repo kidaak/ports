@@ -1,0 +1,16 @@
+$OpenBSD$
+
+Silence gtk3 warnings.
+
+--- data/gcp.css.orig	Mon Apr 30 20:11:52 2012
++++ data/gcp.css	Mon Apr 30 20:12:08 2012
+@@ -1,7 +1,7 @@
+ GcpDiagnosticMessage
+ {
+-  border-width: 0;
+-  border-radius: 10;
++  border-width: 0px;
++  border-radius: 10px;
+ }
+ 
+ GcpDiagnosticMessage.warning

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Crypt-GpgME/pkg/PLIST,v 1.1.1.1 2007/12/16 23:56:42 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Crypt/
 ${P5ARCH}/Crypt/GpgME.pm

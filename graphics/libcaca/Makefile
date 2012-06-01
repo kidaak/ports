@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libcaca/Makefile,v 1.21 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=		color ascii art library
 

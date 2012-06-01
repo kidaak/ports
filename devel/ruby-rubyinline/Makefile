@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-rubyinline/Makefile,v 1.11 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=		embed C/++ external module code in your Ruby script
 

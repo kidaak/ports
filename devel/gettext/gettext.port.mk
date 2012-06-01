@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gettext/gettext.port.mk,v 1.12 2010/11/22 10:04:18 espie Exp $
+# $OpenBSD$
 
 _MODGETTEXT_SPEC =		devel/gettext>=0.10.38
 

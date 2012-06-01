@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webalizer/patches/patch-preserve_c,v 1.4 2011/01/05 08:19:18 giovanni Exp $
+$OpenBSD$
 --- preserve.c.orig	Thu Dec 30 14:52:23 2010
 +++ preserve.c	Mon Jan  3 11:42:14 2011
 @@ -157,7 +157,7 @@ void put_history()

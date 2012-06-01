@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/unicon/pkg/PLIST,v 1.7 2004/09/18 12:52:55 espie Exp $
+@comment $OpenBSD$
 @conflict icon_interp-*
 @conflict icon-interp-*
 @conflict icon_lib-*

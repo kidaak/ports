@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/ogi/OGIlexicon/Makefile,v 1.3 2010/11/15 00:22:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	American English lexicon compiled from Moby and CMU lexicons
 DISTNAME=	OGIlexicon-2.1

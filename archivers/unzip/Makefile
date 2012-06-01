@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/unzip/Makefile,v 1.43 2011/05/17 19:01:39 landry Exp $
+# $OpenBSD$
 
 COMMENT=	extract, list & test files in a ZIP archive
 

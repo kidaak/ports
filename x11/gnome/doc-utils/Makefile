@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/doc-utils/Makefile,v 1.56 2012/03/26 23:19:36 ajacoutot Exp $
+# $OpenBSD$
 
 # This port does set MODGNOME_TOOLS=yelp on purpose: it would create a
 # dependency on itself. We do not enforce dependency on x11/gnome/yelp

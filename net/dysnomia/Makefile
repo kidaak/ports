@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dysnomia/Makefile,v 1.5 2011/03/14 09:17:01 sthen Exp $
+# $OpenBSD$
 
 CATEGORIES = 	net audio www
 COMMENT = 	interface to the deezer on-demand music system

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libvstr/pkg/PLIST,v 1.1.1.1 2009/05/12 21:38:59 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/vstr-arch.h
 include/vstr-conf.h

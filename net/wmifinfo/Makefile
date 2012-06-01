@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/wmifinfo/Makefile,v 1.8 2010/10/24 21:30:02 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; shows basic network info
 

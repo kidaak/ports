@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ode/patches/patch-ode_demo_Makefile_in,v 1.1 2009/08/06 10:59:21 jasper Exp $
+$OpenBSD$
 --- ode/demo/Makefile.in.orig	Tue Aug  4 17:53:23 2009
 +++ ode/demo/Makefile.in	Tue Aug  4 17:54:36 2009
 @@ -459,7 +459,7 @@ top_build_prefix = @top_build_prefix@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ncmpc/patches/patch-configure,v 1.1 2012/03/04 16:57:19 dcoppa Exp $
+$OpenBSD$
 --- configure.orig	Fri Mar  2 11:50:55 2012
 +++ configure	Fri Mar  2 11:50:28 2012
 @@ -6805,14 +6805,14 @@ fi

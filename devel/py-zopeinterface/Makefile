@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-zopeinterface/Makefile,v 1.14 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=	object interface infrastructure from Zope 3
 

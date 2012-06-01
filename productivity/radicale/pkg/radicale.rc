@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/productivity/radicale/pkg/radicale.rc,v 1.2 2012/01/12 00:19:54 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/radicale -d"
 daemon_user="_radicale"

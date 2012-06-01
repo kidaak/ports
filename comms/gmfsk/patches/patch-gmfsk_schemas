@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/gmfsk/patches/patch-gmfsk_schemas,v 1.1 2010/04/26 01:47:15 jakemsr Exp $
+$OpenBSD$
 --- gmfsk.schemas.orig	Sun Apr 18 16:38:33 2010
 +++ gmfsk.schemas	Sun Apr 18 16:38:54 2010
 @@ -151,7 +151,7 @@

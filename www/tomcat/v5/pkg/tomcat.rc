@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/tomcat/v5/pkg/tomcat.rc,v 1.1 2011/07/24 11:11:58 dcoppa Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/tomcat/bin/catalina.sh"
 daemon_flags="-server"

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/openocd/pkg/PFRAG.shared,v 1.1.1.1 2009/09/17 21:59:46 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libopenocd.so.${LIBopenocd_VERSION}

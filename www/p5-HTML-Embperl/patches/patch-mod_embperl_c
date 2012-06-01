@@ -1,6 +1,6 @@
 add support for OpenBSD httpd with IPv6 support
 
-$OpenBSD: ports/www/p5-HTML-Embperl/patches/patch-mod_embperl_c,v 1.1 2008/11/08 11:41:01 sthen Exp $
+$OpenBSD$
 --- mod_embperl.c.orig	Sat Apr  8 15:28:15 2006
 +++ mod_embperl.c	Mon Nov  3 21:31:44 2008
 @@ -28,6 +28,9 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/ibus-skk/pkg/PLIST,v 1.4 2011/09/25 13:34:57 fgsch Exp $
+@comment $OpenBSD$
 bin/ibus-skk-convert-jisyo
 libexec/ibus-engine-skk
 libexec/ibus-setup-skk

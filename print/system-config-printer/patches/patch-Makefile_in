@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/system-config-printer/patches/patch-Makefile_in,v 1.9 2011/07/16 07:00:04 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Jul 14 12:55:22 2011
 +++ Makefile.in	Sat Jul 16 08:47:48 2011
 @@ -441,7 +441,7 @@ dbus_DATA = \

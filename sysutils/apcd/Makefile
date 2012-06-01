@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/apcd/Makefile,v 1.7 2011/06/23 22:50:28 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		APC SmartUPS daemon
 

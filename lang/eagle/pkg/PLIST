@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/eagle/pkg/PLIST,v 1.2 2011/10/24 16:50:08 stu Exp $
+@comment $OpenBSD$
 bin/eagle
 libdata/Eagle/
 libdata/Eagle/bin/

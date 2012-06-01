@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openconnect/patches/patch-vpnc-script_in,v 1.1.1.1 2011/12/08 13:55:28 sthen Exp $
+$OpenBSD$
 --- vpnc-script.orig	Thu Dec  8 13:18:54 2011
 +++ vpnc-script	Thu Dec  8 13:22:05 2011
 @@ -59,7 +59,7 @@ if [ ! -d "/var/run/vpnc" ]; then

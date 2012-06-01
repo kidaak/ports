@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/security/sshguard/pkg/sshguard.rc,v 1.1 2011/03/07 17:44:16 rpointel Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/sshguard"
 daemon_flags="-l /var/log/authlog"

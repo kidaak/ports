@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/graphics3/pkg/PLIST-kpov,v 1.11 2010/07/08 21:28:49 espie Exp $
+@comment $OpenBSD$
 @conflict kdegraphics-<=3.3.2
 @bin bin/kpovmodeler
 ${KDE}/libkpovmodelerpart.la

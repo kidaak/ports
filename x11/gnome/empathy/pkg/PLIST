@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/empathy/pkg/PLIST,v 1.23 2012/04/02 06:40:06 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/empathy
 @bin bin/empathy-accounts
 @bin bin/empathy-debugger

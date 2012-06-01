@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/waimea/pkg/PLIST,v 1.4 2010/08/18 13:34:20 jasper Exp $
+@comment $OpenBSD$
 @bin bin/waimea
 @man man/man1/waimea.1
 share/waimea/

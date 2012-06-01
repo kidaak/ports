@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/maxima/patches/patch-src_Makefile_in,v 1.4 2011/11/14 20:48:43 edd Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun Aug 28 17:57:39 2011
 +++ src/Makefile.in	Thu Nov 10 12:20:20 2011
 @@ -562,18 +562,6 @@ EXTRA_DIST = $(real_lisp_sources) maxima.asd maxima.sy

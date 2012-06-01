@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libbgpdump/patches/patch-bgpdump_lib_c,v 1.2 2010/10/29 13:53:35 sthen Exp $
+$OpenBSD$
 --- bgpdump_lib.c.orig	Thu Sep 23 13:06:19 2010
 +++ bgpdump_lib.c	Fri Oct 29 14:35:34 2010
 @@ -42,6 +42,7 @@ this license is included with libbgpdump.

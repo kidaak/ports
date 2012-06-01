@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/irssi/pkg/PLIST,v 1.18 2009/05/23 17:47:01 martynas Exp $
+@comment $OpenBSD$
 @bin bin/irssi
 lib/irssi/
 lib/irssi/modules/

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/editors/libreoffice/files/soffice.sh,v 1.1 2011/06/20 13:29:35 robert Exp $
+# $OpenBSD$
 #
 
 # This is needed for LibreOffice to be able to open files with

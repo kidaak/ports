@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gdk-pixbuf2/pkg/PLIST,v 1.9 2012/03/23 14:46:21 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gtk+2-<2.22
 @conflict gtk+2-docs-<2.22
 @unexec-delete rm -f %D/lib/gdk-pixbuf-2.0/2.10.0/loaders.cache

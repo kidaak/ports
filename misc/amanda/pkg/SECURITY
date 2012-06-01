@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/amanda/pkg/SECURITY,v 1.3 2005/05/31 09:09:30 db Exp $
+$OpenBSD$
 Release 2.4.0 addressed a number of security concerns with the assistance
 of Theo de Raadt, Ejovi Nuwere and David Sacerdote of the OpenBSD project.
 

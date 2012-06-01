@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/metacity/Makefile,v 1.78 2012/03/30 14:09:59 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

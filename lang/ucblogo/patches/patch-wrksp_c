@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ucblogo/patches/patch-wrksp_c,v 1.2 2012/02/21 22:19:31 sthen Exp $
+$OpenBSD$
 --- wrksp.c.orig	Mon Aug  8 12:38:17 2005
 +++ wrksp.c	Sun May 28 23:42:37 2006
 @@ -23,6 +23,10 @@

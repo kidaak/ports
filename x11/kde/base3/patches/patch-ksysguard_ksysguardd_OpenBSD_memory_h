@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-ksysguard_ksysguardd_OpenBSD_memory_h,v 1.1 2006/02/18 13:29:36 espie Exp $
+$OpenBSD$
 --- ksysguard/ksysguardd/OpenBSD/memory.h.orig	Sat Feb 18 14:25:30 2006
 +++ ksysguard/ksysguardd/OpenBSD/memory.h	Sat Feb 18 14:26:00 2006
 @@ -35,6 +35,10 @@ void printActive(const char* cmd);

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/opencm/Makefile,v 1.31 2011/09/16 09:24:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=		OpenCM change management system
 

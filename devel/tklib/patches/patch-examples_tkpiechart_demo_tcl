@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tklib/patches/patch-examples_tkpiechart_demo_tcl,v 1.1.1.1 2009/03/18 09:10:27 sthen Exp $
+$OpenBSD$
 --- examples/tkpiechart/demo.tcl.orig	Wed Jan 21 23:00:46 2009
 +++ examples/tkpiechart/demo.tcl	Mon Feb  2 15:44:58 2009
 @@ -2,6 +2,8 @@

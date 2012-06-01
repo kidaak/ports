@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/btoa/Makefile,v 1.18 2010/10/18 17:06:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=	encode/decode binary to printable ASCII
 

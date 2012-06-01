@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Accessor-Chained/pkg/PLIST,v 1.1.1.1 2006/05/11 11:43:59 msf Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/Accessor/Chained/
 ${P5SITE}/Class/Accessor/Chained.pm
 ${P5SITE}/Class/Accessor/Chained/Fast.pm

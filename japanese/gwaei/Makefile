@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/gwaei/Makefile,v 1.3 2012/03/13 19:40:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	japanese-english dictionary program
 

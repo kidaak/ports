@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_systray_cpp,v 1.2 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/systray.cpp.orig	Wed Mar 30 13:41:47 2011
 +++ src/systray.cpp	Wed Mar 30 13:42:35 2011
 @@ -25,6 +25,7 @@

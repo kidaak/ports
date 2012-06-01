@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/vodovod/patches/patch-hiscore_cpp,v 1.1 2007/07/07 10:40:48 simon Exp $
+$OpenBSD$
 --- hiscore.cpp.orig	Tue Jun  5 00:13:40 2007
 +++ hiscore.cpp	Fri Jul  6 00:31:29 2007
 @@ -47,7 +47,7 @@ bool HiScores::canEnter(int score)

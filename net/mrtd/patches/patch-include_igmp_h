@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/mrtd/patches/patch-include_igmp_h,v 1.1 2001/04/16 12:15:25 lebel Exp $
+$OpenBSD$
 --- include/igmp.h.orig	Sat Jan 15 09:19:16 2000
 +++ include/igmp.h	Thu Apr 12 10:56:21 2001
 @@ -10,7 +10,7 @@

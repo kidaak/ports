@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/grpn/patches/patch-Makefile,v 1.5 2010/03/23 20:38:20 jasper Exp $
+$OpenBSD$
 
 - Honor cflags
 - Port to gtk+2

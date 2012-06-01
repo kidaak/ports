@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-SNMP-Info/Makefile,v 1.9 2011/11/19 10:03:22 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	perl5 interface to network devices and MIBs through SNMP
 

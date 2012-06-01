@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/grub/patches/patch-stage2_fsys_ext2fs_c,v 1.1 2010/09/21 23:17:33 joshe Exp $
+$OpenBSD$
 
 Debian-Patch: ext3_256byte_inode.diff (From 0.97-47)
 

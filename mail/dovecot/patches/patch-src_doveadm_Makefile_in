@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dovecot/patches/patch-src_doveadm_Makefile_in,v 1.1 2012/01/28 21:35:02 sthen Exp $
+$OpenBSD$
 
 Heimdal libkrb5 exports base64_encode and base64_decode conflicting
 with libdovecot's versions. Workaround the namespace pollution issue

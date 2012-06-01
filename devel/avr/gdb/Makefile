@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/avr/gdb/Makefile,v 1.13 2011/11/11 18:33:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Atmel AVR 8-bit RISC microcontrollers' GNU gdb
 

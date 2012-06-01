@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/libneural/Makefile,v 1.4 2011/11/03 20:28:09 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

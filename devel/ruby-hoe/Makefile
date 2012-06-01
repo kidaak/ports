@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-hoe/Makefile,v 1.19 2011/11/17 17:29:28 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	simple rake/rubygems helper for project Rakefiles
 

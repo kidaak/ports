@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/zh-wqy-bitmapfont/pkg/PLIST,v 1.1.1.1 2011/07/19 09:14:21 jasper Exp $
+@comment $OpenBSD$
 @pkgpath x11/wqy-bitmapfont
 lib/X11/fonts/
 @fontdir lib/X11/fonts/wqy/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-toolkit_components_downloads_src_nsDownloadManager_cpp,v 1.1 2009/09/18 20:35:27 martynas Exp $
+$OpenBSD$
 --- toolkit/components/downloads/src/nsDownloadManager.cpp.orig	Mon Aug 24 18:53:16 2009
 +++ toolkit/components/downloads/src/nsDownloadManager.cpp	Mon Sep 14 11:40:21 2009
 @@ -1381,7 +1381,7 @@ nsDownloadManager::GetUserDownloadsDirectory(nsILocalF

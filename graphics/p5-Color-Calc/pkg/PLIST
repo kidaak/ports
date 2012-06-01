@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Color-Calc/pkg/PLIST,v 1.2 2008/12/04 00:04:13 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Color/
 ${P5SITE}/Color/Calc/
 ${P5SITE}/Color/Calc.pm

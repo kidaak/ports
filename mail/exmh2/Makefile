@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/exmh2/Makefile,v 1.31 2010/11/19 07:23:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Tcl/Tk interface to the MH mail system
 

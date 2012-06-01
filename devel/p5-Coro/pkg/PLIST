@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Coro/pkg/PLIST,v 1.1.1.1 2010/12/13 09:53:47 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/Coro/
 ${P5ARCH}/Coro.pm
 ${P5ARCH}/Coro/AIO.pm

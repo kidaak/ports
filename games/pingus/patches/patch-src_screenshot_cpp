@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/pingus/patches/patch-src_screenshot_cpp,v 1.1 2011/07/08 20:38:01 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

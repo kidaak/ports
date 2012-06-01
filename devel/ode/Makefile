@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ode/Makefile,v 1.5 2011/09/11 12:11:05 armani Exp $
+# $OpenBSD$
 
 COMMENT =	high performance library for simulating rigid body dynamics
 SHARED_LIBS +=  ode                  0.0      # .2.1

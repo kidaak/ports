@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/fontforge/pkg/PLIST,v 1.8 2011/07/08 19:04:05 kili Exp $
+@comment $OpenBSD$
 @bin bin/fontforge
 bin/fontimage
 bin/fontlint

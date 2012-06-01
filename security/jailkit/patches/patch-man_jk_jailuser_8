@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/jailkit/patches/patch-man_jk_jailuser_8,v 1.1.1.1 2010/09/20 07:15:31 sebastia Exp $
+$OpenBSD$
 --- man/jk_jailuser.8.orig	Tue Oct 28 12:16:15 2008
 +++ man/jk_jailuser.8	Tue Oct 28 12:40:07 2008
 @@ -36,7 +36,7 @@ Move the contents of the home directory inside the jai

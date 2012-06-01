@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/p5-Geo-Coordinates-UTM-XS/Makefile,v 1.8 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C/XS reimplementation of Geo::Coordinates::UTM
 MODULES=	cpan

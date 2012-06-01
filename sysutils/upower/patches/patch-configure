@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/upower/patches/patch-configure,v 1.8 2012/01/03 21:50:06 landry Exp $
+$OpenBSD$
 
 Disable --as-needed to prevent undefined symbol on pthread_*
 

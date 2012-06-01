@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/tomcat/v5/pkg/PLIST-admin,v 1.3 2010/11/29 21:26:01 sthen Exp $
+@comment $OpenBSD$
 share/examples/tomcat/admin.xml
 tomcat/server/webapps/admin/
 tomcat/server/webapps/admin/WEB-INF/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/vomit/patches/patch-vomit_c,v 1.2 2010/04/21 22:31:19 alek Exp $
+$OpenBSD$
 --- vomit.c.orig	Wed Dec 12 20:41:51 2001
 +++ vomit.c	Wed Apr 21 23:49:31 2010
 @@ -60,6 +60,7 @@

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/comms/gnokii/pkg/PFRAG.shared,v 1.1.1.1 2006/05/29 18:05:53 robert Exp $
+@comment $OpenBSD$
 @lib lib/libgnokii.so.${LIBgnokii_VERSION}

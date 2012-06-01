@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-XSAccessor/pkg/PLIST,v 1.2 2010/12/01 14:06:43 sthen Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Class/
 ${P5ARCH}/Class/XSAccessor/

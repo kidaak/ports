@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/nut/pkg/PLIST-cgi,v 1.6 2008/09/08 19:38:30 martynas Exp $
+@comment $OpenBSD$
 cgi-bin/nut/
 @bin cgi-bin/nut/upsimage.cgi
 @bin cgi-bin/nut/upsset.cgi

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/ecore/patches/patch-configure,v 1.7 2011/03/21 08:04:40 jasper Exp $
+$OpenBSD$
 
  - Force disable Cocoa checks, which will later cause the build to fail
     if gnustep-gui has been installed.

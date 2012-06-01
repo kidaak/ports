@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/gutenprint/patches/patch-configure,v 1.4 2011/05/04 14:55:02 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Mon May  2 03:32:21 2011
 +++ configure	Wed May  4 16:41:29 2011
 @@ -12032,12 +12032,11 @@ else

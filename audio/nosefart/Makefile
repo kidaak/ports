@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/nosefart/Makefile,v 1.4 2010/09/06 00:04:28 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	nsf (Nintendo sound) file player
 

@@ -1,16 +1,16 @@
-# $OpenBSD: ports/devel/libclog/Makefile,v 1.14 2011/11/18 11:16:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=		configurable logging library
 
-DISTNAME=		clog-0.4.0
+DISTNAME=		clog-0.6.1
 PKGNAME=		lib${DISTNAME}
 CATEGORIES=		devel
-SHARED_LIBS=		clog 1.4
+SHARED_LIBS=		clog 1.6
 
 HOMEPAGE=		http://opensource.conformal.com/wiki/Copious_Logger
 MASTER_SITES=		http://opensource.conformal.com/snapshots/clog/
 
-MAINTAINER =		David Hill <dhill@openbsd.org>
+MAINTAINER =		David Hill <dhill@mindcry.org>
 
 # ISC
 PERMIT_PACKAGE_CDROM=	Yes

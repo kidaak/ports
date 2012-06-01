@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/icewm/patches/patch-doc_icewm-7_html,v 1.9 2010/12/12 19:13:01 jasper Exp $
+$OpenBSD$
 --- doc/icewm-7.html.orig	Thu Dec  9 16:03:22 2010
 +++ doc/icewm-7.html	Thu Dec  9 16:04:22 2010
 @@ -26,9 +26,9 @@ directories:</P>

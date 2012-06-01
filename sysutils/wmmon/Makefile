@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/wmmon/Makefile,v 1.16 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=	WindowMaker dock app similar to xload
 

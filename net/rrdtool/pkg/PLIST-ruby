@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/rrdtool/pkg/PLIST-ruby,v 1.4 2011/07/19 18:00:16 jeremy Exp $
+@comment $OpenBSD$
 lib/ruby/
 lib/ruby/site_ruby/
 ${MODRUBY_SITEDIR}/

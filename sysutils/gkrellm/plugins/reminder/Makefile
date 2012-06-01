@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/reminder/Makefile,v 1.20 2011/07/07 00:08:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GKrellM2 will remind you to do important events
 

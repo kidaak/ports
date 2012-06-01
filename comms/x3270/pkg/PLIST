@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/x3270/pkg/PLIST,v 1.2 2007/11/28 21:18:08 naddy Exp $
+@comment $OpenBSD$
 @comment bin/pr3287
 bin/x3270
 @comment bin/x3270if

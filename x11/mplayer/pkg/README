@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mplayer/pkg/README,v 1.5 2011/08/17 15:12:15 edd Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

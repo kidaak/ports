@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/spider/patches/patch-gfx_c,v 1.2 2008/10/10 22:58:16 sthen Exp $
+$OpenBSD$
 --- gfx.c.orig	Sat Sep 28 18:46:10 1991
 +++ gfx.c	Sat Aug  2 19:41:42 2008
 @@ -15,6 +15,7 @@

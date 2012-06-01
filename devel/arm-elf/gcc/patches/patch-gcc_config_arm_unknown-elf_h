@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/arm-elf/gcc/patches/patch-gcc_config_arm_unknown-elf_h,v 1.2 2010/10/22 15:20:04 jasper Exp $
+$OpenBSD$
 --- gcc/config/arm/unknown-elf.h.orig	Fri Feb 20 16:20:38 2009
 +++ gcc/config/arm/unknown-elf.h	Thu Oct 14 09:41:14 2010
 @@ -49,7 +49,7 @@

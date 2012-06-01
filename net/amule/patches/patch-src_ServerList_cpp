@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_ServerList_cpp,v 1.1 2012/01/12 11:30:45 dcoppa Exp $
+$OpenBSD$
 
 Bugfix: CServerList::LoadStaticServers() failed on empty lines
 (upstream git commit e298b38e9ce22e2861d34c5d7f6e7b2e009476b1)

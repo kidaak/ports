@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/nss/patches/patch-mozilla_security_coreconf_OpenBSD_mk,v 1.5 2010/04/03 09:21:00 landry Exp $
+$OpenBSD$
 --- mozilla/security/coreconf/OpenBSD.mk.orig	Thu Sep  3 06:57:00 2009
 +++ mozilla/security/coreconf/OpenBSD.mk	Tue Mar 30 23:35:29 2010
 @@ -56,7 +56,7 @@ OS_LIBS			+= -pthread

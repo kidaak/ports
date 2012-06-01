@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/apache-httpd/patches/patch-docs_man_logresolve_8,v 1.2 2007/03/25 17:40:55 deanna Exp $
+$OpenBSD$
 --- docs/man/logresolve.8.orig	Wed Jun 29 18:19:59 2005
 +++ docs/man/logresolve.8	Sun Mar 25 13:21:04 2007
 @@ -19,21 +19,21 @@

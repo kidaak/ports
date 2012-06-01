@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/hugin/patches/patch-doc_CMakeLists_txt,v 1.4 2011/05/30 09:06:28 sthen Exp $
+$OpenBSD$
 --- doc/CMakeLists.txt.orig	Mon Feb 28 13:30:22 2011
 +++ doc/CMakeLists.txt	Mon Feb 28 13:35:53 2011
 @@ -10,7 +10,6 @@ ELSE (WIN32)

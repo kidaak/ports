@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/celestia/patches/patch-configure,v 1.5 2011/07/09 01:41:13 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Sun Jun  5 20:33:27 2011
 +++ configure	Sat Jul  9 03:25:52 2011
 @@ -17922,8 +17922,6 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu

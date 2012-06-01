@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/trafshow/patches/patch-trafshow_c,v 1.1 2001/04/03 02:43:46 brad Exp $
+$OpenBSD$
 --- trafshow.c.orig	Mon Apr  2 22:24:05 2001
 +++ trafshow.c	Mon Apr  2 22:24:06 2001
 @@ -62,7 +62,7 @@ int use_colors = FALSE;

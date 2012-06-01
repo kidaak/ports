@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/gedit-latex/Makefile,v 1.4 2012/03/29 07:10:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	LaTeX plugin for Gedit
 

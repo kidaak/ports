@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/trans/patches/patch-src_Makefile,v 1.1 2005/09/05 13:48:52 espie Exp $
+$OpenBSD$
 --- src/Makefile.orig	Sun Jul 27 01:20:00 1997
 +++ src/Makefile	Mon Sep  5 15:40:06 2005
 @@ -32,14 +32,15 @@ ALL     = $(PROG1)$(EXE) $(PROG2)$(EXE) 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/wmmoonclock/patches/patch-wmMoonClock_c,v 1.2 2007/12/18 10:39:47 ajacoutot Exp $
+$OpenBSD$
 --- Src/wmMoonClock.c.orig	Mon Jun  7 16:27:18 1999
 +++ Src/wmMoonClock.c	Tue Dec 18 10:16:26 2007
 @@ -162,7 +162,7 @@ int main(int argc, char *argv[]) {

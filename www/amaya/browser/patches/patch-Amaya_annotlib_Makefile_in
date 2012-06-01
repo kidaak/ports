@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/amaya/browser/patches/patch-Amaya_annotlib_Makefile_in,v 1.1 2001/10/02 20:18:59 heko Exp $
+$OpenBSD$
 --- Amaya/annotlib/Makefile.in.orig	Thu Apr  5 13:49:33 2001
 +++ Amaya/annotlib/Makefile.in	Tue Oct  2 02:54:22 2001
 @@ -16,8 +16,6 @@ INCLUDES= -DHAVE_CONFIG_H -DANNOTATIONS 

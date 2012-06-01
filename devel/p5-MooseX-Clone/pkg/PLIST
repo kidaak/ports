@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Clone/pkg/PLIST,v 1.1.1.1 2009/05/12 23:33:14 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/
 ${P5SITE}/MooseX/Clone/
 ${P5SITE}/MooseX/Clone.pm

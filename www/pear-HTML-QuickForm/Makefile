@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/pear-HTML-QuickForm/Makefile,v 1.14 2011/09/16 12:00:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	package provides methods for HTML forms
 

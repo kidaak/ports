@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openafs/patches/patch-src_config_afs_sysnames_h,v 1.13 2012/01/13 00:23:29 naddy Exp $
+$OpenBSD$
 diff -u src/config/afs_sysnames.h.orig src/config/afs_sysnames.h
 --- src/config/afs_sysnames.h.orig	Mon Jan 14 22:14:02 2008
 +++ src/config/afs_sysnames.h	Thu Jan 12 17:05:07 2012

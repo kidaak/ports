@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/devede/pkg/PLIST,v 1.16 2011/12/09 07:25:58 ajacoutot Exp $
+@comment $OpenBSD$
 bin/devede
 bin/devede-debug
 bin/devede_debug

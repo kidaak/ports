@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/yaws/pkg/yaws.rc,v 1.6 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/yaws --daemon"
 daemon_flags="--conf ${SYSCONFDIR}/yaws/yaws.conf"

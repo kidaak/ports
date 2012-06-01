@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/jruby/patches/patch-lib_ruby_site_ruby_shared_mkmf_rb,v 1.3 2011/11/08 23:58:08 jeremy Exp $
+$OpenBSD$
 --- lib/ruby/site_ruby/shared/mkmf.rb.orig	Tue Oct 25 08:07:12 2011
 +++ lib/ruby/site_ruby/shared/mkmf.rb	Sun Oct 30 21:08:59 2011
 @@ -1764,8 +1764,8 @@ def init_mkmf(config = CONFIG)

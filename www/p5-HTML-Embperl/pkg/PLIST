@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Embperl/pkg/PLIST,v 1.8 2008/11/08 11:41:01 sthen Exp $
+@comment $OpenBSD$
 bin/embpexec.pl
 bin/embpmsgid.pl
 ${P5ARCH}/Embperl/

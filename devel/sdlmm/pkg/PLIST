@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/sdlmm/pkg/PLIST,v 1.6 2010/09/30 17:34:57 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict sdlmm-doc-*
 @pkgpath devel/sdlmm,-main
 @pkgpath devel/sdlmm,-docs

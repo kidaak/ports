@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xvidcore/patches/patch-build_generic_Makefile,v 1.4 2011/08/30 18:53:24 jasper Exp $
+$OpenBSD$
 --- build/generic/Makefile.orig	Thu May 19 04:27:26 2011
 +++ build/generic/Makefile	Wed Jun 15 14:46:05 2011
 @@ -46,6 +46,7 @@ include platform.inc

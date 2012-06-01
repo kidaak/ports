@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cmockery/Makefile,v 1.2 2011/09/16 22:16:50 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		library to simplify writing unit tests for C applications
 

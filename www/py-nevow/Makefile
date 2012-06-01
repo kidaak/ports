@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-nevow/Makefile,v 1.13 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	web application construction kit
 

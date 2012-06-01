@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/kinput2/patches/patch-client_convlib_c,v 1.1.1.1 2000/04/26 00:43:14 espie Exp $
+$OpenBSD$
 --- client/convlib.c.orig	Thu May 27 01:55:33 1999
 +++ client/convlib.c	Wed Apr 26 02:18:47 2000
 @@ -322,7 +322,7 @@ String s;

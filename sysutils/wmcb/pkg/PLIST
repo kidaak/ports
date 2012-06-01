@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/wmcb/pkg/PLIST,v 1.2 2009/02/14 10:10:37 jasper Exp $
+@comment $OpenBSD$
 @bin bin/wmcb
 share/wmcb/
 share/wmcb/README

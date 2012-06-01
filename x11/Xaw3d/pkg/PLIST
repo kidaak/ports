@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/Xaw3d/pkg/PLIST,v 1.7 2004/09/15 19:26:27 espie Exp $
+@comment $OpenBSD$
 include/X11/Xaw3d/
 include/X11/Xaw3d/AllWidgets.h
 include/X11/Xaw3d/AsciiSink.h

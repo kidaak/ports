@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-Find-Rule/Makefile,v 1.9 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	alternative interface to File::Find
 

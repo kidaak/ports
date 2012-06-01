@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-sqlite/Makefile,v 1.20 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

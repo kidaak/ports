@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/cyrus-sasl2/patches/patch-plugins_gssapi_c,v 1.1 2012/02/07 06:36:39 ajacoutot Exp $
+$OpenBSD$
 
 From fa289f15ceb2b9c64bdcf057a75469808454190d Mon Sep 17 00:00:00 2001
 From: Alexey Melnikov <alexey.melnikov@isode.com>

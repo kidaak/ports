@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/pear-Mail-mimeDecode/Makefile,v 1.5 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	class to decode mime messages
 

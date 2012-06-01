@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/qhacc/patches/patch-src_qhacc_in,v 1.1 2009/06/07 00:08:32 jasper Exp $
+$OpenBSD$
 --- src/qhacc.in.orig	Tue Jun  2 11:47:27 2009
 +++ src/qhacc.in	Tue Jun  2 11:48:03 2009
 @@ -4,7 +4,7 @@

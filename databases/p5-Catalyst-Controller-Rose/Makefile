@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Catalyst-Controller-Rose/Makefile,v 1.5 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	RDBO and RHTMLO base classes for Catalyst
 DISTNAME=	Catalyst-Controller-Rose-0.02

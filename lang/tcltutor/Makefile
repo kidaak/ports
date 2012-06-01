@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/tcltutor/Makefile,v 1.7 2011/11/07 03:06:48 stu Exp $
+# $OpenBSD$
 
 COMMENT =	learn Tcl interactively
 

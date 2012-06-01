@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pcapdiff/Makefile,v 1.5 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT =		compare pcap dump files
 

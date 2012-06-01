@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/redis/patches/patch-src_config_h,v 1.2 2012/02/28 11:57:11 dcoppa Exp $
+$OpenBSD$
 --- src/config.h.orig	Wed Feb 22 14:23:43 2012
 +++ src/config.h	Tue Feb 28 12:36:22 2012
 @@ -25,7 +25,7 @@

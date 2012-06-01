@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/fping/pkg/PLIST,v 1.6 2009/07/15 08:25:31 sthen Exp $
+@comment $OpenBSD$
 @man man/man8/fping.8
 @man man/man8/fping6.8
 @mode 4555

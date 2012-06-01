@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/uncrustify/Makefile,v 1.3 2011/10/13 21:03:53 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =		source code beautifier
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-gobject/Makefile,v 1.50 2012/04/05 12:08:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Python bindings for glib2 gobject (deprecated)
 

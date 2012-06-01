@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/chipmunk/patches/patch-until_V1_2_ffman_c,v 1.1 2012/03/18 18:05:03 naddy Exp $
+$OpenBSD$
 --- until/V1.2/ffman.c.orig	Sun Mar 18 11:56:30 2012
 +++ until/V1.2/ffman.c	Sun Mar 18 11:57:01 2012
 @@ -136,7 +136,7 @@ Static void read_error(Char *s)

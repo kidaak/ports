@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/tracker/patches/patch-src_tracker-control_Makefile_in,v 1.2 2011/09/18 08:36:56 ajacoutot Exp $
+$OpenBSD$
 
 Needed by patch-src_tracker-control_tracker-control_c.
 

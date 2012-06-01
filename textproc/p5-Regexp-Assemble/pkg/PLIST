@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Regexp-Assemble/pkg/PLIST,v 1.2 2011/06/21 14:36:36 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Regexp/
 ${P5SITE}/Regexp/Assemble.pm
 @man man/man3p/Regexp::Assemble.3p

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-Locale-gettext/patches/patch-Makefile_PL,v 1.2 2006/11/29 09:40:56 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Mon Jan 31 00:30:22 2005
 +++ Makefile.PL	Tue Nov 28 16:41:24 2006
 @@ -11,7 +11,7 @@ my $libs = '';

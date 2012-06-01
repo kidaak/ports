@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/tin/patches/patch-src_Makefile_in,v 1.6 2011/10/07 14:12:55 giovanni Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Tue May  3 15:20:34 2011
 +++ src/Makefile.in	Tue Oct  4 11:21:26 2011
 @@ -78,6 +78,7 @@ LINK_LIBS	= $(PCRE_LIBS) $(CANLIB) @LIBS@ $(INTL_LIBS)

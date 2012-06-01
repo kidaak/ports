@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/autobook/Makefile,v 1.9 2010/11/15 12:46:18 espie Exp $
+# $OpenBSD$
 
 COMMENT=	documentation for autoconf, automake, libtool
 

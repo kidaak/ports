@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/exiv2/patches/patch-xmpsdk_src_XMPMeta-Serialize_cpp,v 1.1 2010/07/12 08:55:38 landry Exp $
+$OpenBSD$
 --- xmpsdk/src/XMPMeta-Serialize.cpp.orig	Sat Jul  3 08:40:50 2010
 +++ xmpsdk/src/XMPMeta-Serialize.cpp	Sat Jul  3 08:41:19 2010
 @@ -303,7 +303,7 @@ AppendNodeValue ( XMP_VarString & outputStr, const XMP

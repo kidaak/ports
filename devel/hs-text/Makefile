@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-text/Makefile,v 1.10 2011/12/31 22:15:04 kili Exp $
+# $OpenBSD$
 
 COMMENT =		efficient packed Unicode text type
 

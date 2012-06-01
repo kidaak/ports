@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/alephone/scenarios/marathon/pkg/PLIST,v 1.4 2012/01/27 21:35:24 phessler Exp $
+@comment $OpenBSD$
 bin/marathon
 share/alephone/
 share/alephone/Marathon/

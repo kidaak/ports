@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/courtney/patches/patch-courtney_pl,v 1.1.1.1 2001/01/12 04:27:46 danh Exp $
+$OpenBSD$
 --- courtney.pl.orig	Thu Jan 11 19:48:03 2001
 +++ courtney.pl	Thu Jan 11 19:49:53 2001
 @@ -1,4 +1,4 @@

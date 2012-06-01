@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-src_plugins_graphicssystems_trace_qgraphicssystem_trace_cpp,v 1.2 2010/10/28 14:55:47 espie Exp $
+$OpenBSD$
 --- src/plugins/graphicssystems/trace/qgraphicssystem_trace.cpp.orig	Fri Sep 10 11:05:26 2010
 +++ src/plugins/graphicssystems/trace/qgraphicssystem_trace.cpp	Sun Oct 24 12:32:07 2010
 @@ -79,7 +79,9 @@ QTraceWindowSurface::QTraceWindowSurface(QWidget *widg

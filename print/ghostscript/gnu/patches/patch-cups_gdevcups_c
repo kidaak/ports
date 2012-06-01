@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostscript/gnu/patches/patch-cups_gdevcups_c,v 1.7 2011/11/16 12:43:23 kili Exp $
+$OpenBSD$
 --- cups/gdevcups.c.orig	Fri Aug  5 13:12:21 2011
 +++ cups/gdevcups.c	Mon Nov 14 14:25:31 2011
 @@ -71,6 +71,7 @@

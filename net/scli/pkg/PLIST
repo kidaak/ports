@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/scli/pkg/PLIST,v 1.3 2010/04/24 16:37:45 jasper Exp $
+@comment $OpenBSD$
 @bin bin/scli
 @info info/scli.info
 @man man/man1/scli.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/swi-prolog/patches/patch-src_test_pl,v 1.1 2011/09/17 16:06:32 edd Exp $
+$OpenBSD$
 
 threading regression tests fail to terminate. disable them while we figure out
 why. Dialog started with upstream:

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/spatial/Makefile,v 1.9 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	3d tetris
 

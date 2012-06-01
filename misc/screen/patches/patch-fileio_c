@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/screen/patches/patch-fileio_c,v 1.2 2012/03/23 21:37:50 naddy Exp $
+$OpenBSD$
 --- fileio.c.orig	Mon Sep  8 16:25:28 2003
 +++ fileio.c	Fri Mar 23 22:27:59 2012
 @@ -779,7 +779,7 @@ char *cmd;

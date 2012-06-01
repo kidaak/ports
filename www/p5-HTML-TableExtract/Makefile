@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-TableExtract/Makefile,v 1.19 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to extract text contained within HTML tables
 

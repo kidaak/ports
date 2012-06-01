@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/lgrind/pkg/PLIST,v 1.5 2008/10/21 21:03:55 steven Exp $
+@comment $OpenBSD$
 @bin bin/lgrind
 @man man/man1/lgrind.1
 @man man/man5/lgrindef.5

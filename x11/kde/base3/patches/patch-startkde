@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-startkde,v 1.23 2009/11/14 16:41:57 ajacoutot Exp $
+$OpenBSD$
 --- startkde.orig	Tue Aug 19 21:56:42 2008
 +++ startkde	Sat Nov 14 16:55:43 2009
 @@ -3,6 +3,16 @@

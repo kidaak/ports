@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/squid/patches/patch-helpers_negotiate_auth_squid_kerb_auth_Makefile_in,v 1.3 2009/10/30 00:56:57 sthen Exp $
+$OpenBSD$
 --- helpers/negotiate_auth/squid_kerb_auth/Makefile.in.orig	Wed Sep 16 18:36:24 2009
 +++ helpers/negotiate_auth/squid_kerb_auth/Makefile.in	Wed Oct 28 19:16:46 2009
 @@ -225,12 +225,12 @@ LDADD = $(KERBLIBS)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-beautifulsoup/pkg/PLIST,v 1.5 2011/04/02 01:20:28 fgsch Exp $
+@comment $OpenBSD$
 @conflict py-BeautifulSoup-*
 lib/python${MODPY_VERSION}/site-packages/BeautifulSoup-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/BeautifulSoup.py

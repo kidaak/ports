@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/openbabel/Makefile,v 1.13 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=	chemistry file translation program
 

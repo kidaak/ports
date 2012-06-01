@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/msp430/gdb/pkg/PLIST,v 1.1.1.1 2010/12/01 09:06:53 jasper Exp $
+@comment $OpenBSD$
 @bin bin/msp430-gdb
 @bin bin/msp430-gdbtui
 @bin bin/msp430-run

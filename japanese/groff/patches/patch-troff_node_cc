@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/groff/patches/patch-troff_node_cc,v 1.1 2010/05/09 21:26:54 robert Exp $
+$OpenBSD$
 --- troff/node.cc.orig	Sun May  9 23:21:17 2010
 +++ troff/node.cc	Sun May  9 23:22:54 2010
 @@ -171,6 +171,7 @@ class tfont : public tfont_spec { (public)

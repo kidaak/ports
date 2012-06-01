@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/merb/Makefile,v 1.13 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT =	fast, lightweight MVC framework for Ruby
 

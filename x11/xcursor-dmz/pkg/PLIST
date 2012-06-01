@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xcursor-dmz/pkg/PLIST,v 1.1.1.1 2011/01/15 12:51:59 landry Exp $
+@comment $OpenBSD$
 lib/X11/icons/
 lib/X11/icons/dmz/
 lib/X11/icons/dmz-aa/

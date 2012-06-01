@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/tcpdf/Makefile,v 1.26 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT=	PHP class for generating PDF documents
 DISTNAME=	tcpdf_5_9_068

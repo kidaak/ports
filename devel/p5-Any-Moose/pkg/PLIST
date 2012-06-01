@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Any-Moose/pkg/PLIST,v 1.1.1.1 2009/05/06 22:59:42 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Any/
 ${P5SITE}/Any/Moose.pm
 @man man/man3p/Any::Moose.3p

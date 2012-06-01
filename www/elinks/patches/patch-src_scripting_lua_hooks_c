@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/elinks/patches/patch-src_scripting_lua_hooks_c,v 1.1 2006/10/21 17:56:48 jasper Exp $
+$OpenBSD$
 --- src/scripting/lua/hooks.c.orig	Thu Oct 19 12:54:09 2006
 +++ src/scripting/lua/hooks.c	Thu Oct 19 12:54:25 2006
 @@ -200,7 +200,7 @@ static enum evhook_status

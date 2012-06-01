@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/love/patches/patch-src_modules_graphics_opengl_GLee_h,v 1.1.1.1 2011/07/02 09:54:39 jasper Exp $
+$OpenBSD$
 
 Prevent redefining __GLXextFuncPtr.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libksba/Makefile,v 1.6 2011/03/04 17:00:07 pea Exp $
+# $OpenBSD$
 
 COMMENT = 	X.509 library
 

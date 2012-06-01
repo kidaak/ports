@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/pgtcl/pkg/PLIST,v 1.1.1.1 2007/10/13 08:54:02 steven Exp $
+@comment $OpenBSD$
 include/libpgtcl.h
 lib/pgtcl1.5/
 @lib lib/pgtcl1.5/libpgtcl.so.${LIBpgtcl_VERSION}

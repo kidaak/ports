@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Multimethods/pkg/PLIST,v 1.1.1.1 2008/09/09 21:14:02 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/
 ${P5SITE}/Class/Multimethods.pm
 ${P5SITE}/Class/Multimethods.pod

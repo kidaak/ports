@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/amanda/pkg/PLIST-main,v 1.1 2006/11/21 22:19:01 espie Exp $
+@comment $OpenBSD$
 @pkgpath misc/amanda
 @conflict amanda-client-*
 lib/libamanda.a

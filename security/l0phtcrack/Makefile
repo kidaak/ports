@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/l0phtcrack/Makefile,v 1.20 2010/10/19 07:59:03 jsg Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 

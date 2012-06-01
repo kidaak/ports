@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libmemcached/pkg/PLIST,v 1.1.1.1 2010/10/01 09:32:36 sebastia Exp $
+@comment $OpenBSD$
 %%SHARED%%
 %%atomic%%
 @bin bin/memcapable

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/squeak/vm/Makefile,v 1.15 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 
 COMMENT =	smalltalk system, vm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/hfsplus/patches/patch-libhfsp_src_os_c,v 1.1 2011/02/06 16:03:55 fgsch Exp $
+$OpenBSD$
 --- libhfsp/src/os.c.orig	Sat Jan 29 06:23:27 2011
 +++ libhfsp/src/os.c	Sat Jan 29 06:24:04 2011
 @@ -46,6 +46,7 @@ int fstat(int, struct stat *);

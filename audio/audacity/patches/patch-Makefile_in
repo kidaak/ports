@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacity/patches/patch-Makefile_in,v 1.4 2009/03/14 03:49:43 jakemsr Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Jan 27 12:52:00 2009
 +++ Makefile.in	Tue Feb 10 03:21:24 2009
 @@ -30,17 +30,11 @@ install: audacity $(EXTRAINSTALLTARGETS)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Graphics-ColorNames/pkg/PLIST,v 1.8 2008/04/15 21:42:07 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Graphics/
 ${P5SITE}/Graphics/ColorNames/
 ${P5SITE}/Graphics/ColorNames.pm

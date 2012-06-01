@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/sshguard/patches/patch-src_sshguard_fw_h,v 1.1 2011/09/09 20:13:28 naddy Exp $
+$OpenBSD$
 
 Allow building with gcc3.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-URL/Makefile,v 1.10 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	easy parsing of URLs for PHP
 

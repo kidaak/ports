@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/clonekeen/pkg/PLIST,v 1.2 2010/11/07 18:58:39 jasper Exp $
+@comment $OpenBSD$
 bin/keen
 share/clonekeen/
 share/clonekeen/custom/

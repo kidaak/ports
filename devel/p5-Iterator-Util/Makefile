@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Iterator-Util/Makefile,v 1.1.1.1 2010/12/30 10:41:42 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	essential utilities for the Iterator class.
 

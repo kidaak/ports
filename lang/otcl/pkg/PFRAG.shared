@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/lang/otcl/pkg/PFRAG.shared,v 1.5 2006/01/04 20:26:59 alek Exp $
+@comment $OpenBSD$
 @lib lib/libotcl.so.${LIBotcl_VERSION}

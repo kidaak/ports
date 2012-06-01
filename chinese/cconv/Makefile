@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/cconv/Makefile,v 1.2 2011/07/08 18:03:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	simplified-traditional chinese translate tool
 

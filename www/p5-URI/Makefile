@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-URI/Makefile,v 1.26 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library to parse Uniform Resource Identifiers
 

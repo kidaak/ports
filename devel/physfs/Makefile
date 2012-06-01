@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/physfs/Makefile,v 1.9 2009/04/14 15:17:57 jolan Exp $
+# $OpenBSD$
 
 COMMENT=	library to provide abstract access to various archives
 

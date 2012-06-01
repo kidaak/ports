@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/pfm/Makefile,v 1.10 2010/11/19 07:23:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=		personal file manager
 

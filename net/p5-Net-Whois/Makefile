@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Whois/Makefile,v 1.11 2010/10/18 18:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	perl5 module for getting and parsing whois entries
 

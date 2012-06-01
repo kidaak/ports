@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/icewm/patches/patch-Makefile_in,v 1.11 2010/12/12 19:13:01 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Oct 31 15:09:37 2010
 +++ Makefile.in	Thu Dec  9 16:07:57 2010
 @@ -116,12 +116,9 @@ install-base: base

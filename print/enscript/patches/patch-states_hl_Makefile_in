@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/enscript/patches/patch-states_hl_Makefile_in,v 1.2 2008/12/09 15:23:55 jasper Exp $
+$OpenBSD$
 --- states/hl/Makefile.in.orig	Thu Jan 24 08:39:40 2002
 +++ states/hl/Makefile.in	Tue Dec  9 16:23:25 2008
 @@ -234,14 +234,14 @@ maintainer-clean-generic clean mostlyclean distclean m

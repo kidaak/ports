@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cil/patches/patch-Makefile_in,v 1.2 2010/12/07 14:57:19 dcoppa Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Feb  5 22:10:29 2007
 +++ Makefile.in	Wed Nov 10 17:15:22 2010
 @@ -115,7 +115,7 @@ $(OBJDIR)/cilly$(EXE) : $(CILLY_MODULES:%=$(OBJDIR)/%.

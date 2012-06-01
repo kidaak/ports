@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/lftp/patches/patch-src_Makefile_in,v 1.6 2011/10/23 10:28:56 sthen Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Oct 20 10:20:48 2011
 +++ src/Makefile.in	Fri Oct 21 15:05:07 2011
 @@ -167,7 +167,7 @@ am__installdirs = "$(DESTDIR)$(libdir)" "$(DESTDIR)$(p

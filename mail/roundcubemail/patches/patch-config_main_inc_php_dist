@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/roundcubemail/patches/patch-config_main_inc_php_dist,v 1.16 2011/12/14 21:28:30 sthen Exp $
+$OpenBSD$
 --- config/main.inc.php.dist.orig	Wed Nov 30 13:11:34 2011
 +++ config/main.inc.php.dist	Wed Dec 14 21:27:17 2011
 @@ -339,7 +339,7 @@ $rcmail_config['identities_level'] = 0;

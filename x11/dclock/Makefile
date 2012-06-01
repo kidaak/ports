@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/dclock/Makefile,v 1.21 2010/10/24 21:15:31 ajacoutot Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.9 1999/08/31 06:52:30 mharo Exp $
 
 COMMENT=	digital clock with optional military time and alarm

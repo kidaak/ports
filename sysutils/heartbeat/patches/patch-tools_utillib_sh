@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-tools_utillib_sh,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- tools/utillib.sh.orig	Thu Oct 25 09:40:41 2007
 +++ tools/utillib.sh	Mon Nov 12 11:13:26 2007
 @@ -350,14 +350,25 @@ distro() {

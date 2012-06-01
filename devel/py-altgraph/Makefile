@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-altgraph/Makefile,v 1.5 2011/12/03 08:32:14 benoit Exp $
+# $OpenBSD$
 
 COMMENT=		Python graph (network) package
 

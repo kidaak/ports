@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/Makefile.inc,v 1.10 2010/10/23 11:10:18 jasper Exp $
+# $OpenBSD$
 
 DIST_SUBDIR=		gnome
 

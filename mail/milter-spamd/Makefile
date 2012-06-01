@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/milter-spamd/Makefile,v 1.16 2011/05/11 12:57:48 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	sendmail milter plugin for SpamAssassin spamd
 

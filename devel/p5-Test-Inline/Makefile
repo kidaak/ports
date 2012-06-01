@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Inline/Makefile,v 1.10 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	inlining your tests next to the code being tested
 

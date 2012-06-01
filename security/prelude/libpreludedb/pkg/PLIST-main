@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/prelude/libpreludedb/pkg/PLIST-main,v 1.5 2010/11/16 10:11:51 jasper Exp $
+@comment $OpenBSD$
 @pkgpath security/prelude/libpreludedb
 bin/libpreludedb-config
 @bin bin/preludedb-admin

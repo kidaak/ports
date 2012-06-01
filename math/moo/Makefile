@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/math/moo/Makefile,v 1.9 2011/06/23 22:50:27 naddy Exp $
+#	$OpenBSD$
 
 COMMENT=		Marco's Object Oriented calculator
 

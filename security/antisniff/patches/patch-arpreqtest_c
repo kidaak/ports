@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/antisniff/patches/patch-arpreqtest_c,v 1.2 2005/04/03 19:32:29 naddy Exp $
+$OpenBSD$
 --- arpreqtest.c.orig	Tue Apr 18 04:04:24 2000
 +++ arpreqtest.c	Sun Apr  3 21:21:24 2005
 @@ -20,7 +20,7 @@ int arp_request(HDEV fd, char *ether_add

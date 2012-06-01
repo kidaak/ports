@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/quvi/Makefile.inc,v 1.1.1.1 2011/11/11 15:21:24 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES?=	net multimedia
 

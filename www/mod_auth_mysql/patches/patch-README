@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_auth_mysql/patches/patch-README,v 1.1 2008/03/25 23:23:15 simon Exp $
+$OpenBSD$
 --- README.orig	Mon Sep 10 16:11:37 2001
 +++ README	Thu Feb 14 13:32:37 2008
 @@ -193,3 +193,41 @@ Author

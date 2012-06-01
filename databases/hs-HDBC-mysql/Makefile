@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/hs-HDBC-mysql/Makefile,v 1.8 2012/03/01 09:50:30 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=		mysql driver for HDBC
 

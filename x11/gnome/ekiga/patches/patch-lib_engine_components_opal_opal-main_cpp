@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/ekiga/patches/patch-lib_engine_components_opal_opal-main_cpp,v 1.1 2011/10/29 08:37:40 ajacoutot Exp $
+$OpenBSD$
 
 From af47729a21a17459d9a098e10fd8daaccd5aa7a5 Mon Sep 17 00:00:00 2001
 From: Julien Puydt <jpuydt@newton.localdomain>

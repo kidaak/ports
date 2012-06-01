@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Params-Validate/Makefile,v 1.29 2011/01/14 22:50:56 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

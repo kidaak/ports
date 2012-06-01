@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/genius/pkg/PLIST,v 1.10 2012/03/29 07:06:02 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/genius
 @bin bin/gnome-genius
 include/genius/

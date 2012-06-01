@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mon/client/Makefile,v 1.7 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	perl module for mon
 

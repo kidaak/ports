@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/tmake/pkg/PLIST,v 1.2 2004/09/14 23:44:02 espie Exp $
+@comment $OpenBSD$
 bin/progen
 bin/tmake
 share/doc/tmake/

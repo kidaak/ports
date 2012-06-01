@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/ppgen/pkg/PLIST,v 1.2 2004/09/15 18:36:02 espie Exp $
+@comment $OpenBSD$
 bin/ppgen
 @man man/man1/ppgen.1
 share/ppgen/

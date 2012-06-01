@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/afterstep/patches/patch-libAfterBase_safemalloc_h,v 1.1 2009/12/06 15:09:22 jasper Exp $
+$OpenBSD$
 
 malloc() is in stdlib.h, so stop warning.
 

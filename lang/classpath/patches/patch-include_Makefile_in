@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/classpath/patches/patch-include_Makefile_in,v 1.2 2009/06/16 15:31:02 kurt Exp $
+$OpenBSD$
 --- include/Makefile.in.orig	Thu Feb  5 20:02:25 2009
 +++ include/Makefile.in	Wed Mar  4 10:38:20 2009
 @@ -486,20 +486,20 @@ clean-libtool:

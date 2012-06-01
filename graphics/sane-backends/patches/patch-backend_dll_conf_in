@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/sane-backends/patches/patch-backend_dll_conf_in,v 1.6 2011/03/03 13:43:50 ajacoutot Exp $
+$OpenBSD$
 --- backend/dll.conf.in.orig	Sun Jan 16 02:01:28 2011
 +++ backend/dll.conf.in	Mon Feb 14 06:49:59 2011
 @@ -30,7 +30,7 @@ genesys

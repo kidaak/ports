@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Memoize-ExpireLRU/pkg/PLIST,v 1.1.1.1 2012/04/06 09:25:46 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Memoize/
 ${P5SITE}/Memoize/ExpireLRU.pm
 ${P5SITE}/auto/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_include_jasper_jas_malloc_h,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/include/jasper/jas_malloc.h.orig	Fri May 16 20:57:11 2008
 +++ src/libjasper/include/jasper/jas_malloc.h	Fri May 16 21:31:48 2008
 @@ -95,6 +95,9 @@ extern "C" {

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tklib/patches/patch-installed_modules_tcl,v 1.1.1.1 2009/03/18 09:10:27 sthen Exp $
+$OpenBSD$
 --- installed_modules.tcl.orig	Wed Jan 21 23:00:46 2009
 +++ installed_modules.tcl	Mon Feb  2 15:44:58 2009
 @@ -34,7 +34,7 @@ foreach {m pkg doc exa} {

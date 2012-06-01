@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Tidy/Makefile,v 1.9 2011/03/15 19:47:10 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	(X)HTML validation in a Perl object
 SHARED_ONLY=	Yes

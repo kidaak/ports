@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/nano/pkg/PLIST,v 1.23 2010/12/03 16:45:07 naddy Exp $
+@comment $OpenBSD$
 @pkgpath editors/nano,slang
 @bin bin/nano
 bin/rnano

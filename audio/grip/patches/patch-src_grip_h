@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/grip/patches/patch-src_grip_h,v 1.2 2005/06/30 22:34:29 alek Exp $
+$OpenBSD$
 --- src/grip.h.orig	Mon Jun  6 11:07:53 2005
 +++ src/grip.h	Mon Jun  6 11:08:25 2005
 @@ -48,7 +48,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hs-attoparsec-iteratee/Makefile,v 1.9 2012/01/25 21:46:08 kili Exp $
+# $OpenBSD$
 
 COMMENT =		adapter to convert attoparsec Parsers into Iteratees
 

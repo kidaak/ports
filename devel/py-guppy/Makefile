@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-guppy/Makefile,v 1.1.1.1 2011/11/17 17:12:11 kili Exp $
+# $OpenBSD$
 
 COMMENT =		guppy programming environment
 

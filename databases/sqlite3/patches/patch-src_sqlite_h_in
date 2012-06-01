@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/sqlite3/patches/patch-src_sqlite_h_in,v 1.4 2010/04/02 20:07:11 sthen Exp $
+$OpenBSD$
 --- src/sqlite.h.in.orig	Mon Mar  8 15:08:55 2010
 +++ src/sqlite.h.in	Fri Mar 26 19:44:15 2010
 @@ -33,6 +33,7 @@

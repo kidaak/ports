@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Text-CSV/pkg/PLIST,v 1.1.1.1 2009/12/28 09:31:27 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Text/
 ${P5SITE}/Text/CSV.pm
 ${P5SITE}/Text/CSV_PP.pm

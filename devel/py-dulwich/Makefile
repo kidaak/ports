@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-dulwich/Makefile,v 1.8 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT =	pure Python implementation of Git file formats and protocols
 

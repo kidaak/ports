@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/bonnie++/patches/patch-configure_in,v 1.1 2011/11/13 18:23:24 sthen Exp $
+$OpenBSD$
 --- configure.in.orig	Fri Jul  3 21:23:53 2009
 +++ configure.in	Sat Nov 12 14:46:10 2011
 @@ -60,7 +60,7 @@ if [[ -n "$snprintf" ]]; then

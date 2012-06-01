@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/ipmitool/patches/patch-contrib_create_webpage_sh,v 1.1.1.1 2006/05/06 17:28:44 wilfried Exp $
+$OpenBSD$
 --- contrib/create_webpage.sh.orig	Mon Feb  2 18:45:02 2004
 +++ contrib/create_webpage.sh	Sat May  6 19:03:29 2006
 @@ -1,4 +1,4 @@

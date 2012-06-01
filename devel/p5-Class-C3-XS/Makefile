@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-C3-XS/Makefile,v 1.11 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 COMMENT=		XS speed-up for Class-C3

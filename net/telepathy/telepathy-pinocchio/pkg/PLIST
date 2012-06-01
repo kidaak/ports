@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/telepathy/telepathy-pinocchio/pkg/PLIST,v 1.1.1.1 2008/10/27 00:10:16 jasper Exp $
+@comment $OpenBSD$
 bin/pinocchio-ctl
 lib/python${MODPY_VERSION}/site-packages/pinocchio/
 lib/python${MODPY_VERSION}/site-packages/pinocchio/__init__.py

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/gnugo/pkg/PLIST,v 1.9 2010/01/03 23:50:31 fgsch Exp $
+@comment $OpenBSD$
 @bin bin/gnugo
 @info info/gnugo.info
 @man man/man6/gnugo.6

@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/jday/patches/patch-jday_1,v 1.1 2012/01/03 07:01:31 ajacoutot Exp $
+$OpenBSD$
 
 Some formatting and macro usage fixes.
 

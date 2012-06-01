@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/camlimages/pkg/PLIST,v 1.5 2011/01/13 10:22:54 dcoppa Exp $
+@comment $OpenBSD$
 %%SHARED%%
 lib/ocaml/site-lib/camlimages/
 lib/ocaml/site-lib/camlimages/META

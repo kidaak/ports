@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/adsuck/pkg/PLIST,v 1.6 2012/02/17 14:21:17 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _adsuck:620
 @newuser _adsuck:620:_adsuck:daemon:adsuck Daemon:/var/empty:/sbin/nologin
 @man man/man8/adsuck.8

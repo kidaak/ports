@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/p0f/patches/patch-mk_OpenBSD,v 1.2 2006/05/03 07:17:44 aanriot Exp $
+$OpenBSD$
 --- mk/OpenBSD.orig	Sun Apr 30 18:21:59 2006
 +++ mk/OpenBSD	Sun Apr 30 18:29:11 2006
 @@ -7,18 +7,15 @@

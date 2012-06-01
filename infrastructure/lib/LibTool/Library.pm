@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/lib/LibTool/Library.pm,v 1.2 2011/11/14 22:14:38 jasper Exp $
+# $OpenBSD$
 
 # Copyright (c) 2007-2010 Steven Mestdagh <steven@openbsd.org>
 #

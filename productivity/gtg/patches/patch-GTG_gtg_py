@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/gtg/patches/patch-GTG_gtg_py,v 1.4 2010/09/06 10:42:30 jasper Exp $
+$OpenBSD$
 --- GTG/gtg.py.orig	Sat Apr 10 13:38:37 2010
 +++ GTG/gtg.py	Mon Sep  6 12:41:05 2010
 @@ -1,4 +1,4 @@

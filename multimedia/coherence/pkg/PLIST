@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/coherence/pkg/PLIST,v 1.2 2010/04/21 08:36:58 landry Exp $
+@comment $OpenBSD$
 bin/applet-coherence
 bin/coherence
 lib/python${MODPY_VERSION}/site-packages/Coherence-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/

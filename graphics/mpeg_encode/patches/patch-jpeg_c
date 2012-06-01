@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/mpeg_encode/patches/patch-jpeg_c,v 1.2 2009/10/12 22:44:56 naddy Exp $
+$OpenBSD$
 --- jpeg.c.orig	Sat Aug  5 01:35:07 1995
 +++ jpeg.c	Tue Oct 13 00:42:55 2009
 @@ -65,6 +65,7 @@

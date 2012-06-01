@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-test/pkg/PLIST,v 1.1.1.1 2012/03/26 18:26:18 eric Exp $
+@comment $OpenBSD$
 bin/py.test${MODPY_BIN_SUFFIX}
 @comment bin/py.test-${MODPY_VERSION}
 lib/python${MODPY_VERSION}/site-packages/_pytest/

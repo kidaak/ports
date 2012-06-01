@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/emesene/pkg/PLIST,v 1.2 2009/01/10 12:01:06 sthen Exp $
+@comment $OpenBSD$
 bin/emesene
 lib/python${MODPY_VERSION}/site-packages/emesene/
 lib/python${MODPY_VERSION}/site-packages/emesene-1.0-py${MODPY_VERSION}.egg-info

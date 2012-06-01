@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kountdown/patches/patch-configure_in,v 1.1 2003/04/15 00:01:50 brad Exp $
+$OpenBSD$
 --- configure.in.orig	Mon Apr 14 19:41:24 2003
 +++ configure.in	Mon Apr 14 19:41:35 2003
 @@ -68,8 +68,6 @@ dnl AC_PROG_YACC dnl __kdevelop__

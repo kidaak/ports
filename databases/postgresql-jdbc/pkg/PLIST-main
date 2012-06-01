@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/postgresql-jdbc/pkg/PLIST-main,v 1.1.1.1 2007/04/11 12:54:25 kili Exp $
+@comment $OpenBSD$
 share/postgresql/
 share/postgresql/java/
 share/postgresql/java/postgresql.jar

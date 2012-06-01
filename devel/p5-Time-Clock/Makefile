@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Time-Clock/Makefile,v 1.7 2012/04/12 19:05:01 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=		simple 24 hours clock object
 

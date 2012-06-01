@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-enchant/pkg/PLIST,v 1.1.1.1 2011/07/20 16:48:19 ajacoutot Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/enchant/
 lib/python${MODPY_VERSION}/site-packages/enchant/__init__.py
 lib/python${MODPY_VERSION}/site-packages/enchant/__init__.pyc

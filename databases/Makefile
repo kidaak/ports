@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/Makefile,v 1.209 2012/04/08 21:09:49 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.24 1997/10/04 23:32:05 andreas Exp $
 #
      SUBDIR =
@@ -36,6 +36,7 @@
      SUBDIR += mysqlcc
      SUBDIR += mytop
      SUBDIR += node-pg
+     SUBDIR += node-sqlite3
      SUBDIR += ocaml-postgresql
      SUBDIR += ocaml-sqlite3
      SUBDIR += openldap
@@ -75,11 +76,14 @@
      SUBDIR += p5-DBD-mysqlPP
      SUBDIR += p5-DBI
      SUBDIR += p5-DBI-Shell
+     SUBDIR += p5-DBICx-TestDatabase
      SUBDIR += p5-DBIx-Class
      SUBDIR += p5-DBIx-Class-Cursor-Cached
+     SUBDIR += p5-DBIx-Class-DynamicDefault
      SUBDIR += p5-DBIx-Class-HTMLWidget
      SUBDIR += p5-DBIx-Class-IntrospectableM2M
      SUBDIR += p5-DBIx-Class-Schema-Loader
+     SUBDIR += p5-DBIx-Class-TimeStamp
      SUBDIR += p5-DBIx-Class-UUIDColumns
      SUBDIR += p5-DBIx-Class-Validation
      SUBDIR += p5-DBIx-ContextualFetch
@@ -131,6 +135,8 @@
      SUBDIR += pgtcl
      SUBDIR += pgworksheet
      SUBDIR += pkglocatedb
+     SUBDIR += pkglocatedb,src
+     SUBDIR += ports-readmes
      SUBDIR += postgresql
      SUBDIR += postgresql-jdbc
      SUBDIR += postgresql-odbc
@@ -221,6 +227,7 @@
      SUBDIR += sqlports
      SUBDIR += sqsh
      SUBDIR += tdb
+     SUBDIR += tinycdb
      SUBDIR += xapian-core
      SUBDIR += xmysql
 

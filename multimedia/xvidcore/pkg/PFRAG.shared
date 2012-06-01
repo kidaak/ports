@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/multimedia/xvidcore/pkg/PFRAG.shared,v 1.2 2006/01/08 22:12:38 jakemsr Exp $
+@comment $OpenBSD$
 @lib lib/libxvidcore.so.${LIBxvidcore_VERSION}

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/docbook-to-man/patches/patch-Transpec_docbook-to-man_ts,v 1.1.1.1 2005/02/14 11:56:38 espie Exp $
+$OpenBSD$
 --- Transpec/docbook-to-man.ts.orig	Mon Jun 17 05:50:28 1996
 +++ Transpec/docbook-to-man.ts	Fri Feb 11 12:01:19 2005
 @@ -67,7 +67,27 @@ GI:		TITLE

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/edje/patches/patch-src_lib_edje_edit_c,v 1.2 2011/03/15 19:40:04 jasper Exp $
+$OpenBSD$
 --- src/lib/edje_edit.c.orig	Sat Jan 29 04:12:21 2011
 +++ src/lib/edje_edit.c	Tue Mar  8 16:49:37 2011
 @@ -980,6 +980,7 @@ edje_edit_group_add(Evas_Object *obj, const char *name

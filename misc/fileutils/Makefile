@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/fileutils/Makefile,v 1.28 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main= 		GNU versions of common file management utilities
 COMMENT-ls=		colorized GNU 'ls'

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/smpeg/patches/patch-video_video_h,v 1.1 2003/11/22 00:53:39 pvalchev Exp $
+$OpenBSD$
 --- video/video.h.orig	2003-11-21 17:32:20.000000000 -0700
 +++ video/video.h	2003-11-21 17:32:34.000000000 -0700
 @@ -432,7 +432,7 @@ extern unsigned int cacheMiss[8][8];

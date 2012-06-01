@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-dulwich/pkg/PLIST,v 1.1 2010/09/02 20:55:37 millert Exp $
+@comment $OpenBSD$
 bin/dul-daemon
 bin/dul-web
 bin/dulwich

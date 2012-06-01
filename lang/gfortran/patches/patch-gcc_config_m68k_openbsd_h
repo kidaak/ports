@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_config_m68k_openbsd_h,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/config/m68k/openbsd.h.orig	Sat Jun 25 03:22:41 2005
 +++ gcc/config/m68k/openbsd.h	Mon Jun 14 19:23:04 2010
 @@ -44,16 +44,19 @@ Boston, MA 02110-1301, USA.  */

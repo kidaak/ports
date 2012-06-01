@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-Music-Audioscrobbler-MPD/pkg/PLIST,v 1.2 2010/10/01 21:57:53 jasper Exp $
+@comment $OpenBSD$
 bin/musicmpdscrobble
 ${P5SITE}/Music/Audioscrobbler/MPD.pm
 @man man/man1/musicmpdscrobble.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/graphics/patches/patch-cmake_modules_FindLIBGS_cmake,v 1.1 2010/06/20 14:36:23 espie Exp $
+$OpenBSD$
 --- cmake/modules/FindLIBGS.cmake.orig	Mon Feb  4 16:50:35 2008
 +++ cmake/modules/FindLIBGS.cmake	Mon Feb  4 17:00:34 2008
 @@ -25,53 +25,18 @@ else (LIBGS_LIBRARY)

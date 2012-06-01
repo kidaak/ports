@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/meandmyshadow/pkg/PLIST,v 1.1.1.1 2012/03/28 12:57:34 landry Exp $
+@comment $OpenBSD$
 @bin bin/meandmyshadow
 share/applications/meandmyshadow.desktop
 share/icons/

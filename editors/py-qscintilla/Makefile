@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/py-qscintilla/Makefile,v 1.2 2012/03/28 06:02:41 rpointel Exp $
+# $OpenBSD$
 
 # XXX: Upstream doesn't keep old files; if updating please mirror or ask sthen@
 

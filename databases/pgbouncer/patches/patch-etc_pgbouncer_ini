@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/pgbouncer/patches/patch-etc_pgbouncer_ini,v 1.2 2012/01/17 13:57:24 pea Exp $
+$OpenBSD$
 --- etc/pgbouncer.ini.orig	Mon Dec 12 18:09:54 2011
 +++ etc/pgbouncer.ini	Wed Jan 11 10:02:47 2012
 @@ -27,8 +27,8 @@ nondefaultdb = pool_size=50 reserve_pool=10

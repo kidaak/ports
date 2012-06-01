@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/geotiff/Makefile,v 1.11 2010/11/21 09:31:55 landry Exp $
+# $OpenBSD$
 
 COMMENT=	GIS TIFF interchange library
 

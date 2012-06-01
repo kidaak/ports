@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ap2-mod_perl/pkg/PLIST,v 1.5 2008/08/30 08:25:48 simon Exp $
+@comment $OpenBSD$
 bin/mp2bug
 include/apache2/mod_perl.h
 include/apache2/modperl_apache_compat.h

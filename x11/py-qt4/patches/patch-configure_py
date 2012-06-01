@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/py-qt4/patches/patch-configure_py,v 1.10 2011/05/17 08:38:32 dcoppa Exp $
+$OpenBSD$
 --- configure.py.orig	Sun May  1 14:50:12 2011
 +++ configure.py	Fri May 13 17:13:34 2011
 @@ -1127,6 +1127,17 @@ def run_command(cmd, envvars=None):

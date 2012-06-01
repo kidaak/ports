@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/umurmur/patches/patch-src_messages_c,v 1.1.1.1 2011/04/03 12:04:47 dcoppa Exp $
+$OpenBSD$
 --- src/messages.c.orig	Mon Dec  6 21:03:03 2010
 +++ src/messages.c	Thu Mar 31 10:50:02 2011
 @@ -32,6 +32,7 @@

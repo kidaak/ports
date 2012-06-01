@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-VCP-autrijus/pkg/PLIST,v 1.1.1.1 2004/12/09 09:24:22 kevlo Exp $
+@comment $OpenBSD$
 bin/vcp
 ${P5SITE}/RevML/
 ${P5SITE}/RevML/Doctype/

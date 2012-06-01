@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/sl/patches/patch-sl_1,v 1.1 2011/07/08 11:42:09 jasper Exp $
+$OpenBSD$
 --- sl.1.orig	Tue Jan 18 18:23:25 1994
 +++ sl.1	Fri Jul  8 13:37:14 2011
 @@ -1,34 +1,33 @@
@@ -21,7 +21,7 @@ $OpenBSD: ports/games/sl/patches/patch-sl_1,v 1.1 2011/07/08 11:42:09 jasper Exp
 +.ds Nm Sl
 +.ds nm sl
 +.ds Vn 3.02
-+.TH \*(nm 1 "$Date: 2009/01/07 23:01:35 $"
++.TH \*(nm 1 "$Date$"
 +.SH NAME
 +\*(nm \- Steam Locomotive.
 +.SH SYNOPSIS

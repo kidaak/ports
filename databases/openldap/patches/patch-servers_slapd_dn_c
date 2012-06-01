@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/openldap/patches/patch-servers_slapd_dn_c,v 1.2 2011/01/07 10:24:30 pea Exp $
+$OpenBSD$
 
 SECURITY FIX
 

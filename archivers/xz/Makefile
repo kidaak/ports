@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/xz/Makefile,v 1.13 2012/03/29 13:38:12 sthen Exp $
+# $OpenBSD$
 
 NOT_FOR_ARCHS=	${GCC2_ARCHS}
 

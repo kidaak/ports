@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/imlib2/patches/patch-imlib2_pc_in,v 1.1 2010/05/11 09:56:26 dcoppa Exp $
+$OpenBSD$
 --- imlib2.pc.in.orig	Sun Aug 17 11:39:14 2008
 +++ imlib2.pc.in	Mon May 10 18:33:26 2010
 @@ -6,6 +6,6 @@ includedir=@includedir@

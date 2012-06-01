@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/findutils/pkg/PLIST,v 1.6 2010/01/12 08:46:49 sthen Exp $
+@comment $OpenBSD$
 @bin bin/gfind
 @bin bin/glocate
 @bin bin/goldfind

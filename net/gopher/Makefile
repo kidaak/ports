@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gopher/Makefile,v 1.6 2010/10/23 11:04:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	distributed document delivery client
 

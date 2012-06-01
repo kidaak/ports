@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/pwm/patches/patch-Makefile,v 1.4 2006/07/30 16:45:48 naddy Exp $
+$OpenBSD$
 --- Makefile.orig	Tue May 16 23:50:33 2006
 +++ Makefile	Sun Jul 16 00:22:20 2006
 @@ -1,69 +1,33 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Exception-Class/Makefile,v 1.17 2011/01/14 22:50:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	module to declare real exception classes in perl
 

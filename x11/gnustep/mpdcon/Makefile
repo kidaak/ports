@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/mpdcon/Makefile,v 1.3 2011/06/24 10:55:54 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep client for Music Player Daemon
 

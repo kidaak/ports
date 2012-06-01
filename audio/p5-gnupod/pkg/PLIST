@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-gnupod/pkg/PLIST,v 1.1.1.1 2008/05/19 20:21:42 okan Exp $
+@comment $OpenBSD$
 bin/gnupod_INIT.pl
 bin/gnupod_addsong.pl
 bin/gnupod_check.pl

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/p5-Digest-MD4/pkg/PFRAG.shared,v 1.1.1.1 2009/09/06 12:58:36 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/auto/Digest/MD4/MD4.so

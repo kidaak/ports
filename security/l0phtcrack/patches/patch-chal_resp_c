@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/l0phtcrack/patches/patch-chal_resp_c,v 1.1 2010/10/19 07:59:04 jsg Exp $
+$OpenBSD$
 --- chal_resp.c.orig	Sat Oct 16 15:11:53 2010
 +++ chal_resp.c	Sat Oct 16 15:13:08 2010
 @@ -93,16 +93,16 @@ void E_P24(uchar *p21, uchar *c8, uchar *p24)

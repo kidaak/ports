@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/tlf/Makefile,v 1.9 2011/09/16 08:48:02 espie Exp $
+# $OpenBSD$
 
 COMMENT=	radio contest logger
 

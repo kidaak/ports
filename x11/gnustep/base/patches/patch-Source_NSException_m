@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/base/patches/patch-Source_NSException_m,v 1.1 2011/07/19 06:29:09 sebastia Exp $
+$OpenBSD$
 
 Fix "hang" when trying to catch exceptions, ugly hack, but fixes a lot
 of problems in different applications.

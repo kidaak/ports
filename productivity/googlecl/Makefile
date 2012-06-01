@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/googlecl/Makefile,v 1.10 2012/02/28 10:20:14 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	command-line interface to Google services
 

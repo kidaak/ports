@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/extsmail/Makefile,v 1.8 2012/01/05 07:59:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		robust sending of e-mail to external commands
 

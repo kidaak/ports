@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kountdown/patches/patch-kountdown_setupdlg_setupdlg_cpp,v 1.1 2004/01/15 18:23:13 espie Exp $
+$OpenBSD$
 --- kountdown/setupdlg/setupdlg.cpp.orig	2004-01-15 19:17:33.000000000 +0100
 +++ kountdown/setupdlg/setupdlg.cpp	2004-01-15 19:18:30.000000000 +0100
 @@ -82,45 +82,45 @@ SetupDlg::~SetupDlg()

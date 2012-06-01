@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/st/patches/patch-config_def_h,v 1.1.1.1 2011/09/23 14:41:31 zinke Exp $
+$OpenBSD$
 --- config.def.h.orig	Sun Apr  3 21:04:45 2011
 +++ config.def.h	Fri Sep 16 12:47:24 2011
 @@ -14,7 +14,7 @@ static const char *colorname[] = {

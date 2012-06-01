@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Gtk2-Ex-PodViewer/pkg/PLIST,v 1.1.1.1 2009/09/05 08:41:20 landry Exp $
+@comment $OpenBSD$
 bin/podviewer
 ${P5SITE}/Gtk2/
 ${P5SITE}/Gtk2/Ex/

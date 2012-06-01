@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/tracker/patches/patch-src_tracker-extract_tracker-extract-mp3_c,v 1.13 2012/02/16 22:20:02 ajacoutot Exp $
+$OpenBSD$
 
 OpenBSD does not have memmem().
 

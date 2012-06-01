@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libkexif/Makefile,v 1.24 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		kde interface to exif
 CATEGORIES =		graphics devel x11 x11/kde

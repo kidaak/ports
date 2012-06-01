@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/Makefile.inc,v 1.13 2011/06/02 17:35:47 kili Exp $
+# $OpenBSD$
 
 CATEGORIES ?=		x11
 

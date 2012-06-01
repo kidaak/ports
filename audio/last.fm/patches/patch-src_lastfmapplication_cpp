@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_lastfmapplication_cpp,v 1.4 2011/09/19 12:50:57 dcoppa Exp $
+$OpenBSD$
 --- src/lastfmapplication.cpp.orig	Mon Sep 19 11:46:55 2011
 +++ src/lastfmapplication.cpp	Mon Sep 19 11:58:53 2011
 @@ -25,8 +25,6 @@

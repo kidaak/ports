@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/libs3-doc/pkg/PLIST,v 1.5 2003/07/30 12:59:23 espie Exp $
+@comment $OpenBSD$
 share/doc/html/kdelibs/dcop/DCOPArg.html
 share/doc/html/kdelibs/dcop/DCOPClient.html
 share/doc/html/kdelibs/dcop/DCOPConnection.html

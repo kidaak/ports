@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gputils/Makefile,v 1.9 2012/02/21 16:21:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		GNU PIC assembler and utilities
 

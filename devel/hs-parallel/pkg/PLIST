@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-parallel/pkg/PLIST,v 1.5 2011/04/11 14:35:44 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Control/
 lib/ghc/${DISTNAME}/Control/Parallel/

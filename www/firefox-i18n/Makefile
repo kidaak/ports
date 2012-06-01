@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/firefox-i18n/Makefile,v 1.74 2012/01/22 17:10:31 landry Exp $
+# $OpenBSD$
 
 SUBDIR = af
 SUBDIR += ak

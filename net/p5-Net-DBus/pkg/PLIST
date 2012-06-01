@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-DBus/pkg/PLIST,v 1.1.1.1 2007/11/21 21:12:18 landry Exp $
+@comment $OpenBSD$
 ${P5ARCH}/Net/
 ${P5ARCH}/Net/DBus/
 ${P5ARCH}/Net/DBus.pm

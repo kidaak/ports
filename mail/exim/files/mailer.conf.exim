@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/exim/files/mailer.conf.exim,v 1.1 2011/07/17 20:15:59 sthen Exp $
+# $OpenBSD$
 
 sendmail        ${TRUEPREFIX}/bin/exim
 send-mail       ${TRUEPREFIX}/bin/exim

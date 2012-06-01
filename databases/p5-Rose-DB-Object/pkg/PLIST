@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-Rose-DB-Object/pkg/PLIST,v 1.2 2007/05/05 10:17:56 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Rose/DB/Object/
 ${P5SITE}/Rose/DB/Object.pm
 ${P5SITE}/Rose/DB/Object/Cached.pm

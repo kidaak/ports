@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/terminal/patches/patch-TerminalView_m,v 1.1 2011/04/18 12:39:36 sebastia Exp $
+$OpenBSD$
 
 fix implicit declaration warnings of forkpty and ioctl
 

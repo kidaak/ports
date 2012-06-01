@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/aspell/dicts/af/pkg/PLIST,v 1.2 2008/10/28 16:54:10 jasper Exp $
+@comment $OpenBSD$
 lib/aspell/af.dat
 share/aspell/af.multi
 share/aspell/af.rws

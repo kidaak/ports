@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gphoto2/pkg/PLIST,v 1.7 2009/11/09 08:05:16 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gphoto2
 @man man/man1/gphoto2.1
 share/doc/gphoto2/

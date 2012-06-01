@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/homebank/patches/patch-configure,v 1.4 2011/03/07 19:24:43 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Sat Feb  5 14:28:08 2011
 +++ configure	Sat Feb 26 12:54:23 2011
 @@ -4982,7 +4982,7 @@ if test "${ac_cv_lib_ofx_ofx_set_status_cb+set}" = set

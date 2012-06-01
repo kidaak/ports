@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Role-Parameterized/pkg/PLIST,v 1.2 2010/03/22 16:13:00 stephan Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/
 ${P5SITE}/MooseX/Role/
 ${P5SITE}/MooseX/Role/Parameterized/

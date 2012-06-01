@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/openpoppassd/patches/patch-openpoppassd_8,v 1.1 2010/04/04 15:34:01 naddy Exp $
+$OpenBSD$
 --- openpoppassd.8.orig	Sun Apr  4 17:25:38 2010
 +++ openpoppassd.8	Sun Apr  4 17:24:44 2010
 @@ -32,7 +32,7 @@ The

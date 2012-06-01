@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/mcollective/Makefile,v 1.2 2011/12/21 19:34:28 jasper Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

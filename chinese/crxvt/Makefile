@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/crxvt/Makefile,v 1.27 2011/07/19 19:15:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Chinese(Big5) VT100 terminal emulator for X
 

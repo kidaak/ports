@@ -1,4 +1,4 @@
-/* $OpenBSD: ports/www/firefox36/files/sydney_audio_sndio.c,v 1.3 2011/03/26 10:58:36 landry Exp $ */
+/* $OpenBSD$ */
 
 /*
  * Copyright (c) 2009 Martynas Venckus <martynas@openbsd.org>

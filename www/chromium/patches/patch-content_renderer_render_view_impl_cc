@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-content_renderer_render_view_impl_cc,v 1.2 2012/04/15 10:40:44 robert Exp $
+$OpenBSD$
 --- content/renderer/render_view_impl.cc.orig	Mon Apr  9 21:01:24 2012
 +++ content/renderer/render_view_impl.cc	Fri Apr 13 18:46:36 2012
 @@ -3096,6 +3096,7 @@ void RenderViewImpl::EnsureMediaStreamImpl() {

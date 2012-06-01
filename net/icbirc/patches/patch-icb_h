@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icbirc/patches/patch-icb_h,v 1.1 2009/06/01 07:06:12 ray Exp $
+$OpenBSD$
 --- icb.h.orig	Thu Nov 18 13:14:06 2004
 +++ icb.h	Sat May 30 20:29:23 2009
 @@ -3,6 +3,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/network/patches/patch-kopete_protocols_jabber_libiris_iris_jdns_jdns_sys_c,v 1.1 2010/06/23 13:11:34 espie Exp $
+$OpenBSD$
 --- kopete/protocols/jabber/libiris/iris/jdns/jdns_sys.c.orig	Wed Feb 18 17:29:30 2009
 +++ kopete/protocols/jabber/libiris/iris/jdns/jdns_sys.c	Wed Jun 23 13:54:12 2010
 @@ -705,7 +705,7 @@ static int my_res_init()

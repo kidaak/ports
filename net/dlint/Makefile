@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dlint/Makefile,v 1.11 2011/09/21 17:20:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		DNS zone verification tool
 

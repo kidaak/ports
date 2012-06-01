@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/perltidy/Makefile,v 1.15 2011/05/01 21:00:03 jim Exp $
+# $OpenBSD$
 
 COMMENT =	tool to indent and reformat perl scripts
 

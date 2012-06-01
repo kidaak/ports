@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-tools_qdbus_qdbuscpp2xml_qdbuscpp2xml_cpp,v 1.3 2010/06/21 16:40:52 espie Exp $
+$OpenBSD$
 --- tools/qdbus/qdbuscpp2xml/qdbuscpp2xml.cpp.orig	Thu Feb 11 16:55:15 2010
 +++ tools/qdbus/qdbuscpp2xml/qdbuscpp2xml.cpp	Fri Jun 18 18:56:27 2010
 @@ -396,7 +396,7 @@ int main(int argc, char **argv)

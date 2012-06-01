@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/tlf/patches/patch-doc_Makefile_am,v 1.1.1.1 2007/05/30 05:55:56 jason Exp $
+$OpenBSD$
 --- doc/Makefile.am.orig	Wed Nov 23 00:46:53 2005
 +++ doc/Makefile.am	Wed Nov 23 00:47:05 2005
 @@ -3,5 +3,5 @@ EXTRA_DIST = README

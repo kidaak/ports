@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-libstdc++-v3_include_ext_numeric_traits_h,v 1.2 2009/04/16 18:36:48 espie Exp $
+$OpenBSD$
 --- libstdc++-v3/include/ext/numeric_traits.h.orig	Sat Apr  7 10:38:39 2007
 +++ libstdc++-v3/include/ext/numeric_traits.h	Tue Apr  7 19:39:00 2009
 @@ -96,3 +96,101 @@ _GLIBCXX_END_NAMESPACE

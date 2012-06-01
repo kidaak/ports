@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cvsplot/pkg/PLIST,v 1.2 2004/09/14 23:43:55 espie Exp $
+@comment $OpenBSD$
 bin/cvsplot
 share/doc/cvsplot/
 share/doc/cvsplot/CHANGELOG

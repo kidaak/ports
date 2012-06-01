@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/phpldapadmin/patches/patch-lib_QueryRender_php,v 1.1 2012/02/03 07:48:41 ajacoutot Exp $
+$OpenBSD$
 
 phpLDAPadmin "base" Cross-Site Scripting Vulnerability
 http://secunia.com/advisories/47852/

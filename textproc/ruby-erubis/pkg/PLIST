@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-erubis/pkg/PLIST,v 1.6 2011/12/13 17:56:55 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/erubis${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

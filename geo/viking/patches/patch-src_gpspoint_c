@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/viking/patches/patch-src_gpspoint_c,v 1.1.1.1 2010/10/23 15:40:19 landry Exp $
+$OpenBSD$
 taken from pkgsrc/geography/viking/patch-aa
 http://gnats.netbsd.org/cgi-bin/query-pr-single.pl?number=40695
 --- src/gpspoint.c.orig	Thu Jan 14 21:19:52 2010

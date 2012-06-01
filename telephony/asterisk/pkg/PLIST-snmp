@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/telephony/asterisk/pkg/PLIST-snmp,v 1.3 2011/01/19 11:25:16 sthen Exp $
+@comment $OpenBSD$
 @pkgpath telephony/asterisk,-snmp,h323
 lib/asterisk/modules/res_snmp.so
 share/examples/asterisk/default/res_snmp.conf

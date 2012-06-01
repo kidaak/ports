@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/graphics3/patches/patch-kpdf_xpdf_xpdf_XRef_cc,v 1.3 2009/10/25 12:45:53 kili Exp $
+$OpenBSD$
 --- kpdf/xpdf/xpdf/XRef.cc.orig	Mon May 14 09:39:30 2007
 +++ kpdf/xpdf/xpdf/XRef.cc	Sun Oct 25 13:04:29 2009
 @@ -52,6 +52,8 @@ class ObjectStream { (public)

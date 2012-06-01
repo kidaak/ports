@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pear-DB_DataObject/Makefile,v 1.7 2011/09/16 08:48:03 espie Exp $
+# $OpenBSD$
 
 COMMENT=	SQL builder, object interface to database tables
 

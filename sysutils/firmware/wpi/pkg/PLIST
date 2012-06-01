@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/firmware/wpi/pkg/PLIST,v 1.1.1.1 2011/06/09 17:08:14 sthen Exp $
+@comment $OpenBSD$
 @pkgpath /root/wpifw
 @pkgpath /root/wpi-firmware
 @pkgpath sysutils/wpi-firmware

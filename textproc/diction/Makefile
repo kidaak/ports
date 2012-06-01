@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/diction/Makefile,v 1.1.1.1 2011/08/21 22:52:30 bentley Exp $
+# $OpenBSD$
 
 COMMENT =	sentence grammar and readability analyzer
 

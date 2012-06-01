@@ -1,3 +1,5 @@
-@comment $OpenBSD: ports/lang/gcc/3.3/pkg/PLIST-estdc,v 1.2 2005/09/14 10:41:02 espie Exp $
+@comment $OpenBSD$
+@option no-default-conflict
+@conflict libstdc++->=3.3,<3.4
 @pkgpath lang/egcs/stable,-estdc
 %%SHARED%%

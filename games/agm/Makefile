@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/agm/Makefile,v 1.22 2010/11/16 11:23:25 espie Exp $
+# $OpenBSD$
 
 COMMENT=		anagram search utility
 

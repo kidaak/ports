@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/icewm/patches/patch-src_default_h,v 1.12 2010/12/12 19:13:01 jasper Exp $
+$OpenBSD$
 --- src/default.h.orig	Sun Oct 31 15:09:36 2010
 +++ src/default.h	Thu Dec  9 16:07:57 2010
 @@ -161,8 +161,8 @@ XSV(const char *, acpiIgnoreBatteries,          0)

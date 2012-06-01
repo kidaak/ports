@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/tpb/pkg/PLIST,v 1.2 2005/05/13 20:12:24 msf Exp $
+@comment $OpenBSD$
 @mode 2755
 @group kmem
 bin/tpb

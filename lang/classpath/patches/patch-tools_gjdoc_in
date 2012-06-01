@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/classpath/patches/patch-tools_gjdoc_in,v 1.1 2009/06/16 15:31:02 kurt Exp $
+$OpenBSD$
 --- tools/gjdoc.in.orig	Sat Jun 21 17:20:23 2008
 +++ tools/gjdoc.in	Thu Apr 16 21:59:53 2009
 @@ -1,49 +1,51 @@

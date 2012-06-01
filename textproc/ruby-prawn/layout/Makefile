@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-prawn/layout/Makefile,v 1.7 2011/09/16 11:41:42 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Fast, Nimble PDF Generation For Ruby - prawn-layout
 

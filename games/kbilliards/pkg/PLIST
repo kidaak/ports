@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/kbilliards/pkg/PLIST,v 1.7 2011/12/03 19:49:45 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/kbilliards
 share/applnk/
 share/applnk/Games/

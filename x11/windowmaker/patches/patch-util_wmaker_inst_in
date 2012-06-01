@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/windowmaker/patches/patch-util_wmaker_inst_in,v 1.5 2009/02/15 20:12:17 wilfried Exp $
+$OpenBSD$
 --- util/wmaker.inst.in.orig	Fri Apr  8 13:24:14 2005
 +++ util/wmaker.inst.in	Sun Feb 15 20:31:10 2009
 @@ -22,6 +22,7 @@ fi

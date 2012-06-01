@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_test_t_des-space_t,v 1.1.1.1 2006/07/14 16:12:14 bernd Exp $
+$OpenBSD$
 --- wml_test/t/des-space.t.orig	Fri Jun 16 01:08:56 2006
 +++ wml_test/t/des-space.t	Fri Jun 16 01:09:04 2006
 @@ -7,14 +7,7 @@ print "1..2\n";

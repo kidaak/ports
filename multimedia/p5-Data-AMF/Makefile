@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/p5-Data-AMF/Makefile,v 1.2 2011/03/08 21:51:27 landry Exp $
+# $OpenBSD$
 
 COMMENT =	serialize/deserialize Adobe Action Message Format data
 

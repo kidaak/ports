@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mcs/pkg/PLIST,v 1.3 2009/01/14 21:07:17 fgsch Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/mcs-getconfval
 @bin bin/mcs-info

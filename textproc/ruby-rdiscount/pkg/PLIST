@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-rdiscount/pkg/PLIST,v 1.1.1.1 2010/12/20 18:10:00 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/rdiscount${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

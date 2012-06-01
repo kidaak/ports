@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ruby/1.9/pkg/PLIST-dbm,v 1.1 2010/09/23 21:58:50 jeremy Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict ruby-dbm->=1.9,<1.10
 lib/ruby/${RUBYLIBREV}/${SUB}/dbm.so

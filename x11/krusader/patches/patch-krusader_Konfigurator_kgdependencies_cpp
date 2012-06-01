@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/krusader/patches/patch-krusader_Konfigurator_kgdependencies_cpp,v 1.1.1.1 2007/11/02 11:17:21 ajacoutot Exp $
+$OpenBSD$
 --- krusader/Konfigurator/kgdependencies.cpp.orig	Wed Oct 31 16:58:57 2007
 +++ krusader/Konfigurator/kgdependencies.cpp	Wed Oct 31 17:00:12 2007
 @@ -68,7 +68,7 @@ KgDependencies::KgDependencies( bool first, QWidget* p

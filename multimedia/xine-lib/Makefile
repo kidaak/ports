@@ -1,11 +1,11 @@
-# $OpenBSD: ports/multimedia/xine-lib/Makefile,v 1.89 2012/04/08 19:19:04 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
 COMMENT=	multimedia decoding library
 
 DISTNAME=	xine-lib-1.1.20.1
-REVISION=	2
+REVISION=	7
 CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xine/}
 EXTRACT_SUFX=	.tar.xz
@@ -29,7 +29,7 @@ WANTLIB=	FLAC GL GLU SDL X11 Xau Xdamage Xdmcp Xext Xfixes Xinerama \
 		postproc pthread-stubs pthread schroedinger-1.0 sndio speex \
 		stdc++ theora theoradec theoraenc usbhid vcdinfo vorbis \
 		vorbisenc vpx wavpack x264 xcb-shape xcb-shm xcb-xv xcb \
-		xml2 z
+		xml2 z xvidcore
 
 XINEAPI_REV=	1.30
 SUBST_VARS+=	XINEAPI_REV
@@ -45,9 +45,9 @@ LIB_DEPENDS=	audio/faad \
 		audio/libdca \
 		audio/libmad \
 		audio/libmodplug \
-		audio/libmpcdec \
 		audio/libogg \
 		audio/libvorbis \
+		audio/musepack \
 		audio/speex \
 		audio/wavpack \
 		devel/sdl \

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/shelldap/Makefile,v 1.2 2011/03/02 12:36:42 landry Exp $
+# $OpenBSD$
 
 COMMENT =	browse LDAP server with a shell-like CLI
 

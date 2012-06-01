@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-Makefile_in,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri Dec 29 18:47:06 2006
 +++ Makefile.in	Sun Jun 20 21:02:26 2010
 @@ -444,6 +444,8 @@ BASE_FLAGS_TO_PASS = \

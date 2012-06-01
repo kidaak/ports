@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/gnucash/pkg/PLIST,v 1.10 2012/03/29 14:57:00 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gnucash-docs-<=2.2.0
 @pkgpath productivity/gnucash-docs
 bin/gnc-fq-check

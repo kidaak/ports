@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/arc/pkg/PLIST,v 1.8 2011/05/23 13:42:10 gsoares Exp $
+@comment $OpenBSD$
 @bin bin/arc
 @bin bin/marc
 @man man/man1/arc.1

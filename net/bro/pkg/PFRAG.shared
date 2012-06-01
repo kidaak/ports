@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/bro/pkg/PFRAG.shared,v 1.1.1.1 2008/12/17 01:34:53 kevlo Exp $
+@comment $OpenBSD$
 @lib lib/libbroccoli.so.${LIBbroccoli_VERSION}

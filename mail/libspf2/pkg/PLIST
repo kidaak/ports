@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/libspf2/pkg/PLIST,v 1.2 2008/11/05 17:20:08 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/spf2/
 include/spf2/spf.h

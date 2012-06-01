@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-twisted/pair/pkg/PLIST,v 1.1 2010/07/05 13:37:02 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Twisted_Pair-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/twisted/pair/
 lib/python${MODPY_VERSION}/site-packages/twisted/pair/__init__.py

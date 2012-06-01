@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/slowhttptest/Makefile,v 1.1.1.1 2012/04/11 13:37:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	test tool for slow HTTP reads/posts
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/ntp/pkg/xntpd.rc,v 1.1 2011/07/11 17:43:14 landry Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/ntpd"
 

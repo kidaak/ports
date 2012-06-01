@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/hs-cgi/Makefile,v 1.14 2012/01/12 20:20:05 kili Exp $
+# $OpenBSD$
 
 COMMENT =		CGI library for Haskell
 

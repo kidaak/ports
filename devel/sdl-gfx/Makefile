@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/sdl-gfx/Makefile,v 1.20 2012/04/05 11:39:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	primitives drawing/other support functions for SDL
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/octave/patches/patch-octMakefile_in,v 1.5 2008/10/05 16:22:04 steven Exp $
+$OpenBSD$
 --- octMakefile.in.orig	Fri Aug  1 08:50:56 2008
 +++ octMakefile.in	Wed Oct  1 22:13:29 2008
 @@ -121,15 +121,12 @@ BUGS INSTALL.OCTAVE:

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/festlex/festlex_CMU/Makefile,v 1.3 2007/09/15 22:27:38 simon Exp $
+# $OpenBSD$
 
 COMMENT=	CMU dictionary in festival form
 DISTNAME=	festlex_CMU

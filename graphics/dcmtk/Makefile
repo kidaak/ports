@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/dcmtk/Makefile,v 1.9 2011/09/16 10:02:36 espie Exp $
+# $OpenBSD$
 
 COMMENT=		DICOM toolkit
 

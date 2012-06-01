@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/popt/pkg/PLIST,v 1.5 2011/10/24 18:52:18 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/popt.h
 @comment lib/charset.alias

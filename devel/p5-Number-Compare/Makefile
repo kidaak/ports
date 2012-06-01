@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Number-Compare/Makefile,v 1.7 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Compare numbers
 

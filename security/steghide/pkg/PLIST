@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/steghide/pkg/PLIST,v 1.1.1.1 2008/04/28 19:37:59 okan Exp $
+@comment $OpenBSD$
 bin/steghide
 @man man/man1/steghide.1
 share/locale/de/LC_MESSAGES/steghide.mo

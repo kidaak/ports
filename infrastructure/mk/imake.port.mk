@@ -1,6 +1,6 @@
 #-*- mode: Fundamental; tab-width: 4; -*-
 # ex:ts=4 sw=4 filetype=make:
-# $OpenBSD: ports/infrastructure/mk/imake.port.mk,v 1.6 2011/10/23 22:06:01 matthieu Exp $
+# $OpenBSD$
 #	Based on bsd.port.mk, originally by Jordan K. Hubbard.
 #	This file is in the public domain.
 

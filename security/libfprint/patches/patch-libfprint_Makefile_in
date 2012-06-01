@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/libfprint/patches/patch-libfprint_Makefile_in,v 1.2 2012/02/22 09:30:20 dcoppa Exp $
+$OpenBSD$
 --- libfprint/Makefile.in.orig	Mon Apr 18 19:02:51 2011
 +++ libfprint/Makefile.in	Fri Nov 18 22:08:44 2011
 @@ -425,7 +425,7 @@ NBIS_SRC = \

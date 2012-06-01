@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libunicode/patches/patch-convert_c,v 1.1.1.1 2002/12/19 01:19:52 margarida Exp $
+$OpenBSD$
 --- convert.c.orig	Fri Sep  3 05:33:27 1999
 +++ convert.c	Mon Dec 16 17:15:23 2002
 @@ -27,16 +27,11 @@

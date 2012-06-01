@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-fixincludes_Makefile_in,v 1.2 2007/03/20 10:48:52 espie Exp $
+$OpenBSD$
 --- fixincludes/Makefile.in.orig	Wed Oct 11 01:48:09 2006
 +++ fixincludes/Makefile.in	Sun Mar 18 23:58:41 2007
 @@ -169,8 +169,8 @@ $(srcdir)/aclocal.m4: @MAINT@ $(srcdir)/../gcc/aclocal

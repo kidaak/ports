@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmodplug/patches/patch-src_load_s3m_cpp,v 1.3 2011/08/18 17:56:48 jasper Exp $
+$OpenBSD$
 
 Fix S3M stack overflows SA45131/B
 From upstream git: f4e5295658fff000379caa122e75c9200205fe20

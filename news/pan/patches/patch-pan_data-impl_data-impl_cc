@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/pan/patches/patch-pan_data-impl_data-impl_cc,v 1.1 2012/03/29 12:09:55 naddy Exp $
+$OpenBSD$
 --- pan/data-impl/data-impl.cc.orig	Wed Mar 28 18:07:54 2012
 +++ pan/data-impl/data-impl.cc	Wed Mar 28 18:08:12 2012
 @@ -24,7 +24,7 @@

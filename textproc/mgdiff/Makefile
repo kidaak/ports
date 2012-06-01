@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/mgdiff/Makefile,v 1.29 2012/03/17 15:10:47 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	graphical front end to Unix diff
 

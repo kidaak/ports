@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/dovecot-antispam/Makefile,v 1.5 2012/04/10 22:39:25 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

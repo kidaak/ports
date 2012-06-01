@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-libssp_Makefile_in,v 1.4 2007/03/17 22:34:13 espie Exp $
+$OpenBSD$
 --- libssp/Makefile.in.orig	Fri Sep 29 23:18:51 2006
 +++ libssp/Makefile.in	Wed Oct 18 00:37:32 2006
 @@ -231,9 +231,10 @@ libssp_la_SOURCES = \

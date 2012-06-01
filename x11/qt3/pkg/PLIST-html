@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt3/pkg/PLIST-html,v 1.14 2010/02/26 18:04:07 espie Exp $
+@comment $OpenBSD$
 @pkgpath x11/qt3,-html
 @pkgpath x11/qt3,-html,debug
 share/doc/qt3/html/

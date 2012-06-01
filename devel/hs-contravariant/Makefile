@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-contravariant/Makefile,v 1.2 2012/02/19 20:40:22 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell 98 contravariant functors
 

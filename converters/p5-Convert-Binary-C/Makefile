@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Convert-Binary-C/Makefile,v 1.8 2011/05/24 21:12:43 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

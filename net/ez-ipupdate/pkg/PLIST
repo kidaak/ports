@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ez-ipupdate/pkg/PLIST,v 1.1.1.1 2007/12/16 17:48:29 ajacoutot Exp $
+@comment $OpenBSD$
 bin/ez-ipupdate
 share/examples/ez-ipupdate/
 share/examples/ez-ipupdate/example-dhs.conf

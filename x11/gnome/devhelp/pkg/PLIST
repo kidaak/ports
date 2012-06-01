@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/devhelp/pkg/PLIST,v 1.16 2012/03/29 07:20:17 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/devhelp
 include/devhelp-3.0/
 include/devhelp-3.0/devhelp/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-SQL-ReservedWords/Makefile,v 1.5 2010/12/03 11:44:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	reserved words in SQL and specific databases
 

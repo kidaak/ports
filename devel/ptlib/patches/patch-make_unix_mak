@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/patch-make_unix_mak,v 1.2 2011/10/26 16:59:09 ajacoutot Exp $
+$OpenBSD$
 --- make/unix.mak.orig	Fri Oct 14 08:54:53 2011
 +++ make/unix.mak	Wed Oct 26 08:58:01 2011
 @@ -200,11 +200,19 @@ ifeq ($(MACHTYPE),x86)

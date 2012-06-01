@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qvwm/patches/patch-src_main_cc,v 1.1.1.1 2000/07/02 23:25:19 espie Exp $
+$OpenBSD$
 --- src/main.cc.orig	Wed May 31 08:21:41 2000
 +++ src/main.cc	Mon Jul  3 01:21:59 2000
 @@ -767,11 +767,14 @@ void TrapSignal(int sig)

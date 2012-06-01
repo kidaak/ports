@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_security/patches/patch-apache1_mod_security_c,v 1.1 2008/05/09 08:28:34 mbalmer Exp $
+$OpenBSD$
 --- apache1/mod_security.c.orig	Wed Dec  5 12:04:19 2007
 +++ apache1/mod_security.c	Wed Dec  5 12:14:37 2007
 @@ -6121,7 +6121,9 @@ void sec_auditlog_init(modsec_rec *msr) {

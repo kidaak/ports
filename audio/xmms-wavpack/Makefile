@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmms-wavpack/Makefile,v 1.9 2011/10/12 12:54:31 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

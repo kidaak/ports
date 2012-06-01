@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/dwdiff/pkg/PLIST,v 1.4 2011/03/19 09:56:32 benoit Exp $
+@comment $OpenBSD$
 @bin bin/dwdiff
 @man man/man1/dwdiff.1
 share/doc/dwdiff/

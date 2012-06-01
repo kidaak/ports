@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/hplip/Makefile,v 1.50 2012/02/23 16:03:03 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

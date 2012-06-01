@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/taglib/pkg/PLIST,v 1.6 2011/10/14 09:06:57 dcoppa Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/taglib-config
 include/taglib/

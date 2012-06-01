@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-serial/patches/patch-serialposix_py,v 1.2 2011/07/20 15:50:13 sthen Exp $
+$OpenBSD$
 --- serial/serialposix.py.orig	Sat Jun 21 23:08:43 2008
 +++ serial/serialposix.py	Wed Jul 20 16:48:47 2011
 @@ -35,13 +35,12 @@ elif plat == 'cygwin':       #cywin/win32 (confirmed)

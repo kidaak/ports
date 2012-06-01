@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-boto/Makefile,v 1.11 2011/12/25 23:59:07 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =	Python interface to Amazon Web Services
 

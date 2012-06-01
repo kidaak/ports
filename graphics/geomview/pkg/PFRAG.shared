@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/graphics/geomview/pkg/PFRAG.shared,v 1.2 2011/09/18 10:16:49 jasper Exp $
+@comment $OpenBSD$
 lib/libgeomview-${V}.so
 lib/libgeomview.so

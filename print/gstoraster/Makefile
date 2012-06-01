@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/gstoraster/Makefile,v 1.4 2012/02/16 22:10:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		filter to convert PostScript or PDF to cups raster format
 

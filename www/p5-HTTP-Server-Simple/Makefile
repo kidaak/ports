@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTP-Server-Simple/Makefile,v 1.10 2011/04/14 07:21:27 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	simple standalone HTTP server
 

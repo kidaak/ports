@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/mpgtx/pkg/PLIST,v 1.1.1.1 2008/05/17 17:08:17 jasper Exp $
+@comment $OpenBSD$
 bin/mpgcat
 bin/mpgdemux
 bin/mpginfo

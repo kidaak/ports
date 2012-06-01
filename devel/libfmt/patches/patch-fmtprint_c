@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libfmt/patches/patch-fmtprint_c,v 1.1 2004/02/29 19:07:34 pvalchev Exp $
+$OpenBSD$
 --- fmtprint.c.orig	2003-02-13 08:04:39.000000000 -0700
 +++ fmtprint.c	2004-02-28 13:09:00.000000000 -0700
 @@ -32,14 +32,14 @@ fmtprint(Fmt *f, char *fmt, ...)

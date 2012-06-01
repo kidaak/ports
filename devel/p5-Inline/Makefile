@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Inline/Makefile,v 1.6 2011/04/08 13:29:38 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	write Perl subroutines in other programming languages
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/libs3/patches/patch-dcop_dcopclient_cpp,v 1.1 2010/07/03 17:05:12 naddy Exp $
+$OpenBSD$
 --- dcop/dcopclient.cpp.orig	Sat Jul  3 11:01:35 2010
 +++ dcop/dcopclient.cpp	Sat Jul  3 11:02:07 2010
 @@ -715,7 +715,7 @@ bool DCOPClient::isSuspended() const

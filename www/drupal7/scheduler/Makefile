@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal7/scheduler/Makefile,v 1.1.1.1 2012/04/10 12:50:24 espie Exp $
+# $OpenBSD$
 
 COMMENT =	publish/unpublish nodes on schedule
 MAINTAINER =	Marc Espie <espie@openbsd.org>

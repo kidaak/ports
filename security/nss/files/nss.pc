@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/nss/files/nss.pc,v 1.1.1.1 2006/12/04 17:19:54 kurt Exp $
+# $OpenBSD$
 
 prefix=!!PREFIX!!
 exec_prefix=${prefix}

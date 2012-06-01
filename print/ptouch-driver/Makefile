@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/ptouch-driver/Makefile,v 1.2 2011/04/15 18:40:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Brother P-touch CUPS driver
 

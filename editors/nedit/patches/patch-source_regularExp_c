@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nedit/patches/patch-source_regularExp_c,v 1.1 2011/04/08 06:21:46 jasper Exp $
+$OpenBSD$
 
 Fix an off-by-one error, which could lead to a crash.
 From upstream CVS: https://sourceforge.net/tracker/index.php?func=detail&aid=2858723&group_id=11005&atid=111005

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Package-DeprecationManager/Makefile,v 1.1.1.1 2011/03/22 23:18:04 simon Exp $
+# $OpenBSD$
 
 COMMENT =	manage deprecation warnings for your distribution
 

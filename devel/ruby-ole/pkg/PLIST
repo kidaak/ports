@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-ole/pkg/PLIST,v 1.1.1.1 2010/12/23 13:26:41 claudio Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/oletool${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/colorls/patches/patch-print_c,v 1.8 2009/10/29 20:10:39 naddy Exp $
+$OpenBSD$
 --- print.c.orig	Wed Oct 28 00:59:21 2009
 +++ print.c	Thu Oct 29 20:21:22 2009
 @@ -48,6 +48,11 @@

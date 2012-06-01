@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/expect/patches/patch-tclconfig_tcl_m4,v 1.1 2010/09/24 14:16:50 sebastia Exp $
+$OpenBSD$
 
 allow --with-tk=no to build the no_tk flavor
 

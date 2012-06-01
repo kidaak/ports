@@ -1,9 +1,10 @@
-# $OpenBSD: ports/productivity/tryton/timesheet/Makefile,v 1.5 2012/01/24 10:16:10 ajacoutot Exp $
+# $OpenBSD$
 
-MODPY_EGG_VERSION =     2.2.0
+MODPY_EGG_VERSION =	2.4.0
 TRYTOND_MODULE =	timesheet
+REVISION =		0
 
-RUN_DEPENDS =		productivity/tryton/company>=2.2.0 \
-			productivity/tryton/company_work_time>=2.2.0
+RUN_DEPENDS =		productivity/tryton/company \
+			productivity/tryton/company_work_time
 
 .include <bsd.port.mk>

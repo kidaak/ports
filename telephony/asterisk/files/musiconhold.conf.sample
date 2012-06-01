@@ -1,4 +1,4 @@
-; $OpenBSD: ports/telephony/asterisk/files/musiconhold.conf.sample,v 1.3 2009/12/13 12:11:29 sthen Exp $
+; $OpenBSD$
 ; Music on Hold -- Sample Configuration
 
 ; There are various ways to handle musiconhold. The lightweight method

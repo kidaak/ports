@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/scrypt/Makefile,v 1.5 2010/12/19 21:54:51 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	command-line encryption using scrypt key derivation function
 

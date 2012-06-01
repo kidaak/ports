@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_sparc_openbsd_h,v 1.3 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/config/sparc/openbsd.h.orig	Mon Oct 21 00:37:13 2002
 +++ gcc/config/sparc/openbsd.h	Fri Jul 25 12:34:58 2008
 @@ -19,26 +19,49 @@ the Free Software Foundation, 59 Temple Place - Suite 

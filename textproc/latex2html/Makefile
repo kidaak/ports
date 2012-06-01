@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/latex2html/Makefile,v 1.28 2010/11/20 19:56:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	LaTeX to HTML converter
 

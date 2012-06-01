@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/foo2zjs/Makefile,v 1.32 2012/04/11 15:54:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=	driver for ZjStream wire protocol compatible printers
 COMMENT-cups=	Konica-Minolta foo2zjs command filter for CUPS

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmitime/Makefile,v 1.14 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; shows the date, time, and Internet time
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-sinatra/Makefile,v 1.16 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT =	DSL for quickly creating web-applications in Ruby
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/opal/patches/patch-plugins_video_H_264_shared_x264wrap_h,v 1.1 2011/10/26 16:59:34 ajacoutot Exp $
+$OpenBSD$
 
 x264wrap.h:112: error: 'size_t' has not been declared
 

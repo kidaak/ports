@@ -1,9 +1,9 @@
-# $OpenBSD: ports/net/libnetdude/libnetdude/Makefile,v 1.13 2011/12/08 22:16:28 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	packet manipulation backend of Netdude framework
 
 DISTNAME=	libnetdude-0.10a
-REVISION=	2
+REVISION=	3
 SHARED_LIBS=	netdude	1.0
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=netdude/}
@@ -13,6 +13,7 @@ HOMEPAGE=	http://netdude.sourceforge.net/
 LIB_DEPENDS=	net/libpcapnav \
 		devel/glib \
 		devel/libtool,-ltdl
+REGRESS_DEPENDS=	${FULLPKGPATH}
 
 # BSD
 PERMIT_PACKAGE_CDROM=	Yes

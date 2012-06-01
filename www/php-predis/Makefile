@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/php-predis/Makefile,v 1.10 2012/04/03 08:44:07 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		PHP client library for the Redis key-value database
 

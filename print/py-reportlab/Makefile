@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/py-reportlab/Makefile,v 1.2 2010/02/01 17:00:14 espie Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += plugins

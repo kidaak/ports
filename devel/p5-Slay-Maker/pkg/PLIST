@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Slay-Maker/pkg/PLIST,v 1.1.1.1 2007/11/02 14:46:30 merdely Exp $
+@comment $OpenBSD$
 ${P5SITE}/Slay/
 ${P5SITE}/Slay/Maker.pm
 ${P5SITE}/Slay/MakerRule.pm

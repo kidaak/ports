@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/pound/pkg/pound.rc,v 1.1 2011/05/23 14:49:42 gsoares Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/pound"
 

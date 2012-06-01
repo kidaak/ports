@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/recordmydesktop/gtk/pkg/PLIST,v 1.3 2009/12/22 15:46:59 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gtk-recordMyDesktop
 lib/python${MODPY_VERSION}/site-packages/recordMyDesktop/
 lib/python${MODPY_VERSION}/site-packages/recordMyDesktop/__init__.py

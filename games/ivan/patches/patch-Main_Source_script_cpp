@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ivan/patches/patch-Main_Source_script_cpp,v 1.1 2010/05/23 15:58:02 espie Exp $
+$OpenBSD$
 --- Main/Source/script.cpp.orig	Sun May 23 17:37:11 2010
 +++ Main/Source/script.cpp	Sun May 23 17:38:08 2010
 @@ -471,7 +471,7 @@ void contentscript<character>::InitDataMap()

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ivan/patches/patch-FeLib_Include_fearray_h,v 1.1 2010/05/23 15:58:02 espie Exp $
+$OpenBSD$
 --- FeLib/Include/fearray.h.orig	Sun May 23 17:33:22 2010
 +++ FeLib/Include/fearray.h	Sun May 23 17:33:40 2010
 @@ -34,7 +34,7 @@ template <class type> struct fearray

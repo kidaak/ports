@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xscorch/patches/patch-sgtk_sgtk_h,v 1.1 2010/09/30 07:27:36 ajacoutot Exp $
+$OpenBSD$
 
 XXX make it compile with gtk+2 2.22 (*_DISABLE_DEPRECATED)
 sactiveconsole.c:1285: error: lvalue required as left operand of assignment

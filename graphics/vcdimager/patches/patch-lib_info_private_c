@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/vcdimager/patches/patch-lib_info_private_c,v 1.1 2010/06/27 21:20:43 ajacoutot Exp $
+$OpenBSD$
 
 http://savannah.gnu.org/support/index.php?func=detailitem&item_id=105012
 

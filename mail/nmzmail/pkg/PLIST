@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/nmzmail/pkg/PLIST,v 1.2 2009/09/10 16:51:43 sthen Exp $
+@comment $OpenBSD$
 @bin bin/nmzmail
 @man man/man1/nmzmail.1
 share/doc/nmzmail/

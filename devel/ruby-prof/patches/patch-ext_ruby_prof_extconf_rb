@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ruby-prof/patches/patch-ext_ruby_prof_extconf_rb,v 1.1 2011/05/11 23:39:02 jeremy Exp $
+$OpenBSD$
 
 clock_gettime is in libc in OpenBSD.
 

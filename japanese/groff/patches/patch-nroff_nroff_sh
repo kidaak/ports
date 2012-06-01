@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/groff/patches/patch-nroff_nroff_sh,v 1.2 2000/04/20 22:40:42 espie Exp $
+$OpenBSD$
 --- nroff/nroff.sh.orig	Fri Apr 21 00:24:56 2000
 +++ nroff/nroff.sh	Fri Apr 21 00:29:37 2000
 @@ -24,7 +24,7 @@ do

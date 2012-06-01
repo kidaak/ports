@@ -1,9 +1,10 @@
-# $OpenBSD: ports/x11/gnome/seahorse/Makefile,v 1.68 2012/03/29 07:15:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GNOME encryption interface
 
 GNOME_PROJECT=		seahorse
-GNOME_VERSION=		3.4.0
+GNOME_VERSION=		3.4.1
+REVISION=		0
 
 CATEGORIES=		security
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ffcall/patches/patch-vacall_vacall_h_in,v 1.1 2010/02/23 20:11:15 jasper Exp $
+$OpenBSD$
 
 On OpenBSD the mips64(el) architectures define both __mips__ and __mips64__,
 which leads to confusion and redeclarations here.

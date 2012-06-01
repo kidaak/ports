@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-Chart/Makefile,v 1.26 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Python library for creating postscript or PDF charts
 

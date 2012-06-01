@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/blast/Makefile,v 1.20 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	blow holes through windows
 

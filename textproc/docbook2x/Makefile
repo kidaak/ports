@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/docbook2x/Makefile,v 1.4 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	convert DocBook to man pages and Texinfo
 

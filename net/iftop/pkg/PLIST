@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/iftop/pkg/PLIST,v 1.3 2012/01/26 08:03:57 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _iftop:615
 @newuser _iftop:615:_iftop:daemon:iftop user:/nonexistent:/sbin/nologin
 bin/iftop

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/subrip/pkg/PLIST,v 1.1.1.1 2007/01/22 13:55:42 espie Exp $
+@comment $OpenBSD$
 bin/srttool
 bin/sub2pgm
 bin/subrip

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/ruby-mysqlplus/pkg/PLIST,v 1.1.1.1 2010/12/20 17:45:27 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/README

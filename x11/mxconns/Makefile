@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/mxconns/Makefile,v 1.24 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	interactive X11 proxy with selective X request replacement
 

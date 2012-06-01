@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/miniupnp/miniupnpd/pkg/PLIST,v 1.1.1.1 2012/01/13 09:22:50 ajacoutot Exp $
+@comment $OpenBSD$
 @man man/man1/miniupnpd.1
 @bin sbin/miniupnpd
 share/doc/pkg-readmes/${FULLPKGNAME}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/lib/OpenBSD/Recorder.pm,v 1.5 2011/12/01 11:13:25 espie Exp $
+# $OpenBSD$
 # Copyright (c) 2004-2010 Marc Espie <espie@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

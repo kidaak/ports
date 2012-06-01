@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/ru-pscyr/Makefile,v 1.1.1.1 2011/07/19 09:14:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		cyrillic PostScript Type1 fonts to use with TeX
 

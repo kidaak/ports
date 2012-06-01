@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/sabredav/Makefile,v 1.6 2012/03/05 18:20:17 landry Exp $
+# $OpenBSD$
 
 COMMENT =	php5 WebDAV server
 DISTNAME =	Sabre_DAV-1.0.0

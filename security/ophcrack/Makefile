@@ -1,8 +1,8 @@
-# $OpenBSD: ports/security/ophcrack/Makefile,v 1.6 2010/11/20 17:22:44 espie Exp $
+# $OpenBSD$
 
 COMMENT =		password cracker based on rainbow tables
 
-DISTNAME =		ophcrack-3.3.1
+DISTNAME =		ophcrack-3.4.0
 CATEGORIES =		security
 
 HOMEPAGE =		http://ophcrack.sourceforge.net/

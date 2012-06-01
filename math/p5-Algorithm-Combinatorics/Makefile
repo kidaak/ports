@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Algorithm-Combinatorics/Makefile,v 1.2 2012/04/07 03:42:53 jim Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		yes
 

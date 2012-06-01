@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_swt_Eclipse_SWT_Mozilla_common_library_xpcom_stats_h,v 1.2 2007/04/13 14:30:43 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.swt/Eclipse SWT Mozilla/common/library/xpcom_stats.h.orig	Mon Feb 12 13:46:42 2007
 +++ plugins/org.eclipse.swt/Eclipse SWT Mozilla/common/library/xpcom_stats.h	Fri Apr  6 17:23:40 2007
 @@ -24,9 +24,8 @@ typedef enum {

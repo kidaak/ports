@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/glpk/Makefile,v 1.5 2010/11/22 14:32:54 shadchin Exp $
+# $OpenBSD$
 
 COMMENT=	GNU Linear Programming Kit
 

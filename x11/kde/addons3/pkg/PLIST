@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/addons3/pkg/PLIST,v 1.31 2011/12/03 23:34:04 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/atlantikdesigner
 @bin bin/fsview
 bin/jpegorient

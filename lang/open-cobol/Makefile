@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/open-cobol/Makefile,v 1.13 2012/02/21 16:21:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	open source COBOL compiler
 

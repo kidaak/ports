@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xmoto/patches/patch-src_GameInit_cpp,v 1.1 2012/04/15 08:49:05 kirby Exp $
+$OpenBSD$
 --- src/GameInit.cpp.orig	Sat Sep 24 20:25:51 2011
 +++ src/GameInit.cpp	Sun Oct 30 11:57:07 2011
 @@ -269,7 +269,7 @@ void GameApp::run_load(int nNumArgs, char** ppcArgs) {

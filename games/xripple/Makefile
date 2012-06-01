@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xripple/Makefile,v 1.18 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=	screen bottom ripples like a pool of water
 

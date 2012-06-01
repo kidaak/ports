@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/mss/Makefile,v 1.27 2011/07/11 13:09:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	soundscope for GkrellM2 using ESD
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_configure,v 1.1.1.1 2010/10/10 17:39:07 steven Exp $
+$OpenBSD$
 --- gcc/configure.orig	Sun Jun 20 22:35:23 2010
 +++ gcc/configure	Sun Jun 20 22:36:11 2010
 @@ -17209,7 +17209,7 @@ s,@COLLECT2_LIBS@,$COLLECT2_LIBS,;t t

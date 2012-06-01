@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/jed/Makefile,v 1.37 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	text editor
 

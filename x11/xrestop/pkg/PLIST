@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/x11/xrestop/pkg/PLIST,v 1.2 2009/10/01 20:33:27 matthieu Exp $
+@comment $OpenBSD$
 @bin bin/xrestop
 @man man/man1/xrestop.1

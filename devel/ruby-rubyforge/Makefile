@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-rubyforge/Makefile,v 1.14 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT =	script which automates a limited set of rubyforge operations
 

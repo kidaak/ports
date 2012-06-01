@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ezstream/Makefile,v 1.16 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	streaming source client that uses external en-/decoders
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/gdl1/Makefile,v 1.4 2011/11/04 09:56:29 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	GNOME 2 Docking Library
 

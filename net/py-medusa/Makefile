@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-medusa/Makefile,v 1.7 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Python framework for async socket-based servers
 

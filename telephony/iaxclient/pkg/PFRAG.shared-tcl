@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/telephony/iaxclient/pkg/PFRAG.shared-tcl,v 1.2 2011/01/05 18:00:10 sebastia Exp $
+@comment $OpenBSD$
 @lib lib/tcl/tcliaxclient/libtcliaxclient02.so.${LIBtcliaxclient02_VERSION}

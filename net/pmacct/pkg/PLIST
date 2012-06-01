@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pmacct/pkg/PLIST,v 1.5 2011/04/12 11:32:50 sthen Exp $
+@comment $OpenBSD$
 @bin bin/pmacct
 @bin sbin/nfacctd
 @bin sbin/pmacctd

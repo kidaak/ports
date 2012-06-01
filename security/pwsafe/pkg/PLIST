@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/security/pwsafe/pkg/PLIST,v 1.1.1.1 2005/02/20 13:42:08 mbalmer Exp $
+@comment $OpenBSD$
 bin/pwsafe
 @man man/man1/pwsafe.1

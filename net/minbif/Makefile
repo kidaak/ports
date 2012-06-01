@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/minbif/Makefile,v 1.7 2011/05/11 12:03:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	IRC-friendly instant messaging client
 

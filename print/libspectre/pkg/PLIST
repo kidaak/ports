@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/libspectre/pkg/PLIST,v 1.2 2009/01/19 14:03:53 ajacoutot Exp $
+@comment $OpenBSD$
 include/libspectre/
 include/libspectre/spectre-document.h
 include/libspectre/spectre-exporter.h

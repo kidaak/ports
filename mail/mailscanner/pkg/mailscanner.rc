@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/mailscanner/pkg/mailscanner.rc,v 1.1 2011/07/22 19:57:20 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/check_mailscanner"
 daemon_flags="-q"

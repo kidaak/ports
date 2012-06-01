@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/minbif/patches/patch-src_sockwrap_sockwrap_h,v 1.1.1.1 2010/09/13 19:44:40 landry Exp $
+$OpenBSD$
 --- src/sockwrap/sockwrap.h.orig	Fri Jun 25 11:23:28 2010
 +++ src/sockwrap/sockwrap.h	Fri Jun 25 11:23:45 2010
 @@ -24,7 +24,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/boswars/patches/patch-SConstruct,v 1.5 2010/04/14 18:29:59 ajacoutot Exp $
+$OpenBSD$
 --- SConstruct.orig	Sun Apr 11 14:13:04 2010
 +++ SConstruct	Mon Apr 12 15:27:22 2010
 @@ -32,12 +32,12 @@ SConsignFile()

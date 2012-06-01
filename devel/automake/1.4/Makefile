@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/automake/1.4/Makefile,v 1.10 2010/11/26 07:58:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GNU Standards-compliant Makefile generator
 

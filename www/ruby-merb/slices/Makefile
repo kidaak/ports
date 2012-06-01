@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/slices/Makefile,v 1.10 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT =	using and creating application 'slices'
 

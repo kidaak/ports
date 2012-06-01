@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/sdlmame/pkg/PLIST-tools,v 1.3 2011/12/20 06:56:12 fgsch Exp $
+@comment $OpenBSD$
 @conflict xmame+xmess-*
 @conflict xmame-*
 @conflict xmess-*

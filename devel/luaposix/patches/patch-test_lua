@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/luaposix/patches/patch-test_lua,v 1.1 2009/09/06 15:39:21 jolan Exp $
+$OpenBSD$
 --- test.lua.orig	Thu Jan 24 08:15:06 2008
 +++ test.lua	Sun Sep  6 10:36:17 2009
 @@ -83,7 +83,7 @@ if pid==0 then

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/nut/patches/patch-include_config_h_in,v 1.4 2010/03/31 22:11:11 sthen Exp $
+$OpenBSD$
 --- include/config.h.in.orig	Fri Feb 19 21:20:07 2010
 +++ include/config.h.in	Sat Mar 20 23:18:19 2010
 @@ -18,6 +18,9 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/rubber/Makefile,v 1.1.1.1 2011/09/28 14:13:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	wrapper for LaTeX and friends
 

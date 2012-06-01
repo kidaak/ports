@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/logsurfer/patches/patch-Makefile_in,v 1.1 2010/12/03 08:46:03 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Sep 30 15:26:38 2002
 +++ Makefile.in	Fri Dec  3 09:44:45 2010
 @@ -8,12 +8,12 @@ version = 1.5b

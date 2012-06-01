@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ipcad/Makefile,v 1.19 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 # $RuOBSD: Makefile,v 1.1.1.1 2002/04/08 02:46:36 form Exp $
 
 COMMENT=		IP accounting daemon simulating Cisco ip accounting

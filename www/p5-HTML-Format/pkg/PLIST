@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Format/pkg/PLIST,v 1.6 2004/12/10 04:06:08 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTML/FormatPS.pm
 ${P5SITE}/HTML/FormatRTF.pm
 ${P5SITE}/HTML/FormatText.pm

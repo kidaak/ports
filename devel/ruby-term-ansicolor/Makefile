@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-term-ansicolor/Makefile,v 1.7 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT =	color strings using ANSI escape sequences
 

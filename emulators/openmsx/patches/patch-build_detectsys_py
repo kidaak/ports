@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/openmsx/patches/patch-build_detectsys_py,v 1.2 2012/04/15 17:47:00 bentley Exp $
+$OpenBSD$
 
 Recognize macppc, socppc. Added to upstream in r12471.
 

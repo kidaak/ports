@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-POE-Component-Pcap/Makefile,v 1.8 2010/12/03 11:45:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	POE interface to Net::Pcap
 

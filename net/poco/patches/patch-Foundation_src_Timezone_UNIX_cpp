@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/poco/patches/patch-Foundation_src_Timezone_UNIX_cpp,v 1.1.1.1 2010/07/28 18:13:01 sebastia Exp $
+$OpenBSD$
 --- Foundation/src/Timezone_UNIX.cpp.orig	Fri Jan 15 13:13:34 2010
 +++ Foundation/src/Timezone_UNIX.cpp	Mon Jul 19 12:09:13 2010
 @@ -52,7 +52,7 @@ class TZInfo (public)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/ogle/patches/patch-configure,v 1.8 2009/12/09 10:19:33 jakemsr Exp $
+$OpenBSD$
 --- configure.orig	Tue Nov  4 03:34:13 2003
 +++ configure	Sun Feb  8 23:20:43 2009
 @@ -11184,7 +11184,7 @@ fi

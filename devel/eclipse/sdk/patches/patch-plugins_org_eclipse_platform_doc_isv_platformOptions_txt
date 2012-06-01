@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_platform_doc_isv_platformOptions_txt,v 1.1 2006/07/07 01:48:55 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.platform.doc.isv/platformOptions.txt.orig	Thu Jun 29 19:20:53 2006
 +++ plugins/org.eclipse.platform.doc.isv/platformOptions.txt	Fri Jun 30 19:27:01 2006
 @@ -109,8 +109,8 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mrtg/Makefile,v 1.81 2012/01/12 10:44:59 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	multi-router traffic grapher
 

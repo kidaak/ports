@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/sysutils/shelldap/pkg/PLIST,v 1.1.1.1 2011/01/06 12:16:39 landry Exp $
+@comment $OpenBSD$
 bin/shelldap

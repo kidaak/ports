@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/rapidsvn/patches/patch-src_preferences_dlg_cpp,v 1.1 2007/10/08 20:38:17 steven Exp $
+$OpenBSD$
 --- src/preferences_dlg.cpp.orig	Mon Oct  8 13:03:28 2007
 +++ src/preferences_dlg.cpp	Mon Oct  8 13:03:33 2007
 @@ -114,10 +114,8 @@ class ProgramsPanel : public wxPanel (public)

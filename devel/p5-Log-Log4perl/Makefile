@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Log-Log4perl/Makefile,v 1.18 2012/04/07 19:58:52 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Log4j implementation for Perl
 

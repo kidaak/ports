@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/beediff/patches/patch-beediff_pro,v 1.2 2008/12/16 08:14:54 jasper Exp $
+$OpenBSD$
 --- beediff.pro.orig	Tue Dec 16 00:47:15 2008
 +++ beediff.pro	Tue Dec 16 00:47:32 2008
 @@ -1,7 +1,6 @@

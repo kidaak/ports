@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-German/Makefile,v 1.5 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	German grundform reduction
 

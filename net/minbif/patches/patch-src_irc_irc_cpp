@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/minbif/patches/patch-src_irc_irc_cpp,v 1.1.1.1 2010/09/13 19:44:40 landry Exp $
+$OpenBSD$
 --- src/irc/irc.cpp.orig	Fri Jun 25 11:24:52 2010
 +++ src/irc/irc.cpp	Fri Jun 25 11:25:03 2010
 @@ -16,6 +16,7 @@

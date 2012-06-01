@@ -1,4 +1,4 @@
-$OpenBSD: ports/inputmethods/scim-fcitx/patches/patch-src_sp_cpp,v 1.1.1.1 2008/10/29 02:24:17 kevlo Exp $
+$OpenBSD$
 --- src/sp.cpp.orig	Sat Oct 25 15:36:52 2008
 +++ src/sp.cpp	Sat Oct 25 15:37:30 2008
 @@ -11,6 +11,7 @@ using namespace scim;

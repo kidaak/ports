@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/cdparanoia/patches/patch-utils_h,v 1.2 2002/09/16 13:35:52 lebel Exp $
+$OpenBSD$
 --- utils.h.orig	Thu Apr 20 00:41:04 2000
 +++ utils.h	Mon Sep 16 12:33:02 2002
 @@ -1,5 +1,16 @@

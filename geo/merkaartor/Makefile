@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/merkaartor/Makefile,v 1.14 2012/01/06 16:46:13 landry Exp $
+# $OpenBSD$
 
 COMMENT =	OpenStreetMap editor
 

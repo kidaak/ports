@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-xmlrunner/Makefile,v 1.1.1.1 2011/12/19 10:39:20 mpi Exp $
+# $OpenBSD$
 
 COMMENT =		test runner with JUnit like XML reporting
 

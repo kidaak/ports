@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/twitux/pkg/PLIST,v 1.4 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/twitux
 share/applications/twitux.desktop
 share/gnome/help/twitux/

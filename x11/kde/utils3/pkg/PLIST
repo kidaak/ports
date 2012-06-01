@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/utils3/pkg/PLIST,v 1.28 2011/12/03 23:34:04 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/ark
 @bin bin/irkick
 @bin bin/kcalc

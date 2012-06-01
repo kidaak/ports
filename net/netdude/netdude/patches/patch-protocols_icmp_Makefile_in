@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-protocols_icmp_Makefile_in,v 1.4 2007/09/26 20:21:06 rui Exp $
+$OpenBSD$
 --- protocols/icmp/Makefile.in.orig	Fri Jul 27 17:04:17 2007
 +++ protocols/icmp/Makefile.in	Fri Jul 27 17:05:12 2007
 @@ -75,7 +75,7 @@ DIST_SOURCES = $(nd_icmp_la_SOURCES)

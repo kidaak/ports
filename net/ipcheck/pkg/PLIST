@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/ipcheck/pkg/PLIST,v 1.2 2003/12/04 18:02:38 lebel Exp $
+@comment $OpenBSD$
 bin/ipcheck.py

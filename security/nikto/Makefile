@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/nikto/Makefile,v 1.20 2011/09/07 13:21:11 nigel Exp $
+# $OpenBSD$
 
 COMMENT =	web and CGI vulnerability scanner with SSL support
 

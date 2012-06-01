@@ -1,2 +1,0 @@
-@comment $OpenBSD: ports/x11/xfce4/thunar-archive/pkg/PFRAG.shared,v 1.2 2011/01/18 20:52:20 landry Exp $
-lib/thunarx-2/thunar-archive-plugin.so

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/audio/umurmur/pkg/umurmurd.rc,v 1.2 2011/07/08 09:09:43 dcoppa Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/umurmurd"
 

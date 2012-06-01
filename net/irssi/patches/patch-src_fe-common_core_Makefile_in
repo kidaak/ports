@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi/patches/patch-src_fe-common_core_Makefile_in,v 1.5 2010/05/19 15:04:28 sthen Exp $
+$OpenBSD$
 --- src/fe-common/core/Makefile.in.orig	Sat Apr  3 18:21:28 2010
 +++ src/fe-common/core/Makefile.in	Sun Apr  4 16:31:38 2010
 @@ -258,7 +258,7 @@ INCLUDES = \

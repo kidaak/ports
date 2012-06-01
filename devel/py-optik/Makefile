@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-optik/Makefile,v 1.18 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	command line parsing library for Python
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libfprint/Makefile,v 1.12 2012/02/22 09:30:19 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	library for fingerprint reader devices
 

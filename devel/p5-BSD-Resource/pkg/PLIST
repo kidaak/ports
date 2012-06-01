@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-BSD-Resource/pkg/PLIST,v 1.10 2008/10/02 22:25:47 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/BSD/
 ${P5ARCH}/BSD/Resource.pm

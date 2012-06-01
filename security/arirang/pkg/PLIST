@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/arirang/pkg/PLIST,v 1.11 2011/04/28 16:17:21 sthen Exp $
+@comment $OpenBSD$
 @bin bin/arirang
 share/arirang/
 share/arirang/account.uxe

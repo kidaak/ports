@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-vorbis/patches/patch-src_general_h,v 1.1.1.1 2011/05/31 09:19:45 dcoppa Exp $
+$OpenBSD$
 
 Avoid unused symbol warnings from the static callbacks defined in
 vorbisfile.h (see http://svn.xiph.org/trunk/vorbis/CHANGES)

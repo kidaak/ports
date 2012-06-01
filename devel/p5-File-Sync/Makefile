@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-Sync/Makefile,v 1.10 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

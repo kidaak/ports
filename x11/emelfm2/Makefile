@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/emelfm2/Makefile,v 1.19 2011/09/21 07:49:16 giovanni Exp $
+# $OpenBSD$
 
 COMMENT =		GTK+2 file manager
 

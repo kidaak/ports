@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/thttpd/Makefile,v 1.23 2012/03/16 21:58:38 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	tiny/turbo/throttling HTTP server
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/sdk3/patches/patch-kuiviewer_Makefile_in,v 1.8 2008/03/26 13:22:22 espie Exp $
+$OpenBSD$
 --- kuiviewer/Makefile.in.orig	Wed Feb 13 16:11:29 2008
 +++ kuiviewer/Makefile.in	Wed Mar 26 12:14:21 2008
 @@ -439,7 +439,7 @@ kde_module_LTLIBRARIES = libkuiviewerpart.la quithumbn

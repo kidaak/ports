@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nedit/patches/patch-source_file_c,v 1.6 2007/06/26 19:54:53 jasper Exp $
+$OpenBSD$
 --- source/file.c.orig	Tue Aug 24 11:37:24 2004
 +++ source/file.c	Fri Jun 22 17:30:03 2007
 @@ -1314,7 +1314,12 @@ void PrintWindow(WindowInfo *window, int selectedOnly)

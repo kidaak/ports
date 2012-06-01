@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/sdlmame/Makefile,v 1.20 2012/03/04 01:46:41 jsg Exp $
+# $OpenBSD$
 
 # Other archs have not been tested
 ONLY_FOR_ARCHS =	amd64 i386

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/evolution-data-server/pkg/PLIST,v 1.30 2012/04/16 14:22:30 jasper Exp $
+@comment $OpenBSD$
 include/evolution-data-server-${R}/
 include/evolution-data-server-${R}/camel/
 include/evolution-data-server-${R}/camel/camel-address.h

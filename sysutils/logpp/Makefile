@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/logpp/Makefile,v 1.8 2010/11/20 17:22:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	log file preprocessor
 

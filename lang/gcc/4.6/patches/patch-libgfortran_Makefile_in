@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libgfortran_Makefile_in,v 1.1.1.1 2011/11/14 13:00:57 pascal Exp $
+$OpenBSD$
 --- libgfortran/Makefile.in.orig	Sat Nov 12 14:00:34 2011
 +++ libgfortran/Makefile.in	Sat Nov 12 14:01:28 2011
 @@ -485,7 +485,8 @@ LTLDFLAGS = $(shell $(SHELL) $(top_srcdir)/../libtool-

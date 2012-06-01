@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dwm/patches/patch-config_mk,v 1.8 2011/09/13 14:02:53 gsoares Exp $
+$OpenBSD$
 --- config.mk.orig	Sun Jul 10 17:24:25 2011
 +++ config.mk	Tue Jul 26 10:44:28 2011
 @@ -4,30 +4,30 @@ VERSION = 5.9

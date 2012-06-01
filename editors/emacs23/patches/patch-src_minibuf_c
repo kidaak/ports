@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs23/patches/patch-src_minibuf_c,v 1.1.1.1 2011/03/28 15:18:56 jasper Exp $
+$OpenBSD$
 
 'emacs --batch -f byte-compile-file' fails after inactivity timer
 fires up. the solution is to restart fgets upon receiving EINTR.

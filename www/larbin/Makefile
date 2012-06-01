@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/larbin/Makefile,v 1.7 2011/09/21 07:49:16 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	little and fast Web crawler
 

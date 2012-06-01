@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-SSH-Perl/pkg/PLIST,v 1.2 2011/07/10 16:50:37 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/SSH/
 ${P5SITE}/Net/SSH/Perl/

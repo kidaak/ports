@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libmpeg2/Makefile,v 1.18 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	free MPEG-2 video stream decoder
 

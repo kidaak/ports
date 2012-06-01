@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libslang/patches/patch-autoconf_aclocal_m4,v 1.6 2011/09/21 22:01:56 sthen Exp $
+$OpenBSD$
 --- autoconf/aclocal.m4.orig	Mon Apr 11 03:37:07 2011
 +++ autoconf/aclocal.m4	Wed Sep 21 20:21:08 2011
 @@ -571,13 +571,13 @@ fi

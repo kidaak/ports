@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Test-Unit/pkg/PLIST,v 1.1.1.1 2007/12/21 13:49:02 sturm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Test/
 ${P5SITE}/Test/TestLister.pl
 ${P5SITE}/Test/TestRunner.pl

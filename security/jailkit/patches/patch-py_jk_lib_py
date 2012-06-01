@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/jailkit/patches/patch-py_jk_lib_py,v 1.1.1.1 2010/09/20 07:15:30 sebastia Exp $
+$OpenBSD$
 
 Fix running jk_init trying to create a jail the first time
 

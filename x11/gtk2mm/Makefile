@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk2mm/Makefile,v 1.54 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	C++ interface for gtk2+
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cppunit/pkg/PLIST,v 1.2 2008/10/24 14:49:44 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/DllPlugInTester
 bin/cppunit-config

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/grip/patches/patch-src_rip_c,v 1.6 2011/04/16 21:21:24 jasper Exp $
+$OpenBSD$
 --- src/rip.c.orig	Thu Apr 15 20:21:15 2004
 +++ src/rip.c	Tue May 13 16:15:31 2008
 @@ -27,7 +27,7 @@

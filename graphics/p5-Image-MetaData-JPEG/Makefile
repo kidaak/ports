@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Image-MetaData-JPEG/Makefile,v 1.5 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	access and modify JPEG metadata
 

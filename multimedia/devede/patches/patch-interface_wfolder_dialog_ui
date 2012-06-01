@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/devede/patches/patch-interface_wfolder_dialog_ui,v 1.4 2011/11/22 08:55:23 ajacoutot Exp $
+$OpenBSD$
 --- interface/wfolder_dialog.ui.orig	Sun Nov 20 13:40:04 2011
 +++ interface/wfolder_dialog.ui	Tue Nov 22 09:29:41 2011
 @@ -70,7 +70,7 @@

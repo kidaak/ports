@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/lfm/pkg/PLIST,v 1.2 2011/09/16 22:08:32 sthen Exp $
+@comment $OpenBSD$
 bin/lfm
 bin/pyview
 lib/python${MODPY_VERSION}/site-packages/lfm/

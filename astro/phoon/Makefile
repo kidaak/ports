@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/phoon/Makefile,v 1.7 2011/12/18 09:01:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		displays the phase of the moon in ascii
 

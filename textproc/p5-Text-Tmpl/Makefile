@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Tmpl/Makefile,v 1.13 2011/05/25 20:12:40 gsoares Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

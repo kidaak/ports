@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/freeze/Makefile,v 1.24 2010/10/18 16:47:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	FREEZE / MELT compression program - often used in QNX
 

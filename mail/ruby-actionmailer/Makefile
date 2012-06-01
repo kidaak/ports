@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/ruby-actionmailer/Makefile,v 1.30 2011/12/13 17:53:44 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	easy email delivery and testing for ruby
 

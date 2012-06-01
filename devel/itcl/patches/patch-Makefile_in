@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/itcl/patches/patch-Makefile_in,v 1.4 2011/10/30 07:36:05 sebastia Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri Jul 15 20:30:52 2011
 +++ Makefile.in	Sun Oct  9 19:00:41 2011
 @@ -75,7 +75,7 @@ DESTDIR		=

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/galculator/Makefile,v 1.39 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	GTK2-based scientific calculator
 

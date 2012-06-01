@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libgdamm/Makefile,v 1.23 2011/11/21 13:43:54 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

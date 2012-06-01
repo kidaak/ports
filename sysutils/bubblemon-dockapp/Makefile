@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/bubblemon-dockapp/Makefile,v 1.20 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; display CPU and memory load
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/hypermail/patches/patch-configure,v 1.4 2003/03/06 20:51:39 brad Exp $
+$OpenBSD$
 --- configure.orig	Fri Feb 14 01:11:16 2003
 +++ configure	Thu Mar  6 21:11:34 2003
 @@ -544,14 +544,11 @@ fi

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/ogre/patches/patch-CMake_ConfigureBuild_cmake,v 1.1.1.1 2012/03/18 14:31:00 pascal Exp $
+$OpenBSD$
 --- CMake/ConfigureBuild.cmake.orig	Mon Dec 26 16:10:49 2011
 +++ CMake/ConfigureBuild.cmake	Mon Dec 26 16:10:57 2011
 @@ -168,7 +168,7 @@ if (UNIX)

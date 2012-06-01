@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-String-RewritePrefix/Makefile,v 1.6 2011/01/07 09:21:47 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	rewrite strings based on a set of known prefixes
 

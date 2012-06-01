@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/fxtv/patches/patch-videolib_videolib_c,v 1.1 2010/05/22 14:12:50 espie Exp $
+$OpenBSD$
 --- videolib/videolib.c.orig	Sat May 22 16:06:23 2010
 +++ videolib/videolib.c	Sat May 22 16:09:09 2010
 @@ -479,9 +479,11 @@ static void VIDEOLIBConvertRGBToRGB( VL_IMAGE *src, VL

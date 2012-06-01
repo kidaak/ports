@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/arpcatch/Makefile,v 1.17 2010/07/12 22:07:37 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	userland arp-proxy daemon
 

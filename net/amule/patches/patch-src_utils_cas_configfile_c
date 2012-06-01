@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_utils_cas_configfile_c,v 1.2 2011/11/28 15:28:49 dcoppa Exp $
+$OpenBSD$
 
 Sane defaults.
 

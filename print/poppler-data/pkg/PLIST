@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/poppler-data/pkg/PLIST,v 1.3 2010/05/08 17:10:24 kili Exp $
+@comment $OpenBSD$
 share/poppler/
 share/poppler/cMap/
 share/poppler/cMap/Adobe-CNS1/

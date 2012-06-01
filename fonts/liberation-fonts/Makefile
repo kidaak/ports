@@ -1,10 +1,10 @@
-# $OpenBSD: ports/fonts/liberation-fonts/Makefile,v 1.2 2011/10/23 10:26:59 benoit Exp $
+# $OpenBSD$
 
 PKG_ARCH =	*
 
 COMMENT =	substitute for MS TTF core fonts
 
-DISTNAME =	liberation-fonts-ttf-1.07.1
+DISTNAME =	liberation-fonts-ttf-1.07.2
 PKGNAME =	${DISTNAME:S/-ttf//}
 CATEGORIES =	fonts x11
 

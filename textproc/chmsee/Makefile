@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/chmsee/Makefile,v 1.10 2011/12/07 23:31:04 espie Exp $
+# $OpenBSD$
 
 COMMENT =	html help viewer
 

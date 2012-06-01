@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/gqmpeg/Makefile,v 1.54 2011/10/12 12:54:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		front-end to various audio players
 

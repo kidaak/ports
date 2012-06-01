@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Declare/Makefile,v 1.5 2011/10/29 16:43:57 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		declarative syntax for Moose
 

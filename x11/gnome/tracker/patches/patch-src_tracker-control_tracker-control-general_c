@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/tracker/patches/patch-src_tracker-control_tracker-control-general_c,v 1.5 2011/12/16 17:36:55 ajacoutot Exp $
+$OpenBSD$
 --- src/tracker-control/tracker-control-general.c.orig	Fri Dec 16 16:38:16 2011
 +++ src/tracker-control/tracker-control-general.c	Fri Dec 16 18:02:12 2011
 @@ -21,6 +21,16 @@

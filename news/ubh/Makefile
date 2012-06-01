@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/ubh/Makefile,v 1.10 2010/11/20 09:48:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=	download and decode binaries posted to Usenet
 

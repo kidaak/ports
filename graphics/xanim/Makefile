@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/xanim/Makefile,v 1.29 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	X11 animation player with support for lots of formats
 

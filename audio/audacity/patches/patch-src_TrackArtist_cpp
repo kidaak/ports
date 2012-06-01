@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacity/patches/patch-src_TrackArtist_cpp,v 1.1 2009/10/28 18:40:13 jakemsr Exp $
+$OpenBSD$
 --- src/TrackArtist.cpp.orig	Mon Oct 19 01:25:55 2009
 +++ src/TrackArtist.cpp	Mon Oct 19 01:26:15 2009
 @@ -39,7 +39,7 @@

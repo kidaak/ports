@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-test/Makefile,v 1.1.1.1 2012/03/26 18:26:18 eric Exp $
+# $OpenBSD$
 
 COMMENT=		cross-project testing tool for Python
 

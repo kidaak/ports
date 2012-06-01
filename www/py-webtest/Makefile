@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-webtest/Makefile,v 1.8 2011/12/31 15:08:35 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =	helper to test wsgi applications
 

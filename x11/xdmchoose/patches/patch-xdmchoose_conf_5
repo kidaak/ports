@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xdmchoose/patches/patch-xdmchoose_conf_5,v 1.2 2009/03/23 21:41:44 naddy Exp $
+$OpenBSD$
 --- xdmchoose.conf.5.orig	Thu Apr 24 03:40:56 2003
 +++ xdmchoose.conf.5	Mon Mar 23 22:04:59 2009
 @@ -62,7 +62,7 @@ Visual components are configured using the following p

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/databases/qdbm/pkg/PFRAG.shared,v 1.5 2005/12/26 21:32:01 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libqdbm.so.${LIBqdbm_VERSION}

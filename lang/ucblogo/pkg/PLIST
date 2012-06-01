@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ucblogo/pkg/PLIST,v 1.1.1.1 2006/06/01 05:58:15 jolan Exp $
+@comment $OpenBSD$
 bin/logo
 share/ucblogo/
 share/ucblogo/helpfiles/

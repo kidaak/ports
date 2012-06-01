@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/rubinius/Makefile,v 1.20 2011/12/30 10:42:20 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

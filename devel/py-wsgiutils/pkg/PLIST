@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-wsgiutils/pkg/PLIST,v 1.2 2011/03/05 22:32:32 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/WSGIUtils-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/WSGIUtils-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/WSGIUtils-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

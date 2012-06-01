@@ -1,6 +1,7 @@
-@comment $OpenBSD: ports/x11/xfce4/xfce4-dev-tools/pkg/PLIST,v 1.1.1.1 2009/08/20 20:58:14 landry Exp $
+@comment $OpenBSD$
 bin/xdt-autogen
 bin/xdt-commit
+@bin bin/xdt-csource
 share/xfce4/
 share/xfce4/dev-tools/
 share/xfce4/dev-tools/m4macros/

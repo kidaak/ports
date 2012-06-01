@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openvpn/patches/patch-sample-config-files_tls-office_conf,v 1.2 2010/08/30 18:32:20 fkr Exp $
+$OpenBSD$
 --- sample-config-files/tls-office.conf.orig	Wed Mar 31 08:47:07 2010
 +++ sample-config-files/tls-office.conf	Fri Aug 27 09:04:39 2010
 @@ -48,10 +48,10 @@ key office.key

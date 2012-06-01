@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/festlex/festlex_OALD/Makefile,v 1.2 2007/09/15 22:27:38 simon Exp $
+# $OpenBSD$
 
 COMMENT=	oxford advanced learners' dictiction of current english
 DISTNAME=	festlex_OALD

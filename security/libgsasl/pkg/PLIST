@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/libgsasl/pkg/PLIST,v 1.1.1.1 2010/10/24 08:13:53 sebastia Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gsasl-compat.h
 include/gsasl-mech.h

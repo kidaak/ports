@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/shared-mime-info/Makefile,v 1.41 2012/03/19 10:28:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		shared mime database for desktops
 

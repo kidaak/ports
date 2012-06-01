@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_gzip/Makefile,v 1.16 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	transparently compress Apache output
 

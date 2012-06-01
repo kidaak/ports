@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Mail-SpamAssassin/pkg/PLIST,v 1.32 2011/09/21 08:02:07 sthen Exp $
+@comment $OpenBSD$
 @pkgpath mail/p5-Mail-SpamAssassin
 @newgroup _spamdaemon:506
 @newuser _spamdaemon:506:506:daemon:SpamAssassin:${LOCALSTATEDIR}:/sbin/nologin

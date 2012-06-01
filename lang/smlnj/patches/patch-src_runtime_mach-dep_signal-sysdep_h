@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/smlnj/patches/patch-src_runtime_mach-dep_signal-sysdep_h,v 1.1.1.1 2002/06/29 13:25:10 espie Exp $
+$OpenBSD$
 --- src/runtime/mach-dep/signal-sysdep.h.orig	Fri Dec  3 20:59:32 1999
 +++ src/runtime/mach-dep/signal-sysdep.h	Sat Jun 29 15:11:35 2002
 @@ -437,6 +437,21 @@ extern Addr_t *ML_X86Frame;   /* used to

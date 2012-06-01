@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/ssh-askpass-fullscreen/pkg/PLIST,v 1.1.1.1 2009/04/17 14:57:59 landry Exp $
+@comment $OpenBSD$
 @bin bin/ssh-askpass-fullscreen

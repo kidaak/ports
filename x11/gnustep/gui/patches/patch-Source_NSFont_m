@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/gui/patches/patch-Source_NSFont_m,v 1.4 2010/05/12 16:44:17 jasper Exp $
+$OpenBSD$
 --- Source/NSFont.m.orig	Sat Feb 20 17:30:27 2010
 +++ Source/NSFont.m	Wed May 12 10:12:27 2010
 @@ -168,13 +168,13 @@ keyForFont(NSString *name, const CGFloat *matrix, BOOL

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/jdk/1.6/pkg/PFRAG.no-no_web-jre,v 1.2 2008/06/28 12:34:58 kurt Exp $
+@comment $OpenBSD$
 ${JREHOME}/bin/ControlPanel
 @bin ${JREHOME}/bin/java_vm
 @bin ${JREHOME}/bin/javaws

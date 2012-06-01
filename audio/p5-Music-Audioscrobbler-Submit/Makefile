@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Music-Audioscrobbler-Submit/Makefile,v 1.4 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		module providing routines to submit songs to last.fm
 

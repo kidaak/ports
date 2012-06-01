@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/vte/pkg/PLIST-python,v 1.6 2011/05/13 23:07:16 jasper Exp $
+@comment $OpenBSD$
 lib/pkgconfig/pyvte.pc
 @comment lib/python${MODPY_VERSION}/site-packages/gtk-2.0/vtemodule.a
 @comment lib/python${MODPY_VERSION}/site-packages/gtk-2.0/vtemodule.la

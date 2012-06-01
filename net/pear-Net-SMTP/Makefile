@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-SMTP/Makefile,v 1.14 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	SMTP support for PHP
 

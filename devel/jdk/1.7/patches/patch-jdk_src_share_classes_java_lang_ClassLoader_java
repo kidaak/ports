@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.7/patches/patch-jdk_src_share_classes_java_lang_ClassLoader_java,v 1.7 2012/04/12 22:27:20 matthew Exp $
+$OpenBSD$
 --- jdk/src/share/classes/java/lang/ClassLoader.java.orig	Thu Nov 17 21:57:34 2011
 +++ jdk/src/share/classes/java/lang/ClassLoader.java	Wed Apr 11 09:10:38 2012
 @@ -27,6 +27,7 @@ package java.lang;

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmii/Makefile,v 1.18 2011/03/02 06:30:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	dynamic window manager
 

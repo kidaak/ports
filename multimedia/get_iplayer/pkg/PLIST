@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/get_iplayer/pkg/PLIST,v 1.6 2010/05/27 23:33:45 sthen Exp $
+@comment $OpenBSD$
 bin/get_iplayer
 @man man/man1/get_iplayer.1
 share/get_iplayer/

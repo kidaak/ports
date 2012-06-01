@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/gnuplot/patches/patch-src_Makefile_in,v 1.1 2011/01/06 23:45:07 jasper Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Jan  6 21:38:39 2011
 +++ src/Makefile.in	Thu Jan  6 21:40:48 2011
 @@ -205,9 +205,9 @@ GDLIB_CONFIG = @GDLIB_CONFIG@

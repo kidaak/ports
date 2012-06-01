@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-LaTeX-Pod/Makefile,v 1.1.1.1 2011/08/22 07:14:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		transform LaTeX source files to POD
 

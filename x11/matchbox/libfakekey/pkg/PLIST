@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/matchbox/libfakekey/pkg/PLIST,v 1.1.1.1 2006/07/20 21:09:58 robert Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/fakekey/
 include/fakekey/fakekey.h

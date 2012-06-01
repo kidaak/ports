@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/idled/Makefile,v 1.20 2010/10/19 07:43:01 espie Exp $
+# $OpenBSD$
 
 COMMENT=	log out idle users and those hogging resources
 

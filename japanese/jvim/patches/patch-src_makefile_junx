@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/jvim/patches/patch-src_makefile_junx,v 1.1 2007/10/26 21:42:18 ajacoutot Exp $
+$OpenBSD$
 --- src/makefile.junx.orig	Sun Jul  2 22:54:33 1995
 +++ src/makefile.junx	Fri Oct 26 23:36:44 2007
 @@ -15,12 +15,12 @@ MDOMAIN = -DMDOMAIN=\"Set.Your.Mail.Domain\"

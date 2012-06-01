@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-SVN-Mirror/pkg/PLIST,v 1.2 2005/09/26 02:53:47 kevlo Exp $
+@comment $OpenBSD$
 bin/svm
 ${P5SITE}/SVN/Mirror/
 ${P5SITE}/SVN/Mirror.pm

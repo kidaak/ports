@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/coccinella/pkg/PLIST,v 1.5 2011/07/20 16:43:18 sebastia Exp $
+@comment $OpenBSD$
 bin/coccinella
 lib/coccinella/
 lib/coccinella/Coccinella.tcl

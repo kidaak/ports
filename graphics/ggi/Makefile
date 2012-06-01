@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ggi/Makefile,v 1.45 2011/11/02 08:46:37 jasper Exp $
+# $OpenBSD$
 # Uses pthreads
 
 COMMENT=	Generic Graphics Library

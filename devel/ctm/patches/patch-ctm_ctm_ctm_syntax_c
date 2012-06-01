@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ctm/patches/patch-ctm_ctm_ctm_syntax_c,v 1.2 2007/10/31 23:14:46 ajacoutot Exp $
+$OpenBSD$
 --- ctm/ctm/ctm_syntax.c.orig	Wed Oct 31 23:06:34 2007
 +++ ctm/ctm/ctm_syntax.c	Wed Oct 31 23:06:34 2007
 @@ -56,12 +56,12 @@ static int ctmDR[] = /* Directory Remove */

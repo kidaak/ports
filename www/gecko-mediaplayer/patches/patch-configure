@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/gecko-mediaplayer/patches/patch-configure,v 1.10 2012/03/26 14:41:51 dcoppa Exp $
+$OpenBSD$
 
 Use '-pthread' instead of '-lpthread' for libpthread linkage
 

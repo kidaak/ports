@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gupnp/ui/pkg/PLIST,v 1.1.1.1 2011/07/05 17:01:18 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gupnp-ui-1.0/
 include/gupnp-ui-1.0/libgupnp-ui/

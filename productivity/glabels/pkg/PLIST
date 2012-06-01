@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/glabels/pkg/PLIST,v 1.8 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/glabels-3
 @bin bin/glabels-3-batch

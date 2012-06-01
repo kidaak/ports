@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/network3/patches/patch-kopete_libkopete_avdevice_videocontrol_h,v 1.2 2008/09/07 22:58:25 brad Exp $
+$OpenBSD$
 --- kopete/libkopete/avdevice/videocontrol.h.orig	Mon Oct  8 05:49:07 2007
 +++ kopete/libkopete/avdevice/videocontrol.h	Sun Jun 22 03:01:23 2008
 @@ -20,15 +20,12 @@

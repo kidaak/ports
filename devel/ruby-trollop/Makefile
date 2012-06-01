@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-trollop/Makefile,v 1.9 2012/01/22 16:36:25 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	Ruby commandline parsing library
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/iaxclient/patches/patch-simpleclient_iaxcomm_frame_cc,v 1.1 2010/06/18 17:32:21 sebastia Exp $
+$OpenBSD$
 --- simpleclient/iaxcomm/frame.cc.orig	Sun Jun  6 13:46:27 2010
 +++ simpleclient/iaxcomm/frame.cc	Sun Jun  6 13:46:41 2010
 @@ -425,7 +425,7 @@ void MyFrame::ShowDirectoryControls()

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/BitTorrent/patches/patch-BitTorrent_Storage_py,v 1.1 2006/09/20 16:02:03 naddy Exp $
+$OpenBSD$
 --- BitTorrent/Storage.py.orig	Wed Sep 20 16:51:21 2006
 +++ BitTorrent/Storage.py	Wed Sep 20 16:51:50 2006
 @@ -231,7 +231,7 @@ class Storage(object):

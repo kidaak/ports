@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/eog-plugins/pkg/PLIST,v 1.10 2012/03/29 07:13:55 ajacoutot Exp $
+@comment $OpenBSD$
 lib/eog/plugins/exif-display.plugin
 lib/eog/plugins/fit-to-width.plugin
 @comment lib/eog/plugins/libexif-display.a

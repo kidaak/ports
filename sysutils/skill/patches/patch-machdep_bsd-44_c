@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/skill/patches/patch-machdep_bsd-44_c,v 1.2 2010/01/19 15:25:21 okan Exp $
+$OpenBSD$
 
 --- machdep/bsd-44.c.orig	Thu Apr  4 23:17:21 2002
 +++ machdep/bsd-44.c	Mon Jan 18 16:49:30 2010

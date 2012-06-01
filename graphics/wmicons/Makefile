@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/wmicons/Makefile,v 1.16 2011/09/16 10:02:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=		icons mainly for use in Window Maker
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/gmfsk/patches/patch-src_samplerate_common_h,v 1.1.1.1 2007/05/28 18:47:06 jason Exp $
+$OpenBSD$
 --- src/samplerate/common.h.orig	Fri Nov  4 16:35:02 2005
 +++ src/samplerate/common.h	Fri Nov  4 16:35:36 2005
 @@ -22,8 +22,14 @@

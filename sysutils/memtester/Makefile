@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/memtester/Makefile,v 1.7 2010/10/19 07:43:01 espie Exp $
+# $OpenBSD$
 
 COMMENT=	utility to test for memory faults
 

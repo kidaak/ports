@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xmahjongg/Makefile,v 1.26 2011/03/14 09:17:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	colorful solitaire Mah Jongg game for X11
 

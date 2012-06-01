@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/py-iconvcodec/Makefile,v 1.13 2011/11/04 09:05:54 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

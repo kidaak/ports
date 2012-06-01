@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/disc-cover/Makefile,v 1.24 2012/01/03 07:03:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	creates cover for audio cds using cddb and latex
 

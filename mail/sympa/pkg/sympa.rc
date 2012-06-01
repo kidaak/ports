@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/sympa/pkg/sympa.rc,v 1.5 2011/07/06 17:11:03 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/sympa"
 

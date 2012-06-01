@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xhippo/Makefile,v 1.37 2011/10/12 12:54:31 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	generic playlist manager for UNIX
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/json-c/pkg/PFRAG.shared,v 1.1.1.1 2008/03/23 08:57:02 mbalmer Exp $
+@comment $OpenBSD$
 @lib lib/libjson.so.${LIBjson_VERSION}

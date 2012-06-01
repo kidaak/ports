@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/palm/palm-bookmarks/pkg/PLIST,v 1.2 2004/09/15 18:22:17 espie Exp $
+@comment $OpenBSD$
 bin/palm-bookmarks
 share/doc/palm-bookmarks/
 share/doc/palm-bookmarks/README

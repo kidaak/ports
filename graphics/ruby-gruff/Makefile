@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ruby-gruff/Makefile,v 1.11 2011/12/02 19:36:42 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		library for making beautiful graphs
 

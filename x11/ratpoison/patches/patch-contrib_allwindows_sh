@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/ratpoison/patches/patch-contrib_allwindows_sh,v 1.1 2006/09/27 20:12:14 jasper Exp $
+$OpenBSD$
 --- contrib/allwindows.sh.orig	Mon Aug 11 07:12:48 2003
 +++ contrib/allwindows.sh	Wed Aug 16 15:44:36 2006
 @@ -1,4 +1,4 @@

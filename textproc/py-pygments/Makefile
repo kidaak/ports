@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-pygments/Makefile,v 1.15 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 COMMENT=	Python syntax highlighter
 
 MODPY_EGG_VERSION = 1.4

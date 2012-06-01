@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/john/patches/patch-src_params_h,v 1.8 2011/06/24 15:19:22 benoit Exp $
+$OpenBSD$
 --- src/params.h.orig	Wed Jun 22 15:38:55 2011
 +++ src/params.h	Fri Jun 24 09:09:42 2011
 @@ -51,15 +51,15 @@

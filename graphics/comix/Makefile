@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/comix/Makefile,v 1.25 2011/12/20 11:25:35 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	gtk2 comic book viewer
 

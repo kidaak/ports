@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/maple-share/pkg/PLIST,v 1.2 2004/09/15 09:11:59 espie Exp $
+@comment $OpenBSD$
 maple/share/
 maple/share/AFA/
 maple/share/AFA/AFA.msl

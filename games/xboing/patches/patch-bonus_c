@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xboing/patches/patch-bonus_c,v 1.1 2011/07/08 11:42:09 jasper Exp $
+$OpenBSD$
 --- bonus.c.orig	Fri Nov 22 02:28:46 1996
 +++ bonus.c	Fri Jul  8 13:37:55 2011
 @@ -311,7 +311,7 @@ void DrawTitleText(display, window)

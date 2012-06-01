@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gprolog/pkg/SECURITY,v 1.1.1.1 2004/09/26 14:48:29 espie Exp $
+$OpenBSD$
 
       ${WRKDIR}EnginePl/machine1.c
          call to mktemp could be insecure.

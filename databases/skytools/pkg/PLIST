@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/skytools/pkg/PLIST,v 1.4 2009/04/10 12:00:13 pea Exp $
+@comment $OpenBSD$
 bin/bulk_loader
 bin/cube_dispatcher
 bin/londiste

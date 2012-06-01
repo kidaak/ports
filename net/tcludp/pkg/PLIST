@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/tcludp/pkg/PLIST,v 1.2 2011/01/05 18:08:46 sebastia Exp $
+@comment $OpenBSD$
 lib/tcl/tcludp/
 @lib lib/tcl/tcludp/libudp108.so.${LIBudp108_VERSION}
 lib/tcl/tcludp/pkgIndex.tcl

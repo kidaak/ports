@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/skytools/Makefile,v 1.16 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	PostgreSQL tools from Skype
 

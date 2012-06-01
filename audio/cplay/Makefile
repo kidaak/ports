@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/cplay/Makefile,v 1.17 2012/01/03 07:03:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		curses front-end for various audio players
 

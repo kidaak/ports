@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/devel/libmemcached/pkg/PFRAG.atomic,v 1.1.1.1 2010/10/01 09:32:36 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/memslap
 @man man/man1/memslap.1

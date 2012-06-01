@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libgexiv2/Makefile,v 1.8 2012/04/05 12:58:14 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GObject wrapper around exiv2
 CATEGORIES=	graphics

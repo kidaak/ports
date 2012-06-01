@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/catfish/patches/patch-Makefile_in,v 1.1.1.1 2009/06/04 02:03:39 landry Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri Oct 24 23:14:07 2008
 +++ Makefile.in	Sun Apr 26 14:56:05 2009
 @@ -1,13 +1,11 @@

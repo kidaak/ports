@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/sqlite3/pkg/PLIST-main,v 1.4 2010/04/20 10:00:17 sthen Exp $
+@comment $OpenBSD$
 @pkgpath databases/sqlite3
 @pkgpath databases/sqlite3,no_tcl
 %%SHARED%%

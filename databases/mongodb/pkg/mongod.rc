@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/databases/mongodb/pkg/mongod.rc,v 1.1.1.1 2011/06/02 00:26:32 fgsch Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/mongod"
 daemon_flags="-f ${SYSCONFDIR}/mongodb.conf"

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/gkrellm/Makefile,v 1.64 2012/04/14 09:27:27 nigel Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

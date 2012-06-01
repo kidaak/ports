@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/papyon/Makefile,v 1.16 2012/04/08 14:52:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		MSN client library for python
 

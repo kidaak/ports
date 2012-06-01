@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Tie-RegexpHash/Makefile,v 1.3 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	use regular expressions as hash keys
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Shorten-Bitly/Makefile,v 1.1.1.1 2011/08/18 11:48:12 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		interface to bit.ly shortening site
 

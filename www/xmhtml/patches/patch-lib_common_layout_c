@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/xmhtml/patches/patch-lib_common_layout_c,v 1.1.1.1 2001/07/13 17:50:45 pvalchev Exp $
+$OpenBSD$
 The patch fixes:
 1) <HR> placement
 2) formatting inside <PRE></PRE> (not really nice HTML, but any browser

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Quoted/Makefile,v 1.9 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		extract the structure of a quoted mail message
 

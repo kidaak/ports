@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/schroedinger/Makefile,v 1.9 2012/01/25 13:50:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	high-speed Dirac codec
 

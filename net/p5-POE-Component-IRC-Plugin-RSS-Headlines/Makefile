@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-POE-Component-IRC-Plugin-RSS-Headlines/Makefile,v 1.5 2010/12/03 11:45:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		PoCo::IRC Plugin that provides RSS Headline retrieval
 

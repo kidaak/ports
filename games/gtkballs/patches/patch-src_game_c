@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/gtkballs/patches/patch-src_game_c,v 1.2 2009/11/17 19:30:01 naddy Exp $
+$OpenBSD$
 --- src/game.c.orig	Wed Oct  6 13:06:46 2004
 +++ src/game.c	Mon Nov 16 22:57:02 2009
 @@ -495,8 +495,8 @@ gint game_destroy_lines(gboolean count_score) {

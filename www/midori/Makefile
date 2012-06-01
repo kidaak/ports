@@ -1,8 +1,8 @@
-# $OpenBSD: ports/www/midori/Makefile,v 1.47 2012/04/16 10:08:43 landry Exp $
+# $OpenBSD$
 
 COMMENT =	lightweight web browser
 
-XFCE_VERSION =	0.4.5
+XFCE_VERSION =	0.4.6
 XFCE_GOODIE =	midori
 
 MAINTAINER =	Landry Breuil <landry@openbsd.org>
@@ -22,14 +22,10 @@ NO_REGRESS =	Yes
 
 LIB_DEPENDS =	www/webkit>=1.6.1v0 \
 		devel/libnotify \
-		databases/sqlite3 \
 		devel/libunique \
 		devel/libsoup>=2.28.0
 
 RUN_DEPENDS =	xfce4-icon-theme-*|tango-icon-theme-*|gnome-icon-theme-*:x11/tango-icon-theme
-
-# pickup sqlite
-CONFIGURE_ENV+=	CPPFLAGS="-I${LOCALBASE}/include"
 
 BUILD_DEPENDS =	textproc/py-docutils \
 		lang/vala \

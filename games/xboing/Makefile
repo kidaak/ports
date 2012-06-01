@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xboing/Makefile,v 1.28 2010/10/24 21:19:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	blockout style game for X11
 

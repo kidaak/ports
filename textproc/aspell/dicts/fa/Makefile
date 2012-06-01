@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/fa/Makefile,v 1.2 2012/01/17 10:32:26 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Farsi
 CATEGORIES=	textproc

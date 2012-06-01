@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/munin/patches/patch-plugins_node_d_openbsd_netstat_in,v 1.1 2010/10/23 15:52:23 sthen Exp $
+$OpenBSD$
 --- plugins/node.d.openbsd/netstat.in.orig	Fri Oct 15 00:02:32 2010
 +++ plugins/node.d.openbsd/netstat.in	Fri Oct 15 00:03:03 2010
 @@ -53,11 +53,6 @@ if [ "$1" = "config" ]; then

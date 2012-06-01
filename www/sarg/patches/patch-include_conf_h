@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/sarg/patches/patch-include_conf_h,v 1.1 2008/12/08 08:35:46 sthen Exp $
+$OpenBSD$
 --- include/conf.h.orig	Tue Dec  2 13:48:59 2008
 +++ include/conf.h	Tue Dec  2 14:46:38 2008
 @@ -86,7 +86,17 @@ gdPoint points[4];

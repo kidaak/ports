@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/mscgen/Makefile,v 1.2 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		utility to create Message Sequence Charts
 

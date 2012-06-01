@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/es/Makefile,v 1.7 2012/01/17 11:00:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Spanish
 CATEGORIES=	textproc

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/openmotif/pkg/PLIST-main,v 1.4 2010/11/07 19:52:00 jasper Exp $
+@comment $OpenBSD$
 @conflict lesstif-*
 @pkgpath x11/openmotif
 @bin bin/mwm

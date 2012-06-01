@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/zziplib/patches/patch-zzip_Makefile_in,v 1.5 2011/03/08 15:37:28 giovanni Exp $
+$OpenBSD$
 --- zzip/Makefile.in.orig	Wed Dec 29 17:07:18 2010
 +++ zzip/Makefile.in	Mon Jan 10 11:59:18 2011
 @@ -205,7 +205,7 @@ PERL = @PERL@

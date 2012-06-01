@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.2/pkg/PFRAG.PPC-main,v 1.1 2007/06/19 21:23:38 ajacoutot Exp $
+@comment $OpenBSD$
 lib/gcc/${CONFIG}/${V}/crtsavres.o
 lib/gcc/${CONFIG}/${V}/include/altivec.h
 lib/gcc/${CONFIG}/${V}/include/ppc-asm.h

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/h323plus/patches/patch-plugins_video_H_263-1998_h263-1998_cxx,v 1.1 2011/12/30 17:39:06 edd Exp $
+$OpenBSD$
 --- plugins/video/H.263-1998/h263-1998.cxx.orig	Thu Dec  1 19:54:54 2011
 +++ plugins/video/H.263-1998/h263-1998.cxx	Thu Dec  1 19:55:15 2011
 @@ -720,7 +720,7 @@ int H263_RFC2190_EncoderContext::EncodeFrames(const BY

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/tempwatch/Makefile,v 1.17 2011/05/18 08:09:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		temporary file auditing tool
 

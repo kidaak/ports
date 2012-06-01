@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/qca2/patches/patch-crypto_prf_in,v 1.2 2012/01/26 09:25:46 sebastia Exp $
+$OpenBSD$
 --- crypto.prf.in.orig	Wed Jun  4 02:48:48 2008
 +++ crypto.prf.in	Tue Jan 24 13:02:00 2012
 @@ -28,8 +28,8 @@ mac: {

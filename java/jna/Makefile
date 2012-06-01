@@ -1,4 +1,4 @@
-# $OpenBSD: ports/java/jna/Makefile,v 1.9 2011/12/15 21:36:23 kili Exp $
+# $OpenBSD$
 
 COMMENT=	Java Native Access (JNA)
 

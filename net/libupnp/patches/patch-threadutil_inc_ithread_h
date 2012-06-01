@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libupnp/patches/patch-threadutil_inc_ithread_h,v 1.1.1.1 2010/03/22 22:25:50 ajacoutot Exp $
+$OpenBSD$
 --- threadutil/inc/ithread.h.orig	Tue Feb  9 12:17:14 2010
 +++ threadutil/inc/ithread.h	Tue Feb  9 12:17:42 2010
 @@ -41,7 +41,7 @@ extern "C" {

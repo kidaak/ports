@@ -1,6 +1,7 @@
-# $OpenBSD: ports/meta/Makefile,v 1.5 2012/03/04 17:53:24 landry Exp $
+# $OpenBSD$
 
      SUBDIR =
+     SUBDIR += geda
      SUBDIR += gnome
      SUBDIR += gnustep
      SUBDIR += haskell-platform

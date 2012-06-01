@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Image-Size/pkg/PLIST,v 1.8 2009/05/08 06:52:40 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Image/
 ${P5SITE}/Image/Size.pm
 ${P5SITE}/auto/

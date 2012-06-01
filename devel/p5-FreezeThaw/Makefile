@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-FreezeThaw/Makefile,v 1.15 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module for converting structures to strings and back
 

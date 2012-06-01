@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xmlrpc-c/patches/patch-src_xmlrpc_server_abyss_c,v 1.2 2008/03/15 10:35:54 ajacoutot Exp $
+$OpenBSD$
 --- src/xmlrpc_server_abyss.c.orig	Wed Aug 30 04:59:05 2006
 +++ src/xmlrpc_server_abyss.c	Wed Jan 16 14:20:18 2008
 @@ -371,7 +371,8 @@ processCall(TSession *        const abyssSessionP,

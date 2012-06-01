@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-Tty/Makefile,v 1.14 2011/10/28 22:38:15 okan Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_testsuite_ada_acats_run_all_sh,v 1.1.1.1 2006/07/31 09:50:53 espie Exp $
+$OpenBSD$
 --- gcc/testsuite/ada/acats/run_all.sh.orig	Mon May  8 18:50:40 2006
 +++ gcc/testsuite/ada/acats/run_all.sh	Sun Jul 23 11:24:02 2006
 @@ -84,7 +84,7 @@ display target gcc is $GCC

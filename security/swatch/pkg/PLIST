@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/swatch/pkg/PLIST,v 1.7 2007/03/25 13:01:35 steven Exp $
+@comment $OpenBSD$
 bin/swatch
 ${P5SITE}/Swatch/
 ${P5SITE}/Swatch/Actions.pm

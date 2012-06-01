@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mon/server/Makefile,v 1.13 2011/06/02 13:41:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	service monitoring daemon
 

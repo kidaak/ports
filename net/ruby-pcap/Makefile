@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-pcap/Makefile,v 1.42 2011/12/02 19:34:42 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		Ruby interface to LBL Packet Capture library
 

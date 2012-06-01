@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/moria/patches/patch-source_death_c,v 1.1.1.1 2001/07/04 16:57:50 lebel Exp $
+$OpenBSD$
 --- source/death.c.orig	Wed Jul  4 11:34:09 2001
 +++ source/death.c	Wed Jul  4 11:35:09 2001
 @@ -126,7 +126,6 @@ static void kingly(void);

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/gnutls/patches/patch-src_certtool-cfg_c,v 1.1 2011/05/04 15:48:10 ajacoutot Exp $
+$OpenBSD$
 --- src/certtool-cfg.c.orig	Wed May  4 16:59:41 2011
 +++ src/certtool-cfg.c	Wed May  4 17:04:16 2011
 @@ -36,6 +36,7 @@

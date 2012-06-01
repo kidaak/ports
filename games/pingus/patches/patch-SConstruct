@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/pingus/patches/patch-SConstruct,v 1.1.1.1 2009/03/14 14:08:38 ajacoutot Exp $
+$OpenBSD$
 --- SConstruct.orig	Sat Mar 14 14:47:21 2009
 +++ SConstruct	Sat Mar 14 14:47:26 2009
 @@ -422,8 +422,6 @@ if ('configure' in COMMAND_LINE_TARGETS) or \

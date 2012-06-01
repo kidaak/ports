@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-DataModel/Makefile,v 1.6 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	classes and UML-style associations on top of DBI
 

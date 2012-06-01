@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/wmmp3/Makefile,v 1.20 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; front end for an mp3 player
 

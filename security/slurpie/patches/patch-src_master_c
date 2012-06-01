@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/slurpie/patches/patch-src_master_c,v 1.2 2010/05/22 16:02:23 espie Exp $
+$OpenBSD$
 --- src/master.c.orig	Sat Jan 30 22:08:08 1999
 +++ src/master.c	Sat May 22 18:00:53 2010
 @@ -7,6 +7,8 @@ master.c: network core for controlling nodes (node.c).

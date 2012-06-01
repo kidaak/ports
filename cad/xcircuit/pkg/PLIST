@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/xcircuit/pkg/PLIST,v 1.7 2011/10/30 05:12:15 stu Exp $
+@comment $OpenBSD$
 bin/xcircuit
 lib/xcircuit-${BASEVER}/
 lib/xcircuit-${BASEVER}/analog.lps

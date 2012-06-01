@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/dmtx-utils/pkg/PLIST,v 1.1.1.1 2012/01/14 08:56:53 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/dmtxquery
 @bin bin/dmtxread
 @bin bin/dmtxwrite

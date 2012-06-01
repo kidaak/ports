@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/cryptokit/Makefile,v 1.11 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	cryptographic framework for the Objective-ML language
 CATEGORIES=	security

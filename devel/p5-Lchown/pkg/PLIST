@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Lchown/pkg/PLIST,v 1.1.1.1 2005/04/25 19:31:29 sturm Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Lchown.pm
 ${P5ARCH}/auto/

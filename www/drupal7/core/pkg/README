@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/drupal7/core/pkg/README,v 1.1 2012/04/10 12:52:32 espie Exp $
+$OpenBSD$
 
 To enable a decent configuration of drupal, please create a symbolic
 link:

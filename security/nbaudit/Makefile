@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/nbaudit/Makefile,v 1.21 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.1.1.1 1998/02/14 04:10:30 obrien Exp $
 
 COMMENT=	NetBIOS Auditing Tool / Security Kit

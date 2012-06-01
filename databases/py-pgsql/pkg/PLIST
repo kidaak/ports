@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-pgsql/pkg/PLIST,v 1.1.1.1 2008/05/09 22:29:51 wcmaier Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pyPgSQL/
 lib/python${MODPY_VERSION}/site-packages/pyPgSQL-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/pyPgSQL/PgSQL.py

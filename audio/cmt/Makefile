@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/cmt/Makefile,v 1.6 2010/11/15 00:22:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	computer music toolkit
 HOMEPAGE=	http://www.ladspa.org/

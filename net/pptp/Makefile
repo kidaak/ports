@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pptp/Makefile,v 1.25 2010/10/18 18:36:56 espie Exp $
+# $OpenBSD$
 # $NetBSD: Makefile,v 1.1.1.1 2000/04/10 01:14:01 jtk Exp $
 
 COMMENT=	PPTP client package for Microsoft VPN servers

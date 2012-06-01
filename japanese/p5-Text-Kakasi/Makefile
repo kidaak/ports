@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/p5-Text-Kakasi/Makefile,v 1.8 2010/11/17 08:05:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Kanji -> kana converter, perl interface
 

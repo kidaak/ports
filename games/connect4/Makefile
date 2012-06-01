@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/connect4/Makefile,v 1.30 2011/05/17 09:05:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	curses version of the classic game
 

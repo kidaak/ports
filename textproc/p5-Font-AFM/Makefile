@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Font-AFM/Makefile,v 1.10 2011/03/09 06:23:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl interface to Adobe Font Metrics files
 

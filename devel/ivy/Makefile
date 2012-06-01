@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ivy/Makefile,v 1.19 2011/10/07 13:54:31 kurt Exp $
+# $OpenBSD$
 
 COMMENT=		dependency manager for Java
 

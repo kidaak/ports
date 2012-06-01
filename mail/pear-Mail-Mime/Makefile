@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/pear-Mail-Mime/Makefile,v 1.15 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	classes to create and decode MIME messages in PHP
 

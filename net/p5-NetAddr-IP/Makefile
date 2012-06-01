@@ -1,10 +1,10 @@
-# $OpenBSD: ports/net/p5-NetAddr-IP/Makefile,v 1.13 2012/04/11 21:37:02 bluhm Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 
 COMMENT =		manages IPv4 and IPv6 addresses and subnets
 
-DISTNAME =		NetAddr-IP-4.059
+DISTNAME =		NetAddr-IP-4.061
 
 CATEGORIES =		net
 

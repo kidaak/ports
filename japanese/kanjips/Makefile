@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/kanjips/Makefile,v 1.14 2011/07/19 09:28:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	converts Japanese fonts in PostScript documents
 

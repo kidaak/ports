@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/audacity/Makefile,v 1.34 2012/01/03 07:03:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	free audio editor
 

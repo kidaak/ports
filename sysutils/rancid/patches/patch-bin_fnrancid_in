@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/rancid/patches/patch-bin_fnrancid_in,v 1.4 2010/04/23 11:18:43 pea Exp $
+$OpenBSD$
 --- bin/fnrancid.in.orig	Wed Mar 24 00:33:50 2010
 +++ bin/fnrancid.in	Fri Apr 16 10:34:08 2010
 @@ -172,6 +172,7 @@ sub GetSystem {

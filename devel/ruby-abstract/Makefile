@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-abstract/Makefile,v 1.8 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=		abstract methods for Ruby
 

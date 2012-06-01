@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Apache-Gallery/Makefile,v 1.16 2012/03/19 07:31:11 landry Exp $
+# $OpenBSD$
 
 
 COMMENT=		mod_perl Apache gallery handler

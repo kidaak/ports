@@ -1,5 +1,5 @@
 # Icon library port
-# $OpenBSD: ports/lang/icon/lib/Makefile,v 1.24 2011/12/02 14:36:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	useful and interesting programs for Icon
 

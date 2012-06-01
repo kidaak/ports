@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/hugin/patches/patch-CMakeModules_FindGLEW_cmake,v 1.2 2010/10/20 15:32:40 sthen Exp $
+$OpenBSD$
 --- CMakeModules/FindGLEW.cmake.orig	Sat Sep  4 21:51:34 2010
 +++ CMakeModules/FindGLEW.cmake	Sat Sep  4 21:51:34 2010
 @@ -12,8 +12,8 @@ IF(WIN32)

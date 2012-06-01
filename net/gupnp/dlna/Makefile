@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gupnp/dlna/Makefile,v 1.15 2012/03/25 13:37:52 nigel Exp $
+# $OpenBSD$
 
 COMMENT=		DLNA integration for GUPnP
 

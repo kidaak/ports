@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/kicad-library/pkg/PLIST,v 1.1.1.1 2011/05/03 18:27:22 jasper Exp $
+@comment $OpenBSD$
 @conflict kicad-<20100505
 share/kicad/
 share/kicad/library/

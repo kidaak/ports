@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-prawn/Makefile.inc,v 1.3 2010/11/08 23:28:55 jeremy Exp $
+# $OpenBSD$
 
 VERSION ?=	0.5.0.1
 CATEGORIES ?=	textproc

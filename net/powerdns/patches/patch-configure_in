@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/powerdns/patches/patch-configure_in,v 1.2 2011/10/24 19:47:55 sthen Exp $
+$OpenBSD$
 --- configure.in.orig	Sun Jan 25 12:25:37 2009
 +++ configure.in	Fri Oct 21 08:16:12 2011
 @@ -87,12 +87,6 @@ linux*)

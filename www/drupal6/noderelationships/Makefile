@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/noderelationships/Makefile,v 1.6 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	two way relationships enhancing node reference fields
 

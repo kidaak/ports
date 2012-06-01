@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xpad/patches/patch-src_xpad-pad_c,v 1.1 2010/05/13 14:14:49 sthen Exp $
+$OpenBSD$
 
 unbreak with gtk+2.20
 

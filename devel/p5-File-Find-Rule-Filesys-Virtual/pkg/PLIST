@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-Find-Rule-Filesys-Virtual/pkg/PLIST,v 1.1.1.1 2005/03/30 07:27:34 jolan Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/Find/Rule/Filesys/
 ${P5SITE}/File/Find/Rule/Filesys/Virtual.pm
 @man man/man3p/File::Find::Rule::Filesys::Virtual.3p

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nicotine/Makefile,v 1.15 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	gtk soulseek client written in Python
 

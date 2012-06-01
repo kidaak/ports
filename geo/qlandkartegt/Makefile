@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/qlandkartegt/Makefile,v 1.9 2012/01/18 15:08:33 sebastia Exp $
+# $OpenBSD$
 
 VMEM_WARNING =	yes
 COMMENT =	garmin gps map management tool

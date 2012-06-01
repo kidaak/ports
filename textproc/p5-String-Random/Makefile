@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-String-Random/Makefile,v 1.12 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for generating randoms strings
 

@@ -1,12 +1,11 @@
-# $OpenBSD: ports/x11/gnome/keyring/Makefile,v 1.75 2012/04/10 08:27:16 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
 COMMENT=	password agent for the GNOME project
 
 GNOME_PROJECT=	gnome-keyring
-GNOME_VERSION=	3.4.0
-REVISION=	2
+GNOME_VERSION=	3.4.1
 
 HOMEPAGE=	https://live.gnome.org/GnomeKeyring
 

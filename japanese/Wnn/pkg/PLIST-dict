@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/Wnn/pkg/PLIST-dict,v 1.7 2004/09/15 00:53:48 espie Exp $
+@comment $OpenBSD$
 dict/
 dict/Wnn/
 dict/Wnn/ja_JP/

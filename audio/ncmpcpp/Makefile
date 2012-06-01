@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/ncmpcpp/Makefile,v 1.11 2012/04/02 14:09:36 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		ncurses mpd client inspired by ncmpc
 

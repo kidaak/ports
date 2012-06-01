@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/libdnsres/pkg/PLIST,v 1.1.1.1 2007/04/03 15:10:17 aanriot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/dnsres.h
 lib/libdnsres.a

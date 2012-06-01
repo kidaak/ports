@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/games-extra-data/Makefile,v 1.11 2011/09/12 12:04:16 jasper Exp $
+# $OpenBSD$
 
 BROKEN= 		update needs fixed clutter/Mesa
 

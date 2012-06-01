@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/memtest86+/pkg/PLIST,v 1.2 2010/11/07 18:29:54 jasper Exp $
+@comment $OpenBSD$
 @comment $RuOBSD: PLIST,v 1.2 2009/02/07 10:28:03 form Exp $
 share/doc/pkg-readmes/${FULLPKGNAME}
 share/memtest86+/

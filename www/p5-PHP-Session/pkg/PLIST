@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-PHP-Session/pkg/PLIST,v 1.1.1.1 2005/05/31 19:25:26 sturm Exp $
+@comment $OpenBSD$
 ${P5SITE}/PHP/
 ${P5SITE}/PHP/Session/
 ${P5SITE}/PHP/Session.pm

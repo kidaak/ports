@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-Umph-Prompt/Makefile,v 1.1.1.1 2012/01/17 08:03:36 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		interactive prompt module
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-thin_http/Makefile,v 1.8 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT =	lightweight and user friendly HTTP client library for Ruby
 

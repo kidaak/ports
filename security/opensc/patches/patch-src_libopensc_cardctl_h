@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/opensc/patches/patch-src_libopensc_cardctl_h,v 1.1 2010/12/27 15:30:11 jasper Exp $
+$OpenBSD$
 
 Provide a definition of MIN() in case it's not defined already.
 

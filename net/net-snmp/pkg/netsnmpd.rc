@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/net-snmp/pkg/netsnmpd.rc,v 1.1 2011/07/07 20:02:02 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/snmpd"
 

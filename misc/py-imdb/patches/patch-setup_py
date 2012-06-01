@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/py-imdb/patches/patch-setup_py,v 1.5 2010/09/17 13:25:00 millert Exp $
+$OpenBSD$
 --- setup.py.orig	Sat Jun 19 13:47:49 2010
 +++ setup.py	Thu Sep 16 16:07:17 2010
 @@ -2,6 +2,7 @@

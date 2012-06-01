@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/imap-uw/patches/patch-src_osdep_unix_env_unix.c,v 1.12 2008/10/15 14:29:04 ajacoutot Exp $
+$OpenBSD$
 
 --- src/osdep/unix/env_unix.c.orig	Tue May 13 03:17:54 2008
 +++ src/osdep/unix/env_unix.c	Sat Oct 11 18:33:06 2008

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/logic2cnf/Makefile,v 1.1.1.1 2010/10/24 13:55:41 edd Exp $
+# $OpenBSD$
 COMMENT =		easy to use propositional logic solver based on MiniSAT
 
 DISTNAME =		logic2cnf-0.7.2

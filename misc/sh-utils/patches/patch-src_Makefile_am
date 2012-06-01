@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/sh-utils/patches/patch-src_Makefile_am,v 1.1 2001/03/15 17:15:04 brad Exp $
+$OpenBSD$
 --- src/Makefile.am.orig	Thu Mar 15 11:19:32 2001
 +++ src/Makefile.am	Thu Mar 15 11:22:45 2001
 @@ -58,7 +58,7 @@ SUFFIXES = .sh

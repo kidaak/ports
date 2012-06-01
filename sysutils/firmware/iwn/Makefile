@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/firmware/iwn/Makefile,v 1.3 2011/06/12 00:20:51 sthen Exp $
+# $OpenBSD$
 
 FW_DRIVER=	iwn
 FW_VER=		5.6

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Requires/Makefile,v 1.1.1.1 2010/12/11 09:35:23 landry Exp $
+# $OpenBSD$
 
 COMMENT =		checks to see if the module can be loaded
 

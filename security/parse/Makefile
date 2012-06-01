@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/parse/Makefile,v 1.16 2007/09/15 23:30:00 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	watch a tcpdump trace in real-time
 

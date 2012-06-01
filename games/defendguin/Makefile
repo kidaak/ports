@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/defendguin/Makefile,v 1.11 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT =	clone of arcade game 'Defender' with a Linux theme
 

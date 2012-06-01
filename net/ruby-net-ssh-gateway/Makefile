@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-net-ssh-gateway/Makefile,v 1.10 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =		library for programmatically tunneling connections
 

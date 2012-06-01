@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/wndw/Makefile,v 1.8 2010/07/24 06:29:07 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main =	Wireless Networking in the Developing World, English edition
 COMMENT-es =	Wireless Networking in the Developing World, Spanish edition

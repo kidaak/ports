@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nagios/Makefile,v 1.13 2012/04/02 16:51:31 merdely Exp $
+# $OpenBSD$
 
   SUBDIR =
   SUBDIR += check_bioctl
@@ -7,6 +7,7 @@
   SUBDIR += check_hw_sensors
   SUBDIR += check_mssql_health
   SUBDIR += check_openbgpd
+  SUBDIR += check_postgres
   SUBDIR += check_sip
   SUBDIR += cnagios
   SUBDIR += nagios

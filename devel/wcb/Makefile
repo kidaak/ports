@@ -1,10 +1,10 @@
-# $OpenBSD: ports/devel/wcb/Makefile,v 1.2 2011/10/21 16:23:45 espie Exp $
+# $OpenBSD$
 
 COMMENT =	widget callback package for Tcl/Tk
 
 N =		wcb
-DISTNAME =	$N3.3
-PKGNAME =	$N-3.3
+DISTNAME =	$N3.4
+PKGNAME =	$N-3.4
 CATEGORIES =	devel
 HOMEPAGE =	http://www.nemethi.de/
 MAINTAINER =	Stuart Cassoff <stwo@users.sourceforge.net>

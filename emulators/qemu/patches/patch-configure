@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/qemu/patches/patch-configure,v 1.22 2012/03/16 11:40:53 fgsch Exp $
+$OpenBSD$
 --- configure.orig	Fri Feb 17 14:45:39 2012
 +++ configure	Fri Feb 17 16:02:57 2012
 @@ -235,13 +235,11 @@ sdl_config="${SDL_CONFIG-${cross_prefix}sdl-config}"

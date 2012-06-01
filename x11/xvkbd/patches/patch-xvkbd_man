@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xvkbd/patches/patch-xvkbd_man,v 1.1 2005/05/08 14:46:57 naddy Exp $
+$OpenBSD$
 --- xvkbd.man.orig	Sat May  7 01:33:50 2005
 +++ xvkbd.man	Sat May  7 01:34:17 2005
 @@ -111,7 +111,7 @@ words started with the characters will b

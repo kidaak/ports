@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-lib/patches/patch-autogen_sh,v 1.1 2012/04/08 07:37:25 ajacoutot Exp $
+$OpenBSD$
 --- autogen.sh.orig	Tue Oct  4 17:42:52 2011
 +++ autogen.sh	Sat Apr  7 14:22:42 2012
 @@ -70,18 +70,7 @@ detect_autoconf() {

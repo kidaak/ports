@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-Tempdir/pkg/PLIST,v 1.1.1.1 2008/06/13 14:34:26 merdely Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/Tempdir.pm
 @man man/man3p/File::Tempdir.3p

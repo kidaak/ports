@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/p7zip/Makefile,v 1.19 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tklib/patches/patch-modules_plotchart_plotcontour_tcl,v 1.1.1.1 2009/03/18 09:10:27 sthen Exp $
+$OpenBSD$
 --- modules/plotchart/plotcontour.tcl.orig	Wed Jan 21 23:00:46 2009
 +++ modules/plotchart/plotcontour.tcl	Mon Feb  2 15:44:58 2009
 @@ -1361,7 +1361,7 @@ proc ::Plotchart::MakeContourClasses {values classes} 

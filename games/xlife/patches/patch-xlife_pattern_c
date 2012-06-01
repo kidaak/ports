@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xlife/patches/patch-xlife_pattern_c,v 1.1 2000/12/16 15:39:33 espie Exp $
+$OpenBSD$
 --- xlife/pattern.c.orig	Thu Dec 14 03:51:52 2000
 +++ xlife/pattern.c	Thu Dec 14 03:52:04 2000
 @@ -233,8 +233,8 @@ void median(pattern *context, coord_t *p

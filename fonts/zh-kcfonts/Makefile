@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/zh-kcfonts/Makefile,v 1.1.1.1 2011/07/19 16:51:04 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	extra chinese fonts
 

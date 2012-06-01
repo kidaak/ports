@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/dgpsip/Makefile,v 1.16 2010/10/18 16:47:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Differential GPS over IP communication device
 

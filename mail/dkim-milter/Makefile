@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/dkim-milter/Makefile,v 1.34 2010/11/19 07:23:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	DKIM milter
 

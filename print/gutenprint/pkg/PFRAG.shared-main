@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/print/gutenprint/pkg/PFRAG.shared-main,v 1.2 2009/12/10 11:04:35 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libgutenprint.so.${LIBgutenprint_VERSION}

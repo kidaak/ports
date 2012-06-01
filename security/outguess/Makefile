@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/outguess/Makefile,v 1.19 2010/10/18 21:41:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	universal steganography tool
 

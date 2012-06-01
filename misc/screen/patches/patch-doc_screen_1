@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/screen/patches/patch-doc_screen_1,v 1.4 2003/09/26 23:50:55 brad Exp $
+$OpenBSD$
 --- doc/screen.1.orig	2003-08-27 16:36:21.000000000 +0200
 +++ doc/screen.1	2003-09-12 15:36:35.000000000 +0200
 @@ -99,7 +99,7 @@ create the new window.

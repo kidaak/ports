@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-Term-Animation/Makefile,v 1.6 2011/03/08 23:45:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		produce sprite animations using ASCII art
 

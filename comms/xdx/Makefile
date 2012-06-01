@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/xdx/Makefile,v 1.20 2011/11/04 08:21:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	X DX cluster watcher
 

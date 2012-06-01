@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/qemu/patches/patch-cache-utils_c,v 1.4 2011/05/25 07:43:48 sthen Exp $
+$OpenBSD$
 --- cache-utils.c.orig	Mon May 23 20:11:43 2011
 +++ cache-utils.c	Mon May 23 20:16:02 2011
 @@ -55,9 +55,16 @@ static void ppc_init_cacheline_sizes(void)

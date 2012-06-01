@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-FuzzyOcr/pkg/PLIST,v 1.1.1.1 2007/10/04 19:53:49 merdely Exp $
+@comment $OpenBSD$
 ${P5SITE}/FuzzyOcr/
 ${P5SITE}/FuzzyOcr.pm
 ${P5SITE}/FuzzyOcr/Config.pm

@@ -1,5 +1,5 @@
 #!/bin/sh
-# $OpenBSD: ports/mail/postfix/snapshot/files/postfix-install,v 1.5 2011/04/28 00:22:23 sthen Exp $
+# $OpenBSD$
 #
 # Post-installation setup of postfix
 

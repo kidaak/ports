@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libslang/Makefile,v 1.54 2011/11/18 10:29:37 espie Exp $
+# $OpenBSD$
 
 COMMENT=	stack-based interpreter for terminal applications
 

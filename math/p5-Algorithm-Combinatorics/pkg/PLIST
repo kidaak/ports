@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-Algorithm-Combinatorics/pkg/PLIST,v 1.2 2012/04/07 03:42:53 jim Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Algorithm/
 ${P5ARCH}/Algorithm/Combinatorics.pm

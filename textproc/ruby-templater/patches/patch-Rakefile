@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-templater/patches/patch-Rakefile,v 1.1 2011/11/17 16:08:01 jeremy Exp $
+$OpenBSD$
 
 Comment out requiring newgem hoe plugin, as it is not needed for
 building and breaks regress.

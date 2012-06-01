@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/fxtv/patches/patch-tvtypes_h,v 1.1 2006/01/23 04:07:26 jakemsr Exp $
+$OpenBSD$
 --- tvtypes.h.orig	Sun Jan 22 17:37:47 2006
 +++ tvtypes.h	Sun Jan 22 17:39:51 2006
 @@ -34,12 +34,12 @@

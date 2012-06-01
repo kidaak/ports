@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/eina/patches/patch-src_tests_eina_bench_stringshare_e17_c,v 1.1 2011/01/16 00:31:30 laurent Exp $
+$OpenBSD$
 
 Test if init/shutdown implementation before call.
 See Evas_Data.h, l186:

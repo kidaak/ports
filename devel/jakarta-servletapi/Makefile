@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/jakarta-servletapi/Makefile,v 1.23 2011/10/07 13:54:31 kurt Exp $
+# $OpenBSD$
 
 COMMENT=	implementation of the JSP and Java Servlet APIs
 

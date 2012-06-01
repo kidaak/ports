@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/opensonic/Makefile,v 1.6 2011/11/08 09:30:52 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		game based on the Sonic the Hedgehog universe
 

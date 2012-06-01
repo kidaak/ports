@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBI-Shell/Makefile,v 1.5 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interactive command shell for the DBI
 

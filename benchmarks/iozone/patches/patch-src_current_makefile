@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/iozone/patches/patch-src_current_makefile,v 1.1 2009/07/22 11:53:51 okan Exp $
+$OpenBSD$
 --- src/current/makefile.orig	Sun Jun 21 18:19:37 2009
 +++ src/current/makefile	Sun Jun 21 18:22:09 2009
 @@ -455,7 +455,7 @@ openbsd:	iozone_openbsd.o libbif.o fileop_openbsd.o

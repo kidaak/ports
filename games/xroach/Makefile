@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xroach/Makefile,v 1.25 2011/06/23 22:50:27 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	cockroaches hide under your windows
 

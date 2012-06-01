@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/spacehulk/pkg/PLIST,v 1.1.1.1 2005/11/26 19:18:13 alek Exp $
+@comment $OpenBSD$
 bin/qspacehulk
 share/spacehulk/
 share/spacehulk/levels/

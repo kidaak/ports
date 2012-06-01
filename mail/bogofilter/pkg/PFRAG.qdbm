@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/bogofilter/pkg/PFRAG.qdbm,v 1.1 2006/03/18 19:33:10 bernd Exp $
+@comment $OpenBSD$
 bin/bogoQDBMupgrade

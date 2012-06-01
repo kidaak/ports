@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/scmxx/patches/patch-src_charsets_ucs4_dec_c,v 1.1 2005/07/26 17:00:51 fgsch Exp $
+$OpenBSD$
 --- src/charsets/ucs4_dec.c.orig	Tue Jul 26 01:40:42 2005
 +++ src/charsets/ucs4_dec.c	Tue Jul 26 01:41:13 2005
 @@ -26,6 +26,10 @@

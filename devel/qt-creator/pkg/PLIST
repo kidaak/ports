@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/qt-creator/pkg/PLIST,v 1.1.1.1 2010/05/27 12:30:14 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/qtcreator
 @bin bin/qtcreator.bin

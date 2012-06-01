@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/shared-color-profiles/Makefile,v 1.3 2011/11/02 20:18:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=	color profiles from contributors for color calibration
 COMMENT-extra=	less commonly used extra profiles for shared-color-profiles

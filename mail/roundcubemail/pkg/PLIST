@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/roundcubemail/pkg/PLIST,v 1.25 2012/03/12 16:20:51 sthen Exp $
+@comment $OpenBSD$
 roundcubemail/
 roundcubemail/.htaccess.dist
 @sample roundcubemail/.htaccess

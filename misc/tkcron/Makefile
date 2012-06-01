@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/tkcron/Makefile,v 1.20 2011/01/05 17:21:18 stu Exp $
+# $OpenBSD$
 
 COMMENT =	Tk frontend to crontab
 

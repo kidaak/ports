@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-xmpp/pkg/PLIST,v 1.4 2011/11/16 15:57:15 rpointel Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pyxmpp/
 lib/python${MODPY_VERSION}/site-packages/pyxmpp-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/pyxmpp/__init__.py

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/override_node_options/Makefile,v 1.4 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	override Authoring information and Publishing options
 

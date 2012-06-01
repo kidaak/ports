@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/mshell/patches/patch-main_c,v 1.1 2009/03/26 18:25:28 naddy Exp $
+$OpenBSD$
 --- main.c.orig	Thu Mar 26 12:20:24 2009
 +++ main.c	Thu Mar 26 12:20:40 2009
 @@ -62,7 +62,7 @@ char ** argv;

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-ICQ2000/pkg/PLIST,v 1.4 2004/09/15 18:17:43 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/ICQ2000.pm
 @man man/man3p/Net::ICQ2000.3p

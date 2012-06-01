@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/vanessa/logger/pkg/PFRAG.shared,v 1.1.1.1 2006/11/06 10:57:38 msf Exp $
+@comment $OpenBSD$
 @lib lib/libvanessa_logger.so.${LIBvanessa_logger_VERSION}

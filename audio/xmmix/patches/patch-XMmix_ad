@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmmix/patches/patch-XMmix_ad,v 1.2 2002/01/17 15:18:07 naddy Exp $
+$OpenBSD$
 --- XMmix.ad.orig	Sun Jul 14 13:48:58 1996
 +++ XMmix.ad	Mon Jan 14 15:01:05 2002
 @@ -26,7 +26,7 @@

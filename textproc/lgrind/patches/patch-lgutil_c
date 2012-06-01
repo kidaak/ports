@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/lgrind/patches/patch-lgutil_c,v 1.1 2003/05/01 11:54:15 avsm Exp $
+$OpenBSD$
 --- lgutil.c.orig	Tue Apr 15 22:55:24 2003
 +++ lgutil.c	Tue Apr 15 22:56:21 2003
 @@ -113,7 +113,7 @@ void Internal_Help_Language_List()

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/yaws/Makefile,v 1.15 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=		high performance webserver written in Erlang, libraries
 COMMENT-web=		high performance webserver written in Erlang, docroot
@@ -30,8 +30,7 @@ RUN_DEPENDS=		lang/erlang
 
 CONFIGURE_STYLE=	gnu
 CONFIGURE_ARGS+=	--disable-pam \
-			--disable-sendfile \
-			--localstatedir="/var"
+			--disable-sendfile
 CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include" \
 			LDFLAGS="-L${LOCALBASE}/lib" \
 # erl(1) needs $HOME to be set.

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ssvnc/Makefile,v 1.26 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT-gui =		enhanced TightVNC client GUI and wrappers
 COMMENT-main =		enhanced TightVNC client

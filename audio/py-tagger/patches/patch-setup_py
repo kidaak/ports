@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-tagger/patches/patch-setup_py,v 1.2 2006/09/20 13:22:42 xsa Exp $
+$OpenBSD$
 --- setup.py.orig	Mon May  1 17:18:27 2006
 +++ setup.py	Wed Sep 20 15:20:49 2006
 @@ -16,5 +16,5 @@ setup(

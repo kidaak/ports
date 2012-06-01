@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/lmms/patches/patch-src_core_mixer_cpp,v 1.1.1.1 2010/10/28 22:33:41 jakemsr Exp $
+$OpenBSD$
 --- src/core/mixer.cpp.orig	Thu Sep  2 15:27:46 2010
 +++ src/core/mixer.cpp	Sun Oct 24 08:05:47 2010
 @@ -47,6 +47,7 @@

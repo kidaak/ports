@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/news/yencode/pkg/PLIST,v 1.1.1.1 2005/01/25 23:32:22 fgsch Exp $
+@comment $OpenBSD$
 bin/ydecode
 bin/yencode
 bin/ypost

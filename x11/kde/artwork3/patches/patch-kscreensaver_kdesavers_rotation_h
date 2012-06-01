@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/artwork3/patches/patch-kscreensaver_kdesavers_rotation_h,v 1.2 2006/02/03 13:31:32 espie Exp $
+$OpenBSD$
 --- kscreensaver/kdesavers/rotation.h.orig	Mon Oct 10 16:53:54 2005
 +++ kscreensaver/kdesavers/rotation.h	Sun Jan 29 00:20:16 2006
 @@ -28,6 +28,8 @@

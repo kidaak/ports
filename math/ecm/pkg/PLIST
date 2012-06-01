@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/ecm/pkg/PLIST,v 1.2 2009/05/27 19:09:28 benoit Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/ecm
 include/ecm.h

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/kaffeine/pkg/PLIST,v 1.12 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/kaffeine
 include/kaffeine/
 include/kaffeine/kaffeineaudioencoder.h

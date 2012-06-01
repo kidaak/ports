@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/3.4/pkg/PLIST,v 1.6 2008/09/11 19:22:05 martynas Exp $
+@comment $OpenBSD$
 bin/ecpp
 bin/egcc
 bin/egccbug

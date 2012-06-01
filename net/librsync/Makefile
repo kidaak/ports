@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/librsync/Makefile,v 1.9 2010/11/19 22:31:34 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Library for delta compression of streams
 DISTNAME=	librsync-0.9.7

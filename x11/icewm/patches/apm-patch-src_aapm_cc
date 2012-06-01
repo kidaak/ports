@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/icewm/patches/apm-patch-src_aapm_cc,v 1.3 2010/12/12 19:13:01 jasper Exp $
+$OpenBSD$
 --- src/aapm.cc.orig	Sun Oct 31 15:09:36 2010
 +++ src/aapm.cc	Thu Dec  9 16:07:57 2010
 @@ -38,7 +38,7 @@

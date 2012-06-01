@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/unpaper/Makefile,v 1.1.1.1 2010/07/17 07:59:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	post-processing tool for scanned paper sheets
 

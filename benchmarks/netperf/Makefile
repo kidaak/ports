@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/netperf/Makefile,v 1.29 2011/05/22 18:04:10 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Network performance benchmark
 

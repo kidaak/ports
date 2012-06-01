@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/docbook-guide/Makefile,v 1.5 2009/08/24 15:28:21 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	the definite guide to DocBook
 

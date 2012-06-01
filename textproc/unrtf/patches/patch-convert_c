@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/unrtf/patches/patch-convert_c,v 1.2 2005/05/15 18:09:41 db Exp $
+$OpenBSD$
 --- convert.c.orig	Thu Feb 19 00:35:03 2004
 +++ convert.c	Thu May 12 13:03:29 2005
 @@ -341,7 +341,7 @@ process_font_table (Word *w)

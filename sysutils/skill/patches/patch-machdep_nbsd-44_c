@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/skill/patches/patch-machdep_nbsd-44_c,v 1.2 2011/07/06 13:41:29 jasper Exp $
+$OpenBSD$
 --- machdep/nbsd-44.c.orig	Mon Apr  8 04:35:21 2002
 +++ machdep/nbsd-44.c	Wed Jul  6 15:40:43 2011
 @@ -211,6 +211,28 @@ static	int	pidmapsiz = sizeof(pidmap) / sizeof(pidmap[

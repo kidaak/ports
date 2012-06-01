@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/yafc/pkg/PLIST,v 1.6 2005/05/24 20:39:50 avsm Exp $
+@comment $OpenBSD$
 bin/yafc
 @info info/yafc.info
 @man man/man1/yafc.1

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-PDF-Table/Makefile,v 1.5 2011/12/09 17:51:52 bluhm Exp $
+# $OpenBSD$
 
 COMMENT=		create PDF tables with perl
 

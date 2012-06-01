@@ -1,6 +1,6 @@
 #I accept the risk
 
-# $OpenBSD: ports/mail/imap-uw/files/c-client.cf,v 1.1 2009/11/07 12:53:17 ajacoutot Exp $
+# $OpenBSD$
 #
 # uw-imap RC: uncomment first line to enable
 

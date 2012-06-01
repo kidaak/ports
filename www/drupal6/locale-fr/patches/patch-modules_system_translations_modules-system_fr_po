@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/drupal6/locale-fr/patches/patch-modules_system_translations_modules-system_fr_po,v 1.1 2009/07/27 12:39:05 espie Exp $
+$OpenBSD$
 --- modules/system/translations/modules-system.fr.po.orig	Mon Jul 27 14:13:50 2009
 +++ modules/system/translations/modules-system.fr.po	Mon Jul 27 14:13:56 2009
 @@ -1396,7 +1396,7 @@ msgstr "Lorsque le Cron s'exécute"

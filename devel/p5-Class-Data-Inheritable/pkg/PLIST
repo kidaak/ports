@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Data-Inheritable/pkg/PLIST,v 1.4 2004/09/14 23:43:57 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/
 ${P5SITE}/Class/Data/
 ${P5SITE}/Class/Data/Inheritable.pm

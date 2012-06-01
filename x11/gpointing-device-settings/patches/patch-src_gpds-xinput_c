@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gpointing-device-settings/patches/patch-src_gpds-xinput_c,v 1.1.1.1 2011/08/31 15:15:25 mpi Exp $
+$OpenBSD$
 
 Fix build with gtk+-2.22.
 From https://bugzilla.gnome.org/show_bug.cgi?id=631068 

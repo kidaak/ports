@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xmoto/patches/patch-bin_Makefile_am,v 1.1 2012/04/15 08:49:05 kirby Exp $
+$OpenBSD$
 --- bin/Makefile.am.orig	Tue Oct 11 23:19:23 2011
 +++ bin/Makefile.am	Sat Mar 10 13:06:51 2012
 @@ -14,7 +14,7 @@ else

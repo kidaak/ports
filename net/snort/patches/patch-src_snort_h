@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/snort/patches/patch-src_snort_h,v 1.1 2010/07/12 19:38:40 sthen Exp $
+$OpenBSD$
 --- src/snort.h.orig	Thu Mar 18 18:50:54 2010
 +++ src/snort.h	Wed May  5 20:26:16 2010
 @@ -60,7 +60,7 @@

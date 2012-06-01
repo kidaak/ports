@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/cfs/patches/patch-cfsd_8,v 1.2 2004/06/15 18:32:22 sturm Exp $
+$OpenBSD$
 --- cfsd.8.orig	2004-06-10 11:20:23.000000000 +0200
 +++ cfsd.8	2004-06-10 11:23:30.000000000 +0200
 @@ -13,8 +13,8 @@ The main function of \fBcfsd\fP is to ma

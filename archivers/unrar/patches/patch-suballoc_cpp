@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/unrar/patches/patch-suballoc_cpp,v 1.5 2009/09/11 16:14:01 naddy Exp $
+$OpenBSD$
 --- suballoc.cpp.orig	Mon Sep  7 17:52:05 2009
 +++ suballoc.cpp	Mon Sep  7 17:53:22 2009
 @@ -31,12 +31,18 @@ inline void* SubAllocator::RemoveNode(int indx) 

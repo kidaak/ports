@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/makehuman/pkg/PLIST,v 1.3 2011/10/23 11:06:44 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/makehuman
 share/makehuman/
 share/makehuman/base.body

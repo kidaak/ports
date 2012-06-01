@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/tmda/pkg/PLIST,v 1.17 2006/03/13 18:31:21 bernd Exp $
+@comment $OpenBSD$
 bin/tmda-address
 bin/tmda-check-address
 bin/tmda-filter

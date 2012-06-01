@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/bison/patches/patch-src_output_c,v 1.5 2012/04/14 12:22:25 espie Exp $
+$OpenBSD$
 --- src/output.c.orig	Sun May 14 22:40:35 2006
 +++ src/output.c	Fri Apr 13 20:38:39 2012
 @@ -501,7 +501,8 @@ output_skeleton (void)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-terminfo/Makefile,v 1.2 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT = 		Haskell bindings to the terminfo library
 

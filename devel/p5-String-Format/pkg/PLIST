@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-String-Format/pkg/PLIST,v 1.1.1.1 2006/11/14 09:28:02 msf Exp $
+@comment $OpenBSD$
 ${P5SITE}/String/
 ${P5SITE}/String/Format.pm
 @man man/man3p/String::Format.3p

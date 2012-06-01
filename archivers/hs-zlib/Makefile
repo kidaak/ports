@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/hs-zlib/Makefile,v 1.11 2011/09/16 08:26:09 espie Exp $
+# $OpenBSD$
 
 COMMENT =		zlib bindings for Haskell
 

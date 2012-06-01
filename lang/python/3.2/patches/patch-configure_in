@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/3.2/patches/patch-configure_in,v 1.2 2011/12/10 19:06:03 naddy Exp $
+$OpenBSD$
 --- configure.in.orig	Sat Sep  3 18:16:50 2011
 +++ configure.in	Mon Sep  5 20:00:17 2011
 @@ -1773,7 +1773,7 @@

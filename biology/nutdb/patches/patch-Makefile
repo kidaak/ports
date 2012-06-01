@@ -1,4 +1,4 @@
-$OpenBSD: ports/biology/nutdb/patches/patch-Makefile,v 1.12 2011/08/24 19:29:24 naddy Exp $
+$OpenBSD$
 --- Makefile.orig	Sun May 22 01:13:30 2011
 +++ Makefile	Wed Aug 24 21:24:50 2011
 @@ -24,7 +24,7 @@ else

@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/gnokii/patches/patch-testsuite_testit,v 1.1 2007/10/17 14:37:34 ajacoutot Exp $
+$OpenBSD$
 --- testsuite/testit.orig	Mon Aug 28 00:36:54 2006
 +++ testsuite/testit	Wed Oct 17 13:40:52 2007
 @@ -1,15 +1,10 @@

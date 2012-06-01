@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/recode/patches/patch-src_Makefile_in,v 1.2 2009/04/25 18:02:58 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Mon Jan 22 19:14:16 2001
 +++ src/Makefile.in	Sat Apr 25 19:18:55 2009
 @@ -129,7 +129,7 @@ L_SURFACES = 

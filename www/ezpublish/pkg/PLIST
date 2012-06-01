@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ezpublish/pkg/PLIST,v 1.2 2009/08/24 16:36:31 jasper Exp $
+@comment $OpenBSD$
 ezpublish/
 ezpublish/.htaccess_root
 ezpublish/LICENSE

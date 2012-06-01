@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/base/patches/patch-apps_kinfocenter_base_info_openbsd_cpp,v 1.1 2010/06/19 08:59:06 espie Exp $
+$OpenBSD$
 --- apps/kinfocenter/base/info_openbsd.cpp.orig	Sat Jun 19 10:22:37 2010
 +++ apps/kinfocenter/base/info_openbsd.cpp	Sat Jun 19 10:26:25 2010
 @@ -38,7 +38,7 @@ typedef struct {

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ettercap/patches/patch-man_ettercap_8,v 1.1 2009/08/06 23:44:07 martynas Exp $
+$OpenBSD$
 --- man/ettercap.8.orig	Fri May 27 18:12:11 2005
 +++ man/ettercap.8	Tue Aug  4 22:09:19 2009
 @@ -164,7 +164,7 @@ the subnet.

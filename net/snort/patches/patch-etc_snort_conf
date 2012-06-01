@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/snort/patches/patch-etc_snort_conf,v 1.5 2010/07/12 19:38:40 sthen Exp $
+$OpenBSD$
 --- etc/snort.conf.orig	Fri Mar 19 20:41:00 2010
 +++ etc/snort.conf	Mon Apr 26 20:16:23 2010
 @@ -42,6 +42,9 @@ var SQL_SERVERS $HOME_NET

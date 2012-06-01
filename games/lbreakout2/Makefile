@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/lbreakout2/Makefile,v 1.21 2011/03/19 13:37:17 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	breakout game with many levels, powerups, good graphics
 
@@ -27,9 +27,10 @@ RUN_DEPENDS =	devel/desktop-file-utils
 
 USE_GMAKE =	Yes
 
+LOCALSTATEDIR=	${BASELOCALSTATEDIR}/games
+
 CONFIGURE_STYLE =	gnu
-CONFIGURE_ARGS +=	--localstatedir=/var/games \
-			--with-docdir=${PREFIX}/share/doc
+CONFIGURE_ARGS +=	--with-docdir=${PREFIX}/share/doc
 CONFIGURE_ENV =		CPPFLAGS="-I${LOCALBASE}/include/libpng" \
 			LDFLAGS="-L${LOCALBASE}/lib" \
 			LIBS="-lintl -liconv"

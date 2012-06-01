@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/leveldb/Makefile,v 1.5 2012/03/18 12:56:56 jmatthew Exp $
+# $OpenBSD$
 
 #'atomic_pointer.h: error Please implement AtomicPointer for this platform' on other archs
 ONLY_FOR_ARCHS=	i386 amd64 arm

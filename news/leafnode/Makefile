@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/leafnode/Makefile,v 1.54 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		USENET software package designed for small sites
 
@@ -22,7 +22,6 @@ EXTRACT_SUFX=		.tar.bz2
 LIB_DEPENDS=		devel/pcre
 
 CONFIGURE_STYLE=	gnu
-CONFIGURE_ARGS+=	--localstatedir=/var
 CONFIGURE_ARGS+=	--with-lockfile=/var/spool/news/fetchnews.lck
 CONFIGURE_ARGS+=	--with-user=_news
 USE_GROFF =		Yes

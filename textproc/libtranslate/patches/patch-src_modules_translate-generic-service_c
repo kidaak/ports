@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/libtranslate/patches/patch-src_modules_translate-generic-service_c,v 1.1.1.1 2011/11/14 16:38:07 sthen Exp $
+$OpenBSD$
 
 upstream patch
 

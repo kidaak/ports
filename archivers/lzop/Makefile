@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/lzop/Makefile,v 1.29 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 # $FreeBSD: ports/archivers/lzop/Makefile,v 1.3 2000/06/22 05:51:49 will Exp $
 
 COMMENT=	fast file compressor similar to gzip

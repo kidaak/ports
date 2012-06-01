@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmikmod/patches/patch-libmikmod_Makefile_in,v 1.3 2010/01/11 04:25:26 jakemsr Exp $
+$OpenBSD$
 --- libmikmod/Makefile.in.orig	Wed Jan 23 14:15:14 2002
 +++ libmikmod/Makefile.in	Sat Dec 19 00:06:55 2009
 @@ -30,13 +30,13 @@ MKINSTALLDIRS=${top_srcdir}/mkinstalldirs

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/vfs2/Makefile,v 1.71 2012/01/01 09:03:20 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

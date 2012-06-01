@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/iverilog/pkg/PLIST,v 1.1.1.1 2010/07/08 18:58:23 jasper Exp $
+@comment $OpenBSD$
 @bin bin/iverilog
 bin/iverilog-vpi
 @bin bin/vvp

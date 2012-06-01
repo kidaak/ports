@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-LeakTrace/Makefile,v 1.6 2011/03/22 22:21:40 simon Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

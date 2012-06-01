@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-tools_Makefile_am,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- tools/Makefile.am.orig	Mon Nov 12 17:30:41 2007
 +++ tools/Makefile.am	Mon Nov 12 17:31:26 2007
 @@ -85,7 +85,5 @@ attrd_updater_LDADD	=  				\

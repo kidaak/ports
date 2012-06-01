@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/rabbitmq/pkg/PLIST,v 1.6 2012/01/13 20:54:25 sthen Exp $
+@comment $OpenBSD$
 @newgroup _rabbitmq:646
 @newuser _rabbitmq:646:_rabbitmq:daemon:RabbitMQ account:/var/rabbitmq:/sbin/nologin
 lib/rabbitmq/

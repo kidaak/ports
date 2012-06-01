@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/procmail/Makefile,v 1.37 2012/03/17 10:47:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	filtering local mail delivery agent
 

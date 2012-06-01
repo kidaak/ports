@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-binutils_budbg_h,v 1.3 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- binutils/budbg.h.orig	Sat Jun 26 11:22:43 2010
 +++ binutils/budbg.h	Sat Jun 26 11:31:17 2010
 @@ -52,8 +52,11 @@ extern bfd_boolean parse_ieee (void *, bfd *, const bf

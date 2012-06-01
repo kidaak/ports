@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gpointing-device-settings/Makefile,v 1.7 2011/10/29 08:12:32 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

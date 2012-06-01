@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/smstools/patches/patch-scripts_unicode2sms,v 1.1 2009/03/17 10:47:44 sthen Exp $
+$OpenBSD$
 --- scripts/unicode2sms.orig	Wed Mar 11 01:35:32 2009
 +++ scripts/unicode2sms	Wed Mar 11 01:38:17 2009
 @@ -1,4 +1,4 @@

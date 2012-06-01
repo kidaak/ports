@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/fxtv/pkg/PLIST,v 1.4 2004/09/15 00:50:08 espie Exp $
+@comment $OpenBSD$
 bin/fxtv
 lib/X11/app-defaults/Fxtv
 @man man/man1/fxtv.1

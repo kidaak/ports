@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/ruby-qt4/Makefile,v 1.1.1.1 2011/11/15 16:27:44 jeremy Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

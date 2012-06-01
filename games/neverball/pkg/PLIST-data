@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/neverball/pkg/PLIST-data,v 1.2 2009/12/23 22:41:39 benoit Exp $
+@comment $OpenBSD$
 @conflict neverball-<20081103
 share/neverball/
 share/neverball/data/

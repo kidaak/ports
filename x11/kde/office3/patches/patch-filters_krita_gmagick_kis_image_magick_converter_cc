@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/office3/patches/patch-filters_krita_gmagick_kis_image_magick_converter_cc,v 1.1 2009/01/08 19:57:49 kili Exp $
+$OpenBSD$
 --- filters/krita/gmagick/kis_image_magick_converter.cc.orig	Wed May 30 23:39:37 2007
 +++ filters/krita/gmagick/kis_image_magick_converter.cc	Mon Dec 15 23:10:01 2008
 @@ -168,32 +168,22 @@ namespace {

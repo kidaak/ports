@@ -1,9 +1,9 @@
-$OpenBSD: ports/www/midori/patches/patch-wscript,v 1.20 2012/04/16 10:08:43 landry Exp $
+$OpenBSD$
 
 Fix paths to config files.
 
---- wscript.orig	Sat Apr 14 21:17:35 2012
-+++ wscript	Sun Apr 15 11:43:17 2012
+--- wscript.orig	Tue May 15 00:13:42 2012
++++ wscript	Tue May 15 17:12:44 2012
 @@ -73,7 +73,7 @@ def rc_file(self, node):
      self.compiled_tasks.append (rctask)
  rc_file = extension ('.rc')(rc_file)
@@ -13,7 +13,7 @@ Fix paths to config files.
  
  def configure (conf):
      def option_checkfatal (option, desc):
-@@ -459,7 +459,7 @@ def build (bld):
+@@ -461,7 +461,7 @@ def build (bld):
              'AUTHORS COPYING ChangeLog EXPAT README data/faq.html data/faq.css')
  
      # Install default configuration
@@ -22,7 +22,7 @@ Fix paths to config files.
  
      if bld.env['INTLTOOL']:
          obj = bld.new_task_gen ('intltool_po')
-@@ -531,7 +531,7 @@ def build (bld):
+@@ -533,7 +533,7 @@ def build (bld):
              for extension in extensions:
                  source = 'data/extensions/' + extension +  '/config'
                  if os.path.exists (source):

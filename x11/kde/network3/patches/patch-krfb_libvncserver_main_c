@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/network3/patches/patch-krfb_libvncserver_main_c,v 1.1 2004/02/01 23:51:53 espie Exp $
+$OpenBSD$
 --- krfb/libvncserver/main.c.orig	2004-01-26 15:20:47.000000000 +0100
 +++ krfb/libvncserver/main.c	2004-01-26 15:23:15.000000000 +0100
 @@ -35,6 +35,10 @@ typedef int socklen_t;

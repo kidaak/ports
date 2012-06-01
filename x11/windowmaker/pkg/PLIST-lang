@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/windowmaker/pkg/PLIST-lang,v 1.5 2005/12/27 23:12:24 naddy Exp $
+@comment $OpenBSD$
 share/WindowMaker/menu.bg
 share/WindowMaker/menu.ca
 share/WindowMaker/menu.cs

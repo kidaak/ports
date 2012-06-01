@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/cvsync/pkg/PLIST,v 1.7 2012/04/10 19:52:44 phessler Exp $
+@comment $OpenBSD$
 @newgroup _cvsyncd:697
 @newuser _cvsyncd:697:_cvsyncd:daemon:cvsync service:/nonexistent:/sbin/nologin
 bin/cvscan

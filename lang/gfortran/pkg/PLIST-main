@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gfortran/pkg/PLIST-main,v 1.3 2011/06/21 20:17:53 naddy Exp $
+@comment $OpenBSD$
 @conflict g95-*
 @bin bin/${CONFIG}-gfortran
 @comment bin/gccbug

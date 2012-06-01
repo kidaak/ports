@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_passes_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/passes.c.orig	Tue Jan 30 14:34:10 2007
 +++ gcc/passes.c	Sun Mar 18 23:58:45 2007
 @@ -317,7 +317,7 @@ register_one_dump_file (struct tree_opt_pass *pass, bo

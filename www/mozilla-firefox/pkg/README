@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mozilla-firefox/pkg/README,v 1.4 2011/08/23 20:14:52 landry Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

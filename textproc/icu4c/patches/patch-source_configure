@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/icu4c/patches/patch-source_configure,v 1.8 2011/06/14 10:12:48 ajacoutot Exp $
+$OpenBSD$
 --- source/configure.orig	Mon May 23 23:59:04 2011
 +++ source/configure	Tue Jun  7 14:44:28 2011
 @@ -5958,13 +5958,13 @@ if test $threads = true; then

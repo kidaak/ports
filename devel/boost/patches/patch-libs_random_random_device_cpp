@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boost/patches/patch-libs_random_random_device_cpp,v 1.2 2010/03/30 11:00:15 robert Exp $
+$OpenBSD$
 --- libs/random/random_device.cpp.orig	Tue May 12 18:37:39 2009
 +++ libs/random/random_device.cpp	Tue May 12 18:38:44 2009
 @@ -22,7 +22,7 @@ const boost::random_device::result_type boost::random_

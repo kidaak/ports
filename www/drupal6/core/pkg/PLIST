@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/core/pkg/PLIST,v 1.11 2012/03/20 10:05:48 sthen Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict drupal->=6,<7
 @owner ${DRUPAL_OWNER}

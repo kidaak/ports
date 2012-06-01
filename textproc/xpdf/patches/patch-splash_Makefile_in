@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xpdf/patches/patch-splash_Makefile_in,v 1.1 2004/01/25 06:02:40 brad Exp $
+$OpenBSD$
 --- splash/Makefile.in.orig	2004-01-24 23:49:23.000000000 -0500
 +++ splash/Makefile.in	2004-01-24 23:49:34.000000000 -0500
 @@ -16,7 +16,7 @@ GOOLIBDIR = ../goo

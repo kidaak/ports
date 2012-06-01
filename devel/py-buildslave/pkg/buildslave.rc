@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/devel/py-buildslave/pkg/buildslave.rc,v 1.2 2011/04/24 19:15:13 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/buildslave"
 daemon_flags="${HOMEDIR}"

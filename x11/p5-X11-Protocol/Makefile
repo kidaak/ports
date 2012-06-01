@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/p5-X11-Protocol/Makefile,v 1.5 2010/12/03 11:46:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	provides an interface roughly equivalent to Xlib
 

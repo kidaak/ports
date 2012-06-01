@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-src_common_common_h,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- src/common/common.h.orig	Fri Jun 18 11:07:59 2010
 +++ src/common/common.h	Fri Jun 18 11:10:44 2010
 @@ -48,8 +48,20 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston,

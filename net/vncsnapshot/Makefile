@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/vncsnapshot/Makefile,v 1.3 2010/11/19 22:31:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=		connect to VNC server and save screen images
 

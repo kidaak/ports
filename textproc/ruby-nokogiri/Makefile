@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-nokogiri/Makefile,v 1.13 2011/09/16 11:41:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=		HTML, XML, SAX and Reader parser
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-twisted/pair/Makefile,v 1.7 2011/12/08 20:15:40 eric Exp $
+# $OpenBSD$
 
 COMMENT=	low-level networking for Twisted
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_ustringutil_cpp,v 1.1 2011/06/02 12:46:37 ajacoutot Exp $
+$OpenBSD$
 
 Needs newlocale(3).
 

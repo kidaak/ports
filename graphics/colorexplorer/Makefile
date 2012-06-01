@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/colorexplorer/Makefile,v 1.5 2011/01/05 20:28:35 landry Exp $
+# $OpenBSD$
 
 COMMENT =	tool for exploring the color space and relations
 

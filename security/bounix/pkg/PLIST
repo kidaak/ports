@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/bounix/pkg/PLIST,v 1.2 2000/09/05 15:06:36 kevlo Exp $
+@comment $OpenBSD$
 bin/bounix

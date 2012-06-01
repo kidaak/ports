@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/e2fsprogs/patches/patch-lib_Makefile_elf-lib,v 1.6 2009/03/15 19:59:31 landry Exp $
+$OpenBSD$
 --- lib/Makefile.elf-lib.orig	Tue Oct  7 16:22:39 2008
 +++ lib/Makefile.elf-lib	Sun Feb 22 11:11:17 2009
 @@ -14,8 +14,7 @@

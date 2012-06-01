@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/remake/patches/patch-src_dbg_cmd_c,v 1.1.1.1 2006/12/26 18:16:09 deanna Exp $
+$OpenBSD$
 --- src/dbg_cmd.c.orig	Mon Dec 25 17:27:33 2006
 +++ src/dbg_cmd.c	Mon Dec 25 17:30:09 2006
 @@ -868,14 +868,19 @@ dbg_cmd_quit (char *psz_arg)

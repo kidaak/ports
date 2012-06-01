@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/controlcenter/pkg/PLIST,v 1.24 2012/03/29 06:57:03 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict control-center-1*
 @conflict control-center2-*
 @conflict gnome-media-<2.91.2p3

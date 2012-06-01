@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/imlib2/pkg/PFRAG.shared,v 1.5 2006/11/20 09:21:09 bernd Exp $
+@comment $OpenBSD$
 lib/imlib2/filters/bumpmap.so
 lib/imlib2/filters/colormod.so
 lib/imlib2/filters/testfilter.so

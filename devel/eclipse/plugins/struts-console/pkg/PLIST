@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/plugins/struts-console/pkg/PLIST,v 1.1.1.1 2007/09/28 23:49:58 ian Exp $
+@comment $OpenBSD$
 eclipse/plugins/com.jamesholmes.console.struts/
 eclipse/plugins/com.jamesholmes.console.struts/icons/
 eclipse/plugins/com.jamesholmes.console.struts/icons/console.gif

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/gummi/pkg/PLIST,v 1.4 2012/03/28 19:27:04 kili Exp $
+@comment $OpenBSD$
 @bin bin/gummi
 lib/gummi/
 lib/gummi/latex_dvi_pdf.sh

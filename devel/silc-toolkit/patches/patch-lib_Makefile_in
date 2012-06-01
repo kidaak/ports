@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/silc-toolkit/patches/patch-lib_Makefile_in,v 1.5 2009/08/11 21:17:21 sthen Exp $
+$OpenBSD$
 --- lib/Makefile.in.orig	Fri Aug  7 07:51:30 2009
 +++ lib/Makefile.in	Tue Aug 11 14:46:10 2009
 @@ -285,7 +285,7 @@ AUTOMAKE_OPTIONS = 1.0 no-dependencies foreign

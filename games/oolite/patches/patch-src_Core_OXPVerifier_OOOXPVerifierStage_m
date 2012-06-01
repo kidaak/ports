@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/oolite/patches/patch-src_Core_OXPVerifier_OOOXPVerifierStage_m,v 1.1 2011/01/15 10:13:23 sebastia Exp $
+$OpenBSD$
 
 missing header
 

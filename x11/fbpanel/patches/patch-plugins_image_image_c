@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fbpanel/patches/patch-plugins_image_image_c,v 1.1 2012/03/29 08:17:41 dcoppa Exp $
+$OpenBSD$
 
 gdk_pixbuf_unref() has been deprecated with gdk-pixbuf-2.25
 

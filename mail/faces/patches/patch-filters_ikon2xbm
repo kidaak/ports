@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/faces/patches/patch-filters_ikon2xbm,v 1.1 2000/06/04 23:08:34 espie Exp $
+$OpenBSD$
 --- filters/ikon2xbm.orig	Tue May  7 00:51:50 1991
 +++ filters/ikon2xbm	Mon Jun  5 00:48:26 2000
 @@ -26,7 +26,7 @@ sed -e 's/\(0x....\),\(0x....\),\(0x....

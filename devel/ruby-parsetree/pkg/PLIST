@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-parsetree/pkg/PLIST,v 1.8 2011/11/09 00:17:38 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/parse_tree_abc${GEM_BIN_SUFFIX}
 ${GEM_BIN}/parse_tree_audit${GEM_BIN_SUFFIX}
 ${GEM_BIN}/parse_tree_deps${GEM_BIN_SUFFIX}

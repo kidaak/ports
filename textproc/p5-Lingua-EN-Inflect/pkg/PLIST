@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Lingua-EN-Inflect/pkg/PLIST,v 1.4 2011/11/17 15:15:04 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Lingua/
 ${P5SITE}/Lingua/EN/
 ${P5SITE}/Lingua/EN/Inflect.pm

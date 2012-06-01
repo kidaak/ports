@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-BSD-arc4random/Makefile,v 1.2 2011/08/18 13:43:25 gsoares Exp $
+# $OpenBSD$
 
 COMMENT =		perl interface to the arc4 random number generator
 

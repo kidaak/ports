@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nepenthes/pkg/PLIST,v 1.7 2011/05/11 12:03:19 jasper Exp $
+@comment $OpenBSD$
 @newgroup _nepenthes:584
 @newuser _nepenthes:584:584:daemon:nepenthes user:/nonexistent:/sbin/nologin
 @extraunexec rm -fr /var/nepenthes/*

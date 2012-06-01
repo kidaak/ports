@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/freeradius/patches/patch-src_modules_rlm_sql_drivers_rules_mak,v 1.6 2008/12/29 19:17:36 rui Exp $
+$OpenBSD$
 --- src/modules/rlm_sql/drivers/rules.mak.orig	Fri Dec  5 16:37:56 2008
 +++ src/modules/rlm_sql/drivers/rules.mak	Sun Dec 28 00:26:20 2008
 @@ -101,9 +101,9 @@ build-module: $(TARGET).la

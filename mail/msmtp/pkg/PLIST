@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/msmtp/pkg/PLIST,v 1.8 2012/01/11 22:56:07 gsoares Exp $
+@comment $OpenBSD$
 @bin bin/msmtp
 @info info/msmtp.info
 @man man/man1/msmtp.1

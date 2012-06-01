@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/djview4/pkg/PLIST,v 1.4 2011/12/03 18:35:11 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/djview
 @bin bin/djview4

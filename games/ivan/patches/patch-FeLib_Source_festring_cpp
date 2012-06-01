@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ivan/patches/patch-FeLib_Source_festring_cpp,v 1.2 2010/05/23 15:58:02 espie Exp $
+$OpenBSD$
 --- FeLib/Source/festring.cpp.orig	Thu Nov 11 18:27:44 2004
 +++ FeLib/Source/festring.cpp	Sat May 22 07:28:38 2010
 @@ -52,7 +52,7 @@ festring& festring::operator=(const char* CStr)

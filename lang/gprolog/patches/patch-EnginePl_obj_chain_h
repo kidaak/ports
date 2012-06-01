@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gprolog/patches/patch-EnginePl_obj_chain_h,v 1.1 2009/12/27 19:30:21 jasper Exp $
+$OpenBSD$
 --- EnginePl/obj_chain.h.orig	Wed May  9 03:20:35 2007
 +++ EnginePl/obj_chain.h	Wed May  9 03:21:54 2007
 @@ -84,6 +84,6 @@ static long obj_chain_start = (long) OBJ_CTOR;

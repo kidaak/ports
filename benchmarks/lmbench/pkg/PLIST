@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/benchmarks/lmbench/pkg/PLIST,v 1.5 2004/08/06 14:37:29 espie Exp $
+@comment $OpenBSD$
 lib/lmbench/
 lib/lmbench/Makefile
 lib/lmbench/Results/

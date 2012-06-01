@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/startup-notification/Makefile,v 1.18 2011/10/12 07:41:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		library for tracking application startup
 

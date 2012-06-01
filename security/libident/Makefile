@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libident/Makefile,v 1.17 2011/05/04 16:16:24 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	library to interface the ident protocol server (rfc1413)
 

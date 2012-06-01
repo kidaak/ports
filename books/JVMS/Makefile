@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/JVMS/Makefile,v 1.2 2011/10/21 16:23:45 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Sun's official Java VM Specification, 2nd Ed.
 

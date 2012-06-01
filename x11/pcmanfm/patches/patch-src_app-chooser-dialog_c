@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/pcmanfm/patches/patch-src_app-chooser-dialog_c,v 1.1 2008/02/04 09:29:22 ajacoutot Exp $
+$OpenBSD$
 --- src/app-chooser-dialog.c.orig	Fri Feb  1 06:07:16 2008
 +++ src/app-chooser-dialog.c	Sun Feb  3 21:40:07 2008
 @@ -263,7 +263,7 @@ on_browse_btn_clicked ( GtkButton *button,

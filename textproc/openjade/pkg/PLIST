@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/openjade/pkg/PLIST,v 1.5 2009/11/24 20:23:15 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/openjade
 lib/libogrove.a

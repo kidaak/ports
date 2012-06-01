@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/terminus-font/Makefile,v 1.3 2011/08/28 10:46:41 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		fixed width fonts especially for long hacking sessions
 

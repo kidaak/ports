@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/onioncat/Makefile,v 1.8 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	IP-Transparent Tor Hidden Service Connector
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/Makefile,v 1.6 2010/12/08 22:13:24 jeremy Exp $
+# $OpenBSD$
 
 # It's intended that this list isn't sorted alphabetically.
 # Please keep it that way. Thanks.

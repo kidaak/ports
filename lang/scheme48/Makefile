@@ -1,10 +1,10 @@
-# $OpenBSD: ports/lang/scheme48/Makefile,v 1.7 2010/10/24 21:06:28 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Scheme Underground's implementation of R5RS
 
 V=		1.8
 DISTNAME=	scheme48-$V
-REVISION=	1
+REVISION=	2
 CATEGORIES=	lang
 
 HOMEPAGE=	http://www.s48.org/

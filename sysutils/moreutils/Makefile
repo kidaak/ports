@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/moreutils/Makefile,v 1.3 2012/04/11 14:41:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	miscellaneous unix tools
 
@@ -20,7 +20,7 @@ PERMIT_DISTFILES_FTP =	 Yes
 
 WANTLIB += c
 
-MASTER_SITES =		http://ftp.de.debian.org/debian/pool/main/m/moreutils/
+MASTER_SITES =		${MASTER_SITE_DEBIAN:=main/m/moreutils/}
 
 BUILD_DEPENDS =		textproc/docbook2x
 RUN_DEPENDS =		devel/p5-IPC-Run \

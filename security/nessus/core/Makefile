@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/nessus/core/Makefile,v 1.30 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	network security scanner
 DISTNAME=	nessus-core-${V}

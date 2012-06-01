@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/common/Makefile,v 1.11 2012/03/30 11:59:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	common automake macros for GNOME
 

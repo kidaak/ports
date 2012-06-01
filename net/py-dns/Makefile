@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-dns/Makefile,v 1.19 2011/09/17 18:05:50 jakob Exp $
+# $OpenBSD$
 
 COMMENT =	Python DNS library
 

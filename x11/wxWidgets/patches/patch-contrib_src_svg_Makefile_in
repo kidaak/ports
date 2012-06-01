@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wxWidgets/patches/patch-contrib_src_svg_Makefile_in,v 1.6 2010/11/04 12:05:25 dcoppa Exp $
+$OpenBSD$
 --- contrib/src/svg/Makefile.in.orig	Thu Apr 15 11:03:43 2010
 +++ contrib/src/svg/Makefile.in	Thu Nov  4 10:49:13 2010
 @@ -85,21 +85,21 @@ SVGLIB_ODEP =  $(_____pch_wxprec_svglib_wx_wxprec_h_gc

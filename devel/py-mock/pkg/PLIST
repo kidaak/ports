@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-mock/pkg/PLIST,v 1.1.1.1 2011/04/18 15:10:14 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/mock-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/mock-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/mock-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

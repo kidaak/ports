@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libcryptui/Makefile,v 1.11 2012/04/16 11:55:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interface components for OpenPGP
 

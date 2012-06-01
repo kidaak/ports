@@ -1,8 +1,8 @@
-# $OpenBSD: ports/converters/p5-Convert-Base32/Makefile,v 1.1.1.1 2011/03/11 13:40:20 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	encoding and decoding of base32 (RFC4648) strings
 
-DISTNAME =	Convert-Base32-0.05
+DISTNAME =	Convert-Base32-0.06
 
 CATEGORIES =	converters
 

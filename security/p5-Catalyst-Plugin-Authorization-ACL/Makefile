@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Catalyst-Plugin-Authorization-ACL/Makefile,v 1.11 2012/04/08 22:02:35 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	ACL support for Catalyst applications
 

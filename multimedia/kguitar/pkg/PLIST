@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/kguitar/pkg/PLIST,v 1.2 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/kguitar
 ${KDE}/libkguitarpart.a
 ${KDE}/libkguitarpart.la

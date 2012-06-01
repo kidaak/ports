@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/scheme-report/Makefile,v 1.9 2009/08/26 10:53:10 kili Exp $
+# $OpenBSD$
 
 COMMENT=	revised^5 report on scheme
 

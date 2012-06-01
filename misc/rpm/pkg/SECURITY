@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/pkg/SECURITY,v 1.1 2000/12/06 09:48:38 espie Exp $
+$OpenBSD$
 
 rpm uses a few mktemp, but looking at these, they all appear to be wrapped
 and calling open() properly.

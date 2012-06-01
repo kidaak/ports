@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-data-lens-template/Makefile,v 1.1.1.1 2012/01/23 21:06:47 kili Exp $
+# $OpenBSD$
 
 COMMENT =		utilities for Data.Lens
 

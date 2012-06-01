@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/telephony/iaxclient/pkg/PLIST-main,v 1.1 2010/06/18 17:32:21 sebastia Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @sample ${SYSCONFDIR}/iaxmodem/
 @bin bin/testcall

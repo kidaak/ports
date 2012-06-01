@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Term-Shell/Makefile,v 1.7 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 # Original from: Neil Watkiss <nwatkiss@ttul.org>
 
 COMMENT=	simple command-line shell framework

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/happy/pkg/PLIST,v 1.5 2010/04/22 21:48:51 kili Exp $
+@comment $OpenBSD$
 @bin bin/happy
 share/doc/happy/
 @comment share/doc/${DISTNAME}/

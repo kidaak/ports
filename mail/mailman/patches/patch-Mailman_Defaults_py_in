@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailman/patches/patch-Mailman_Defaults_py_in,v 1.11 2010/09/21 07:21:00 jasper Exp $
+$OpenBSD$
 --- Mailman/Defaults.py.in.orig	Mon Sep 20 20:18:27 2010
 +++ Mailman/Defaults.py.in	Mon Sep 20 23:34:59 2010
 @@ -458,7 +458,22 @@ SMTPPORT = 0                                      # de

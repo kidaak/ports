@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/proxy-suite/Makefile,v 1.16 2010/10/18 18:36:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=	set of programs to enhance firewall security
 

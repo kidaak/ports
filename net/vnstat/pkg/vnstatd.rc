@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/vnstat/pkg/vnstatd.rc,v 1.5 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/vnstatd -d"
 daemon_user="_vnstat"

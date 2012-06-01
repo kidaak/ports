@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/lsys/Makefile,v 1.1.1.1 2010/04/30 09:32:04 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	intepreter for Lindenmayer-systems
 

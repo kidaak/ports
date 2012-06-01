@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Date-Handler/pkg/PLIST,v 1.7 2004/09/14 23:43:58 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Date/
 ${P5SITE}/Date/Handler/
 ${P5SITE}/Date/Handler.pm

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/ac3dec/pkg/PLIST,v 1.4 2004/08/05 03:28:11 espie Exp $
+@comment $OpenBSD$
 bin/ac3dec
 bin/extract_ac3
 share/doc/ac3dec/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pop3gwd/patches/patch-connect_loginc,v 1.2 2003/06/18 12:18:12 naddy Exp $
+# $OpenBSD$
 --- connect_login.c.orig	Thu Jun 19 11:06:28 1997
 +++ connect_login.c	Wed Jun 18 14:13:14 2003
 @@ -42,10 +42,10 @@ static int contact_host(char hostname[],

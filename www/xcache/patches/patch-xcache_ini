@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/xcache/patches/patch-xcache_ini,v 1.1 2008/03/23 21:36:20 sthen Exp $
+$OpenBSD$
 --- xcache.ini.orig	Sun Mar 23 14:04:11 2008
 +++ xcache.ini	Sun Mar 23 14:05:14 2008
 @@ -1,11 +1,11 @@

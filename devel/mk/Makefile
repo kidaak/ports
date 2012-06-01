@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mk/Makefile,v 1.10 2012/02/21 22:19:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Streamlined replacement for make
 

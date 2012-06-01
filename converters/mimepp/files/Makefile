@@ -1,7 +1,7 @@
 # UNIX makefile for MIME++ example programs
 
-# $Revision: 1.2 $
-# $Date: 1997/09/23 11:09:31 $
+# $Revision$
+# $Date$
 
 # C++ compiler driver
 # CXX = CC

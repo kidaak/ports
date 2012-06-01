@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_frontend_wml_src,v 1.2 2008/10/01 20:15:04 millert Exp $
+$OpenBSD$
 --- wml_frontend/wml.src.orig	Thu Dec  1 12:50:13 2005
 +++ wml_frontend/wml.src	Mon Sep 29 11:20:55 2008
 @@ -49,7 +49,7 @@ if ($ENV{'PATH'} !~ m|@bindir@|) {

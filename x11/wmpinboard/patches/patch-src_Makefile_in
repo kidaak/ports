@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wmpinboard/patches/patch-src_Makefile_in,v 1.2 2002/12/25 11:16:27 wilfried Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Wed Dec 25 12:10:46 2002
 +++ src/Makefile.in	Wed Dec 25 12:11:23 2002
 @@ -209,7 +209,7 @@ distdir: $(DISTFILES)

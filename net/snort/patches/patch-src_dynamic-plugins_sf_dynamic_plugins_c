@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/snort/patches/patch-src_dynamic-plugins_sf_dynamic_plugins_c,v 1.5 2010/07/12 19:38:40 sthen Exp $
+$OpenBSD$
 --- src/dynamic-plugins/sf_dynamic_plugins.c.orig	Tue Jan 26 19:11:07 2010
 +++ src/dynamic-plugins/sf_dynamic_plugins.c	Thu Apr 22 07:53:46 2010
 @@ -248,8 +248,7 @@ void LoadAllLibs(char *path, LoadLibraryFunc loadFunc)

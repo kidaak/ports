@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/festvox/festvox_ellpc11k/Makefile,v 1.3 2010/11/15 00:22:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Castilian Spanish male speaker (EL)
 DISTNAME=	festvox_ellpc11k

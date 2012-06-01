@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/panel/pkg/PLIST,v 1.48 2012/03/29 06:53:15 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gnome-desktop-item-edit
 @bin bin/gnome-panel
 @bin bin/panel-test-applets
@@ -113,6 +113,11 @@ share/gnome/help/clock/fr/clock.xml
 share/gnome/help/clock/fr/figures/
 share/gnome/help/clock/fr/figures/clock_applet.png
 share/gnome/help/clock/fr/legal.xml
+share/gnome/help/clock/id/
+share/gnome/help/clock/id/clock.xml
+share/gnome/help/clock/id/figures/
+share/gnome/help/clock/id/figures/clock_applet.png
+share/gnome/help/clock/id/legal.xml
 share/gnome/help/clock/it/
 share/gnome/help/clock/it/clock.xml
 share/gnome/help/clock/it/figures/
@@ -402,6 +407,9 @@ share/locale/ca/LC_MESSAGES/gnome-panel-3.0.mo
 share/locale/ca@valencia/LC_MESSAGES/gnome-panel-3.0.mo
 share/locale/crh/LC_MESSAGES/gnome-panel-3.0.mo
 share/locale/cs/LC_MESSAGES/gnome-panel-3.0.mo
+share/locale/csb/
+share/locale/csb/LC_MESSAGES/
+share/locale/csb/LC_MESSAGES/gnome-panel-3.0.mo
 share/locale/cy/LC_MESSAGES/gnome-panel-3.0.mo
 share/locale/da/LC_MESSAGES/gnome-panel-3.0.mo
 share/locale/de/LC_MESSAGES/gnome-panel-3.0.mo
@@ -508,6 +516,7 @@ share/omf/clock/clock-es.omf
 share/omf/clock/clock-eu.omf
 share/omf/clock/clock-fi.omf
 share/omf/clock/clock-fr.omf
+share/omf/clock/clock-id.omf
 share/omf/clock/clock-it.omf
 share/omf/clock/clock-ja.omf
 share/omf/clock/clock-ko.omf

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/bmf/patches/patch-Makefile_in,v 1.2 2002/11/29 12:56:57 lebel Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Oct 20 16:27:56 2002
 +++ Makefile.in	Fri Nov 29 07:47:27 2002
 @@ -5,9 +5,8 @@ MANDIR=/usr/share/man

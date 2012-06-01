@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal7/pathauto/pkg/PLIST,v 1.1.1.1 2012/04/10 12:50:24 espie Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}pathauto/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/fmirror/Makefile,v 1.3 2010/10/18 18:36:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	mirror files and directories from a remote FTP server
 

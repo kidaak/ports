@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk+3/pkg/PLIST-docs,v 1.6 2012/03/23 15:49:11 ajacoutot Exp $
+@comment $OpenBSD$
 share/gtk-doc/
 share/gtk-doc/html/
 share/gtk-doc/html/gail-libgail-util3/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/isilo/files/Makefile,v 1.1.1.1 2001/06/02 23:57:58 pvalchev Exp $
+# $OpenBSD$
 
 install: 
 	${BSD_INSTALL_SCRIPT} iSiloBSD ${PREFIX}/bin

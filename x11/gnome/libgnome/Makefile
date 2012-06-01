@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libgnome/Makefile,v 1.51 2011/10/29 08:12:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	libraries for the GNOME project
 

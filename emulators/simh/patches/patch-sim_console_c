@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/simh/patches/patch-sim_console_c,v 1.2 2010/03/21 09:26:49 jasper Exp $
+$OpenBSD$
 --- sim_console.c.orig	Thu Nov 20 13:50:44 2008
 +++ sim_console.c	Tue Jan 26 13:12:30 2010
 @@ -111,7 +111,7 @@ extern DEVICE *sim_devices[];

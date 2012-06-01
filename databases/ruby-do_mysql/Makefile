@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-do_mysql/Makefile,v 1.7 2012/04/06 19:28:22 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		ruby-data_objects driver for MySQL
 

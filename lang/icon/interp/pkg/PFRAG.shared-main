@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/icon/interp/pkg/PFRAG.shared-main,v 1.1 2006/11/20 12:21:04 espie Exp $
+@comment $OpenBSD$
 lib/libcfunc.so
 share/ipl/
 share/ipl/ucode/

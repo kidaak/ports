@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/libnxml/Makefile,v 1.5 2011/09/15 16:52:31 naddy Exp $
+# $OpenBSD$
 
 COMMENT =		XML manipulation library
 

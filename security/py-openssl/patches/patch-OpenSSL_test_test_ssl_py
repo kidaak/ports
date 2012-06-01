@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/py-openssl/patches/patch-OpenSSL_test_test_ssl_py,v 1.1 2011/11/25 20:19:30 eric Exp $
+$OpenBSD$
 --- OpenSSL/test/test_ssl.py.orig	Fri Sep  2 17:46:13 2011
 +++ OpenSSL/test/test_ssl.py	Thu Nov 24 10:42:34 2011
 @@ -1153,13 +1153,13 @@ class ConnectionTests(TestCase, _LoopbackMixin):

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/deco/Makefile,v 1.8 2011/09/16 08:26:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	extract various archive file formats
 

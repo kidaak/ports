@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hydra/Makefile,v 1.47 2011/11/05 21:25:52 nigel Exp $
+# $OpenBSD$
 
 COMMENT-main=	parallelized login hacker
 COMMENT-gui=	GTK frontend for hydra

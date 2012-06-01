@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-epsilon/Makefile,v 1.11 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	small utility package for Divmod projects
 

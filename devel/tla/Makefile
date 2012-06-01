@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/tla/Makefile,v 1.6 2010/11/15 19:46:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	original Arch source control management CLI written in C
 

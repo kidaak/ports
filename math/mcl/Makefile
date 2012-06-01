@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/mcl/Makefile,v 1.11 2010/10/18 20:52:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	clustering algorithm for graphs
 

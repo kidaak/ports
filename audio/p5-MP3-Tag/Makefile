@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-MP3-Tag/Makefile,v 1.7 2011/01/02 13:31:53 benoit Exp $
+# $OpenBSD$
 
 COMMENT=	read tags of MP3 audio files
 

@@ -1,9 +1,10 @@
-# $OpenBSD: ports/x11/xfce4/thunar-media-tags/Makefile,v 1.18 2011/12/26 18:44:29 landry Exp $
+# $OpenBSD$
 
 COMMENT=	Thunar media tags plugin
 
 XFCE_VERSION=	0.2.0
 THUNAR_PLUGIN=	thunar-media-tags-plugin
+REVISION =	0
 
 # GPLv3
 PERMIT_PACKAGE_CDROM=	Yes

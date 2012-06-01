@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/echinus/Makefile,v 1.3 2011/09/01 20:59:19 landry Exp $
+# $OpenBSD$
 
 COMMENT=		simple, lightweight tiling and floating window manager
 

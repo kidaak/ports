@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/gtetrinet/pkg/PLIST-themes,v 1.1.1.1 2007/06/28 15:38:16 simon Exp $
+@comment $OpenBSD$
 share/gtetrinet/themes/TuxNBlue/
 share/gtetrinet/themes/TuxNBlue/README
 share/gtetrinet/themes/TuxNBlue/TuxNBlue.png

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/telepathy-pinocchio/Makefile,v 1.13 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=		connection manager meant for testing Telepathy
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/verilator/pkg/PLIST,v 1.2 2011/11/14 11:00:23 jasper Exp $
+@comment $OpenBSD$
 bin/verilator
 @bin bin/verilator_bin
 @bin bin/verilator_bin_dbg

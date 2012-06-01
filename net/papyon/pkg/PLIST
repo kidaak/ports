@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/papyon/pkg/PLIST,v 1.7 2012/04/02 06:20:33 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath net/pymsn
 lib/python${MODPY_VERSION}/site-packages/papyon/
 lib/python${MODPY_VERSION}/site-packages/papyon-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

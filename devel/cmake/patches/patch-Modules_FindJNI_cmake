@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cmake/patches/patch-Modules_FindJNI_cmake,v 1.5 2012/01/07 22:14:51 dcoppa Exp $
+$OpenBSD$
 --- Modules/FindJNI.cmake.orig	Fri Dec 30 17:49:56 2011
 +++ Modules/FindJNI.cmake	Tue Jan  3 10:57:13 2012
 @@ -26,6 +26,8 @@

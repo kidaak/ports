@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/views/Makefile,v 1.13 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	drupal views, smart content lists
 MAINTAINER =	Marc Espie <espie@openbsd.org>

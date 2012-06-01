@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-Audio-MPD/pkg/PLIST,v 1.5 2010/09/29 17:19:30 jasper Exp $
+@comment $OpenBSD$
 bin/mpd-dynamic
 bin/mpd-rate
 ${P5SITE}/Audio/MPD.pm

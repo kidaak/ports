@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/openttd/patches/patch-src_fileio_cpp,v 1.3 2011/09/26 10:12:46 sthen Exp $
+$OpenBSD$
 --- src/fileio.cpp.orig	Thu Sep 15 16:06:59 2011
 +++ src/fileio.cpp	Sat Sep 17 22:50:41 2011
 @@ -26,6 +26,7 @@

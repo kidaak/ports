@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/mono-gtk2/Makefile,v 1.16 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	.NET language binding for the GTK+2 toolkit
 

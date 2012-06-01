@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/rabbitmq/pkg/rabbitmq.rc,v 1.4 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/rabbitmq-server -detached"
 daemon_user="_rabbitmq"

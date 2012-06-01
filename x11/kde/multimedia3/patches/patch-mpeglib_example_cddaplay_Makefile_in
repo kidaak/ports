@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/multimedia3/patches/patch-mpeglib_example_cddaplay_Makefile_in,v 1.17 2010/09/26 13:40:12 naddy Exp $
+$OpenBSD$
 --- mpeglib/example/cddaplay/Makefile.in.orig	Mon Oct  8 16:27:13 2007
 +++ mpeglib/example/cddaplay/Makefile.in	Wed Oct 24 11:55:37 2007
 @@ -398,7 +398,7 @@ xdg_menudir = @xdg_menudir@

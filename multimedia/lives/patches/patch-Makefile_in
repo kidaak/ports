@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/lives/patches/patch-Makefile_in,v 1.1.1.1 2011/11/16 16:52:01 phessler Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri Oct 15 15:07:22 2010
 +++ Makefile.in	Wed Nov 16 00:25:06 2011
 @@ -879,7 +879,7 @@ install-exec-local:

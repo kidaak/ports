@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/gnutls/patches/patch-lib_gnutls_pc_in,v 1.3 2011/08/22 09:13:04 ajacoutot Exp $
+$OpenBSD$
 
 -pthread is needed to link with gnutls.
 

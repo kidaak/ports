@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/graphics/patches/patch-libs_libkdcraw_libraw_src_libraw_cxx_cpp,v 1.1 2010/06/20 14:36:23 espie Exp $
+$OpenBSD$
 --- libs/libkdcraw/libraw/src/libraw_cxx.cpp.orig	Sun Jun 20 15:06:50 2010
 +++ libs/libkdcraw/libraw/src/libraw_cxx.cpp	Sun Jun 20 15:07:01 2010
 @@ -10,6 +10,7 @@

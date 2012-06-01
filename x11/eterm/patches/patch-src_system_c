@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/eterm/patches/patch-src_system_c,v 1.1 2007/11/18 12:55:58 jasper Exp $
+$OpenBSD$
 --- src/system.c.orig	Wed Nov 14 17:23:12 2007
 +++ src/system.c	Wed Nov 14 17:24:12 2007
 @@ -99,8 +99,16 @@ system_no_wait(char *command)

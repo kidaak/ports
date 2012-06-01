@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/plugins/findbugs/pkg/PLIST,v 1.2 2007/05/18 02:27:10 kurt Exp $
+@comment $OpenBSD$
 eclipse/plugins/edu.umd.cs.findbugs.plugin.eclipse_${V}.20070425/
 eclipse/plugins/edu.umd.cs.findbugs.plugin.eclipse_${V}.20070425/FindBugs.png
 eclipse/plugins/edu.umd.cs.findbugs.plugin.eclipse_${V}.20070425/Fortify.png

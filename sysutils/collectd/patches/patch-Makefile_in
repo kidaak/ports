@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/collectd/patches/patch-Makefile_in,v 1.2 2010/09/07 11:12:05 landry Exp $
+$OpenBSD$
 dont create var/{run,lib,log}
 --- Makefile.in.orig	Fri Jul  9 12:02:16 2010
 +++ Makefile.in	Thu Aug  5 13:07:16 2010

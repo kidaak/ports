@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/py-xml/patches/patch-xml_xpath_ParsedAbbreviatedAbsoluteLocationPath_py,v 1.1 2008/12/16 04:55:09 fgsch Exp $
+$OpenBSD$
 --- xml/xpath/ParsedAbbreviatedAbsoluteLocationPath.py.orig	Tue Dec 16 04:50:28 2008
 +++ xml/xpath/ParsedAbbreviatedAbsoluteLocationPath.py	Tue Dec 16 04:50:44 2008
 @@ -24,8 +24,8 @@ class ParsedAbbreviatedAbsoluteLocationPath:

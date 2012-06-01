@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/libdvd/patches/patch-src_acss_c,v 1.1 2005/08/29 20:28:17 hshoexer Exp $
+$OpenBSD$
 --- src/acss.c.orig	Sun Apr 17 20:48:13 2005
 +++ src/acss.c	Wed Aug 24 23:39:20 2005
 @@ -674,12 +674,9 @@ static void genseed(libdvd_t libdvd, uin

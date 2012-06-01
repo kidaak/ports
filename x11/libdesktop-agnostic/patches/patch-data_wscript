@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/libdesktop-agnostic/patches/patch-data_wscript,v 1.1.1.1 2011/09/22 13:17:11 landry Exp $
+$OpenBSD$
 --- data/wscript.orig	Tue Sep 20 22:35:03 2011
 +++ data/wscript	Tue Sep 20 22:35:34 2011
 @@ -46,7 +46,7 @@ def build(bld):

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_jdt_doc_isv_jdtaptOptions_txt,v 1.1 2006/07/07 01:48:55 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.jdt.doc.isv/jdtaptOptions.txt.orig	Mon Jun 19 23:49:11 2006
 +++ plugins/org.eclipse.jdt.doc.isv/jdtaptOptions.txt	Mon Jun 19 23:49:31 2006
 @@ -85,10 +85,10 @@

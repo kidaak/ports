@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-rcov/Makefile,v 1.12 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	code coverage tool for Ruby
 

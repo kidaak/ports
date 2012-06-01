@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Geo-IP/pkg/PLIST,v 1.1.1.1 2004/11/11 19:46:03 naddy Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Geo/
 ${P5ARCH}/Geo/IP/

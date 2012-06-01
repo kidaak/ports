@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gentoo/Makefile,v 1.23 2012/03/19 12:59:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GTK+2 graphical filemanager
 

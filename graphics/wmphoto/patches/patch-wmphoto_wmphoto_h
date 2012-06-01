@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/wmphoto/patches/patch-wmphoto_wmphoto_h,v 1.1.1.1 2001/01/16 22:44:43 naddy Exp $
+$OpenBSD$
 --- wmphoto/wmphoto.h.orig	Sat Mar 13 08:05:18 1999
 +++ wmphoto/wmphoto.h	Tue Jan 16 17:34:35 2001
 @@ -30,7 +30,7 @@ void poner_marco();

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/p5-Tk-TableMatrix/Makefile,v 1.2 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

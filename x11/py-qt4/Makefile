@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/py-qt4/Makefile,v 1.37 2011/10/15 16:21:52 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

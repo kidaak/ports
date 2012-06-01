@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-MOP/pkg/PLIST,v 1.6 2011/04/09 19:09:47 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/Class/
 ${P5ARCH}/Class/MOP/
 ${P5ARCH}/Class/MOP.pm

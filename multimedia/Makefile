@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/Makefile,v 1.60 2012/03/30 13:17:28 phessler Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += atomicparsley

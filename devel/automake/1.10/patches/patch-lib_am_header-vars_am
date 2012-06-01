@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/automake/1.10/patches/patch-lib_am_header-vars_am,v 1.1 2011/05/18 19:38:15 matthieu Exp $
+$OpenBSD$
 --- lib/am/header-vars.am.orig	Tue Dec  8 20:35:33 2009
 +++ lib/am/header-vars.am	Mon May 16 08:16:06 2011
 @@ -35,9 +35,9 @@ pkglibdir = $(libdir)/@PACKAGE@

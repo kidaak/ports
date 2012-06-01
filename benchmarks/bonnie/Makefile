@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/bonnie/Makefile,v 1.16 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	performance test of filesystem I/O
 

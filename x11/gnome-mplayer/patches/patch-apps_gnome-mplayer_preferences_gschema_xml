@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome-mplayer/patches/patch-apps_gnome-mplayer_preferences_gschema_xml,v 1.7 2012/03/26 14:41:16 dcoppa Exp $
+$OpenBSD$
 
 Set some sane defaults:
 use xv as default video output

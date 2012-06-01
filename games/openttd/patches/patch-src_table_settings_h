@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/openttd/patches/patch-src_table_settings_h,v 1.2 2011/04/02 15:39:36 rpointel Exp $
+$OpenBSD$
 --- src/table/settings.h.orig	Sun Feb 13 15:52:33 2011
 +++ src/table/settings.h	Mon Feb 28 21:50:53 2011
 @@ -232,7 +232,7 @@ static const SettingDesc _music_settings[] = {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/colortail/Makefile,v 1.8 2010/11/20 17:22:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=		color-able replacement for tail(1)
 

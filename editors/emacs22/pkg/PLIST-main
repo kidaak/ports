@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/emacs22/pkg/PLIST-main,v 1.3 2009/06/07 07:07:39 eric Exp $
+@comment $OpenBSD$
 @bin bin/b2m
 @bin bin/ctags
 @bin bin/ebrowse

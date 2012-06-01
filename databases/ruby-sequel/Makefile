@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-sequel/Makefile,v 1.20 2012/04/06 19:23:07 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =		lightweight database library and ORM for Ruby
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/ctl/pkg/PFRAG.shared,v 1.1.1.1 2009/11/12 12:31:44 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libIlmCtl.so.${LIBIlmCtl_VERSION}
 @lib lib/libIlmCtlMath.so.${LIBIlmCtlMath_VERSION}
 @lib lib/libIlmCtlSimd.so.${LIBIlmCtlSimd_VERSION}

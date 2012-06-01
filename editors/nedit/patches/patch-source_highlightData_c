@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nedit/patches/patch-source_highlightData_c,v 1.1 2007/06/26 19:54:53 jasper Exp $
+$OpenBSD$
 --- source/highlightData.c.orig	Sun Aug  1 12:06:10 2004
 +++ source/highlightData.c	Fri Jun 22 17:37:08 2007
 @@ -265,7 +265,7 @@ static char *DefaultPatternSets[] = {

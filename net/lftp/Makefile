@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/lftp/Makefile,v 1.90 2011/10/23 10:28:56 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	shell-like command line ftp and sftp client
 

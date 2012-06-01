@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/sysutils/freedt/pkg/svscan.rc,v 1.3 2012/04/06 11:59:48 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/svscan"
 daemon_flags="/service/"

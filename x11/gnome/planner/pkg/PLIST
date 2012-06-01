@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/planner/pkg/PLIST,v 1.14 2011/12/25 09:55:12 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/planner
 include/planner-1.0/
 include/planner-1.0/libplanner/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/asymptote/Makefile,v 1.11 2011/12/20 19:03:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		powerful descriptive vector graphics language
 

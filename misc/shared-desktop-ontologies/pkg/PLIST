@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/shared-desktop-ontologies/pkg/PLIST,v 1.3 2012/03/19 10:28:48 ajacoutot Exp $
+@comment $OpenBSD$
 share/cmake/
 share/cmake/SharedDesktopOntologies/
 share/cmake/SharedDesktopOntologies/SharedDesktopOntologiesConfig.cmake

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Net-Server/Makefile,v 1.15 2010/11/15 19:46:04 espie Exp $
+# $OpenBSD$
 
 COMMENT =	extensible framework for Perl server engines
 

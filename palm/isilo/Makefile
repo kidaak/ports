@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/isilo/Makefile,v 1.5 2010/10/18 21:25:08 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 

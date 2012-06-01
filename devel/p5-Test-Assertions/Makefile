@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Assertions/Makefile,v 1.4 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	set of building blocks for both unit and runtime testing
 

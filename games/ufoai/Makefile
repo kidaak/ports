@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ufoai/Makefile,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += base

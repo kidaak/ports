@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-xmpppy/pkg/PLIST,v 1.1.1.1 2010/07/28 12:22:11 sebastia Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/xmpp/
 lib/python${MODPY_VERSION}/site-packages/xmpp/__init__.py
 lib/python${MODPY_VERSION}/site-packages/xmpp/__init__.pyc

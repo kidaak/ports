@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dwm/patches/patch-config_def_h,v 1.8 2010/06/27 01:03:55 jim Exp $
+$OpenBSD$
 --- config.def.h.orig	Fri Jun  4 06:39:15 2010
 +++ config.def.h	Sat Jun 26 20:24:09 2010
 @@ -1,13 +1,13 @@

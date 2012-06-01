@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/git-cola/pkg/PLIST,v 1.4 2011/03/09 18:15:23 jasper Exp $
+@comment $OpenBSD$
 bin/git-cola
 lib/python${MODPY_VERSION}/site-packages/git_cola-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 share/applications/cola.desktop

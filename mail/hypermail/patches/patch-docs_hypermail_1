@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/hypermail/patches/patch-docs_hypermail_1,v 1.4 2002/09/03 23:22:50 brad Exp $
+$OpenBSD$
 --- docs/hypermail.1.orig	Sun Sep  1 22:53:56 2002
 +++ docs/hypermail.1	Sun Sep  1 22:55:12 2002
 @@ -163,7 +163,7 @@ sign, such as:

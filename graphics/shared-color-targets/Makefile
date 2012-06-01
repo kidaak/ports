@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/shared-color-targets/Makefile,v 1.3 2012/03/19 07:10:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	color targets from vendors for color calibration
 

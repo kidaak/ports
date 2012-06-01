@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/antisniff/Makefile,v 1.23 2007/09/15 23:29:57 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	promiscuous mode interface detector
 

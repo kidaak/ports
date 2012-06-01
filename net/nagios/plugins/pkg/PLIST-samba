@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/nagios/plugins/pkg/PLIST-samba,v 1.3 2006/11/11 17:17:43 sturm Exp $
+@comment $OpenBSD$
 libexec/nagios/check_disk_smb

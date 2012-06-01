@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/conky/patches/patch-src_xmms2_c,v 1.1 2011/04/27 12:55:11 dcoppa Exp $
+$OpenBSD$
 --- src/xmms2.c.orig	Tue Apr 19 20:22:11 2011
 +++ src/xmms2.c	Tue Apr 19 20:22:30 2011
 @@ -223,7 +223,7 @@ int handle_playback_state_change(xmmsv_t *value, void 

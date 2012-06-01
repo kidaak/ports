@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/ccextractor/Makefile,v 1.1.1.1 2011/08/16 14:12:58 espie Exp $
+# $OpenBSD$
 
 MAINTAINER = 	Marc Espie <espie@openbsd.org>
 CATEGORIES =	multimedia

@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/core/patches/patch-source_mupen64plus-core_projects_unix_Makefile,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- projects/unix/Makefile.orig	Tue Nov 23 03:15:08 2010
 +++ projects/unix/Makefile	Sun Dec 18 17:37:08 2011
 @@ -39,6 +39,9 @@ endif

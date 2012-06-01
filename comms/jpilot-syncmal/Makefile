@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/jpilot-syncmal/Makefile,v 1.18 2011/11/04 08:21:59 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cutils/pkg/PLIST,v 1.1.1.1 2007/09/13 21:44:27 sthen Exp $
+@comment $OpenBSD$
 bin/cdecl
 bin/chilight
 bin/cobfusc

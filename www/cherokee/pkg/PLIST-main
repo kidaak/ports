@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/cherokee/pkg/PLIST-main,v 1.13 2010/12/22 07:28:04 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _cherokee:608
 @newuser _cherokee:608:_cherokee:daemon:Cherokee HTTP Server:/var/empty:/sbin/nologin
 bin/CTK-run

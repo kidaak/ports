@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/clog/Makefile,v 1.21 2010/10/18 18:36:46 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.1.1.1 1997/11/05 11:39:40 obrien Exp $
 
 COMMENT=	tcp connection logger daemon

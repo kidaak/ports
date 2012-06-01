@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/eclipse/plugins/rdt/Makefile,v 1.10 2011/09/16 09:24:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Ruby Development Tools for Eclipse IDE
 

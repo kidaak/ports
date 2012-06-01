@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/torsocks/Makefile,v 1.1.1.1 2011/12/01 11:49:27 pascal Exp $
+# $OpenBSD$
 
 COMMENT =		socks proxy for use with tor
 

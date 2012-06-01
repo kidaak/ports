@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Apache-MP3/pkg/PLIST,v 1.7 2004/09/15 18:49:51 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Apache/
 ${P5SITE}/Apache/MP3/
 ${P5SITE}/Apache/MP3.pm

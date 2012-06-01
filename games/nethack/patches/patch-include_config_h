@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/nethack/patches/patch-include_config_h,v 1.5 2004/08/11 10:15:07 espie Exp $
+$OpenBSD$
 --- include/config.h.orig	Mon Dec  8 00:39:13 2003
 +++ include/config.h	Tue Aug 10 13:32:55 2004
 @@ -84,7 +84,7 @@

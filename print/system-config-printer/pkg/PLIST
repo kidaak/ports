@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/system-config-printer/pkg/PLIST,v 1.12 2011/07/29 16:56:32 ajacoutot Exp $
+@comment $OpenBSD$
 bin/scp-dbus-service
 bin/system-config-printer
 bin/system-config-printer-applet

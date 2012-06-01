@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfm/patches/patch-lib_Xfm_cpp,v 1.1 2005/05/07 06:52:41 sturm Exp $
+$OpenBSD$
 --- lib/Xfm.cpp.orig	Fri May  6 14:34:03 2005
 +++ lib/Xfm.cpp	Fri May  6 14:35:53 2005
 @@ -268,7 +268,7 @@ Xfm*Text*baseTranslations : #override \n

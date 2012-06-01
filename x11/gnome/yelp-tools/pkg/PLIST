@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/yelp-tools/pkg/PLIST,v 1.1.1.1 2011/09/28 14:15:22 ajacoutot Exp $
+@comment $OpenBSD$
 bin/yelp-build
 bin/yelp-check
 bin/yelp-new

@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/screen/patches/patch-window_c,v 1.1 2012/03/23 21:37:50 naddy Exp $
+$OpenBSD$
 --- window.c.orig	Fri Mar 23 22:25:23 2012
 +++ window.c	Fri Mar 23 22:26:20 2012
 @@ -1387,6 +1387,7 @@ char **args, *ttyn;

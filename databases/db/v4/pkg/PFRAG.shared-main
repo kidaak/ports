@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/db/v4/pkg/PFRAG.shared-main,v 1.1 2006/11/25 22:54:28 steven Exp $
+@comment $OpenBSD$
 @lib lib/db4/libdb.so.${LIBdb_VERSION}
 @lib lib/db4/libdb_cxx.so.${LIBdb_cxx_VERSION}
 @lib lib/libdb.so.${LIBdb_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/hs-X11-xft/Makefile,v 1.7 2011/12/31 22:19:45 kili Exp $
+# $OpenBSD$
 
 COMMENT=		bindings for GHC to Xft, Freetype and Xrender
 

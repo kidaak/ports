@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# $OpenBSD: ports/infrastructure/package/check-plist,v 1.9 2011/11/28 12:59:50 sthen Exp $
+# $OpenBSD$
 # Copyright (c) 2001
 # Marc Espie.  All rights reserved.
 # Redistribution and use in source and binary forms, with or without

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Algorithm-Diff/pkg/PLIST,v 1.6 2004/09/14 23:43:56 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Algorithm/
 ${P5SITE}/Algorithm/Diff.pm
 ${P5SITE}/Algorithm/DiffOld.pm

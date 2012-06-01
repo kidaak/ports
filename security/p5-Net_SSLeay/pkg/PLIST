@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Net_SSLeay/pkg/PLIST,v 1.14 2012/04/11 18:51:49 bluhm Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Net/
 ${P5ARCH}/Net/SSLeay/

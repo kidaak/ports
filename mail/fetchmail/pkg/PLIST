@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/fetchmail/pkg/PLIST,v 1.19 2009/10/11 20:52:17 sthen Exp $
+@comment $OpenBSD$
 @bin bin/fetchmail
 bin/fetchmailconf
 libexec/fetchmailconf.bin

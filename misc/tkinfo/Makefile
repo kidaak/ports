@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/tkinfo/Makefile,v 1.24 2011/01/05 20:31:02 landry Exp $
+# $OpenBSD$
 
 COMMENT =	read and display GNU info files in Tk
 

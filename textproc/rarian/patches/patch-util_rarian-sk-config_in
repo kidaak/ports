@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/rarian/patches/patch-util_rarian-sk-config_in,v 1.1.1.1 2008/12/16 10:01:38 jasper Exp $
+$OpenBSD$
 
 Fix location to rarian's localstatedir.
 

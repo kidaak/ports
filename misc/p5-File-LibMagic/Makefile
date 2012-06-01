@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-File-LibMagic/Makefile,v 1.1.1.1 2011/04/11 09:56:20 bluhm Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

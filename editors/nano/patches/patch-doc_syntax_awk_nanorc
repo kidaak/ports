@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nano/patches/patch-doc_syntax_awk_nanorc,v 1.1 2009/12/01 19:39:31 naddy Exp $
+$OpenBSD$
 --- doc/syntax/awk.nanorc.orig	Fri Aug 14 05:16:32 2009
 +++ doc/syntax/awk.nanorc	Tue Dec  1 18:48:12 2009
 @@ -4,26 +4,26 @@ syntax "awk" "\.awk$"

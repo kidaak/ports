@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/fribidi/Makefile,v 1.10 2011/11/07 09:15:56 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	library implementing the Unicode Bidirectional Algorithm
 

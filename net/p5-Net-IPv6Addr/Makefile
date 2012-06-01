@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-IPv6Addr/Makefile,v 1.1.1.1 2010/12/27 21:06:08 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	check validity of IPv6 addresses
 

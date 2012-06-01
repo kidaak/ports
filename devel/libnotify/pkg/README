@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libnotify/pkg/README,v 1.2 2012/04/06 07:26:37 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

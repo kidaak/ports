@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gimp/liquid-rescale/Makefile,v 1.11 2011/11/02 08:46:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT = 			seam-carving smart rescale gimp plugin
 CATEGORIES =			graphics

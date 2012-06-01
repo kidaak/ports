@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgnome/pkg/PLIST,v 1.24 2011/07/26 15:36:27 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/gnome-open
 include/libgnome-2.0/

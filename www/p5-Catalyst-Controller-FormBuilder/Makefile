@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Controller-FormBuilder/Makefile,v 1.9 2012/04/08 21:58:07 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Catalyst FormBuilder Base Controller
 

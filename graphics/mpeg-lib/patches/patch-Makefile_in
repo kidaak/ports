@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/mpeg-lib/patches/patch-Makefile_in,v 1.2 2005/12/26 18:02:44 steven Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Nov 26 17:03:29 1998
 +++ Makefile.in	Mon Dec 26 18:59:52 2005
 @@ -15,11 +15,13 @@ CFLAGS        = $(OPTIMIZE) $(EXTRA_CFLA

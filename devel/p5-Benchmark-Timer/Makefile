@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Benchmark-Timer/Makefile,v 1.8 2011/05/13 13:20:31 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	benchmarking with statistical confidence
 

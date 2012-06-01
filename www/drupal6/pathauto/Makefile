@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/pathauto/Makefile,v 1.9 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	create sensible urls automatically
 MAINTAINER =	Marc Espie <espie@openbsd.org>

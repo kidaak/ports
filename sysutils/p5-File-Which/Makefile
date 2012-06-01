@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-File-Which/Makefile,v 1.6 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		portable implementation of 'which' in Perl
 MODULES=		cpan

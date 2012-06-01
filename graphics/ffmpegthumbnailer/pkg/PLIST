@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/ffmpegthumbnailer/pkg/PLIST,v 1.4 2011/06/28 13:43:03 dcoppa Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/ffmpegthumbnailer
 include/libffmpegthumbnailer/

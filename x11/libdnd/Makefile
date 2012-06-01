@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/libdnd/Makefile,v 1.18 2010/10/24 21:15:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		drag and drop library
 

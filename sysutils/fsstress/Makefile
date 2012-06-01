@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/fsstress/Makefile,v 1.6 2011/03/14 09:15:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		file system/VFS layer stress tester
 

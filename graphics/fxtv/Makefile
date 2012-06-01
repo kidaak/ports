@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/fxtv/Makefile,v 1.44 2012/02/21 22:19:31 sthen Exp $
+# $OpenBSD$
 
 # we use "macppc" and not "powerpc" on purpose here ; i.e. bktr(4) needed
 ONLY_FOR_ARCHS=	i386 macppc amd64

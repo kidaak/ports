@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/mrtd/patches/patch-programs_sbgp_simple_bgp_c,v 1.1 2002/02/20 21:24:46 pvalchev Exp $
+$OpenBSD$
 --- programs/sbgp/simple_bgp.c.orig	Wed May  3 14:26:05 2000
 +++ programs/sbgp/simple_bgp.c	Wed Feb 20 14:16:53 2002
 @@ -216,7 +216,7 @@ io_timer (void)

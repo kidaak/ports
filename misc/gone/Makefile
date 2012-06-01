@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/gone/Makefile,v 1.9 2010/11/05 08:24:50 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	terminal locking utility
 

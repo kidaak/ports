@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/maple-share/Makefile,v 1.11 2011/10/21 21:40:49 espie Exp $
+# $OpenBSD$
 # Original from: Marc Espie
 # XXX This port installs in a somewhat unusual way.
 

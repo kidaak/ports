@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/libtabe/Makefile,v 1.21 2011/09/25 14:42:51 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	library for Chinese language processing
 

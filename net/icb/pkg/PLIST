@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/icb/pkg/PLIST,v 1.10 2004/09/15 18:17:40 espie Exp $
+@comment $OpenBSD$
 bin/icb
 lib/icb/
 lib/icb/bartender

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmthemeinstall/Makefile,v 1.21 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: ports/x11-wm/wmthemeinstall/Makefile,v 1.5 2000/10/05 06:42:57 reg Exp $
 
 COMMENT=		neat theme manager for Window Maker

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-SemiAffordanceAccessor/Makefile,v 1.5 2011/04/20 19:51:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	name your accessors foo() and set_foo()
 

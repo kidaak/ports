@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Precise/Makefile,v 1.1.1.1 2011/03/16 14:20:10 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		common time and date operations with GPS operations
 

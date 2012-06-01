@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-Lib_test_test_tempfile_py,v 1.1 2006/11/01 20:59:18 alek Exp $
+$OpenBSD$
 --- Lib/test/test_tempfile.py.orig	Tue Sep  5 12:54:42 2006
 +++ Lib/test/test_tempfile.py	Mon Sep 18 06:31:10 2006
 @@ -30,7 +30,7 @@ if sys.platform == 'mac':

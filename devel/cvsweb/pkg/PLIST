@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cvsweb/pkg/PLIST,v 1.6 2010/11/13 09:24:52 ajacoutot Exp $
+@comment $OpenBSD$
 cgi-bin/cvsweb
 conf/cvsweb/
 conf/cvsweb/cvsweb.conf-freebsd.dist

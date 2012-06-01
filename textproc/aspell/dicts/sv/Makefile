@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/sv/Makefile,v 1.3 2007/09/15 20:59:37 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Swedish
 CATEGORIES=	textproc

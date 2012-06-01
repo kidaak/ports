@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xfce4/xfce4-weather/pkg/PLIST,v 1.13 2011/12/03 22:32:22 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict xfce4-weather-plugin-*
 libexec/xfce4/
 libexec/xfce4/panel-plugins/

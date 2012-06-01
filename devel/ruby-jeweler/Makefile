@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-jeweler/Makefile,v 1.2 2011/12/02 19:34:42 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =		simple helper for creating rubygem projects
 

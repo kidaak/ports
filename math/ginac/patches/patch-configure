@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/ginac/patches/patch-configure,v 1.5 2011/08/18 15:19:54 pirofti Exp $
+$OpenBSD$
 --- configure.orig	Mon Jul 18 22:09:56 2011
 +++ configure	Thu Aug 18 02:17:28 2011
 @@ -11473,7 +11473,7 @@ if ${ac_cv_lib_dl_dlopen+:} false; then :

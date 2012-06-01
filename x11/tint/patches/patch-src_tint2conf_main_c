@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tint/patches/patch-src_tint2conf_main_c,v 1.2 2010/07/19 15:13:19 edd Exp $
+$OpenBSD$
 --- src/tint2conf/main.c.orig	Wed Jun 16 16:11:43 2010
 +++ src/tint2conf/main.c	Mon Jul 19 16:10:31 2010
 @@ -417,7 +417,7 @@ static void menuApply()

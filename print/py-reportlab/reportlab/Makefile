@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/py-reportlab/reportlab/Makefile,v 1.19 2011/12/20 18:59:42 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	PDF-generating toolkit for Python
 

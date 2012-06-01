@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Authen-SASL/Makefile,v 1.11 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl interface to the SASL auth framework
 

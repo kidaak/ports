@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/idiff/Makefile,v 1.18 2011/06/23 22:50:29 naddy Exp $
+# $OpenBSD$
 #
 
 COMMENT=	powerful command-line front end to diff

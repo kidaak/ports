@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dovecot/patches/patch-doc_example-config_Makefile_in,v 1.1 2011/05/23 22:54:38 sthen Exp $
+$OpenBSD$
 --- doc/example-config/Makefile.in.orig	Wed May 11 10:35:51 2011
 +++ doc/example-config/Makefile.in	Wed May 11 20:26:49 2011
 @@ -285,7 +285,7 @@ top_srcdir = @top_srcdir@

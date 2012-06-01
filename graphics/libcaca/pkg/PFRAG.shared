@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/libcaca/pkg/PFRAG.shared,v 1.1 2009/10/15 23:27:09 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libcaca.so.${LIBcaca_VERSION}

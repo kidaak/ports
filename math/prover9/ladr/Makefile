@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/prover9/ladr/Makefile,v 1.5 2011/09/08 14:48:25 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		Library for Automated Deduction Research
 

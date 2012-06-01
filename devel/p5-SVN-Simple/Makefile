@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-SVN-Simple/Makefile,v 1.10 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simple interface to subversion's editor interface
 

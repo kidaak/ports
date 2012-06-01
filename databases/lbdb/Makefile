@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/lbdb/Makefile,v 1.13 2011/09/16 08:48:03 espie Exp $
+# $OpenBSD$
 
 COMMENT-main =		little brother's database, email address query tools
 COMMENT-ldap =		LDAP support for lbdb

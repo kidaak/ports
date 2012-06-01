@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libcaca/pkg/PLIST,v 1.4 2010/06/28 07:24:30 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/caca-config
 @bin bin/cacademo

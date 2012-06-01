@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/icon/book/Makefile,v 1.6 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 CATEGORIES=	books lang
 COMMENT=	Icon programming language reference book

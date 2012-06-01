@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/netbsd-iscsi-target/Makefile,v 1.4 2012/03/23 13:39:28 claudio Exp $
+# $OpenBSD$
 
 COMMENT=	iSCSI (RFC 3720) target from NetBSD
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/font-viewer/Makefile,v 1.1.1.1 2012/03/28 15:36:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		font viewer for GNOME
 

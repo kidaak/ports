@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dbus/patches/patch-dbus_dbus-sysdeps-util-unix_c,v 1.2 2011/09/29 06:57:36 ajacoutot Exp $
+$OpenBSD$
 
 Don't try to use /proc; we don't provide a replacement because this
 function is only called once for logging purpose, its return code is not

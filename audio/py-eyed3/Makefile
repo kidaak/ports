@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-eyed3/Makefile,v 1.9 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=		module and program for processing ID3 tags
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/wdiff/patches/patch-tests_testsuite,v 1.1 2011/09/17 10:51:22 sthen Exp $
+$OpenBSD$
 
 no workee with OpenBSD's sed
 

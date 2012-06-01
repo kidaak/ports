@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/pinot/patches/patch-Core_pinot-search_1,v 1.2 2010/07/13 16:51:24 ajacoutot Exp $
+$OpenBSD$
 --- Core/pinot-search.1.orig	Mon Jun 28 17:12:59 2010
 +++ Core/pinot-search.1	Wed Jun 30 02:30:24 2010
 @@ -38,9 +38,9 @@ output version information and exit

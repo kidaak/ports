@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-VCP-autrijus/patches/patch-Makefile_PL,v 1.1.1.1 2004/12/09 09:24:22 kevlo Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Thu Dec  9 16:49:58 2004
 +++ Makefile.PL	Thu Dec  9 16:50:19 2004
 @@ -212,7 +212,7 @@ sub MY::postamble {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/baobab/Makefile,v 1.3 2012/04/05 11:31:10 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		directory tree analyzer for GNOME
 

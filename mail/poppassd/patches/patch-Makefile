@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/poppassd/patches/patch-Makefile,v 1.1 2005/12/24 16:42:43 sturm Exp $
+$OpenBSD$
 --- Makefile.orig	Sun Dec  4 12:12:10 2005
 +++ Makefile	Sun Dec  4 12:12:10 2005
 @@ -1,17 +1,15 @@

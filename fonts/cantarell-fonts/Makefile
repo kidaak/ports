@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/cantarell-fonts/Makefile,v 1.4 2012/03/27 22:04:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	humanist sans-serif font family
 

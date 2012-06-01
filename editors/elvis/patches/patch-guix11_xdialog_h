@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/elvis/patches/patch-guix11_xdialog_h,v 1.1 2008/12/11 13:58:14 jasper Exp $
+$OpenBSD$
 
 Prevent symbol clash with stdio.h .
 

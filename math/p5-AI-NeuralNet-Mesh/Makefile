@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-AI-NeuralNet-Mesh/Makefile,v 1.10 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to implement an accurate neural network mesh
 

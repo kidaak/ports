@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/cdparanoia/patches/patch-Makefile_in,v 1.7 2005/12/23 15:03:06 espie Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Mar 28 00:46:58 2001
 +++ Makefile.in	Fri Dec 23 15:40:44 2005
 @@ -23,33 +23,33 @@ BINDIR=@bindir@

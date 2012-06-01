@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-SQL-Abstract-Limit/Makefile,v 1.7 2011/07/10 12:02:29 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	portability layer for LIMIT emulation
 

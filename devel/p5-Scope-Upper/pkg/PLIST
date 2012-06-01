@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Scope-Upper/pkg/PLIST,v 1.2 2011/04/29 14:09:52 gsoares Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Scope/
 ${P5ARCH}/Scope/Upper.pm

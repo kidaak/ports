@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xastir/patches/patch-acinclude_m4,v 1.1 2008/11/20 13:31:36 okan Exp $
+$OpenBSD$
 --- acinclude.m4.orig	Thu Feb  9 16:27:57 2006
 +++ acinclude.m4	Tue Nov  4 07:58:42 2008
 @@ -360,7 +360,7 @@ if test "$use_imagemagick" = "yes"; then

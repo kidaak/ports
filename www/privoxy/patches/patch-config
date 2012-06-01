@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/privoxy/patches/patch-config,v 1.7 2011/03/25 02:56:13 merdely Exp $
+$OpenBSD$
 --- config.orig	Sat Nov 13 13:48:18 2010
 +++ config	Fri Mar 18 17:15:32 2011
 @@ -265,7 +265,7 @@

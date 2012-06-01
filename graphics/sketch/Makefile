@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/sketch/Makefile,v 1.1.1.1 2011/05/15 18:34:20 landry Exp $
+# $OpenBSD$
 
 COMMENT =		3D scene description translator for TeX
 

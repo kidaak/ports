@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-DNS-DynDNS/Makefile,v 1.5 2011/03/16 23:14:44 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	update dyndns.org with correct ip address
 

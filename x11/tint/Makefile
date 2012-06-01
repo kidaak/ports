@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tint/Makefile,v 1.21 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS= ${APM_ARCHS}
 

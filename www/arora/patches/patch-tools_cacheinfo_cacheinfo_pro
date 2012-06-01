@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/arora/patches/patch-tools_cacheinfo_cacheinfo_pro,v 1.1.1.1 2011/05/22 19:31:09 landry Exp $
+$OpenBSD$
 --- tools/cacheinfo/cacheinfo.pro.orig	Sun Sep 26 22:42:17 2010
 +++ tools/cacheinfo/cacheinfo.pro	Sun May 15 14:17:42 2011
 @@ -20,9 +20,9 @@ include(../../install.pri)

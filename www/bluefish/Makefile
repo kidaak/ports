@@ -1,9 +1,9 @@
-# $OpenBSD: ports/www/bluefish/Makefile,v 1.63 2011/09/16 12:00:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	HTML editor for experienced web designers
 
 DISTNAME=	bluefish-1.0.7
-REVISION=	9
+REVISION=	10
 CATEGORIES=	www
 HOMEPAGE=	http://bluefish.openoffice.nl/
 

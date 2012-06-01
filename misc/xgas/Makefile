@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/xgas/Makefile,v 1.23 2010/11/05 08:24:50 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	animated simulation of an ideal gas
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/zip/Makefile,v 1.38 2010/10/18 16:47:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	create/update ZIP files compatible with PKZip(tm)
 

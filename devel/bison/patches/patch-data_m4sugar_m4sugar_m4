@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/bison/patches/patch-data_m4sugar_m4sugar_m4,v 1.2 2008/07/08 00:24:17 brad Exp $
+$OpenBSD$
 --- data/m4sugar/m4sugar.m4.orig	Mon Nov 14 03:13:07 2005
 +++ data/m4sugar/m4sugar.m4	Sun Jun 29 22:09:16 2008
 @@ -55,13 +55,6 @@ divert(-1)#                                           

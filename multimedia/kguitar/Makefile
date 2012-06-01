@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/kguitar/Makefile,v 1.3 2011/12/03 23:04:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		guitar tab editor
 

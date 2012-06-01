@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/freeradius/pkg/PLIST-main,v 1.20 2011/12/28 10:44:43 pea Exp $
+@comment $OpenBSD$
 @conflict radiusd-cistron-*
 @conflict radiusd-lucent-*
 @pkgpath net/freeradius

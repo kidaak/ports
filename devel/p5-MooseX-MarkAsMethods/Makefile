@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-MarkAsMethods/Makefile,v 1.1.1.1 2012/04/08 21:04:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	mark overload code symbols as methods
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-IO-KQueue/pkg/PLIST,v 1.2 2011/05/11 18:50:39 gsoares Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/IO/
 ${P5ARCH}/IO/KQueue.pm

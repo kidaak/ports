@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/uucp/patches/patch-sample_passwd,v 1.1.1.1 2001/07/13 02:27:16 fgsch Exp $
+$OpenBSD$
 --- sample/passwd.orig	Thu Jul 12 22:04:55 2001
 +++ sample/passwd	Thu Jul 12 22:05:52 2001
 @@ -15,4 +15,4 @@

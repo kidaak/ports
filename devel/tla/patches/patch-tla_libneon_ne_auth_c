@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tla/patches/patch-tla_libneon_ne_auth_c,v 1.2 2010/05/19 23:29:14 espie Exp $
+$OpenBSD$
 --- tla/libneon/ne_auth.c.orig	Sat Dec  6 20:35:28 2003
 +++ tla/libneon/ne_auth.c	Wed May 19 19:28:47 2010
 @@ -950,7 +950,7 @@ static int ah_post_send(ne_request *req, void *cookie,

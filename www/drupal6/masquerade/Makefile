@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/masquerade/Makefile,v 1.12 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	test site as another user
 MAINTAINER =	Marc Espie <espie@openbsd.org>

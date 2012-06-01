@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-data_Xsession_in,v 1.2 2011/10/19 08:13:04 ajacoutot Exp $
+$OpenBSD$
 --- data/Xsession.in.orig	Wed Oct 19 04:07:00 2011
 +++ data/Xsession.in	Wed Oct 19 07:45:12 2011
 @@ -23,6 +23,8 @@

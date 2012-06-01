@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/mico/patches/patch-ir_Makefile,v 1.2 2010/09/22 08:42:53 landry Exp $
+$OpenBSD$
 --- ir/Makefile.orig	Fri Jul 25 15:41:51 2008
 +++ ir/Makefile	Mon Sep 13 21:10:57 2010
 @@ -63,6 +63,10 @@ HAVE_STATIC := yes

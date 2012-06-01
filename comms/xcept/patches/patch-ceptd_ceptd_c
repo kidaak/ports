@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xcept/patches/patch-ceptd_ceptd_c,v 1.1 2000/09/03 16:25:05 espie Exp $
+$OpenBSD$
 --- ceptd/ceptd.c.orig	Wed May 25 19:36:11 1994
 +++ ceptd/ceptd.c	Sun Sep  3 17:29:35 2000
 @@ -67,12 +67,12 @@ static void	starttime(), initlog();

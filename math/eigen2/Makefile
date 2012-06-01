@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/eigen2/Makefile,v 1.5 2012/03/19 10:28:48 ajacoutot Exp $
+# $OpenBSD$
 
 PKG_ARCH =	*
 COMMENT =	lightweight C++ template library for linear algebra

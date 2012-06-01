@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/ufconfig/Makefile,v 1.2 2010/11/01 09:35:09 steven Exp $
+# $OpenBSD$
 
 PKG_ARCH =	*
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/icon/interp/patches/patch-config_bsd_Makedefs,v 1.1 2006/10/16 10:01:55 espie Exp $
+$OpenBSD$
 --- config/bsd/Makedefs.orig	Thu Jun 16 17:55:17 2005
 +++ config/bsd/Makedefs	Mon Oct 16 10:57:58 2006
 @@ -8,12 +8,14 @@

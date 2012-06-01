@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/phpldapadmin/Makefile,v 1.35 2012/03/06 20:35:20 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	web-based LDAP browser to manage LDAP servers
 

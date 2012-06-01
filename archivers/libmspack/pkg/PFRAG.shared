@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/archivers/libmspack/pkg/PFRAG.shared,v 1.1.1.1 2006/06/01 08:12:41 jolan Exp $
+@comment $OpenBSD$
 @lib lib/libmspack.so.${LIBmspack_VERSION}

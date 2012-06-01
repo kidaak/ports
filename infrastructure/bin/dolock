@@ -1,5 +1,5 @@
 #! /usr/bin/perl
-# $OpenBSD: ports/infrastructure/bin/dolock,v 1.2 2011/04/13 08:37:16 espie Exp $
+# $OpenBSD$
 # Copyright (c) 2004 Marc Espie <espie@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

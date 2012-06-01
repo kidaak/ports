@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/sympa/patches/patch-src_lib_Language_pm,v 1.1.1.1 2010/03/27 11:47:13 landry Exp $
+$OpenBSD$
 Don't use setlocale(), poor support.
 --- src/lib/Language.pm.orig	Sat Nov 14 16:50:28 2009
 +++ src/lib/Language.pm	Sat Nov 14 16:51:51 2009

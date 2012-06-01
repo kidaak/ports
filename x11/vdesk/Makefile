@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/vdesk/Makefile,v 1.7 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		virtual desktop manager
 DISTNAME=		vdesk-1.2

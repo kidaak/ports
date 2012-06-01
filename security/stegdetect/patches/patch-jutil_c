@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/stegdetect/patches/patch-jutil_c,v 1.1 2008/11/19 23:48:52 sthen Exp $
+$OpenBSD$
 --- jutil.c.orig	Wed Nov 19 23:39:16 2008
 +++ jutil.c	Wed Nov 19 23:40:01 2008
 @@ -37,6 +37,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/libssh/patches/patch-cmake_Modules_DefineCompilerFlags_cmake,v 1.1 2011/09/10 11:56:42 naddy Exp $
+$OpenBSD$
 
 Check for compiler flags not available with gcc < 4.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/jailkit/patches/patch-man_jk_socketd_8,v 1.1.1.1 2010/09/20 07:15:31 sebastia Exp $
+$OpenBSD$
 --- man/jk_socketd.8.orig	Sun Feb  7 17:13:06 2010
 +++ man/jk_socketd.8	Tue Sep 14 19:13:19 2010
 @@ -18,7 +18,7 @@ jk_socketd \- a daemon to create a rate-limited /dev/l

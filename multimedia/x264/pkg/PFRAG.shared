@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/multimedia/x264/pkg/PFRAG.shared,v 1.1.1.1 2007/04/08 17:31:01 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libx264.so.${LIBx264_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/l2a/Makefile,v 1.8 2010/11/20 09:48:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=		filter for removing (La)TeX markup
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/textproc/sablotron/pkg/PFRAG.shared,v 1.13 2005/12/25 16:13:44 steven Exp $
+@comment $OpenBSD$
 @lib lib/libsablot.so.${LIBsablot_VERSION}

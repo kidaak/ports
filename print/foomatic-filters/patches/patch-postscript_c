@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/foomatic-filters/patches/patch-postscript_c,v 1.1 2010/05/07 16:08:54 ajacoutot Exp $
+$OpenBSD$
 
 From pkgsrc.
 Prevent bogus 'Job does not start with "%!", is it PostScript?' errors.

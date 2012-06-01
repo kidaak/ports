@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/cooledit/pkg/PLIST,v 1.7 2011/12/20 11:14:40 sthen Exp $
+@comment $OpenBSD$
 @bin bin/cooledit
 bin/cooledit-gdb
 @bin bin/coolman

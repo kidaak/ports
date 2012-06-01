@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-ExtUtils-XSpp/pkg/PLIST,v 1.1.1.1 2009/09/04 16:07:49 landry Exp $
+@comment $OpenBSD$
 bin/xspp
 ${P5SITE}/ExtUtils/
 ${P5SITE}/ExtUtils/XSpp/

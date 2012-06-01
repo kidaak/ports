@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/extremetuxracer/patches/patch-src_ppgltk_images_png_reader_cpp,v 1.1.1.1 2011/08/31 19:46:37 jasper Exp $
+$OpenBSD$
 
 Adapt to new png; fix from Gentoo: 
 https://bugs.gentoo.org/attachment.cgi?id=222839&action=diff

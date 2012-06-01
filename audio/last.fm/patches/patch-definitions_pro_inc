@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-definitions_pro_inc,v 1.1 2011/10/18 12:17:26 dcoppa Exp $
+$OpenBSD$
 --- definitions.pro.inc.orig	Tue Oct 18 11:16:46 2011
 +++ definitions.pro.inc	Tue Oct 18 11:17:49 2011
 @@ -25,7 +25,7 @@ CONFIG( extension ) {

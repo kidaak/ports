@@ -1,7 +1,8 @@
-# $OpenBSD: ports/x11/gmtk/Makefile,v 1.7 2012/04/10 13:29:33 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =	gnome-mplayer toolkit
 DISTNAME =	gmtk-1.0.6
+REVISION =	1
 
 SHARED_LIBS =	gmlib	0.0 \
 		gmtk	0.0

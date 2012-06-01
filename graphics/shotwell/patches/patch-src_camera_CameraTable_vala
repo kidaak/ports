@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/shotwell/patches/patch-src_camera_CameraTable_vala,v 1.2 2012/02/27 19:41:55 ajacoutot Exp $
+$OpenBSD$
 --- src/camera/CameraTable.vala.orig	Sun Feb 26 15:04:33 2012
 +++ src/camera/CameraTable.vala	Sun Feb 26 15:09:13 2012
 @@ -26,7 +26,6 @@ public class CameraTable {

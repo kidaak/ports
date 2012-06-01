@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/geomview/pkg/PLIST,v 1.1.1.1 2011/04/11 07:43:34 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/anytooff
 @bin bin/anytoucd

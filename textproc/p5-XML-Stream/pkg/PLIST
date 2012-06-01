@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-Stream/pkg/PLIST,v 1.2 2011/04/01 07:08:05 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/XML/
 ${P5SITE}/XML/Stream/
 ${P5SITE}/XML/Stream.pm

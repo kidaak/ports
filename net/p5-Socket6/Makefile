@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Socket6/Makefile,v 1.13 2010/12/03 11:45:43 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

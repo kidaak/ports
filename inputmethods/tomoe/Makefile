@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/tomoe/Makefile,v 1.5 2010/07/24 11:44:17 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	japanese handwriting recognition library
 

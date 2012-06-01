@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xchomp/patches/patch-props_c,v 1.1 2007/10/26 21:19:16 ajacoutot Exp $
+$OpenBSD$
 --- props.c.orig	Fri Mar 18 06:13:17 1994
 +++ props.c	Fri Oct 26 23:02:48 2007
 @@ -115,7 +115,7 @@ Bool pause_seq()

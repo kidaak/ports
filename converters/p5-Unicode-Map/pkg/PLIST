@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Unicode-Map/pkg/PLIST,v 1.5 2004/09/14 23:25:50 espie Exp $
+@comment $OpenBSD$
 bin/map
 bin/mirrorMappings
 bin/mkCSGB2312

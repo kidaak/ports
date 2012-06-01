@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/chipmunk/patches/patch-log_src_ana_inter_c,v 1.1.1.1 2003/10/25 18:33:27 pvalchev Exp $
+$OpenBSD$
 --- log/src/ana/inter.c.orig	2003-03-12 15:49:31.000000000 -0700
 +++ log/src/ana/inter.c	2003-10-24 00:56:57.000000000 -0600
 @@ -125,7 +125,7 @@ log_action *act;

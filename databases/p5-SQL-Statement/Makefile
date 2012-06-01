@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-SQL-Statement/Makefile,v 1.14 2011/06/13 16:34:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	sql parsing and processing
 

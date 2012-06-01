@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/openmotif/patches/patch-clients_mwm_WmFunction_c,v 1.2 2007/07/18 21:41:05 mbalmer Exp $
+$OpenBSD$
 --- clients/mwm/WmFunction.c.orig	Sat Jun 30 10:04:45 2007
 +++ clients/mwm/WmFunction.c	Sat Jun 30 10:05:44 2007
 @@ -1126,12 +1126,12 @@ Boolean F_Exec (String args, ClientData *pCD, XEvent *

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/biology/bioperl/Makefile,v 1.11 2010/12/22 20:24:57 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	perl tools for bioinformatics
 

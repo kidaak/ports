@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/clutter/core/patches/patch-clutter_clutter-json_h_in,v 1.1 2011/04/07 07:44:46 jasper Exp $
+$OpenBSD$
 
 Only include one top header, instead of all three.
 

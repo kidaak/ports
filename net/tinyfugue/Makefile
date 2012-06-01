@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tinyfugue/Makefile,v 1.24 2010/10/18 18:36:59 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.16 1999/02/16 03:06:21 jseger Exp $
 
 COMMENT=	programmable MUD client, with macro support and more

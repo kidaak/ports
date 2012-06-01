@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Rose-DateTime/Makefile,v 1.6 2010/12/03 11:44:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	datetime helper functions for Rose
 

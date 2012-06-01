@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/rxvt/patches/patch-src_screen_c,v 1.1 2006/01/24 19:14:18 steven Exp $
+$OpenBSD$
 
 There is an underflow condition in rxvt_selection_adjust_kanji triggered
 when one drags the mouse holding left button along the left side of the

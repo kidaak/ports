@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/moonlander/Makefile,v 1.10 2012/03/09 10:58:36 espie Exp $
+# $OpenBSD$
 
 COMMENT=	clone of atari game
 DISTNAME=	moon-lander-1.0

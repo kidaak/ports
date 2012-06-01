@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/ines/Makefile,v 1.12 2010/11/15 23:22:08 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 

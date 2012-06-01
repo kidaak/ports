@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hmake/pkg/PLIST,v 1.10 2011/04/14 12:15:53 kili Exp $
+@comment $OpenBSD$
 bin/harch
 bin/hi
 bin/hmake

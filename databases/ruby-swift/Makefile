@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-swift/Makefile,v 1.5 2012/04/06 19:26:13 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	fast database API and ORM for ruby 1.9
 

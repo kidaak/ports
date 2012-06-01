@@ -1,6 +1,6 @@
 #-*- mode: Fundamental; tab-width: 4; -*-
 # ex:ts=4 sw=4 filetype=make:
-# $OpenBSD: ports/infrastructure/mk/gnu.port.mk,v 1.48 2011/12/12 10:33:33 jasper Exp $
+# $OpenBSD$
 #	Based on bsd.port.mk, originally by Jordan K. Hubbard.
 #	This file is in the public domain.
 
@@ -85,10 +85,12 @@ CONFIGURE_ARGS += --prefix='${PREFIX}'
 CONFIGURE_ARGS += --sysconfdir='$${${DESTDIRNAME}}${SYSCONFDIR}'
 CONFIGURE_ARGS += --mandir='$${${DESTDIRNAME}}${PREFIX}/man'
 CONFIGURE_ARGS += --infodir='$${${DESTDIRNAME}}${PREFIX}/info'
+CONFIGURE_ARGS += --localstatedir='$${${DESTDIRNAME}}${LOCALSTATEDIR}'
 .    else
 CONFIGURE_ARGS += --sysconfdir='${SYSCONFDIR}'
 CONFIGURE_ARGS += --mandir='${PREFIX}/man'
 CONFIGURE_ARGS += --infodir='${PREFIX}/info'
+CONFIGURE_ARGS += --localstatedir='${LOCALSTATEDIR}'
 .    endif
 .  endif
 

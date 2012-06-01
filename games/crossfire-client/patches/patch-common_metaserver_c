@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/crossfire-client/patches/patch-common_metaserver_c,v 1.1 2011/07/05 08:18:29 jasper Exp $
+$OpenBSD$
 --- common/metaserver.c.orig	Tue Jul  5 09:16:14 2011
 +++ common/metaserver.c	Tue Jul  5 09:16:22 2011
 @@ -47,7 +47,6 @@ const char *rcsid_common_metaserver_c =

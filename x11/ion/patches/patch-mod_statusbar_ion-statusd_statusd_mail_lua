@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/ion/patches/patch-mod_statusbar_ion-statusd_statusd_mail_lua,v 1.2 2005/06/08 12:45:55 pedro Exp $
+$OpenBSD$
 --- mod_statusbar/ion-statusd/statusd_mail.lua.orig	Tue Jun  7 10:06:02 2005
 +++ mod_statusbar/ion-statusd/statusd_mail.lua	Wed Jun  8 09:11:13 2005
 @@ -15,7 +15,7 @@ local mon = "mail"

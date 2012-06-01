@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/Wnn/pkg/PLIST-xwnmo,v 1.2 2004/08/05 14:11:10 espie Exp $
+@comment $OpenBSD$
 bin/killxwnmo
 bin/xjutil
 bin/xwnmo

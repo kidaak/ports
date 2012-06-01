@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/sc/patches/patch-psc_c,v 1.2 2006/05/28 21:21:51 weingart Exp $
+$OpenBSD$
 --- psc.c.orig	Thu May  4 10:08:27 2006
 +++ psc.c	Thu May  4 10:08:34 2006
 @@ -73,7 +73,7 @@ main(int argc, char **argv)

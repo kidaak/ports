@@ -1,4 +1,4 @@
-#   $OpenBSD: ports/mail/p5-Mail-POP3Client/Makefile,v 1.25 2010/12/03 11:45:39 ajacoutot Exp $
+#   $OpenBSD$
 
 COMMENT=	perl module to talk to a POP3 (RFC1081) server
 

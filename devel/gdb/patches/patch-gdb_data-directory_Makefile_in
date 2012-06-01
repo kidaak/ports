@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gdb/patches/patch-gdb_data-directory_Makefile_in,v 1.1 2012/03/03 19:22:42 pascal Exp $
+$OpenBSD$
 --- gdb/data-directory/Makefile.in.orig	Fri Jan  6 05:43:34 2012
 +++ gdb/data-directory/Makefile.in	Wed Feb 29 00:35:12 2012
 @@ -93,7 +93,7 @@ FLAGS_TO_PASS = \

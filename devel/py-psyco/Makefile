@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-psyco/Makefile,v 1.17 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =	i386
 SHARED_ONLY =		Yes

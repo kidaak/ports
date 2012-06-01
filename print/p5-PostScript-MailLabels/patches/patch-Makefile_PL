@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/p5-PostScript-MailLabels/patches/patch-Makefile_PL,v 1.1 2011/12/14 14:23:53 jasper Exp $
+$OpenBSD$
 
 Doh't install demo script that needs additional files to be installed.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/pdflib/Makefile,v 1.20 2010/11/20 09:48:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=		C library to produce PDF files
 

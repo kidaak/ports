@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/slirp/patches/patch-tcp_subr_c,v 1.2 2004/07/23 04:57:56 pvalchev Exp $
+$OpenBSD$
 --- tcp_subr.c.orig	Fri Dec 29 16:45:51 1995
 +++ tcp_subr.c	Thu Jul 22 22:43:52 2004
 @@ -238,14 +238,14 @@ tcp_newtcpcb(so)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-vcl_unx_gtk_gdi_salnativewidgets-gtk_cxx,v 1.2 2012/04/03 08:56:50 robert Exp $
+$OpenBSD$
 --- vcl/unx/gtk/gdi/salnativewidgets-gtk.cxx.orig.port	Thu Mar 29 23:14:28 2012
 +++ vcl/unx/gtk/gdi/salnativewidgets-gtk.cxx	Thu Mar 29 23:14:42 2012
 @@ -3688,7 +3688,7 @@ void GtkSalGraphics::updateSettings( AllSettings& rSet

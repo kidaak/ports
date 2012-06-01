@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/luacrypto/patches/patch-src_lcrypto_c,v 1.1 2011/04/18 18:12:47 jasper Exp $
+$OpenBSD$
 --- src/lcrypto.c.orig	Sun Apr 17 19:33:39 2011
 +++ src/lcrypto.c	Sun Apr 17 19:35:23 2011
 @@ -96,7 +96,7 @@ static int evp_digest(lua_State *L) 

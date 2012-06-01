@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Pod-ToDemo/Makefile,v 1.4 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		Write a demo program from a tutorial POD
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/smtp-vilter/Makefile,v 1.49 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	sendmail milter to scan messages for viruses and spam
 

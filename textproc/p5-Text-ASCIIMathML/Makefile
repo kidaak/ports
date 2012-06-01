@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-ASCIIMathML/Makefile,v 1.7 2011/03/02 12:23:11 okan Exp $
+# $OpenBSD$
 
 COMMENT=	perl extension for parsing ASCIIMathML text into MathML
 

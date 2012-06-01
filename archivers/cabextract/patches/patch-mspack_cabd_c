@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/cabextract/patches/patch-mspack_cabd_c,v 1.2 2010/07/31 00:30:27 kevlo Exp $
+$OpenBSD$
 --- mspack/cabd.c.orig	Tue Jul 20 00:39:26 2010
 +++ mspack/cabd.c	Fri Jul 30 16:20:40 2010
 @@ -688,7 +688,7 @@ static int cabd_find(struct mscab_decompressor_p *this

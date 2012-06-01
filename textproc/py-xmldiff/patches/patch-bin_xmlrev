@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/py-xmldiff/patches/patch-bin_xmlrev,v 1.1.1.1 2010/09/21 20:31:13 jasper Exp $
+$OpenBSD$
 --- bin/xmlrev.orig	Tue Sep 21 20:31:30 2010
 +++ bin/xmlrev	Tue Sep 21 20:31:39 2010
 @@ -1,4 +1,4 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/remmina/patches/patch-remmina-plugins_telepathy_CMakeLists_txt,v 1.1 2012/02/24 13:48:26 ajacoutot Exp $
+$OpenBSD$
 --- remmina-plugins/telepathy/CMakeLists.txt.orig	Fri Feb 24 12:00:32 2012
 +++ remmina-plugins/telepathy/CMakeLists.txt	Fri Feb 24 12:00:50 2012
 @@ -24,6 +24,8 @@ set(REMMINA_PLUGIN_TELEPATHY_SRCS

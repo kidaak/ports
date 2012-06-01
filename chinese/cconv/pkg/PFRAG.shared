@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/chinese/cconv/pkg/PFRAG.shared,v 1.1.1.1 2011/05/12 09:58:51 kevlo Exp $
+@comment $OpenBSD$
 @lib lib/libcconv.so.${LIBcconv_VERSION}

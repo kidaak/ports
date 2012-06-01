@@ -1,4 +1,4 @@
-$OpenBSD: ports/shells/bash/patches/patch-builtins_enable_def,v 1.2 2009/04/04 19:42:18 naddy Exp $
+$OpenBSD$
 --- builtins/enable.def.orig	Sun Jan  4 20:32:22 2009
 +++ builtins/enable.def	Tue Feb 24 18:37:05 2009
 @@ -325,9 +325,16 @@ dyn_load_builtin (list, flags, filename)

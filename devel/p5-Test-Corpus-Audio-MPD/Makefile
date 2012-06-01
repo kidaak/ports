@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Corpus-Audio-MPD/Makefile,v 1.5 2011/04/07 20:19:27 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	automate launching of fake mpd for testing purposes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/etherape/pkg/PLIST,v 1.7 2010/09/24 10:04:00 jasper Exp $
+@comment $OpenBSD$
 @bin bin/etherape
 @man man/man1/etherape.1
 share/applications/etherape.desktop

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pdnsd/patches/patch-Makefile_in,v 1.5 2009/01/02 22:28:21 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Sep  4 12:20:38 2008
 +++ Makefile.in	Fri Sep 12 04:41:24 2008
 @@ -546,7 +546,7 @@ info-am:

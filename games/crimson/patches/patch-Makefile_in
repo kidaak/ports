@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/crimson/patches/patch-Makefile_in,v 1.5 2007/01/24 06:48:36 jolan Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Jan 22 14:05:15 2007
 +++ Makefile.in	Wed Jan 24 00:38:26 2007
 @@ -172,7 +172,7 @@ target_alias = @target_alias@

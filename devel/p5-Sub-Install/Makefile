@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Sub-Install/Makefile,v 1.7 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	helper for installing code into packages
 

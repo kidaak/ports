@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/bueditor/Makefile,v 1.11 2012/01/28 11:33:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	plain textarea editor to facilitate code writing
 

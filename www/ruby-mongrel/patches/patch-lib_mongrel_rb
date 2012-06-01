@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-mongrel/patches/patch-lib_mongrel_rb,v 1.2 2007/12/22 11:35:48 bernd Exp $
+$OpenBSD$
 
 We don't need the cgi_multipart_eof_fix gem to be installed. The Ruby    
 CGI problem got fixed in lang/ruby.

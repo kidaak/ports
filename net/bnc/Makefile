@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/bnc/Makefile,v 1.13 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 
 COMMENT=	simple IRC relay proxy with support for virtual hosting
 

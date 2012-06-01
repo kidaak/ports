@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libexif/Makefile,v 1.22 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	extract digital camera info tags from JPEG images
 

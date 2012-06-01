@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/onyx/Makefile,v 1.1.1.1 2011/03/07 19:26:28 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		powerful stack-based, multi-threaded language
 

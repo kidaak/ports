@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/gcc/patches/patch-gcc-4_3_4_libgcc_config_avr_t-avr,v 1.1 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- gcc-4.3.4/libgcc/config/avr/t-avr.orig	Sat Jun 26 11:58:40 2010
 +++ gcc-4.3.4/libgcc/config/avr/t-avr	Sat Jun 26 11:58:40 2010
 @@ -0,0 +1,19 @@

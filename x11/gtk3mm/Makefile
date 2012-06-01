@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk3mm/Makefile,v 1.10 2012/04/10 14:24:00 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C++ interface for gtk3+
 

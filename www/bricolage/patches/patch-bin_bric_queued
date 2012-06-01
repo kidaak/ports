@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-bin_bric_queued,v 1.1.1.1 2006/11/10 17:04:37 sturm Exp $
+$OpenBSD$
 --- bin/bric_queued.orig	Sun Oct 22 10:34:50 2006
 +++ bin/bric_queued	Sun Oct 22 10:35:06 2006
 @@ -96,8 +96,8 @@ use Term::ReadPassword;

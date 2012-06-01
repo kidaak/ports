@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtksourceviewmm3/Makefile,v 1.6 2011/10/17 07:16:58 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C++ wrapper for gtksourceview3
 

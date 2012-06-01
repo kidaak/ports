@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/atk/Makefile,v 1.47 2012/03/26 23:20:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	accessibility toolkit used by gtk+
 

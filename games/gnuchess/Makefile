@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/gnuchess/Makefile,v 1.29 2012/04/08 16:36:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	chess program
 

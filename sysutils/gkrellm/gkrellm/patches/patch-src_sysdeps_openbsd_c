@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/gkrellm/gkrellm/patches/patch-src_sysdeps_openbsd_c,v 1.19 2012/04/14 09:27:27 nigel Exp $
+$OpenBSD$
 
 Adapt to new OpenBSD kinfo_proc API.
 

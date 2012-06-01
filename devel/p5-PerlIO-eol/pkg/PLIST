@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-PerlIO-eol/pkg/PLIST,v 1.1.1.1 2004/12/10 03:28:40 kevlo Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/PerlIO/
 ${P5ARCH}/PerlIO/eol.pm

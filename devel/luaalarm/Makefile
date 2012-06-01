@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/luaalarm/Makefile,v 1.14 2010/11/15 19:46:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	alarm library for the lua language
 SHARED_ONLY=	Yes

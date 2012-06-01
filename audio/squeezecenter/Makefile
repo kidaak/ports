@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/squeezecenter/Makefile,v 1.12 2011/11/08 23:14:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	streaming audio server for Squeezebox network music players
 

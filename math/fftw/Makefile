@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/fftw/Makefile,v 1.15 2011/03/14 09:17:01 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: ports/math/fftw/Makefile,v 1.11 2000/06/16 21:51:38 asami Exp $
 # Original from: Lars Koeller <Lars.Koeller@Uni-Bielefeld.DE>
 

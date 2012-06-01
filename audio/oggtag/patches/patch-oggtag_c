@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/oggtag/patches/patch-oggtag_c,v 1.1.1.1 2004/06/10 20:37:44 xsa Exp $
+$OpenBSD$
 --- oggtag.c.orig	2002-12-02 10:03:27.000000000 +0100
 +++ oggtag.c	2004-06-10 16:51:58.000000000 +0200
 @@ -4,6 +4,8 @@

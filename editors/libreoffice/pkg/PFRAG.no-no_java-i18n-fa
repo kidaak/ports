@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/libreoffice/pkg/PFRAG.no-no_java-i18n-fa,v 1.5 2012/04/03 08:56:50 robert Exp $
+@comment $OpenBSD$
 lib/libreoffice/share/extensions/presenter-screen/help/fa/help.idxl/
 lib/libreoffice/share/extensions/presenter-screen/help/fa/help.idxl/_0.cfs
 lib/libreoffice/share/extensions/presenter-screen/help/fa/help.idxl/segments.gen

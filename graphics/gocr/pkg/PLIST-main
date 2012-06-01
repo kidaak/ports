@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gocr/pkg/PLIST-main,v 1.2 2009/08/12 15:23:56 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath graphics/gocr
 @bin bin/gocr
 @man man/man1/gocr.1

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/multimedia/pkg/PLIST,v 1.2 2010/06/23 16:23:59 espie Exp $
+@comment $OpenBSD$
 @bin bin/dragon
 @bin bin/juk
 @bin bin/mplayerthumbsconfig

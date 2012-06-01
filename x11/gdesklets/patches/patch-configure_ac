@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gdesklets/patches/patch-configure_ac,v 1.1 2011/04/20 15:25:47 ajacoutot Exp $
+$OpenBSD$
 --- configure.ac.orig	Wed Apr 20 16:35:19 2011
 +++ configure.ac	Wed Apr 20 16:35:39 2011
 @@ -21,8 +21,6 @@ AC_PROG_LIBTOOL

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt3/pkg/PLIST-examples,v 1.9 2011/08/28 07:57:41 espie Exp $
+@comment $OpenBSD$
 lib/qt3/examples/
 lib/qt3/examples/Makefile
 lib/qt3/examples/README

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mutt/stable/patches/patch-doc_Makefile_in,v 1.5 2011/09/12 20:32:18 sthen Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Wed May 23 02:17:52 2007
 +++ doc/Makefile.in	Mon Sep 12 21:30:43 2011
 @@ -60,7 +60,7 @@ srcdir_DOCFILES = PGP-Notes.txt applying-patches.txt	\

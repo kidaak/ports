@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/akonadi/pkg/PLIST,v 1.1.1.1 2010/06/18 09:30:50 espie Exp $
+@comment $OpenBSD$
 @bin bin/akonadi_control
 @bin bin/akonadictl
 @bin bin/akonadiserver

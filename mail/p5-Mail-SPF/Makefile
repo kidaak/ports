@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-SPF/Makefile,v 1.1.1.1 2011/09/21 07:59:25 giovanni Exp $
+# $OpenBSD$
 
 COMMENT =		perl oop implementation of Sender Policy Framework
 

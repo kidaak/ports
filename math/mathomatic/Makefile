@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/mathomatic/Makefile,v 1.25 2011/06/12 19:03:02 shadchin Exp $
+# $OpenBSD$
 
 COMMENT =	small, portable, general purpose computer algebra system
 

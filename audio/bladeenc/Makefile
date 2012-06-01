@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/bladeenc/Makefile,v 1.28 2010/09/05 10:25:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	high-quality MP3 encoder
 

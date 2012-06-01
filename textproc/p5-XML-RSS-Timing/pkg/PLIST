@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-RSS-Timing/pkg/PLIST,v 1.1.1.1 2004/12/21 21:56:20 sturm Exp $
+@comment $OpenBSD$
 ${P5SITE}/XML/
 ${P5SITE}/XML/RSS/
 ${P5SITE}/XML/RSS/Timing.pm

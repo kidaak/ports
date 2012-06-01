@@ -1,9 +1,9 @@
-# $OpenBSD: ports/www/trac/Makefile,v 1.37 2012/03/03 11:42:06 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	wiki and bug tracking system for software projects
 
 MODPY_EGG_VERSION=0.12.3
-REVISION=	0
+REVISION=	1
 DISTNAME=	Trac-${MODPY_EGG_VERSION}
 PKGNAME=	trac-${MODPY_EGG_VERSION}
 CATEGORIES=	www devel

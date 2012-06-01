@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/enlightenment/Makefile,v 1.59 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	themed window manager
 

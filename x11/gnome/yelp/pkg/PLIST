@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/yelp/pkg/PLIST,v 1.29 2012/03/29 06:41:05 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/gnome-help
 @bin bin/yelp

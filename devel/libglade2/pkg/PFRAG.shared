@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libglade2/pkg/PFRAG.shared,v 1.5 2006/01/03 14:55:19 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libglade-2.0.so.${LIBglade-2.0_VERSION}

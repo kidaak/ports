@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xawtv/patches/patch-console_Subdir_mk,v 1.2 2007/09/28 08:24:42 jakemsr Exp $
+$OpenBSD$
 --- console/Subdir.mk.orig	Fri Feb 14 06:14:04 2003
 +++ console/Subdir.mk	Thu Sep 27 15:37:48 2007
 @@ -80,8 +80,9 @@ console/scantv   : LDLIBS  += $(THREAD_LIBS) $(VBI_LIB

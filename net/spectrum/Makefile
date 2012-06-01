@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/spectrum/Makefile,v 1.14 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=        XMPP transport/gateway
 

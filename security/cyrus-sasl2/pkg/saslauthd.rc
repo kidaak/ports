@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/security/cyrus-sasl2/pkg/saslauthd.rc,v 1.4 2010/12/27 14:50:23 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/saslauthd"
 daemon_flags="-a getpwent"

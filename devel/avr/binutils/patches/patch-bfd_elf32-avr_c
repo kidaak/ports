@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-bfd_elf32-avr_c,v 1.2 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- bfd/elf32-avr.c.orig	Sat Jun 26 11:23:53 2010
 +++ bfd/elf32-avr.c	Sat Jun 26 11:31:17 2010
 @@ -1328,6 +1328,34 @@ bfd_elf_avr_final_write_processing (bfd *abfd,

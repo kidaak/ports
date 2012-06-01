@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/auctex/Makefile,v 1.11 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	extensible emacs interface for TeX
 

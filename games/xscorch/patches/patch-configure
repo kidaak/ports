@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xscorch/patches/patch-configure,v 1.1 2010/03/21 09:24:25 jasper Exp $
+$OpenBSD$
 
 Correctly pickup libreadline.
 

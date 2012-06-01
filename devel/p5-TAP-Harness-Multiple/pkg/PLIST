@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-TAP-Harness-Multiple/pkg/PLIST,v 1.1.1.1 2012/03/08 14:53:26 pascal Exp $
+@comment $OpenBSD$
 ${P5SITE}/TAP/
 ${P5SITE}/TAP/Harness/
 ${P5SITE}/TAP/Harness/Archive/

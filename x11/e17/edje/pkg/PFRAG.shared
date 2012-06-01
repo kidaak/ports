@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/e17/edje/pkg/PFRAG.shared,v 1.4 2011/01/16 00:48:45 laurent Exp $
+@comment $OpenBSD$
 @lib lib/libedje.so.${LIBedje_VERSION}

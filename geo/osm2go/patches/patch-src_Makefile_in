@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/osm2go/patches/patch-src_Makefile_in,v 1.2 2010/05/22 12:29:04 landry Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Wed Oct 14 20:32:57 2009
 +++ src/Makefile.in	Sat May 22 14:15:51 2010
 @@ -50,8 +50,8 @@ clean:

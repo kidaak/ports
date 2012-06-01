@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/omega/patches/patch-genclr_c,v 1.2 2004/01/02 18:49:33 espie Exp $
+$OpenBSD$
 --- genclr.c.orig	1998-08-08 14:53:59.000000000 +0200
 +++ genclr.c	2004-01-02 19:43:38.000000000 +0100
 @@ -280,30 +280,33 @@ int main (int argc, char **argv)

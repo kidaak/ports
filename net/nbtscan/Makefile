@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nbtscan/Makefile,v 1.10 2008/06/02 17:02:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	NetBIOS name network scanner
 

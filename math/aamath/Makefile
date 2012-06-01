@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/aamath/Makefile,v 1.9 2010/11/19 07:23:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=		ASCII art mathematics
 

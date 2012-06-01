@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/jabberd/patches/patch-sx_io_c,v 1.1 2007/04/03 15:04:32 jasper Exp $
+$OpenBSD$
 --- sx/io.c.orig	Wed Jun 22 22:33:40 2005
 +++ sx/io.c	Tue Apr  3 17:03:04 2007
 @@ -294,9 +294,11 @@ int sx_can_write(sx_t s) {

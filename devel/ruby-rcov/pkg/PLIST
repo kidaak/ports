@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-rcov/pkg/PLIST,v 1.4 2011/03/24 20:08:31 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/rcov${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

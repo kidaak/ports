@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Catalyst-Plugin-C3/Makefile,v 1.4 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Catalyst plugin to subvert NEXT to use Class::C3
 

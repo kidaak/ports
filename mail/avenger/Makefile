@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/avenger/Makefile,v 1.20 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		anti-spam SMTP server
 DISTNAME=		avenger-0.8.1

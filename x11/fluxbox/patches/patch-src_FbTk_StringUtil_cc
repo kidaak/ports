@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fluxbox/patches/patch-src_FbTk_StringUtil_cc,v 1.2 2011/12/29 16:15:53 dcoppa Exp $
+$OpenBSD$
 
 Fix out-of-range memory access
 (upstream git commit 757f78035da77fb84ad4ab479506f494353029d1)

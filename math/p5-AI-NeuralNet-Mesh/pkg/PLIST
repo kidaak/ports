@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-AI-NeuralNet-Mesh/pkg/PLIST,v 1.4 2004/09/15 09:11:59 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/AI/
 ${P5SITE}/AI/NeuralNet/
 ${P5SITE}/AI/NeuralNet/Mesh.pm

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Static-Simple/Makefile,v 1.11 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	serving static pages with catalyst
 

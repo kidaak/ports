@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/devilspie/patches/patch-src_Makefile_in,v 1.1 2010/09/30 07:23:47 ajacoutot Exp $
+$OpenBSD$
 
 XXX make it compile with gtk+2 2.22 (*_DISABLE_DEPRECATED)
 src/xutils.c:43: error: 'gdk_display' undeclared (first use in this function)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/canto/patches/patch-canto_canto_fetch_py,v 1.1.1.1 2010/12/06 22:33:18 dcoppa Exp $
+$OpenBSD$
 --- canto/canto_fetch.py.orig	Sun Dec  5 22:19:48 2010
 +++ canto/canto_fetch.py	Sun Dec  5 22:21:46 2010
 @@ -21,7 +21,7 @@ import feedparser_builtin

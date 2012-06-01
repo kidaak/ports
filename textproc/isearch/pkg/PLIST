@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/isearch/pkg/PLIST,v 1.4 2004/09/15 18:44:02 espie Exp $
+@comment $OpenBSD$
 bin/Iindex
 bin/Isearch
 bin/Iutil

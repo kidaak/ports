@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Log/Makefile,v 1.19 2011/09/16 09:24:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	logging utilities for PHP
 

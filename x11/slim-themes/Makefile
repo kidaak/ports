@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/slim-themes/Makefile,v 1.8 2011/08/16 10:12:56 landry Exp $
+# $OpenBSD$
 
 COMMENT=	slim themes bundle
 

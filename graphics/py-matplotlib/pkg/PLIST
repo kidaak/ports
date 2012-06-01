@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/py-matplotlib/pkg/PLIST,v 1.10 2009/01/19 07:10:28 djm Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/matplotlib/
 lib/python${MODPY_VERSION}/site-packages/matplotlib-0.98.5.2-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/matplotlib/__init__.py

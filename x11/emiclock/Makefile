@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/emiclock/Makefile,v 1.23 2010/10/24 21:15:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	hyper-animated face analog clock for X11
 

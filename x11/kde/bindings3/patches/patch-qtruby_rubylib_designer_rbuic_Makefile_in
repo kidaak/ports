@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/bindings3/patches/patch-qtruby_rubylib_designer_rbuic_Makefile_in,v 1.2 2008/08/29 11:27:44 espie Exp $
+$OpenBSD$
 --- qtruby/rubylib/designer/rbuic/Makefile.in.orig	Wed Aug 20 17:38:15 2008
 +++ qtruby/rubylib/designer/rbuic/Makefile.in	Thu Aug 28 10:56:33 2008
 @@ -400,7 +400,7 @@ INCLUDES = $(all_includes)

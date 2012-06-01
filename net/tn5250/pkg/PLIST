@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/tn5250/pkg/PLIST,v 1.1.1.1 2005/11/15 16:44:03 naddy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/lp5250d
 bin/scs2ascii

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/poco/patches/patch-Data_ODBC_testsuite_Makefile,v 1.1.1.1 2010/07/28 18:13:01 sebastia Exp $
+$OpenBSD$
 
 We have versions on the shared libraries
 

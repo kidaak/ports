@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/flac/patches/patch-src_libFLAC_Makefile_in,v 1.4 2007/09/24 17:23:55 naddy Exp $
+$OpenBSD$
 --- src/libFLAC/Makefile.in.orig	Tue Sep 18 22:27:04 2007
 +++ src/libFLAC/Makefile.in	Tue Sep 18 22:27:38 2007
 @@ -249,10 +249,9 @@ AM_CFLAGS = $(DEBUGCFLAGS) $(CPUCFLAGS) @OGG_CFLAGS@

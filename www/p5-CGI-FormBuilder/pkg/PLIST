@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-CGI-FormBuilder/pkg/PLIST,v 1.1.1.1 2007/02/06 07:02:25 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/CGI/
 ${P5SITE}/CGI/FormBuilder/
 ${P5SITE}/CGI/FormBuilder.pm

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/rt/pkg/PLIST,v 1.8 2011/11/21 22:56:52 robert Exp $
+@comment $OpenBSD$
 bin/rt
 bin/rt-crontool
 bin/rt-mailgate

@@ -1,9 +1,9 @@
-$OpenBSD: ports/graphics/ggi/patches/patch-display_xf86dga_XF86VMode_c,v 1.4 2010/04/29 19:50:14 matthieu Exp $
+$OpenBSD$
 --- display/xf86dga/XF86VMode.c.orig	Sat Sep 18 12:50:34 2004
 +++ display/xf86dga/XF86VMode.c	Tue Apr 27 23:29:50 2010
 @@ -1,4 +1,4 @@
--/* $Id: XF86VMode.c,v 1.10 2004/09/18 10:50:34 cegger Exp $
-+/* $Id: patch-display_xf86dga_XF86VMode_c,v 1.3 2005/01/31 14:20:26 todd Exp $
+-/* $Id$
++/* $Id$
  
  This is a modified version of the XF86VMode API functions for use
  internally by the LibGGI xf86dga target.  Mods by Marcus Sundberg and

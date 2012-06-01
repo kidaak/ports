@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/theme-acquia-marina/Makefile,v 1.4 2012/01/28 11:24:10 espie Exp $
+# $OpenBSD$
 
 COMMENT =	advanced 1/2/3-column theme for drupal
 MAINTAINER =	Marc Espie <espie@openbsd.org>

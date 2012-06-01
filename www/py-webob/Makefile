@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-webob/Makefile,v 1.7 2011/09/18 17:58:07 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =	wsgi request and response object
 

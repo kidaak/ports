@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/jpeg2ps/Makefile,v 1.7 2010/11/17 08:05:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	convert jpeg to compressed PostScript
 

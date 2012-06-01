@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/bmf/pkg/PLIST,v 1.4 2007/09/07 08:13:20 aanriot Exp $
+@comment $OpenBSD$
 bin/bmf
 bin/bmfconv
 @man man/man1/bmf.1

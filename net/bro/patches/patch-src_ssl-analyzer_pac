@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/bro/patches/patch-src_ssl-analyzer_pac,v 1.1 2010/10/12 20:12:52 robert Exp $
+$OpenBSD$
 --- src/ssl-analyzer.pac.orig	Tue Oct 12 22:01:13 2010
 +++ src/ssl-analyzer.pac	Tue Oct 12 22:02:12 2010
 @@ -382,7 +382,7 @@ refine analyzer SSLAnalyzer += {

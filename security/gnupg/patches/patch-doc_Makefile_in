@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/gnupg/patches/patch-doc_Makefile_in,v 1.7 2010/10/25 12:57:13 pea Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Mon Oct 18 11:53:58 2010
 +++ doc/Makefile.in	Wed Oct 20 09:19:27 2010
 @@ -299,7 +299,7 @@ gnupg1_TEXINFOS = gnupg1.texi

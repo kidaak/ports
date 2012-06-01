@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/iwidgets/Makefile,v 1.12 2011/10/31 08:37:57 sebastia Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

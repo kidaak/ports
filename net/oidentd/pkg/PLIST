@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/oidentd/pkg/PLIST,v 1.5 2004/12/05 03:09:45 alek Exp $
+@comment $OpenBSD$
 @man man/man5/oidentd.conf.5
 @man man/man5/oidentd_masq.conf.5
 @man man/man8/oidentd.8

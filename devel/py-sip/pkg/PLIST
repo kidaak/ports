@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-sip/pkg/PLIST,v 1.4 2010/04/12 20:06:50 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/sip
 include/python${MODPY_VERSION}/sip.h
 lib/python${MODPY_VERSION}/site-packages/sip.so

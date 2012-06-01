@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/l0phtcrack/patches/patch-Makefile,v 1.2 2010/10/19 07:59:04 jsg Exp $
+$OpenBSD$
 --- Makefile.orig	Sat Oct 16 15:06:42 2010
 +++ Makefile	Sat Oct 16 15:11:37 2010
 @@ -2,15 +2,15 @@

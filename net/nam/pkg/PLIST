@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nam/pkg/PLIST,v 1.5 2011/01/05 19:07:59 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/nam
 @man man/man1/nam.1
 share/examples/nam/

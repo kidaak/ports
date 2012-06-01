@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xcolors/Makefile,v 1.24 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	display all (ok, most of) the colors in the universe
 

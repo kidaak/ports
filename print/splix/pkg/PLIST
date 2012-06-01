@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/splix/pkg/PLIST,v 1.3 2010/11/12 13:54:58 jasper Exp $
+@comment $OpenBSD$
 @bin libexec/cups/filter/pstoqpdl
 @bin libexec/cups/filter/rastertoqpdl
 share/cups/model/dell/

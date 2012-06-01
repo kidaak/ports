@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/blobwars/Makefile,v 1.10 2011/12/03 19:54:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	2D arcade game
 

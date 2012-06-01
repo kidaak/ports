@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmpdclient/patches/patch-src_idle_c,v 1.2 2011/11/07 12:36:08 sthen Exp $
+$OpenBSD$
 
 Fix build on gcc2.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-pgsql/Makefile,v 1.11 2011/12/20 11:26:24 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	Python DB-API 2.0 compliant interface to PostgreSQL
 

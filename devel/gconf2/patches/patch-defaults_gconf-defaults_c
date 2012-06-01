@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gconf2/patches/patch-defaults_gconf-defaults_c,v 1.2 2010/03/30 12:52:30 ajacoutot Exp $
+$OpenBSD$
 --- defaults/gconf-defaults.c.orig	Tue Mar 23 00:36:20 2010
 +++ defaults/gconf-defaults.c	Tue Mar 30 14:31:47 2010
 @@ -811,7 +811,7 @@ do_copy (GConfDefaults          *mechanism,

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Crypt-Rijndael/pkg/PLIST,v 1.4 2007/01/11 21:59:43 steven Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Crypt/
 ${P5ARCH}/Crypt/Rijndael.pm

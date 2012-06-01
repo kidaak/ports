@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/vncsnapshot/pkg/PLIST,v 1.1.1.1 2007/12/14 21:13:46 sthen Exp $
+@comment $OpenBSD$
 bin/vncsnapshot
 share/doc/vncsnapshot/
 share/doc/vncsnapshot/README

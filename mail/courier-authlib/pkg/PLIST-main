@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/courier-authlib/pkg/PLIST-main,v 1.4 2010/12/16 17:52:12 giovanni Exp $
+@comment $OpenBSD$
 @conflict courier-authlib-*
 @pkgpath mail/courier-authlib
 @newgroup _courier:571

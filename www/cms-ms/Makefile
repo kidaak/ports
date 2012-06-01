@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/cms-ms/Makefile,v 1.12 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT=		easy to use and powerfull CMS
 

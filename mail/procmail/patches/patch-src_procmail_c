@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/procmail/patches/patch-src_procmail_c,v 1.1 2009/03/08 10:34:10 sthen Exp $
+$OpenBSD$
 
 Fix searching body alone.
 

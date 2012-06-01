@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wxWidgets/patches/patch-src_unix_dialup_cpp,v 1.1 2010/11/02 13:10:52 dcoppa Exp $
+$OpenBSD$
 --- src/unix/dialup.cpp.orig	Wed Oct 27 16:33:47 2010
 +++ src/unix/dialup.cpp	Wed Oct 27 16:35:11 2010
 @@ -681,7 +681,7 @@ wxDialUpManagerImpl::CheckIfconfig()

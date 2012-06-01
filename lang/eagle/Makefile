@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/eagle/Makefile,v 1.6 2011/10/24 16:50:07 stu Exp $
+# $OpenBSD$
 
 COMMENT =	Tcl implementation for the CLR
 

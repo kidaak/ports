@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/slurpie/patches/patch-src_slurpie_c,v 1.1 2010/05/22 16:02:23 espie Exp $
+$OpenBSD$
 --- src/slurpie.c.orig	Sat Jan 30 23:03:45 1999
 +++ src/slurpie.c	Sat May 22 18:00:32 2010
 @@ -8,6 +8,7 @@ slurpie.c: distributes tasks among slurps (slurp.c).

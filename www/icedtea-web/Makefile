@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/icedtea-web/Makefile,v 1.3 2012/03/29 12:28:27 kurt Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 COMMENT =	Java web browser plugin

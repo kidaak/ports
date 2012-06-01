@@ -1,5 +1,5 @@
 #!/bin/sh
-# $OpenBSD: ports/math/lrs/files/openbsd_regress.sh,v 1.1.1.1 2011/10/07 08:58:42 edd Exp $
+# $OpenBSD$
 
 IN=test.ine
 OUT=actual_outcome.ine

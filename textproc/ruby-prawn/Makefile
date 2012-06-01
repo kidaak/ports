@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-prawn/Makefile,v 1.2 2010/02/01 17:00:14 espie Exp $
+# $OpenBSD$
 
 # It's intended that this list isn't sorted alphabetically.
 # Please keep it that way. Thanks.

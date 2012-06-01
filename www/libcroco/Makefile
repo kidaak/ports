@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/libcroco/Makefile,v 1.16 2012/03/26 16:56:13 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		generic CSS parsing library for GNOME project
 

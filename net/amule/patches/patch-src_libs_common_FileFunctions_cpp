@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_libs_common_FileFunctions_cpp,v 1.1 2012/01/12 11:30:45 dcoppa Exp $
+$OpenBSD$
 
 Fix loading of zipped IP filter files
 (upstream git commit ab24e8375c23c586de837a9cb7a405ca0499ffde)

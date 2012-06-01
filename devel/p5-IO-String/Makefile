@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-String/Makefile,v 1.18 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		emulate IO::File interface for in-core strings
 

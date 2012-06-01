@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/logstalgia/Makefile,v 1.1.1.1 2011/10/20 10:58:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	website access log visualization
 

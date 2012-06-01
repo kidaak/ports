@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmctrl/Makefile,v 1.13 2011/10/11 18:02:53 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	interact with an EWMH/NetWM window manager
 DISTNAME=	wmctrl-1.07

@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/jvim/patches/patch-src_vim_h,v 1.1 2007/10/26 21:42:18 ajacoutot Exp $
+$OpenBSD$
 --- src/vim.h.orig	Mon Jul  3 03:26:28 1995
 +++ src/vim.h	Fri Oct 26 23:36:45 2007
 @@ -92,7 +92,7 @@

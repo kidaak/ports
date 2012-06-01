@@ -1,4 +1,4 @@
-# $OpenBSD: ports/shells/perlsh/Makefile,v 1.9 2010/11/20 17:22:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Perl shell
 

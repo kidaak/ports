@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-agent_mibgroup_ucd-snmp_dlmod_c,v 1.5 2011/07/07 20:02:02 sthen Exp $
+$OpenBSD$
 --- agent/mibgroup/ucd-snmp/dlmod.c.orig	Fri Jul  1 23:35:46 2011
 +++ agent/mibgroup/ucd-snmp/dlmod.c	Wed Jul  6 23:18:52 2011
 @@ -129,7 +129,11 @@ dlmod_load_module(struct dlmod *dlm)

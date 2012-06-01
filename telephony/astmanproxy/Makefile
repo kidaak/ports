@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/astmanproxy/Makefile,v 1.2 2012/03/08 12:13:00 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

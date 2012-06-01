@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/snes9x/pkg/PLIST,v 1.5 2011/12/03 19:49:45 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/snes9x-gtk
 share/applications/snes9x.desktop
 share/doc/snes9x/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/darkstat/Makefile,v 1.17 2012/03/19 11:54:10 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		network statistics gatherer with graphs
 

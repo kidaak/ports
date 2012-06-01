@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_ProxyOutput_h,v 1.1 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/ProxyOutput.h.orig	Wed Mar 30 12:53:00 2011
 +++ src/ProxyOutput.h	Wed Mar 30 12:58:51 2011
 @@ -51,7 +51,7 @@ class ProxyOutput : public QObject

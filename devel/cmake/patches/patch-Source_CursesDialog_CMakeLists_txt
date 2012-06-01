@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cmake/patches/patch-Source_CursesDialog_CMakeLists_txt,v 1.2 2010/07/12 19:19:30 dcoppa Exp $
+$OpenBSD$
 --- Source/CursesDialog/CMakeLists.txt.orig	Mon Jun 28 17:16:00 2010
 +++ Source/CursesDialog/CMakeLists.txt	Mon Jul  5 11:23:18 2010
 @@ -25,13 +25,15 @@ SET( CURSES_SRCS

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_container_cpp,v 1.2 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/container.cpp.orig	Wed Mar 30 13:26:00 2011
 +++ src/container.cpp	Wed Mar 30 13:28:01 2011
 @@ -79,6 +79,7 @@ Container* Container::s_instance = 0;

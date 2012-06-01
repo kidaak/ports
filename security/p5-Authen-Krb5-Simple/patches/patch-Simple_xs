@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/p5-Authen-Krb5-Simple/patches/patch-Simple_xs,v 1.2 2008/08/26 20:57:27 fgsch Exp $
+$OpenBSD$
 --- Simple.xs.orig	Sun Jul 27 13:03:36 2008
 +++ Simple.xs	Sun Jul 27 13:05:20 2008
 @@ -61,6 +61,20 @@ cleanup2:

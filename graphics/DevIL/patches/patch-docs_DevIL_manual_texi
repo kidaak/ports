@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/DevIL/patches/patch-docs_DevIL_manual_texi,v 1.1 2011/08/28 17:26:07 jasper Exp $
+$OpenBSD$
 
 Add missing INFO-DIR-SECTION to silence install-info(1)
 

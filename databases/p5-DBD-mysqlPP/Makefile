@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBD-mysqlPP/Makefile,v 1.12 2011/11/10 16:37:40 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=		Pure Perl MySQL driver for the Perl DBI
 

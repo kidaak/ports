@@ -1,10 +1,10 @@
-# $OpenBSD: ports/graphics/mirage/Makefile,v 1.5 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	fast and simple GTK+ image viewer
 
 MODPY_EGG_VERSION = 0.9.5.2
 DISTNAME =	mirage-${MODPY_EGG_VERSION}
-REVISION =	2
+REVISION =	3
 
 CATEGORIES =	graphics
 

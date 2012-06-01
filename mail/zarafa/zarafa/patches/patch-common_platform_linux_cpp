@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_platform_linux_cpp,v 1.4 2010/06/30 02:46:48 ajacoutot Exp $
+$OpenBSD$
 --- common/platform.linux.cpp.orig	Mon May 31 19:28:57 2010
 +++ common/platform.linux.cpp	Mon Jun 14 09:16:43 2010
 @@ -70,7 +70,7 @@

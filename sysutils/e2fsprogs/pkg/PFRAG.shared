@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/e2fsprogs/pkg/PFRAG.shared,v 1.5 2010/04/03 11:53:58 kili Exp $
+@comment $OpenBSD$
 @lib lib/libblkid.so.${LIBblkid_VERSION}
 @lib lib/libe2fs-uuid.so.${LIBe2fs-uuid_VERSION}
 @lib lib/libe2p.so.${LIBe2p_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-Filter/Makefile,v 1.3 2010/11/19 07:23:07 espie Exp $
+# $OpenBSD$
 
 COMMENT = 	library for creating easy email filters
 

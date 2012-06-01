@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/poormanscron/pkg/PLIST,v 1.4 2010/03/22 10:28:39 espie Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}poormanscron/

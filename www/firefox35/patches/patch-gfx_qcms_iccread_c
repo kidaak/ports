@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-gfx_qcms_iccread_c,v 1.1 2011/01/28 21:38:12 landry Exp $
+$OpenBSD$
 Fix crash on sparc64
 https://bugzilla.mozilla.org/show_bug.cgi?id=629057
 http://hg.mozilla.org/mozilla-central/rev/e8207773d54d

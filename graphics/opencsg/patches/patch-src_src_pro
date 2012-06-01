@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/opencsg/patches/patch-src_src_pro,v 1.1.1.1 2011/04/29 18:00:03 matthew Exp $
+$OpenBSD$
 --- src/src.pro.orig	Wed Jun  9 12:39:58 2010
 +++ src/src.pro	Thu Apr 28 16:03:35 2011
 @@ -1,10 +1,11 @@

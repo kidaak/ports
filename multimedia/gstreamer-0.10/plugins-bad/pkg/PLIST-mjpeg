@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/gstreamer-0.10/plugins-bad/pkg/PLIST-mjpeg,v 1.2 2009/12/14 11:36:26 espie Exp $
+@comment $OpenBSD$
 @conflict gstreamer-mplex-*
 @pkgpath ${BASE_PKGPATH},-mplex
 @comment lib/gstreamer-${VERSION}/libgstmpeg2enc.la

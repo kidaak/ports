@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_libs_ec_cpp_ECTag_cpp,v 1.1 2012/02/29 11:43:19 dcoppa Exp $
+$OpenBSD$
 
 Fix endianness bug in EC
 (upstream git commit 07a5a373ff356166207438b5dffdf4eee30825d1)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Image-MetaData-JPEG/pkg/PLIST,v 1.2 2009/11/10 16:54:50 giovanni Exp $
+@comment $OpenBSD$
 ${P5SITE}/Image/
 ${P5SITE}/Image/MetaData/
 ${P5SITE}/Image/MetaData/JPEG/

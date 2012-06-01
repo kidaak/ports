@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pylint/Makefile,v 1.13 2011/09/16 21:47:41 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main=		lint-like code checker for Python code
 COMMENT-gui=		GUI for pylint

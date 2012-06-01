@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Catalyst-Plugin-Authentication-Store-Htpasswd/pkg/PLIST,v 1.1.1.1 2006/11/06 13:27:12 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Plugin/Authentication/Store/Htpasswd/
 ${P5SITE}/Catalyst/Plugin/Authentication/Store/Htpasswd.pm
 ${P5SITE}/Catalyst/Plugin/Authentication/Store/Htpasswd/Backend.pm

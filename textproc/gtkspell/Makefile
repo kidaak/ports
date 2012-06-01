@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/gtkspell/Makefile,v 1.38 2012/04/11 09:10:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	gtk+2 spelling checker
 DISTNAME=	gtkspell-2.0.16

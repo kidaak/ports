@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/animorph/Makefile,v 1.6 2012/03/15 13:38:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	morphing engine
 

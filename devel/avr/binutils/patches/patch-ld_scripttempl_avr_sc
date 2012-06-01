@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-ld_scripttempl_avr_sc,v 1.3 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- ld/scripttempl/avr.sc.orig	Sat Jun 26 11:23:26 2010
 +++ ld/scripttempl/avr.sc	Sat Jun 26 11:31:17 2010
 @@ -7,6 +7,9 @@ MEMORY

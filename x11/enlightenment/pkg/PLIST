@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/enlightenment/pkg/PLIST,v 1.14 2011/09/29 20:04:44 jasper Exp $
+@comment $OpenBSD$
 @pkgpath x11/enlightenment
 @bin bin/e16
 @bin bin/edox

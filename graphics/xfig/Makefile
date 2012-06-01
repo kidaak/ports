@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/xfig/Makefile,v 1.50 2011/11/02 09:57:23 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	CAD drawing program for X11
 

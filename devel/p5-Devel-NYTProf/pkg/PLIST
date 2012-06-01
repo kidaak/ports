@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Devel-NYTProf/pkg/PLIST,v 1.6 2010/10/19 18:56:36 bluhm Exp $
+@comment $OpenBSD$
 bin/nytprofcg
 bin/nytprofcsv
 bin/nytprofhtml

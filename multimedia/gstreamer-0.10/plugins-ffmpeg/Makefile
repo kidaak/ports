@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/gstreamer-0.10/plugins-ffmpeg/Makefile,v 1.28 2012/03/03 10:33:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		ffmpeg element for GStreamer
 

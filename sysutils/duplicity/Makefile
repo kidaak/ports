@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/duplicity/Makefile,v 1.20 2012/04/05 10:33:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	encrypted backup using rsync algorithm
 

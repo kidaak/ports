@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/osm2go/patches/patch-src_osm_api_c,v 1.1 2011/07/05 08:18:30 jasper Exp $
+$OpenBSD$
 --- src/osm_api.c.orig	Tue Jul  5 09:20:21 2011
 +++ src/osm_api.c	Tue Jul  5 09:20:28 2011
 @@ -20,7 +20,6 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-POE-Component-IRC/pkg/PLIST,v 1.6 2010/10/26 09:12:42 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/POE/Component/IRC/
 ${P5SITE}/POE/Component/IRC.pm
 ${P5SITE}/POE/Component/IRC/Common.pm

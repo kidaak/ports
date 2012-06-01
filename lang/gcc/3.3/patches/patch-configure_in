@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-configure_in,v 1.1.1.1 2005/01/03 15:21:27 espie Exp $
+$OpenBSD$
 --- configure.in.orig	2003-11-11 13:38:45.000000000 +0100
 +++ configure.in	2003-11-11 13:39:21.000000000 +0100
 @@ -638,6 +638,8 @@ case "${target}" in

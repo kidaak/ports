@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/scanlogd/Makefile,v 1.30 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 
 DISTNAME=	scanlogd-2.2.6
 REVISION =	5

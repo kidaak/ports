@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libperseus/Makefile,v 1.1.1.1 2011/03/29 12:14:21 pea Exp $
+# $OpenBSD$
 
 COMMENT = 	library to secure any kind of communication streams
 

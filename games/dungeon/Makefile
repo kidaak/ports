@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/dungeon/Makefile,v 1.2 2011/12/06 14:12:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		text adventure game
 

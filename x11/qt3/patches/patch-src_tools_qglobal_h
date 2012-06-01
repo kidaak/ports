@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-src_tools_qglobal_h,v 1.1 2008/05/31 09:50:34 espie Exp $
+$OpenBSD$
 --- src/tools/qglobal.h.orig	Fri May 30 18:23:00 2008
 +++ src/tools/qglobal.h	Fri May 30 18:23:16 2008
 @@ -699,12 +699,12 @@ inline int qRound( double d )

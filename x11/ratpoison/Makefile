@@ -1,9 +1,8 @@
-# $OpenBSD: ports/x11/ratpoison/Makefile,v 1.24 2012/03/17 14:20:58 fgsch Exp $
+# $OpenBSD$
 
 COMMENT=	minimal wm based on GNU screen
 
-DISTNAME=	ratpoison-1.4.4
-REVISION=	1
+DISTNAME=	ratpoison-1.4.5
 
 CATEGORIES=	x11
 HOMEPAGE=	http://www.nongnu.org/ratpoison/
@@ -16,8 +15,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=		X11 Xau Xdmcp Xext Xft Xinerama Xrender Xtst c expat fontconfig freetype z \
-			pthread-stubs xcb
+WANTLIB += X11 Xext Xft Xinerama Xtst c
 
 MASTER_SITES=		${MASTER_SITE_SAVANNAH:=ratpoison/}
 

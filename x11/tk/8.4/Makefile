@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tk/8.4/Makefile,v 1.27 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		graphical toolkit for Tcl
 

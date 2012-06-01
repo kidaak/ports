@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-Rose-HTML-Objects/patches/patch-lib_Rose_HTML_Object_Repeatable_pm,v 1.1 2010/01/10 13:45:04 espie Exp $
+$OpenBSD$
 --- lib/Rose/HTML/Object/Repeatable.pm.orig	Sun Jan 10 14:22:15 2010
 +++ lib/Rose/HTML/Object/Repeatable.pm	Sun Jan 10 14:22:28 2010
 @@ -3,7 +3,7 @@ package Rose::HTML::Object::Repeatable;

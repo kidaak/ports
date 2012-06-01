@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmp3splt/patches/patch-src_mp3splt_c,v 1.1.1.1 2009/02/11 15:44:30 kevlo Exp $
+$OpenBSD$
 --- src/mp3splt.c.orig	Sat Jan 31 18:51:37 2009
 +++ src/mp3splt.c	Sat Jan 31 18:54:56 2009
 @@ -749,7 +749,8 @@ int mp3splt_split(splt_state *state)

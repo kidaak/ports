@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-data-default/Makefile,v 1.3 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=		class for types with a default value
 

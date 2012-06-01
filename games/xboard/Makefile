@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xboard/Makefile,v 1.28 2011/03/02 06:31:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	X11 frontend for GNU Chess and the Internet Chess Server
 

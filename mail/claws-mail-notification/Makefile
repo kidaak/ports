@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/claws-mail-notification/Makefile,v 1.26 2012/01/23 18:57:33 landry Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

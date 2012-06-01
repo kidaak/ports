@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmclockmon/Makefile,v 1.11 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=		WindowMaker dock.app clock
 

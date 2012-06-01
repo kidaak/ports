@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/groff/patches/patch-contrib_hdtbl_examples_fonts_x_in,v 1.1 2011/12/04 15:41:26 schwarze Exp $
+$OpenBSD$
 Do not depend on bash (from upstream CVS).
 --- contrib/hdtbl/examples/fonts_x.in.orig	Fri Dec 31 08:33:09 2010
 +++ contrib/hdtbl/examples/fonts_x.in	Sun Oct 23 19:25:11 2011

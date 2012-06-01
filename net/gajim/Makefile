@@ -1,10 +1,10 @@
-# $OpenBSD: ports/net/gajim/Makefile,v 1.52 2012/04/05 16:08:55 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
 COMMENT=	jabber client written in pygtk
 DISTNAME=	gajim-0.15
-REVISION=	0
+REVISION=	2
 CATEGORIES=	net x11
 
 MASTER_SITES=	${HOMEPAGE}/downloads/0.15/

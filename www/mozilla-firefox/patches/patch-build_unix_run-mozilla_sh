@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mozilla-firefox/patches/patch-build_unix_run-mozilla_sh,v 1.2 2011/03/30 21:39:14 landry Exp $
+$OpenBSD$
 find our gdb by default
 --- build/unix/run-mozilla.sh.orig	Thu Nov  4 21:05:18 2010
 +++ build/unix/run-mozilla.sh	Sat Nov 13 12:00:19 2010

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xmonad/Makefile,v 1.33 2012/01/12 11:11:58 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT-main =		tiling window manager
 COMMENT-lib =		libraries for runtime configuration

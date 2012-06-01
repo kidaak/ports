@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/pathological/Makefile,v 1.15 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	enriched clone of the game Logical by Rainbow Arts
 

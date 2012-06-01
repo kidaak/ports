@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-libtool_m4,v 1.1.1.1 2006/07/31 09:50:53 espie Exp $
+$OpenBSD$
 --- libtool.m4.orig	Tue May 10 03:31:58 2005
 +++ libtool.m4	Mon May 16 17:43:15 2005
 @@ -757,6 +757,10 @@ newsos6)

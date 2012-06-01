@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/sc/Makefile,v 1.14 2011/06/26 09:48:50 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	curses spreadsheet-calculator program
 

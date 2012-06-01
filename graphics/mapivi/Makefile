@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/mapivi/Makefile,v 1.10 2011/09/16 10:02:37 espie Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

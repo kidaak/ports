@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/nx/opennx/pkg/README,v 1.5 2012/02/17 17:23:31 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

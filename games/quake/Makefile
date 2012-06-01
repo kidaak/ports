@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/quake/Makefile,v 1.39 2011/12/21 13:23:44 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main =		Quake/QuakeWorld client
 COMMENT-libs =		Quake common libs

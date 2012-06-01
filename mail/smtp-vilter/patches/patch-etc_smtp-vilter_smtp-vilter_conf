@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/smtp-vilter/patches/patch-etc_smtp-vilter_smtp-vilter_conf,v 1.2 2010/10/29 11:59:22 ajacoutot Exp $
+$OpenBSD$
 --- etc/smtp-vilter/smtp-vilter.conf.orig	Sun Jan 21 14:09:38 2007
 +++ etc/smtp-vilter/smtp-vilter.conf	Fri Oct 29 13:57:44 2010
 @@ -29,7 +29,7 @@ tmpfiles=setgrp

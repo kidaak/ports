@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Imager-QRCode/Makefile,v 1.1.1.1 2011/08/17 19:04:13 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

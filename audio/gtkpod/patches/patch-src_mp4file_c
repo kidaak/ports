@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/gtkpod/patches/patch-src_mp4file_c,v 1.1 2011/11/15 15:43:52 mpi Exp $
+$OpenBSD$
 --- src/mp4file.c	Sun Nov 13 17:27:50 2011
 +++ src/mp4file.c	Sun Nov 13 17:47:00 2011
 @@ -35,6 +35,10 @@

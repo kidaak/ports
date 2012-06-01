@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/pdmenu/pkg/PLIST,v 1.4 2009/10/13 21:48:30 sthen Exp $
+@comment $OpenBSD$
 @bin bin/pdmenu
 @man man/man1/pdmenu.1
 @man man/man5/pdmenurc.5

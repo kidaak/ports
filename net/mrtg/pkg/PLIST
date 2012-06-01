@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/mrtg/pkg/PLIST,v 1.27 2011/03/20 06:43:47 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _mrtg:578
 @newuser _mrtg:578:578:daemon:MRTG account:/var/empty:/sbin/nologin
 bin/cfgmaker

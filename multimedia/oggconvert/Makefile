@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/oggconvert/Makefile,v 1.14 2011/09/16 10:31:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=	convert media files to Vorbis, Theora and Dirac
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/iperf/pkg/PLIST,v 1.5 2009/05/16 21:48:20 rui Exp $
+@comment $OpenBSD$
 @bin bin/iperf
 @man man/man1/iperf.1
 share/doc/iperf/

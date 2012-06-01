@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/mxml/patches/patch-configure,v 1.2 2009/01/17 20:28:28 jakemsr Exp $
+$OpenBSD$
 --- configure.orig	Sat Jan 26 12:50:28 2008
 +++ configure	Mon Jan 12 00:26:29 2009
 @@ -4661,10 +4661,10 @@ echo "${ECHO_T}yes" >&6; }

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-turbocheetah/pkg/PLIST,v 1.2 2008/01/13 17:21:35 martynas Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/TurboCheetah-${VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/TurboCheetah-${VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/TurboCheetah-${VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

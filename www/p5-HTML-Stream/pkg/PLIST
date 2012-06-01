@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Stream/pkg/PLIST,v 1.5 2004/09/15 18:49:51 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTML/
 ${P5SITE}/HTML/Stream.pm
 @man man/man3p/HTML::Stream.3p

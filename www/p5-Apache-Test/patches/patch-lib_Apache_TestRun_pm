@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-Apache-Test/patches/patch-lib_Apache_TestRun_pm,v 1.1 2008/04/30 19:25:23 simon Exp $
+$OpenBSD$
 --- lib/Apache/TestRun.pm.orig	Tue Apr 29 22:44:39 2008
 +++ lib/Apache/TestRun.pm	Tue Apr 29 22:46:51 2008
 @@ -1431,9 +1431,10 @@ to a configuration file C<Apache::TestConfigData>.  Th

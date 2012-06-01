@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wm2/files/Makefile,v 1.2 2011/06/23 22:50:30 naddy Exp $
+# $OpenBSD$
 
 BINDIR=	${PREFIX}/bin
 MANDIR=	${PREFIX}/man/man

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/libdbi-drivers/patches/patch-configure,v 1.1.1.1 2009/06/02 00:58:58 merdely Exp $
+$OpenBSD$
 --- configure.orig	Mon Mar  3 12:41:58 2008
 +++ configure	Sun May 31 17:47:10 2009
 @@ -11830,7 +11830,7 @@ if { (eval echo "$as_me:$LINENO: \"$ac_compile\"") >&5

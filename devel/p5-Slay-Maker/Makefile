@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Slay-Maker/Makefile,v 1.6 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl make engine using perl code for rules
 

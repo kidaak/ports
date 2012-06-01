@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/docbook-xsl/files/docbook-xsl.spec,v 1.1 2005/09/04 23:38:18 espie Exp $
+# $OpenBSD$
 delegateURI
 http://docbook.sourceforge.net/release/xsl/current/
 file://%D/share/xsl/docbook/catalog.xml

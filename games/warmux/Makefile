@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/warmux/Makefile,v 1.4 2012/04/05 16:26:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		free software clone of Worms(R) game concept
 

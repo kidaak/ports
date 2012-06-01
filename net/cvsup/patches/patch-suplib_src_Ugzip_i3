@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/cvsup/patches/patch-suplib_src_Ugzip_i3,v 1.1 2003/12/19 17:55:50 espie Exp $
+$OpenBSD$
 --- suplib/src/Ugzip.i3.orig	2003-03-04 20:26:31.000000000 +0100
 +++ suplib/src/Ugzip.i3	2003-12-19 18:43:24.000000000 +0100
 @@ -35,6 +35,7 @@ INTERFACE Ugzip;

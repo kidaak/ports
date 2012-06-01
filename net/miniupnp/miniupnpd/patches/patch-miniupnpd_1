@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/miniupnp/miniupnpd/patches/patch-miniupnpd_1,v 1.1.1.1 2012/01/13 09:22:50 ajacoutot Exp $
+$OpenBSD$
 --- miniupnpd.1.orig	Thu May 13 11:18:12 2010
 +++ miniupnpd.1	Thu May 13 11:18:31 2010
 @@ -17,7 +17,7 @@ clients on the LAN to ask for port redirections.

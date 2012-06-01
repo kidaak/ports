@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Ebay/Makefile,v 1.6 2011/09/16 12:00:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=		search and manage eBay accounts
 

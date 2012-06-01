@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/scmxx/patches/patch-src_Makefile_in,v 1.2 2010/05/21 14:13:22 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Fri Jun 10 20:22:12 2005
 +++ src/Makefile.in	Fri May 21 16:10:57 2010
 @@ -89,7 +89,7 @@ distclean: clean $(patsubst %,%-distclean,$(SUBDIRS))

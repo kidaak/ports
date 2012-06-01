@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/msttcorefonts/Makefile,v 1.1.1.1 2011/07/19 09:16:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		Microsoft TrueType core fonts
 

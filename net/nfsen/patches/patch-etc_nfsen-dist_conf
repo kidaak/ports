@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nfsen/patches/patch-etc_nfsen-dist_conf,v 1.2 2011/03/24 23:04:00 sthen Exp $
+$OpenBSD$
 --- etc/nfsen-dist.conf.orig	Thu Sep  9 06:46:23 2010
 +++ etc/nfsen-dist.conf	Thu Mar 17 01:56:44 2011
 @@ -8,6 +8,10 @@

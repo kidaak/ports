@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/luvcview/Makefile,v 1.9 2010/11/17 08:05:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		V4L compatible video application
 

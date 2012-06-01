@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/libs3/patches/patch-kioslave_file_file_cc,v 1.5 2009/11/14 16:41:03 ajacoutot Exp $
+$OpenBSD$
 --- kioslave/file/file.cc.orig	Fri Mar 17 11:19:07 2006
 +++ kioslave/file/file.cc	Sat Nov 14 16:51:13 2009
 @@ -1445,6 +1445,9 @@ void FileProtocol::mount( bool _ro, const char *_fstyp

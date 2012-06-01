@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-rubigen/pkg/PLIST,v 1.5 2010/11/08 23:24:42 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/install_rubigen_scripts${GEM_BIN_SUFFIX}
 ${GEM_BIN}/rubigen${GEM_BIN_SUFFIX}
 ${GEM_BIN}/ruby_app${GEM_BIN_SUFFIX}

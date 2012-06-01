@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/network3/pkg/PLIST,v 1.42 2011/12/03 23:34:04 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict sirc-*
 bin/dsirc
 @bin bin/feedbrowser

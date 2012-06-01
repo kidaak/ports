@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/override_node_options/pkg/PLIST,v 1.1.1.1 2010/10/25 09:35:11 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}override_node_options/

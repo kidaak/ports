@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/qhacc/patches/patch-lib_qhacc_cpp,v 1.1 2009/06/07 00:08:32 jasper Exp $
+$OpenBSD$
 --- lib/qhacc.cpp.orig	Tue Jun  2 11:39:13 2009
 +++ lib/qhacc.cpp	Tue Jun  2 11:39:29 2009
 @@ -55,7 +55,7 @@

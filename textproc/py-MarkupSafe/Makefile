@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-MarkupSafe/Makefile,v 1.7 2012/03/14 20:16:23 eric Exp $
+# $OpenBSD$
 
 COMMENT=		implements an XML/HTML/XHTML markup safe string
 

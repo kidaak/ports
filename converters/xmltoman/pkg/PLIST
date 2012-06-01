@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/xmltoman/pkg/PLIST,v 1.1.1.1 2007/10/14 15:37:56 jasper Exp $
+@comment $OpenBSD$
 bin/xmlmantohtml
 bin/xmltoman
 @man man/man1/xmlmantohtml.1

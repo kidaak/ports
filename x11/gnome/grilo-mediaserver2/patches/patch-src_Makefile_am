@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/grilo-mediaserver2/patches/patch-src_Makefile_am,v 1.1.1.1 2011/11/11 15:50:28 jasper Exp $
+$OpenBSD$
 
 Remove two unused libraries.
 

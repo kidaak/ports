@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/vodovod/patches/patch-config_cpp,v 1.2 2007/07/07 10:40:48 simon Exp $
+$OpenBSD$
 --- config.cpp.orig	Sun Jun  3 13:09:24 2007
 +++ config.cpp	Fri Jul  6 10:28:01 2007
 @@ -22,6 +22,8 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, 

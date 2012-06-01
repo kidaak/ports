@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-minitest/Makefile,v 1.12 2011/11/27 11:11:12 pirofti Exp $
+# $OpenBSD$
 
 COMMENT =	small and fast replacement for test/unit
 

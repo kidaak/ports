@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/gstreamer-0.10/plugins-good/Makefile,v 1.84 2012/02/21 15:27:13 ajacoutot Exp $
+# $OpenBSD$
 
 # XXX ossaudio(3) is only enabled to be used as a mixing device by
 # audio/pulseaudio and x11/xfce4/xfce4-mixer

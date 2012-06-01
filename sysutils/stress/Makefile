@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/stress/Makefile,v 1.9 2010/10/19 07:43:02 espie Exp $
+# $OpenBSD$
 
 COMMENT=	tool to impose configurable amount of load
 DISTNAME=	stress-1.0.4

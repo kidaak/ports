@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Controller-HTML-FormFu/Makefile,v 1.5 2012/04/08 21:58:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	formular fu for catalyst
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/elvis/patches/patch-ref_c,v 1.1 2012/03/17 12:40:01 sthen Exp $
+$OpenBSD$
 --- ref.c.orig	Tue Oct 21 04:32:25 2003
 +++ ref.c	Sat Mar 17 12:28:41 2012
 @@ -42,7 +42,7 @@ typedef enum

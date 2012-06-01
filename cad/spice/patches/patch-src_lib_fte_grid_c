@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/spice/patches/patch-src_lib_fte_grid_c,v 1.1 2010/05/09 17:50:26 espie Exp $
+$OpenBSD$
 --- src/lib/fte/grid.c.orig	Sun May  9 19:22:42 2010
 +++ src/lib/fte/grid.c	Sun May  9 19:25:36 2010
 @@ -32,6 +32,9 @@ typedef enum { x_axis, y_axis } Axis;

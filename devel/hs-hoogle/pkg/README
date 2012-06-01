@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/hs-hoogle/pkg/README,v 1.1.1.1 2011/12/06 21:03:43 kili Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

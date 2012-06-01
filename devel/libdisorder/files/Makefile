@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libdisorder/files/Makefile,v 1.1.1.1 2010/08/26 01:10:16 kevlo Exp $
+# $OpenBSD$
 
 SRCS=	src/disorder.c
 LIB=	disorder

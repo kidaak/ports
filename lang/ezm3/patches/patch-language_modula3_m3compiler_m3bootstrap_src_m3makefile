@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ezm3/patches/patch-language_modula3_m3compiler_m3bootstrap_src_m3makefile,v 1.1 2003/05/08 01:34:43 naddy Exp $
+$OpenBSD$
 --- language/modula3/m3compiler/m3bootstrap/src/m3makefile.orig	Thu May  8 01:58:01 2003
 +++ language/modula3/m3compiler/m3bootstrap/src/m3makefile	Thu May  8 01:58:04 2003
 @@ -0,0 +1,334 @@

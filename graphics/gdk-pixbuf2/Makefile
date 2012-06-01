@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gdk-pixbuf2/Makefile,v 1.17 2012/04/14 20:33:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	graphic library for gtk+2
 

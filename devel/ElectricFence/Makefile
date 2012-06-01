@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ElectricFence/Makefile,v 1.16 2010/10/18 17:47:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library providing malloc debugging via VM protection
 

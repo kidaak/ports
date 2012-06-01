@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/doc-utils/patches/patch-doc_xslt_Makefile_in,v 1.9 2012/03/26 23:19:36 ajacoutot Exp $
+$OpenBSD$
 
 http://bugzilla.gnome.org/show_bug.cgi?id=565456
 

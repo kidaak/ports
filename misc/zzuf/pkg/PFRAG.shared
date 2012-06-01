@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/misc/zzuf/pkg/PFRAG.shared,v 1.1.1.1 2007/10/03 13:48:17 chl Exp $
+@comment $OpenBSD$
 lib/zzuf/libzzuf.so

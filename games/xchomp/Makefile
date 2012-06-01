@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xchomp/Makefile,v 1.27 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Pac-man-like game under X11
 

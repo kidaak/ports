@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/kanjipad/patches/patch-kanjipad_c,v 1.2 2010/03/21 09:10:52 jasper Exp $
+$OpenBSD$
 --- kanjipad.c.orig	Mon Feb  1 07:55:13 2010
 +++ kanjipad.c	Mon Feb  1 07:55:46 2010
 @@ -510,7 +510,7 @@ init_engine()

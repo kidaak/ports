@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netatalk/patches/patch-configure,v 1.2 2012/04/11 18:39:13 sthen Exp $
+$OpenBSD$
 --- configure.orig	Thu Jan 12 04:11:55 2012
 +++ configure	Mon Jan 16 16:35:56 2012
 @@ -25308,8 +25308,8 @@ for ac_lib in '' pthread; do

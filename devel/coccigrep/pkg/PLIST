@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/coccigrep/pkg/PLIST,v 1.2 2011/11/17 14:27:14 sthen Exp $
+@comment $OpenBSD$
 bin/coccigrep
 lib/python${MODPY_VERSION}/site-packages/coccigrep/
 lib/python${MODPY_VERSION}/site-packages/coccigrep-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/

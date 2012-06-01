@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/lmms/pkg/PLIST,v 1.1.1.1 2010/10/28 22:33:42 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/lmms
 include/lmms/
 include/lmms/AudioAlsa.h

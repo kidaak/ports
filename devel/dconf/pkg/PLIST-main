@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/dconf/pkg/PLIST-main,v 1.5 2012/03/29 06:26:38 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict vala-<0.10
 @pkgpath devel/dconf
 @extraunexec rm -rf ${SYSCONFDIR}/dconf/db/*

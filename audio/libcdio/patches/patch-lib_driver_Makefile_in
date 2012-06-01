@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libcdio/patches/patch-lib_driver_Makefile_in,v 1.1 2008/05/01 09:05:13 fgsch Exp $
+$OpenBSD$
 --- lib/driver/Makefile.in.orig	Wed Apr 30 17:43:08 2008
 +++ lib/driver/Makefile.in	Wed Apr 30 17:44:02 2008
 @@ -104,8 +104,8 @@ am__objects_1 = _cdio_generic.lo _cdio_stdio.lo _cdio_

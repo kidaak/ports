@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pear-Net-URL2/pkg/PLIST,v 1.1.1.1 2009/11/18 19:12:38 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 lib/
 lib/php/

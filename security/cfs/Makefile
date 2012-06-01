@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/cfs/Makefile,v 1.31 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 NOT_FOR_ARCHS=	${LP64_ARCHS}
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/aguri/pkg/PLIST,v 1.4 2009/06/25 01:02:54 jolan Exp $
+@comment $OpenBSD$
 @conflict EMBOSS-*
 bin/aguri
 bin/agurify

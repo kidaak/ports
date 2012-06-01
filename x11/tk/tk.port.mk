@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tk/tk.port.mk,v 1.11 2011/01/05 16:04:14 stu Exp $
+# $OpenBSD$
 
 CATEGORIES +=		x11/tk
 

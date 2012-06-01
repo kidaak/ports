@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ikeman/Makefile,v 1.2 2011/06/27 13:29:52 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		interactive PKI manager for isakmpd(8) or iked(8)
 DISTNAME =		ikeman-0.2

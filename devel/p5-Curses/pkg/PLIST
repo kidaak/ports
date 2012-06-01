@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Curses/pkg/PLIST,v 1.8 2004/09/14 23:43:58 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Curses.pm
 ${P5ARCH}/auto/

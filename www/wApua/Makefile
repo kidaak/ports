@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/wApua/Makefile,v 1.8 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=		browser for wap/wml
 

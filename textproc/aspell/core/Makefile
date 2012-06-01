@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/core/Makefile,v 1.27 2012/01/17 10:59:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	spell checker designed to eventually replace Ispell
 

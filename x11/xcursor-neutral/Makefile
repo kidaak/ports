@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xcursor-neutral/Makefile,v 1.1.1.1 2011/01/15 12:50:42 landry Exp $
+# $OpenBSD$
 
 COMMENT =		smooth xcursor theme with shadows
 DISTNAME =		28310-neutral-1.13a

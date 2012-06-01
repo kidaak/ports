@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/par/Makefile,v 1.18 2010/11/20 19:56:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=	paragraph reflow for email
 

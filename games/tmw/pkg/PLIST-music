@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/tmw/pkg/PLIST-music,v 1.2 2011/06/25 18:58:11 jasper Exp $
+@comment $OpenBSD$
 share/tmw/data/music/
 share/tmw/data/music/Clouds Calling.ogg
 share/tmw/data/music/Faith.ogg

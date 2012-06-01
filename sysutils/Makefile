@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/Makefile,v 1.254 2012/04/12 14:56:09 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.26 1997/11/20 08:58:51 tg Exp $
 
      SUBDIR =
@@ -83,11 +83,13 @@
      SUBDIR += libretto-config
      SUBDIR += librelp
      SUBDIR += libstatgrab
+     SUBDIR += logfmon
      SUBDIR += login_fingerprint
      SUBDIR += login_ldap
      SUBDIR += login_oath
      SUBDIR += logpp
      SUBDIR += logstalgia
+     SUBDIR += logtail
      SUBDIR += lsof
      SUBDIR += luastatgrab
      SUBDIR += mac-robber
@@ -104,6 +106,8 @@
      SUBDIR += ndesk-dbus
      SUBDIR += ndesk-dbus-glib
      SUBDIR += notification-daemon
+     SUBDIR += node-daemon
+     SUBDIR += node-syslog
      SUBDIR += ns4
      SUBDIR += nut
      SUBDIR += openpoppassd
@@ -190,6 +194,7 @@
      SUBDIR += upower
      SUBDIR += upsd
      SUBDIR += usbutil
+     SUBDIR += usbutils
      SUBDIR += vifm
      SUBDIR += vmwh
      SUBDIR += wdsetup

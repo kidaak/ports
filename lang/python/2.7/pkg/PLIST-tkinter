@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/python/2.7/pkg/PLIST-tkinter,v 1.1.1.1 2011/04/24 09:31:46 rpointel Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict python-tkinter->=2.7,<2.8
 lib/python2.7/lib-dynload/_tkinter.so

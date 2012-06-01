@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-MethodAttributes/pkg/PLIST,v 1.2 2009/10/26 16:51:13 jim Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/MethodAttributes/
 ${P5SITE}/MooseX/MethodAttributes.pm
 ${P5SITE}/MooseX/MethodAttributes/Inheritable.pm

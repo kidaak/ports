@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mozilla-thunderbird/patches/patch-mozilla_build_unix_run-mozilla_sh,v 1.2 2011/07/24 07:10:12 landry Exp $
+$OpenBSD$
 help finding our debugger
 --- mozilla/build/unix/run-mozilla.sh.orig	Fri Jan 14 23:21:21 2011
 +++ mozilla/build/unix/run-mozilla.sh	Sun Feb 13 23:19:41 2011

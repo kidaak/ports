@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Data-Dump-Streamer/pkg/PLIST,v 1.1.1.1 2010/03/28 19:28:50 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/Data/
 ${P5ARCH}/Data/Dump/
 ${P5ARCH}/Data/Dump/Streamer/

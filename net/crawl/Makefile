@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/crawl/Makefile,v 1.31 2011/09/25 14:42:51 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		small and efficient HTTP crawler
 

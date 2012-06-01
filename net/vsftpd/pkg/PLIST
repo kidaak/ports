@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/vsftpd/pkg/PLIST,v 1.8 2009/10/23 22:50:00 sthen Exp $
+@comment $OpenBSD$
 @newgroup _vsftpd:513
 @newuser _vsftpd:513:_vsftpd:daemon:vsftpd user:/nonexistent:/sbin/nologin
 @man man/man5/vsftpd.conf.5

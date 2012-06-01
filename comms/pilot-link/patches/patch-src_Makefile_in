@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/pilot-link/patches/patch-src_Makefile_in,v 1.4 2010/03/25 10:32:53 giovanni Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun Feb  7 04:42:28 2010
 +++ src/Makefile.in	Wed Mar 24 08:56:19 2010
 @@ -557,7 +557,7 @@ PISYNC_CURRENT = @PISYNC_CURRENT@

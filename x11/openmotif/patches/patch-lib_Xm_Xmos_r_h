@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/openmotif/patches/patch-lib_Xm_Xmos_r_h,v 1.1 2007/07/18 21:41:05 mbalmer Exp $
+$OpenBSD$
 --- lib/Xm/Xmos_r.h.orig	Sat Jun 30 11:59:19 2007
 +++ lib/Xm/Xmos_r.h	Sat Jun 30 12:01:19 2007
 @@ -215,6 +215,10 @@ extern void XtProcessUnlock(

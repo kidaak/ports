@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/ruby-openid/pkg/PLIST,v 1.6 2010/11/08 23:24:42 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/CHANGELOG

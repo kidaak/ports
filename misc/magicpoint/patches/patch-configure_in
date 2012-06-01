@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/magicpoint/patches/patch-configure_in,v 1.6 2011/07/08 20:38:00 naddy Exp $
+$OpenBSD$
 --- configure.in.orig	Tue May 22 00:09:42 2001
 +++ configure.in	Thu Jul  7 09:07:23 2011
 @@ -103,6 +103,8 @@ if test "$mgp_use_freetype" = "yes"; then

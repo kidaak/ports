@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/qemu/pkg/README,v 1.8 2012/03/16 11:40:53 fgsch Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

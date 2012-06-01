@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gforth/patches/patch-Makefile_in,v 1.1.1.1 2008/10/25 10:40:37 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Aug 25 09:57:49 2003
 +++ Makefile.in	Sat Oct 25 00:05:42 2008
 @@ -51,7 +51,7 @@ osclass = @OSCLASS@

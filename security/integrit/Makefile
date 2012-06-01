@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/integrit/Makefile,v 1.10 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=		file integrity checker
 

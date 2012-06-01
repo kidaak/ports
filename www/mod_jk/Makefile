@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_jk/Makefile,v 1.24 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		Apache-Tomcat AJP Connector
 

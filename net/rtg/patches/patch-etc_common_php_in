@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rtg/patches/patch-etc_common_php_in,v 1.1.1.1 2008/07/19 13:52:22 sthen Exp $
+$OpenBSD$
 --- etc/common.php.in.orig	Fri Sep 26 17:52:29 2003
 +++ etc/common.php.in	Thu Nov 24 11:53:32 2005
 @@ -2,16 +2,15 @@

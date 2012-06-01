@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-needle/Makefile,v 1.10 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT =	dependency-injection/inversion-of-control container for Ruby
 

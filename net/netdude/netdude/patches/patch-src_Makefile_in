@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-src_Makefile_in,v 1.4 2011/12/09 14:45:06 jasper Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun Jun 24 23:38:12 2007
 +++ src/Makefile.in	Fri Dec  9 15:42:13 2011
 @@ -65,7 +65,7 @@ am_netdude_OBJECTS = nd_debug.$(OBJEXT) nd_clipboard.$

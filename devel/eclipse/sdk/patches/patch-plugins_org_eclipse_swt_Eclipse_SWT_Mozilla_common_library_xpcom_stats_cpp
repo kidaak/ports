@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_swt_Eclipse_SWT_Mozilla_common_library_xpcom_stats_cpp,v 1.2 2007/04/13 14:30:43 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.swt/Eclipse SWT Mozilla/common/library/xpcom_stats.cpp.orig	Mon Feb 12 13:46:40 2007
 +++ plugins/org.eclipse.swt/Eclipse SWT Mozilla/common/library/xpcom_stats.cpp	Fri Apr  6 17:23:40 2007
 @@ -14,15 +14,14 @@

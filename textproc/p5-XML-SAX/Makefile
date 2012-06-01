@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-SAX/Makefile,v 1.19 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl interface to the SAX2 XML parser
 

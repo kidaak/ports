@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nslint/patches/patch-Makefile_in,v 1.1.1.1 2001/02/28 23:57:34 naddy Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Mar  8 02:51:41 2000
 +++ Makefile.in	Thu Mar  1 00:53:06 2001
 @@ -49,6 +49,7 @@ DEFS = @DEFS@

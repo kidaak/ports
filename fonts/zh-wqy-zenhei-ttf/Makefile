@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/zh-wqy-zenhei-ttf/Makefile,v 1.1.1.1 2011/07/19 09:14:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Wen Quan Yi Zen Hei outline font
 

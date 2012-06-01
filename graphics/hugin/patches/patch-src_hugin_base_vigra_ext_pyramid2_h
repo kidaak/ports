@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/hugin/patches/patch-src_hugin_base_vigra_ext_pyramid2_h,v 1.1.1.1 2009/04/19 11:18:40 sthen Exp $
+$OpenBSD$
 
 - allows to build with gcc3; taken from enblend's pyramid.h
 

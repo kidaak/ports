@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/gtk-doc/Makefile,v 1.31 2012/03/19 10:28:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GTK C code documentation system
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/filelight/Makefile,v 1.12 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

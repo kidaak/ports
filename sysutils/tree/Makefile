@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/tree/Makefile,v 1.7 2011/06/23 22:50:29 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	print ascii formatted tree of a directory structure
 

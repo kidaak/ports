@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-MPEG-Audio-Frame/pkg/PLIST,v 1.1.1.1 2007/07/26 03:33:07 steven Exp $
+@comment $OpenBSD$
 ${P5SITE}/MPEG/
 ${P5SITE}/MPEG/Audio/
 ${P5SITE}/MPEG/Audio/Frame.pm

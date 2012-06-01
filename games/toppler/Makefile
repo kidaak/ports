@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/toppler/Makefile,v 1.22 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Nebulous rewrite of Tower Toppler
 
@@ -24,7 +24,7 @@ RUN_DEPENDS=		devel/desktop-file-utils
 MODULES=		devel/gettext
 
 CONFIGURE_STYLE=	gnu
-CONFIGURE_ARGS=		--localstatedir=/var/games
+LOCALSTATEDIR=		${BASELOCALSTATEDIR}/games
 
 USE_LIBTOOL=		Yes
 USE_GROFF =	Yes

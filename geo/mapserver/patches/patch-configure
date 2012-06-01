@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/mapserver/patches/patch-configure,v 1.4 2011/06/22 20:16:43 landry Exp $
+$OpenBSD$
 --- configure.orig	Wed Apr 27 09:06:17 2011
 +++ configure	Thu May 26 19:59:16 2011
 @@ -3361,7 +3361,7 @@ if test $ac_cv_lib_m_exp = yes; then

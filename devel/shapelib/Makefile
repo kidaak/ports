@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/shapelib/Makefile,v 1.7 2011/11/18 11:16:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=	shapefile manipulation library
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/iaxclient/patches/patch-contrib_tcl_configure,v 1.1 2010/06/18 17:32:21 sebastia Exp $
+$OpenBSD$
 --- contrib/tcl/configure.orig	Mon Apr  7 18:05:36 2008
 +++ contrib/tcl/configure	Sun Dec  6 20:59:31 2009
 @@ -6685,7 +6685,7 @@ else

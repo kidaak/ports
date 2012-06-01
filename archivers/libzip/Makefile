@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/libzip/Makefile,v 1.5 2012/03/21 10:30:22 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		library for reading, creating and modifying zip archives
 

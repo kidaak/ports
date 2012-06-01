@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/texlive/texmf/Makefile,v 1.29 2012/03/17 21:25:37 kili Exp $
+# $OpenBSD$
 
 COMMENT-context =	texlive texmf for conTeXt
 COMMENT-docs =		texlive documentation

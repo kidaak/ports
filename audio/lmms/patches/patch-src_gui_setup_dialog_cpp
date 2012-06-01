@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/lmms/patches/patch-src_gui_setup_dialog_cpp,v 1.1.1.1 2010/10/28 22:33:41 jakemsr Exp $
+$OpenBSD$
 --- src/gui/setup_dialog.cpp.orig	Thu Dec 24 15:49:25 2009
 +++ src/gui/setup_dialog.cpp	Wed Dec 30 00:25:23 2009
 @@ -55,6 +55,7 @@

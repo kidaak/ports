@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/jove/Makefile,v 1.25 2012/03/18 17:02:00 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	Jonathan's Own Version of Emacs
 

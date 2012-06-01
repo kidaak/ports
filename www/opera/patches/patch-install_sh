@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/opera/patches/patch-install_sh,v 1.25 2010/11/23 13:56:18 ajacoutot Exp $
+$OpenBSD$
 --- install.sh.orig	Mon Jun 21 14:16:08 2010
 +++ install.sh	Tue Nov 23 14:28:30 2010
 @@ -870,7 +870,7 @@ generate_wrapper()

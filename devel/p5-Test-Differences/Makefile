@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Differences/Makefile,v 1.8 2011/08/18 08:10:00 rpointel Exp $
+# $OpenBSD$
 
 COMMENT= 	Test differences in data structures
 

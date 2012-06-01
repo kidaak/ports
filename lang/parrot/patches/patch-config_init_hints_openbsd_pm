@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/parrot/patches/patch-config_init_hints_openbsd_pm,v 1.4 2011/03/09 22:48:32 landry Exp $
+$OpenBSD$
 --- config/init/hints/openbsd.pm.orig	Thu Jan  6 04:44:55 2011
 +++ config/init/hints/openbsd.pm	Wed Mar  9 23:44:36 2011
 @@ -17,13 +17,18 @@ sub runstep {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-LDAP2/Makefile,v 1.6 2011/12/21 16:25:05 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	PHP classes for LDAP, based on Net::LDAP
 

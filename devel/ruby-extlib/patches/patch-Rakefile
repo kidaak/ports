@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ruby-extlib/patches/patch-Rakefile,v 1.1 2011/11/17 16:08:00 jeremy Exp $
+$OpenBSD$
 
 Fudge package dependency to allow running regress.
 

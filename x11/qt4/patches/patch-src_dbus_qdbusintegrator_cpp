@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-src_dbus_qdbusintegrator_cpp,v 1.1 2011/04/03 13:35:31 dcoppa Exp $
+$OpenBSD$
 
 Fixes an invalid conversion error on sparc64.
 http://bugreports.qt.nokia.com/browse/QTBUG-17962

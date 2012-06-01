@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/p5-File-NFSLock/pkg/PLIST,v 1.1.1.1 2010/01/12 19:15:08 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/NFSLock.pm
 @man man/man3p/File::NFSLock.3p

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nmap/patches/patch-nsock_src_nsock_pcap_h,v 1.4 2011/03/28 09:01:24 giovanni Exp $
+$OpenBSD$
 --- nsock/src/nsock_pcap.h.orig	Sat Oct  2 19:26:38 2010
 +++ nsock/src/nsock_pcap.h	Wed Feb  2 13:12:14 2011
 @@ -81,7 +81,7 @@ typedef struct{

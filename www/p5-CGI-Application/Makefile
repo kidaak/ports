@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CGI-Application/Makefile,v 1.9 2011/07/10 11:49:39 jasper Exp $
+# $OpenBSD$
 
 COMMENT = 		MVC web framework for perl
 

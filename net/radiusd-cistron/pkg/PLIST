@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/radiusd-cistron/pkg/PLIST,v 1.13 2011/05/11 12:03:19 jasper Exp $
+@comment $OpenBSD$
 @conflict freeradius-*
 @conflict radiusd-lucent-*
 @extraunexec rm -rf ${SYSCONFDIR}/raddb/*

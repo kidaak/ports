@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/irc/pkg/PLIST,v 1.9 2004/09/15 18:17:41 espie Exp $
+@comment $OpenBSD$
 @man man/man5/iauth.conf.5
 @man man/man8/iauth.8
 @man man/man8/ircd.8

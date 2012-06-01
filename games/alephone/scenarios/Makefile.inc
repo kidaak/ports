@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/games/alephone/scenarios/Makefile.inc,v 1.4 2012/01/27 21:35:24 phessler Exp $
+#	$OpenBSD$
 
 DIST_SUBDIR ?=	alephone
 

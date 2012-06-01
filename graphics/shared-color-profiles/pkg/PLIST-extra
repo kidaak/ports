@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/shared-color-profiles/pkg/PLIST-extra,v 1.2 2011/11/02 20:18:52 ajacoutot Exp $
+@comment $OpenBSD$
 share/color/icc/Oysonar/
 share/color/icc/Oysonar/FOGRA28L_webcoated.icc
 share/color/icc/Oysonar/FOGRA29L_uncoated.icc

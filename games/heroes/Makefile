@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/heroes/Makefile,v 1.24 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	graphically improved game of yore
 

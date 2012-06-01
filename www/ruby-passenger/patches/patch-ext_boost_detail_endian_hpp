@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-ext_boost_detail_endian_hpp,v 1.2 2011/05/17 03:25:18 william Exp $
+$OpenBSD$
 
 Sync with ports/devel/boost/patches/patch-boost_detail_endian_hpp
 

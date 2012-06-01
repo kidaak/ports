@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pfflowd/patches/patch-pfflowd_c,v 1.1 2008/09/24 13:56:00 sthen Exp $
+$OpenBSD$
 --- pfflowd.c.orig	Fri Jun 13 02:40:21 2008
 +++ pfflowd.c	Fri Jun 13 02:56:30 2008
 @@ -210,14 +210,14 @@ connsock(struct sockaddr *addr, socklen_t len)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-activemodel/pkg/PLIST,v 1.2 2011/12/13 17:51:08 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/CHANGELOG.md

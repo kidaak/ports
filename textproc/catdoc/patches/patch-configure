@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/catdoc/patches/patch-configure,v 1.1 2011/11/17 14:42:01 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Thu Nov 17 15:36:45 2011
 +++ configure	Thu Nov 17 15:36:50 2011
 @@ -1499,10 +1499,6 @@ EOF

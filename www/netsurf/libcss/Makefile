@@ -1,12 +1,12 @@
-# $OpenBSD: ports/www/netsurf/libcss/Makefile,v 1.6 2012/01/12 03:17:08 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		CSS parser and selection engine
 
 NETSURF_PROJECT =	libcss
-NETSURF_VERSION =	0.1.1
+NETSURF_VERSION =	0.1.2
 
 CATEGORIES =		www
-SHARED_LIBS =		css 2.0 #0.1.1
+SHARED_LIBS =		css 2.1 #0.1.2
 
 WANTLIB =		parserutils wapcaplet
 LIB_DEPENDS =		www/netsurf/libparserutils \

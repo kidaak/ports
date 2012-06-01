@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/colamd/pkg/PLIST,v 1.3 2010/10/26 18:06:28 pirofti Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/colamd/
 include/colamd/colamd.h

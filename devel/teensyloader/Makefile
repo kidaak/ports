@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/teensyloader/Makefile,v 1.6 2010/12/13 08:27:43 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	in-system programmer for Teensy boards
 

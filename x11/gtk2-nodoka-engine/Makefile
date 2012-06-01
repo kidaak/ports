@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk2-nodoka-engine/Makefile,v 1.8 2012/03/23 13:28:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	GTK+2 engine from Fedora
 

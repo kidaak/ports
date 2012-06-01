@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-AI-NeuralNet-Kohonen/Makefile,v 1.5 2011/03/14 09:17:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		Kohonen's Self-Organizing Maps
 

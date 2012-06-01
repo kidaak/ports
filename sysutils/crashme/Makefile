@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/crashme/Makefile,v 1.2 2011/04/20 20:14:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		test operating environment software robustness
 

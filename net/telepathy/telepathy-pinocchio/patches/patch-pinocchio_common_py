@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/telepathy/telepathy-pinocchio/patches/patch-pinocchio_common_py,v 1.1.1.1 2008/10/27 00:10:16 jasper Exp $
+$OpenBSD$
 --- pinocchio/common.py.orig	Sun Oct 26 19:52:52 2008
 +++ pinocchio/common.py	Sun Oct 26 19:53:03 2008
 @@ -28,7 +28,7 @@ ACCOUNT_DEFAULT = 'default@default'

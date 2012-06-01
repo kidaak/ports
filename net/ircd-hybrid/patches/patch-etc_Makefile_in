@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ircd-hybrid/patches/patch-etc_Makefile_in,v 1.2 2011/10/19 13:46:17 jasper Exp $
+$OpenBSD$
 --- etc/Makefile.in.orig	Fri Oct 14 15:18:51 2011
 +++ etc/Makefile.in	Fri Oct 14 15:24:01 2011
 @@ -257,24 +257,24 @@ clean-libtool:

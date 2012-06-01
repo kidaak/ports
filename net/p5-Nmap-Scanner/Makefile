@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Nmap-Scanner/Makefile,v 1.11 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	perform and manipulate nmap scans using Perl
 

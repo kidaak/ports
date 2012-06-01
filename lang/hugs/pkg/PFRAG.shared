@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/hugs/pkg/PFRAG.shared,v 1.4 2012/03/23 21:33:45 kili Exp $
+@comment $OpenBSD$
 lib/hugs/packages/OpenGL/Graphics/Rendering/OpenGL/GL/BeginEnd.so
 lib/hugs/packages/OpenGL/Graphics/Rendering/OpenGL/GL/Bitmaps.so
 lib/hugs/packages/OpenGL/Graphics/Rendering/OpenGL/GL/BufferObjects.so

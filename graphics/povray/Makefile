@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/povray/Makefile,v 1.24 2012/03/30 19:57:16 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	3D image rendering package
 

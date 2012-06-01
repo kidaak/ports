@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Server-SS-PreFork/Makefile,v 1.3 2011/01/10 08:16:04 landry Exp $
+# $OpenBSD$
 
 COMMENT =		hot-deployable variant of Net::Server::PreFork
 

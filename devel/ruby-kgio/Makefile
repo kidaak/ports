@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-kgio/Makefile,v 1.8 2011/12/21 19:57:30 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	kinder, gentler I/O for Ruby
 

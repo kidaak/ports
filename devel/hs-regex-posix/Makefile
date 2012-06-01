@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-regex-posix/Makefile,v 1.15 2011/12/31 22:12:47 kili Exp $
+# $OpenBSD$
 
 COMMENT =		posix regex backend for regex-base
 

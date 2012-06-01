@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/poppler/pkg/PLIST-qt,v 1.5 2007/12/07 19:55:58 kili Exp $
+@comment $OpenBSD$
 @conflict poppler-<0.5.4p0
 %%SHARED%%
 include/poppler/qt3/

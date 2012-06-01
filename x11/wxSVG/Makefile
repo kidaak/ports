@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wxSVG/Makefile,v 1.17 2011/11/24 08:08:18 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		C++ library to create, manipulate and render SVG files
 

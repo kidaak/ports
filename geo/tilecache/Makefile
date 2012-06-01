@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/tilecache/Makefile,v 1.7 2011/12/20 18:55:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	tile caching frontend for WMS/TMS services
 

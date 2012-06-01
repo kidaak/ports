@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/taglib/patches/patch-cmake_modules_FindCppUnit_cmake,v 1.1 2011/10/14 09:06:57 dcoppa Exp $
+$OpenBSD$
 --- cmake/modules/FindCppUnit.cmake.orig	Thu Oct 13 10:21:42 2011
 +++ cmake/modules/FindCppUnit.cmake	Thu Oct 13 10:22:30 2011
 @@ -30,8 +30,8 @@ ELSE(CPPUNIT_INCLUDE_DIR AND CPPUNIT_LIBRARIES)

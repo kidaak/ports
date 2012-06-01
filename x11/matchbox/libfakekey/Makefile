@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/libfakekey/Makefile,v 1.8 2010/07/30 06:58:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library for converting characters to X key-presses
 DISTNAME=	libfakekey-0.1

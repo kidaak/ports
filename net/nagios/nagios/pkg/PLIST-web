@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nagios/nagios/pkg/PLIST-web,v 1.6 2011/09/05 14:56:46 sthen Exp $
+@comment $OpenBSD$
 cgi-bin/nagios/
 @bin cgi-bin/nagios/avail.cgi
 @bin cgi-bin/nagios/cmd.cgi

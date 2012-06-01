@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/gnupg/Makefile,v 1.80 2012/01/31 10:51:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GNU privacy guard - a free PGP replacement
 

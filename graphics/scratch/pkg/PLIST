@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/scratch/pkg/PLIST,v 1.1.1.1 2009/02/03 14:56:56 sthen Exp $
+@comment $OpenBSD$
 bin/scratch
 lib/scratch/
 lib/scratch/Help/

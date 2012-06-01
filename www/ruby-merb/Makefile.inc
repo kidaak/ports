@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/Makefile.inc,v 1.10 2010/12/08 22:13:24 jeremy Exp $
+# $OpenBSD$
 
 VERSION ?=	1.1.3
 CATEGORIES ?=	www

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_c-common_c,v 1.7 2012/02/22 07:48:10 ajacoutot Exp $
+$OpenBSD$
 --- gcc/c-common.c.orig	Wed Oct 10 16:46:11 2007
 +++ gcc/c-common.c	Thu Jan  5 23:06:40 2012
 @@ -544,6 +544,7 @@ static tree handle_cleanup_attribute (tree *, tree, tr

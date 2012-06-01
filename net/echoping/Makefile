@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/echoping/Makefile,v 1.6 2010/11/19 22:31:33 espie Exp $
+# $OpenBSD$
 
 COMMENT=	test performance of a remote TCP service
 

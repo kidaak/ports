@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/weather/Makefile,v 1.22 2011/07/07 00:08:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	weather plugin for GkrellM2
 

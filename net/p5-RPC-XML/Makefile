@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-RPC-XML/Makefile,v 1.10 2012/04/07 19:59:59 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	perl implementation of XML-RPC
 

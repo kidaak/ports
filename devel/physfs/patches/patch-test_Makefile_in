@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/physfs/patches/patch-test_Makefile_in,v 1.2 2009/04/14 15:17:57 jolan Exp $
+$OpenBSD$
 
 The quotes are wrong and our new libtool chokes on it.
 

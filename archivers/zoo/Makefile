@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/zoo/Makefile,v 1.23 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	handle the old .ZOO archive format
 

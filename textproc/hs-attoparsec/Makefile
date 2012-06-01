@@ -1,8 +1,9 @@
-# $OpenBSD: ports/textproc/hs-attoparsec/Makefile,v 1.7 2012/01/21 12:23:23 kili Exp $
+# $OpenBSD$
 
 COMMENT =		fast combinator parsing for bytestrings
 
-DISTNAME =		attoparsec-0.8.6.1
+DISTNAME =		attoparsec-0.10.1.0
+REVISION =		0
 CATEGORIES =		textproc
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>, \
@@ -18,7 +19,8 @@ MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
 
-RUN_DEPENDS =		devel/hs-deepseq
+RUN_DEPENDS =		devel/hs-deepseq \
+			devel/hs-text>=0.11.1.5
 BUILD_DEPENDS =		${RUN_DEPENDS}
 
 .include <bsd.port.mk>

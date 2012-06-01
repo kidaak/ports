@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/ogre/patches/patch-OgreMain_CMakeLists_txt,v 1.1.1.1 2012/03/18 14:31:00 pascal Exp $
+$OpenBSD$
 --- OgreMain/CMakeLists.txt.orig	Mon Dec 26 16:19:25 2011
 +++ OgreMain/CMakeLists.txt	Mon Dec 26 16:19:35 2011
 @@ -549,7 +549,7 @@ elseif (UNIX)

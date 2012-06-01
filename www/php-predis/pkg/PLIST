@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/php-predis/pkg/PLIST,v 1.3 2012/04/03 08:44:07 dcoppa Exp $
+@comment $OpenBSD$
 @group daemon
 pear/
 pear/lib/

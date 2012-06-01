@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pep8/Makefile,v 1.3 2012/04/08 14:20:47 mpi Exp $
+# $OpenBSD$
 
 COMMENT =		python style guide checker
 

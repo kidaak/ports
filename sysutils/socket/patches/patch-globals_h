@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/socket/patches/patch-globals_h,v 1.1 2011/07/08 11:19:35 jasper Exp $
+$OpenBSD$
 --- globals.h.orig	Sun Aug 30 21:04:27 1992
 +++ globals.h	Fri Jul  8 13:17:27 2011
 @@ -8,7 +8,12 @@ Please read the file COPYRIGHT for further details.

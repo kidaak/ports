@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/py-osd/Makefile,v 1.12 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

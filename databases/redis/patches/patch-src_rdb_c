@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/redis/patches/patch-src_rdb_c,v 1.1 2011/03/21 19:58:28 simon Exp $
+$OpenBSD$
 --- src/rdb.c.orig	Thu Mar 10 20:33:22 2011
 +++ src/rdb.c	Thu Mar 10 20:33:31 2011
 @@ -6,6 +6,7 @@

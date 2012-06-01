@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_auth_kerb/Makefile,v 1.17 2011/09/17 10:29:43 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Apache Kerberos authentication module
 

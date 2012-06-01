@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/sysutils/apcupsd/pkg/apcupsd.rc,v 1.2 2011/11/28 10:46:19 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/apcupsd"
 daemon_flags="--kill-on-powerfail"

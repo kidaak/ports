@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/bgchg/Makefile,v 1.25 2011/07/07 00:08:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	change background image with GkrellM2
 

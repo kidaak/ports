@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/eterm/Makefile,v 1.36 2011/12/20 18:34:42 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	color X11 terminal emulator with transparency support
 COMMENT-kanji=	color japanese terminal emulator with transparency support

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nano/patches/patch-doc_syntax_makefile_nanorc,v 1.2 2009/12/22 19:21:32 naddy Exp $
+$OpenBSD$
 --- doc/syntax/makefile.nanorc.orig	Fri Dec  4 04:43:49 2009
 +++ doc/syntax/makefile.nanorc	Tue Dec 22 19:38:52 2009
 @@ -2,7 +2,7 @@

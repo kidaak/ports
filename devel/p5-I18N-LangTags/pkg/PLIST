@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-I18N-LangTags/pkg/PLIST,v 1.1.1.1 2006/11/06 13:07:22 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/I18N/
 ${P5SITE}/I18N/LangTags/
 ${P5SITE}/I18N/LangTags.pm

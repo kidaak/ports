@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/inadyn/pkg/inadyn.rc,v 1.1.1.1 2011/07/21 12:17:02 pea Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/inadyn"
 daemon_flags="-F ${SYSCONFDIR}/inadyn.conf -b -s -d _inadyn:_inadyn"

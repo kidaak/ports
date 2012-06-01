@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Frame-Layer-IPv6/pkg/PLIST,v 1.2 2012/03/15 17:52:21 gsoares Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/Frame/Layer/IPv6/
 ${P5SITE}/Net/Frame/Layer/IPv6.pm
 ${P5SITE}/Net/Frame/Layer/IPv6/Fragment.pm

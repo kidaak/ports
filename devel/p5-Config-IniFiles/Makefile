@@ -1,9 +1,9 @@
-# $OpenBSD: ports/devel/p5-Config-IniFiles/Makefile,v 1.22 2011/07/10 10:00:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	module for reading .ini-style configuration files
 
 MODULES =	cpan
-DISTNAME =	Config-IniFiles-2.68
+DISTNAME =	Config-IniFiles-2.71
 CATEGORIES =	devel
 USE_GROFF =	Yes
 
@@ -18,5 +18,8 @@ PERMIT_DISTFILES_FTP =	Yes
 CPAN_AUTHOR =		SHLOMIF
 
 CONFIGURE_STYLE =	modbuild
+
+RUN_DEPENDS =		devel/p5-List-MoreUtils
+BUILD_DEPENDS =		${RUN_DEPENDS}
 
 .include <bsd.port.mk>

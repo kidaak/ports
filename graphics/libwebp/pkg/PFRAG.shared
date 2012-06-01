@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/libwebp/pkg/PFRAG.shared,v 1.1.1.1 2011/12/22 08:36:33 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libwebp.so.${LIBwebp_VERSION}

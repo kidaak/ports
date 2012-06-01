@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-Apache-MP3/patches/patch-Makefile_PL,v 1.1 2002/02/07 12:21:39 naddy Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Mon Feb  4 18:06:50 2002
 +++ Makefile.PL	Mon Feb  4 18:07:26 2002
 @@ -10,7 +10,6 @@ WriteMakefile(

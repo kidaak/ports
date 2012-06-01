@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/yaws/patches/patch-www_doc_yaws,v 1.1.1.1 2010/12/22 18:38:03 jasper Exp $
+$OpenBSD$
 
 We don't install the pdf file at the moment.
 

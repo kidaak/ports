@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Domain-TLD/Makefile,v 1.7 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to work with TLD names
 

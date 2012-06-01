@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/dictionary/Makefile,v 1.1.1.1 2012/03/28 15:35:26 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GNOME dictionary application
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-URL-Mapper/Makefile,v 1.4 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	simple and flexible way to build nice URLs
 

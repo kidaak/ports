@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/golem/Makefile,v 1.15 2011/04/17 18:08:55 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		fast and light window manager with plug-ins
 

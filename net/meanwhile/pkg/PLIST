@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/meanwhile/pkg/PLIST,v 1.1.1.1 2006/01/08 15:27:25 alek Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/meanwhile/
 include/meanwhile/mw_channel.h

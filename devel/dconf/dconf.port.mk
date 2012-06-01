@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/dconf/dconf.port.mk,v 1.4 2011/11/11 11:39:13 espie Exp $
+# $OpenBSD$
 
 # This module is used by ports installing gsettings schemas under
 #     PREFIX/share/glib-2.0/schemas/

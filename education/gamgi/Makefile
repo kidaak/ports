@@ -1,4 +1,4 @@
-# $OpenBSD: ports/education/gamgi/Makefile,v 1.18 2011/09/28 16:45:17 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		General Atomistic Modelling Graphic Interface
 

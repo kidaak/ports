@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-transformers/Makefile,v 1.5 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =		concrete monad transformers
 

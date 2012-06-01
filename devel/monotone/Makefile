@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/monotone/Makefile,v 1.6 2010/11/15 19:46:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	distributed version control system
 

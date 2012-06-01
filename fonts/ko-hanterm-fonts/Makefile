@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/ko-hanterm-fonts/Makefile,v 1.1.1.1 2011/07/19 09:13:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	extra Korean fonts
 

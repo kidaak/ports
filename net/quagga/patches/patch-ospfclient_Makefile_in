@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/quagga/patches/patch-ospfclient_Makefile_in,v 1.9 2012/03/31 10:51:47 sthen Exp $
+$OpenBSD$
 --- ospfclient/Makefile.in.orig	Mon Mar 12 11:43:04 2012
 +++ ospfclient/Makefile.in	Tue Mar 20 20:11:40 2012
 @@ -131,7 +131,8 @@ CPP = @CPP@

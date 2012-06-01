@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/ftdi-eeprom/Makefile,v 1.8 2011/06/23 22:50:27 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	tool to program the eeprom on FTDI usb devices
 

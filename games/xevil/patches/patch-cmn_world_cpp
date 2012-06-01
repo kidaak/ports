@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-cmn_world_cpp,v 1.1 2007/12/07 15:54:56 ajacoutot Exp $
+$OpenBSD$
 --- cmn/world.cpp.orig	Fri Dec  7 14:03:01 2007
 +++ cmn/world.cpp	Fri Dec  7 14:03:16 2007
 @@ -35,8 +35,10 @@

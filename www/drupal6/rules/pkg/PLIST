@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/rules/pkg/PLIST,v 1.2 2011/01/08 12:48:46 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}rules/

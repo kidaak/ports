@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/speech-dispatcher/Makefile,v 1.1.1.1 2011/10/20 11:28:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	common interface to speech synthesis
 

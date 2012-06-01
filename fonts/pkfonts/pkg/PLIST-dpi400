@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/pkfonts/pkg/PLIST-dpi400,v 1.1.1.1 2011/07/19 09:16:08 jasper Exp $
+@comment $OpenBSD$
 @pkgpath print/pkfonts,dpi400
 lib/fonts/pk400/
 lib/fonts/pk400/cmb10.400pk

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/josm/Makefile,v 1.16 2011/12/15 21:35:18 kili Exp $
+# $OpenBSD$
 
 COMMENT=		OpenStreetMap map editor
 

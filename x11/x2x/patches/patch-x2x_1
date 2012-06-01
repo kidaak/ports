@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/x2x/patches/patch-x2x_1,v 1.2 2011/11/22 09:33:09 jasper Exp $
+$OpenBSD$
 
 - Fix display of usage line.
 - Various fixes including -north/-south support.

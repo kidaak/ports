@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cscope/pkg/PLIST,v 1.5 2009/05/26 15:44:57 benoit Exp $
+@comment $OpenBSD$
 @bin bin/cscope
 bin/cscope-indexer
 bin/ocs

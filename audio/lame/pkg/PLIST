@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/lame/pkg/PLIST,v 1.11 2011/10/23 09:14:19 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath audio/lame
 @pkgpath audio/lame,no_x11
 @bin bin/lame

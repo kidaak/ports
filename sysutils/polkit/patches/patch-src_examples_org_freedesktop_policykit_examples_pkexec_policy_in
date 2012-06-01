@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/polkit/patches/patch-src_examples_org_freedesktop_policykit_examples_pkexec_policy_in,v 1.1.1.1 2010/07/01 07:46:21 ajacoutot Exp $
+$OpenBSD$
 --- src/examples/org.freedesktop.policykit.examples.pkexec.policy.in.orig	Sun Jun 27 20:12:32 2010
 +++ src/examples/org.freedesktop.policykit.examples.pkexec.policy.in	Sun Jun 27 20:12:40 2010
 @@ -16,7 +16,7 @@

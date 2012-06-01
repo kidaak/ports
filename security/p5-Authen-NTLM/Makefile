@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Authen-NTLM/Makefile,v 1.1.1.1 2011/07/20 21:42:49 schwarze Exp $
+# $OpenBSD$
 
 COMMENT =	perl interface to the NTLM authentication mechanism
 

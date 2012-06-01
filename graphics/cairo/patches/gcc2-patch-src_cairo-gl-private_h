@@ -1,6 +1,6 @@
 remove unnamed union to please gcc-2.95
 
-$OpenBSD: ports/graphics/cairo/patches/gcc2-patch-src_cairo-gl-private_h,v 1.1 2011/01/05 13:26:05 eric Exp $
+$OpenBSD$
 --- src/cairo-gl-private.h.orig	Mon Jan  3 12:23:14 2011
 +++ src/cairo-gl-private.h	Mon Jan  3 12:23:40 2011
 @@ -142,7 +142,6 @@ typedef enum cairo_gl_var_type {

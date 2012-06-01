@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/gtklp/Makefile,v 1.16 2012/04/11 15:59:56 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GTK+2 frontend to CUPS
 

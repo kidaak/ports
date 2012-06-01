@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/c2t/Makefile,v 1.26 2010/10/18 16:57:47 espie Exp $	
+# $OpenBSD$	
 
 COMMENT=	translate GB/Big5 encoding to tone pinyin
 

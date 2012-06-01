@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/gutenprint/patches/patch-doc_Makefile_in,v 1.4 2011/05/04 14:55:02 ajacoutot Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Mon May  2 03:32:19 2011
 +++ doc/Makefile.in	Wed May  4 16:41:29 2011
 @@ -271,7 +271,7 @@ cups_prefix = @cups_prefix@

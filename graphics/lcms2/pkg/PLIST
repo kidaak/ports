@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/lcms2/pkg/PLIST,v 1.1.1.1 2011/06/28 23:12:29 sthen Exp $
+@comment $OpenBSD$
 @bin bin/jpgicc
 @bin bin/linkicc
 @bin bin/psicc

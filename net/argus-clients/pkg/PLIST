@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/argus-clients/pkg/PLIST,v 1.2 2010/04/15 19:16:42 steven Exp $
+@comment $OpenBSD$
 @comment argus/
 @comment bin/argusbug
 @bin bin/ra

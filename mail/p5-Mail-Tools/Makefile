@@ -1,4 +1,4 @@
-#   $OpenBSD: ports/mail/p5-Mail-Tools/Makefile,v 1.22 2010/12/27 11:49:06 jasper Exp $
+#   $OpenBSD$
 
 COMMENT=	modules for handling mail with perl
 

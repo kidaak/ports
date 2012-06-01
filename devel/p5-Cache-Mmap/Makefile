@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Cache-Mmap/Makefile,v 1.11 2010/12/19 23:46:32 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

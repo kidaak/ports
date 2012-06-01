@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/argyll/pkg/README,v 1.1.1.1 2011/11/06 17:35:53 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

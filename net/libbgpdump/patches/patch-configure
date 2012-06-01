@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libbgpdump/patches/patch-configure,v 1.2 2010/10/29 13:53:35 sthen Exp $
+$OpenBSD$
 
 Don't hardcode -O3
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/dcled/Makefile,v 1.3 2010/11/20 17:22:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =	userland driver for Dream Link USB LED Message Board
 

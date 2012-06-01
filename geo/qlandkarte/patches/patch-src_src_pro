@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qlandkarte/patches/patch-src_src_pro,v 1.4 2010/05/21 19:56:02 jasper Exp $
+$OpenBSD$
 --- src/src.pro.orig	Tue May 13 21:53:08 2008
 +++ src/src.pro	Fri May 21 21:45:06 2010
 @@ -5,7 +5,7 @@

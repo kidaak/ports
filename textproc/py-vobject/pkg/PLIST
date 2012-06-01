@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-vobject/pkg/PLIST,v 1.1.1.1 2008/12/06 13:38:47 jasper Exp $
+@comment $OpenBSD$
 bin/change_tz
 bin/ics_diff
 lib/python${MODPY_VERSION}/site-packages/vobject/

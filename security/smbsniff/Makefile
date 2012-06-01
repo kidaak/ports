@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/smbsniff/Makefile,v 1.9 2010/10/18 21:41:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	sniffer for LanManager environment (ms/samba workstations)
 DISTNAME=	smbsniff-0.0.1b

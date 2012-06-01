@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-Smart/pkg/PLIST,v 1.1.1.1 2005/07/23 07:53:43 aanriot Exp $
+@comment $OpenBSD$
 ${P5SITE}/XML/
 ${P5SITE}/XML/Smart/
 ${P5SITE}/XML/Smart.pm

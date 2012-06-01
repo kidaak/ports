@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/sawfish/patches/patch-Makefile_in,v 1.2 2011/11/15 19:32:49 jasper Exp $
+$OpenBSD$
 
 Don't install the directory if it's not going to be used.
 

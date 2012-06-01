@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/wwwcount/pkg/PLIST,v 1.11 2004/11/20 17:59:17 alek Exp $
+@comment $OpenBSD$
 bin/extdgts
 bin/mkstrip
 lib/wwwcount/

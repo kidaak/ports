@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-tornado/pkg/PLIST,v 1.1.1.1 2012/01/13 20:34:35 rpointel Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/tornado/
 lib/python${MODPY_VERSION}/site-packages/tornado-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/tornado/__init__.py

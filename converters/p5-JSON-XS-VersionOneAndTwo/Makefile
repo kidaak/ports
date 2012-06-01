@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-JSON-XS-VersionOneAndTwo/Makefile,v 1.4 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	shim to support either v1 or v2 APIs of JSON::XS
 

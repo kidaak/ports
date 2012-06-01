@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/djvulibre/patches/patch-configure,v 1.4 2011/03/17 14:56:54 shadchin Exp $
+$OpenBSD$
 --- configure.orig	Sun Mar  6 22:43:17 2011
 +++ configure	Sat Mar 12 21:08:54 2011
 @@ -14885,13 +14885,12 @@ fi

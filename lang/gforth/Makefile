@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gforth/Makefile,v 1.8 2011/03/14 09:17:01 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =	amd64 i386 powerpc sparc sparc64
 

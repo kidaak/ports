@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/qt-creator/patches/patch-src_libs_extensionsystem_extensionsystem_pro,v 1.2 2010/05/28 12:12:04 espie Exp $
+$OpenBSD$
 --- src/libs/extensionsystem/extensionsystem.pro.orig	Fri Jan 15 18:36:52 2010
 +++ src/libs/extensionsystem/extensionsystem.pro	Fri May 28 12:10:12 2010
 @@ -4,7 +4,7 @@ DEFINES += EXTENSIONSYSTEM_LIBRARY

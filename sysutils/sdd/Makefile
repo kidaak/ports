@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/sdd/Makefile,v 1.23 2012/03/16 22:23:22 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	faster and improved version of dd
 

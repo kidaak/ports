@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/gkrellm/gkrellm/patches/patch-server_gkrellmd_h,v 1.9 2011/03/02 06:59:55 ajacoutot Exp $
+$OpenBSD$
 --- server/gkrellmd.h.orig	Tue Sep 14 18:34:34 2010
 +++ server/gkrellmd.h	Mon Feb 14 07:46:00 2011
 @@ -127,12 +127,12 @@ GKRELLMD_VERSION_REV >= (rev)))

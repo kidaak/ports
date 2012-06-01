@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-B-Deobfuscate/Makefile,v 1.12 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl module for use in de-obfuscating source code
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/synaesthesia/patches/patch-Makefile_in,v 1.2 2002/09/08 07:43:52 mark Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Jun  7 22:41:05 2000
 +++ Makefile.in	Sun Sep  8 00:38:45 2002
 @@ -79,7 +79,7 @@ PROGRAMS =  $(bin_PROGRAMS)

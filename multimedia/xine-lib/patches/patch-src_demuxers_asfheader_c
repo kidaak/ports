@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-lib/patches/patch-src_demuxers_asfheader_c,v 1.3 2012/04/07 05:48:49 ajacoutot Exp $
+$OpenBSD$
 
 Fix using uninitialized data.
 

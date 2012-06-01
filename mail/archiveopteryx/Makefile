@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/archiveopteryx/Makefile,v 1.10 2011/06/02 13:41:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		mail server storing messages in a database
 

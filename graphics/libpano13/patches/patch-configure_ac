@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libpano13/patches/patch-configure_ac,v 1.2 2010/09/16 07:52:54 sthen Exp $
+$OpenBSD$
 --- configure.ac.orig	Sat Jul 24 22:16:56 2010
 +++ configure.ac	Sat Sep  4 21:28:47 2010
 @@ -45,6 +45,11 @@ case "${host_os}" in

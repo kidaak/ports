@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/openal/patches/patch-Alc_alcConfig_c,v 1.1 2011/06/26 09:58:08 sthen Exp $
+$OpenBSD$
 --- Alc/alcConfig.c.orig	Sat Jun 25 19:34:30 2011
 +++ Alc/alcConfig.c	Sat Jun 25 19:34:48 2011
 @@ -226,7 +226,7 @@ void ReadALConfig(void)

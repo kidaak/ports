@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/p5-POE-Component-SSLify/patches/patch-lib_POE_Component_SSLify_pm,v 1.1 2011/12/29 11:50:36 bluhm Exp $
+$OpenBSD$
 --- lib/POE/Component/SSLify.pm.orig	Sun Feb  8 17:31:32 2009
 +++ lib/POE/Component/SSLify.pm	Sun Oct  9 21:35:09 2011
 @@ -17,7 +17,7 @@ BEGIN {

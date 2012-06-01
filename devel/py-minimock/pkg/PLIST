@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-minimock/pkg/PLIST,v 1.1.1.1 2010/10/12 14:52:42 sthen Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/MiniMock-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/MiniMock-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/MiniMock-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

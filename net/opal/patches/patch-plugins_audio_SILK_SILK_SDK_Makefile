@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/opal/patches/patch-plugins_audio_SILK_SILK_SDK_Makefile,v 1.1 2011/10/26 16:59:34 ajacoutot Exp $
+$OpenBSD$
 --- plugins/audio/SILK/SILK_SDK/Makefile.orig	Fri Oct 14 08:59:53 2011
 +++ plugins/audio/SILK/SILK_SDK/Makefile	Wed Oct 26 11:45:32 2011
 @@ -16,7 +16,7 @@ LIBPREFIX = lib

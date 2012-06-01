@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/utils3/patches/patch-klaptopdaemon_portable_cpp,v 1.11 2008/03/26 11:11:42 espie Exp $
+$OpenBSD$
 --- klaptopdaemon/portable.cpp.orig	Wed Feb 13 10:38:14 2008
 +++ klaptopdaemon/portable.cpp	Wed Mar 26 10:54:47 2008
 @@ -40,6 +40,7 @@

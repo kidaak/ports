@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/mpg123/pkg/PLIST,v 1.5 2008/11/11 20:35:49 naddy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/mpg123
 include/mpg123.h

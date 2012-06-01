@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/qhull/patches/patch-CMakeLists_txt,v 1.2 2012/04/16 08:07:39 jasper Exp $
+$OpenBSD$
 
 Do not create versioned executables.
 

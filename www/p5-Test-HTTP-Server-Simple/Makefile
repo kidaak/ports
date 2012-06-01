@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Test-HTTP-Server-Simple/Makefile,v 1.6 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	test framework for HTTP::Server::Simple
 

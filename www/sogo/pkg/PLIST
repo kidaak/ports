@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/sogo/pkg/PLIST,v 1.10 2012/03/31 17:02:23 sebastia Exp $
+@comment $OpenBSD$
 @newgroup _sogo:659
 @newuser _sogo:659:_sogo:daemon:SOGo user:/var/sogo:/bin/sh
 include/GDLContentStore/

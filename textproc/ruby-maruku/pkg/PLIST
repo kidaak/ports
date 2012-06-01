@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-maruku/pkg/PLIST,v 1.1.1.1 2010/12/20 18:18:12 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/maruku${GEM_BIN_SUFFIX}
 ${GEM_BIN}/marutex${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem

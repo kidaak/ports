@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/lam/Makefile,v 1.22 2010/11/15 19:45:59 espie Exp $
+# $OpenBSD$
 # Original from: Yannick Cote
 
 DISTNAME=		lam-6.5.9

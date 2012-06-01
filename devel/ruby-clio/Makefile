@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-clio/Makefile,v 1.8 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Ruby library for creating command line tools
 

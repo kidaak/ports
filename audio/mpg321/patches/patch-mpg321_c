@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mpg321/patches/patch-mpg321_c,v 1.6 2008/10/30 14:46:59 naddy Exp $
+$OpenBSD$
 --- mpg321.c.orig	Sun Mar 24 06:49:20 2002
 +++ mpg321.c	Thu Oct 30 14:48:54 2008
 @@ -75,9 +75,15 @@ void mpg321_error(char *file)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/xnc/Makefile,v 1.25 2010/11/19 07:23:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	filemanager for X Window
 

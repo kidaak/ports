@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/geotiff/pkg/PLIST,v 1.6 2010/11/21 09:31:55 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/applygeo
 @bin bin/csv2html

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-sphinx/Makefile,v 1.8 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT =		python documentation generator
 

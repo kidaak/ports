@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-net-scp/Makefile,v 1.12 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =		pure-Ruby implementation of the SCP protocol
 

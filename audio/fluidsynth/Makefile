@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/fluidsynth/Makefile,v 1.14 2012/01/03 07:03:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		SoundFont2 software synthesizer
 DISTNAME =		fluidsynth-1.0.9

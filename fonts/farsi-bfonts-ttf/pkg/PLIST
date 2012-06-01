@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/farsi-bfonts-ttf/pkg/PLIST,v 1.1.1.1 2011/07/19 09:16:06 jasper Exp $
+@comment $OpenBSD$
 @pkgpath x11/farsi-bfonts-ttf
 lib/X11/fonts/
 @fontdir lib/X11/fonts/farsi-bfonts/

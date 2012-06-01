@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-DNS-Resolver-Programmable/pkg/PLIST,v 1.1.1.1 2011/09/21 07:56:16 giovanni Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/DNS/
 ${P5SITE}/Net/DNS/Resolver/
 ${P5SITE}/Net/DNS/Resolver/Programmable.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/hydra/patches/patch-Makefile_am,v 1.2 2011/11/05 15:24:39 nigel Exp $
+$OpenBSD$
 --- Makefile.am.orig	Sun Oct  2 09:06:16 2011
 +++ Makefile.am	Wed Nov  2 22:11:22 2011
 @@ -2,7 +2,7 @@

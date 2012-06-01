@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/sdl/patches/patch-src_video_SDL_blit_N_c,v 1.1 2012/03/02 09:10:38 dcoppa Exp $
+$OpenBSD$
 
 Fixed bug 1424 - Handling of alpha channel in Altivec accelerated blit functions
 

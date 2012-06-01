@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/evilwm/Makefile,v 1.16 2010/11/22 08:36:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=		minimalist window manager for the X Window System
 

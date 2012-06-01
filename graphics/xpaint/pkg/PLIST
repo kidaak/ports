@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/xpaint/pkg/PLIST,v 1.7 2005/09/05 13:53:45 espie Exp $
+@comment $OpenBSD$
 bin/xpaint
 lib/X11/app-defaults/XPaint
 lib/X11/app-defaults/XPaint_es

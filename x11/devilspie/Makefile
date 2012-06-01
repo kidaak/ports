@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/devilspie/Makefile,v 1.20 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	window manipulation tool
 

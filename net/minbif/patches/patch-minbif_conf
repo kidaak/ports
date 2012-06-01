@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/minbif/patches/patch-minbif_conf,v 1.1.1.1 2010/09/13 19:44:40 landry Exp $
+$OpenBSD$
 --- minbif.conf.orig	Thu Jul  1 21:49:16 2010
 +++ minbif.conf	Thu Jul  1 21:49:25 2010
 @@ -3,7 +3,7 @@ path {

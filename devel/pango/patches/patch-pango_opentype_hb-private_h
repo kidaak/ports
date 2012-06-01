@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pango/patches/patch-pango_opentype_hb-private_h,v 1.2 2012/03/23 13:20:21 ajacoutot Exp $
+$OpenBSD$
 --- pango/opentype/hb-private.h.orig	Tue Nov 22 19:59:54 2011
 +++ pango/opentype/hb-private.h	Fri Mar 16 15:48:41 2012
 @@ -172,6 +172,15 @@ typedef GStaticMutex hb_mutex_t;

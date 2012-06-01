@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Gtk2-Ex-FormFactory/pkg/PLIST,v 1.1.1.1 2007/05/25 05:28:12 steven Exp $
+@comment $OpenBSD$
 ${P5SITE}/Gtk2/
 ${P5SITE}/Gtk2/Ex/
 ${P5SITE}/Gtk2/Ex/FormFactory/

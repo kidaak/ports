@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openafs/patches/patch-src_afs_OBSD_osi_vfsops_c,v 1.2 2011/03/02 10:40:16 jasper Exp $
+$OpenBSD$
 diff -u src/afs/OBSD/osi_vfsops.c.orig src/afs/OBSD/osi_vfsops.c
 --- src/afs/OBSD/osi_vfsops.c.orig	Fri Mar 11 00:50:43 2005
 +++ src/afs/OBSD/osi_vfsops.c	Tue Apr 22 17:22:54 2008

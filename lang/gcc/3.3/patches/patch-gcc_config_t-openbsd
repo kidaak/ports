@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_t-openbsd,v 1.1.1.1 2005/01/03 15:21:27 espie Exp $
+$OpenBSD$
 --- gcc/config/t-openbsd.orig	Fri Dec 21 00:35:42 2001
 +++ gcc/config/t-openbsd	Mon Jan  3 10:17:43 2005
 @@ -3,3 +3,9 @@ STMP_FIXPROTO =

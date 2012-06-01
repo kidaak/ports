@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/rt/Makefile,v 1.17 2011/11/21 22:56:52 robert Exp $
+# $OpenBSD$
 
 COMMENT=		industrial-grade ticketing system
 

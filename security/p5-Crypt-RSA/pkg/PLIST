@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Crypt-RSA/pkg/PLIST,v 1.2 2005/12/12 21:14:03 sturm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Crypt/RSA/
 ${P5SITE}/Crypt/RSA.pm
 ${P5SITE}/Crypt/RSA/DataFormat.pm

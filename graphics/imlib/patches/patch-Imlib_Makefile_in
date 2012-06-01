@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/imlib/patches/patch-Imlib_Makefile_in,v 1.4 2009/01/09 16:21:42 naddy Exp $
+$OpenBSD$
 --- Imlib/Makefile.in.orig	Mon Mar 25 17:50:26 2002
 +++ Imlib/Makefile.in	Fri Jan  9 17:20:41 2009
 @@ -120,12 +120,12 @@ include_HEADERS = Imlib.h Imlib_private.h Imlib_types.

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/gstreamer-0.10/core/pkg/PLIST,v 1.10 2012/02/21 08:45:17 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gstreamer-frontend-*
 @conflict gstreamer->=0.8,<0.10
 @pkgpath multimedia/gstreamer-0.10/core,-main

@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-directory_sdks_c-sdk_configure_in,v 1.1 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- directory/sdks/c-sdk/configure.in.orig	Mon Feb 21 12:47:41 2011
 +++ directory/sdks/c-sdk/configure.in	Wed Mar  2 10:28:32 2011
 @@ -1820,7 +1820,7 @@ mips-sony-newsos*)

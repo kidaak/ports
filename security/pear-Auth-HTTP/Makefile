@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pear-Auth-HTTP/Makefile,v 1.6 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	HTTP authentication
 

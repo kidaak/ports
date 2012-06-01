@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-SVN-Dump/Makefile,v 1.3 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interface to subversion dumps
 

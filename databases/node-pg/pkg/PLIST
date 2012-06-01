@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/node-pg/pkg/PLIST,v 1.1.1.1 2012/04/03 18:49:11 jeremy Exp $
+@comment $OpenBSD$
 lib/node_modules/pg/
 lib/node_modules/pg/.lock-wscript
 lib/node_modules/pg/.npmignore

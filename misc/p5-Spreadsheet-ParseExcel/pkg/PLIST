@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/p5-Spreadsheet-ParseExcel/pkg/PLIST,v 1.6 2010/10/23 11:59:12 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Spreadsheet/
 ${P5SITE}/Spreadsheet/ParseExcel/
 ${P5SITE}/Spreadsheet/ParseExcel.pm

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xboard/pkg/PLIST,v 1.7 2004/09/18 12:43:28 espie Exp $
+@comment $OpenBSD$
 @conflict cmail-*
 bin/cmail
 bin/pxboard

@@ -1,9 +1,7 @@
-# $OpenBSD: ports/productivity/tryton/ldap_connection/Makefile,v 1.7 2012/01/24 10:16:10 ajacoutot Exp $
+# $OpenBSD$
 
-MODPY_EGG_VERSION =     2.2.0
+MODPY_EGG_VERSION =	2.4.0
 TRYTOND_MODULE =	ldap_connection
-
-REVISION =		0
 
 RUN_DEPENDS =		databases/py-ldap
 

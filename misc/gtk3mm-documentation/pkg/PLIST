@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/gtk3mm-documentation/pkg/PLIST,v 1.5 2012/04/16 11:56:10 ajacoutot Exp $
+@comment $OpenBSD$
 share/doc/gtkmm-3.0/
 share/doc/gtkmm-3.0/tutorial/
 share/doc/gtkmm-3.0/tutorial/html/

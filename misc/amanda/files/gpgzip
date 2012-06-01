@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/misc/amanda/files/gpgzip,v 1.1 2005/05/31 09:09:30 db Exp $
+# $OpenBSD$
 #
 # AMANDA gzip wrapper for GPG encrypted backups
 # modified version from jaf@uchicago.edu

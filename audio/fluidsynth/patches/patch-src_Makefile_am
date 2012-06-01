@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/fluidsynth/patches/patch-src_Makefile_am,v 1.2 2009/10/15 15:44:50 jakemsr Exp $
+$OpenBSD$
 --- src/Makefile.am.orig	Tue Feb  3 23:34:02 2009
 +++ src/Makefile.am	Tue Oct 13 21:12:04 2009
 @@ -33,6 +33,10 @@ if OSS_SUPPORT

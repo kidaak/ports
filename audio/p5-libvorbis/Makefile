@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-libvorbis/Makefile,v 1.21 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

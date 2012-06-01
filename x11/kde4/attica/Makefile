@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/attica/Makefile,v 1.2 2010/07/10 16:57:22 espie Exp $
+# $OpenBSD$
 
 VERSION =		0.1.4
 COMMENT =		collaboration services library

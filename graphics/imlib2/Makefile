@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/imlib2/Makefile,v 1.31 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	image manipulation library
 

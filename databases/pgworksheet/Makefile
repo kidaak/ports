@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pgworksheet/Makefile,v 1.9 2011/09/16 08:48:03 espie Exp $
+# $OpenBSD$
 
 COMMENT =	simple PostgreSQL GUI front end
 

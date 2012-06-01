@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-home_run/Makefile,v 1.7 2012/04/06 19:29:20 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	fast Date/DateTime classes for ruby
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/uim/pkg/PLIST-gtk,v 1.7 2011/09/13 06:42:50 jasper Exp $
+@comment $OpenBSD$
 @bin bin/uim-dict-gtk
 @bin bin/uim-im-switcher-gtk
 @bin bin/uim-input-pad-ja

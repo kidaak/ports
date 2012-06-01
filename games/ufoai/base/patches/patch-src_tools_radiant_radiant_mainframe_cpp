@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-src_tools_radiant_radiant_mainframe_cpp,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- src/tools/radiant/radiant/mainframe.cpp.orig	Mon Apr 25 19:52:27 2011
 +++ src/tools/radiant/radiant/mainframe.cpp	Mon Apr 25 19:53:20 2011
 @@ -426,7 +426,7 @@ class ModuleLoader

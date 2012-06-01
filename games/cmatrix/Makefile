@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/cmatrix/Makefile,v 1.5 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=		scrolling 'Matrix'-like screen
 DISTNAME=		cmatrix-1.2a

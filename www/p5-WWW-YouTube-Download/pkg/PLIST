@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-WWW-YouTube-Download/pkg/PLIST,v 1.2 2012/01/24 00:44:47 nigel Exp $
+@comment $OpenBSD$
 bin/youtube-download
 bin/youtube-playlists
 ${P5SITE}/WWW/YouTube/

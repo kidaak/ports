@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/libdv/Makefile,v 1.17 2012/02/21 22:36:43 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		Quasar DV codec
 

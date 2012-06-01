@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-bytecodeassembler/Makefile,v 1.5 2011/09/16 09:24:54 espie Exp $
+# $OpenBSD$
 
 COMMENT =		python bytecode assembler
 

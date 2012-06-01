@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/microblog-purple/patches/patch-global_mak,v 1.1 2010/10/10 15:12:50 jasper Exp $
+$OpenBSD$
 
 Don't forget to look in ${LOCALBASE}/include for headers.
 

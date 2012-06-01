@@ -1,10 +1,10 @@
-# $OpenBSD: ports/www/tt-rss/Makefile,v 1.9 2012/03/15 11:28:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		webbased rss reader with standalone look and feel
 
 DISTNAME=		tt-rss-1.5.10
 CATEGORIES=		www
-REVISION=		0
+REVISION=		1
 
 HOMEPAGE=		http://tt-rss.org/
 

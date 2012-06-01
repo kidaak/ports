@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/xinvest/patches/patch-xinvest_c,v 1.1 2010/04/27 19:45:49 naddy Exp $
+$OpenBSD$
 --- xinvest.c.orig	Tue Apr 27 21:38:38 2010
 +++ xinvest.c	Tue Apr 27 21:39:01 2010
 @@ -1650,6 +1650,7 @@ int main (int argc, char **argv)

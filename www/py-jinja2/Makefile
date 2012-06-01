@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-jinja2/Makefile,v 1.13 2011/09/20 07:24:03 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =		fast, optionally sandboxed, Python template engine
 

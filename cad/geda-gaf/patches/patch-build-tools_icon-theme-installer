@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/geda-gaf/patches/patch-build-tools_icon-theme-installer,v 1.1.1.1 2010/04/11 22:22:40 edd Exp $
+$OpenBSD$
 
 Don't require an absolute path for the install command.
 

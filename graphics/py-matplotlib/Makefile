@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/py-matplotlib/Makefile,v 1.42 2012/02/28 23:01:23 rpointel Exp $
+# $OpenBSD$
 
 VMEM_WARNING=	Yes
 

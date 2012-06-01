@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gmrun/patches/patch-config_gmrunrc,v 1.1.1.1 2007/07/29 18:47:29 kili Exp $
+$OpenBSD$
 --- config/gmrunrc.orig	Fri Jun 20 09:18:58 2003
 +++ config/gmrunrc	Sun Jul 29 20:13:06 2007
 @@ -3,7 +3,7 @@

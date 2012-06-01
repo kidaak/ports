@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/moserial/Makefile,v 1.17 2012/03/30 14:09:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		serial terminal for GNOME
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/teknap/pkg/PLIST,v 1.5 2004/08/06 14:37:28 espie Exp $
+@comment $OpenBSD$
 bin/TekNap-1.3g
 bin/teknap
 share/TekNap/

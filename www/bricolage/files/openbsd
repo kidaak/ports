@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/bricolage/files/openbsd,v 1.2 2007/05/04 09:57:52 bernd Exp $
+# $OpenBSD$
 # Required programs.  PG_CONFIG_PATH is the location of PostgreSQL's pg_config 
 # script.  APACHE_PATH is the path to the Apache 1.3 executable.  APACHE_EXE is
 # the filename of the executable itself.  EXPAT_PATH is the path to the Expat 

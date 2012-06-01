@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/akpop3d/patches/patch-akpop3d_8,v 1.1.1.1 2004/11/08 21:57:05 naddy Exp $
+$OpenBSD$
 --- akpop3d.8.orig	Sun Jul 27 18:51:25 2003
 +++ akpop3d.8	Sun Oct 17 17:22:09 2004
 @@ -17,6 +17,7 @@

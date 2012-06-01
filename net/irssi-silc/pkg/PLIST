@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/irssi-silc/pkg/PLIST,v 1.7 2009/01/11 02:05:54 martynas Exp $
+@comment $OpenBSD$
 lib/irssi/modules/libfe_common_silc.la
 lib/irssi/modules/libfe_common_silc.so
 @comment lib/irssi/modules/libfe_silc.so

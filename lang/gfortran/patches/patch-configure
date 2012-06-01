@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-configure,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- configure.orig	Thu Jun 21 01:07:21 2007
 +++ configure	Sun Jun 20 18:18:43 2010
 @@ -904,14 +904,14 @@ extra_host_args=

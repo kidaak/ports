@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/ppgen/patches/patch-configure_in,v 1.1 2001/12/19 00:17:52 matt Exp $
+$OpenBSD$
 --- configure.in.orig	Tue Aug 29 05:10:18 1995
 +++ configure.in	Tue Dec 18 19:10:51 2001
 @@ -8,16 +8,6 @@ AC_INIT(ppgen.c)

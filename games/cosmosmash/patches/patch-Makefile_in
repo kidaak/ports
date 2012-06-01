@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/cosmosmash/patches/patch-Makefile_in,v 1.4 2011/05/02 18:46:09 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Mar 31 04:28:15 2010
 +++ Makefile.in	Thu Apr  1 09:59:26 2010
 @@ -725,7 +725,7 @@ info: info-recursive

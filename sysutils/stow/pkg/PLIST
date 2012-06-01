@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/stow/pkg/PLIST,v 1.3 2005/09/04 23:35:59 espie Exp $
+@comment $OpenBSD$
 bin/stow
 @info info/stow.info
 @man man/man8/stow.8

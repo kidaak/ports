@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/celestia/patches/patch-src_celestia_winmain_cpp,v 1.2 2011/07/09 01:41:13 ajacoutot Exp $
+$OpenBSD$
 --- src/celestia/winmain.cpp.orig	Sun Jun  5 18:11:13 2011
 +++ src/celestia/winmain.cpp	Sat Jul  9 03:23:48 2011
 @@ -1385,7 +1385,7 @@ BOOL APIENTRY SelectDisplayModeProc(HWND hDlg,

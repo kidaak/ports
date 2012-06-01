@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hs-tagsoup/Makefile,v 1.1.1.1 2011/11/16 14:15:19 kili Exp $
+# $OpenBSD$
 
 COMMENT =		HTML/XML parsing library
 

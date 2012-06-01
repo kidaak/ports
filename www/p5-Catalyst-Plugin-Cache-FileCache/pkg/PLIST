@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Catalyst-Plugin-Cache-FileCache/pkg/PLIST,v 1.1.1.1 2008/07/13 18:37:38 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Plugin/
 ${P5SITE}/Catalyst/Plugin/Cache/
 ${P5SITE}/Catalyst/Plugin/Cache/FileCache.pm

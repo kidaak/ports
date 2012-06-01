@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-GPSD/Makefile,v 1.6 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module that provides a client interface to gpsd
 MODULES=	cpan

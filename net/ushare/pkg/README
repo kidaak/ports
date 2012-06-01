@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ushare/pkg/README,v 1.1 2011/12/03 13:59:37 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

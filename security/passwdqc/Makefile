@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/passwdqc/Makefile,v 1.10 2012/03/08 12:13:01 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		complexity checker for passwd(1) and password generator
 

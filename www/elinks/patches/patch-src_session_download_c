@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/elinks/patches/patch-src_session_download_c,v 1.1 2011/08/03 12:51:24 edd Exp $
+$OpenBSD$
 
 bug 869: fix a buffer overflow segfault in do_type_query
 http://bugzilla.elinks.cz/show_bug.cgi?id=869

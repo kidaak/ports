@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/feldspar/language/Makefile,v 1.2 2011/09/16 10:31:20 espie Exp $
+# $OpenBSD$
 
 COMMENT=		language front-end and interpreter for the Feldspar DSL
 

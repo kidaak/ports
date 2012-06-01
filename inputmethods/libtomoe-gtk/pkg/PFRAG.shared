@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/inputmethods/libtomoe-gtk/pkg/PFRAG.shared,v 1.1.1.1 2006/10/19 00:40:15 espie Exp $
+@comment $OpenBSD$
 @lib lib/libtomoe-gtk.so.${LIBtomoe-gtk_VERSION}

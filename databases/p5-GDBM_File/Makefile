@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-GDBM_File/Makefile,v 1.7 2010/11/15 00:22:52 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 COMMENT=	perl interface to gdbm

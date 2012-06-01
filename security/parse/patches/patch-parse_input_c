@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/parse/patches/patch-parse_input_c,v 1.1 2007/10/26 21:38:24 jasper Exp $
+$OpenBSD$
 --- parse_input.c.orig	Wed Nov  6 23:59:38 1996
 +++ parse_input.c	Fri Oct 26 23:33:35 2007
 @@ -32,6 +32,8 @@

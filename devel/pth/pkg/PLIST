@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pth/pkg/PLIST,v 1.4 2004/08/10 09:43:46 espie Exp $
+@comment $OpenBSD$
 bin/pth-config
 include/pth.h
 lib/libpth.a

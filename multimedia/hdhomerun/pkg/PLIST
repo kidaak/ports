@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/hdhomerun/pkg/PLIST,v 1.11 2011/04/16 23:04:11 jolan Exp $
+@comment $OpenBSD$
 @bin bin/hdhomerun_config
 share/hdhomerun/
 share/hdhomerun/hdhomerun3_atsc_firmware_20110323.bin

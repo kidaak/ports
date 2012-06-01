@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ziproxy/pkg/PLIST,v 1.2 2011/05/11 12:03:20 jasper Exp $
+@comment $OpenBSD$
 @extraunexec rm -rf /var/log/ziproxy/*
 @bin bin/ziproxy
 @bin bin/ziproxylogtool

@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/tangogps/patches/patch-src_gps_functions_c,v 1.1 2010/09/01 07:12:17 jasper Exp $
+$OpenBSD$
 
 Disable Bluez-stack bluetooth.
 

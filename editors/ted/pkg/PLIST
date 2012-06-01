@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/ted/pkg/PLIST,v 1.5 2004/09/15 18:01:07 espie Exp $
+@comment $OpenBSD$
 bin/Ted
 lib/X11/app-defaults/Ted
 share/Ted/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-WebService-MusicBrainz/pkg/PLIST,v 1.2 2011/03/31 13:57:54 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/WebService/
 ${P5SITE}/WebService/MusicBrainz/
 ${P5SITE}/WebService/MusicBrainz.pm

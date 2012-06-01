@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gsl/patches/patch-doc_gsl_3,v 1.1 2012/04/04 12:55:59 jasper Exp $
+$OpenBSD$
 
 Fix rendering with mandoc(1).
 

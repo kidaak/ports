@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/jesred/Makefile,v 1.14 2010/11/11 12:35:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	squid redirector
 

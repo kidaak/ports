@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/fisicalab/pkg/PLIST,v 1.2 2012/01/05 14:42:57 sebastia Exp $
+@comment $OpenBSD$
 bin/FisicaLab
 libexec/GNUstep/
 libexec/GNUstep/FisicaLab.app/

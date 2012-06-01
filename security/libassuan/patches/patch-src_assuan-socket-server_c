@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/libassuan/patches/patch-src_assuan-socket-server_c,v 1.1 2010/10/18 07:43:08 dcoppa Exp $
+$OpenBSD$
 --- src/assuan-socket-server.c.orig	Thu Oct 14 11:26:27 2010
 +++ src/assuan-socket-server.c	Thu Oct 14 11:27:15 2010
 @@ -51,7 +51,7 @@ accept_connection_bottom (assuan_context_t ctx)

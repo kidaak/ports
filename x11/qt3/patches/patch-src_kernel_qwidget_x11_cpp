@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-src_kernel_qwidget_x11_cpp,v 1.8 2007/03/31 22:49:46 espie Exp $
+$OpenBSD$
 --- src/kernel/qwidget_x11.cpp.orig	Sat Mar 31 14:51:24 2007
 +++ src/kernel/qwidget_x11.cpp	Sat Mar 31 14:51:25 2007
 @@ -2699,11 +2699,10 @@ QInputContext *QWidget::getInputContext()

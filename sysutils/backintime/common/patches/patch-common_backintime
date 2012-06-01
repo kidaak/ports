@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/backintime/common/patches/patch-common_backintime,v 1.2 2010/11/05 16:39:10 ajacoutot Exp $
+$OpenBSD$
 --- common/backintime.orig	Sun Jul  4 14:30:19 2010
 +++ common/backintime	Fri Nov  5 17:27:39 2010
 @@ -20,8 +20,8 @@

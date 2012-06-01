@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Inner/Makefile,v 1.6 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perlish implementation of Java like inner classes
 

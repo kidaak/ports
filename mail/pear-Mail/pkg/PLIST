@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/pear-Mail/pkg/PLIST,v 1.5 2011/04/19 15:09:12 giovanni Exp $
+@comment $OpenBSD$
 @group daemon
 pear/lib/.registry/mail.reg
 pear/lib/Mail/

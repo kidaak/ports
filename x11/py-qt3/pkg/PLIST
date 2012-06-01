@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/py-qt3/pkg/PLIST,v 1.2 2009/06/03 18:21:34 jasper Exp $
+@comment $OpenBSD$
 @bin bin/pylupdate
 @bin bin/pyuic
 lib/python${MODPY_VERSION}/site-packages/pyqtconfig.py

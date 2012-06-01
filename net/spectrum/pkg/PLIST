@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/spectrum/pkg/PLIST,v 1.2 2011/01/10 18:34:31 sebastia Exp $
+@comment $OpenBSD$
 @newgroup _spectrum:654
 @newuser _spectrum:654:_spectrum:daemon:Spectrum User:/var/spectrum:/sbin/nologin
 lib/python${MODPY_VERSION}/site-packages/spectrum/

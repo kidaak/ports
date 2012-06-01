@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-avidemux_ADM_audiodevice_audio_out_h,v 1.1 2010/04/26 02:09:03 jakemsr Exp $
+$OpenBSD$
 --- avidemux/ADM_audiodevice/audio_out.h.orig	Wed Apr 21 07:14:40 2010
 +++ avidemux/ADM_audiodevice/audio_out.h	Wed Apr 21 07:15:34 2010
 @@ -29,6 +29,7 @@ typedef enum

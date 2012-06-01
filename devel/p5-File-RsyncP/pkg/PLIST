@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-RsyncP/pkg/PLIST,v 1.1.1.1 2011/09/18 22:25:13 landry Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/File/
 ${P5ARCH}/File/RsyncP/

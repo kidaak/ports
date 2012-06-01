@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/amap/Makefile,v 1.20 2012/04/09 18:21:18 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	application protocol detection tool
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/amanda/files/crontab.sample,v 1.4 2005/06/15 21:49:35 db Exp $
+# $OpenBSD$
 #
 # Here is a sample crontab file for the operator user
 #

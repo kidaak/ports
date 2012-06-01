@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xerces-c/patches/patch-samples_runConfigure,v 1.1.1.1 2008/10/26 23:15:18 ajacoutot Exp $
+$OpenBSD$
 --- samples/runConfigure.orig	Sun Oct 26 22:14:08 2008
 +++ samples/runConfigure	Sun Oct 26 22:15:02 2008
 @@ -46,7 +46,7 @@ platforms"

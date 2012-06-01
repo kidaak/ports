@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/chmlib/Makefile,v 1.10 2012/02/22 14:05:01 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	handling CHM files
 CATEGORIES=	devel textproc

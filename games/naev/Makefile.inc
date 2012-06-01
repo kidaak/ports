@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/naev/Makefile.inc,v 1.3 2012/04/07 07:31:36 kirby Exp $
+# $OpenBSD$
 
 VERSION = 		0.5.2
 

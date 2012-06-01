@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-Random/Makefile,v 1.10 2011/07/07 17:18:11 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	cryptographically secure random number generator
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/djvulibre/Makefile,v 1.25 2011/12/03 18:35:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	view, decode and encode DjVu files
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gmc4cc/Makefile,v 1.3 2011/12/27 21:16:03 kili Exp $
+# $OpenBSD$
 
 COMMENT=	C compiler for GMC-4
 

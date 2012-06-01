@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/openobex/Makefile,v 1.11 2010/09/03 14:39:07 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		OBEX protocol implementation
 DISTNAME=		openobex-1.0.1

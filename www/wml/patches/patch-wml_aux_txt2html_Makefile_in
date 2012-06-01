@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_aux_txt2html_Makefile_in,v 1.1.1.1 2006/07/14 16:12:14 bernd Exp $
+$OpenBSD$
 --- wml_aux/txt2html/Makefile.in.orig	Fri Jun 16 00:22:27 2006
 +++ wml_aux/txt2html/Makefile.in	Fri Jun 16 00:22:51 2006
 @@ -20,6 +20,7 @@ bindir          = $(prefix)/bin

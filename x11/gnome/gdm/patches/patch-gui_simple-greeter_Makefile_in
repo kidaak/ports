@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-gui_simple-greeter_Makefile_in,v 1.2 2011/10/07 14:04:18 ajacoutot Exp $
+$OpenBSD$
 --- gui/simple-greeter/Makefile.in.orig	Tue Sep 27 00:50:04 2011
 +++ gui/simple-greeter/Makefile.in	Fri Oct  7 14:44:41 2011
 @@ -527,7 +527,7 @@ AM_CPPFLAGS = \

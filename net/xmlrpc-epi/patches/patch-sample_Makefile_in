@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xmlrpc-epi/patches/patch-sample_Makefile_in,v 1.3 2010/05/22 13:22:53 espie Exp $
+$OpenBSD$
 --- sample/Makefile.in.orig	Mon Jun 24 01:48:29 2002
 +++ sample/Makefile.in	Sat May 22 15:16:29 2010
 @@ -82,25 +82,25 @@ INCLUDES = -I../src -I../expat/xmltok -I../expat/xmlpa

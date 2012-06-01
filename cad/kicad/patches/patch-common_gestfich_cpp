@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/kicad/patches/patch-common_gestfich_cpp,v 1.3 2011/05/03 18:31:14 jasper Exp $
+$OpenBSD$
 --- common/gestfich.cpp.orig	Sat Aug 21 11:43:24 2010
 +++ common/gestfich.cpp	Sat Aug 21 11:44:44 2010
 @@ -63,7 +63,7 @@ static wxString    s_HelpPathList[] = {

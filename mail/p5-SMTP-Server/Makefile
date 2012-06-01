@@ -1,4 +1,4 @@
-#   $OpenBSD: ports/mail/p5-SMTP-Server/Makefile,v 1.6 2010/10/18 19:59:18 espie Exp $
+#   $OpenBSD$
 
 COMMENT=	implements a complete, RFC compliant SMTP server
 

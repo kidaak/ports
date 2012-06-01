@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgnomekbd/pkg/PLIST,v 1.14 2012/03/29 06:38:37 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gkbd-keyboard-display
 include/libgnomekbd/
 include/libgnomekbd/gkbd-configuration.h

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/beav/pkg/PLIST,v 1.4 2004/09/15 18:01:06 espie Exp $
+@comment $OpenBSD$
 bin/beav
 @man man/man1/beav.1
 share/doc/beav/

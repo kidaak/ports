@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icecast/patches/patch-web_Makefile_in,v 1.2 2008/11/18 21:22:03 pea Exp $
+$OpenBSD$
 --- web/Makefile.in.orig	Fri May 30 01:58:59 2008
 +++ web/Makefile.in	Fri Nov  7 10:42:57 2008
 @@ -15,7 +15,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/clusterit/pkg/PFRAG.no-no_x11,v 1.1.1.1 2006/06/13 19:39:07 steven Exp $
+@comment $OpenBSD$
 bin/dvt
 bin/rvt
 @man man/man1/dvt.1

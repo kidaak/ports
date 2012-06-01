@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/hugin/patches/patch-src_foreign_vigra_vigra_impex_png_cxx,v 1.1 2011/07/08 20:37:01 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 http://hugin.hg.sourceforge.net/hgweb/hugin/hugin/rev/4f3e6b1e251b

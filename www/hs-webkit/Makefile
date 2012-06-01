@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/hs-webkit/Makefile,v 1.3 2011/09/16 12:00:06 espie Exp $
+# $OpenBSD$
 
 COMMENT =		WebKit bindings for Haskell
 DISTNAME =		webkit-0.12.1

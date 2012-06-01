@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pylint/patches/patch-reporters_guireporter_py,v 1.1 2011/08/31 12:42:24 mpi Exp $
+$OpenBSD$
 --- reporters/guireporter.py.orig	Fri Aug 19 12:01:51 2011
 +++ reporters/guireporter.py	Fri Aug 19 12:02:02 2011
 @@ -21,7 +21,7 @@

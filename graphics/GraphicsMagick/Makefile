@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/GraphicsMagick/Makefile,v 1.23 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

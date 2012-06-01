@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/compiz/core/Makefile,v 1.18 2012/02/21 22:19:32 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

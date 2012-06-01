@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/goggles/pkg/PLIST,v 1.4 2009/01/24 15:33:12 ajacoutot Exp $
+@comment $OpenBSD$
 bin/goggles
 @bin libexec/goggles
 share/doc/goggles/

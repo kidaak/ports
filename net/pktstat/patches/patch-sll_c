@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pktstat/patches/patch-sll_c,v 1.1 2010/09/22 15:20:33 dcoppa Exp $
+$OpenBSD$
 --- sll.c.orig	Fri Nov 10 06:34:54 2006
 +++ sll.c	Tue Sep  7 15:11:16 2010
 @@ -17,6 +17,9 @@

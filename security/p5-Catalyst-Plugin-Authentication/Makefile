@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Catalyst-Plugin-Authentication/Makefile,v 1.14 2012/04/08 22:02:33 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Catalyst authentication framework
 

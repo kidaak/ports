@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ccache/Makefile,v 1.21 2012/01/09 09:35:47 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	compiler cache
 

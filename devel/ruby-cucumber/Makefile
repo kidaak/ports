@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-cucumber/Makefile,v 1.10 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	execute plain-text documents as automated functional tests
 

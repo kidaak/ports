@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ppgen/Makefile,v 1.12 2010/10/18 21:41:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	secure passphrase generator
 

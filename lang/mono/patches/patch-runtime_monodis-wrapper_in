@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono/patches/patch-runtime_monodis-wrapper_in,v 1.4 2011/11/03 09:55:12 ajacoutot Exp $
+$OpenBSD$
 --- runtime/monodis-wrapper.in.orig	Tue Aug  9 03:18:47 2011
 +++ runtime/monodis-wrapper.in	Thu Nov  3 08:54:45 2011
 @@ -3,4 +3,4 @@ r='@mono_build_root@'

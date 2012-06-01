@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/siphon/patches/patch-log_c,v 1.1.1.1 2001/06/16 14:56:26 lebel Exp $
+$OpenBSD$
 --- log.c.orig	Fri Jun 15 18:36:47 2001
 +++ log.c	Fri Jun 15 18:36:55 2001
 @@ -137,7 +137,7 @@ char *oslookup(int window, int ttl, int 

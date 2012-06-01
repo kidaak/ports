@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/rubrica2/Makefile,v 1.14 2011/11/03 22:21:21 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

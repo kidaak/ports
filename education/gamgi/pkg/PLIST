@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/education/gamgi/pkg/PLIST,v 1.7 2011/09/28 16:45:17 jasper Exp $
+@comment $OpenBSD$
 @bin bin/gamgi
 share/doc/gamgi/
 share/doc/gamgi/LICENSE

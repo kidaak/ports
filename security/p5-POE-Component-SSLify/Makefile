@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-POE-Component-SSLify/Makefile,v 1.8 2011/12/29 11:50:36 bluhm Exp $
+# $OpenBSD$
 
 COMMENT=		make use of SSL with POE
 

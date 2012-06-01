@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/apache-httpd/patches/patch-docs_man_htdigest_1,v 1.2 2007/09/19 05:47:36 steven Exp $
+$OpenBSD$
 --- docs/man/htdigest.1.orig	Tue Apr 24 18:18:39 2007
 +++ docs/man/htdigest.1	Tue Sep 18 17:02:08 2007
 @@ -19,24 +19,24 @@

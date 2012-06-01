@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/cucipop/Makefile,v 1.23 2011/05/11 12:57:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Cubic Circle's POP3 daemon
 

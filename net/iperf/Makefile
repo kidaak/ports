@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/iperf/Makefile,v 1.18 2011/09/08 11:12:52 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	tool for measuring maximum TCP and UDP bandwidth
 

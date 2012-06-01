@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/oo2c/Makefile,v 1.4 2011/09/16 10:31:21 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 

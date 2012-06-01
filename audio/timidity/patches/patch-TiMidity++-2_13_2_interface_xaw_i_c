@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/timidity/patches/patch-TiMidity++-2_13_2_interface_xaw_i_c,v 1.1 2010/08/27 00:52:01 jakemsr Exp $
+$OpenBSD$
 --- TiMidity++-2.13.2/interface/xaw_i.c.orig	Wed Aug 25 19:07:52 2010
 +++ TiMidity++-2.13.2/interface/xaw_i.c	Wed Aug 25 19:08:36 2010
 @@ -261,7 +261,7 @@ int amplitude = DEFAULT_AMPLIFICATION;

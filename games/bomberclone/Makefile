@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/bomberclone/Makefile,v 1.7 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=	bomberman clone with multiplayer mode
 

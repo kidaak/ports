@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/maxima/patches/patch-maxima_spec_in,v 1.1 2008/08/20 20:36:45 espie Exp $
+$OpenBSD$
 --- maxima.spec.in.orig	Fri Aug 15 18:28:30 2008
 +++ maxima.spec.in	Fri Aug 15 18:28:40 2008
 @@ -33,7 +33,7 @@

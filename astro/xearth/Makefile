@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/xearth/Makefile,v 1.24 2010/10/24 20:58:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	set the root window to the image of earth
 DISTNAME=	xearth-1.1

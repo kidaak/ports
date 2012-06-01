@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-avidemux_ADM_audiodevice_Makefile_am,v 1.1 2010/04/26 02:09:03 jakemsr Exp $
+$OpenBSD$
 --- avidemux/ADM_audiodevice/Makefile.am.orig	Wed Apr 21 07:07:08 2010
 +++ avidemux/ADM_audiodevice/Makefile.am	Wed Apr 21 07:08:44 2010
 @@ -7,14 +7,14 @@ libADM_audiodevice_a_METASOURCES = AUTO

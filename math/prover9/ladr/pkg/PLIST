@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/prover9/ladr/pkg/PLIST,v 1.1.1.1 2011/03/07 22:26:24 jasper Exp $
+@comment $OpenBSD$
 libexec/prover9/
 @bin libexec/prover9/autosketches4
 @bin libexec/prover9/clausefilter

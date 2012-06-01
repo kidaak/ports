@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/zenirc/pkg/PLIST-main,v 1.1.1.1 2007/10/14 09:28:12 aanriot Exp $
+@comment $OpenBSD$
 share/emacs/site-lisp/zenirc-18.elc
 share/emacs/site-lisp/zenirc-8ball.elc
 share/emacs/site-lisp/zenirc-away.elc

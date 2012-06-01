@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/gns3/patches/patch-src_GNS3_QemuManager_py,v 1.1 2011/03/03 16:29:29 sthen Exp $
+$OpenBSD$
 --- src/GNS3/QemuManager.py.orig	Sat Jan 29 12:28:23 2011
 +++ src/GNS3/QemuManager.py	Sat Jan 29 12:28:45 2011
 @@ -127,7 +127,7 @@ class QemuManager(object):

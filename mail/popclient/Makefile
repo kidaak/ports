@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/popclient/Makefile,v 1.22 2010/11/19 07:23:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	client for POP2, POP3, APOP, RPOP
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/calibre/patches/patch-src_calibre_ebooks_pdf_images_h,v 1.1 2011/07/08 20:38:00 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/dokuwiki/pkg/PLIST,v 1.2 2012/02/01 09:12:30 pea Exp $
+@comment $OpenBSD$
 dokuwiki/
 dokuwiki/.htaccess.dist
 dokuwiki/COPYING

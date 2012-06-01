@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/warzone2100/patches/patch-configure_ac,v 1.5 2011/11/06 21:12:37 dcoppa Exp $
+$OpenBSD$
 --- configure.ac.orig	Sun Oct 23 16:28:21 2011
 +++ configure.ac	Sun Nov  6 10:06:45 2011
 @@ -422,7 +422,7 @@ AC_CHECK_LIB(popt, poptGetContext, AC_SUBST([POPT_LIBS

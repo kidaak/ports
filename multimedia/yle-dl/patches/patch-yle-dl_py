@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/yle-dl/patches/patch-yle-dl_py,v 1.2 2011/12/13 13:10:47 sthen Exp $
+$OpenBSD$
 --- yle-dl.py.orig	Tue Nov 29 21:41:58 2011
 +++ yle-dl.py	Mon Dec 12 18:52:45 2011
 @@ -1,4 +1,4 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/awesome/patches/patch-awesomerc_lua_in,v 1.2 2011/11/30 11:50:58 dcoppa Exp $
+$OpenBSD$
 --- awesomerc.lua.in.orig	Wed Nov 23 15:08:50 2011
 +++ awesomerc.lua.in	Wed Nov 30 10:29:56 2011
 @@ -38,7 +38,7 @@ beautiful.init("@AWESOME_THEMES_PATH@/default/theme.lu

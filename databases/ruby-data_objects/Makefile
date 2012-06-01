@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-data_objects/Makefile,v 1.12 2012/04/06 19:28:22 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	unified Ruby API for popular databases
 

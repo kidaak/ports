@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libixp/pkg/PLIST,v 1.2 2008/03/15 15:52:53 mcbride Exp $
+@comment $OpenBSD$
 bin/ixpc
 @comment etc/
 include/ixp.h

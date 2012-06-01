@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/ent/Makefile,v 1.4 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 # Original from: John Walker http://www.fourmilab.ch/random/ 
 
 CATEGORIES=		misc

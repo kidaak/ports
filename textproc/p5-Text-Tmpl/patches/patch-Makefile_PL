@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/p5-Text-Tmpl/patches/patch-Makefile_PL,v 1.1.1.1 2003/05/11 01:22:17 naddy Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Sat May 10 19:08:54 2003
 +++ Makefile.PL	Sat May 10 19:09:01 2003
 @@ -6,7 +6,6 @@ WriteMakefile(

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Devel-Cover/pkg/PLIST,v 1.2 2011/06/01 17:41:49 jasper Exp $
+@comment $OpenBSD$
 bin/cover
 bin/cpancover
 bin/gcov2perl

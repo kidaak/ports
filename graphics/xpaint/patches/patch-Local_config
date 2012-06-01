@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/xpaint/patches/patch-Local_config,v 1.4 2005/09/05 13:53:45 espie Exp $
+$OpenBSD$
 --- Local.config.orig	Sat Apr 30 23:33:14 2005
 +++ Local.config	Mon Sep  5 15:51:50 2005
 @@ -162,6 +162,22 @@ XCOMM CDEBUGFLAGS =

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/natpmpd/Makefile,v 1.1.1.1 2011/12/23 15:15:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		daemon implementing NAT-PMP protocol for pf(4)
 

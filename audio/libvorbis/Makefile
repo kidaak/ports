@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libvorbis/Makefile,v 1.35 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	audio compression codec library
 

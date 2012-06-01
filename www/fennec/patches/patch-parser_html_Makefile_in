@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-parser_html_Makefile_in,v 1.5 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 
 gcc runs out of memory with optimization.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/yakuake/Makefile,v 1.10 2011/12/03 23:34:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	yet another kuake KDE terminal emulator
 

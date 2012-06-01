@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libvstr/Makefile,v 1.4 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	string library designed for network communication
 

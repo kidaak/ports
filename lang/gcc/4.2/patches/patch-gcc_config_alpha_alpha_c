@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_config_alpha_alpha_c,v 1.1 2010/10/29 08:50:38 naddy Exp $
+$OpenBSD$
 --- gcc/config/alpha/alpha.c.orig	Thu Feb  7 22:58:42 2008
 +++ gcc/config/alpha/alpha.c	Tue Oct 26 23:19:47 2010
 @@ -225,6 +225,10 @@ alpha_handle_option (size_t code, const char *arg, int

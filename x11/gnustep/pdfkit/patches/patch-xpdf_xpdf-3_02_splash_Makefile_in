@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/pdfkit/patches/patch-xpdf_xpdf-3_02_splash_Makefile_in,v 1.1.1.1 2011/01/03 14:20:28 sebastia Exp $
+$OpenBSD$
 --- xpdf/xpdf-3.02/splash/Makefile.in.orig	Thu Aug  6 00:28:03 2009
 +++ xpdf/xpdf-3.02/splash/Makefile.in	Wed Dec 22 17:06:09 2010
 @@ -16,7 +16,7 @@ GOOLIBDIR = ../goo

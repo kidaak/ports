@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/i3/patches/patch-src_config_c,v 1.7 2011/12/27 09:05:17 dcoppa Exp $
+$OpenBSD$
 --- src/config.c.orig	Sat Dec 24 16:25:08 2011
 +++ src/config.c	Tue Dec 27 09:24:53 2011
 @@ -218,7 +218,7 @@ static char *get_config_path(const char *override_conf

@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/gns3/patches/patch-src_GNS3_Application_py,v 1.3 2011/12/12 11:04:04 sthen Exp $
+$OpenBSD$
 --- src/GNS3/Application.py.orig	Tue Dec 14 17:52:57 2010
 +++ src/GNS3/Application.py	Sat Jan 29 11:33:08 2011
 @@ -319,7 +319,7 @@ class Application(QApplication, Singleton):

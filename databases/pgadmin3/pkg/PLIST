@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/pgadmin3/pkg/PLIST,v 1.11 2011/11/03 14:27:05 nigel Exp $
+@comment $OpenBSD$
 @bin bin/pgadmin3
 @bin bin/png2c
 share/pgadmin3/

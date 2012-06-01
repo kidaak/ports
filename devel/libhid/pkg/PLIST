@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libhid/pkg/PLIST,v 1.1.1.1 2010/10/03 21:10:24 armani Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/libhid-detach-device
 include/hid.h

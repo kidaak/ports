@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xcowsay/patches/patch-src_bubblegen_c,v 1.1 2009/11/03 19:55:57 landry Exp $
+$OpenBSD$
 Fix crash on non-24 bpp X
 --- src/bubblegen.c.orig	Tue Nov  3 20:50:51 2009
 +++ src/bubblegen.c	Tue Nov  3 20:51:38 2009

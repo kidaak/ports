@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/py-kiwi/Makefile,v 1.8 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=		framework and a set of enhanced PyGTK widgets
 

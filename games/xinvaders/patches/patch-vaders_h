@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xinvaders/patches/patch-vaders_h,v 1.1 2007/10/26 21:19:16 ajacoutot Exp $
+$OpenBSD$
 --- vaders.h.orig	Fri Oct 26 23:05:36 2007
 +++ vaders.h	Fri Oct 26 23:05:41 2007
 @@ -130,11 +130,11 @@ ext int vaderwait;		/* Number of milleseconds to wait 

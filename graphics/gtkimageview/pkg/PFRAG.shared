@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/gtkimageview/pkg/PFRAG.shared,v 1.1.1.1 2009/10/15 11:50:20 sthen Exp $
+@comment $OpenBSD$
 @lib lib/libgtkimageview.so.${LIBgtkimageview_VERSION}

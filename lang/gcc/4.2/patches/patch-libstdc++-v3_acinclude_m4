@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-libstdc++-v3_acinclude_m4,v 1.1 2009/06/07 01:22:05 robert Exp $
+$OpenBSD$
 --- libstdc++-v3/acinclude.m4.orig	Fri Jun 29 01:02:05 2007
 +++ libstdc++-v3/acinclude.m4	Fri Jun  5 00:48:50 2009
 @@ -1858,82 +1858,6 @@ AC_DEFUN([GLIBCXX_ENABLE_WCHAR_T], [

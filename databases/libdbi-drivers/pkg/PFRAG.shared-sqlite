@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/databases/libdbi-drivers/pkg/PFRAG.shared-sqlite,v 1.1.1.1 2009/06/02 00:58:58 merdely Exp $
+@comment $OpenBSD$
 lib/dbd/libdbdsqlite.so

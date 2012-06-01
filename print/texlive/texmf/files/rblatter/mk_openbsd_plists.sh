@@ -1,5 +1,5 @@
 #!/bin/sh
-# $OpenBSD: ports/print/texlive/texmf/files/rblatter/mk_openbsd_plists.sh,v 1.4 2012/01/10 18:04:31 edd Exp $
+# $OpenBSD$
 #
 # This is how the texlive port packing lists were generated.
 # Please be aware that a *full* texmf/texmf-dist and texlive.tlpdb from the

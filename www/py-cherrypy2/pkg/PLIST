@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-cherrypy2/pkg/PLIST,v 1.2 2008/01/25 20:41:18 martynas Exp $
+@comment $OpenBSD$
 @conflict py-CherryPy-*
 lib/python${MODPY_VERSION}/site-packages/CherryPy-2.3.0-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/cherrypy/

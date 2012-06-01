@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/devel/boehm-gc/pkg/PFRAG.shared-main,v 1.1 2008/07/01 09:43:19 landry Exp $
+@comment $OpenBSD$
 @lib lib/libcord.so.${LIBcord_VERSION}
 @lib lib/libgc.so.${LIBgc_VERSION}

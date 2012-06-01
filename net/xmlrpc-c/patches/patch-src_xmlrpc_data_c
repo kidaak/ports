@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xmlrpc-c/patches/patch-src_xmlrpc_data_c,v 1.2 2008/03/15 10:35:54 ajacoutot Exp $
+$OpenBSD$
 --- src/xmlrpc_data.c.orig	Tue Jan  3 07:48:59 2006
 +++ src/xmlrpc_data.c	Wed Jan 16 14:20:18 2008
 @@ -288,7 +288,7 @@ xmlrpc_read_string(xmlrpc_env *         const envP,

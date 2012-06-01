@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/addons3/patches/patch-configure_in,v 1.2 2007/05/25 14:32:37 espie Exp $
+$OpenBSD$
 --- configure.in.orig	Mon May 14 13:25:10 2007
 +++ configure.in	Fri May 25 13:58:57 2007
 @@ -397,9 +397,6 @@ if test "x$with_berkeley_db" != xno; then

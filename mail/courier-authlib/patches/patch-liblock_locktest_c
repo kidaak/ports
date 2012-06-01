@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/courier-authlib/patches/patch-liblock_locktest_c,v 1.1.1.1 2006/11/03 11:45:31 mbalmer Exp $
+$OpenBSD$
 --- liblock/locktest.c.orig	Mon Dec  6 11:18:55 1999
 +++ liblock/locktest.c	Fri Jan  6 11:34:58 2006
 @@ -5,6 +5,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/clive/Makefile,v 1.6 2010/10/18 18:36:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	command-line LiveJournal client
 DISTNAME=	clive-0.4.0

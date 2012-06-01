@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/tuxkart/patches/patch-configure,v 1.1.1.1 2008/11/10 22:11:36 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Thu Mar 18 19:43:56 2004
 +++ configure	Sun Nov  9 12:34:29 2008
 @@ -4096,7 +4096,7 @@ fi

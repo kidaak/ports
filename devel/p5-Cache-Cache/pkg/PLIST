@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Cache-Cache/pkg/PLIST,v 1.4 2004/09/14 23:43:57 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Cache/
 ${P5SITE}/Cache/BaseCache.pm
 ${P5SITE}/Cache/BaseCacheTester.pm

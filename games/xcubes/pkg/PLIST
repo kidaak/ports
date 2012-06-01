@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xcubes/pkg/PLIST,v 1.3 2004/09/15 00:46:11 espie Exp $
+@comment $OpenBSD$
 bin/xcubes
 lib/X11/app-defaults/Cubes
 @man man/man1/xcubes.1

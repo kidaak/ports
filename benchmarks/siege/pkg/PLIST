@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/benchmarks/siege/pkg/PLIST,v 1.2 2010/09/15 09:59:39 sthen Exp $
+@comment $OpenBSD$
 bin/bombardment
 @bin bin/siege
 bin/siege.config

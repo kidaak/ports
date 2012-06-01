@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ldistfp/patches/patch-src_ldistfp_c,v 1.2 2002/02/23 23:07:55 pvalchev Exp $
+$OpenBSD$
 --- src/ldistfp.c.orig	Sun May 27 05:40:35 2001
 +++ src/ldistfp.c	Sat Feb 23 16:01:58 2002
 @@ -24,7 +24,7 @@ typedef struct	fingerprint {

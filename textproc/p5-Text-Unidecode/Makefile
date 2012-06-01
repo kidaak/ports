@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Unidecode/Makefile,v 1.10 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	US-ASCII transliterations of Unicode text
 

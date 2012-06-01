@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/py-osd/pkg/PLIST,v 1.1.1.1 2006/10/14 16:35:26 alek Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/_pyosd.so
 lib/python${MODPY_VERSION}/site-packages/pyosd/
 lib/python${MODPY_VERSION}/site-packages/pyosd/__init__.py

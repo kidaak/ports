@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-features_org_eclipse_platform_launchers_library_gtk_build_sh,v 1.3 2007/04/06 02:16:21 kurt Exp $
+$OpenBSD$
 --- features/org.eclipse.platform.launchers/library/gtk/build.sh.orig	Thu Sep 21 10:57:25 2006
 +++ features/org.eclipse.platform.launchers/library/gtk/build.sh	Thu Apr  5 08:12:49 2007
 @@ -71,6 +71,23 @@ case $OS in

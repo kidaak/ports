@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/gnugetopt/patches/patch-getopt-parse_bash,v 1.1.1.1 2006/11/03 13:25:02 bernd Exp $
+$OpenBSD$
 --- getopt-parse.bash.orig	Thu Nov  2 15:33:00 2006
 +++ getopt-parse.bash	Thu Nov  2 15:33:49 2006
 @@ -1,6 +1,6 @@

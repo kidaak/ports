@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/avr/gdb/pkg/PLIST,v 1.4 2011/11/08 13:00:21 jasper Exp $
+@comment $OpenBSD$
 @bin bin/avr-gdb
 @bin bin/avr-gdbtui
 @comment lib/libiberty.a

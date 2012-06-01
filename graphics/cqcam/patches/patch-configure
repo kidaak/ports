@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/cqcam/patches/patch-configure,v 1.2 2010/03/23 19:42:57 jasper Exp $
+$OpenBSD$
 --- configure.orig	Wed Jul 11 22:58:54 2001
 +++ configure	Tue Mar 23 16:25:08 2010
 @@ -1659,7 +1659,7 @@ if eval "test \"`echo '$''{'ac_cv_lib_$ac_lib_var'+set

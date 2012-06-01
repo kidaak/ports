@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gettext/pkg/PLIST,v 1.21 2010/07/03 03:23:22 naddy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/autopoint
 @bin bin/envsubst

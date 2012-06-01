@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/meanwhile/patches/patch-src_srvc_aware_c,v 1.1 2012/03/23 13:28:25 ajacoutot Exp $
+$OpenBSD$
 
 https://bugzilla.redhat.com/show_bug.cgi?id=750023
 

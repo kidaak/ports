@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/flickcurl/patches/patch-src_flickcurl_internal_h,v 1.1 2011/07/07 07:50:59 jasper Exp $
+$OpenBSD$
 --- src/flickcurl_internal.h.orig	Thu Jul  7 09:49:53 2011
 +++ src/flickcurl_internal.h	Thu Jul  7 09:49:57 2011
 @@ -24,7 +24,6 @@

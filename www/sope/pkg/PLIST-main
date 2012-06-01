@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/sope/pkg/PLIST-main,v 1.6 2011/11/18 11:12:44 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/connect-EOAdaptor
 @bin bin/load-EOAdaptor
 @bin bin/wod

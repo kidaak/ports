@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-CGI-SpeedyCGI/patches/patch-Makefile_PL,v 1.3 2008/10/02 05:58:56 simon Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Sun Oct  5 08:40:46 2003
 +++ Makefile.PL	Thu Oct  2 00:21:22 2008
 @@ -16,12 +16,12 @@ requires a working copy of "apxs" in your path, Apache

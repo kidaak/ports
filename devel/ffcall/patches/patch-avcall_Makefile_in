@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ffcall/patches/patch-avcall_Makefile_in,v 1.5 2010/08/23 14:16:09 jasper Exp $
+$OpenBSD$
 --- avcall/Makefile.in.orig	Sun Jan 25 09:34:21 2004
 +++ avcall/Makefile.in	Sat Apr 25 21:42:02 2009
 @@ -120,7 +120,7 @@ avcall-rs6000.lo : $(srcdir)/avcall-rs6000-aix.old.s $

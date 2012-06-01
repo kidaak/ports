@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Log-Any/Makefile,v 1.2 2011/08/26 09:14:53 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		bringing loggers and listeners together	
 

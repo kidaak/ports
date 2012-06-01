@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/diction/pkg/PLIST,v 1.1.1.1 2011/08/21 22:52:30 bentley Exp $
+@comment $OpenBSD$
 @bin bin/diction
 @bin bin/style
 @man man/man1/diction.1

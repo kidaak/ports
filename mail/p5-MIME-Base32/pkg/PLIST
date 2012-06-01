@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-MIME-Base32/pkg/PLIST,v 1.1.1.1 2007/10/19 09:12:33 grunk Exp $
+@comment $OpenBSD$
 ${P5SITE}/MIME/
 ${P5SITE}/MIME/Base32.pm
 @comment ${P5SITE}/MIME/test1.pl

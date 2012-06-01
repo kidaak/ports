@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/cmt/pkg/PLIST,v 1.1.1.1 2006/07/31 12:22:15 espie Exp $
+@comment $OpenBSD$
 lib/ladspa/
 lib/ladspa/cmt.so
 share/doc/cmt/

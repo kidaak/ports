@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/matchbox-desktop/Makefile,v 1.16 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	pda style application launcher or item browser
 DISTNAME=	matchbox-desktop-2.0

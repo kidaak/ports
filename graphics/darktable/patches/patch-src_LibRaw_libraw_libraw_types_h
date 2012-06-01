@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/darktable/patches/patch-src_LibRaw_libraw_libraw_types_h,v 1.2 2011/12/09 20:11:00 sthen Exp $
+$OpenBSD$
 
 ushort is already defined in <sys/types.h> and gcc3 warns about this and
 aborts with -Werror.

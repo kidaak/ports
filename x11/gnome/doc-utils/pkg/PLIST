@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/doc-utils/pkg/PLIST,v 1.17 2012/03/26 23:19:36 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gnome-doc-prepare
 bin/gnome-doc-tool
 bin/xml2po

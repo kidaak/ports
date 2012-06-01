@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libwnck/pkg/PLIST,v 1.23 2011/04/07 08:17:31 jasper Exp $
+@comment $OpenBSD$
 @bin bin/wnck-urgency-monitor
 @bin bin/wnckprop
 include/libwnck-1.0/

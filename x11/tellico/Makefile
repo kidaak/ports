@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tellico/Makefile,v 1.22 2011/12/03 23:20:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	organizer for book/dvd/music collections
 

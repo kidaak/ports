@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/libpqxx/Makefile,v 1.12 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	C++ client API for PostgreSQL
 

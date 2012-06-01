@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/flex/pkg/PLIST,v 1.1.1.1 2009/10/28 23:13:56 sthen Exp $
+@comment $OpenBSD$
 @bin bin/gflex
 include/flex/
 include/flex/FlexLexer.h

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/hs-GLUT/pkg/PLIST,v 1.5 2011/04/11 14:49:08 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Graphics/
 lib/ghc/${DISTNAME}/Graphics/UI/

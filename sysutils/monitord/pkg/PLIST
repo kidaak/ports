@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/monitord/pkg/PLIST,v 1.1.1.1 2007/10/07 09:53:44 sturm Exp $
+@comment $OpenBSD$
 sbin/monitord
 share/examples/monitord/
 share/examples/monitord/monitord.conf

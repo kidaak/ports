@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/quirc/Makefile,v 1.21 2010/11/06 22:06:59 espie Exp $
+# $OpenBSD$
 
 COMMENT=	irc client that uses Tcl/Tk
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xmlrpc-c/patches/patch-Makefile_common,v 1.2 2008/03/15 10:35:54 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.common.orig	Fri Jul 13 02:32:20 2007
 +++ Makefile.common	Wed Jan 16 14:20:17 2008
 @@ -32,11 +32,11 @@ CFLAGS_COMMON = -DNDEBUG

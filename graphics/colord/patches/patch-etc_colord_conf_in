@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/colord/patches/patch-etc_colord_conf_in,v 1.2 2012/03/19 08:59:00 ajacoutot Exp $
+$OpenBSD$
 --- etc/colord.conf.in.orig	Fri Mar  9 21:04:40 2012
 +++ etc/colord.conf.in	Sun Mar 18 20:24:56 2012
 @@ -25,4 +25,4 @@ CreateDummySensor=false

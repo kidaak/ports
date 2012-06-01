@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/afterstep/patches/patch-configure,v 1.1 2009/12/06 15:09:22 jasper Exp $
+$OpenBSD$
 --- configure.orig	Mon May  4 22:56:26 2009
 +++ configure	Thu Dec  3 17:09:42 2009
 @@ -1810,7 +1810,7 @@ fi;

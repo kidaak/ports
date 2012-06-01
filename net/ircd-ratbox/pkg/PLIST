@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ircd-ratbox/pkg/PLIST,v 1.6 2011/11/27 10:57:24 fgsch Exp $
+@comment $OpenBSD$
 @conflict irc-*
 @conflict ircd-hybrid-*
 @newgroup _ircd-ratbox:619

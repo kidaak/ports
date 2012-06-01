@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/sleuthkit/pkg/PLIST,v 1.7 2009/01/05 22:15:56 rui Exp $
+@comment $OpenBSD$
 @conflict ja-jvim-*
 @bin bin/blkcalc
 @bin bin/blkcat

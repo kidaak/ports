@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/rendercheck/Makefile,v 1.10 2011/06/02 17:09:32 kili Exp $
+# $OpenBSD$
 
 COMMENT=	X Render extension test suite
 

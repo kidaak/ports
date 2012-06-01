@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/libaacs/Makefile,v 1.2 2012/03/30 13:35:42 phessler Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/archie/patches/patch-archie_h,v 1.1 2007/10/26 22:10:06 ajacoutot Exp $
+$OpenBSD$
 --- archie.h.orig	Mon Oct 26 23:36:04 1992
 +++ archie.h	Sat Oct 27 00:02:51 2007
 @@ -8,8 +8,23 @@

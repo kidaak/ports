@@ -1,9 +1,9 @@
-$OpenBSD: ports/graphics/ggi/patches/patch-ggi_init_c,v 1.1 2005/01/31 14:20:26 todd Exp $
+$OpenBSD$
 --- ggi/init.c.orig	Wed Oct 27 07:26:22 2004
 +++ ggi/init.c	Sun Jan 30 15:40:46 2005
 @@ -1,4 +1,4 @@
--/* $Id: init.c,v 1.19.2.1 2004/10/27 12:26:22 cegger Exp $
-+/* $Id: init.c,v 1.19.2.2 2005/01/13 23:20:37 cegger Exp $
+-/* $Id$
++/* $Id$
  ******************************************************************************
  
     LibGGI initialization.

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-common_Makefile_in,v 1.2 2011/10/07 14:04:18 ajacoutot Exp $
+$OpenBSD$
 --- common/Makefile.in.orig	Tue Sep 27 00:50:03 2011
 +++ common/Makefile.in	Fri Oct  7 14:44:39 2011
 @@ -478,7 +478,7 @@ gdm_crash_logger_CPPFLAGS = \

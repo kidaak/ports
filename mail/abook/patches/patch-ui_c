@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/abook/patches/patch-ui_c,v 1.1 2010/09/22 08:59:07 jasper Exp $
+$OpenBSD$
 
 Fix a possible seg. fault in the editor.
 From upstream's patch: 0.5.6-01_editor

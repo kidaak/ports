@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-extremes/Makefile,v 1.4 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT =		mix and max objects
 

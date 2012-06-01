@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/mtools/patches/patch-Makefile_in,v 1.2 2003/05/26 02:02:08 fgsch Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Feb 16 18:55:16 2003
 +++ Makefile.in	Sun May 25 22:26:02 2003
 @@ -26,7 +26,7 @@ top_srcdir=@top_srcdir@

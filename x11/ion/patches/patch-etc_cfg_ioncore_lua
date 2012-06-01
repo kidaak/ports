@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/ion/patches/patch-etc_cfg_ioncore_lua,v 1.6 2007/03/28 19:33:04 pedro Exp $
+$OpenBSD$
 --- etc/cfg_ioncore.lua.orig	Sun Dec 24 08:45:26 2006
 +++ etc/cfg_ioncore.lua	Sun Dec 24 08:48:23 2006
 @@ -63,8 +63,8 @@ defbindings("WScreen", {

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/neverball/pkg/PLIST-main,v 1.2 2009/12/23 22:41:39 benoit Exp $
+@comment $OpenBSD$
 @bin bin/neverball
 @bin bin/neverputt
 share/doc/neverball/

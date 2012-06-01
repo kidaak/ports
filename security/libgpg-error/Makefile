@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libgpg-error/Makefile,v 1.13 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	error codes for GnuPG related software
 

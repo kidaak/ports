@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-blinker/pkg/PLIST,v 1.1.1.1 2011/12/29 15:09:15 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/blinker/
 lib/python${MODPY_VERSION}/site-packages/blinker-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/blinker/__init__.py

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tn5250/Makefile,v 1.8 2011/09/21 17:20:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	5250 telnet protocol and terminal
 

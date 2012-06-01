@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-ugly/patches/patch-ext_dvdread_dvdreadsrc_c,v 1.7 2012/03/05 15:22:08 ajacoutot Exp $
+$OpenBSD$
 --- ext/dvdread/dvdreadsrc.c.orig	Wed Jan 18 13:23:33 2012
 +++ ext/dvdread/dvdreadsrc.c	Mon Mar  5 13:17:01 2012
 @@ -123,7 +123,7 @@ gst_dvd_read_src_init (GstDvdReadSrc * src, GstDvdRead

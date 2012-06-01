@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/necpp/Makefile,v 1.7 2010/10/23 18:35:23 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	NEC2++ antenna simulator
 

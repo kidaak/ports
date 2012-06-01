@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgda/pkg/PLIST-ldap,v 1.6 2011/06/02 15:54:10 ajacoutot Exp $
+@comment $OpenBSD$
 @comment lib/libgda-${GDA_MAJOR}/providers/libgda-ldap.la
 lib/libgda-${GDA_MAJOR}/providers/libgda-ldap.so
 lib/pkgconfig/libgda-ldap-${GDA_MAJOR}.pc

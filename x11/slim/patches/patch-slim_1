@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/slim/patches/patch-slim_1,v 1.1 2008/11/05 13:36:41 pea Exp $
+$OpenBSD$
 --- slim.1.orig	Tue Nov  4 13:50:39 2008
 +++ slim.1	Tue Nov  4 13:50:58 2008
 @@ -37,7 +37,7 @@ display version information

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/shotwell/Makefile,v 1.20 2012/04/14 20:10:43 ajacoutot Exp $
+# $OpenBSD$
 
 # needs to allocate 512M
 VMEM_WARNING =	Yes

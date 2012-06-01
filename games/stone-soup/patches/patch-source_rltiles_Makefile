@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/stone-soup/patches/patch-source_rltiles_Makefile,v 1.1 2011/12/16 15:03:03 stsp Exp $
+$OpenBSD$
 honour CFLAGS
 --- source/rltiles/Makefile.orig	Fri Dec 16 12:05:25 2011
 +++ source/rltiles/Makefile	Fri Dec 16 12:05:37 2011

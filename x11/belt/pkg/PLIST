@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/belt/pkg/PLIST,v 1.2 2004/09/15 19:26:28 espie Exp $
+@comment $OpenBSD$
 bin/belt
 @man man/man1/belt.1
 share/belt/

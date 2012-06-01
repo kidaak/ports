@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/uae/pkg/PLIST,v 1.4 2010/04/26 01:30:26 jakemsr Exp $
+@comment $OpenBSD$
 @pkgpath emulators/uae,sdl
 @pkgpath emulators/uae
 @bin bin/readdisk

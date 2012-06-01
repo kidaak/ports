@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/gonzui/pkg/PLIST,v 1.3 2011/07/19 18:00:16 jeremy Exp $
+@comment $OpenBSD$
 @newgroup _gonzui:581
 @newuser _gonzui:581:581:daemon:gonzui daemon:/var/empty:/sbin/nologin
 bin/gonzui-db

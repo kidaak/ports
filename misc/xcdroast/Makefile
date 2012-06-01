@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/xcdroast/Makefile,v 1.32 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=		gtk-based frontend to cdrtools
 DISTNAME=		xcdroast-0.98alpha16

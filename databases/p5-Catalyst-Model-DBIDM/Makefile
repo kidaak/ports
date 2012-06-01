@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Catalyst-Model-DBIDM/Makefile,v 1.5 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	DBIx::DataModel model class
 

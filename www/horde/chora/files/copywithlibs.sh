@@ -1,7 +1,7 @@
 #!/bin/sh -e
 # Copy an executable file/s, complete with libraries, into a chroot jail.
 #
-# $OpenBSD: ports/www/horde/chora/files/copywithlibs.sh,v 1.1.1.1 2010/08/18 15:04:05 sthen Exp $
+# $OpenBSD$
 # Copyright (c) 2010 Stuart Henderson <sthen@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

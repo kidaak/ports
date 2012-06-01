@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/gnokii/patches/patch-Docs_sample_gnokiirc,v 1.2 2007/10/16 12:44:50 ajacoutot Exp $
+$OpenBSD$
 --- Docs/sample/gnokiirc.orig	Mon Aug 28 00:36:54 2006
 +++ Docs/sample/gnokiirc	Tue Oct 16 14:22:35 2007
 @@ -7,7 +7,7 @@

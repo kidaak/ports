@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Proc-Wait3/Makefile,v 1.1.1.1 2011/01/05 14:12:07 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		perl extension for wait3 system call
 

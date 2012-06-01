@@ -1,6 +1,6 @@
-# $OpenBSD: ports/mail/postfix/stable/Makefile,v 1.153 2012/03/03 10:08:22 sthen Exp $
+# $OpenBSD$
 
-VERSION=	2.9.1
+VERSION=	2.9.3
 
 MASTER_SITES=	${MASTER_SITE_POSTFIX:=official/}
 

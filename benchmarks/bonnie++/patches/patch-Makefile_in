@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/bonnie++/patches/patch-Makefile_in,v 1.1 2011/11/13 18:23:24 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Nov  8 12:42:48 2011
 +++ Makefile.in	Tue Nov  8 12:43:36 2011
 @@ -9,7 +9,7 @@ prefix=@prefix@

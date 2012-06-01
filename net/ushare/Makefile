@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ushare/Makefile,v 1.11 2012/03/30 06:47:40 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	UPnP A/V media server
 

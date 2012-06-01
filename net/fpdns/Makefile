@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/fpdns/Makefile,v 1.1.1.1 2011/09/05 07:25:12 giovanni Exp $
+# $OpenBSD$
 
 COMMENT =	remotely determine DNS server versions
 

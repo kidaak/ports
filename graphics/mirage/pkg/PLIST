@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/mirage/pkg/PLIST,v 1.1.1.1 2011/03/29 07:07:12 ajacoutot Exp $
+@comment $OpenBSD$
 bin/mirage
 lib/python${MODPY_VERSION}/site-packages/Mirage-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/imgfuncs.so

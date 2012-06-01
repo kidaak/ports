@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/scummvm-tools/Makefile,v 1.20 2011/11/12 13:02:05 jsg Exp $
+# $OpenBSD$
 
 COMMENT=	collection of various tools for scummvm
 DISTNAME=	scummvm-tools-1.4.0

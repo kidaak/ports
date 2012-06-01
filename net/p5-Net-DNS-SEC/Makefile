@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-DNS-SEC/Makefile,v 1.15 2011/04/03 17:27:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	extends the Net::DNS module with DNSSEC functionality
 

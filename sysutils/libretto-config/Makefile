@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/libretto-config/Makefile,v 1.9 2010/10/19 07:43:01 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Libretto BIOS Setting Program
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/vmwh/Makefile,v 1.6 2011/11/09 12:18:19 dcoppa Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =amd64 i386
 

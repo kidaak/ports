@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/wmphoto/Makefile,v 1.17 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; shows photos and execute commands on that photo
 

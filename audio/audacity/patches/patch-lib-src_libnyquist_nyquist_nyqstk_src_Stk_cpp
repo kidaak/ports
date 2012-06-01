@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacity/patches/patch-lib-src_libnyquist_nyquist_nyqstk_src_Stk_cpp,v 1.1 2009/10/28 18:40:13 jakemsr Exp $
+$OpenBSD$
 --- lib-src/libnyquist/nyquist/nyqstk/src/Stk.cpp.orig	Sat Oct 17 15:28:37 2009
 +++ lib-src/libnyquist/nyquist/nyqstk/src/Stk.cpp	Sat Oct 17 15:29:43 2009
 @@ -46,7 +46,7 @@ void Stk :: setRawwavePath( std::string path )

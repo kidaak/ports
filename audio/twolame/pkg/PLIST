@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/twolame/pkg/PLIST,v 1.1.1.1 2011/12/27 09:44:15 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/twolame
 include/twolame.h

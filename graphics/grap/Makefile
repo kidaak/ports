@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/grap/Makefile,v 1.3 2011/03/14 09:17:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	language for typesetting graphs
 

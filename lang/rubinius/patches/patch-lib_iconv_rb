@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/rubinius/patches/patch-lib_iconv_rb,v 1.2 2011/03/10 20:40:33 jeremy Exp $
+$OpenBSD$
 iconv symbol names have lib prefix in openbsd port
 
 --- lib/iconv.rb.orig	Tue Feb 22 15:02:08 2011

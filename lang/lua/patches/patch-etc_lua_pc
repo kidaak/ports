@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/lua/patches/patch-etc_lua_pc,v 1.7 2012/03/29 08:51:26 dcoppa Exp $
+$OpenBSD$
 --- etc/lua.pc.orig	Fri Feb 10 10:50:30 2012
 +++ etc/lua.pc	Tue Mar 27 12:49:48 2012
 @@ -8,7 +8,7 @@ V= 5.1

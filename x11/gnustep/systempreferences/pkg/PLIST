@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/systempreferences/pkg/PLIST,v 1.2 2011/04/18 12:44:14 sebastia Exp $
+@comment $OpenBSD$
 bin/SystemPreferences
 include/PreferencePanes
 lib/GNUstep/Bundles/Defaults.prefPane/

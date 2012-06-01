@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/scorched3d/patches/patch-src_common_common_DefinesScorched_cpp,v 1.1.1.1 2010/10/26 10:34:00 phessler Exp $
+$OpenBSD$
 --- src/common/common/DefinesScorched.cpp.orig	Mon Oct 25 14:04:21 2010
 +++ src/common/common/DefinesScorched.cpp	Mon Oct 25 14:04:36 2010
 @@ -58,7 +58,7 @@ void S3D::showURL(const std::string &url)

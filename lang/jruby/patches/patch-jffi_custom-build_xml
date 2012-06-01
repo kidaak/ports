@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/jruby/patches/patch-jffi_custom-build_xml,v 1.1 2010/10/28 01:45:44 jeremy Exp $
+$OpenBSD$
 --- jffi/custom-build.xml.orig	Thu Oct 21 04:54:59 2010
 +++ jffi/custom-build.xml	Thu Oct 21 04:55:11 2010
 @@ -8,7 +8,7 @@

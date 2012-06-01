@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ascd/patches/patch-faktory_c,v 1.1.1.1 2001/02/06 11:52:44 wilfried Exp $
+$OpenBSD$
 --- faktory.c.orig	Mon Jul  5 18:52:38 1999
 +++ faktory.c	Sat Feb  3 16:20:44 2001
 @@ -58,9 +58,9 @@ int fak_parse_line(char *ligne, char *ke

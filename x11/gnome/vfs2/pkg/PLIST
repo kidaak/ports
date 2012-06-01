@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/vfs2/pkg/PLIST,v 1.20 2011/01/18 20:03:07 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath x11/gnome/vfs2
 @pkgpath x11/gnome/vfs2,-main
 @pkgpath x11/gnome/vfs2,-smb

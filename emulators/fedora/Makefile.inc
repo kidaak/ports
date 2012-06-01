@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/fedora/Makefile.inc,v 1.5 2010/11/15 23:22:08 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 SHARED_ONLY=	Yes

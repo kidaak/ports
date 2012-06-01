@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/transfig/patches/a4-patch,v 1.4 2003/04/04 14:28:36 naddy Exp $
+$OpenBSD$
 --- fig2dev/Imakefile.orig	Thu Apr  3 01:29:22 2003
 +++ fig2dev/Imakefile	Thu Apr  3 01:29:32 2003
 @@ -82,7 +82,7 @@ XPMINC = -I${X11BASE}/include/X11

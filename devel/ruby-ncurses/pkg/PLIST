@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-ncurses/pkg/PLIST,v 1.7 2011/07/19 18:04:21 jeremy Exp $
+@comment $OpenBSD$
 ${MODRUBY_SITEDIR}/ncurses.rb
 ${MODRUBY_SITEARCHDIR}/ncurses_bin.so
 ${MODRUBY_RELDOCDIR}/

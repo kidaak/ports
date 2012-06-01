@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/p5-Geography-Countries/Makefile,v 1.4 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		2-letter, 3-letter, and numerical codes for countries
 

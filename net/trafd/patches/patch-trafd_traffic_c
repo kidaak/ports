@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/trafd/patches/patch-trafd_traffic_c,v 1.2 2010/05/22 15:08:52 espie Exp $
+$OpenBSD$
 --- trafd/traffic.c.orig	Thu Nov 25 12:31:15 1999
 +++ trafd/traffic.c	Sat May 22 17:06:25 2010
 @@ -31,6 +31,7 @@

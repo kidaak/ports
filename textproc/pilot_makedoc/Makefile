@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/pilot_makedoc/Makefile,v 1.20 2007/09/15 20:59:41 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	convert text into the Doc format used by PalmPilots
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/rdiff-backup/patches/patch-rdiff_backup_SetConnections_py,v 1.1 2010/09/15 09:02:50 pea Exp $
+$OpenBSD$
 --- rdiff_backup/SetConnections.py.orig	Mon Mar 16 15:36:21 2009
 +++ rdiff_backup/SetConnections.py	Wed Sep 15 09:54:41 2010
 

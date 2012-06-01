@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/sattrack/patches/patch-src_Makefile,v 1.1 2007/12/18 09:08:24 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.orig	Tue Jan 14 00:51:01 1997
 +++ src/Makefile	Tue Dec 18 09:53:05 2007
 @@ -113,10 +113,10 @@

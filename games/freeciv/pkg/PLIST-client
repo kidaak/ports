@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/freeciv/pkg/PLIST-client,v 1.9 2011/12/03 19:49:45 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict freeciv-share-<2
 @pkgpath games/freeciv,-client,gtk2
 @bin bin/civmanual

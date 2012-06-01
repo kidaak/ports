@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/lam/pkg/PFRAG.shared,v 1.1 2007/04/02 07:12:27 steven Exp $
+@comment $OpenBSD$
 @lib lib/liblam.so.${LIBlam_VERSION}
 @lib lib/liblamf77mpi.so.${LIBlamf77mpi_VERSION}
 @lib lib/libmpi.so.${LIBmpi_VERSION}

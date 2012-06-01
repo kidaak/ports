@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/darktable/pkg/PLIST,v 1.3 2011/12/09 20:11:00 sthen Exp $
+@comment $OpenBSD$
 @bin bin/darktable
 @bin bin/darktable-cltest
 @comment bin/darktable-faster

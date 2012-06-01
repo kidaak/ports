@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/sympa/patches/patch-src_lib_List_pm,v 1.3 2011/08/16 10:06:58 landry Exp $
+$OpenBSD$
 Don't spam error_log
 --- src/lib/List.pm.orig	Tue Apr 12 15:31:43 2011
 +++ src/lib/List.pm	Sun Aug  7 11:37:43 2011

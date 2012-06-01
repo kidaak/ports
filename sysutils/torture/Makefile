@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/torture/Makefile,v 1.4 2011/06/23 22:50:29 naddy Exp $
+# $OpenBSD$
 
 COMMENT =		set of kernel torture tools	
 

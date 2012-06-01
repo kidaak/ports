@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-guppy/pkg/PLIST,v 1.1.1.1 2011/11/17 17:12:11 kili Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/guppy/
 lib/python${MODPY_VERSION}/site-packages/guppy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/guppy/__init__.py

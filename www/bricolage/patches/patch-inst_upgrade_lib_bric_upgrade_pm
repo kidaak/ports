@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-inst_upgrade_lib_bric_upgrade_pm,v 1.1 2007/09/21 21:17:56 sturm Exp $
+$OpenBSD$
 --- inst/upgrade/lib/bric_upgrade.pm.orig	Fri Sep 21 22:52:34 2007
 +++ inst/upgrade/lib/bric_upgrade.pm	Fri Sep 21 22:53:07 2007
 @@ -122,8 +122,8 @@ BEGIN{

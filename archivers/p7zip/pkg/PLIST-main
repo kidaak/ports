@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/p7zip/pkg/PLIST-main,v 1.7 2011/03/21 12:54:17 sthen Exp $
+@comment $OpenBSD$
 bin/7z
 bin/7za
 bin/7zr

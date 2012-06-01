@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/haddock/pkg/PLIST-main,v 1.3 2011/04/11 14:31:01 kili Exp $
+@comment $OpenBSD$
 @pkgpath devel/haddock
 @bin bin/haddock
 share/doc/haddock/

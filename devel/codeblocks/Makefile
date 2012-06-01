@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/codeblocks/Makefile,v 1.12 2012/03/15 13:38:33 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

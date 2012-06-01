@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/mailcrypt/pkg/PLIST,v 1.2 2004/09/15 09:09:42 espie Exp $
+@comment $OpenBSD$
 @info info/mailcrypt.info
 share/emacs/
 share/emacs/site-lisp/

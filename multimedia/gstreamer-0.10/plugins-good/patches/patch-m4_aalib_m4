@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-good/patches/patch-m4_aalib_m4,v 1.1 2007/01/09 21:33:25 espie Exp $
+$OpenBSD$
 --- m4/aalib.m4.orig	Wed Feb 11 17:44:05 2004
 +++ m4/aalib.m4	Tue Jan  9 12:04:34 2007
 @@ -29,6 +29,8 @@ AC_ARG_ENABLE(aalibtest, 

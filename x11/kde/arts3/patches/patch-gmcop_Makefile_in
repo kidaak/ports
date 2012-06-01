@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/arts3/patches/patch-gmcop_Makefile_in,v 1.11 2007/10/24 21:52:16 espie Exp $
+$OpenBSD$
 --- gmcop/Makefile.in.orig	Mon Oct  8 16:17:56 2007
 +++ gmcop/Makefile.in	Thu Oct 18 00:19:13 2007
 @@ -141,7 +141,7 @@ F77 = @F77@

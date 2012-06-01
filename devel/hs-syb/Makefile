@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-syb/Makefile,v 1.3 2011/12/31 22:14:12 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Scrap Your Boilerplate
 

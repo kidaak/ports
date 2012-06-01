@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/stalonetray/Makefile,v 1.6 2011/04/29 14:30:28 pea Exp $
+# $OpenBSD$
 
 COMMENT=		stand-alone tray for EWMH-compliant window managers
 

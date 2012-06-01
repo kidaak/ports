@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Algorithm-Annotate/Makefile,v 1.10 2010/12/03 11:44:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	represent a series of changes in annotate form
 

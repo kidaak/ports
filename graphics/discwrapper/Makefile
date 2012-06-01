@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/discwrapper/Makefile,v 1.5 2010/11/22 10:16:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	disc cover designer
 

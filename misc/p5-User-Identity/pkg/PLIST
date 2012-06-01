@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/p5-User-Identity/pkg/PLIST,v 1.1.1.1 2008/10/09 22:15:18 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Mail/
 ${P5SITE}/Mail/Identity.pm
 ${P5SITE}/Mail/Identity.pod

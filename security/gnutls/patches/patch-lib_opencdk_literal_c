@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/gnutls/patches/patch-lib_opencdk_literal_c,v 1.2 2011/06/21 09:55:43 ajacoutot Exp $
+$OpenBSD$
 
 literal.c:124: warning: format '%lu' expects type 'long unsigned int', but argument 4 has type 'off_t'
 literal.c:124: warning: format '%lu' expects type 'long unsigned int', but argument 4 has type 'off_t'

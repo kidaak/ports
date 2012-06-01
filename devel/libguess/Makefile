@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libguess/Makefile,v 1.2 2012/02/27 18:53:45 shadchin Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

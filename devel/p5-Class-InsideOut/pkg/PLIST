@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-InsideOut/pkg/PLIST,v 1.2 2008/10/08 17:51:46 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/
 ${P5SITE}/Class/InsideOut/
 ${P5SITE}/Class/InsideOut.pm

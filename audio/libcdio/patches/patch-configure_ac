@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libcdio/patches/patch-configure_ac,v 1.2 2011/03/18 23:58:55 sthen Exp $
+$OpenBSD$
 --- configure.ac.orig	Sat Mar 15 13:45:17 2008
 +++ configure.ac	Wed Sep 22 20:29:10 2010
 @@ -460,6 +460,11 @@ int has_timeout=sizeof(test.timeout);],

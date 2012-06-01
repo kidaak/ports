@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/html2wml/Makefile,v 1.19 2011/04/25 23:50:56 gsoares Exp $
+# $OpenBSD$
 
 COMMENT =	on-the-fly HTML to WML conversion
 

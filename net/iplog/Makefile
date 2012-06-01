@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/iplog/Makefile,v 1.9 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	TCP/IP traffic logging tool
 

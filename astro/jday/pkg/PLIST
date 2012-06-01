@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/astro/jday/pkg/PLIST,v 1.4 2006/11/02 21:30:57 naddy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/dbd
 bin/j2d

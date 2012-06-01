@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gwenview/pkg/PLIST,v 1.21 2009/12/22 16:06:41 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gwenview
 ${KDE}/gwenview.la
 ${KDE}/gwenview.so

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/pine-pgp-filters/pkg/PLIST,v 1.1.1.1 2008/03/15 10:59:46 ajacoutot Exp $
+@comment $OpenBSD$
 bin/ppf_mime
 bin/ppf_mime_decrypt
 libexec/ppf_decrypt

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/openldap23/patches/patch-configure,v 1.1.1.1 2011/01/07 10:17:04 pea Exp $
+$OpenBSD$
 --- configure.orig	Mon Oct  8 18:38:57 2007
 +++ configure	Mon Jan 14 11:56:10 2008
 @@ -9502,7 +9502,6 @@ openbsd*)

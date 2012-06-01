@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Tk/pkg/PLIST-demo,v 1.8 2010/08/19 21:54:42 sthen Exp $
+@comment $OpenBSD$
 bin/widget
 ${P5ARCH}/Tk/WidgetDemo.pod
 ${P5ARCH}/Tk/demos/

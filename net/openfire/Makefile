@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/openfire/Makefile,v 1.23 2011/12/15 21:37:06 kili Exp $
+# $OpenBSD$
 
 COMMENT=	XMPP real time collaboration server
 DISTNAME=	openfire_src_3_7_0

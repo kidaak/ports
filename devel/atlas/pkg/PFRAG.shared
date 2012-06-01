@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/atlas/pkg/PFRAG.shared,v 1.3 2006/01/02 17:49:48 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libAtlas.so.${LIBAtlas_VERSION}
 @lib lib/libAtlasCodecs.so.${LIBAtlasCodecs_VERSION}
 @lib lib/libAtlasFunky.so.${LIBAtlasFunky_VERSION}

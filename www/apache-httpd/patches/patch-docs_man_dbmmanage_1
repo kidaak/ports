@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/apache-httpd/patches/patch-docs_man_dbmmanage_1,v 1.1 2007/01/16 01:12:26 deanna Exp $
+$OpenBSD$
 --- docs/man/dbmmanage.1.orig	Sun Jan 14 19:01:44 2007
 +++ docs/man/dbmmanage.1	Sun Jan 14 19:14:21 2007
 @@ -19,30 +19,30 @@

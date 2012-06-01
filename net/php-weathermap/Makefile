@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/php-weathermap/Makefile,v 1.11 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT=	graphical network traffic map
 

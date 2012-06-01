@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-dtopt/Makefile,v 1.6 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT =	add options to doctest examples while they are running
 

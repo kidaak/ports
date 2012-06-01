@@ -1,8 +1,9 @@
-# $OpenBSD: ports/databases/pgbouncer/Makefile,v 1.15 2012/01/17 13:57:24 pea Exp $
+# $OpenBSD$
 
 COMMENT = 	lightweight connection pooler for PostgreSQL
 
 DISTNAME = 	pgbouncer-1.5
+REVISION =	0
 
 CATEGORIES = 	databases
 

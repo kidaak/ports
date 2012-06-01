@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/cmu-sphinxbase/pkg/PLIST,v 1.2 2010/04/26 07:12:30 eric Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/sphinx_cepview
 @bin bin/sphinx_cont_adseg

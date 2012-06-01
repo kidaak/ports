@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tacacs+/patches/patch-parse_h,v 1.1 2010/05/23 16:54:10 espie Exp $
+$OpenBSD$
 --- parse.h.orig	Sun May 23 18:52:23 2010
 +++ parse.h	Sun May 23 18:52:28 2010
 @@ -18,9 +18,6 @@

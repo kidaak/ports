@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libcanberra/patches/patch-src_Makefile_am,v 1.5 2011/04/13 06:47:22 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.am.orig	Thu Feb 24 23:06:16 2011
 +++ src/Makefile.am	Tue Apr 12 15:02:53 2011
 @@ -212,6 +212,36 @@ libcanberra_oss_la_LDFLAGS = \

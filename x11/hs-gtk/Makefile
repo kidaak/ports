@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/hs-gtk/Makefile,v 1.8 2011/09/16 12:29:15 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell bindings to gtk+2
 

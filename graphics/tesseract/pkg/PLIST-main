@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/tesseract/pkg/PLIST-main,v 1.8 2011/12/22 09:47:50 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/cntraining
 @bin bin/combine_tessdata

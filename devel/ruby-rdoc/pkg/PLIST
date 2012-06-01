@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-rdoc/pkg/PLIST,v 1.1.1.1 2011/12/13 17:36:02 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/rdoc${GEM_BIN_SUFFIX}-gem
 ${GEM_BIN}/ri${GEM_BIN_SUFFIX}-gem
 ${GEM_LIB}/cache/${DISTNAME}.gem

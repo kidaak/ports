@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/sqlgrey/Makefile,v 1.4 2011/09/21 07:49:15 giovanni Exp $
+# $OpenBSD$
 
 COMMENT =	postfix greylist daemon
 

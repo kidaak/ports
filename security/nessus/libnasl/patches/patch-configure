@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/nessus/libnasl/patches/patch-configure,v 1.1 2010/10/12 22:05:21 robert Exp $
+$OpenBSD$
 --- configure.orig	Tue Oct 12 20:51:20 2010
 +++ configure	Tue Oct 12 20:51:34 2010
 @@ -5532,7 +5532,7 @@ test "x$NESSUSCONFIG" = x && { echo "configure: error:

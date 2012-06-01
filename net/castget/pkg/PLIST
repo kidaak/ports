@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/castget/pkg/PLIST,v 1.2 2011/03/04 16:12:01 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/castget
 include/libcastget.h

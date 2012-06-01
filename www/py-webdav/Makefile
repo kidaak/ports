@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-webdav/Makefile,v 1.4 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=		standards compliant Python WebDAV server and library
 

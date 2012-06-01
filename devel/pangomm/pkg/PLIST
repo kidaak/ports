@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pangomm/pkg/PLIST,v 1.7 2011/09/27 12:26:20 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gtk2mm-<2.14
 %%SHARED%%
 include/pangomm-1.4/

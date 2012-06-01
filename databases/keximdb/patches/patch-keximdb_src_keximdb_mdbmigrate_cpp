@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/keximdb/patches/patch-keximdb_src_keximdb_mdbmigrate_cpp,v 1.1.1.1 2007/06/03 09:55:08 espie Exp $
+$OpenBSD$
 --- keximdb/src/keximdb/mdbmigrate.cpp.orig	Sun Jun  3 10:39:08 2007
 +++ keximdb/src/keximdb/mdbmigrate.cpp	Sun Jun  3 10:39:18 2007
 @@ -112,7 +112,7 @@ bool MDBMigrate::drv_connect() {

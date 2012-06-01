@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/bibview/patches/patch-ctl_serv_c,v 1.1 2001/04/17 13:13:31 naddy Exp $
+$OpenBSD$
 --- ctl_serv.c.orig	Thu Nov 25 14:11:13 1993
 +++ ctl_serv.c	Tue Apr 17 14:30:50 2001
 @@ -307,11 +307,11 @@ char *tempName;

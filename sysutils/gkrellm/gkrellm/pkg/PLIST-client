@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/gkrellm/gkrellm/pkg/PLIST-client,v 1.8 2010/01/05 12:40:36 ajacoutot Exp $
+@comment $OpenBSD$
 @mode 2755
 @group kmem
 @bin bin/gkrellm

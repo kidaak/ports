@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/darkstat/pkg/PLIST,v 1.5 2012/01/26 08:03:57 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _darkstat:587
 @newuser _darkstat:587:_darkstat:daemon:Darkstat Network Monitor Account:/nonexistent:/sbin/nologin
 @man man/man8/darkstat.8

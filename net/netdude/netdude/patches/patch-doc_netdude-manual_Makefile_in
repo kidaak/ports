@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-doc_netdude-manual_Makefile_in,v 1.2 2007/09/26 20:21:06 rui Exp $
+$OpenBSD$
 --- doc/netdude-manual/Makefile.in.orig	Sun Jun 24 22:38:09 2007
 +++ doc/netdude-manual/Makefile.in	Fri Jul 27 16:20:00 2007
 @@ -175,7 +175,7 @@ version_major = @version_major@

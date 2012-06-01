@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/last.fm/Makefile,v 1.15 2012/04/12 09:15:40 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		official Last.fm client
 

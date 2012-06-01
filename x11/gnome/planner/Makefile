@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/planner/Makefile,v 1.50 2011/12/25 09:55:12 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		project management application
 

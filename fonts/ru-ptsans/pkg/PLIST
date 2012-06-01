@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/ru-ptsans/pkg/PLIST,v 1.1.1.1 2011/07/19 09:14:21 jasper Exp $
+@comment $OpenBSD$
 @pkgpath x11/ptsans
 lib/X11/fonts/
 @fontdir lib/X11/fonts/ptsans/

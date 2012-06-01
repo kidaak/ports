@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/ImageMagick/patches/patch-coders_png_c,v 1.8 2011/07/06 22:43:00 kili Exp $
+$OpenBSD$
 --- coders/png.c.orig	Fri Dec 24 19:00:33 2010
 +++ coders/png.c	Sat Jan  1 23:06:23 2011
 @@ -1786,7 +1786,7 @@ static Image *ReadOnePNGImage(MngInfo *mng_info,

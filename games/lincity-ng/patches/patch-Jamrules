@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/lincity-ng/patches/patch-Jamrules,v 1.2 2009/03/27 19:52:43 ajacoutot Exp $
+$OpenBSD$
 --- Jamrules.orig	Sun Jan 25 22:21:25 2009
 +++ Jamrules	Wed Mar 18 18:27:28 2009
 @@ -21,8 +21,8 @@ if $(USE_STLPORT_DEBUG)

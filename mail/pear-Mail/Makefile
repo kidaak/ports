@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/pear-Mail/Makefile,v 1.15 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	class that provides multiple interfaces for sending email
 

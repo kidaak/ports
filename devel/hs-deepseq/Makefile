@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-deepseq/Makefile,v 1.11 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		deep evaluation of data structures
 

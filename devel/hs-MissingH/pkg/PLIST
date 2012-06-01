@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-MissingH/pkg/PLIST,v 1.6 2011/12/05 14:53:01 dcoppa Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Control/
 lib/ghc/${DISTNAME}/Control/Concurrent/

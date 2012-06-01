@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/milter-regex/Makefile,v 1.24 2011/05/11 12:57:48 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	sendmail milter plugin for regular expression filtering
 

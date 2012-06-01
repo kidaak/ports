@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/artwiz-aleczapka/Makefile,v 1.3 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=	improved artwiz fonts
 COMMENT-de=	improved artwiz fonts (german pack)

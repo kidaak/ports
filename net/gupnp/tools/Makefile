@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gupnp/tools/Makefile,v 1.8 2011/12/12 10:00:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		free replacements of Intel UPnP tools
 

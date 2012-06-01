@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Digest-MD4/Makefile,v 1.6 2011/07/31 07:50:18 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	interface to md4 message-digest algorithm
 

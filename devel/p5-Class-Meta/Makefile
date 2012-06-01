@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Meta/Makefile,v 1.8 2011/06/01 17:41:51 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		class automation, introspection and validation
 

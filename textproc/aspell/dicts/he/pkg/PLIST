@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/aspell/dicts/he/pkg/PLIST,v 1.1.1.1 2010/12/02 13:08:29 jasper Exp $
+@comment $OpenBSD$
 lib/aspell/he.dat
 lib/aspell/he_affix.dat
 lib/aspell/iso-8859-8-nl.cmap

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-lib_phusion_passenger_standalone_runtime_installer_rb,v 1.1 2011/12/13 18:38:18 jeremy Exp $
+$OpenBSD$
 
 We don't want to check with the passenger servers to see if they have a binary
 version for OpenBSD.

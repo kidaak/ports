@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/isc-dhcp/pkg/PLIST-omapi,v 1.4 2012/01/14 12:43:25 sthen Exp $
+@comment $OpenBSD$
 @conflict isc-dhcp-*
 @bin bin/omshell
 include/dhcpctl/

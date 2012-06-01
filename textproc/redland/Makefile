@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/redland/Makefile,v 1.5 2010/11/20 19:56:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=		high-level interface for RDF
 DISTNAME=		redland-1.0.8

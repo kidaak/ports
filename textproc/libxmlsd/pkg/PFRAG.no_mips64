@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/textproc/libxmlsd/pkg/PFRAG.no_mips64,v 1.2 2011/03/13 17:33:38 jasper Exp $
+@comment $OpenBSD$
 lib/libxmlsd_pic.a

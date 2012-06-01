@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-Class-IntrospectableM2M/Makefile,v 1.1.1.1 2012/04/06 09:23:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	introspect many-to-many shortcuts
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/mongrel2/pkg/PLIST,v 1.2 2011/07/06 01:23:50 jeremy Exp $
+@comment $OpenBSD$
 @bin bin/m2sh
 @bin bin/mongrel2
 lib/mongrel2/

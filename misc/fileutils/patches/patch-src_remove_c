@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/fileutils/patches/patch-src_remove_c,v 1.2 2010/11/03 06:56:37 jasper Exp $
+$OpenBSD$
 --- src/remove.c.orig	Sun Feb 18 17:17:32 2001
 +++ src/remove.c	Wed Nov  3 07:55:57 2010
 @@ -433,10 +433,13 @@ same_file (const char *file_1, const char *file_2)

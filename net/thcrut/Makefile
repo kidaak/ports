@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/thcrut/Makefile,v 1.15 2011/06/15 11:46:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	local network discovery tool
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/cmu-sphinxbase/Makefile,v 1.7 2010/11/15 00:22:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	common libraries for the CMU speech recognition engines
 

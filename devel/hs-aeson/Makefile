@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-aeson/Makefile,v 1.1.1.1 2012/01/23 21:00:49 kili Exp $
+# $OpenBSD$
 
 COMMENT =		fast JSON parsing and encoding
 

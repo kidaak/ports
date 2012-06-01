@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/dclib/pkg/PLIST,v 1.1.1.1 2005/11/09 09:21:54 wilfried Exp $
+@comment $OpenBSD$
 include/dclib/
 include/dclib/cclient.h
 include/dclib/cclientssl.h

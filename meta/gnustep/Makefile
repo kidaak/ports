@@ -1,4 +1,4 @@
-# $OpenBSD: ports/meta/gnustep/Makefile,v 1.1.1.1 2011/11/18 11:22:55 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep desktop meta-package
 

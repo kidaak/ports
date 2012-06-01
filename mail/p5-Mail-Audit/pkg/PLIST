@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Mail-Audit/pkg/PLIST,v 1.4 2008/06/13 19:44:27 merdely Exp $
+@comment $OpenBSD$
 ${P5SITE}/Mail/Audit/
 ${P5SITE}/Mail/Audit.pm
 ${P5SITE}/Mail/Audit/KillDups.pm

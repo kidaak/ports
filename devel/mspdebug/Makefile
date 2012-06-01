@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mspdebug/Makefile,v 1.14 2012/04/04 15:30:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		debugger for use with MSP 430 MCUs
 

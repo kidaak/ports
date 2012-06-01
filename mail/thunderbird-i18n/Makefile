@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/thunderbird-i18n/Makefile,v 1.54 2012/01/22 17:11:57 landry Exp $
+# $OpenBSD$
 
 SUBDIR = ar
 SUBDIR += be

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-erubis/patches/patch-test_test-users-guide_rb,v 1.1 2011/12/13 17:56:55 jeremy Exp $
+$OpenBSD$
 --- test/test-users-guide.rb.orig	Fri Nov 18 12:19:30 2011
 +++ test/test-users-guide.rb	Fri Nov 18 12:20:26 2011
 @@ -28,7 +28,12 @@ class KwarkUsersGuideTest < Test::Unit::TestCase

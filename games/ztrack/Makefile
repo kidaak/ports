@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ztrack/Makefile,v 1.3 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=		ncurses based pseudo-3D driving game
 

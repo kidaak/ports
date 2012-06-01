@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/spe/pkg/PLIST,v 1.4 2009/12/22 15:31:27 ajacoutot Exp $
+@comment $OpenBSD$
 bin/spe
 lib/python${MODPY_VERSION}/site-packages/_spe/
 lib/python${MODPY_VERSION}/site-packages/_spe/Blender_signature.py

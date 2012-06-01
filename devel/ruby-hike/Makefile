@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-hike/Makefile,v 1.1.1.1 2011/12/13 17:34:48 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	library for finding files in a set of paths
 

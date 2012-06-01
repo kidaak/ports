@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-FileHandle-Unget/Makefile,v 1.6 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	filehandle which supports ungetting of multiple bytes
 

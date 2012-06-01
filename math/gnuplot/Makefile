@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/gnuplot/Makefile,v 1.53 2011/12/05 22:36:54 espie Exp $
+# $OpenBSD$
 
 COMMENT =	command-driven interactive function plotting program
 

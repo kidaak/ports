@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/hexcalc/Makefile,v 1.14 2011/06/16 11:45:53 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	multi-radix calculator for x11
 

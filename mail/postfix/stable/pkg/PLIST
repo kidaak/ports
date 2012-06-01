@@ -1,5 +1,6 @@
-@comment $OpenBSD: ports/mail/postfix/stable/pkg/PLIST,v 1.31 2012/02/20 09:55:49 sthen Exp $
+@comment $OpenBSD$
 @conflict postfix-*
+@pkgpath mail/postfix/stable,sqlite
 @newgroup _postfix:507
 @newgroup _postdrop:508
 @newuser _postfix:507:507:daemon:Postfix Daemon:/var/empty:/sbin/nologin

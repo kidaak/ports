@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-RegExp/Makefile,v 1.9 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Provide regular expressions for some XML tokens
 

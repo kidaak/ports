@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/texi2html/pkg/PLIST,v 1.7 2010/06/24 19:42:44 kili Exp $
+@comment $OpenBSD$
 bin/texi2html
 @info info/texi2html.info
 @man man/man1/texi2html.1

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Highlight/pkg/PLIST,v 1.1.1.1 2007/07/22 16:20:43 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTML/
 ${P5SITE}/HTML/Highlight.pm
 @man man/man3p/HTML::Highlight.3p

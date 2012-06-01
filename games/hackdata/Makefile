@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/hackdata/Makefile,v 1.14 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 COMMENT =	common data for the nethack/slash ports
 V =		3.4.3

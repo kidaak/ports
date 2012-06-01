@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/conserver/patches/patch-conserver_cf_Makefile_in,v 1.2 2005/08/02 07:25:47 pvalchev Exp $
+$OpenBSD$
 --- conserver.cf/Makefile.in.orig	Tue Feb 10 01:32:28 2004
 +++ conserver.cf/Makefile.in	Sat Jul 30 09:42:34 2005
 @@ -23,11 +23,10 @@ distclean: clean

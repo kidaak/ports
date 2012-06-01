@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Class-DBI-AsForm/Makefile,v 1.10 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	produce HTML form elements for database columns
 

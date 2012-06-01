@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/logsurfer/Makefile,v 1.20 2010/10/18 21:41:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	processes logfiles and perform certain actions
 

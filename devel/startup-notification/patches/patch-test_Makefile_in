@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/startup-notification/patches/patch-test_Makefile_in,v 1.1 2011/10/12 07:41:04 ajacoutot Exp $
+$OpenBSD$
 
 See XXX in the port Makefile.
 

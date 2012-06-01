@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/dillo/Makefile,v 1.38 2011/07/30 04:25:36 benoit Exp $
+# $OpenBSD$
 
 COMMENT =		fast and light graphical web browser
 

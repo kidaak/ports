@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/figlet/Makefile,v 1.22 2011/03/26 15:07:59 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	generates ASCII banner art
 

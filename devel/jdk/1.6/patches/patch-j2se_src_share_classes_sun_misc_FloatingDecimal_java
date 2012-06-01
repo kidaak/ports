@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_src_share_classes_sun_misc_FloatingDecimal_java,v 1.1 2011/02/05 23:11:18 ian Exp $
+$OpenBSD$
 
 # Fix for DoS caused by very small subnormal double, original fix at 
 # https://bugs.openjdk.java.net/show_bug.cgi?id=100119

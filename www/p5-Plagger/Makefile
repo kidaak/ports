@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Plagger/Makefile,v 1.5 2010/11/22 08:36:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	pluggable RSS/Atom aggregator
 

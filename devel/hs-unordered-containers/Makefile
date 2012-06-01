@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-unordered-containers/Makefile,v 1.1.1.1 2012/01/23 21:00:08 kili Exp $
+# $OpenBSD$
 
 COMMENT =		efficient hashing-based container types
 

@@ -1,4 +1,4 @@
-# $OpenBSD:
+# $OpenBSD$
 
 COMMENT =		utility designed to clean up filenames
 

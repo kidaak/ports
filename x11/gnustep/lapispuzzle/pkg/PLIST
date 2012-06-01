@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/lapispuzzle/pkg/PLIST,v 1.1.1.1 2011/05/13 11:35:18 sebastia Exp $
+@comment $OpenBSD$
 bin/LapisPuzzle
 libexec/GNUstep/
 libexec/GNUstep/LapisPuzzle.app/

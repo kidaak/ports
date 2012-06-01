@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Universal-can/Makefile,v 1.8 2010/12/03 11:44:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	calling UNIVERSAL::can as a function
 

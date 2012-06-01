@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/mpeg_encode/Makefile,v 1.14 2010/11/22 10:16:08 espie Exp $
+# $OpenBSD$
 # $FreeBSD: ports/graphics/mpeg_encode/Makefile,v 1.11 2000/10/28 13:05:25 lioux Exp $
 
 COMMENT=	UCB's MPEG-I video stream encoder

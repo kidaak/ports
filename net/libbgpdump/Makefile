@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libbgpdump/Makefile,v 1.5 2010/11/19 22:31:34 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library to analyze MRT-format BGP dump files
 

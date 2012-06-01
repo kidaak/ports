@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/mimp/Makefile,v 1.8 2012/01/13 15:30:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight front-end for mobile IMP users
 

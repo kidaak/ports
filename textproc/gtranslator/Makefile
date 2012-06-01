@@ -1,14 +1,11 @@
-# $OpenBSD: ports/textproc/gtranslator/Makefile,v 1.33 2012/04/12 18:05:43 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
 COMMENT=	gettext(1) files editor for GNOME
 
 GNOME_PROJECT=	gtranslator
-GNOME_VERSION=	2.91.2
-REVISION=	0
-
-SHARED_LIBS +=  gtranslator-private       0.0 # 0.0
+GNOME_VERSION=	2.91.4
 
 CATEGORIES=	textproc devel
 

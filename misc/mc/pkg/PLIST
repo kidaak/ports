@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/mc/pkg/PLIST,v 1.14 2012/04/13 13:42:21 robert Exp $
+@comment $OpenBSD$
 @bin bin/mc
 bin/mcdiff
 bin/mcedit

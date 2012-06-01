@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/hydrogen/patches/patch-Sconstruct,v 1.2 2011/07/20 12:08:24 sthen Exp $
+$OpenBSD$
 --- Sconstruct.orig	Mon Sep  7 22:31:13 2009
 +++ Sconstruct	Wed Jul 20 12:45:04 2011
 @@ -47,20 +47,21 @@ def get_platform_flags( opts ):

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/blame/Makefile,v 1.3 2010/10/18 17:47:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=	RCS equivalent of CVS's annotate command
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-logilab-common/patches/patch-proc_py,v 1.1 2011/08/31 12:39:19 mpi Exp $
+$OpenBSD$
 
 OpenBSD doesn't support RLIMIT_AS
 

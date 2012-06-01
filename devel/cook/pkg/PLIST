@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cook/pkg/PLIST,v 1.7 2004/08/09 00:21:29 espie Exp $
+@comment $OpenBSD$
 bin/c_incl
 bin/cook
 bin/cook_bom

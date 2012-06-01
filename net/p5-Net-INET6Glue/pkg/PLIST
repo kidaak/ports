@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-INET6Glue/pkg/PLIST,v 1.1.1.1 2010/05/24 17:57:03 bluhm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/INET6Glue/
 ${P5SITE}/Net/INET6Glue.pm

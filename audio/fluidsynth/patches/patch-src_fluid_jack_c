@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/fluidsynth/patches/patch-src_fluid_jack_c,v 1.2 2009/10/15 15:44:50 jakemsr Exp $
+$OpenBSD$
 --- src/fluid_jack.c.orig	Sun Mar  8 22:43:14 2009
 +++ src/fluid_jack.c	Tue Oct 13 20:47:41 2009
 @@ -90,7 +90,7 @@ fluid_jack_audio_driver_settings(fluid_settings_t* set

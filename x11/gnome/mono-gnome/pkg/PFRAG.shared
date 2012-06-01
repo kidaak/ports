@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/gnome/mono-gnome/pkg/PFRAG.shared,v 1.1.1.1 2008/10/16 20:48:07 robert Exp $
+@comment $OpenBSD$
 lib/libgnomesharpglue-2.so

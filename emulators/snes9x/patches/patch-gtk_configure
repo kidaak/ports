@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/snes9x/patches/patch-gtk_configure,v 1.2 2011/10/03 06:42:46 ajacoutot Exp $
+$OpenBSD$
 
 Fix DATADIRNAME: see LOCALBASE/share/aclocal/glib-gettext.m4.
 

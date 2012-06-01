@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-HTML-Tidy/Makefile,v 1.4 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Test::More-style wrapper around HTML::Tidy
 

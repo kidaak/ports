@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/guichan/Makefile,v 1.6 2010/11/15 19:45:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	C++ GUI library designed for games
 

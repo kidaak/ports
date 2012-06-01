@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/spidermonkey/pkg/PFRAG.jit,v 1.1.1.1 2012/04/07 13:48:18 landry Exp $
+@comment $OpenBSD$
 include/js-${MOZILLA_VERSION}/Allocator.h
 include/js-${MOZILLA_VERSION}/Assembler.h
 include/js-${MOZILLA_VERSION}/CodeAlloc.h

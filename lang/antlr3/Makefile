@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/antlr3/Makefile,v 1.3 2011/09/11 18:24:24 jasper Exp $
+# $OpenBSD$
 
 # keep in sync with classpath archs
 ONLY_FOR_ARCHS=	i386 amd64 sparc64

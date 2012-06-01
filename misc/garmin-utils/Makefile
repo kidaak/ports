@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/garmin-utils/Makefile,v 1.17 2011/06/23 22:50:27 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	Garmin GPS upload/download utilities
 

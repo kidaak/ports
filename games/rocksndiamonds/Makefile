@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/rocksndiamonds/Makefile,v 1.21 2011/07/11 12:08:24 jasper Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =	${GCC4_ARCHS}
 

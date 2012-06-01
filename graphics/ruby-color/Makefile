@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ruby-color/Makefile,v 1.8 2011/09/16 10:02:38 espie Exp $
+# $OpenBSD$
 
 COMMENT =	color value conversion and modification
 

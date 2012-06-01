@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-Symdump/Makefile,v 1.10 2011/11/17 15:17:41 sthen Exp $
+# $OpenBSD$
 
 COMMENT= 	module for inspecting Perl's symbol table
 

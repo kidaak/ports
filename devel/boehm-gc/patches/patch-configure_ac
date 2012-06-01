@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boehm-gc/patches/patch-configure_ac,v 1.2 2012/02/22 12:31:42 kurt Exp $
+$OpenBSD$
 --- configure.ac.orig	Sat Jun 30 11:40:15 2007
 +++ configure.ac	Sun Feb 19 12:57:00 2012
 @@ -113,6 +113,11 @@ case "$THREADS" in

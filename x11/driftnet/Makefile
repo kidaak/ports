@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/driftnet/Makefile,v 1.10 2011/09/16 12:29:13 espie Exp $
+# $OpenBSD$
 
 COMMENT=	network sniffer that grabs and displays images
 

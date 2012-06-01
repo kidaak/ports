@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/lensfun/Makefile,v 1.7 2011/09/16 10:02:37 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library to adjust for photographic lens characteristics
 DISTNAME=	lensfun-0.2.5

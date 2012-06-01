@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/irrlicht/patches/patch-include_IrrCompileConfig_h,v 1.1.1.1 2011/05/04 09:41:50 jasper Exp $
+$OpenBSD$
 --- include/IrrCompileConfig.h.orig	Sun Dec 26 20:30:13 2010
 +++ include/IrrCompileConfig.h	Sun Dec 26 20:31:12 2010
 @@ -90,11 +90,12 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/mkvtoolnix/pkg/PFRAG.no-no_x11,v 1.3 2010/04/17 13:14:05 benoit Exp $
+@comment $OpenBSD$
 @bin bin/mmg
 @man man/man1/mmg.1
 share/mkvtoolnix/

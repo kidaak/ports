@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/zsync/Makefile,v 1.3 2010/11/03 20:10:59 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	gzip-aware file mirroring over http
 

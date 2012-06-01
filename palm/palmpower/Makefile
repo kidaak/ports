@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/palmpower/Makefile,v 1.6 2010/10/18 21:25:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	disassembler and other tools for palmos binaries
 

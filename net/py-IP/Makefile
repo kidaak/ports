@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-IP/Makefile,v 1.23 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Python module to handle IPv4 and IPv6 address
 

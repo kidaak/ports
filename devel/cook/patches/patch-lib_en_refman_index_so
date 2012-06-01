@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cook/patches/patch-lib_en_refman_index_so,v 1.1 2011/03/22 15:27:57 sthen Exp $
+$OpenBSD$
 # Make the table a bit narrower, such that the build doesn't fail with:
 # pic:lib/en/refman/i18n.pic.so:23: giving up on this picture
 # warning: file `lib/en/refman/index.so', around line 4:

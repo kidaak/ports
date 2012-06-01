@@ -1,4 +1,4 @@
-/*	$OpenBSD: ports/net/pidgin/files/ssl-openssl.c,v 1.7 2011/12/13 14:42:55 jasper Exp $	*/
+/*	$OpenBSD$	*/
 
 /*
  * OpenSSL SSL-plugin for purple

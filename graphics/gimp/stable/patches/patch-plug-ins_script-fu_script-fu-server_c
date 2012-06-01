@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/gimp/stable/patches/patch-plug-ins_script-fu_script-fu-server_c,v 1.1 2012/02/27 14:55:31 giovanni Exp $
+$OpenBSD$
 --- plug-ins/script-fu/script-fu-server.c.orig	Mon Feb 27 15:25:23 2012
 +++ plug-ins/script-fu/script-fu-server.c	Mon Feb 27 15:25:51 2012
 @@ -446,7 +446,11 @@ server_start (gint         port,

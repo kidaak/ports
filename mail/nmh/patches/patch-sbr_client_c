@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/nmh/patches/patch-sbr_client_c,v 1.1 2012/01/26 07:24:08 bentley Exp $
+$OpenBSD$
 
 Fix bug 35242
 From http://savannah.nongnu.org/bugs/?35242

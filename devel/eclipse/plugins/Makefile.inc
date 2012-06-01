@@ -1,3 +1,3 @@
-# $OpenBSD: ports/devel/eclipse/plugins/Makefile.inc,v 1.1 2006/08/09 19:53:44 kurt Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	amd64 i386

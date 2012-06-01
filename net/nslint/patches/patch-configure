@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nslint/patches/patch-configure,v 1.1.1.1 2001/02/28 23:57:34 naddy Exp $
+$OpenBSD$
 --- configure.orig	Mon Jan  8 05:20:13 2001
 +++ configure	Thu Mar  1 00:53:06 2001
 @@ -649,10 +649,10 @@ if test "${with_gcc+set}" = set; then

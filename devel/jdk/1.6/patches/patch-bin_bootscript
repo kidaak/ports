@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-bin_bootscript,v 1.1 2011/10/07 02:04:12 kurt Exp $
+$OpenBSD$
 --- bin/bootscript.orig	Sat Oct  1 08:17:38 2011
 +++ bin/bootscript	Sat Oct  1 10:10:04 2011
 @@ -0,0 +1,87 @@

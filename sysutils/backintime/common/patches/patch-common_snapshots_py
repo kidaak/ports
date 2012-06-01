@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/backintime/common/patches/patch-common_snapshots_py,v 1.3 2011/09/15 06:54:41 ajacoutot Exp $
+$OpenBSD$
 
 OpenBSD does not support extended attributes & ACLs.
 Needs the "--link" option from gcp(1) for incremental backups.

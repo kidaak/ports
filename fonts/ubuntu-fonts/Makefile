@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/ubuntu-fonts/Makefile,v 1.3 2011/11/09 09:17:05 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		unicode sans-serif/monospace TrueType fonts from Ubuntu
 

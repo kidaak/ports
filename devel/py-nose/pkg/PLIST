@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-nose/pkg/PLIST,v 1.7 2012/03/13 12:23:53 eric Exp $
+@comment $OpenBSD$
 bin/nosetests${MODPY_BIN_SUFFIX}
 lib/python${MODPY_VERSION}/site-packages/nose/
 lib/python${MODPY_VERSION}/site-packages/nose-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/

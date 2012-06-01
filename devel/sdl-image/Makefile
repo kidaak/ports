@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/sdl-image/Makefile,v 1.33 2012/04/05 11:40:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	SDL image library
 

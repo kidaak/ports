@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/fltk2/Makefile,v 1.13 2011/07/30 07:55:14 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	fast light toolkit
 

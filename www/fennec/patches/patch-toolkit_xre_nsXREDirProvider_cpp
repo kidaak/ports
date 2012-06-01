@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-toolkit_xre_nsXREDirProvider_cpp,v 1.6 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 Look for extensions in LOCALBASE
 --- toolkit/xre/nsXREDirProvider.cpp.orig	Wed Jan 11 18:15:08 2012
 +++ toolkit/xre/nsXREDirProvider.cpp	Sat Jan 14 20:24:24 2012

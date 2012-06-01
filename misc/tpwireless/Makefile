@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/tpwireless/Makefile,v 1.5 2008/05/15 18:47:48 djm Exp $
+# $OpenBSD$
 
 COMMENT=	Set IBM Thinkpad BIOS bit to disable Wireless NIC ID check
 

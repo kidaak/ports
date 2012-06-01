@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-snmp/Makefile,v 1.14 2011/12/04 10:48:11 benoit Exp $
+# $OpenBSD$
 
 COMMENT=	SNMP framework for Python
 

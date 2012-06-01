@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/lxnb/pkg/PLIST,v 1.2 2000/07/14 03:02:46 kevlo Exp $
+@comment $OpenBSD$
 bin/lxnb

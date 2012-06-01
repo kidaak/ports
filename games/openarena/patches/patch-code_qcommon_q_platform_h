@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/openarena/patches/patch-code_qcommon_q_platform_h,v 1.2 2012/03/18 15:47:28 kirby Exp $
+$OpenBSD$
 --- code/qcommon/q_platform.h.orig	Sat Dec 24 14:29:32 2011
 +++ code/qcommon/q_platform.h	Tue Mar  6 22:44:31 2012
 @@ -209,7 +209,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,

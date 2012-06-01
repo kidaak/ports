@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/jruby/patches/patch-jruby-launcher_unixlauncher_cpp,v 1.2 2011/11/08 23:58:08 jeremy Exp $
+$OpenBSD$
 
 Attempt to replicate the following shell code:
 

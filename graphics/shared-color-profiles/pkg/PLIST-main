@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/shared-color-profiles/pkg/PLIST-main,v 1.2 2011/11/02 20:18:52 ajacoutot Exp $
+@comment $OpenBSD$
 share/color/
 share/color/icc/
 share/color/icc/AdobeGammaTest.icm

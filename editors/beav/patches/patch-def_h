@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/beav/patches/patch-def_h,v 1.2 2010/05/22 15:05:29 espie Exp $
+$OpenBSD$
 --- def.h.orig	Sat Dec 13 09:34:59 1997
 +++ def.h	Sat May 22 16:59:41 2010
 @@ -12,10 +12,12 @@

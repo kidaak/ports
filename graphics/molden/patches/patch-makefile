@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/molden/patches/patch-makefile,v 1.1.1.1 2007/11/09 17:26:27 ckuethe Exp $
+$OpenBSD$
 --- makefile.orig	Thu Nov  8 20:01:56 2007
 +++ makefile	Thu Nov  8 20:03:33 2007
 @@ -51,9 +51,9 @@ LIBSG = -L/usr/X11R6/lib -lGLU -lGL -lXmu -lX11 -lm

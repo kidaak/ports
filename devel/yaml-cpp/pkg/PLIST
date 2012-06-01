@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/yaml-cpp/pkg/PLIST,v 1.2 2012/03/03 10:33:47 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/yaml-cpp/
 include/yaml-cpp/aliasmanager.h

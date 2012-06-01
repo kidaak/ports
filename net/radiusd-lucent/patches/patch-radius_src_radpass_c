@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/radiusd-lucent/patches/patch-radius_src_radpass_c,v 1.1 2001/11/20 19:20:59 danh Exp $
+$OpenBSD$
 --- radius/src/radpass.c.orig	Tue Nov 20 14:18:36 2001
 +++ radius/src/radpass.c	Tue Nov 20 14:18:49 2001
 @@ -320,9 +320,8 @@ u_char	*vector;

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/screen/Makefile,v 1.62 2012/02/20 22:20:51 sthen Exp $
+# $OpenBSD$
 # Please adjust www/faq/faq15.html if updating.
 
 COMMENT=	multi-screen window manager

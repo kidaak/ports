@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/belooted/pkg/PLIST,v 1.3 2009/12/22 16:28:00 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/belooted
 share/applications/belooted.desktop
 share/pixmaps/

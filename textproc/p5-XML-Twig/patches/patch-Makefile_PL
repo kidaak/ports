@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/p5-XML-Twig/patches/patch-Makefile_PL,v 1.4 2010/09/09 19:22:50 jasper Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Tue Apr 27 10:46:53 2010
 +++ Makefile.PL	Thu Sep  9 21:20:39 2010
 @@ -28,8 +28,7 @@ else

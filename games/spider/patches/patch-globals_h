@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/spider/patches/patch-globals_h,v 1.1 2004/10/25 13:49:22 brad Exp $
+$OpenBSD$
 --- globals.h.orig	Sat Sep 28 13:46:20 1991
 +++ globals.h	Sun Oct 24 17:36:52 2004
 @@ -90,12 +90,8 @@ void	redraw_table();

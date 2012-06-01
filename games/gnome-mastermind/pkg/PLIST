@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/gnome-mastermind/pkg/PLIST,v 1.4 2011/12/03 19:49:45 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gnome-mastermind
 share/applications/gnome-mastermind.desktop
 share/gnome-mastermind/

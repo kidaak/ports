@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pybugz/pkg/PLIST,v 1.2 2009/11/20 11:58:21 djm Exp $
+@comment $OpenBSD$
 bin/bugz
 lib/python${MODPY_VERSION}/site-packages/bugz/
 lib/python${MODPY_VERSION}/site-packages/bugz/__init__.py

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mirror/Makefile,v 1.23 2010/10/18 18:36:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	mirror packages on remote sites
 

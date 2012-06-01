@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ruby/1.9/pkg/PLIST-tk,v 1.2 2011/11/08 23:38:57 jeremy Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict ruby-tk->=1.9,<1.10
 lib/ruby/${RUBYLIBREV}/multi-tk.rb

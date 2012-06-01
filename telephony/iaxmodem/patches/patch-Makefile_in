@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/iaxmodem/patches/patch-Makefile_in,v 1.1.1.1 2008/04/21 03:49:22 todd Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Feb  7 20:57:47 2008
 +++ Makefile.in	Thu Mar 27 21:58:54 2008
 @@ -3,13 +3,13 @@ DSPVER=		@DSPVER@

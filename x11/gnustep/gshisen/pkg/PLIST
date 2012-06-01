@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/gshisen/pkg/PLIST,v 1.1.1.1 2010/10/28 23:25:39 sebastia Exp $
+@comment $OpenBSD$
 bin/GShisen
 libexec/GNUstep/
 libexec/GNUstep/GShisen.app/

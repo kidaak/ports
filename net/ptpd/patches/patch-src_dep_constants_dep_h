@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ptpd/patches/patch-src_dep_constants_dep_h,v 1.1.1.1 2009/01/20 19:05:23 naddy Exp $
+$OpenBSD$
 --- src/dep/constants_dep.h.orig	Wed Mar 28 00:09:06 2007
 +++ src/dep/constants_dep.h	Sun Oct 26 16:14:54 2008
 @@ -5,7 +5,8 @@

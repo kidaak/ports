@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wmpinboard/patches/patch-configure,v 1.2 2002/12/25 11:16:27 wilfried Exp $
+$OpenBSD$
 --- configure.orig	Thu Apr 13 15:37:26 2000
 +++ configure	Wed Dec 25 12:04:12 2002
 @@ -1034,9 +1034,6 @@ ac_compile='${CC-cc} -c $CFLAGS $CPPFLAG

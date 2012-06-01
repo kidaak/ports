@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/e/patches/patch-src_bin_Makefile_in,v 1.2 2011/01/16 01:00:11 laurent Exp $
+$OpenBSD$
 --- src/bin/Makefile.in.orig	Sat Jan  8 15:33:38 2011
 +++ src/bin/Makefile.in	Sat Jan  8 15:33:59 2011
 @@ -889,7 +889,7 @@ enlightenment_init_LDADD = @E_INIT_LIBS@

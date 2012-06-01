@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/festival/festvox/festvox_don/pkg/PLIST,v 1.2 2004/08/06 03:36:25 jolan Exp $
+@comment $OpenBSD$
 lib/festival/voices/
 lib/festival/voices/english/
 lib/festival/voices/english/don_diphone/

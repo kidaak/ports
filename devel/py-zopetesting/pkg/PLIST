@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-zopetesting/pkg/PLIST,v 1.1.1.1 2009/06/01 21:11:12 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/zope.testing-${MODPY_EGG_VERSION}-py${MODPY_VERSION}-nspkg.pth
 lib/python${MODPY_VERSION}/site-packages/zope.testing-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/zope.testing-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/qt4/qt4.port.mk,v 1.7 2010/11/22 08:37:04 espie Exp $
+# $OpenBSD$
 
 # This fragment defines MODQT_* variables to make it easier to substitute
 # qt1/qt2/qt3 in a port.

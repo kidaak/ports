@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/arirang/patches/patch-ariruby_c,v 1.1 2011/04/28 16:17:21 sthen Exp $
+$OpenBSD$
 --- ariruby.c.orig	Thu Apr 28 16:38:21 2011
 +++ ariruby.c	Thu Apr 28 16:38:32 2011
 @@ -519,9 +519,6 @@ rubyscanW(unsigned long host, unsigned int port, unsig

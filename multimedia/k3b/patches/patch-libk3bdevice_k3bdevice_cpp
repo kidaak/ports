@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/k3b/patches/patch-libk3bdevice_k3bdevice_cpp,v 1.2 2010/05/20 15:24:24 naddy Exp $
+$OpenBSD$
 --- libk3bdevice/k3bdevice.cpp.orig	Fri Nov  2 08:13:54 2007
 +++ libk3bdevice/k3bdevice.cpp	Thu May 20 09:06:54 2010
 @@ -65,8 +65,9 @@ typedef unsigned char u8;

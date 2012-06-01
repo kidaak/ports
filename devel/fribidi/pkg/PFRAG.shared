@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/fribidi/pkg/PFRAG.shared,v 1.3 2005/12/29 13:56:08 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libfribidi.so.${LIBfribidi_VERSION}

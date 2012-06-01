@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-BOM/pkg/PLIST,v 1.1.1.1 2007/10/25 21:59:34 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/BOM.pm
 @man man/man3p/File::BOM.3p

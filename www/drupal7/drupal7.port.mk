@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal7/drupal7.port.mk,v 1.2 2012/04/12 08:16:06 naddy Exp $
+# $OpenBSD$
 
 
 # three types of things we can install, by default plugin

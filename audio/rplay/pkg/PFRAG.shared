@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/rplay/pkg/PFRAG.shared,v 1.4 2005/12/23 15:07:06 espie Exp $
+@comment $OpenBSD$
 @lib lib/librplay.so.${LIBrplay_VERSION}

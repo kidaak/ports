@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/glib2/patches/patch-gio_gunixmount_c,v 1.5 2011/08/22 15:26:40 ajacoutot Exp $
+$OpenBSD$
 
 https://bugzilla.gnome.org/show_bug.cgi?id=653555
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/prover9/Makefile,v 1.1.1.1 2011/03/07 22:26:24 jasper Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += ladr

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/rednotebook/Makefile,v 1.16 2012/04/07 13:14:17 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	diary and journal application
 

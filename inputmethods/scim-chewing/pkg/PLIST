@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/scim-chewing/pkg/PLIST,v 1.1.1.1 2008/10/29 02:23:07 kevlo Exp $
+@comment $OpenBSD$
 @comment lib/scim-1.0/1.4.0/IMEngine/chewing.la
 lib/scim-1.0/1.4.0/IMEngine/chewing.so
 @comment lib/scim-1.0/1.4.0/SetupUI/chewing-imengine-setup.la

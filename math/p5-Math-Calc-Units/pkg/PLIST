@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-Math-Calc-Units/pkg/PLIST,v 1.1.1.1 2007/07/25 20:40:56 simon Exp $
+@comment $OpenBSD$
 bin/ucalc
 ${P5SITE}/Math/
 ${P5SITE}/Math/Calc/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/opensc/patches/patch-src_libopensc_card-acos5_c,v 1.1 2010/12/27 15:30:11 jasper Exp $
+$OpenBSD$
 
 Security fix for SA42658
 OpenSC Serial Number Processing Buffer Overflow Vulnerabilities.

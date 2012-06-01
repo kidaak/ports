@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/consolekit/patches/patch-tools_ck-collect-session-info_c,v 1.1 2011/04/28 13:08:33 ajacoutot Exp $
+$OpenBSD$
 
 XXX revert 4f88228f31a63c026c424a92827f26ad7535275c
 The Kit people assume the world runs Linux and PAM, see

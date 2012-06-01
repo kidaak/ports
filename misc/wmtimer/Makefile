@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/wmtimer/Makefile,v 1.29 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; alarm clock
 

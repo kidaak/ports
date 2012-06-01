@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/kissd/Makefile,v 1.5 2010/10/18 18:36:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	server for KiSS DP-500 network movie player
 

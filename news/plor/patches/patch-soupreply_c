@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/plor/patches/patch-soupreply_c,v 1.1 2002/02/20 20:59:13 naddy Exp $
+$OpenBSD$
 --- soupreply.c.orig	Wed Feb 20 21:54:07 2002
 +++ soupreply.c	Wed Feb 20 21:54:20 2002
 @@ -114,7 +114,7 @@ int edit_file(char* name, char* header, 

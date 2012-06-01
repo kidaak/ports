@@ -1,0 +1,4 @@
+@comment $OpenBSD$
+@pkgpath print/psutils[,a3][,a5][,b5][,b4][,letter][,legal][,ledger]
+@pkgpath print/psutils[,tabloid][,statement][,executive][,folio]
+@pkgpath print/psutils[,quarto][,s10x14]

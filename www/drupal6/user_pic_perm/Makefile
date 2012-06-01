@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/user_pic_perm/Makefile,v 1.1.1.1 2012/01/28 11:19:15 espie Exp $
+# $OpenBSD$
 
 COMMENT =	user picture permissions
 MAINTAINER =	Marc Espie <espie@openbsd.org>

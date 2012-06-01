@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/movemail/Makefile,v 1.21 2011/11/13 11:51:54 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	move your mail box to another location
 

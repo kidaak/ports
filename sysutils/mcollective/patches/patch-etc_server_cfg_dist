@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/mcollective/patches/patch-etc_server_cfg_dist,v 1.1 2011/09/20 14:03:20 uwe Exp $
+$OpenBSD$
 --- etc/server.cfg.dist.orig	Wed Jun  8 20:57:44 2011
 +++ etc/server.cfg.dist	Mon Sep 12 01:23:39 2011
 @@ -1,7 +1,7 @@

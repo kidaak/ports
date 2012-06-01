@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hunspell/Makefile,v 1.6 2010/11/20 19:56:48 espie Exp $
+# $OpenBSD$
 
 COMMENT =	spelling, stemming, morphological analysis and generation
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/e2fsprogs/patches/patch-configure,v 1.1 2009/03/15 19:59:31 landry Exp $
+$OpenBSD$
 --- configure.orig	Wed Mar 11 18:05:17 2009
 +++ configure	Wed Mar 11 18:06:11 2009
 @@ -16312,7 +16312,7 @@ HAVE_POSIX_PRINTF!$HAVE_POSIX_PRINTF$ac_delim

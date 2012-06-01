@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/pm3/Makefile,v 1.12 2011/09/16 10:31:21 espie Exp $
+# $OpenBSD$
 
 CATEGORIES=	lang
 ONLY_FOR_ARCHS=	i386

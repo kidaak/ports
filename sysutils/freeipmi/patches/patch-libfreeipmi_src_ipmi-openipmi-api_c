@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/freeipmi/patches/patch-libfreeipmi_src_ipmi-openipmi-api_c,v 1.1.1.1 2007/10/25 18:17:02 wilfried Exp $
+$OpenBSD$
 --- libfreeipmi/src/ipmi-openipmi-api.c.orig	Sat Jun  2 20:18:29 2007
 +++ libfreeipmi/src/ipmi-openipmi-api.c	Tue Oct 23 16:37:57 2007
 @@ -107,7 +107,7 @@ struct ipmi_recv

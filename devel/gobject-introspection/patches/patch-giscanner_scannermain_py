@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gobject-introspection/patches/patch-giscanner_scannermain_py,v 1.3 2012/03/29 06:29:08 ajacoutot Exp $
+$OpenBSD$
 
 Prime the scanner with two common directories for includes.
 

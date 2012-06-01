@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/spidermonkey/pkg/PLIST,v 1.1.1.1 2012/04/07 13:48:18 landry Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict spidermonkey->=1.8.5,<1.9.2
 %%jit%%

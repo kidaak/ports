@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/wdiff/Makefile,v 1.26 2011/09/17 10:51:22 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	word differences between text files
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_settingsdialog_scrobbling_ui,v 1.1 2011/09/19 12:50:57 dcoppa Exp $
+$OpenBSD$
 --- src/settingsdialog_scrobbling.ui.orig	Mon Sep 19 12:45:57 2011
 +++ src/settingsdialog_scrobbling.ui	Mon Sep 19 12:47:12 2011
 @@ -175,6 +175,19 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/miniupnp/miniupnpc/Makefile,v 1.1.1.1 2012/01/13 09:23:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=	UPnP IGD client lightweight library
 COMMENT-python=	python module for miniupnpc

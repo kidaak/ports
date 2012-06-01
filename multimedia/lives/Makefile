@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/lives/Makefile,v 1.4 2011/11/22 15:41:23 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

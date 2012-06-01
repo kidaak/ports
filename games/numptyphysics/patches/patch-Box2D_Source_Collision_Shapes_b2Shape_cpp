@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/numptyphysics/patches/patch-Box2D_Source_Collision_Shapes_b2Shape_cpp,v 1.1 2009/03/25 11:39:46 sthen Exp $
+$OpenBSD$
 
 avoid a crash in one of the npcomplete levels.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/qrfcview/Makefile,v 1.15 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=	viewer for IETF RFCs
 

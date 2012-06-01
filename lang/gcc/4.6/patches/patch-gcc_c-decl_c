@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_c-decl_c,v 1.1 2012/03/31 20:02:03 pascal Exp $
+$OpenBSD$
 --- gcc/c-decl.c.orig	Thu Feb 23 18:38:13 2012
 +++ gcc/c-decl.c	Mon Mar 12 08:42:51 2012
 @@ -4788,6 +4788,8 @@ warn_variable_length_array (tree name, tree size)

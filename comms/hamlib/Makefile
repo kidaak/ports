@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/hamlib/Makefile,v 1.26 2011/12/09 13:10:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main=	radio/rotator control library
 COMMENT-python=	python bindings for hamlib

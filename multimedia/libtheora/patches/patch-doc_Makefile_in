@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/libtheora/patches/patch-doc_Makefile_in,v 1.4 2009/12/13 22:01:32 sthen Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Wed Aug 12 11:58:08 2009
 +++ doc/Makefile.in	Wed Aug 12 21:44:27 2009
 @@ -161,7 +161,7 @@ sys_symbol_underscore = @sys_symbol_underscore@

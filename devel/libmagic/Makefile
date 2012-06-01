@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libmagic/Makefile,v 1.14 2012/02/21 22:47:50 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	library to determine file type
 

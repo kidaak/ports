@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/hs-hlint/patches/patch-hlint_cabal,v 1.1.1.1 2010/09/26 18:36:09 jasper Exp $
+$OpenBSD$
 
 Don't let Cabal deal with the manpage, install it ourselves.
 

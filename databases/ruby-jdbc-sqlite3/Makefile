@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-jdbc-sqlite3/Makefile,v 1.2 2011/11/13 00:26:22 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	access an SQLite3 database from JRuby
 

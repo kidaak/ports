@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/gui/patches/patch-configure,v 1.3 2010/05/12 16:44:17 jasper Exp $
+$OpenBSD$
 --- configure.orig	Wed May 12 10:12:02 2010
 +++ configure	Wed May 12 10:12:19 2010
 @@ -5596,7 +5596,7 @@ if test "${ac_cv_lib_cups_cupsServer+set}" = set; then

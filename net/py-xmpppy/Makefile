@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-xmpppy/Makefile,v 1.4 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Python XMPP and Jabber implementation
 

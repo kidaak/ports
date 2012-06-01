@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-dateutil/Makefile,v 1.13 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Python API for advanced date calculations
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xzoom/Makefile,v 1.16 2010/10/24 21:15:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	magnify, rotate, mirror the image on the X11 screen
 

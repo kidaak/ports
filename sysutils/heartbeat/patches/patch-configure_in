@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-configure_in,v 1.2 2010/04/03 11:54:56 kili Exp $
+$OpenBSD$
 --- configure.in.orig	Thu Oct 25 09:40:41 2007
 +++ configure.in	Sat Apr  3 11:39:37 2010
 @@ -224,7 +224,7 @@ includedir=`var "$includedir" "$exec_prefix/include"`

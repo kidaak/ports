@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/mysql/pkg/PLIST-main,v 1.10 2010/11/10 21:03:04 sthen Exp $
+@comment $OpenBSD$
 @conflict mysql-server-<=5.0.83
 @pkgpath databases/mysql
 @bin bin/mysql

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-js_src_configure_in,v 1.7 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 https://bugzilla.mozilla.org/show_bug.cgi?id=648721
 https://bugzilla.mozilla.org/show_bug.cgi?id=589754
 chunk 4 : https://bugzilla.mozilla.org/show_bug.cgi?id=714312

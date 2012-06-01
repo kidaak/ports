@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/geoclue/Makefile,v 1.15 2012/04/04 10:03:12 landry Exp $
+# $OpenBSD$
 
 COMMENT=		modular geoinformation service on top of D-Bus
 

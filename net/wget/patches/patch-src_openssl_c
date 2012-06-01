@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/wget/patches/patch-src_openssl_c,v 1.4 2011/10/12 10:14:30 dcoppa Exp $
+$OpenBSD$
 
 Fix build with GCC2.
 

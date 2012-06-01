@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_src_solaris_native_com_sun_security_auth_module_Unix_c,v 1.1 2008/06/28 12:34:58 kurt Exp $
+$OpenBSD$
 --- j2se/src/solaris/native/com/sun/security/auth/module/Unix.c.orig	Thu Jun 26 04:56:13 2008
 +++ j2se/src/solaris/native/com/sun/security/auth/module/Unix.c	Thu Jun 26 04:56:33 2008
 @@ -18,12 +18,6 @@

@@ -1,8 +1,22 @@
-# $OpenBSD: ports/databases/pkglocatedb/Makefile,v 1.10 2011/09/24 07:37:34 espie Exp $
+# $OpenBSD$
+
+# NOTE for FLAVOR=src
+# - you can have up-to-date ${BSDSRCDIR}/distrib/sets/lists 
+# and ${XSRCDIR}/distrrib/sets/lists prior to building
+# - or you can fetch them on the fly through anoncvs
+# you need to set PKGLOCATEDB_WANTANONCVS=Yes in /etc/mk.conf
+# and you may possibly want to set PKG_LOCATEDB_CVSROOT
+# The port *will go interactive* the first time around, until you
+# have the correct key in your ssh config !
+#
+# The port *will fail if the installation is not more or less uptodate wrt to
+# the set lists...
 
 COMMENT =		database of packages for use with locate(1)
 
-DISTNAME =		pkglocatedb-0.3
+# locate data is NOT MI, unfortunately
+# PKG_ARCH = ${ARCH}....
+DISTNAME =		pkglocatedb-0.5
 DISTFILES =
 
 CATEGORIES =		databases
@@ -12,8 +26,41 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-BUILD_DEPENDS =	databases/sqlports,-compact>=1.18 \
-		databases/sqlite3
+BUILD_DEPENDS =	databases/sqlports,-compact>=2.0
+FLAVORS = src
+FLAVOR ?=
+
+ARGS = -a -p ${PORTSDIR}
+.if ${FLAVOR:Msrc}
+ARGS += -C -s ${BSDSRCDIR} -x ${XSRCDIR}
+
+.  include <bsd.own.mk>
+
+PKGLOCATEDB_WANTANONCVS ?= No
+.  if ${PKGLOCATEDB_WANTANONCVS:L} == "yes"
+PKGLOCATEDB_CVSROOT ?= anoncvs@anoncvs1.ca.openbsd.org:/cvs
+
+BSDSRCDIR = ${WRKDIR}/src
+XSRCDIR = ${WRKDIR}/xenocara
+post-extract:
+	cd ${WRKDIR} && cvs -d ${PKGLOCATEDB_CVSROOT} co src/distrib/sets/lists
+	cd ${WRKDIR} && cvs -d ${PKGLOCATEDB_CVSROOT} co xenocara/distrib/sets/lists
+
+.  else
+BSDSRCDIR ?= /usr/src
+XSRCDIR ?= /usr/xenocara
+
+post-extract:
+	if ! test -d ${BSDSRCDIR}/distrib/sets/lists; then \
+		echo 1>&2 "set SRCDIR to a valid src dir"; \
+		exit 1; \
+	fi
+	if ! test -d ${XSRCDIR}/distrib/sets/lists; then \
+		echo 1>&2 "set XSRCDIR to a valid xenocara dir"; \
+		exit 1; \
+	fi
+.  endif
+.endif
 
 do-build: 
 	@if test -s ${WRKBUILD}/ouch; then \
@@ -35,6 +82,6 @@ NO_REGRESS =		Yes
 do-build: ${WRKBUILD}/pkglocatedb
 
 ${WRKBUILD}/subdirlist:
-	sqlite3 ${LOCALBASE}/share/sqlports-compact 'select min(paths.fullpkgpath||ports.pseudo_flavor) from paths join ports on paths.id=ports.fullpkgpath group by fullpkgname order by paths.fullpkgpath' >$@
+	sqlite3 ${LOCALBASE}/share/sqlports-compact 'select min(paths.fullpkgpath) from paths join ports on paths.id=ports.fullpkgpath group by fullpkgname order by paths.fullpkgpath'|fgrep -v ports-readmes>$@
 ${WRKBUILD}/pkglocatedb: ${WRKBUILD}/subdirlist
-	SUBDIRLIST=${WRKBUILD}/subdirlist FULLPATH=Yes REPORT_PROBLEM_LOGFILE=${WRKBUILD}/ouch pkg_mklocatedb -a -p ${PORTSDIR} > $@
+	SUBDIRLIST=${WRKBUILD}/subdirlist REPORT_PROBLEM_LOGFILE=${WRKBUILD}/ouch ${SUDO} pkg_mklocatedb ${ARGS} > $@.tmp && mv $@.tmp $@

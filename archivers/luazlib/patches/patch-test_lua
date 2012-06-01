@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/luazlib/patches/patch-test_lua,v 1.1.1.1 2010/07/26 01:17:48 jolan Exp $
+$OpenBSD$
 --- test.lua.orig	Sun Jul 25 19:41:57 2010
 +++ test.lua	Sun Jul 25 20:10:16 2010
 @@ -1,8 +1,8 @@

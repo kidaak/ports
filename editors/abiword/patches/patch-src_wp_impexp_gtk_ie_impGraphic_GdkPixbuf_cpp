@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/abiword/patches/patch-src_wp_impexp_gtk_ie_impGraphic_GdkPixbuf_cpp,v 1.1 2011/07/08 20:38:00 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

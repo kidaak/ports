@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/stm32loader/patches/patch-stm32loader_py,v 1.1.1.1 2010/11/05 14:02:25 jasper Exp $
+$OpenBSD$
 
 - Adjust default serial port.
 

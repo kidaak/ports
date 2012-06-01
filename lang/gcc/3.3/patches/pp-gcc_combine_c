@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_combine_c,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/combine.c.orig	Sun Jul 25 20:49:54 2004
 +++ gcc/combine.c	Mon Jan  3 10:17:41 2005
 @@ -3873,7 +3873,17 @@ combine_simplify_rtx (x, op0_mode, last,

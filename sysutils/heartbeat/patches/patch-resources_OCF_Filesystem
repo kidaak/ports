@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-resources_OCF_Filesystem,v 1.1.1.1 2007/11/21 18:48:39 ajacoutot Exp $
+$OpenBSD$
 --- resources/OCF/Filesystem.orig	Thu Oct 25 09:40:41 2007
 +++ resources/OCF/Filesystem	Mon Nov 12 11:13:26 2007
 @@ -74,6 +74,7 @@

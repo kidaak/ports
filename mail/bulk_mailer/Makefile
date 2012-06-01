@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/bulk_mailer/Makefile,v 1.17 2010/11/19 07:23:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=	speed mail delivery by sorting & batching addresses
 

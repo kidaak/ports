@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ruby-sinatra/pkg/PLIST,v 1.8 2011/03/24 03:16:46 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/AUTHORS

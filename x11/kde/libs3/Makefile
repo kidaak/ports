@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/libs3/Makefile,v 1.118 2012/01/01 09:03:20 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main =		K Desktop Environment, libraries
 COMMENT-cups =		K Desktop Environment, cups support

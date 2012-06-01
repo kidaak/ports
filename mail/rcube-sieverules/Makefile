@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/rcube-sieverules/Makefile,v 1.2 2012/01/16 23:10:41 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	roundcube plugin: sieve rules (managesieve)
 

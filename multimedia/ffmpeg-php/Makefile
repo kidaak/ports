@@ -1,10 +1,11 @@
-# $OpenBSD: ports/multimedia/ffmpeg-php/Makefile,v 1.16 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
-COMMENT=	PHP support for ffmpeg
+COMMENT=	PHP support for FFmpeg
+
 DISTNAME=	ffmpeg-php-0.6.0
-REVISION=	11
+REVISION=	12
 EXTRACT_SUFX=	.tbz2
 CATEGORIES=	multimedia www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ffmpeg-php/}

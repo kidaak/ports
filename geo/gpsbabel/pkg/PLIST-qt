@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/gpsbabel/pkg/PLIST-qt,v 1.2 2012/04/15 20:03:16 kirby Exp $
+@comment $OpenBSD$
 @bin bin/guibabel-qt
 share/applications/gpsbabel.desktop
 share/pixmaps/

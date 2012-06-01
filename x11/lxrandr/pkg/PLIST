@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/lxrandr/pkg/PLIST,v 1.4 2011/09/15 08:24:23 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/lxrandr
 @man man/man1/lxrandr.1
 share/applications/lxrandr.desktop

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/kanatest/Makefile,v 1.21 2011/11/01 16:27:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	beginner's drill tool to learn Japanese kana characters 
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/canna/Makefile,v 1.34 2011/09/16 10:02:38 espie Exp $
+# $OpenBSD$
 
 COMMENT-main= 	canna (kana-kanji converter) libraries
 COMMENT-dict=	canna (kana-kanji converter) dictionaries

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/login_fingerprint/Makefile,v 1.13 2012/02/22 09:32:45 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	provide fingerprint authentication
 

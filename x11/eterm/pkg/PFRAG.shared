@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/eterm/pkg/PFRAG.shared,v 1.4 2007/11/18 12:55:58 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libEterm.so.${LIBEterm_VERSION}

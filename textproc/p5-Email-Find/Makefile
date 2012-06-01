@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Email-Find/Makefile,v 1.9 2010/12/03 11:46:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Find RFC 822 email addresses in plain text
 

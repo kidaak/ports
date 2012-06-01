@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Parallel-Prefork/Makefile,v 1.3 2011/10/05 17:30:57 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	simple prefork server framework
 

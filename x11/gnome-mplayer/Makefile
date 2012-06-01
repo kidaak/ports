@@ -1,8 +1,10 @@
-# $OpenBSD: ports/x11/gnome-mplayer/Makefile,v 1.59 2012/04/10 13:30:37 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		GTK+/GNOME frontend for MPlayer
 V =			1.0.6
 DISTNAME =		gnome-mplayer-${V}
+REVISION =		1
+
 CATEGORIES =		x11 multimedia
 
 MAINTAINER =		David Coppa <dcoppa@openbsd.org>
@@ -34,7 +36,7 @@ LIB_DEPENDS =		devel/libnotify>=0.7.2 \
 			audio/libmusicbrainz \
 			net/curl \
 			x11/dbus-glib \
-			x11/gmtk>=${V} \
+			x11/gmtk>=${V}p1 \
 			x11/gtk+2
 RUN_DEPENDS =		devel/desktop-file-utils \
 			x11/gnome/icon-theme \

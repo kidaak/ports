@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ssh-askpass-fullscreen/Makefile,v 1.8 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	good-looking ssh-agent pass-phrase dialog
 

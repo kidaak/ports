@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/driconf/Makefile,v 1.9 2011/09/16 12:29:13 espie Exp $
+# $OpenBSD$
 
 COMMENT =		configuration utility for DRI drivers
 

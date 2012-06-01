@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-directory-tree/Makefile,v 1.6 2011/09/24 19:06:34 kili Exp $
+# $OpenBSD$
 
 COMMENT =		directory-like tree datatype
 

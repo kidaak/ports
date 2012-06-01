@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/dcfldd/Makefile,v 1.4 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		GNU dd with added forensic/security features
 

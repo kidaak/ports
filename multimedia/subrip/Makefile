@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/subrip/Makefile,v 1.10 2012/03/21 23:50:19 fgsch Exp $
+# $OpenBSD$
 
 COMMENT=	extract subtitles from dvds
 DISTNAME=	ogmrip-0.10.0

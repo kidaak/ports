@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tacacs+/Makefile,v 1.10 2010/10/18 18:36:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Cisco AAA protocol daemon
 

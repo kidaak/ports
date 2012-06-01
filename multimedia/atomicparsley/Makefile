@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/atomicparsley/Makefile,v 1.2 2011/05/08 20:48:10 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	read and set MPEG-4/3GPP metadata tags
 

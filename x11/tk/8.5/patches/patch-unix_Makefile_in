@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tk/8.5/patches/patch-unix_Makefile_in,v 1.8 2011/10/17 15:19:22 stu Exp $
+$OpenBSD$
 --- unix/Makefile.in.orig	Thu Jun 23 14:37:39 2011
 +++ unix/Makefile.in	Wed Oct  5 11:26:28 2011
 @@ -550,6 +550,7 @@ PUBLIC_HDRS = $(GENERIC_DIR)/tk.h $(GENERIC_DIR)/tkDec

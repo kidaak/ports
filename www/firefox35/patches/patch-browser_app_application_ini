@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-browser_app_application_ini,v 1.1.1.1 2009/06/21 01:31:24 martynas Exp $
+$OpenBSD$
 --- browser/app/application.ini.orig	Thu Mar  5 23:31:43 2009
 +++ browser/app/application.ini	Fri Mar 13 16:36:21 2009
 @@ -59,7 +59,4 @@ EnableProfileMigrator=1

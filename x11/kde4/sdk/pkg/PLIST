@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/sdk/pkg/PLIST,v 1.3 2010/06/23 14:53:01 espie Exp $
+@comment $OpenBSD$
 bin/adddebug
 bin/build-progress.sh
 @bin bin/cervisia

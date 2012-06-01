@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libbonoboui/pkg/PLIST,v 1.21 2011/04/04 13:42:42 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/bonobo-browser
 @bin bin/test-moniker

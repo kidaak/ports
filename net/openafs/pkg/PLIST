@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/openafs/pkg/PLIST,v 1.5 2010/11/15 08:11:17 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/afsmonitor
 @bin bin/bos

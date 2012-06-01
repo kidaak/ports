@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/upsd/Makefile,v 1.18 2007/09/20 10:25:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	APC Smart UPS Monitoring Daemon
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Array-RefElem/Makefile,v 1.1.1.1 2011/06/22 08:30:22 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

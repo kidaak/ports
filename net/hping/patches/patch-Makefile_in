@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/hping/patches/patch-Makefile_in,v 1.1 2005/04/24 22:59:08 alek Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon May  3 11:29:39 2004
 +++ Makefile.in	Mon Apr 25 00:06:21 2005
 @@ -10,7 +10,7 @@ CC= gcc

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-bacon/Makefile,v 1.6 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=		small RSpec clone
 

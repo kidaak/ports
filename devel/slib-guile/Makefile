@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/slib-guile/Makefile,v 1.4 2010/11/15 19:46:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	slib guile adapter
 

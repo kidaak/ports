@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/accessibility3/Makefile,v 1.45 2011/12/03 19:13:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT = 		X11 toolkit, accessibility aids
 CATEGORIES =		x11 x11/kde

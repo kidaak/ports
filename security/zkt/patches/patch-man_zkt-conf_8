@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/zkt/patches/patch-man_zkt-conf_8,v 1.1 2010/06/20 14:01:35 jakob Exp $
+$OpenBSD$
 --- man/zkt-conf.8.orig	Fri Jun 11 10:48:56 2010
 +++ man/zkt-conf.8	Fri Jun 11 11:21:50 2010
 @@ -64,7 +64,7 @@ b)

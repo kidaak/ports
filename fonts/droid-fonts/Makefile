@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/droid-fonts/Makefile,v 1.2 2011/07/19 16:46:09 jasper Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

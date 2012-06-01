@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Traits/Makefile,v 1.5 2011/04/13 18:46:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		automatically apply roles at object creation time 
 

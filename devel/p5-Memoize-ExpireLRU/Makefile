@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Memoize-ExpireLRU/Makefile,v 1.1.1.1 2012/04/06 09:25:46 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	expiry plug-in for Memoize that adds LRU cache expiration
 

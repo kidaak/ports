@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-DBIx-DataModel/pkg/PLIST,v 1.2 2008/11/19 00:27:28 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/DBIx/
 ${P5SITE}/DBIx/DataModel/
 ${P5SITE}/DBIx/DataModel.pm

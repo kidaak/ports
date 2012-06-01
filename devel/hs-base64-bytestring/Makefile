@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-base64-bytestring/Makefile,v 1.4 2012/01/21 17:15:34 kili Exp $
+# $OpenBSD$
 
 COMMENT=		fast base64 encodings and decoding for ByteStrings
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ettercap/patches/patch-configure_in,v 1.1 2008/04/23 20:49:46 okan Exp $
+$OpenBSD$
 --- configure.in.orig	Thu Jan 13 04:24:28 2005
 +++ configure.in	Thu Apr 10 02:03:36 2008
 @@ -272,7 +272,9 @@ AC_SEARCH_LIBS(gzopen,c z,,AC_MSG_ERROR(not found.))

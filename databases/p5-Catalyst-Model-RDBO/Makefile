@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Catalyst-Model-RDBO/Makefile,v 1.6 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	base class for Rose::DB::Object for catalyst
 DISTNAME=	Catalyst-Model-RDBO-0.03

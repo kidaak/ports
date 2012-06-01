@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/star/patches/patch-RULES_cc-gcc_rul,v 1.1 2008/06/19 17:43:10 naddy Exp $
+$OpenBSD$
 --- RULES/cc-gcc.rul.orig	Tue Jun 10 17:52:29 2008
 +++ RULES/cc-gcc.rul	Tue Jun 10 17:54:09 2008
 @@ -54,15 +54,15 @@ LNDYNLIB=	@$(RM) $(RM_FORCE) $(PTARGET_BASE).so; $(SYM

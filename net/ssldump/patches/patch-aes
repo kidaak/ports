@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ssldump/patches/patch-aes,v 1.1 2006/05/03 06:07:17 jakob Exp $
+# $OpenBSD$
 diff -uNr ssl/ciphersuites.c.orig ssl/ciphersuites.c
 --- ssl/ciphersuites.c.orig	2002-08-16 19:33:17.000000000 -0600
 +++ ssl/ciphersuites.c	2003-04-25 11:30:44.000000000 -0600

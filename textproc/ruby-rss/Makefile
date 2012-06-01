@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-rss/Makefile,v 1.5 2011/09/16 11:41:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=	improved ruby RSS and Atom parser
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xboing/patches/patch-file_c,v 1.1 2004/03/06 02:41:00 naddy Exp $
+$OpenBSD$
 --- file.c.orig	2004-03-06 01:56:25.000000000 +0100
 +++ file.c	2004-03-06 01:58:32.000000000 +0100
 @@ -139,7 +139,7 @@ void SetupStage(display, window)

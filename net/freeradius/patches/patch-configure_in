@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/freeradius/patches/patch-configure_in,v 1.2 2011/11/22 16:22:27 jasper Exp $
+$OpenBSD$
 --- configure.in.orig	Mon Jun 20 16:57:14 2011
 +++ configure.in	Tue Nov 22 17:22:08 2011
 @@ -497,7 +497,7 @@ dnl # to do the threading properly.

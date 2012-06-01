@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/twolame/Makefile,v 1.1.1.1 2011/12/27 09:44:15 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	optimised MPEG Audio Layer 2 (MP2) encoder
 

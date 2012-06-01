@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/jailkit/patches/patch-configure,v 1.1.1.1 2010/09/20 07:15:30 sebastia Exp $
+$OpenBSD$
 
 link against pthread
 

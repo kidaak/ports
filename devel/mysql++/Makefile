@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mysql++/Makefile,v 1.32 2012/03/16 16:42:42 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

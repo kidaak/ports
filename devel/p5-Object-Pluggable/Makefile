@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Object-Pluggable/Makefile,v 1.3 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		base class for creating plugin-enabled objects
 

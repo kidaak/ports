@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/recordmydesktop/Makefile.inc,v 1.3 2009/04/14 18:43:39 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES=             multimedia x11
 

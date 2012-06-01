@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/obc/patches/patch-debugger_debmain_ml,v 1.1.1.1 2011/01/15 13:07:50 jasper Exp $
+$OpenBSD$
 
 - Removed in new lablgtk2 version.
 - Looks like it was MacOS-specific anyway.

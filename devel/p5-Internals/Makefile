@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Internals/Makefile,v 1.4 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Write-protect variables, manipulate refcounts
 SHARED_ONLY =	Yes

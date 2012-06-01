@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cvsweb/patches/patch-cvsweb_conf,v 1.10 2006/02/04 17:01:36 naddy Exp $
+$OpenBSD$
 --- cvsweb.conf.orig	Mon Sep 23 07:30:17 2002
 +++ cvsweb.conf	Sat Feb  4 17:51:39 2006
 @@ -82,7 +82,7 @@ $cvstreedefault = $CVSrepositories[2 * 0

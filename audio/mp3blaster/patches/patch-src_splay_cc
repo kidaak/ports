@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mp3blaster/patches/patch-src_splay_cc,v 1.1 2010/01/11 07:51:27 jakemsr Exp $
+$OpenBSD$
 --- src/splay.cc.orig	Sun Dec 27 14:24:43 2009
 +++ src/splay.cc	Sun Dec 27 16:35:01 2009
 @@ -82,7 +82,7 @@ static void play(char *filename)

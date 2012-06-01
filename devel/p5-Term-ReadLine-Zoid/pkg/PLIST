@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Term-ReadLine-Zoid/pkg/PLIST,v 1.1.1.1 2007/04/08 22:43:26 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Term/
 ${P5SITE}/Term/ReadLine/
 ${P5SITE}/Term/ReadLine/Zoid/

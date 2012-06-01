@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/rsynth/Makefile,v 1.28 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	speech synthesizer
 DISTNAME=	rsynth-2.0

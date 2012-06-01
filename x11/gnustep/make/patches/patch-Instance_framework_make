@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/make/patches/patch-Instance_framework_make,v 1.9 2011/07/19 06:23:28 sebastia Exp $
+$OpenBSD$
 --- Instance/framework.make.orig	Sat Apr 30 09:59:20 2011
 +++ Instance/framework.make	Mon Jun  6 13:32:39 2011
 @@ -258,7 +258,7 @@ ifeq ($(findstring darwin, $(GNUSTEP_TARGET_OS)), darw

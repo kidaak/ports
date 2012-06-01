@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/ladspa/pkg/PLIST,v 1.2 2010/05/09 21:18:29 robert Exp $
+@comment $OpenBSD$
 @bin bin/analyseplugin
 @bin bin/applyplugin
 @bin bin/listplugins

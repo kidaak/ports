@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/tremor-tools/patches/patch-ogg123_oggvorbis_format_c,v 1.2 2010/11/06 12:19:38 landry Exp $
+$OpenBSD$
 --- ogg123/oggvorbis_format.c.orig	Fri Jul 19 12:31:53 2002
 +++ ogg123/oggvorbis_format.c	Sat Nov  6 12:15:35 2010
 @@ -19,8 +19,8 @@

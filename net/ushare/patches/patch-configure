@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ushare/patches/patch-configure,v 1.1.1.1 2010/03/22 22:26:59 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Tue Feb  9 12:53:41 2010
 +++ configure	Tue Feb  9 12:53:51 2010
 @@ -639,8 +639,8 @@ echolog "Checking for libixml ..."

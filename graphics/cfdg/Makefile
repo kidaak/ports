@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/cfdg/Makefile,v 1.5 2010/11/17 08:05:13 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Context Free Design Grammar
 

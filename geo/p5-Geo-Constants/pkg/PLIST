@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/p5-Geo-Constants/pkg/PLIST,v 1.1.1.1 2007/09/15 13:54:12 jolan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Geo/
 ${P5SITE}/Geo/Constants.pm
 @man man/man3p/Geo::Constants.3p

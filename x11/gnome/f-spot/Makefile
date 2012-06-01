@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/f-spot/Makefile,v 1.53 2011/12/03 22:17:15 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

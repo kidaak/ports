@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-SFTP-Foreign/pkg/PLIST,v 1.2 2011/05/23 14:13:50 gsoares Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/SFTP/
 ${P5SITE}/Net/SFTP/Foreign/

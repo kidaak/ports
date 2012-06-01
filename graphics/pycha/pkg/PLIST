@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/pycha/pkg/PLIST,v 1.1.1.1 2008/05/08 15:45:26 wcmaier Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pycha/
 lib/python${MODPY_VERSION}/site-packages/pycha-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/pycha-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

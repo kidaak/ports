@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/id3lib/Makefile,v 1.16 2010/10/03 06:55:17 landry Exp $
+# $OpenBSD$
 
 COMMENT=		library for manipulating ID3v1 and ID3v2 tags
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openafs/patches/patch-Makefile_in,v 1.4 2011/03/02 10:40:16 jasper Exp $
+$OpenBSD$
 diff -u Makefile.in.orig Makefile.in
 --- Makefile.in.orig	Mon Mar 10 17:35:24 2008
 +++ Makefile.in	Wed Jul  2 14:40:14 2008

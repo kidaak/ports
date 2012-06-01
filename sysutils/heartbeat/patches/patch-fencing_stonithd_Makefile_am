@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-fencing_stonithd_Makefile_am,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- fencing/stonithd/Makefile.am.orig	Sat Nov 17 13:50:26 2007
 +++ fencing/stonithd/Makefile.am	Sat Nov 17 13:50:44 2007
 @@ -43,7 +43,4 @@ AM_CFLAGS = $(INCLUDES)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Session-FastMmap/Makefile,v 1.10 2012/04/08 21:58:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	FastMmap sessions for Catalyst (deprecated)
 

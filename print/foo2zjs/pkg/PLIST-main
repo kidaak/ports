@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/foo2zjs/pkg/PLIST-main,v 1.9 2011/10/22 23:00:31 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict foomatic-db-<4.0.20091207p1
 @unexec-delete rm -f %D/share/foo2hiperc/icm/*
 @unexec-delete rm -f %D/share/foo2hp/icm/*

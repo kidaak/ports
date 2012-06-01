@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/fmirror/patches/patch-fmirror_c,v 1.1.1.1 2005/09/17 12:19:41 bernd Exp $
+$OpenBSD$
 ipv6 patch by Vladimir Kotal <vlada@devnull.cz>
 
 --- fmirror.c.orig	Thu Sep 15 16:30:34 2005
@@ -31,7 +31,7 @@ ipv6 patch by Vladimir Kotal <vlada@devnull.cz>
  
  static int input_timeout = 240;
 @@ -183,6 +190,8 @@ static char whitespace[] = " \f\t\v";
- static char rcsid[] = "$Id: fmirror.c,v 1.16 2000/03/09 06:52:52 finnag Exp $";
+ static char rcsid[] = "$Id$";
  
  static char usage[] = 
 +" -4 - use only IPv4 connections\n"

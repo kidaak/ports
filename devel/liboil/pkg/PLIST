@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/liboil/pkg/PLIST,v 1.5 2009/07/18 08:25:06 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/oil-bugreport
 include/liboil-0.3/

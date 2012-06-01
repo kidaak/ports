@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/hot-babe/patches/patch-hot-babe_c,v 1.1.1.1 2004/12/25 10:34:14 alek Exp $
+$OpenBSD$
 --- hot-babe.c.orig	Thu Dec 16 18:38:18 2004
 +++ hot-babe.c	Thu Dec 16 18:42:12 2004
 @@ -19,6 +19,14 @@

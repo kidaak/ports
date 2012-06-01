@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/openct/Makefile,v 1.19 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	drivers for several smart card readers
 

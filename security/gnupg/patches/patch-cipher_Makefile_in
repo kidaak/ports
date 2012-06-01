@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/gnupg/patches/patch-cipher_Makefile_in,v 1.7 2008/01/30 20:18:10 bernd Exp $
+$OpenBSD$
 --- cipher/Makefile.in.orig	Mon Jan 28 20:51:29 2008
 +++ cipher/Makefile.in	Mon Jan 28 20:51:39 2008
 @@ -295,7 +295,7 @@ sysconfdir = @sysconfdir@

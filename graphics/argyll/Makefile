@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/argyll/Makefile,v 1.2 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	ICC compatible color management system
 

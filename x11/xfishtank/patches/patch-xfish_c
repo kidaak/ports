@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfishtank/patches/patch-xfish_c,v 1.2 2008/07/28 22:29:49 sthen Exp $
+$OpenBSD$
 --- xfish.c.orig	Thu Dec 17 21:26:17 1992
 +++ xfish.c	Mon Jul 28 23:22:24 2008
 @@ -11,6 +11,8 @@

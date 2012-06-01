@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-build_server_mk,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- build/server.mk.orig	Mon Nov 29 19:46:35 2010
 +++ build/server.mk	Mon Apr 18 16:05:08 2011
 @@ -49,7 +49,7 @@ ifeq ($(HARD_LINKED_GAME),1)

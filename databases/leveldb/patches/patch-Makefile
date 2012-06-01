@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/leveldb/patches/patch-Makefile,v 1.1.1.1 2011/08/19 06:44:00 jasper Exp $
+$OpenBSD$
 
 - Allow ${CC} and ${OPT} to be overriden, to help packagers.
   http://code.google.com/p/leveldb/issues/detail?id=32

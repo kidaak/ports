@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/ru-pscyr/pkg/PLIST,v 1.1.1.1 2011/07/19 09:14:21 jasper Exp $
+@comment $OpenBSD$
 @pkgpath russion/pscyr
 share/texmf-local/
 share/texmf-local/doc/

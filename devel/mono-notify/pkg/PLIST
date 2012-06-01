@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mono-notify/pkg/PLIST,v 1.1.1.1 2010/04/23 16:03:48 jasper Exp $
+@comment $OpenBSD$
 lib/mono/gac/notify-sharp/
 lib/mono/gac/notify-sharp/0.4.0.0__2df29c54e245917a/
 lib/mono/gac/notify-sharp/0.4.0.0__2df29c54e245917a/notify-sharp.dll

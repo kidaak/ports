@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/radare2/bindings/pkg/PLIST,v 1.2 2011/11/07 22:06:46 edd Exp $
+@comment $OpenBSD$
 share/vala/
 share/vala/vapi/
 share/vala/vapi/libr.deps

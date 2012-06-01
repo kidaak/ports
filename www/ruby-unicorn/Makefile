@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-unicorn/Makefile,v 1.7 2011/11/18 00:05:43 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	ruby-rack HTTP server for Unix and fast clients
 

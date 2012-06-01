@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/irssi-icb/Makefile,v 1.28 2011/10/19 09:47:26 dcoppa Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/office3/Makefile,v 1.73 2012/02/16 22:33:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		office suite for KDE
 

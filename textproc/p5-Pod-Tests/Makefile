@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Pod-Tests/Makefile,v 1.6 2011/06/25 18:01:10 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	extracts embedded tests and code examples from pod
 

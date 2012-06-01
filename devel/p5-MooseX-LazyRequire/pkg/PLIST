@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-LazyRequire/pkg/PLIST,v 1.1.1.1 2010/01/12 09:40:54 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/LazyRequire/
 ${P5SITE}/MooseX/LazyRequire.pm
 ${P5SITE}/MooseX/LazyRequire/Meta/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/doc/Makefile,v 1.9 2010/10/18 18:36:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	automated domain testing tool
 

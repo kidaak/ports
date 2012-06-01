@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt4/pkg/PLIST-debug,v 1.5 2005/12/31 15:59:51 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 lib/qt4/Qt3Support_debug.pc
 lib/qt4/QtCore_debug.pc

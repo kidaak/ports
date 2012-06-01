@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/source-highlight/Makefile,v 1.18 2010/11/20 19:56:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	create a document with syntax highlighting
 

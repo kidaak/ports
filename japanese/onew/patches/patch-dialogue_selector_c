@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/onew/patches/patch-dialogue_selector_c,v 1.1 2010/05/19 14:05:37 espie Exp $
+$OpenBSD$
 --- dialogue/selector.c.orig	Wed May 19 15:56:41 2010
 +++ dialogue/selector.c	Wed May 19 15:56:52 2010
 @@ -1,3 +1,5 @@

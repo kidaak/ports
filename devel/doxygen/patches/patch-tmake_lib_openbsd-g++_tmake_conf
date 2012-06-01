@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/doxygen/patches/patch-tmake_lib_openbsd-g++_tmake_conf,v 1.1 2012/04/13 16:08:20 sthen Exp $
+$OpenBSD$
 --- tmake/lib/openbsd-g++/tmake.conf.orig	Fri Apr 13 17:02:30 2012
 +++ tmake/lib/openbsd-g++/tmake.conf	Fri Apr 13 17:02:44 2012
 @@ -11,7 +11,7 @@ TMAKE_CC		= gcc

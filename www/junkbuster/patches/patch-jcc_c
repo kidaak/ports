@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/junkbuster/patches/patch-jcc_c,v 1.6 2010/05/24 22:17:03 espie Exp $
+$OpenBSD$
 --- jcc.c.orig	Sat Oct 31 04:58:47 1998
 +++ jcc.c	Tue May 25 00:15:28 2010
 @@ -126,9 +126,10 @@ int add_forwarded      = 0;

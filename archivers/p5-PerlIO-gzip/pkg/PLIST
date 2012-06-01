@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/p5-PerlIO-gzip/pkg/PLIST,v 1.1.1.1 2006/11/12 16:27:26 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/PerlIO/
 ${P5ARCH}/PerlIO/gzip.pm

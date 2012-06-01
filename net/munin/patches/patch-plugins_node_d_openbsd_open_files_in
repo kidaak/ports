@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/munin/patches/patch-plugins_node_d_openbsd_open_files_in,v 1.1 2010/10/23 15:52:23 sthen Exp $
+$OpenBSD$
 --- plugins/node.d.openbsd/open_files.in.orig	Fri Oct 15 00:02:09 2010
 +++ plugins/node.d.openbsd/open_files.in	Fri Oct 15 00:02:26 2010
 @@ -17,7 +17,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nano/patches/patch-doc_syntax_fortran_nanorc,v 1.1 2009/12/01 19:39:31 naddy Exp $
+$OpenBSD$
 --- doc/syntax/fortran.nanorc.orig	Fri Aug 14 05:16:32 2009
 +++ doc/syntax/fortran.nanorc	Tue Dec  1 18:48:12 2009
 @@ -2,36 +2,36 @@

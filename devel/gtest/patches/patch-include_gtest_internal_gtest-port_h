@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gtest/patches/patch-include_gtest_internal_gtest-port_h,v 1.1.1.1 2009/12/31 11:21:13 landry Exp $
+$OpenBSD$
 --- include/gtest/internal/gtest-port.h.orig	Fri Oct  9 13:49:58 2009
 +++ include/gtest/internal/gtest-port.h	Fri Oct  9 13:51:33 2009
 @@ -200,12 +200,14 @@

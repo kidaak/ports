@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/imp/Makefile,v 1.13 2012/02/16 21:19:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	highly configurable pop3/imap4 webmail client
 

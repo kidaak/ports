@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/sarg/patches/patch-splitlog_c,v 1.4 2007/06/22 12:48:25 martynas Exp $
+$OpenBSD$
 --- splitlog.c.orig	Tue Jan  2 21:11:26 2007
 +++ splitlog.c	Tue Jun 19 20:24:58 2007
 @@ -39,7 +39,7 @@ void splitlog(char *arq, char *df, int dfrom, int dunt

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ac3dec/patches/patch-tools_Makefile_in,v 1.1 2001/02/27 12:12:46 naddy Exp $
+$OpenBSD$
 --- tools/Makefile.in.orig	Mon Feb 26 02:00:06 2001
 +++ tools/Makefile.in	Mon Feb 26 02:00:21 2001
 @@ -70,8 +70,6 @@ VERSION = @VERSION@

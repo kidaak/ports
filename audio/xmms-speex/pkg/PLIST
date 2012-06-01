@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/xmms-speex/pkg/PLIST,v 1.1.1.1 2007/05/08 19:54:58 naddy Exp $
+@comment $OpenBSD$
 lib/xmms/Input/libspeex.so

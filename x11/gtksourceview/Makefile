@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtksourceview/Makefile,v 1.53 2011/09/28 09:51:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		text widget that extends GTK2's GtkTextView widget
 

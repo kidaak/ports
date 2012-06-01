@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/cue/patches/patch-popxmit_c,v 1.1 2008/12/16 18:47:51 naddy Exp $
+$OpenBSD$
 --- popxmit.c.orig	Tue Dec 16 19:23:22 2008
 +++ popxmit.c	Tue Dec 16 19:23:42 2008
 @@ -40,7 +40,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/ncmpc/Makefile,v 1.23 2012/03/04 16:57:19 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=		curses based frontend for mpd
 

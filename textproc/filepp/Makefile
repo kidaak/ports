@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/filepp/Makefile,v 1.3 2010/11/20 19:56:48 espie Exp $
+# $OpenBSD$
 
 COMMENT =	cpp-like generic file pre-processor
 

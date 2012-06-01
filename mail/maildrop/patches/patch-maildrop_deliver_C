@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/maildrop/patches/patch-maildrop_deliver_C,v 1.1 2010/07/08 20:32:01 jasper Exp $
+$OpenBSD$
 
 maildrop adds a newline to mbox files before delivering new messages.
 This effectively alters the final message in the mbox, causing a

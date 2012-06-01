@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/cabextract/Makefile,v 1.10 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		extracts files from Microsoft CAB archives
 

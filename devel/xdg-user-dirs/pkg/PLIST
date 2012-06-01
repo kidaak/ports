@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/xdg-user-dirs/pkg/PLIST,v 1.6 2011/04/10 10:26:19 ajacoutot Exp $
+@comment $OpenBSD$
 bin/xdg-user-dir
 @bin bin/xdg-user-dirs-update
 share/examples/xdg-user-dirs/

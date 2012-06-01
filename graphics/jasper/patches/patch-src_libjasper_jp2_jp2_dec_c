@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_jp2_jp2_dec_c,v 1.2 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/jp2/jp2_dec.c.orig	Fri Jan 19 22:43:05 2007
 +++ src/libjasper/jp2/jp2_dec.c	Fri May 16 21:27:34 2008
 @@ -293,7 +293,9 @@ jas_image_t *jp2_decode(jas_stream_t *in, char *optstr

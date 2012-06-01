@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/nspr/pkg/PLIST-main,v 1.6 2010/08/30 20:12:55 landry Exp $
+@comment $OpenBSD$
 @pkgpath devel/nspr
 bin/nspr-config
 include/nspr/

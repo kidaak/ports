@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nssl/patches/patch-Makefile,v 1.1.1.1 2006/11/06 05:24:55 jolan Exp $
+$OpenBSD$
 --- Makefile.orig	Tue Oct 23 12:00:41 2001
 +++ Makefile	Sun Nov  5 23:16:18 2006
 @@ -1,13 +1,13 @@

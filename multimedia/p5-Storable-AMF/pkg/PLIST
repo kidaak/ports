@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/p5-Storable-AMF/pkg/PLIST,v 1.1.1.1 2012/01/24 20:00:01 nigel Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Storable/
 ${P5ARCH}/Storable/AMF/

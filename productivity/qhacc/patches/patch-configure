@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/qhacc/patches/patch-configure,v 1.2 2009/06/07 00:08:32 jasper Exp $
+$OpenBSD$
 --- configure.orig	Mon May 30 19:08:34 2005
 +++ configure	Tue Jun  2 12:10:32 2009
 @@ -20564,13 +20564,13 @@ if test "${enable_mt+set}" = set; then

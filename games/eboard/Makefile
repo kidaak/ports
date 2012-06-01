@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/eboard/Makefile,v 1.45 2011/12/15 17:59:21 fgsch Exp $
+# $OpenBSD$
 
 COMMENT=	gtk+2 chess board interface
 

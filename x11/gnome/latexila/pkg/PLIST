@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/latexila/pkg/PLIST,v 1.1.1.1 2012/04/08 11:28:04 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/latexila
 @man man/man1/latexila.1
 share/applications/latexila.desktop

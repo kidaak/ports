@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Devel-Size-Report/pkg/PLIST,v 1.1.1.1 2011/06/22 08:31:14 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Devel/
 ${P5SITE}/Devel/Size/
 ${P5SITE}/Devel/Size/Report.pm

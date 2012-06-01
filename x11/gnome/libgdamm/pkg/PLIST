@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgdamm/pkg/PLIST,v 1.9 2011/11/21 07:44:59 ajacoutot Exp $
+@comment $OpenBSD$
 include/libgdamm-${GDA_MAJOR}/
 include/libgdamm-${GDA_MAJOR}/libgdamm/
 include/libgdamm-${GDA_MAJOR}/libgdamm.h

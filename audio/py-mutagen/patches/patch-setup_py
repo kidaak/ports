@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-mutagen/patches/patch-setup_py,v 1.2 2011/05/31 09:49:52 dcoppa Exp $
+$OpenBSD$
 --- setup.py.orig	Thu Oct  8 09:26:23 2009
 +++ setup.py	Thu May 26 12:02:03 2011
 @@ -196,7 +196,7 @@ class coverage_cmd(Command):

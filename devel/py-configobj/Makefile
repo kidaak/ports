@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-configobj/Makefile,v 1.10 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		config file reader and writer
 

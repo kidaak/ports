@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-boehm-gc_configure,v 1.2 2012/02/22 12:40:04 kurt Exp $
+$OpenBSD$
 --- boehm-gc/configure.orig	Mon May 19 10:28:07 2008
 +++ boehm-gc/configure	Mon Feb 20 13:13:23 2012
 @@ -5451,6 +5451,14 @@ _ACEOF

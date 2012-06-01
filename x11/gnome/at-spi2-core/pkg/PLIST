@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/at-spi2-core/pkg/PLIST,v 1.5 2012/03/29 07:04:30 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/at-spi-2.0/
 include/at-spi-2.0/atspi/

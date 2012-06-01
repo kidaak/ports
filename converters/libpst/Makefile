@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/libpst/Makefile,v 1.21 2012/01/09 18:25:44 ajacoutot Exp $
+# $OpenBSD$
 
 BROKEN-hppa=		linking .libs/python-libpst.o fails
 
@@ -10,6 +10,8 @@ SHARED_LIBS +=  pst                  2.0      # .4.1
 
 PKGNAME-main=		${DISTNAME}
 PKGNAME-python=		py-${DISTNAME}
+
+REVISION-main=		0
 
 CATEGORIES=		converters mail
 
@@ -30,7 +32,8 @@ WANTLIB-main += gd>=20 z
 WANTLIB-python += ${cWANTLIB}
 WANTLIB-python += pst>=1 util boost_python
 
-MASTER_SITES=		${HOMEPAGE}/packages/
+MASTER_SITES=		${HOMEPAGE}/packages/ \
+			http://distfiles.nl/
 
 MULTI_PACKAGES=		-main -python
 
@@ -38,7 +41,7 @@ MODULES=		converters/libiconv \
 			lang/python
 
 BUILD_DEPENDS=		${RUN_DEPENDS-main}
-RUN_DEPENDS-main=	graphics/ImageMagick,no_x11
+RUN_DEPENDS-main=	graphics/ImageMagick
 LIB_DEPENDS-main=	${MODLIBICONV_LIB_DEPENDS} \
 			graphics/gd
 

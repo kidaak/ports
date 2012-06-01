@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/tntnet/Makefile,v 1.13 2011/07/11 12:13:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		modular webapplication server for C++
 

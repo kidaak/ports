@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/pound/Makefile,v 1.10 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		HTTP reverse proxy/load balancer/SSL offload
 

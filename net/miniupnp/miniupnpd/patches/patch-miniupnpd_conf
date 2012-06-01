@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/miniupnp/miniupnpd/patches/patch-miniupnpd_conf,v 1.2 2012/02/16 22:27:14 ajacoutot Exp $
+$OpenBSD$
 --- miniupnpd.conf.orig	Fri Feb  3 22:36:50 2012
 +++ miniupnpd.conf	Tue Feb 14 08:39:29 2012
 @@ -1,6 +1,5 @@

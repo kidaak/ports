@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/idesk/Makefile,v 1.12 2010/11/22 08:37:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=		put clickable icons on the desktop
 

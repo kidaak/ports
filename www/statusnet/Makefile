@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/statusnet/Makefile,v 1.20 2012/01/11 22:27:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		open source micro messaging platform
 

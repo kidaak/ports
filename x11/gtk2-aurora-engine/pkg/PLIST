@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk2-aurora-engine/pkg/PLIST,v 1.2 2010/05/02 12:43:15 ajacoutot Exp $
+@comment $OpenBSD$
 @comment lib/gtk-2.0/2.10.0/engines/libaurora.la
 lib/gtk-2.0/2.10.0/engines/libaurora.so
 share/themes/Aurora/

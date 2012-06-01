@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/speex/patches/patch-src_speexdec_c,v 1.4 2010/01/02 20:44:19 jakemsr Exp $
+$OpenBSD$
 --- src/speexdec.c.orig	Fri May 30 00:34:16 2008
 +++ src/speexdec.c	Sat Jan  2 12:40:42 2010
 @@ -68,6 +68,9 @@

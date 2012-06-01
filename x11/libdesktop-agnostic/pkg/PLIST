@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/libdesktop-agnostic/pkg/PLIST,v 1.1.1.1 2011/09/22 13:17:11 landry Exp $
+@comment $OpenBSD$
 @bin bin/lda-desktop-entry-editor
 @bin bin/lda-schema-to-gconf
 include/libdesktop-agnostic-1.0/

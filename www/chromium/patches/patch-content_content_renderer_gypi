@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-content_content_renderer_gypi,v 1.1 2012/04/03 13:59:35 robert Exp $
+$OpenBSD$
 --- content/content_renderer.gypi.orig	Mon Apr  2 09:17:47 2012
 +++ content/content_renderer.gypi	Mon Apr  2 09:27:48 2012
 @@ -284,11 +284,6 @@

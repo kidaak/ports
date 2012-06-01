@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/pfe/pkg/PFRAG.shared,v 1.3 2008/10/16 17:30:24 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libpfe-0-forth.so.${LIBpfe-0-forth_VERSION}
 @lib lib/libpfe.so.${LIBpfe_VERSION}
 lib/pfe-forth/assembler.so

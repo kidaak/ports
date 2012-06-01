@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/wordwarvi/pkg/PLIST,v 1.1.1.1 2011/06/13 20:33:19 kili Exp $
+@comment $OpenBSD$
 @bin bin/wordwarvi
 @man man/man6/wordwarvi.6
 share/doc/wordwarvi/

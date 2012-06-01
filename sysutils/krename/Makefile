@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/krename/Makefile,v 1.13 2011/12/03 23:04:37 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

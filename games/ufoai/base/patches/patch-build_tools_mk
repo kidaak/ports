@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-build_tools_mk,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- build/tools.mk.orig	Mon Nov 29 19:46:35 2010
 +++ build/tools.mk	Mon Apr 18 16:50:40 2011
 @@ -68,7 +68,7 @@ UFOMODEL_SRC = \

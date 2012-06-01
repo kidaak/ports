@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/trayer/Makefile,v 1.12 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=		lightweight GTK2-based systray
 

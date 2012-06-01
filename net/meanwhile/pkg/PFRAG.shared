@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/meanwhile/pkg/PFRAG.shared,v 1.1.1.1 2006/01/08 15:27:25 alek Exp $
+@comment $OpenBSD$
 @lib lib/libmeanwhile.so.${LIBmeanwhile_VERSION}

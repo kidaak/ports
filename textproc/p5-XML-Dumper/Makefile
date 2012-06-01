@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Dumper/Makefile,v 1.8 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Perl module for dumping Perl objects from/to XML
 

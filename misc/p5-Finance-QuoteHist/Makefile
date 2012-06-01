@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-Finance-QuoteHist/Makefile,v 1.11 2011/10/04 07:40:15 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	module to obtain historical financial quotes from exchanges
 

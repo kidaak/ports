@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-haml/patches/patch-Rakefile,v 1.1 2009/05/19 22:41:24 bernd Exp $
+$OpenBSD$
 
 Remove cruft so the regress tests will run.
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/milter-checkrcpt/pkg/milter_checkrcpt.rc,v 1.1.1.1 2011/07/11 12:12:53 okan Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/libexec/milter-checkrcpt"
 

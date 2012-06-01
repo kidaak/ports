@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/Makefile,v 1.22 2011/07/19 16:51:34 jasper Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.16 1997/11/17 18:36:43 max Exp $
 
      SUBDIR =

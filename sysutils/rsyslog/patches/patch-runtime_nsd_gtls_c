@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/rsyslog/patches/patch-runtime_nsd_gtls_c,v 1.1 2011/09/14 21:25:39 naddy Exp $
+$OpenBSD$
 
 GnuTLS >= 2.12 does not depend on libgcrypt initialization any longer
 and may in fact not use libgcrypt at all.

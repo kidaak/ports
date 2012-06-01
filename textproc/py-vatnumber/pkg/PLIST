@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-vatnumber/pkg/PLIST,v 1.1.1.1 2011/06/13 12:51:05 ajacoutot Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/vatnumber/
 lib/python${MODPY_VERSION}/site-packages/vatnumber-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/vatnumber-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

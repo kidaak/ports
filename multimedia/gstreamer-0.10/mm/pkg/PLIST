@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/gstreamer-0.10/mm/pkg/PLIST,v 1.5 2011/07/21 06:37:09 ajacoutot Exp $
+@comment $OpenBSD$
 include/gstreamermm-${VERSION}/
 include/gstreamermm-${VERSION}/gstreamermm/
 include/gstreamermm-${VERSION}/gstreamermm.h

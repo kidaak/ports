@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Mail-SPF-Iterator/pkg/PLIST,v 1.2 2008/12/17 00:20:35 bluhm Exp $
+@comment $OpenBSD$
 bin/spflookup
 ${P5SITE}/Mail/
 ${P5SITE}/Mail/SPF/

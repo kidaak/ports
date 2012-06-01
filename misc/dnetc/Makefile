@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/dnetc/Makefile,v 1.18 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=		i386 amd64 m68k sparc
 

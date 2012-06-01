@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mozilla-thunderbird/patches/patch-mozilla_xpcom_io_nsAppFileLocationProvider_cpp,v 1.6 2012/02/20 20:17:49 landry Exp $
+$OpenBSD$
 --- mozilla/xpcom/io/nsAppFileLocationProvider.cpp.orig	Wed Jan 18 10:44:19 2012
 +++ mozilla/xpcom/io/nsAppFileLocationProvider.cpp	Sun Jan 22 22:21:49 2012
 @@ -240,12 +240,7 @@ nsAppFileLocationProvider::GetFile(const char *prop, b

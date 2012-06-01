@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/vamp-plugin-sdk/patches/patch-Makefile_in,v 1.1 2009/03/14 03:48:07 jakemsr Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Dec  1 03:48:41 2008
 +++ Makefile.in	Fri Mar 13 19:39:36 2009
 @@ -75,15 +75,15 @@ INSTALL_SDK_LIBS	  := $(INSTALL_PREFIX)/lib

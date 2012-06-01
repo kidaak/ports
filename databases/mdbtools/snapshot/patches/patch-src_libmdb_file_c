@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mdbtools/snapshot/patches/patch-src_libmdb_file_c,v 1.1.1.1 2006/05/01 09:55:33 espie Exp $
+$OpenBSD$
 --- src/libmdb/file.c.orig	Wed Apr 26 17:12:01 2006
 +++ src/libmdb/file.c	Wed Apr 26 17:12:19 2006
 @@ -123,7 +123,7 @@ MdbHandle *mdb_open(const char *filename

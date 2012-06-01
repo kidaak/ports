@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/grr/pkg/PLIST,v 1.1.1.1 2011/04/24 14:05:55 sebastia Exp $
+@comment $OpenBSD$
 bin/Grr
 libexec/GNUstep/
 libexec/GNUstep/Grr.app/

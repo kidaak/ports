@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Catalyst-View-TT-FunctionGenerator/pkg/PLIST,v 1.2 2012/04/08 22:04:40 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/View/TT/
 ${P5SITE}/Catalyst/View/TT/FunctionGenerator.pm
 @man man/man3p/Catalyst::View::TT::FunctionGenerator.3p

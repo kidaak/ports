@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/rackmonkey/patches/patch-conf_httpd-rackmonkey_conf,v 1.1.1.1 2010/10/28 14:33:54 sthen Exp $
+$OpenBSD$
 --- conf/httpd-rackmonkey.conf.orig	Thu Oct 28 14:17:57 2010
 +++ conf/httpd-rackmonkey.conf	Thu Oct 28 14:18:11 2010
 @@ -1,19 +1,23 @@

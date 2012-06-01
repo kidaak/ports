@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-ffmpeg/patches/patch-configure_ac,v 1.4 2011/12/31 08:25:04 ajacoutot Exp $
+$OpenBSD$
 --- configure.ac.orig	Wed Nov  2 15:58:18 2011
 +++ configure.ac	Sat Dec 31 09:15:33 2011
 @@ -302,7 +302,7 @@ else

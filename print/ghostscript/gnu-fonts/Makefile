@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/ghostscript/gnu-fonts/Makefile,v 1.13 2011/07/19 09:28:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		35 standard PostScript fonts with Adobe name aliases
 

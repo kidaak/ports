@@ -1,12 +1,11 @@
-# $OpenBSD: ports/x11/gnome/yelp-tools/Makefile,v 1.4 2012/03/30 14:09:59 ajacoutot Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 
 COMMENT=	utilities to manage documentation for Yelp and the web
 
 GNOME_PROJECT=	yelp-tools
-GNOME_VERSION=	3.4.0
-REVISION=	0
+GNOME_VERSION=	3.4.1
 
 HOMEPAGE=	https://projects.gnome.org/yelp/
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/base3/pkg/PLIST-samba,v 1.2 2010/07/08 21:28:49 espie Exp $
+@comment $OpenBSD$
 @conflict kdebase-<3.5
 ${KDE}/kio_smb.la
 ${KDE}/kio_smb.so

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ejabberd/pkg/PLIST,v 1.11 2012/01/23 10:54:47 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _ejabberd:594
 @newuser _ejabberd:594:_ejabberd:daemon:ejabberd account:/var/db/ejabberd:/bin/sh
 %%SHARED%%

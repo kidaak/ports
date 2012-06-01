@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/mozilla-firefox/pkg/PLIST,v 1.42 2012/02/20 20:15:04 landry Exp $
+@comment $OpenBSD$
 @conflict firefox3-*
 @conflict mozilla-firebird-*
 @conflict mozilla-firefox-*
@@ -56,6 +56,7 @@ lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/searchplugins/google.xml
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/searchplugins/twitter.xml
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/searchplugins/wikipedia.xml
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/searchplugins/yahoo.xml
+lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/update-settings.ini
 @man man/man1/${MOZILLA_PROJECT}.1
 @man man/man1/mozilla-${MOZILLA_PROJECT}.1
 share/applications/${MOZILLA_PROJECT}.desktop

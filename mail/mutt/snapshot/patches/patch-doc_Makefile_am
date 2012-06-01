@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mutt/snapshot/patches/patch-doc_Makefile_am,v 1.2 2010/10/22 17:00:20 naddy Exp $
+$OpenBSD$
 --- doc/Makefile.am.orig	Tue Aug 25 21:08:52 2009
 +++ doc/Makefile.am	Fri Oct 22 18:45:59 2010
 @@ -161,8 +161,8 @@ update-doc: stamp-doc-xml stamp-doc-chunked stamp-doc-

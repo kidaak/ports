@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/gbrainy/Makefile,v 1.28 2012/02/16 22:24:15 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	brain teaser game
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/blobwars/patches/patch-makefile,v 1.4 2011/05/08 21:47:44 kili Exp $
+$OpenBSD$
 --- makefile.orig	Sun Apr 17 16:56:56 2011
 +++ makefile	Sun May  8 15:40:35 2011
 @@ -1,16 +1,16 @@

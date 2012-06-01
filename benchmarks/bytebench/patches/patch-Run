@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/bytebench/patches/patch-Run,v 1.1 2002/07/17 21:57:21 lebel Exp $
+$OpenBSD$
 --- Run.orig	Wed Feb  5 05:08:46 1992
 +++ Run	Wed Jul 17 17:36:08 2002
 @@ -40,7 +40,7 @@ version="3.11"

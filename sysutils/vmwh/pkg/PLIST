@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/sysutils/vmwh/pkg/PLIST,v 1.2 2010/11/11 14:52:01 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/vmwh
 share/doc/pkg-readmes/${FULLPKGNAME}

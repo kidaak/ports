@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xmobar/patches/patch-samples_xmobar_config,v 1.1 2011/06/13 21:23:04 kili Exp $
+$OpenBSD$
 --- samples/xmobar.config.orig	Mon Mar 28 01:16:24 2011
 +++ samples/xmobar.config	Sat Jun 11 23:46:39 2011
 @@ -4,15 +4,11 @@ Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"

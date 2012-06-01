@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/defendguin/pkg/PLIST,v 1.4 2010/01/09 09:01:46 benoit Exp $
+@comment $OpenBSD$
 @bin bin/defendguin
 @man man/man6/defendguin.6
 share/defendguin/

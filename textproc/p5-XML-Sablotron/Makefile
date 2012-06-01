@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Sablotron/Makefile,v 1.25 2010/11/20 19:56:51 espie Exp $
+# $OpenBSD$
 
 NOT_FOR_ARCHS=	${NO_SHARED_ARCHS}
 

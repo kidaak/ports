@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/icon/lib/pkg/PLIST,v 1.8 2006/10/16 10:01:55 espie Exp $
+@comment $OpenBSD$
 @conflict unicon-*
 share/ipl/bin/
 share/ipl/bin/adlcheck

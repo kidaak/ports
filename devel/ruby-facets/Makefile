@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-facets/Makefile,v 1.9 2011/11/09 00:17:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	collection of general purpose, pure-Ruby extensions
 

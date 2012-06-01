@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/isic/pkg/PLIST,v 1.4 2007/03/25 12:47:25 mbalmer Exp $
+@comment $OpenBSD$
 bin/esic
 bin/icmpsic
 bin/icmpsic6

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/abook/Makefile,v 1.27 2010/10/18 19:59:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	addressbook program with mutt support
 

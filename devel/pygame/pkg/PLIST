@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pygame/pkg/PLIST,v 1.6 2009/04/28 21:10:08 ajacoutot Exp $
+@comment $OpenBSD$
 include/python${MODPY_VERSION}/pygame/
 include/python${MODPY_VERSION}/pygame/bitmask.h
 include/python${MODPY_VERSION}/pygame/fastevents.h

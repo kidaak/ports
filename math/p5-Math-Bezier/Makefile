@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-Bezier/Makefile,v 1.4 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for solving bezier curves
 

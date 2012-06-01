@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/png/Makefile,v 1.86 2012/03/30 18:58:03 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	library for manipulating PNG images
 

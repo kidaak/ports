@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-ECtools_zarafa-indexer_zarafa-indexer_cpp,v 1.1 2012/02/16 22:18:36 ajacoutot Exp $
+$OpenBSD$
 --- ECtools/zarafa-indexer/zarafa-indexer.cpp.orig	Thu Feb  2 16:10:43 2012
 +++ ECtools/zarafa-indexer/zarafa-indexer.cpp	Thu Feb  2 16:10:56 2012
 @@ -342,7 +342,7 @@ HRESULT clean_lock_files(bool bRemove)

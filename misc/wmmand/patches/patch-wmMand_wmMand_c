@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/wmmand/patches/patch-wmMand_wmMand_c,v 1.1.1.1 2001/03/30 15:17:51 wilfried Exp $
+$OpenBSD$
 --- wmMand/wmMand.c.orig	Mon Feb 15 17:30:27 1999
 +++ wmMand/wmMand.c	Fri Mar 30 16:38:00 2001
 @@ -504,11 +504,16 @@ void ButtonPressEvent(XButtonEvent *xev,

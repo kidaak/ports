@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gforth/patches/patch-comp-i_fs,v 1.1.1.1 2008/10/25 10:40:37 jasper Exp $
+$OpenBSD$
 
 Fix for a known problem of gForth 0.6.2:
 http://www.complang.tuwien.ac.at/forth/gforth/Known-problems.html#exec-shield

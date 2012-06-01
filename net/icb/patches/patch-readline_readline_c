@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icb/patches/patch-readline_readline_c,v 1.2 2004/06/07 05:58:45 david Exp $
+$OpenBSD$
 --- readline/readline.c.orig	1995-02-24 15:20:03.000000000 -0600
 +++ readline/readline.c	2004-06-06 22:06:07.000000000 -0500
 @@ -610,22 +610,22 @@ rl_signal_handler (sig)

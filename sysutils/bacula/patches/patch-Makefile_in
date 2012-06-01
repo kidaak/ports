@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/patches/patch-Makefile_in,v 1.2 2012/03/08 17:34:34 sthen Exp $
+$OpenBSD$
 
 stop building when an error occurs, rather than just keep on with the
 next subdir..

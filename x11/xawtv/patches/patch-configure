@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xawtv/patches/patch-configure,v 1.2 2007/09/28 08:24:42 jakemsr Exp $
+$OpenBSD$
 --- configure.orig	Wed Aug 18 08:48:30 2004
 +++ configure	Thu Sep 27 15:37:48 2007
 @@ -3704,13 +3704,13 @@ else

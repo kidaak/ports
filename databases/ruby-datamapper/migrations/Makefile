@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-datamapper/migrations/Makefile,v 1.9 2011/09/16 08:48:04 espie Exp $
+# $OpenBSD$
 
 COMMENT =	write and specify DataMapper migrations
 

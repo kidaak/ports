@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/roxterm/pkg/PLIST,v 1.10 2012/01/30 10:18:19 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/roxterm
 @bin bin/roxterm-config
 @man man/man1/roxterm-config.1

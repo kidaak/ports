@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xcoloredit/Makefile,v 1.22 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	find color values by graphical color mixing
 

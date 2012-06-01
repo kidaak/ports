@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/alpine/Makefile,v 1.19 2011/12/02 14:36:15 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=	UW e-mail client
 COMMENT-pico=	UW text editor

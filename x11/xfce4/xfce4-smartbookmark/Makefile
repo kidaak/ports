@@ -1,9 +1,10 @@
-# $OpenBSD: ports/x11/xfce4/xfce4-smartbookmark/Makefile,v 1.11 2011/12/26 18:42:13 landry Exp $
+# $OpenBSD$
 
 COMMENT=	Xfce4 web search panel plugin
 
 XFCE_VERSION=	0.4.4
 XFCE_PLUGIN=	smartbookmark
+REVISION =	0
 
 # GPLv2
 PERMIT_DISTFILES_CDROM=	Yes

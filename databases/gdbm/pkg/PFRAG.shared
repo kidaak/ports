@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/databases/gdbm/pkg/PFRAG.shared,v 1.4 2005/12/26 19:15:22 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libgdbm.so.${LIBgdbm_VERSION}

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tilda/patches/patch-src-tilda_c,v 1.2 2008/02/11 09:03:31 jasper Exp $
+$OpenBSD$
 --- src/tilda.c.orig	Mon Feb 11 00:07:47 2008
 +++ src/tilda.c	Mon Feb 11 00:08:14 2008
 @@ -206,7 +206,7 @@ static gint remove_stale_lock_files (gchar *home_direc

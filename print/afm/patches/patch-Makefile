@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/afm/patches/patch-Makefile,v 1.1 2007/10/26 21:49:00 jasper Exp $
+$OpenBSD$
 --- Makefile.orig	Mon Apr 19 01:07:07 1993
 +++ Makefile	Fri Oct 26 23:43:18 2007
 @@ -36,8 +36,8 @@

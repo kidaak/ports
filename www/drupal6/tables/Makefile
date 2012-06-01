@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/tables/Makefile,v 1.4 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	module to create tables within nodes using a simple markup
 

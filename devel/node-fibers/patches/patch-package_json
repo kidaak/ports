@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/node-fibers/patches/patch-package_json,v 1.1.1.1 2012/04/03 18:46:03 jeremy Exp $
+$OpenBSD$
 --- package.json.orig	Wed Jan  4 21:24:45 2012
 +++ package.json	Sun Apr  1 19:33:55 2012
 @@ -8,14 +8,14 @@

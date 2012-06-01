@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-speech_tools_include_EST_simplestats_h,v 1.1 2010/06/06 07:45:31 espie Exp $
+$OpenBSD$
 --- speech_tools/include/EST_simplestats.h.orig	Sun Jun  6 09:33:27 2010
 +++ speech_tools/include/EST_simplestats.h	Sun Jun  6 09:36:59 2010
 @@ -193,7 +193,7 @@ enum EST_tprob_type {tprob_string, tprob_int, tprob_di

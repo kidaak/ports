@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/globe/Makefile,v 1.4 2010/11/17 08:05:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	display the currently lighted face of Earth in ASCII
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/bird/pkg/PLIST-main,v 1.2 2011/05/02 10:49:46 sthen Exp $
+@comment $OpenBSD$
 @bin sbin/bird${SIX}
 @bin sbin/birdc${SIX}
 share/examples/bird/bird${SIX}.conf

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/isc-dhcp/Makefile,v 1.24 2012/01/14 12:43:25 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=	ISC DHCP Server
 COMMENT-client=	ISC DHCP Client

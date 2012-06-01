@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/arora/patches/patch-src_src_pro,v 1.1.1.1 2011/05/22 19:31:09 landry Exp $
+$OpenBSD$
 --- src/src.pro.orig	Sun Sep 26 22:42:17 2010
 +++ src/src.pro	Sun May 15 02:26:22 2011
 @@ -23,7 +23,7 @@ include(locale/locale.pri)

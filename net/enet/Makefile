@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/enet/Makefile,v 1.4 2011/06/29 09:06:17 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		network library for games
 DISTNAME =		enet-1.3.3

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/gui/Makefile,v 1.24 2011/04/18 11:56:01 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	GNUstep gui library
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/alephone/scenarios/marathoninfinity/pkg/PLIST-hires,v 1.1.1.1 2008/07/09 16:56:43 phessler Exp $
+@comment $OpenBSD$
 share/alephone/Infinity/Landscapes/
 share/alephone/Infinity/Landscapes/1.jpg
 share/alephone/Infinity/Landscapes/2.jpg

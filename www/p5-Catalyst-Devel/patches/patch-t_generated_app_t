@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-Catalyst-Devel/patches/patch-t_generated_app_t,v 1.2 2012/04/08 21:58:12 sthen Exp $
+$OpenBSD$
 --- t/generated_app.t.orig	Sun Aug 14 13:36:07 2011
 +++ t/generated_app.t	Wed Nov 16 22:01:04 2011
 @@ -206,9 +206,9 @@ sub run_generated_component_tests {

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-requests/pkg/PLIST,v 1.1.1.1 2011/10/14 16:32:54 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/requests/
 lib/python${MODPY_VERSION}/site-packages/requests-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/requests-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

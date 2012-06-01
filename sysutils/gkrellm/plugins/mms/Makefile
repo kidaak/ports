@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/mms/Makefile,v 1.27 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	XMMS plugin for Gkrellm2
 

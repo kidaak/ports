@@ -1,0 +1,4 @@
+@comment $OpenBSD$
+@bin bin/altermime
+share/doc/altermime/
+share/doc/altermime/LICENCE

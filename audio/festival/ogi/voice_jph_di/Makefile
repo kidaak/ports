@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/ogi/voice_jph_di/Makefile,v 1.2 2007/09/15 22:27:39 simon Exp $
+# $OpenBSD$
 
 LANG=	english
 VO=	jph

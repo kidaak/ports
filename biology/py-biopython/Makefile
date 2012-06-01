@@ -1,4 +1,4 @@
-# $OpenBSD: ports/biology/py-biopython/Makefile,v 1.20 2011/11/01 16:05:26 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 COMMENT=		Python tools for computational molecular biology

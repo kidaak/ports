@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/vim-taglist/Makefile,v 1.5 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT =	source code browser plugin for the Vim text editor
 

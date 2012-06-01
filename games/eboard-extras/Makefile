@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/eboard-extras/Makefile,v 1.12 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=	eboard extra piece sets and sounds
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-logilab-common/Makefile,v 1.12 2011/12/20 11:26:24 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	common low-level libraries for logilab projects
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/fxtv/patches/patch-audsav_dlg_c,v 1.2 2010/05/22 14:12:50 espie Exp $
+$OpenBSD$
 --- audsav_dlg.c.orig	Sat Sep  4 20:09:01 1999
 +++ audsav_dlg.c	Sat May 22 16:04:13 2010
 @@ -373,8 +373,10 @@ static void RecordCmdCB( Widget w, XtPointer cl, XtPoi

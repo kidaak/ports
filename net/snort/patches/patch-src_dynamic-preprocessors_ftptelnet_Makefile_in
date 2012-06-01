@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/snort/patches/patch-src_dynamic-preprocessors_ftptelnet_Makefile_in,v 1.5 2010/07/12 19:38:40 sthen Exp $
+$OpenBSD$
 --- src/dynamic-preprocessors/ftptelnet/Makefile.in.orig	Fri Mar 19 20:39:38 2010
 +++ src/dynamic-preprocessors/ftptelnet/Makefile.in	Mon Apr 26 20:14:12 2010
 @@ -213,7 +213,7 @@ sysconfdir = @sysconfdir@

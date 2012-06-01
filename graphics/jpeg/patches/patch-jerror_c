@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jpeg/patches/patch-jerror_c,v 1.2 2009/10/14 13:03:44 naddy Exp $
+$OpenBSD$
 
 This one is slightly problematic.  If an application allocates less
 room for its error buffer than the recommended JMSG_LENGTH_MAX, the

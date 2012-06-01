@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ettercap/patches/patch-plug-ins_rand_flood_rand_flood_c,v 1.1 2011/08/18 19:23:22 naddy Exp $
+$OpenBSD$
 
 Conflicting definition used elsewhere.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/slock/Makefile,v 1.9 2012/03/15 13:12:43 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=		simple X screen locker
 

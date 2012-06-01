@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-fastercsv/Makefile,v 1.15 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	faster Ruby CSV library
 

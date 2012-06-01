@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/sox/Makefile,v 1.52 2012/03/26 20:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Sound eXchange, the Swiss Army knife of audio manipulation
 

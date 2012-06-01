@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-storage_src_mozStorageConnection_cpp,v 1.1 2011/01/14 22:56:11 landry Exp $
+$OpenBSD$
 --- storage/src/mozStorageConnection.cpp.orig	Tue Nov 23 21:19:55 2010
 +++ storage/src/mozStorageConnection.cpp	Wed Jan 12 11:09:43 2011
 @@ -184,6 +184,13 @@ mozStorageConnection::Initialize(nsIFile *aDatabaseFil

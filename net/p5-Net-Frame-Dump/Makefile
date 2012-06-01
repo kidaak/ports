@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Frame-Dump/Makefile,v 1.1.1.1 2011/04/06 11:53:39 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	base-class for a tcpdump-like implementation
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-BFD/Makefile,v 1.6 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	impromptu dumping of data structures for debugging purposes
 

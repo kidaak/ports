@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/maradns-deadwood/pkg/PLIST,v 1.1.1.1 2012/03/21 16:17:58 sthen Exp $
+@comment $OpenBSD$
 @newgroup _deadwood:695
 @newuser _deadwood:695:_deadwood:daemon:maradns-deadwood user:/nonexistent:/sbin/nologin
 @man man/man1/Deadwood.1

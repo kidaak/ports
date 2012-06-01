@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/infrastructure/fetch/check-distfiles,v 1.4 2003/02/25 11:36:55 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 1999 Marc Espie.
 # 

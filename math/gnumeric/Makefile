@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/gnumeric/Makefile,v 1.74 2011/12/03 20:30:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		spreadsheet application for GNOME
 

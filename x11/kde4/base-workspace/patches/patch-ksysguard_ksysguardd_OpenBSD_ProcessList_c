@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/base-workspace/patches/patch-ksysguard_ksysguardd_OpenBSD_ProcessList_c,v 1.3 2011/07/08 10:27:23 dcoppa Exp $
+$OpenBSD$
 
 Adapt to new OpenBSD kinfo_proc API.
 

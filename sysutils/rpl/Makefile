@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/rpl/Makefile,v 1.5 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT =		replace strings with new strings in multiple text files
 

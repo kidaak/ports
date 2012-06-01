@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/astrolog/Makefile,v 1.27 2010/11/05 08:24:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	astrology program for X11 and alpha-numeric terminals
 

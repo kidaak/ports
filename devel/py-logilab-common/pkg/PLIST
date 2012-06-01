@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-logilab-common/pkg/PLIST,v 1.3 2011/08/31 12:39:19 mpi Exp $
+@comment $OpenBSD$
 bin/pytest
 lib/python${MODPY_VERSION}/site-packages/logilab/
 lib/python${MODPY_VERSION}/site-packages/logilab/__init__.py

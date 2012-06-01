@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/devhelp/Makefile,v 1.61 2012/04/16 13:18:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	API documentation browser for GNOME
 

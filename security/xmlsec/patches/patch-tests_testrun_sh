@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/xmlsec/patches/patch-tests_testrun_sh,v 1.1 2011/11/22 15:36:33 jasper Exp $
+$OpenBSD$
 
 Remove bash-ism.
 

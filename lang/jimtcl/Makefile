@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/jimtcl/Makefile,v 1.3 2011/11/14 18:30:17 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

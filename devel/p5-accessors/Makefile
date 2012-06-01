@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-accessors/Makefile,v 1.7 2011/04/16 11:52:45 jasper Exp $
+# $OpenBSD$
 
 COMMENT=                create accessor methods in caller's package
 

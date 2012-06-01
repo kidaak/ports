@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/ledger/Makefile,v 1.9 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	command line double-entry accounting ledger
 

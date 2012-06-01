@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/minicom/pkg/PLIST,v 1.18 2012/03/19 22:17:43 sthen Exp $
+@comment $OpenBSD$
 @bin bin/ascii-xfr
 @bin bin/minicom
 @bin bin/runscript

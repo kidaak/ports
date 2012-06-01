@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-DNS/Makefile,v 1.12 2011/11/16 18:32:36 robert Exp $
+# $OpenBSD$
 
 COMMENT=	resolver library used to communicate with a DNS server
 

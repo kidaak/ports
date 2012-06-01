@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/e2fsprogs/patches/patch-misc_Makefile_in,v 1.5 2010/05/17 12:01:26 ajacoutot Exp $
+$OpenBSD$
 --- misc/Makefile.in.orig	Sat Nov 15 18:33:33 2008
 +++ misc/Makefile.in	Mon May 17 13:53:57 2010
 @@ -74,7 +74,7 @@ SRCS=	$(srcdir)/tune2fs.c $(srcdir)/mklost+found.c $(s

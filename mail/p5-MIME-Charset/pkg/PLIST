@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-MIME-Charset/pkg/PLIST,v 1.1.1.1 2009/11/12 20:23:02 landry Exp $
+@comment $OpenBSD$
 ${P5SITE}/MIME/
 ${P5SITE}/MIME/Charset/
 ${P5SITE}/MIME/Charset.pm

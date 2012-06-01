@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/amaya/browser/patches/patch-Amaya_amaya_Makefile_in,v 1.1 2001/10/02 20:18:59 heko Exp $
+$OpenBSD$
 --- Amaya/amaya/Makefile.in.orig	Sun Sep 16 00:59:53 2001
 +++ Amaya/amaya/Makefile.in	Sun Sep 16 01:00:10 2001
 @@ -159,7 +159,7 @@ AMAYA_OPTION_SCHEMAS= $(AMAYA_PLUGIN_SCH

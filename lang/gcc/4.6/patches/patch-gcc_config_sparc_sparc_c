@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_config_sparc_sparc_c,v 1.1 2012/03/31 20:02:03 pascal Exp $
+$OpenBSD$
 --- gcc/config/sparc/sparc.c.orig	Sat Dec 17 00:38:34 2011
 +++ gcc/config/sparc/sparc.c	Mon Mar 12 08:48:46 2012
 @@ -4540,6 +4540,9 @@ sparc_expand_prologue (void)

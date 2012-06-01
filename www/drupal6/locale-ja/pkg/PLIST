@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/locale-ja/pkg/PLIST,v 1.4 2012/04/12 08:16:06 naddy Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_ROOT}/LICENSE.${DRUPAL_LANG}.txt

@@ -1,0 +1,12 @@
+$OpenBSD$
+--- 3rdparty/dyncall/dyncallback/dyncall_callback_x86.c.orig	Wed May  9 15:40:07 2012
++++ 3rdparty/dyncall/dyncallback/dyncall_callback_x86.c	Wed May  9 15:40:16 2012
+@@ -34,7 +34,7 @@
+  * assembly thunk entry for callbacks
+  */
+ 
+-extern void dcCallbackThunkEntry();
++extern void dcCallbackThunkEntry(void);
+ 
+ /* compute stacksize for callee cleanup calling conventions:
+  *

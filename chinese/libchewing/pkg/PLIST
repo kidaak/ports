@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/chinese/libchewing/pkg/PLIST,v 1.2 2009/01/09 07:33:51 kevlo Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/chewing/
 include/chewing/chewing.h

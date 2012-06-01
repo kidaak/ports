@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/wa/Makefile,v 1.2 2007/09/15 20:59:37 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Walloon
 CATEGORIES=	textproc

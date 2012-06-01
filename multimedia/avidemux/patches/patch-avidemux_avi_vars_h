@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-avidemux_avi_vars_h,v 1.1 2010/04/26 02:09:03 jakemsr Exp $
+$OpenBSD$
 --- avidemux/avi_vars.h.orig	Wed Apr 21 07:22:01 2010
 +++ avidemux/avi_vars.h	Wed Apr 21 07:22:26 2010
 @@ -16,7 +16,8 @@

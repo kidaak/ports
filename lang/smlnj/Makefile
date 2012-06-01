@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/smlnj/Makefile,v 1.7 2011/04/28 19:28:15 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 

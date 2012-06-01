@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gupnp/igd/patches/patch-libgupnp-igd_gupnp-simple-igd_c,v 1.2 2011/11/08 10:38:48 jasper Exp $
+$OpenBSD$
 
 commit 521d1b4004537ddc2f24e021ab54740e693411dd
 Author: Jasper Lievisse Adriaanse <jasper@humppa.nl>

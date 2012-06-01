@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/tdb/patches/patch-rules_mk,v 1.1 2010/04/26 17:22:06 sthen Exp $
+$OpenBSD$
 --- rules.mk.orig	Mon Apr 19 12:16:11 2010
 +++ rules.mk	Mon Apr 19 12:16:23 2010
 @@ -8,9 +8,9 @@ showflags::

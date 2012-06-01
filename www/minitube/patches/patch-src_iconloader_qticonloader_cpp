@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/minitube/patches/patch-src_iconloader_qticonloader_cpp,v 1.5 2012/01/02 08:35:48 dcoppa Exp $
+$OpenBSD$
 
 Use the gnome icon theme unconditionally: fixes a problem with minitube
 GUI not having icons under fvwm/cwm/kde3/...

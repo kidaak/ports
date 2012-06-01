@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mongodb/patches/patch-db_nonce_cpp,v 1.2 2011/10/03 16:38:21 fgsch Exp $
+$OpenBSD$
 --- db/nonce.cpp.orig	Sun Sep 11 15:09:34 2011
 +++ db/nonce.cpp	Sun Sep 18 21:35:45 2011
 @@ -42,7 +42,7 @@ namespace mongo {

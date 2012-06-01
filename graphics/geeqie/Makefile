@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/geeqie/Makefile,v 1.7 2011/11/01 20:30:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight Gtk+2 based image viewer
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-amqp/Makefile,v 1.10 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	simple AMQP driver for Ruby
 

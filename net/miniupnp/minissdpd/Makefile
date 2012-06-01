@@ -1,8 +1,9 @@
-# $OpenBSD: ports/net/miniupnp/minissdpd/Makefile,v 1.2 2012/02/16 22:27:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	daemon keeping track of UPnP devices up
 
 DISTNAME=	minissdpd-1.1.20120121
+REVISION=	0
 
 WANTLIB += c
 

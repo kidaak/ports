@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libwmf/pkg/PLIST,v 1.5 2010/10/22 16:29:46 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/libwmf-config
 bin/libwmf-fontmap

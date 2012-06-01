@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/memchan/pkg/PLIST,v 1.2 2011/01/05 18:16:58 sebastia Exp $
+@comment $OpenBSD$
 include/memchan/
 include/memchan/buf.h
 include/memchan/bufDecls.h

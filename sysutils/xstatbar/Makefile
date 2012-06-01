@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/xstatbar/Makefile,v 1.12 2011/11/17 14:25:37 ajacoutot Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	${APM_ARCHS}
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/archivers/xz/pkg/PFRAG.shared,v 1.1.1.1 2009/09/10 15:27:26 naddy Exp $
+@comment $OpenBSD$
 @lib lib/liblzma.so.${LIBlzma_VERSION}

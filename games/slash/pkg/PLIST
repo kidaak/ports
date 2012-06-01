@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/slash/pkg/PLIST,v 1.11 2011/05/14 10:36:44 jasper Exp $
+@comment $OpenBSD$
 @unexec rm -rf %D/lib/slashdir/save
 @group games
 bin/slash

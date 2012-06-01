@@ -1,9 +1,10 @@
-# $OpenBSD: ports/x11/xfce4/orage/Makefile,v 1.36 2012/01/06 16:03:09 landry Exp $
+# $OpenBSD$
 
 COMMENT=	Xfce4 advanced calendar
 
 XFCE_GOODIE=	orage
 XFCE_VERSION=	4.8.3
+REVISION =	0
 
 HOMEPAGE=	http://www.xfce.org/projects/orage
 # GPLv2

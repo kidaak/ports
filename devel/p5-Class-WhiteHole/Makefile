@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-WhiteHole/Makefile,v 1.5 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	base class to treat unhandled method calls as errors
 

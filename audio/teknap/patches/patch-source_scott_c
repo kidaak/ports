@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/teknap/patches/patch-source_scott_c,v 1.1 2010/05/09 23:08:00 espie Exp $
+$OpenBSD$
 --- source/scott.c.orig	Mon May 10 01:00:30 2010
 +++ source/scott.c	Mon May 10 01:01:00 2010
 @@ -357,6 +357,7 @@ browser_main_loop(void)

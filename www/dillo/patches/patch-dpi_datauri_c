@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/dillo/patches/patch-dpi_datauri_c,v 1.2 2008/10/19 08:42:55 ajacoutot Exp $
+$OpenBSD$
 --- dpi/datauri.c.orig	Sat Oct 18 10:57:54 2008
 +++ dpi/datauri.c	Sat Oct 18 10:59:16 2008
 @@ -296,7 +296,7 @@ int main(void)

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/torsocks/pkg/PFRAG.shared,v 1.1.1.1 2011/12/01 11:49:27 pascal Exp $
+@comment $OpenBSD$
 @lib lib/torsocks/libtorsocks.so.${LIBtorsocks_VERSION}

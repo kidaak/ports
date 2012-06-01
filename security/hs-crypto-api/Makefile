@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hs-crypto-api/Makefile,v 1.5 2012/01/22 17:21:54 kili Exp $
+# $OpenBSD$
 
 COMMENT=		generic interface for cryptographic operations
 

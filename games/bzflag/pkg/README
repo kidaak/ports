@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/bzflag/pkg/README,v 1.1 2011/10/18 07:56:41 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

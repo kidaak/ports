@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/libdbi-drivers/pkg/PLIST-main,v 1.1.1.1 2009/06/02 00:58:58 merdely Exp $
+@comment $OpenBSD$
 %%SHARED%%
 lib/dbd/
 lib/dbd/libdbdmysql.a

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTPD-Log-Filter/Makefile,v 1.10 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	httpd log filter library
 

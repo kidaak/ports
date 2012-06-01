@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/py-HappyDoc/patches/patch-happydoclib_docstring_StructuredText_STDOM_py,v 1.1 2005/11/22 22:13:23 alek Exp $
+$OpenBSD$
 --- happydoclib/docstring/StructuredText/STDOM.py.orig	Tue Nov 22 22:35:29 2005
 +++ happydoclib/docstring/StructuredText/STDOM.py	Tue Nov 22 22:49:18 2005
 @@ -171,7 +171,7 @@ class NodeWrapper(ParentNode):

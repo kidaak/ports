@@ -1,4 +1,4 @@
-#$OpenBSD: ports/sysutils/snapdl/Makefile,v 1.5 2011/06/21 20:17:54 naddy Exp $
+#$OpenBSD$
 
 COMMENT =		download snapshots of OpenBSD-current
 

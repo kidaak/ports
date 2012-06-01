@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qgis/patches/patch-cmake_FindPostgres_cmake,v 1.3 2010/12/08 09:07:48 landry Exp $
+$OpenBSD$
 --- cmake/FindPostgres.cmake.orig	Sat Oct 16 16:52:43 2010
 +++ cmake/FindPostgres.cmake	Mon Nov 29 17:31:37 2010
 @@ -57,11 +57,7 @@ ELSE(WIN32)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/agg/Makefile,v 1.18 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	anti-grain geometry graphics library
 

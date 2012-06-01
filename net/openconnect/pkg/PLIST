@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/openconnect/pkg/PLIST,v 1.1.1.1 2011/12/08 13:55:28 sthen Exp $
+@comment $OpenBSD$
 include/openconnect.h
 lib/libopenconnect.a
 lib/libopenconnect.la

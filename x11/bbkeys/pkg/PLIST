@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/bbkeys/pkg/PLIST,v 1.5 2005/06/23 20:36:39 sturm Exp $
+@comment $OpenBSD$
 bin/bbkeys
 @man man/man1/bbkeys.1
 @man man/man5/bbkeysrc.5

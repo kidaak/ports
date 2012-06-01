@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gettext/patches/patch-gettext-runtime_intl_relocatable_c,v 1.3 2010/07/03 03:23:22 naddy Exp $
+$OpenBSD$
 --- gettext-runtime/intl/relocatable.c.orig	Sat Dec 12 16:08:01 2009
 +++ gettext-runtime/intl/relocatable.c	Tue Jun 29 00:13:57 2010
 @@ -459,13 +459,17 @@ relocate (const char *pathname)

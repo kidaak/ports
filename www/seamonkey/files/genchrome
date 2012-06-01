@@ -1,5 +1,5 @@
 #!/bin/sh
-# $OpenBSD: ports/www/seamonkey/files/genchrome,v 1.1 2007/04/22 15:04:39 martynas Exp $
+# $OpenBSD$
 # Generate installed-chrome.txt entries for SeaMonkey
 
 if [ $# -ne 2 ]; then

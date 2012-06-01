@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/feldspar/compiler/pkg/PLIST,v 1.1.1.1 2011/05/02 20:45:39 jasper Exp $
+@comment $OpenBSD$
 @bin bin/feldspar
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Feldspar/

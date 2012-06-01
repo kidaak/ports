@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/entomologist/patches/patch-main_cpp,v 1.1.1.1 2011/04/12 19:33:56 landry Exp $
+$OpenBSD$
 --- main.cpp.orig	Sun Apr 10 10:27:06 2011
 +++ main.cpp	Sun Apr 10 10:27:27 2011
 @@ -39,7 +39,7 @@ int main(int argc, char *argv[])

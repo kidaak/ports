@@ -1,4 +1,5 @@
-@comment $OpenBSD: ports/lang/gcc/4.6/pkg/PLIST-c++,v 1.3 2011/11/20 10:32:30 pascal Exp $
+@comment $OpenBSD$
+@conflict libstdc++->=4.7
 @bin bin/ec++
 @bin bin/eg++
 @bin bin/${CONFIG}-ec++

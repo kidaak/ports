@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/arts3/patches/patch-configure_in,v 1.5 2006/01/03 09:10:54 espie Exp $
+$OpenBSD$
 --- configure.in.orig	Sun Nov 20 20:54:54 2005
 +++ configure.in	Fri Dec 30 16:43:14 2005
 @@ -911,7 +911,7 @@ AC_DEFUN([AC_GSL_REQUIREMENTS],

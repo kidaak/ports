@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libgexiv2/patches/patch-Makefile,v 1.5 2012/04/05 12:58:14 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.orig	Thu Mar 29 00:41:52 2012
 +++ Makefile	Thu Apr  5 14:36:16 2012
 @@ -137,7 +137,7 @@ vapi: $(VAPI_FILE)

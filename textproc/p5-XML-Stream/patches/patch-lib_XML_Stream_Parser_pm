@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/p5-XML-Stream/patches/patch-lib_XML_Stream_Parser_pm,v 1.1 2011/04/01 07:08:04 jasper Exp $
+$OpenBSD$
 
 Bug #56574 for XML-Stream: Test suite under perl 5.12 produces warnings
 https://rt.cpan.org/Public/Bug/Display.html?id=56574

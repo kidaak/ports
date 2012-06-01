@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ggz/Makefile.inc,v 1.3 2008/11/17 19:00:28 jasper Exp $
+# $OpenBSD$
 
 V?=			0.0.14.1
 

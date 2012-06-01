@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-Math-GMP/pkg/PLIST,v 1.6 2004/09/15 09:12:00 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Math/
 ${P5ARCH}/Math/GMP.pm

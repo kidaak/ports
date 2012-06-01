@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/get_iplayer/files/options.sample,v 1.4 2010/05/27 23:33:45 sthen Exp $
+# $OpenBSD$
 
 # don't ask about removing old files
 #nopurge 1

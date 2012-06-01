@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/claws-mail-vcalendar/pkg/PLIST,v 1.7 2012/01/23 18:57:33 landry Exp $
+@comment $OpenBSD$
 include/claws-mail/plugins/vcalendar/
 include/claws-mail/plugins/vcalendar/ical.h
 include/claws-mail/plugins/vcalendar/vcal_interface.h

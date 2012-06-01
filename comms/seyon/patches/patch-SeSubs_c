@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/seyon/patches/patch-SeSubs_c,v 1.1 2002/02/20 21:46:49 naddy Exp $
+$OpenBSD$
 --- SeSubs.c.orig	Fri Apr 23 12:24:17 1993
 +++ SeSubs.c	Wed Feb 20 22:31:21 2002
 @@ -249,6 +249,8 @@ ExecShellCommand(command, top)

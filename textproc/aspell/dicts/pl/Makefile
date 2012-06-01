@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/pl/Makefile,v 1.4 2008/10/28 16:54:11 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Polish
 CATEGORIES=	textproc

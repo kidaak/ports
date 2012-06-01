@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/zoo/patches/patch-makefile,v 1.1 2006/04/07 07:40:18 pvalchev Exp $
+$OpenBSD$
 --- makefile.orig	Tue Jul 16 09:52:08 1991
 +++ makefile	Fri Apr  7 01:38:55 2006
 @@ -68,7 +68,8 @@ help :

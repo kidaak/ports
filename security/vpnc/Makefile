@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/vpnc/Makefile,v 1.19 2012/03/21 23:49:02 fgsch Exp $
+# $OpenBSD$
 
 COMMENT=		client for Cisco 3000 VPN concentrators
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-classifier/Makefile,v 1.2 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT =	module to allow Bayesian and other types of classifications
 

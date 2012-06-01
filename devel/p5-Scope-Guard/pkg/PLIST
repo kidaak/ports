@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Scope-Guard/pkg/PLIST,v 1.1.1.1 2007/10/25 21:22:38 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Scope/
 ${P5SITE}/Scope/Guard.pm
 @man man/man3p/Scope::Guard.3p

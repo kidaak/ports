@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libdisorder/pkg/PFRAG.shared,v 1.1.1.1 2010/08/26 01:10:16 kevlo Exp $
+@comment $OpenBSD$
 @lib lib/libdisorder.so.${LIBdisorder_VERSION}

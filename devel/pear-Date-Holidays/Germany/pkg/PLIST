@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pear-Date-Holidays/Germany/pkg/PLIST,v 1.1.1.1 2011/04/05 17:36:47 sthen Exp $
+@comment $OpenBSD$
 @group daemon
 pear/data/Date_Holidays_Germany/
 pear/data/Date_Holidays_Germany/lang/

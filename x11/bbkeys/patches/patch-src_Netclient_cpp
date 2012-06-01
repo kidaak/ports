@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/bbkeys/patches/patch-src_Netclient_cpp,v 1.2 2010/08/06 18:01:21 naddy Exp $
+$OpenBSD$
 --- src/Netclient.cpp.orig	Fri Aug  3 21:43:44 2007
 +++ src/Netclient.cpp	Fri Aug  3 21:45:07 2007
 @@ -140,6 +140,7 @@ bool Netclient::getValue(Window win, Atom atom, Atom t

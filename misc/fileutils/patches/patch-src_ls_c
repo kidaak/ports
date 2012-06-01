@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/fileutils/patches/patch-src_ls_c,v 1.4 2010/11/03 06:56:37 jasper Exp $
+$OpenBSD$
 --- src/ls.c.orig	Sun Apr 29 11:42:47 2001
 +++ src/ls.c	Wed Nov  3 07:55:57 2010
 @@ -510,13 +510,13 @@ enum color_type

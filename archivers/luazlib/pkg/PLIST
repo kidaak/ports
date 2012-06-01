@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/archivers/luazlib/pkg/PLIST,v 1.1.1.1 2010/07/26 01:17:48 jolan Exp $
-lib/lua/5.1/zlib.so
+@comment $OpenBSD$
+lib/lua/${MODLUA_VERSION}/zlib.so

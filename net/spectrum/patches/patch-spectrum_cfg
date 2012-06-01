@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/spectrum/patches/patch-spectrum_cfg,v 1.2 2011/01/10 18:34:31 sebastia Exp $
+$OpenBSD$
 
 Fix paths in var for OpenBSD usage
 

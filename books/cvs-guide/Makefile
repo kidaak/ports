@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/cvs-guide/Makefile,v 1.5 2007/09/15 21:34:35 simon Exp $
+# $OpenBSD$
 
 COMMENT=	the definitive guide to CVS
 

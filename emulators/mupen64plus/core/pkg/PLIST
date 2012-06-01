@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/mupen64plus/core/pkg/PLIST,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+@comment $OpenBSD$
 include/mupen64plus/
 include/mupen64plus/m64p_common.h
 include/mupen64plus/m64p_config.h

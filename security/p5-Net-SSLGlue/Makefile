@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Net-SSLGlue/Makefile,v 1.6 2012/04/11 18:55:49 bluhm Exp $
+# $OpenBSD$
 
 COMMENT =		add/extend SSL support for common perl modules
 

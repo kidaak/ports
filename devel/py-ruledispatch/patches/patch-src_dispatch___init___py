@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-ruledispatch/patches/patch-src_dispatch___init___py,v 1.1 2009/08/06 23:36:44 martynas Exp $
+$OpenBSD$
 --- src/dispatch/__init__.py.orig	Wed Apr 25 07:01:44 2007
 +++ src/dispatch/__init__.py	Wed Aug  5 18:48:17 2009
 @@ -95,7 +95,7 @@ def generic(combiner=None):

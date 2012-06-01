@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/nut/pkg/PLIST-main,v 1.16 2012/01/26 08:03:57 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict nut-<2.6.2p0
 @conflict nut-scanner-*
 @conflict upsd-*

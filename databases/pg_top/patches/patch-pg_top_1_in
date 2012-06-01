@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/pg_top/patches/patch-pg_top_1_in,v 1.1.1.1 2008/06/10 20:48:10 okan Exp $
+$OpenBSD$
 --- pg_top.1.in.orig	Tue Jun 10 13:36:03 2008
 +++ pg_top.1.in	Tue Jun 10 13:39:20 2008
 @@ -437,6 +437,12 @@ things can change while

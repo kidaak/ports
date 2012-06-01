@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-MIME-tools/Makefile,v 1.29 2010/11/19 07:23:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=		modules for parsing (and creating) MIME entities
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cook/patches/patch-configure,v 1.4 2010/05/19 15:34:21 espie Exp $
+$OpenBSD$
 --- configure.orig	Mon Aug 26 14:29:53 2002
 +++ configure	Wed May 19 17:05:48 2010
 @@ -1397,7 +1397,7 @@ if eval "test \"`echo '$''{'ac_cv_lib_$ac_lib_var'+set

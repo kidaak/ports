@@ -1,10 +1,9 @@
-# $OpenBSD: ports/x11/gnome/librsvg/Makefile,v 1.74 2012/03/30 14:09:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	SAX-based render library for SVG files
 
 GNOME_PROJECT=	librsvg
-GNOME_VERSION=	2.36.0
-REVISION=	0
+GNOME_VERSION=	2.36.1
 
 SHARED_LIBS +=	rsvg-2         38.0           # .38.0
 
@@ -39,9 +38,9 @@ CONFIGURE_ARGS=	--disable-gtk-theme \
 		--disable-tools \
 		--disable-Bsymbolic
 
-# these wil be built if gtk+2 and gtk+3 are installed at compile time,
+# these will be built if gtk+2 and gtk+3 are installed at compile time,
 # but we don't want to add these dependencies (not really needed for
-# proper functionnality)
+# proper functionality)
 post-install:
 	rm -f ${PREFIX}/bin/rsvg-view-3 # gtk+3
 	rm -f ${PREFIX}/man/man1/rsvg.1 # gtk+2

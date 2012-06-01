@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_ruby/Makefile,v 1.17 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		module that embeds Ruby into Apache
 

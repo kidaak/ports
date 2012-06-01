@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Weather-Com/pkg/PLIST,v 1.2 2008/05/17 13:44:45 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Weather/
 ${P5SITE}/Weather/Com/
 ${P5SITE}/Weather/Com.pm

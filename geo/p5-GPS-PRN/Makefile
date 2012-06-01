@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/p5-GPS-PRN/Makefile,v 1.3 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to map GPS PRN to Satellite OID and vice versa
 MODULES=	cpan

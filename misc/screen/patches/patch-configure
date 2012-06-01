@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/screen/patches/patch-configure,v 1.1 2006/10/31 18:01:01 naddy Exp $
+$OpenBSD$
 --- configure.orig	Mon Oct 30 17:48:42 2006
 +++ configure	Mon Oct 30 17:49:09 2006
 @@ -7186,10 +7186,12 @@ cat confdefs.h >>conftest.$ac_ext

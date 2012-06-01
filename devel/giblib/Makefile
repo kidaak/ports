@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/giblib/Makefile,v 1.17 2011/11/04 09:18:43 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		utility library including a imlib2 wrapper
 

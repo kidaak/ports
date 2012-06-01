@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-LWP-Protocol-socks/pkg/PLIST,v 1.1.1.1 2011/03/07 23:40:58 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/LWP/
 ${P5SITE}/LWP/Protocol/
 ${P5SITE}/LWP/Protocol/socks.pm

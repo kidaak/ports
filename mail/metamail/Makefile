@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/metamail/Makefile,v 1.26 2012/03/17 11:00:06 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	MIME implementation
 

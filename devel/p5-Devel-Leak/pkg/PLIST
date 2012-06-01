@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Devel-Leak/pkg/PLIST,v 1.1.1.1 2007/04/16 21:06:05 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Devel/
 ${P5ARCH}/Devel/Leak.pm

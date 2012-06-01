@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/foiltex/Makefile,v 1.15 2010/11/20 09:48:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	LaTeX2e class for overhead transparencies
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wmtime/patches/patch-wmtime_wmtime_c,v 1.1.1.1 2000/12/26 18:22:14 naddy Exp $
+$OpenBSD$
 --- wmtime/wmtime.c.orig	Tue Dec 26 19:05:24 2000
 +++ wmtime/wmtime.c	Tue Dec 26 19:07:48 2000
 @@ -98,7 +98,7 @@ void printversion(void);

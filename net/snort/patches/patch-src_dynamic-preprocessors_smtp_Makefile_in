@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/snort/patches/patch-src_dynamic-preprocessors_smtp_Makefile_in,v 1.4 2010/07/12 19:38:40 sthen Exp $
+$OpenBSD$
 --- src/dynamic-preprocessors/smtp/Makefile.in.orig	Fri Mar 19 20:39:38 2010
 +++ src/dynamic-preprocessors/smtp/Makefile.in	Mon Apr 26 20:14:13 2010
 @@ -203,7 +203,7 @@ sysconfdir = @sysconfdir@

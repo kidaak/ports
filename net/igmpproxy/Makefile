@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/igmpproxy/Makefile,v 1.7 2011/06/02 13:41:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Multicast router utilizing IGMP forwarding
 

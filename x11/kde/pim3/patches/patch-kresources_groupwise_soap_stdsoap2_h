@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/pim3/patches/patch-kresources_groupwise_soap_stdsoap2_h,v 1.9 2007/10/24 21:52:18 espie Exp $
+$OpenBSD$
 --- kresources/groupwise/soap/stdsoap2.h.orig	Mon Oct  8 11:50:39 2007
 +++ kresources/groupwise/soap/stdsoap2.h	Tue Oct 23 16:06:01 2007
 @@ -547,7 +547,7 @@ extern "C" {

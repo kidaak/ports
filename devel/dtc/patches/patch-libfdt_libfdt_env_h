@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/dtc/patches/patch-libfdt_libfdt_env_h,v 1.1.1.1 2009/08/30 16:40:16 jasper Exp $
+$OpenBSD$
 
 Workaround compiler warnings.
 

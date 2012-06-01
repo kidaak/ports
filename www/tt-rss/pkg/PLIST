@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/tt-rss/pkg/PLIST,v 1.3 2012/03/15 09:50:23 landry Exp $
+@comment $OpenBSD$
 tt-rss/
 tt-rss/LICENSE
 tt-rss/README

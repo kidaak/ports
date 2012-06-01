@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/pkg_mgr/pkg/PLIST,v 1.2 2010/12/26 19:51:05 landry Exp $
+@comment $OpenBSD$
 ${P5SITE}/OpenBSD/
 ${P5SITE}/OpenBSD/PackageManager/
 ${P5SITE}/OpenBSD/PackageManager/Controller.pm

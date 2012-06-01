@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/photoshow/Makefile,v 1.3 2012/03/15 13:38:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	easy to use web gallery
 

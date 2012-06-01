@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-Makefile_pre_in,v 1.6 2009/01/01 21:03:27 djm Exp $
+$OpenBSD$
 --- Makefile.pre.in.orig	Mon Sep 22 10:22:44 2008
 +++ Makefile.pre.in	Mon Dec 15 20:13:03 2008
 @@ -332,6 +332,8 @@ LIBRARY_OBJS=	\

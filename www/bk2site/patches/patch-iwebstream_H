@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bk2site/patches/patch-iwebstream_H,v 1.1 2010/05/24 22:12:41 espie Exp $
+$OpenBSD$
 --- iwebstream.H.orig	Tue May 25 00:10:46 2010
 +++ iwebstream.H	Tue May 25 00:10:57 2010
 @@ -58,9 +58,9 @@ class iwebstream { (public)

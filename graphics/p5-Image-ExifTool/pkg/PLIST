@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Image-ExifTool/pkg/PLIST,v 1.18 2012/04/02 16:32:54 giovanni Exp $
+@comment $OpenBSD$
 bin/exiftool
 ${P5SITE}/File/
 ${P5SITE}/File/RandomAccess.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/supertuxkart/patches/patch-src_bullet_src_BulletDynamics_ConstraintSolver_btOdeQuickstepConstraintSolver_cpp,v 1.2 2011/05/08 20:14:54 kili Exp $
+$OpenBSD$
 --- src/bullet/src/BulletDynamics/ConstraintSolver/btOdeQuickstepConstraintSolver.cpp.orig	Mon Dec 20 22:46:14 2010
 +++ src/bullet/src/BulletDynamics/ConstraintSolver/btOdeQuickstepConstraintSolver.cpp	Sat May  7 12:50:45 2011
 @@ -45,7 +45,7 @@ subject to the following restrictions:

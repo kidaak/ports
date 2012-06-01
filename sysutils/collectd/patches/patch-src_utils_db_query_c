@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/collectd/patches/patch-src_utils_db_query_c,v 1.1.1.1 2010/06/23 18:04:26 landry Exp $
+$OpenBSD$
 --- src/utils_db_query.c.orig	Sat May  1 11:15:45 2010
 +++ src/utils_db_query.c	Sat Jun 19 11:22:07 2010
 @@ -193,7 +193,7 @@ static int udb_config_set_uint (unsigned int *ret_valu

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Apache-DB/Makefile,v 1.9 2011/04/01 07:11:31 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		interactive debugger for modperl
 

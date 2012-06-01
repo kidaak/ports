@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/surf/Makefile,v 1.12 2011/10/13 06:55:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	simple webbrowser based on webkit/gtk+
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libgit2/Makefile,v 1.1 2011/06/30 12:07:59 jasper Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += libgit2

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/frogatto/pkg/PLIST,v 1.3 2011/08/26 11:30:32 jasper Exp $
+@comment $OpenBSD$
 @bin bin/frogatto
 @bin bin/frogatto-server
 share/frogatto/

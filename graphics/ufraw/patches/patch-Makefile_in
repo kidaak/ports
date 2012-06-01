@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/ufraw/patches/patch-Makefile_in,v 1.4 2010/09/16 10:18:38 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Apr  1 00:19:33 2010
 +++ Makefile.in	Wed Apr  7 03:42:17 2010
 @@ -127,7 +127,7 @@ am__nikon_curve_SOURCES_DIST = nikon_curve.c

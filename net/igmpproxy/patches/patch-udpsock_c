@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/igmpproxy/patches/patch-udpsock_c,v 1.1.1.1 2008/02/08 19:30:51 sthen Exp $
+$OpenBSD$
 --- udpsock.c.orig	Sat Aug 20 13:35:00 2005
 +++ udpsock.c	Mon Nov 19 12:56:50 2007
 @@ -58,7 +58,7 @@ int openUdpSocket( uint32 PeerInAdr, uint16 PeerPort )

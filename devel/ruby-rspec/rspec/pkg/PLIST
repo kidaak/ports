@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-rspec/rspec/pkg/PLIST,v 1.1 2011/11/17 15:15:27 jeremy Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict ${MODRUBY_PREFIX}-rspec->=2.0
 ${GEM_LIB}/cache/${DISTNAME}.gem

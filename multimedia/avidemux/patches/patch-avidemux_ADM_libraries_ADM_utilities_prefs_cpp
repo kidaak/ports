@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-avidemux_ADM_libraries_ADM_utilities_prefs_cpp,v 1.1 2010/04/26 02:09:03 jakemsr Exp $
+$OpenBSD$
 --- avidemux/ADM_libraries/ADM_utilities/prefs.cpp.orig	Wed Jul 23 09:47:32 2008
 +++ avidemux/ADM_libraries/ADM_utilities/prefs.cpp	Wed Apr 21 10:42:49 2010
 @@ -103,7 +103,7 @@ static opt_def opt_defs [] = {

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/coffeescript/pkg/PLIST,v 1.3 2012/04/12 19:08:46 jasper Exp $
+@comment $OpenBSD$
 bin/cake
 bin/coffee
 lib/node_modules/coffee-script/

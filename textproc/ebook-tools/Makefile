@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ebook-tools/Makefile,v 1.2 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 V =			0.2.1
 COMMENT =		accessing and converting various ebook file formats

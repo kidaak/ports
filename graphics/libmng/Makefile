@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libmng/Makefile,v 1.22 2010/11/17 08:05:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Multiple-image Network Graphics (MNG) reference library
 

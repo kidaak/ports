@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Tree-Simple-VisitorFactory/Makefile,v 1.9 2010/12/03 11:44:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	factory for Tree::Simple visitor objects
 

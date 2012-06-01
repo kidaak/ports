@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-NYTProf/Makefile,v 1.13 2011/01/09 13:53:27 bluhm Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

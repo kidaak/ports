@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-WeakRef/Makefile,v 1.6 2010/12/03 11:44:38 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

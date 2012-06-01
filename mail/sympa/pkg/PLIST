@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/sympa/pkg/PLIST,v 1.5 2011/05/11 12:57:48 jasper Exp $
+@comment $OpenBSD$
 @newgroup _sympa:648
 @newuser _sympa:648:648:daemon:Sympa Daemon:/var/empty:/sbin/nologin
 @extraunexec rm -rf /var/sympa/*

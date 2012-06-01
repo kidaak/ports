@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/festival/ogi/OGIlexicon/pkg/PLIST,v 1.2 2004/08/06 03:36:25 jolan Exp $
+@comment $OpenBSD$
 lib/festival/dicts/
 lib/festival/dicts/ogi_lex.out
 lib/festival/dicts/ogilex_lts_rules.scm

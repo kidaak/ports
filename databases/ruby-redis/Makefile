@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-redis/Makefile,v 1.5 2011/09/23 09:30:46 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =	client library for the Redis key-value store
 

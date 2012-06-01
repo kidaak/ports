@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/docbook/pkg/PLIST,v 1.13 2010/12/19 22:11:56 kili Exp $
+@comment $OpenBSD$
 share/sgml/catalog
 share/sgml/docbook/2.4.1/
 share/sgml/docbook/2.4.1/241chg.txt

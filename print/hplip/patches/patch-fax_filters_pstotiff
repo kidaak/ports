@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-fax_filters_pstotiff,v 1.2 2011/08/30 08:55:55 ajacoutot Exp $
+$OpenBSD$
 --- fax/filters/pstotiff.orig	Sun Jul 24 21:06:43 2011
 +++ fax/filters/pstotiff	Tue Aug 30 10:32:52 2011
 @@ -16,10 +16,10 @@ if (len(sys.argv) > 6):

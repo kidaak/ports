@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/plplot/pkg/PLIST-c++,v 1.5 2010/04/15 20:41:42 dcoppa Exp $
+@comment $OpenBSD$
 @lib lib/libplplotcxxd.so.${LIBplplotcxxd_VERSION}
 lib/pkgconfig/plplotd-c++.pc
 share/examples/plplot/c++/

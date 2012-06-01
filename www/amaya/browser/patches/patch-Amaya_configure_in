@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/amaya/browser/patches/patch-Amaya_configure_in,v 1.3 2010/06/06 12:27:26 kili Exp $
+$OpenBSD$
 --- Amaya/configure.in.orig	Tue Jul  3 13:23:50 2001
 +++ Amaya/configure.in	Sat Jun  5 14:30:06 2010
 @@ -55,8 +55,8 @@ AC_PATH_PROG(DIFF, diff, /usr/bin/diff, $PATH:/bin:/us

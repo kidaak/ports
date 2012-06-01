@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gettext/patches/patch-gettext-tools_gnulib-lib_string_in_h,v 1.1 2010/07/03 03:23:22 naddy Exp $
+$OpenBSD$
 --- gettext-tools/gnulib-lib/string.in.h.orig	Mon May 24 11:42:47 2010
 +++ gettext-tools/gnulib-lib/string.in.h	Wed Jun 30 07:34:09 2010
 @@ -41,10 +41,12 @@

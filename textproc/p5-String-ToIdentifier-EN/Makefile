@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-String-ToIdentifier-EN/Makefile,v 1.1.1.1 2012/04/06 09:27:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	convert strings to english program identifiers
 

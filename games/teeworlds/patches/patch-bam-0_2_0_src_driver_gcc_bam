@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/teeworlds/patches/patch-bam-0_2_0_src_driver_gcc_bam,v 1.1.1.1 2009/01/18 17:53:36 ajacoutot Exp $
+$OpenBSD$
 --- bam-0.2.0/src/driver_gcc.bam.orig	Fri Jan 16 18:44:47 2009
 +++ bam-0.2.0/src/driver_gcc.bam	Fri Jan 16 18:45:47 2009
 @@ -82,8 +82,8 @@ end

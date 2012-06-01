@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Object-MultiType/Makefile,v 1.7 2010/12/03 11:46:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl Objects as Hash, Array and Scalar at the same time
 

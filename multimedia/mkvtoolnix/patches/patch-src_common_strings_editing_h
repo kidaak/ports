@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/mkvtoolnix/patches/patch-src_common_strings_editing_h,v 1.1 2009/06/09 20:30:18 benoit Exp $
+$OpenBSD$
 --- src/common/strings/editing.h.orig	Mon Jun  8 17:24:34 2009
 +++ src/common/strings/editing.h	Mon Jun  8 17:24:50 2009
 @@ -15,6 +15,7 @@

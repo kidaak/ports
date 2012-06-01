@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-namespace-clean/Makefile,v 1.10 2012/04/06 10:07:20 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	keep imports and functions out of your namespace
 

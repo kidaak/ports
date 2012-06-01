@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libsidplay/Makefile,v 1.11 2010/09/06 00:04:28 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	C64 music player and SID chip emulator library
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/beaver/Makefile,v 1.26 2011/09/16 09:48:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight Gtk text editor with syntax highlighting
 

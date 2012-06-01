@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/randtype/Makefile,v 1.2 2010/10/18 20:52:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	output characters or lines at random intervals
 

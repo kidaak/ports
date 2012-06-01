@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-glib/Makefile,v 1.8 2011/12/07 18:31:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell bindings to glib
 

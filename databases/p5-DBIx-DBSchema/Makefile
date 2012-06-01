@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-DBSchema/Makefile,v 1.8 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	database-independent schema objects
 

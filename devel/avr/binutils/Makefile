@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/avr/binutils/Makefile,v 1.12 2011/12/11 23:32:31 bentley Exp $
+# $OpenBSD$
 
 COMMENT=	Atmel AVR 8-bit RISC microcontrollers' GNU binutils
 

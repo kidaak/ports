@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-PerlIO-via-symlink/Makefile,v 1.9 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	create symlink from IO handle
 

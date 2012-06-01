@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pysvn/patches/patch-Examples_Client_svn_cmd_py,v 1.1.1.1 2010/12/29 13:47:53 stsp Exp $
+$OpenBSD$
 
 LC_ALL only works for single-byte locales on OpenBSD.
 

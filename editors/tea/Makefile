@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/tea/Makefile,v 1.16 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	powerful and simple GTK editor
 

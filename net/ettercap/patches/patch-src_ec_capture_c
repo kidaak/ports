@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ettercap/patches/patch-src_ec_capture_c,v 1.1 2008/04/23 20:49:46 okan Exp $
+$OpenBSD$
 --- src/ec_capture.c.orig	Mon Mar 24 14:29:44 2008
 +++ src/ec_capture.c	Mon Mar 24 14:31:05 2008
 @@ -211,8 +211,8 @@ void capture_init(void)

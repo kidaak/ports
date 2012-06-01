@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-testsuite_tests_ghc-regress_codeGen_should_run_all_T,v 1.1 2010/04/22 21:49:37 kili Exp $
+$OpenBSD$
 
 With 8k of stack, this test fails for WAY=normal.
 

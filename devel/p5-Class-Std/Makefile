@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Std/Makefile,v 1.8 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		inside-out object scaffolding
 

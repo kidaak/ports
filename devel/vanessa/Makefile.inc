@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/vanessa/Makefile.inc,v 1.1.1.1 2006/11/06 10:57:38 msf Exp $
+# $OpenBSD$
 
 CATEGORIES?=	devel
 

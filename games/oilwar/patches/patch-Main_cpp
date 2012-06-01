@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/oilwar/patches/patch-Main_cpp,v 1.1 2003/04/15 13:17:59 wilfried Exp $
+$OpenBSD$
 --- Main.cpp.orig	Wed Apr  2 10:57:33 2003
 +++ Main.cpp	Mon Apr 14 11:54:54 2003
 @@ -60,6 +60,8 @@ int GunChannel = 1;

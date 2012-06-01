@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/gtetrinet/Makefile,v 1.24 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 MULTI_PACKAGES=	-main -themes
 

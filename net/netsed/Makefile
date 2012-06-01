@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/netsed/Makefile,v 1.3 2007/09/15 22:36:56 merdely Exp $
+# $OpenBSD$
 
 COMMENT=		network sed
 

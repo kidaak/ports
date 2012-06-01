@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/jack/pkg/PLIST,v 1.8 2012/01/24 08:03:52 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/jack_alias
 @bin bin/jack_bufsize
 @bin bin/jack_connect

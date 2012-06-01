@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-ui_devmgr4_py,v 1.4 2011/07/09 00:30:28 ajacoutot Exp $
+$OpenBSD$
 --- ui/devmgr4.py.orig	Sat May 14 20:26:08 2011
 +++ ui/devmgr4.py	Sat Jul  9 02:05:38 2011
 @@ -2762,7 +2762,7 @@ class DevMgr4(DevMgr4_base):

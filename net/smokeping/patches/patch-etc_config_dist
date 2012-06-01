@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/smokeping/patches/patch-etc_config_dist,v 1.5 2008/01/29 19:58:39 sthen Exp $
+$OpenBSD$
 --- etc/config.dist.orig	Mon Jan 21 14:02:04 2008
 +++ etc/config.dist	Thu Jan 24 19:57:42 2008
 @@ -3,17 +3,17 @@

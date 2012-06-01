@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/axe/patches/patch-Help_Hyper_c,v 1.1 2001/08/22 00:04:41 naddy Exp $
+$OpenBSD$
 --- Help/Hyper.c.orig	Wed Apr  6 18:07:36 1994
 +++ Help/Hyper.c	Tue Aug 21 02:43:48 2001
 @@ -977,7 +977,6 @@ HyperWidget hyper;

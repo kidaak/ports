@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/stan/Makefile,v 1.3 2010/11/01 19:25:57 steven Exp $
+# $OpenBSD$
 
 COMMENT =		statistical analyzer for binary streams
 

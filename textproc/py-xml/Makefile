@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-xml/Makefile,v 1.44 2011/09/27 21:29:16 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/msmtp/patches/patch-scripts_set_sendmail_set_sendmail_sh,v 1.1 2008/10/19 20:35:01 jasper Exp $
+$OpenBSD$
 --- scripts/set_sendmail/set_sendmail.sh.orig	Mon Jul 28 00:22:50 2008
 +++ scripts/set_sendmail/set_sendmail.sh	Wed Oct 15 03:15:06 2008
 @@ -1,4 +1,4 @@

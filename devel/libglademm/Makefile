@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libglademm/Makefile,v 1.24 2011/09/28 09:51:35 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	C++ bindings for libglade
 

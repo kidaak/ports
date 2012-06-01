@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libcanberra/patches/patch-Makefile_am,v 1.6 2011/09/30 06:51:31 ajacoutot Exp $
+$OpenBSD$
 
 XXX
 /bin/sh[1]: ELF: not found

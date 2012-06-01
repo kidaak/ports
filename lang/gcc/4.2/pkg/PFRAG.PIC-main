@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.2/pkg/PFRAG.PIC-main,v 1.2 2009/04/21 21:02:34 kurt Exp $
+@comment $OpenBSD$
 lib/gcc/${CONFIG}/${V}/fpic/
 lib/gcc/${CONFIG}/${V}/fpic/libgcc.a
 lib/gcc/${CONFIG}/${V}/fpic/libgcov.a

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cil/patches/patch-configure_in,v 1.7 2009/03/11 21:20:27 avsm Exp $
+$OpenBSD$
 --- configure.in.orig	Mon Feb  5 21:10:29 2007
 +++ configure.in	Thu Nov 27 12:26:42 2008
 @@ -80,7 +80,7 @@ binaryExists() {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/smtp-benchmark/Makefile,v 1.11 2011/06/23 22:50:27 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	SMTP benchmark to measure throughput of an MTA
 

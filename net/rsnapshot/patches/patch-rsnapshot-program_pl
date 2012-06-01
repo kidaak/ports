@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rsnapshot/patches/patch-rsnapshot-program_pl,v 1.5 2011/12/04 08:53:57 ajacoutot Exp $
+$OpenBSD$
 --- rsnapshot-program.pl.orig	Sun Aug 31 13:17:07 2008
 +++ rsnapshot-program.pl	Fri Sep 19 15:28:30 2008
 @@ -392,7 +392,7 @@ sub find_config_file {

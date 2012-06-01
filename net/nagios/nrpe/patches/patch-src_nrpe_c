@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nagios/nrpe/patches/patch-src_nrpe_c,v 1.5 2011/04/21 11:23:38 sthen Exp $
+$OpenBSD$
 --- src/nrpe.c.orig	Tue Sep 14 16:51:48 2010
 +++ src/nrpe.c	Thu Apr 21 10:56:51 2011
 @@ -23,6 +23,8 @@

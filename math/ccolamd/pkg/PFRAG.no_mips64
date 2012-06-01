@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/math/ccolamd/pkg/PFRAG.no_mips64,v 1.1 2010/06/14 07:32:30 jasper Exp $
+@comment $OpenBSD$
 lib/libccolamd_pic.a

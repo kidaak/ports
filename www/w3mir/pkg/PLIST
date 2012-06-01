@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/w3mir/pkg/PLIST,v 1.4 2004/09/15 18:49:53 espie Exp $
+@comment $OpenBSD$
 bin/w3mfix
 bin/w3mir
 ${P5SITE}/htmlop.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/farstream/patches/patch-transmitters_multicast_fs-multicast-transmitter_c,v 1.1.1.1 2012/04/05 16:02:30 jasper Exp $
+$OpenBSD$
 --- transmitters/multicast/fs-multicast-transmitter.c.orig	Wed Apr  4 22:48:14 2012
 +++ transmitters/multicast/fs-multicast-transmitter.c	Wed Apr  4 22:48:35 2012
 @@ -53,7 +53,10 @@

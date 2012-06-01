@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xbreaky/Makefile,v 1.16 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	breakout game for the X Window System
 

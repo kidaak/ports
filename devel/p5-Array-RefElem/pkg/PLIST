@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Array-RefElem/pkg/PLIST,v 1.1.1.1 2011/06/22 08:30:22 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Array/
 ${P5ARCH}/Array/RefElem.pm

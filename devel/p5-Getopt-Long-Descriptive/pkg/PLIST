@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Getopt-Long-Descriptive/pkg/PLIST,v 1.1.1.1 2010/07/02 04:18:23 jim Exp $
+@comment $OpenBSD$
 ${P5SITE}/Getopt/
 ${P5SITE}/Getopt/Long/
 ${P5SITE}/Getopt/Long/Descriptive/

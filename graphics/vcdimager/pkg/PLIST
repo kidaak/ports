@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/vcdimager/pkg/PLIST,v 1.3 2010/06/27 21:20:43 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/cdxa2mpeg
 @bin bin/vcd-info

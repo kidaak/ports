@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Time-Duration-Parse/Makefile,v 1.5 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	parse strings that represent time durations
 

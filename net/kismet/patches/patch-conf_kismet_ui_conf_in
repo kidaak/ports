@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/kismet/patches/patch-conf_kismet_ui_conf_in,v 1.2 2007/11/10 21:10:42 kili Exp $
+$OpenBSD$
 --- conf/kismet_ui.conf.in.orig	Sun Sep  9 23:01:01 2007
 +++ conf/kismet_ui.conf.in	Sun Sep  9 23:06:28 2007
 @@ -24,7 +24,7 @@ clientcolumns=decay,type,mac,manuf,data,crypt,size,ip,

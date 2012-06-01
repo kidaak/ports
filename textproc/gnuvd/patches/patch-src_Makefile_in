@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/gnuvd/patches/patch-src_Makefile_in,v 1.1 2010/08/25 17:37:41 jasper Exp $
+$OpenBSD$
 
 Remove flag that's not supported by all three gcc versions.
 

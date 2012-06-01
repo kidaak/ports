@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/rubinius/patches/patch-spec_ruby_optional_capi_io_spec_rb,v 1.1 2011/11/14 11:40:54 jeremy Exp $
+$OpenBSD$
 --- spec/ruby/optional/capi/io_spec.rb.orig	Sun Nov 13 17:37:14 2011
 +++ spec/ruby/optional/capi/io_spec.rb	Sun Nov 13 17:37:33 2011
 @@ -123,7 +123,7 @@ describe "C-API IO function" do

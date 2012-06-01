@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mldonkey/Makefile,v 1.11 2010/04/20 07:18:39 jasper Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += stable

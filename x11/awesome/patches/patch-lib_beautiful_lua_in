@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/awesome/patches/patch-lib_beautiful_lua_in,v 1.1 2011/12/05 16:12:01 dcoppa Exp $
+$OpenBSD$
 
 Beautiful: handle invalid wallpaper_cmd better (FS#941)
 (upstream git commit d3021e67729a01e891c8eb04a8afd696fb63b0ce)

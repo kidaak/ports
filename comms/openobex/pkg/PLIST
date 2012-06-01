@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/openobex/pkg/PLIST,v 1.1.1.1 2004/11/12 08:04:22 grange Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/openobex-config
 include/openobex/

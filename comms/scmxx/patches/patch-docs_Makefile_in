@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/scmxx/patches/patch-docs_Makefile_in,v 1.1 2005/07/26 17:00:51 fgsch Exp $
+$OpenBSD$
 --- docs/Makefile.in.orig	Tue Jul 26 02:19:13 2005
 +++ docs/Makefile.in	Tue Jul 26 02:19:28 2005
 @@ -66,12 +66,12 @@ distclean:

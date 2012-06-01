@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/tdl/pkg/PLIST,v 1.3 2005/09/05 13:27:40 espie Exp $
+@comment $OpenBSD$
 @conflict devtodo-*
 bin/tdl
 bin/tdla

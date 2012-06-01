@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/baker/Makefile,v 1.32 2011/12/03 22:17:15 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		CD/DVD authoring application for GNOME
 

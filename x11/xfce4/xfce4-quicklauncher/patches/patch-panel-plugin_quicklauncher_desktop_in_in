@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfce4-quicklauncher/patches/patch-panel-plugin_quicklauncher_desktop_in_in,v 1.1.1.1 2009/09/17 22:02:31 landry Exp $
+$OpenBSD$
 --- panel-plugin/quicklauncher.desktop.in.in.orig	Thu Sep 17 20:50:29 2009
 +++ panel-plugin/quicklauncher.desktop.in.in	Thu Sep 17 20:50:53 2009
 @@ -4,4 +4,5 @@ Encoding=UTF-8

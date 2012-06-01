@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/monodevelop/patches/patch-src_addins_MonoDevelop_Autotools_SolutionDeployer_cs,v 1.1 2010/03/29 07:44:28 ajacoutot Exp $
+$OpenBSD$
 --- src/addins/MonoDevelop.Autotools/SolutionDeployer.cs.orig	Thu Nov  5 19:12:13 2009
 +++ src/addins/MonoDevelop.Autotools/SolutionDeployer.cs	Mon Mar 29 08:59:41 2010
 @@ -180,7 +180,7 @@ namespace MonoDevelop.Autotools

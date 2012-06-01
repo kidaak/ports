@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/octave/patches/patch-liboctave_getopt_c,v 1.1 2005/11/20 17:44:20 naddy Exp $
+$OpenBSD$
 --- liboctave/getopt.c.orig	Mon Nov 14 16:53:58 2005
 +++ liboctave/getopt.c	Mon Nov 14 18:19:04 2005
 @@ -65,7 +65,7 @@

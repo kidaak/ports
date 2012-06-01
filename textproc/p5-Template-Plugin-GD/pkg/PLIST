@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Template-Plugin-GD/pkg/PLIST,v 1.1.1.1 2009/08/29 13:34:55 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Template/
 ${P5SITE}/Template/Plugin/
 ${P5SITE}/Template/Plugin/GD/

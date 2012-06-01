@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-PerlIO-via-dynamic/Makefile,v 1.10 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	create dynamic PerlIO layers
 

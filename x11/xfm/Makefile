@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xfm/Makefile,v 1.29 2010/11/22 08:37:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	X11 File Manager
 

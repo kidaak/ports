@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/gource/pkg/PLIST,v 1.1.1.1 2011/10/20 10:56:59 jasper Exp $
+@comment $OpenBSD$
 @bin bin/gource
 @man man/man1/gource.1
 share/gource/

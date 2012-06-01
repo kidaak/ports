@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/www/mimetex/pkg/PLIST,v 1.1.1.1 2008/05/16 15:21:23 mbalmer Exp $
+@comment $OpenBSD$
 cgi-bin/mimetex

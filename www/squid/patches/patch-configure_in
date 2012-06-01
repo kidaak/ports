@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/squid/patches/patch-configure_in,v 1.31 2010/11/29 23:06:39 dcoppa Exp $
+$OpenBSD$
 --- configure.in.orig	Wed Mar 17 01:10:12 2010
 +++ configure.in	Mon Nov 29 21:43:13 2010
 @@ -17,11 +17,6 @@ AM_MAINTAINER_MODE

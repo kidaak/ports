@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/unrar/patches/patch-rijndael_hpp,v 1.1 2012/04/08 16:36:12 naddy Exp $
+$OpenBSD$
 --- rijndael.hpp.orig	Wed Mar  2 08:43:13 2011
 +++ rijndael.hpp	Fri Apr  6 00:32:04 2012
 @@ -18,15 +18,21 @@ class Rijndael

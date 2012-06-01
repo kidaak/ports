@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/avahi/pkg/PLIST-mono,v 1.3 2010/06/28 18:52:31 robert Exp $
+@comment $OpenBSD$
 lib/mono/avahi-sharp/
 lib/mono/avahi-sharp/avahi-sharp.dll
 lib/mono/avahi-ui-sharp/

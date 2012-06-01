@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/kakasi/Makefile,v 1.15 2010/10/18 18:13:15 espie Exp $
+# $OpenBSD$
 # FreeBSD Id: Makefile,v 1.14 1998/04/05 04:46:33 max Exp $
 
 COMMENT=	Kanji -> kana converter

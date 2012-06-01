@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/nb/Makefile,v 1.6 2012/01/17 11:04:12 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Norwegian Bokmal
 CATEGORIES=	textproc

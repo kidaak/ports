@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/gsm/Makefile,v 1.38 2010/10/18 16:52:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	u-law to gsm encoding audio converter and library
 

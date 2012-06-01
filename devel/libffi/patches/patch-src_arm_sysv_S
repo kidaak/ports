@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libffi/patches/patch-src_arm_sysv_S,v 1.3 2010/09/19 20:19:15 jasper Exp $
+$OpenBSD$
 
 As our as(1) is too old, and cannot deal with UNWIND. This patch fixes build on
 arm. It's taken from FreeBSD and can be removed when binutils is updated.

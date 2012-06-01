@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/avenger/pkg/PLIST,v 1.3 2011/03/29 12:03:53 pea Exp $
+@comment $OpenBSD$
 @conflict macutil-*
 @conflict archiveopteryx-*
 @newuser _avenger:554:wheel:daemon:Mail Avenger:/var/avenger:/sbin/nologin

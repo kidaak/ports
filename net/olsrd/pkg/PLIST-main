@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/olsrd/pkg/PLIST-main,v 1.2 2010/07/06 07:41:46 sthen Exp $
+@comment $OpenBSD$
 @pkgpath net/olsrd
 @man man/man5/olsrd.conf.5
 @man man/man8/olsrd.8

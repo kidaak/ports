@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/lmms/patches/patch-CMakeLists_txt,v 1.2 2011/11/09 23:24:56 dcoppa Exp $
+$OpenBSD$
 --- CMakeLists.txt.orig	Thu Sep  2 15:27:37 2010
 +++ CMakeLists.txt	Sun Oct 24 08:11:32 2010
 @@ -32,7 +32,9 @@ OPTION(WANT_CAPS	"Include C* Audio Plugin Suite (LADSP

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Date-Calc/pkg/PLIST,v 1.11 2009/11/06 09:19:34 giovanni Exp $
+@comment $OpenBSD$
 ${P5SITE}/Date/
 ${P5SITE}/Date/Calc/
 ${P5SITE}/Date/Calc.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-eyed3/patches/patch-configure,v 1.1.1.1 2007/06/22 14:43:13 jasper Exp $
+$OpenBSD$
 --- configure.orig	Tue May  8 04:17:44 2007
 +++ configure	Thu Jun 14 02:01:51 2007
 @@ -1682,8 +1682,6 @@ fi

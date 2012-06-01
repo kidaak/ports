@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/pypanel/patches/patch-pypanel,v 1.1 2008/01/15 14:07:39 ajacoutot Exp $
+$OpenBSD$
 --- pypanel.orig	Tue Jan 15 14:53:21 2008
 +++ pypanel	Tue Jan 15 14:55:11 2008
 @@ -95,6 +95,7 @@ class PyPanel(object):

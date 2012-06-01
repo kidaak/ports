@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/abcde/patches/patch-abcde,v 1.6 2010/09/05 21:55:42 sthen Exp $
+$OpenBSD$
 --- abcde.orig	Sun Aug 14 20:51:53 2005
 +++ abcde	Sun Sep  5 22:55:16 2010
 @@ -2058,7 +2058,7 @@ VAPLAYLISTFORMAT='${ARTISTFILE}-${ALBUMFILE}.${OUTPUT}

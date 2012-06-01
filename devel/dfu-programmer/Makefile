@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/dfu-programmer/Makefile,v 1.2 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		Device Firmware Update-based programmer for Atmel chips
 

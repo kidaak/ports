@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-URI-Fetch/Makefile,v 1.7 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		smart URI fetching/caching
 

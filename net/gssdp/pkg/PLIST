@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gssdp/pkg/PLIST,v 1.2 2011/08/30 07:56:18 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/gssdp-device-sniffer
 include/gssdp-1.0/

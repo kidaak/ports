@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Tree/Makefile,v 1.24 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl parser that builds an HTML tree
 

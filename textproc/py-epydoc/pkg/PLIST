@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-epydoc/pkg/PLIST,v 1.1.1.1 2008/06/14 21:54:12 eric Exp $
+@comment $OpenBSD$
 bin/apirst2html.py
 bin/epydoc
 bin/epydocgui

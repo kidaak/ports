@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/frodo/patches/patch-Src_SID_cpp,v 1.2 2010/06/30 22:25:57 jakemsr Exp $
+$OpenBSD$
 --- Src/SID.cpp.orig	Wed Jan  2 13:18:59 2002
 +++ Src/SID.cpp	Thu Jan 14 09:16:38 2010
 @@ -64,6 +64,9 @@ class DigitalPlayer;

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/tcltls/pkg/PLIST,v 1.2 2011/01/05 18:04:58 sebastia Exp $
+@comment $OpenBSD$
 include/tcltls/
 include/tcltls/tls.h
 lib/tcl/tls/

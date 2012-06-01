@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nmap/patches/patch-configure,v 1.13 2011/03/28 09:01:24 giovanni Exp $
+$OpenBSD$
 --- configure.orig	Wed Feb  2 16:27:11 2011
 +++ configure	Wed Feb  2 16:27:25 2011
 @@ -6115,6 +6115,7 @@ else

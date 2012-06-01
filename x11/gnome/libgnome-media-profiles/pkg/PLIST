@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgnome-media-profiles/pkg/PLIST,v 1.2 2011/09/12 08:02:52 jasper Exp $
+@comment $OpenBSD$
 @conflict gnome-media-<=2.32.0
 %%SHARED%%
 @bin bin/gnome-audio-profiles-properties

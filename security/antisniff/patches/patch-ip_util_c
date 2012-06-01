@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/antisniff/patches/patch-ip_util_c,v 1.2 2005/04/03 19:32:29 naddy Exp $
+$OpenBSD$
 --- ip_util.c.orig	Wed Oct  1 21:51:42 1997
 +++ ip_util.c	Sun Apr  3 21:23:31 2005
 @@ -3,7 +3,6 @@

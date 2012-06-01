@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-libf2c_Makefile_in,v 1.1 2006/01/08 21:35:09 espie Exp $
+$OpenBSD$
 --- libf2c/Makefile.in.orig	Sun Jan  8 19:27:21 2006
 +++ libf2c/Makefile.in	Sun Jan  8 20:30:22 2006
 @@ -150,9 +150,10 @@ i77 f77 u77: g2c.h

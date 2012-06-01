@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/rtmpdump/Makefile,v 1.22 2012/01/16 22:33:54 sthen Exp $
+# $OpenBSD$
 
 SHARED_LIBS =		rtmp 0.0
 

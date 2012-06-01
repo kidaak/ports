@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/nspr/patches/patch-mozilla_nsprpub_pr_tests_runtests_sh,v 1.2 2009/08/04 13:56:09 martynas Exp $
+$OpenBSD$
 --- mozilla/nsprpub/pr/tests/runtests.sh.orig	Sun May 10 00:30:55 2009
 +++ mozilla/nsprpub/pr/tests/runtests.sh	Sat Jun 20 23:38:30 2009
 @@ -90,11 +90,10 @@ fi

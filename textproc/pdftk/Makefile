@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/pdftk/Makefile,v 1.4 2011/11/17 18:03:43 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	pdf swiss army knife
 VERSION=	1.44

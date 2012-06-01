@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/qlandkartegt/pkg/PLIST,v 1.3 2011/12/22 17:49:06 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/map2gcm
 @bin bin/qlandkartegt
 @man man/man1/qlandkartegt.1

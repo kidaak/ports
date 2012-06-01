@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/merkaartor/patches/patch-src_Tools_RegionMapWidget_cpp,v 1.2 2010/06/13 10:57:35 landry Exp $
+$OpenBSD$
 Confuses g++3
 --- src/Tools/RegionMapWidget.cpp.orig	Sun Jun  6 16:41:25 2010
 +++ src/Tools/RegionMapWidget.cpp	Sat Jun 12 16:49:28 2010

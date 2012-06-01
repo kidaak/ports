@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openvpn/patches/patch-options_c,v 1.4 2012/01/12 08:15:30 sthen Exp $
+$OpenBSD$
 --- options.c.orig	Fri Jun 24 07:13:39 2011
 +++ options.c	Fri Jul  8 14:30:59 2011
 @@ -265,6 +265,7 @@ static const char usage_message[] =

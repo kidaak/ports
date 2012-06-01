@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/tiff/patches/patch-libtiff_tif_getimage_c,v 1.7 2012/04/14 15:09:55 naddy Exp $
+$OpenBSD$
 
 1. sprintf()
 This one is slightly problematic.  If an application allocates less

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-werkzeug/Makefile,v 1.10 2011/12/31 15:06:41 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =		WSGI utility collection
 

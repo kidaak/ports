@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/www/p5-HTML-TableContentParser/pkg/PLIST,v 1.2 2004/09/15 18:49:51 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTML/TableContentParser.pm
 @man man/man3p/HTML::TableContentParser.3p

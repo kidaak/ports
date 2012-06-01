@@ -1,9 +1,8 @@
-# $OpenBSD: ports/www/drupal6/faq/Makefile,v 1.5 2012/01/28 11:33:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	module to create question and answer pairs
 
-DISTNAME = 	faq-6.x-1.12
-PKGNAME =	drupal6-faq-1.12
-REVISION =	2
+DISTNAME = 	faq-6.x-1.13
+PKGNAME =	drupal6-faq-1.13
 
 .include <bsd.port.mk>

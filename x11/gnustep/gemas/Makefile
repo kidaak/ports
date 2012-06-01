@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/gemas/Makefile,v 1.4 2012/04/09 17:54:57 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	simple code editor for GNUstep
 

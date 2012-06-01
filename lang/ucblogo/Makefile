@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ucblogo/Makefile,v 1.11 2012/02/21 22:19:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	berkeley's implementation of the logo programming language
 DISTNAME=	ucblogo-5.5

@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/emerillon/patches/patch-emerillon_Makefile_in,v 1.1 2010/09/30 07:33:38 jasper Exp $
+$OpenBSD$
 
 Fix for champlain 0.8.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/Wnn/patches/patch-Wnn_jserver_b_index_c,v 1.1 2000/04/16 21:53:31 espie Exp $
+$OpenBSD$
 --- Wnn/jserver/b_index.c.orig	Tue Jun 28 04:06:49 1994
 +++ Wnn/jserver/b_index.c	Thu Apr 13 20:41:39 2000
 @@ -99,8 +99,8 @@ struct JT  *jt;

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/radmind/Makefile,v 1.15 2011/05/11 07:45:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	remote administration software
 

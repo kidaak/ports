@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/games/alephone/scenarios/marathon/Makefile,v 1.7 2012/01/27 21:35:24 phessler Exp $
+#	$OpenBSD$
 PKG_ARCH =	*
 
 COMMENT =	marathon one data files

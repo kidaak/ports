@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/cqcam/Makefile,v 1.20 2010/11/17 08:05:13 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS= i386
 

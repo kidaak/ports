@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/gns3/pkg/PLIST,v 1.5 2011/03/03 16:29:29 sthen Exp $
+@comment $OpenBSD$
 bin/gns3
 lib/python${MODPY_VERSION}/site-packages/GNS3/
 lib/python${MODPY_VERSION}/site-packages/GNS3-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

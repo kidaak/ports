@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/kismet/patches/patch-conf_kismet_drone_conf,v 1.1.1.1 2005/07/27 21:37:26 robert Exp $
+$OpenBSD$
 --- conf/kismet_drone.conf.orig	Wed Jun 22 06:22:13 2005
 +++ conf/kismet_drone.conf	Sun Jun 26 22:04:56 2005
 @@ -6,7 +6,7 @@ version=Feb.04.01a

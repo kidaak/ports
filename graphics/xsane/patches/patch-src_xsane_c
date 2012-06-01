@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/xsane/patches/patch-src_xsane_c,v 1.2 2009/08/14 18:49:55 ajacoutot Exp $
+$OpenBSD$
 
 Close unneeded file descriptors.
 

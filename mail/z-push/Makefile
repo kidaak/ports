@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/z-push/Makefile,v 1.19 2012/03/15 13:35:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	ActiveSync protocol implementation	
 

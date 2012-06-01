@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/pim/patches/patch-kresources_groupwise_soap_stdsoap2_h,v 1.1 2010/06/20 20:29:10 espie Exp $
+$OpenBSD$
 --- kresources/groupwise/soap/stdsoap2.h.orig	Sun Jun 20 19:29:08 2010
 +++ kresources/groupwise/soap/stdsoap2.h	Sun Jun 20 19:59:38 2010
 @@ -251,7 +251,7 @@ A commercial use license is available from Genivia, In

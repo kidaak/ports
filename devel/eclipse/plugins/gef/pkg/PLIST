@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/plugins/gef/pkg/PLIST,v 1.4 2007/05/18 02:32:12 kurt Exp $
+@comment $OpenBSD$
 eclipse/features/org.eclipse.gef.sdk_3.2.2.v20070208/
 eclipse/features/org.eclipse.gef.sdk_3.2.2.v20070208/eclipse_update_120.jpg
 eclipse/features/org.eclipse.gef.sdk_3.2.2.v20070208/epl-v10.html

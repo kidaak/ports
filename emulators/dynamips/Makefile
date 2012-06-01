@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/dynamips/Makefile,v 1.8 2012/03/16 23:39:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		cisco 3600/7200 platform emulator
 

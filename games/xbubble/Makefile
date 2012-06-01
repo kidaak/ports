@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xbubble/Makefile,v 1.12 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	x bust a move clone
 

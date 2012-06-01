@@ -1,7 +1,7 @@
-# $OpenBSD: ports/devel/tig/Makefile,v 1.8 2011/09/26 09:17:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		ncurses GIT repository browser
-DISTNAME =		tig-0.18
+DISTNAME =		tig-1.0
 CATEGORIES =		devel
 HOMEPAGE =		http://jonas.nitro.dk/tig/
 MAINTAINER =		Tobias Ulmer <tobiasu@tmux.org>

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/sympa/Makefile,v 1.20 2012/03/07 09:45:16 landry Exp $
+# $OpenBSD$
 
 COMMENT =	mailing list manager with web interface
 

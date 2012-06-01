@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-src_corelib_arch_qatomic_i386_h,v 1.1 2010/05/23 10:36:49 espie Exp $
+$OpenBSD$
 --- src/corelib/arch/qatomic_i386.h.orig	Mon May 17 22:14:00 2010
 +++ src/corelib/arch/qatomic_i386.h	Mon May 17 22:16:45 2010
 @@ -107,7 +107,52 @@ template <typename T>

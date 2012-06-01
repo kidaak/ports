@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/k3b/pkg/PLIST,v 1.5 2011/12/03 18:35:11 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/k3b
 bin/k3bsetup
 include/k3b_export.h

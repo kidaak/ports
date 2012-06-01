@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/aria2/pkg/PLIST,v 1.5 2011/07/02 12:29:12 rpointel Exp $
+@comment $OpenBSD$
 @bin bin/aria2c
 @man man/man1/aria2c.1
 man/ru/

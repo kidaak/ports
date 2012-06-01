@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-common-sense/Makefile,v 1.6 2011/04/08 08:35:37 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	perl common defaults with lower memory usage
 

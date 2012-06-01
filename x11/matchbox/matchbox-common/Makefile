@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/matchbox-common/Makefile,v 1.8 2010/11/22 08:37:03 espie Exp $
+# $OpenBSD$
 
 COMMENT=	matchbox shared icons and configuration data
 DISTNAME=	matchbox-common-0.9.1

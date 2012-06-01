@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_extensions_auth_nsAuthGSSAPI_cpp,v 1.3 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/extensions/auth/nsAuthGSSAPI.cpp.orig	Wed Mar 17 18:05:38 2010
 +++ mozilla/extensions/auth/nsAuthGSSAPI.cpp	Tue Mar 30 21:28:29 2010
 @@ -159,9 +159,8 @@ gssInit()

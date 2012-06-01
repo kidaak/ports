@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_dav/Makefile,v 1.21 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	class 1 and 2 DAV server for the Apache webserver
 

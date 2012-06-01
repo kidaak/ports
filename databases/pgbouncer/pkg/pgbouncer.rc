@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/databases/pgbouncer/pkg/pgbouncer.rc,v 1.3 2011/12/17 22:01:12 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/pgbouncer -d"
 daemon_flags="-q -u _pgbouncer ${SYSCONFDIR}/pgbouncer/pgbouncer.ini"

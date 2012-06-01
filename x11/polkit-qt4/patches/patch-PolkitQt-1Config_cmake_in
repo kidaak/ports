@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/polkit-qt4/patches/patch-PolkitQt-1Config_cmake_in,v 1.1 2011/10/04 06:07:46 ajacoutot Exp $
+$OpenBSD$
 --- PolkitQt-1Config.cmake.in.orig	Tue Oct  4 05:42:32 2011
 +++ PolkitQt-1Config.cmake.in	Tue Oct  4 05:44:47 2011
 @@ -33,9 +33,9 @@ elseif(APPLE)

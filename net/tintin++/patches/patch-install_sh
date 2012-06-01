@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tintin++/patches/patch-install_sh,v 1.1 2007/10/26 22:10:06 ajacoutot Exp $
+$OpenBSD$
 --- install.sh.orig	Fri Sep  9 03:43:26 1994
 +++ install.sh	Sat Oct 27 00:05:07 2007
 @@ -5,12 +5,11 @@

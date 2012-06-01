@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/sh-utils/patches/patch-src_sys2_h,v 1.1 2010/05/22 13:26:59 espie Exp $
+$OpenBSD$
 --- src/sys2.h.orig	Sat May 22 15:23:31 2010
 +++ src/sys2.h	Sat May 22 15:24:44 2010
 @@ -131,34 +131,13 @@ char *alloca ();

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Singleton/pkg/PLIST,v 1.1.1.1 2006/04/18 18:48:33 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/
 ${P5SITE}/Class/Singleton.pm
 @man man/man3p/Class::Singleton.3p

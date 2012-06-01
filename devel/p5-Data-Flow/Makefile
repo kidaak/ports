@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Flow/Makefile,v 1.12 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	extension for simple-minded recipe-controlled build of data
 

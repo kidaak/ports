@@ -1,8 +1,8 @@
-# $OpenBSD: ports/net/sslh/Makefile,v 1.2 2012/04/13 14:21:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	ssl/ssh multiplexer
 
-VERSION =	1.10
+VERSION =	1.11
 DISTNAME =	sslh-${VERSION}
 CATEGORIES =	security net
 REVISION =	0

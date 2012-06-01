@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xdotool/Makefile,v 1.9 2011/09/23 07:24:04 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	fake keyboard and mouse input
 

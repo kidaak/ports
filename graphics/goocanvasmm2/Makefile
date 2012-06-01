@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/goocanvasmm2/Makefile,v 1.4 2011/10/27 07:38:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		C++ wrappers for GooCanvas
 

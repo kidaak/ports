@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/libbluray/pkg/PLIST,v 1.1.1.1 2012/03/30 13:16:33 phessler Exp $
+@comment $OpenBSD$
 include/libbluray/
 include/libbluray/bluray-version.h
 include/libbluray/bluray.h

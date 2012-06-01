@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qgis/patches/patch-debian_qgis_desktop,v 1.2 2010/01/11 20:13:31 landry Exp $
+$OpenBSD$
 --- debian/qgis.desktop.orig	Sat Dec 19 17:36:54 2009
 +++ debian/qgis.desktop	Mon Jan 11 16:39:31 2010
 @@ -5,8 +5,8 @@ Version=1.0

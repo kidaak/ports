@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/codeblocks/patches/patch-src_plugins_compilergcc_compilergcc_cpp,v 1.2 2010/06/03 16:09:03 ajacoutot Exp $
+$OpenBSD$
 
 Don't look for cb_console_runner in WRKINST, always assume it is there and
 installed under PREFIX.

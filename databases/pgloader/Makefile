@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pgloader/Makefile,v 1.10 2011/09/16 08:48:03 espie Exp $
+# $OpenBSD$
 
 COMMENT=	import CSV data and Large Object to PostgreSQL
 

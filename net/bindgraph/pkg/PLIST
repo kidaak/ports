@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/bindgraph/pkg/PLIST,v 1.1.1.1 2010/10/25 12:42:24 pea Exp $
+@comment $OpenBSD$
 bin/bindgraph
 lib/bindgraph/
 lib/bindgraph/bindgraph.cgi

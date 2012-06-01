@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/hylafax/patches/patch-etc_faxsetup_sh_in,v 1.2 2011/05/24 16:24:35 giovanni Exp $
+$OpenBSD$
 --- etc/faxsetup.sh.in.orig	Wed Sep 15 16:42:36 2010
 +++ etc/faxsetup.sh.in	Wed Apr 20 15:12:06 2011
 @@ -45,7 +45,7 @@ PATH=/bin:/usr/bin:/etc

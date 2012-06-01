@@ -1,5 +1,5 @@
 #! /usr/bin/perl
-# $OpenBSD: ports/infrastructure/bin/make-plist,v 1.4 2011/06/22 12:55:26 espie Exp $
+# $OpenBSD$
 # Copyright (c) 2004-2008 Marc Espie <espie@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

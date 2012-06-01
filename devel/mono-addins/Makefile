@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mono-addins/Makefile,v 1.9 2011/11/03 10:06:44 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	framework for creating extensible applications
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/swfmill/patches/patch-src_xslt_xslt_h,v 1.1.1.1 2011/08/23 19:52:30 kili Exp $
+$OpenBSD$
 --- src/xslt/xslt.h.orig	Tue Jul  5 14:22:35 2011
 +++ src/xslt/xslt.h	Tue Jul  5 14:21:30 2011
 @@ -0,0 +1,7 @@

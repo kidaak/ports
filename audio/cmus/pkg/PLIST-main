@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/cmus/pkg/PLIST-main,v 1.1.1.1 2011/09/06 07:10:56 landry Exp $
+@comment $OpenBSD$
 @bin bin/cmus
 @bin bin/cmus-remote
 lib/cmus/

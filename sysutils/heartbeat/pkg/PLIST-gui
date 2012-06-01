@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/heartbeat/pkg/PLIST-gui,v 1.1.1.1 2007/11/21 18:48:41 ajacoutot Exp $
+@comment $OpenBSD$
 bin/hb_gui
 lib/heartbeat-gui/
 lib/heartbeat-gui/_pymgmt.la

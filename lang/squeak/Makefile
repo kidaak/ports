@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/squeak/Makefile,v 1.11 2010/02/01 17:00:13 espie Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += vm

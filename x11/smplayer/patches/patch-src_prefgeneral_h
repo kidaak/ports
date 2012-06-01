@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/smplayer/patches/patch-src_prefgeneral_h,v 1.1.1.1 2009/10/18 22:24:45 edd Exp $
+$OpenBSD$
 --- src/prefgeneral.h.orig	Sun Jul  5 12:59:57 2009
 +++ src/prefgeneral.h	Sun Jul  5 13:00:10 2009
 @@ -24,6 +24,7 @@

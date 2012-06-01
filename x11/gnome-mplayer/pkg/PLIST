@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome-mplayer/pkg/PLIST,v 1.13 2012/03/26 14:41:16 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/gnome-mplayer
 @man man/man1/gnome-mplayer.1
 share/applications/gnome-mplayer.desktop

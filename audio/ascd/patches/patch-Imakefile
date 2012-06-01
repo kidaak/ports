@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ascd/patches/patch-Imakefile,v 1.2 2005/09/05 11:20:53 espie Exp $
+$OpenBSD$
 --- Imakefile.orig	Sun Sep  5 01:24:23 1999
 +++ Imakefile	Mon Sep  5 13:19:15 2005
 @@ -3,13 +3,10 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/tcllib/files/mkindex.tcl,v 1.2 2012/03/09 14:15:32 stu Exp $
+# $OpenBSD$
 
 # Generate 'index' manpage
 # Stuart Cassoff

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libtasn1/Makefile,v 1.15 2012/03/20 14:01:14 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		Abstract Syntax Notation One structure parser library
 

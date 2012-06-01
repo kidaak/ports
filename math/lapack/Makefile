@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/lapack/Makefile,v 1.20 2011/11/18 11:16:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library of Fortran 77 linear algebra subroutines
 

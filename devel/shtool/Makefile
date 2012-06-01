@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/shtool/Makefile,v 1.32 2010/10/18 17:48:13 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.3 1999/04/29 15:32:56 rse Exp $
 
 COMMENT=	GNU Portable Shell Tool

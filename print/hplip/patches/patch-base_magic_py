@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-base_magic_py,v 1.1 2009/07/13 08:14:28 ajacoutot Exp $
+$OpenBSD$
 --- base/magic.py.orig	Thu Jul  2 18:39:01 2009
 +++ base/magic.py	Thu Jul  2 18:40:12 2009
 @@ -255,10 +255,9 @@ magic = [

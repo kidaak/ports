@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Restructured/Makefile,v 1.5 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	implementation of reStructuredText parser
 

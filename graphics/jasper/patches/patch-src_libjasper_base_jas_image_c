@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_base_jas_image_c,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/base/jas_image.c.orig	Fri May 16 21:00:25 2008
 +++ src/libjasper/base/jas_image.c	Fri May 16 21:33:27 2008
 @@ -142,7 +142,7 @@ jas_image_t *jas_image_create(int numcmpts, jas_image_

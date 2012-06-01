@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/jvim/patches/patch-src_jp_c,v 1.1 2010/05/19 14:25:44 espie Exp $
+$OpenBSD$
 --- src/jp.c.orig	Wed May 19 16:23:48 2010
 +++ src/jp.c	Wed May 19 16:24:35 2010
 @@ -19,6 +19,7 @@

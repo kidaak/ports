@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/flac/Makefile,v 1.38 2012/01/03 07:03:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	free lossless audio codec
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/maven/Makefile,v 1.15 2011/10/07 13:54:31 kurt Exp $
+# $OpenBSD$
 
 COMMENT=	software project management and comprehension tool
 

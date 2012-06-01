@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/wmcube/pkg/PLIST,v 1.4 2004/09/18 13:11:38 espie Exp $
+@comment $OpenBSD$
 @conflict wmcube-gdk-*
 bin/wmcube
 share/wmcube/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/vfs2/patches/patch-modules_file-method_c,v 1.2 2009/10/09 17:39:38 ajacoutot Exp $
+$OpenBSD$
 --- modules/file-method.c.orig	Mon May 25 10:37:05 2009
 +++ modules/file-method.c	Thu Oct  8 17:05:14 2009
 @@ -2378,7 +2378,18 @@ do_set_file_info (GnomeVFSMethod *method,

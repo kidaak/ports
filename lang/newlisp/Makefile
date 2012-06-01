@@ -1,4 +1,4 @@
-#       $OpenBSD: ports/lang/newlisp/Makefile,v 1.4 2012/03/29 13:38:40 sthen Exp $
+#       $OpenBSD$
 # Makefile prepared Sat Feb 13 11:r7:14 PST 2010 by Ted Walther <ted@reactor-core.org>
 
 COMMENT=	newLISP is a LISP like, general purpose scripting language

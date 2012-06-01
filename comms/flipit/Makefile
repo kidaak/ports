@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/flipit/Makefile,v 1.11 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	x10 firecracker utility
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/id3ed/Makefile,v 1.16 2010/11/15 00:22:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=		interactive console id3 tag editor
 

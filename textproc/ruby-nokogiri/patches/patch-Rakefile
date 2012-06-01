@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-nokogiri/patches/patch-Rakefile,v 1.1 2011/07/27 18:17:09 jeremy Exp $
+$OpenBSD$
 
 Allow regress tests to work.
 

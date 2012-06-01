@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ircd-hybrid/patches/patch-src_ircd_c,v 1.2 2011/10/19 13:46:17 jasper Exp $
+$OpenBSD$
 --- src/ircd.c.orig	Thu Aug 18 12:21:47 2011
 +++ src/ircd.c	Fri Oct 14 16:13:29 2011
 @@ -144,7 +144,6 @@ make_daemon(void)

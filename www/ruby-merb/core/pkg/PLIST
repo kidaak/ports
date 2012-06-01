@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ruby-merb/core/pkg/PLIST,v 1.8 2010/12/08 22:13:24 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/merb${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

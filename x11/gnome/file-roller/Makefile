@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/file-roller/Makefile,v 1.67 2012/03/29 07:02:52 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 
@@ -6,7 +6,7 @@ COMMENT-main=		archive manager utility for GNOME
 COMMENT-nautilus=	file-roller plugin for nautilus
 
 GNOME_PROJECT=		file-roller
-GNOME_VERSION=		3.4.0
+GNOME_VERSION=		3.4.2
 
 PKGNAME-main=		${DISTNAME}
 PKGNAME-nautilus=	nautilus-${DISTNAME}

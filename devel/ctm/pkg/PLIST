@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ctm/pkg/PLIST,v 1.4 2011/06/23 22:50:27 naddy Exp $
+@comment $OpenBSD$
 @bin bin/ctm
 @bin bin/ctm_rmail
 @man man/man1/ctm.1

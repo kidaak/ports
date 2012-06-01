@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-Socket/Makefile,v 1.14 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	network socket interface support for PHP
 

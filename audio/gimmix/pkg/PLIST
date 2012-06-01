@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/gimmix/pkg/PLIST,v 1.4 2010/06/10 20:56:35 landry Exp $
+@comment $OpenBSD$
 @bin bin/gimmix
 @man man/man1/gimmix.1
 share/applications/gimmix.desktop

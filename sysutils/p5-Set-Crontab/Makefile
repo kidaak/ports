@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Set-Crontab/Makefile,v 1.4 2011/06/01 17:05:02 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	expand crontab(5)-style integer lists
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-SOAPpy/pkg/PLIST,v 1.1.1.1 2005/11/12 00:57:13 djm Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/SOAPpy/
 lib/python${MODPY_VERSION}/site-packages/SOAPpy/Client.py
 lib/python${MODPY_VERSION}/site-packages/SOAPpy/Client.pyc

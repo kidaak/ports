@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/nessus/libnasl/Makefile,v 1.17 2011/05/11 08:24:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Nessus Attack Scripting Language
 DISTNAME=	libnasl-${V}

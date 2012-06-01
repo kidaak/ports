@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/imap-uw/pkg/PLIST-server,v 1.9 2010/11/06 08:14:37 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict courier-imap-*
 @conflict courier-pop3-*
 @pkgpath ${BASE_PKGPATH}

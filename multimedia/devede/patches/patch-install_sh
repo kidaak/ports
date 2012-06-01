@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/devede/patches/patch-install_sh,v 1.6 2011/12/09 07:25:58 ajacoutot Exp $
+$OpenBSD$
 --- install.sh.orig	Thu Dec  8 17:06:44 2011
 +++ install.sh	Fri Dec  9 07:56:42 2011
 @@ -58,7 +58,7 @@ install_others()	# arg1=bindir, arg2=datadir, arg3=pkg

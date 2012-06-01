@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Font-TTF/Makefile,v 1.24 2011/05/24 20:52:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for TrueType font hacking
 

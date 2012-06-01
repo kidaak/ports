@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/openct/pkg/PLIST,v 1.4 2011/05/11 08:24:41 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _openct:614
 @newuser _openct:614:_openct:daemon:OpenCT:/nonexistent:/sbin/nologin
 @extraunexec rm -rf /var/run/openct/*

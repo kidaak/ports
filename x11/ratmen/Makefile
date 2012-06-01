@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/ratmen/Makefile,v 1.9 2011/04/01 16:46:33 jasper Exp $
+# $OpenBSD$
 
 DISTNAME=	ratmen-2.2.3
 CATEGORIES=	x11

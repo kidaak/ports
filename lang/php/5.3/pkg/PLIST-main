@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/php/5.3/pkg/PLIST-main,v 1.7 2012/01/13 17:59:08 sthen Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict php->=5.3,<5.4
 @conflict php5-core->=5.2

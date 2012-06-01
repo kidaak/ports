@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-C-Scan/Makefile,v 1.16 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to scan C language files
 

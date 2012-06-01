@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mycalendar/patches/patch-sitevariables_pl,v 1.1 2006/04/11 05:49:38 kevlo Exp $
+$OpenBSD$
 --- sitevariables.pl.orig	Tue Apr 11 13:19:02 2006
 +++ sitevariables.pl	Tue Apr 11 13:20:04 2006
 @@ -40,9 +40,9 @@

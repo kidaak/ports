@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/obexftp/Makefile,v 1.12 2010/11/15 00:22:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=		file copying over the OBEX protocol
 DISTNAME=		obexftp-0.10.4

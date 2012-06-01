@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mysqlcc/patches/patch-src_CHotKeyEditorDialog_cpp,v 1.2 2008/09/08 07:48:43 wilfried Exp $
+$OpenBSD$
 --- src/CHotKeyEditorDialog.cpp.orig	Fri Aug 11 22:29:13 2006
 +++ src/CHotKeyEditorDialog.cpp	Thu Aug 21 13:27:40 2008
 @@ -91,6 +91,7 @@ This class takes care of displaying the hotkey menu an

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/photoshow/patches/patch-config_php,v 1.1 2012/01/24 09:28:39 ajacoutot Exp $
+$OpenBSD$
 --- config.php.orig	Tue Jan 24 10:23:49 2012
 +++ config.php	Tue Jan 24 10:24:35 2012
 @@ -31,11 +31,11 @@

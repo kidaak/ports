@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Z3950-Zoom/pkg/PLIST,v 1.2 2008/10/08 16:56:50 jasper Exp $
+@comment $OpenBSD$
 bin/zoomdump
 bin/zselect
 ${P5ARCH}/

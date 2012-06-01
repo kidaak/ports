@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/s10sh/patches/patch-bytesex_h,v 1.1 2004/03/03 09:01:29 pvalchev Exp $
+$OpenBSD$
 --- bytesex.h.orig	2001-03-13 06:46:18.000000000 -0700
 +++ bytesex.h	2004-03-03 01:56:33.000000000 -0700
 @@ -4,6 +4,7 @@

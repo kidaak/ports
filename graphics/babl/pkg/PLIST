@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/babl/pkg/PLIST,v 1.6 2011/12/10 09:12:19 ajacoutot Exp $
+@comment $OpenBSD$
 include/babl-0.1/
 include/babl-0.1/babl/
 include/babl-0.1/babl/babl-macros.h

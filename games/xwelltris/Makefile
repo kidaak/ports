@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xwelltris/Makefile,v 1.12 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	2.5 dimensional tetris-like game
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/kinput2/patches/patch-lib_XimpProto_c,v 1.1.1.1 2000/04/26 00:43:13 espie Exp $
+$OpenBSD$
 --- lib/XimpProto.c.orig	Thu May 27 01:55:25 1999
 +++ lib/XimpProto.c	Wed Apr 26 02:18:48 2000
 @@ -387,9 +387,9 @@ XimpProtocolWidget xpw;

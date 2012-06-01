@@ -1,4 +1,4 @@
-$OpenBSD: ports/palm/pose/patches/patch-SrcUnix_espws-2_0_FileBrowser_cxx,v 1.2 2007/04/01 17:50:25 martynas Exp $
+$OpenBSD$
 --- SrcUnix/espws-2.0/FileBrowser.cxx.orig	Fri Mar 29 15:11:11 2002
 +++ SrcUnix/espws-2.0/FileBrowser.cxx	Sun Apr  1 17:53:43 2007
 @@ -467,7 +467,7 @@ FileBrowser::load(const char *directory)// I - Directo

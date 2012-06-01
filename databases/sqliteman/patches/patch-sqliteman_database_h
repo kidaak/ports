@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/sqliteman/patches/patch-sqliteman_database_h,v 1.1 2010/10/28 08:56:08 espie Exp $
+$OpenBSD$
 --- sqliteman/database.h.orig	Thu Oct 28 09:47:21 2010
 +++ sqliteman/database.h	Thu Oct 28 09:51:12 2010
 @@ -67,7 +67,7 @@ class Database

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/smsmail/pkg/PLIST,v 1.2 2011/06/23 22:50:27 naddy Exp $
+@comment $OpenBSD$
 @bin bin/smsmail
 @man man/man1/smsmail.1
 @man man/man5/smsmail.conf.5

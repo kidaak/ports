@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mysql/patches/patch-mysql-test_Makefile_in,v 1.26 2011/09/05 07:11:23 giovanni Exp $
+$OpenBSD$
 --- mysql-test/Makefile.in.orig	Tue Apr 12 14:14:51 2011
 +++ mysql-test/Makefile.in	Thu Jun 30 10:57:33 2011
 @@ -399,7 +399,7 @@ yassl_libs = @yassl_libs@

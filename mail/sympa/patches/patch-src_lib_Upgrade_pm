@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/sympa/patches/patch-src_lib_Upgrade_pm,v 1.1 2010/12/30 17:51:25 landry Exp $
+$OpenBSD$
 https://sourcesup.cru.fr/tracker/index.php?func=detail&aid=7372&group_id=23&atid=167
 --- src/lib/Upgrade.pm.orig	Mon Dec 20 17:56:18 2010
 +++ src/lib/Upgrade.pm	Mon Dec 20 17:53:25 2010

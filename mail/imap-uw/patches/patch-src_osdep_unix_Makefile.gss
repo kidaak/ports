@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/imap-uw/patches/patch-src_osdep_unix_Makefile.gss,v 1.8 2010/10/23 19:39:46 jsg Exp $
+$OpenBSD$
 
 --- src/osdep/unix/Makefile.gss.orig	Wed Jun  4 20:18:34 2008
 +++ src/osdep/unix/Makefile.gss	Sat Oct 16 14:17:18 2010

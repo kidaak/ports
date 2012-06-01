@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/catdoc/Makefile,v 1.29 2011/11/17 14:42:01 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	MS Word, Excel, Powerpoint ==> ASCII or TeX
 

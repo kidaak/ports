@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/spambayes/pkg/PLIST,v 1.1.1.1 2007/07/18 10:08:27 jasper Exp $
+@comment $OpenBSD$
 bin/core_server.py
 bin/sb_bnfilter.py
 bin/sb_bnserver.py

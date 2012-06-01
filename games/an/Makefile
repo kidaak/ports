@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/an/Makefile,v 1.16 2010/10/18 18:00:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=	fast anagram generator
 
@@ -6,8 +6,7 @@ V=		0.95
 DISTNAME=	an_${V}.orig
 PKGNAME=	an-${V}
 CATEGORIES=	games
-MASTER_SITES=	ftp://ftp.fr.debian.org/debian/pool/main/a/an/ \
-		ftp://ftp.debian.org/debian/pool/main/a/an/
+MASTER_SITES=	${MASTER_SITE_DEBIAN:=main/a/an/}
 
 # GPL - LGPL
 PERMIT_PACKAGE_CDROM=	Yes

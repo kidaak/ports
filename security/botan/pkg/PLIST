@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/botan/pkg/PLIST,v 1.2 2011/11/26 10:55:17 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 %%amd64%%
 bin/botan-config-1.10

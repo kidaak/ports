@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/intel2gas/Makefile,v 1.6 2007/09/16 00:27:05 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	convert Intel assembly language (nasm) to AT&T syntax (gas)
 

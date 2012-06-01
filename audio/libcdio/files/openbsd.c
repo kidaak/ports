@@ -1,4 +1,4 @@
-/*	$OpenBSD: ports/audio/libcdio/files/openbsd.c,v 1.3 2008/05/01 09:05:12 fgsch Exp $	*/
+/*	$OpenBSD$	*/
 /*	$NetBSD: _cdio_netbsd.c,v 1.4 2005/05/31 17:05:36 drochner Exp $	*/
 
 /*

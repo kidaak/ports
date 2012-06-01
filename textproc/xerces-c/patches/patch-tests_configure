@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xerces-c/patches/patch-tests_configure,v 1.1.1.1 2008/10/26 23:15:18 ajacoutot Exp $
+$OpenBSD$
 --- tests/configure.orig	Sun Oct 26 19:58:34 2008
 +++ tests/configure	Sun Oct 26 19:58:47 2008
 @@ -4236,6 +4236,7 @@ case "${host}" in

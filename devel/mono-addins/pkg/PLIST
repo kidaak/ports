@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mono-addins/pkg/PLIST,v 1.4 2011/11/03 10:06:44 ajacoutot Exp $
+@comment $OpenBSD$
 bin/mautil
 lib/mono/gac/Mono.Addins/
 lib/mono/gac/Mono.Addins.CecilReflector/

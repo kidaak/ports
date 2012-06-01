@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-gui_simple-chooser_gdm-host-chooser_c,v 1.1 2011/10/07 14:04:18 ajacoutot Exp $
+$OpenBSD$
 --- gui/simple-chooser/gdm-host-chooser.c.orig	Fri Oct  7 14:45:11 2011
 +++ gui/simple-chooser/gdm-host-chooser.c	Fri Oct  7 14:45:24 2011
 @@ -54,7 +54,7 @@ assistive_registry_launch (void)

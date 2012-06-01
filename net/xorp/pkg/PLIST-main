@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/xorp/pkg/PLIST-main,v 1.3 2009/01/15 10:14:19 sthen Exp $
+@comment $OpenBSD$
 @pkgpath net/xorp
 share/examples/xorp/
 share/examples/xorp/README

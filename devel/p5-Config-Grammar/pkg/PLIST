@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Config-Grammar/pkg/PLIST,v 1.2 2007/11/19 18:57:10 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Config/
 ${P5SITE}/Config/Grammar/
 ${P5SITE}/Config/Grammar.pm

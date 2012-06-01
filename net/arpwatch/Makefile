@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/arpwatch/Makefile,v 1.25 2011/03/14 20:42:11 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	monitor arp & rarp requests
 

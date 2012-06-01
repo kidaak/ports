@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/guilib/patches/patch-Makefile_in,v 1.4 2011/01/03 19:56:33 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Jan  3 20:54:10 2011
 +++ Makefile.in	Mon Jan  3 20:54:34 2011
 @@ -290,7 +290,6 @@ EXTRA_DIST = \

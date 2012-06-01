@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/snack/patches/patch-generic_jkFormatMP3_c,v 1.1.1.1 2011/03/12 08:53:52 sebastia Exp $
+$OpenBSD$
 
 fix building without the patch, build stops with: 
 /usr//include/math.h:321: error: expected declaration specifiers or '...' before '(' token

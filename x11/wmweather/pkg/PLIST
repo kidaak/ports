@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/wmweather/pkg/PLIST,v 1.6 2007/02/04 12:27:34 wilfried Exp $
+@comment $OpenBSD$
 bin/wmWeather
 bin/wmweather
 @man man/man1/wmWeather.1

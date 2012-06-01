@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-speech_tools_lib_siod_init_scm,v 1.1 2010/04/26 01:32:38 jakemsr Exp $
+$OpenBSD$
 --- speech_tools/lib/siod/init.scm.orig	Sat Apr 24 18:23:13 2010
 +++ speech_tools/lib/siod/init.scm	Sat Apr 24 18:33:03 2010
 @@ -76,8 +76,10 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/autogen/pkg/PLIST,v 1.4 2009/10/11 18:49:57 kili Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/autogen
 bin/autoopts-config

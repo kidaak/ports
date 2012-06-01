@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-libraries_integer-simple_integer-simple_cabal,v 1.1 2011/08/21 21:38:04 kili Exp $
+$OpenBSD$
 
 Only used for building a bootstrapper; the real package uses
 integer-gmp.

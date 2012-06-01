@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/tree/patches/patch-tree_c,v 1.1 2010/09/21 19:17:31 stsp Exp $
+$OpenBSD$
 --- tree.c.orig	Wed Jun 21 20:47:54 2006
 +++ tree.c	Mon Sep 20 19:59:40 2010
 @@ -139,7 +139,7 @@ format_entry(FTSENT *entry)

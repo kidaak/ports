@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Drupal-Admin/pkg/PLIST,v 1.1.1.1 2009/11/30 13:26:07 stephan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Drupal/
 ${P5SITE}/Drupal/Admin/
 ${P5SITE}/Drupal/Admin.pm

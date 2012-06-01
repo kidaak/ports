@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/osbf-lua/patches/patch-losbflib_c,v 1.1.1.1 2007/03/17 21:37:08 jolan Exp $
+$OpenBSD$
 --- losbflib.c.orig	Sun Jan 14 19:57:19 2007
 +++ losbflib.c	Tue Mar  6 21:44:40 2007
 @@ -13,6 +13,8 @@

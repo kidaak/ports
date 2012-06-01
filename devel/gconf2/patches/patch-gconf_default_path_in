@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gconf2/patches/patch-gconf_default_path_in,v 1.7 2011/04/04 13:14:45 ajacoutot Exp $
+$OpenBSD$
 --- gconf/default.path.in.orig	Mon Apr  4 13:52:07 2011
 +++ gconf/default.path.in	Mon Apr  4 14:56:36 2011
 @@ -6,12 +6,12 @@

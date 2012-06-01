@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Catalyst-Helper-Controller-Scaffold/pkg/PLIST,v 1.1.1.1 2006/11/06 12:35:31 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/
 ${P5SITE}/Catalyst/Helper/
 ${P5SITE}/Catalyst/Helper/Controller/

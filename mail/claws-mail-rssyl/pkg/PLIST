@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/claws-mail-rssyl/pkg/PLIST,v 1.6 2012/01/23 18:57:33 landry Exp $
+@comment $OpenBSD$
 @comment lib/claws-mail/plugins/rssyl.la
 lib/claws-mail/plugins/rssyl.so
 share/locale/ca/LC_MESSAGES/rssyl.mo

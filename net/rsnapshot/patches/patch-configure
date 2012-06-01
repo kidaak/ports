@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rsnapshot/patches/patch-configure,v 1.2 2006/08/01 12:32:36 alek Exp $
+$OpenBSD$
 --- configure.orig	Fri Jul 14 18:19:33 2006
 +++ configure	Fri Jul 14 18:22:58 2006
 @@ -3295,58 +3295,3 @@ if test "$no_create" != yes; then

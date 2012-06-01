@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/gle/patches/patch-man_Makefile_in,v 1.1.1.1 2001/06/20 18:57:28 lebel Exp $
+$OpenBSD$
 --- man/Makefile.in.orig	Wed Jun 13 15:13:03 2001
 +++ man/Makefile.in	Wed Jun 20 14:15:13 2001
 @@ -70,15 +70,15 @@ PACKAGE = @PACKAGE@

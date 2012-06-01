@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Mason-PSGIHandler/Makefile,v 1.1.1.1 2011/06/14 12:08:28 robert Exp $
+# $OpenBSD$
 
 COMMENT=	PSGI handler for HTML::Mason
 

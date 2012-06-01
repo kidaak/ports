@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/igmpproxy/patches/patch-request_c,v 1.1.1.1 2008/02/08 19:30:52 sthen Exp $
+$OpenBSD$
 --- request.c.orig	Tue May 24 16:48:29 2005
 +++ request.c	Mon Nov 19 12:56:50 2007
 @@ -88,7 +88,7 @@ void acceptGroupReport(uint32 src, uint32 group, uint8

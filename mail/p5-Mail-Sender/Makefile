@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-Sender/Makefile,v 1.5 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	send mail with attachments through SMTP
 

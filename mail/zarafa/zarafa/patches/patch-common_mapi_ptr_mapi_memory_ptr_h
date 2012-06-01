@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_mapi_ptr_mapi_memory_ptr_h,v 1.3 2011/12/22 17:10:04 ajacoutot Exp $
+$OpenBSD$
 
 On OpenBSD, _U is defined in ctype.h.
 

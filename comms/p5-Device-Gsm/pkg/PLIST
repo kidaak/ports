@@ -1,7 +1,8 @@
-@comment $OpenBSD: ports/comms/p5-Device-Gsm/pkg/PLIST,v 1.1.1.1 2004/11/04 13:00:14 xsa Exp $
+@comment $OpenBSD$
 ${P5SITE}/Device/Gsm/
 ${P5SITE}/Device/Gsm.pm
 ${P5SITE}/Device/Gsm/Charset.pm
+${P5SITE}/Device/Gsm/Networks.pm
 ${P5SITE}/Device/Gsm/Pdu.pm
 ${P5SITE}/Device/Gsm/Sms/
 ${P5SITE}/Device/Gsm/Sms.pm

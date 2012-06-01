@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/amaya/browser/patches/patch-libwww_config_ltconfig,v 1.1 2001/10/02 20:18:59 heko Exp $
+$OpenBSD$
 --- libwww/config/ltconfig.orig	Mon Aug 28 17:23:02 2000
 +++ libwww/config/ltconfig	Tue Oct  2 00:37:49 2001
 @@ -501,7 +501,14 @@ fi

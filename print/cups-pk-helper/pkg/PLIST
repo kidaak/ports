@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/cups-pk-helper/pkg/PLIST,v 1.4 2012/03/28 09:07:51 ajacoutot Exp $
+@comment $OpenBSD$
 @bin libexec/cups-pk-helper-mechanism
 share/dbus-1/
 share/dbus-1/system-services/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/elm/patches/patch-Configure,v 1.1 2001/02/13 13:02:55 naddy Exp $
+$OpenBSD$
 --- Configure.orig	Tue Feb 13 13:39:54 2001
 +++ Configure	Tue Feb 13 13:40:18 2001
 @@ -15,10 +15,10 @@

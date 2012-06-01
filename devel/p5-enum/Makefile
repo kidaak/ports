@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-enum/Makefile,v 1.3 2010/12/03 11:44:38 ajacoutot Exp $
+# $OpenBSD$
 COMMENT=	C style enumerated types and bitmask flags
 
 MODULES=	cpan

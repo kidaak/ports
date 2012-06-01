@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dbus/patches/patch-tools_Makefile_in,v 1.16 2012/03/31 17:56:44 ajacoutot Exp $
+$OpenBSD$
 --- tools/Makefile.in.orig	Tue Mar 27 14:01:13 2012
 +++ tools/Makefile.in	Sat Mar 31 10:32:00 2012
 @@ -375,7 +375,7 @@ top_build_prefix = @top_build_prefix@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/braincurses/Makefile,v 1.1.1.1 2012/01/03 21:52:09 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	clone of the Mastermind game
 

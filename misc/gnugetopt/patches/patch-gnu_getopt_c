@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/gnugetopt/patches/patch-gnu_getopt_c,v 1.1 2009/03/15 21:23:09 jasper Exp $
+$OpenBSD$
 
 Include missing header to fix 64-bit issues.
 

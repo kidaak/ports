@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Cache/Makefile,v 1.10 2011/09/16 09:24:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Framework for caching of arbitrary data for PHP
 

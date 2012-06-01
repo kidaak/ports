@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/gringotts/pkg/PLIST,v 1.1.1.1 2008/02/05 09:18:29 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gringotts
 share/doc/gringotts/
 share/doc/gringotts/FAQ

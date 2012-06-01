@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/bsd-airtools/patches/patch-dstumbler_audio_c,v 1.2 2003/01/18 20:49:26 pvalchev Exp $
+$OpenBSD$
 --- dstumbler/audio.c.orig	Tue Dec  4 19:34:40 2001
 +++ dstumbler/audio.c	Sat Jan 18 13:45:02 2003
 @@ -61,17 +61,19 @@ audio_graph(int pitch)

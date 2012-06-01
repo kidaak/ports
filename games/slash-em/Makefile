@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/slash-em/Makefile,v 1.24 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT =	dungeon explorin', hackin', game.  Hard
 DISTNAME =	se007e7f1

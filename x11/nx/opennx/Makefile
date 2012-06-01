@@ -1,9 +1,8 @@
-# $OpenBSD: ports/x11/nx/opennx/Makefile,v 1.26 2012/02/17 17:22:08 ajacoutot Exp $
+# $OpenBSD$
 
-COMMENT=		OSS replacement for Nomachine's nxclient
+COMMENT=		OSS replacement for the Nomachine nxclient
 
-DISTNAME=		opennx-0.16.0.658
-REVISION=		4
+DISTNAME=		opennx-0.16.0.709
 
 CATEGORIES=		sysutils
 

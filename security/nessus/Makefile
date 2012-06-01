@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/nessus/Makefile,v 1.42 2010/02/01 17:00:14 espie Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += core

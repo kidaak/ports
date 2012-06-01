@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-regex-compat/Makefile,v 1.15 2011/12/31 22:13:36 kili Exp $
+# $OpenBSD$
 
 COMMENT =		module layer over regex-posix to replace Text.Regex
 

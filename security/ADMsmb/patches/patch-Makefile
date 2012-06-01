@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/ADMsmb/patches/patch-Makefile,v 1.2 2008/02/07 22:27:22 merdely Exp $
+$OpenBSD$
 --- Makefile.orig	Thu Aug  6 18:45:53 1998
 +++ Makefile	Wed Jan 23 09:06:57 2008
 @@ -23,7 +23,7 @@ INSTALLPERMS = 0755

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/sp/Makefile,v 1.23 2010/11/20 19:56:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	OO toolkit for SGML parsing and entity management
 

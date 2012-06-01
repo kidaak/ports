@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/sdlmess/Makefile,v 1.19 2011/11/13 23:26:32 fgsch Exp $
+# $OpenBSD$
 
 # Other archs have not been tested
 ONLY_FOR_ARCHS =	amd64 i386

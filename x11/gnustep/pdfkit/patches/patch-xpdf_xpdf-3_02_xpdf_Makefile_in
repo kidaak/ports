@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/pdfkit/patches/patch-xpdf_xpdf-3_02_xpdf_Makefile_in,v 1.3 2011/10/04 12:53:38 sebastia Exp $
+$OpenBSD$
 
 The patches to xpdf need the DLOCALBASE
 And additional patches since pdfkit comes with 3.02, and the ports tree has 3.03

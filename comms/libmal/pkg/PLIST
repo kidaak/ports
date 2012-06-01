@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/libmal/pkg/PLIST,v 1.4 2009/12/10 10:05:02 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict malsync-*
 %%SHARED%%
 @bin bin/malsync

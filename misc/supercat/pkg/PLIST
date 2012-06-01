@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/supercat/pkg/PLIST,v 1.1.1.1 2008/04/11 22:19:36 okan Exp $
+@comment $OpenBSD$
 bin/spc
 @man man/man1/spc.1
 share/examples/supercat/

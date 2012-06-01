@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/doxygen/patches/patch-libmd5_libmd5_pro_in,v 1.1.1.1 2005/07/17 08:30:06 alek Exp $
+$OpenBSD$
 --- libmd5/libmd5.pro.in.orig	Sun May  1 23:31:39 2005
 +++ libmd5/libmd5.pro.in	Sun May  1 23:31:46 2005
 @@ -2,6 +2,7 @@ TEMPLATE	= lib

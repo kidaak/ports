@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/silc-client/patches/patch-doc_Makefile_in,v 1.5 2009/08/01 12:58:06 sthen Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Sat Aug  1 02:53:41 2009
 +++ doc/Makefile.in	Sat Aug  1 05:44:37 2009
 @@ -227,7 +227,7 @@ build_vendor = @build_vendor@

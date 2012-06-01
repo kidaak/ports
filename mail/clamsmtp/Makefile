@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/clamsmtp/Makefile,v 1.12 2010/11/19 07:23:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=	SMTP virus filter
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/postgresql_autodoc/Makefile,v 1.3 2010/11/15 00:22:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	documentation generator for postgresql databases
 

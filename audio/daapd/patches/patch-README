@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/daapd/patches/patch-README,v 1.2 2009/06/03 16:32:54 ajacoutot Exp $
+$OpenBSD$
 --- README.orig	Sun Mar  5 14:39:37 2006
 +++ README	Tue Jun  2 16:20:11 2009
 @@ -65,7 +65,7 @@ daapd has the following invocation syntax (see also th

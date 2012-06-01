@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mp3cddb/Makefile,v 1.22 2010/11/15 00:22:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	embedding CDDB information in MP3s
 

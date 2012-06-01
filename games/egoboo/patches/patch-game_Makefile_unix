@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/egoboo/patches/patch-game_Makefile_unix,v 1.1.1.1 2009/10/11 14:01:39 phessler Exp $
+$OpenBSD$
 --- game/Makefile.unix.orig	Fri Jul  3 11:36:02 2009
 +++ game/Makefile.unix	Sun Oct 11 15:44:34 2009
 @@ -20,11 +20,11 @@ SDL_CONF  := sdl-config

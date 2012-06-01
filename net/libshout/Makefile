@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libshout/Makefile,v 1.19 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	library for communicating with an icecast server
 

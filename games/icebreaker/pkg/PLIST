@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/icebreaker/pkg/PLIST,v 1.5 2004/09/24 10:45:37 espie Exp $
+@comment $OpenBSD$
 @group games
 @mode g+s
 bin/icebreaker

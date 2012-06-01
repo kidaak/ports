@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-SOAP-Lite/Makefile,v 1.12 2011/08/26 09:22:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	client and server-side SOAP implementation
 

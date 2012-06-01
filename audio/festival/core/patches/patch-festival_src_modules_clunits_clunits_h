@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-festival_src_modules_clunits_clunits_h,v 1.1 2010/05/22 09:30:04 espie Exp $
+$OpenBSD$
 --- festival/src/modules/clunits/clunits.h.orig	Thu May 13 12:12:42 2010
 +++ festival/src/modules/clunits/clunits.h	Thu May 13 12:13:05 2010
 @@ -83,9 +83,9 @@ class CLDB {

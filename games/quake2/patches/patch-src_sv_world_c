@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/quake2/patches/patch-src_sv_world_c,v 1.1 2010/06/07 16:03:40 espie Exp $
+$OpenBSD$
 --- src/sv_world.c.orig	Mon Jun  7 17:49:42 2010
 +++ src/sv_world.c	Mon Jun  7 17:56:40 2010
 @@ -30,10 +30,12 @@ FIXME: this use of "area" is different from the bsp fi

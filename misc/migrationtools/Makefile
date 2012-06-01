@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/migrationtools/Makefile,v 1.11 2012/03/23 11:17:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	perl scripts for migrating system information to LDAP
 

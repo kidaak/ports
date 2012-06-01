@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/pim/Makefile,v 1.8 2011/07/06 21:25:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		K Desktop Environment, pim
 DISTNAME=		kdepim-${VERSION}

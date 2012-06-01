@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-GPSD/pkg/PLIST,v 1.2 2008/10/08 17:15:49 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/GPSD/
 ${P5SITE}/Net/GPSD.pm
 ${P5SITE}/Net/GPSD/Point.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/larbin/patches/patch-src_larbin_make,v 1.2 2007/05/12 06:47:56 steven Exp $
+$OpenBSD$
 --- src/larbin.make.orig	Tue Jul  8 22:25:24 2003
 +++ src/larbin.make	Fri May  4 20:35:06 2007
 @@ -1,4 +1,4 @@

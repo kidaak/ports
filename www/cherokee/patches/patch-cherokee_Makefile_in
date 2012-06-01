@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/cherokee/patches/patch-cherokee_Makefile_in,v 1.8 2010/12/20 07:51:58 ajacoutot Exp $
+$OpenBSD$
 --- cherokee/Makefile.in.orig	Mon Dec 13 14:49:55 2010
 +++ cherokee/Makefile.in	Wed Dec 15 16:37:42 2010
 @@ -1415,8 +1415,8 @@ $(common_ldflags) \

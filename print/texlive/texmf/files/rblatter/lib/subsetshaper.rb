@@ -14,7 +14,7 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 # 
 # RBlatter
-# $Id: subsetshaper.rb,v 1.2 2010/10/20 13:15:55 edd Exp $
+# $Id$
 #
 # Adds and subtracts texmf subset file lists in order to make new subsets.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-helper-scripts_prespawn,v 1.1 2011/12/13 18:38:18 jeremy Exp $
+$OpenBSD$
 
 Just because you can listen on 0.0.0.0 does not mean you can
 connect to it.

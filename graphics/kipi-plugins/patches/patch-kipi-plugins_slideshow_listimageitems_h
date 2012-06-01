@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/kipi-plugins/patches/patch-kipi-plugins_slideshow_listimageitems_h,v 1.2 2008/07/19 11:58:57 espie Exp $
+$OpenBSD$
 --- kipi-plugins/slideshow/listimageitems.h.orig	Mon Mar 10 15:49:37 2008
 +++ kipi-plugins/slideshow/listimageitems.h	Sat Jul 19 00:42:09 2008
 @@ -1,3 +1,5 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/bzr-svn/Makefile,v 1.4 2011/12/23 17:12:40 eric Exp $
+# $OpenBSD$
 
 COMMENT=	bzr plugin that adds support for foreign svn repositories
 

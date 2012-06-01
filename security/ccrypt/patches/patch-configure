@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/ccrypt/patches/patch-configure,v 1.2 2010/06/30 09:44:07 kevlo Exp $
+$OpenBSD$
 --- configure.orig	Wed Jun 30 16:07:52 2010
 +++ configure	Wed Jun 30 16:09:45 2010
 @@ -28796,7 +28796,7 @@ s,@HAVE_POSIX_PRINTF@,$HAVE_POSIX_PRINTF,;t t

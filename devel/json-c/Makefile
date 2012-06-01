@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/json-c/Makefile,v 1.3 2009/09/15 18:15:41 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		JSON implementation in C
 

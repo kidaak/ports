@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-GD-Graph/Makefile,v 1.21 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	module for graph plotting
 

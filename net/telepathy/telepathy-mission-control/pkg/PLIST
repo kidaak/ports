@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/telepathy/telepathy-mission-control/pkg/PLIST,v 1.10 2011/11/17 14:58:14 jasper Exp $
+@comment $OpenBSD$
 @bin bin/mc-tool
 @bin bin/mc-wait-for-name
 include/mission-control-5.5/

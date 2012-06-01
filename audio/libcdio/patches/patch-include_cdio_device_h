@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libcdio/patches/patch-include_cdio_device_h,v 1.1 2008/05/01 09:05:12 fgsch Exp $
+$OpenBSD$
 --- include/cdio/device.h.orig	Wed Apr 30 17:48:56 2008
 +++ include/cdio/device.h	Wed Apr 30 17:52:09 2008
 @@ -157,6 +157,7 @@ extern "C" {

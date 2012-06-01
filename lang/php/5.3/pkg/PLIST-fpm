@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/php/5.3/pkg/PLIST-fpm,v 1.2 2012/01/29 14:53:21 espie Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict php-fpm->=5.3,<5.4
 @man man/man8/php-fpm-${PV}.8

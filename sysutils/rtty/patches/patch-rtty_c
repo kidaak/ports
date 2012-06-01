@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/rtty/patches/patch-rtty_c,v 1.2 2002/05/08 18:42:10 millert Exp $
+$OpenBSD$
 --- rtty.c.orig	Wed May  8 12:30:37 2002
 +++ rtty.c	Wed May  8 12:30:37 2002
 @@ -89,7 +89,7 @@ int Debug = 0;

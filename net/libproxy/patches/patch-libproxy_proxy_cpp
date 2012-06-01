@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libproxy/patches/patch-libproxy_proxy_cpp,v 1.1 2011/03/24 06:50:09 ajacoutot Exp $
+$OpenBSD$
 --- libproxy/proxy.cpp.orig	Tue Mar 22 09:24:47 2011
 +++ libproxy/proxy.cpp	Tue Mar 22 09:24:55 2011
 @@ -17,6 +17,8 @@

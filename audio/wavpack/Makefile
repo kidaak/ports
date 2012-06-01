@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/wavpack/Makefile,v 1.9 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		audio codec for lossless, lossy and hybrid compression
 

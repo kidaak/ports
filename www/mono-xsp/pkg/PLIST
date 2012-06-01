@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/mono-xsp/pkg/PLIST,v 1.1.1.1 2011/07/20 14:53:24 robert Exp $
+@comment $OpenBSD$
 bin/asp-state
 bin/asp-state2
 bin/asp-state4

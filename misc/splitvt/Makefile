@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/splitvt/Makefile,v 1.20 2010/10/18 20:52:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	run two shells in a split window/terminal
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/mapserver/pkg/PLIST-utils,v 1.2 2011/06/22 20:16:43 landry Exp $
+@comment $OpenBSD$
 @bin bin/legend
 bin/mapserver-config
 @bin bin/msencrypt

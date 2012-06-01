@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Tree/pkg/PLIST,v 1.7 2004/09/15 18:49:52 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTML/AsSubs.pm
 ${P5SITE}/HTML/Element/
 ${P5SITE}/HTML/Element.pm

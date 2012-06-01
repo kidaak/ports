@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/grokking-the-gimp/Makefile,v 1.6 2010/07/24 06:29:07 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=book about gimp
 CATEGORIES=books graphics

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/radare2/main/pkg/PLIST,v 1.2 2011/11/07 22:06:47 edd Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/r2
 @bin bin/rabin2

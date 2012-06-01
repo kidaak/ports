@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/gstreamer-0.10/plugins-ffmpeg/pkg/PLIST,v 1.4 2010/05/26 22:39:02 jakemsr Exp $
+@comment $OpenBSD$
 @conflict gst-ffmpeg-*
 @comment lib/gstreamer-${VERSION}/libgstffmpeg.la
 lib/gstreamer-${VERSION}/libgstffmpeg.so

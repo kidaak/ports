@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Declare-Constraints-Simple/Makefile,v 1.4 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	declarative validation of data structures
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nvi-m17n/patches/patch-build_configure,v 1.1 2007/10/26 20:49:32 ajacoutot Exp $
+$OpenBSD$
 --- build/configure.orig	Fri Oct 26 22:46:41 2007
 +++ build/configure	Fri Oct 26 22:46:42 2007
 @@ -1807,10 +1807,8 @@ if test "$vi_cv_canna" = "yes"; then

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Net-IDN-Encode/Makefile,v 1.6 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

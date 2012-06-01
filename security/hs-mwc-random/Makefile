@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hs-mwc-random/Makefile,v 1.1.1.1 2012/01/22 17:16:04 kili Exp $
+# $OpenBSD$
 
 COMMENT=		fast, high quality pseudo random number generation
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gupnp/Makefile.inc,v 1.4 2011/08/30 07:57:05 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES ?=		net devel
 

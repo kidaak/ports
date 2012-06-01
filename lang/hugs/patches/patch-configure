@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/hugs/patches/patch-configure,v 1.2 2008/10/29 22:55:40 kili Exp $
+$OpenBSD$
 
 Don't force -O2
 

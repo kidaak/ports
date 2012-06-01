@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/poco/patches/patch-build_rules_global,v 1.1.1.1 2010/07/28 18:13:01 sebastia Exp $
+$OpenBSD$
 
 we do not want to build the debug libraries
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dnsreflector/Makefile,v 1.6 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 
 COMMENT=		DNS queries reflector
 

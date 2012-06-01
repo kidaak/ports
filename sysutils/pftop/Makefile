@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/pftop/Makefile,v 1.23 2011/12/08 13:04:38 sthen Exp $
+# $OpenBSD$
 #
 
 COMMENT=	curses-based real time state and rule display for pf

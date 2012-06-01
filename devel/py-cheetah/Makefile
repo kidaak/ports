@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-cheetah/Makefile,v 1.21 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Python-powered template engine and code generator
 

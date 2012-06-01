@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/regionset/patches/patch-README,v 1.1.1.1 2008/01/03 19:30:16 oga Exp $
+$OpenBSD$
 --- README.orig	Thu Jan  3 03:58:18 2008
 +++ README	Thu Jan  3 03:58:35 2008
 @@ -53,7 +53,7 @@ The more, there absolutely definitively and in any cas

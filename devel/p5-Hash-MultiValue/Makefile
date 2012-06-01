@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Hash-MultiValue/Makefile,v 1.1.1.1 2010/12/11 09:32:31 landry Exp $
+# $OpenBSD$
 
 COMMENT =		store multiples values per key
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-POE-Filter-IRCD/Makefile,v 1.15 2010/12/03 11:45:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		POE-based parser for the IRC protocol
 

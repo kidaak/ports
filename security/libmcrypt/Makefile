@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libmcrypt/Makefile,v 1.24 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT =		interface to access block/stream encryption algorithms
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/libgadu/pkg/PLIST,v 1.2 2008/12/22 10:30:41 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libgadu.h
 lib/libgadu.a

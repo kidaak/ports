@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/unace/patches/patch-unace_c,v 1.2 2005/02/22 15:13:09 naddy Exp $
+$OpenBSD$
 --- unace.c.orig	Wed Jul  1 10:29:00 1998
 +++ unace.c	Mon Feb 14 17:51:47 2005
 @@ -120,7 +120,7 @@ INT  read_header(INT print_err)         

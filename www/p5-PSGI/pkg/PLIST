@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-PSGI/pkg/PLIST,v 1.1.1.1 2010/12/11 09:46:56 landry Exp $
+@comment $OpenBSD$
 ${P5SITE}/PSGI/
 ${P5SITE}/PSGI.pm
 ${P5SITE}/PSGI.pod

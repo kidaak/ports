@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-SQL-Translator/Makefile,v 1.11 2011/06/27 18:54:06 gsoares Exp $
+# $OpenBSD$
 
 COMMENT= 	database schema manipulation
 

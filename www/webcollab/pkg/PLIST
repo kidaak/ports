@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/webcollab/pkg/PLIST,v 1.1.1.1 2005/03/09 07:46:24 kevlo Exp $
+@comment $OpenBSD$
 webcollab/
 webcollab/CHANGELOG
 webcollab/LICENSE

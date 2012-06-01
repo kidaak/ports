@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/controlcenter/patches/patch-panels_info_hostnames-test_txt,v 1.1 2011/09/27 12:15:23 ajacoutot Exp $
+$OpenBSD$
 
 XXX unbreak build (special chars are not properly processed).
 

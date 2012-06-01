@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Pod-POM/pkg/PLIST,v 1.5 2010/09/09 19:32:25 jasper Exp $
+@comment $OpenBSD$
 bin/podlint
 bin/pom2
 bin/pomdump

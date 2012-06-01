@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/py-dpkt/patches/patch-dpkt_ip_py,v 1.1 2010/06/23 16:53:15 fgsch Exp $
+$OpenBSD$
 --- dpkt/ip.py.orig	Thu Jun 17 15:51:24 2010
 +++ dpkt/ip.py	Thu Jun 17 15:50:52 2010
 @@ -247,9 +247,9 @@ def __load_protos():

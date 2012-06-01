@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-rts_posix_Signals_c,v 1.1 2011/12/27 20:53:01 kili Exp $
+$OpenBSD$
 
 There are several problems with the original code:
 

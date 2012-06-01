@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/gbrainy/pkg/PLIST,v 1.12 2012/01/04 07:47:13 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gbrainy
 lib/gbrainy/
 lib/gbrainy/gbrainy.Core.dll

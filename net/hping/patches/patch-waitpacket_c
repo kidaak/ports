@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/hping/patches/patch-waitpacket_c,v 1.2 2005/04/24 22:59:08 alek Exp $
+$OpenBSD$
 --- waitpacket.c.orig	Fri Dec 13 16:01:57 2002
 +++ waitpacket.c	Sun Apr 24 21:00:52 2005
 @@ -361,15 +361,15 @@ int recv_tcp(void *packet, size_t size)

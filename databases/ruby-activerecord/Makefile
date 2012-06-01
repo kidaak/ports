@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-activerecord/Makefile,v 1.36 2011/12/13 17:48:20 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	object relation model implementation for ruby
 

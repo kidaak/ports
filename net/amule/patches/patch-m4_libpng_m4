@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-m4_libpng_m4,v 1.2 2011/12/27 11:51:37 dcoppa Exp $
+$OpenBSD$
 
 Fix configure of libpng when sh != bash
 

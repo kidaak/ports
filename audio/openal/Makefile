@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/openal/Makefile,v 1.25 2012/04/06 13:48:18 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	cross-platform 3D audio API
 

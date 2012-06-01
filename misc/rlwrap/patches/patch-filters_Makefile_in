@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rlwrap/patches/patch-filters_Makefile_in,v 1.2 2010/05/11 18:48:54 kili Exp $
+$OpenBSD$
 --- filters/Makefile.in.orig	Fri Apr 30 15:45:34 2010
 +++ filters/Makefile.in	Fri May  7 20:44:10 2010
 @@ -66,7 +66,7 @@ am__nobase_list = $(am__nobase_strip_setup); \

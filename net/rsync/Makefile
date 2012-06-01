@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/rsync/Makefile,v 1.65 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	mirroring/synchronization over low bandwidth links
 

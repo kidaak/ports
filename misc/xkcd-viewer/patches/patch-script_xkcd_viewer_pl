@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/xkcd-viewer/patches/patch-script_xkcd_viewer_pl,v 1.1 2009/06/09 15:10:19 landry Exp $
+$OpenBSD$
 --- script/xkcd_viewer.pl.orig	Tue Jun  9 17:03:48 2009
 +++ script/xkcd_viewer.pl	Tue Jun  9 17:04:25 2009
 @@ -133,10 +133,10 @@ $mainwindow->set_default_icon(Gtk2::Gdk::Pixbuf->new_f

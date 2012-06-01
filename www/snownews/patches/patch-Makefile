@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/snownews/patches/patch-Makefile,v 1.13 2009/09/18 20:51:35 martynas Exp $
+$OpenBSD$
 --- Makefile.orig	Thu Sep 17 09:44:27 2009
 +++ Makefile	Thu Sep 17 11:10:11 2009
 @@ -2,7 +2,7 @@ CC=         gcc

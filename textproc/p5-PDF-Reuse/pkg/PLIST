@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-PDF-Reuse/pkg/PLIST,v 1.1.1.1 2006/08/01 22:36:21 alek Exp $
+@comment $OpenBSD$
 ${P5SITE}/PDF/
 ${P5SITE}/PDF/Reuse/
 ${P5SITE}/PDF/Reuse.pm

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/openmotif/Makefile,v 1.51 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=		Motif toolkit
 COMMENT-demos=		Motif toolkit demos

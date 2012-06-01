@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libee/pkg/PLIST,v 1.1.1.1 2012/01/16 15:31:51 dhill Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libee/
 include/libee/apache.h

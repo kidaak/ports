@@ -1,4 +1,4 @@
-$OpenBSD: ports/palm/coldsync/patches/patch-configure,v 1.2 2006/07/17 18:51:49 espie Exp $
+$OpenBSD$
 --- configure.orig	Wed Jul 30 15:21:38 2003
 +++ configure	Sat Jul 15 09:58:23 2006
 @@ -4021,9 +4021,6 @@ if eval "test \"`echo '$ac_cv_lib_'$ac_l

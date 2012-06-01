@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/performance/Makefile,v 1.2 2011/12/22 18:41:49 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep performance library
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/desktop-file-utils/pkg/PLIST,v 1.8 2012/01/02 14:07:06 ajacoutot Exp $
+@comment $OpenBSD$
 @unexec-delete rm -f ${PREFIX}/share/applications/mimeinfo.cache
 bin/desktop-file-edit
 @bin bin/desktop-file-install

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/minbif/pkg/PLIST,v 1.4 2011/05/11 12:03:19 jasper Exp $
+@comment $OpenBSD$
 @newgroup _minbif:655
 @newuser _minbif:655:_minbif:daemon:Minbif Account:/nonexistent:/sbin/nologin
 @extraunexec rm -rf /var/minbif/*

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-src_client_cinematic_cl_cinematic_ogm_c,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- src/client/cinematic/cl_cinematic_ogm.c.orig	Fri Sep  3 15:03:01 2010
 +++ src/client/cinematic/cl_cinematic_ogm.c	Fri Sep  3 15:03:23 2010
 @@ -13,10 +13,6 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/patches/patch-src_stored_Makefile_in,v 1.3 2012/03/08 17:34:34 sthen Exp $
+$OpenBSD$
 
 Reorder LDFLAGS (prefer -L.libs over /usr/local/lib) so that bacula can
 be rebuilt while already installed.

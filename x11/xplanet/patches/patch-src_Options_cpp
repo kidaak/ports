@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xplanet/patches/patch-src_Options_cpp,v 1.2 2007/05/19 09:06:49 kili Exp $
+$OpenBSD$
 --- src/Options.cpp.orig	Tue Jun 14 19:36:45 2005
 +++ src/Options.cpp	Sat Apr 28 16:42:07 2007
 @@ -104,7 +104,7 @@ Options::Options() :

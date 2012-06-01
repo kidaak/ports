@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/gloox/pkg/PFRAG.shared,v 1.1.1.1 2010/07/28 14:20:50 sebastia Exp $
+@comment $OpenBSD$
 @lib lib/libgloox.so.${LIBgloox_VERSION}

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-XMPP/pkg/PLIST,v 1.1.1.1 2007/10/05 14:19:46 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/XMPP/
 ${P5SITE}/Net/XMPP.pm

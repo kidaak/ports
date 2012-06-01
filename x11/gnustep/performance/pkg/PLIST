@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/performance/pkg/PLIST,v 1.2 2011/12/22 18:41:49 sebastia Exp $
+@comment $OpenBSD$
 include/Performance/
 include/Performance/GSCache.h
 include/Performance/GSFIFO.h

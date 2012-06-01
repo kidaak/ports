@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/hydrogen/patches/patch-libs_hydrogen_src_hydrogen_cpp,v 1.1 2010/01/11 05:11:32 jakemsr Exp $
+$OpenBSD$
 --- libs/hydrogen/src/hydrogen.cpp.orig	Wed Jul 22 20:36:28 2009
 +++ libs/hydrogen/src/hydrogen.cpp	Fri Jan  1 16:35:38 2010
 @@ -67,6 +67,8 @@

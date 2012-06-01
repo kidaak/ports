@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/sshguard/Makefile,v 1.4 2011/03/07 17:44:16 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=	protect against brute force attacks on sshd and others
 

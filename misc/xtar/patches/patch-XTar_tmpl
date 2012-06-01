@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/xtar/patches/patch-XTar_tmpl,v 1.1 2007/10/26 22:00:31 ajacoutot Exp $
+$OpenBSD$
 --- XTar.tmpl.orig	Mon Jul 17 14:04:17 1995
 +++ XTar.tmpl	Fri Oct 26 23:58:56 2007
 @@ -27,7 +27,7 @@ CCOPTIONS = -Ae

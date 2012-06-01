@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Aligner/Makefile,v 1.7 2010/12/31 17:21:45 benoit Exp $
+# $OpenBSD$
 
 COMMENT=	justify strings to various alignment styles
 

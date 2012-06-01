@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Scope-Upper/Makefile,v 1.6 2011/04/29 14:09:52 gsoares Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 COMMENT =	act on upper scopes

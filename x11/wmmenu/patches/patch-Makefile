@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wmmenu/patches/patch-Makefile,v 1.5 2010/03/26 11:28:15 jasper Exp $
+$OpenBSD$
 --- Makefile.orig	Sat Mar 23 13:51:36 2002
 +++ Makefile	Fri Mar 26 10:00:50 2010
 @@ -1,36 +1,29 @@

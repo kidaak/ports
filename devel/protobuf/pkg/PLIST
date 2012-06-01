@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/protobuf/pkg/PLIST,v 1.1.1.1 2010/03/24 19:03:37 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/protoc
 include/google/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-Modules_socketmodule_c,v 1.2 2007/04/24 23:32:47 djm Exp $
+$OpenBSD$
 --- Modules/socketmodule.c.orig	Sun Apr  1 04:56:11 2007
 +++ Modules/socketmodule.c	Fri Apr 20 13:29:23 2007
 @@ -73,9 +73,6 @@ Local naming conventions:

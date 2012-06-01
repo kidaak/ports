@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/ruby-dbus/Makefile,v 1.7 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Ruby implementation of the D-Bus protocol
 

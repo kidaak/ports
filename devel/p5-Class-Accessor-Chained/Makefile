@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Accessor-Chained/Makefile,v 1.7 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		make chained accessors
 

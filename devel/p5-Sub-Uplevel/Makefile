@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Sub-Uplevel/Makefile,v 1.12 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT = 	Perl library for manipulating frame stack
 

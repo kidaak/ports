@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/gnuwatch/Makefile,v 1.8 2010/11/05 08:24:50 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		GNU watch command
 

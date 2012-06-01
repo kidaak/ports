@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-echoe/Makefile,v 1.10 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT =	tasks for documentation, extension compiling, testing
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-MP3-ID3v1Tag/Makefile,v 1.11 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	edit id3v1 tags from an audio mpeg layer 3
 DISTNAME=	MP3-ID3v1Tag-1.11

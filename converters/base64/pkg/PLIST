@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/converters/base64/pkg/PLIST,v 1.4 2004/08/06 16:06:03 espie Exp $
+@comment $OpenBSD$
 bin/base64
 @man man/man1/base64.1

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/bclock/Makefile,v 1.21 2011/04/01 16:48:18 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	round, analog X11 clock with bezier curve hands
 

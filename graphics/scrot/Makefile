@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/scrot/Makefile,v 1.13 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		commandline screen capture util
 

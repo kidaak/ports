@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-gfx_ots_include_opentype-sanitiser_h,v 1.1 2011/03/24 11:41:11 landry Exp $
+$OpenBSD$
 https://bugzilla.mozilla.org/show_bug.cgi?id=643137
 --- gfx/ots/include/opentype-sanitiser.h.orig	Fri Mar 18 00:02:27 2011
 +++ gfx/ots/include/opentype-sanitiser.h	Fri Mar 18 00:02:35 2011

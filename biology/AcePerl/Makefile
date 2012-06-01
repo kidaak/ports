@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/biology/AcePerl/Makefile,v 1.14 2011/10/17 12:58:21 espie Exp $
+#	$OpenBSD$
 
 COMMENT=	perl interface to the ACEDB database
 

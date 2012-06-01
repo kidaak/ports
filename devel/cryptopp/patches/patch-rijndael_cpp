@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-rijndael_cpp,v 1.1 2011/06/24 07:55:18 dcoppa Exp $
+$OpenBSD$
 
 Fix an infinite recursion on amd64 (upstream rev 523).
 Fix use of uninitialised value in

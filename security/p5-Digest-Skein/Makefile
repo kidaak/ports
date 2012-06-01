@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Digest-Skein/Makefile,v 1.5 2011/07/31 07:27:29 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	interface to the Skein digest algorithm
 

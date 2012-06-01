@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/allegro/patches/patch-modules_lst,v 1.1 2010/04/26 02:56:30 jakemsr Exp $
+$OpenBSD$
 --- modules.lst.orig	Tue Jan 12 02:04:39 2010
 +++ modules.lst	Tue Jan 12 02:04:54 2010
 @@ -10,3 +10,4 @@ alleg-sgialdigi.so

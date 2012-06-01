@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/p5-Device-USB/pkg/PFRAG.shared,v 1.1.1.1 2010/01/10 21:41:55 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/auto/Device/USB/USB.so

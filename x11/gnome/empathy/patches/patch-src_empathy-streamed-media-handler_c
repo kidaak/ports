@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/empathy/patches/patch-src_empathy-streamed-media-handler_c,v 1.1 2012/04/05 16:08:56 jasper Exp $
+$OpenBSD$
 
 From 57a7b1ba43133f3f3097d00b89a8d8f7f246ccdb Mon Sep 17 00:00:00 2001
 From: Guillaume Desmottes <guillaume.desmottes@collabora.co.uk>

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gxmessage/Makefile,v 1.18 2011/12/03 23:20:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	gtk+2 based xmessage(1) clone
 

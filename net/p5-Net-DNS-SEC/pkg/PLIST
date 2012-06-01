@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-DNS-SEC/pkg/PLIST,v 1.8 2011/04/03 17:27:06 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/DNS/
 ${P5SITE}/Net/DNS/Keyset.pm
 ${P5SITE}/Net/DNS/RR/

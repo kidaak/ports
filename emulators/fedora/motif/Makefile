@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/fedora/motif/Makefile,v 1.5 2010/11/15 23:22:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Motif toolkit Linux libraries
 

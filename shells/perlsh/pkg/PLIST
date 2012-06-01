@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/shells/perlsh/pkg/PLIST,v 1.2 2008/10/24 12:34:12 jasper Exp $
+@comment $OpenBSD$
 @shell bin/psh
 ${P5SITE}/Psh/
 ${P5SITE}/Psh.pm

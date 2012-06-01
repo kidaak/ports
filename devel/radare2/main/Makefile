@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/radare2/main/Makefile,v 1.2 2011/11/07 22:06:47 edd Exp $
+# $OpenBSD$
 
 COMMENT =		reverse engineers disassembler and debugger
 

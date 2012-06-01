@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gmake/patches/patch-function_c,v 1.1 2012/03/22 20:23:40 robert Exp $
+$OpenBSD$
 
 Fix Savannah bug #35919: realpath(3) does not fail on !linux if
 the given path does not exist

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/acpica/patches/patch-generate_unix_Makefile_config,v 1.1 2012/01/11 02:35:14 sthen Exp $
+$OpenBSD$
 --- generate/unix/Makefile.config.orig	Wed Nov 23 16:22:31 2011
 +++ generate/unix/Makefile.config	Wed Jan 11 00:27:25 2012
 @@ -118,16 +118,10 @@ CWARNINGFLAGS += \

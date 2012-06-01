@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/games/alephone/scenarios/red/Makefile,v 1.1.1.1 2009/05/18 06:03:57 phessler Exp $
+#	$OpenBSD$
 PKG_ARCH =		*
 
 COMMENT =		dark alternate version of the Marathon universe

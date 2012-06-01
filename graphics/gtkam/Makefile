@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gtkam/Makefile,v 1.34 2011/11/13 17:16:26 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	digital camera frontend
 

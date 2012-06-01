@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/cad/gerbv/pkg/PFRAG.shared,v 1.1 2010/09/09 07:50:32 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libgerbv.so.${LIBgerbv_VERSION}

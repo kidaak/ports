@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/p5-SendPage/Makefile,v 1.10 2010/11/15 00:22:50 espie Exp $
+# $OpenBSD$
 
 
 COMMENT=		SNPP, TAP, email notification application

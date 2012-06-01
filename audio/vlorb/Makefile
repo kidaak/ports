@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/vlorb/Makefile,v 1.8 2010/11/24 08:24:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		audio CD to audio file encoder
 DISTNAME=		vlorb-1.2

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono/patches/patch-mono_utils_mono-proclib_c,v 1.12 2012/04/13 11:51:49 robert Exp $
+$OpenBSD$
 --- mono/utils/mono-proclib.c.orig	Mon Dec 19 22:10:27 2011
 +++ mono/utils/mono-proclib.c	Tue Mar 20 22:40:12 2012
 @@ -25,17 +25,17 @@

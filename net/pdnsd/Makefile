@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pdnsd/Makefile,v 1.22 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		threaded DNS daemon, optimized for caching
 

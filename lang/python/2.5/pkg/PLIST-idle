@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/python/2.5/pkg/PLIST-idle,v 1.2 2008/10/18 12:01:25 djm Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict python-idle->=2.5,<2.6
 bin/idle2.5

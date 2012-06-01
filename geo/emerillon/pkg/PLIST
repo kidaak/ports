@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/emerillon/pkg/PLIST,v 1.4 2010/09/30 07:33:38 jasper Exp $
+@comment $OpenBSD$
 @bin bin/emerillon
 include/emerillon-0.1/
 include/emerillon-0.1/emerillon/

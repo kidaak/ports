@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Hash-Util-FieldHash-Compat/Makefile,v 1.4 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	use Hash::Util::FieldHash or ties, depending on availability
 

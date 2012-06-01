@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/onyx/patches/patch-lib_libonyx_src_nx_gen_nx_in,v 1.1.1.1 2011/03/07 19:26:28 jasper Exp $
+$OpenBSD$
 --- lib/libonyx/src/nx_gen.nx.in.orig	Thu Mar  3 19:17:01 2011
 +++ lib/libonyx/src/nx_gen.nx.in	Thu Mar  3 19:17:33 2011
 @@ -254,7 +254,7 @@ bind eval end");

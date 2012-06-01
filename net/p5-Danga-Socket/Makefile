@@ -1,15 +1,12 @@
-# $OpenBSD: ports/net/p5-Danga-Socket/Makefile,v 1.4 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	event loop and event-driven async socket base class
 
 MODULES =	cpan
 DISTNAME =	Danga-Socket-1.61
-REVISION =	0
-USE_GROFF =	Yes
+REVISION =	1
 
 CATEGORIES =	net
-
-MAINTAINER =	Toni Mueller <support@oeko.net>
 
 # Perl
 PERMIT_PACKAGE_CDROM =		Yes

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mpd/patches/patch-configure,v 1.16 2012/04/10 15:12:54 dcoppa Exp $
+$OpenBSD$
 
 Don't reset CPPFLAGS...stupid configure.
 

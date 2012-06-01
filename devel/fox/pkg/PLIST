@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/fox/pkg/PLIST,v 1.5 2009/01/24 15:34:10 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/Adie.stx
 @bin bin/PathFinder

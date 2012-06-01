@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/p5-News-Newsrc/Makefile,v 1.15 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module for managing newsrc files
 

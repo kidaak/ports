@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_src_share_classes_java_util_Calendar_java,v 1.1 2009/03/01 20:43:09 naddy Exp $
+$OpenBSD$
 --- j2se/src/share/classes/java/util/Calendar.java.orig	Tue Sep 25 00:44:04 2007
 +++ j2se/src/share/classes/java/util/Calendar.java	Sat Feb 28 09:35:28 2009
 @@ -23,9 +23,14 @@ package java.util;

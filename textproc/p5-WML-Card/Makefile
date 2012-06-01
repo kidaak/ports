@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-WML-Card/Makefile,v 1.17 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to create WML cards
 

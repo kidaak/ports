@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bk2site/patches/patch-reference_C,v 1.2 2010/05/24 22:12:41 espie Exp $
+$OpenBSD$
 --- reference.C.orig	Thu Dec  6 15:29:25 2001
 +++ reference.C	Sat May 22 12:51:58 2010
 @@ -804,19 +804,19 @@ string reference::sendAsHTML(const string & templ, 

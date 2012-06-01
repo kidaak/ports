@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-SymbolicX-ParserExtensionFactory/Makefile,v 1.3 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 
 COMMENT =	generate Math::Symbolic parser extensions
 

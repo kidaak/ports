@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/wv/Makefile,v 1.21 2011/11/04 09:05:54 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	convert various Microsoft formats into HTML/PNG
 

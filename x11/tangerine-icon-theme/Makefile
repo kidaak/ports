@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tangerine-icon-theme/Makefile,v 1.9 2011/12/03 19:13:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Tangerine icon theme from Ubuntu
 

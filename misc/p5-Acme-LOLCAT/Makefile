@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-Acme-LOLCAT/Makefile,v 1.6 2011/03/10 20:49:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		translator to LOLCAT
 

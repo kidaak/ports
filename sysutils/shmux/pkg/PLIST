@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/shmux/pkg/PLIST,v 1.1.1.1 2010/04/12 09:16:33 sthen Exp $
+@comment $OpenBSD$
 @bin bin/shmux
 @man man/man1/shmux.1
 share/doc/shmux/

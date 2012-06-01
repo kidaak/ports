@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/mathomatic/patches/patch-makefile,v 1.13 2011/06/12 19:03:02 shadchin Exp $
+$OpenBSD$
 --- makefile.orig	Sun May 22 02:54:29 2011
 +++ makefile	Thu Jun  9 21:45:34 2011
 @@ -22,7 +22,8 @@ INSTALL		?= install # installer utility to use

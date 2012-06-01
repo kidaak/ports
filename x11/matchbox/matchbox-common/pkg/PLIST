@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/matchbox/matchbox-common/pkg/PLIST,v 1.1.1.1 2005/06/17 02:57:30 jolan Exp $
+@comment $OpenBSD$
 bin/matchbox-session
 share/icons/
 share/icons/blondie/

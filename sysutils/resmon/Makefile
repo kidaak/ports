@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/resmon/Makefile,v 1.2 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT-main =		system monitoring tool
 COMMENT-nagios =	nagios plugin for resmon

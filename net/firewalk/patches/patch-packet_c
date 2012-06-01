@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/firewalk/patches/patch-packet_c,v 1.1 2005/05/24 00:00:11 mjc Exp $
+$OpenBSD$
 --- packet.c.orig	Tue Dec 15 15:58:01 1998
 +++ packet.c	Mon May 23 09:50:51 2005
 @@ -237,7 +237,8 @@ print_ip(u_char *packet, struct firepack

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Digest-HMAC/pkg/PLIST,v 1.5 2004/09/15 18:36:01 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Digest/
 ${P5SITE}/Digest/HMAC.pm
 ${P5SITE}/Digest/HMAC_MD5.pm

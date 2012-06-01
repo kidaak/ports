@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/sane-backends/patches/patch-backend_Makefile_in,v 1.6 2011/03/03 13:43:50 ajacoutot Exp $
+$OpenBSD$
 --- backend/Makefile.in.orig	Sun Jan 30 19:50:55 2011
 +++ backend/Makefile.in	Mon Feb 14 06:49:59 2011
 @@ -1641,7 +1641,7 @@ AM_LDFLAGS = @STRICT_LDFLAGS@

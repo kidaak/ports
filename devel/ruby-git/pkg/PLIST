@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-git/pkg/PLIST,v 1.1.1.1 2011/11/17 15:27:39 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/README

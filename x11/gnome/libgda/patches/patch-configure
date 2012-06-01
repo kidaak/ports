@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/libgda/patches/patch-configure,v 1.25 2012/01/25 13:26:05 ajacoutot Exp $
+$OpenBSD$
 
 Don't do bash pattern substitutions.
 

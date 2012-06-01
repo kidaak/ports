@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/colorls/patches/patch-colorls_1,v 1.13 2011/11/12 12:31:21 naddy Exp $
+$OpenBSD$
 --- colorls.1.orig	Sat Nov 12 13:14:57 2011
 +++ colorls.1	Sat Nov 12 13:16:21 2011
 @@ -37,11 +37,11 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/trac-ldapplugin/Makefile,v 1.10 2011/12/20 18:55:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		ldap authentication plugin for trac
 

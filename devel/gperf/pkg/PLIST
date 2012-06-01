@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gperf/pkg/PLIST,v 1.5 2010/05/07 16:00:01 robert Exp $
+@comment $OpenBSD$
 @bin bin/gperf
 @info info/gperf.info
 @man man/man1/gperf.1

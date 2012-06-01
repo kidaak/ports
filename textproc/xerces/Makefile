@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/xerces/Makefile,v 1.36 2011/10/07 13:54:31 kurt Exp $
+# $OpenBSD$
 
 COMMENT=	xml parser for Java
 

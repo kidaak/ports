@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gconf2/pkg/PLIST-polkit,v 1.2 2011/09/18 22:04:01 ajacoutot Exp $
+@comment $OpenBSD$
 @bin libexec/gconf-defaults-mechanism
 share/dbus-1/system-services/org.gnome.GConf.Defaults.service
 share/examples/gconf2/dbus-1/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-turbogears/Makefile,v 1.17 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Python web development megaframework
 

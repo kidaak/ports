@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pear-MDB2-pgsql/Makefile,v 1.1.1.1 2012/03/03 12:46:58 landry Exp $
+# $OpenBSD$
 
 COMMENT =	PostgreSQL database abstraction layer for PHP
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-datamapper/Makefile.inc,v 1.6 2010/12/08 22:26:19 jeremy Exp $
+# $OpenBSD$
 
 VERSION ?=	1.0.2
 CATEGORIES ?=	databases

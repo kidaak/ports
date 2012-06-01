@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xkobo/Makefile,v 1.27 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	multi-way scrolling shoot'em up for X11, addictive
 

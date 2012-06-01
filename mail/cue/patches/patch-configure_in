@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/cue/patches/patch-configure_in,v 1.1 2008/12/16 18:47:51 naddy Exp $
+$OpenBSD$
 --- configure.in.orig	Wed Apr 27 13:54:13 2005
 +++ configure.in	Tue Dec 16 19:22:35 2008
 @@ -37,7 +37,7 @@ netbsd*)

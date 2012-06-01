@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/smtp-vilter/pkg/PLIST,v 1.11 2011/06/23 22:50:27 naddy Exp $
+@comment $OpenBSD$
 @newgroup _vilter:538
 @newuser _vilter:538:538:daemon:smtp-vilter:/nonexistent:/sbin/nologin
 @extraunexec rm -fr /var/smtp-vilter/*

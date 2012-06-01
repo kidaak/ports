@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ptlib/pkg/PLIST,v 1.2 2011/10/26 16:59:09 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict pwlib-*
 @pkgpath devel/pwlib
 @pkgpath devel/pwlib,ldap

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/pear-XML-Tree/Makefile,v 1.12 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	classes to represent XML data in PHP
 

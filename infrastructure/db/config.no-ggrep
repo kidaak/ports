@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/db/config.no-ggrep,v 1.1 2011/12/10 11:15:16 espie Exp $
+# $OpenBSD$
 # included unless sysutils/ggrep
 ac_cv_path_GREP=${ac_cv_path_GREP=/usr/bin/grep}
 ac_cv_path_EGREP=${ac_cv_path_EGREP=/usr/bin/egrep}

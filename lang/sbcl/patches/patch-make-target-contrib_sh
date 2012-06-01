@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/sbcl/patches/patch-make-target-contrib_sh,v 1.1 2011/07/08 11:42:09 jasper Exp $
+$OpenBSD$
 
 Only run the contrib tests if $RUN_CONTRIB_TESTS is not empty.  This
 allows the contribs to be build when USE_SYSTRACE=Yes, and the tests

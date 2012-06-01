@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-Sender/Makefile,v 1.9 2011/08/01 19:42:19 stephan Exp $
+# $OpenBSD$
 
 COMMENT= 	library for sending email
 

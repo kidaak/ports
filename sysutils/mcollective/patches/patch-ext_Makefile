@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/mcollective/patches/patch-ext_Makefile,v 1.2 2011/12/21 19:34:28 jasper Exp $
+$OpenBSD$
 --- ext/Makefile.orig	Wed Jun  8 19:57:44 2011
 +++ ext/Makefile	Fri Dec 16 09:32:27 2011
 @@ -1,7 +1,5 @@

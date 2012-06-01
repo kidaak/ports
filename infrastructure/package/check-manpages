@@ -1,5 +1,5 @@
 #! /usr/bin/perl
-# $OpenBSD: ports/infrastructure/package/check-manpages,v 1.7 2010/06/30 11:11:19 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2004 Marc Espie <espie@openbsd.org>
 #

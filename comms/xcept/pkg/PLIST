@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/xcept/pkg/PLIST,v 1.5 2012/04/05 20:36:03 jasper Exp $
+@comment $OpenBSD$
 @newgroup _xcept:522
 @newuser _xcept:522:_xcept:daemon:xcept account:/nonexistent:/sbin/nologin
 bin/xcept

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/god/pkg/PLIST,v 1.5 2011/11/09 00:17:38 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/god
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

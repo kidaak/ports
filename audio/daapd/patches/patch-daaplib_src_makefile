@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/daapd/patches/patch-daaplib_src_makefile,v 1.1.1.1 2005/01/21 06:49:11 jolan Exp $
+$OpenBSD$
 --- daaplib/src/makefile.orig	Tue Jan  4 17:18:48 2005
 +++ daaplib/src/makefile	Thu Jan 20 22:45:53 2005
 @@ -1,4 +1,4 @@

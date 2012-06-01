@@ -1,10 +1,10 @@
-# $OpenBSD: ports/audio/p5-gnupod/Makefile,v 1.11 2011/06/01 00:04:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	collection of perl scripts to manage your iPod
 
 DISTNAME =	gnupod-0.99.8
 PKGNAME =	p5-${DISTNAME}
-REVISION =	2
+REVISION =	3
 CATEGORIES =	audio
 
 HOMEPAGE =	http://www.gnu.org/software/gnupod/
@@ -34,7 +34,6 @@ RUN_DEPENDS =	security/p5-Digest-SHA1 \
 		graphics/ffmpeg \
 		graphics/ImageMagick \
 		net/curl \
-		audio/faac \
 		audio/flac \
 		audio/lame \
 		audio/vorbis-tools

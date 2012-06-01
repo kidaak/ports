@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/py-pigment/Makefile,v 1.10 2011/11/03 07:40:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	python bindings for pigment
 

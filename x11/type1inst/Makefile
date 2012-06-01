@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/type1inst/Makefile,v 1.5 2010/10/19 08:13:59 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Type1 font installation helper
 DISTNAME=		type1inst-0.6.1

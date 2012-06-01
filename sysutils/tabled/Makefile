@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/tabled/Makefile,v 1.20 2012/02/21 22:29:43 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	daemon to modify pf tables from userland
 

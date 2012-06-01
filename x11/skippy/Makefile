@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/skippy/Makefile,v 1.17 2011/06/02 13:41:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		full-screen X11 task-switcher like Apple's Expose
 

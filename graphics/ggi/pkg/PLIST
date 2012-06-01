@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/ggi/pkg/PLIST,v 1.15 2005/01/14 19:57:05 todd Exp $
+@comment $OpenBSD$
 bin/cube3d
 bin/ggiteleserver
 bin/monitest

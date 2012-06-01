@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/mupen64plus/Makefile,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += core

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-SawAmpersand/Makefile,v 1.9 2011/04/07 12:37:58 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 COMMENT=		assert performance of perl regexps

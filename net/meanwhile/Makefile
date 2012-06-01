@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/meanwhile/Makefile,v 1.11 2011/09/16 11:13:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=	implementation of Lotus Sametime Community Client protocol
 

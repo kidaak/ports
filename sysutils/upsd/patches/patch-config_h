@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/upsd/patches/patch-config_h,v 1.1 2002/08/05 02:25:30 kevlo Exp $
+$OpenBSD$
 --- config.h.orig	Mon Aug  5 09:56:46 2002
 +++ config.h	Mon Aug  5 09:57:07 2002
 @@ -8,7 +8,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-POE-Component-Client-DNS/Makefile,v 1.12 2011/04/19 20:33:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	DNS module for the Perl Object Environment
 

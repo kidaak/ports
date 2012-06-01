@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-HomeDir/Makefile,v 1.12 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		retrieve home directory location
 

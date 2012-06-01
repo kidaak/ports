@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libmemcached/Makefile,v 1.10 2011/07/11 14:04:42 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		C C++ API for memcached
 

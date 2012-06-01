@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/libsrtp/pkg/PLIST,v 1.2 2012/01/06 00:45:06 sthen Exp $
+@comment $OpenBSD$
 include/srtp/
 include/srtp/aes.h
 include/srtp/aes_cbc.h

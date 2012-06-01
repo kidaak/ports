@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/qiv/Makefile,v 1.25 2012/03/29 06:05:14 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		very small and pretty fast gdk/Imlib image viewer
 

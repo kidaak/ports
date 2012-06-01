@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libxklavier/Makefile,v 1.41 2012/02/16 22:26:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		utility library for XKB
 

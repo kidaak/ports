@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/hylafax/Makefile,v 1.65 2012/04/14 15:13:30 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		send/receive faxes and share modems
 DISTNAME=		hylafax-6.0.5

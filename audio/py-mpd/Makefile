@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-mpd/Makefile,v 1.8 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Python MPD client library
 

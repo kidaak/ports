@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/lsof/patches/patch-dialects_n+obsd_dproc_c,v 1.2 2012/03/15 21:39:53 sthen Exp $
+$OpenBSD$
 --- dialects/n+obsd/dproc.c.orig	Wed May 11 14:54:00 2005
 +++ dialects/n+obsd/dproc.c	Sun Jan  8 20:40:43 2012
 @@ -172,7 +172,10 @@ gather_proc_info()

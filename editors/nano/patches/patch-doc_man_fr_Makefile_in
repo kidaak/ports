@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nano/patches/patch-doc_man_fr_Makefile_in,v 1.6 2010/03/23 20:05:47 naddy Exp $
+$OpenBSD$
 --- doc/man/fr/Makefile.in.orig	Thu Feb 11 08:04:50 2010
 +++ doc/man/fr/Makefile.in	Tue Mar 23 20:57:04 2010
 @@ -206,7 +206,7 @@ top_srcdir = @top_srcdir@

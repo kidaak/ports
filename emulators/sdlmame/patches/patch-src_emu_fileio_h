@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/sdlmame/patches/patch-src_emu_fileio_h,v 1.1 2011/11/27 12:42:28 fgsch Exp $
+$OpenBSD$
 --- src/emu/fileio.h.orig	Tue Nov  8 22:52:52 2011
 +++ src/emu/fileio.h	Tue Nov  8 22:52:52 2011
 @@ -151,6 +151,7 @@ class emu_file (public)

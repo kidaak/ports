@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CGI-FormBuilder/Makefile,v 1.7 2010/11/22 08:36:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=	easily generate and process stateful forms
 

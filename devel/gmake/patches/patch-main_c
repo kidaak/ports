@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gmake/patches/patch-main_c,v 1.1 2011/04/20 20:51:41 naddy Exp $
+$OpenBSD$
 
 Fix Savannah bug #30723: expand MAKEFLAGS before we re-exec after
 rebuilding makefiles.

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ns4/Makefile,v 1.3 2010/11/20 17:22:41 espie Exp $
+# $OpenBSD$
 
 PKG_ARCH =	*
 

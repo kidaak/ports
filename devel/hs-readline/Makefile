@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-readline/Makefile,v 1.10 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =		interface to the GNU readline library
 

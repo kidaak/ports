@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nload/Makefile,v 1.4 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		network traffic and bandwidth usage in real time
 

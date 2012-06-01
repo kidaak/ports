@@ -1,4 +1,4 @@
-/*	$OpenBSD: ports/mail/mozilla-thunderbird/files/nsSound.cpp,v 1.3 2010/07/27 17:01:16 landry Exp $	*/
+/*	$OpenBSD$	*/
 
 /*
  * Copyright (c) 2009 Martynas Venckus <martynas@openbsd.org>

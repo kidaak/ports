@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-Base85/Makefile,v 1.1.1.1 2010/12/27 21:08:50 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	module handles numbers in base 85
 

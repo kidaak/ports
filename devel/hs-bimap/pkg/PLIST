@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-bimap/pkg/PLIST,v 1.1.1.1 2011/04/25 15:08:05 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Data/
 lib/ghc/${DISTNAME}/Data/Bimap.hi

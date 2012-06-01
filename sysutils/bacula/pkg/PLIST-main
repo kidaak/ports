@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/bacula/pkg/PLIST-main,v 1.14 2012/04/04 21:30:56 merdely Exp $
+@comment $OpenBSD$
 @conflict bacula-server-<5.2.1
 @pkgpath sysutils/bacula,-client
 @newgroup _bacula:591

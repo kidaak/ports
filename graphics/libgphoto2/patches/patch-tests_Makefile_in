@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libgphoto2/patches/patch-tests_Makefile_in,v 1.5 2011/11/13 17:15:31 ajacoutot Exp $
+$OpenBSD$
 --- tests/Makefile.in.orig	Sun Apr 17 18:18:15 2011
 +++ tests/Makefile.in	Sun Nov 13 17:39:49 2011
 @@ -403,9 +403,9 @@ test_camera_list_LDADD = \

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-rack-test/Makefile,v 1.5 2011/12/13 17:59:33 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		small, simple testing API for Rack apps
 

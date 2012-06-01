@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Sort-Versions/Makefile,v 1.7 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	sorting of revision-like numbers
 

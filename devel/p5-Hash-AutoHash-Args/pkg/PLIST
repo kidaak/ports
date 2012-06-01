@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Hash-AutoHash-Args/pkg/PLIST,v 1.1.1.1 2010/09/10 13:47:08 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Hash/AutoHash/
 ${P5SITE}/Hash/AutoHash/Args/
 ${P5SITE}/Hash/AutoHash/Args.pm

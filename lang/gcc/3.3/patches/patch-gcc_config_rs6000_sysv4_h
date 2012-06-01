@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_rs6000_sysv4_h,v 1.1.1.1 2005/01/03 15:21:27 espie Exp $
+$OpenBSD$
 --- gcc/config/rs6000/sysv4.h.orig	Mon Mar 29 21:16:43 2004
 +++ gcc/config/rs6000/sysv4.h	Mon Jan  3 10:17:43 2005
 @@ -197,6 +197,8 @@ do {									\

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/wmnet/patches/patch-wmnet_h,v 1.1 2002/10/01 06:18:24 pvalchev Exp $
+$OpenBSD$
 --- wmnet.h.orig	Fri May  5 07:02:26 2000
 +++ wmnet.h	Thu Sep 12 04:12:27 2002
 @@ -12,6 +12,8 @@

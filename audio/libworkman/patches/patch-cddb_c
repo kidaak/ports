@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libworkman/patches/patch-cddb_c,v 1.1.1.1 2001/02/06 11:50:22 wilfried Exp $
+$OpenBSD$
 --- cddb.c.orig	Thu May 27 08:37:10 1999
 +++ cddb.c	Mon Feb  5 08:54:06 2001
 @@ -73,10 +73,10 @@ void

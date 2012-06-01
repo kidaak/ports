@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmikmod/patches/patch-playercode_mplayer_c,v 1.5 2008/10/23 22:06:28 miod Exp $
+$OpenBSD$
 --- playercode/mplayer.c.orig	Mon Jan 21 21:23:56 2002
 +++ playercode/mplayer.c	Wed Oct 22 19:56:49 2008
 @@ -254,7 +254,7 @@ static int MP_FindEmptyChannel(MODULE *mod)

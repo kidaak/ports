@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/sarg/patches/patch-sarg_conf,v 1.2 2007/05/16 15:59:23 aanriot Exp $
+$OpenBSD$
 --- sarg.conf.orig	Tue Jan  2 17:11:26 2007
 +++ sarg.conf	Wed Apr  4 08:42:21 2007
 @@ -33,7 +33,7 @@

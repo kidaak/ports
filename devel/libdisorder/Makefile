@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libdisorder/Makefile,v 1.2 2011/11/18 11:16:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=	simple C Library for entropy measurement
 

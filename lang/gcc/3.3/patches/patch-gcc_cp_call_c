@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_cp_call_c,v 1.2 2005/10/30 19:24:11 espie Exp $
+$OpenBSD$
 --- gcc/cp/call.c.orig	Mon Apr  4 09:42:15 2005
 +++ gcc/cp/call.c	Sun Oct 30 13:19:46 2005
 @@ -4599,6 +4599,10 @@ build_over_call (cand, args, flags)

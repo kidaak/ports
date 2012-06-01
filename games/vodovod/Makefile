@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/vodovod/Makefile,v 1.6 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	combine pipes to lead water from the house to the tank
 

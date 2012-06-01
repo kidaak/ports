@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/slirp/patches/patch-configure,v 1.1 2002/07/21 20:52:02 naddy Exp $
+$OpenBSD$
 --- configure.orig	Sun Jul 21 22:47:59 2002
 +++ configure	Sun Jul 21 22:48:18 2002
 @@ -545,9 +545,9 @@ CPP="$ac_cv_prog_CPP"

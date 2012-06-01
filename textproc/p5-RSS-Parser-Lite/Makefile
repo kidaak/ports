@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-RSS-Parser-Lite/Makefile,v 1.4 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		simple and pure Perl RSS parser
 

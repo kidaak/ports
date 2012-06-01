@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/qt-creator/patches/patch-src_plugins_projectexplorer_environment_cpp,v 1.1 2010/05/28 12:12:05 espie Exp $
+$OpenBSD$
 --- src/plugins/projectexplorer/environment.cpp.orig	Fri May 28 13:57:03 2010
 +++ src/plugins/projectexplorer/environment.cpp	Fri May 28 13:58:22 2010
 @@ -81,6 +81,12 @@ Environment::Environment(QStringList env)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/xdg-utils/patches/patch-scripts_xdg-icon-resource,v 1.2 2012/04/09 09:39:15 ajacoutot Exp $
+$OpenBSD$
 --- scripts/xdg-icon-resource.orig	Sat Jan  1 11:03:14 2011
 +++ scripts/xdg-icon-resource	Mon Apr  9 10:42:20 2012
 @@ -615,7 +615,7 @@ xdg_user_dir="$xdg_user_dir/$xdg_dir_name"

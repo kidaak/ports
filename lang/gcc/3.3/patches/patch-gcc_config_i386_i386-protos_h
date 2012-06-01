@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_i386_i386-protos_h,v 1.1 2008/08/28 19:04:40 martynas Exp $
+$OpenBSD$
 --- gcc/config/i386/i386-protos.h.orig	Sun Dec 12 23:00:44 2004
 +++ gcc/config/i386/i386-protos.h	Wed Aug 27 06:21:40 2008
 @@ -223,6 +223,7 @@ extern int x86_field_alignment PARAMS ((tree, int));

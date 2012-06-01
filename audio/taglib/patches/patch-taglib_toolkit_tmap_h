@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/taglib/patches/patch-taglib_toolkit_tmap_h,v 1.1 2009/05/03 15:13:53 martynas Exp $
+$OpenBSD$
 --- taglib/toolkit/tmap.h.orig	Mon Feb  4 17:14:45 2008
 +++ taglib/toolkit/tmap.h	Fri May  1 15:23:52 2009
 @@ -27,7 +27,10 @@

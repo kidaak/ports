@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/plugins/emf/pkg/PLIST,v 1.5 2007/05/18 02:32:12 kurt Exp $
+@comment $OpenBSD$
 eclipse/features/org.eclipse.emf.doc_2.2.2.v200705141058/
 eclipse/features/org.eclipse.emf.doc_2.2.2.v200705141058/eclipse_update_120.jpg
 eclipse/features/org.eclipse.emf.doc_2.2.2.v200705141058/epl-v10.html

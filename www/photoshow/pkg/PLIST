@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/photoshow/pkg/PLIST,v 1.2 2012/01/24 09:28:10 ajacoutot Exp $
+@comment $OpenBSD$
 @extraunexec rm -rf %D/photoshow/generated/*
 @extraunexec rm -rf %D/photoshow/photos/*
 photoshow/

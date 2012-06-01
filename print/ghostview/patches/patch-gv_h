@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostview/patches/patch-gv_h,v 1.1 2002/04/26 01:44:08 espie Exp $
+$OpenBSD$
 --- gv.h.orig	Sat Jul 24 04:29:12 1993
 +++ gv.h	Fri Apr 26 02:30:41 2002
 @@ -166,81 +166,100 @@ extern Widget dialogpopup;

@@ -1,6 +1,6 @@
 #! /usr/bin/perl
 
-# $OpenBSD: ports/infrastructure/bin/getpkgpath,v 1.2 2011/06/02 17:00:14 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2006 Marc Espie <espie@openbsd.org>
 #

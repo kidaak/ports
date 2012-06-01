@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/gstreamer-0.10/core/Makefile,v 1.31 2012/03/06 11:39:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		multimedia framework
 

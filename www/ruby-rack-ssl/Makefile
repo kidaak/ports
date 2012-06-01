@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-rack-ssl/Makefile,v 1.1.1.1 2011/12/13 17:39:09 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	force SSL/TLS in your rack app
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/bibelot/Makefile,v 1.6 2007/09/15 19:00:54 steven Exp $
+# $OpenBSD$
 
 COMMENT=	format/convert text documents into compressed .pdb files
 

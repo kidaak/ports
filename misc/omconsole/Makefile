@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/omconsole/Makefile,v 1.7 2011/11/14 17:58:18 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	OpenMoko serial console tool
 

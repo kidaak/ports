@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libkdcraw/pkg/PLIST,v 1.4 2009/09/10 16:43:41 sthen Exp $
+@comment $OpenBSD$
 include/libkdcraw/
 include/libkdcraw/dcrawinfocontainer.h
 include/libkdcraw/dcrawsettingswidget.h

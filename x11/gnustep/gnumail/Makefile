@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/gnumail/Makefile,v 1.14 2011/06/24 10:53:18 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	GNUstep mail application
 

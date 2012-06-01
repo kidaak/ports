@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/wordnet/pkg/PLIST,v 1.2 2008/09/01 20:02:53 sthen Exp $
+@comment $OpenBSD$
 @bin bin/wishwn
 @bin bin/wn
 bin/wnb

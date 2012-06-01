@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/maildrop/pkg/PLIST-utils,v 1.10 2010/02/26 18:52:57 espie Exp $
+@comment $OpenBSD$
 @conflict courier-imap-*
 @pkgpath mail/maildrop,-utils,postfix
 @newgroup _courier:571

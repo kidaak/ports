@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/scm/Makefile,v 1.32 2011/11/12 14:37:16 espie Exp $
+# $OpenBSD$
 # losely based on the FreeBSD port
 
 .for m in alpha powerpc vax sparc sparc64

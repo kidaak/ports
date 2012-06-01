@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/3.3/pkg/PLIST-java,v 1.4 2009/10/10 22:48:29 jasper Exp $
+@comment $OpenBSD$
 @conflict egcs-*-core
 @pkgpath lang/egcs/stable,-java
 bin/${CONFIG}-egcj

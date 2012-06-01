@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-GnuPG-Interface/Makefile,v 1.18 2011/09/17 13:51:52 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	perl5 interface to GnuPG
 

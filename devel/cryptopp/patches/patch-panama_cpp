@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-panama_cpp,v 1.1 2011/06/24 07:55:18 dcoppa Exp $
+$OpenBSD$
 
 Fix for Panama cipher validation failure (upstream rev 526).
 Bug report is about armel, but it has been proven to also prevent

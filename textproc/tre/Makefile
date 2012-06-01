@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/tre/Makefile,v 1.7 2011/04/17 10:07:56 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight regexp matching library with additional features
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/fuse-utils/pkg/PLIST,v 1.6 2009/01/07 18:00:20 grange Exp $
+@comment $OpenBSD$
 @bin bin/audio2tape
 @bin bin/createhdf
 @bin bin/listbasic

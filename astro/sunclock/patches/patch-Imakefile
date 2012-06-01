@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/sunclock/patches/patch-Imakefile,v 1.5 2009/03/23 17:20:33 naddy Exp $
+$OpenBSD$
 --- Imakefile.orig	Sun Jun 18 21:58:50 2006
 +++ Imakefile	Mon Mar 23 17:28:30 2009
 @@ -1,5 +1,5 @@

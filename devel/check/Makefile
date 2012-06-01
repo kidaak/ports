@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/check/Makefile,v 1.5 2009/05/27 20:52:15 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	unit test framework for C programs
 

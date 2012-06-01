@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/balance/Makefile,v 1.14 2011/09/21 17:20:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		tcp proxy with load balancing and failover mechanisms
 

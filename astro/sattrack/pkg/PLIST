@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/astro/sattrack/pkg/PLIST,v 1.5 2009/05/04 10:25:39 sthen Exp $
+@comment $OpenBSD$
 @bin bin/fixchecksum
 bin/getsts
 bin/gettle

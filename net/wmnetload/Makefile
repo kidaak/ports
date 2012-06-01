@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/wmnetload/Makefile,v 1.10 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; simple network interface monitoring tool
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/py-xml/patches/patch-xml_xpath_ParsedAbbreviatedRelativeLocationPath_py,v 1.1 2008/12/16 04:55:09 fgsch Exp $
+$OpenBSD$
 --- xml/xpath/ParsedAbbreviatedRelativeLocationPath.py.orig	Tue Dec 16 04:50:59 2008
 +++ xml/xpath/ParsedAbbreviatedRelativeLocationPath.py	Tue Dec 16 04:51:05 2008
 @@ -28,8 +28,8 @@ class ParsedAbbreviatedRelativeLocationPath:

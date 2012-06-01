@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xwrits/patches/patch-lock_c,v 1.2 2002/05/10 11:16:03 naddy Exp $
+$OpenBSD$
 --- lock.c.orig	Wed May  8 18:55:02 2002
 +++ lock.c	Wed May  8 19:00:23 2002
 @@ -103,7 +103,7 @@ draw_message(const char *message)

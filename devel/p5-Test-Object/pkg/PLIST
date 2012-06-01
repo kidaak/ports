@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Test-Object/pkg/PLIST,v 1.1.1.1 2006/11/14 09:33:13 msf Exp $
+@comment $OpenBSD$
 ${P5SITE}/Test/
 ${P5SITE}/Test/Object/
 ${P5SITE}/Test/Object.pm

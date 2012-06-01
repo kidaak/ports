@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/qimageblitz/Makefile,v 1.5 2010/08/31 08:22:05 jasper Exp $
+# $OpenBSD$
 
 VERSION =		0.0.4
 COMMENT =		image effects for kde

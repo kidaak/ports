@@ -1,10 +1,11 @@
-# $OpenBSD: ports/textproc/icu4c/Makefile,v 1.20 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		International Components for Unicode
 
 VERSION=		4.8.1.1
 DISTNAME=		icu4c-${VERSION:S/./_/g}-src
 PKGNAME=		icu4c-${VERSION}
+REVISION=		0
 SO_VERSION=		4.0
 .for _lib in icudata icui18n icuio icule iculx icutest icutu icuuc
 SHARED_LIBS+=		${_lib} ${SO_VERSION}

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/bro/patches/patch-configure_in,v 1.2 2011/06/02 15:43:05 kili Exp $
+$OpenBSD$
 --- configure.in.orig	Tue Jul 15 02:07:48 2008
 +++ configure.in	Thu Jun  2 17:12:41 2011
 @@ -130,7 +130,7 @@ AC_ARG_WITH(binpac,

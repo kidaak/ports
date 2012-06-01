@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/xlhtml/Makefile,v 1.10 2010/10/23 22:01:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	convert Excel and PowerPoint to HTML
 

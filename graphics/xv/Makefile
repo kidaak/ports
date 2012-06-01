@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/xv/Makefile,v 1.45 2011/08/31 22:28:59 espie Exp $
+# $OpenBSD$
 
 COMMENT=	X11 image display and modification tool
 

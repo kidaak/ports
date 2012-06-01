@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/clusterssh/Makefile,v 1.9 2012/01/26 15:37:48 okan Exp $
+# $OpenBSD$
 
 COMMENT=	secure concurrent multi-server terminal control
 

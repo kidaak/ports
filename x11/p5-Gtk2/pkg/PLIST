@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Gtk2/pkg/PLIST,v 1.6 2010/04/20 17:51:21 ajacoutot Exp $
+@comment $OpenBSD$
 ${P5ARCH}/Gtk2/
 ${P5ARCH}/Gtk2.pm
 ${P5ARCH}/Gtk2/AboutDialog.pod

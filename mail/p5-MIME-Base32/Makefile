@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-MIME-Base32/Makefile,v 1.5 2011/04/03 17:29:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		Base32 encoder/decoder
 

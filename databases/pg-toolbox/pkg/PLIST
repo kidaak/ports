@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/pg-toolbox/pkg/PLIST,v 1.1.1.1 2008/10/22 11:08:09 ajacoutot Exp $
+@comment $OpenBSD$
 bin/dbrelationsize
 bin/dbsize
 bin/dbstat

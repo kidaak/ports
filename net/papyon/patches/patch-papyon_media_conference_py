@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/papyon/patches/patch-papyon_media_conference_py,v 1.1 2012/04/06 08:51:43 jasper Exp $
+$OpenBSD$
 
 
 Migrate to farstream, from fedora's papyon-0.5.6-farstream.patch.

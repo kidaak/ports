@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gupnp/Makefile,v 1.2 2011/07/05 17:03:35 jasper Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += av

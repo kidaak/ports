@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/ruby-actionmailer/pkg/PLIST,v 1.12 2011/12/13 17:53:44 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/CHANGELOG.md

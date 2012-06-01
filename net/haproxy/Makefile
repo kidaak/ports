@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/haproxy/Makefile,v 1.6 2010/11/19 22:31:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	reliable, high performance TCP/HTTP load balancer
 

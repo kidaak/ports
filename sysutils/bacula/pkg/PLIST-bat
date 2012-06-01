@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/bacula/pkg/PLIST-bat,v 1.10 2012/04/03 10:05:47 sthen Exp $
+@comment $OpenBSD$
 @man man/man1/bat.1
 @bin sbin/bat
 @mode 750

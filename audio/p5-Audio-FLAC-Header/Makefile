@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Audio-FLAC-Header/Makefile,v 1.13 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

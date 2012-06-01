@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/qcad/Makefile,v 1.23 2011/12/02 20:58:45 kili Exp $
+# $OpenBSD$
 
 COMMENT=	Qt-based 2D CAD system
 

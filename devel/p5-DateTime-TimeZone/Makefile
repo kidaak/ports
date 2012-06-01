@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-TimeZone/Makefile,v 1.13 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		DateTime submodule for TZ
 

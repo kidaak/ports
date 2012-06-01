@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/llgal/Makefile,v 1.7 2012/03/31 08:35:12 steven Exp $
+# $OpenBSD$
 
 COMMENT=	command-line online gallery generator
 

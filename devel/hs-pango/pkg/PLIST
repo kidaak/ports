@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-pango/pkg/PLIST,v 1.4 2011/04/11 14:38:19 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Graphics/
 lib/ghc/${DISTNAME}/Graphics/Rendering/

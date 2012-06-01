@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/gtk3mm-documentation/Makefile,v 1.9 2012/04/16 11:56:10 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	documentation for gtk3mm
 

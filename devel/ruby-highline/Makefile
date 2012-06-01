@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-highline/Makefile,v 1.11 2012/01/22 16:46:41 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =		high-level IO library for Ruby
 

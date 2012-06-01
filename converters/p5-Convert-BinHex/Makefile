@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Convert-BinHex/Makefile,v 1.7 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to extract data from Macintosh BinHex files
 

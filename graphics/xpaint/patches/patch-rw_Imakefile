@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/xpaint/patches/patch-rw_Imakefile,v 1.1 2010/08/23 17:25:47 jasper Exp $
+$OpenBSD$
 --- rw/Imakefile.orig	Mon Aug 23 18:39:05 2010
 +++ rw/Imakefile	Mon Aug 23 18:39:09 2010
 @@ -34,7 +34,7 @@ XPM_SRC = readWriteXPM.c

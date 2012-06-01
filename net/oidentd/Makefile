@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/oidentd/Makefile,v 1.18 2011/03/26 10:01:08 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	ident daemon with custom responses and NAT support
 DISTNAME=	oidentd-2.0.7

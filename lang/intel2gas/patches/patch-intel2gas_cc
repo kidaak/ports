@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/intel2gas/patches/patch-intel2gas_cc,v 1.1 2010/06/08 07:36:20 espie Exp $
+$OpenBSD$
 --- intel2gas.cc.orig	Tue Jun  8 09:34:27 2010
 +++ intel2gas.cc	Tue Jun  8 09:34:53 2010
 @@ -57,7 +57,7 @@ syntaxlist_t *findSyntax(char const *name)

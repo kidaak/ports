@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/postgis/Makefile,v 1.11 2011/09/21 14:13:32 pea Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

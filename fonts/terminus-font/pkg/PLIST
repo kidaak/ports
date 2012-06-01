@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/terminus-font/pkg/PLIST,v 1.2 2011/07/21 08:02:44 sthen Exp $
+@comment $OpenBSD$
 @pkgpath x11/terminus-font
 lib/X11/fonts/
 @fontdir lib/X11/fonts/terminus/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/tomcat/v6/pkg/PLIST-examples,v 1.6 2011/12/13 09:28:37 dcoppa Exp $
+@comment $OpenBSD$
 @conflict jakarta-tomcat-examples-*
 @pkgpath www/jakarta-tomcat/v6,-examples
 @owner _tomcat

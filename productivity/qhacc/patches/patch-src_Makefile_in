@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/qhacc/patches/patch-src_Makefile_in,v 1.2 2009/06/07 00:08:32 jasper Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Mon May 30 19:08:33 2005
 +++ src/Makefile.in	Tue Jun  2 11:49:45 2009
 @@ -249,9 +249,9 @@ qhacc_cli_SOURCES = qhacccli.cpp

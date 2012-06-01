@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/drupal6/phpmailer/patches/patch-phpmailer_class_phpmailer_php,v 1.1.1.1 2009/10/27 11:14:37 sthen Exp $
+$OpenBSD$
 --- phpmailer/class.phpmailer.php.orig	Sat Nov  8 17:23:04 2008
 +++ phpmailer/class.phpmailer.php	Fri Apr 24 21:53:37 2009
 @@ -278,9 +278,9 @@ class PHPMailer {

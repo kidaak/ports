@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/poppler-data/Makefile,v 1.10 2011/11/26 19:51:13 kili Exp $
+# $OpenBSD$
 
 COMMENT =		encoding files for poppler
 DISTNAME =		poppler-data-0.4.5

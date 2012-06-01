@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-gui_simple-greeter_gdm-remote-login-window_c,v 1.1 2011/09/12 07:39:21 ajacoutot Exp $
+$OpenBSD$
 --- gui/simple-greeter/gdm-remote-login-window.c.orig	Thu Jun 16 15:32:08 2011
 +++ gui/simple-greeter/gdm-remote-login-window.c	Thu Jun 16 15:32:22 2011
 @@ -25,6 +25,7 @@

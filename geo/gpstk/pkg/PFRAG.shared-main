@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/gpstk/pkg/PFRAG.shared-main,v 1.1.1.1 2008/06/07 23:27:17 ckuethe Exp $
+@comment $OpenBSD$
 @lib lib/libbase.so.${LIBbase_VERSION}
 @lib lib/libgeomatics.so.${LIBgeomatics_VERSION}
 @lib lib/libgpstk.so.${LIBgpstk_VERSION}

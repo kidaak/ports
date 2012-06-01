@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Rose-HTMLx-Form-Field-Autocomplete/pkg/PLIST,v 1.1.1.1 2007/04/16 20:50:43 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Rose/HTMLx/
 ${P5SITE}/Rose/HTMLx/Form/
 ${P5SITE}/Rose/HTMLx/Form/Field/

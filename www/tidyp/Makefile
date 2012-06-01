@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/tidyp/Makefile,v 1.5 2011/04/05 15:33:14 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	validate, correct and pretty-print HTML
 

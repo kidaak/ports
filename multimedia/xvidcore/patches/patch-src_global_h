@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xvidcore/patches/patch-src_global_h,v 1.2 2011/03/20 23:49:33 edd Exp $
+$OpenBSD$
 --- src/global.h.orig	Sun Nov 28 10:18:21 2010
 +++ src/global.h	Sat Mar  5 16:34:26 2011
 @@ -251,8 +251,12 @@ get_dc_scaler(uint32_t quant,

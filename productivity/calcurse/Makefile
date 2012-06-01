@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/calcurse/Makefile,v 1.13 2011/11/06 08:51:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	text-based calendar and scheduling application
 

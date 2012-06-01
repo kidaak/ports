@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/pinfo/patches/patch-src_utils_c,v 1.2 2007/11/19 18:31:03 mgrimm Exp $
+$OpenBSD$
 --- src/utils.c.orig	Sun Jul  8 17:12:56 2007
 +++ src/utils.c	Sun Jul  8 17:19:18 2007
 @@ -553,6 +553,10 @@ handlewinch()

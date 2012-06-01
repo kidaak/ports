@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libao/Makefile,v 1.49 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	portable audio output library
 

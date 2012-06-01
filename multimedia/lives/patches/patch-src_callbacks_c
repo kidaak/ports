@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/lives/patches/patch-src_callbacks_c,v 1.1.1.1 2011/11/16 16:52:01 phessler Exp $
+$OpenBSD$
 --- src/callbacks.c.orig	Wed Nov 16 11:02:32 2011
 +++ src/callbacks.c	Wed Nov 16 11:02:43 2011
 @@ -3598,7 +3598,7 @@ gboolean on_load_set_ok (GtkButton *button, gpointer u

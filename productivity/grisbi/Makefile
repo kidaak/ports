@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/grisbi/Makefile,v 1.24 2011/12/20 09:32:44 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	personal accounting application
 SHARED_ONLY =	Yes

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/py-kiwi/pkg/PLIST,v 1.2 2011/03/22 10:36:15 jasper Exp $
+@comment $OpenBSD$
 bin/kiwi-i18n
 bin/kiwi-ui-test
 lib/python${MODPY_VERSION}/dist-packages/

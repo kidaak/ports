@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/moodle/Makefile,v 1.20 2012/01/20 22:18:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	learning management system
 

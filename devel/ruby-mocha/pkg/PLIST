@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-mocha/pkg/PLIST,v 1.9 2011/11/17 15:41:11 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/.gemtest

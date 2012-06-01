@@ -1,9 +1,9 @@
-# $OpenBSD: ports/security/gnomint/Makefile,v 1.9 2012/03/15 13:39:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	X.509 Certification Authority management tool
 
 DISTNAME=	gnomint-1.2.1
-REVISION=	7
+REVISION=	8
 
 CATEGORIES=	security x11
 
@@ -37,7 +37,6 @@ RUN_DEPENDS=	misc/shared-mime-info \
 		devel/desktop-file-utils
 
 LIB_DEPENDS=	security/gnutls \
-		databases/sqlite3 \
 		security/libgcrypt \
 		x11/gtk+2
 

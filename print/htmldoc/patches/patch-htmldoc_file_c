@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/htmldoc/patches/patch-htmldoc_file_c,v 1.4 2007/05/02 18:34:00 ajacoutot Exp $
+$OpenBSD$
 --- htmldoc/file.c.orig	Wed May 31 21:00:02 2006
 +++ htmldoc/file.c	Wed May  2 16:56:21 2007
 @@ -78,7 +78,7 @@

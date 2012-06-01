@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/olsrd/patches/patch-src_plugin_loader_c,v 1.1 2010/06/14 12:36:34 sebastia Exp $
+$OpenBSD$
 the plugins get installed to $LOCALBASE/lib/olsrd-plugins, so load them from there.
 --- src/plugin_loader.c.orig	Tue Jun  1 09:42:27 2010
 +++ src/plugin_loader.c	Tue Jun  1 09:43:13 2010

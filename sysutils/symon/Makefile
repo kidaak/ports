@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/symon/Makefile,v 1.53 2012/04/05 14:33:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=		active monitoring tool
 

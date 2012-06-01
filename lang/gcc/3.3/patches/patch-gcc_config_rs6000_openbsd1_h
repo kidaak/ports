@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_rs6000_openbsd1_h,v 1.1.1.1 2005/01/03 15:21:27 espie Exp $
+$OpenBSD$
 --- gcc/config/rs6000/openbsd1.h.orig	Mon Jan  3 10:17:43 2005
 +++ gcc/config/rs6000/openbsd1.h	Mon Jan  3 10:17:43 2005
 @@ -0,0 +1,24 @@

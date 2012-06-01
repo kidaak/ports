@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/ha/Makefile,v 1.27 2010/07/11 15:57:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	archive files using the HSC compression method
 

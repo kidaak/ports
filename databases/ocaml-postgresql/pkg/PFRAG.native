@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/databases/ocaml-postgresql/pkg/PFRAG.native,v 1.2 2004/07/23 14:15:04 avsm Exp $
+@comment $OpenBSD$
 lib/ocaml/postgresql/postgresql.a
 lib/ocaml/postgresql/postgresql.cmxa

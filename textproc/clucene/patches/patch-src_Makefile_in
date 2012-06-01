@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/clucene/patches/patch-src_Makefile_in,v 1.1 2010/09/24 18:40:15 steven Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Fri Sep 24 20:12:24 2010
 +++ src/Makefile.in	Fri Sep 24 20:12:47 2010
 @@ -281,7 +281,7 @@ target_alias = @target_alias@

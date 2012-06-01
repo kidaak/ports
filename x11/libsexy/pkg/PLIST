@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/libsexy/pkg/PLIST,v 1.1.1.1 2007/06/14 19:20:10 steven Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libsexy/
 include/libsexy/sexy-enum-types.h

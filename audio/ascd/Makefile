@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/ascd/Makefile,v 1.23 2011/05/09 17:08:00 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: ports/audio/ascd/Makefile,v 1.17 2000/09/25 12:21:17 asami Exp $
 
 COMMENT= 		cd player for Afterstep or Window Maker

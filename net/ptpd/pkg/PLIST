@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ptpd/pkg/PLIST,v 1.1.1.1 2009/01/20 19:05:23 naddy Exp $
+@comment $OpenBSD$
 @man man/man8/ptpd.8
 @bin sbin/ptpd
 share/doc/ptpd/

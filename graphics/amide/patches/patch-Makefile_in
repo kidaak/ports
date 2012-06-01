@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/amide/patches/patch-Makefile_in,v 1.2 2011/05/15 21:16:06 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Dec  9 07:35:18 2009
 +++ Makefile.in	Sun May 15 23:15:55 2011
 @@ -277,7 +277,7 @@ top_build_prefix = @top_build_prefix@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-heartbeat_lib_hb_setweight_in,v 1.1.1.1 2007/11/21 18:48:39 ajacoutot Exp $
+$OpenBSD$
 --- heartbeat/lib/hb_setweight.in.orig	Thu Oct 25 09:40:41 2007
 +++ heartbeat/lib/hb_setweight.in	Mon Nov 12 11:13:26 2007
 @@ -1,4 +1,4 @@

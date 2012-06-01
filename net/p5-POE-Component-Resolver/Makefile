@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-POE-Component-Resolver/Makefile,v 1.1.1.1 2011/05/11 18:59:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		non-blocking getaddrinfo() resolver
 

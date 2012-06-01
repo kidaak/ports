@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/cups/patches/patch-desktop_cups_desktop_in,v 1.1 2011/04/28 17:21:17 ajacoutot Exp $
+$OpenBSD$
 --- desktop/cups.desktop.in.orig	Thu Apr 28 18:58:36 2011
 +++ desktop/cups.desktop.in	Thu Apr 28 18:58:51 2011
 @@ -1,7 +1,7 @@

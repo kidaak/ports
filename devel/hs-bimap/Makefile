@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-bimap/Makefile,v 1.3 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=		bidirectional mapping between two key types
 

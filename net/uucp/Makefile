@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/uucp/Makefile,v 1.19 2010/10/18 21:50:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	UUCP suite
 

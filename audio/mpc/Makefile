@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mpc/Makefile,v 1.12 2012/03/04 16:57:19 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=		command line client for mpd
 

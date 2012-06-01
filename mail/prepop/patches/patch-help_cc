@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/prepop/patches/patch-help_cc,v 1.1 2004/01/24 22:26:07 naddy Exp $
+$OpenBSD$
 --- help.cc.orig	2004-01-24 23:08:33.000000000 +0100
 +++ help.cc	2004-01-24 23:11:49.000000000 +0100
 @@ -6,31 +6,31 @@ help::help() {

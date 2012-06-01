@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ruby-sanitize/pkg/PLIST,v 1.1.1.1 2011/06/27 06:45:04 jasper Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/HISTORY.md

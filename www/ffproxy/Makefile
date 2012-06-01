@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ffproxy/Makefile,v 1.13 2012/03/16 22:01:37 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	filtering HTTP proxy server
 DISTNAME=	ffproxy-1.6

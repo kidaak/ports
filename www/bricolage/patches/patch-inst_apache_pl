@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-inst_apache_pl,v 1.2 2007/09/21 21:17:56 sturm Exp $
+$OpenBSD$
 --- inst/apache.pl.orig	Thu Aug  3 00:48:16 2006
 +++ inst/apache.pl	Fri Sep 21 08:08:26 2007
 @@ -239,12 +239,10 @@ sub check_modules {

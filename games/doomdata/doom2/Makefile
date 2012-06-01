@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/doomdata/doom2/Makefile,v 1.2 2012/03/23 09:05:23 rfreeman Exp $
+# $OpenBSD$
 
 COMMENT =		DOOM II data files
 

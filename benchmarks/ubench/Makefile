@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/ubench/Makefile,v 1.6 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Unix benchmark utility
 

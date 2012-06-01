@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/whowatch/Makefile,v 1.16 2012/02/21 16:21:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interactive utility that displays info about online users
 

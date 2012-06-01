@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/smtp-vilter/patches/patch-bin_smtp-vilter_parse_y,v 1.1 2009/11/26 14:02:58 jasper Exp $
+$OpenBSD$
 --- bin/smtp-vilter/parse.y.orig	Sun Jan 21 13:09:38 2007
 +++ bin/smtp-vilter/parse.y	Fri Oct 23 16:37:45 2009
 @@ -20,6 +20,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tkcon/Makefile,v 1.6 2011/01/05 16:48:22 stu Exp $
+# $OpenBSD$
 
 COMMENT =		enhanced Tk console
 

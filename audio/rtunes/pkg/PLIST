@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/rtunes/pkg/PLIST,v 1.5 2011/06/23 22:50:27 naddy Exp $
+@comment $OpenBSD$
 @bin bin/rtunes
 lib/librtunes.a
 @man man/man1/rtunes.1

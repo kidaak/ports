@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-config_rules_mk,v 1.1 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- config/rules.mk.orig	Wed Jul  7 11:48:43 2010
 +++ config/rules.mk	Wed Jul  7 11:49:28 2010
 @@ -605,6 +605,12 @@ endif

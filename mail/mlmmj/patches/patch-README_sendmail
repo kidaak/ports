@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mlmmj/patches/patch-README_sendmail,v 1.1 2008/06/19 20:41:12 simon Exp $
+$OpenBSD$
 --- README.sendmail.orig	Thu Jun 19 07:35:27 2008
 +++ README.sendmail	Thu Jun 19 07:48:08 2008
 @@ -1,3 +1,11 @@

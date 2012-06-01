@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-testtools_source_bridgetest_makefile_mk,v 1.1 2012/04/03 08:56:50 robert Exp $
+$OpenBSD$
 --- testtools/source/bridgetest/makefile.mk.orig.port	Fri Mar 30 09:19:21 2012
 +++ testtools/source/bridgetest/makefile.mk	Fri Mar 30 09:19:43 2012
 @@ -146,7 +146,7 @@ ALLTAR: \

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/fedora/cups/Makefile,v 1.2 2010/11/15 23:22:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Linux CUPS package based on Fedora Core 4
 

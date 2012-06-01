@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/sphinx/patches/patch-Makefile_in,v 1.2 2009/03/22 15:53:21 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Jun  8 10:57:36 2008
 +++ Makefile.in	Fri Mar 20 12:04:00 2009
 @@ -239,12 +239,12 @@ sphinx-min.conf.dist: $(top_builddir)/config.status $(

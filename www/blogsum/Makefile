@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/blogsum/Makefile,v 1.6 2011/06/02 13:41:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		simple weblog
 

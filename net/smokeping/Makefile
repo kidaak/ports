@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/smokeping/Makefile,v 1.25 2010/11/19 22:31:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=	latency logging and graphing system
 

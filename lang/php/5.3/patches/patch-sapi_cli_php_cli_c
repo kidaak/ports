@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/php/5.3/patches/patch-sapi_cli_php_cli_c,v 1.4 2012/01/13 18:02:54 sthen Exp $
+$OpenBSD$
 --- sapi/cli/php_cli.c.orig.port	Fri Jan 13 18:01:57 2012
 +++ sapi/cli/php_cli.c	Fri Jan 13 18:01:59 2012
 @@ -656,6 +656,7 @@ int main(int argc, char *argv[])

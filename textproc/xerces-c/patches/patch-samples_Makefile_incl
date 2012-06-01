@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xerces-c/patches/patch-samples_Makefile_incl,v 1.1.1.1 2008/10/26 23:15:18 ajacoutot Exp $
+$OpenBSD$
 --- samples/Makefile.incl.orig	Sun Oct 26 19:46:07 2008
 +++ samples/Makefile.incl	Sun Oct 26 19:47:14 2008
 @@ -284,6 +284,20 @@ ifeq (${PLATFORM}, NETBSD)

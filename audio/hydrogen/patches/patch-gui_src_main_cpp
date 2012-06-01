@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/hydrogen/patches/patch-gui_src_main_cpp,v 1.1 2010/01/11 05:11:32 jakemsr Exp $
+$OpenBSD$
 --- gui/src/main.cpp.orig	Fri Jan  1 21:17:50 2010
 +++ gui/src/main.cpp	Fri Jan  1 21:22:45 2010
 @@ -219,6 +219,9 @@ int main(int argc, char *argv[])

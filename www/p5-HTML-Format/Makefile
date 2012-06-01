@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Format/Makefile,v 1.16 2011/11/12 20:01:56 dhill Exp $
+# $OpenBSD$
 
 COMMENT=	HTML text formating class
 

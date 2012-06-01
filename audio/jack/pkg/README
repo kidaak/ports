@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/jack/pkg/README,v 1.4 2012/01/24 08:03:52 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

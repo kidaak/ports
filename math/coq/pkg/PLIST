@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/coq/pkg/PLIST,v 1.4 2004/09/15 09:11:59 espie Exp $
+@comment $OpenBSD$
 bin/coq-interface
 bin/coq-tex
 bin/coq_makefile

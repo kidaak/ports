@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-errand/Makefile,v 1.6 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =	bindings for RRD functions
 

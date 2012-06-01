@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/Makefile,v 1.18 2010/02/01 17:00:14 espie Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += core

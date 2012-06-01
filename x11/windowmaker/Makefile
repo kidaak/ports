@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/windowmaker/Makefile,v 1.83 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=		window manager that emulates NEXTSTEP(tm)
 COMMENT-lang=		language subpackage for Window Maker

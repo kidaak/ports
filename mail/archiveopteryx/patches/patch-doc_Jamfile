@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/archiveopteryx/patches/patch-doc_Jamfile,v 1.1.1.1 2011/01/09 09:36:21 landry Exp $
+$OpenBSD$
 --- doc/Jamfile.orig	Sun Apr 11 11:09:31 2010
 +++ doc/Jamfile	Sun Apr 11 11:09:41 2010
 @@ -26,4 +26,4 @@ Man 5 : archiveopteryx.conf.man aoxsuper.conf.man ;

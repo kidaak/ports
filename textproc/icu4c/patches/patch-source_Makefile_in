@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/icu4c/patches/patch-source_Makefile_in,v 1.5 2011/06/14 10:12:48 ajacoutot Exp $
+$OpenBSD$
 --- source/Makefile.in.orig	Mon May 23 23:59:04 2011
 +++ source/Makefile.in	Tue Jun  7 14:42:15 2011
 @@ -280,8 +280,8 @@ $(top_builddir)/config/pkgdataMakefile:

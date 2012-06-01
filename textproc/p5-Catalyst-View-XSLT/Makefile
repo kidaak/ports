@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Catalyst-View-XSLT/Makefile,v 1.10 2012/04/08 22:04:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	XSLT Views for catalyst
 

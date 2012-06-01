@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-virtualenv/Makefile,v 1.5 2011/12/30 07:35:59 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =		virtual Python environment builder
 

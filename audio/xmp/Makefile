@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmp/Makefile,v 1.48 2012/03/22 13:32:55 dcoppa Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

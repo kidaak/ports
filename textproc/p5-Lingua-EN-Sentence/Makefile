@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-EN-Sentence/Makefile,v 1.1.1.1 2012/03/04 20:04:54 landry Exp $
+# $OpenBSD$
 
 COMMENT=		module to split text into sentences
 

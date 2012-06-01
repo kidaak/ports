@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-rack-mount/Makefile,v 1.4 2011/12/13 17:59:06 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		stackable dynamic tree based Rack router
 

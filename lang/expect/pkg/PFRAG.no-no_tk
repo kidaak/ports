@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/expect/pkg/PFRAG.no-no_tk,v 1.6 2009/03/11 20:11:30 sthen Exp $
+@comment $OpenBSD$
 @bin bin/expectk
 bin/multixterm
 bin/tknewsbiff

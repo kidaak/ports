@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/asterisk/patches/patch-contrib_scripts_safe_asterisk,v 1.13 2011/07/12 19:54:39 sthen Exp $
+$OpenBSD$
 
 - more useful defaults
 - create /var/run/asterisk with sane ownership/perms

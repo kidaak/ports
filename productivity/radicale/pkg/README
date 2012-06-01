@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/radicale/pkg/README,v 1.4 2011/08/22 08:43:54 sthen Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/squeak/image/Makefile,v 1.7 2010/11/17 08:05:18 espie Exp $
+# $OpenBSD$
 
 
 COMMENT =	smalltalk system, basic runtime image

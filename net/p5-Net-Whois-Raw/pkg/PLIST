@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Whois-Raw/pkg/PLIST,v 1.5 2008/09/24 16:19:14 jasper Exp $
+@comment $OpenBSD$
 bin/pwhois
 ${P5SITE}/Net/Whois/
 ${P5SITE}/Net/Whois/Raw/

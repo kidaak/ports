@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/qca-ossl/patches/patch-qca-ossl_cpp,v 1.1.1.1 2012/01/07 16:55:13 shadchin Exp $
+$OpenBSD$
 Looks like MD2 isn't shipped with our OpenSSL.
 --- qca-ossl.cpp.orig	Tue Dec 11 09:34:57 2007
 +++ qca-ossl.cpp	Mon Oct 17 23:08:21 2011

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/bladeenc/files/Makefile,v 1.1.1.1 1999/08/02 05:15:46 brad Exp $
+# $OpenBSD$
 
 PROG=	bladeenc
 MAN=	# empty

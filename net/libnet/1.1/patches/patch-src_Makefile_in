@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnet/1.1/patches/patch-src_Makefile_in,v 1.4 2008/11/08 22:09:40 sthen Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Mar 11 18:50:20 2004
 +++ src/Makefile.in	Sat Nov  8 22:07:59 2008
 @@ -43,10 +43,10 @@ datadir = @datadir@

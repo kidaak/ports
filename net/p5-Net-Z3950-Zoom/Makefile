@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Z3950-Zoom/Makefile,v 1.14 2010/12/03 11:45:43 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 COMMENT=	perl interface to yaz zoom

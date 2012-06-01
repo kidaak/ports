@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-chrome_browser_chrome_browser_main_posix_cc,v 1.2 2012/02/17 10:19:50 robert Exp $
+$OpenBSD$
 --- chrome/browser/chrome_browser_main_posix.cc.orig	Fri Jan 27 09:02:34 2012
 +++ chrome/browser/chrome_browser_main_posix.cc	Wed Feb 15 16:42:39 2012
 @@ -210,7 +210,7 @@ void ChromeBrowserMainPartsPosix::PreEarlyInitializati

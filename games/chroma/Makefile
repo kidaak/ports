@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/chroma/Makefile,v 1.1.1.1 2010/12/09 21:19:29 landry Exp $
+# $OpenBSD$
 
 COMMENT =	abstract puzzle game
 

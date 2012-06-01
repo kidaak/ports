@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/august/pkg/PLIST,v 1.2 2004/09/15 18:49:48 espie Exp $
+@comment $OpenBSD$
 bin/august
 share/doc/august/
 share/doc/august/specchars.txt

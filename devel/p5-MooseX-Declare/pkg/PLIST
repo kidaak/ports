@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Declare/pkg/PLIST,v 1.2 2011/10/29 16:43:57 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/Declare/
 ${P5SITE}/MooseX/Declare.pm
 ${P5SITE}/MooseX/Declare/Context/

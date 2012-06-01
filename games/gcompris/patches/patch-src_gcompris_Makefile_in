@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/gcompris/patches/patch-src_gcompris_Makefile_in,v 1.6 2011/11/18 11:14:39 ajacoutot Exp $
+$OpenBSD$
 
 We need the bundled libgoocanvas because the one in ports misses some
 functions. However, we need to rename it to prevent undefined refs.

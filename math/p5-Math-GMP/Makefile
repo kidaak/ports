@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-GMP/Makefile,v 1.24 2011/06/01 17:04:59 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

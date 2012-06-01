@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/nethack/pkg/PFRAG.no-no_x11,v 1.5 2004/09/15 19:08:47 espie Exp $
+@comment $OpenBSD$
 !%%qt%%
 ${GAMEDIR}/pet_mark.xbm
 ${GAMEDIR}/rip.xpm

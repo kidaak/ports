@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Template/pkg/PLIST,v 1.5 2009/08/07 10:35:37 sthen Exp $
+@comment $OpenBSD$
 bin/tpage
 bin/ttree
 ${P5ARCH}/

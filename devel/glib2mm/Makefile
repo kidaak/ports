@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/glib2mm/Makefile,v 1.54 2012/04/10 13:54:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C++ interface for glib2
 

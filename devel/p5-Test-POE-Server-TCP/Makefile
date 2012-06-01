@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-POE-Server-TCP/Makefile,v 1.4 2011/04/08 14:51:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	POE component providing TCP server services for test cases
 

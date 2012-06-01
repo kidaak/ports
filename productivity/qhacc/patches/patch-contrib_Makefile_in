@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/qhacc/patches/patch-contrib_Makefile_in,v 1.1 2009/06/07 00:08:32 jasper Exp $
+$OpenBSD$
 --- contrib/Makefile.in.orig	Tue Jun  2 11:49:21 2009
 +++ contrib/Makefile.in	Tue Jun  2 11:49:33 2009
 @@ -215,7 +215,7 @@ sysconfdir = @sysconfdir@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/lighttpd/patches/patch-src_buffer_c,v 1.1 2012/04/09 07:02:12 ajacoutot Exp $
+$OpenBSD$
 
 Always convert letters to lowercase to get transitive results.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-liquid/Makefile,v 1.3 2011/09/16 11:41:42 espie Exp $
+# $OpenBSD$
 
 COMMENT =	safe, customer facing template language
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/gxemul/Makefile,v 1.29 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=		ARM/M88k/MIPS/PowerPC/SuperH machines emulator
 

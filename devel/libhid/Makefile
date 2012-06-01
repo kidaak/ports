@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libhid/Makefile,v 1.6 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	user-space USB HID access library written in C
 

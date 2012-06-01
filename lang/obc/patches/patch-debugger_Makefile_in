@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/obc/patches/patch-debugger_Makefile_in,v 1.1.1.1 2011/01/15 13:07:50 jasper Exp $
+$OpenBSD$
 --- debugger/Makefile.in.orig	Fri Jan  7 19:11:07 2011
 +++ debugger/Makefile.in	Thu Jan 13 03:00:28 2011
 @@ -54,10 +54,11 @@ LABLGTK2 = @LABLGTK2@

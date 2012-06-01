@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pyflakes/Makefile,v 1.3 2011/09/27 08:55:08 mpi Exp $
+# $OpenBSD$
 
 COMMENT =		passive checker of Python programs
 

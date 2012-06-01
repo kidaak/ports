@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-agent_mibgroup_ucd-snmp_disk_hw_c,v 1.1 2011/11/28 22:40:25 sthen Exp $
+$OpenBSD$
 
 chunk 0 - bug #3434824: SIGSEGV when reading disk directive after SIGHUP
 chunk 1 - 9aa1e70: off-by-one in dskIndex

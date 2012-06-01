@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/STk/Makefile,v 1.41 2011/12/30 21:46:01 sthen Exp $
+# $OpenBSD$
 
 BROKEN-sparc64=	fails in mpn_dm_1.c, error: lvalue required in asm statement
 

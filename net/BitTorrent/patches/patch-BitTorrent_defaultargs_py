@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/BitTorrent/patches/patch-BitTorrent_defaultargs_py,v 1.6 2006/05/08 13:46:48 naddy Exp $
+$OpenBSD$
 --- BitTorrent/defaultargs.py.orig	Sun Apr  9 16:23:08 2006
 +++ BitTorrent/defaultargs.py	Sun Apr  9 16:23:30 2006
 @@ -31,7 +31,7 @@ import os

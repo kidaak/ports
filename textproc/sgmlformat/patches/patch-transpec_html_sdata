@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/sgmlformat/patches/patch-transpec_html_sdata,v 1.1 2007/10/26 21:29:30 jasper Exp $
+$OpenBSD$
 --- transpec/html.sdata.orig	Wed Jul 16 18:19:53 1997
 +++ transpec/html.sdata	Fri Oct 26 23:26:36 2007
 @@ -80,13 +80,14 @@ Enhancement by John R Fieber, 1996

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/coreutils/pkg/PLIST,v 1.1.1.1 2012/03/20 16:34:07 naddy Exp $
+@comment $OpenBSD$
 @conflict fileutils-*
 @conflict sh-utils-*
 @conflict textutils-*

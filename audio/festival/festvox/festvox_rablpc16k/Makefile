@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/festvox/festvox_rablpc16k/Makefile,v 1.2 2007/09/15 22:27:39 simon Exp $
+# $OpenBSD$
 
 COMMENT=	British English RP male speaker (RAB) at 16KHz sampling
 DISTNAME=	festvox_rablpc16k

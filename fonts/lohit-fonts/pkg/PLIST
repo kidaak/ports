@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/lohit-fonts/pkg/PLIST,v 1.1.1.1 2011/12/16 20:15:06 naddy Exp $
+@comment $OpenBSD$
 lib/X11/fonts/
 @fontdir lib/X11/fonts/lohit/
 lib/X11/fonts/lohit/Lohit-Assamese.ttf

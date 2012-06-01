@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Tie-ToObject/Makefile,v 1.6 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	tie to an existing object
 

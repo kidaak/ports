@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/daapd/patches/patch-libhttpd_Site_mm_in,v 1.1.1.1 2005/01/21 06:49:11 jolan Exp $
+$OpenBSD$
 --- libhttpd/Site.mm.in.orig	Tue Jan  4 17:18:47 2005
 +++ libhttpd/Site.mm.in	Thu Jan 20 23:12:35 2005
 @@ -37,5 +37,5 @@ EXTRA_LIBS= 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/png/patches/patch-scripts_makefile_openbsd,v 1.38 2012/03/30 18:58:03 naddy Exp $
+$OpenBSD$
 --- scripts/makefile.openbsd.orig	Thu Mar 29 07:06:56 2012
 +++ scripts/makefile.openbsd	Fri Mar 30 20:00:16 2012
 @@ -7,8 +7,10 @@

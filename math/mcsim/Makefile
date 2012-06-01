@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/mcsim/Makefile,v 1.12 2010/07/18 10:50:12 steven Exp $
+# $OpenBSD$
 
 COMMENT=	monte carlo simulation software
 

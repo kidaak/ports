@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-writerfilter_Module_writerfilter_mk,v 1.1 2012/04/03 08:56:50 robert Exp $
+$OpenBSD$
 --- writerfilter/Module_writerfilter.mk.orig.port	Fri Mar 30 11:02:33 2012
 +++ writerfilter/Module_writerfilter.mk	Fri Mar 30 11:02:40 2012
 @@ -37,11 +37,6 @@ $(eval $(call gb_Module_add_targets,writerfilter,\

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/arm-elf/gdb/patches/patch-libiberty_Makefile_in,v 1.2 2010/10/22 15:20:21 jasper Exp $
+$OpenBSD$
 --- libiberty/Makefile.in.orig	Fri Oct  2 20:22:57 2009
 +++ libiberty/Makefile.in	Thu Oct 14 13:59:51 2010
 @@ -321,7 +321,7 @@ libiberty.html : $(srcdir)/libiberty.texi $(TEXISRC)

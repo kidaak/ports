@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/gsnmp/pkg/PFRAG.shared,v 1.1.1.1 2010/04/24 16:34:20 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libgsnmp.so.${LIBgsnmp_VERSION}

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/goffice/patches/patch-configure,v 1.1 2012/03/23 09:44:44 ajacoutot Exp $
+$OpenBSD$
 
 Matches 'UTF-8 and UTF-16 support'.
 

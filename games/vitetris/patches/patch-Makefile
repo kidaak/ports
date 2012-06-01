@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/vitetris/patches/patch-Makefile,v 1.2 2009/04/01 08:30:45 martin Exp $
+$OpenBSD$
 --- Makefile.orig	Sat Sep 13 11:45:37 2008
 +++ Makefile	Mon Mar 30 20:59:06 2009
 @@ -1,11 +1,11 @@

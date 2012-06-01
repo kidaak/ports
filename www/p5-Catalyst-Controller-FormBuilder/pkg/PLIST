@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Catalyst-Controller-FormBuilder/pkg/PLIST,v 1.2 2012/04/08 21:58:07 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Controller/
 ${P5SITE}/Catalyst/Controller/FormBuilder/
 ${P5SITE}/Catalyst/Controller/FormBuilder.pm

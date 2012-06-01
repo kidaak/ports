@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/quake/pkg/PLIST-main,v 1.5 2011/07/11 16:33:06 jasper Exp $
+@comment $OpenBSD$
 @pkgpath ${BASE_PKGPATH},-main[,sdl][,ggi][,x11][,gl]
 @bin bin/bsp2img
 @comment @bin bin/hw-master

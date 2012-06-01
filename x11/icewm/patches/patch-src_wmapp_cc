@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/icewm/patches/patch-src_wmapp_cc,v 1.8 2010/12/12 19:13:01 jasper Exp $
+$OpenBSD$
 --- src/wmapp.cc.orig	Sun Oct 31 15:09:36 2010
 +++ src/wmapp.cc	Thu Dec  9 16:20:33 2010
 @@ -219,7 +219,7 @@ static void registerProtocols2(Window xid) {

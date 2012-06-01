@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-configure_in,v 1.7 2011/12/15 23:05:44 nigel Exp $
+$OpenBSD$
 --- configure.in.orig	Wed Apr 20 22:26:00 2011
 +++ configure.in	Wed Dec 14 16:24:53 2011
 @@ -999,7 +999,7 @@ MOZ_PNG_LIBS='$(call EXPAND_LIBNAME_PATH,mozpng,$(DEPT

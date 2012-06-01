@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_make_javax_sound_FILES_c_gmk,v 1.1 2010/07/02 01:43:12 jakemsr Exp $
+$OpenBSD$
 --- j2se/make/javax/sound/FILES_c.gmk.orig	Sun Dec 13 22:08:54 2009
 +++ j2se/make/javax/sound/FILES_c.gmk	Sun Dec 13 22:10:14 2009
 @@ -58,7 +58,8 @@ FILES_bsd = \

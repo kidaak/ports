@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/djview4/pkg/PFRAG.shared,v 1.1.1.1 2007/11/24 13:23:26 steven Exp $
+@comment $OpenBSD$
 lib/netscape/plugins/nsdejavu.so

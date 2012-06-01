@@ -1,10 +1,10 @@
-# $OpenBSD: ports/www/ap2-mod_perl/Makefile,v 1.19 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module that embeds a Perl interpreter into Apache2
 
 DISTNAME=	mod_perl-2.0.4
 PKGNAME=	ap2-${DISTNAME}
-REVISION=	4
+REVISION=	5
 CATEGORIES=	www net
 
 WANTLIB=	c m perl util db expat apr-1 aprutil-1

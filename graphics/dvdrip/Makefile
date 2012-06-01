@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/dvdrip/Makefile,v 1.12 2010/11/17 08:05:13 espie Exp $
+# $OpenBSD$
 
 COMMENT=	full featured DVD copy program
 

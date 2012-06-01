@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/asterisk-g729/patches/patch-Makefile_in,v 1.1.1.1 2011/06/04 17:14:58 jolan Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Mar 20 16:21:12 2011
 +++ Makefile.in	Tue May 24 20:20:59 2011
 @@ -178,10 +178,9 @@ CCLD = $(CC)

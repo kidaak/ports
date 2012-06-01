@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/p5-Audio-FLAC-Header/patches/patch-Makefile_PL,v 1.5 2008/11/17 06:13:08 steven Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Sat May 31 21:36:22 2008
 +++ Makefile.PL	Sat Nov 15 09:12:23 2008
 @@ -10,12 +10,12 @@ sub search_lib {

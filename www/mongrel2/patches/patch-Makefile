@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mongrel2/patches/patch-Makefile,v 1.2 2011/07/06 01:23:50 jeremy Exp $
+$OpenBSD$
 --- Makefile.orig	Wed Jun 22 09:25:12 2011
 +++ Makefile	Thu Jun 30 08:50:40 2011
 @@ -1,5 +1,5 @@

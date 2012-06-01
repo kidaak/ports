@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/gamin/patches/patch-configure,v 1.1.1.1 2009/12/04 08:07:20 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Fri Jun 19 15:49:19 2009
 +++ configure	Fri Jun 19 15:49:41 2009
 @@ -22944,13 +22944,13 @@ echo "${ECHO_T}$ac_cv_header_pthread_h" >&6; }

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/x11vnc/Makefile,v 1.36 2011/09/19 21:33:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		VNC server for real X displays
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_gcc,v 1.2 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/config.gcc.orig	Thu Apr 29 07:42:47 2004
 +++ gcc/config.gcc	Fri Jul 25 12:34:57 2008
 @@ -402,9 +402,19 @@ case $machine in

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-zentest/pkg/PLIST,v 1.4 2010/11/08 23:24:41 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/autotest${GEM_BIN_SUFFIX}
 ${GEM_BIN}/multigem${GEM_BIN_SUFFIX}
 ${GEM_BIN}/multiruby${GEM_BIN_SUFFIX}

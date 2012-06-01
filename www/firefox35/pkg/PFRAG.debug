@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/firefox35/pkg/PFRAG.debug,v 1.1 2010/10/27 12:59:29 landry Exp $
+@comment $OpenBSD$
 @lib ${MOZILLA_PROJECT}/components/libaccessibility.so.${LIBaccessibility_VERSION}
 @lib ${MOZILLA_PROJECT}/components/libappcomps.so.${LIBappcomps_VERSION}
 @lib ${MOZILLA_PROJECT}/components/libauth.so.${LIBauth_VERSION}

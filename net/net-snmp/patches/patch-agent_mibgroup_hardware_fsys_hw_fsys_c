@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-agent_mibgroup_hardware_fsys_hw_fsys_c,v 1.1 2011/11/28 22:40:25 sthen Exp $
+$OpenBSD$
 
 ensure sp->path and sp->device are null terminated
 

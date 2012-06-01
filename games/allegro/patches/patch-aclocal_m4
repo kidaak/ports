@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/allegro/patches/patch-aclocal_m4,v 1.2 2010/04/26 02:56:30 jakemsr Exp $
+$OpenBSD$
 --- aclocal.m4.orig	Sun Sep 27 21:57:48 2009
 +++ aclocal.m4	Wed Jan 13 01:27:22 2010
 @@ -438,19 +438,19 @@ allegro_enable_ossdigi=yes)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/Makefile,v 1.12 2012/04/05 16:07:18 jasper Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += folks

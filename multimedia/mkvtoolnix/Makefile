@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/mkvtoolnix/Makefile,v 1.28 2012/03/08 12:13:01 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	create, alter and inspect Matroska files
 

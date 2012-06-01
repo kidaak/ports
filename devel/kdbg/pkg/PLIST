@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/kdbg/pkg/PLIST,v 1.8 2004/09/14 23:43:56 espie Exp $
+@comment $OpenBSD$
 bin/kdbg
 share/applnk/
 share/applnk/Development/

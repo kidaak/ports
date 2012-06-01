@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/twill/pkg/PLIST,v 1.1.1.1 2008/01/15 02:01:28 okan Exp $
+@comment $OpenBSD$
 bin/twill-fork
 bin/twill-sh
 lib/python${MODPY_VERSION}/site-packages/twill/

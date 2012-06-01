@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/pound/patches/patch-pound_8,v 1.2 2010/10/03 22:27:53 sthen Exp $
+$OpenBSD$
 --- pound.8.orig	Tue Feb  2 11:49:02 2010
 +++ pound.8	Sun Oct  3 23:27:32 2010
 @@ -155,7 +155,7 @@ running a quick syntax check before actually activatin

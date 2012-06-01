@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-Checker/pkg/PLIST,v 1.12 2004/09/14 23:44:00 espie Exp $
+@comment $OpenBSD$
 bin/pyChecker
 lib/python${MODPY_VERSION}/site-packages/pychecker/
 lib/python${MODPY_VERSION}/site-packages/pychecker/CodeChecks.py

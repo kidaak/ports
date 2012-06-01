@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Meta-Express/Makefile,v 1.8 2011/06/01 17:41:53 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		concise expressive creations of Class::Meta classes
 

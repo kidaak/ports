@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/comms/lcdproc/pkg/lcdd.rc,v 1.1 2011/12/02 12:39:23 edd Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/LCDd"
 

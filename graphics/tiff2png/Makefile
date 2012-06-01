@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/tiff2png/Makefile,v 1.16 2010/11/17 08:05:16 espie Exp $
+# $OpenBSD$
 
 COMMENT =	converts TIFF images to PNG format
 

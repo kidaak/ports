@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/treewm/pkg/PLIST,v 1.4 2004/09/15 19:26:32 espie Exp $
+@comment $OpenBSD$
 bin/treewm
 bin/xkill-treewm
 bin/xprop-treewm

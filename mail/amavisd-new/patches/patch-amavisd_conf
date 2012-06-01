@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/amavisd-new/patches/patch-amavisd_conf,v 1.6 2011/07/20 14:46:20 giovanni Exp $
+$OpenBSD$
 --- amavisd.conf.orig	Fri Jul  1 18:21:01 2011
 +++ amavisd.conf	Tue Jul 12 14:59:33 2011
 @@ -14,12 +14,12 @@ use strict;

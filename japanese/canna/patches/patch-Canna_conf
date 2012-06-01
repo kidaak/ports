@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/canna/patches/patch-Canna_conf,v 1.4 2008/08/29 15:01:29 espie Exp $
+$OpenBSD$
 --- Canna.conf.orig	Thu Nov 28 11:27:01 1996
 +++ Canna.conf	Fri Aug 29 16:52:05 2008
 @@ -129,19 +129,19 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-ECtools_zarafa-indexer_ECFileIndex_cpp,v 1.1 2012/02/16 22:18:36 ajacoutot Exp $
+$OpenBSD$
 --- ECtools/zarafa-indexer/ECFileIndex.cpp.orig	Thu Feb  2 16:11:07 2012
 +++ ECtools/zarafa-indexer/ECFileIndex.cpp	Thu Feb  2 16:11:21 2012
 @@ -64,7 +64,7 @@

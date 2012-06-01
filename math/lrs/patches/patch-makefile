@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/lrs/patches/patch-makefile,v 1.1.1.1 2011/10/07 08:58:42 edd Exp $
+$OpenBSD$
 
 Honour CFLAGS, LDFLAGS, CPPFLAGS. Use dynamic linking.
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-jeweler/pkg/PLIST,v 1.1.1.1 2011/11/17 15:28:42 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/jeweler${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

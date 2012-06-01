@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-festival_config_config_in,v 1.1 2004/07/11 06:27:07 jolan Exp $
+$OpenBSD$
 --- festival/config/config.in.orig	2001-04-04 08:12:35.000000000 -0500
 +++ festival/config/config.in	2004-05-06 15:33:21.000000000 -0500
 @@ -20,7 +20,7 @@ EST=$(TOP)/../speech_tools

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-chdir/Makefile,v 1.8 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	more sensible way to change directories
 

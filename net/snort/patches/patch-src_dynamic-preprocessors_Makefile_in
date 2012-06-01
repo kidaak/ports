@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/snort/patches/patch-src_dynamic-preprocessors_Makefile_in,v 1.5 2010/07/12 19:38:40 sthen Exp $
+$OpenBSD$
 --- src/dynamic-preprocessors/Makefile.in.orig	Fri Mar 19 20:39:38 2010
 +++ src/dynamic-preprocessors/Makefile.in	Tue May  4 20:13:09 2010
 @@ -636,8 +636,8 @@ maintainer-clean-generic:

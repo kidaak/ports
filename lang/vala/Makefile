@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/vala/Makefile,v 1.50 2012/03/27 22:00:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		compiler for the GObject type system
 

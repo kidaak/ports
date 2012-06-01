@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/xmhtml/patches/patch-lib_common_parse_c,v 1.1.1.1 2001/07/13 17:50:45 pvalchev Exp $
+$OpenBSD$
 --- lib/common/parse.c.orig	Wed Jan 20 06:13:08 1999
 +++ lib/common/parse.c	Sat Jun 30 23:39:06 2001
 @@ -1258,6 +1258,24 @@ _ParserCheckElementContent(Parser *parse

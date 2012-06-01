@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/phpldapadmin/pkg/PLIST,v 1.15 2012/03/06 20:35:20 sthen Exp $
+@comment $OpenBSD$
 @group daemon
 phpldapadmin/
 @comment phpldapadmin/.gitignore

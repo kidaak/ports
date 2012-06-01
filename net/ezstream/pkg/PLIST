@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ezstream/pkg/PLIST,v 1.3 2011/01/16 20:01:22 naddy Exp $
+@comment $OpenBSD$
 @bin bin/ezstream
 bin/ezstream-file.sh
 @man man/man1/ezstream-file.sh.1

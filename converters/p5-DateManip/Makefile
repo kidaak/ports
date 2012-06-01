@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-DateManip/Makefile,v 1.19 2011/01/13 09:37:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	manipulate dates in perl
 DISTNAME =	Date-Manip-6.14

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/xdg-utils/patches/patch-scripts_xdg-settings,v 1.1 2012/04/09 09:39:15 ajacoutot Exp $
+$OpenBSD$
 --- scripts/xdg-settings.orig	Mon Apr  9 11:13:21 2012
 +++ scripts/xdg-settings	Mon Apr  9 11:14:22 2012
 @@ -364,7 +364,7 @@ first_word()

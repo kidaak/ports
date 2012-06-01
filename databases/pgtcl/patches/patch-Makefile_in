@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/pgtcl/patches/patch-Makefile_in,v 1.1.1.1 2007/10/13 08:54:02 steven Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Jun 13 23:02:03 2005
 +++ Makefile.in	Sun Sep 16 22:33:09 2007
 @@ -167,7 +167,7 @@ COMPILE		= $(CC) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(

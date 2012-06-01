@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/fobbit/patches/patch-src_usb_desc_c,v 1.1.1.1 2006/05/12 01:29:41 jolan Exp $
+$OpenBSD$
 --- src/usb_desc.c.orig	Mon Nov 22 23:41:32 2004
 +++ src/usb_desc.c	Thu May  4 02:48:54 2006
 @@ -74,8 +74,8 @@ check_is_vblaster(struct usb_device_desc

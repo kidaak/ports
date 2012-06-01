@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/freeradius/pkg/PLIST-iodbc,v 1.2 2010/05/17 16:39:25 sthen Exp $
+@comment $OpenBSD$
 lib/freeradius/rlm_sql_iodbc.so
 share/doc/freeradius/mssql
 share/examples/freeradius/sql/mssql/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/rocrail/Makefile,v 1.4 2011/11/22 16:03:26 naddy Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

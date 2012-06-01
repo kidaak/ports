@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/xps/patches/patch-src_NetBSD_os_c,v 1.2 2011/07/06 13:02:01 jasper Exp $
+$OpenBSD$
 
 yes, I know there's a src/OpenBSD in there too.
 it's not used somehow...

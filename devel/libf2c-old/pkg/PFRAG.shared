@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libf2c-old/pkg/PFRAG.shared,v 1.1.1.1 2010/05/27 08:36:54 espie Exp $
+@comment $OpenBSD$
 @lib lib/libg2c.so.${LIBg2c_VERSION}

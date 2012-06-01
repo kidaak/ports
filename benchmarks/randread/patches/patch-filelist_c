@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/randread/patches/patch-filelist_c,v 1.1.1.1 2003/07/04 15:30:53 naddy Exp $
+$OpenBSD$
 --- filelist.c.orig	Wed Sep 11 07:15:12 2002
 +++ filelist.c	Tue Jul  1 16:37:22 2003
 @@ -7,6 +7,7 @@

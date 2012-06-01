@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/seyon/patches/patch-config_h,v 1.1 2002/02/20 21:46:49 naddy Exp $
+$OpenBSD$
 --- config.h.orig	Wed Apr 21 14:47:48 1993
 +++ config.h	Wed Feb 20 22:31:21 2002
 @@ -81,6 +81,14 @@

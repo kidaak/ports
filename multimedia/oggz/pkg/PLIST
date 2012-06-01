@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/oggz/pkg/PLIST,v 1.1.1.1 2010/11/05 12:54:51 eric Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/oggz
 @bin bin/oggz-chop

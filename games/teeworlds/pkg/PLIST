@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/teeworlds/pkg/PLIST,v 1.1.1.1 2009/01/18 17:53:36 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/teeworlds
 @bin bin/teeworlds_srv
 share/teeworlds/

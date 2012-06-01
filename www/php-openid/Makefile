@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/php-openid/Makefile,v 1.6 2011/11/16 15:56:38 robert Exp $
+# $OpenBSD$
 
 COMMENT=		OpenID authentication for PHP
 

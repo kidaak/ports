@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/patch-include_ptlib_unix_ptlib_contain_h,v 1.2 2011/10/30 12:49:49 ajacoutot Exp $
+$OpenBSD$
 
 contain.h:81: error: 'intptr_t' does not name a type
 

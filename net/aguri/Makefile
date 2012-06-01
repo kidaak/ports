@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/aguri/Makefile,v 1.10 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 COMMENT=		aggregation-based network traffic profiler
 
 DISTNAME=		aguri-0.7

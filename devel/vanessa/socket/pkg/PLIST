@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/vanessa/socket/pkg/PLIST,v 1.1.1.1 2006/11/06 10:57:38 msf Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/vanessa_socket_pipe
 include/vanessa_socket.h

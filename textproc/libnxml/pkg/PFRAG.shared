@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/textproc/libnxml/pkg/PFRAG.shared,v 1.1.1.1 2010/06/10 20:15:36 landry Exp $
+@comment $OpenBSD$
 @lib lib/libnxml.so.${LIBnxml_VERSION}

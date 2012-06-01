@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/aclock/Makefile,v 1.4 2012/01/08 12:03:09 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	analog clock for the GNUstep desktop
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/gnokii/patches/patch-include_gnokii_h,v 1.2 2007/10/16 12:44:50 ajacoutot Exp $
+$OpenBSD$
 --- include/gnokii.h.orig	Mon Aug 28 00:36:54 2006
 +++ include/gnokii.h	Tue Oct 16 14:22:35 2007
 @@ -46,6 +46,7 @@ extern "C" {

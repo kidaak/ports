@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/midish/Makefile,v 1.16 2012/03/27 08:10:27 ratchov Exp $
+# $OpenBSD$
 
 COMMENT=		command line MIDI sequencer and filter
 DISTNAME=		midish-1.0.6

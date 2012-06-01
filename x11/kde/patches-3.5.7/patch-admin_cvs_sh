@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/patches-3.5.7/patch-admin_cvs_sh,v 1.1 2007/05/14 14:06:43 espie Exp $
+$OpenBSD$
 --- admin/cvs.sh.orig	Mon May 14 12:55:38 2007
 +++ admin/cvs.sh	Mon May 14 15:34:38 2007
 @@ -634,6 +634,10 @@ fi

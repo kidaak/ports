@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/allegropng/Makefile,v 1.4 2010/11/17 08:05:12 espie Exp $
+# $OpenBSD$
 
 COMMENT =	game programming library for C/C++ developers
 

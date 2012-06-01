@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/themesettingsapi/Makefile,v 1.5 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	extra settings for some themes
 MAINTAINER =	Marc Espie <espie@openbsd.org>

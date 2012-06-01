@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/libident/pkg/PLIST,v 1.4 2011/05/04 16:16:24 gsoares Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/ident.h
 lib/libident.a

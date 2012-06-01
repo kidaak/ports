@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libexif-gtk/Makefile,v 1.14 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	GTK2 interface to libexif
 

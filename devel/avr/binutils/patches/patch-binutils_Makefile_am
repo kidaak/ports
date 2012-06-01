@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-binutils_Makefile_am,v 1.3 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- binutils/Makefile.am.orig	Sat Jun 26 11:22:43 2010
 +++ binutils/Makefile.am	Sat Jun 26 11:31:17 2010
 @@ -101,7 +101,7 @@ CFILES = \

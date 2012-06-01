@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/nut/pkg/README-main,v 1.2 2012/01/24 12:38:44 sthen Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/maildrop/patches/patch-rfc2045_reformime_1,v 1.2 2010/07/08 16:35:58 giovanni Exp $
+$OpenBSD$
 --- rfc2045/reformime.1.orig	Sat May  1 17:34:46 2010
 +++ rfc2045/reformime.1	Fri Jun 25 09:15:40 2010
 @@ -35,7 +35,7 @@ is a utility for reformatting MIME messages\&.

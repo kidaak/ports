@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/stegdetect/patches/patch-configure_in,v 1.1 2010/03/24 17:10:37 jasper Exp $
+$OpenBSD$
 
 Don't pickup gtk1.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/smtp-vilter/patches/patch-bin_smtp-vilter_smtp-vilter_conf_5,v 1.1 2009/11/26 14:02:58 jasper Exp $
+$OpenBSD$
 --- bin/smtp-vilter/smtp-vilter.conf.5.orig	Sun Jan 21 13:09:38 2007
 +++ bin/smtp-vilter/smtp-vilter.conf.5	Fri Oct 23 16:09:16 2009
 @@ -103,6 +103,27 @@ Define the path from where backend are loaded.

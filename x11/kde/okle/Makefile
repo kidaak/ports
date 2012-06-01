@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/okle/Makefile,v 1.23 2011/12/03 23:34:05 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 		kde front end for ogle
 CATEGORIES=		x11 x11/kde 

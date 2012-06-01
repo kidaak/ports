@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/luafs/patches/patch-tests_test_lua,v 1.2 2007/05/10 20:23:29 pedro Exp $
+$OpenBSD$
 --- tests/test.lua.orig	Thu May 10 10:06:03 2007
 +++ tests/test.lua	Thu May 10 10:06:06 2007
 @@ -1,5 +1,3 @@

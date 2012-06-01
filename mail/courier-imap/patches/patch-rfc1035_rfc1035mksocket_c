@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/courier-imap/patches/patch-rfc1035_rfc1035mksocket_c,v 1.1 2012/01/23 09:14:15 giovanni Exp $
+$OpenBSD$
 --- rfc1035/rfc1035mksocket.c.orig	Wed Dec 14 17:29:16 2011
 +++ rfc1035/rfc1035mksocket.c	Wed Dec 14 17:30:54 2011
 @@ -27,9 +27,8 @@ int	rfc1035_mksocket(int sock_type, int sock_protocol,

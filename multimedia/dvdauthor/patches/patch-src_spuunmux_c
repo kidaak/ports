@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/dvdauthor/patches/patch-src_spuunmux_c,v 1.2 2011/11/08 08:00:21 dcoppa Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

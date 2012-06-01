@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk2mm/pkg/PLIST,v 1.8 2011/07/08 12:18:37 jasper Exp $
+@comment $OpenBSD$
 @conflict gtk2mm-docs-*
 @pkgpath x11/gtk2mm,-main
 @pkgpath x11/gtk2mm,-docs

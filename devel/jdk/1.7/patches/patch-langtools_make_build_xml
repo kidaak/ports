@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.7/patches/patch-langtools_make_build_xml,v 1.4 2011/09/22 20:26:49 kurt Exp $
+$OpenBSD$
 --- langtools/make/build.xml.orig	Tue Sep  6 18:23:40 2011
 +++ langtools/make/build.xml	Wed Sep  7 09:44:08 2011
 @@ -235,7 +235,8 @@

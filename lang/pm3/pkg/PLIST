@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/pm3/pkg/PLIST,v 1.2 2011/04/10 18:02:18 jasper Exp $
+@comment $OpenBSD$
 @pkgpath lang/pm3,lesstif
 pm3/bin/BadBricks
 pm3/bin/BuildLectern

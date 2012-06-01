@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/orc/patches/patch-orc_orcx86insn_c,v 1.1 2011/10/17 09:06:54 ajacoutot Exp $
+$OpenBSD$
 
 quick fix for lack of nopl support
 

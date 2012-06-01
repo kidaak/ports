@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/mpdcon/patches/patch-PlayView_m,v 1.1 2011/06/24 10:55:54 sebastia Exp $
+$OpenBSD$
 
 fix to build with gcc-2.95
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gource/Makefile,v 1.1.1.1 2011/10/20 10:56:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	software version control visualization tool
 

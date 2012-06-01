@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/nx/opennx/pkg/PLIST,v 1.7 2012/01/18 11:57:51 ajacoutot Exp $
+@comment $OpenBSD$
 @bin NX/bin/opennx
 @bin NX/bin/pconnect
 @bin NX/bin/watchreader

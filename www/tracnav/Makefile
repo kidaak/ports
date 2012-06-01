@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/tracnav/Makefile,v 1.5 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	customizable navigation bar for trac's wiki
 

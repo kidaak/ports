@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Jifty-DBI/Makefile,v 1.11 2011/04/22 05:55:52 landry Exp $
+# $OpenBSD$
 
 COMMENT= 	database OO schema for Jifty
 

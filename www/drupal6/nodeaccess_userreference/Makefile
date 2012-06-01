@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/nodeaccess_userreference/Makefile,v 1.7 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	multi-author documents
 MAINTAINER =	Marc Espie <espie@openbsd.org>

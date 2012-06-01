@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/feh/pkg/PLIST,v 1.8 2011/10/11 07:49:07 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/feh
 bin/feh-cam
 bin/gen-cam-menu

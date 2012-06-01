@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/emacs-jabber/Makefile,v 1.3 2011/12/01 20:16:56 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		Jabber client for Emacs
 

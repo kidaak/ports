@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libee/Makefile,v 1.3 2012/01/16 16:27:53 dhill Exp $
+# $OpenBSD$
 
 COMMENT =	event expression library
 DISTNAME =	libee-0.3.2

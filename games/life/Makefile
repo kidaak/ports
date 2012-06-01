@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/life/Makefile,v 1.11 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 COMMENT=	SDL clone of the popular Game of Life
 

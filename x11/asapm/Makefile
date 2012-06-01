@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/asapm/Makefile,v 1.27 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS= ${APM_ARCHS}
 

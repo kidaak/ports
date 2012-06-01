@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/wmmixer/Makefile,v 1.17 2010/10/24 21:00:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; audio mixer
 

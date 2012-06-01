@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/mediatomb/patches/patch-configure_ac,v 1.2 2010/11/09 13:26:31 jasper Exp $
+$OpenBSD$
 --- configure.ac.orig	Wed Apr  7 18:38:51 2010
 +++ configure.ac	Sun Nov  7 13:02:11 2010
 @@ -342,8 +342,13 @@ AC_CHECK_HEADERS([langinfo.h locale.h],[],[AC_MSG_WARN

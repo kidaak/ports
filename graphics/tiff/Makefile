@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/tiff/Makefile,v 1.64 2012/04/14 15:09:55 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	tools and library routines for working with TIFF images
 

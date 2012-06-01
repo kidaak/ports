@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/plan9/9libs/pkg/PLIST,v 1.4 2004/09/15 18:23:11 espie Exp $
+@comment $OpenBSD$
 include/9libs/
 include/9libs/conf9libs.h
 include/9libs/frame.h

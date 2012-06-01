@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/gpsbabel/patches/patch-configure_in,v 1.5 2012/02/18 22:04:07 sthen Exp $
+$OpenBSD$
 --- configure.in.orig	Sun Jan 29 01:59:29 2012
 +++ configure.in	Thu Feb  2 13:03:10 2012
 @@ -63,15 +63,20 @@ if test "$cet" = "default"; then

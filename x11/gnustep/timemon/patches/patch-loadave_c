@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/timemon/patches/patch-loadave_c,v 1.1 2011/04/18 12:40:08 sebastia Exp $
+$OpenBSD$
 
 fix implicit declaration warning
 

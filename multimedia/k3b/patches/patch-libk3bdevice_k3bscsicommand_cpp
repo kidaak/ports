@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/k3b/patches/patch-libk3bdevice_k3bscsicommand_cpp,v 1.1.1.1 2008/05/11 22:18:35 jakemsr Exp $
+$OpenBSD$
 --- libk3bdevice/k3bscsicommand.cpp.orig	Thu Jan 17 15:42:03 2008
 +++ libk3bdevice/k3bscsicommand.cpp	Thu Jan 17 15:42:30 2008
 @@ -186,7 +186,7 @@ void K3bDevice::ScsiCommand::debugError( int command, 

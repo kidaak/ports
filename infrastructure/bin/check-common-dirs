@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# $OpenBSD: ports/infrastructure/bin/check-common-dirs,v 1.3 2011/01/17 20:08:08 espie Exp $
+# $OpenBSD$
 # Copyright (c) 2004, 2010 Marc Espie <espie@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

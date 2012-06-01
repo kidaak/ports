@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/cadubi/Makefile,v 1.12 2010/11/17 08:05:13 espie Exp $
+# $OpenBSD$
 
 DISTNAME=	cadubi-1.3
 REVISION =	0

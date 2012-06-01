@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/libdnd/patches/patch-DNDlib_DragAndDrop_c,v 1.1.1.1 2001/03/07 15:43:33 wilfried Exp $
+$OpenBSD$
 --- DNDlib/DragAndDrop.c.orig	Sat Nov 23 02:19:27 1996
 +++ DNDlib/DragAndDrop.c	Wed Feb  7 15:30:38 2001
 @@ -22,7 +22,7 @@ Foundation, 675 Mass Ave, Cambridge, MA 

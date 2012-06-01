@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libgit2/py-git2/Makefile,v 1.3 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=		libgit2 bindings in Python
 

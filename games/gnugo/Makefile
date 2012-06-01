@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/gnugo/Makefile,v 1.26 2010/10/18 18:00:18 espie Exp $
+# $OpenBSD$
 
 COMMENT =	GNU version of Go
 

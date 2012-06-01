@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/smlnj/patches/patch-src_runtime_c-libs_smlnj-math_fp-dep_h,v 1.1.1.1 2002/06/29 13:25:10 espie Exp $
+$OpenBSD$
 --- src/runtime/c-libs/smlnj-math/fp-dep.h.orig	Fri Dec  3 20:59:26 1999
 +++ src/runtime/c-libs/smlnj-math/fp-dep.h	Sat Jun 29 15:11:35 2002
 @@ -64,7 +64,7 @@ typedef int fe_rnd_mode_t;

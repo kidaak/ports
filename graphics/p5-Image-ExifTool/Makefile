@@ -1,8 +1,8 @@
-# $OpenBSD: ports/graphics/p5-Image-ExifTool/Makefile,v 1.25 2012/04/02 16:32:53 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	read and write meta information in image/audio/video files
 
-DISTNAME=	Image-ExifTool-8.85
+DISTNAME=	Image-ExifTool-8.90
 CATEGORIES=	graphics
 
 HOMEPAGE=	http://owl.phy.queensu.ca/~phil/exiftool/

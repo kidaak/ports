@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/p5-Net-SMTP-TLS/patches/patch-lib_Net_SMTP_TLS_pm,v 1.1 2011/12/14 14:58:57 sthen Exp $
+$OpenBSD$
 
 Add fixes from Net::SMTP::TLS::ButMaintained 0.18
 

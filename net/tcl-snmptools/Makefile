@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tcl-snmptools/Makefile,v 1.2 2012/01/09 07:58:07 sebastia Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

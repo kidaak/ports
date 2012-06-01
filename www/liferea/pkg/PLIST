@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/liferea/pkg/PLIST,v 1.15 2012/02/27 17:25:21 landry Exp $
+@comment $OpenBSD$
 @bin bin/liferea
 bin/liferea-add-feed
 @man man/man1/liferea.1

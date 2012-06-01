@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/galculator/pkg/PLIST,v 1.14 2009/12/21 22:07:57 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/galculator
 @man man/man1/galculator.1
 share/applications/galculator.desktop

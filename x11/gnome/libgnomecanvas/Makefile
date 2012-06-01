@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libgnomecanvas/Makefile,v 1.52 2011/11/04 09:56:29 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

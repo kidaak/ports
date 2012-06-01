@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Convert-PEM/Makefile,v 1.10 2010/12/19 23:46:55 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	read/write access to ASN.1-encoded PEM files
 

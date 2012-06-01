@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/rhythmbox/patches/patch-configure,v 1.13 2012/03/12 07:42:11 ajacoutot Exp $
+$OpenBSD$
 
 audiocd plugin requires cdda support in gvfs which we do not provide as
 this would require HAL or gudev.

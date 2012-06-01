@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libev/Makefile,v 1.9 2012/02/22 10:50:47 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =	high-performance event loop library
 

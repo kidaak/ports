@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/epdfview/pkg/PLIST,v 1.8 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/epdfview
 @man man/man1/epdfview.1
 share/applications/epdfview.desktop

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/pftop/patches/patch-cache_h,v 1.2 2011/12/08 13:04:38 sthen Exp $
+$OpenBSD$
 --- cache.h.orig	Wed Nov  7 06:34:18 2007
 +++ cache.h	Thu Dec  8 13:03:20 2011
 @@ -31,14 +31,21 @@

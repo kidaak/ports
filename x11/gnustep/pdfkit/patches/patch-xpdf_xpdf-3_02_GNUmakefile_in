@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/pdfkit/patches/patch-xpdf_xpdf-3_02_GNUmakefile_in,v 1.1.1.1 2011/01/03 14:20:28 sebastia Exp $
+$OpenBSD$
 
 propagate CPPFLAGS and LDFLAGS
 

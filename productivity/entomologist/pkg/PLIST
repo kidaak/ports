@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/entomologist/pkg/PLIST,v 1.2 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/entomologist
 share/applications/entomologist.desktop
 share/entomologist/

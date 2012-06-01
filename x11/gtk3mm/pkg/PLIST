@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk3mm/pkg/PLIST,v 1.5 2012/03/28 09:46:35 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gdkmm-3.0/
 include/gdkmm-3.0/gdkmm/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libepc/Makefile,v 1.8 2012/02/16 22:15:01 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Easy Publish and Consume library
 

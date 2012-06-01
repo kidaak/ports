@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amsn/patches/patch-Makefile_in,v 1.6 2012/04/05 16:08:55 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Mar 18 20:58:48 2010
 +++ Makefile.in	Thu Apr  5 14:03:25 2012
 @@ -11,10 +11,10 @@ STATIC		:= @STATIC@

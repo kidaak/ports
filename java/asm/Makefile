@@ -1,4 +1,4 @@
-# $OpenBSD: ports/java/asm/Makefile,v 1.1.1.1 2011/09/21 13:38:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Java bytecode manipulation framework
 

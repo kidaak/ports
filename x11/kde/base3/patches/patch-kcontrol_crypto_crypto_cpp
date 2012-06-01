@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-kcontrol_crypto_crypto_cpp,v 1.2 2010/10/06 08:11:25 landry Exp $
+$OpenBSD$
 --- kcontrol/crypto/crypto.cpp.orig	Sun Oct  1 19:31:49 2006
 +++ kcontrol/crypto/crypto.cpp	Sun Oct  3 21:07:32 2010
 @@ -2321,7 +2321,7 @@ bool KCryptoConfig::loadCiphers() {

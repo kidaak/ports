@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/Makefile.inc,v 1.28 2011/07/07 00:08:35 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

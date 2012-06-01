@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/dclib/patches/patch-dclib_core_cssl_cpp,v 1.1 2010/10/09 09:41:44 benoit Exp $
+$OpenBSD$
 --- dclib/core/cssl.cpp.orig	Sat Oct  9 10:57:51 2010
 +++ dclib/core/cssl.cpp	Sat Oct  9 11:02:54 2010
 @@ -48,7 +48,7 @@

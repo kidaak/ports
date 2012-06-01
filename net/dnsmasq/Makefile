@@ -1,8 +1,11 @@
-# $OpenBSD: ports/net/dnsmasq/Makefile,v 1.21 2011/10/25 10:20:26 sthen Exp $
+# $OpenBSD$
 
-COMMENT=	caching DNS forwarder and DHCP server
+NOT_FOR_ARCHS=	${GCC2_ARCHS}
 
-DISTNAME=	dnsmasq-2.59
+COMMENT=	lightweight caching DNS forwarder, DHCP and TFTP server
+
+DISTNAME=	dnsmasq-2.61
+REVISION=	1
 CATEGORIES=	net
 MASTER_SITES=	http://www.thekelleys.org.uk/dnsmasq/
 
@@ -27,8 +30,8 @@ pre-build:
 		${WRKSRC}/dnsmasq.conf.example
 
 do-install:
-	${INSTALL_PROGRAM} ${WRKSRC}/src/dnsmasq ${PREFIX}/sbin
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/dnsmasq
+	${INSTALL_PROGRAM} ${WRKSRC}/src/dnsmasq ${PREFIX}/sbin
 	${INSTALL_DATA} ${WRKSRC}/dnsmasq.conf.example ${PREFIX}/share/examples/dnsmasq
 	${INSTALL_MAN} ${WRKSRC}/man/dnsmasq.8 ${PREFIX}/man/man8
 

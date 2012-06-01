@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Moose/pkg/PLIST,v 1.9 2011/04/09 19:12:07 simon Exp $
+@comment $OpenBSD$
 %%SHARED%%
 ${P5ARCH}/Moose/
 ${P5ARCH}/Moose.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/apache-httpd/patches/patch-configure,v 1.8 2011/09/01 13:40:09 giovanni Exp $
+$OpenBSD$
 --- configure.orig	Tue Aug 30 02:13:20 2011
 +++ configure	Wed Aug 31 11:53:52 2011
 @@ -3121,7 +3121,7 @@ do

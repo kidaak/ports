@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/microblog-purple/patches/patch-Makefile,v 1.1.1.1 2010/09/08 08:23:30 sebastia Exp $
+$OpenBSD$
 
 Do not use hardcoded make
 

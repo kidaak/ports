@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/py-gnome/pkg/PLIST,v 1.5 2011/09/22 11:45:47 ajacoutot Exp $
+@comment $OpenBSD$
 include/gnome-python-2.0/
 include/gnome-python-2.0/pygnomevfs.h
 include/gnome-python-2.0/pygnomevfsbonobo.h

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/ccextractor/pkg/PLIST,v 1.1.1.1 2011/08/16 14:12:58 espie Exp $
+@comment $OpenBSD$
 @bin bin/ccextractor
 share/doc/ccextractor/
 share/doc/ccextractor/BINARY_FILE_FORMAT.TXT

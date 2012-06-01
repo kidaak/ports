@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/backintime/common/patches/patch-common_tools_py,v 1.2 2010/11/05 16:39:10 ajacoutot Exp $
+$OpenBSD$
 --- common/tools.py.orig	Tue Oct 26 22:33:06 2010
 +++ common/tools.py	Fri Nov  5 16:07:00 2010
 @@ -111,7 +111,7 @@ def make_dirs( path ):

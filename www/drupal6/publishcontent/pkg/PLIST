@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/publishcontent/pkg/PLIST,v 1.2 2012/01/28 10:02:35 espie Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}publishcontent/

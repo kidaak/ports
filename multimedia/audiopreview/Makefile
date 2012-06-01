@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/audiopreview/Makefile,v 1.5 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT =	tool to play previews of audio and video files
 

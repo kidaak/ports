@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Try-Tiny/Makefile,v 1.7 2011/04/02 14:55:13 simon Exp $
+# $OpenBSD$
 
 COMMENT =		minimal try/catch with proper localization of $\@
 

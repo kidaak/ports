@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fbpanel/patches/patch-exec_make_profile_in,v 1.4 2012/01/14 22:14:10 dcoppa Exp $
+$OpenBSD$
 
 remove bashism
 fix default config file path

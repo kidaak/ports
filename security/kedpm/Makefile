@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/kedpm/Makefile,v 1.12 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	application for managing passwords
 

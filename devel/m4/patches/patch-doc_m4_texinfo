@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/m4/patches/patch-doc_m4_texinfo,v 1.5 2012/01/06 23:08:01 sthen Exp $
+$OpenBSD$
 --- doc/m4.texinfo.orig	Mon Feb 28 09:42:52 2011
 +++ doc/m4.texinfo	Wed Jan  4 18:53:24 2012
 @@ -4,6 +4,7 @@

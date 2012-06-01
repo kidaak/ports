@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/mouseclock/Makefile,v 1.22 2010/10/24 21:15:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	display the current time using the X11 root cursor
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono/patches/patch-runtime_mono-wrapper_in,v 1.4 2010/10/15 16:21:07 robert Exp $
+$OpenBSD$
 --- runtime/mono-wrapper.in.orig	Tue Oct  5 21:59:29 2010
 +++ runtime/mono-wrapper.in	Wed Oct 13 18:39:27 2010
 @@ -4,4 +4,4 @@ MONO_CFG_DIR='@mono_cfg_dir@'

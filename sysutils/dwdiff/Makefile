@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/dwdiff/Makefile,v 1.14 2011/12/03 06:24:57 benoit Exp $
+# $OpenBSD$
 
 COMMENT =		word-based diff program
 

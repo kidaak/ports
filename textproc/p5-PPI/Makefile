@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-PPI/Makefile,v 1.11 2011/04/09 08:03:55 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		parse, analyze and manipulate Perl
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-YAML-Syck/patches/patch-syck_h,v 1.1 2010/09/22 10:50:51 sthen Exp $
+$OpenBSD$
 
 zeroing allocated space avoids a perl segfault with malloc_flags J.
 

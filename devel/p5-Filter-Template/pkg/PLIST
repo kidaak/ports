@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Filter-Template/pkg/PLIST,v 1.1.1.1 2007/01/02 21:42:05 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Filter/
 ${P5SITE}/Filter/Template/
 ${P5SITE}/Filter/Template.pm

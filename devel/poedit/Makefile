@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/poedit/Makefile,v 1.16 2011/09/16 09:24:54 espie Exp $
+# $OpenBSD$
 
 COMMENT=	cross-platform gettext catalogs (PO-files) editor
 

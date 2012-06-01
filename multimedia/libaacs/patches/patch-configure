@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/libaacs/patches/patch-configure,v 1.1.1.1 2012/03/30 13:15:59 phessler Exp $
+$OpenBSD$
 --- configure.orig	Mon Mar 26 20:02:18 2012
 +++ configure	Mon Mar 26 20:02:34 2012
 @@ -12502,13 +12502,13 @@ fi

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-Filter-ExceptionLocator/pkg/PLIST,v 1.1.1.1 2006/11/14 19:08:35 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/XML/Filter/
 ${P5SITE}/XML/Filter/Chucker.pm
 ${P5SITE}/XML/Filter/ExceptionLocator.pm

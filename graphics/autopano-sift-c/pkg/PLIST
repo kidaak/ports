@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/autopano-sift-c/pkg/PLIST,v 1.2 2009/05/27 12:59:45 sthen Exp $
+@comment $OpenBSD$
 @bin bin/autopano
 bin/autopano-c-complete.sh
 @bin bin/autopano-sift-c

@@ -1,0 +1,3 @@
+@comment $OpenBSD$
+lib/colord-sensors/libcolord_sensor_dummy.so
+@lib lib/libcolord.so.${LIBcolord_VERSION}

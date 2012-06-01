@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kountdown/Makefile,v 1.20 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	screen saver that displays a countdown to a selected date
 

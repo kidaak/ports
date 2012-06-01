@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/mk/bsd.port.arch.mk,v 1.10 2011/12/08 08:15:36 espie Exp $
+# $OpenBSD$
 #
 # ex:ts=4 sw=4 filetype=make:
 #

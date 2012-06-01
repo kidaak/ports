@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Glob/Makefile,v 1.7 2011/03/17 12:14:51 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	match globbing patterns against text
 

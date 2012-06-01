@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-hashed-storage/pkg/PLIST,v 1.5 2011/04/11 14:40:00 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Bundled/
 lib/ghc/${DISTNAME}/Bundled/Posix.hi

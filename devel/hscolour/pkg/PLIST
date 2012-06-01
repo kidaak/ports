@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hscolour/pkg/PLIST,v 1.6 2011/07/10 12:20:40 jasper Exp $
+@comment $OpenBSD$
 @bin bin/HsColour
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/HS${DISTNAME}.o

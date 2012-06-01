@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mantis/Makefile,v 1.17 2012/01/11 22:27:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	web based bug tracking
 

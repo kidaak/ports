@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Literal/Makefile,v 1.7 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	embed XML directly into perl
 

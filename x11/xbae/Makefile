@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xbae/Makefile,v 1.16 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Motif-based table widget
 

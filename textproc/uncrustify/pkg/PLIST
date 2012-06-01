@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/uncrustify/pkg/PLIST,v 1.2 2011/10/13 21:03:53 rpointel Exp $
+@comment $OpenBSD$
 @bin bin/uncrustify
 @man man/man1/uncrustify.1
 share/uncrustify/

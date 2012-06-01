@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/freefarsi-ttf/Makefile,v 1.1.1.1 2011/07/19 09:16:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		free TrueType Persian fonts
 

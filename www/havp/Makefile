@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/havp/Makefile,v 1.13 2011/11/30 11:00:59 robert Exp $
+# $OpenBSD$
 
 COMMENT=	web proxy with antivirus filter
 
@@ -6,7 +6,7 @@ DISTNAME=	havp-0.92a
 CATEGORIES=	www
 MASTER_SITES=	${HOMEPAGE}/download/
 
-REVISION=	0
+REVISION=	1
 
 HOMEPAGE=	http://www.server-side.de/
 

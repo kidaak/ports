@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/get_flash_videos/pkg/PLIST,v 1.6 2012/01/24 22:19:28 sthen Exp $
+@comment $OpenBSD$
 bin/get_flash_videos
 ${P5SITE}/FlashVideo/
 ${P5SITE}/FlashVideo/Downloader.pm

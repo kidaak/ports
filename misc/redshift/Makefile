@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/redshift/Makefile,v 1.13 2011/12/03 20:30:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	automatic color temperature adjustment
 

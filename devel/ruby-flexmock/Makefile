@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-flexmock/Makefile,v 1.15 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	simple mock object for unit testing
 

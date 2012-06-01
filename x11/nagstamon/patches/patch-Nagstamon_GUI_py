@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/nagstamon/patches/patch-Nagstamon_GUI_py,v 1.1 2011/10/06 10:05:37 ajacoutot Exp $
+$OpenBSD$
 
 Requires py-gnome-extras (from gnome2, not available).
 

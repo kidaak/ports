@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/camlimages/Makefile,v 1.16 2011/11/01 20:30:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	image manipulation functions for Objective Caml
 CATEGORIES=	graphics

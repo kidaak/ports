@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/sqsh/Makefile,v 1.23 2011/04/15 16:13:23 ajacoutot Exp $
+# $OpenBSD$
 
 DISTNAME=	sqsh-2.1
 REVISION =	3

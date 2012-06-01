@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mpegaudio/Makefile,v 1.17 2010/10/18 16:52:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	MPEG/audio Layer 1 and Layer 2 encoder/decoder
 DISTNAME=	mpegaudio

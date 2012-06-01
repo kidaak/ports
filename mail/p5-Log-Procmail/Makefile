@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Log-Procmail/Makefile,v 1.8 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		perl module for reading procmail logs
 

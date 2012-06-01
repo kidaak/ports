@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/py-reportlab/plugins/renderPM/Makefile,v 1.13 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

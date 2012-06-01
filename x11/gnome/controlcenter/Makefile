@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/controlcenter/Makefile,v 1.61 2012/04/07 10:25:55 ajacoutot Exp $
+# $OpenBSD$
 
 # XXX Binary files patch-panels_info_hostnames-test_txt and
 # patch-panels_info_hostnames-test_txt.new differ
@@ -9,7 +9,7 @@ SHARED_ONLY=		Yes
 COMMENT=		GNOME control center
 
 GNOME_PROJECT=		gnome-control-center
-GNOME_VERSION=		3.4.0
+GNOME_VERSION=		3.4.2
 REVISION=		1
 
 CATEGORIES=		x11
@@ -53,10 +53,10 @@ LIB_DEPENDS=		x11/gnome/desktop \
 			audio/libcanberra,-gtk3 \
 			graphics/colord
 
-BUILD_DEPENDS=		x11/gnome/settings-daemon>=3.2.0p1 \
-			devel/gsettings-desktop-schemas>=3.0.2
-RUN_DEPENDS=		x11/gnome/settings-daemon>=3.2.0p1 \
-			devel/gsettings-desktop-schemas>=3.0.2
+BUILD_DEPENDS=		x11/gnome/settings-daemon>=3.4.2 \
+			devel/gsettings-desktop-schemas
+RUN_DEPENDS=		x11/gnome/settings-daemon>=3.4.2 \
+			devel/gsettings-desktop-schemas
 
 # NOTE that a11y dependencies (e.g. mousetweaks, caribou...) are not
 # enforced on purpose.
@@ -104,11 +104,22 @@ CONFIGURE_ARGS=	--disable-static \
 CONFIGURE_ARGS+=--without-libsocialweb
 
 MODGNOME_CPPFLAGS=	-I${X11BASE}/include
-MODGNOME_LDFLAGS=	-L${X11BASE}/lib
+MODGNOME_LDFLAGS=	-L${X11BASE}/lib -Wl,-rpath,${LOCALBASE}/lib/pulseaudio
 
 FAKE_FLAGS=	sysconfdir=${PREFIX}/share/examples/gnome-control-center
 
+AUTOCONF_VERSION=	2.68
+AUTOMAKE_VERSION=	1.11
+BUILD_DEPENDS +=devel/autoconf/${AUTOCONF_VERSION} \
+		devel/automake/${AUTOMAKE_VERSION} \
+		devel/libtool \
+		x11/gnome/common
+
 pre-configure:
+	@cd ${WRKSRC} && \
+		AUTOCONF_VERSION=${AUTOCONF_VERSION} \
+		AUTOMAKE_VERSION=${AUTOMAKE_VERSION} \
+		autoreconf -i
 	${SUBST_CMD} ${WRKSRC}/panels/printers/cc-printers-panel.c
 
 .include <bsd.port.mk>

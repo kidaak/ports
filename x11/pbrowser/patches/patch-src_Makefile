@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/pbrowser/patches/patch-src_Makefile,v 1.2 2005/03/26 22:53:15 alek Exp $
+$OpenBSD$
 --- src/Makefile.orig	Sun Mar 13 23:20:20 2005
 +++ src/Makefile	Sun Mar 13 23:21:17 2005
 @@ -2,14 +2,6 @@

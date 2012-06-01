@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/flash/patches/patch-Lib_shape_cc,v 1.2 2010/05/23 16:20:47 espie Exp $
+$OpenBSD$
 --- Lib/shape.cc.orig	Wed Jun  7 20:11:08 2000
 +++ Lib/shape.cc	Sat May 22 16:02:37 2010
 @@ -21,6 +21,7 @@
@@ -8,4 +8,4 @@ $OpenBSD: ports/graphics/flash/patches/patch-Lib_shape_cc,v 1.2 2010/05/23 16:20
 +#include <math.h>
  
  #ifdef RCSID
- static char *rcsid = "$Id: shape.cc,v 1.5 1999/09/10 13:08:52 ode Exp $";
+ static char *rcsid = "$Id$";

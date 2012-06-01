@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/postgrey/pkg/postgrey.rc,v 1.2 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/libexec/postgrey -d"
 daemon_flags="--inet=10023"

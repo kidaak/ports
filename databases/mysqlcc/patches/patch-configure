@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mysqlcc/patches/patch-configure,v 1.2 2008/09/08 07:48:43 wilfried Exp $
+$OpenBSD$
 --- configure.orig	Sun Oct  8 22:40:01 2006
 +++ configure	Thu Aug 21 13:39:50 2008
 @@ -2457,9 +2457,9 @@ echo "${ECHO_T}" >&6

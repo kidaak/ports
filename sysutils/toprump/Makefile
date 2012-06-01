@@ -1,8 +1,8 @@
-# $OpenBSD: ports/sysutils/toprump/Makefile,v 1.14 2011/12/22 17:16:49 lum Exp $
+# $OpenBSD$
 
 COMMENT=	modified OpenBSD top command
 
-DISTNAME=	toprump-0.14.6
+DISTNAME=	toprump-0.14.7
 CATEGORIES=	sysutils
 
 HOMEPAGE=	http://cyodesigns.com/toprump/

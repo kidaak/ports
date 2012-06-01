@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-libraries_Cabal_Distribution_InstalledPackageInfo_hs,v 1.1 2010/11/03 21:32:08 kili Exp $
+$OpenBSD$
 --- libraries/Cabal/Distribution/InstalledPackageInfo.hs.orig	Wed Jun  9 20:10:19 2010
 +++ libraries/Cabal/Distribution/InstalledPackageInfo.hs	Fri Oct 29 14:59:14 2010
 @@ -101,6 +101,7 @@ data InstalledPackageInfo_ m

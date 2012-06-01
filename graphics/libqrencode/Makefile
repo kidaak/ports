@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libqrencode/Makefile,v 1.1.1.1 2011/07/27 15:30:49 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

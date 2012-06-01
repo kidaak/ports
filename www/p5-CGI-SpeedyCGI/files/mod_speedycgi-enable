@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/p5-CGI-SpeedyCGI/files/mod_speedycgi-enable,v 1.1.1.1 2002/11/10 19:57:04 jakob Exp $
+# $OpenBSD$
 
 MODULE=!!PREFIX!!/lib/mod_speedycgi.so
 

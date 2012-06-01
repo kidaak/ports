@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBM-Deep/Makefile,v 1.6 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl multi-level hash/array DBM that supports transactions
 

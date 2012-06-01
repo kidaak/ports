@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/e_dbus/pkg/PLIST,v 1.2 2011/01/16 00:45:56 laurent Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/e-notify-send
 @bin bin/e_dbus_bluez_test

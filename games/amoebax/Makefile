@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/amoebax/Makefile,v 1.6 2010/11/16 11:23:25 espie Exp $
+# $OpenBSD$
 
 COMMENT=	cute and addictive action-puzzle game
 

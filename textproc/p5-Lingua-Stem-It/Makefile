@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-Stem-It/Makefile,v 1.8 2011/05/24 21:01:23 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Italian language stemming
 

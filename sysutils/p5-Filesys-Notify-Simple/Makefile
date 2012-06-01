@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Filesys-Notify-Simple/Makefile,v 1.1.1.1 2010/12/11 09:41:40 landry Exp $
+# $OpenBSD$
 
 COMMENT =		simple and dumb file system watcher
 

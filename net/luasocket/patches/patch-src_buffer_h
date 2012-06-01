@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/luasocket/patches/patch-src_buffer_h,v 1.1 2009/08/22 20:28:40 robert Exp $
+$OpenBSD$
 --- src/buffer.h.orig	Thu Apr 27 05:23:22 2006
 +++ src/buffer.h	Sat Aug 22 22:19:02 2009
 @@ -36,12 +36,12 @@ typedef struct t_buffer_ {

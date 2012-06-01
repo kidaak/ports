@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_jpc_jpc_qmfb_c,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/jpc/jpc_qmfb.c.orig	Fri Jan 19 22:43:07 2007
 +++ src/libjasper/jpc/jpc_qmfb.c	Fri May 16 22:46:25 2008
 @@ -321,7 +321,7 @@ void jpc_qmfb_split_row(jpc_fix_t *a, int numcols, int

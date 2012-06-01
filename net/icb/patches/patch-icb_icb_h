@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icb/patches/patch-icb_icb_h,v 1.2 2010/05/22 14:23:48 espie Exp $
+$OpenBSD$
 --- icb/icb.h.orig	Fri Feb 24 22:20:23 1995
 +++ icb/icb.h	Sat May 22 16:20:32 2010
 @@ -9,8 +9,7 @@

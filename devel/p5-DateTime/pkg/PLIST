@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-DateTime/pkg/PLIST,v 1.3 2010/10/11 08:54:21 stephan Exp $
+@comment $OpenBSD$
 ${P5ARCH}/DateTime/
 ${P5ARCH}/DateTime.pm
 ${P5ARCH}/DateTime/Duration.pm

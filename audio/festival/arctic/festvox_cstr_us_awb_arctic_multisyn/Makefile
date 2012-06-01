@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/arctic/festvox_cstr_us_awb_arctic_multisyn/Makefile,v 1.5 2010/10/02 12:09:08 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Scottish English male speaker (AWB), cstr
 DISTNAME=	festvox_cstr_us_awb_arctic_multisyn-1.0

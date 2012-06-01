@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/jvim/patches/patch-src_jgrep_c,v 1.1 2007/10/26 21:42:18 ajacoutot Exp $
+$OpenBSD$
 --- src/jgrep.c.orig	Mon Jul  3 16:52:28 1995
 +++ src/jgrep.c	Fri Oct 26 23:36:44 2007
 @@ -38,17 +38,19 @@ static int o_noerr = FALSE;		/* -s */

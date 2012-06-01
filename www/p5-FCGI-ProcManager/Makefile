@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-FCGI-ProcManager/Makefile,v 1.10 2011/03/20 20:22:27 simon Exp $
+# $OpenBSD$
 
 COMMENT=	functions for managing FastCGI applications
 

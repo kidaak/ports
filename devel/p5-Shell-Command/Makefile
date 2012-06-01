@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Shell-Command/Makefile,v 1.4 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	simple Unix commands in perl
 

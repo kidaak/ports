@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/graphviz/patches/patch-tclpkg_gv_Makefile_in,v 1.1 2007/02/20 11:47:07 espie Exp $
+$OpenBSD$
 --- tclpkg/gv/Makefile.in.orig2	Tue Jan 30 17:14:32 2007
 +++ tclpkg/gv/Makefile.in	Tue Jan 30 17:14:42 2007
 @@ -1623,7 +1623,7 @@ gv_tcl.cpp $(TCL_hdr): gv.i

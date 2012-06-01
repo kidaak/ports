@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/zipper/pkg/PLIST,v 1.1.1.1 2011/07/19 13:58:02 sebastia Exp $
+@comment $OpenBSD$
 bin/Zipper
 libexec/GNUstep/Zipper.app/
 libexec/GNUstep/Zipper.app/Resources/

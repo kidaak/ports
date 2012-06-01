@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfishtank/patches/patch-gifread_c,v 1.1 2008/07/28 22:29:49 sthen Exp $
+$OpenBSD$
 --- gifread.c.orig	Mon Jul 28 20:58:24 2008
 +++ gifread.c	Mon Jul 28 20:58:41 2008
 @@ -56,6 +56,7 @@

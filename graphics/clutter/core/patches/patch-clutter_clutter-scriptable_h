@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/clutter/core/patches/patch-clutter_clutter-scriptable_h,v 1.1 2009/10/10 23:19:25 landry Exp $
+$OpenBSD$
 --- clutter/clutter-scriptable.h.orig	Sat Sep 19 11:46:56 2009
 +++ clutter/clutter-scriptable.h	Sat Sep 19 11:48:09 2009
 @@ -31,7 +31,7 @@

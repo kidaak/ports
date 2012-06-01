@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/samba/pkg/README-main,v 1.7 2011/09/26 09:32:12 sthen Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/lua/patches/patch-src_luaconf_h,v 1.5 2012/03/07 13:14:27 sthen Exp $
+$OpenBSD$
 --- src/luaconf.h.orig	Fri Jan 18 18:07:48 2008
 +++ src/luaconf.h	Mon Mar 24 13:53:08 2008
 @@ -33,7 +33,7 @@

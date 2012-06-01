@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/libtheora/patches/patch-configure_ac,v 1.1 2009/12/13 22:01:32 sthen Exp $
+$OpenBSD$
 --- configure.ac.orig	Sat Aug 22 13:54:35 2009
 +++ configure.ac	Thu Aug 27 23:43:00 2009
 @@ -168,8 +168,8 @@ else

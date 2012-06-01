@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-ListLike/Makefile,v 1.6 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		common interface to various Haskell types that are list-like
 

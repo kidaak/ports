@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-snmplib_Makefile_in,v 1.6 2011/07/07 20:02:02 sthen Exp $
+$OpenBSD$
 --- snmplib/Makefile.in.orig	Fri Jul  1 23:35:46 2011
 +++ snmplib/Makefile.in	Wed Jul  6 23:15:53 2011
 @@ -133,7 +133,7 @@ INSTALLUCDHEADERS= asn1.h \

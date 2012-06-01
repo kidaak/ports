@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfm/patches/patch-Imakefile,v 1.1 2002/12/30 09:11:47 pvalchev Exp $
+$OpenBSD$
 --- Imakefile.orig	Wed Oct 29 05:19:02 1997
 +++ Imakefile	Mon Dec 30 00:57:29 2002
 @@ -37,7 +37,7 @@ InstallManSubdirs(Subdirs)

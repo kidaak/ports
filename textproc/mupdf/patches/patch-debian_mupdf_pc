@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/mupdf/patches/patch-debian_mupdf_pc,v 1.1 2010/06/03 19:38:34 sthen Exp $
+$OpenBSD$
 --- debian/mupdf.pc.orig	Thu Jun  3 06:56:21 2010
 +++ debian/mupdf.pc	Thu Jun  3 06:56:30 2010
 @@ -1,4 +1,4 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfprint/patches/patch-xfprint-manager_main_c,v 1.1 2011/01/03 13:11:49 landry Exp $
+$OpenBSD$
 http://bugzilla.xfce.org/show_bug.cgi?id=5160
 --- xfprint-manager/main.c.orig	Tue Feb 24 22:34:16 2009
 +++ xfprint-manager/main.c	Mon Jan  3 13:50:06 2011

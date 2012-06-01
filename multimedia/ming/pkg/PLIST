@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/ming/pkg/PLIST,v 1.1.1.1 2011/06/19 17:45:54 kili Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/dbl2png
 @bin bin/gif2dbl

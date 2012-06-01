@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/openldap23/patches/patch-build_top_mk,v 1.1.1.1 2011/01/07 10:17:04 pea Exp $
+$OpenBSD$
 --- build/top.mk.orig	Wed Jan  3 00:42:47 2007
 +++ build/top.mk	Mon Jan 14 11:55:23 2008
 @@ -121,7 +121,7 @@ LTLINK_MOD = $(LIBTOOL) $(LTONLY_MOD) --mode=link \

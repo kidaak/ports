@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/nagstamon/Makefile,v 1.9 2012/04/13 15:40:00 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	nagios status monitor for the Desktop
 

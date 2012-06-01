@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/clutter/core/patches/patch-clutter_cogl_cogl_pc_in,v 1.1 2011/04/07 11:38:42 jasper Exp $
+$OpenBSD$
 
 pkg-config can't deal with a list of requirements as a variable
 

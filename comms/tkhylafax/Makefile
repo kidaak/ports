@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/tkhylafax/Makefile,v 1.29 2011/03/14 09:17:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Tcl/Tk interface to Sam Leffler's fax package
 

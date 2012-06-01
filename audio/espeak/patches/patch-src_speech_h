@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/espeak/patches/patch-src_speech_h,v 1.3 2009/04/16 16:39:17 ajacoutot Exp $
+$OpenBSD$
 
 - Don't define USE_ASYNC, this required sem_timedwait() to be present.
 

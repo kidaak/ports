@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/calc/Makefile,v 1.19 2010/10/19 09:21:04 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	C-style arbitrary precision calculator
 

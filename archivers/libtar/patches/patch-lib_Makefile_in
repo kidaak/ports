@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/libtar/patches/patch-lib_Makefile_in,v 1.2 2010/04/19 08:16:17 ajacoutot Exp $
+$OpenBSD$
 
 Enable shared library, from pkgsrc.
 

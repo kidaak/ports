@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/tesseract/patches/patch-dict_dawg_cpp,v 1.5 2011/07/08 11:25:47 jasper Exp $
+$OpenBSD$
 --- dict/dawg.cpp.orig	Thu Jul 22 02:48:12 2010
 +++ dict/dawg.cpp	Fri Jul  8 13:23:50 2011
 @@ -29,6 +29,10 @@

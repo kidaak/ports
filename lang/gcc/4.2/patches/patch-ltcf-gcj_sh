@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-ltcf-gcj_sh,v 1.1.1.1 2006/07/31 09:50:53 espie Exp $
+$OpenBSD$
 --- ltcf-gcj.sh.orig	Thu May  5 17:04:39 2005
 +++ ltcf-gcj.sh	Mon May 16 17:43:16 2005
 @@ -489,10 +489,13 @@ else

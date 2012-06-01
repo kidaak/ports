@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/imap-uw/pkg/PLIST-c-client,v 1.2 2009/11/07 12:53:17 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath mail/c-client
 @pkgpath mail/imap-uw,-c-client,plaintext
 %%SHARED%%

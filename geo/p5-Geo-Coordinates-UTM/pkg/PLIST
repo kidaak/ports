@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/p5-Geo-Coordinates-UTM/pkg/PLIST,v 1.1.1.1 2007/12/14 22:42:28 matthieu Exp $
+@comment $OpenBSD$
 ${P5SITE}/Geo/
 ${P5SITE}/Geo/Coordinates/
 ${P5SITE}/Geo/Coordinates/UTM.pm

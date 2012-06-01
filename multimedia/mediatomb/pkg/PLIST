@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/mediatomb/pkg/PLIST,v 1.1.1.1 2010/09/21 13:28:31 edd Exp $
+@comment $OpenBSD$
 @newgroup _mediatomb:656
 @newuser _mediatomb:656:_mediatomb:daemon:Mediatomb Account:/var/empty:/bin/sh
 @bin bin/mediatomb

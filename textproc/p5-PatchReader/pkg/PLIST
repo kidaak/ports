@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-PatchReader/pkg/PLIST,v 1.1.1.1 2006/06/15 07:27:49 djm Exp $
+@comment $OpenBSD$
 ${P5SITE}/PatchReader/
 ${P5SITE}/PatchReader.pm
 ${P5SITE}/PatchReader/AddCVSContext.pm

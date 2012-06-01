@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-templater/Makefile,v 1.10 2011/12/09 21:42:52 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	system for generating files
 

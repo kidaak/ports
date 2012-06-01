@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/wmtune/patches/patch-src_wmtune_c,v 1.5 2003/03/28 22:39:10 david Exp $
+$OpenBSD$
 --- src/wmtune.c.orig	Sat Sep 11 11:49:24 1999
 +++ src/wmtune.c	Fri Sep 27 21:22:11 2002
 @@ -18,102 +18,74 @@

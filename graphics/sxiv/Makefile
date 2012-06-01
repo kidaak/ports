@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/sxiv/Makefile,v 1.1.1.1 2012/02/27 08:45:50 bentley Exp $
+# $OpenBSD$
 
 COMMENT =	simple (or small or suckless) X Image Viewer
 

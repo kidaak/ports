@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs23/patches/patch-src_s_openbsd_h,v 1.1.1.1 2011/03/28 15:18:56 jasper Exp $
+$OpenBSD$
 
 emacs goes into a loop where it is expecting to get a signal-driven
 I/O but the signal is never delivered.

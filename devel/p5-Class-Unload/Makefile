@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Unload/Makefile,v 1.1.1.1 2012/04/06 09:23:55 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	unload a class
 

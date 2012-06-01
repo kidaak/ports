@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-protocols_ether_Makefile_in,v 1.4 2007/09/26 20:21:06 rui Exp $
+$OpenBSD$
 --- protocols/ether/Makefile.in.orig	Fri Jul 27 16:28:15 2007
 +++ protocols/ether/Makefile.in	Fri Jul 27 16:28:58 2007
 @@ -75,7 +75,7 @@ DIST_SOURCES = $(nd_ethernet_la_SOURCES)

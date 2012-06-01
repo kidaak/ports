@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/modlogan/pkg/PFRAG.shared,v 1.5 2005/02/24 23:20:09 mjc Exp $
+@comment $OpenBSD$
 lib/modlogan/libmla_input_bsdftpd.so
 lib/modlogan/libmla_input_clf.so
 lib/modlogan/libmla_input_cp_ims_login.so

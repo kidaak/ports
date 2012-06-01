@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/waf/waf.port.mk,v 1.4 2011/09/22 13:05:57 landry Exp $
+# $OpenBSD$
 
 MODULES +=		lang/python
 MODPY_RUNDEP =		no

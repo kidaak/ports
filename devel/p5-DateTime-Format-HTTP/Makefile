@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Format-HTTP/Makefile,v 1.8 2011/04/05 20:31:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 	DateTime::Format extension to HTTP formats
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/viz/pkg/PLIST,v 1.3 2004/09/15 17:54:17 espie Exp $
+@comment $OpenBSD$
 bin/inviz
 bin/viz
 @man man/man1/inviz.1

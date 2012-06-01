@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/shapelib/pkg/PLIST,v 1.2 2010/04/12 13:27:43 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 %%no_mips64%%
 include/libshp/

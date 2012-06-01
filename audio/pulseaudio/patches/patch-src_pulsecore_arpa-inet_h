@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/pulseaudio/patches/patch-src_pulsecore_arpa-inet_h,v 1.1 2011/10/01 08:37:31 ajacoutot Exp $
+$OpenBSD$
 
 - error: 'INET6_ADDRSTRLEN' undeclared (first use in this function)
 

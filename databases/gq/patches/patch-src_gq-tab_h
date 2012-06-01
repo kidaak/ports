@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/gq/patches/patch-src_gq-tab_h,v 1.1 2012/03/29 12:43:21 ajacoutot Exp $
+$OpenBSD$
 
 #error "Only <glib.h> can be included directly."
 

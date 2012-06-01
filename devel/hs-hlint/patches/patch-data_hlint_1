@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/hs-hlint/patches/patch-data_hlint_1,v 1.1 2010/11/22 09:14:20 jasper Exp $
+$OpenBSD$
 
 Adjust path to the HTML documentation.
 

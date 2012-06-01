@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/telepathy-haze/Makefile,v 1.20 2012/04/05 13:44:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		flexible communications framework, libpurple component
 

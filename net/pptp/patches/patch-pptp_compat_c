@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pptp/patches/patch-pptp_compat_c,v 1.1 2008/11/11 16:23:26 naddy Exp $
+$OpenBSD$
 --- pptp_compat.c.orig	Sat Sep 20 17:47:33 2008
 +++ pptp_compat.c	Sat Sep 20 17:47:36 2008
 @@ -7,7 +7,6 @@

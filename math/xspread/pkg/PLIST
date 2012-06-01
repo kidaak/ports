@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/xspread/pkg/PLIST,v 1.5 2004/09/15 09:12:00 espie Exp $
+@comment $OpenBSD$
 bin/pxspread
 bin/xspread
 @man man/man1/pxspread.1

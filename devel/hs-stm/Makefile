@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-stm/Makefile,v 1.11 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Software Transactional Memory
 

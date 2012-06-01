@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/smokeping/patches/patch-etc_basepage_html_dist,v 1.1 2007/12/19 17:54:51 sthen Exp $
+$OpenBSD$
 --- etc/basepage.html.dist.orig	Wed Dec 19 15:05:15 2007
 +++ etc/basepage.html.dist	Wed Dec 19 15:05:26 2007
 @@ -43,10 +43,10 @@ a.menulink:hover       {

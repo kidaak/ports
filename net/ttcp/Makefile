@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ttcp/Makefile,v 1.8 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	benchmarking tool for analysing TCP and UDP performance
 

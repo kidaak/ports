@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/databases/redis/pkg/redis.rc,v 1.1 2011/11/29 16:07:23 dcoppa Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/redis-server"
 daemon_flags="${SYSCONFDIR}/redis/redis.conf"

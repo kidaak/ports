@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/backintime/gnome/pkg/PLIST,v 1.4 2011/09/15 09:05:22 ajacoutot Exp $
+@comment $OpenBSD$
 bin/backintime-gnome
 @man man/man1/backintime-gnome.1
 share/applications/backintime-gnome.desktop

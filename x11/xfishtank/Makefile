@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xfishtank/Makefile,v 1.22 2011/05/22 16:02:33 espie Exp $
+# $OpenBSD$
 
 COMMENT=	fish swim in the background of your screen
 

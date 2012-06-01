@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/avrdude/Makefile,v 1.18 2011/12/09 12:25:44 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	AVR microcontroller hardware in-system programmer
 

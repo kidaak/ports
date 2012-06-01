@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/castle-combat/patches/patch-src_menu_py,v 1.1 2007/12/04 14:43:17 ajacoutot Exp $
+$OpenBSD$
 --- src/menu.py.orig	Tue Dec  4 15:19:36 2007
 +++ src/menu.py	Tue Dec  4 15:20:12 2007
 @@ -132,7 +132,7 @@ class MenuState(WidgetState):

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/snort2pf/Makefile,v 1.2 2011/06/02 13:41:40 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		block "nasty" hosts with pf(4) based on Snort's rules
 

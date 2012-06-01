@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/bonk/Makefile,v 1.14 2010/09/05 10:25:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	lossy/lossless audio coder
 

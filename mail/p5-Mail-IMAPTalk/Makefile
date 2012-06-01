@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-IMAPTalk/Makefile,v 1.4 2011/03/14 09:17:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT = 	IMAP client interface with lots of features
 

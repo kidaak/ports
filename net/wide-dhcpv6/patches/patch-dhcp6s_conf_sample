@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/wide-dhcpv6/patches/patch-dhcp6s_conf_sample,v 1.1.1.1 2009/01/01 19:01:14 stsp Exp $
+$OpenBSD$
 --- dhcp6s.conf.sample.orig	Thu Jul 17 22:07:54 2008
 +++ dhcp6s.conf.sample	Thu Jul 17 22:26:35 2008
 @@ -1,5 +1,5 @@

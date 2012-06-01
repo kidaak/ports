@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gnaughty/pkg/PLIST,v 1.2 2009/12/22 00:31:22 sthen Exp $
+@comment $OpenBSD$
 @bin bin/gnaughty
 share/applications/gnaughty.desktop
 share/gnaughty/

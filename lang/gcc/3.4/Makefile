@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gcc/3.4/Makefile,v 1.17 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	alpha i386 m68k sparc sparc64 powerpc vax
 BROKEN=adjust for types changes

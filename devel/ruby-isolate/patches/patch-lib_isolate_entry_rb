@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ruby-isolate/patches/patch-lib_isolate_entry_rb,v 1.1 2011/11/17 15:39:15 jeremy Exp $
+$OpenBSD$
 
 Add user-install option so that you don't need to have root access
 to use isolate with gems with C extensions.

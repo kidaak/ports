@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gtest/Makefile,v 1.4 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	C++ unit test framework
 

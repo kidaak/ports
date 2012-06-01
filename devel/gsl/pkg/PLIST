@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gsl/pkg/PLIST,v 1.9 2011/05/25 17:32:33 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/gsl-config
 @bin bin/gsl-histogram

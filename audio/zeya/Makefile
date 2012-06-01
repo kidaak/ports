@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/zeya/Makefile,v 1.3 2011/09/23 08:51:26 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =	html5-powered web music server
 
@@ -9,7 +9,7 @@ CATEGORIES =	audio www
 
 HOMEPAGE =	http://web.psung.name/zeya/
 
-MASTER_SITES =	http://ftp.de.debian.org/debian/pool/main/z/zeya/
+MASTER_SITES =	${MASTER_SITE_DEBIAN:=main/z/zeya/}
 
 MAINTAINER =	David Coppa <dcoppa@openbsd.org>
 

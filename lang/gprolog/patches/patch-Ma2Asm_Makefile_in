@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gprolog/patches/patch-Ma2Asm_Makefile_in,v 1.1 2009/12/27 19:30:21 jasper Exp $
+$OpenBSD$
 --- Ma2Asm/Makefile.in.orig	Thu Jan  4 10:21:48 2007
 +++ Ma2Asm/Makefile.in	Fri Jun 13 22:36:35 2008
 @@ -53,14 +53,14 @@ CHKMA_OBJS=chkma@OBJ_SUFFIX@ chkma_ma@OBJ_SUFFIX@ ../E

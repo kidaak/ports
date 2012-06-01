@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/automake/1.9/patches/patch-lib_Automake_Wrap_pm,v 1.1 2011/05/05 12:30:16 dcoppa Exp $
+$OpenBSD$
 
 Avoid a warning from perl-5.11
 

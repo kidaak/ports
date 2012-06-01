@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/digikam-doc/Makefile,v 1.12 2011/09/16 10:02:36 espie Exp $
+# $OpenBSD$
 
 COMMENT=		documentation for digikam
 CATEGORIES=		graphics x11 x11/kde

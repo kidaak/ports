@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/kismet/patches/patch-conf_kismet_conf_in,v 1.6 2007/11/10 21:10:42 kili Exp $
+$OpenBSD$
 --- conf/kismet.conf.in.orig	Sun Oct  7 17:48:51 2007
 +++ conf/kismet.conf.in	Sun Oct  7 17:51:25 2007
 @@ -10,7 +10,7 @@ version=2007.09.R1

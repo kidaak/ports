@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/filelight/pkg/PLIST,v 1.3 2009/12/22 12:51:52 sthen Exp $
+@comment $OpenBSD$
 bin/filelight
 ${KDE}/libfilelight.la
 ${KDE}/libfilelight.so

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_version_c,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/version.c.orig	Thu Sep 30 18:48:10 2004
 +++ gcc/version.c	Mon Jan  3 10:17:42 2005
 @@ -6,7 +6,7 @@

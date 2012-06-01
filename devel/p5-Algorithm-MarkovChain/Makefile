@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Algorithm-MarkovChain/Makefile,v 1.12 2010/12/03 11:44:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to create Markov chains and output based on them
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/cppunit/pkg/PFRAG.shared,v 1.1.1.1 2006/06/01 01:36:23 jolan Exp $
+@comment $OpenBSD$
 @lib lib/libcppunit.so.${LIBcppunit_VERSION}

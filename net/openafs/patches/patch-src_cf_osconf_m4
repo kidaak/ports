@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openafs/patches/patch-src_cf_osconf_m4,v 1.1 2008/10/12 00:12:07 todd Exp $
+$OpenBSD$
 --- src/cf/osconf.m4.orig	Wed Oct  8 11:32:24 2008
 +++ src/cf/osconf.m4	Wed Oct  8 11:34:47 2008
 @@ -412,13 +412,19 @@ case $AFS_SYSNAME in

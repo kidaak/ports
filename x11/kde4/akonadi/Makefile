@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/akonadi/Makefile,v 1.3 2010/11/22 08:37:02 espie Exp $
+# $OpenBSD$
 
 VERSION =		1.3.1
 COMMENT =		kde pim access libraries

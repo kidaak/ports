@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/exaile/patches/patch-tools_generate-launcher,v 1.1 2010/04/21 07:02:42 giovanni Exp $
+$OpenBSD$
 --- tools/generate-launcher.orig	Wed Apr  7 22:09:52 2010
 +++ tools/generate-launcher	Fri Apr  9 09:04:56 2010
 @@ -30,7 +30,7 @@ if test -z "\$XDG_DATA_DIRS"; then

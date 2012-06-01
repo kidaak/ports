@@ -1,6 +1,4 @@
-# $OpenBSD: ports/devel/nant/Makefile,v 1.10 2011/11/14 13:48:27 sthen Exp $
-
-BROKEN-amd64=	build hangs due threading?
+# $OpenBSD$
 
 COMMENT=	.NET build tool inspired by Ant
 

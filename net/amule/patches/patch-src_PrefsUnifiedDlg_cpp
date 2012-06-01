@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_PrefsUnifiedDlg_cpp,v 1.1 2011/12/11 18:31:13 dcoppa Exp $
+$OpenBSD$
 
 Fix "Prompt on exit" preference
 (upstream git commit aea8d002b6446dcaf38db4d4ab222fcebce60948)

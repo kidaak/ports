@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-convertible/Makefile,v 1.17 2012/03/01 09:39:48 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		library to convert between different types
 

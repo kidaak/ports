@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/pear/pkg/PLIST-main,v 1.5 2011/12/20 15:21:30 giovanni Exp $
+@comment $OpenBSD$
 @conflict php5-pear-*
 @conflict php4-pear-*
 @pkgpath www/php5/core,-pear

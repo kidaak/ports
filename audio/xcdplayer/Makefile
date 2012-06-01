@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xcdplayer/Makefile,v 1.27 2010/10/24 21:00:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	CD player for X11
 DISTNAME=	xcdplayer-2.2

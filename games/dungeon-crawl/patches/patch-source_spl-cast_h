@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/dungeon-crawl/patches/patch-source_spl-cast_h,v 1.1.1.1 2005/10/22 15:20:28 espie Exp $
+$OpenBSD$
 --- source/spl-cast.h.orig	Tue Oct 18 23:55:20 2005
 +++ source/spl-cast.h	Tue Oct 18 23:55:25 2005
 @@ -43,7 +43,7 @@ bool your_spells( int spc2, int powc = 0

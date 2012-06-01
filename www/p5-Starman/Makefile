@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Starman/Makefile,v 1.1.1.1 2011/01/07 13:45:39 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		high-performance preforking PSGI/Plack web server
 

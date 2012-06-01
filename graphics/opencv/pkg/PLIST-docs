@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/opencv/pkg/PLIST-docs,v 1.1.1.1 2011/06/24 09:30:22 jasper Exp $
+@comment $OpenBSD$
 share/opencv/doc/
 share/opencv/doc/CMakeLists.txt
 share/opencv/doc/README.txt

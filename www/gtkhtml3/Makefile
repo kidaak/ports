@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/gtkhtml3/Makefile,v 1.53 2011/10/29 08:12:32 ajacoutot Exp $
+# $OpenBSD$
 
 # XXX fix building with glib2 >= 2.29 (G_CONST_RETURN is deprecated)
 CFLAGS +=	"-DG_CONST_RETURN=const"

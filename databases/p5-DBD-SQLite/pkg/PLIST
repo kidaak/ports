@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-DBD-SQLite/pkg/PLIST,v 1.5 2010/08/22 16:55:48 sthen Exp $
+@comment $OpenBSD$
 ${P5ARCH}/DBD/SQLite/
 ${P5ARCH}/DBD/SQLite.pm
 ${P5ARCH}/DBD/SQLite/Cookbook.pod

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_make_sun_splashscreen_FILES_c_gmk,v 1.1 2008/12/22 13:16:56 kurt Exp $
+$OpenBSD$
 --- j2se/make/sun/splashscreen/FILES_c.gmk.orig	Sun Dec 21 18:17:04 2008
 +++ j2se/make/sun/splashscreen/FILES_c.gmk	Sun Dec 21 18:22:34 2008
 @@ -27,20 +27,6 @@ FILES_c = \

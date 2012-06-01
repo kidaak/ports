@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dclock/patches/patch-dclock_c,v 1.1 2004/05/21 10:48:48 xsa Exp $
+$OpenBSD$
 --- dclock.c.orig	2004-05-19 15:22:58.000000000 +0200
 +++ dclock.c	2004-05-19 15:22:58.000000000 +0200
 @@ -82,13 +82,14 @@ static XtActionsRec actionsList[] = {

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mp3blaster/patches/patch-nmixer_Makefile_am,v 1.1 2010/01/11 07:51:26 jakemsr Exp $
+$OpenBSD$
 --- nmixer/Makefile.am.orig	Sun Dec 27 01:40:59 2009
 +++ nmixer/Makefile.am	Sun Dec 27 01:42:16 2009
 @@ -1,9 +1,9 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ski/Makefile,v 1.10 2012/01/13 14:55:14 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	skiing simulation game
 

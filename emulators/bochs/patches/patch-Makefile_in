@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/bochs/patches/patch-Makefile_in,v 1.5 2011/11/29 17:22:01 giovanni Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Nov 27 11:12:35 2011
 +++ Makefile.in	Sun Nov 27 21:55:47 2011
 @@ -392,8 +392,8 @@ install_docbook: build_docbook

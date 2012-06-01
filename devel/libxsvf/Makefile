@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libxsvf/Makefile,v 1.2 2011/11/14 11:26:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	library and tools for creating SVF and XSVF JTAG players
 

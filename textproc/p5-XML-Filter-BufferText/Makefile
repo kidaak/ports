@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Filter-BufferText/Makefile,v 1.5 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	collate XML character events in one chunk
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnet/1.0/patches/patch-doc_libnet_3,v 1.2 2008/11/08 22:09:40 sthen Exp $
+$OpenBSD$
 --- doc/libnet.3.orig	Sun Feb  4 00:27:21 2001
 +++ doc/libnet.3	Sat Nov  8 22:07:54 2008
 @@ -19,7 +19,7 @@ supplementary and complementary functionality.

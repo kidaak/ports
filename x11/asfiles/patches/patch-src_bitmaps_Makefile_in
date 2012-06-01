@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/asfiles/patches/patch-src_bitmaps_Makefile_in,v 1.1.1.1 2001/03/07 15:47:04 wilfried Exp $
+$OpenBSD$
 --- src/bitmaps/Makefile.in.orig	Mon Jan 20 15:01:49 1997
 +++ src/bitmaps/Makefile.in	Tue Feb 13 13:59:38 2001
 @@ -85,10 +85,8 @@ dvi:

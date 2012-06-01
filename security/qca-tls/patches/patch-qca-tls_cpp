@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/qca-tls/patches/patch-qca-tls_cpp,v 1.2 2010/10/06 18:44:58 kili Exp $
+$OpenBSD$
 --- qca-tls.cpp.orig	Wed Dec 10 17:53:57 2003
 +++ qca-tls.cpp	Mon Oct  4 18:56:39 2010
 @@ -454,7 +454,11 @@ class RSAKeyContext : public QCA_RSAKeyContext (public

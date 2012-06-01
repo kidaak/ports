@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/graphviz/patches/patch-contrib_diffimg_Makefile_in,v 1.1 2007/02/20 11:47:07 espie Exp $
+$OpenBSD$
 --- contrib/diffimg/Makefile.in.orig2	Sun Feb 18 23:49:11 2007
 +++ contrib/diffimg/Makefile.in	Sun Feb 18 23:49:42 2007
 @@ -54,8 +54,8 @@ CONFIG_CLEAN_FILES =

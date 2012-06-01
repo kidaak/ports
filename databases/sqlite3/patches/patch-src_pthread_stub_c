@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/sqlite3/patches/patch-src_pthread_stub_c,v 1.2 2011/01/09 19:11:34 landry Exp $
+$OpenBSD$
 --- src/pthread_stub.c.orig	Tue Nov 23 23:07:52 2010
 +++ src/pthread_stub.c	Tue Nov 23 23:08:24 2010
 @@ -0,0 +1,28 @@

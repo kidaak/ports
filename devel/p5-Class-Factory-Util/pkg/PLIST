@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Factory-Util/pkg/PLIST,v 1.1.1.1 2006/11/12 16:31:32 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/
 ${P5SITE}/Class/Factory/
 ${P5SITE}/Class/Factory/Util.pm

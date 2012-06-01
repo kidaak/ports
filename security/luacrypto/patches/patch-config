@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/luacrypto/patches/patch-config,v 1.2 2011/04/18 18:12:47 jasper Exp $
+$OpenBSD$
 --- config.orig	Mon Apr 18 20:10:20 2011
 +++ config	Mon Apr 18 20:11:05 2011
 @@ -1,23 +1,23 @@

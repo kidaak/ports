@@ -1,4 +1,4 @@
-# $OpenBSD: ports/shells/tcsh/Makefile,v 1.47 2010/12/21 19:56:24 matthieu Exp $
+# $OpenBSD$
 
 COMMENT=	extended C-shell with many useful features
 

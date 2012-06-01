@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/claws-mail/pkg/PLIST-main,v 1.24 2012/01/23 18:57:33 landry Exp $
+@comment $OpenBSD$
 @pkgpath mail/sylpheed-claws,-main
 @pkgpath mail/sylpheed-claws,-main,compface
 @pkgpath mail/sylpheed-claws,-main,pgpmime

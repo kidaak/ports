@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xawtv/Makefile,v 1.28 2011/04/17 17:54:49 jasper Exp $
+# $OpenBSD$
 
 # we use "macppc" and not "powerpc" on purpose here ; i.e. bktr(4) needed
 ONLY_FOR_ARCHS=	i386 macppc amd64 alpha

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/Xaw3d/Makefile,v 1.29 2010/10/24 21:15:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	3D Athena Widget set that looks like Motif
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/psdim/Makefile,v 1.7 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		intelligent n-up printing
 

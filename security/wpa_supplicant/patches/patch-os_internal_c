@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/wpa_supplicant/patches/patch-os_internal_c,v 1.3 2012/01/19 16:14:11 sthen Exp $
+$OpenBSD$
 --- src/utils/os_internal.c.orig	Tue May 29 03:08:48 2007
 +++ src/utils/os_internal.c	Sat Jan 14 12:52:53 2012
 @@ -178,7 +178,7 @@ int os_setenv(const char *name, const char *value, int

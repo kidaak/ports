@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/media/Makefile,v 1.65 2012/03/29 07:08:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GNOME media utilities
 

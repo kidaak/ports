@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/astyle/pkg/PLIST,v 1.2 2004/08/08 17:55:29 espie Exp $
+@comment $OpenBSD$
 bin/astyle
 share/doc/astyle/
 share/doc/astyle/astyle.html

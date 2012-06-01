@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tcpdpriv/patches/patch-tcpdpriv_1,v 1.1 2011/06/23 22:50:28 naddy Exp $
+$OpenBSD$
 --- tcpdpriv.1.orig	Tue Jun 21 07:57:51 2011
 +++ tcpdpriv.1	Tue Jun 21 07:59:49 2011
 @@ -217,6 +217,7 @@ will be deleted).  See the

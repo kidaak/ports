@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_client_WSTransport_cpp,v 1.8 2011/12/22 17:10:04 ajacoutot Exp $
+$OpenBSD$
 --- provider/client/WSTransport.cpp.orig	Thu Dec 22 01:02:35 2011
 +++ provider/client/WSTransport.cpp	Thu Dec 22 12:14:19 2011
 @@ -56,6 +56,10 @@

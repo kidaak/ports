@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/grip/Makefile,v 1.46 2011/10/12 12:54:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	front-end to external cd audio rippers and mp3 encoders
 

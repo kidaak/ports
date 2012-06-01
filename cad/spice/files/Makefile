@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/spice/files/Makefile,v 1.6 2011/07/04 04:24:01 naddy Exp $
+# $OpenBSD$
 #
 
 EXAMPLES=	bjtnoise.cir    ltra_1.cir      mos6inv.cir     pz2.cir \

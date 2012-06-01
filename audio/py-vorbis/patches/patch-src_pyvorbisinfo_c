@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-vorbis/patches/patch-src_pyvorbisinfo_c,v 1.1.1.1 2011/05/31 09:19:45 dcoppa Exp $
+$OpenBSD$
 
 Fixes for python2.5 memory management
 (from Debian's patchset for python-pyvorbis)

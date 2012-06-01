@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_src_share_classes_java_lang_ClassLoader_java,v 1.1.1.1 2007/11/19 03:19:44 kurt Exp $
+$OpenBSD$
 --- j2se/src/share/classes/java/lang/ClassLoader.java.orig	Thu Apr 12 04:43:44 2007
 +++ j2se/src/share/classes/java/lang/ClassLoader.java	Wed Oct 10 17:42:40 2007
 @@ -9,6 +9,7 @@ package java.lang;

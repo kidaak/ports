@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/kicad-library/Makefile,v 1.1.1.1 2011/05/03 18:27:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		library modules for Kicad EDA
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/signify/Makefile,v 1.4 2010/10/18 19:59:20 espie Exp $
+# $OpenBSD$
 
 COMMENT=	dynamic .signature generator
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/flvstreamer/pkg/PLIST,v 1.2 2010/02/26 18:46:52 sthen Exp $
+@comment $OpenBSD$
 @bin bin/flvstreamer
 @bin bin/rtmpsrv_flv
 @bin bin/rtmpsuck_flv

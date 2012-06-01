@@ -1,10 +1,10 @@
-# $OpenBSD: ports/x11/fluxbox/Makefile,v 1.63 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		window manager based on the original Blackbox code
 
 DISTNAME=		fluxbox-1.3.2
 
-REVISION=		4
+REVISION=		5
 
 CATEGORIES=		x11
 

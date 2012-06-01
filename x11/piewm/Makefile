@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/piewm/Makefile,v 1.24 2010/10/24 21:15:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	tvtwm with pie (circular) menus
 

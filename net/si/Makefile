@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/si/Makefile,v 1.7 2011/03/14 09:17:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	minimalistic SILC client
 

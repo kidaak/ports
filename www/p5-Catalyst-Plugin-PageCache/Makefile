@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-PageCache/Makefile,v 1.6 2012/04/08 21:58:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	cache the output of entire pages
 

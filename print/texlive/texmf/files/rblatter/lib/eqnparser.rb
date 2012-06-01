@@ -14,7 +14,7 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 # 
 # RBlatter
-# $Id: eqnparser.rb,v 1.1.1.1 2010/10/08 22:08:06 edd Exp $
+# $Id$
 #
 # Parse equation and put into data structure.
 

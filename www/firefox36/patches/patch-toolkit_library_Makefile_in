@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox36/patches/patch-toolkit_library_Makefile_in,v 1.4 2011/10/03 21:09:43 landry Exp $
+$OpenBSD$
 --- toolkit/library/Makefile.in.orig	Tue Sep 20 16:23:11 2011
 +++ toolkit/library/Makefile.in	Tue Sep 27 21:46:45 2011
 @@ -291,6 +291,12 @@ ifeq ($(OS_ARCH),OpenBSD)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/stegdetect/Makefile,v 1.14 2010/11/20 17:22:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	steganography detection tool
 DISTNAME=	stegdetect-0.6

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-BigInt-GMP/Makefile,v 1.11 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

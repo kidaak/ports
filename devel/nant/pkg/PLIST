@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/nant/pkg/PLIST,v 1.3 2011/11/14 13:48:27 sthen Exp $
+@comment $OpenBSD$
 bin/nant
 lib/pkgconfig/nant.pc
 share/NAnt/

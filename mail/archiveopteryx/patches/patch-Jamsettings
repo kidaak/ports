@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/archiveopteryx/patches/patch-Jamsettings,v 1.1.1.1 2011/01/09 09:36:21 landry Exp $
+$OpenBSD$
 --- Jamsettings.orig	Wed Mar 10 13:17:56 2010
 +++ Jamsettings	Mon Apr  5 23:33:00 2010
 @@ -28,7 +28,7 @@ MANDIR = $(PREFIX)/man ;

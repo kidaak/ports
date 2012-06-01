@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gobject-introspection/patches/patch-giscanner_utils_py,v 1.2 2011/04/07 11:09:06 ajacoutot Exp $
+$OpenBSD$
 
 Make sure try to compile/link with the right libtool,
 this overrides the --libtool option to girscanner.

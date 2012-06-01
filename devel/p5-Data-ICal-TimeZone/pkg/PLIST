@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Data-ICal-TimeZone/pkg/PLIST,v 1.1.1.1 2010/04/12 16:55:45 giovanni Exp $
+@comment $OpenBSD$
 ${P5SITE}/Data/ICal/TimeZone/
 ${P5SITE}/Data/ICal/TimeZone.pm
 ${P5SITE}/Data/ICal/TimeZone/List.pm

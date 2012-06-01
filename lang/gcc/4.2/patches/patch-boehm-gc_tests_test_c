@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-boehm-gc_tests_test_c,v 1.1 2009/06/04 18:24:20 kurt Exp $
+$OpenBSD$
 --- boehm-gc/tests/test.c.orig	Thu Mar  5 17:57:38 2009
 +++ boehm-gc/tests/test.c	Thu Mar  5 17:58:02 2009
 @@ -1799,7 +1799,8 @@ main()

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-libraries_Cabal_Distribution_Simple_Utils_hs,v 1.1 2011/07/23 16:38:54 kili Exp $
+$OpenBSD$
 
 Don't strip the error message down to something stupid like `resource
 exhausted' (which represents 13 different values of errno).

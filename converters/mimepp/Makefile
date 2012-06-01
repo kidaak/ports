@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/mimepp/Makefile,v 1.17 2010/10/23 22:01:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	C++ class library for MIME messages
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/stegdetect/patches/patch-stegdetect_c,v 1.1 2010/05/22 13:18:56 espie Exp $
+$OpenBSD$
 --- stegdetect.c.orig	Sat May 22 15:15:57 2010
 +++ stegdetect.c	Sat May 22 15:16:31 2010
 @@ -78,6 +78,7 @@ char *progname;

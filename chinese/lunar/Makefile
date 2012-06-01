@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/lunar/Makefile,v 1.21 2010/10/18 16:57:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	convert solar calendar to lunar calendar
 

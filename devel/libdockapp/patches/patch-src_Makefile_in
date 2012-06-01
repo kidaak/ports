@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libdockapp/patches/patch-src_Makefile_in,v 1.1 2006/01/02 18:15:53 bernd Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Mon Jan  2 18:19:24 2006
 +++ src/Makefile.in	Mon Jan  2 18:19:44 2006
 @@ -79,7 +79,7 @@ AUTOMAKE_OPTIONS = no-dependencies

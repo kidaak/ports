@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/timidity/pkg/PFRAG.xaw,v 1.1 2007/11/22 12:52:34 ajacoutot Exp $
+@comment $OpenBSD$
 lib/timidity/
 lib/timidity/bitmaps/
 lib/timidity/bitmaps/back.xbm

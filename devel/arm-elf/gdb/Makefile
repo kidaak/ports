@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/arm-elf/gdb/Makefile,v 1.8 2011/11/11 18:33:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	gdb for arm-elf cross-development
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/ucl/Makefile,v 1.13 2012/03/29 13:38:12 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	portable lossless data compression library
 

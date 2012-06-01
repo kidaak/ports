@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/logic2cnf/pkg/PLIST,v 1.1.1.1 2010/10/24 13:55:41 edd Exp $
+@comment $OpenBSD$
 @bin bin/logic2cnf
 @man man/man1/logic2cnf.1
 share/l2cstd/

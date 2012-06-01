@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dovecot/patches/patch-src_master_master-settings_c,v 1.14 2012/02/17 22:10:34 sthen Exp $
+$OpenBSD$
 
 changed settings are also present in src/config/all-settings.c; this file
 is rebuilt as part of the Dovecot build.

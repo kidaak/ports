@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gindent/pkg/PLIST,v 1.9 2011/05/02 11:34:14 jasper Exp $
+@comment $OpenBSD$
 @bin bin/gindent
 @bin bin/gtexinfo2man
 @info info/indent.info

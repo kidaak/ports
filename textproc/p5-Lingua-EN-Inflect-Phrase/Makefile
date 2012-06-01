@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-EN-Inflect-Phrase/Makefile,v 1.1.1.1 2012/04/06 09:26:25 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	inflect short English Phrases
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/openobex/patches/patch-src_irda_h,v 1.1.1.1 2004/11/12 08:04:22 grange Exp $
+$OpenBSD$
 --- src/irda.h.orig	Wed Oct 20 21:47:28 2004
 +++ src/irda.h	Wed Oct 20 21:47:46 2004
 @@ -26,7 +26,9 @@

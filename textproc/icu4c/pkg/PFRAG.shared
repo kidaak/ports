@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/icu4c/pkg/PFRAG.shared,v 1.1 2010/04/05 21:40:24 landry Exp $
+@comment $OpenBSD$
 @lib lib/libicudata.so.${LIBicudata_VERSION}
 @lib lib/libicui18n.so.${LIBicui18n_VERSION}
 @lib lib/libicuio.so.${LIBicuio_VERSION}

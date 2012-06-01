@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/iodbc/patches/patch-configure,v 1.4 2011/06/16 01:29:57 sthen Exp $
+$OpenBSD$
 --- configure.orig	Thu Sep 10 15:34:58 2009
 +++ configure	Fri Jun  3 11:28:05 2011
 @@ -15078,7 +15078,7 @@ fi

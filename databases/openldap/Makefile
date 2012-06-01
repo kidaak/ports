@@ -1,9 +1,9 @@
-# $OpenBSD: ports/databases/openldap/Makefile,v 1.112 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=	Open source LDAP software (client)
 COMMENT-server=	Open source LDAP software (server)
 
-DISTNAME=		openldap-2.4.30
+DISTNAME=		openldap-2.4.31
 PKGNAME-main=		${DISTNAME:S/-/-client-/}
 PKGNAME-server=		${DISTNAME:S/-/-server-/}
 
@@ -21,10 +21,10 @@ HOMEPAGE=	http://www.openldap.org/
 # OpenLDAP Public License
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
-PERMIT_DISTFILES_CDROM=	Yes 
+PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB += c crypto ssl asn1 com_err gssapi krb5 sasl2 
+WANTLIB += c crypto ssl asn1 com_err gssapi krb5 sasl2
 
 MASTER_SITES=	http://mirror.switch.ch/ftp/mirror/OpenLDAP/openldap-release/ \
 		http://gd.tuwien.ac.at/infosys/network/OpenLDAP/openldap-release/ \
@@ -40,7 +40,6 @@ CONFIGURE_STYLE=	autoconf
 USE_GROFF=		Yes
 
 CONFIGURE_ARGS+=	${CONFIGURE_SHARED} \
-			--localstatedir="/var" \
 			--enable-ipv6 \
 			--with-tls=openssl
 
@@ -80,13 +79,13 @@ CPPFLAGS +=		-I${LOCALBASE}/include/sasl
 LIB_DEPENDS-server =	${LIB_DEPENDS-main} \
 			textproc/icu4c \
 			databases/db/v4,no_java,no_tcl
-			
+
 CONFIGURE_ENV +=	CPPFLAGS="-I${LOCALBASE}/include/sasl -I${LOCALBASE}/include/db4 -I${LOCALBASE}/include" \
 			LDFLAGS="-L${LOCALBASE}/lib/db4 -L${LOCALBASE}/lib"
 
 RUN_DEPENDS-server=	${BASE_PKGPATH}
-WANTLIB-server += 	${WANTLIB} perl util wrap m pthread icudata icuuc
-WANTLIB-server += 	stdc++ lib/db4/db>=4
+WANTLIB-server +=	${WANTLIB} perl util wrap m pthread icudata icuuc
+WANTLIB-server +=	stdc++ lib/db4/db>=4
 
 USE_LIBTOOL=	Yes
 

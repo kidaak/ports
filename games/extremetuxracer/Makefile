@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/extremetuxracer/Makefile,v 1.3 2011/09/01 14:34:22 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		downhill racing game
 

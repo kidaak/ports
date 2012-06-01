@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-cssutils/pkg/PLIST,v 1.3 2011/04/17 18:36:16 phessler Exp $
+@comment $OpenBSD$
 bin/csscapture
 bin/csscombine
 bin/cssparse

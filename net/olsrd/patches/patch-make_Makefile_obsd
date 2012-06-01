@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/olsrd/patches/patch-make_Makefile_obsd,v 1.2 2010/07/06 07:41:46 sthen Exp $
+$OpenBSD$
 --- make/Makefile.obsd.orig	Wed Mar 31 19:03:53 2010
 +++ make/Makefile.obsd	Sun Jun 13 13:42:51 2010
 @@ -11,9 +11,8 @@ HDRS +=		$(wildcard src/bsd/*.h src/unix/*.h)

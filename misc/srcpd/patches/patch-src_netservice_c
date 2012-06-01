@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/srcpd/patches/patch-src_netservice_c,v 1.1.1.1 2010/12/11 11:14:54 sebastia Exp $
+$OpenBSD$
 --- src/netservice.c.orig	Wed Mar  3 21:45:58 2010
 +++ src/netservice.c	Fri Dec  3 16:56:00 2010
 @@ -6,6 +6,8 @@

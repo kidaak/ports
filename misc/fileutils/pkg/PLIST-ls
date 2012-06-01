@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/fileutils/pkg/PLIST-ls,v 1.6 2009/04/08 16:27:12 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict fileutils-*
 @bin bin/gdir
 @bin bin/gdircolors

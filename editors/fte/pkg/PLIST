@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/fte/pkg/PLIST,v 1.2 2011/01/16 19:58:18 naddy Exp $
+@comment $OpenBSD$
 @bin bin/cfte
 bin/fte
 @bin bin/xfte

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/varnish/patches/patch-configure_ac,v 1.1 2011/12/23 13:06:30 jasper Exp $
+$OpenBSD$
 --- configure.ac.orig	Mon Oct 24 03:25:13 2011
 +++ configure.ac	Tue Nov 29 21:30:07 2011
 @@ -147,9 +147,23 @@ fi

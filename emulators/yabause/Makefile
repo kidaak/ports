@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/yabause/Makefile,v 1.2 2011/04/01 21:57:26 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	Sega Saturn emulator
 

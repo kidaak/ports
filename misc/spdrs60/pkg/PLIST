@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/spdrs60/pkg/PLIST,v 1.1.1.1 2010/12/11 11:19:08 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/centralclock
 @bin bin/spdrs60
 man/de/

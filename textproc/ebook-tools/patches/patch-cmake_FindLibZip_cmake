@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ebook-tools/patches/patch-cmake_FindLibZip_cmake,v 1.1.1.1 2011/12/23 13:04:00 jasper Exp $
+$OpenBSD$
 --- cmake/FindLibZip.cmake.orig	Sun Apr  6 19:16:33 2008
 +++ cmake/FindLibZip.cmake	Fri Dec 23 12:19:54 2011
 @@ -2,35 +2,29 @@

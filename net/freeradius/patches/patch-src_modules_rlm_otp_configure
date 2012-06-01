@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/freeradius/patches/patch-src_modules_rlm_otp_configure,v 1.2 2011/11/22 16:22:27 jasper Exp $
+$OpenBSD$
 --- src/modules/rlm_otp/configure.orig	Mon Jun 20 16:57:14 2011
 +++ src/modules/rlm_otp/configure	Tue Nov 22 17:22:06 2011
 @@ -3418,7 +3418,7 @@ if test "${ac_cv_lib_ssl_SSL_new+set}" = set; then

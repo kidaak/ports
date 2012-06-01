@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/opal/patches/patch-configure,v 1.4 2011/10/26 16:59:34 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Fri Oct 14 09:00:11 2011
 +++ configure	Tue Oct 25 12:26:05 2011
 @@ -4620,7 +4620,7 @@ fi

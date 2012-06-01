@@ -1,4 +1,4 @@
-# $OpenBSD: ports/russian/xruskb/Makefile,v 1.47 2011/09/16 11:13:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=	english-russian keyboard switcher for X11
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-distutils-extra/Makefile,v 1.6 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		add support for i18n, documentation and icons to distutils
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pfstat/Makefile,v 1.27 2011/06/23 22:50:28 naddy Exp $
+# $OpenBSD$
 
 COMMENT-main=	packet filter statistics visualization
 COMMENT-daemon=	pfstat daemon

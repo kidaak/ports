@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/glom/pkg/PLIST,v 1.11 2012/04/11 15:32:24 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/glom
 @bin bin/glom_create_from_example
 @bin bin/glom_export_po

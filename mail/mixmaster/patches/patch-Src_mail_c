@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mixmaster/patches/patch-Src_mail_c,v 1.1 2003/11/23 18:52:40 sturm Exp $
+$OpenBSD$
 --- Src/mail.c.orig	2003-11-23 19:32:51.000000000 +0100
 +++ Src/mail.c	2003-11-23 19:34:17.000000000 +0100
 @@ -152,7 +152,7 @@ int sendmail(BUFFER *message, char *from

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xmoto/patches/patch-src_helpers_System_cpp,v 1.1 2012/04/15 08:49:05 kirby Exp $
+$OpenBSD$
 --- src/helpers/System.cpp.orig	Sat Sep 10 22:34:36 2011
 +++ src/helpers/System.cpp	Sat Sep 10 22:35:18 2011
 @@ -81,7 +81,7 @@ std::string System::getMemoryInfo() {

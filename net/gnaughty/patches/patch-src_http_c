@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gnaughty/patches/patch-src_http_c,v 1.1 2011/07/05 08:18:30 jasper Exp $
+$OpenBSD$
 --- src/http.c.orig	Tue Jul  5 09:25:32 2011
 +++ src/http.c	Tue Jul  5 09:25:36 2011
 @@ -21,7 +21,6 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston,

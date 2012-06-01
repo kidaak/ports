@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/falconseye/patches/patch-win_jtp_gamedata_config_jtp_opts_txt,v 1.1.1.1 2001/07/05 13:29:06 espie Exp $
+$OpenBSD$
 --- win/jtp/gamedata/config/jtp_opts.txt.orig	Thu Jul  5 15:16:09 2001
 +++ win/jtp/gamedata/config/jtp_opts.txt	Thu Jul  5 15:16:25 2001
 @@ -39,7 +39,7 @@ fullscreen=0

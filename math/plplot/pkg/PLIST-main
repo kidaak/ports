@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/plplot/pkg/PLIST-main,v 1.4 2010/04/15 20:41:42 dcoppa Exp $
+@comment $OpenBSD$
 @pkgpath math/plplot
 bin/plm2gif
 bin/plpr

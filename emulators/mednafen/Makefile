@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/mednafen/Makefile,v 1.2 2011/09/06 19:21:52 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	emulates numerous game consoles
 

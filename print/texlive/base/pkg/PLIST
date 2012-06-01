@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/texlive/base/pkg/PLIST,v 1.21 2012/01/31 14:15:57 sthen Exp $
+@comment $OpenBSD$
 @conflict teTeX_base-*
 @conflict pdfjam-*
 @conflict ht-<2

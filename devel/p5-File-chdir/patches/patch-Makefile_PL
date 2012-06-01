@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-File-chdir/patches/patch-Makefile_PL,v 1.1 2008/07/12 13:39:14 kevlo Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Fri Jul 11 13:36:28 2008
 +++ Makefile.PL	Fri Jul 11 13:36:41 2008
 @@ -8,8 +8,8 @@ WriteMakefile

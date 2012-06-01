@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mplayer/patches/patch-stream_stream_bluray_c,v 1.1 2012/03/30 13:23:03 phessler Exp $
+$OpenBSD$
 
 Update to new libbluray API
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/nethack/patches/patch-sys_unix_Makefile_top,v 1.6 2004/08/11 10:15:07 espie Exp $
+$OpenBSD$
 --- sys/unix/Makefile.top.orig	Mon Dec  8 00:39:13 2003
 +++ sys/unix/Makefile.top	Tue Aug 10 13:37:18 2004
 @@ -13,19 +13,19 @@

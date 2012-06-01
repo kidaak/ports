@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libsamplerate/Makefile,v 1.15 2010/11/15 00:22:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	audio sample rate conversion library
 

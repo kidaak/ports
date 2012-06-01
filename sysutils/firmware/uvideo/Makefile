@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/firmware/uvideo/Makefile,v 1.1 2011/06/12 00:20:51 sthen Exp $
+# $OpenBSD$
 
 FW_DRIVER=	uvideo
 FW_VER=		1.2

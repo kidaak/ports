@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/radiusd-cistron/patches/patch-src_Make_inc,v 1.3 2004/07/12 13:32:11 danh Exp $
+$OpenBSD$
 --- src/Make.inc.orig	Thu Apr 10 06:51:47 2003
 +++ src/Make.inc	Mon Jul 12 09:03:02 2004
 @@ -115,15 +115,13 @@ clean:

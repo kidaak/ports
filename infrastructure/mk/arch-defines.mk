@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/mk/arch-defines.mk,v 1.3 2012/04/12 15:06:05 landry Exp $
+# $OpenBSD$
 #
 # ex:ts=4 sw=4 filetype=make:
 #

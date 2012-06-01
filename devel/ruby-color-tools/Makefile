@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-color-tools/Makefile,v 1.10 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=	ruby library to provide colorspace support
 

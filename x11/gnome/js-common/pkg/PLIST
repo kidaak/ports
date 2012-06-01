@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/js-common/pkg/PLIST,v 1.1.1.1 2011/05/13 08:16:28 jasper Exp $
+@comment $OpenBSD$
 lib/gnome-js/
 lib/gnome-js/ArrayUtils.js
 lib/gnome-js/JSON.js

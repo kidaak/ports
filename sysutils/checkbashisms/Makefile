@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/checkbashisms/Makefile,v 1.7 2011/03/14 09:15:33 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		check shell scripts for bash-specific constructs
 

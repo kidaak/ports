@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-syntax/pkg/PLIST,v 1.1.1.1 2010/12/20 18:19:10 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/data/

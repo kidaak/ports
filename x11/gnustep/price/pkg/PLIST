@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/price/pkg/PLIST,v 1.1.1.1 2010/11/10 17:24:44 sebastia Exp $
+@comment $OpenBSD$
 bin/PRICE
 libexec/GNUstep/
 libexec/GNUstep/PRICE.app/

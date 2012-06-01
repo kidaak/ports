@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/fyre/patches/patch-configure,v 1.1.1.1 2007/05/21 14:24:06 jasper Exp $
+$OpenBSD$
 --- configure.orig	Wed Sep  6 02:02:18 2006
 +++ configure	Fri May 18 13:27:43 2007
 @@ -6517,7 +6517,7 @@ fi

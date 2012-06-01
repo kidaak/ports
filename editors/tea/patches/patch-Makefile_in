@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/tea/patches/patch-Makefile_in,v 1.2 2008/07/15 14:22:16 landry Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Jun 26 11:13:59 2008
 +++ Makefile.in	Fri Jul  4 11:50:54 2008
 @@ -634,7 +634,7 @@ uninstall-am: uninstall-local

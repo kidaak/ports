@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/qhacc/pkg/PFRAG.shared,v 1.1 2009/06/07 00:08:32 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libacct.so.${LIBacct_VERSION}
 @lib lib/libarcio.so.${LIBarcio_VERSION}
 @lib lib/libaves.so.${LIBaves_VERSION}

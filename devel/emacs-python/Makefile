@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/emacs-python/Makefile,v 1.1.1.1 2011/05/22 20:40:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Emacs mode for editing Python code
 

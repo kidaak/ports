@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/base64/Makefile,v 1.23 2010/10/18 17:06:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=	converter to/from base64 encoding
 

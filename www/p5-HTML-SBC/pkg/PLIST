@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-SBC/pkg/PLIST,v 1.1.1.1 2008/09/06 10:33:59 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTML/
 ${P5SITE}/HTML/SBC.pm
 @man man/man3p/HTML::SBC.3p

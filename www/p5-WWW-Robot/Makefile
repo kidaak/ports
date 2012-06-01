@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Robot/Makefile,v 1.7 2011/03/18 09:27:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		configurable web traversal engine
 

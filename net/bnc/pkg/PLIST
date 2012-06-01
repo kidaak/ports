@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/bnc/pkg/PLIST,v 1.2 2004/08/03 14:43:39 robert Exp $
+@comment $OpenBSD$
 bin/bnc
 bin/bncchk
 bin/bncsetup

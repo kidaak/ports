@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/accessibility/Makefile,v 1.11 2010/11/22 08:37:02 espie Exp $
+# $OpenBSD$
 
 COMMENT =		K Desktop Environment, accessibility
 DISTNAME =		kdeaccessibility-${VERSION}

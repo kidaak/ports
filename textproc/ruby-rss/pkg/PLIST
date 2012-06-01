@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-rss/pkg/PLIST,v 1.2 2010/11/09 18:48:47 jeremy Exp $
+@comment $OpenBSD$
 lib/ruby/site_ruby/${MODRUBY_LIBREV}/rss/
 lib/ruby/site_ruby/${MODRUBY_LIBREV}/rss.rb
 lib/ruby/site_ruby/${MODRUBY_LIBREV}/rss/0.9.rb

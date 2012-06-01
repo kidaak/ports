@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/py-milter/pkg/PLIST,v 1.4 2010/10/28 08:15:02 fgsch Exp $
+@comment $OpenBSD$
 @conflict py-pymilter-*
 lib/python${MODPY_VERSION}/site-packages/Milter/
 lib/python${MODPY_VERSION}/site-packages/Milter/__init__.py

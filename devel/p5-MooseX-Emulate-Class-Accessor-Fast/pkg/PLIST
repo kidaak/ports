@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Emulate-Class-Accessor-Fast/pkg/PLIST,v 1.1.1.1 2009/06/19 00:47:27 jim Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/
 ${P5SITE}/MooseX/Adopt/
 ${P5SITE}/MooseX/Adopt/Class/

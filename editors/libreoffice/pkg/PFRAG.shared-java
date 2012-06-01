@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/libreoffice/pkg/PFRAG.shared-java,v 1.2 2012/04/03 08:56:50 robert Exp $
+@comment $OpenBSD$
 lib/libreoffice/program/libhsqldb.so
 lib/libreoffice/program/libjdbclo.so
 lib/libreoffice/program/libofficebeanlo.so

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/podbrowser/Makefile,v 1.9 2011/12/03 23:20:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	graphical documentation browser for Perl
 

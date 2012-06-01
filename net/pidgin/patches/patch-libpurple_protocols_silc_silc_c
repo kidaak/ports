@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pidgin/patches/patch-libpurple_protocols_silc_silc_c,v 1.8 2011/03/13 17:27:11 jasper Exp $
+$OpenBSD$
 --- libpurple/protocols/silc/silc.c.orig	Thu Mar 10 21:20:28 2011
 +++ libpurple/protocols/silc/silc.c	Fri Mar 11 18:58:56 2011
 @@ -674,30 +674,12 @@ silcpurple_close(PurpleConnection *gc)

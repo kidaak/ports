@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/whowatch/patches/patch-process_c,v 1.1 2010/05/23 13:54:45 espie Exp $
+$OpenBSD$
 --- process.c.orig	Sun May 23 15:52:25 2010
 +++ process.c	Sun May 23 15:53:09 2010
 @@ -74,7 +74,7 @@ void synchronize()

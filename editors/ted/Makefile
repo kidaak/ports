@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/ted/Makefile,v 1.24 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 
 COMMENT =	X11 based RTF editor

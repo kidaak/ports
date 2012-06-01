@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-BaseDir/pkg/PLIST,v 1.1.1.1 2007/03/18 19:54:45 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/BaseDir.pm
 @man man/man3p/File::BaseDir.3p

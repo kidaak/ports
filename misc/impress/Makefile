@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/impress/Makefile,v 1.11 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=	publishing and presentation tool
 

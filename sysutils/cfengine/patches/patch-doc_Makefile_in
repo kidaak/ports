@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/cfengine/patches/patch-doc_Makefile_in,v 1.5 2009/09/01 14:25:15 okan Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Sat Apr 11 15:59:32 2009
 +++ doc/Makefile.in	Thu May 28 17:32:35 2009
 @@ -69,7 +69,7 @@ NROFF = nroff

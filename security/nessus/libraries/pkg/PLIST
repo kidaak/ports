@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/nessus/libraries/pkg/PLIST,v 1.2 2005/08/16 09:49:53 espie Exp $
+@comment $OpenBSD$
 @conflict nessus-<2.2.4
 %%SHARED%%
 bin/nessus-config

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xchm/Makefile,v 1.13 2011/10/17 17:29:43 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	display chm files
 

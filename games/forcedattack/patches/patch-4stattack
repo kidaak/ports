@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/forcedattack/patches/patch-4stattack,v 1.1.1.1 2003/10/10 16:10:13 sturm Exp $
+$OpenBSD$
 --- 4stattack.orig	2002-10-01 16:38:03.000000000 +0200
 +++ 4stattack	2003-08-20 09:47:42.000000000 +0200
 @@ -1,9 +1,10 @@

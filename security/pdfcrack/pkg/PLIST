@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/pdfcrack/pkg/PLIST,v 1.1.1.1 2009/12/17 14:00:04 benoit Exp $
+@comment $OpenBSD$
 @bin bin/pdfcrack

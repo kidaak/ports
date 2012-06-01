@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Server-SS-PreFork/pkg/PLIST,v 1.1.1.1 2011/01/05 23:09:07 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/Server/
 ${P5SITE}/Net/Server/SS/

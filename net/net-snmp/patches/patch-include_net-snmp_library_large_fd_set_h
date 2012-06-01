@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-include_net-snmp_library_large_fd_set_h,v 1.1 2011/11/28 22:40:25 sthen Exp $
+$OpenBSD$
 
 e24c34f - Use correct select() FD mask size.
 

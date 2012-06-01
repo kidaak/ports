@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-SVN-Notify/pkg/PLIST,v 1.2 2006/11/29 07:56:29 msf Exp $
+@comment $OpenBSD$
 bin/svnnotify
 ${P5SITE}/SVN/
 ${P5SITE}/SVN/Notify/

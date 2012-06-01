@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/wmminichess/Makefile,v 1.17 2010/12/03 07:27:02 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; chess game
 

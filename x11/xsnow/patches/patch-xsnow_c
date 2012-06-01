@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xsnow/patches/patch-xsnow_c,v 1.1 2004/07/07 14:38:23 naddy Exp $
+$OpenBSD$
 --- xsnow.c.orig	Sun Dec 16 00:44:47 2001
 +++ xsnow.c	Tue Jul  6 22:30:33 2004
 @@ -531,7 +531,7 @@ char *av[];

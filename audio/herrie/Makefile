@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/herrie/Makefile,v 1.25 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=		minimalistic console-based audio player
 

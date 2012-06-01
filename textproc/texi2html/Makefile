@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/texi2html/Makefile,v 1.22 2010/11/20 19:56:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	texinfo to HTML converter
 

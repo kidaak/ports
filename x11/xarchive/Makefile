@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xarchive/Makefile,v 1.14 2011/09/21 07:49:16 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	GTK+2 front-end for command line archiving tools
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Slay-Makefile/Makefile,v 1.6 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	wrapper to Slay::Maker that reads the rules from a file
 

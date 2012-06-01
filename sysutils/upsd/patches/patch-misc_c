@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/upsd/patches/patch-misc_c,v 1.1 2010/05/24 22:08:11 espie Exp $
+$OpenBSD$
 --- misc.c.orig	Tue May 25 00:03:48 2010
 +++ misc.c	Tue May 25 00:04:23 2010
 @@ -105,7 +105,7 @@ whereid(id, list, size)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/droplet/Makefile,v 1.1.1.1 2011/12/23 13:10:30 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

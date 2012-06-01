@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/p5-File-Which/pkg/PLIST,v 1.1.1.1 2007/04/04 05:49:39 jasper Exp $
+@comment $OpenBSD$
 bin/pwhich
 ${P5SITE}/File/
 ${P5SITE}/File/Which.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/discwrapper/patches/patch-configure,v 1.1.1.1 2009/08/07 14:14:59 ajacoutot Exp $
+$OpenBSD$
 
 Our wxWidgets version is a bit older than the requested one.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/aide/patches/patch-config_h_in,v 1.3 2010/05/04 14:42:28 ajacoutot Exp $
+$OpenBSD$
 --- config.h.in.orig	Tue Mar 16 19:47:49 2010
 +++ config.h.in	Tue May  4 16:41:43 2010
 @@ -3,6 +3,14 @@

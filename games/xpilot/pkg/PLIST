@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xpilot/pkg/PLIST,v 1.7 2012/03/17 15:09:45 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/xp-mapedit
 @bin bin/xp-replay
 @bin bin/xpilot

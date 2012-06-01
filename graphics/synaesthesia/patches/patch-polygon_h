@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/synaesthesia/patches/patch-polygon_h,v 1.1 2010/05/22 13:43:24 espie Exp $
+$OpenBSD$
 --- polygon.h.orig	Sat May 22 15:27:46 2010
 +++ polygon.h	Sat May 22 15:40:14 2010
 @@ -28,8 +28,8 @@ struct PolygonEngine : public Bitmap<Pixel> {

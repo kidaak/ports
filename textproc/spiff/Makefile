@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/spiff/Makefile,v 1.16 2011/07/03 22:55:26 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	very flexible diff-like program
 

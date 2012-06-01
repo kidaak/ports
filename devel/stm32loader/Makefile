@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/stm32loader/Makefile,v 1.5 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	STM32 bootloader to upload and download firmware
 

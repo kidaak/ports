@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/resmon/pkg/PLIST-main,v 1.1.1.1 2009/08/02 19:12:15 jdixon Exp $
+@comment $OpenBSD$
 libdata/perl5/site_perl/Resmon/
 libdata/perl5/site_perl/Resmon/Config.pm
 libdata/perl5/site_perl/Resmon/ExtComm.pm

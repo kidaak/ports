@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-Multiplex/Makefile,v 1.9 2011/05/12 09:11:32 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=		handle multiple file handles
 

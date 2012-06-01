@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/yasm/Makefile,v 1.10 2011/11/14 13:49:06 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	complete rewrite of the NASM assembler
 

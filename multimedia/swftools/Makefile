@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/swftools/Makefile,v 1.3 2011/10/26 20:17:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	SWF manipulation and generation utilities
 

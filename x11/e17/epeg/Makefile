@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/epeg/Makefile,v 1.8 2010/11/22 08:36:56 espie Exp $
+# $OpenBSD$
 
 BROKEN =		needs an update
 

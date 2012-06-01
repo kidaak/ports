@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_make_common_shared_Compiler-gcc_gmk,v 1.1.1.1 2007/11/19 03:19:44 kurt Exp $
+$OpenBSD$
 --- j2se/make/common/shared/Compiler-gcc.gmk.orig	Wed Oct 10 22:18:01 2007
 +++ j2se/make/common/shared/Compiler-gcc.gmk	Wed Oct 10 22:19:33 2007
 @@ -76,17 +76,17 @@ endif

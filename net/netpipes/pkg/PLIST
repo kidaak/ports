@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/netpipes/pkg/PLIST,v 1.2 2004/09/15 18:17:42 espie Exp $
+@comment $OpenBSD$
 bin/encapsulate
 bin/faucet
 bin/getpeername

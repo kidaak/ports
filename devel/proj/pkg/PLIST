@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/proj/pkg/PLIST,v 1.2 2009/03/07 10:46:22 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/cs2cs
 @bin bin/geod

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/memtest86+/patches/patch-makeiso_sh,v 1.4 2011/03/10 08:02:36 form Exp $
+$OpenBSD$
 --- makeiso.sh.orig	Mon Jan 24 00:11:04 2011
 +++ makeiso.sh	Tue Jan 25 21:18:36 2011
 @@ -1,23 +1,19 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_security/Makefile,v 1.21 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Web intrusion detection and prevention engine
 

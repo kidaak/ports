@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tcpdpriv/Makefile,v 1.8 2011/06/23 22:50:28 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	removes sensitive information from a tcpdump -w file
 

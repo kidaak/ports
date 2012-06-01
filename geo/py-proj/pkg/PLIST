@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/py-proj/pkg/PLIST,v 1.3 2012/01/22 08:40:49 benoit Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pyproj/
 lib/python${MODPY_VERSION}/site-packages/pyproj-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/pyproj/__init__.py

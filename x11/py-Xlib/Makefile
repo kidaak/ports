@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/py-Xlib/Makefile,v 1.12 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=		fully functional X client library for Python programs
 

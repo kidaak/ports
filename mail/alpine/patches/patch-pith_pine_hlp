@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/alpine/patches/patch-pith_pine_hlp,v 1.4 2008/10/15 14:31:04 ajacoutot Exp $
+$OpenBSD$
 --- pith/pine.hlp.orig	Sat Aug 23 02:07:05 2008
 +++ pith/pine.hlp	Sat Oct 11 18:58:57 2008
 @@ -26234,7 +26234,7 @@ argument (see the &quot;lynx&quot; example below).

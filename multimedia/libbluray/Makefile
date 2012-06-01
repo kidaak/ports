@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/libbluray/Makefile,v 1.1.1.1 2012/03/30 13:16:33 phessler Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

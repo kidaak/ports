@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/gamin/pkg/PLIST-main,v 1.2 2012/01/01 09:01:41 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict fam-*
 @conflict libgamin-<=0.1.10p5
 @conflict gamin-<0.1.10p18

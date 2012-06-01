@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/telephony/pjsua/pkg/PLIST,v 1.2 2010/04/02 11:48:24 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/pjsua

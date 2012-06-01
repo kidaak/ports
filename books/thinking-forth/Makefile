@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/thinking-forth/Makefile,v 1.1.1.1 2008/10/25 10:29:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		philosophy of problem solving, applied to Forth
 

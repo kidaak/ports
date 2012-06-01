@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/lgrind/patches/patch-lgrind_1,v 1.2 2004/04/11 19:12:24 sturm Exp $
+$OpenBSD$
 --- lgrind.1.orig	2004-04-11 20:38:29.000000000 +0200
 +++ lgrind.1	2004-04-11 20:38:29.000000000 +0200
 @@ -44,7 +44,7 @@ change tab width (default 8).

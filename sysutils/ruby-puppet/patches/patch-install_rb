@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/ruby-puppet/patches/patch-install_rb,v 1.4 2012/04/13 08:18:30 jasper Exp $
+$OpenBSD$
 
 Don't gzip(1) the manual pages.
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/onyx/pkg/PLIST,v 1.1.1.1 2011/03/07 19:26:28 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/onyx
 @bin bin/onyx-${V}

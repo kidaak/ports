@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/sdcc/patches/patch-sdcc_sim_ucsim_configure,v 1.2 2007/06/06 17:23:09 jasper Exp $
+$OpenBSD$
 --- sim/ucsim/configure.orig	Sun Jan 21 10:09:01 2007
 +++ sim/ucsim/configure	Wed Jun  6 19:13:16 2007
 @@ -7316,11 +7316,11 @@ cygwin* | mingw* | pw32*)

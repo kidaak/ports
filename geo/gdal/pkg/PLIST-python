@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/gdal/pkg/PLIST-python,v 1.4 2011/12/28 21:14:05 landry Exp $
+@comment $OpenBSD$
 bin/epsg_tr.py
 bin/esri2wkt.py
 bin/gcps2vec.py

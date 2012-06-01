@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/automake/1.8/patches/patch-automake_in,v 1.1.1.1 2005/04/17 20:37:31 naddy Exp $
+$OpenBSD$
 --- automake.in.orig	Sat May 15 11:52:42 2004
 +++ automake.in	Sun Oct 10 22:21:07 2004
 @@ -4472,6 +4472,7 @@ sub scan_autoconf_traces ($)

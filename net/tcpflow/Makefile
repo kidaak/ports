@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tcpflow/Makefile,v 1.21 2011/03/10 20:23:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	tool for capturing data from TCP connections
 

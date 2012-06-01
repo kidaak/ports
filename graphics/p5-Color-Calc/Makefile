@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Color-Calc/Makefile,v 1.5 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simple calculations with RGB colors
 

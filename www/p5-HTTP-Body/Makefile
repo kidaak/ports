@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTP-Body/Makefile,v 1.15 2011/04/16 11:35:23 simon Exp $
+# $OpenBSD$
 
 COMMENT=	HTTP Body Parser
 

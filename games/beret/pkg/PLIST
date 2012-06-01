@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/beret/pkg/PLIST,v 1.1.1.1 2012/02/27 22:07:49 schwarze Exp $
+@comment $OpenBSD$
 @bin bin/beret
 share/beret/
 share/beret/AveriaSans-Regular.ttf

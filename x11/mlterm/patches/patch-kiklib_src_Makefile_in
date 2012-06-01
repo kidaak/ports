@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mlterm/patches/patch-kiklib_src_Makefile_in,v 1.1 2005/12/25 21:14:26 naddy Exp $
+$OpenBSD$
 --- kiklib/src/Makefile.in.orig	Sun Dec 25 21:58:34 2005
 +++ kiklib/src/Makefile.in	Sun Dec 25 21:59:03 2005
 @@ -34,8 +34,8 @@ LIBTOOL_INSTALL = $(LIBTOOL) --mode=inst

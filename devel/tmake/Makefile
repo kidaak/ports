@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/tmake/Makefile,v 1.13 2011/10/04 12:56:50 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	cross-platform makefile tool from TrollTech
 

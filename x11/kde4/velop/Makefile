@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/velop/Makefile,v 1.5 2010/11/22 08:37:02 espie Exp $
+# $OpenBSD$
 
 COMMENT=		K Desktop Environment, development
 DISTNAME=		kdevelop-${VERSION}

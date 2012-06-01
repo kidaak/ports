@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_libserver_StreamUtil_cpp,v 1.4 2011/11/17 15:14:37 ajacoutot Exp $
+$OpenBSD$
 
 Needs newlocale(3).
 

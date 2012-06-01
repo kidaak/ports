@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Session-Store-FastMmap/Makefile,v 1.8 2012/04/08 21:58:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	FastMmap storage backend for session data
 

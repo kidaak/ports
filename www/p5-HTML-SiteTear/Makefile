@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-SiteTear/Makefile,v 1.5 2011/03/14 09:15:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	make a separate copy of a web site in local file system
 

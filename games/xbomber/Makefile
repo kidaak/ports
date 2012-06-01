@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xbomber/Makefile,v 1.7 2010/12/05 18:24:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		colorful game where you blow other people/robots up
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/h323plus/Makefile,v 1.11 2012/03/02 09:04:59 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

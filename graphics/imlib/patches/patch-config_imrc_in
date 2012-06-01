@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/imlib/patches/patch-config_imrc_in,v 1.1 2003/11/14 23:53:25 brad Exp $
+$OpenBSD$
 --- config/imrc.in.orig	2003-11-13 14:58:37.000000000 -0500
 +++ config/imrc.in	2003-11-13 14:58:48.000000000 -0500
 @@ -5,7 +5,7 @@

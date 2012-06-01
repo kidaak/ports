@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/py-crack/pkg/PLIST,v 1.1.1.1 2009/05/26 08:13:04 benoit Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/_crack.so
 lib/python${MODPY_VERSION}/site-packages/crack.py
 lib/python${MODPY_VERSION}/site-packages/crack.pyc

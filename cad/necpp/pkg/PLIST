@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/necpp/pkg/PLIST,v 1.1.1.1 2007/05/28 17:46:57 jason Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/nec2++
 bin/nec2diff

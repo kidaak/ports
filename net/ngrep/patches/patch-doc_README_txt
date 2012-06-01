@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ngrep/patches/patch-doc_README_txt,v 1.1 2011/06/16 21:21:43 sthen Exp $
+$OpenBSD$
 --- doc/README.txt.orig	Tue Nov 28 13:37:34 2006
 +++ doc/README.txt	Thu Jun 16 16:04:12 2011
 @@ -41,6 +41,7 @@ Usage: ngrep <LhNXViwqpevxlDtTRM> <-IO pcap_dump> <-n 

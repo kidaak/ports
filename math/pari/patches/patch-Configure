@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/pari/patches/patch-Configure,v 1.2 2008/04/30 19:42:07 naddy Exp $
+$OpenBSD$
 --- Configure.orig	Thu Nov 25 16:58:25 2004
 +++ Configure	Mon Apr 28 20:14:36 2008
 @@ -844,7 +844,7 @@ if test -n "$__gnuc__"; then

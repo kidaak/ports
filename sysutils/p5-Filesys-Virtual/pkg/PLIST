@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/p5-Filesys-Virtual/pkg/PLIST,v 1.1.1.1 2005/03/30 02:55:10 jolan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Filesys/
 ${P5SITE}/Filesys/Virtual.pm
 @man man/man3p/Filesys::Virtual.3p

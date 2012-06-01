@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/hexcalc/patches/patch-hexcalc_c,v 1.1 2011/06/16 11:45:53 sthen Exp $
+$OpenBSD$
 
 Fix with GCC4. From http://bugs.gentoo.org/show_bug.cgi?id=140987
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ggz/ggz-client-libs/Makefile,v 1.5 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=		GGZ Gaming Zone - core client libraries
 

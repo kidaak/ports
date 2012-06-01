@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/dtcltiny/pkg/PLIST,v 1.1.1.1 2011/03/17 14:00:56 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/dtcltiny
 share/doc/dtcltiny/
 share/doc/dtcltiny/emergency.png

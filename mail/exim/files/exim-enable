@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/exim/files/exim-enable,v 1.1 2011/07/17 20:15:59 sthen Exp $
+# $OpenBSD$
 
 if [ -f /etc/mailer.conf.exim ]; then
     if [ -f /etc/mailer.conf ]; then

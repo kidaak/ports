@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Devel-Declare/pkg/PLIST,v 1.1 2010/01/12 08:58:08 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/Devel/
 ${P5ARCH}/Devel/Declare/
 ${P5ARCH}/Devel/Declare.pm

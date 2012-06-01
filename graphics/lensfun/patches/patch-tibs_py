@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/lensfun/patches/patch-tibs_py,v 1.1 2010/09/16 10:05:20 sthen Exp $
+$OpenBSD$
 --- tibs.py.orig	Wed Mar 24 00:51:29 2010
 +++ tibs.py	Wed Apr  7 03:55:25 2010
 @@ -38,7 +38,7 @@ PROJ = "Unknown"

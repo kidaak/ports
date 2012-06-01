@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/cabextract/patches/patch-src_cabextract_c,v 1.1 2010/07/31 00:30:27 kevlo Exp $
+$OpenBSD$
 --- src/cabextract.c.orig	Mon Jul 12 22:53:12 2010
 +++ src/cabextract.c	Fri Jul 30 16:48:06 2010
 @@ -229,7 +229,7 @@ static int cabx_read(struct mspack_file *file, void *b

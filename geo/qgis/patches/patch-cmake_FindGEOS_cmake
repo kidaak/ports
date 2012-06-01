@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qgis/patches/patch-cmake_FindGEOS_cmake,v 1.4 2011/07/07 20:34:27 landry Exp $
+$OpenBSD$
 --- cmake/FindGEOS.cmake.orig	Sun Jun  5 13:59:48 2011
 +++ cmake/FindGEOS.cmake	Mon Jun 27 16:05:42 2011
 @@ -151,7 +151,7 @@ ELSE(WIN32)

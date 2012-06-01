@@ -1,4 +1,4 @@
-(* $OpenBSD: ports/devel/cil/files/kerneltrace.ml,v 1.2 2006/05/28 15:44:14 avsm Exp $ *)
+(* $OpenBSD$ *)
 (*
  * Copyright (c) 2004 Anil Madhavapeddy <anil@recoil.org>
  *
@@ -14,7 +14,7 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  *
- * $Id: kerneltrace.ml,v 1.1 2005/05/27 06:31:52 avsm Exp $
+ * $Id$
  *)
 
 (* introduce log messages to trace kernel messages *)

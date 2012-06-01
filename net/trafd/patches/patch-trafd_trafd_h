@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/trafd/patches/patch-trafd_trafd_h,v 1.1 2010/05/22 15:08:52 espie Exp $
+$OpenBSD$
 --- trafd/trafd.h.orig	Sat May 22 17:06:41 2010
 +++ trafd/trafd.h	Sat May 22 17:06:56 2010
 @@ -25,8 +25,6 @@ extern char *device_name;	/* readable interface name *

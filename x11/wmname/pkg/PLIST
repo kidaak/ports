@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/wmname/pkg/PLIST,v 1.1.1.1 2009/03/16 20:42:41 sturm Exp $
+@comment $OpenBSD$
 @bin bin/wmname

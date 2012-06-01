@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/libs/patches/patch-kjs_collector_cpp,v 1.4 2010/06/18 11:14:42 espie Exp $
+$OpenBSD$
 --- kjs/collector.cpp.orig	Tue Jul 28 21:44:08 2009
 +++ kjs/collector.cpp	Sat May 29 13:55:42 2010
 @@ -507,6 +507,12 @@ static inline void* currentThreadStackBase()

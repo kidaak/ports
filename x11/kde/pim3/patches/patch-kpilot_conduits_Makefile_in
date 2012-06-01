@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/pim3/patches/patch-kpilot_conduits_Makefile_in,v 1.4 2007/10/24 21:52:18 espie Exp $
+$OpenBSD$
 --- kpilot/conduits/Makefile.in.orig	Mon Oct  8 16:36:06 2007
 +++ kpilot/conduits/Makefile.in	Tue Oct 23 16:04:48 2007
 @@ -372,6 +372,7 @@ xdg_directorydir = @xdg_directorydir@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/honeyd/Makefile,v 1.34 2011/11/16 00:10:31 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

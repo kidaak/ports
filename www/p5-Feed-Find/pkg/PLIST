@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Feed-Find/pkg/PLIST,v 1.1.1.1 2007/04/18 00:06:49 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Feed/
 ${P5SITE}/Feed/Find.pm
 @man man/man3p/Feed::Find.3p

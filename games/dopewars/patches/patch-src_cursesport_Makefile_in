@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/dopewars/patches/patch-src_cursesport_Makefile_in,v 1.2 2007/07/05 17:28:18 jasper Exp $
+$OpenBSD$
 --- src/cursesport/Makefile.in.orig	Fri Dec 30 22:29:34 2005
 +++ src/cursesport/Makefile.in	Sun Nov 26 00:07:05 2006
 @@ -238,7 +238,7 @@ target_os = @target_os@

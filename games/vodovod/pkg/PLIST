@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/vodovod/pkg/PLIST,v 1.2 2007/07/07 10:40:48 simon Exp $
+@comment $OpenBSD$
 @mode g+s
 @group games
 bin/vodovod

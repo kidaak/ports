@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/gmpc-libnotify/pkg/PLIST,v 1.1.1.1 2009/02/02 18:12:12 jasper Exp $
+@comment $OpenBSD$
 lib/gmpc/
 lib/gmpc/plugins/
 @comment lib/gmpc/plugins/libnotifyplugin.a

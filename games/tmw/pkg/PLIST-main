@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/tmw/pkg/PLIST-main,v 1.6 2011/06/25 18:58:11 jasper Exp $
+@comment $OpenBSD$
 @bin bin/mana
 share/applications/mana.desktop
 share/locale/de/LC_MESSAGES/mana.mo

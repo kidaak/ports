@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/tremor-tools/patches/patch-configure,v 1.1 2010/11/06 12:19:38 landry Exp $
+$OpenBSD$
 --- configure.orig	Fri Jul 19 16:18:55 2002
 +++ configure	Sat Nov  6 13:00:10 2010
 @@ -7267,7 +7267,7 @@ else

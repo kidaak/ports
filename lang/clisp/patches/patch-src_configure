@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/clisp/patches/patch-src_configure,v 1.5 2010/01/07 10:55:28 edd Exp $
+$OpenBSD$
 --- src/configure.orig	Tue Jul 28 23:10:12 2009
 +++ src/configure	Mon Dec 28 21:08:14 2009
 @@ -22606,43 +22606,6 @@ $as_echo "no" >&6; }

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pg_top/Makefile,v 1.7 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	top for monitoring PostgreSQL processes
 

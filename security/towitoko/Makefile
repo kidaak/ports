@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/towitoko/Makefile,v 1.9 2011/01/14 22:50:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		library and utilities for towitoko card readers
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/simulavr/pkg/PLIST,v 1.1.1.1 2011/03/07 19:35:49 jasper Exp $
+@comment $OpenBSD$
 @bin bin/simulavr
 @bin bin/simulavr-disp
 @bin bin/simulavr-vcd

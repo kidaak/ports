@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/archiveopteryx/pkg/aox.rc,v 1.4 2011/03/20 09:19:25 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/aox"
 

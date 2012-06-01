@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gdb/patches/patch-gdb_python_python-config_py,v 1.2 2012/03/03 19:22:42 pascal Exp $
+$OpenBSD$
 --- gdb/python/python-config.py.orig	Mon Jan 31 05:42:08 2011
 +++ gdb/python/python-config.py	Wed Feb 29 00:21:30 2012
 @@ -71,6 +71,8 @@ for opt in opt_flags:

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-CGI-Cookie-Splitter/pkg/PLIST,v 1.1.1.1 2006/11/12 14:39:18 mbalmer Exp $
+@comment $OpenBSD$
 ${P5SITE}/CGI/Cookie/
 ${P5SITE}/CGI/Cookie/Splitter.pm
 @man man/man3p/CGI::Cookie::Splitter.3p

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/ftp/Makefile,v 1.6 2012/04/09 10:56:52 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	GNUstep file transfer protcol tool
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Apache-Session/Makefile,v 1.11 2011/01/14 22:50:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	persistence framework for Apache session data
 

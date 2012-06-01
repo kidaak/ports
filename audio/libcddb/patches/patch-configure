@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libcddb/patches/patch-configure,v 1.1.1.1 2008/03/19 14:37:54 jasper Exp $
+$OpenBSD$
 --- configure.orig	Wed Mar 19 15:32:43 2008
 +++ configure	Wed Mar 19 15:33:43 2008
 @@ -23219,7 +23219,7 @@ s,@PKG_CONFIG@,$PKG_CONFIG,;t t

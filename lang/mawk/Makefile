@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/mawk/Makefile,v 1.21 2010/10/24 21:06:28 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.1.1.1 1999/01/18 04:50:26 steve Exp $
 
 COMMENT=	fast POSIX-compliant awk

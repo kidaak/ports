@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/vamp-plugin-sdk/pkg/PLIST,v 1.2 2009/03/14 03:48:07 jakemsr Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/vamp-rdf-template-generator
 include/vamp/

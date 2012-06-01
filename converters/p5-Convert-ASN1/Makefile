@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Convert-ASN1/Makefile,v 1.22 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to encode and decode ASN.1 data structures
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ethos/Makefile,v 1.22 2011/11/17 11:42:31 jasper Exp $
+# $OpenBSD$
 
 # XXX fix building with glib2 >= 2.29 (G_CONST_RETURN is deprecated)
 CFLAGS +=      "-DG_CONST_RETURN=const"

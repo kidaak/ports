@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/bsdiff/Makefile,v 1.8 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=	binary patch tools
 DISTNAME=	bsdiff-4.3

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ktorrent/Makefile,v 1.27 2011/09/16 11:13:38 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

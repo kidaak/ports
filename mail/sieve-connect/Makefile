@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/sieve-connect/Makefile,v 1.2 2011/04/02 14:31:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	perl sieveshell-compatible ManageSieve client
 

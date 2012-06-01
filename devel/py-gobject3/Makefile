@@ -1,10 +1,9 @@
-# $OpenBSD: ports/devel/py-gobject3/Makefile,v 1.7 2012/04/04 07:37:18 landry Exp $
+# $OpenBSD$
 
 COMMENT=	Python bindings for glib2 gobject
 
 GNOME_PROJECT=	pygobject
-GNOME_VERSION=	3.2.0
-REVISION=	0
+GNOME_VERSION=	3.2.2
 
 PKGNAME=	py-gobject3-${GNOME_VERSION}
 

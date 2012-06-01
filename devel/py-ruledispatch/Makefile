@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-ruledispatch/Makefile,v 1.18 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		rule-based dispatching and generic functions
 

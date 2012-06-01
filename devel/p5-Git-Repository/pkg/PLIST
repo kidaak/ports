@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Git-Repository/pkg/PLIST,v 1.1.1.1 2011/07/20 18:05:52 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Git/
 ${P5SITE}/Git/Repository/
 ${P5SITE}/Git/Repository.pm

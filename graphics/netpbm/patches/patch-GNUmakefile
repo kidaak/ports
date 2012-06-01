@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/netpbm/patches/patch-GNUmakefile,v 1.5 2010/07/02 02:54:59 naddy Exp $
+$OpenBSD$
 --- GNUmakefile.orig	Wed Jun 30 02:04:26 2010
 +++ GNUmakefile	Wed Jun 30 02:04:50 2010
 @@ -361,7 +361,7 @@ install-dev: install.hdr install.staticlib install.lib

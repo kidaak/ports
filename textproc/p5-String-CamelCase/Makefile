@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-String-CamelCase/Makefile,v 1.1.1.1 2012/04/06 09:27:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	camelcase, de-camelcase
 

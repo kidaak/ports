@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ruby/1.8/Makefile,v 1.23 2012/03/30 19:03:24 phessler Exp $
+# $OpenBSD$
 
 COMMENT-main=		object oriented script language with threads
 COMMENT-iconv=		libiconv interface for ruby

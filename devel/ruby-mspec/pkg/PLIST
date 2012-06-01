@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-mspec/pkg/PLIST,v 1.1.1.1 2010/12/20 18:06:00 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/mkspec${GEM_BIN_SUFFIX}
 ${GEM_BIN}/mspec${GEM_BIN_SUFFIX}
 ${GEM_BIN}/mspec-ci${GEM_BIN_SUFFIX}

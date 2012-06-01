@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/py-yenc/patches/patch-setup_py,v 1.1.1.1 2007/12/17 00:57:35 merdely Exp $
+$OpenBSD$
 --- setup.py.orig	Fri Dec 14 06:50:56 2007
 +++ setup.py	Fri Dec 14 06:51:30 2007
 @@ -38,6 +38,6 @@ setup(	

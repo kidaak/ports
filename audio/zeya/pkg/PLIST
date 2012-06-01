@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/zeya/pkg/PLIST,v 1.1.1.1 2011/07/20 07:54:58 dcoppa Exp $
+@comment $OpenBSD$
 @pkgpath audio/py-zeya
 @newgroup _zeya:680
 @newuser _zeya:680:_zeya:daemon:zeya user:/nonexistent:/sbin/nologin

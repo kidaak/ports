@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qwt/patches/patch-src_src_pro,v 1.2 2010/11/07 00:26:14 merdely Exp $
+$OpenBSD$
 --- src/src.pro.orig	Sun Apr 11 05:55:06 2010
 +++ src/src.pro	Tue Oct 26 02:59:04 2010
 @@ -222,7 +222,7 @@ contains(CONFIG, QwtWidgets) {

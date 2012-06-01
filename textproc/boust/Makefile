@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/boust/Makefile,v 1.11 2010/11/20 19:56:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=		boustrophedon text reader
 DISTNAME=		boust-0.161

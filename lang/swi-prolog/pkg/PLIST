@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/swi-prolog/pkg/PLIST,v 1.10 2011/09/17 16:06:32 edd Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/swipl
 bin/swipl-ld

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-XSPF/Makefile,v 1.5 2011/03/17 12:27:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	parser and generator for XSPF playlists
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostview/patches/patch-actions_c,v 1.1 2002/04/26 01:44:08 espie Exp $
+$OpenBSD$
 --- actions.c.orig	Thu Oct  1 22:10:08 1992
 +++ actions.c	Sun Apr 21 01:21:56 2002
 @@ -27,9 +27,15 @@

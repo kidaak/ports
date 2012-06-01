@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-tagged/Makefile,v 1.4 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=		provides newtype wrappers for phantom types
 

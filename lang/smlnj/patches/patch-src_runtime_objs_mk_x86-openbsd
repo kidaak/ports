@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/smlnj/patches/patch-src_runtime_objs_mk_x86-openbsd,v 1.1.1.1 2002/06/29 13:25:10 espie Exp $
+$OpenBSD$
 --- src/runtime/objs/mk.x86-openbsd.orig	Sat Jun 29 15:10:01 2002
 +++ src/runtime/objs/mk.x86-openbsd	Sat Jun 29 15:09:53 2002
 @@ -0,0 +1,27 @@

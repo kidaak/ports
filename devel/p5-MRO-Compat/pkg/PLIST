@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MRO-Compat/pkg/PLIST,v 1.1.1.1 2007/10/25 21:21:49 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/MRO/
 ${P5SITE}/MRO/Compat.pm
 @man man/man3p/MRO::Compat.3p

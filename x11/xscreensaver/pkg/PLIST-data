@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xscreensaver/pkg/PLIST-data,v 1.7 2012/01/08 15:36:26 dcoppa Exp $
+@comment $OpenBSD$
 @conflict xscreensaver-<5.07p3
 @conflict xscreensaver-<5.07p3-no_gle
 libexec/xscreensaver/

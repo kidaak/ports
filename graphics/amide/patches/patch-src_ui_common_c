@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/amide/patches/patch-src_ui_common_c,v 1.2 2011/05/16 07:42:50 jasper Exp $
+$OpenBSD$
 
 - Fix include path.
 - Remove call to amide_gnome_help_display(), thus dropping the

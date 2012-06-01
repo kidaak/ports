@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.54/patches/patch-lib_autotest_general_m4,v 1.1 2006/07/08 17:04:40 espie Exp $
+$OpenBSD$
 --- lib/autotest/general.m4.orig	Sat Jul  8 18:53:53 2006
 +++ lib/autotest/general.m4	Sat Jul  8 18:53:59 2006
 @@ -715,7 +715,7 @@ m4_divert_push([TESTS])dnl

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/prboom/patches/patch-configure,v 1.6 2006/11/20 03:15:36 jolan Exp $
+$OpenBSD$
 --- configure.orig	Sun Nov 19 11:45:22 2006
 +++ configure	Sun Nov 19 21:12:41 2006
 @@ -1913,9 +1913,9 @@ if test "${with_waddir+set}" = set; then

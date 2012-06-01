@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/input-sdl/patches/patch-source_mupen64plus-input-sdl_src_config_c,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/config.c.orig	Sun Dec 18 23:50:44 2011
 +++ src/config.c	Sun Dec 18 23:52:30 2011
 @@ -29,6 +29,8 @@

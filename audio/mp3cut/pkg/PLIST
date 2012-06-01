@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/mp3cut/pkg/PLIST,v 1.1.1.1 2008/06/08 11:14:59 simon Exp $
+@comment $OpenBSD$
 bin/cddb2cue
 bin/mp3cat
 bin/mp3cut

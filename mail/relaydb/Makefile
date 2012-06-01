@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/relaydb/Makefile,v 1.11 2011/03/14 08:51:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	spam relay database
 

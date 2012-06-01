@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-html5lib/Makefile,v 1.6 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		HTML parser/tokeniser based for HTML5
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/vicq/Makefile,v 1.10 2010/11/19 22:31:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	text-based ICQ implementation
 

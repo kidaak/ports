@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/openxcom/patches/patch-src_Engine_CrossPlatform_cpp,v 1.1 2012/02/29 08:25:32 ajacoutot Exp $
+$OpenBSD$
 --- src/Engine/CrossPlatform.cpp.orig	Thu Feb 16 17:24:58 2012
 +++ src/Engine/CrossPlatform.cpp	Fri Feb 17 21:17:42 2012
 @@ -145,6 +145,11 @@ std::vector<std::string> findDataFolders()

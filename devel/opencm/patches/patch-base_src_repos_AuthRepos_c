@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/opencm/patches/patch-base_src_repos_AuthRepos_c,v 1.1 2010/05/19 15:24:21 espie Exp $
+$OpenBSD$
 --- base/src/repos/AuthRepos.c.orig	Wed May 19 17:19:15 2010
 +++ base/src/repos/AuthRepos.c	Wed May 19 17:19:45 2010
 @@ -67,7 +67,7 @@ authrepos_disconnect(Repository *r)

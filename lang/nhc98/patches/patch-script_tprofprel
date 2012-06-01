@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/nhc98/patches/patch-script_tprofprel,v 1.2 2007/06/29 11:06:25 kili Exp $
+$OpenBSD$
 
 Fix shell gibberish. Note that this is not POSIX. If you want POSIX,
 use foo=$((foo + 1)) instead. I don't care unless someone removes

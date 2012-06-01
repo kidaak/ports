@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/sdl/patches/patch-src_cpuinfo_SDL_cpuinfo_c,v 1.2 2012/03/02 09:10:38 dcoppa Exp $
+$OpenBSD$
 --- src/cpuinfo/SDL_cpuinfo.c.orig	Thu Jan 19 01:30:06 2012
 +++ src/cpuinfo/SDL_cpuinfo.c	Fri Feb 24 16:08:00 2012
 @@ -28,6 +28,10 @@

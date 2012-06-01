@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/gnats/Makefile,v 1.27 2011/06/02 13:41:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GNU Problem Report Management System
 

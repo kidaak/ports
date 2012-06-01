@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/xemacs21/stable/patches/patch-src_lisp_h,v 1.1 2009/12/15 10:05:55 jasper Exp $
+$OpenBSD$
 
 Security fix for CVE-2009-2688, xemacs: multiple integer overflow flaws.
 

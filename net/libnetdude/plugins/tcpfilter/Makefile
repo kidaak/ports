@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libnetdude/plugins/tcpfilter/Makefile,v 1.9 2011/09/21 17:20:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	libnetdude plugin for pruning incomplete session from traces
 

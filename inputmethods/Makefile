@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/Makefile,v 1.11 2010/09/12 11:53:28 fgsch Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += anthy

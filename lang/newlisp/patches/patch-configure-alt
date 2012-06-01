@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/newlisp/patches/patch-configure-alt,v 1.1 2010/10/27 09:36:34 jasper Exp $
+$OpenBSD$
 
 - Don't unconditionally strip the binary.
 - Add missing CFLAG.

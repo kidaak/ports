@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libvorbis/pkg/PLIST,v 1.10 2010/11/25 17:00:00 naddy Exp $
+@comment $OpenBSD$
 include/vorbis/
 include/vorbis/codec.h
 include/vorbis/vorbisenc.h

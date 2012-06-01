@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/courier-imap/patches/patch-bdbobj_Makefile_in,v 1.2 2011/05/09 09:30:26 giovanni Exp $
+$OpenBSD$
 
 Removing "-static" from libtool linking flags makes our libtool happy 
 and doesn't break the testbdb binary

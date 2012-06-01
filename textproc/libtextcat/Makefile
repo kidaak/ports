@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/libtextcat/Makefile,v 1.1.1.1 2009/07/31 15:42:58 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	language guessing library
 

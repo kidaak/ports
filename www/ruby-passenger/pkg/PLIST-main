@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ruby-passenger/pkg/PLIST-main,v 1.1 2011/12/13 18:38:18 jeremy Exp $
+@comment $OpenBSD$
 @pkgpath www/ruby-passenger,${MODRUBY_FLAVOR}
 lib/phusion-passenger${GEM_MAN_SUFFIX}
 ${GEM_BIN}/passenger${GEM_BIN_SUFFIX}

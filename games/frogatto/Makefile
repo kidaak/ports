@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/frogatto/Makefile,v 1.4 2011/08/26 11:30:32 jasper Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	${GCC4_ARCHS}
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/nx/Makefile,v 1.3 2012/01/03 16:39:08 sebastia Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += nxcomp

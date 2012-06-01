@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/lxnb/patches/patch-Makefile,v 1.1 2002/10/28 17:35:02 naddy Exp $
+$OpenBSD$
 --- Makefile.orig	Sat Aug 22 18:03:00 1998
 +++ Makefile	Mon Oct 28 18:04:42 2002
 @@ -1,12 +1,12 @@

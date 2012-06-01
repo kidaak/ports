@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/luaexpat/patches/patch-config,v 1.2 2011/06/08 14:23:11 gsoares Exp $
+$OpenBSD$
 --- config.orig	Fri Jun  3 11:17:04 2011
 +++ config	Tue Jun  7 11:48:34 2011
 @@ -6,18 +6,18 @@ LUA_DIR= /usr/local/share/lua/5.0

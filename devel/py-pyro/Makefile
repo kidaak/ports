@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-pyro/Makefile,v 1.10 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT =	distributed object middleware for Python
 

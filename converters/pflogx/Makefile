@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/pflogx/Makefile,v 1.12 2010/11/22 08:56:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		convert pf(4) logs to XML
 

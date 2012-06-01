@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xerces-c/patches/patch-src_xercesc_configure,v 1.1.1.1 2008/10/26 23:15:17 ajacoutot Exp $
+$OpenBSD$
 --- src/xercesc/configure.orig	Sun Oct 26 19:51:00 2008
 +++ src/xercesc/configure	Sun Oct 26 19:52:06 2008
 @@ -3944,6 +3944,7 @@ case "${host}" in

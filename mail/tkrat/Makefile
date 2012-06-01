@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/tkrat/Makefile,v 1.26 2011/01/05 17:09:26 stu Exp $
+# $OpenBSD$
 
 COMMENT=	mail user agent for X in C with a Tcl/Tk frontend
 

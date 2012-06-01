@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/luna/patches/patch-luna_c,v 1.2 2007/12/18 09:43:36 ajacoutot Exp $
+$OpenBSD$
 --- luna.c.orig	Tue Dec 18 09:36:17 2007
 +++ luna.c	Tue Dec 18 09:36:17 2007
 @@ -25,27 +25,41 @@

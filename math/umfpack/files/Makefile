@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/umfpack/files/Makefile,v 1.1.1.1 2006/10/21 17:22:47 steven Exp $
+# $OpenBSD$
 
 LIB=	umfpack
 SRCS=	umfpack_global.c umfpack_timer.c umfpack_tictoc.c \

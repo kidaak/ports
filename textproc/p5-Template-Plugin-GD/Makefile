@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Template-Plugin-GD/Makefile,v 1.7 2011/08/01 19:36:02 stephan Exp $
+# $OpenBSD$
 
 COMMENT =	GD plugin(s) for the Template Toolkit
 

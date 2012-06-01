@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/eliot/Makefile,v 1.2 2012/03/15 20:01:03 landry Exp $
+# $OpenBSD$
 
 COMMENT =	scrabble game
 DISTNAME =	eliot-1.14

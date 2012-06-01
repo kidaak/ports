@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-IO-Socket-Socks/Makefile,v 1.5 2012/01/22 11:20:17 nigel Exp $
+# $OpenBSD$
 
 COMMENT =	create SOCKS v4/v5 client or server
 

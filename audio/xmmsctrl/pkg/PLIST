@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/xmmsctrl/pkg/PLIST,v 1.2 2011/03/04 16:12:01 jasper Exp $
+@comment $OpenBSD$
 @bin bin/xmmsctrl
 share/examples/xmmsctrl/
 share/examples/xmmsctrl/emacs-transcriber

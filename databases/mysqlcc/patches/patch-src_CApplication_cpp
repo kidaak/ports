@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mysqlcc/patches/patch-src_CApplication_cpp,v 1.2 2008/09/08 07:48:43 wilfried Exp $
+$OpenBSD$
 --- src/CApplication.cpp.orig	Fri Aug 11 22:29:12 2006
 +++ src/CApplication.cpp	Thu Aug 21 13:30:52 2008
 @@ -110,7 +110,7 @@ void CApplication::initGlobals(bool startup)

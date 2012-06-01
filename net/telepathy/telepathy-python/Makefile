@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/telepathy-python/Makefile,v 1.27 2012/04/03 09:27:06 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		flexible communications framework, python bindings
 

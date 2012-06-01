@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/pantomime/patches/patch-Framework_Pantomime_NSString+Extensions_m,v 1.1 2011/04/18 12:37:17 sebastia Exp $
+$OpenBSD$
 
 do not try to include nonexistent header file
 

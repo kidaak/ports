@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/sogo/patches/patch-SOPE_NGCards_GNUmakefile_preamble,v 1.1.1.1 2010/11/24 18:16:03 sebastia Exp $
+$OpenBSD$
 
 decouple the sope version number from the library interface number.
 

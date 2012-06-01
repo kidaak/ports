@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-src_tools_qstring_cpp,v 1.2 2007/12/28 17:45:04 espie Exp $
+$OpenBSD$
 --- src/tools/qstring.cpp.orig	Fri Feb  2 15:01:05 2007
 +++ src/tools/qstring.cpp	Sun Oct 28 01:16:23 2007
 @@ -5805,6 +5805,7 @@ QString QString::fromUtf8( const char* utf8, int len )

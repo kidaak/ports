@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/lsof/patches/patch-dialects_n+obsd_machine_h,v 1.1 2009/09/04 01:49:10 sthen Exp $
+$OpenBSD$
 
 XXX lsof needs adapting to cope with changes made to the name cache
 at f2k9 (Aug 2009). for now, disable name cache support so it works.

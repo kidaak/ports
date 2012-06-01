@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/clisp/patches/patch-tests_socket_tst,v 1.1 2010/08/23 16:31:33 jasper Exp $
+$OpenBSD$
 
 This test assumes that a nonblocking connect to a closed port will
 never fail, the failure will always occur when trying to read from the

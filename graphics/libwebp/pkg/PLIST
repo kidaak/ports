@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libwebp/pkg/PLIST,v 1.1.1.1 2011/12/22 08:36:33 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/cwebp
 @bin bin/dwebp

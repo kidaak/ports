@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jbigkit/patches/patch-pbmtools_jbgtopbm_c,v 1.1 2010/06/29 22:40:45 naddy Exp $
+$OpenBSD$
 --- pbmtools/jbgtopbm.c.orig	Fri Jun 11 08:17:57 2004
 +++ pbmtools/jbgtopbm.c	Tue Jun 29 16:28:35 2010
 @@ -112,7 +112,7 @@ void diagnose_bie(FILE *f)

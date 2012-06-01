@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/webservices/Makefile,v 1.7 2012/03/31 10:16:52 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep webservices framework
 

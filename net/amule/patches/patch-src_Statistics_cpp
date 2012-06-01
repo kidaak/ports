@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_Statistics_cpp,v 1.1 2012/02/22 07:54:26 dcoppa Exp $
+$OpenBSD$
 
 Fix crash on truncated statistics.dat
 (upstream git commit 5e3682f7efed13eb52e4358a2d91b0e381334120)

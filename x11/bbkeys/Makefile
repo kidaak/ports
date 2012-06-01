@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/bbkeys/Makefile,v 1.23 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	X keygrabber for blackbox
 

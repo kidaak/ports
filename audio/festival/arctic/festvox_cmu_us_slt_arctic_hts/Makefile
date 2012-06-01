@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/arctic/festvox_cmu_us_slt_arctic_hts/Makefile,v 1.2 2007/09/15 22:27:38 simon Exp $
+# $OpenBSD$
 
 COMMENT=	American English female speaker (SLT)
 DISTNAME=	festvox_cmu_us_slt_arctic_hts

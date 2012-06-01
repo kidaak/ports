@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/mowitz/Makefile,v 1.16 2011/05/01 20:44:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		widgets library
 

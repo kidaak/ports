@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-HexDump/Makefile,v 1.3 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=        hexadecimal dumper
 

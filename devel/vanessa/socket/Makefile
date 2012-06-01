@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/vanessa/socket/Makefile,v 1.5 2010/11/15 19:46:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	provides abstract data types (ADTs)
 

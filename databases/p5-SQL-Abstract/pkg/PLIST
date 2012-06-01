@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-SQL-Abstract/pkg/PLIST,v 1.4 2011/07/10 12:02:24 jasper Exp $
+@comment $OpenBSD$
 bin/format-sql
 ${P5SITE}/DBIx/
 ${P5SITE}/DBIx/Class/

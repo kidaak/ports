@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/belooted/Makefile,v 1.17 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	32-card trick-taking game
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/emelfm2/patches/patch-src_dialogs_e2_file_info_dialog_c,v 1.2 2009/08/17 12:14:52 giovanni Exp $
+$OpenBSD$
 Our file(1) doesn't have all that fancy options.
 --- src/dialogs/e2_file_info_dialog.c.orig	Wed Jul  1 08:07:34 2009
 +++ src/dialogs/e2_file_info_dialog.c	Fri Aug 14 10:43:58 2009

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pgp5/patches/patch-apps_pgpk_pgpkUI_c,v 1.1 2005/03/08 23:25:24 claudio Exp $
+$OpenBSD$
 --- apps/pgpk/pgpkUI.c.orig	Sat Feb  7 20:54:35 1998
 +++ apps/pgpk/pgpkUI.c	Tue Mar  8 23:47:43 2005
 @@ -228,7 +228,7 @@ kdbTtyPutSigID(Boolean DisplayHeaders,

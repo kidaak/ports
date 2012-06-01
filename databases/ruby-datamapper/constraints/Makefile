@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-datamapper/constraints/Makefile,v 1.3 2011/09/16 08:48:04 espie Exp $
+# $OpenBSD$
 
 COMMENT =	DataMapper plugin constraining relationships
 

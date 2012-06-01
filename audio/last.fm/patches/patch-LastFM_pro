@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-LastFM_pro,v 1.3 2011/09/19 12:50:57 dcoppa Exp $
+$OpenBSD$
 --- LastFM.pro.orig	Mon Sep 19 11:46:56 2011
 +++ LastFM.pro	Mon Sep 19 11:50:35 2011
 @@ -8,13 +8,11 @@ SUBDIRS = src/libUnicorn \

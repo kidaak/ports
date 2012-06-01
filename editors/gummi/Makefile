@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/gummi/Makefile,v 1.8 2012/03/28 19:27:04 kili Exp $
+# $OpenBSD$
 
 COMMENT =		simple LaTeX editor
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Config-IniFiles/pkg/PLIST,v 1.6 2004/09/14 23:43:57 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Config/
 ${P5SITE}/Config/IniFiles.pm
 @man man/man3p/Config::IniFiles.3p

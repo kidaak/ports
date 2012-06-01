@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/jed/patches/patch-src_unix_c,v 1.1 2010/09/13 07:36:01 sthen Exp $
+$OpenBSD$
 
 patches from upstream git repo;
 

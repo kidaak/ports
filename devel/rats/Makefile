@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/rats/Makefile,v 1.21 2011/12/19 22:35:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		source code auditing tool
 

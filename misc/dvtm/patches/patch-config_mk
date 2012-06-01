@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/dvtm/patches/patch-config_mk,v 1.7 2010/11/24 13:09:11 jasper Exp $
+$OpenBSD$
 --- config.mk.orig	Fri Oct  8 18:06:05 2010
 +++ config.mk	Wed Nov 24 09:28:42 2010
 @@ -3,15 +3,15 @@ VERSION = 0.6

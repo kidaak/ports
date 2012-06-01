@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/wesnoth/pkg/PFRAG.no-lite,v 1.10 2012/04/07 08:32:32 kirby Exp $
+@comment $OpenBSD$
 share/wesnoth/data/core/music/
 share/wesnoth/data/core/music/battle-epic.ogg
 share/wesnoth/data/core/music/battle.ogg

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/Xdialog/patches/patch-src_interface_c,v 1.1 2010/03/24 17:23:48 jasper Exp $
+$OpenBSD$
 
 Fix gtk2 support. From archlinux:
 http://aur.archlinux.org/packages.php?ID=16517

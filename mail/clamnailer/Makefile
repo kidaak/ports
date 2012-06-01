@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/clamnailer/Makefile,v 1.5 2012/03/06 20:07:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	generate ScamNailer spear phishing database in ClamAV format
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/groff/patches/patch-indxbib_indxbib_cc,v 1.1 2000/04/20 22:40:42 espie Exp $
+$OpenBSD$
 --- indxbib/indxbib.cc.orig	Fri Apr 21 00:26:10 2000
 +++ indxbib/indxbib.cc	Fri Apr 21 00:27:44 2000
 @@ -222,12 +222,11 @@ int main(int argc, char **argv)

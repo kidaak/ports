@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/openjpeg/Makefile,v 1.7 2012/03/30 07:09:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		open-source JPEG 2000 codec library
 

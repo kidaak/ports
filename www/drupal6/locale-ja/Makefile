@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/locale-ja/Makefile,v 1.7 2012/04/12 08:16:06 naddy Exp $
+# $OpenBSD$
 
 COMMENT =	japanese translation
 DRUPAL_LANG =		ja

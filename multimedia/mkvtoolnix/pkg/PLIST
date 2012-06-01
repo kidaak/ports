@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/mkvtoolnix/pkg/PLIST,v 1.7 2010/07/17 22:52:55 benoit Exp $
+@comment $OpenBSD$
 @bin bin/mkvextract
 @bin bin/mkvinfo
 @bin bin/mkvmerge

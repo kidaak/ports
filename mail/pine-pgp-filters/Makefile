@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/pine-pgp-filters/Makefile,v 1.6 2011/10/23 19:46:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simple shell based filters to use GnuPG within (Al)Pine
 

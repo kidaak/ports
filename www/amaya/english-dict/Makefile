@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/amaya/english-dict/Makefile,v 1.12 2011/09/16 12:00:06 espie Exp $
+# $OpenBSD$
 #
 # Many variables moved to ../Makefile.inc
 

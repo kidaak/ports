@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/emelfm2/pkg/PFRAG.shared,v 1.3 2009/05/06 16:20:01 giovanni Exp $
+@comment $OpenBSD$
 lib/emelfm2/plugins/
 lib/emelfm2/plugins/e2p_clone.so
 lib/emelfm2/plugins/e2p_config.so

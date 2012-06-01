@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/belt/Makefile,v 1.20 2011/09/16 12:29:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Small menubar for X11 written in Perl/Tk
 DISTNAME=		belt-1.21

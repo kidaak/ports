@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/rancid/patches/patch-configure,v 1.4 2010/04/23 11:18:43 pea Exp $
+$OpenBSD$
 --- configure.orig	Wed Mar 24 00:34:37 2010
 +++ configure	Fri Apr 16 10:21:50 2010
 @@ -6058,7 +6058,7 @@ ac_config_files="$ac_config_files bin/nslogin bin/nsra

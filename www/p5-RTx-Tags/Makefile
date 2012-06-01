@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-RTx-Tags/Makefile,v 1.8 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Tag Cloud for RT with searchable custom fields
 

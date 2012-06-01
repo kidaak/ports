@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/php/5.2/Makefile,v 1.22 2012/01/29 14:53:20 espie Exp $
+# $OpenBSD$
 
 # doesn't set USE_LIBTOOL but use the bundled one because it needs some
 # specific options we don't have.
@@ -9,10 +9,15 @@ SUHOSIN_PHPV=	5.2.16
 SUHOSIN_P_V=	0.9.7
 
 REVISION=		5
-REVISION-main=		8
+REVISION-main=		9
 REVISION-fastcgi=	9
 REVISION-snmp=		6
 REVISION-gd=		6
+REVISION-pdo_sqlite =	6
+REVISION-dbase=		6
+REVISION-mhash=		6
+REVISION-ncurses=	6
+REVISION-sybase_ct=	6
 
 INI_TEMPLATES=	dist recommended
 

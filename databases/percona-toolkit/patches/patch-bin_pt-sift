@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/percona-toolkit/patches/patch-bin_pt-sift,v 1.1.1.1 2012/02/27 10:18:12 giovanni Exp $
+$OpenBSD$
 --- bin/pt-sift.orig	Mon Feb  6 21:52:31 2012
 +++ bin/pt-sift	Thu Feb  9 16:49:50 2012
 @@ -103,11 +103,6 @@ main() {

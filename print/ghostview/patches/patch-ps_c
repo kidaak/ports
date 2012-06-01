@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostview/patches/patch-ps_c,v 1.1 2002/04/26 01:44:09 espie Exp $
+$OpenBSD$
 --- ps.c.orig	Sun Jul 11 18:10:18 1993
 +++ ps.c	Fri Apr 26 02:38:33 2002
 @@ -24,6 +24,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/antisniff/patches/patch-flood_net_c,v 1.2 2005/04/03 19:32:29 naddy Exp $
+$OpenBSD$
 --- flood_net.c.orig	Tue Apr 18 02:52:21 2000
 +++ flood_net.c	Sun Apr  3 21:21:24 2005
 @@ -107,7 +107,7 @@ make_tcppack(int *len, char *srcAddr, ch

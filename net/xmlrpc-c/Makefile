@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/xmlrpc-c/Makefile,v 1.9 2010/11/19 22:31:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	XML-RPC C/C++ client-server implementation
 CATEGORIES=	net devel textproc

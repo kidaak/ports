@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/youtube-dl/patches/patch-youtube-dl,v 1.9 2012/03/07 22:00:07 dcoppa Exp $
+$OpenBSD$
 --- youtube-dl.orig	Wed Mar  7 14:51:21 2012
 +++ youtube-dl	Wed Mar  7 14:52:02 2012
 @@ -899,7 +899,7 @@ class FileDownloader(object):

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Device-USB/Makefile,v 1.10 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		perl wrapper around libusb
 

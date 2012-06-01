@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/search-tool/Makefile,v 1.2 2012/04/01 16:01:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GNOME tool to search files
 

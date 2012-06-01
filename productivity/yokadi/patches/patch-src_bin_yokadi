@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/yokadi/patches/patch-src_bin_yokadi,v 1.1.1.1 2009/07/21 19:13:46 landry Exp $
+$OpenBSD$
 --- src/bin/yokadi.orig	Wed Jul 15 21:58:12 2009
 +++ src/bin/yokadi	Wed Jul 15 21:58:41 2009
 @@ -1,4 +1,4 @@

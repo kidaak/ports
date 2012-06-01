@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/tikiwiki/Makefile,v 1.22 2011/11/16 15:56:38 robert Exp $
+# $OpenBSD$
 
 COMMENT=	all-in-one wiki/groupware/CMS solution
 

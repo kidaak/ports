@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/libstatgrab/pkg/PLIST,v 1.2 2010/01/18 22:03:46 okan Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/saidar
 @bin bin/statgrab

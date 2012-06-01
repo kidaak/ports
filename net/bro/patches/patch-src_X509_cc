@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/bro/patches/patch-src_X509_cc,v 1.1 2010/10/12 20:12:52 robert Exp $
+$OpenBSD$
 --- src/X509.cc.orig	Tue Oct 12 22:09:38 2010
 +++ src/X509.cc	Tue Oct 12 22:10:21 2010
 @@ -191,7 +191,7 @@ int X509_Cert::verifyChain(Contents_SSL* e, const u_ch

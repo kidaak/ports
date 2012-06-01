@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boehm-gc/patches/patch-libatomic_ops-1_2_src_atomic_ops_sysdeps_Makefile_am,v 1.1 2008/04/01 17:41:13 kurt Exp $
+$OpenBSD$
 --- libatomic_ops-1.2/src/atomic_ops/sysdeps/Makefile.am.orig	Tue Jun  5 18:06:20 2007
 +++ libatomic_ops-1.2/src/atomic_ops/sysdeps/Makefile.am	Fri Mar 21 14:01:30 2008
 @@ -29,6 +29,7 @@ nobase_sysdep_HEADERS= generic_pthread.h \

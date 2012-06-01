@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/argyll/pkg/PLIST,v 1.1.1.1 2011/11/06 17:35:53 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/applycal
 @bin bin/average
 @bin bin/cb2cgats

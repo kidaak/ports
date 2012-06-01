@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/bfbtester/Makefile,v 1.10 2007/09/15 23:29:57 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	brute force binary tester
 

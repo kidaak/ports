@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/usbutil/Makefile,v 1.19 2011/06/21 20:17:54 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	USB developer utilities
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/eclipse/plugins/Makefile,v 1.10 2010/02/01 17:00:13 espie Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += emf

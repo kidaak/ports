@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/hugs/Makefile,v 1.20 2012/03/23 21:33:45 kili Exp $
+# $OpenBSD$
 
 COMMENT =	Haskell 98 interpreter
 

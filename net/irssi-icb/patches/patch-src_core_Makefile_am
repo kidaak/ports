@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi-icb/patches/patch-src_core_Makefile_am,v 1.2 2011/10/19 09:47:26 dcoppa Exp $
+$OpenBSD$
 --- src/core/Makefile.am.orig	Sat May  4 19:21:43 2002
 +++ src/core/Makefile.am	Tue Oct 18 15:11:37 2011
 @@ -1,7 +1,7 @@

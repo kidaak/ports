@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gdb/patches/patch-bfd_peXXigen_c,v 1.1 2011/10/28 14:42:43 espie Exp $
+$OpenBSD$
 Fix out-of-bounds memcpys (FILNMLEN is 18, sizeof x_fname is 14).
 --- bfd/peXXigen.c.orig	Tue Oct 25 15:31:49 2011
 +++ bfd/peXXigen.c	Tue Oct 25 15:32:39 2011

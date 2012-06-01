@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/dbh/Makefile,v 1.12 2010/09/01 09:17:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	library to create disk based hashtables
 DISTNAME=	dbh-1.0.24

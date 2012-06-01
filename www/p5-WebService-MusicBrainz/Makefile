@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WebService-MusicBrainz/Makefile,v 1.9 2011/03/31 13:57:54 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		interface to Music Brainz
 

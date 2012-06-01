@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/pftop/patches/patch-config_h,v 1.5 2009/11/30 09:56:39 sthen Exp $
+$OpenBSD$
 --- config.h.orig	Wed Nov  7 06:34:18 2007
 +++ config.h	Sun Nov 29 22:27:09 2009
 @@ -74,11 +74,24 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/scmpc/patches/patch-src-preferences_c,v 1.4 2011/05/15 14:56:50 jasper Exp $
+$OpenBSD$
 --- src/preferences.c.orig	Mon Apr 25 19:10:27 2011
 +++ src/preferences.c	Mon Apr 25 19:10:34 2011
 @@ -161,7 +161,7 @@ static gint parse_config_file(void)

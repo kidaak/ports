@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-extensions_spellcheck_hunspell_src_mozHunspell_cpp,v 1.6 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 --- extensions/spellcheck/hunspell/src/mozHunspell.cpp.orig	Wed Jan 11 18:14:40 2012
 +++ extensions/spellcheck/hunspell/src/mozHunspell.cpp	Sat Jan 14 20:21:44 2012
 @@ -64,6 +64,7 @@

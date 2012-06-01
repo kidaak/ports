@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/GraphicsMagick/pkg/PLIST,v 1.7 2011/01/15 16:17:33 jasper Exp $
+@comment $OpenBSD$
 bin/GraphicsMagick++-config
 bin/GraphicsMagick-config
 bin/GraphicsMagickWand-config

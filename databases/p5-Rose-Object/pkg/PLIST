@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-Rose-Object/pkg/PLIST,v 1.2 2007/05/05 10:17:56 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Rose/Class/
 ${P5SITE}/Rose/Class.pm
 ${P5SITE}/Rose/Class/MakeMethods/

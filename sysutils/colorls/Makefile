@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/colorls/Makefile,v 1.23 2011/11/12 12:31:21 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	ls that can use color to display file attributes
 

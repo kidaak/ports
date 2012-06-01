@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/processing/Makefile,v 1.6 2011/09/16 10:31:21 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

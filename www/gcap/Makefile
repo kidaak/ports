@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/gcap/Makefile,v 1.1.1.1 2012/03/05 08:57:19 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		Youtube closed caption downloader
 

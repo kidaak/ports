@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/hellanzb/patches/patch-Hellanzb_HellaXMLRPC_xmlrpc_py,v 1.1 2010/08/23 07:02:06 giovanni Exp $
+$OpenBSD$
 --- Hellanzb/HellaXMLRPC/xmlrpc.py.orig	Fri Aug 13 17:15:52 2010
 +++ Hellanzb/HellaXMLRPC/xmlrpc.py	Fri Aug 13 17:16:49 2010
 @@ -31,7 +31,7 @@ from twisted.internet import defer, protocol, reactor

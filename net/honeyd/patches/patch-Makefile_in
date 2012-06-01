@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/honeyd/patches/patch-Makefile_in,v 1.5 2007/07/25 22:27:01 rui Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon May 28 07:15:43 2007
 +++ Makefile.in	Wed Jul 18 11:55:08 2007
 @@ -182,7 +182,7 @@ AUTOMAKE = @AUTOMAKE@

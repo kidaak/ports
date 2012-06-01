@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/udunits/Makefile,v 1.8 2011/11/18 08:27:34 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =		library to manipulate units of physical quantities
 DISTNAME =		udunits-2.1.24

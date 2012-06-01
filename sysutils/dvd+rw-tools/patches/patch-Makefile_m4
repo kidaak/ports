@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/dvd+rw-tools/patches/patch-Makefile_m4,v 1.1 2008/01/26 02:21:28 jakemsr Exp $
+$OpenBSD$
 --- Makefile.m4.orig	Thu Jan 17 22:21:13 2008
 +++ Makefile.m4	Thu Jan 17 22:21:13 2008
 @@ -12,7 +12,7 @@ WARN=#-Wall	# developers are welcomed to build with `m

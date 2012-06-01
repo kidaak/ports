@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Text-Iconv/pkg/PLIST,v 1.6 2004/09/14 23:25:50 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Text/
 ${P5ARCH}/Text/Iconv.pm

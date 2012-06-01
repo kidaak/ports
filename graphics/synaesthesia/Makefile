@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/synaesthesia/Makefile,v 1.17 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		visual sound representation
 

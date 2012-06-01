@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-bin_bric_apachectl,v 1.1.1.1 2006/11/10 17:04:37 sturm Exp $
+$OpenBSD$
 --- bin/bric_apachectl.orig	Sun Oct 22 10:30:02 2006
 +++ bin/bric_apachectl	Sun Oct 22 10:32:06 2006
 @@ -43,8 +43,8 @@ $|++;

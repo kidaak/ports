@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-xml/pkg/PLIST,v 1.11 2008/04/19 09:24:50 ajacoutot Exp $
+@comment $OpenBSD$
 bin/xmlproc_parse
 bin/xmlproc_val
 lib/python${MODPY_VERSION}/site-packages/PyXML-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-MP4-Info/pkg/PLIST,v 1.1.1.1 2006/12/08 07:06:38 steven Exp $
+@comment $OpenBSD$
 ${P5SITE}/MP4/
 ${P5SITE}/MP4/Info.pm
 @man man/man3p/MP4::Info.3p

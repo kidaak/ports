@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ivan/patches/patch-Main_Include_char_h,v 1.1 2010/06/07 14:48:32 espie Exp $
+$OpenBSD$
 --- Main/Include/char.h.orig	Mon Jun  7 16:40:31 2010
 +++ Main/Include/char.h	Mon Jun  7 16:40:37 2010
 @@ -991,7 +991,7 @@ class character : public entity, public id

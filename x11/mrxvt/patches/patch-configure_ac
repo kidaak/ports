@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mrxvt/patches/patch-configure_ac,v 1.1 2011/07/08 20:38:00 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

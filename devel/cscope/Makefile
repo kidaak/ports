@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cscope/Makefile,v 1.15 2010/11/15 19:45:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=		code browsing program
 

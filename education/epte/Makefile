@@ -1,4 +1,4 @@
-# $OpenBSD: ports/education/epte/Makefile,v 1.4 2010/11/15 23:22:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=		electronic periodic table of the elements
 

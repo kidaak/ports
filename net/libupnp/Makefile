@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libupnp/Makefile,v 1.2 2012/03/30 06:48:01 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Universal Plug and Play SDK
 

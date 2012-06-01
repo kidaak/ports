@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/base-workspace/patches/patch-cmake_modules_UnixAuth_cmake,v 1.1 2010/06/23 13:11:34 espie Exp $
+$OpenBSD$
 --- cmake/modules/UnixAuth.cmake.orig	Thu Feb  7 14:19:25 2008
 +++ cmake/modules/UnixAuth.cmake	Wed Jun 23 11:46:40 2010
 @@ -35,6 +35,11 @@ check_library_exists(crypt crypt "" HAVE_CRYPT)

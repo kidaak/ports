@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/arpwatch/pkg/arpwatch.rc,v 1.1 2011/03/14 20:42:11 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/arpwatch"
 

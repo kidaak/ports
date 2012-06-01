@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmmix/patches/patch-mixer_h,v 1.1 2002/01/14 13:47:22 naddy Exp $
+$OpenBSD$
 --- mixer.h.orig	Sun Jul 14 19:49:04 1996
 +++ mixer.h	Mon Jan 14 14:41:27 2002
 @@ -78,6 +78,7 @@ extern void	mx_about(Widget, XtPointer, 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pep8/pkg/PLIST,v 1.1.1.1 2011/08/18 14:58:21 mpi Exp $
+@comment $OpenBSD$
 bin/pep8
 lib/python${MODPY_VERSION}/site-packages/pep8-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/pep8-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

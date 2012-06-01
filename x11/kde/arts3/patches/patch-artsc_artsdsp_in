@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/arts3/patches/patch-artsc_artsdsp_in,v 1.2 2008/08/26 16:52:28 espie Exp $
+$OpenBSD$
 --- artsc/artsdsp.in.orig	Tue Aug 19 20:10:01 2008
 +++ artsc/artsdsp.in	Wed Aug 20 21:43:07 2008
 @@ -93,9 +93,9 @@ prefix=@prefix@

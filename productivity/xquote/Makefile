@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/xquote/Makefile,v 1.14 2011/11/03 22:21:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 		WWW quote retrieval tool
 

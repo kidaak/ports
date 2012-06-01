@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/fyre/Makefile,v 1.20 2011/12/03 18:35:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		tool for producing computational artwork
 DISTNAME=		fyre-1.0.1

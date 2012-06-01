@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-AI-FANN/pkg/PLIST,v 1.2 2010/10/03 15:20:21 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/AI/
 ${P5ARCH}/AI/FANN.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/acroread/patches/patch-INSTALL,v 1.4 2006/10/19 00:20:55 sturm Exp $
+$OpenBSD$
 --- INSTALL.orig	Tue May 23 03:33:34 2006
 +++ INSTALL	Sun Oct  8 20:50:06 2006
 @@ -287,6 +287,8 @@ PrintRequiredFree()

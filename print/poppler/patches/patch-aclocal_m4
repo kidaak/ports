@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/poppler/patches/patch-aclocal_m4,v 1.1 2011/11/26 19:45:29 kili Exp $
+$OpenBSD$
 --- aclocal.m4.orig	Wed Nov 16 17:26:14 2011
 +++ aclocal.m4	Wed Nov 16 17:26:30 2011
 @@ -2153,6 +2153,7 @@ m4_include([m4/define-dir.m4])

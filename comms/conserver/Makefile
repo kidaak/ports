@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/conserver/Makefile,v 1.41 2011/12/17 22:01:12 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	manage remote serial consoles via TCP/IP
 

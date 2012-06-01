@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/awn/patches/patch-applet-activation_main_c,v 1.1 2011/09/22 13:20:37 landry Exp $
+$OpenBSD$
 --- applet-activation/main.c.orig	Tue Sep 20 19:38:44 2011
 +++ applet-activation/main.c	Tue Sep 20 19:39:01 2011
 @@ -222,7 +222,7 @@ main(gint argc, gchar **argv)

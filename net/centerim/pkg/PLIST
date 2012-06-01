@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/centerim/pkg/PLIST,v 1.1.1.1 2012/03/21 14:41:22 ajacoutot Exp $
+@comment $OpenBSD$
 bin/CenterIMLog2HTML.py
 @bin bin/centerim
 bin/cimconv

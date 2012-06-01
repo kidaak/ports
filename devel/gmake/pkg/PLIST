@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gmake/pkg/PLIST,v 1.15 2011/04/20 20:51:41 naddy Exp $
+@comment $OpenBSD$
 @bin bin/gmake
 @info info/make.info
 @man man/man1/gmake.1

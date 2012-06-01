@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/devel/py-buildbot/pkg/buildbot.rc,v 1.1 2011/04/21 10:20:43 eric Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/buildbot"
 daemon_flags="${HOMEDIR}"

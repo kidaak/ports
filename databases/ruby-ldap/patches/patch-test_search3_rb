@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/ruby-ldap/patches/patch-test_search3_rb,v 1.1.1.1 2007/01/18 12:30:37 bernd Exp $
+$OpenBSD$
 --- test/search3.rb.orig	Wed Dec 20 13:34:41 2006
 +++ test/search3.rb	Wed Dec 20 13:34:59 2006
 @@ -8,8 +8,9 @@ require "./ldap"

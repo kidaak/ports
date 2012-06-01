@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/p5-Net-Pcap/patches/patch-Makefile_PL,v 1.1 2010/10/07 10:20:27 sthen Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Thu Oct  7 11:16:00 2010
 +++ Makefile.PL	Thu Oct  7 11:16:14 2010
 @@ -530,8 +530,7 @@ sub have_functions {

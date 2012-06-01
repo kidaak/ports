@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ntp/pkg/PLIST,v 1.19 2012/04/10 15:06:29 gonzalo Exp $
+@comment $OpenBSD$
 @conflict ntp-doc-*
 @pkgpath net/ntp,-main
 @man man/man1/ntp-keygen.1

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/enca/pkg/PLIST,v 1.2 2011/10/18 06:05:20 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/enca
 bin/enconv

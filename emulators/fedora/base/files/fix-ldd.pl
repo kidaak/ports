@@ -1,6 +1,6 @@
 #! /usr/bin/perl
 #
-# $OpenBSD: ports/emulators/fedora/base/files/fix-ldd.pl,v 1.1.1.1 2006/10/17 22:33:44 sturm Exp $
+# $OpenBSD$
 #
 # Hack to convert an executable Linux shared library into an executable file.
 #

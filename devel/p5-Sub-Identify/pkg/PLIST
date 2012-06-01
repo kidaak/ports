@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Sub-Identify/pkg/PLIST,v 1.2 2009/11/23 10:13:07 kevlo Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Sub/
 ${P5ARCH}/Sub/Identify.pm

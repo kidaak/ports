@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/bro/Makefile,v 1.4 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 
 COMMENT=	highly flexible sniffer/NIDS
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/bibview/patches/patch-Imakefile,v 1.1 2001/04/17 13:13:26 naddy Exp $
+$OpenBSD$
 --- Imakefile.orig	Mon Feb 27 14:41:19 1995
 +++ Imakefile	Tue Apr 17 14:36:49 2001
 @@ -9,7 +9,6 @@

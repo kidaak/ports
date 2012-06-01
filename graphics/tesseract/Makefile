@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/tesseract/Makefile,v 1.15 2011/12/22 09:47:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=	OCR Engine developed at HP Labs
 

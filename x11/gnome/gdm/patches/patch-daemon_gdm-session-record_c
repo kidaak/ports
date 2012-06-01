@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-daemon_gdm-session-record_c,v 1.1 2011/09/12 07:39:21 ajacoutot Exp $
+$OpenBSD$
 
 implicit declaration of function 'logwtmp'
 implicit declaration of function 'login'

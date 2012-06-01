@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.54/patches/patch-configure,v 1.1.1.1 2003/06/24 23:03:23 espie Exp $
+$OpenBSD$
 --- configure.orig	Fri Sep 13 10:15:16 2002
 +++ configure	Tue Jun 24 18:11:19 2003
 @@ -1680,26 +1680,6 @@ fi

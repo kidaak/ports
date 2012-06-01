@@ -2,7 +2,7 @@
 
 # Sample script to use with fetch-makefile: fetch all distfiles
 
-# $OpenBSD: ports/infrastructure/fetch/fetch-all,v 1.9 2009/06/04 15:15:48 sthen Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2000 Marc Espie.
 # 

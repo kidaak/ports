@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/dvi2tty/Makefile,v 1.8 2012/03/17 18:55:17 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		converts .dvi files to plain text
 

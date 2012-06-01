@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/libtextcat/pkg/PLIST,v 1.1.1.1 2009/07/31 15:42:58 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/createfp
 include/textcat.h

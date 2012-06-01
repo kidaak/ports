@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/rackmonkey/patches/patch-conf_rackmonkey_conf-default,v 1.1.1.1 2010/10/28 14:33:54 sthen Exp $
+$OpenBSD$
 --- conf/rackmonkey.conf-default.orig	Sun Sep 13 12:21:15 2009
 +++ conf/rackmonkey.conf-default	Mon Sep 20 22:26:52 2010
 @@ -7,14 +7,15 @@

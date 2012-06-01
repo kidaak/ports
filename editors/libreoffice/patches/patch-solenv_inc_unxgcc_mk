@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-solenv_inc_unxgcc_mk,v 1.1 2012/04/03 08:56:50 robert Exp $
+$OpenBSD$
 --- solenv/inc/unxgcc.mk.orig.port	Tue Mar 27 18:22:01 2012
 +++ solenv/inc/unxgcc.mk	Sun Apr  1 16:31:32 2012
 @@ -88,7 +88,7 @@ CFLAGSCXX= -pipe $(ARCH_FLAGS)

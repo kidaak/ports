@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/matchbox-nest/Makefile,v 1.5 2010/11/22 08:37:03 espie Exp $
+# $OpenBSD$
 # XXX: Provide a Zaurus frontend
 
 COMMENT=		graphical wrapper around Xnest(1) on PDA size

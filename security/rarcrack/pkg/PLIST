@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/rarcrack/pkg/PLIST,v 1.1.1.1 2008/06/11 21:55:36 laurent Exp $
+@comment $OpenBSD$
 bin/rarcrack
 share/doc/rarcrack/
 share/doc/rarcrack/README

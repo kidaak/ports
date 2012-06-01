@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-cmn_intel_cpp,v 1.1 2007/12/07 15:54:56 ajacoutot Exp $
+$OpenBSD$
 --- cmn/intel.cpp.orig	Wed Mar 19 09:49:22 2003
 +++ cmn/intel.cpp	Fri Dec  7 14:25:40 2007
 @@ -31,11 +31,10 @@

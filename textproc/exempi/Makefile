@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/exempi/Makefile,v 1.4 2011/11/03 20:13:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		implementation of XMP
 DISTNAME =		exempi-2.1.1

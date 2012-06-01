@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/vmware-vncpasswd/files/Makefile,v 1.1.1.1 2009/08/21 11:17:00 sthen Exp $
+# $OpenBSD$
 
 NOMAN=	noman
 BINDIR=	${TRUEPREFIX}/bin

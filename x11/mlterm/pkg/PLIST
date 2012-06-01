@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/mlterm/pkg/PLIST,v 1.4 2005/11/01 11:58:57 naddy Exp $
+@comment $OpenBSD$
 bin/mlcc
 bin/mlclient
 @group utmp

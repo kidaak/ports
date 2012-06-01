@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Hash-NoRef/pkg/PLIST,v 1.1.1.1 2007/12/30 22:33:47 okan Exp $
+@comment $OpenBSD$
 %%SHARED%%
 ${P5ARCH}/
 ${P5ARCH}/Hash/

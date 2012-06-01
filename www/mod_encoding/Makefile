@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_encoding/Makefile,v 1.4 2010/09/26 17:45:13 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	Apache module for non-ascii filename interoperability
 

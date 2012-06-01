@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/benchmarks/sysbench/pkg/PLIST,v 1.1.1.1 2008/04/15 14:14:08 sthen Exp $
+@comment $OpenBSD$
 bin/sysbench
 share/doc/sysbench/
 share/doc/sysbench/manual.html

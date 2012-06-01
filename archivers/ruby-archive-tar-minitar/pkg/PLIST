@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/ruby-archive-tar-minitar/pkg/PLIST,v 1.3 2010/11/08 23:24:39 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/minitar${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

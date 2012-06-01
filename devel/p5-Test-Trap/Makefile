@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Trap/Makefile,v 1.1.1.1 2011/01/04 10:12:57 kevlo Exp $
+# $OpenBSD$
 
 COMMENT=		trap exit codes
 

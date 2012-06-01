@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/firmware/acx/Makefile,v 1.3 2011/07/08 21:20:49 sthen Exp $
+# $OpenBSD$
 
 FW_DRIVER=	acx
 FW_VER=		1.4

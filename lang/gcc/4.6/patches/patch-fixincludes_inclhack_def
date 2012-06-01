@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-fixincludes_inclhack_def,v 1.1 2011/12/09 22:45:18 pascal Exp $
+$OpenBSD$
 adjust for our sed
 --- fixincludes/inclhack.def.orig	Fri Dec  9 15:32:20 2011
 +++ fixincludes/inclhack.def	Fri Dec  9 15:32:24 2011

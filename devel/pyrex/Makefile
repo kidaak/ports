@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pyrex/Makefile,v 1.14 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

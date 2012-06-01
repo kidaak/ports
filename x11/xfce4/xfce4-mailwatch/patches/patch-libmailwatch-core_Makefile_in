@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfce4-mailwatch/patches/patch-libmailwatch-core_Makefile_in,v 1.1 2011/04/15 16:13:23 ajacoutot Exp $
+$OpenBSD$
 --- libmailwatch-core/Makefile.in.orig	Wed Apr 13 15:23:04 2011
 +++ libmailwatch-core/Makefile.in	Wed Apr 13 15:23:14 2011
 @@ -43,7 +43,7 @@ mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs

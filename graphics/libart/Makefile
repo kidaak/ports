@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libart/Makefile,v 1.27 2011/09/28 09:51:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		high-performance 2D graphics library
 

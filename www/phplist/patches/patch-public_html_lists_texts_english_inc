@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/phplist/patches/patch-public_html_lists_texts_english_inc,v 1.5 2011/12/15 10:14:05 sthen Exp $
+$OpenBSD$
 --- public_html/lists/texts/english.inc.orig	Wed Sep 21 15:05:12 2011
 +++ public_html/lists/texts/english.inc	Sun Nov  6 21:08:32 2011
 @@ -83,6 +83,7 @@ $strForgotPassword     = 'Forgot Password';

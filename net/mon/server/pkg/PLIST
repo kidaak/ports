@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/mon/server/pkg/PLIST,v 1.2 2010/11/10 13:54:56 pea Exp $
+@comment $OpenBSD$
 @newgroup _mon:643
 @newuser _mon:643:_mon:daemon:Mon Server:/var/empty:/bin/sh
 bin/mon

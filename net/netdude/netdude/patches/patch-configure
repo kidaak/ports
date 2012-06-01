@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-configure,v 1.1 2011/12/09 14:45:06 jasper Exp $
+$OpenBSD$
 --- configure.orig	Fri Dec  9 15:40:08 2011
 +++ configure	Fri Dec  9 15:40:27 2011
 @@ -426,7 +426,7 @@ PACKAGE_STRING=

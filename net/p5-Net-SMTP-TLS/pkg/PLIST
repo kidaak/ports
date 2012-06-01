@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-SMTP-TLS/pkg/PLIST,v 1.1.1.1 2009/11/05 13:23:59 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/SMTP/
 ${P5SITE}/Net/SMTP/TLS.pm

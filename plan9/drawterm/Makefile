@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/drawterm/Makefile,v 1.2 2012/02/16 21:59:17 landry Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386 amd64 powerpc sparc64 mips64 mips64el
 

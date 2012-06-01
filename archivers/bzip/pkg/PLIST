@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/bzip/pkg/PLIST,v 1.5 2004/08/04 16:22:59 espie Exp $
+@comment $OpenBSD$
 bin/bunzip
 bin/bzip
 @man man/man1/bunzip.1

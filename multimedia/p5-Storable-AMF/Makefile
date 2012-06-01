@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/p5-Storable-AMF/Makefile,v 1.1.1.1 2012/01/24 20:00:01 nigel Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

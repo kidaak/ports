@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libgtop2/patches/patch-sysdeps_openbsd_proctime_c,v 1.4 2012/01/22 11:55:10 ajacoutot Exp $
+$OpenBSD$
 
 From b11aa1517e203e36a8901f03ea57c50a25dfbfc7 Mon Sep 17 00:00:00 2001
 From: Antoine Jacoutot <ajacoutot@gnome.org>

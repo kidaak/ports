@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-MIME-Lite/Makefile,v 1.13 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		low-calorie MIME generator
 

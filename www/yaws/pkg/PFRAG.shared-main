@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/www/yaws/pkg/PFRAG.shared-main,v 1.1.1.1 2010/12/22 18:38:03 jasper Exp $
+@comment $OpenBSD$
 lib/yaws/priv/lib/setuid_drv.so

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/base/patches/patch-Tools_Makefile_postamble,v 1.4 2011/07/19 06:29:09 sebastia Exp $
+$OpenBSD$
 --- Tools/Makefile.postamble.orig	Thu Jun  9 19:14:46 2011
 +++ Tools/Makefile.postamble	Thu Jul  7 19:32:01 2011
 @@ -50,8 +50,6 @@ after-install::

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ices2/patches/patch-src_input_c,v 1.1 2010/04/23 05:54:26 jakemsr Exp $
+$OpenBSD$
 --- src/input.c.orig	Mon Jan 18 03:06:33 2010
 +++ src/input.c	Mon Jan 18 03:08:36 2010
 @@ -40,6 +40,10 @@

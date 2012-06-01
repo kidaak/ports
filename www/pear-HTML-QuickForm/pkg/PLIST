@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/pear-HTML-QuickForm/pkg/PLIST,v 1.5 2007/03/22 22:48:04 robert Exp $
+@comment $OpenBSD$
 @group daemon
 pear/doc/
 pear/doc/HTML_QuickForm/

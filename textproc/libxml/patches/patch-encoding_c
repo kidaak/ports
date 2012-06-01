@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/libxml/patches/patch-encoding_c,v 1.1 2012/01/23 10:17:49 ajacoutot Exp $
+$OpenBSD$
 
 From 69f04562f75212bfcabecd190ea8b06ace28ece2 Mon Sep 17 00:00:00 2001
 From: Daniel Veillard <veillard@redhat.com>

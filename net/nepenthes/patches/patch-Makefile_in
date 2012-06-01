@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nepenthes/patches/patch-Makefile_in,v 1.5 2008/02/16 10:56:41 rui Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Dec 13 22:02:56 2007
 +++ Makefile.in	Thu Dec 13 22:05:21 2007
 @@ -191,7 +191,7 @@ build_os = @build_os@

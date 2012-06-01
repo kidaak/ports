@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/evilwm/pkg/PLIST,v 1.4 2005/09/27 08:14:52 alek Exp $
+@comment $OpenBSD$
 bin/evilwm
 @man man/man1/evilwm.1
 share/doc/evilwm/

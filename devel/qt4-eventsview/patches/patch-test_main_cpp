@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/qt4-eventsview/patches/patch-test_main_cpp,v 1.1.1.1 2007/05/03 10:29:11 espie Exp $
+$OpenBSD$
 --- test/main.cpp.orig	Thu May  3 12:20:10 2007
 +++ test/main.cpp	Thu May  3 12:20:17 2007
 @@ -22,7 +22,7 @@

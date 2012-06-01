@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/rdiff-backup/pkg/PLIST,v 1.4 2010/04/02 11:35:42 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/rdiff-backup
 bin/rdiff-backup-statistics

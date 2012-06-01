@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_collect2_c,v 1.1.1.1 2005/01/03 15:21:27 espie Exp $
+$OpenBSD$
 --- gcc/collect2.c.orig	Mon Dec  8 20:02:39 2003
 +++ gcc/collect2.c	Mon Jan  3 10:17:41 2005
 @@ -1572,7 +1572,7 @@ collect_execute (prog, argv, redir)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libfmt/patches/patch-runevsmprint_c,v 1.1 2004/02/29 19:07:34 pvalchev Exp $
+$OpenBSD$
 --- runevsmprint.c.orig	2003-02-13 08:04:39.000000000 -0700
 +++ runevsmprint.c	2004-02-28 13:12:52.000000000 -0700
 @@ -67,7 +67,7 @@ runevsmprint(char *fmt, va_list args)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/gmpc-plugins/pkg/PLIST-main,v 1.4 2011/08/23 08:43:48 landry Exp $
+@comment $OpenBSD$
 @conflict gmpc-coveramazon-*
 @conflict gmpc-osd-*
 @conflict gmpc-lyrics-*

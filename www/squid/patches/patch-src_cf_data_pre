@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/squid/patches/patch-src_cf_data_pre,v 1.32 2011/05/30 20:56:30 sthen Exp $
+$OpenBSD$
 --- src/cf.data.pre.orig	Mon Nov  9 17:38:57 2009
 +++ src/cf.data.pre	Sun May 29 16:36:32 2011
 @@ -3738,7 +3738,7 @@ NAME: shutdown_lifetime

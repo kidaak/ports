@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/pimlibs/pkg/PLIST,v 1.4 2010/06/18 11:50:29 espie Exp $
+@comment $OpenBSD$
 include/KDE/Akonadi/
 include/KDE/Akonadi/AgentBase
 include/KDE/Akonadi/AgentFilterProxyModel

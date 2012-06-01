@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/mftrace/pkg/PLIST,v 1.1.1.1 2011/07/19 09:16:08 jasper Exp $
+@comment $OpenBSD$
 @pkgpath print/mftrace
 @bin bin/gf2pbm
 bin/mftrace

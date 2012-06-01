@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gimp/stable/Makefile,v 1.77 2012/02/27 10:11:38 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	GNU Image Manipulation Program
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ekg/Makefile,v 1.5 2011/04/06 09:35:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Gadu-Gadu IM protocol client
 

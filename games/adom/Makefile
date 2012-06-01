@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/adom/Makefile,v 1.26 2011/10/21 21:38:42 espie Exp $
+# $OpenBSD$
 # Author: Thomas Biskup <rpg@saranxis.ruhr.de>
 
 COMMENT =	Ancient Domains of Mystery - roguelike

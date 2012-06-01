@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/zoem/pkg/PLIST,v 1.5 2009/12/23 22:09:20 jasper Exp $
+@comment $OpenBSD$
 @bin bin/zoem
 @man man/man1/zoem.1
 @man man/man7/pud-base.7

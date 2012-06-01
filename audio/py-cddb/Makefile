@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-cddb/Makefile,v 1.16 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

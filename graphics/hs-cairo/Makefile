@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/hs-cairo/Makefile,v 1.9 2011/09/16 10:02:37 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell bindings to cairo
 

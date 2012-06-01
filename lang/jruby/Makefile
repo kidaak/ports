@@ -1,10 +1,10 @@
-# $OpenBSD: ports/lang/jruby/Makefile,v 1.31 2012/04/04 20:23:59 jeremy Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 
 COMMENT =	pure-Java implementation of the Ruby language
 
-V =		1.6.7
+V =		1.6.7.2
 DISTNAME =	jruby-src-${V}
 PKGNAME =	jruby-${V}
 CATEGORIES =	lang lang/ruby

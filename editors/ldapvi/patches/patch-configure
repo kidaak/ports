@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/ldapvi/patches/patch-configure,v 1.4 2012/01/12 13:59:29 ajacoutot Exp $
+$OpenBSD$
 
 OpenBSD does NOT require -lcrypt, DES encryption is part of the standard libc.
 

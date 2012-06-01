@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gopher/pkg/PLIST,v 1.1.1.1 2006/07/31 12:52:20 steven Exp $
+@comment $OpenBSD$
 bin/gopher
 bin/gophfilt
 @man man/man1/gopher.1

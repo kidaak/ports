@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Date-Holidays/Slovenia/Makefile,v 1.3 2012/01/16 22:12:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	Slovenian holiday classes for PHP
 HOLNAME =	Slovenia-0.1.2

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-POE-Component-IKC/pkg/PLIST,v 1.1.1.1 2007/07/22 15:59:19 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/POE/Component/IKC/
 ${P5SITE}/POE/Component/IKC.pm
 ${P5SITE}/POE/Component/IKC.pod

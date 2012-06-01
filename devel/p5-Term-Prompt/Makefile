@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Term-Prompt/Makefile,v 1.6 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	handles various forms of terminal input
 

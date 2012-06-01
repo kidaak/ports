@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p0f/Makefile,v 1.22 2011/09/07 13:25:32 nigel Exp $
+# $OpenBSD$
 
 COMMENT=		passive OS fingerprinting tool
 

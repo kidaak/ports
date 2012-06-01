@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/gdl/pkg/PLIST,v 1.7 2012/03/29 07:17:38 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libgdl-3.0/
 include/libgdl-3.0/gdl/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/abuse/Makefile,v 1.38 2012/04/06 13:46:11 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	SDL port of the legendary 2D platform shooter
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openvpn/patches/patch-openvpn_8,v 1.4 2012/01/12 08:15:30 sthen Exp $
+$OpenBSD$
 --- openvpn.8.orig	Fri Jun 24 07:13:39 2011
 +++ openvpn.8	Fri Jul  8 14:30:59 2011
 @@ -1357,6 +1357,11 @@ on both client and server for maximum effect.

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/sqlitebrowser/patches/patch-sqlitebrowser_sqlitedb_cpp,v 1.1 2009/08/14 12:44:26 espie Exp $
+$OpenBSD$
 --- sqlitebrowser/sqlitedb.cpp.orig	Thu Aug 13 20:24:07 2009
 +++ sqlitebrowser/sqlitedb.cpp	Thu Aug 13 21:03:24 2009
 @@ -666,10 +666,10 @@ void DBBrowserDB::updateSchema( )

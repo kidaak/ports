@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/x11/dbus/pkg/dbus_daemon.rc,v 1.10 2011/12/20 14:27:46 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/dbus-daemon --system"
 

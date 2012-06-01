@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-unix-compat/Makefile,v 1.6 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =		portable POSIX-compatibility layer
 

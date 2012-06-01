@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/mlterm/Makefile,v 1.28 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	color terminal emulator with unicode support
 DISTNAME=	mlterm-2.9.0

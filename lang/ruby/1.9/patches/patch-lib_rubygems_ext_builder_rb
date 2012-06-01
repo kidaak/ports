@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ruby/1.9/patches/patch-lib_rubygems_ext_builder_rb,v 1.1 2010/10/06 18:43:11 jeremy Exp $
+$OpenBSD$
 
 Ugly hack to make --user-install option work.  Without this, when
 a user uses gem install --user-install, it calls

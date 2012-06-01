@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Catalyst-Manual/Makefile,v 1.12 2012/04/08 22:01:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	catalyst documentation
 

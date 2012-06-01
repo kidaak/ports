@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/videod/Makefile,v 1.9 2010/11/17 08:05:16 espie Exp $
+# $OpenBSD$
 
 # we use "macppc" and not "powerpc" on purpose here ; i.e. bktr(4) needed
 ONLY_FOR_ARCHS=	i386 macppc amd64

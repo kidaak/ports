@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-httplib2/Makefile,v 1.7 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Python HTTP client library
 

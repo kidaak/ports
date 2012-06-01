@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-xdg/Makefile,v 1.13 2011/09/21 10:55:21 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	python library to access freedesktop.org standards
 

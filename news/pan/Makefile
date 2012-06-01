@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/pan/Makefile,v 1.41 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	powerful Gtk+2 newsreader
 

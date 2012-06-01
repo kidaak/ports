@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-View-Mason/Makefile,v 1.7 2012/04/08 21:59:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Catalyst views using Mason components
 

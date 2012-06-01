@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/radare2/bindings/Makefile,v 1.1.1.1 2011/07/21 01:35:51 edd Exp $
+# $OpenBSD$
 
 COMMENT =		Vala bindings for Radare2
 

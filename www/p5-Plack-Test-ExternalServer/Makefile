@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Plack-Test-ExternalServer/Makefile,v 1.1.1.1 2012/04/08 21:07:11 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	run HTTP tests on external live servers
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/simpleagenda/Makefile,v 1.8 2012/03/31 10:15:16 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	calendaring application based on GNUstep
 

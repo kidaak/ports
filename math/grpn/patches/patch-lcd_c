@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/grpn/patches/patch-lcd_c,v 1.1 2010/03/23 20:38:20 jasper Exp $
+$OpenBSD$
 
 Port to gtk+2.
 

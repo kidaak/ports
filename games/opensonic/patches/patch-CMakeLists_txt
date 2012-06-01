@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/opensonic/patches/patch-CMakeLists_txt,v 1.1.1.1 2009/10/15 14:39:50 phessler Exp $
+$OpenBSD$
 --- CMakeLists.txt.orig	Wed Jul 22 07:54:28 2009
 +++ CMakeLists.txt	Fri Oct  9 18:27:30 2009
 @@ -21,7 +21,7 @@ MESSAGE("Open Sonic version ${GAME_VERSION}")

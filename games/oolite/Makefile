@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/oolite/Makefile,v 1.5 2011/04/18 12:19:21 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	space combat and trading game in the style of Elite
 

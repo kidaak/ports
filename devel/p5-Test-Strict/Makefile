@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Strict/Makefile,v 1.4 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 
 COMMENT =	check syntax, presence of use strict; and test coverage

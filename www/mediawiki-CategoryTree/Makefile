@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mediawiki-CategoryTree/Makefile,v 1.3 2011/08/01 10:56:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	dynamic view of the wiki's category structure as a tree
 

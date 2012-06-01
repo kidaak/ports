@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/isomaster/patches/patch-po_Makefile,v 1.4 2010/01/25 09:00:03 giovanni Exp $
+$OpenBSD$
 --- po/Makefile.orig	Thu Sep 17 02:31:02 2009
 +++ po/Makefile	Wed Jan 20 19:34:35 2010
 @@ -16,11 +16,11 @@ clean:

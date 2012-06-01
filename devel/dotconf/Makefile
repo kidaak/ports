@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/dotconf/Makefile,v 1.1.1.1 2009/04/26 19:36:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		simple, powerful configuration-file parser
 

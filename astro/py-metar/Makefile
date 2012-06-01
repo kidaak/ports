@@ -1,8 +1,8 @@
-# $OpenBSD: ports/astro/py-metar/Makefile,v 1.19 2011/11/26 11:03:59 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	Python module to access NOAA's METAR weather reports
 
-MODPY_EGG_VERSION =	0.18
+MODPY_EGG_VERSION =	0.19
 DISTNAME =		pymetar-${MODPY_EGG_VERSION}
 PKGNAME =		py-metar-${MODPY_EGG_VERSION}
 CATEGORIES =		astro

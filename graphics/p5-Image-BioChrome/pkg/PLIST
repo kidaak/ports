@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Image-BioChrome/pkg/PLIST,v 1.1.1.1 2006/11/13 15:19:51 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Apache/
 ${P5SITE}/Apache/BioChrome.pm
 ${P5SITE}/Image/

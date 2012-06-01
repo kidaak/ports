@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nepenthes/patches/patch-modules_submit-norman_submit-norman_hpp,v 1.1 2011/07/05 08:18:30 jasper Exp $
+$OpenBSD$
 --- modules/submit-norman/submit-norman.hpp.orig	Tue Jul  5 09:28:56 2011
 +++ modules/submit-norman/submit-norman.hpp	Tue Jul  5 09:29:00 2011
 @@ -29,7 +29,6 @@

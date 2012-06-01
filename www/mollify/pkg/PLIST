@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/mollify/pkg/PLIST,v 1.2 2010/09/21 10:10:02 sthen Exp $
+@comment $OpenBSD$
 htdocs/mollify/
 htdocs/mollify/ReadMe.txt
 htdocs/mollify/backend/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/hydrogen/Makefile,v 1.15 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=		software drum machine
 DISTNAME=		hydrogen-0.9.4

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mozilla-thunderbird/patches/patch-mozilla_ipc_chromium_src_base_atomicops_h,v 1.3 2012/01/11 01:19:43 nigel Exp $
+$OpenBSD$
 --- mozilla/ipc/chromium/src/base/atomicops.h.orig	Thu Dec 15 01:22:33 2011
 +++ mozilla/ipc/chromium/src/base/atomicops.h	Tue Dec 20 00:40:52 2011
 @@ -40,7 +40,7 @@ namespace subtle {

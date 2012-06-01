@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/lib/OpenBSD/BinaryScan.pm,v 1.4 2011/12/01 11:11:23 espie Exp $
+# $OpenBSD$
 # Copyright (c) 2011 Marc Espie <espie@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libffi/patches/patch-configure,v 1.4 2010/09/19 20:19:15 jasper Exp $
+$OpenBSD$
 
 Enable libffi on hppa, mips64(el) and powerpc platforms.
 

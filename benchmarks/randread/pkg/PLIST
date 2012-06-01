@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/benchmarks/randread/pkg/PLIST,v 1.2 2004/08/06 14:37:29 espie Exp $
+@comment $OpenBSD$
 bin/randread
 share/doc/randread/
 share/doc/randread/README

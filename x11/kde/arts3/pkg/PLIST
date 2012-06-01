@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/arts3/pkg/PLIST,v 1.18 2010/07/08 21:28:48 espie Exp $
+@comment $OpenBSD$
 @conflict kdelibs-<3
 bin/artsc-config
 @bin bin/artscat

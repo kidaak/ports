@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/transset-df/Makefile,v 1.5 2010/10/24 21:15:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		manage opacity property of windows, extended version
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xfe/Makefile,v 1.24 2011/08/01 10:56:50 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	MS-Explorer like file manager for X
 

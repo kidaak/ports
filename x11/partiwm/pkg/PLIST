@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/partiwm/pkg/PLIST,v 1.1.1.1 2010/09/06 08:21:09 jasper Exp $
+@comment $OpenBSD$
 bin/parti
 bin/parti-repl
 bin/xpra

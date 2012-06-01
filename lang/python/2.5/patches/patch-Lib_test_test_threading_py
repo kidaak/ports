@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-Lib_test_test_threading_py,v 1.1 2009/01/01 21:03:27 djm Exp $
+$OpenBSD$
 --- Lib/test/test_threading.py.orig	Fri Dec 26 11:33:37 2008
 +++ Lib/test/test_threading.py	Fri Dec 26 11:34:33 2008
 @@ -279,7 +279,8 @@ class ThreadJoinOnShutdown(unittest.TestCase):

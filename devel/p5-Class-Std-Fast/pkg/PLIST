@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Std-Fast/pkg/PLIST,v 1.1.1.1 2010/12/22 20:21:50 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/Std/
 ${P5SITE}/Class/Std/Fast/
 ${P5SITE}/Class/Std/Fast.pm

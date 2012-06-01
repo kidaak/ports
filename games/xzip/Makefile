@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xzip/Makefile,v 1.12 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 # $NetBSD: Makefile,v 1.4 1999/01/30 23:18:49 agc Exp $
 # Original from: Andrew Plotkin, Mark Howell
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/wpa_supplicant/pkg/PLIST,v 1.2 2012/01/19 16:14:11 sthen Exp $
+@comment $OpenBSD$
 @man man/man5/wpa_supplicant.conf.5
 @man man/man8/wpa_background.8
 @man man/man8/wpa_cli.8

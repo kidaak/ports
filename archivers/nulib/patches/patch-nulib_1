@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/nulib/patches/patch-nulib_1,v 1.1 2012/01/03 06:53:54 ajacoutot Exp $
+$OpenBSD$
 
 Typo with BR macro.
 

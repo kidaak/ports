@@ -1,4 +1,4 @@
-/* $OpenBSD: ports/audio/xcdplayer/files/cdrom_freebsd.h,v 1.2 2003/08/24 22:15:56 naddy Exp $ */
+/* $OpenBSD$ */
 /*
  * Copyright (C) 1990 Regents of the University of California.
  *

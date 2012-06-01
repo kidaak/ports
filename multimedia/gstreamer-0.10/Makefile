@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/gstreamer-0.10/Makefile,v 1.9 2012/04/05 16:06:12 jasper Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += core

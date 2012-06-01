@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pidgin/patches/patch-libpurple_plugins_ssl_Makefile_in,v 1.26 2011/12/13 14:42:55 jasper Exp $
+$OpenBSD$
 --- libpurple/plugins/ssl/Makefile.in.orig	Tue Dec  6 03:45:17 2011
 +++ libpurple/plugins/ssl/Makefile.in	Sun Dec 11 03:18:55 2011
 @@ -69,6 +69,12 @@ am__base_list = \

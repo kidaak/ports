@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBI/Makefile,v 1.56 2011/06/27 18:35:44 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

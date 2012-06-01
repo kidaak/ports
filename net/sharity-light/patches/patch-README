@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/sharity-light/patches/patch-README,v 1.2 2008/02/13 23:01:23 merdely Exp $
+$OpenBSD$
 --- README.orig	Mon Dec 29 06:11:57 2003
 +++ README	Wed Feb 13 16:47:12 2008
 @@ -178,8 +178,7 @@ I have added the man-page for smbmount to this distrib

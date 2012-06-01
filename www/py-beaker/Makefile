@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-beaker/Makefile,v 1.8 2011/12/31 15:10:35 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =	session and caching library with wsgi middleware
 

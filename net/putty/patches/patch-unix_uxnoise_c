@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/putty/patches/patch-unix_uxnoise_c,v 1.2 2012/03/08 12:13:01 ajacoutot Exp $
+$OpenBSD$
 --- unix/uxnoise.c.orig	Tue Nov 16 10:27:00 2004
 +++ unix/uxnoise.c	Tue Mar  6 08:56:51 2012
 @@ -4,6 +4,7 @@

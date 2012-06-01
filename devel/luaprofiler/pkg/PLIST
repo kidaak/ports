@@ -1,8 +1,8 @@
-@comment $OpenBSD: ports/devel/luaprofiler/pkg/PLIST,v 1.1.1.1 2010/07/08 12:28:57 jasper Exp $
-lib/lua/5.1/profiler.so
-share/doc/luaprofiler/
-share/doc/luaprofiler/index.html
-share/doc/luaprofiler/license.html
-share/doc/luaprofiler/manual.html
-share/lua/5.1/luaprofiler/
-share/lua/5.1/luaprofiler/summary.lua
+@comment $OpenBSD$
+lib/lua/${MODLUA_VERSION}/profiler.so
+share/doc/${FULLPKGNAME}/
+share/doc/${FULLPKGNAME}/index.html
+share/doc/${FULLPKGNAME}/license.html
+share/doc/${FULLPKGNAME}/manual.html
+share/lua/${MODLUA_VERSION}/luaprofiler/
+share/lua/${MODLUA_VERSION}/luaprofiler/summary.lua

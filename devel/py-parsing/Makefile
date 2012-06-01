@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-parsing/Makefile,v 1.20 2011/11/26 09:58:40 benoit Exp $
+# $OpenBSD$
 
 COMMENT =		Python parsing module
 

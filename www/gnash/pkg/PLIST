@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/gnash/pkg/PLIST,v 1.12 2012/02/22 13:22:00 dcoppa Exp $
+@comment $OpenBSD$
 bin/gnash
 bin/gnash-gtk-launcher
 @bin bin/gprocessor

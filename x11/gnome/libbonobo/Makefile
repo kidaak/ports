@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libbonobo/Makefile,v 1.54 2011/10/29 08:12:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GNOME component and compound document system
 

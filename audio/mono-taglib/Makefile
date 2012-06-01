@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mono-taglib/Makefile,v 1.6 2012/03/19 10:28:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	tagging library for the Mono framework
 

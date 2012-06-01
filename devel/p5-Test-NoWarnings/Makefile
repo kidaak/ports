@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-NoWarnings/Makefile,v 1.10 2011/08/26 09:18:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT=        forbids warnings while testing
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/mirmon/patches/patch-mirmon_pl,v 1.1.1.1 2010/06/08 00:03:55 sthen Exp $
+$OpenBSD$
 --- mirmon.pl.orig	Wed Mar 17 09:35:27 2010
 +++ mirmon.pl	Tue Jun  8 01:02:50 2010
 @@ -59,6 +59,12 @@ Mirmon::verbose ( $opt{v} ) ;

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Base/Makefile,v 1.8 2011/10/01 08:37:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 	data driven test framework
 

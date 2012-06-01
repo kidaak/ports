@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/clutter/core/Makefile,v 1.13 2012/01/31 09:24:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		OpenGL-based interactive canvas library
 

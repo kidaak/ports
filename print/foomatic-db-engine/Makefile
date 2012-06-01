@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/foomatic-db-engine/Makefile,v 1.19 2012/02/16 22:26:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Foomatic PPD generator
 

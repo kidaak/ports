@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-net-ssh/Makefile,v 1.18 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =	pure-ruby implementation of the SSH2 client protocol
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/abook/pkg/PLIST,v 1.9 2010/09/22 08:59:07 jasper Exp $
+@comment $OpenBSD$
 @bin bin/abook
 @man man/man1/abook.1
 @man man/man5/abookrc.5

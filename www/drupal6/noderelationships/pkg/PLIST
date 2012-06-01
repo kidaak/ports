@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/noderelationships/pkg/PLIST,v 1.1.1.1 2010/04/20 12:05:12 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}noderelationships/

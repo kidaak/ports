@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/files/CHANGES.OpenBSD,v 1.4 2010/02/25 11:02:39 phessler Exp $
+$OpenBSD$
 
 As required by item 3 of the PSF license, here is a brief summary
 of changes made to this version of Python for the OpenBSD package.

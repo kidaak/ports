@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/scintilla/Makefile,v 1.16 2011/11/15 19:13:39 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	source code editing component for GTK+
 

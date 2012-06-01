@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/gnushogi/patches/patch-doc_gnushogi_6,v 1.1 2007/12/16 01:01:29 ajacoutot Exp $
+$OpenBSD$
 --- doc/gnushogi.6.orig	Sun Dec 16 01:49:16 2007
 +++ doc/gnushogi.6	Sun Dec 16 01:52:26 2007
 @@ -18,7 +18,6 @@ gnushogi \- GNU Shogi (Japanese Chess), version 1.3

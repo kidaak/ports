@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-boolean/Makefile,v 1.4 2011/09/05 17:38:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	boolean support for Perl
 

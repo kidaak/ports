@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_c-format_c,v 1.2 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/c-format.c.orig	Sun Dec  1 19:51:44 2002
 +++ gcc/c-format.c	Fri Jul 25 12:34:57 2008
 @@ -54,7 +54,7 @@ set_Wformat (setting)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/u9fs/Makefile,v 1.1.1.1 2011/03/16 08:44:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	serve 9P from Unix
 

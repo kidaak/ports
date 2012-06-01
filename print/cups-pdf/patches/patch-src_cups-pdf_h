@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/cups-pdf/patches/patch-src_cups-pdf_h,v 1.4 2012/04/11 17:29:50 ajacoutot Exp $
+$OpenBSD$
 --- src/cups-pdf.h.orig	Tue Oct  4 18:45:10 2011
 +++ src/cups-pdf.h	Wed Apr 11 19:16:36 2012
 @@ -19,7 +19,7 @@

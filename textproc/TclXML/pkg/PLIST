@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/TclXML/pkg/PLIST,v 1.8 2011/10/03 08:41:59 sebastia Exp $
+@comment $OpenBSD$
 @conflict TclXML-*
 %%SHARED%%
 include/tclxml/

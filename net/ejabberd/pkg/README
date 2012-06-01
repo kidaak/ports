@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ejabberd/pkg/README,v 1.5 2011/11/22 17:11:07 gsoares Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

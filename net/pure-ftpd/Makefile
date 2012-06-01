@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pure-ftpd/Makefile,v 1.60 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	small, easy to set up, fast and very secure FTP server
 

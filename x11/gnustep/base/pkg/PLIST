@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/base/pkg/PLIST,v 1.12 2011/04/18 11:54:49 sebastia Exp $
+@comment $OpenBSD$
 @conflict swi-prolog-<=5.6.27p5
 @bin bin/HTMLLinker
 @bin bin/autogsdoc

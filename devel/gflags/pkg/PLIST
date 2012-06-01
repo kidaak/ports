@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gflags/pkg/PLIST,v 1.1.1.1 2009/09/24 19:51:44 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/gflags_completions.sh
 include/gflags/

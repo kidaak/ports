@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/p5-Lingua-Romana-Perligata/pkg/PLIST,v 1.1.1.1 2007/10/10 14:37:48 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Lingua/
 ${P5SITE}/Lingua/Romana/
 ${P5SITE}/Lingua/Romana/Perligata.pm

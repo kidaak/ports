@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libutf/Makefile,v 1.4 2010/10/18 17:47:54 espie Exp $
+# $OpenBSD$
 
 COMMENT=	UTF8 support library from Plan 9
 

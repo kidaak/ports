@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/ruby-puppet-lint/pkg/PLIST,v 1.1.1.1 2011/08/23 14:21:48 jasper Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/puppet-lint${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

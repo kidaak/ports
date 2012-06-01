@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-randexp/Makefile,v 1.11 2011/11/17 15:51:51 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	generate random strings from most regular expressions
 

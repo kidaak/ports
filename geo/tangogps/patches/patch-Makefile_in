@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/tangogps/patches/patch-Makefile_in,v 1.1.1.1 2010/04/18 13:30:17 landry Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Feb 14 17:48:05 2010
 +++ Makefile.in	Fri Apr 16 16:25:06 2010
 @@ -270,15 +270,9 @@ top_build_prefix = @top_build_prefix@

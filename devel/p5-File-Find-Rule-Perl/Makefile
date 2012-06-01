@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-Find-Rule-Perl/Makefile,v 1.8 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	common rules for searching for Perl things
 

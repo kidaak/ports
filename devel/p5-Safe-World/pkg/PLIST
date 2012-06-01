@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Safe-World/pkg/PLIST,v 1.1.1.1 2007/12/30 22:35:20 okan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Safe/
 ${P5SITE}/Safe/World/
 ${P5SITE}/Safe/World.pm

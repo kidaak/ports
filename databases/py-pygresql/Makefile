@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-pygresql/Makefile,v 1.11 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	PostgreSQL module for Python
 

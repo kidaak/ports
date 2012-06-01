@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/matchbox/matchbox-window-manager/patches/patch-data_Makefile_in,v 1.4 2008/11/11 22:42:17 jasper Exp $
+$OpenBSD$
 --- data/Makefile.in.orig	Thu Apr 12 18:40:34 2007
 +++ data/Makefile.in	Sun Nov  9 22:02:27 2008
 @@ -57,7 +57,7 @@ am__vpath_adj = case $$p in \

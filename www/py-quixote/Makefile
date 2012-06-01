@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-quixote/Makefile,v 1.8 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=		simple Python framework for web-based applications
 

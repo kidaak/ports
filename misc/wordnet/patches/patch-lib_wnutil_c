@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/wordnet/patches/patch-lib_wnutil_c,v 1.1 2008/09/01 20:02:53 sthen Exp $
+$OpenBSD$
 --- lib/wnutil.c.orig	Sat Jan 20 20:50:23 2007
 +++ lib/wnutil.c	Mon Sep  1 20:53:39 2008
 @@ -48,7 +48,7 @@ int wninit(void)

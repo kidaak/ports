@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/wget/patches/patch-src_sysdep_h,v 1.2 2011/10/12 10:14:30 dcoppa Exp $
+$OpenBSD$
 
 Fix build with GCC2 where the configure test fails
 to pickup stdbool.h. So it creates the lib/stdbool.h

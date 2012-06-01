@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/py-Imaging/Makefile,v 1.58 2011/12/20 11:37:10 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

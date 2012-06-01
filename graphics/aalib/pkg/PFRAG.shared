@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/aalib/pkg/PFRAG.shared,v 1.4 2005/12/26 15:14:12 steven Exp $
+@comment $OpenBSD$
 @lib lib/libaa.so.${LIBaa_VERSION}

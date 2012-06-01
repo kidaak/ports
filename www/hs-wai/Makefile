@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/hs-wai/Makefile,v 1.2 2012/01/15 17:19:53 kili Exp $
+# $OpenBSD$
 
 COMMENT =		web application interface
 

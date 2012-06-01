@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gtkam/pkg/PLIST,v 1.9 2011/04/06 13:56:52 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gtkam
 @man man/man1/gtkam.1
 share/applications/gtkam.desktop

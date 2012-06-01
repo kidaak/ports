@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xboing/patches/patch-audio_LINUXaudio_c,v 1.1 2011/07/08 11:42:09 jasper Exp $
+$OpenBSD$
 --- audio/LINUXaudio.c.orig	Fri Nov 22 02:28:33 1996
 +++ audio/LINUXaudio.c	Fri Jul  8 13:37:55 2011
 @@ -52,11 +52,13 @@

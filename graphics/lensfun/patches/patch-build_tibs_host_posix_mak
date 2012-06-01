@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/lensfun/patches/patch-build_tibs_host_posix_mak,v 1.1 2010/09/16 10:05:20 sthen Exp $
+$OpenBSD$
 --- build/tibs/host/posix.mak.orig	Mon Mar 22 20:32:47 2010
 +++ build/tibs/host/posix.mak	Wed Apr  7 03:59:08 2010
 @@ -5,12 +5,12 @@ SHELL := /bin/sh

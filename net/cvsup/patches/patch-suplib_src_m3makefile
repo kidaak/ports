@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/cvsup/patches/patch-suplib_src_m3makefile,v 1.3 2003/12/19 17:55:50 espie Exp $
+$OpenBSD$
 --- suplib/src/m3makefile.orig	2003-03-04 19:13:12.000000000 +0100
 +++ suplib/src/m3makefile	2003-12-19 18:16:58.000000000 +0100
 @@ -69,7 +69,11 @@ or equal(TARGET, "FBSD_ALPHA") or equal(

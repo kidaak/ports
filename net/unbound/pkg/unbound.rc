@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/unbound/pkg/unbound.rc,v 1.2 2012/01/09 11:55:10 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/unbound-control"
 daemon_flags="-c /var/unbound/etc/unbound.conf"

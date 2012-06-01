@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/xmltoman/Makefile,v 1.5 2010/11/15 00:22:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=		xml to manpage converter
 

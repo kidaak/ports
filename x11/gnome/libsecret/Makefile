@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libsecret/Makefile,v 1.3 2012/04/16 12:00:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library for storing and retrieving passwords and secrets
 

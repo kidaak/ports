@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/strigi/patches/patch-src_qclient_CMakeLists_txt,v 1.2 2008/10/28 17:11:43 espie Exp $
+$OpenBSD$
 --- src/qclient/CMakeLists.txt.orig	Sun Jun  1 23:45:16 2008
 +++ src/qclient/CMakeLists.txt	Wed Jul 30 16:58:05 2008
 @@ -8,15 +8,15 @@ set(qclientold_MOC_HDRS filebrowser.h)

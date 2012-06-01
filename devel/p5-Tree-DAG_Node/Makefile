@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Tree-DAG_Node/Makefile,v 1.8 2010/12/28 22:29:43 benoit Exp $
+# $OpenBSD$
 
 COMMENT=	superclass for representing nodes in a tree
 

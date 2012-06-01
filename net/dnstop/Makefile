@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dnstop/Makefile,v 1.8 2012/03/11 14:07:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		pcap-based DNS query monitor
 

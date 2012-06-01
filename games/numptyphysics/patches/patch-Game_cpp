@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/numptyphysics/patches/patch-Game_cpp,v 1.2 2011/01/14 12:01:18 dcoppa Exp $
+$OpenBSD$
 --- Game.cpp.orig	Tue Nov 11 17:54:38 2008
 +++ Game.cpp	Thu Jan 13 10:48:15 2011
 @@ -22,18 +22,17 @@

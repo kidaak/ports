@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/xcept/Makefile,v 1.30 2012/04/05 20:36:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	decoder for the CEPT (Btx) protocol
 

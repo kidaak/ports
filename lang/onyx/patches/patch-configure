@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/onyx/patches/patch-configure,v 1.1.1.1 2011/03/07 19:26:28 jasper Exp $
+$OpenBSD$
 --- configure.orig	Thu Mar 17 08:55:12 2005
 +++ configure	Thu Mar  3 18:58:05 2011
 @@ -3786,13 +3786,13 @@ fi

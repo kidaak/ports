@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-sip/patches/patch-specs_openbsd-g++,v 1.1 2008/01/15 21:16:24 ajacoutot Exp $
+$OpenBSD$
 --- specs/openbsd-g++.orig	Thu Dec  6 15:15:09 2007
 +++ specs/openbsd-g++	Tue Jan 15 21:48:09 2008
 @@ -50,7 +50,7 @@ QMAKE_LINK_SHLIB_CMD	= $$QMAKE_LINK_SHLIB $(LFLAGS) \

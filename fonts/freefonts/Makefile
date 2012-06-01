@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/freefonts/Makefile,v 1.1.1.1 2011/07/19 09:16:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	collection of ATM fonts from the CICA archives
 

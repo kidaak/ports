@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Taint-Runtime/pkg/PLIST,v 1.1.1.1 2006/09/26 13:46:27 kevlo Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Taint/
 ${P5ARCH}/Taint/Runtime.pm

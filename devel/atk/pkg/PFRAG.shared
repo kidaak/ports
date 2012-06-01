@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/atk/pkg/PFRAG.shared,v 1.11 2005/12/25 17:13:29 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libatk-1.0.so.${LIBatk-1.0_VERSION}

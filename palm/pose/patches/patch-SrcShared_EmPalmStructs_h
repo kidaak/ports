@@ -1,4 +1,4 @@
-$OpenBSD: ports/palm/pose/patches/patch-SrcShared_EmPalmStructs_h,v 1.1 2010/08/03 20:01:40 naddy Exp $
+$OpenBSD$
 --- SrcShared/EmPalmStructs.h.orig	Tue Aug  3 13:44:15 2010
 +++ SrcShared/EmPalmStructs.h	Tue Aug  3 13:46:21 2010
 @@ -577,9 +577,9 @@ class PAS

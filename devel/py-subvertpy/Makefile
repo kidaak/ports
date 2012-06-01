@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-subvertpy/Makefile,v 1.5 2011/10/21 21:41:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	alternative python bindings for subversion
 

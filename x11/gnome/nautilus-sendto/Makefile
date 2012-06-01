@@ -1,11 +1,11 @@
-# $OpenBSD: ports/x11/gnome/nautilus-sendto/Makefile,v 1.40 2012/03/29 07:10:32 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
 COMMENT=	applications integration into Nautilus
 
 GNOME_PROJECT=	nautilus-sendto
-GNOME_VERSION=	3.0.2
+GNOME_VERSION=	3.0.3
 
 CATEGORIES=	misc net
 

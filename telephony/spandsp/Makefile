@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/spandsp/Makefile,v 1.10 2011/03/10 09:36:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	DSP library for telephony
 

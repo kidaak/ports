@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/dbus-glib/Makefile,v 1.36 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	glib bindings for dbus message system
 

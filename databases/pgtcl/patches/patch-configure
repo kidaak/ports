@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/pgtcl/patches/patch-configure,v 1.1 2008/01/24 18:34:01 merdely Exp $
+$OpenBSD$
 --- configure.orig	Wed Jan 23 21:20:30 2008
 +++ configure	Wed Jan 23 21:21:08 2008
 @@ -7376,7 +7376,7 @@ fi

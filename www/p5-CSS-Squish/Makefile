@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CSS-Squish/Makefile,v 1.10 2011/01/07 11:46:58 benoit Exp $
+# $OpenBSD$
 
 COMMENT=	compress CSS info for transmission
 

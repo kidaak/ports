@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/cairo/pkg/PLIST,v 1.11 2011/05/04 08:01:56 dcoppa Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/cairo-trace
 include/cairo/

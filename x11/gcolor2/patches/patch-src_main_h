@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gcolor2/patches/patch-src_main_h,v 1.1.1.1 2010/10/17 21:38:05 landry Exp $
+$OpenBSD$
 --- src/main.h.orig	Sun Oct 17 00:19:02 2010
 +++ src/main.h	Sun Oct 17 00:19:02 2010
 @@ -0,0 +1,6 @@

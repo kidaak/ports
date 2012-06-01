@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/rancid/patches/patch-bin_Makefile_in,v 1.4 2010/04/23 11:18:43 pea Exp $
+$OpenBSD$
 --- bin/Makefile.in.orig	Wed Mar 24 00:33:49 2010
 +++ bin/Makefile.in	Fri Apr 16 10:29:28 2010
 @@ -62,7 +62,7 @@ DIST_COMMON = $(srcdir)/Makefile.am $(srcdir)/Makefile

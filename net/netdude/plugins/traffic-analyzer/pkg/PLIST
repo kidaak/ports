@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/netdude/plugins/traffic-analyzer/pkg/PLIST,v 1.2 2005/07/05 00:08:09 mjc Exp $
+@comment $OpenBSD$
 %%SHARED%%
 lib/netdude/plugins/nd_ta.a
 lib/netdude/plugins/nd_ta.la

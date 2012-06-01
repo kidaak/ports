@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/rsyslog/Makefile,v 1.11 2012/01/25 11:03:14 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

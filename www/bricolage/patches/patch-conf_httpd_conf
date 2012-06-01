@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-conf_httpd_conf,v 1.1.1.1 2006/11/10 17:04:39 sturm Exp $
+$OpenBSD$
 --- conf/httpd.conf.orig	Sun Oct 22 16:12:27 2006
 +++ conf/httpd.conf	Sun Oct 22 16:13:30 2006
 @@ -46,10 +46,10 @@ Timeout              30

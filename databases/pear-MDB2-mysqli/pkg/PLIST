@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/pear-MDB2-mysqli/pkg/PLIST,v 1.1.1.1 2009/06/22 15:45:40 giovanni Exp $
+@comment $OpenBSD$
 @group daemon
 pear/data/MDB2_Driver_mysqli/
 pear/data/MDB2_Driver_mysqli/package_mysqli.xml

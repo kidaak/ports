@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/edje/patches/patch-src_lib_edje_main_c,v 1.1 2011/01/16 00:48:45 laurent Exp $
+$OpenBSD$
 --- src/lib/edje_main.c.orig	Sun Dec  5 19:34:35 2010
 +++ src/lib/edje_main.c	Sun Dec  5 19:37:05 2010
 @@ -44,6 +44,7 @@ Eina_Mempool *_edje_real_part_state_mp = NULL;

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/cssed/Makefile,v 1.28 2011/09/26 14:30:29 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	CSS editor
 

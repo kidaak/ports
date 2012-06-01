@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wxWidgets/patches/patch-src_common_uri_cpp,v 1.1 2010/11/02 13:10:52 dcoppa Exp $
+$OpenBSD$
 
 gcc4 fix
 

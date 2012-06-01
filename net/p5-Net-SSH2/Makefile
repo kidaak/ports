@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-SSH2/Makefile,v 1.10 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 COMMENT =	support for the SSH 2 protocol via libssh2

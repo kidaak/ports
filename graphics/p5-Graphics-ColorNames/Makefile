@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Graphics-ColorNames/Makefile,v 1.19 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	defines RGB values for common color names
 

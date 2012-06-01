@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/mpage/Makefile,v 1.29 2012/02/18 09:08:16 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	print multiple pages per sheet on PostScript printer
 

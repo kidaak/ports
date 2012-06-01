@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/i18n3/pkg/PLIST-fa,v 1.7 2012/01/16 22:11:00 espie Exp $
+@comment $OpenBSD$
 @pkgpath x11/kde/i18n3,fa
 share/locale/fa/COPYING
 ${LOC}akregator.mo

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/tea/patches/patch-src_tea_config_c,v 1.4 2009/03/23 10:55:40 giovanni Exp $
+$OpenBSD$
 --- src/tea_config.c.orig	Tue Jul  8 10:29:45 2008
 +++ src/tea_config.c	Fri Nov 21 17:03:32 2008
 @@ -591,7 +591,6 @@ void tea_done (void)

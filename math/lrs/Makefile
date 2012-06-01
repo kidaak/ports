@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/lrs/Makefile,v 1.2 2011/11/07 12:16:22 edd Exp $
+# $OpenBSD$
 
 COMMENT =		solve vertex enumeration and convex hull problems
 

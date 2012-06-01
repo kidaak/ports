@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/zim/patches/patch-setup_py,v 1.2 2011/05/02 16:02:13 rpointel Exp $
+$OpenBSD$
 --- setup.py.orig	Thu Apr  7 22:21:33 2011
 +++ setup.py	Fri Apr 29 18:37:55 2011
 @@ -81,7 +81,7 @@

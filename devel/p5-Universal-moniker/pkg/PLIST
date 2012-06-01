@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Universal-moniker/pkg/PLIST,v 1.2 2004/09/14 23:44:00 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/UNIVERSAL/
 ${P5SITE}/UNIVERSAL/moniker.pm
 @man man/man3p/UNIVERSAL::moniker.3p

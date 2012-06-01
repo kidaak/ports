@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-mk_config_mk_in,v 1.7 2011/06/30 21:26:15 kili Exp $
+$OpenBSD$
 
 Don't build shared libs for now.
 

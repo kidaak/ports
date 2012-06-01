@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/xv/patches/patch-xvsmooth_c,v 1.1 2011/05/25 09:09:56 sthen Exp $
+$OpenBSD$
 
 Fix off-by-one's resulting in dereferncing out-of-bound memory.
 http://permalink.gmane.org/gmane.os.openbsd.ports/48385

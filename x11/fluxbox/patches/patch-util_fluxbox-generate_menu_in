@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fluxbox/patches/patch-util_fluxbox-generate_menu_in,v 1.8 2011/10/30 15:16:13 dcoppa Exp $
+$OpenBSD$
 
 Adapt to our non-GNU grep
 

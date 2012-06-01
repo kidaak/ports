@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mozilla-firefox/patches/patch-security_manager_ssl_src_nsNSSComponent_cpp,v 1.14 2012/03/16 21:31:24 landry Exp $
+$OpenBSD$
 https://bugzilla.mozilla.org/show_bug.cgi?id=706955, only needed on ppc ?
 xpcshell hang during fake
 --- security/manager/ssl/src/nsNSSComponent.cpp.orig	Fri Mar  9 22:19:19 2012

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-DAAP-Client/Makefile,v 1.8 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl client for Apple iTunes DAAP service
 

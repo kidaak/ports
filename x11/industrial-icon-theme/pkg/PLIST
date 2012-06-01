@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/industrial-icon-theme/pkg/PLIST,v 1.6 2011/12/03 19:13:18 ajacoutot Exp $
+@comment $OpenBSD$
 @unexec-delete rm -f %D/share/icons/Industrial/icon-theme.cache
 @comment lib/locale/
 share/icons/

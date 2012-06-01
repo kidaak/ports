@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-configure,v 1.23 2011/12/26 15:51:55 kili Exp $
+$OpenBSD$
 --- configure.orig	Mon Sep 12 08:49:28 2011
 +++ configure	Mon Dec 26 16:47:31 2011
 @@ -776,7 +776,7 @@ CFG_SILENT=no

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ysmv7/Makefile,v 1.19 2010/11/19 22:31:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=		ICQ console client with encryption support
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mm/pkg/PLIST,v 1.14 2004/08/10 00:52:45 espie Exp $
+@comment $OpenBSD$
 bin/mm-config
 include/mm.h
 lib/libmm.a

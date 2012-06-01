@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-eBay/Makefile,v 1.1.1.1 2011/03/16 14:23:43 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		interface to XML based eBay API
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/rtg/pkg/PLIST,v 1.1.1.1 2008/07/19 13:52:22 sthen Exp $
+@comment $OpenBSD$
 bin/95.pl
 bin/report.pl
 @bin bin/rtgplot

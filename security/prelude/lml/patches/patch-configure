@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/prelude/lml/patches/patch-configure,v 1.6 2009/08/30 20:37:16 rui Exp $
+$OpenBSD$
 --- configure.orig	Thu Aug 13 20:07:02 2009
 +++ configure	Thu Aug 13 20:07:27 2009
 @@ -43051,7 +43051,7 @@ fi

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fltk/patches/patch-makeinclude_in,v 1.3 2006/10/19 09:41:32 wilfried Exp $
+$OpenBSD$
 --- makeinclude.in.orig	Sun Jan 15 19:36:16 2006
 +++ makeinclude.in	Thu Oct 19 10:37:16 2006
 @@ -110,32 +110,24 @@ CAT6EXT		= @CAT6EXT@

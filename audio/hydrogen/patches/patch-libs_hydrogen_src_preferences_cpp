@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/hydrogen/patches/patch-libs_hydrogen_src_preferences_cpp,v 1.1 2010/01/11 05:11:32 jakemsr Exp $
+$OpenBSD$
 --- libs/hydrogen/src/preferences.cpp.orig	Wed Aug 26 05:12:27 2009
 +++ libs/hydrogen/src/preferences.cpp	Sat Jan  2 03:22:38 2010
 @@ -143,7 +143,7 @@ Preferences::Preferences()

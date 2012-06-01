@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/pilot-link/patches/patch-configure,v 1.7 2010/03/25 10:32:53 giovanni Exp $
+$OpenBSD$
 --- configure.orig	Sun Feb  7 04:42:29 2010
 +++ configure	Wed Mar 24 08:58:53 2010
 @@ -4797,7 +4797,7 @@ fi

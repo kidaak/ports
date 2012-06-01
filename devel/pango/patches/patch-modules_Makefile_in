@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pango/patches/patch-modules_Makefile_in,v 1.23 2012/03/27 08:32:55 ajacoutot Exp $
+$OpenBSD$
 --- modules/Makefile.in.orig	Tue Mar 27 03:38:50 2012
 +++ modules/Makefile.in	Tue Mar 27 10:30:09 2012
 @@ -655,21 +655,11 @@ uninstall-am: uninstall-local

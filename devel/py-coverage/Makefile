@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-coverage/Makefile,v 1.8 2011/09/20 00:06:27 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =	code coverage measurement for Python
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/smtp-vilter/pkg/smtp_vilter.rc,v 1.5 2010/12/27 14:50:23 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/smtp-vilter"
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Ogg-Vorbis-Header-PurePerl/Makefile,v 1.4 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interface to Ogg Vorbis information, fully written in Perl
 

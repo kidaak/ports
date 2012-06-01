@@ -1,9 +1,9 @@
-# $OpenBSD: ports/devel/jenkins/Makefile,v 1.7 2011/08/30 17:16:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		continuous integration server
 
 VERSION =		1.401
-REVISION =		5
+REVISION =		6
 DISTNAME =		jenkins
 PKGNAME =		jenkins-${VERSION}
 DIST_SUBDIR =		jenkins-${VERSION}

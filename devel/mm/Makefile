@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mm/Makefile,v 1.30 2010/11/15 19:46:00 espie Exp $
+# $OpenBSD$
 
 # XXX This will panic any vax
 NOT_FOR_ARCHS=	vax

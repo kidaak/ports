@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/clutter/clutter-gtk/Makefile,v 1.14 2011/11/17 11:42:31 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		GTK+2 widget for clutter
 

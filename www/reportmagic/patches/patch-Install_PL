@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/reportmagic/patches/patch-Install_PL,v 1.2 2004/04/13 19:38:37 naddy Exp $
+$OpenBSD$
 --- Install.PL.orig	2003-04-02 10:21:00.000000000 +0100
 +++ Install.PL	2004-04-08 17:49:53.000000000 +0100
 @@ -46,7 +46,7 @@ use strict;

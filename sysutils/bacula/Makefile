@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/bacula/Makefile,v 1.42 2012/04/04 21:30:56 merdely Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 
@@ -7,7 +7,7 @@ COMMENT-server=		network backup solution (server)
 COMMENT-bat=		network backup solution (gui-client)
 
 V=			5.2.6
-REVISION=		2
+REVISION=		3
 DISTNAME=		bacula-$V
 FULLPKGNAME-main=	bacula-client-$V
 FULLPKGPATH-main=	${PKGPATH},-main
@@ -146,7 +146,6 @@ CONFIGURE_ARGS+=	--without-mysql
 .  if ${FLAVOR:Msqlite3}
 WANTLIB-server += sqlite3>=8
 CONFIGURE_ARGS+=	--with-sqlite3
-LIB_DEPENDS-server+=	databases/sqlite3
 BACKEND+=		sqlite3
 .  else
 CONFIGURE_ARGS+=	--without-sqlite3

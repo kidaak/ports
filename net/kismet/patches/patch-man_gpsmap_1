@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/kismet/patches/patch-man_gpsmap_1,v 1.3 2008/06/27 22:10:14 kili Exp $
+$OpenBSD$
 
 --- man/gpsmap.1.orig	Thu Apr  1 00:15:23 2004
 +++ man/gpsmap.1	Sat Jun 21 18:26:10 2008

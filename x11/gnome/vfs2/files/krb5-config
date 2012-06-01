@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-#	$OpenBSD: ports/x11/gnome/vfs2/files/krb5-config,v 1.1 2008/05/04 14:36:44 ajacoutot Exp $
+#	$OpenBSD$
 #
 
 case x$1 in

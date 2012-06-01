@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/g77/patches/patch-gcc_config_rs6000_sysv4_h,v 1.1 2010/08/01 08:45:16 eric Exp $
+$OpenBSD$
 --- gcc/config/rs6000/sysv4.h.orig	Sat Jul 31 22:32:19 2010
 +++ gcc/config/rs6000/sysv4.h	Sat Jul 31 22:32:10 2010
 @@ -1054,7 +1054,7 @@ do {						\

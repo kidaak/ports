@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/xzgv/Makefile,v 1.15 2011/11/02 09:57:23 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	picture viewer for X, with thumbnail-based file selector
 DISTNAME=	xzgv-0.9

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ocaml/patches/patch-testsuite_tests_asmcomp_i386_S,v 1.1 2010/12/07 15:01:35 dcoppa Exp $
+$OpenBSD$
 --- testsuite/tests/asmcomp/i386.S.orig	Wed Nov 17 12:39:22 2010
 +++ testsuite/tests/asmcomp/i386.S	Wed Nov 17 12:43:52 2010
 @@ -15,7 +15,7 @@

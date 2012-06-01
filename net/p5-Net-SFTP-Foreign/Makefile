@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-SFTP-Foreign/Makefile,v 1.6 2012/03/20 23:53:29 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	SSH File Transfer Protocol client
 

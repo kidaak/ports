@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/wbox/Makefile,v 1.3 2011/01/03 20:46:02 benoit Exp $
+# $OpenBSD$
 
 COMMENT=		HTTP testing tool
 

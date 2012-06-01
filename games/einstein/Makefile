@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/einstein/Makefile,v 1.4 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT =	open source remake of old DOS game Sherlock
 

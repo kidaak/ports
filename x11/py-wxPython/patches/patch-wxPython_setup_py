@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/py-wxPython/patches/patch-wxPython_setup_py,v 1.3 2011/05/22 08:21:34 dcoppa Exp $
+$OpenBSD$
 --- wxPython/setup.py.orig	Thu Jul 19 00:33:55 2007
 +++ wxPython/setup.py	Wed Oct  3 11:08:48 2007
 @@ -1053,7 +1053,7 @@ if __name__ == "__main__":

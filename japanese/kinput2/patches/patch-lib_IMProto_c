@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/kinput2/patches/patch-lib_IMProto_c,v 1.1.1.1 2000/04/26 00:43:13 espie Exp $
+$OpenBSD$
 --- lib/IMProto.c.orig	Thu May 27 01:55:23 1999
 +++ lib/IMProto.c	Wed Apr 26 02:18:47 2000
 @@ -298,7 +298,7 @@ Cardinal *num_args;

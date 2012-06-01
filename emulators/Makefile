@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/Makefile,v 1.64 2012/03/13 11:23:30 edd Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += BasiliskII
@@ -35,6 +35,7 @@
     SUBDIR += stella
     SUBDIR += uae
     SUBDIR += vba
+    SUBDIR += vbam
     SUBDIR += vgb
     SUBDIR += x48
     SUBDIR += xcopilot

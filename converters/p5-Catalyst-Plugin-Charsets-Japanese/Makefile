@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Catalyst-Plugin-Charsets-Japanese/Makefile,v 1.6 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	jcode interface for catalyst
 

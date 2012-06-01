@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-C3-Componentised/Makefile,v 1.7 2012/04/07 14:03:37 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	load mix-ins or components to your C3-based class
 

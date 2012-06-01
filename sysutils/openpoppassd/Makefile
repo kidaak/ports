@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/openpoppassd/Makefile,v 1.9 2011/06/23 22:50:29 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		daemon for changing passwords
 

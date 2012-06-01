@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/qprint/Makefile,v 1.6 2010/10/18 17:06:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	converter to/from quoted-printable encoding
 

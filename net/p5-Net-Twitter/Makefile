@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Twitter/Makefile,v 1.6 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl interface to the Twitter API
 

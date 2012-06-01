@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/hotplug-diskmount/pkg/README,v 1.2 2011/06/27 10:15:13 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

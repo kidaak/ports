@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Gtk2-GladeXML/pkg/PLIST,v 1.1.1.1 2007/01/16 18:28:44 ajacoutot Exp $
+@comment $OpenBSD$
 ${P5ARCH}/Gtk2/GladeXML/
 ${P5ARCH}/Gtk2/GladeXML.pm
 ${P5ARCH}/Gtk2/GladeXML/Install/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/minbif/patches/patch-src_server_poll_daemon_fork_cpp,v 1.1 2012/03/23 13:28:25 ajacoutot Exp $
+$OpenBSD$
 
 error: #error "Only <glib.h> can be included directly."
 

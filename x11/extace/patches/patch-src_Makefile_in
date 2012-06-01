@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/extace/patches/patch-src_Makefile_in,v 1.1 2008/02/03 20:18:09 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Wed Jan 23 11:39:17 2008
 +++ src/Makefile.in	Wed Jan 23 11:39:29 2008
 @@ -134,7 +134,7 @@ INSTALL_SCRIPT = @INSTALL_SCRIPT@

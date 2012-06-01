@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rsync/patches/patch-rsync_1,v 1.2 2011/10/18 20:24:24 naddy Exp $
+$OpenBSD$
 --- rsync.1.orig	Fri Sep 23 18:42:26 2011
 +++ rsync.1	Tue Oct 18 16:51:20 2011
 @@ -3495,7 +3495,7 @@ consult the remote shell\(cq\&s documentation.

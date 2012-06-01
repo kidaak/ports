@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-libffi_Makefile_in,v 1.1 2009/10/10 22:48:29 jasper Exp $
+$OpenBSD$
 
 Don't install libffi headers, gcj links statically with libffi.
 

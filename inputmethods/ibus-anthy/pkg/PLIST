@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/ibus-anthy/pkg/PLIST,v 1.2 2011/06/20 08:53:55 fgsch Exp $
+@comment $OpenBSD$
 @comment lib/python${MODPY_VERSION}/site-packages/_anthy.la
 lib/python${MODPY_VERSION}/site-packages/_anthy.so
 lib/python${MODPY_VERSION}/site-packages/anthy.py

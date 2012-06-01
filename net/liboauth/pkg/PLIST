@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/liboauth/pkg/PLIST,v 1.1.1.1 2011/08/21 16:26:18 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/oauth.h
 lib/liboauth.a

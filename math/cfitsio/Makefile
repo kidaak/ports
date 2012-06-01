@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/cfitsio/Makefile,v 1.7 2010/11/19 07:23:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library for handling FITS data
 CATEGORIES=	math graphics devel

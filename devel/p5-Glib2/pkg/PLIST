@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Glib2/pkg/PLIST,v 1.4 2009/06/07 08:41:39 landry Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Glib/
 ${P5ARCH}/Glib.pm

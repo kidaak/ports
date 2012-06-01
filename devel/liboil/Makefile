@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/liboil/Makefile,v 1.18 2010/07/21 05:51:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library of optimized inner loops
 

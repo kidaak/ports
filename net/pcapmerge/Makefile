@@ -1,4 +1,4 @@
-#   $OpenBSD: ports/net/pcapmerge/Makefile,v 1.13 2010/11/19 22:31:37 espie Exp $
+#   $OpenBSD$
 
 COMMENT=	merge and extract portions of binary pcap files
 

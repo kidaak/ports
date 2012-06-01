@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Action-RenderView/Makefile,v 1.13 2012/04/08 21:57:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	sensible default end action for catalyst
 

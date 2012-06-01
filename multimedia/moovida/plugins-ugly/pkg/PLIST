@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/moovida/plugins-ugly/pkg/PLIST,v 1.1.1.1 2009/10/15 15:41:57 landry Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/elisa/
 lib/python${MODPY_VERSION}/site-packages/elisa/plugins/
 lib/python${MODPY_VERSION}/site-packages/elisa/plugins/flickr/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/slash/Makefile,v 1.42 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	dungeon explorin', hackin' game, but harder than nethack
 

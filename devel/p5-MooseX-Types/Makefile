@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Types/Makefile,v 1.8 2011/04/12 11:30:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	organise your Moose types in libraries
 

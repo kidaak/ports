@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-buildbot/Makefile,v 1.16 2012/04/14 09:52:40 landry Exp $
+# $OpenBSD$
 
 COMMENT =	system to automate the compile/test cycle
 

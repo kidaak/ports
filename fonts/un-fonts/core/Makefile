@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/un-fonts/core/Makefile,v 1.1 2011/07/19 09:18:18 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	core Asian truetype fonts designed by Koaunghi Un
 DISTNAME =	un-fonts-core-${VERSION}

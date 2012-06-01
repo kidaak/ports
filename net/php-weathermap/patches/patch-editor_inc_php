@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/php-weathermap/patches/patch-editor_inc_php,v 1.1 2011/09/27 11:15:00 sthen Exp $
+$OpenBSD$
 
 Restrict editor to .conf files
 

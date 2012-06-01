@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/calamaris/Makefile,v 1.14 2010/11/22 08:36:47 espie Exp $
+# $OpenBSD$
 # $RuOBSD: Makefile,v 1.3 2002/04/28 16:29:29 grange Exp $
 
 COMMENT=		proxy-cache-servers logfiles analizer

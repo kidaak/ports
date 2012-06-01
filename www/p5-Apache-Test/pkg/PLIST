@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Apache-Test/pkg/PLIST,v 1.9 2008/05/01 10:12:22 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Apache/
 ${P5SITE}/Apache/Test.pm
 ${P5SITE}/Apache/Test5005compat.pm

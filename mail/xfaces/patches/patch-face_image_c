@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/xfaces/patches/patch-face_image_c,v 1.1 2000/06/05 01:09:24 espie Exp $
+$OpenBSD$
 --- face_image.c.orig	Sun Mar 13 01:38:40 1994
 +++ face_image.c	Mon Jun  5 02:43:44 2000
 @@ -204,15 +204,22 @@ FaceImageLoadInfo*	info;

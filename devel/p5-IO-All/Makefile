@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-All/Makefile,v 1.9 2011/05/13 00:04:52 gsoares Exp $
+# $OpenBSD$
 
 COMMENT= 	universal I/O to everything
 

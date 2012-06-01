@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/snownews/patches/patch-updatecheck_c,v 1.1 2008/07/20 17:09:26 martynas Exp $
+$OpenBSD$
 --- updatecheck.c.orig	Sun Feb 17 14:43:58 2008
 +++ updatecheck.c	Sun Jul 20 18:09:09 2008
 @@ -54,9 +54,7 @@ void AutoVersionCheck (void) {

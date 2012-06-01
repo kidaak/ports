@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/helpers/Makefile,v 1.12 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT =	plugin for Merb that provides different view helpers
 

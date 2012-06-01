@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-passenger/Makefile,v 1.22 2012/01/18 16:52:06 jeremy Exp $
+# $OpenBSD$
 
 COMMENT-main =		Nginx module for deploying ruby applications
 COMMENT-standalone =	ruby web application server

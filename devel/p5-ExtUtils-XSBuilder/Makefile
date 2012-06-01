@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-ExtUtils-XSBuilder/Makefile,v 1.5 2011/03/14 09:17:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=        automatic Perl XS glue code generation
 

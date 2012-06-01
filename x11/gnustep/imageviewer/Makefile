@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/imageviewer/Makefile,v 1.8 2011/05/15 13:03:26 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	GNUstep image viewer
 

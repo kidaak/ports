@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/pear-Mime-Type/Makefile,v 1.4 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	utility class for dealing with MIME types
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-cmdargs/Makefile,v 1.1.1.1 2011/11/13 22:41:25 kili Exp $
+# $OpenBSD$
 
 COMMENT =		command line parser library
 

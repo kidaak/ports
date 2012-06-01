@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/elinks/Makefile,v 1.29 2011/08/03 12:51:24 edd Exp $
+# $OpenBSD$
 
 COMMENT=		full-featured text WWW browser
 DISTNAME=		elinks-0.11.7

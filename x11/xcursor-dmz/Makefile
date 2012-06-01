@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xcursor-dmz/Makefile,v 1.2 2011/07/29 14:19:33 mpi Exp $
+# $OpenBSD$
 
 COMMENT =	style neutral scalable cursor themes
 

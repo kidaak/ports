@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-hyperestraier/patches/patch-rubynative_Makefile_in,v 1.3 2009/01/30 21:15:05 ajacoutot Exp $
+$OpenBSD$
 --- rubynative/Makefile.in.orig	Wed Feb 21 10:06:29 2007
 +++ rubynative/Makefile.in	Fri Jan 30 22:13:09 2009
 @@ -29,7 +29,7 @@ DESTDIR =

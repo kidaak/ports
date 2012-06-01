@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/streamripper/Makefile,v 1.23 2012/02/25 16:44:27 shadchin Exp $
+# $OpenBSD$
 
 COMMENT=	rip shoutcast streams to local mp3s
 

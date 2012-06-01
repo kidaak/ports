@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-weberror/Makefile,v 1.7 2011/12/31 15:09:49 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =	web error handling and exception catching
 

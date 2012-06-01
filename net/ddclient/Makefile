@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ddclient/Makefile,v 1.15 2012/04/04 01:08:31 gonzalo Exp $
+# $OpenBSD$
 
 COMMENT=		Dynamic DNS service update client
 

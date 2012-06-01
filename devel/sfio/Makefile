@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/sfio/Makefile,v 1.7 2010/11/15 19:46:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Safe/Fast I/O Library
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/echinus/pkg/PLIST,v 1.1.1.1 2011/03/22 08:11:05 jasper Exp $
+@comment $OpenBSD$
 @bin bin/echinus
 @man man/man1/echinus.1
 share/doc/echinus/

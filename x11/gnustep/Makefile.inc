@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/Makefile.inc,v 1.8 2011/11/18 00:10:06 sebastia Exp $
+# $OpenBSD$
 
 DIST_SUBDIR=	gnustep
 

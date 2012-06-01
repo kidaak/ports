@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/dbic++/patches/patch-inc_dbic++_h,v 1.2 2012/04/06 19:25:23 jeremy Exp $
+$OpenBSD$
 --- inc/dbic++.h.orig	Wed Mar 28 22:09:47 2012
 +++ inc/dbic++.h	Tue Apr  3 14:07:10 2012
 @@ -42,7 +42,7 @@ namespace dbi {

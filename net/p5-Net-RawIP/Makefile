@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-RawIP/Makefile,v 1.20 2011/04/06 18:52:21 pvalchev Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

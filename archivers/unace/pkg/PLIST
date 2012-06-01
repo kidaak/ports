@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/archivers/unace/pkg/PLIST,v 1.2 2000/06/10 20:22:17 brad Exp $
+@comment $OpenBSD$
 bin/unace

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Tie-Cache-LRU/Makefile,v 1.5 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 COMMENT=	LRU cache in memory
 
 MODULES=	cpan

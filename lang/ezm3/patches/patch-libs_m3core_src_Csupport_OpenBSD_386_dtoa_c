@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ezm3/patches/patch-libs_m3core_src_Csupport_OpenBSD_386_dtoa_c,v 1.1 2006/11/11 01:44:54 kurt Exp $
+$OpenBSD$
 --- libs/m3core/src/Csupport/OpenBSD_386/dtoa.c.orig	Sat Jan 27 14:44:30 2001
 +++ libs/m3core/src/Csupport/OpenBSD_386/dtoa.c	Fri Nov 10 17:49:14 2006
 @@ -13,17 +13,6 @@

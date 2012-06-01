@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-POE/Makefile,v 1.5 2011/10/29 16:48:15 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		the Illicit Love Child of Moose and POE
 

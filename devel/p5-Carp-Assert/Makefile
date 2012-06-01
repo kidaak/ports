@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Carp-Assert/Makefile,v 1.7 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl module implementing assertions
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/dimp/Makefile,v 1.11 2012/02/16 21:19:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	dynamic front-end for IMP webmail
 

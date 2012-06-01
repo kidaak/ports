@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/gtkpod/pkg/PLIST,v 1.11 2011/11/15 15:43:52 mpi Exp $
+@comment $OpenBSD$
 @bin bin/gtkpod
 @man man/man1/gtkpod.1
 share/applications/gtkpod.desktop

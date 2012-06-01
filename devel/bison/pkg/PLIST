@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/bison/pkg/PLIST,v 1.9 2008/07/08 00:24:17 brad Exp $
+@comment $OpenBSD$
 @bin bin/bison
 @info info/bison.info
 @man man/man1/bison.1

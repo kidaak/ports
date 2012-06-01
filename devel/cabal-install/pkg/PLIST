@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cabal-install/pkg/PLIST,v 1.1.1.1 2010/04/10 18:24:15 kili Exp $
+@comment $OpenBSD$
 @bin bin/cabal
 @comment share/doc/${DISTNAME}/
 @comment share/doc/${DISTNAME}/LICENSE

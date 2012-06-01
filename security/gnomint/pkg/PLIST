@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/gnomint/pkg/PLIST,v 1.1.1.1 2010/08/25 13:43:58 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gnomint
 @bin bin/gnomint-cli
 bin/gnomint-upgrade-db

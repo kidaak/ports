@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/merkaartor/patches/patch-src_Preferences_BookmarksList_cpp,v 1.2 2010/06/13 10:57:35 landry Exp $
+$OpenBSD$
 Confuses g++3
 --- src/Preferences/BookmarksList.cpp.orig	Sun Jun  6 16:41:25 2010
 +++ src/Preferences/BookmarksList.cpp	Sun Jun 13 11:20:39 2010

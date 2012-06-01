@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-OptList/Makefile,v 1.10 2011/06/01 17:41:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	parse and validate simple name/value option pairs
 

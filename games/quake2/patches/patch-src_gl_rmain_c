@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/quake2/patches/patch-src_gl_rmain_c,v 1.1 2008/05/25 02:54:58 jsg Exp $
+$OpenBSD$
 --- src/gl_rmain.c.orig	Sat May 24 21:12:32 2008
 +++ src/gl_rmain.c	Sat May 24 21:13:27 2008
 @@ -1060,7 +1060,7 @@ void R_Register( void )

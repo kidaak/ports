@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/cjc/files/setup.py,v 1.2 2009/06/01 18:39:52 wcmaier Exp $
+# $OpenBSD$
 
 from distutils.core import setup
 

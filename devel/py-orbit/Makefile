@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-orbit/Makefile,v 1.27 2011/09/28 09:51:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	ORBit2 Python bindings
 

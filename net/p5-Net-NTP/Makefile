@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-NTP/Makefile,v 1.2 2011/07/19 20:03:26 gsoares Exp $
+# $OpenBSD$
 
 COMMENT =	Perl extension for decoding NTP server responses
 

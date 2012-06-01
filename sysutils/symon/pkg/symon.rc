@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/sysutils/symon/pkg/symon.rc,v 1.2 2011/05/19 20:01:27 gsoares Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/libexec/symon"
 

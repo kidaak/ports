@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/midish/pkg/PLIST,v 1.2 2008/06/30 10:11:33 sthen Exp $
+@comment $OpenBSD$
 @bin bin/midish
 @bin bin/rmidish
 bin/smfplay

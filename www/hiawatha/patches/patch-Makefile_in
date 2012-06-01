@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/hiawatha/patches/patch-Makefile_in,v 1.14 2011/04/13 17:44:59 rpointel Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Jul 13 09:03:47 2010
 +++ Makefile.in	Wed Apr 13 16:55:04 2011
 @@ -50,8 +50,7 @@ DIST_COMMON = $(am__configure_deps) $(srcdir)/Makefile

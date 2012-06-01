@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/eltclsh/patches/patch-Makefile_in,v 1.1 2010/10/23 21:49:06 naddy Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sat Oct 23 19:50:38 2010
 +++ Makefile.in	Sat Oct 23 19:51:16 2010
 @@ -65,7 +65,7 @@ all depends: $(config_files) $(config_headers) doc

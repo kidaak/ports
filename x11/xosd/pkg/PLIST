@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xosd/pkg/PLIST,v 1.2 2011/06/09 15:28:40 shadchin Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/osd_cat
 bin/xosd-config

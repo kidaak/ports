@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/py-qscintilla/pkg/PLIST,v 1.1.1.1 2012/03/27 18:16:23 rpointel Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/PyQt4/
 lib/python${MODPY_VERSION}/site-packages/PyQt4/Qsci.so
 lib/qt4/qsci/api/python/QScintilla2.api

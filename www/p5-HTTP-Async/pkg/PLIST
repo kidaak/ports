@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTTP-Async/pkg/PLIST,v 1.1.1.1 2007/07/22 16:44:25 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTTP/Async/
 ${P5SITE}/HTTP/Async.pm
 ${P5SITE}/HTTP/Async/Polite.pm

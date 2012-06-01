@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-pgsql/pkg/PLIST,v 1.4 2004/09/14 23:31:46 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Pg.pm
 ${P5ARCH}/auto/

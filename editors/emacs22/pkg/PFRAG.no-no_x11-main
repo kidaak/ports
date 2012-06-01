@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/emacs22/pkg/PFRAG.no-no_x11-main,v 1.1 2009/02/18 12:16:15 jasper Exp $
+@comment $OpenBSD$
 share/emacs/${VERSION}/etc/images/
 share/emacs/${VERSION}/etc/images/README
 share/emacs/${VERSION}/etc/images/attach.pbm

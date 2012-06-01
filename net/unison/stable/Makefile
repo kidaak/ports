@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/unison/stable/Makefile,v 1.18 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	multi-platform file synchronization tool
 

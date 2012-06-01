@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/canto/pkg/PLIST,v 1.1.1.1 2010/12/06 22:33:18 dcoppa Exp $
+@comment $OpenBSD$
 bin/canto
 bin/canto-fetch
 bin/canto-inspect

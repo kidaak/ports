@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/oroborus/pkg/PLIST,v 1.1.1.1 2004/10/18 15:54:56 naddy Exp $
+@comment $OpenBSD$
 bin/oroborus
 @man man/man1/oroborus.1
 @man man/man5/oroborusrc.5

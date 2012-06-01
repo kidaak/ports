@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/gkrellm/plugins/sun/patches/patch-gkrellsun_c,v 1.4 2004/10/16 16:33:56 sturm Exp $
+$OpenBSD$
 --- gkrellsun.c.orig	Sun Jun  6 06:34:21 2004
 +++ gkrellsun.c	Mon Oct 11 14:34:03 2004
 @@ -214,8 +214,8 @@ struct _Sun

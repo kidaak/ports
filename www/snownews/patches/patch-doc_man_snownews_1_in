@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/snownews/patches/patch-doc_man_snownews_1_in,v 1.3 2008/07/20 17:09:26 martynas Exp $
+$OpenBSD$
 --- doc/man/snownews.1.in.orig	Sun Feb 17 14:43:57 2008
 +++ doc/man/snownews.1.in	Sun Jul 20 18:09:54 2008
 @@ -186,14 +186,14 @@ variable "http_proxy". Snownews expects this variable 

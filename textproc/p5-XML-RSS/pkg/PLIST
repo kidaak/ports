@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-RSS/pkg/PLIST,v 1.11 2009/02/04 12:53:39 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/XML/
 ${P5SITE}/XML/RSS/
 ${P5SITE}/XML/RSS.pm

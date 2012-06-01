@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/automake/Makefile,v 1.33 2011/05/05 18:56:14 jasper Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += 1.4

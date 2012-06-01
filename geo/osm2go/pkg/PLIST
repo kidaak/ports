@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/osm2go/pkg/PLIST,v 1.4 2011/12/03 20:30:09 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/osm2go
 share/applications/osm2go.desktop
 share/icons/

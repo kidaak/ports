@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-JSON/Makefile,v 1.13 2011/04/18 07:54:57 giovanni Exp $
+# $OpenBSD$
 
 COMMENT= 	parse and convert to JSON (JavaScript Object Notation)
 

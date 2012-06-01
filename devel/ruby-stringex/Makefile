@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-stringex/Makefile,v 1.3 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	extensions to ruby's String class
 

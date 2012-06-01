@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/libpano13/pkg/PFRAG.shared,v 1.1.1.1 2009/04/19 11:14:34 sthen Exp $
+@comment $OpenBSD$
 @lib lib/libpano13.so.${LIBpano13_VERSION}

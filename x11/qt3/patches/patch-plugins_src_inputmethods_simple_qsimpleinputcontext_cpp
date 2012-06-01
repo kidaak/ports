@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-plugins_src_inputmethods_simple_qsimpleinputcontext_cpp,v 1.2 2007/03/31 22:49:46 espie Exp $
+$OpenBSD$
 --- plugins/src/inputmethods/simple/qsimpleinputcontext.cpp.orig	Sat Mar 31 14:51:22 2007
 +++ plugins/src/inputmethods/simple/qsimpleinputcontext.cpp	Sat Mar 31 14:51:24 2007
 @@ -140,7 +140,7 @@ bool QSimpleInputContext::filterEvent( const QEvent *e

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/login_oath/pkg/PLIST,v 1.2 2011/06/23 22:50:29 naddy Exp $
+@comment $OpenBSD$
 @group auth
 libexec/auth/
 @bin libexec/auth/login_totp

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-Math-Pari/pkg/PLIST,v 1.1.1.1 2005/02/08 04:27:26 msf Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Math/
 ${P5ARCH}/Math/Pari.pm

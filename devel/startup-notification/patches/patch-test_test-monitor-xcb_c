@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/startup-notification/patches/patch-test_test-monitor-xcb_c,v 1.1 2009/12/25 21:36:22 phessler Exp $
+$OpenBSD$
 --- test/test-monitor-xcb.c.orig	Fri Dec 25 14:15:50 2009
 +++ test/test-monitor-xcb.c	Fri Dec 25 14:18:19 2009
 @@ -36,6 +36,7 @@ monitor_event_func (SnMonitorEvent *event,

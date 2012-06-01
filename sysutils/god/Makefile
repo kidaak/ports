@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/god/Makefile,v 1.13 2011/11/09 00:17:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	system monitoring framework written in Ruby
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nedit/patches/patch-util_misc_c,v 1.1 2008/01/02 17:39:13 jasper Exp $
+$OpenBSD$
 --- util/misc.c.orig	Mon Aug  9 23:19:38 2004
 +++ util/misc.c	Sat Dec 29 14:39:46 2007
 @@ -475,6 +475,15 @@ Boolean FindBestVisual(Display *display, const char *a

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/gdbm/Makefile,v 1.29 2010/10/18 17:06:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=		GNU dbm
 

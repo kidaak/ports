@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/mingw/patches/patch-x86-mingw32-build_sh,v 1.1.1.1 2011/11/16 19:27:48 pirofti Exp $
+$OpenBSD$
 --- x86-mingw32-build.sh.orig	Thu Mar 11 00:16:55 2010
 +++ x86-mingw32-build.sh	Tue Nov 15 01:05:46 2011
 @@ -68,7 +68,7 @@ do

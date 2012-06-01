@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Stream/Makefile,v 1.5 2011/04/01 07:08:04 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		creates and XML Stream connection and parses return data
 

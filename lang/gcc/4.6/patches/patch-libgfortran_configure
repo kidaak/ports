@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libgfortran_configure,v 1.1 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libgfortran/configure.orig	Wed Oct 26 11:30:24 2011
 +++ libgfortran/configure	Wed Jan 25 18:21:36 2012
 @@ -11519,7 +11519,7 @@ openbsd*)

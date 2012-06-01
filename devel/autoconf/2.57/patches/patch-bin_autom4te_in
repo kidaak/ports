@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.57/patches/patch-bin_autom4te_in,v 1.2 2004/07/22 05:50:07 espie Exp $
+$OpenBSD$
 --- bin/autom4te.in.orig	Tue Dec  3 09:20:16 2002
 +++ bin/autom4te.in	Thu Jul 22 07:19:33 2004
 @@ -276,16 +276,8 @@ my $freeze = 0;

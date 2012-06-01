@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/benchmarks/ubench/pkg/PLIST,v 1.2 2004/08/06 14:37:29 espie Exp $
+@comment $OpenBSD$
 bin/ubench
 @man man/man8/ubench.8

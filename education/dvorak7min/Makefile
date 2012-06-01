@@ -1,4 +1,4 @@
-# $OpenBSD: ports/education/dvorak7min/Makefile,v 1.8 2010/09/12 16:49:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	typing tutor for dvorak keyboards
 

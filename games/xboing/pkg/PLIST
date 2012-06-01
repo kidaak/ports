@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xboing/pkg/PLIST,v 1.8 2010/01/04 11:21:22 sthen Exp $
+@comment $OpenBSD$
 @mode g+s
 @group games
 @bin bin/xboing

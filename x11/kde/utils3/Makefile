@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/utils3/Makefile,v 1.69 2011/12/03 23:34:05 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT = 		K Desktop Environment, utilities
 CATEGORIES =		x11 x11/kde

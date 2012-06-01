@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-progressbar/pkg/PLIST,v 1.2 2011/05/24 05:28:55 rpointel Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/progressbar/
 lib/python${MODPY_VERSION}/site-packages/progressbar-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/progressbar-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

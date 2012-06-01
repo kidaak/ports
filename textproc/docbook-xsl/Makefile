@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/docbook-xsl/Makefile,v 1.8 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	docbook XSL modular stylesheet
 

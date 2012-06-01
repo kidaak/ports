@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_builtin-attrs_def,v 1.1.1.1 2005/01/03 15:21:29 espie Exp $
+$OpenBSD$
 --- gcc/builtin-attrs.def.orig	Tue Mar  4 15:37:20 2003
 +++ gcc/builtin-attrs.def	Mon Jan  3 10:17:41 2005
 @@ -71,13 +71,18 @@ DEF_ATTR_FOR_INT (4)

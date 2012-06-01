@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/gtkhtml3/patches/patch-gtkhtml_test_c,v 1.1 2011/03/07 19:27:27 ajacoutot Exp $
+$OpenBSD$
 
 From d085cd1cb81aab0767ab8276bef27b9ffdd832ed Mon Sep 17 00:00:00 2001
 From: Matthew Barnes <mbarnes@redhat.com>

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/hiawatha/Makefile,v 1.31 2011/09/16 12:00:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	secure webserver
 
@@ -27,8 +27,7 @@ CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include \
 		-I${LOCALBASE}/include/libxml2" \
 		LDFLAGS="-L${LOCALBASE}/lib" \
 		webrootdir=${WEBROOTDIR}
-CONFIGURE_ARGS=	--localstatedir=/var \
-		--enable-xslt
+CONFIGURE_ARGS=	--enable-xslt
 
 USE_GROFF =	Yes
 

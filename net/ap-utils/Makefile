@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ap-utils/Makefile,v 1.10 2010/10/18 18:36:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Atmel/NWN wireless access point configuration tools
 

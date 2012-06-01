@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/flac/pkg/PLIST,v 1.12 2007/09/24 17:23:55 naddy Exp $
+@comment $OpenBSD$
 bin/flac
 bin/metaflac
 include/FLAC/

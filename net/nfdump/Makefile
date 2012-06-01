@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nfdump/Makefile,v 1.13 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT-main =		tools to collect and process netflow data
 COMMENT-nfprofile =	filters data from nfdump according to profiles

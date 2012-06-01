@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/xoris/Makefile,v 1.4 2010/11/18 15:34:41 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	X11 pixel color grabber
 

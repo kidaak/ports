@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-UPnP/Makefile,v 1.6 2011/07/10 16:45:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	extension for UPnP
 

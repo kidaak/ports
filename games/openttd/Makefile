@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/openttd/Makefile,v 1.24 2012/01/22 21:41:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	open source clone of the game Transport Tycoon Deluxe
 

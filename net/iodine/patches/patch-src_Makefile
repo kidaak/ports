@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/iodine/patches/patch-src_Makefile,v 1.2 2009/03/30 09:17:45 sthen Exp $
+$OpenBSD$
 --- src/Makefile.orig	Sat Mar 21 13:07:49 2009
 +++ src/Makefile	Mon Mar 30 10:09:57 2009
 @@ -1,4 +1,4 @@

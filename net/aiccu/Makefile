@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/aiccu/Makefile,v 1.4 2011/07/13 15:27:44 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	SixXS automatic IPv6 connectivity client utility
 

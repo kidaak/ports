@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-Math-Random-ISAAC/pkg/PLIST,v 1.1.1.1 2012/04/12 13:53:03 gsoares Exp $
+@comment $OpenBSD$
 ${P5SITE}/Math/
 ${P5SITE}/Math/Random/
 ${P5SITE}/Math/Random/ISAAC/

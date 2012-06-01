@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-EN-Fathom/Makefile,v 1.5 2011/06/01 17:05:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		measure readability of English text
 

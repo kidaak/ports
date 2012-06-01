@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/openmsx/patches/patch-build_python-search_sh,v 1.1 2011/10/21 13:04:17 ajacoutot Exp $
+$OpenBSD$
 --- build/python-search.sh.orig	Fri Oct 21 03:28:17 2011
 +++ build/python-search.sh	Fri Oct 21 03:29:21 2011
 @@ -1,5 +1,5 @@

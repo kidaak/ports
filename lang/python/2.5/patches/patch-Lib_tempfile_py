@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-Lib_tempfile_py,v 1.1 2006/11/01 20:59:18 alek Exp $
+$OpenBSD$
 --- Lib/tempfile.py.orig	Fri Jun 16 14:31:06 2006
 +++ Lib/tempfile.py	Mon Sep 18 06:31:09 2006
 @@ -163,7 +163,7 @@ def _candidate_tempdir_list():

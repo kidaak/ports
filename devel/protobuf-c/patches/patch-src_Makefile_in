@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/protobuf-c/patches/patch-src_Makefile_in,v 1.1.1.1 2011/07/08 08:58:02 dcoppa Exp $
+$OpenBSD$
 
 Fix libpthread linkage
 

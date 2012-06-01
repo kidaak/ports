@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/krb5-auth-dialog/Makefile,v 1.28 2011/12/03 22:17:16 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

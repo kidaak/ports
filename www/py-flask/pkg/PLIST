@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-flask/pkg/PLIST,v 1.3 2011/10/05 08:36:58 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Flask-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/Flask-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/Flask-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/cue/Makefile,v 1.16 2010/10/03 21:40:42 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	mh-e like mail user agent
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/vnstat/patches/patch-Makefile,v 1.2 2012/03/09 09:33:03 pea Exp $
+$OpenBSD$
 --- Makefile.orig	Sun May 29 22:41:34 2011
 +++ Makefile	Thu Mar  8 18:17:10 2012
 @@ -4,20 +4,20 @@ SBIN = $(DESTDIR)/usr/sbin

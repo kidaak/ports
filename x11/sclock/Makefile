@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/sclock/Makefile,v 1.5 2012/04/01 06:36:18 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simple digital clock
 

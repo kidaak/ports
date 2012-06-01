@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gettext/patches/patch-gettext-tools_tests_Makefile_in,v 1.4 2010/07/03 03:23:22 naddy Exp $
+$OpenBSD$
 --- gettext-tools/tests/Makefile.in.orig	Mon Jun 28 23:49:26 2010
 +++ gettext-tools/tests/Makefile.in	Mon Jun 28 23:49:49 2010
 @@ -1440,7 +1440,7 @@ AM_CPPFLAGS = \

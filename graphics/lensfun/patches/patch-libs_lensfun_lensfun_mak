@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/lensfun/patches/patch-libs_lensfun_lensfun_mak,v 1.2 2010/09/16 10:04:54 sthen Exp $
+$OpenBSD$
 --- libs/lensfun/lensfun.mak.orig	Wed Mar 24 01:00:22 2010
 +++ libs/lensfun/lensfun.mak	Wed Apr  7 04:00:06 2010
 @@ -3,7 +3,7 @@ DESCRIPTION.lensfun = Photographic lens database libra

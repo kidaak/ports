@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/childsplay-plugins/patches/patch-install_sh,v 1.1.1.1 2006/11/13 06:20:17 ajacoutot Exp $
+$OpenBSD$
 --- install.sh.orig	Sun Oct 22 09:03:46 2006
 +++ install.sh	Sun Nov 12 17:28:46 2006
 @@ -1,4 +1,4 @@

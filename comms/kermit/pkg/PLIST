@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/kermit/pkg/PLIST,v 1.10 2012/04/06 15:57:52 merdely Exp $
+@comment $OpenBSD$
 @bin bin/kermit
 @man man/man1/kermit.1
 share/doc/kermit/

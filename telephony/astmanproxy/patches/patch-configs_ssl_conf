@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/astmanproxy/patches/patch-configs_ssl_conf,v 1.2 2012/03/08 12:13:00 ajacoutot Exp $
+$OpenBSD$
 --- configs/ssl.conf.orig	Wed Jun 24 03:58:23 2009
 +++ configs/ssl.conf	Tue Mar  6 15:32:31 2012
 @@ -9,7 +9,7 @@

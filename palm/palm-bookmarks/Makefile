@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/palm-bookmarks/Makefile,v 1.7 2010/07/24 17:38:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	bookmarks on your palm
 

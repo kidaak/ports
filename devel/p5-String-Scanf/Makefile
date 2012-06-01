@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-String-Scanf/Makefile,v 1.8 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Emulates the sscanf() of the C stdio library
 

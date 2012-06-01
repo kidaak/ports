@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/py-last/pkg/PLIST,v 1.1.1.1 2010/10/28 16:10:24 edd Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pylast-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/pylast.py
 lib/python${MODPY_VERSION}/site-packages/pylast.pyc

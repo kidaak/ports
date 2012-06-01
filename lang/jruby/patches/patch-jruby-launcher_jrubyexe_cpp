@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/jruby/patches/patch-jruby-launcher_jrubyexe_cpp,v 1.1 2011/12/09 21:46:15 jeremy Exp $
+$OpenBSD$
 
 Hardcode executable path so that the symlink in the standard PATH
 works correctly.

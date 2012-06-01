@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-sybperl/Makefile,v 1.29 2011/03/27 18:01:49 jasper Exp $
+# $OpenBSD$
 
 DISTNAME=	sybperl-2.19
 PKGNAME=	p5-${DISTNAME}

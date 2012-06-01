@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-enumerator/pkg/PLIST,v 1.4 2011/04/12 10:40:12 jasper Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Data/
 lib/ghc/${DISTNAME}/Data/Enumerator/

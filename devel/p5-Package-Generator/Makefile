@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Package-Generator/Makefile,v 1.6 2011/03/10 23:20:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		generate new packages
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-browser_app_profile_firefox_js,v 1.7 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 --- browser/app/profile/firefox.js.orig	Wed Jan 11 18:14:33 2012
 +++ browser/app/profile/firefox.js	Sat Jan 14 20:21:44 2012
 @@ -151,7 +151,7 @@ pref("app.update.certs.2.issuerName", "CN=Thawte SSL C

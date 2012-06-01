@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/freerdp/Makefile,v 1.11 2012/04/04 00:52:21 merdely Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/p5-Term-Animation/pkg/PLIST,v 1.1.1.1 2008/10/07 17:05:39 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Term/
 ${P5SITE}/Term/Animation/
 ${P5SITE}/Term/Animation.pm

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/redhat/libc5/Makefile,v 1.10 2011/05/11 06:56:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Linux libc5
 

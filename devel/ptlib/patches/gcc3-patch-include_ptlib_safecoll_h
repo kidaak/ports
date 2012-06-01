@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/gcc3-patch-include_ptlib_safecoll_h,v 1.2 2011/10/26 16:59:09 ajacoutot Exp $
+$OpenBSD$
 
 Make this build on gcc3.
 (revert commit from upstream SVN)

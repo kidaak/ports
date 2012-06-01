@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/glew/Makefile,v 1.8 2011/11/16 22:42:02 pascal Exp $
+# $OpenBSD$
 
 COMMENT=	GL Extension Wrangler library
 

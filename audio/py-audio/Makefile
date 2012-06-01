@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-audio/Makefile,v 1.2 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Python bindings for PortAudio
 

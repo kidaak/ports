@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nfsen/patches/patch-html_nfsen_php,v 1.1 2011/03/24 23:04:00 sthen Exp $
+$OpenBSD$
 --- html/nfsen.php.orig	Thu Mar 17 02:12:31 2011
 +++ html/nfsen.php	Thu Mar 17 02:12:50 2011
 @@ -696,7 +696,7 @@ switch ($label) {

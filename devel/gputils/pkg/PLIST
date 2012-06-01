@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gputils/pkg/PLIST,v 1.5 2009/06/01 23:05:35 benoit Exp $
+@comment $OpenBSD$
 @bin bin/gpasm
 @bin bin/gpdasm
 @bin bin/gplib

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/nitrogen/Makefile,v 1.7 2012/04/10 18:23:55 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		background browser and setter for X11
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/squid/pkg/PFRAG.ldap,v 1.2 2008/07/16 21:18:28 brad Exp $
+@comment $OpenBSD$
 @bin libexec/digest_ldap_auth
 @bin libexec/squid_ldap_auth
 @bin libexec/squid_ldap_group

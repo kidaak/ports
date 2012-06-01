@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/teaqt/Makefile,v 1.16 2012/02/27 14:39:41 giovanni Exp $
+# $OpenBSD$
 
 COMMENT =	powerful and simple qt4 editor
 

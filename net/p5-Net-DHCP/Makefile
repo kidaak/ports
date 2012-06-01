@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-DHCP/Makefile,v 1.1.1.1 2011/03/11 19:56:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	Perl DHCP classes
 

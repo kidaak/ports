@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/bgs/Makefile,v 1.10 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT =		simple background setter
 

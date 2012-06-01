@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/games/pkg/PLIST,v 1.7 2010/06/22 23:31:55 espie Exp $
+@comment $OpenBSD$
 @bin bin/bomber
 @bin bin/bovo
 @bin bin/granatier

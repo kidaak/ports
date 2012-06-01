@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/py-reportlab/plugins/renderPM/patches/patch-setup_py,v 1.4 2011/07/20 15:35:04 naddy Exp $
+$OpenBSD$
 --- setup.py.orig	Sun Aug 25 02:31:36 2002
 +++ setup.py	Wed Jul 20 09:33:26 2011
 @@ -1,9 +1,9 @@

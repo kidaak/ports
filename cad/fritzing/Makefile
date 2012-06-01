@@ -1,8 +1,8 @@
-# $OpenBSD: ports/cad/fritzing/Makefile,v 1.12 2012/04/05 21:02:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	interactive electronics designing software
 
-V=		0.7.1
+V=		0.7.4
 DISTNAME=	fritzing-$Vb.source
 PKGNAME=	fritzing-$V
 CATEGORIES=	cad

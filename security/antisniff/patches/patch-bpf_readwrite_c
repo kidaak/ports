@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/antisniff/patches/patch-bpf_readwrite_c,v 1.2 2005/04/03 19:32:29 naddy Exp $
+$OpenBSD$
 --- bpf_readwrite.c.orig	Wed Oct  1 21:51:36 1997
 +++ bpf_readwrite.c	Sun Apr  3 21:21:24 2005
 @@ -48,8 +48,10 @@ HDEV open_net_intf(int value){

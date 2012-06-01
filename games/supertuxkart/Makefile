@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/supertuxkart/Makefile,v 1.7 2011/05/08 20:14:54 kili Exp $
+# $OpenBSD$
 
 COMMENT =		kart racing game with OSS mascots
 

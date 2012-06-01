@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Module-Pluggable-Fast/Makefile,v 1.11 2010/12/03 11:44:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	instantiate plugins as they're found
 

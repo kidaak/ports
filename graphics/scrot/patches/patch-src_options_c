@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/scrot/patches/patch-src_options_c,v 1.2 2011/07/08 11:25:47 jasper Exp $
+$OpenBSD$
 --- src/options.c.orig	Mon Jun 23 14:09:08 2003
 +++ src/options.c	Fri Jul  8 13:22:30 2011
 @@ -141,6 +141,7 @@ name_thumbnail(char *name)

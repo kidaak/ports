@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/arp-scan/patches/patch-mac-vendor_txt,v 1.1 2011/03/03 09:47:51 sthen Exp $
+$OpenBSD$
 Adapt for a normal OpenBSD environment.
 --- mac-vendor.txt.orig	Sun May  4 19:08:08 2008
 +++ mac-vendor.txt	Thu Mar  3 09:03:18 2011

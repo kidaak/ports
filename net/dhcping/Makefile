@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dhcping/Makefile,v 1.7 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 
 COMMENT=		dhcp daemon ping program
 

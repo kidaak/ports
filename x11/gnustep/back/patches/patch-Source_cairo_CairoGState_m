@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/back/patches/patch-Source_cairo_CairoGState_m,v 1.1 2011/06/24 10:51:48 sebastia Exp $
+$OpenBSD$
 
 fix to build with gcc-2.95
 

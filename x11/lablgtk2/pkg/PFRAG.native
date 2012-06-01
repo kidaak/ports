@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/lablgtk2/pkg/PFRAG.native,v 1.5 2011/01/19 23:36:18 jasper Exp $
+@comment $OpenBSD$
 lib/ocaml/lablgtk2/gAction.cmx
 lib/ocaml/lablgtk2/gAssistant.cmx
 lib/ocaml/lablgtk2/gBin.cmx

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/radiusd-cistron/patches/patch-src_sysdep_h,v 1.5 2004/07/12 13:32:11 danh Exp $
+$OpenBSD$
 --- src/sysdep.h.orig	Wed Jun  4 11:45:28 2003
 +++ src/sysdep.h	Mon Jul 12 08:26:45 2004
 @@ -28,7 +28,7 @@

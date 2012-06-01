@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/accessibility3/pkg/PLIST,v 1.19 2011/12/03 19:13:18 ajacoutot Exp $
+@comment $OpenBSD$
 @unexec-delete rm -f %D/share/icons/mono/icon-theme.cache
 @bin bin/kmag
 @bin bin/kmousetool

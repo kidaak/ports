@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-Alien-wxWidgets/patches/patch-inc_My_Build_Any_wx_config_Bakefile_pm,v 1.2 2009/12/09 21:45:12 landry Exp $
+$OpenBSD$
 use glob() to find all matching $lib.so.*, and take the last value
 --- inc/My/Build/Any_wx_config_Bakefile.pm.orig	Sat Dec  5 16:17:30 2009
 +++ inc/My/Build/Any_wx_config_Bakefile.pm	Wed Dec  9 22:13:18 2009

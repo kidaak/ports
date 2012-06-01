@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ruby/Makefile.inc,v 1.5 2011/11/17 11:47:12 jeremy Exp $
+# $OpenBSD$
 
 SHARED_ONLY ?=	Yes
 

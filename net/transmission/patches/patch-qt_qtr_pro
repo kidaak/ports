@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/transmission/patches/patch-qt_qtr_pro,v 1.4 2012/04/07 10:55:04 naddy Exp $
+$OpenBSD$
 --- qt/qtr.pro.orig	Thu Mar 29 17:30:57 2012
 +++ qt/qtr.pro	Thu Mar 29 17:31:22 2012
 @@ -8,7 +8,7 @@ target.path = /bin

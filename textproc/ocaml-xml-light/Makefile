@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ocaml-xml-light/Makefile,v 1.7 2010/11/20 19:56:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	simple Objective Caml bindings for XML
 CATEGORIES=	textproc

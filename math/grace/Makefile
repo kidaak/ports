@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/grace/Makefile,v 1.37 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GRaphing, Advanced Computation and Exploration of data
 

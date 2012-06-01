@@ -1,4 +1,4 @@
-$OpenBSD: ports/shells/tcsh/patches/patch-host_defs,v 1.4 2007/05/27 18:04:47 naddy Exp $
+$OpenBSD$
 --- host.defs.orig	Thu Mar  2 11:46:44 2006
 +++ host.defs	Sat May 26 15:55:32 2007
 @@ -508,6 +508,38 @@ machtype: defined(vax)					: "vax"

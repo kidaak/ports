@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/mapserver/pkg/README-php,v 1.1 2012/01/24 12:03:19 sthen Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/zabbix/pkg/zabbix_agentd.rc,v 1.4 2010/12/27 14:50:23 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/zabbix_agentd"
 

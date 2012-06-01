@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-rrdtool/Makefile,v 1.16 2011/11/09 00:17:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	ruby bindings for RRDtool
 

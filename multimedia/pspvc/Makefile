@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/pspvc/Makefile,v 1.12 2011/09/16 10:31:24 espie Exp $
+# $OpenBSD$
 
 BROKEN=		does not work with new FFmpeg
 

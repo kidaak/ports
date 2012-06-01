@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmikmod/patches/patch-libmikmod_m4,v 1.1 2008/12/22 20:28:18 naddy Exp $
+$OpenBSD$
 --- libmikmod.m4.orig	Mon Dec 22 21:02:20 2008
 +++ libmikmod.m4	Mon Dec 22 21:02:37 2008
 @@ -8,7 +8,7 @@ dnl AM_PATH_LIBMIKMOD([MINIMUM-VERSION, [ACTION-IF-FOU

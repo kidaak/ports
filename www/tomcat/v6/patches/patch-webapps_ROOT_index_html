@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/tomcat/v6/patches/patch-webapps_ROOT_index_html,v 1.1 2011/10/17 11:11:46 dcoppa Exp $
+$OpenBSD$
 --- webapps/ROOT/index.html.orig	Tue Aug 16 14:25:24 2011
 +++ webapps/ROOT/index.html	Mon Oct 17 10:39:10 2011
 @@ -115,7 +115,8 @@

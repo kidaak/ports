@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/courier-imap/patches/patch-imap_imapd-ssl_dist_in,v 1.8 2012/01/23 09:14:15 giovanni Exp $
+$OpenBSD$
 --- imap/imapd-ssl.dist.in.orig	Wed Apr 13 18:39:29 2011
 +++ imap/imapd-ssl.dist.in	Wed Dec 14 12:05:23 2011
 @@ -72,13 +72,13 @@ SSLLOGGEROPTS="-name=imapd-ssl"

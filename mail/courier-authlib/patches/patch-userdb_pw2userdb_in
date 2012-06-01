@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/courier-authlib/patches/patch-userdb_pw2userdb_in,v 1.1.1.1 2006/11/03 11:45:31 mbalmer Exp $
+$OpenBSD$
 --- userdb/pw2userdb.in.orig	Fri Jan  6 11:29:43 2006
 +++ userdb/pw2userdb.in	Fri Jan  6 11:31:23 2006
 @@ -7,6 +7,8 @@

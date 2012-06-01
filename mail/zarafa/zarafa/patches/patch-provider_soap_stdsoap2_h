@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_soap_stdsoap2_h,v 1.5 2011/06/03 15:52:12 ajacoutot Exp $
+$OpenBSD$
 --- provider/soap/stdsoap2.h.orig	Wed Apr 20 19:51:43 2011
 +++ provider/soap/stdsoap2.h	Fri Jun  3 16:02:03 2011
 @@ -426,6 +426,27 @@ A commercial use license is available from Genivia, In

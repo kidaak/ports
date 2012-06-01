@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/egoboo/Makefile,v 1.3 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT =		dungeon-crawling action-RPG adventure
 

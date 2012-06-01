@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/socket/patches/patch-socket_c,v 1.1 2011/07/08 11:19:35 jasper Exp $
+$OpenBSD$
 --- socket.c.orig	Wed Sep  9 16:14:34 1992
 +++ socket.c	Fri Jul  8 13:17:27 2011
 @@ -18,6 +18,8 @@ Please read the file COPYRIGHT for further details.

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/korean/hanterm-xf/Makefile,v 1.19 2011/03/27 16:38:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	X Hangul Terminal (XFree86 xterm Based)
 

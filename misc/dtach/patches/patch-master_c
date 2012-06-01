@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/dtach/patches/patch-master_c,v 1.1.1.1 2006/03/05 17:05:36 niallo Exp $
+$OpenBSD$
 --- master.c.orig	Sun Jul  4 17:07:03 2004
 +++ master.c	Sun Feb 26 01:19:14 2006
 @@ -17,6 +17,7 @@

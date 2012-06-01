@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/kbanner/patches/patch-font3_c,v 1.2 2001/02/22 22:02:51 espie Exp $
+$OpenBSD$
 $NetBSD: patch-af,v 1.2 2000/05/18 22:47:25 itohy Exp $
 
 JIS X0208-1990 characters.

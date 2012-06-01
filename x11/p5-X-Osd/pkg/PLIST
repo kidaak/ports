@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-X-Osd/pkg/PLIST,v 1.1.1.1 2009/02/02 22:59:23 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/X/
 ${P5ARCH}/X/Osd.pm

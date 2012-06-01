@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tintin++/patches/patch-misc_c,v 1.2 2010/01/11 07:19:17 ajacoutot Exp $
+$OpenBSD$
 --- misc.c.orig	Sun Aug 28 16:12:08 1994
 +++ misc.c	Mon Jan 11 08:15:04 2010
 @@ -106,7 +106,7 @@ void bell_command(ses)

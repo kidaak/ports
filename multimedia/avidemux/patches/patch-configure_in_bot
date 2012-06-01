@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-configure_in_bot,v 1.1 2010/04/26 02:09:03 jakemsr Exp $
+$OpenBSD$
 --- configure.in.bot.orig	Wed Apr 21 07:50:26 2010
 +++ configure.in.bot	Wed Apr 21 07:50:58 2010
 @@ -29,6 +29,7 @@ echo " FreeType 2          : $have_freetype"

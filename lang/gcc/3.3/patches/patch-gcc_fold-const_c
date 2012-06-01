@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_fold-const_c,v 1.2 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/fold-const.c.orig	Sun Aug  8 21:55:28 2004
 +++ gcc/fold-const.c	Fri Jul 25 12:34:58 2008
 @@ -1036,7 +1036,11 @@ int_const_binop (code, arg1, arg2, notrunc)

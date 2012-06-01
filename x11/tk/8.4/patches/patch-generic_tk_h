@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tk/8.4/patches/patch-generic_tk_h,v 1.2 2009/01/16 05:23:10 jolan Exp $
+$OpenBSD$
 # Tk bug #2010422
 --- generic/tk.h.orig	Mon Apr  7 15:17:54 2008
 +++ generic/tk.h	Sun Oct 19 10:43:52 2008

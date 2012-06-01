@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/starlanes/pkg/PLIST,v 1.4 2004/09/15 00:46:10 espie Exp $
+@comment $OpenBSD$
 bin/starlanes
 @man man/man6/starlanes.6
 share/doc/starlanes/

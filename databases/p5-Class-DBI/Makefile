@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Class-DBI/Makefile,v 1.9 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simple database abstraction
 

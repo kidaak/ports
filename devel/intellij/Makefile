@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/intellij/Makefile,v 1.16 2011/12/02 08:29:45 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

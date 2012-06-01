@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libf2c-old/patches/patch-Makefile_bsd-wrapper,v 1.1.1.1 2010/05/27 08:36:54 espie Exp $
+$OpenBSD$
 --- Makefile.bsd-wrapper.orig	Tue May 25 11:38:21 2010
 +++ Makefile.bsd-wrapper	Tue May 25 11:38:43 2010
 @@ -139,7 +139,7 @@ all: config.status

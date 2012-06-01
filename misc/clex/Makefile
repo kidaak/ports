@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/clex/Makefile,v 1.12 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=		commandline shell and file manager
 

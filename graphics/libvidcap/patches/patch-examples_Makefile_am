@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libvidcap/patches/patch-examples_Makefile_am,v 1.1.1.1 2010/06/06 13:43:19 sthen Exp $
+$OpenBSD$
 --- examples/Makefile.am.orig	Sat Nov 14 13:48:58 2009
 +++ examples/Makefile.am	Sat Nov 14 13:49:12 2009
 @@ -1,5 +1,5 @@

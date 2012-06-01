@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-X11-Protocol/pkg/PLIST,v 1.1.1.1 2009/01/01 04:38:49 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/X11/
 ${P5SITE}/X11/Auth.pm
 ${P5SITE}/X11/Keysyms.pm

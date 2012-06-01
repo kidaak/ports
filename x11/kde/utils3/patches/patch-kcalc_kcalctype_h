@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/utils3/patches/patch-kcalc_kcalctype_h,v 1.1 2010/05/22 10:14:34 espie Exp $
+$OpenBSD$
 --- kcalc/kcalctype.h.orig	Sat May 22 11:39:55 2010
 +++ kcalc/kcalctype.h	Sat May 22 11:41:37 2010
 @@ -53,20 +53,20 @@

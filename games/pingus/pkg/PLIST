@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/pingus/pkg/PLIST,v 1.1.1.1 2009/03/14 14:08:39 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/pingus
 @man man/man6/pingus.6
 share/doc/pingus/

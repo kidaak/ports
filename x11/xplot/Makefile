@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xplot/Makefile,v 1.4 2010/10/24 21:15:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	fast tool to graph and visualize lots of data
 

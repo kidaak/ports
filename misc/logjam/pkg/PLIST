@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/logjam/pkg/PLIST,v 1.5 2009/12/21 22:15:32 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/logjam
 @man man/man1/logjam.1
 share/applications/logjam.desktop

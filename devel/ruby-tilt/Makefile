@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-tilt/Makefile,v 1.6 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT =	generic interface to multiple Ruby template engines 
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/vim-spell/pkg/PLIST-it,v 1.3 2012/01/17 18:29:43 espie Exp $
+@comment $OpenBSD$
 @pkgpath editors/vim-spell,it
 share/vim/vim${P}/spell/it.latin1.spl
 share/vim/vim${P}/spell/it.utf-8.spl

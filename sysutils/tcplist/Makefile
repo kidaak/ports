@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/tcplist/Makefile,v 1.24 2012/01/17 17:08:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	list tcp connections to/from the local machine
 

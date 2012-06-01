@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/cadaver/patches/patch-lib_glob_h,v 1.1 2009/09/08 15:33:15 jasper Exp $
+$OpenBSD$
 
 Don't redeclare size_t in some twisty way.
 

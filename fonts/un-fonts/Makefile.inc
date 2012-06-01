@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/un-fonts/Makefile.inc,v 1.1.1.1 2011/07/19 09:14:21 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES ?=	fonts x11 japanese korean
 

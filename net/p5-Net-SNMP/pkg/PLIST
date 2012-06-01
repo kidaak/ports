@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-SNMP/pkg/PLIST,v 1.5 2009/11/10 15:18:29 pyr Exp $
+@comment $OpenBSD$
 bin/snmpkey
 ${P5SITE}/Net/
 ${P5SITE}/Net/SNMP/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/user_import/Makefile,v 1.8 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	import CSV users to drupal
 MAINTAINER =	Marc Espie <espie@openbsd.org>

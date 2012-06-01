@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/prepop/Makefile,v 1.11 2011/03/14 20:49:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	simple interactive POP3 client
 

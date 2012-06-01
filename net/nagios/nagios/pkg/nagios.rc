@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/nagios/nagios/pkg/nagios.rc,v 1.2 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/nagios -d"
 daemon_flags="${SYSCONFDIR}/nagios/nagios.cfg"

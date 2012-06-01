@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/LPRng/Makefile,v 1.39 2010/11/20 17:22:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	enhanced printer spooler
 

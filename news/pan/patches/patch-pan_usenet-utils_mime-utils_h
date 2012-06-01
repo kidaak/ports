@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/pan/patches/patch-pan_usenet-utils_mime-utils_h,v 1.3 2012/03/29 12:09:55 naddy Exp $
+$OpenBSD$
 --- pan/usenet-utils/mime-utils.h.orig	Wed Mar 28 17:43:38 2012
 +++ pan/usenet-utils/mime-utils.h	Wed Mar 28 17:43:47 2012
 @@ -21,7 +21,7 @@

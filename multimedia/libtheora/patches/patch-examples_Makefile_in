@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/libtheora/patches/patch-examples_Makefile_in,v 1.4 2009/12/13 22:01:32 sthen Exp $
+$OpenBSD$
 --- examples/Makefile.in.orig	Sat Aug 22 14:17:18 2009
 +++ examples/Makefile.in	Thu Aug 27 23:29:13 2009
 @@ -75,6 +75,7 @@ BUILDABLE_EXAMPLES = @BUILDABLE_EXAMPLES@

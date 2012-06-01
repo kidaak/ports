@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Mechanize/Makefile,v 1.10 2011/12/17 19:53:05 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	handy web browsing in a Perl object
 

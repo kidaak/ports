@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/ocaml-postgresql/pkg/PLIST,v 1.5 2009/03/15 11:45:08 ajacoutot Exp $
+@comment $OpenBSD$
 lib/ocaml/
 lib/ocaml/postgresql/
 lib/ocaml/postgresql/libpostgresql_stubs.a

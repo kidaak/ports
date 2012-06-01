@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/qpage/Makefile,v 1.22 2010/10/18 16:57:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	SNPP client/server (alphanum pager software)
 

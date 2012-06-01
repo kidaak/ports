@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/miniupnp/minissdpd/pkg/minissdpd.rc,v 1.1.1.1 2012/01/13 09:22:23 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/minissdpd"
 daemon_flags="-i em0"

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/meta-tags/pkg/PLIST,v 1.5 2012/01/28 10:02:35 espie Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}nodewords/

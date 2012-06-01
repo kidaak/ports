@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-features_org_eclipse_rcp_source_build_xml,v 1.4 2007/04/13 14:30:43 kurt Exp $
+$OpenBSD$
 --- features/org.eclipse.rcp.source/build.xml.orig	Mon Feb 12 13:45:21 2007
 +++ features/org.eclipse.rcp.source/build.xml	Fri Apr  6 17:34:14 2007
 @@ -42,6 +42,11 @@

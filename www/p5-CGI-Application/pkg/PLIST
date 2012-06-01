@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-CGI-Application/pkg/PLIST,v 1.1.1.1 2006/11/13 15:20:26 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/CGI/
 ${P5SITE}/CGI/Application/
 ${P5SITE}/CGI/Application.pm

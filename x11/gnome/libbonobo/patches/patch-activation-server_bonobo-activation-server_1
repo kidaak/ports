@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/libbonobo/patches/patch-activation-server_bonobo-activation-server_1,v 1.2 2011/01/18 20:03:07 ajacoutot Exp $
+$OpenBSD$
 --- activation-server/bonobo-activation-server.1.orig	Sat Dec 20 15:16:37 2008
 +++ activation-server/bonobo-activation-server.1	Sat Dec 20 15:17:27 2008
 @@ -7,7 +7,7 @@ bonobo-activation-server \- GNOME component tracker

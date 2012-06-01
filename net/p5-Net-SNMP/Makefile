@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-SNMP/Makefile,v 1.16 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl modules to access SNMP
 

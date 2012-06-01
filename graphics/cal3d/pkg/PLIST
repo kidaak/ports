@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/cal3d/pkg/PLIST,v 1.2 2008/08/28 20:30:51 simon Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/cal3d_converter
 include/cal3d/

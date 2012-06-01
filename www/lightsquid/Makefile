@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/lightsquid/Makefile,v 1.3 2010/11/22 08:36:49 espie Exp $
+# $OpenBSD$
 
 COMMENT =		light and fast log analyzer for squid proxy
 

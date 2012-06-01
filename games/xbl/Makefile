@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xbl/Makefile,v 1.26 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	3D block-dropping game
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/fdm/Makefile,v 1.15 2012/03/22 10:47:14 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	fetch, filter and deliver mail
 

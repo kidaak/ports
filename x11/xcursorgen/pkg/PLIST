@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/x11/xcursorgen/pkg/PLIST,v 1.3 2006/02/04 10:30:53 matthieu Exp $
+@comment $OpenBSD$
 bin/xcursorgen
 @man man/man1/xcursorgen.1

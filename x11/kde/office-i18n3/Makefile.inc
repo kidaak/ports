@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/office-i18n3/Makefile.inc,v 1.1 2012/01/17 18:08:22 espie Exp $
+# $OpenBSD$
 
 LANGS= ca cs cy da de el en_GB es et eu fi fr \
 	hu it ja lv ms nb nl pl pt pt_BR ru sk sl sr sr@Latn \

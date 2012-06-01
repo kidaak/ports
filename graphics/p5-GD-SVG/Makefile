@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/graphics/p5-GD-SVG/Makefile,v 1.10 2011/01/11 18:33:04 jasper Exp $
+#	$OpenBSD$
 
 COMMENT=	allow GD perl scripts to output SVG
 

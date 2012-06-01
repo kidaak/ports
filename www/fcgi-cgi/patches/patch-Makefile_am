@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fcgi-cgi/patches/patch-Makefile_am,v 1.1 2012/04/10 19:34:52 sthen Exp $
+$OpenBSD$
 --- Makefile.am.orig	Thu Oct 28 22:43:23 2010
 +++ Makefile.am	Tue Apr 10 15:47:59 2012
 @@ -4,5 +4,9 @@ man1_MANS=fcgi-cgi.1

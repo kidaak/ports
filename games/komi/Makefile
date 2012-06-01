@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/komi/Makefile,v 1.7 2011/03/19 17:38:07 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Komi the Space Frog
 

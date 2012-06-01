@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/check/patches/patch-Makefile_in,v 1.2 2009/05/27 20:52:18 benoit Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Dec 29 15:07:02 2008
 +++ Makefile.in	Wed May 27 22:41:26 2009
 @@ -205,7 +205,7 @@ target_alias = @target_alias@

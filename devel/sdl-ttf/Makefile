@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/sdl-ttf/Makefile,v 1.39 2012/04/05 11:42:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	SDL TrueType fonts library
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/postfix/snapshot/files/postfix-disable,v 1.2 2002/04/19 21:11:29 jakob Exp $
+# $OpenBSD$
 
 if [ ! -f /etc/mailer.conf.pre-postfix ]; then
     echo "can't find /etc/mailer.conf.pre-postfix, postfix not disabled"

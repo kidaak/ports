@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/gsm/patches/patch-inc_config_h,v 1.1 2011/07/08 09:26:55 jasper Exp $
+$OpenBSD$
 --- inc/config.h.orig	Wed Apr 26 21:14:26 2006
 +++ inc/config.h	Fri Jul  8 11:21:57 2011
 @@ -28,8 +28,8 @@

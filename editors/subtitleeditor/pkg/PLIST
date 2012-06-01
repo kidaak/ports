@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/subtitleeditor/pkg/PLIST,v 1.8 2012/03/23 13:26:40 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/subtitleeditor
 lib/libsubtitleeditor.la
 @lib lib/libsubtitleeditor.so.${LIBsubtitleeditor_VERSION}

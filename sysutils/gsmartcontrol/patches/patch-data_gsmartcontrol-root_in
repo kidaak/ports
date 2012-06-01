@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/gsmartcontrol/patches/patch-data_gsmartcontrol-root_in,v 1.1.1.1 2011/07/08 18:17:12 sthen Exp $
+$OpenBSD$
 --- data/gsmartcontrol-root.in.orig	Sat Apr 30 20:39:54 2011
 +++ data/gsmartcontrol-root.in	Fri Jul  8 13:04:54 2011
 @@ -1,4 +1,4 @@

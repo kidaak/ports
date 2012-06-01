@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Throwable/pkg/PLIST,v 1.2 2010/09/27 13:22:31 stephan Exp $
+@comment $OpenBSD$
 ${P5SITE}/StackTrace/
 ${P5SITE}/StackTrace/Auto.pm
 ${P5SITE}/Throwable/

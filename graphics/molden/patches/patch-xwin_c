@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/molden/patches/patch-xwin_c,v 1.1.1.1 2007/11/09 17:26:27 ckuethe Exp $
+$OpenBSD$
 --- xwin.c.orig	Wed Nov  7 04:08:55 2007
 +++ xwin.c	Thu Nov  8 20:08:16 2007
 @@ -20,7 +20,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/ripole/pkg/PLIST,v 1.1.1.1 2007/10/25 10:40:32 merdely Exp $
+@comment $OpenBSD$
 bin/ripole
 share/doc/ripole/
 share/doc/ripole/README

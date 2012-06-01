@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/swisswatch/Makefile,v 1.18 2010/10/24 21:15:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Swiss railway clock emulation
 

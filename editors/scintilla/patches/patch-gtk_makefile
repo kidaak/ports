@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/scintilla/patches/patch-gtk_makefile,v 1.9 2011/11/15 19:13:39 jeremy Exp $
+$OpenBSD$
 --- gtk/makefile.orig	Mon Aug  1 04:49:04 2011
 +++ gtk/makefile	Tue Nov 15 19:33:22 2011
 @@ -6,14 +6,7 @@

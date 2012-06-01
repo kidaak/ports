@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/multimedia3/patches/patch-kscd_libwm_Makefile_in,v 1.18 2008/04/13 09:48:57 espie Exp $
+$OpenBSD$
 --- kscd/libwm/Makefile.in.orig	Wed Feb 13 16:07:45 2008
 +++ kscd/libwm/Makefile.in	Sun Apr 13 06:34:07 2008
 @@ -16,7 +16,7 @@

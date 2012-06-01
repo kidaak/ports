@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-hpricot/Makefile,v 1.14 2011/11/09 00:10:56 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		flexible HTML parser
 

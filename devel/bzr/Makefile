@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/bzr/Makefile,v 1.20 2011/12/23 17:12:04 eric Exp $
+# $OpenBSD$
 
 COMMENT =	distributed version control system by Canonical
 

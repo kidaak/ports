@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/xephem/Makefile,v 1.44 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	interactive astronomical ephemeris
 DISTNAME=	xephem-3.2.3

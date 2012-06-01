@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmix/Makefile,v 1.29 2010/10/24 21:00:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	X11-based audio mixer
 DISTNAME=	xmix-2.1

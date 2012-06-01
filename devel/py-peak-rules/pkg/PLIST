@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-peak-rules/pkg/PLIST,v 1.1.1.1 2009/04/05 01:40:34 martynas Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/PEAK_Rules-${MODPY_EGG_VERSION}a1.dev_r2582-py${MODPY_VERSION}-nspkg.pth
 lib/python${MODPY_VERSION}/site-packages/PEAK_Rules-${MODPY_EGG_VERSION}a1.dev_r2582-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/PEAK_Rules-${MODPY_EGG_VERSION}a1.dev_r2582-py${MODPY_VERSION}.egg-info/PKG-INFO

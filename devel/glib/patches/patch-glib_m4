@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/glib/patches/patch-glib_m4,v 1.1 2008/12/22 20:28:18 naddy Exp $
+$OpenBSD$
 --- glib.m4.orig	Mon Dec 22 21:11:30 2008
 +++ glib.m4	Mon Dec 22 21:11:42 2008
 @@ -5,7 +5,7 @@ dnl AM_PATH_GLIB([MINIMUM-VERSION, [ACTION-IF-FOUND [,

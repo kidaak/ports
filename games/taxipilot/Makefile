@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/taxipilot/Makefile,v 1.20 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	silly little game based on Spacetaxi for the C64
 

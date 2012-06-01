@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xneko/Makefile,v 1.25 2011/06/23 22:50:27 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	classic BSD4.4 cat-and-mouse
 

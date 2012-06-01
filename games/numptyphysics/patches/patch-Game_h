@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/numptyphysics/patches/patch-Game_h,v 1.1 2011/01/14 12:01:18 dcoppa Exp $
+$OpenBSD$
 --- Game.h.orig	Thu Jan 13 10:49:04 2011
 +++ Game.h	Thu Jan 13 10:49:15 2011
 @@ -36,7 +36,6 @@ struct GameControl

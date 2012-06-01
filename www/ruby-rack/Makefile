@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-rack/Makefile,v 1.14 2012/01/05 02:10:40 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		modular Ruby webserver interface
 

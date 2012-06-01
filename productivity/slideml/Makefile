@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/slideml/Makefile,v 1.5 2012/01/30 12:37:23 jsing Exp $
+# $OpenBSD$
 
 COMMENT =		HTML slide generator based on SlideML
 

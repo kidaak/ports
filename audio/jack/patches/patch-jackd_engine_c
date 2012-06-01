@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/jack/patches/patch-jackd_engine_c,v 1.9 2012/01/24 08:03:52 ajacoutot Exp $
+$OpenBSD$
 --- jackd/engine.c.orig	Mon Jan 23 14:37:43 2012
 +++ jackd/engine.c	Mon Jan 23 14:38:38 2012
 @@ -1491,7 +1491,7 @@ handle_external_client_request (jack_engine_t *engine,

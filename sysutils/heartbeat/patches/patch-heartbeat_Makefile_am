@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-heartbeat_Makefile_am,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- heartbeat/Makefile.am.orig	Sat Nov 17 13:54:50 2007
 +++ heartbeat/Makefile.am	Sat Nov 17 13:55:19 2007
 @@ -85,10 +85,6 @@ EXTRA_DIST              = $(ha_DATA) $(ha_SCRIPTS)

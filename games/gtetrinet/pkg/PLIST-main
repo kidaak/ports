@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/gtetrinet/pkg/PLIST-main,v 1.5 2011/01/18 20:22:55 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gtetrinet
 @man man/man6/gtetrinet.6
 share/applications/gtetrinet.desktop

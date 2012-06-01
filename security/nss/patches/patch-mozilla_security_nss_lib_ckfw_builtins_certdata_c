@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/nss/patches/patch-mozilla_security_nss_lib_ckfw_builtins_certdata_c,v 1.12 2012/02/22 20:00:55 landry Exp $
+$OpenBSD$
 Don't handmerge it, cd to builtins and run gmake generate after patching certdata.txt
 --- mozilla/security/nss/lib/ckfw/builtins/certdata.c.orig	Sat Feb 18 22:41:45 2012
 +++ mozilla/security/nss/lib/ckfw/builtins/certdata.c	Wed Feb 22 20:50:04 2012

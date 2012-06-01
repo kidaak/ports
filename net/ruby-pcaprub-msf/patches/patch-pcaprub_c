@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ruby-pcaprub-msf/patches/patch-pcaprub_c,v 1.1.1.1 2010/12/23 10:29:52 stephan Exp $
+$OpenBSD$
 --- pcaprub.c.orig	Tue Dec 14 11:58:51 2010
 +++ pcaprub.c	Tue Dec 14 12:02:43 2010
 @@ -314,6 +314,7 @@ static VALUE

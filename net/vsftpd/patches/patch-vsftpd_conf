@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/vsftpd/patches/patch-vsftpd_conf,v 1.8 2009/10/23 22:50:00 sthen Exp $
+$OpenBSD$
 --- vsftpd.conf.orig	Mon Oct 19 03:04:23 2009
 +++ vsftpd.conf	Wed Oct 21 10:41:01 2009
 @@ -8,11 +8,17 @@

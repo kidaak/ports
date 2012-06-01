@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/gns3/Makefile,v 1.16 2011/12/12 11:04:04 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	graphical network simulator
 

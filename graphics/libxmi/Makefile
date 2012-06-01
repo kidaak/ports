@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libxmi/Makefile,v 1.2 2012/03/29 13:38:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		library for rasterizing 2-D vector graphics
 

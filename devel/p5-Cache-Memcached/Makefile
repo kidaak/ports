@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Cache-Memcached/Makefile,v 1.8 2010/11/15 19:46:01 espie Exp $
+# $OpenBSD$
 
 COMMENT= 	pure perl client interface to memcached
 

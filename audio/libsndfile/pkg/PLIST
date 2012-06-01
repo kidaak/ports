@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libsndfile/pkg/PLIST,v 1.10 2011/04/14 07:27:00 dcoppa Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/sndfile-cmp
 @bin bin/sndfile-concat

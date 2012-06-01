@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/vsftpd/patches/patch-builddefs_h,v 1.1 2005/07/03 18:06:37 aanriot Exp $
+$OpenBSD$
 --- builddefs.h.orig	Sat Mar 19 18:50:20 2005
 +++ builddefs.h	Sun Jul  3 11:26:28 2005
 @@ -1,9 +1,9 @@

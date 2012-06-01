@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/jailkit/pkg/PLIST,v 1.1.1.1 2010/09/20 07:15:30 sebastia Exp $
+@comment $OpenBSD$
 @mode 4755
 @bin bin/jk_uchroot
 @mode

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-App-CLI/pkg/PLIST,v 1.2 2010/11/24 15:52:07 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/App/
 ${P5SITE}/App/CLI/
 ${P5SITE}/App/CLI.pm

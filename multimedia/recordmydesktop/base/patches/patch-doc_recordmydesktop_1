@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/recordmydesktop/base/patches/patch-doc_recordmydesktop_1,v 1.2 2010/07/01 10:10:09 jakemsr Exp $
+$OpenBSD$
 
 sndio
 

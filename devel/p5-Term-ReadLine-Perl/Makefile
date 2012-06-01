@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Term-ReadLine-Perl/Makefile,v 1.3 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		minimal interface to Readline
 DISTNAME=		Term-ReadLine-Perl-1.0302

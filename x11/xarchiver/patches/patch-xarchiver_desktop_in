@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xarchiver/patches/patch-xarchiver_desktop_in,v 1.1 2010/05/09 07:59:31 ajacoutot Exp $
+$OpenBSD$
 --- xarchiver.desktop.in.orig	Sun May  9 07:41:56 2010
 +++ xarchiver.desktop.in	Sun May  9 07:42:28 2010
 @@ -11,4 +11,4 @@ Type=Application

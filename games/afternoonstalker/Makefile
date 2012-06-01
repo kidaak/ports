@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/afternoonstalker/Makefile,v 1.22 2011/07/08 22:39:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Night Stalker clone for X
 

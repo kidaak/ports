@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webkit/patches/patch-Source_JavaScriptCore_heap_MachineStackMarker_cpp,v 1.2 2012/04/03 15:39:35 landry Exp $
+$OpenBSD$
 --- Source/JavaScriptCore/heap/MachineStackMarker.cpp.orig	Wed Dec 28 09:50:13 2011
 +++ Source/JavaScriptCore/heap/MachineStackMarker.cpp	Mon Jan 16 17:54:07 2012
 @@ -365,8 +365,10 @@ static size_t getPlatformThreadRegisters(const Platfor

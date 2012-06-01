@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libproxy/patches/patch-libproxy_cmake_libproxy_cmk,v 1.3 2012/03/29 14:58:24 ajacoutot Exp $
+$OpenBSD$
 
 Do not link with -lpthread (we use -pthread in CMAKE_C*_FLAGS)
 

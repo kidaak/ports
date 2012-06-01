@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/workrave/patches/patch-configure,v 1.6 2011/09/13 07:50:51 jasper Exp $
+$OpenBSD$
 --- configure.orig	Tue Sep 13 09:25:49 2011
 +++ configure	Tue Sep 13 09:27:05 2011
 @@ -20763,13 +20763,13 @@ fi

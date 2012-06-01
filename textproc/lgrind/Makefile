@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/lgrind/Makefile,v 1.22 2010/11/22 09:38:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	LaTeX vgrind(1) look-alike
 

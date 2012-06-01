@@ -1,8 +1,9 @@
-# $OpenBSD: ports/java/Makefile,v 1.8 2011/09/21 13:38:40 jasper Exp $
+# $OpenBSD$
 #
 
      SUBDIR =
      SUBDIR += asm
+     SUBDIR += jBCrypt
      SUBDIR += java-getopt
      SUBDIR += javaPathHelper
      SUBDIR += jlint

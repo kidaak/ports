@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/lifelines/Makefile,v 1.9 2011/07/07 01:06:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		genealogical database and programming system
 DISTNAME=		lifelines-3.0.60

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/podbrowser/patches/patch-podbrowser_pl,v 1.1.1.1 2009/09/05 08:44:15 landry Exp $
+$OpenBSD$
 --- podbrowser.pl.orig	Fri Sep  4 04:15:06 2009
 +++ podbrowser.pl	Fri Sep  4 04:15:13 2009
 @@ -56,7 +56,7 @@ textdomain(lc($NAME));

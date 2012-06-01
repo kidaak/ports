@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/transmission/pkg/PLIST-qt,v 1.2 2010/12/12 20:42:39 naddy Exp $
+@comment $OpenBSD$
 @bin bin/transmission-qt
 @man man/man1/transmission-qt.1
 share/applications/transmission-qt.desktop

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/guile/Makefile,v 1.35 2010/11/17 08:05:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GNU's Ubiquitous Intelligent Language for Extension
 

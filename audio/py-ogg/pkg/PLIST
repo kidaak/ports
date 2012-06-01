@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/py-ogg/pkg/PLIST,v 1.3 2011/05/30 15:10:17 dcoppa Exp $
+@comment $OpenBSD$
 include/python${MODPY_VERSION}/pyogg/
 include/python${MODPY_VERSION}/pyogg/pyogg.h
 lib/python${MODPY_VERSION}/site-packages/ogg/

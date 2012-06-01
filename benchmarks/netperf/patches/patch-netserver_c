@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/netperf/patches/patch-netserver_c,v 1.1 2004/07/23 18:30:28 jakob Exp $
+$OpenBSD$
 --- netserver.c.orig	Fri Jul 23 20:23:01 2004
 +++ netserver.c	Fri Jul 23 20:24:52 2004
 @@ -730,10 +730,12 @@ struct sockaddr name;

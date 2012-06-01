@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mailman/Makefile,v 1.74 2012/02/16 22:27:56 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	mailing list manager with web interface
 

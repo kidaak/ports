@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/gtkspell/pkg/PLIST,v 1.8 2012/04/09 17:09:28 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gtkspell-2.0/
 include/gtkspell-2.0/gtkspell/

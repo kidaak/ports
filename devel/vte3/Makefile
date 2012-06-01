@@ -1,11 +1,11 @@
-# $OpenBSD: ports/devel/vte3/Makefile,v 1.14 2012/03/23 13:25:00 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 
 COMMENT=		terminal emulation library
 
 GNOME_PROJECT=		vte
-GNOME_VERSION=		0.32.0
+GNOME_VERSION=		0.32.2
 
 PKGNAME=		vte3-${GNOME_VERSION}
 

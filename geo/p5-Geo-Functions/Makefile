@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/p5-Geo-Functions/Makefile,v 1.5 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for geographic functions
 MODULES=	cpan

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/unrar/pkg/PLIST,v 1.5 2008/09/21 18:25:32 rui Exp $
+@comment $OpenBSD$
 @bin bin/unrar
 share/doc/unrar/
 share/doc/unrar/license.txt

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ufoai/base/Makefile,v 1.5 2012/03/28 20:53:58 kirby Exp $
+# $OpenBSD$
 
 SHARED_ONLY = 		Yes
 

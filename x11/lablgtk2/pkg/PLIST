@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/lablgtk2/pkg/PLIST,v 1.7 2011/01/19 23:36:18 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/gdk_pixbuf_mlsource
 bin/lablgladecc2

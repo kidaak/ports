@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/zh-bg5pdf/Makefile,v 1.3 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

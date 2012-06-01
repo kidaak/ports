@@ -1,4 +1,4 @@
-$OpenBSD: ports/inputmethods/uim/patches/patch-uim_uim_x_kana_input_hack_c,v 1.1 2010/09/19 19:01:14 jasper Exp $
+$OpenBSD$
 
 http://www.mail-archive.com/uim-en@googlegroups.com/msg00252.html
 

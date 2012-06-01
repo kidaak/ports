@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/powerdns/patches/patch-pdns_Makefile_in,v 1.4 2012/01/11 01:41:47 sthen Exp $
+$OpenBSD$
 
 Remove target that we take care of in post-install.
 

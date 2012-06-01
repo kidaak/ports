@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/weex/Makefile,v 1.12 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		noninteractive ftp client
 DISTNAME=		weex-2.6.1.5

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/daapd/patches/patch-libhttpd_src_select_h,v 1.1 2010/05/28 09:33:17 espie Exp $
+$OpenBSD$
 --- libhttpd/src/select.h.orig	Fri May 28 11:24:53 2010
 +++ libhttpd/src/select.h	Fri May 28 11:29:41 2010
 @@ -81,8 +81,11 @@ class Clients { (protected)

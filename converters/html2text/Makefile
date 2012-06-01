@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/html2text/Makefile,v 1.4 2010/11/15 00:22:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=		advanced HTML-to-text converter
 

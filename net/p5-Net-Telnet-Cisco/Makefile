@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Telnet-Cisco/Makefile,v 1.9 2010/11/19 22:31:36 espie Exp $
+# $OpenBSD$
 
 COMMENT=		module to interact with a Cisco router
 

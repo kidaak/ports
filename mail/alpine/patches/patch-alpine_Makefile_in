@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/alpine/patches/patch-alpine_Makefile_in,v 1.5 2010/10/23 19:41:47 jsg Exp $
+$OpenBSD$
 --- alpine/Makefile.in.orig	Tue Jun  3 17:54:15 2008
 +++ alpine/Makefile.in	Sat Oct 16 13:55:29 2010
 @@ -84,14 +84,14 @@ rpdump_LDADD = $(LDADD)

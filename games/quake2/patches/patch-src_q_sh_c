@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/quake2/patches/patch-src_q_sh_c,v 1.1.1.1 2007/03/16 18:26:01 claudio Exp $
+$OpenBSD$
 --- src/q_sh.c.orig	Sat Jan 21 23:29:07 2006
 +++ src/q_sh.c	Sat Jan 21 23:29:17 2006
 @@ -54,7 +54,7 @@ void *Hunk_Begin (int maxsize)

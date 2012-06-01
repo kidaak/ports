@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacity/patches/patch-src_FFmpeg_cpp,v 1.3 2009/10/28 18:40:13 jakemsr Exp $
+$OpenBSD$
 --- src/FFmpeg.cpp.orig	Mon Aug 31 03:45:39 2009
 +++ src/FFmpeg.cpp	Sat Oct 17 14:29:54 2009
 @@ -485,11 +485,13 @@ class FindFFmpegDialog : public wxDialog (public)

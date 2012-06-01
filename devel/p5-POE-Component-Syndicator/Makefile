@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-POE-Component-Syndicator/Makefile,v 1.1.1.1 2011/05/11 18:58:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		POE component base class implementing Observer pattern
 

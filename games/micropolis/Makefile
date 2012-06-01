@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/micropolis/Makefile,v 1.16 2011/11/18 11:31:10 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	city-building simulation
 

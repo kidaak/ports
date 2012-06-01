@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pyflakes/pkg/PLIST,v 1.2 2011/09/16 22:05:21 sthen Exp $
+@comment $OpenBSD$
 bin/pyflakes
 lib/python${MODPY_VERSION}/site-packages/pyflakes/
 lib/python${MODPY_VERSION}/site-packages/pyflakes-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

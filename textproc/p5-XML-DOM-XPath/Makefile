@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-DOM-XPath/Makefile,v 1.1.1.1 2010/12/22 20:15:57 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		extension to add XPath support to XML::DOM
 

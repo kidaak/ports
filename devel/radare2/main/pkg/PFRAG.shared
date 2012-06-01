@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/radare2/main/pkg/PFRAG.shared,v 1.2 2011/11/07 22:06:47 edd Exp $
+@comment $OpenBSD$
 @lib lib/libr_anal.so.${LIBr_anal_VERSION}
 @lib lib/libr_asm.so.${LIBr_asm_VERSION}
 @lib lib/libr_bin.so.${LIBr_bin_VERSION}

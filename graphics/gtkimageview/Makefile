@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gtkimageview/Makefile,v 1.10 2012/02/21 22:19:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	image viewer widget for gtk
 

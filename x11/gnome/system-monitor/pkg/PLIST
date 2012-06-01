@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/system-monitor/pkg/PLIST,v 1.6 2012/03/29 07:14:28 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gnome-system-monitor
 share/applications/gnome-system-monitor.desktop
 share/glib-2.0/schemas/org.gnome.gnome-system-monitor.enums.xml

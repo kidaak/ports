@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/xinha/Makefile,v 1.4 2011/03/14 09:17:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	online HTML editor
 

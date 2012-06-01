@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mp3blaster/patches/patch-mpegsound_mpegsound_h,v 1.1 2010/01/11 07:51:26 jakemsr Exp $
+$OpenBSD$
 --- mpegsound/mpegsound.h.orig	Sat Jan 24 07:25:11 2009
 +++ mpegsound/mpegsound.h	Sun Dec 27 16:39:14 2009
 @@ -433,6 +433,36 @@ class Rawplayer : public Soundplayer (private)

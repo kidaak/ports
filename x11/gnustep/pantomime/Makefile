@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/pantomime/Makefile,v 1.10 2011/06/24 10:56:41 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	framework to major mail protocols
 

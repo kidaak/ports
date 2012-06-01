@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-FormFu/pkg/PLIST,v 1.2 2012/04/07 19:50:59 sthen Exp $
+@comment $OpenBSD$
 bin/html_formfu_deploy.pl
 bin/html_formfu_dumpconf.pl
 ${P5SITE}/HTML/FormFu/

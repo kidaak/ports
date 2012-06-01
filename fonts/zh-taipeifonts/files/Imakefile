@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/zh-taipeifonts/files/Imakefile,v 1.1.1.1 2011/07/19 09:14:21 jasper Exp $
+# $OpenBSD$
 
 OBJS =  FontBaseObj(taipei16).gz  FontBaseObj(taipeik20).gz \
 	FontBaseObj(taipeim20).gz FontBaseObj(taipei24).gz \

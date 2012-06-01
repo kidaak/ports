@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gawk/Makefile,v 1.19 2011/09/21 09:20:07 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GNU awk
 

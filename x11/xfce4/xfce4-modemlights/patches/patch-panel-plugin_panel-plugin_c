@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfce4-modemlights/patches/patch-panel-plugin_panel-plugin_c,v 1.1.1.1 2009/06/04 04:18:39 landry Exp $
+$OpenBSD$
 --- panel-plugin/panel-plugin.c.orig	Thu Nov  8 01:28:58 2007
 +++ panel-plugin/panel-plugin.c	Wed Jun  3 22:16:33 2009
 @@ -26,6 +26,8 @@

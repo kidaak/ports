@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/ktsuss/pkg/PLIST,v 1.1.1.1 2009/06/18 19:45:14 landry Exp $
+@comment $OpenBSD$
 @mode 4555
 @bin bin/ktsuss
 @mode

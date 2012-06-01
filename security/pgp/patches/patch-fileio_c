@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pgp/patches/patch-fileio_c,v 1.1 2011/07/08 11:19:35 jasper Exp $
+$OpenBSD$
 --- fileio.c.orig	Wed Apr 24 18:53:56 1996
 +++ fileio.c	Fri Jul  8 13:16:26 2011
 @@ -1636,7 +1636,11 @@ char const *const manual_dirs[] =

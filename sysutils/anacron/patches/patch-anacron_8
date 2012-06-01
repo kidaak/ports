@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/anacron/patches/patch-anacron_8,v 1.1.1.1 2003/08/23 19:24:50 sturm Exp $
+$OpenBSD$
 --- anacron.8.orig	2003-08-13 20:35:38.000000000 +0200
 +++ anacron.8	2003-08-13 20:36:12.000000000 +0200
 @@ -18,7 +18,7 @@ to control daily, weekly, and monthly jo

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/dynagen/pkg/PLIST,v 1.2 2008/11/23 14:24:21 sthen Exp $
+@comment $OpenBSD$
 bin/dynagen
 lib/python${MODPY_VERSION}/site-packages/dynagen/
 lib/python${MODPY_VERSION}/site-packages/dynagen/__init__.py

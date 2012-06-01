@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/memtest86+/Makefile,v 1.8 2011/10/16 15:03:24 naddy Exp $
+# $OpenBSD$
 # $RuOBSD: Makefile,v 1.4 2009/02/07 10:28:55 form Exp $
 
 ONLY_FOR_ARCHS=		amd64 i386

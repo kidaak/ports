@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/relevant_content/Makefile,v 1.5 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	provides ways of referencing relevant content
 

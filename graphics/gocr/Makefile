@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gocr/Makefile,v 1.12 2012/01/27 04:12:19 william Exp $
+# $OpenBSD$
 
 COMMENT-main=	OCR software
 COMMENT-gui=	gocr tcl/tk frontend

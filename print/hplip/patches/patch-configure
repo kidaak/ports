@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-configure,v 1.10 2011/04/17 07:19:44 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Mon Mar 14 09:02:44 2011
 +++ configure	Sun Apr 17 08:43:04 2011
 @@ -20262,14 +20262,14 @@ LIBTOOL='$(SHELL) $(top_builddir)/libtool'

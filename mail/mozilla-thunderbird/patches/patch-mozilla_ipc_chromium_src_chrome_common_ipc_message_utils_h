@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mozilla-thunderbird/patches/patch-mozilla_ipc_chromium_src_chrome_common_ipc_message_utils_h,v 1.4 2012/02/20 20:17:49 landry Exp $
+$OpenBSD$
 
 Add new long long template, may not be best solution.
 

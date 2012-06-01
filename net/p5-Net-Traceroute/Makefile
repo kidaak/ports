@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Traceroute/Makefile,v 1.15 2011/03/10 17:58:23 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		traceroute(1) functionality in perl
 

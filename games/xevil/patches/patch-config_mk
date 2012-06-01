@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-config_mk,v 1.1 2007/12/07 15:54:56 ajacoutot Exp $
+$OpenBSD$
 --- config.mk.orig	Sun Mar 23 00:08:58 2003
 +++ config.mk	Fri Dec  7 14:50:49 2007
 @@ -34,7 +34,7 @@ TARGETS	    =   xevil

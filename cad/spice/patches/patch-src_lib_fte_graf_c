@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/spice/patches/patch-src_lib_fte_graf_c,v 1.1 2010/05/09 17:50:26 espie Exp $
+$OpenBSD$
 --- src/lib/fte/graf.c.orig	Sun May  9 19:20:13 2010
 +++ src/lib/fte/graf.c	Sun May  9 19:21:57 2010
 @@ -52,6 +52,8 @@ double *readtics();

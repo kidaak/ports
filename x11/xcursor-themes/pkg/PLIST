@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xcursor-themes/pkg/PLIST,v 1.2 2009/10/19 20:30:06 matthieu Exp $
+@comment $OpenBSD$
 lib/X11/icons/
 lib/X11/icons/handhelds/
 lib/X11/icons/handhelds/cursors/

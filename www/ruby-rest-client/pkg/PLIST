@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ruby-rest-client/pkg/PLIST,v 1.4 2010/11/08 23:24:45 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/restclient${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

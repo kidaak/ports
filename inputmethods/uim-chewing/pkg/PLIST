@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/uim-chewing/pkg/PLIST,v 1.2 2011/05/02 06:58:39 kevlo Exp $
+@comment $OpenBSD$
 @comment lib/uim/plugin/libuim-chewing.la
 lib/uim/plugin/libuim-chewing.so
 share/uim/chewing-custom.scm

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nssl/pkg/PLIST,v 1.1.1.1 2006/11/06 05:24:55 jolan Exp $
+@comment $OpenBSD$
 bin/nssl
 share/doc/nssl/
 share/doc/nssl/readme.txt

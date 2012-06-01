@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webacula/patches/patch-install_apache_webacula_conf,v 1.2 2012/02/01 12:59:06 ajacoutot Exp $
+$OpenBSD$
 --- install/apache/webacula.conf.orig	Sat Sep 10 22:22:55 2011
 +++ install/apache/webacula.conf	Tue Jan 31 17:34:51 2012
 @@ -5,17 +5,24 @@

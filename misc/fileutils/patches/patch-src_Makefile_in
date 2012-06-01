@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/fileutils/patches/patch-src_Makefile_in,v 1.4 2010/11/03 06:56:37 jasper Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun Apr 29 13:40:37 2001
 +++ src/Makefile.in	Wed Nov  3 07:55:57 2010
 @@ -135,7 +135,7 @@ noinst_HEADERS = \

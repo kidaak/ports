@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gnaughty/patches/patch-src_Makefile_in,v 1.2 2010/10/22 18:20:58 jasper Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Fri Oct 15 23:44:39 2010
 +++ src/Makefile.in	Fri Oct 22 18:24:12 2010
 @@ -124,7 +124,7 @@ LIBOBJS = @LIBOBJS@

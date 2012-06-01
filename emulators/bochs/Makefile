@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/bochs/Makefile,v 1.55 2012/01/12 17:01:47 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	x86 machine simulator
 

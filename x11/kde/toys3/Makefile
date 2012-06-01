@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/toys3/Makefile,v 1.53 2011/12/03 23:34:05 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT = 		some useless KDE applications
 CATEGORIES =		x11 x11/kde games

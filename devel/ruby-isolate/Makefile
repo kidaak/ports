@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-isolate/Makefile,v 1.5 2011/11/17 17:31:39 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	very simple RubyGems sandbox
 

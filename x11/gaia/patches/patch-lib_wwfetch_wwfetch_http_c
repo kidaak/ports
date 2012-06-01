@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gaia/patches/patch-lib_wwfetch_wwfetch_http_c,v 1.1 2008/05/15 19:34:20 naddy Exp $
+$OpenBSD$
 --- lib/wwfetch/wwfetch_http.c.orig	Thu May 15 19:12:32 2008
 +++ lib/wwfetch/wwfetch_http.c	Thu May 15 19:17:28 2008
 @@ -96,7 +96,7 @@ wwfetch_error wwfetch_do_http_request(wwfetch *handle,

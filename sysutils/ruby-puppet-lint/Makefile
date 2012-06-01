@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ruby-puppet-lint/Makefile,v 1.4 2011/10/05 07:53:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	ensure your Puppet manifests conform with the style guide
 

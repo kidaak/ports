@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/audacious/pkg/PLIST,v 1.13 2012/03/20 19:10:18 stsp Exp $
+@comment $OpenBSD$
 @bin bin/audacious
 @bin bin/audtool
 include/audacious/

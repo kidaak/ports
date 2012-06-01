@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/flickcurl/Makefile,v 1.10 2011/06/02 13:41:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		flickr API library and utility
 

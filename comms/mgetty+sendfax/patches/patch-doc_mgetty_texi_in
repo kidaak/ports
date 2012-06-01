@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/mgetty+sendfax/patches/patch-doc_mgetty_texi_in,v 1.3 2007/03/23 20:28:28 ajacoutot Exp $
+$OpenBSD$
 --- doc/mgetty.texi-in.orig	Fri Dec 30 22:43:49 2005
 +++ doc/mgetty.texi-in	Fri Mar 23 20:32:36 2007
 @@ -17,6 +17,11 @@ This is the online documentation for the mgetty + send

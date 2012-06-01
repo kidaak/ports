@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/asterisk-openbsd-moh/Makefile,v 1.12 2012/03/15 20:25:33 naddy Exp $
+# $OpenBSD$
 
 COMMENT =		add OpenBSD songs to Asterisk music-on-hold
 

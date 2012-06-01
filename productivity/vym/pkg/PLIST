@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/vym/pkg/PLIST,v 1.3 2010/03/30 19:21:28 jasper Exp $
+@comment $OpenBSD$
 @bin bin/vym
 share/doc/vym/
 share/doc/vym/vym.pdf

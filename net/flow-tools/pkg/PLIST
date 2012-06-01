@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/flow-tools/pkg/PLIST,v 1.12 2011/11/28 10:52:03 sthen Exp $
+@comment $OpenBSD$
 @newgroup _netflow:575
 @newuser _netflow:575:575:daemon:flow-tools user:/var/empty:/sbin/nologin
 @bin bin/flow-capture

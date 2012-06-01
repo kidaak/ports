@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tvtwm/patches/patch-parse_c,v 1.1 2010/05/23 11:29:45 espie Exp $
+$OpenBSD$
 --- parse.c.orig	Sun May 23 13:26:33 2010
 +++ parse.c	Sun May 23 13:27:06 2010
 @@ -81,6 +81,7 @@ static char **stringListSource, *currentString;

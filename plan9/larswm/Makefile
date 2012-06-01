@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/larswm/Makefile,v 1.26 2011/01/13 08:47:07 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	9wm with automatic window tiling and virtual desktops
 

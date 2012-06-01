@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/unrar/Makefile,v 1.56 2012/04/08 17:04:20 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	extract, list, and test RAR archives
 

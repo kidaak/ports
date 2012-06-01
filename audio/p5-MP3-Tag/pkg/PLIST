@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-MP3-Tag/pkg/PLIST,v 1.2 2011/01/02 13:31:56 benoit Exp $
+@comment $OpenBSD$
 bin/audio_rename
 bin/mp3info2
 bin/typeset_audio_dir

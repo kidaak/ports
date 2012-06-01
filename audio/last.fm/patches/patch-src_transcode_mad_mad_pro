@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_transcode_mad_mad_pro,v 1.2 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/transcode/mad/mad.pro.orig	Tue Nov  2 19:10:55 2010
 +++ src/transcode/mad/mad.pro	Tue Mar 29 12:26:43 2011
 @@ -10,8 +10,8 @@ win32 {

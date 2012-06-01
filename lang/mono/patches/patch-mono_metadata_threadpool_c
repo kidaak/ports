@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono/patches/patch-mono_metadata_threadpool_c,v 1.1 2012/04/13 11:51:49 robert Exp $
+$OpenBSD$
 --- mono/metadata/threadpool.c.orig	Thu Apr 12 17:40:21 2012
 +++ mono/metadata/threadpool.c	Thu Apr 12 17:40:34 2012
 @@ -1479,11 +1479,7 @@ async_invoke_thread (gpointer data)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/spawn-fcgi/Makefile,v 1.11 2011/01/15 10:56:51 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	spawn FastCGI processes
 

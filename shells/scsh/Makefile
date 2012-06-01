@@ -1,4 +1,4 @@
-# $OpenBSD: ports/shells/scsh/Makefile,v 1.25 2010/11/20 17:22:45 espie Exp $
+# $OpenBSD$
 
 NOT_FOR_ARCHS=		${LP64_ARCHS}
 

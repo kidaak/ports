@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/queryperf/pkg/PLIST,v 1.1.1.1 2009/05/25 20:20:19 sthen Exp $
+@comment $OpenBSD$
 @bin bin/queryperf
 share/doc/queryperf/
 share/doc/queryperf/README

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/p5-Compress-LZO/Makefile,v 1.29 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

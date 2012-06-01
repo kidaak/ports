@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/gocr/pkg/PLIST-gui,v 1.1.1.1 2006/10/30 08:17:30 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gocr.tcl

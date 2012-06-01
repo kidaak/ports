@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/sawfish/patches/patch-lisp_sawfish_cfg_widgets_frame-style_jl,v 1.1 2009/12/22 22:24:10 jasper Exp $
+$OpenBSD$
 --- lisp/sawfish/cfg/widgets/frame-style.jl.orig	Tue Dec 22 21:41:21 2009
 +++ lisp/sawfish/cfg/widgets/frame-style.jl	Tue Dec 22 21:41:44 2009
 @@ -113,9 +113,7 @@

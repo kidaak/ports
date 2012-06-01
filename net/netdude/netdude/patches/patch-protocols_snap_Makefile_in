@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-protocols_snap_Makefile_in,v 1.4 2007/09/26 20:21:06 rui Exp $
+$OpenBSD$
 --- protocols/snap/Makefile.in.orig	Fri Jul 27 17:08:05 2007
 +++ protocols/snap/Makefile.in	Fri Jul 27 17:08:49 2007
 @@ -79,7 +79,7 @@ HEADERS = $(pkginclude_HEADERS)

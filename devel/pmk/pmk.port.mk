@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pmk/pmk.port.mk,v 1.3 2010/11/15 19:46:07 espie Exp $
+# $OpenBSD$
 # Pre Make Kit support
 # public domain
 

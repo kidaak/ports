@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/kile/patches/patch-src_kile_kile_kcfg,v 1.3 2008/03/29 16:35:13 steven Exp $
+$OpenBSD$
 --- src/kile/kile.kcfg.orig	Fri Jul 27 10:56:00 2007
 +++ src/kile/kile.kcfg	Sat Mar 22 13:42:41 2008
 @@ -219,7 +219,7 @@

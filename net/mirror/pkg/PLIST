@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/mirror/pkg/PLIST,v 1.8 2004/09/15 18:17:41 espie Exp $
+@comment $OpenBSD$
 bin/do_unlinks
 bin/mirror
 bin/mirrormaster

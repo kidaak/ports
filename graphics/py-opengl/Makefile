@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/py-opengl/Makefile,v 1.10 2011/11/02 11:44:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		Python bindings for OpenGL
 MODPY_EGG_VERSION =	3.0.0

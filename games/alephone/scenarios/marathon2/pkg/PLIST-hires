@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/alephone/scenarios/marathon2/pkg/PLIST-hires,v 1.1.1.1 2008/07/09 16:56:43 phessler Exp $
+@comment $OpenBSD$
 share/alephone/Marathon2/Landscapes/
 share/alephone/Marathon2/Landscapes/1.jpg
 share/alephone/Marathon2/Landscapes/2.jpg

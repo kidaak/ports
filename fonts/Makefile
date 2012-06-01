@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/Makefile,v 1.5 2011/12/16 20:15:58 naddy Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += acrofonts
@@ -14,6 +14,7 @@
      SUBDIR += freefarsi-ttf
      SUBDIR += freefont-ttf
      SUBDIR += freefonts
+     SUBDIR += gohufont
      SUBDIR += inconsolata-font
      SUBDIR += intlfonts
      SUBDIR += ja-funetfonts

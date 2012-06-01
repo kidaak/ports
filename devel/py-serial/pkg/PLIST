@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-serial/pkg/PLIST,v 1.1.1.1 2009/06/05 04:29:22 wcmaier Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pyserial-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/pyserial-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/pyserial-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

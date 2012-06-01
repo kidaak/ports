@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/kipi-plugins/patches/patch-kipi-plugins_jpeglossless_utils_cpp,v 1.2 2009/09/10 16:43:41 sthen Exp $
+$OpenBSD$
 --- kipi-plugins/jpeglossless/utils.cpp.orig	Sat Oct 11 13:46:33 2008
 +++ kipi-plugins/jpeglossless/utils.cpp	Sun Jun 28 18:10:45 2009
 @@ -109,7 +109,8 @@ bool Utils::updateMetadataImageMagick(const QString& s

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/memtest86+/patches/patch-memtest_lds,v 1.1 2010/05/31 07:35:55 form Exp $
+$OpenBSD$
 --- memtest.lds.orig	Wed Apr 28 19:11:15 2010
 +++ memtest.lds	Mon May 31 14:04:33 2010
 @@ -3,7 +3,7 @@ OUTPUT_ARCH(i386);

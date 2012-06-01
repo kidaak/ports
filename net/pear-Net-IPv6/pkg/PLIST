@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pear-Net-IPv6/pkg/PLIST,v 1.2 2011/12/20 15:25:11 giovanni Exp $
+@comment $OpenBSD$
 @group daemon
 lib/
 lib/php/

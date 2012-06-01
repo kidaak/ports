@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xantfarm/Makefile,v 1.21 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	ant hill simulation on X11 root window
 

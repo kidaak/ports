@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ldistfp/Makefile,v 1.10 2011/03/14 20:49:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	remote identd fingerprinting tool
 

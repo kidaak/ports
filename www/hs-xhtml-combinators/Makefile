@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/hs-xhtml-combinators/Makefile,v 1.8 2011/09/16 12:00:06 espie Exp $
+# $OpenBSD$
 
 COMMENT =		fast and easy to use XHTML 1.0 Strict combinators
 

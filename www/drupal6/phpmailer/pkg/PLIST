@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/phpmailer/pkg/PLIST,v 1.2 2011/01/11 14:04:30 sthen Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}phpmailer/

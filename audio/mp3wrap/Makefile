@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mp3wrap/Makefile,v 1.2 2010/10/18 16:52:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	utility for mp3 wrapping
 

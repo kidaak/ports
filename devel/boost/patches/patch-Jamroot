@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boost/patches/patch-Jamroot,v 1.2 2010/04/21 09:26:58 landry Exp $
+$OpenBSD$
 --- Jamroot.orig	Sun Jan 24 21:43:34 2010
 +++ Jamroot	Wed Apr 21 09:38:38 2010
 @@ -138,6 +138,7 @@ import option ;

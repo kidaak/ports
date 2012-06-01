@@ -1,5 +1,5 @@
 #!/bin/sh
-# $OpenBSD: ports/infrastructure/fetch/distfiles-update-locatedb,v 1.1 2000/04/09 12:45:55 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2000 Marc Espie.
 # 

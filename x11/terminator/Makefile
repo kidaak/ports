@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/terminator/Makefile,v 1.6 2011/12/03 23:20:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GTK2 terminal emulator with split-window and tabs support
 

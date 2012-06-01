@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/nhc98/patches/patch-configure,v 1.3 2010/07/27 18:16:19 kili Exp $
+$OpenBSD$
 
 Don't be so picky about the compiler used to build nhc.
 Disable -m32 for now, not all archs support it.

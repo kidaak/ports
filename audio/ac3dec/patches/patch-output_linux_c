@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ac3dec/patches/patch-output_linux_c,v 1.1 2007/10/29 07:59:27 jakemsr Exp $
+$OpenBSD$
 --- output_linux.c.orig	Mon Oct 29 00:17:49 2007
 +++ output_linux.c	Mon Oct 29 00:23:37 2007
 @@ -33,6 +33,7 @@

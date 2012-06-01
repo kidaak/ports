@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gnaughty/patches/patch-src_gnaughty_c,v 1.2 2010/03/29 17:15:31 jasper Exp $
+$OpenBSD$
 --- src/gnaughty.c.orig	Mon Mar 29 19:02:41 2010
 +++ src/gnaughty.c	Mon Mar 29 19:06:02 2010
 @@ -70,6 +70,7 @@ const gchar *porntypes[]={"Sticky Movies", \

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tintin++/patches/patch-main_c,v 1.1 2007/10/26 22:10:06 ajacoutot Exp $
+$OpenBSD$
 --- main.c.orig	Sun Aug 28 16:12:06 1994
 +++ main.c	Sat Oct 27 00:05:07 2007
 @@ -562,7 +562,7 @@ void read_mud(ses)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/emelfm2/patches/patch-Makefile,v 1.6 2010/10/08 17:12:58 jasper Exp $
+$OpenBSD$
 --- Makefile.orig	Wed Mar  3 12:57:22 2010
 +++ Makefile	Fri Oct  8 19:08:52 2010
 @@ -140,7 +140,7 @@ LIBS_XOBJECTS = $(LIBS_XSOURCES:%.c=$(OBJECTS_DIR)/%.s

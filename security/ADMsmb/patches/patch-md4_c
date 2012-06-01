@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/ADMsmb/patches/patch-md4_c,v 1.1 2010/05/28 15:57:12 naddy Exp $
+$OpenBSD$
 --- md4.c.orig	Fri May 28 17:54:52 2010
 +++ md4.c	Fri May 28 17:55:07 2010
 @@ -25,6 +25,8 @@

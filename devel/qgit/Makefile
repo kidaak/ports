@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/qgit/Makefile,v 1.7 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT =	qt git repository viewer
 CATEGORIES =	devel x11

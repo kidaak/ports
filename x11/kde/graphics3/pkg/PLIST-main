@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/graphics3/pkg/PLIST-main,v 1.8 2011/12/03 23:37:39 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath x11/kde/graphics3
 @bin bin/kcolorchooser
 @bin bin/kcoloredit

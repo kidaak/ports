@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-XWhois/Makefile,v 1.4 2011/09/07 21:11:09 armani Exp $
+# $OpenBSD$
 
 COMMENT =	whois client interface for perl5
 

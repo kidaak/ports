@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/bzflag/Makefile,v 1.28 2011/10/18 07:56:40 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

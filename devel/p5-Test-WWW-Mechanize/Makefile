@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-WWW-Mechanize/Makefile,v 1.12 2012/04/07 20:04:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	test suite using WWW::Mechanize
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Traits-Pluggable/Makefile,v 1.1.1.1 2012/04/08 21:05:04 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	trait loading and resolution for Moose
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/freeimage/patches/patch-Makefile_gnu,v 1.2 2012/02/27 10:16:26 pascal Exp $
+$OpenBSD$
 --- Makefile.gnu.orig	Sun Feb 26 21:53:59 2012
 +++ Makefile.gnu	Sun Feb 26 21:58:20 2012
 @@ -5,8 +5,8 @@ include Makefile.srcs

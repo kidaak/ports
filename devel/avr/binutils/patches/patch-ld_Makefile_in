@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-ld_Makefile_in,v 1.4 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- ld/Makefile.in.orig	Sat Jun 26 11:23:45 2010
 +++ ld/Makefile.in	Sat Jun 26 11:31:17 2010
 @@ -434,6 +434,13 @@ ALL_EMULATIONS = \

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/jacal/Makefile,v 1.6 2010/11/22 09:28:34 espie Exp $
+# $OpenBSD$
 
 COMMENT=	symbolics math system
 

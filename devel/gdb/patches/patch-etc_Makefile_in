@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gdb/patches/patch-etc_Makefile_in,v 1.2 2012/03/03 19:22:42 pascal Exp $
+$OpenBSD$
 
 Don't bother installing GNU coding standards info.
 

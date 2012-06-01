@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/docbook-to-man/Makefile,v 1.11 2010/11/20 19:56:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	convert docbook to man
 CATEGORIES=	textproc converters

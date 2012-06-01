@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/mgdiff/pkg/PLIST,v 1.6 2011/04/10 18:02:55 jasper Exp $
+@comment $OpenBSD$
 @pkgpath textproc/mgdiff,lesstif
 @bin bin/mgdiff
 lib/X11/app-defaults/Mgdiff

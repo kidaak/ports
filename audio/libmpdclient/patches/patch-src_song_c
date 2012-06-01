@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmpdclient/patches/patch-src_song_c,v 1.2 2011/04/05 20:09:32 landry Exp $
+$OpenBSD$
 
 Fix build on gcc2.
 

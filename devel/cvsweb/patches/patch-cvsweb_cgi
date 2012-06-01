@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cvsweb/patches/patch-cvsweb_cgi,v 1.12 2006/02/04 17:01:36 naddy Exp $
+$OpenBSD$
 --- cvsweb.cgi.orig	Thu Sep 26 22:56:05 2002
 +++ cvsweb.cgi	Sat Feb  4 17:33:35 2006
 @@ -1,4 +1,4 @@

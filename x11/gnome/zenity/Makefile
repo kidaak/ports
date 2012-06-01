@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/zenity/Makefile,v 1.54 2012/03/30 14:09:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		dialogs for GNOME
 

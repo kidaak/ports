@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/Makefile,v 1.132 2012/03/31 12:40:59 jsing Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.89 1997/11/24 09:24:06 tg Exp $
 #
 
@@ -23,6 +23,7 @@
      SUBDIR += ezm3
      SUBDIR += feldspar
      SUBDIR += freehdl
+     SUBDIR += gambit
      SUBDIR += gawk
      SUBDIR += g77
      SUBDIR += g77-old
@@ -53,6 +54,7 @@
      SUBDIR += nbfc
      SUBDIR += newlisp
      SUBDIR += nhc98
+     SUBDIR += node
      SUBDIR += nqp
      SUBDIR += obc
      SUBDIR += ocaml
@@ -62,6 +64,7 @@
      SUBDIR += open-cobol
      SUBDIR += otcl
      SUBDIR += parrot
+     SUBDIR += pcc
      SUBDIR += petite-chez
      SUBDIR += pfe
      SUBDIR += php
@@ -69,6 +72,7 @@
      SUBDIR += processing
      SUBDIR += pugs
      SUBDIR += python
+     SUBDIR += railo
      SUBDIR += rakudo
      SUBDIR += rubinius
      SUBDIR += ruby

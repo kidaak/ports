@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/happy/Makefile,v 1.23 2011/06/30 21:30:20 kili Exp $
+# $OpenBSD$
 
 COMMENT=		parser generator for Haskell
 

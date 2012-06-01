@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/pinot/patches/patch-IndexSearch_cjkv_CJKVTokenizer_h,v 1.1 2012/03/25 10:10:22 ajacoutot Exp $
+$OpenBSD$
 
 error: #error "Only <glib.h> can be included directly."
 

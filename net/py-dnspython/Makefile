@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-dnspython/Makefile,v 1.16 2011/10/09 10:17:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		DNS toolkit for Python
 

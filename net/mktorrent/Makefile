@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mktorrent/Makefile,v 1.1.1.1 2009/03/10 13:43:05 stsp Exp $
+# $OpenBSD$
 
 COMMENT = 	command-line .torrent file creator
 

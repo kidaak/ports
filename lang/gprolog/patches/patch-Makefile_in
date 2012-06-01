@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gprolog/patches/patch-Makefile_in,v 1.1 2009/12/27 19:30:21 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Jan  4 05:21:49 2007
 +++ Makefile.in	Fri Jun 13 19:37:59 2008
 @@ -79,13 +79,13 @@ uninstall: uninstall-links uninstall-html uninstall-do

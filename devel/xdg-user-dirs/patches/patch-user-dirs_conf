@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/xdg-user-dirs/patches/patch-user-dirs_conf,v 1.1 2009/03/28 11:10:29 ajacoutot Exp $
+$OpenBSD$
 --- user-dirs.conf.orig	Sat Mar 28 12:08:22 2009
 +++ user-dirs.conf	Sat Mar 28 12:08:58 2009
 @@ -8,4 +8,4 @@ enabled=True

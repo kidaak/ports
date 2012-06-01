@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/vcdimager/patches/patch-docs_vcdimager_info,v 1.1 2010/06/27 21:20:43 ajacoutot Exp $
+$OpenBSD$
 --- docs/vcdimager.info.orig	Mon Jul 11 14:47:58 2005
 +++ docs/vcdimager.info	Sat Jun 26 17:30:33 2010
 @@ -20,7 +20,6 @@ INFO-DIR-SECTION Video CD Tools

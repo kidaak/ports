@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/gdal/patches/patch-swig_python_setup_py,v 1.2 2010/11/21 09:37:40 landry Exp $
+$OpenBSD$
 --- swig/python/setup.py.orig	Sun Nov  7 19:28:49 2010
 +++ swig/python/setup.py	Wed Nov 17 20:31:42 2010
 @@ -147,7 +147,7 @@ class gdal_ext(build_ext):

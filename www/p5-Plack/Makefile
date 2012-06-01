@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Plack/Makefile,v 1.4 2011/09/11 10:23:19 landry Exp $
+# $OpenBSD$
 
 COMMENT =		interface between perl web frameworks and web servers
 

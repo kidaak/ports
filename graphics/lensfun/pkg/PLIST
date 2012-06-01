@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/lensfun/pkg/PLIST,v 1.3 2010/11/04 20:14:43 jasper Exp $
+@comment $OpenBSD$
 @bin bin/tmod
 include/lensfun.h
 @lib lib/liblensfun.so.${LIBlensfun_VERSION}

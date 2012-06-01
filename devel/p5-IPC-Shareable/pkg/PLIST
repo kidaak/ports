@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-IPC-Shareable/pkg/PLIST,v 1.1.1.1 2007/09/06 18:10:48 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/IPC/
 ${P5SITE}/IPC/Shareable/
 ${P5SITE}/IPC/Shareable.pm

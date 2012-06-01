@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/seyon/patches/patch-SeDecl_h,v 1.2 2012/03/17 10:31:48 sthen Exp $
+$OpenBSD$
 --- SeDecl.h.orig	Fri Apr 23 11:09:50 1993
 +++ SeDecl.h	Sat Mar 17 10:27:59 2012
 @@ -23,8 +23,6 @@ extern char    *str_strip_lead_end_space(),

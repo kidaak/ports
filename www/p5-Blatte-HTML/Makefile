@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Blatte-HTML/Makefile,v 1.17 2010/11/22 08:36:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Blatte functions to generate (X)HTML
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/spawn-fcgi/patches/patch-configure_ac,v 1.1 2010/07/06 21:10:50 sthen Exp $
+$OpenBSD$
 --- configure.ac.orig	Tue Jul  6 15:22:08 2010
 +++ configure.ac	Tue Jul  6 15:22:43 2010
 @@ -69,7 +69,17 @@ fi

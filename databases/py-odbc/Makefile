@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-odbc/Makefile,v 1.8 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

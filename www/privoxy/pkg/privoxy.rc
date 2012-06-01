@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/privoxy/pkg/privoxy.rc,v 1.3 2011/10/14 09:57:51 merdely Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/privoxy"
 daemon_flags="--user _privoxy --chroot --pre-chroot-nslookup \

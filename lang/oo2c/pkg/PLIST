@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/oo2c/pkg/PLIST,v 1.1.1.1 2011/01/15 13:06:17 jasper Exp $
+@comment $OpenBSD$
 @bin bin/oo2c
 @bin bin/oob
 bin/oobacktrace

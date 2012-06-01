@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/sdl-mixer/pkg/PLIST,v 1.7 2012/04/05 11:41:32 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/playmus
 @bin bin/playwave

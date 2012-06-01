@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/appkonference/Makefile,v 1.10 2012/04/05 21:15:29 landry Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 COMMENT=	conferencing application for asterisk

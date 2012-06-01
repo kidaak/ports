@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nemesis/patches/patch-configure,v 1.4 2005/06/02 07:19:56 mjc Exp $
+$OpenBSD$
 --- configure.orig	Wed Oct  6 18:24:21 2004
 +++ configure	Wed Jun  1 13:01:24 2005
 @@ -4147,24 +4147,23 @@ fi

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/e2fsprogs/patches/patch-tests_u_mke2fs_script,v 1.1 2009/03/15 19:59:31 landry Exp $
+$OpenBSD$
 --- tests/u_mke2fs/script.orig	Sun Feb 22 12:52:58 2009
 +++ tests/u_mke2fs/script	Sun Feb 22 12:53:14 2009
 @@ -11,16 +11,16 @@ dd if=/dev/zero of=$TMPFILE bs=1k count=512 > /dev/nul

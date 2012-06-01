@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libunicode/Makefile,v 1.7 2010/11/15 19:46:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library for manipulating Unicode characters and strings
 

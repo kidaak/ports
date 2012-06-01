@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/p5-PostScript-MailLabels/Makefile,v 1.2 2011/12/14 14:23:53 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	create PostScript files of mailing address labels
 

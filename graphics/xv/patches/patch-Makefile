@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/xv/patches/patch-Makefile,v 1.2 2007/05/29 21:16:03 naddy Exp $
+$OpenBSD$
 --- Makefile.orig	Sun May 27 00:46:00 2007
 +++ Makefile	Sun May 27 01:14:26 2007
 @@ -1,7 +1,7 @@

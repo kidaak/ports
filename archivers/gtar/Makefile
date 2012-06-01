@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/gtar/Makefile,v 1.68 2011/10/17 11:14:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GNU version of the traditional tape archiver
 

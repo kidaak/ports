@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/emelfm2/pkg/PLIST,v 1.5 2009/12/21 20:46:01 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/emelfm2
 lib/emelfm2/

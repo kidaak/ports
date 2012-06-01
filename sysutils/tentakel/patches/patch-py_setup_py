@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/tentakel/patches/patch-py_setup_py,v 1.2 2009/02/08 22:42:56 sthen Exp $
+$OpenBSD$
 --- py/setup.py.orig	Sun Feb  8 12:23:08 2009
 +++ py/setup.py	Sun Feb  8 12:24:10 2009
 @@ -16,9 +16,8 @@ setup(

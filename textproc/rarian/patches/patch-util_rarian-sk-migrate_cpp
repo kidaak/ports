@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/rarian/patches/patch-util_rarian-sk-migrate_cpp,v 1.1 2009/02/15 13:41:41 ajacoutot Exp $
+$OpenBSD$
 
 Fix a Segmentation fault when argc is not fulfilled.
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/mpeg_encode/pkg/PLIST,v 1.2 2004/09/15 00:50:10 espie Exp $
+@comment $OpenBSD$
 bin/mpeg_encode
 @man man/man1/mpeg_encode.1
 share/doc/mpeg_encode/

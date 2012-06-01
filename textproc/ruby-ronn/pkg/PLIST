@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-ronn/pkg/PLIST,v 1.1.1.1 2011/11/17 15:31:19 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/ronn${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

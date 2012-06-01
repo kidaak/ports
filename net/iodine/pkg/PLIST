@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/iodine/pkg/PLIST,v 1.3 2009/03/30 09:17:45 sthen Exp $
+@comment $OpenBSD$
 @newgroup _iodine:598
 @newuser _iodine:598:598:daemon:Iodine User:/nonexistent:/sbin/nologin
 @man man/man8/iodine.8

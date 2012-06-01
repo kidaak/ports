@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/flash/patches/patch-Lib_sound_cc,v 1.2 2010/05/23 16:20:47 espie Exp $
+$OpenBSD$
 --- Lib/sound.cc.orig	Wed Sep  1 17:10:03 1999
 +++ Lib/sound.cc	Sat May 22 16:02:37 2010
 @@ -26,8 +26,12 @@
@@ -13,7 +13,7 @@ $OpenBSD: ports/graphics/flash/patches/patch-Lib_sound_cc,v 1.2 2010/05/23 16:20
 +#endif
  
  #ifdef RCSID
- static char *rcsid = "$Id: sound.cc,v 1.11 1999/01/31 21:14:22 olivier Exp $";
+ static char *rcsid = "$Id$";
 @@ -162,7 +166,7 @@ SoundMixer::SoundMixer(char *device)
  	}
  

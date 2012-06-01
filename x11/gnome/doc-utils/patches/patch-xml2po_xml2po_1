@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/doc-utils/patches/patch-xml2po_xml2po_1,v 1.1 2012/03/03 10:30:56 ajacoutot Exp $
+$OpenBSD$
 --- xml2po/xml2po.1.orig	Sat Mar  3 11:10:02 2012
 +++ xml2po/xml2po.1	Sat Mar  3 11:11:29 2012
 @@ -118,7 +118,7 @@ chapter2\&.xml

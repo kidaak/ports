@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/xmp/pkg/PLIST-main,v 1.3 2010/08/23 18:13:58 jasper Exp $
+@comment $OpenBSD$
 @pkgpath audio/xmp,no_xmms
 @pkgpath audio/xmp
 @bin bin/xmp

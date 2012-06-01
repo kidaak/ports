@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/gpstk/pkg/PLIST-devel,v 1.1.1.1 2008/06/07 23:27:17 ckuethe Exp $
+@comment $OpenBSD$
 include/gpstk/
 include/gpstk/ANSITime.hpp
 include/gpstk/ATSData.hpp

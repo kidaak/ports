@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/py-gstreamer/patches/patch-plugin_gstpythonplugin_c,v 1.1 2012/02/21 15:26:58 ajacoutot Exp $
+$OpenBSD$
 
 Needed for loading libgstpython.so:
 /usr/local/lib/libpythonX.Y.so.X.Y: undefined symbol 'forkpty'

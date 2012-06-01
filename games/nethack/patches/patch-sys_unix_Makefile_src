@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/nethack/patches/patch-sys_unix_Makefile_src,v 1.9 2010/05/19 07:27:25 espie Exp $
+$OpenBSD$
 --- sys/unix/Makefile.src.orig	Mon Dec  8 00:39:13 2003
 +++ sys/unix/Makefile.src	Wed May 19 06:01:29 2010
 @@ -1,6 +1,7 @@

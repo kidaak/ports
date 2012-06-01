@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Catalyst-Engine-Apache/pkg/PLIST,v 1.2 2007/12/09 18:25:01 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Engine/Apache/
 ${P5SITE}/Catalyst/Engine/Apache.pm
 ${P5SITE}/Catalyst/Engine/Apache/MP13.pm

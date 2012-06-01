@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/nautilus-open-terminal/Makefile,v 1.25 2011/11/04 09:56:29 jasper Exp $
+# $OpenBSD$
 
 # dlopen() module
 SHARED_ONLY=	Yes

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/rawdog/Makefile,v 1.23 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	RSS Aggregator Without Delusions Of Grandeur
 

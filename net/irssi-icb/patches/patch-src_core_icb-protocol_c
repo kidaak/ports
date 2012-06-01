@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi-icb/patches/patch-src_core_icb-protocol_c,v 1.4 2011/10/19 09:47:26 dcoppa Exp $
+$OpenBSD$
 
 Break lines longer than 255 chars
 

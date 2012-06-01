@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/arm-elf/gcc/Makefile,v 1.13 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	gcc for arm-elf cross-development
 

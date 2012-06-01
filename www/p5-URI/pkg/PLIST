@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-URI/pkg/PLIST,v 1.9 2009/12/28 09:09:55 stephan Exp $
+@comment $OpenBSD$
 ${P5SITE}/URI/
 ${P5SITE}/URI.pm
 ${P5SITE}/URI/Escape.pm

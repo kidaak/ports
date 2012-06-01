@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-Data-RandomPerson/pkg/PLIST,v 1.1.1.1 2007/10/08 14:10:24 steven Exp $
+@comment $OpenBSD$
 ${P5SITE}/Data/
 ${P5SITE}/Data/RandomPerson/
 ${P5SITE}/Data/RandomPerson.pm

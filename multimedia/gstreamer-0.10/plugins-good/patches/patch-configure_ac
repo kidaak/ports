@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-good/patches/patch-configure_ac,v 1.18 2012/02/21 08:46:08 ajacoutot Exp $
+$OpenBSD$
 --- configure.ac.orig	Tue Feb 21 00:26:32 2012
 +++ configure.ac	Tue Feb 21 09:16:15 2012
 @@ -516,6 +516,8 @@ AG_GST_CHECK_FEATURE(GST_V4L2, [Video 4 Linux 2], v4l2

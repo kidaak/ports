@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_testsuite_g++_old-deja_old-deja_exp,v 1.2 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/testsuite/g++.old-deja/old-deja.exp.orig	Tue Oct  9 12:16:17 2001
 +++ gcc/testsuite/g++.old-deja/old-deja.exp	Fri Jul 25 12:34:58 2008
 @@ -52,7 +52,7 @@ foreach file [lsort [find $srcdir/$subdir *.C]] {

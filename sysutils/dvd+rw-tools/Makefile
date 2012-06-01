@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/dvd+rw-tools/Makefile,v 1.10 2012/02/21 22:19:32 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		mastering tools for DVD+RW/+R/-R/-RW
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-cmn_locator_h,v 1.1 2007/12/07 15:54:56 ajacoutot Exp $
+$OpenBSD$
 --- cmn/locator.h.orig	Sat Mar 22 20:35:30 2003
 +++ cmn/locator.h	Fri Dec  7 14:48:13 2007
 @@ -47,8 +47,10 @@ the world. */

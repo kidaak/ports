@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/Makefile,v 1.486 2012/03/31 20:50:26 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.178 1997/11/24 05:32:52 fenner Exp $
 
      SUBDIR =
@@ -13,8 +13,6 @@
      SUBDIR += asclock
      SUBDIR += asfiles
      SUBDIR += astime
-     SUBDIR += aterm
-     SUBDIR += aterm,big5
      SUBDIR += autocutsel
      SUBDIR += awesome
      SUBDIR += awn
@@ -103,6 +101,7 @@
      SUBDIR += gtkdatabox
      SUBDIR += gtkglarea
      SUBDIR += gtkglext
+     SUBDIR += gtkglextmm
      SUBDIR += gtkhotkey
      SUBDIR += gtksourceview
      SUBDIR += gtksourceview3
@@ -115,6 +114,7 @@
      SUBDIR += hs-xmonad-contrib
      SUBDIR += human-icon-theme
      SUBDIR += i3
+     SUBDIR += i3status
      SUBDIR += icewm
      SUBDIR += icon-naming-utils
      SUBDIR += icontool
@@ -197,6 +197,7 @@
      SUBDIR += py-gtk2
      SUBDIR += py-kiwi
      SUBDIR += py-osd
+     SUBDIR += py-pyglet
      SUBDIR += py-qt3
      SUBDIR += py-qt4
      SUBDIR += py-wxPython

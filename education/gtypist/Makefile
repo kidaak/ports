@@ -1,4 +1,4 @@
-# $OpenBSD: ports/education/gtypist/Makefile,v 1.25 2011/11/30 18:57:49 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	interactive typing tutor
 

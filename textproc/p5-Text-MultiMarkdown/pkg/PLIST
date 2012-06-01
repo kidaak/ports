@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Text-MultiMarkdown/pkg/PLIST,v 1.3 2011/01/18 09:54:15 okan Exp $
+@comment $OpenBSD$
 @conflict p5-Text-Markdown->=1.0.19,<=1.0.24
 bin/MultiMarkdown.pl
 ${P5SITE}/Text/MultiMarkdown.pm

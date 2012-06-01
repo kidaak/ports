@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-rack-cache/Makefile,v 1.1.1.1 2011/12/13 17:38:07 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	HTTP Caching for Rack
 

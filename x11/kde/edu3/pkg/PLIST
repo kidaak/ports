@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/edu3/pkg/PLIST,v 1.35 2011/12/03 23:34:04 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/apmount
 @bin bin/blinken
 @bin bin/celestrongps

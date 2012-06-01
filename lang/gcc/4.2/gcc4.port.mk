@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gcc/4.2/gcc4.port.mk,v 1.15 2011/11/17 18:03:43 sthen Exp $
+# $OpenBSD$
 
 MODGCC4_ARCHS?=
 MODGCC4_LANGS?=

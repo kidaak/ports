@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-crm_Makefile_am,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- crm/Makefile.am.orig	Sat Nov 17 13:57:35 2007
 +++ crm/Makefile.am	Sat Nov 17 13:58:46 2007
 @@ -32,11 +32,3 @@ crm.dtd: crm-1.0.dtd

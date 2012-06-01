@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/grilo-mediaserver2/Makefile,v 1.2 2012/03/30 17:57:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	expose media content over D-Bus for Rygel to consume
 

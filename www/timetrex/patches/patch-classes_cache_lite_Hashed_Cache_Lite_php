@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/timetrex/patches/patch-classes_cache_lite_Hashed_Cache_Lite_php,v 1.2 2011/06/23 06:52:32 ajacoutot Exp $
+$OpenBSD$
 --- classes/cache_lite/Hashed_Cache_Lite.php.orig	Sun May 15 01:13:17 2011
 +++ classes/cache_lite/Hashed_Cache_Lite.php	Thu Jun 23 08:46:20 2011
 @@ -73,7 +73,7 @@ class Hashed_Cache_Lite extends Cache_Lite

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/atomicparsley/files/Makefile,v 1.1.1.1 2009/11/06 14:29:14 sthen Exp $
+# $OpenBSD$
 
 PROG=		AtomicParsley
 SRCS=		AP_commons.cpp AtomicParsley_genres.cpp AP_iconv.cpp \

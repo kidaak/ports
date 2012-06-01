@@ -1,0 +1,12 @@
+$OpenBSD$
+--- gcc/config/rs6000/sysv4.h.orig	Thu Apr 12 14:35:44 2012
++++ gcc/config/rs6000/sysv4.h	Thu Apr 12 14:36:06 2012
+@@ -989,7 +989,7 @@ ncrtn.o%s"
+ #endif
+ 
+ #ifndef CPP_OS_OPENBSD_SPEC
+-#define CPP_OS_OPENBSD_SPEC "%{posix:-D_POSIX_SOURCE} %{pthread:-D_POSIX_THREADS}"
++#define CPP_OS_OPENBSD_SPEC "%{posix:-D_POSIX_SOURCE} %{pthread:-D_REENTRANT}"
+ #endif
+ 
+ /* WindISS support.  */

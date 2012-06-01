@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Jabber/Makefile,v 1.5 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl interface to jabber
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-xpcom_reflect_xptcall_src_md_unix_Makefile_in,v 1.6 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 chunk 2: https://bugzilla.mozilla.org/show_bug.cgi?id=650749
 --- xpcom/reflect/xptcall/src/md/unix/Makefile.in.orig	Wed Dec  7 06:28:08 2011
 +++ xpcom/reflect/xptcall/src/md/unix/Makefile.in	Sat Dec 10 16:53:04 2011

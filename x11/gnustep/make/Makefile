@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/make/Makefile,v 1.30 2012/03/31 11:43:04 sebastia Exp $
+# $OpenBSD$
 
 # WARNING: this port does NOT use the x11/gnustep MODULE
 

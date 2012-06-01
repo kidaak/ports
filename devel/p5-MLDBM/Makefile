@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MLDBM/Makefile,v 1.18 2011/06/13 16:30:12 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	store multi-level hash structure in single-level tied hash
 

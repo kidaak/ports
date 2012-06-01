@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/darcs/patches/patch-tests_hunk-editor_sh,v 1.1 2011/04/05 11:45:14 kili Exp $
+$OpenBSD$
 --- tests/hunk-editor.sh.orig	Sun Mar 13 23:40:47 2011
 +++ tests/hunk-editor.sh	Mon Apr  4 16:18:14 2011
 @@ -34,7 +34,7 @@ echo 'version1' > file

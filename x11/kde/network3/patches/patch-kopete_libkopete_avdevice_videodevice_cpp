@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/network3/patches/patch-kopete_libkopete_avdevice_videodevice_cpp,v 1.3 2008/09/07 23:00:17 brad Exp $
+$OpenBSD$
 --- kopete/libkopete/avdevice/videodevice.cpp.orig	Wed Feb 13 16:03:06 2008
 +++ kopete/libkopete/avdevice/videodevice.cpp	Sun Jun 22 03:59:23 2008
 @@ -181,7 +181,7 @@ int VideoDevice::checkDevice()

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/dbuskit/Makefile,v 1.1.1.1 2011/05/14 08:32:30 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep dbus interface
 

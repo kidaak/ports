@@ -1,8 +1,8 @@
-# $OpenBSD: ports/devel/luapack/Makefile,v 1.10 2011/04/25 15:01:28 jolan Exp $
+# $OpenBSD$
 
 COMMENT=	library for packing and unpacking binary data
 DISTNAME=	luapack-20061124
-REVISION =	0
+REVISION =	1
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_BACKUP}
 
@@ -23,12 +23,10 @@ do-build:
 		${WRKSRC}/lpack.c -o ${WRKDIST}/pack.so
 
 do-install:
-	${INSTALL_DATA_DIR} ${MODLUA_LIBDIR}
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/luapack
-	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/luapack
+	${INSTALL_DATA_DIR} ${MODLUA_LIBDIR} ${MODLUA_DOCDIR} ${MODLUA_EXAMPLEDIR}
 	${INSTALL_DATA} ${WRKBUILD}/pack.so ${MODLUA_LIBDIR}
-	${INSTALL_DATA} ${WRKSRC}/README ${PREFIX}/share/doc/luapack
-	${INSTALL_DATA} ${WRKSRC}/test.lua ${PREFIX}/share/examples/luapack
+	${INSTALL_DATA} ${WRKSRC}/README ${MODLUA_DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/test.lua ${MODLUA_EXAMPLEDIR}
 
 do-regress:
 	lua ${WRKSRC}/test.lua

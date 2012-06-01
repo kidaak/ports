@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ez-ipupdate/Makefile,v 1.3 2010/07/12 22:07:38 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	small dynamic DNS updater written in C
 

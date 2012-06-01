@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/mysql/pkg/PLIST-server,v 1.35 2010/11/09 09:55:56 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _mysql:502
 @newuser _mysql:502:_mysql:daemon:MySQL Account:/nonexistent:/sbin/nologin
 @bin bin/innochecksum

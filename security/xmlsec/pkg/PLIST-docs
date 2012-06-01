@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/xmlsec/pkg/PLIST-docs,v 1.5 2011/04/03 10:59:50 jasper Exp $
+@comment $OpenBSD$
 share/doc/xmlsec1/
 share/doc/xmlsec1/api/
 share/doc/xmlsec1/api/home.png

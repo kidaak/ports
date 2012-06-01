@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/gnokii/patches/patch-configure,v 1.2 2009/01/26 10:59:14 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Mon Aug 28 00:37:13 2006
 +++ configure	Mon Jan 26 11:47:19 2009
 @@ -27413,7 +27413,7 @@ fi;

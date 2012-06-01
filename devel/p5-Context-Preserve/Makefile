@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Context-Preserve/Makefile,v 1.4 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		run code after a subroutine call
 

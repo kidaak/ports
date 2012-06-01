@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libstdc++-man/Makefile,v 1.2 2010/10/18 17:47:54 espie Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 COMMENT=	manpages for the standard C++ library

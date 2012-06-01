@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/pm3/pkg/PFRAG.shared,v 1.1.1.1 2001/05/05 22:09:21 espie Exp $
+@comment $OpenBSD$
 pm3/lib/m3/${M3ARCH}/libDiGraph.so.0.1
 pm3/lib/m3/${M3ARCH}/libGeometry.so.0.1
 pm3/lib/m3/${M3ARCH}/libImages.so.0.1

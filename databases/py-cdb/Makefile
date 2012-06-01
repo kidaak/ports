@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-cdb/Makefile,v 1.11 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Python extension module for accessing cdb databases
 

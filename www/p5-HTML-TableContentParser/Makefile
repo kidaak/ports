@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-TableContentParser/Makefile,v 1.9 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to parse the content of tables in HTML text
 

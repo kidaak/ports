@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/zoom/Makefile,v 1.15 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Z-code interpreter for X11
 

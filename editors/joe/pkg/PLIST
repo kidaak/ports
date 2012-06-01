@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/joe/pkg/PLIST,v 1.14 2009/02/01 09:45:09 sturm Exp $
+@comment $OpenBSD$
 bin/jmacs
 @bin bin/joe
 bin/jpico

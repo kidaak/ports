@@ -1,6 +1,6 @@
 #!/bin/ksh 
 #
-# $OpenBSD: ports/lang/clojure/files/clojure,v 1.8 2011/11/30 19:40:28 jasper Exp $
+# $OpenBSD$
 
 JAVA_CMD=$(javaPathHelper -c clojure)
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/p5-Finance-Bank-DE-DTA-Create/pkg/PLIST,v 1.1.1.1 2011/11/14 14:02:05 henning Exp $
+@comment $OpenBSD$
 ${P5SITE}/Finance/
 ${P5SITE}/Finance/Bank/
 ${P5SITE}/Finance/Bank/DE/

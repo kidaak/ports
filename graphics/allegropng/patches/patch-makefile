@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/allegropng/patches/patch-makefile,v 1.1.1.1 2009/10/15 14:39:10 phessler Exp $
+$OpenBSD$
 --- makefile.orig	Tue Jun  2 14:39:19 2009
 +++ makefile	Tue Jun  2 14:41:00 2009
 @@ -13,19 +13,19 @@ libalpng.a: $(OBJECTS)

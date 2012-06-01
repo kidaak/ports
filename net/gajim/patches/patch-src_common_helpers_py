@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gajim/patches/patch-src_common_helpers_py,v 1.1 2012/04/05 16:08:56 jasper Exp $
+$OpenBSD$
 
 port Gajim to use Farstream instead of Farsight2.
 from upstream changeset dfd58bb1ad06.

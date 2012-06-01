@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.6/pkg/PLIST-objc,v 1.1.1.1 2011/11/14 13:00:56 pascal Exp $
+@comment $OpenBSD$
 %%SHARED%%
 lib/gcc/${CONFIG}/${V}/include/objc/
 lib/gcc/${CONFIG}/${V}/include/objc/NXConstStr.h

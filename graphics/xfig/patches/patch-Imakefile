@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/xfig/patches/patch-Imakefile,v 1.10 2009/06/09 13:19:44 jasper Exp $
+$OpenBSD$
 --- Imakefile.pat.orig	Mon Mar 30 17:53:05 2009
 +++ Imakefile	Tue Jun  9 15:07:46 2009
 @@ -68,15 +68,16 @@ XCOMM #define XAW3D1_5E

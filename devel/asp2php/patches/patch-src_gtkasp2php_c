@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/asp2php/patches/patch-src_gtkasp2php_c,v 1.1 2003/01/02 06:40:55 pvalchev Exp $
+$OpenBSD$
 --- src/gtkasp2php.c.orig	Mon Jul 29 02:33:13 2002
 +++ src/gtkasp2php.c	Sun Dec 22 13:24:15 2002
 @@ -1,5 +1,6 @@

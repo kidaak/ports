@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/affiche/Makefile,v 1.1.1.1 2011/05/15 13:05:54 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep sticky notes
 

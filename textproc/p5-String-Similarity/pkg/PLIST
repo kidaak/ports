@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-String-Similarity/pkg/PLIST,v 1.4 2004/09/15 18:44:04 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/String/
 ${P5ARCH}/String/Similarity.pm

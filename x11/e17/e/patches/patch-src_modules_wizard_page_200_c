@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/e/patches/patch-src_modules_wizard_page_200_c,v 1.2 2011/01/16 01:00:11 laurent Exp $
+$OpenBSD$
 --- src/modules/wizard/page_200.c.orig	Sat Jan  8 16:25:59 2011
 +++ src/modules/wizard/page_200.c	Sat Jan  8 16:26:40 2011
 @@ -45,7 +45,7 @@ wizard_page_apply(E_Wizard_Page *pg __UNUSED__)

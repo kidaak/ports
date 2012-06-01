@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/klaxon/pkg/PLIST,v 1.1.1.1 2001/03/15 20:54:31 wilfried Exp $
+@comment $OpenBSD$
 sbin/klaxon

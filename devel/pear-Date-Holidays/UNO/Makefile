@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Date-Holidays/UNO/Makefile,v 1.3 2012/01/16 22:12:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	UNO holiday classes for PHP
 HOLNAME =	UNO-0.1.3

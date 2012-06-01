@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/intel2gas/pkg/PLIST,v 1.2 2004/09/15 19:16:08 espie Exp $
+@comment $OpenBSD$
 bin/intel2gas
 share/doc/intel2gas/
 share/doc/intel2gas/BUGS

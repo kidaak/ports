@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-accessible_src_atk_nsAppRootAccessible_cpp,v 1.2 2010/05/10 12:36:09 espie Exp $
+$OpenBSD$
 --- accessible/src/atk/nsAppRootAccessible.cpp.orig	Mon Mar 15 15:53:41 2010
 +++ accessible/src/atk/nsAppRootAccessible.cpp	Mon May 10 13:10:10 2010
 @@ -55,7 +55,7 @@ typedef GType (* AtkGetTypeType) (void);

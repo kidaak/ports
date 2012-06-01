@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Text-vFile-asData/pkg/PLIST,v 1.2 2011/04/10 20:33:22 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Text/
 ${P5SITE}/Text/vFile/
 ${P5SITE}/Text/vFile/asData.pm

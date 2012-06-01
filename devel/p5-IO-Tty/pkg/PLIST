@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-IO-Tty/pkg/PLIST,v 1.4 2004/09/14 23:43:59 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/IO/
 ${P5ARCH}/IO/Pty.pm

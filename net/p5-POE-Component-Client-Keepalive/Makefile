@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-POE-Component-Client-Keepalive/Makefile,v 1.7 2011/04/14 21:21:56 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	manage connections, with keep-alive
 

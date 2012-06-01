@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/disc-cover/pkg/PLIST,v 1.6 2009/08/24 15:17:11 sthen Exp $
+@comment $OpenBSD$
 bin/disc-cover
 @man man/man1/disc-cover.1
 share/disc-cover/

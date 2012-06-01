@@ -6,7 +6,7 @@ before checking it.
 if_hwaddr() was broken, code looping all interfaces was causing segmentation
 fault on freeifaddrs()
 
-$OpenBSD: ports/net/p5-IO-Interface/patches/patch-Interface_xs,v 1.2 2010/08/30 03:48:17 kevlo Exp $
+$OpenBSD$
 --- Interface.xs.orig	Fri Jun  6 16:51:42 2008
 +++ Interface.xs	Sun Aug 29 01:53:48 2010
 @@ -2,6 +2,9 @@

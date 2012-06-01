@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/clucene/patches/patch-test_tests_cpp,v 1.2 2008/10/28 16:20:57 espie Exp $
+$OpenBSD$
 --- test/tests.cpp.orig	Mon Jul 23 13:56:00 2007
 +++ test/tests.cpp	Wed Jul 30 15:32:01 2008
 @@ -8,7 +8,6 @@

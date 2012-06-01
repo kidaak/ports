@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/pcsxr/Makefile,v 1.5 2011/09/07 16:00:19 jeremy Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

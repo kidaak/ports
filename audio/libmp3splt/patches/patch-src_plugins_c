@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmp3splt/patches/patch-src_plugins_c,v 1.1.1.1 2009/02/11 15:44:30 kevlo Exp $
+$OpenBSD$
 --- src/plugins.c.orig	Fri Dec 11 23:40:28 2009
 +++ src/plugins.c	Fri Dec 11 23:41:47 2009
 @@ -31,6 +31,7 @@

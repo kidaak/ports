@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cmake/patches/patch-Modules_FindMPEG_cmake,v 1.4 2011/03/13 18:23:02 dcoppa Exp $
+$OpenBSD$
 --- Modules/FindMPEG.cmake.orig	Tue Feb 15 18:47:27 2011
 +++ Modules/FindMPEG.cmake	Mon Mar  7 10:07:32 2011
 @@ -20,25 +20,21 @@

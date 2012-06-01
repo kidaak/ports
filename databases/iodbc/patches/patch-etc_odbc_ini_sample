@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/iodbc/patches/patch-etc_odbc_ini_sample,v 1.1 2011/06/16 01:29:57 sthen Exp $
+$OpenBSD$
 --- etc/odbc.ini.sample.orig	Mon Jan 18 23:37:33 1999
 +++ etc/odbc.ini.sample	Thu Jun 16 02:23:15 2011
 @@ -1,22 +1,20 @@

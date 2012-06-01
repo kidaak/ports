@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Module-Versions-Report/Makefile,v 1.6 2010/12/03 11:44:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	report versions of all perl modules in memory
 

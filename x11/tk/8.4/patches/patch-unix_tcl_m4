@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tk/8.4/patches/patch-unix_tcl_m4,v 1.1 2009/01/16 00:02:32 sthen Exp $
+$OpenBSD$
 --- unix/tcl.m4.orig	Thu Apr 17 11:14:08 2008
 +++ unix/tcl.m4	Sun Sep 28 15:46:02 2008
 @@ -1501,21 +1501,15 @@ dnl AC_CHECK_TOOL(AR, ar)

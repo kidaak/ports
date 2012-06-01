@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/merkaartor/pkg/PFRAG.shared,v 1.4 2011/01/10 09:34:24 landry Exp $
+@comment $OpenBSD$
 lib/merkaartor/plugins/background/libMCadastreFranceBackgroundPlugin.so
 lib/merkaartor/plugins/background/libMMsBingMapBackgroundPlugin.so
 lib/merkaartor/plugins/background/libMWalkingPapersBackgroundPlugin.so

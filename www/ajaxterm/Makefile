@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ajaxterm/Makefile,v 1.13 2011/09/16 12:00:05 espie Exp $
+# $OpenBSD$
 
 COMMENT = 		web-based SSH client
 

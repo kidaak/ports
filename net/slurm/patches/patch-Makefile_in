@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/slurm/patches/patch-Makefile_in,v 1.1 2008/09/19 09:47:39 steven Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri Sep 19 10:07:48 2008
 +++ Makefile.in	Fri Sep 19 10:07:55 2008
 @@ -127,7 +127,7 @@ Makefile:  $(srcdir)/Makefile.in  $(top_builddir)/conf

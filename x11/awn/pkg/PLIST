@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/awn/pkg/PLIST,v 1.7 2011/12/03 23:34:04 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/avant-window-navigator
 @bin bin/awn-applet
 bin/awn-settings

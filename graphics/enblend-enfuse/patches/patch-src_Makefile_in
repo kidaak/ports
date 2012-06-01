@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/enblend-enfuse/patches/patch-src_Makefile_in,v 1.2 2010/07/11 20:09:00 sthen Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Wed Nov 25 09:16:30 2009
 +++ src/Makefile.in	Fri Nov 27 23:55:41 2009
 @@ -375,7 +375,7 @@ distclean-compile:

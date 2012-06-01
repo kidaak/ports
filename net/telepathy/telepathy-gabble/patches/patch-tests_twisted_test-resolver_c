@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/telepathy/telepathy-gabble/patches/patch-tests_twisted_test-resolver_c,v 1.2 2012/04/03 07:13:00 ajacoutot Exp $
+$OpenBSD$
 --- tests/twisted/test-resolver.c.orig	Mon Jan 30 20:40:56 2012
 +++ tests/twisted/test-resolver.c	Tue Apr  3 08:48:39 2012
 @@ -36,6 +36,7 @@

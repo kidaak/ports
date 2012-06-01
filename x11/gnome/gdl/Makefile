@@ -1,11 +1,11 @@
-# $OpenBSD: ports/x11/gnome/gdl/Makefile,v 1.31 2012/03/29 07:17:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GNOME Docking Library
 
 GNOME_PROJECT=		gdl
-GNOME_VERSION=		3.4.1
+GNOME_VERSION=		3.4.2
 
-SHARED_LIBS +=  gdl-3                2.0      # 2.0
+SHARED_LIBS +=  gdl-3                2.0      # 3.0
 
 # LGPLv2.1+
 PERMIT_PACKAGE_CDROM=	Yes

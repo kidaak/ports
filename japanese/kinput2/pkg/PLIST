@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/kinput2/pkg/PLIST,v 1.1 2004/09/16 23:06:04 espie Exp $
+@comment $OpenBSD$
 %%wnn%%
 bin/kinput2
 lib/X11/app-defaults/Kinput2

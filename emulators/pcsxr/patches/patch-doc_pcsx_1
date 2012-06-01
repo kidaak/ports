@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/pcsxr/patches/patch-doc_pcsx_1,v 1.1 2011/09/07 16:00:19 jeremy Exp $
+$OpenBSD$
 --- doc/pcsx.1.orig	Mon Aug  2 01:39:52 2010
 +++ doc/pcsx.1	Wed Sep  7 08:42:19 2011
 @@ -29,7 +29,6 @@ Loads savestate STATENUM

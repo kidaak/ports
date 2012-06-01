@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/log4cplus/Makefile,v 1.1.1.1 2012/03/26 09:06:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		logging API for C++
 

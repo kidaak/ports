@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/treewm/Makefile,v 1.12 2010/10/24 21:15:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		tree window manager
 DISTNAME=		treewm-0.4.5

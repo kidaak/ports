@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/openmsx/Makefile,v 1.7 2012/04/15 17:47:00 bentley Exp $
+# $OpenBSD$
 
 BROKEN-powerpc =CPUCore.cc:2347: error: insn does not satisfy its constraints
 

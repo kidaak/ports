@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ggz/ggz-gnome-client/Makefile,v 1.8 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GGZ Gaming Zone - GNOME client
 

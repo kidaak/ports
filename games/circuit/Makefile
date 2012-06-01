@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/circuit/Makefile,v 1.20 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT =	finish-the-cycle logic puzzle
 CATEGORIES =	games

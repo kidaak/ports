@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ccrypt/Makefile,v 1.18 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=	encrypt and decrypt AES files and streams
 

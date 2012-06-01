@@ -1,9 +1,8 @@
-# $OpenBSD: ports/mail/amavisd-new/Makefile,v 1.26 2012/03/14 09:17:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		interface between mailer MTA and content checkers
 
-DISTNAME=		amavisd-new-2.7.0
-REVISION=		2
+DISTNAME=		amavisd-new-2.7.1
 CATEGORIES=		mail security
 
 HOMEPAGE=		http://www.amavis.org/
@@ -24,7 +23,6 @@ MASTER_SITES=		${HOMEPAGE} \
 RUN_DEPENDS=		archivers/arc \
 			archivers/bzip2 \
 			archivers/cabextract \
-			archivers/lha \
 			archivers/lzop \
 			archivers/p5-Archive-Zip>=1.14 \
 			archivers/p7zip,-rar \

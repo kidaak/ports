@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-IRC/Makefile,v 1.15 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	modules to implement the irc protocol
 

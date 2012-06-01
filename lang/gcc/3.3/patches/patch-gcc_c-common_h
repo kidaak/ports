@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_c-common_h,v 1.2 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/c-common.h.orig	Sun Dec  1 19:51:44 2002
 +++ gcc/c-common.h	Fri Jul 25 12:34:57 2008
 @@ -501,7 +501,10 @@ extern int warn_format_nonliteral;

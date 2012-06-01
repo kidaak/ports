@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/scons/scons.port.mk,v 1.5 2011/07/05 15:17:26 sthen Exp $
+# $OpenBSD$
 
 BUILD_DEPENDS+=	devel/scons
 

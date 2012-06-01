@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/prelude/lml/patches/patch-prelude-lml_conf,v 1.1 2009/08/30 20:37:16 rui Exp $
+$OpenBSD$
 --- prelude-lml.conf.orig	Thu Aug 13 20:09:53 2009
 +++ prelude-lml.conf	Thu Aug 13 20:13:55 2009
 @@ -63,10 +63,27 @@ include = /home/yoann/dev/prelude/bin/etc/prelude/defa

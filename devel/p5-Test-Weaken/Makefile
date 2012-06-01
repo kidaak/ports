@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Weaken/Makefile,v 1.5 2011/10/02 14:02:23 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =	test that freed memory objects were, indeed, freed
 

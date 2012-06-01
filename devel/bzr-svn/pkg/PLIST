@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/bzr-svn/pkg/PLIST,v 1.2 2011/12/23 17:12:40 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/bzr_svn-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/bzrlib/plugins/svn/
 lib/python${MODPY_VERSION}/site-packages/bzrlib/plugins/svn/__init__.py

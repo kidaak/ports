@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-sendfile/Makefile,v 1.7 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =		portable sendfile functionality
 

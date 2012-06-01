@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-OpenSSL-RSA/Makefile,v 1.16 2012/01/07 13:48:39 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

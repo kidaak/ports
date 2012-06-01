@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/XawMu/Makefile,v 1.11 2010/10/24 21:15:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		modern look Athena widgets
 

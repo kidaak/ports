@@ -1,4 +1,4 @@
-$OpenBSD: ports/plan9/9wm/patches/patch-event_c,v 1.1 2011/07/08 09:44:02 jasper Exp $
+$OpenBSD$
 --- event.c.orig	Fri Jul  8 11:42:53 2011
 +++ event.c	Fri Jul  8 11:42:53 2011
 @@ -200,7 +200,7 @@ XMapRequestEvent *e;

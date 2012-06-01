@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/i18n3/pkg/PLIST-uz@cyrillic,v 1.2 2012/01/16 22:11:00 espie Exp $
+@comment $OpenBSD$
 @pkgpath x11/kde/i18n3,uz@cyrillic
 share/locale/uz@cyrillic/
 share/locale/uz@cyrillic/LC_MESSAGES/

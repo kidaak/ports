@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/faenza-icon-theme/pkg/PLIST,v 1.2 2011/12/03 19:13:18 ajacoutot Exp $
+@comment $OpenBSD$
 @unexec-delete rm -f %D/share/icons/Faenza/icon-theme.cache
 @unexec-delete rm -f %D/share/icons/Faenza-Ambiance/icon-theme.cache
 @unexec-delete rm -f %D/share/icons/Faenza-Dark/icon-theme.cache

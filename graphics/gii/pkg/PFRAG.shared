@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gii/pkg/PFRAG.shared,v 1.8 2005/12/27 12:46:51 steven Exp $
+@comment $OpenBSD$
 lib/ggi/filter/keytrans.so
 lib/ggi/filter/mouse.so
 lib/ggi/filter/save.so

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTTP-GHTTP/pkg/PLIST,v 1.6 2004/09/15 18:49:52 espie Exp $
+@comment $OpenBSD$
 bin/g-request
 ${P5ARCH}/
 ${P5ARCH}/HTTP/

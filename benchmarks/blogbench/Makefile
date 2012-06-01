@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/blogbench/Makefile,v 1.3 2010/10/18 16:57:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	filesystem benchmark
 

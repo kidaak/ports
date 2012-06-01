@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/jwm/Makefile,v 1.13 2011/11/07 22:16:28 edd Exp $
+# $OpenBSD$
 
 COMMENT=		Joe's Window Manager
 

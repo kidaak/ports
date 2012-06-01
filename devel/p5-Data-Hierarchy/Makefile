@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Hierarchy/Makefile,v 1.9 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	handle data in a hierarchical structure
 

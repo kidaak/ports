@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/gstreamer-0.10/plugins-ugly/Makefile,v 1.30 2012/03/05 15:22:08 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main =		ugly elements for GStreamer
 COMMENT-sidplay =	sidplay element for GStreamer (plugins-ugly)

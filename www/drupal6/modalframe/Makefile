@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/modalframe/Makefile,v 1.5 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	API to render an iframe within a modal dialog
 

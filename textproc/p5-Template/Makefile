@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Template/Makefile,v 1.12 2010/11/20 19:56:50 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

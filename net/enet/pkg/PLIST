@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/enet/pkg/PLIST,v 1.3 2011/06/29 09:06:17 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/enet/
 include/enet/callbacks.h

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wmtime/patches/patch-wmtime_Makefile,v 1.1.1.1 2000/12/26 18:22:14 naddy Exp $
+$OpenBSD$
 --- wmtime/Makefile.orig	Tue May 19 23:04:53 1998
 +++ wmtime/Makefile	Tue Dec 26 19:02:32 2000
 @@ -1,18 +1,23 @@

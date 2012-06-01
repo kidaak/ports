@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_c-typeck_c,v 1.1 2011/07/08 11:42:09 jasper Exp $
+$OpenBSD$
 --- gcc/c-typeck.c.orig	Thu Apr  1 18:20:12 2004
 +++ gcc/c-typeck.c	Fri Jul  8 13:38:32 2011
 @@ -3232,18 +3232,19 @@ static void

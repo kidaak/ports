@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libgnomeui/Makefile,v 1.55 2011/10/29 08:12:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		user interface components for GNOME
 

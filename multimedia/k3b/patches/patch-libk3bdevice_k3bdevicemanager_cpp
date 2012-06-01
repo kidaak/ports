@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/k3b/patches/patch-libk3bdevice_k3bdevicemanager_cpp,v 1.1.1.1 2008/05/11 22:18:35 jakemsr Exp $
+$OpenBSD$
 --- libk3bdevice/k3bdevicemanager.cpp.orig	Fri Nov  2 02:55:06 2007
 +++ libk3bdevice/k3bdevicemanager.cpp	Thu Jan 17 21:45:15 2008
 @@ -97,7 +97,7 @@ typedef unsigned char u8;

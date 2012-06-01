@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Shorten/Makefile,v 1.4 2012/04/07 08:29:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		interface to URL shortening sites
 

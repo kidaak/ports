@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/py-numpy/pkg/PLIST,v 1.9 2011/05/27 10:06:12 eric Exp $
+@comment $OpenBSD$
 bin/f2py${MODPY_VERSION}
 lib/python${MODPY_VERSION}/site-packages/numpy/
 lib/python${MODPY_VERSION}/site-packages/numpy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/

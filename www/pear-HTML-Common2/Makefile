@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/pear-HTML-Common2/Makefile,v 1.12 2011/09/16 12:00:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	base package for HTML handling in PHP5
 

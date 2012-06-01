@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/groff/pkg/PLIST,v 1.5 2011/12/04 15:41:26 schwarze Exp $
+@comment $OpenBSD$
 @conflict groff-mdoc-*
 @pkgpath textproc/groff.mdoc
 @bin bin/addftinfo

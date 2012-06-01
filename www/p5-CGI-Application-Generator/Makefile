@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CGI-Application-Generator/Makefile,v 1.4 2010/11/22 08:36:50 espie Exp $
+# $OpenBSD$
 
 COMMENT= 	skeleton for application based on CGI::Application
 

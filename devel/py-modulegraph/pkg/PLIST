@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-modulegraph/pkg/PLIST,v 1.1.1.1 2011/03/07 22:18:43 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/modulegraph/
 lib/python${MODPY_VERSION}/site-packages/modulegraph-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/modulegraph-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/grpn/Makefile,v 1.25 2011/11/03 20:28:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	graphical reverse polish notation calculator
 

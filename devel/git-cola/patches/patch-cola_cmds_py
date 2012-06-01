@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/git-cola/patches/patch-cola_cmds_py,v 1.1 2011/03/09 18:15:23 jasper Exp $
+$OpenBSD$
 --- cola/cmds.py.orig	Wed Mar  9 19:11:33 2011
 +++ cola/cmds.py	Wed Mar  9 19:12:25 2011
 @@ -509,7 +509,7 @@ class OpenRepo(Command):

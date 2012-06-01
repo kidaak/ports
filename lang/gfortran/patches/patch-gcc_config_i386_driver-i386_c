@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_config_i386_driver-i386_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/config/i386/driver-i386.c.orig	Fri Dec 29 07:09:06 2006
 +++ gcc/config/i386/driver-i386.c	Mon Jun 14 19:23:04 2010
 @@ -269,7 +269,7 @@ const char *host_detect_local_cpu (int argc, const cha

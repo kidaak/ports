@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libdnsres/Makefile,v 1.6 2011/09/21 17:20:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	non-blocking thread-safe API for resolving DNS names
 

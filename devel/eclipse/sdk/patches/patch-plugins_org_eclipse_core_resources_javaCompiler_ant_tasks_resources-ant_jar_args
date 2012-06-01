@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_core_resources_javaCompiler_ant_tasks_resources-ant_jar_args,v 1.1 2006/07/07 01:48:55 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.core.resources/javaCompiler.ant_tasks_resources-ant.jar.args.orig	Wed Jun  7 00:07:37 2006
 +++ plugins/org.eclipse.core.resources/javaCompiler.ant_tasks_resources-ant.jar.args	Wed Jun  7 00:08:08 2006
 @@ -34,6 +34,10 @@

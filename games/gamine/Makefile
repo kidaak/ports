@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/gamine/Makefile,v 1.6 2011/12/03 19:49:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interactive game for young children
 

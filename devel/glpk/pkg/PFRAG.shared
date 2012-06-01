@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/glpk/pkg/PFRAG.shared,v 1.1.1.1 2007/11/29 13:53:03 okan Exp $
+@comment $OpenBSD$
 @lib lib/libglpk.so.${LIBglpk_VERSION}

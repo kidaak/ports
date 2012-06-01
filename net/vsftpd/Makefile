@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/vsftpd/Makefile,v 1.31 2011/07/04 18:28:27 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		ftp daemon which aims to be secure
 

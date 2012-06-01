@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-MIME-Charset/Makefile,v 1.4 2011/06/25 18:01:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	charset Informations for MIME
 

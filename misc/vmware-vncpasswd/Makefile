@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/vmware-vncpasswd/Makefile,v 1.2 2009/12/07 19:16:02 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	obfuscate passwords for VMware RemoteDisplay.vnc.key
 

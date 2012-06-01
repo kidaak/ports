@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/snipe2d/patches/patch-configure,v 1.1.1.1 2009/10/11 21:50:14 edd Exp $
+$OpenBSD$
 --- configure.orig	Thu Oct 19 05:38:43 2006
 +++ configure	Sun Oct 11 22:56:54 2009
 @@ -6774,22 +6774,12 @@ _ACEOF

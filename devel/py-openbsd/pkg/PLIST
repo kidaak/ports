@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-openbsd/pkg/PLIST,v 1.2 2009/10/11 20:59:37 jasper Exp $
+@comment $OpenBSD$
 bin/pfreport
 bin/plog
 lib/python${MODPY_VERSION}/site-packages/Python_OpenBSD_bindings-0.1.2-py${MODPY_VERSION}.egg-info

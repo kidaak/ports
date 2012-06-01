@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_builtins_c,v 1.1 2012/03/31 20:02:03 pascal Exp $
+$OpenBSD$
 --- gcc/builtins.c.orig	Sun Mar 11 19:11:50 2012
 +++ gcc/builtins.c	Sun Mar 11 19:12:42 2012
 @@ -6112,9 +6112,11 @@ expand_builtin (tree exp, rtx target, rtx subtarget, e

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-base_atomicops_h,v 1.6 2011/10/27 07:59:08 robert Exp $
+$OpenBSD$
 --- base/atomicops.h.orig	Fri Oct 21 10:30:02 2011
 +++ base/atomicops.h	Wed Oct 26 13:37:46 2011
 @@ -50,7 +50,11 @@ typedef intptr_t Atomic64;

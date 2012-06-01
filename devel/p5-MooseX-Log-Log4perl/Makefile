@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Log-Log4perl/Makefile,v 1.8 2011/08/01 19:30:31 stephan Exp $
+# $OpenBSD$
 
 COMMENT = 	logging Role with easy interface for Moose
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ipaudit/Makefile,v 1.8 2010/11/19 22:31:33 espie Exp $
+# $OpenBSD$
 
 COMMENT=		IP traffic summarizer
 

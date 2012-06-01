@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Task-Weaken/Makefile,v 1.8 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		ensure that a platform has weaken support
 

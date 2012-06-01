@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/leptonica/pkg/PLIST,v 1.1.1.1 2011/12/22 09:46:46 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/adaptmaptest
 @bin bin/adaptnorm_reg

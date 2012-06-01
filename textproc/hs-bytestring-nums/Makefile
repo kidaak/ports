@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hs-bytestring-nums/Makefile,v 1.5 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =		parse numeric literals from bytestrings
 

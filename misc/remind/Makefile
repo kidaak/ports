@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/remind/Makefile,v 1.29 2010/11/19 07:23:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	scripting language for reminders, with a Tk front end
 

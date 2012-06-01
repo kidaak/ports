@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Ogg-Vorbis-Header/Makefile,v 1.10 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

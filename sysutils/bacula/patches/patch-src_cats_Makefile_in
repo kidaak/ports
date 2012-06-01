@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/patches/patch-src_cats_Makefile_in,v 1.3 2012/03/06 20:11:33 sthen Exp $
+$OpenBSD$
 --- src/cats/Makefile.in.orig	Wed Jan 18 14:57:49 2012
 +++ src/cats/Makefile.in	Tue Jan 24 01:09:59 2012
 @@ -142,25 +142,25 @@ libbaccats.a: $(LIBBACCATS_OBJS)

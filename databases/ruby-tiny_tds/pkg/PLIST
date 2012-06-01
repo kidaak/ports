@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/ruby-tiny_tds/pkg/PLIST,v 1.2 2011/09/09 00:47:23 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/.gitignore

@@ -1,0 +1,12 @@
+$OpenBSD$
+--- 3rdparty/dyncall/dyncallback/dyncall_callback_ppc32.c.orig	Wed May  9 15:41:23 2012
++++ 3rdparty/dyncall/dyncallback/dyncall_callback_ppc32.c	Wed May  9 15:41:37 2012
+@@ -35,7 +35,7 @@ void dcbInitCallback(DCCallback* pcb, const char* sign
+   pcb->userdata = userdata;
+ }
+ 
+-extern void dcCallbackThunkEntry();
++extern void dcCallbackThunkEntry(void);
+ 
+ DCCallback* dcbNewCallback(const char* signature, DCCallbackHandler* handler, void* userdata)
+ {

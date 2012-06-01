@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/makefaq/Makefile,v 1.13 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Python program to create FAQ's list from formatted data file
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Role-Parameterized/Makefile,v 1.9 2011/08/01 19:30:31 stephan Exp $
+# $OpenBSD$
 
 COMMENT =	roles with composition parameters
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/edu/patches/patch-kalgebra_calgebra_main_cpp,v 1.1 2010/06/19 18:43:38 espie Exp $
+$OpenBSD$
 --- kalgebra/calgebra/main.cpp.orig	Sat Jun 19 15:05:33 2010
 +++ kalgebra/calgebra/main.cpp	Sat Jun 19 15:06:13 2010
 @@ -100,8 +100,13 @@ int main(int argc, char *argv[])

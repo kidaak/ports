@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/aget/Makefile,v 1.1.1.1 2008/11/18 12:48:41 okan Exp $
+# $OpenBSD$
 
 COMMENT =	multi threaded HTTP download accelerator
 DISTNAME =	aget-0.4

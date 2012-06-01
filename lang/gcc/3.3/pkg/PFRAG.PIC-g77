@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/3.3/pkg/PFRAG.PIC-g77,v 1.1.1.1 2005/01/03 15:21:30 espie Exp $
+@comment $OpenBSD$
 lib/fpic/libfrtbegin.a
 lib/fpic/libg2c.a
 lib/fpic/libg2c.la

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/clines/Makefile,v 1.7 2011/05/11 06:56:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		curses-based Lines game
 

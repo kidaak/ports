@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/lame/patches/patch-configure,v 1.4 2011/10/23 09:14:19 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Wed Apr 20 14:53:26 2011
 +++ configure	Sun Oct 23 11:11:59 2011
 @@ -11044,7 +11044,7 @@ LIB_MAJOR_VERSION=0

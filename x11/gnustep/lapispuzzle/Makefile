@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/lapispuzzle/Makefile,v 1.5 2012/01/08 12:03:09 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	tetris like puzzle game
 

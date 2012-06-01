@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-DOM/Makefile,v 1.21 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to build DOM Level 1 structures
 

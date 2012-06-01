@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/windowmaker-extra/pkg/PLIST,v 1.2 2004/09/15 19:26:32 espie Exp $
+@comment $OpenBSD$
 share/WindowMaker/Icons/Ant.xpm
 share/WindowMaker/Icons/Antennae.xpm
 share/WindowMaker/Icons/Bee48x48.xpm

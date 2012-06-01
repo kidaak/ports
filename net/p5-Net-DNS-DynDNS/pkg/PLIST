@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-DNS-DynDNS/pkg/PLIST,v 1.2 2011/03/16 23:14:44 jasper Exp $
+@comment $OpenBSD$
 @comment ${P5ARCH}/Net/DNS/FAQ.pod
 ${P5SITE}/Net/DNS/
 ${P5SITE}/Net/DNS/DynDNS.pm

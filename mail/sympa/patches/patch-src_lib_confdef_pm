@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/sympa/patches/patch-src_lib_confdef_pm,v 1.2 2010/12/30 17:51:25 landry Exp $
+$OpenBSD$
 --- src/lib/confdef.pm.orig	Mon Nov 15 09:32:17 2010
 +++ src/lib/confdef.pm	Mon Dec 20 16:55:44 2010
 @@ -47,7 +47,7 @@ our @params = (

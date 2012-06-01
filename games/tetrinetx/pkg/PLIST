@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/tetrinetx/pkg/PLIST,v 1.1.1.1 2007/09/06 17:58:55 simon Exp $
+@comment $OpenBSD$
 bin/tetrinetx
 share/doc/tetrinetx/
 share/doc/tetrinetx/README

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-xmldiff/pkg/PLIST,v 1.1.1.1 2010/09/21 20:31:13 jasper Exp $
+@comment $OpenBSD$
 bin/xmldiff
 bin/xmlrev
 lib/python${MODPY_VERSION}/site-packages/xmldiff/

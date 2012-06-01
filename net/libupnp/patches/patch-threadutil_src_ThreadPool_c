@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libupnp/patches/patch-threadutil_src_ThreadPool_c,v 1.1.1.1 2010/03/22 22:25:50 ajacoutot Exp $
+$OpenBSD$
 --- threadutil/src/ThreadPool.c.orig	Tue Feb  9 12:15:59 2010
 +++ threadutil/src/ThreadPool.c	Tue Feb  9 12:17:04 2010
 @@ -389,7 +389,7 @@ static void SetSeed()

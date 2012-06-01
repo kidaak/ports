@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boehm-gc/patches/patch-libatomic_ops-1_2_src_atomic_ops_sysdeps_gcc_mips_h,v 1.1 2008/04/01 17:41:13 kurt Exp $
+$OpenBSD$
 --- libatomic_ops-1.2/src/atomic_ops/sysdeps/gcc/mips.h.orig	Fri Mar 21 14:01:24 2008
 +++ libatomic_ops-1.2/src/atomic_ops/sysdeps/gcc/mips.h	Fri Mar 21 14:01:24 2008
 @@ -0,0 +1,89 @@

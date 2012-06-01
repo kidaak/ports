@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/omake/patches/patch-src_exec_omake_exec_ml,v 1.1 2009/03/11 21:21:17 avsm Exp $
+$OpenBSD$
 --- src/exec/omake_exec.ml.orig	Thu Nov 27 14:20:45 2008
 +++ src/exec/omake_exec.ml	Thu Nov 27 14:20:50 2008
 @@ -46,8 +46,6 @@ open Omake_exec_notify

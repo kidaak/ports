@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/libs3/patches/patch-dcop_dcopidl_Makefile_in,v 1.2 2008/08/26 16:52:29 espie Exp $
+$OpenBSD$
 --- dcop/dcopidl/Makefile.in.orig	Wed Aug 20 18:05:55 2008
 +++ dcop/dcopidl/Makefile.in	Thu Aug 21 00:03:57 2008
 @@ -409,7 +409,7 @@ AM_LDFLAGS = $(all_libraries)

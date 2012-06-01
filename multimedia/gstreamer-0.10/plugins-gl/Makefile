@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/gstreamer-0.10/plugins-gl/Makefile,v 1.8 2012/01/25 14:06:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		OpenGL elements for GStreamer
 

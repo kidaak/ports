@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/cvsync/patches/patch-samples_cvsyncd-OpenBSD_conf,v 1.2 2012/04/10 19:52:44 phessler Exp $
+$OpenBSD$
 --- samples/cvsyncd-OpenBSD.conf.orig	Wed Sep  3 09:56:24 2003
 +++ samples/cvsyncd-OpenBSD.conf	Tue Apr 10 14:22:16 2012
 @@ -3,6 +3,7 @@

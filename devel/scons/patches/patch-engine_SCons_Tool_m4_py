@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/scons/patches/patch-engine_SCons_Tool_m4_py,v 1.1 2011/12/21 17:41:52 jasper Exp $
+$OpenBSD$
 
 XXX: OpenBSD's m4(1) lacks the -E option (needs to be implemented though).
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Locale-Maketext-Fuzzy/Makefile,v 1.8 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Maketext from already interpolated strings
 

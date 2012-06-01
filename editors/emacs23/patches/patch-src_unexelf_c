@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs23/patches/patch-src_unexelf_c,v 1.2 2011/03/29 19:59:58 jasper Exp $
+$OpenBSD$
 
 Fix build on OpenBSD/alpha, which is an ELF platform.
 

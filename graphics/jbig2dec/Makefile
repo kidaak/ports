@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/jbig2dec/Makefile,v 1.7 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 SHARED_LIBS +=	jbig2dec             0.0      # 0.0
 

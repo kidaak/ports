@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/radmind/pkg/PLIST,v 1.6 2011/05/11 07:45:52 ajacoutot Exp $
+@comment $OpenBSD$
 @extraunexec rm -fr /var/radmind/*
 @bin bin/fsdiff
 @bin bin/ktcheck

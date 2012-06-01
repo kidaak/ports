@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-testtools/Makefile,v 1.3 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=	extensions to the Python unit testing framework
 

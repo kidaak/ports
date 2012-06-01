@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/wmbiff/Makefile,v 1.23 2011/04/15 16:10:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	multiple mailbox checker dockapp
 DISTNAME=	wmbiff-0.4.27

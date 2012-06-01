@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/textutils/patches/patch-src_tac_c,v 1.1.1.1 2001/04/14 00:46:07 lebel Exp $
+$OpenBSD$
 --- src/tac.c.orig	Sun Jul  4 05:59:25 1999
 +++ src/tac.c	Wed Apr  4 09:34:31 2001
 @@ -426,22 +426,19 @@ save_stdin (FILE **g_tmp, char **g_tempf

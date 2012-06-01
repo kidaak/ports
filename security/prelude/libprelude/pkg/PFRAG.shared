@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/prelude/libprelude/pkg/PFRAG.shared,v 1.1.1.1 2006/06/26 18:04:26 aanriot Exp $
+@comment $OpenBSD$
 @lib lib/libprelude.so.${LIBprelude_VERSION}
 lib/python${MODPY_VERSION}/site-packages/_prelude.so
 libdata/perl5/site_perl/${MACHINE_ARCH}-openbsd/auto/Prelude/Prelude.so

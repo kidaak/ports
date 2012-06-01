@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mpfr/Makefile,v 1.12 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	library for multiple-precision floating-point computations
 

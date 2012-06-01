@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/amap/patches/patch-appdefs_trig,v 1.1 2010/12/06 12:08:55 stephan Exp $
+$OpenBSD$
 
 # packaged appdefs.trig db is out of date, patch it using a newer
 # one provided at http://freeworld.thc.org/thc-amap/appdefs.trig

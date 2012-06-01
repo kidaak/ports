@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ndesk-dbus-glib/Makefile,v 1.9 2010/11/20 17:22:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	C\# implementation of dbus - GLib integration
 DISTNAME=	ndesk-dbus-glib-0.4.1

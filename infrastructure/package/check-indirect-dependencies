@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# $OpenBSD: ports/infrastructure/package/check-indirect-dependencies,v 1.4 2007/01/16 18:15:53 sturm Exp $
+# $OpenBSD$
 # Copyright (c) 2006 Nikolay Sturm <sturm@openbsd.org>.
 #
 # Redistribution and use in source and binary forms, with or without

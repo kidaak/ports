@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libopensync/pkg/PLIST,v 1.4 2010/04/15 20:39:56 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/osyncbinary
 @bin bin/osyncdump
 include/opensync-1.0/

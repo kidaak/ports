@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/decss/Makefile,v 1.12 2007/09/15 20:38:21 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	strip cascading style sheets from webpages
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/hs-pwstore-fast/pkg/PLIST,v 1.1.1.1 2012/01/22 17:16:57 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Crypto/
 lib/ghc/${DISTNAME}/Crypto/PasswordStore.hi

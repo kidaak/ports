@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-LibXSLT/pkg/PLIST,v 1.11 2004/09/15 18:44:05 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/XML/LibXSLT.pm
 ${P5ARCH}/XML/benchmark.pl
 ${P5ARCH}/auto/XML/LibXSLT/

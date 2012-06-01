@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-FTP-AutoReconnect/Makefile,v 1.4 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		FTP client class with automatic reconnect on failure
 

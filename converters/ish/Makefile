@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/ish/Makefile,v 1.19 2011/12/30 23:14:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	binary-to-text file converter
 

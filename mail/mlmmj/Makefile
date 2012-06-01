@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mlmmj/Makefile,v 1.12 2012/01/24 02:20:35 okan Exp $
+# $OpenBSD$
 
 COMMENT=	mailing list manager
 

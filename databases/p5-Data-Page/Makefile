@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Data-Page/Makefile,v 1.7 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	pager utility
 

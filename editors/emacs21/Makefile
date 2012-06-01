@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/emacs21/Makefile,v 1.58 2012/01/13 00:55:14 naddy Exp $
+# $OpenBSD$
 
 COMMENT-main=		GNU editor: extensible, customizable, self documenting
 COMMENT-el=		elisp sources for those who want to read/modify them

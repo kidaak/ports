@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-doc_rpm_8,v 1.1 2011/10/16 07:03:12 ajacoutot Exp $
+$OpenBSD$
 
 Bogus mdoc macro.
 

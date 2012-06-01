@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/apachetop/Makefile,v 1.3 2010/11/20 17:22:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =		top-like monitor for Apache
 

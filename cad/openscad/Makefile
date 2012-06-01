@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/openscad/Makefile,v 1.3 2011/09/16 08:48:02 espie Exp $
+# $OpenBSD$
 
 COMMENT =		the programmer's solid 3D CAD modeller
 

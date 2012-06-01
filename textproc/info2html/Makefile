@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/info2html/Makefile,v 1.17 2010/11/20 19:56:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	translate GNU info files into HTML pages
 

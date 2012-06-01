@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/cmail/Makefile,v 1.8 2010/11/19 07:23:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	simple mail counter
 

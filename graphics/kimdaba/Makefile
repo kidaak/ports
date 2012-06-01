@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/kimdaba/Makefile,v 1.23 2011/11/02 08:46:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		kde image database
 CATEGORIES=		graphics x11 x11/kde

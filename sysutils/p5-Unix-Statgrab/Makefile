@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Unix-Statgrab/Makefile,v 1.9 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interface to libstatgrab system statistics library
 SHARED_ONLY=	Yes

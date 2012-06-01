@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-Makefile_rules,v 1.6 2011/11/18 12:39:06 sthen Exp $
+$OpenBSD$
 --- Makefile.rules.orig	Wed Aug 31 03:21:51 2011
 +++ Makefile.rules	Thu Sep  1 23:24:44 2011
 @@ -298,7 +298,8 @@ installlocalbin: $(INSTALLBINPROGS)

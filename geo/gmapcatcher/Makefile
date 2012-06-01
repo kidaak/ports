@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/gmapcatcher/Makefile,v 1.13 2011/12/20 19:03:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	offline maps viewer
 

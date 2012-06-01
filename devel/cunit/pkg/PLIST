@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cunit/pkg/PLIST,v 1.2 2011/08/19 08:04:02 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/CUnit/
 include/CUnit/Automated.h

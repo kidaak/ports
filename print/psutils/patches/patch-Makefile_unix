@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/psutils/patches/patch-Makefile_unix,v 1.3 2011/09/09 15:47:19 naddy Exp $
+$OpenBSD$
 
 Remove Apple copyrighted files (from Fedora).
 

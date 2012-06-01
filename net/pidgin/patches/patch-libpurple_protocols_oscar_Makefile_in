@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pidgin/patches/patch-libpurple_protocols_oscar_Makefile_in,v 1.19 2011/07/07 08:28:04 dcoppa Exp $
+$OpenBSD$
 --- libpurple/protocols/oscar/Makefile.in.orig	Wed May 11 21:54:19 2011
 +++ libpurple/protocols/oscar/Makefile.in	Wed May 11 21:55:47 2011
 @@ -79,7 +79,7 @@ am__v_lt_0 = --silent

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-agent_mibgroup_hardware_fsys_fsys_getfsstats_c,v 1.1 2011/11/28 22:40:25 sthen Exp $
+$OpenBSD$
 
 hunk 0 - stats[i].f_mnt{on,from}name is much smaller than sizeof(entry->path)
 so memcpy was reading past the allowed memory space; these are nul-terminated

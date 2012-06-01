@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_config_x-openbsd,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/config/x-openbsd.orig	Mon Jan 31 14:50:47 2005
 +++ gcc/config/x-openbsd	Mon Jan 31 14:51:13 2005
 @@ -0,0 +1,4 @@

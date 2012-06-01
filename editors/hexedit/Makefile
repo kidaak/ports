@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/hexedit/Makefile,v 1.23 2010/10/18 18:00:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	view and edit files in hexadecimal or ASCII
 

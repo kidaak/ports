@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/pdfshuffler/pkg/PLIST,v 1.1.1.1 2011/05/22 19:37:04 landry Exp $
+@comment $OpenBSD$
 bin/pdfshuffler
 lib/python${MODPY_VERSION}/site-packages/pdfshuffler-0.5-py${MODPY_VERSION}.egg-info
 @man man/man1/pdfshuffler.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/games/patches/patch-configure,v 1.7 2010/09/27 07:01:50 ajacoutot Exp $
+$OpenBSD$
 
 XXX: checking whether build environment is sane... 
 ./configure[3161]: syntax error: `&' unexpected

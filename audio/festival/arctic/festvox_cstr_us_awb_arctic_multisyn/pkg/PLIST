@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/festival/arctic/festvox_cstr_us_awb_arctic_multisyn/pkg/PLIST,v 1.2 2006/04/05 09:45:57 bernd Exp $
+@comment $OpenBSD$
 lib/festival/voices-multisyn/
 lib/festival/voices-multisyn/english/
 lib/festival/voices-multisyn/english/cstr_us_awb_arctic_multisyn/

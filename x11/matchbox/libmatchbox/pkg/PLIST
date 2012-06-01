@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/matchbox/libmatchbox/pkg/PLIST,v 1.1.1.1 2005/06/17 02:57:30 jolan Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libmb/
 include/libmb/hash.h

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ruby-capistrano/Makefile,v 1.15 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =	execute commands in parallel on multiple remote machines
 

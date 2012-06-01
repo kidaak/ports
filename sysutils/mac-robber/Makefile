@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/mac-robber/Makefile,v 1.6 2007/09/15 21:14:02 merdely Exp $
+# $OpenBSD$
 
 COMMENT=		forensic tool that collects MAC times from files
 

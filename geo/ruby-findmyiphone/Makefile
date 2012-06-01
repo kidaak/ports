@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/ruby-findmyiphone/Makefile,v 1.9 2011/09/16 09:48:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Ruby library to physically locate iPhones
 

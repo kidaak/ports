@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/sqliteman/pkg/PLIST,v 1.5 2009/12/21 21:16:33 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/sqliteman
 share/applications/sqliteman.desktop
 share/icons/

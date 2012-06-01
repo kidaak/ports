@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-avidemux_ADM_libraries_ADM_lavcodec_Makefile_am,v 1.1 2008/03/19 09:21:37 ajacoutot Exp $
+$OpenBSD$
 --- avidemux/ADM_libraries/ADM_lavcodec/Makefile.am.orig	Mon Jan  7 09:19:18 2008
 +++ avidemux/ADM_libraries/ADM_lavcodec/Makefile.am	Mon Jan  7 09:20:20 2008
 @@ -36,7 +36,7 @@ else

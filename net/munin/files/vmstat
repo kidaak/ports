@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/munin/files/vmstat,v 1.2 2010/10/23 15:52:22 sthen Exp $
+# $OpenBSD$
 #
 # Adapted from node/node.d.freebsd/vmstat.in
 #

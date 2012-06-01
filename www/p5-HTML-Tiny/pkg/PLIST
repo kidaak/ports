@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Tiny/pkg/PLIST,v 1.2 2011/04/09 19:25:33 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTML/
 ${P5SITE}/HTML/Tiny.pm
 @man man/man3p/HTML::Tiny.3p

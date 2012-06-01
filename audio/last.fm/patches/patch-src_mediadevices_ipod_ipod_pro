@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_mediadevices_ipod_ipod_pro,v 1.3 2011/10/18 12:17:26 dcoppa Exp $
+$OpenBSD$
 --- src/mediadevices/ipod/ipod.pro.orig	Tue Oct 18 11:12:40 2011
 +++ src/mediadevices/ipod/ipod.pro	Tue Oct 18 11:30:25 2011
 @@ -2,11 +2,20 @@ TEMPLATE = lib

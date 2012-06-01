@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-media_libsydneyaudio_include_sydney_audio_h,v 1.4 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 --- media/libsydneyaudio/include/sydney_audio.h.orig	Wed Jan 11 18:14:57 2012
 +++ media/libsydneyaudio/include/sydney_audio.h	Sat Jan 14 20:31:04 2012
 @@ -48,7 +48,7 @@ async-signal safe.

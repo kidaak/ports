@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nepim/Makefile,v 1.13 2010/11/19 22:31:35 espie Exp $
+# $OpenBSD$
 
 COMMENT=		network pipe meter
 

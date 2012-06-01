@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/zoo/patches/patch-ar_h,v 1.1 2006/04/07 07:40:18 pvalchev Exp $
+$OpenBSD$
 --- ar.h.orig	Fri Apr 30 22:04:22 1993
 +++ ar.h	Fri Apr  7 01:38:55 2006
 @@ -15,11 +15,11 @@ Adapted from "ar" archiver written by Ha

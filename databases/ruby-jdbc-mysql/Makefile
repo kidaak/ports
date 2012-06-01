@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-jdbc-mysql/Makefile,v 1.2 2011/03/14 17:52:59 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	access a MySQL database from JRuby
 

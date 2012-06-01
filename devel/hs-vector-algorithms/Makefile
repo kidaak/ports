@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-vector-algorithms/Makefile,v 1.4 2011/09/24 19:07:39 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Efficient algorithms for vector arrays
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mp3encode/patches/patch-common_h,v 1.2 2003/04/20 22:40:14 naddy Exp $
+$OpenBSD$
 --- common.h.orig	Wed Jan 22 10:43:13 1997
 +++ common.h	Mon Apr 21 00:28:42 2003
 @@ -93,7 +93,7 @@

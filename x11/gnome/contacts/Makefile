@@ -1,9 +1,9 @@
-# $OpenBSD: ports/x11/gnome/contacts/Makefile,v 1.9 2012/03/29 09:00:14 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		contacts manager for GNOME
 
 GNOME_PROJECT=		gnome-contacts
-GNOME_VERSION=		3.4.0
+GNOME_VERSION=		3.4.1
 
 CATEGORIES=		productivity
 

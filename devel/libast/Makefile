@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libast/Makefile,v 1.16 2010/11/15 19:45:59 espie Exp $
+# $OpenBSD$
 
 COMMENT=		library of assorted spiffy things
 

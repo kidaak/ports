@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mingw/Makefile,v 1.4 2012/04/02 03:18:17 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	development environment for native Windows applications
 

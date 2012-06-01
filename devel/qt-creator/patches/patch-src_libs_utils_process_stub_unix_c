@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/qt-creator/patches/patch-src_libs_utils_process_stub_unix_c,v 1.2 2010/05/28 12:12:05 espie Exp $
+$OpenBSD$
 --- src/libs/utils/process_stub_unix.c.orig	Fri Jan 15 18:36:52 2010
 +++ src/libs/utils/process_stub_unix.c	Fri May 28 12:10:12 2010
 @@ -40,6 +40,10 @@

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/databases/postgresql/pkg/postgresql.rc,v 1.8 2011/03/17 16:49:27 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/postgres"
 daemon_user="_postgresql"

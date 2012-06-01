@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pear-Config/pkg/PLIST,v 1.7 2007/03/22 22:48:03 robert Exp $
+@comment $OpenBSD$
 @group daemon
 pear/doc/Config/
 pear/doc/Config/docs/

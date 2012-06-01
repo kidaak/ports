@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libsndfile/Makefile,v 1.22 2011/07/13 22:24:05 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	library to handle various audio file formats
 

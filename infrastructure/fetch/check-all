@@ -2,7 +2,7 @@
 
 # sample script to use with fetch-makefile: check known distfiles checksums
 
-# $OpenBSD: ports/infrastructure/fetch/check-all,v 1.2 2008/11/20 14:06:56 sthen Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2000 Marc Espie.
 # 

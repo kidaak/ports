@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/myreview/Makefile,v 1.11 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT=	web-based conference management software
 

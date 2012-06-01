@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono/patches/patch-mono_utils_mono_semaphore_c,v 1.1 2012/04/13 11:51:49 robert Exp $
+$OpenBSD$
 --- mono/utils/mono-semaphore.c.orig	Wed Apr 11 13:11:10 2012
 +++ mono/utils/mono-semaphore.c	Wed Apr 11 13:11:29 2012
 @@ -22,9 +22,6 @@

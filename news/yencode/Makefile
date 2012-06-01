@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/yencode/Makefile,v 1.7 2010/10/18 21:25:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	encoder/decoder tool for the Usenet yEnc encoding format
 

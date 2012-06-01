@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/libdbi/patches/patch-Makefile_in,v 1.1.1.1 2009/06/02 00:57:57 merdely Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun May 31 15:45:15 2009
 +++ Makefile.in	Sun May 31 15:45:27 2009
 @@ -180,7 +180,7 @@ sharedstatedir = @sharedstatedir@

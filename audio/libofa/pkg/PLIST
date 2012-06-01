@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libofa/pkg/PLIST,v 1.1.1.1 2010/11/19 17:12:15 millert Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/ofa1/
 include/ofa1/ofa.h

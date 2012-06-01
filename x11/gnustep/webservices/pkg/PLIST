@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/webservices/pkg/PLIST,v 1.1.1.1 2011/06/28 15:51:18 sebastia Exp $
+@comment $OpenBSD$
 include/WebServices/
 include/WebServices/GWSBinding.h
 include/WebServices/GWSCoder.h

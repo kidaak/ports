@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Role-WithOverloading/pkg/PLIST,v 1.1.1.1 2010/07/02 04:32:49 jim Exp $
+@comment $OpenBSD$
 %%SHARED%%
 ${P5ARCH}/MooseX/
 ${P5ARCH}/MooseX/Role/

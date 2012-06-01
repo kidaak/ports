@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/iodine/Makefile,v 1.11 2010/12/03 07:47:44 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		tunnel IPv4 data through DNS
 

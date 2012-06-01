@@ -1,4 +1,4 @@
-$OpenBSD: ports/education/epte/patches/patch-definitions_h,v 1.1.1.1 2010/08/23 09:31:23 ajacoutot Exp $
+$OpenBSD$
 --- definitions.h.orig	Sat Aug 14 22:56:33 2010
 +++ definitions.h	Sat Aug 14 22:56:45 2010
 @@ -516,8 +516,8 @@ in a way that gives the maximum number of unpaired ele

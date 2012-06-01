@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rrdtool/patches/patch-rrd_config_h_in,v 1.1 2009/01/26 21:26:32 sthen Exp $
+$OpenBSD$
 --- rrd_config.h.in.orig	Wed Jul 23 15:56:17 2008
 +++ rrd_config.h.in	Sat Nov 22 14:09:31 2008
 @@ -283,12 +283,12 @@

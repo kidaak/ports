@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ipv6calc/Makefile,v 1.17 2011/09/08 09:30:55 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	tool for manipulating IPv6 addresses
 

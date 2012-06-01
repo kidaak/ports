@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xdx/patches/patch-src_Makefile_in,v 1.1 2010/04/27 20:48:54 ajacoutot Exp $
+$OpenBSD$
 
 Fix build with newer gtk+2 (2.20.0).
 

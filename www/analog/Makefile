@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/analog/Makefile,v 1.53 2010/11/22 08:36:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	extremely fast program for analysing WWW logfiles
 

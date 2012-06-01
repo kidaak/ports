@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Format-Pg/Makefile,v 1.9 2010/12/30 10:07:01 benoit Exp $
+# $OpenBSD$
 
 COMMENT=		parse and create PostGresql date objects
 

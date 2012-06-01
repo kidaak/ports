@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/libdvbpsi/pkg/PFRAG.shared,v 1.4 2005/12/26 22:08:31 steven Exp $
+@comment $OpenBSD$
 @lib lib/libdvbpsi.so.${LIBdvbpsi_VERSION}

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/py-elixir/patches/patch-tests_test_options_py,v 1.1 2011/05/27 10:40:33 jasper Exp $
+$OpenBSD$
 --- tests/test_options.py.orig	Wed Sep 30 06:51:37 2009
 +++ tests/test_options.py	Thu May 26 12:22:50 2011
 @@ -4,7 +4,7 @@ test options

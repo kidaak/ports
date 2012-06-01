@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/libs3/patches/patch-kded_kbuildsycoca_cpp,v 1.1 2009/11/14 16:41:03 ajacoutot Exp $
+$OpenBSD$
 
 Respect XDG_MENU_PREFIX variable.
 

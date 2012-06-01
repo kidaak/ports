@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/pciutils/Makefile,v 1.13 2010/11/20 17:22:41 espie Exp $
+# $OpenBSD$
 
 NOT_FOR_ARCHS =		sparc m68k m88k vax
 

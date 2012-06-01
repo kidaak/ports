@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/tlf/patches/patch-configure_in,v 1.1.1.1 2007/05/30 05:55:56 jason Exp $
+$OpenBSD$
 --- configure.in.orig	Mon Oct 24 05:17:40 2005
 +++ configure.in	Mon Oct 31 15:02:13 2005
 @@ -17,6 +17,7 @@ AC_CHECK_LIB([m], [atan])

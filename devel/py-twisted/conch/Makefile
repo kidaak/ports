@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-twisted/conch/Makefile,v 1.17 2011/12/08 20:15:40 eric Exp $
+# $OpenBSD$
 
 COMMENT=	SSH and SFTP protocol implementation
 

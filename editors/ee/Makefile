@@ -1,29 +1,28 @@
-# $OpenBSD: ports/editors/ee/Makefile,v 1.10 2010/11/15 23:22:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=		easy to use text editor
 
-VERSION=		1.4.6
-DISTNAME=		ee-${VERSION}
-REVISION=		1
-CATEGORIES=     	editors
+VERSION=		1.5.2
+DISTNAME=		ee-${VERSION}.src
+CATEGORIES=		editors
 
 HOMEPAGE=		http://mahon.cwx.net/
 
-# Artistic
-PERMIT_PACKAGE_CDROM=	Yes 
-PERMIT_PACKAGE_FTP=	Yes 
-PERMIT_DISTFILES_CDROM=	Yes 
+# BSD-like
+PERMIT_PACKAGE_CDROM=	Yes
+PERMIT_PACKAGE_FTP=	Yes
+PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 WANTLIB=		c
 
 MASTER_SITES=		${HOMEPAGE}sources/
-EXTRACT_SUFX=		.src.tgz
+EXTRACT_SUFX=		.tgz
 
 WRKDIST=		${WRKDIR}/easyedit-${VERSION}
-MAKE_ENV=		SYSCONFDIR=${SYSCONFDIR}
+MAKE_ENV=		SYSCONFDIR=${SYSCONFDIR} \
+			CC="${CC}" 
 
-USE_GROFF =		Yes
 NO_REGRESS=		Yes
 
 do-install:

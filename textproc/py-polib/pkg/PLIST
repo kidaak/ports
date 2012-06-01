@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-polib/pkg/PLIST,v 1.1.1.1 2011/11/02 13:33:10 ajacoutot Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/polib-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/polib.py
 lib/python${MODPY_VERSION}/site-packages/polib.pyc

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-silc/Makefile,v 1.16 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

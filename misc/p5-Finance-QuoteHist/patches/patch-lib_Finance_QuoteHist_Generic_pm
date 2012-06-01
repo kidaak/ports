@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/p5-Finance-QuoteHist/patches/patch-lib_Finance_QuoteHist_Generic_pm,v 1.2 2003/09/23 18:38:04 sturm Exp $
+$OpenBSD$
 --- lib/Finance/QuoteHist/Generic.pm.orig	2003-01-16 17:38:20.000000000 +1100
 +++ lib/Finance/QuoteHist/Generic.pm	2003-09-02 01:34:03.000000000 +1000
 @@ -24,6 +24,7 @@ my @Scalar_Flags = qw(

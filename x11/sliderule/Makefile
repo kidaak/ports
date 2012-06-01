@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/sliderule/Makefile,v 1.21 2011/05/22 16:04:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	slide rule component of X11R3's xcalc
 

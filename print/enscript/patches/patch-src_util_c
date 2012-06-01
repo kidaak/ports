@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/enscript/patches/patch-src_util_c,v 1.2 2008/12/09 15:23:55 jasper Exp $
+$OpenBSD$
 --- src/util.c.orig	Fri Sep 17 17:26:51 1999
 +++ src/util.c	Tue Dec  9 16:23:25 2008
 @@ -1239,6 +1239,8 @@ escape_string (char *string)

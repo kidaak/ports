@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/frogatto/patches/patch-src_filesystem_cpp,v 1.1.1.1 2010/09/23 11:30:56 ajacoutot Exp $
+$OpenBSD$
 --- src/filesystem.cpp.orig	Sun Jun 27 01:22:06 2010
 +++ src/filesystem.cpp	Thu Sep 23 08:39:45 2010
 @@ -285,6 +285,9 @@ namespace {

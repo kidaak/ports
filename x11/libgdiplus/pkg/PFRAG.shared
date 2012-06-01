@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/libgdiplus/pkg/PFRAG.shared,v 1.1.1.1 2008/10/15 10:46:07 robert Exp $
+@comment $OpenBSD$
 @lib lib/libgdiplus.so.${LIBgdiplus_VERSION}

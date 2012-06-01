@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/totem/Makefile,v 1.80 2012/02/26 08:16:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=		official media player for GNOME
 COMMENT-nautilus=	totem properties plugin for nautilus

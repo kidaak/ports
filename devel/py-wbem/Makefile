@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-wbem/Makefile,v 1.1.1.1 2012/03/31 08:30:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		CIM operations over HTTP in Python
 

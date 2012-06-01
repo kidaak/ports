@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/tuxpaint/patches/patch-src_manpage_tuxpaint_1,v 1.4 2009/12/17 17:10:34 ajacoutot Exp $
+$OpenBSD$
 --- src/manpage/tuxpaint.1.orig	Wed Jun  3 08:04:28 2009
 +++ src/manpage/tuxpaint.1	Thu Dec 17 16:33:11 2009
 @@ -717,7 +717,7 @@ Display a lists of all supported languages.

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/spectrum-tools/Makefile,v 1.16 2012/02/16 21:26:55 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main =	graphical tools for the MetaGeek Wi-spy spectrum analyser
 COMMENT-utils =	tools for the MetaGeek Wi-spy spectrum analyser

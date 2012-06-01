@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/gxemul/pkg/PLIST,v 1.13 2009/01/05 21:14:03 grange Exp $
+@comment $OpenBSD$
 @bin bin/gxemul
 @man man/man1/gxemul.1
 share/doc/gxemul/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-kgio/pkg/PLIST,v 1.5 2011/11/18 00:03:15 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/.document

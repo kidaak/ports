@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-MIME-Encodings/Makefile,v 1.13 2011/08/01 19:42:19 stephan Exp $
+# $OpenBSD$
 
 COMMENT=	unified interface to MIME encoding and decoding
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/nut/patches/patch-tools_nut-usbinfo_pl,v 1.1 2011/09/19 15:59:57 sthen Exp $
+$OpenBSD$
 
 skip backup copy of patched files
 

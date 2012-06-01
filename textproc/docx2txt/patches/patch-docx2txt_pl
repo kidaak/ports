@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/docx2txt/patches/patch-docx2txt_pl,v 1.1.1.1 2011/04/05 15:09:50 schwarze Exp $
+$OpenBSD$
 --- docx2txt.pl.orig	Sun Oct  4 17:31:04 2009
 +++ docx2txt.pl	Tue Apr  5 16:07:08 2011
 @@ -72,7 +72,7 @@

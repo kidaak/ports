@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/docbook-xsl/pkg/PLIST,v 1.3 2010/03/20 17:06:45 ajacoutot Exp $
+@comment $OpenBSD$
 share/doc/xsl/
 share/doc/xsl/docbook/
 share/doc/xsl/docbook/ChangeLog

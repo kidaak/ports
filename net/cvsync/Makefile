@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/cvsync/Makefile,v 1.44 2012/04/10 19:52:44 phessler Exp $
+# $OpenBSD$
 
 COMMENT=	portable CVS repository synchronization utility
 

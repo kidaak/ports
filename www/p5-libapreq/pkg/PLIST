@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-libapreq/pkg/PLIST,v 1.5 2004/09/15 18:49:52 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/Apache/Cookie.pm
 ${P5ARCH}/Apache/Request.pm
 ${P5ARCH}/Apache/libapreq.pm

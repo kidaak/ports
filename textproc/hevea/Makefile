@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hevea/Makefile,v 1.17 2010/12/05 18:24:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	LaTeX to html translator
 

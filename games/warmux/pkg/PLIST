@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/warmux/pkg/PLIST,v 1.1.1.1 2011/05/30 09:14:12 landry Exp $
+@comment $OpenBSD$
 @pkgpath games/wormux
 @bin bin/warmux
 @bin bin/warmux-index-server

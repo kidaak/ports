@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms-wavpack/patches/patch-src_libwavpack_cpp,v 1.2 2009/10/04 16:54:30 naddy Exp $
+$OpenBSD$
 --- src/libwavpack.cpp.orig	Mon Sep 28 04:52:56 2009
 +++ src/libwavpack.cpp	Sun Oct  4 18:36:26 2009
 @@ -40,7 +40,7 @@ extern "C" {

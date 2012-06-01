@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/php/5.2/patches/patch-main_php_ini_c,v 1.1 2011/07/14 12:40:48 robert Exp $
+$OpenBSD$
 --- main/php_ini.c.orig.port	Thu Jul 14 13:33:12 2011
 +++ main/php_ini.c	Thu Jul 14 13:07:26 2011
 @@ -489,7 +489,7 @@ int php_init_config(TSRMLS_D)

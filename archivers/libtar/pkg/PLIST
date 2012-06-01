@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/libtar/pkg/PLIST,v 1.1.1.1 2010/04/16 13:10:47 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/libtar
 include/libtar.h

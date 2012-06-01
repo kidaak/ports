@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Event-ExecFlow/Makefile,v 1.6 2012/04/13 13:06:58 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	high level API for event-based execution flow control
 

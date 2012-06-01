@@ -1,11 +1,11 @@
-# $OpenBSD: ports/x11/gnome/desktop/Makefile,v 1.86 2012/04/16 13:50:57 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 
 COMMENT=		components for the GNOME desktop
 
 GNOME_PROJECT=		gnome-desktop
-GNOME_VERSION=		3.4.1
+GNOME_VERSION=		3.4.2 # sync with meta/gnome "V" variable
 
 SHARED_LIBS +=  gnome-desktop-3      1.0      # 2.1
 

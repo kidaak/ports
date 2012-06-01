@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-I18N/Makefile,v 1.13 2012/04/08 21:58:32 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	I18N for Catalyst
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/tuxkart/Makefile,v 1.5 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT =	tuxkart is a simple Go-Kart racing game.
 

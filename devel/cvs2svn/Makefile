@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cvs2svn/Makefile,v 1.9 2011/09/27 21:29:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		migrate repositories from CVS to Subversion/GIT/BZR
 

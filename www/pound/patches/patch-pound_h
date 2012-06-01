@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/pound/patches/patch-pound_h,v 1.1 2010/10/04 08:47:22 sthen Exp $
+$OpenBSD$
 
 fix for openssl 1.0
 http://www.apsis.ch/pound/pound_list/archive/2010/2010-02/1266065082000

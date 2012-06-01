@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/libical/patches/patch-configure,v 1.4 2012/03/23 11:58:23 ajacoutot Exp $
+$OpenBSD$
 
 Don't use built-in timezone, but the system one.
 

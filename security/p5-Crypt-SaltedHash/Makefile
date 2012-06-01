@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-SaltedHash/Makefile,v 1.5 2011/01/03 08:25:17 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	object oriented interface to create salted hashes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/munin/patches/patch-plugins_node_d_openbsd_swap_in,v 1.1 2010/10/23 15:52:23 sthen Exp $
+$OpenBSD$
 --- plugins/node.d.openbsd/swap.in.orig	Fri Oct 15 00:00:54 2010
 +++ plugins/node.d.openbsd/swap.in	Fri Oct 15 00:02:02 2010
 @@ -15,8 +15,8 @@

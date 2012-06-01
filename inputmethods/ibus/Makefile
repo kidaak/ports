@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/ibus/Makefile,v 1.26 2012/02/29 21:09:00 fgsch Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

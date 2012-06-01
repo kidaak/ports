@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/osrtspproxy/patches/patch-configure,v 1.1.1.1 2007/01/10 10:37:07 grunk Exp $
+$OpenBSD$
 --- configure.orig	Fri Feb  9 07:07:26 2001
 +++ configure	Wed Jan 10 10:56:04 2007
 @@ -135,6 +135,14 @@ case "$UNAME_S" in

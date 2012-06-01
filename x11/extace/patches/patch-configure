@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/extace/patches/patch-configure,v 1.1 2008/02/03 20:18:09 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Wed Jan 23 00:58:14 2008
 +++ configure	Wed Jan 23 11:40:35 2008
 @@ -19885,13 +19885,13 @@ fi

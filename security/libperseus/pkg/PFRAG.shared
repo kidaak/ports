@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/libperseus/pkg/PFRAG.shared,v 1.1.1.1 2011/03/29 12:14:21 pea Exp $
+@comment $OpenBSD$
 @lib lib/libperseus.so.${LIBperseus_VERSION}

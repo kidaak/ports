@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-uuidtools/Makefile,v 1.12 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	simple library for generating UUIDs
 

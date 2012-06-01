@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/p5-Proc-Wait3/pkg/PLIST,v 1.1.1.1 2011/01/05 14:12:07 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Proc/
 ${P5ARCH}/Proc/Wait3.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xvidcore/patches/patch-build_generic_configure,v 1.7 2012/01/25 15:34:02 ajacoutot Exp $
+$OpenBSD$
 --- build/generic/configure.orig	Mon May 23 06:22:01 2011
 +++ build/generic/configure	Sat Dec 24 11:52:46 2011
 @@ -2243,8 +2243,6 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu

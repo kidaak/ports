@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/kimdaba/patches/patch-src_MainWindow_FeatureDialog_cpp,v 1.1 2007/01/29 10:41:52 espie Exp $
+$OpenBSD$
 --- src/MainWindow/FeatureDialog.cpp.orig	Mon Jan 29 10:49:02 2007
 +++ src/MainWindow/FeatureDialog.cpp	Mon Jan 29 10:49:53 2007
 @@ -78,9 +78,9 @@ FeatureDialog::FeatureDialog( QWidget* p

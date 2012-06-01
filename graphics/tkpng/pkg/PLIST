@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/tkpng/pkg/PLIST,v 1.3 2011/01/05 18:35:32 sebastia Exp $
+@comment $OpenBSD$
 lib/tcl/tkpng/
 @lib lib/tcl/tkpng/libtkpng09.so.${LIBtkpng09_VERSION}
 lib/tcl/tkpng/pkgIndex.tcl

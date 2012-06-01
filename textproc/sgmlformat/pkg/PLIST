@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/sgmlformat/pkg/PLIST,v 1.4 2011/06/23 22:50:29 naddy Exp $
+@comment $OpenBSD$
 @bin bin/instant
 bin/sgmlfmt
 @man man/man1/instant.1

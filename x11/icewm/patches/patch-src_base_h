@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/icewm/patches/patch-src_base_h,v 1.1 2012/03/31 11:10:57 naddy Exp $
+$OpenBSD$
 
 Do not redefine "deprecated".  It is not used anywhere in IceWM and
 breaks the expansion of _X_DEPRECATED in <X11/Xlib.h>.

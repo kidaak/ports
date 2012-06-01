@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/k3b/patches/patch-src_k3bappdevicemanager_cpp,v 1.1.1.1 2008/05/11 22:18:35 jakemsr Exp $
+$OpenBSD$
 --- src/k3bappdevicemanager.cpp.orig	Fri Nov  2 02:55:34 2007
 +++ src/k3bappdevicemanager.cpp	Fri Feb  1 09:15:15 2008
 @@ -185,7 +185,11 @@ void K3bAppDeviceManager::mountDisk()

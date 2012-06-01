@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/id/Makefile,v 1.4 2012/01/17 11:02:00 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Indonesian
 CATEGORIES=	textproc

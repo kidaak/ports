@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/rygel/pkg/PLIST,v 1.7 2012/03/29 07:01:08 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/rygel
 @bin bin/rygel-preferences
 include/rygel-1.0/

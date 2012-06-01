@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/sdd/patches/patch-conf_configure,v 1.2 2012/03/16 22:08:45 sthen Exp $
+$OpenBSD$
 --- conf/configure.orig	Mon Jul 26 23:06:30 2004
 +++ conf/configure	Fri Mar 16 22:08:10 2012
 @@ -7918,7 +7918,7 @@ else

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/klogic/pkg/PLIST,v 1.5 2004/09/14 23:18:51 espie Exp $
+@comment $OpenBSD$
 bin/klogic
 share/apps/
 share/apps/klogic/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/russian/xruskb/patches/patch-Xrus_ad,v 1.1 2001/08/13 04:10:02 form Exp $
+$OpenBSD$
 --- Xrus.ad.orig	Mon Feb 14 22:38:19 2000
 +++ Xrus.ad	Mon Aug 13 11:06:04 2001
 @@ -26,20 +26,20 @@

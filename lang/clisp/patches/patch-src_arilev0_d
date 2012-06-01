@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/clisp/patches/patch-src_arilev0_d,v 1.1 2010/09/23 13:42:22 joshe Exp $
+$OpenBSD$
 
 Rip out a bunch of sparc assembly code which is dubious at best.
 

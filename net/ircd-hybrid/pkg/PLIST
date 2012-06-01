@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ircd-hybrid/pkg/PLIST,v 1.5 2011/10/19 13:46:17 jasper Exp $
+@comment $OpenBSD$
 @conflict bnc-*
 @conflict irc-*
 @conflict ircd-ratbox-*

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Wx/pkg/PLIST,v 1.1.1.1 2009/09/07 20:30:58 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/wxperl_overload
 ${P5ARCH}/Wx/

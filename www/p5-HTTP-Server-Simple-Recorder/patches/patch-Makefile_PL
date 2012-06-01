@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-HTTP-Server-Simple-Recorder/patches/patch-Makefile_PL,v 1.1.1.1 2006/11/12 16:30:25 espie Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Sun Nov 12 01:43:01 2006
 +++ Makefile.PL	Sun Nov 12 01:43:21 2006
 @@ -6,8 +6,8 @@ version_from ('lib/HTTP/Server/Simple/Re

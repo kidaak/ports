@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/netwmpager/patches/patch-pager_c,v 1.1 2008/04/17 09:19:50 bernd Exp $
+$OpenBSD$
 
 Fix a problem with newer openbox. (>= 3.4.7.x)
 

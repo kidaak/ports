@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/emesene/patches/patch-plugins_base___init___py,v 1.1.1.1 2008/07/10 13:22:41 wcmaier Exp $
+$OpenBSD$
 --- plugins_base/__init__.py.orig	Tue Jul  8 07:45:36 2008
 +++ plugins_base/__init__.py	Tue Jul  8 07:45:40 2008
 @@ -16,7 +16,7 @@

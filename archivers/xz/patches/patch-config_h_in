@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/xz/patches/patch-config_h_in,v 1.1 2011/07/27 19:06:45 naddy Exp $
+$OpenBSD$
 --- config.h.in.orig	Wed Jul 27 20:37:33 2011
 +++ config.h.in	Wed Jul 27 20:38:31 2011
 @@ -289,7 +289,11 @@

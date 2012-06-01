@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/gerbv/Makefile,v 1.18 2011/12/05 16:07:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=		viewer for Gerber (RS-274X) files
 DISTNAME=		gerbv-2.5.0

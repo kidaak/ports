@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ufoai/data/Makefile,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		UFO:AI data
 

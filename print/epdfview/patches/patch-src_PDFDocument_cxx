@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/epdfview/patches/patch-src_PDFDocument_cxx,v 1.4 2012/01/13 19:07:25 landry Exp $
+$OpenBSD$
 
 Fixes a bug with poppler swapping the blue and red channels.
 http://trac.emma-soft.com/epdfview/changeset/367 

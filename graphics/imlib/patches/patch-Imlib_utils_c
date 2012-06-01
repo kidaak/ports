@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/imlib/patches/patch-Imlib_utils_c,v 1.4 2011/07/08 20:36:09 naddy Exp $
+$OpenBSD$
 --- Imlib/utils.c.orig	Fri Mar 22 07:43:04 2002
 +++ Imlib/utils.c	Mon Jul  4 17:36:44 2011
 @@ -801,6 +801,7 @@ Imlib_crop_and_clone_image(ImlibData * id, ImlibImage 

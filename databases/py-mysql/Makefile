@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-mysql/Makefile,v 1.41 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

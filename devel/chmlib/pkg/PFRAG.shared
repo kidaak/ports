@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/chmlib/pkg/PFRAG.shared,v 1.2 2005/12/29 13:56:07 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libchm.so.${LIBchm_VERSION}

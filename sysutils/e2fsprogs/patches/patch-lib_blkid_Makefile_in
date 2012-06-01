@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/e2fsprogs/patches/patch-lib_blkid_Makefile_in,v 1.1 2009/03/15 19:59:31 landry Exp $
+$OpenBSD$
 --- lib/blkid/Makefile.in.orig	Tue Oct  7 16:22:39 2008
 +++ lib/blkid/Makefile.in	Sun Feb 22 11:47:57 2009
 @@ -32,8 +32,8 @@ HFILES_IN=	blkid_types.h

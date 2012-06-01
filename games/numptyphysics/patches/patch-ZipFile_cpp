@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/numptyphysics/patches/patch-ZipFile_cpp,v 1.1 2009/10/22 23:07:54 sthen Exp $
+$OpenBSD$
 --- ZipFile.cpp.orig	Tue Nov 11 17:54:38 2008
 +++ ZipFile.cpp	Thu Oct 15 14:14:50 2009
 @@ -110,16 +110,16 @@ int uncompress_int(unsigned char *dest, int *destLen, 

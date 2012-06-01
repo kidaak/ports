@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ivan/Makefile,v 1.8 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 BROKEN-sparc64=	SIGBUS on sparc64 when starting
 
@@ -27,7 +27,7 @@ VMEM_WARNING=	Yes
 USE_GMAKE=	Yes
 CONFIGURE_STYLE=gnu
 
-CONFIGURE_ARGS=	--localstatedir=/var/games
+LOCALSTATEDIR=	${BASELOCALSTATEDIR}/games
 
 post-install:
 	${INSTALL_DATA} /dev/null \

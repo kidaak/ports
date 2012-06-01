@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/warzone2100/Makefile,v 1.18 2011/11/07 13:55:44 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	amd64 i386
 

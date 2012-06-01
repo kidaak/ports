@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/dbus-sharp-glib/Makefile,v 1.1.1.1 2011/11/02 12:47:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GLib main loop integration for dbus-sharp
 

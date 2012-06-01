@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/ifp-line/Makefile,v 1.7 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	command line interface to iRiver music players
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/tgif/pkg/PLIST,v 1.8 2011/05/28 09:30:40 benoit Exp $
+@comment $OpenBSD$
 @bin bin/tgif
 lib/X11/tgif/
 @comment lib/X11/tgif/Copyright

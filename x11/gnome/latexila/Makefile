@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/latexila/Makefile,v 1.1.1.1 2012/04/08 11:28:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	integrated LaTeX environment for GNOME
 

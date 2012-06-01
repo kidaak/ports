@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/pan/patches/patch-pan_data_article-cache_h,v 1.1 2012/03/29 12:09:55 naddy Exp $
+$OpenBSD$
 --- pan/data/article-cache.h.orig	Wed Mar 28 17:47:17 2012
 +++ pan/data/article-cache.h	Wed Mar 28 17:47:28 2012
 @@ -23,7 +23,7 @@

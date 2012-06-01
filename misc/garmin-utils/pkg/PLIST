@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/garmin-utils/pkg/PLIST,v 1.3 2011/06/23 22:50:27 naddy Exp $
+@comment $OpenBSD$
 @bin bin/gardump
 @bin bin/garload
 @man man/man1/gardump.1

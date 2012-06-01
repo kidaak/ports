@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/telephony/fobbit/pkg/PLIST,v 1.1.1.1 2006/05/12 01:29:41 jolan Exp $
+@comment $OpenBSD$
 bin/vb
 share/examples/fobbit/
 share/examples/fobbit/vb.ini

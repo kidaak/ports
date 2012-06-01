@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/boo/patches/patch-extras_boo_pc_in,v 1.1.1.1 2011/10/06 12:43:32 jasper Exp $
+$OpenBSD$
 --- extras/boo.pc.in.orig	Sat Oct  3 16:05:46 2009
 +++ extras/boo.pc.in	Sat Oct  3 16:05:46 2009
 @@ -1,6 +1,6 @@

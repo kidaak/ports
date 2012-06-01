@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtkhotkey/pkg/PLIST,v 1.1.1.1 2009/09/27 19:14:44 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gtkhotkey-1.0/
 include/gtkhotkey-1.0/gtk-hotkey-error.h

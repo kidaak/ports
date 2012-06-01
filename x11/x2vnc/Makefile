@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/x2vnc/Makefile,v 1.22 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	one keyboard and/or mouse, multiple X and VNC displays
 

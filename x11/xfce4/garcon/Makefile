@@ -1,9 +1,9 @@
-# $OpenBSD: ports/x11/xfce4/garcon/Makefile,v 1.9 2012/03/29 09:10:36 landry Exp $
+# $OpenBSD$
 
 COMMENT =	Xfce4 freedesktop.org compliant menu implementation
 
 XFCE_PROJECT =	garcon
-XFCE_VERSION =	0.1.11
+XFCE_VERSION =	0.2.0
 
 SHARED_LIBS +=	garcon-1 0.0
 
@@ -23,8 +23,6 @@ WANTLIB =	xfce4util gio-2.0 gmodule-2.0 glib-2.0 gobject-2.0 gthread-2.0 \
 		pcre z ffi
 
 BUILD_DEPENDS =		x11/gtk+2
-# regress tests needs the menu file provided by xfce-utils
-REGRESS_DEPENDS =	x11/xfce4/xfce-utils
 
 CONFIGURE_ARGS +=	--disable-linker-opts
 

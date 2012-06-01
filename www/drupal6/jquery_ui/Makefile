@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/jquery_ui/Makefile,v 1.6 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	wrapper module around the jQuery UI effects library
 MAINTAINER =	Marc Espie <espie@openbsd.org>

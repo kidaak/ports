@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Term-ScreenColor/Makefile,v 1.9 2010/11/15 19:46:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=		screen positioning and coloring module
 

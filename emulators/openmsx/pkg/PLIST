@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/openmsx/pkg/PLIST,v 1.2 2012/04/15 17:47:00 bentley Exp $
+@comment $OpenBSD$
 @bin bin/openmsx
 share/doc/openmsx/
 share/doc/openmsx/GPL.txt

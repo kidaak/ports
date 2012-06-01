@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmms-flac/files/Makefile,v 1.1 2003/04/18 00:28:40 naddy Exp $
+# $OpenBSD$
 
 SUBDIRS= src/share src/plugin_common src/plugin_xmms
 

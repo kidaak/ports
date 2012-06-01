@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/netsurf/libparserutils/Makefile,v 1.3 2012/01/12 03:17:08 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		utility library for parser building
 

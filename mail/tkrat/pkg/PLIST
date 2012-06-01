@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/tkrat/pkg/PLIST,v 1.7 2004/09/15 09:09:45 espie Exp $
+@comment $OpenBSD$
 bin/tkrat
 lib/tkrat/
 lib/tkrat/pkgIndex.tcl

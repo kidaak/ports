@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/hotplug-diskmount/Makefile,v 1.4 2012/01/04 08:23:22 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =	disk auto-mounter
 

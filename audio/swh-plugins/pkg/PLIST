@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/swh-plugins/pkg/PLIST,v 1.1.1.1 2010/10/24 10:32:48 jakemsr Exp $
+@comment $OpenBSD$
 lib/ladspa/
 lib/ladspa/alias_1407.so
 lib/ladspa/allpass_1895.so

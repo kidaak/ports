@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-Treebank/Makefile,v 1.4 2010/12/03 11:46:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		manifulate the Penn Treebank format
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/Makefile,v 1.275 2012/01/30 17:23:59 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.51 1997/11/14 22:56:43 hoek Exp $
 #
  
@@ -7,6 +7,7 @@
      SUBDIR += adcomplain
      SUBDIR += akpop3d
      SUBDIR += alpine
+     SUBDIR += altermime
      SUBDIR += amavisd-new
      SUBDIR += archivemail
      SUBDIR += archiveopteryx
@@ -37,8 +38,8 @@
      SUBDIR += cyrus-imapd,drac
      SUBDIR += dkim-milter
      SUBDIR += dovecot
-     SUBDIR += dovecot-pigeonhole
      SUBDIR += dovecot-antispam
+     SUBDIR += dovecot-pigeonhole
      SUBDIR += drac
      SUBDIR += dspam
      SUBDIR += dspam,hash
@@ -121,9 +122,7 @@
      SUBDIR += p5-Email-MIME
      SUBDIR += p5-Email-MIME-Attachment-Stripper
      SUBDIR += p5-Email-MIME-ContentType
-     SUBDIR += p5-Email-MIME-Creator
      SUBDIR += p5-Email-MIME-Encodings
-     SUBDIR += p5-Email-MIME-Modifier
      SUBDIR += p5-Email-MessageID
      SUBDIR += p5-Email-Reply
      SUBDIR += p5-Email-Send
@@ -173,10 +172,11 @@
      SUBDIR += poppassd
      SUBDIR += poppy
      SUBDIR += postfix
-     SUBDIR += postler
      SUBDIR += postgrey
+     SUBDIR += postler
      SUBDIR += prepop
      SUBDIR += procmail
+     SUBDIR += py-authres
      SUBDIR += py-milter
      SUBDIR += py-policyd-spf
      SUBDIR += py-spf

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/xbmbrowser/Makefile,v 1.23 2010/11/17 08:05:16 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.3 1997/08/26 07:12:20 tg Exp $
 
 COMMENT=	view complete directories of X bitmaps and X pixmaps

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Curses-Widgets/pkg/PLIST,v 1.8 2004/09/14 23:43:58 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Curses/
 ${P5SITE}/Curses/Widgets/
 ${P5SITE}/Curses/Widgets.pm

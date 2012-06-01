@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Ping-External/Makefile,v 1.14 2011/04/19 20:35:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		alternative Perl interface to ping(1)
 

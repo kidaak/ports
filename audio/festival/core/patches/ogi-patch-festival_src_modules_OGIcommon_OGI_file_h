@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/ogi-patch-festival_src_modules_OGIcommon_OGI_file_h,v 1.1 2010/05/22 09:30:04 espie Exp $
+$OpenBSD$
 --- festival/src/modules/OGIcommon/OGI_file.h.orig	Sat May 22 10:17:21 2010
 +++ festival/src/modules/OGIcommon/OGI_file.h	Sat May 22 10:19:20 2010
 @@ -21,16 +21,13 @@

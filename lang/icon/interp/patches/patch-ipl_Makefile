@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/icon/interp/patches/patch-ipl_Makefile,v 1.2 2006/10/16 10:01:55 espie Exp $
+$OpenBSD$
 --- ipl/Makefile.orig	Fri Jan 10 16:30:01 2003
 +++ ipl/Makefile	Mon Oct 16 10:38:51 2006
 @@ -8,9 +8,12 @@ All:	Ilib Ibin

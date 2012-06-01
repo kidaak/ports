@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libstdc++-v3_configure,v 1.5 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libstdc++-v3/configure.orig	Thu Oct  6 01:09:51 2011
 +++ libstdc++-v3/configure	Wed Jan 25 18:17:11 2012
 @@ -10891,7 +10891,7 @@ openbsd*)

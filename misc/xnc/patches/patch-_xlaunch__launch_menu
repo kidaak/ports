@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/xnc/patches/patch-_xlaunch__launch_menu,v 1.1.1.1 2000/12/31 12:54:27 reinhard Exp $
+$OpenBSD$
 --- .xlaunch/.launch.menu.orig	Fri Nov 10 09:19:22 2000
 +++ .xlaunch/.launch.menu	Sun Dec 31 12:19:10 2000
 @@ -4,7 +4,7 @@

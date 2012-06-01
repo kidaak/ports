@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/gstoraster/patches/patch-gstoraster,v 1.2 2011/08/25 10:40:48 ajacoutot Exp $
+$OpenBSD$
 --- gstoraster.orig	Tue Aug  2 15:28:57 2011
 +++ gstoraster	Thu Aug 25 12:08:22 2011
 @@ -61,10 +61,11 @@

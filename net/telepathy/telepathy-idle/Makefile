@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/telepathy-idle/Makefile,v 1.33 2012/04/04 14:41:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		flexible communications framework, IRC component
 

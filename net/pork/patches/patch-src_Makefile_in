@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pork/patches/patch-src_Makefile_in,v 1.5 2006/07/21 01:55:24 jolan Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Wed May  4 14:42:35 2005
 +++ src/Makefile.in	Thu Jul 20 20:51:18 2006
 @@ -224,7 +224,7 @@ sysconfdir = @sysconfdir@

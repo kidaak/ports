@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/bookmadesimple/Makefile,v 1.5 2012/01/28 11:33:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	module to simplify and restrict book node creation
 

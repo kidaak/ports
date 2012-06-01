@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Tagset/Makefile,v 1.14 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	data tables useful for parsing HTML
 

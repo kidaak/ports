@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/srecord/Makefile,v 1.2 2011/11/16 12:47:07 jasper Exp $
+# $OpenBSD$
 
 BROKEN-sparc64= 	needs pthread for reasons yet unknown
 

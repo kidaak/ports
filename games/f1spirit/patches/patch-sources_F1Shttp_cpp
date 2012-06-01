@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/f1spirit/patches/patch-sources_F1Shttp_cpp,v 1.1 2011/07/05 08:18:29 jasper Exp $
+$OpenBSD$
 --- sources/F1Shttp.cpp.orig	Tue Jul  5 09:17:36 2011
 +++ sources/F1Shttp.cpp	Tue Jul  5 09:17:42 2011
 @@ -3,7 +3,6 @@

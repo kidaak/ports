@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/frotz/Makefile,v 1.15 2011/03/12 10:19:06 jasper Exp $
+# $OpenBSD$
 # $NetBSD: Makefile,v 1.2 2000/01/15 18:46:28 jlam Exp $
 # Original from: Stefan Jokisch
 

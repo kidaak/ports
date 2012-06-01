@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/glib/patches/patch-Makefile_in,v 1.5 2007/12/11 10:57:25 jakemsr Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Mar 15 07:48:50 2001
 +++ Makefile.in	Sun Oct 21 01:31:05 2007
 @@ -96,9 +96,9 @@ VERSION = @VERSION@

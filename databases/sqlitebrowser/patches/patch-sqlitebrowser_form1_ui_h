@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/sqlitebrowser/patches/patch-sqlitebrowser_form1_ui_h,v 1.1 2009/08/14 12:44:26 espie Exp $
+$OpenBSD$
 --- sqlitebrowser/form1.ui.h.orig	Thu Aug 13 20:34:43 2009
 +++ sqlitebrowser/form1.ui.h	Thu Aug 13 20:36:04 2009
 @@ -145,7 +145,7 @@ void mainForm::populateStructure()

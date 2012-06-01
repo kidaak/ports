@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/wmcube/patches/patch-wmcube_Makefile_OPENBSD,v 1.2 2001/08/28 14:08:57 wilfried Exp $
+$OpenBSD$
 --- wmcube/Makefile.OPENBSD.orig	Sun Oct  8 22:38:46 2000
 +++ wmcube/Makefile.OPENBSD	Mon Aug 27 19:11:27 2001
 @@ -1,37 +1,34 @@

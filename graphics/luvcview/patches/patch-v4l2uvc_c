@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/luvcview/patches/patch-v4l2uvc_c,v 1.1 2010/09/12 22:31:05 jakemsr Exp $
+$OpenBSD$
 --- v4l2uvc.c.orig	Thu Aug 26 15:54:18 2010
 +++ v4l2uvc.c	Thu Aug 26 15:54:54 2010
 @@ -833,9 +833,9 @@ int v4L2UpDownPanTilt(struct vdIn *vd, short inc_p, sh

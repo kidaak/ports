@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/moria/patches/patch-source_main_c,v 1.1.1.1 2001/07/04 16:57:50 lebel Exp $
+$OpenBSD$
 --- source/main.c.orig	Thu Jul 21 21:47:08 1994
 +++ source/main.c	Tue Jul  3 13:02:35 2001
 @@ -92,7 +92,7 @@

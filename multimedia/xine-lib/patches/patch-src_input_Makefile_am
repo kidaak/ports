@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-lib/patches/patch-src_input_Makefile_am,v 1.1 2012/04/08 07:37:25 ajacoutot Exp $
+$OpenBSD$
 --- src/input/Makefile.am.orig	Sat Apr  7 13:15:19 2012
 +++ src/input/Makefile.am	Sat Apr  7 13:16:28 2012
 @@ -56,6 +56,10 @@ if DVB

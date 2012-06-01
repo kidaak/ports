@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/screen/patches/patch-extern_h,v 1.1 2012/03/23 21:37:50 naddy Exp $
+$OpenBSD$
 --- extern.h.orig	Fri Mar 23 22:26:34 2012
 +++ extern.h	Fri Mar 23 22:27:04 2012
 @@ -146,7 +146,9 @@ extern void  CloseDevice __P((struct win *));

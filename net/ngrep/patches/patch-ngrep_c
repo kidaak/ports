@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ngrep/patches/patch-ngrep_c,v 1.6 2011/06/18 14:02:38 kili Exp $
+$OpenBSD$
 --- ngrep.c.orig	Tue Nov 28 14:38:43 2006
 +++ ngrep.c	Sat Jun 18 14:55:32 2011
 @@ -60,6 +60,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-FormatText-WithLinks/Makefile,v 1.4 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	HTML to text conversion with links as footnotes
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/clonekeen/Makefile,v 1.4 2011/06/02 13:41:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		commander keen clone
 DISTNAME =		clonekeen-src-84

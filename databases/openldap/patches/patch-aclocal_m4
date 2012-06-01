@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/openldap/patches/patch-aclocal_m4,v 1.1 2011/01/07 10:24:30 pea Exp $
+$OpenBSD$
 --- aclocal.m4.orig	Mon Dec  7 14:37:50 2009
 +++ aclocal.m4	Mon Dec  7 14:38:06 2009
 @@ -2071,7 +2071,6 @@ openbsd*)

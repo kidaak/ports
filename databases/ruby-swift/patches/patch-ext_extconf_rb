@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/ruby-swift/patches/patch-ext_extconf_rb,v 1.2 2012/04/06 19:26:13 jeremy Exp $
+$OpenBSD$
 --- ext/extconf.rb.orig	Wed Dec 31 16:00:00 1969
 +++ ext/extconf.rb	Wed Feb 22 13:58:58 2012
 @@ -4,14 +4,14 @@ require 'mkmf'

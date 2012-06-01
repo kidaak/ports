@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-rspec/Makefile.inc,v 1.1 2011/11/17 15:15:26 jeremy Exp $
+# $OpenBSD$
 
 CATEGORIES ?=		devel
 

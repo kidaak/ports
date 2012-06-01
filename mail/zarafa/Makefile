@@ -1,7 +1,8 @@
-# $OpenBSD: ports/mail/zarafa/Makefile,v 1.3 2010/06/30 02:46:47 ajacoutot Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += libvmime
+    SUBDIR += webapp
     SUBDIR += zarafa
 
 .include <bsd.port.subdir.mk>

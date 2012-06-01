@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/graphics/zbar/Makefile,v 1.15 2011/11/06 18:57:58 jasper Exp $
+#	$OpenBSD$
 
 COMMENT=	ZBar barcode reader
 DISTNAME=	zbar-0.10

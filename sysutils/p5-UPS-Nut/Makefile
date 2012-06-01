@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-UPS-Nut/Makefile,v 1.9 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to talk to a UPS via NUT (Network UPS Tools) upsd
 

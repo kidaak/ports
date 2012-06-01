@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/www6to4/patches/patch-www6to4_forward_conf,v 1.1.1.1 2004/04/20 19:59:53 naddy Exp $
+$OpenBSD$
 --- www6to4_forward.conf.orig	2001-12-17 16:02:55.000000000 +0100
 +++ www6to4_forward.conf	2004-04-20 21:28:00.000000000 +0200
 @@ -25,11 +25,11 @@

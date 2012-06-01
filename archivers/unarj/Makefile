@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/unarj/Makefile,v 1.24 2011/11/04 13:25:59 jasper Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.12 1999/02/17 22:25:36 ache Exp $
 
 COMMENT=	extract files from ARJ archives

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/madplay/pkg/PLIST,v 1.6 2004/09/18 10:26:55 espie Exp $
+@comment $OpenBSD$
 @conflict mad-*
 bin/abxtest
 bin/madplay

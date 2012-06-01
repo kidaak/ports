@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/bison/Makefile,v 1.45 2012/04/14 12:22:25 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GNU parser generator
 

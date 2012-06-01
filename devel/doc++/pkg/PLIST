@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/doc++/pkg/PLIST,v 1.8 2007/08/11 10:44:24 jasper Exp $
+@comment $OpenBSD$
 bin/doc++
 bin/docify
 bin/promote

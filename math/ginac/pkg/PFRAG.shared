@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/math/ginac/pkg/PFRAG.shared,v 1.2 2008/10/29 16:26:14 pirofti Exp $
+@comment $OpenBSD$
 @lib lib/libginac.so.${LIBginac_VERSION}

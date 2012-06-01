@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/evolution-data-server/patches/patch-addressbook_backends_vcf_e-book-backend-vcf_c,v 1.7 2012/03/29 06:45:21 ajacoutot Exp $
+$OpenBSD$
 
 On OpenBSD, time_t is an int.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/afterstep/patches/patch-tools_importasmenu,v 1.1 2009/12/06 15:09:22 jasper Exp $
+$OpenBSD$
 --- tools/importasmenu.orig	Fri Dec  4 11:40:00 2009
 +++ tools/importasmenu	Fri Dec  4 11:40:10 2009
 @@ -1,4 +1,4 @@

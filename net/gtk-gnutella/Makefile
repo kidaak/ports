@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gtk-gnutella/Makefile,v 1.54 2012/03/29 06:19:12 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Gtk-based GUI client for the Gnutella Network
 

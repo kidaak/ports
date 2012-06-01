@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ii/Makefile,v 1.8 2011/03/11 09:00:14 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		minimalist IRC client
 

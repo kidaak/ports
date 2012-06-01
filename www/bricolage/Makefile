@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/bricolage/Makefile,v 1.8 2010/11/22 08:36:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	content management system
 

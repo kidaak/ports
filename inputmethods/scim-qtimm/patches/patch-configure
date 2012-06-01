@@ -1,4 +1,4 @@
-$OpenBSD: ports/inputmethods/scim-qtimm/patches/patch-configure,v 1.1.1.1 2008/10/29 02:26:32 kevlo Exp $
+$OpenBSD$
 --- configure.orig	Wed Aug 17 07:30:35 2005
 +++ configure	Mon Oct 27 17:37:08 2008
 @@ -10691,13 +10691,13 @@ fi

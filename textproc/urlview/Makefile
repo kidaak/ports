@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/urlview/Makefile,v 1.19 2011/11/03 20:13:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	curses-based URL ripper
 

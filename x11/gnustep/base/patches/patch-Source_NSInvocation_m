@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/base/patches/patch-Source_NSInvocation_m,v 1.1 2011/04/18 11:54:49 sebastia Exp $
+$OpenBSD$
 --- Source/NSInvocation.m.orig	Mon Apr  4 17:09:54 2011
 +++ Source/NSInvocation.m	Mon Apr  4 17:10:25 2011
 @@ -118,7 +118,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webkit/patches/patch-Source_JavaScriptCore_wtf_TCSpinLock_h,v 1.2 2011/10/13 06:52:49 jasper Exp $
+$OpenBSD$
 
 workaround for a g++4 regression(?) on powerpc, reported as
 https://bugs.webkit.org/show_bug.cgi?id=33451 :

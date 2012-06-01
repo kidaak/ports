@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/automoc/Makefile,v 1.1.1.1 2010/06/18 09:17:16 espie Exp $
+# $OpenBSD$
 
 VERSION =		0.9.88
 COMMENT =		kde frontend to moc

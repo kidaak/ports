@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/feldspar/Makefile.inc,v 1.1.1.1 2011/05/02 20:45:39 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES?=		lang
 

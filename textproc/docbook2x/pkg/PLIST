@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/docbook2x/pkg/PLIST,v 1.1.1.1 2011/05/04 14:07:18 sthen Exp $
+@comment $OpenBSD$
 bin/db2x_manxml
 bin/db2x_texixml
 bin/db2x_xsltproc

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/mrxvt/pkg/PLIST,v 1.4 2011/10/06 10:00:02 giovanni Exp $
+@comment $OpenBSD$
 @mode g+s
 @group utmp
 @bin bin/mrxvt

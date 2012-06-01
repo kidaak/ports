@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/hs-HDBC/Makefile,v 1.19 2012/03/01 09:42:54 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		abstraction layer for SQL relational databases
 

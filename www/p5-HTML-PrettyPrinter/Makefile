@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-PrettyPrinter/Makefile,v 1.1.1.1 2011/03/16 14:21:04 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		generate nice HTML files from HTML syntax trees
 

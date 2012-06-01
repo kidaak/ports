@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/py-gtk2/Makefile,v 1.53 2011/09/28 09:51:37 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

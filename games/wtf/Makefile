@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/wtf/Makefile,v 1.8 2011/09/20 11:08:52 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	translate common internet acronyms
 

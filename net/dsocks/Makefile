@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dsocks/Makefile,v 1.9 2011/11/18 11:16:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=		SOCKS client wrapper for *BSD
 DISTNAME=		dsocks-1.6

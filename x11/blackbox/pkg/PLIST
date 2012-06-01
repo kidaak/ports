@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/blackbox/pkg/PLIST,v 1.20 2007/04/01 05:58:43 steven Exp $
+@comment $OpenBSD$
 @conflict libbt-*
 bin/blackbox
 bin/bsetbg

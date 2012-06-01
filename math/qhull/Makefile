@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/qhull/Makefile,v 1.2 2012/04/16 08:07:39 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		computing the convex hull
 

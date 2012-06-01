@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtkhotkey/Makefile,v 1.8 2011/09/16 12:29:15 espie Exp $
+# $OpenBSD$
 
 COMMENT =	platform independent hotkey handling for Gtk+ applications
 

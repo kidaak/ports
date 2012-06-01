@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-mutagen/patches/patch-tests_test___init___py,v 1.1 2011/05/31 09:49:52 dcoppa Exp $
+$OpenBSD$
 --- tests/test___init__.py.orig	Thu May 26 14:34:47 2011
 +++ tests/test___init__.py	Thu May 26 14:35:05 2011
 @@ -181,23 +181,3 @@ class TFile(TestCase):

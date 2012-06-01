@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/cclive/Makefile,v 1.1.1.1 2012/01/13 20:45:15 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		media download tool
 

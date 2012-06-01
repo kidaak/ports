@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/gamin/patches/patch-server_gam_channel_c,v 1.4 2010/07/13 14:10:35 ajacoutot Exp $
+$OpenBSD$
 
 From FreeBSD:
 Restore the stale socket cleanup code from gamin 0.1.5 to ensure that even

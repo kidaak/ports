@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/amaya/browser/patches/patch-libwww_Library_src_Makefile_am,v 1.1 2001/10/02 20:18:59 heko Exp $
+$OpenBSD$
 --- libwww/Library/src/Makefile.am.orig	Mon Mar  6 09:58:50 2000
 +++ libwww/Library/src/Makefile.am	Tue Oct  2 02:53:32 2001
 @@ -250,9 +250,6 @@ libwwwhttp_la_SOURCES = \

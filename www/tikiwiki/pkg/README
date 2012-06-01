@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/tikiwiki/pkg/README,v 1.4 2011/10/16 15:20:33 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

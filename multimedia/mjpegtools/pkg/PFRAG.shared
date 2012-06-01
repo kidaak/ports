@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/mjpegtools/pkg/PFRAG.shared,v 1.5 2008/01/26 02:10:26 jakemsr Exp $
+@comment $OpenBSD$
 @lib lib/liblavfile-1.9.so.${LIBlavfile-1.9_VERSION}
 @lib lib/liblavfile.so.${LIBlavfile_VERSION}
 @lib lib/liblavjpeg-1.9.so.${LIBlavjpeg-1.9_VERSION}

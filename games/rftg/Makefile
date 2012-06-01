@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/rftg/Makefile,v 1.12 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 V = 0.8.1
 COMMENT-client = race for the galaxy card game

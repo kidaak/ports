@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libgtop2/Makefile,v 1.94 2012/03/11 08:45:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		portable library for obtaining system information
 

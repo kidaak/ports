@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/postgresql/pkg/PLIST-docs,v 1.54 2012/03/05 15:00:57 pea Exp $
+@comment $OpenBSD$
 share/doc/postgresql/
 share/doc/postgresql/COPYRIGHT
 share/doc/postgresql/HISTORY

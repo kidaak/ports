@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/texlive/texmf/patches/patch-texmf_web2c_texmf_cnf,v 1.6 2012/01/10 18:04:31 edd Exp $
+$OpenBSD$
 --- texmf/web2c/texmf.cnf.origy	Sat Jun 18 23:10:46 2011
 +++ texmf/web2c/texmf.cnf	Wed Aug 31 17:42:50 2011
 @@ -1,6 +1,10 @@

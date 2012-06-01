@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/discwrapper/pkg/PLIST,v 1.2 2009/12/22 16:06:40 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/discwrapper
 share/applications/discwrapper.desktop
 share/discwrapper/

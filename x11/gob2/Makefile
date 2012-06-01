@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gob2/Makefile,v 1.10 2011/09/16 12:29:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		GTK+ Object Builder
 DISTNAME=		gob2-2.0.18

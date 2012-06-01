@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libwnck/Makefile,v 1.52 2011/10/13 16:26:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		window navigator construction kit
 

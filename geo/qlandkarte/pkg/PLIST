@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/qlandkarte/pkg/PLIST,v 1.7 2010/05/21 19:56:02 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/qlandkarte
 lib/qlandkarte/

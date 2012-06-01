@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/xemacs21/Makefile.inc,v 1.3 2011/01/02 22:29:42 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	heavily customizable and extensible editor
 DISTNAME=	xemacs-${BRANCH}.${VERSION}

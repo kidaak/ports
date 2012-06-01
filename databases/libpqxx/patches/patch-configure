@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/libpqxx/patches/patch-configure,v 1.1 2011/07/11 21:10:33 sthen Exp $
+$OpenBSD$
 --- configure.orig	Mon Jul 11 21:48:55 2011
 +++ configure	Mon Jul 11 21:48:56 2011
 @@ -24681,7 +24681,7 @@ for publication in $PUBLICATIONS ; do

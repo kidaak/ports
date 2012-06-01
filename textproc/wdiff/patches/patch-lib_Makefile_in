@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/wdiff/patches/patch-lib_Makefile_in,v 1.2 2011/09/17 10:51:22 sthen Exp $
+$OpenBSD$
 
 Do not install charset.alias, which is already provided by 
 converters/libiconv

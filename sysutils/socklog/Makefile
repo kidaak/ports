@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/socklog/Makefile,v 1.6 2010/10/19 07:43:02 espie Exp $
+# $OpenBSD$
 
 COMMENT=		small and secure replacement for syslogd
 

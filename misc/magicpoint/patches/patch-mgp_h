@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/magicpoint/patches/patch-mgp_h,v 1.1 2005/11/05 09:28:42 espie Exp $
+$OpenBSD$
 --- mgp.h.orig	Sat Nov  5 10:09:50 2005
 +++ mgp.h	Sat Nov  5 10:15:33 2005
 @@ -276,6 +276,7 @@ struct ctrl {

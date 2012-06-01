@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/detex/Makefile,v 1.26 2010/11/20 09:48:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=		strip TeX/LaTeX codes from a file
 

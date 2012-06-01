@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/amoebax/pkg/PLIST,v 1.2 2009/12/22 16:27:59 ajacoutot Exp $
+@comment $OpenBSD$
 bin/amoebax
 @man man/man6/amoebax.6
 share/amoebax/

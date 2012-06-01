@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/nulib/Makefile,v 1.26 2012/01/03 06:53:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	NuFX archiver
 

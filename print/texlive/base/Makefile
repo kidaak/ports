@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/texlive/base/Makefile,v 1.57 2012/02/17 13:41:33 nigel Exp $
+# $OpenBSD$
 
 COMMENT =		base binaries for TeXLive typesetting distribution
 

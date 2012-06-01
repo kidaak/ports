@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/swi-prolog/patches/patch-src_configure_in,v 1.7 2011/09/17 16:06:32 edd Exp $
+$OpenBSD$
 --- src/configure.in.orig	Fri Aug 19 15:31:28 2011
 +++ src/configure.in	Sat Sep 17 11:34:22 2011
 @@ -498,6 +498,10 @@ case "$PLARCH" in

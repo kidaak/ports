@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-mock/Makefile,v 1.3 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		python mocking and patching library for testing
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/lib/OpenBSD/FileSource.pm,v 1.2 2011/11/27 11:29:33 espie Exp $
+# $OpenBSD$
 # Copyright (c) 2004-2010 Marc Espie <espie@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

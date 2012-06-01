@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmname/Makefile,v 1.3 2011/03/02 06:30:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	sets the window manager name property of the root window
 

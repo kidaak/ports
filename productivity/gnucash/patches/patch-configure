@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/gnucash/patches/patch-configure,v 1.5 2012/03/29 14:57:00 ajacoutot Exp $
+$OpenBSD$
 
 OpenBSD uses /var/db/gconf which is detected correctly by other code.
 

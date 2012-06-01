@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/filefield/Makefile,v 1.13 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	file cck field
 MAINTAINER =	Marc Espie <espie@openbsd.org>

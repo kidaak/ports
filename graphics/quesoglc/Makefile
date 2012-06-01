@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/quesoglc/Makefile,v 1.6 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	implementation of the OpenGL Character Renderer
 

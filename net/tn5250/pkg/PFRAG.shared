@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/tn5250/pkg/PFRAG.shared,v 1.2 2005/12/31 15:10:05 steven Exp $
+@comment $OpenBSD$
 @lib lib/lib5250.so.${LIB5250_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Search-Xapian/Makefile,v 1.9 2012/01/07 12:03:29 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		perl bindings for the xapian search library
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-ShareDir/pkg/PLIST,v 1.2 2008/10/03 13:38:31 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/ShareDir.pm
 ${P5SITE}/auto/

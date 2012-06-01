@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gii/Makefile,v 1.36 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 # Uses pthreads
 
 COMMENT=	General Input Library (used by libggi)

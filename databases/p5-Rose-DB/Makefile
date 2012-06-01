@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Rose-DB/Makefile,v 1.9 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	DBI wrapper and abstraction layer
 

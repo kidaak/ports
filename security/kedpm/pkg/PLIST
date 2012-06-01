@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/kedpm/pkg/PLIST,v 1.2 2009/01/03 21:27:25 kili Exp $
+@comment $OpenBSD$
 bin/kedpm
 lib/python${MODPY_VERSION}/site-packages/kedpm/
 lib/python${MODPY_VERSION}/site-packages/kedpm-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

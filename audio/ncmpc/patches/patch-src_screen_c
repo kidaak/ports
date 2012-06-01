@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ncmpc/patches/patch-src_screen_c,v 1.4 2012/03/04 16:57:19 dcoppa Exp $
+$OpenBSD$
 --- src/screen.c.orig	Sun Feb  5 20:04:22 2012
 +++ src/screen.c	Fri Mar  2 13:18:26 2012
 @@ -40,6 +40,8 @@

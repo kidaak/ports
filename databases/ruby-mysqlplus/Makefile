@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-mysqlplus/Makefile,v 1.6 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	enhanced ruby mysql driver, supporting async and threading
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-lib_phusion_passenger_standalone_utils_rb,v 1.1 2011/12/13 18:38:18 jeremy Exp $
+$OpenBSD$
 
 Passenger standalone is designed so that multiple versions can be downloaded
 and installed at runtime, separated by ruby and platform version.  The

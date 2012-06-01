@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/faces/patches/patch-main_c,v 1.2 2007/05/23 23:38:38 jasper Exp $
+$OpenBSD$
 --- main.c.orig	Tue Nov 19 05:00:47 1991
 +++ main.c	Thu May 24 01:31:16 2007
 @@ -17,6 +17,7 @@

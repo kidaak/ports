@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/workrave/patches/patch-po_Makefile_in_in,v 1.3 2010/05/13 12:29:26 jasper Exp $
+$OpenBSD$
 --- po/Makefile.in.in.orig	Sun Oct 25 12:14:51 2009
 +++ po/Makefile.in.in	Thu May 13 13:22:40 2010
 @@ -141,7 +141,7 @@ uninstall:

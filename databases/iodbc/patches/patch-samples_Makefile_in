@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/iodbc/patches/patch-samples_Makefile_in,v 1.4 2011/06/16 01:29:57 sthen Exp $
+$OpenBSD$
 --- samples/Makefile.in.orig	Thu Sep 10 15:34:57 2009
 +++ samples/Makefile.in	Fri Jun  3 11:28:05 2011
 @@ -627,9 +627,9 @@ uninstall-am: uninstall-binPROGRAMS

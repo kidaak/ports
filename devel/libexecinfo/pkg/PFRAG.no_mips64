@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libexecinfo/pkg/PFRAG.no_mips64,v 1.3 2011/11/16 15:12:53 jasper Exp $
+@comment $OpenBSD$
 lib/libexecinfo_pic.a

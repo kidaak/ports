@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/octave/patches/patch-run-octave_in,v 1.3 2008/10/05 16:22:04 steven Exp $
+$OpenBSD$
 --- run-octave.in.orig	Tue Aug  5 09:48:21 2008
 +++ run-octave.in	Wed Oct  1 22:13:29 2008
 @@ -67,7 +67,6 @@ if [ $# -gt 0 ]; then

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/xuvmstat/patches/patch-xuvmstat_c,v 1.3 2005/10/13 17:22:10 pvalchev Exp $
+$OpenBSD$
 --- xuvmstat.c.orig	Fri Sep  9 07:38:48 2005
 +++ xuvmstat.c	Tue Oct 11 16:55:32 2005
 @@ -24,6 +24,7 @@

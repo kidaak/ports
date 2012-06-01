@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xcept/patches/patch-ceptd_Makefile,v 1.2 2002/10/01 06:51:06 pvalchev Exp $
+$OpenBSD$
 --- ceptd/Makefile.orig	Wed Jun 15 09:10:59 1994
 +++ ceptd/Makefile	Fri Sep 27 02:18:23 2002
 @@ -1,21 +1,24 @@

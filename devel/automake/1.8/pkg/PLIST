@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/automake/1.8/pkg/PLIST,v 1.1.1.1 2005/04/17 20:37:31 naddy Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict automake->=1.8,<1.9
 @comment bin/aclocal

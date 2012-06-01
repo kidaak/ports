@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-xmpp4r/Makefile,v 1.11 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Ruby XMPP/Jabber library
 

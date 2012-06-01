@@ -1,0 +1,2 @@
+@comment $OpenBSD$
+lib/asterisk/modules/res_http_post.so

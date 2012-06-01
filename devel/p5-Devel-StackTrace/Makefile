@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-StackTrace/Makefile,v 1.17 2011/06/01 17:41:48 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	stack trace and stack trace frame objects
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/dfu-util/patches/patch-src_main_c,v 1.2 2011/03/02 06:31:35 jasper Exp $
+$OpenBSD$
 
 From Bug 672 in OpenMoko via Simon Moore
 

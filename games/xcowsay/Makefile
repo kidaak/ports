@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xcowsay/Makefile,v 1.8 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT =		displays a cute cow and message on your desktop
 DISTNAME =		xcowsay-1.1

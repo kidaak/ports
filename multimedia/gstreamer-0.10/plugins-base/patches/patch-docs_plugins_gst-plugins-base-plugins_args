@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-base/patches/patch-docs_plugins_gst-plugins-base-plugins_args,v 1.5 2012/02/21 08:45:43 ajacoutot Exp $
+$OpenBSD$
 --- docs/plugins/gst-plugins-base-plugins.args.orig	Tue Feb 21 00:51:30 2012
 +++ docs/plugins/gst-plugins-base-plugins.args	Tue Feb 21 08:54:45 2012
 @@ -2155,7 +2155,7 @@

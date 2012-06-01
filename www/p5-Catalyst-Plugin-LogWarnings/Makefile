@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-LogWarnings/Makefile,v 1.5 2012/04/08 21:58:35 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	log Perl warnings to your Catalyst log object
 

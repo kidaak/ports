@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/theme-zen/pkg/PLIST,v 1.1.1.1 2010/10/24 08:55:04 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_THEMES}zen/

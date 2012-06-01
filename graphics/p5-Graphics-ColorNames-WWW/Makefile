@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Graphics-ColorNames-WWW/Makefile,v 1.5 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	WWW color names and equivalent RGB values
 

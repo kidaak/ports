@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Frame-Dump/pkg/PLIST,v 1.1.1.1 2011/04/06 11:53:39 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/Frame/Dump/
 ${P5SITE}/Net/Frame/Dump.pm
 ${P5SITE}/Net/Frame/Dump/Offline.pm

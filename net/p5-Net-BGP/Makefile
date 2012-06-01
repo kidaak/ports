@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-BGP/Makefile,v 1.10 2011/03/11 09:44:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 	Border Gateway Protocol version 4 speaker/listener library
 

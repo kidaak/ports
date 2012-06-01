@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmtime/Makefile,v 1.12 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	time/date applet for WindowMaker
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/apcupsd/patches/patch-doc_apcupsd_conf_5,v 1.1 2011/08/30 09:59:30 sthen Exp $
+$OpenBSD$
 --- doc/apcupsd.conf.5.orig	Wed May  6 01:51:26 2009
 +++ doc/apcupsd.conf.5	Mon Jul 25 10:10:31 2011
 @@ -1,5 +1,4 @@

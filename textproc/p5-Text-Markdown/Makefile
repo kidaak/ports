@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Markdown/Makefile,v 1.10 2011/01/18 09:59:02 okan Exp $
+# $OpenBSD$
 
 COMMENT=	convert Markdown syntax to (X)HTML
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/scmxx/Makefile,v 1.9 2011/07/06 09:30:25 jasper Exp $
+# $OpenBSD$
 # $NetBSD: Makefile,v 1.18 2002/10/22 15:33:10 kleink Exp $
 
 COMMENT=		data exchange utility for Siemens mobile phones

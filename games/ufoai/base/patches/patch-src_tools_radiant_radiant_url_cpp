@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-src_tools_radiant_radiant_url_cpp,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- src/tools/radiant/radiant/url.cpp.orig	Mon Apr 25 19:50:03 2011
 +++ src/tools/radiant/radiant/url.cpp	Mon Apr 25 19:50:42 2011
 @@ -30,7 +30,7 @@

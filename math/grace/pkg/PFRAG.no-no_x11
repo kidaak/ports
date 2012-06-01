@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/grace/pkg/PFRAG.no-no_x11,v 1.2 2004/10/08 10:37:24 espie Exp $
+@comment $OpenBSD$
 bin/xmgrace
 grace/bin/xmgrace
 grace/doc/xmgrace.1

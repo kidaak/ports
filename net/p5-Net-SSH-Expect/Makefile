@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-SSH-Expect/Makefile,v 1.5 2012/01/29 02:44:10 william Exp $
+# $OpenBSD$
 
 COMMENT =	ssh wrapper to execute remote interactive commands
 

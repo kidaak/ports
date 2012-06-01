@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-WWW-Google-SiteMap/pkg/PLIST,v 1.1.1.1 2007/04/17 23:23:10 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/WWW/
 ${P5SITE}/WWW/Google/
 ${P5SITE}/WWW/Google/SiteMap/

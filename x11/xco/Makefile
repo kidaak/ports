@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xco/Makefile,v 1.21 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	display X11 color names and colors
 

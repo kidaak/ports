@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-solenv_bin_localize,v 1.1 2012/04/03 08:56:50 robert Exp $
+$OpenBSD$
 --- solenv/bin/localize.orig.port	Mon Mar 12 15:34:30 2012
 +++ solenv/bin/localize	Mon Mar 12 15:34:40 2012
 @@ -1,4 +1,4 @@

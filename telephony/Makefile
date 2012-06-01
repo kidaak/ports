@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/Makefile,v 1.27 2011/06/04 17:15:56 jolan Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += appkonference

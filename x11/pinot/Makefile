@@ -1,11 +1,11 @@
-# $OpenBSD: ports/x11/pinot/Makefile,v 1.29 2012/02/21 08:41:57 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
 COMMENT=	personal search and metasearch
 
 DISTNAME=	pinot-0.98
-REVISION=	1
+REVISION=	2
 
 CATEGORIES=	x11 misc
 
@@ -43,7 +43,6 @@ LIB_DEPENDS=	x11/gtk2mm \
 		mail/gmime>=2.6.0 \
 		net/curl \
 		audio/taglib \
-		databases/sqlite3 \
 		x11/dbus-glib \
 		graphics/exiv2 \
 		devel/libidn

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_osgi_JavaSE-1_7_profile,v 1.1 2007/08/02 16:15:07 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.osgi/JavaSE-1.7.profile.orig	Thu Aug  2 11:08:26 2007
 +++ plugins/org.eclipse.osgi/JavaSE-1.7.profile	Thu Aug  2 11:07:54 2007
 @@ -0,0 +1,146 @@

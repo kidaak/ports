@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/umurmur/Makefile,v 1.4 2012/04/12 10:03:19 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		minimalistic Mumble server 
 

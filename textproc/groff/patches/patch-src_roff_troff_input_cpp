@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/groff/patches/patch-src_roff_troff_input_cpp,v 1.1 2011/03/19 16:48:53 schwarze Exp $
+$OpenBSD$
 # Avoid a name clash over "input_iterator" and let this build on GCC 2.
 --- src/roff/troff/input.cpp.orig	Fri Dec 31 00:33:08 2010
 +++ src/roff/troff/input.cpp	Thu Mar 17 16:47:28 2011

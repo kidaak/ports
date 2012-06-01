@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/py-requests/patches/patch-setup_py,v 1.1.1.1 2011/10/14 16:32:54 jasper Exp $
+$OpenBSD$
 --- setup.py.orig	Wed Oct 12 10:12:06 2011
 +++ setup.py	Wed Oct 12 10:12:08 2011
 @@ -17,7 +17,7 @@ if sys.argv[-1] == "publish":

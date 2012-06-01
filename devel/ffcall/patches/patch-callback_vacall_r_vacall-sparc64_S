@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ffcall/patches/patch-callback_vacall_r_vacall-sparc64_S,v 1.2 2010/09/23 13:38:33 joshe Exp $
+$OpenBSD$
 
 Add missing .register declarations.
 Load the saved callback data from the stack into %g5, see the

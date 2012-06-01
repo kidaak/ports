@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/dvd+rw-tools/patches/patch-mp_h,v 1.1 2008/02/07 01:53:23 jakemsr Exp $
+$OpenBSD$
 --- mp.h.orig	Wed Feb  6 17:47:13 2008
 +++ mp.h	Wed Feb  6 17:48:11 2008
 @@ -40,7 +40,7 @@ static void *__thread_create(int (*func)(void *),void 

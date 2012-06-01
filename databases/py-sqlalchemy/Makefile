@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-sqlalchemy/Makefile,v 1.25 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		database toolkit for Python
 

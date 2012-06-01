@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ruby-ncurses/patches/patch-form_wrap_c,v 1.1 2011/07/19 18:04:21 jeremy Exp $
+$OpenBSD$
 --- form_wrap.c.orig	Tue Jul 19 09:13:14 2011
 +++ form_wrap.c	Tue Jul 19 09:14:49 2011
 @@ -394,7 +394,7 @@ static void reg_proc(void* owner, int hook, VALUE proc

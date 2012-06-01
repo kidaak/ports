@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-IO-Capture/pkg/PLIST,v 1.2 2005/12/02 11:32:54 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/IO/
 ${P5SITE}/IO/Capture/
 ${P5SITE}/IO/Capture.pm

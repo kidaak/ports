@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/l0phtcrack/patches/patch-ztest_c,v 1.1 2010/10/19 07:59:04 jsg Exp $
+$OpenBSD$
 --- ztest.c.orig	Sat Oct 16 15:08:05 2010
 +++ ztest.c	Sat Oct 16 15:09:48 2010
 @@ -137,9 +137,9 @@ int issame(char *, char *, int);

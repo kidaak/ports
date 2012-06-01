@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/ocaml-sqlite3/patches/patch-Makefile_in,v 1.5 2009/05/20 02:02:30 avsm Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sat May 16 17:29:15 2009
 +++ Makefile.in	Tue May 19 19:35:29 2009
 @@ -40,11 +40,10 @@ distclean: clean

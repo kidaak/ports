@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/dejagnu/pkg/PLIST,v 1.8 2011/05/07 14:03:47 sthen Exp $
+@comment $OpenBSD$
 bin/runtest
 include/dejagnu.h
 @info info/dejagnu.info

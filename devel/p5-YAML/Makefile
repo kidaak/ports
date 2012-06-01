@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-YAML/Makefile,v 1.14 2011/06/25 18:01:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	YAML ain't a markup language
 

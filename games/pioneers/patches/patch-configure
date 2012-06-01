@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/pioneers/patches/patch-configure,v 1.4 2010/11/17 19:23:05 jasper Exp $
+$OpenBSD$
 --- configure.orig	Sun Sep 26 11:18:09 2010
 +++ configure	Wed Nov 17 18:57:54 2010
 @@ -14435,7 +14435,7 @@ if test $pioneers_is_mingw_port = yes; then

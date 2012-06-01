@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/gecko-mediaplayer/pkg/PLIST,v 1.6 2011/07/04 13:33:30 dcoppa Exp $
+@comment $OpenBSD$
 lib/mozilla/
 lib/mozilla/plugins/
 lib/mozilla/plugins/gecko-mediaplayer-dvx.so

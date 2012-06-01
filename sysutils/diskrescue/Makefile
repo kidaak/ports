@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/diskrescue/Makefile,v 1.6 2010/11/20 17:22:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =		fancy dd
 

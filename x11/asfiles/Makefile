@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/asfiles/Makefile,v 1.16 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		X11 file manager. Dockable in Window Maker
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/gcal/patches/patch-configure,v 1.1.1.1 2009/10/17 08:39:34 bernd Exp $
+$OpenBSD$
 --- configure.orig	Wed Jun 14 14:58:07 2000
 +++ configure	Mon Apr  2 10:04:52 2007
 @@ -2632,7 +2632,7 @@ if eval "test \"`echo '$''{'ac_cv_lib_$ac_lib_var'+set

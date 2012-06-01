@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/aucatctl/Makefile,v 1.1 2012/03/27 08:05:37 ratchov Exp $
+# $OpenBSD$
 
 COMMENT =		control aucat and/or sndiod volume
 DISTNAME =		aucatctl-0.1

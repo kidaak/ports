@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/sqlite/Makefile,v 1.18 2010/11/15 00:22:54 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Embedded SQL implementation
 DISTNAME=	sqlite-2.8.17

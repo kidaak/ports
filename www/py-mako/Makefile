@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-mako/Makefile,v 1.10 2011/10/14 05:25:03 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =	super-fast templating language
 

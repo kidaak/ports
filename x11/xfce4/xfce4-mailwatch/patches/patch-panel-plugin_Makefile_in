@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfce4-mailwatch/patches/patch-panel-plugin_Makefile_in,v 1.1 2011/01/18 21:05:51 landry Exp $
+$OpenBSD$
 --- panel-plugin/Makefile.in.orig	Sat Jan 15 22:03:08 2011
 +++ panel-plugin/Makefile.in	Sat Jan 15 22:03:41 2011
 @@ -345,6 +345,7 @@ EXTRA_DIST = mailwatch-plugin.c mailwatch-plugin-4.2.c

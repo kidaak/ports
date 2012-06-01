@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Time-Period/Makefile,v 1.7 2010/12/03 11:44:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		module for dealing with time periods
 

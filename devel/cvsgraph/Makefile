@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cvsgraph/Makefile,v 1.16 2010/11/15 19:45:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=		graphical representation of CVS repository
 

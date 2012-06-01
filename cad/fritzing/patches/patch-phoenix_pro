@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/fritzing/patches/patch-phoenix_pro,v 1.6 2012/04/05 21:02:25 jasper Exp $
+$OpenBSD$
 
 - Don't build everything twice, just once takes long enough already.
 - Remove bundled boost and use the system-wide version instead.

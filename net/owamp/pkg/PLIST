@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/owamp/pkg/PLIST,v 1.1.1.1 2011/07/08 09:31:06 sthen Exp $
+@comment $OpenBSD$
 @newgroup _owampd:678
 @newuser _owampd:678:_owampd:daemon:owampd user:/nonexistent:/sbin/nologin
 @bin bin/aespasswd

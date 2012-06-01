@@ -1,8 +1,8 @@
-$OpenBSD: ports/mail/majordomo/patches/patch-bounce,v 1.1.1.1 2000/05/22 16:33:43 espie Exp $
+$OpenBSD$
 --- bounce.orig	Mon May 15 02:35:45 2000
 +++ bounce	Mon May 15 02:36:04 2000
 @@ -41,7 +41,7 @@
- # $Locker:  $
+ # $Locker$
  #
  
 -$MAILER = "/usr/lib/sendmail";

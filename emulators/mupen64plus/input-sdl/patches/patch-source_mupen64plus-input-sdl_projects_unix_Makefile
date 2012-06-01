@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/input-sdl/patches/patch-source_mupen64plus-input-sdl_projects_unix_Makefile,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- projects/unix/Makefile.orig	Tue Nov 23 03:15:13 2010
 +++ projects/unix/Makefile	Sun Dec 18 17:12:34 2011
 @@ -48,6 +48,11 @@ ifeq ("$(UNAME)","FreeBSD")

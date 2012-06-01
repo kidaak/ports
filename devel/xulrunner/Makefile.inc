@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/xulrunner/Makefile.inc,v 1.23 2012/04/07 13:10:50 landry Exp $
+# $OpenBSD$
 
 COMMENT-main =		standalone XUL/XPCOM runtime environment
 COMMENT-devel =		devel files for Gecko

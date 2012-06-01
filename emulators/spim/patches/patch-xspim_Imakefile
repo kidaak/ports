@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/spim/patches/patch-xspim_Imakefile,v 1.2 2006/11/09 07:01:47 kevlo Exp $
+$OpenBSD$
 --- xspim/Imakefile.orig	Tue Aug 29 02:23:19 2006
 +++ xspim/Imakefile	Thu Nov  9 12:11:27 2006
 @@ -36,10 +36,11 @@

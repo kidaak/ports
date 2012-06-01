@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/asterisk/patches/patch-main_editline_configure,v 1.1 2011/09/16 12:49:21 naddy Exp $
+$OpenBSD$
 --- main/editline/configure.orig	Thu Sep 15 18:37:10 2011
 +++ main/editline/configure	Thu Sep 15 18:37:45 2011
 @@ -1963,7 +1963,7 @@ if test "x$enable_debug" = "xyes" ; then

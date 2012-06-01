@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/libmusicbrainz/pkg/PFRAG.shared,v 1.2 2010/04/15 20:35:46 dcoppa Exp $
+@comment $OpenBSD$
 @lib lib/libmusicbrainz3.so.${LIBmusicbrainz3_VERSION}

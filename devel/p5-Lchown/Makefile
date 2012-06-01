@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Lchown/Makefile,v 1.11 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

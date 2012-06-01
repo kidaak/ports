@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/gtkhtml4/pkg/PLIST,v 1.2 2011/05/14 10:20:23 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gtkhtml3-<3.32.2p0
 @bin bin/gtkhtml-editor-test
 include/libgtkhtml-${API_VERSION}/

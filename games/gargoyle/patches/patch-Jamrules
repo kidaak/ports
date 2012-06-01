@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/gargoyle/patches/patch-Jamrules,v 1.5 2010/10/23 09:15:16 jasper Exp $
+$OpenBSD$
 --- Jamrules.orig	Mon Sep 27 15:05:16 2010
 +++ Jamrules	Thu Oct 21 23:12:05 2010
 @@ -6,8 +6,8 @@ BUILD ?= RELEASE ;

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/nail/patches/patch-nail_rc,v 1.3 2006/04/26 15:37:25 naddy Exp $
+$OpenBSD$
 --- nail.rc.orig	Fri Mar  3 19:01:19 2006
 +++ nail.rc	Mon Apr 24 10:44:06 2006
 @@ -17,6 +17,9 @@ set append

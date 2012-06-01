@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-sal_osl_unx_system_h,v 1.1 2012/04/03 08:56:50 robert Exp $
+$OpenBSD$
 --- sal/osl/unx/system.h.orig.port	Fri Mar 30 21:59:29 2012
 +++ sal/osl/unx/system.h	Fri Mar 30 23:14:19 2012
 @@ -120,34 +120,7 @@

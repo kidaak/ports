@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-src_3rdparty_webkit_WebCore_WebCore_pro,v 1.4 2011/09/07 09:54:07 espie Exp $
+$OpenBSD$
 --- src/3rdparty/webkit/WebCore/WebCore.pro.orig	Tue Aug 23 14:02:27 2011
 +++ src/3rdparty/webkit/WebCore/WebCore.pro	Mon Sep  5 11:19:03 2011
 @@ -66,9 +66,9 @@ CONFIG(standalone_package) {

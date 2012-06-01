@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/patches/patch-src_qt-console_bat_pro_in,v 1.1 2011/11/24 09:29:55 ajacoutot Exp $
+$OpenBSD$
 
 Reorder LDFLAGS (prefer -L.libs over /usr/local/lib) so that bacula can
 be rebuilt while already installed.

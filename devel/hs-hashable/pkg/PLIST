@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-hashable/pkg/PLIST,v 1.1.1.1 2012/01/15 16:58:28 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Data/
 lib/ghc/${DISTNAME}/Data/Hashable.hi

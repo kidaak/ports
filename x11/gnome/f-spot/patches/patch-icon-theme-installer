@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/f-spot/patches/patch-icon-theme-installer,v 1.2 2010/03/24 22:53:55 ajacoutot Exp $
+$OpenBSD$
 --- icon-theme-installer.orig	Wed Mar 24 23:34:30 2010
 +++ icon-theme-installer	Wed Mar 24 23:33:49 2010
 @@ -1,4 +1,4 @@

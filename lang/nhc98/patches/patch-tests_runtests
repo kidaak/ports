@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/nhc98/patches/patch-tests_runtests,v 1.2 2008/08/28 19:55:20 kili Exp $
+$OpenBSD$
 
 Don't use bash.
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xblast/pkg/PLIST,v 1.8 2009/12/20 00:14:40 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/xblast
 @bin bin/xbsndsrv
 share/locale/de/LC_MESSAGES/xblast.mo

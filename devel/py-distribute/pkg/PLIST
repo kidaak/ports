@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-distribute/pkg/PLIST,v 1.2 2011/12/16 08:16:32 rpointel Exp $
+@comment $OpenBSD$
 @pkgpath devel/py3-distribute
 !%%python3%%
 @comment bin/easy_install

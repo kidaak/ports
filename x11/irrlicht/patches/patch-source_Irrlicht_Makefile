@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/irrlicht/patches/patch-source_Irrlicht_Makefile,v 1.1.1.1 2011/05/04 09:41:50 jasper Exp $
+$OpenBSD$
 --- source/Irrlicht/Makefile.orig	Wed Mar  2 13:56:55 2011
 +++ source/Irrlicht/Makefile	Wed Mar  2 13:58:54 2011
 @@ -3,7 +3,7 @@ VERSION_MINOR = 7

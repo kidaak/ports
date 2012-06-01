@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-stringy/Makefile,v 1.20 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		in-core objects like strings and arrays for I/O
 

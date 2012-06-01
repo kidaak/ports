@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/ttyrec/pkg/PLIST,v 1.4 2005/12/11 18:45:18 alek Exp $
+@comment $OpenBSD$
 bin/ttyplay
 bin/ttyrec
 bin/ttytime

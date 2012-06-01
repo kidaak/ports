@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openvpn/patches/patch-route_c,v 1.6 2012/01/12 08:15:30 sthen Exp $
+$OpenBSD$
 --- route.c.orig	Mon Feb 21 16:38:10 2011
 +++ route.c	Tue Mar 22 23:00:56 2011
 @@ -1926,7 +1926,7 @@ get_default_gateway (in_addr_t *ret, in_addr_t *netmas

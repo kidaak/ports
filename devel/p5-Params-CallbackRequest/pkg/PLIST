@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Params-CallbackRequest/pkg/PLIST,v 1.1.1.1 2005/01/27 13:13:57 sturm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Params/
 ${P5SITE}/Params/Callback.pm
 ${P5SITE}/Params/CallbackRequest/

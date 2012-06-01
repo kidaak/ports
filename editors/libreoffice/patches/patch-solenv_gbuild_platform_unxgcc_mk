@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-solenv_gbuild_platform_unxgcc_mk,v 1.1 2012/04/03 08:56:50 robert Exp $
+$OpenBSD$
 --- solenv/gbuild/platform/unxgcc.mk.orig.port	Sun Apr  1 16:30:35 2012
 +++ solenv/gbuild/platform/unxgcc.mk	Sun Apr  1 16:31:14 2012
 @@ -103,7 +103,7 @@ endif

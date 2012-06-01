@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/drupal6/ldap_integration/patches/patch-ldapauth_install,v 1.1 2010/04/19 14:15:01 stephan Exp $
+$OpenBSD$
 --- ldapauth.install.orig	Mon Apr 19 11:35:38 2010
 +++ ldapauth.install	Mon Apr 19 11:36:55 2010
 @@ -40,73 +40,89 @@ function ldapauth_uninstall() {

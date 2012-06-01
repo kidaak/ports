@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/radare2/Makefile.inc,v 1.2 2011/11/07 22:06:46 edd Exp $
+# $OpenBSD$
 
 # Arches suggested by upstream, unsure which work on OpenBSD for sure.
 ONLY_FOR_ARCHS ?=	amd64 i386

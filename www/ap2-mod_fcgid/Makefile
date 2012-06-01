@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ap2-mod_fcgid/Makefile,v 1.6 2011/11/27 11:08:48 pirofti Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

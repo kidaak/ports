@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/math/prover9/p9m4/files/prover9-mace4.sh,v 1.1.1.1 2011/03/07 22:26:24 jasper Exp $
+# $OpenBSD$
 #
 # Wrapper script to call the actual prover9-mace4.py script
 

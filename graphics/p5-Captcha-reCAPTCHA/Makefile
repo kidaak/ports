@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Captcha-reCAPTCHA/Makefile,v 1.5 2011/03/16 12:23:53 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	Perl implementation of the reCAPTCHA API
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/imlib2/patches/patch-src_lib_font_load_c,v 1.1 2009/12/28 17:22:21 phessler Exp $
+$OpenBSD$
 --- src/lib/font_load.c.orig	Mon Dec 28 04:57:35 2009
 +++ src/lib/font_load.c	Mon Dec 28 04:58:08 2009
 @@ -221,6 +221,8 @@ imlib_font_free(ImlibFont * fn)

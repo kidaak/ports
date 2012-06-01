@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cabal-install/Makefile,v 1.10 2011/12/27 21:11:51 kili Exp $
+# $OpenBSD$
 
 COMMENT =	command-line interface for Cabal and Hackage
 

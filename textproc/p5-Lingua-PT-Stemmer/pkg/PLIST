@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Lingua-PT-Stemmer/pkg/PLIST,v 1.1.1.1 2004/12/30 02:57:51 msf Exp $
+@comment $OpenBSD$
 ${P5SITE}/Lingua/
 ${P5SITE}/Lingua/GL/
 ${P5SITE}/Lingua/GL/Stemmer.pm

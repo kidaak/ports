@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gupnp/ui/patches/patch-gupnp-ui-1_0_pc_in,v 1.1.1.1 2011/07/05 17:01:18 jasper Exp $
+$OpenBSD$
 
 From 414a8258b82333ce4471184cf100a5a06f961a3f Mon Sep 17 00:00:00 2001
 From: Ross Burton <ross@linux.intel.com>

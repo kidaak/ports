@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/osmo/Makefile,v 1.22 2011/12/03 23:04:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	handy personal organizer
 

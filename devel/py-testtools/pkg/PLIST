@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-testtools/pkg/PLIST,v 1.1.1.1 2011/01/09 12:19:28 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/testtools/
 lib/python${MODPY_VERSION}/site-packages/testtools-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/testtools/__init__.py

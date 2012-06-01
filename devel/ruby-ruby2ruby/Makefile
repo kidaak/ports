@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-ruby2ruby/Makefile,v 1.13 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT =	generating pure Ruby code easily from ParseTree\'s Sexps
 

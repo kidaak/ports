@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-GNUmakefile,v 1.2 2011/06/24 07:55:17 dcoppa Exp $
+$OpenBSD$
 --- GNUmakefile.orig	Sun Sep 23 21:03:14 2007
 +++ GNUmakefile	Sun Jun 15 10:30:30 2008
 @@ -1,4 +1,9 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Template-JIT/pkg/PLIST,v 1.1.1.1 2008/04/07 15:35:56 okan Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTML/Template/
 ${P5SITE}/HTML/Template/JIT/
 ${P5SITE}/HTML/Template/JIT.pm

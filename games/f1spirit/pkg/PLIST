@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/f1spirit/pkg/PLIST,v 1.2 2009/12/22 16:28:00 ajacoutot Exp $
+@comment $OpenBSD$
 bin/f1spirit
 share/applications/f1spirit.desktop
 share/f1spirit/

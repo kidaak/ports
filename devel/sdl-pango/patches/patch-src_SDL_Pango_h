@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/sdl-pango/patches/patch-src_SDL_Pango_h,v 1.1.1.1 2007/05/24 13:38:11 ajacoutot Exp $
+$OpenBSD$
 --- src/SDL_Pango.h.orig	Tue Mar 27 10:12:28 2007
 +++ src/SDL_Pango.h	Tue Mar 27 10:16:11 2007
 @@ -47,10 +47,10 @@ typedef struct _SDLPango_Matrix {

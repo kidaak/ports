@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Proc-Background/Makefile,v 1.6 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	peek at lexical variables
 

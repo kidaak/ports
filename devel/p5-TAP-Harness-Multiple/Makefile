@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-TAP-Harness-Multiple/Makefile,v 1.1.1.1 2012/03/08 14:53:26 pascal Exp $
+# $OpenBSD$
 
 COMMENT =	report TAP output by test file description
 

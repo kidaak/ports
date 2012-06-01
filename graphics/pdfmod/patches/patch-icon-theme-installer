@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/pdfmod/patches/patch-icon-theme-installer,v 1.1.1.1 2011/03/07 21:54:03 ajacoutot Exp $
+$OpenBSD$
 --- icon-theme-installer.orig	Sat Oct  3 02:12:39 2009
 +++ icon-theme-installer	Sun Jan 16 14:11:08 2011
 @@ -1,4 +1,4 @@

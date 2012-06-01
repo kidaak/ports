@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Date-Holidays/Makefile,v 1.2 2012/01/16 22:11:36 sthen Exp $
+# $OpenBSD$
 
 SUBDIR += pear-Date-Holidays
 SUBDIR += Australia

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/fedora/base/Makefile,v 1.16 2011/09/21 15:22:05 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Linux compatibility package based on Fedora Core 4
 

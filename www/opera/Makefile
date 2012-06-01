@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/opera/Makefile,v 1.72 2011/12/03 23:20:53 ajacoutot Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 SHARED_ONLY=	Yes

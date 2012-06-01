@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/isc-dhcp/pkg/PLIST-main,v 1.4 2012/01/14 12:43:25 sthen Exp $
+@comment $OpenBSD$
 @conflict isc-dhcp-*
 @pkgpath net/isc-dhcp
 @man man/man5/dhcp-eval.5

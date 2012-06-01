@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-POE-Loop-Tk/pkg/PLIST,v 1.1.1.1 2009/08/30 22:08:34 jasper Exp $
+@comment $OpenBSD$
 @conflict p5-POE-<1.266
 ${P5SITE}/POE/Loop/Tk.pm
 ${P5SITE}/POE/Loop/TkActiveState.pm

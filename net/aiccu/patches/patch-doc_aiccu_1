@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/aiccu/patches/patch-doc_aiccu_1,v 1.1.1.1 2007/02/13 20:30:48 naddy Exp $
+$OpenBSD$
 --- doc/aiccu.1.orig	Sat May 21 19:48:53 2005
 +++ doc/aiccu.1	Tue Dec 19 22:50:12 2006
 @@ -3,7 +3,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/clutter/clutter-gtk/pkg/PLIST,v 1.4 2011/04/07 11:22:04 jasper Exp $
+@comment $OpenBSD$
 include/clutter-${MAJOR}/clutter-gtk/
 include/clutter-${MAJOR}/clutter-gtk/clutter-gtk.h
 include/clutter-${MAJOR}/clutter-gtk/gtk-clutter-embed.h

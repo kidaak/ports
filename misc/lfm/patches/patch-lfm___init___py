@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/lfm/patches/patch-lfm___init___py,v 1.1.1.1 2011/07/17 20:23:46 sthen Exp $
+$OpenBSD$
 
 Change default .rar handler
 

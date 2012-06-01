@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/smpeg/Makefile,v 1.38 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	MPEG video player library with sound support
 

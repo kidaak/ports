@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/x11/xcursor-themes/Makefile,v 1.10 2010/11/22 08:37:05 espie Exp $
+#	$OpenBSD$
 
 COMMENT=	X11 Cursors themes
 DISTNAME=	xcursor-themes-1.0.2

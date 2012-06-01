@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/backuppc/patches/patch-configure_pl,v 1.1.1.1 2011/09/20 11:36:55 landry Exp $
+$OpenBSD$
 --- configure.pl.orig	Mon Apr 25 05:31:55 2011
 +++ configure.pl	Sat Sep 17 19:16:37 2011
 @@ -521,7 +523,7 @@ exit unless prompt("--> Do you want to continue?", "y"

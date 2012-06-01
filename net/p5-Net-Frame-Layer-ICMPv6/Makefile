@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Frame-Layer-ICMPv6/Makefile,v 1.2 2012/03/15 17:47:56 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	ICMP v6 layer object
 

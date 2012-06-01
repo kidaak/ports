@@ -1,4 +1,4 @@
-/* $OpenBSD: ports/multimedia/dvdcpy/files/config.h,v 1.1.1.1 2007/01/22 12:05:01 espie Exp $ */
+/* $OpenBSD$ */
 #include <sys/param.h>
 #include <sys/mount.h>
 

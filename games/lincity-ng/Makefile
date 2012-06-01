@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/lincity-ng/Makefile,v 1.12 2011/12/06 22:17:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	city simulation game
 

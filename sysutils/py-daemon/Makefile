@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/py-daemon/Makefile,v 1.4 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=		library to implement a Unix daemon process
 

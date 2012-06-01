@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-FTP-Recursive/pkg/PLIST,v 1.1.1.1 2005/12/16 16:57:35 steven Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/FTP/
 ${P5SITE}/Net/FTP/Recursive.pm

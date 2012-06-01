@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nagios/plugins/pkg/PLIST-snmp,v 1.4 2008/10/26 15:02:16 sthen Exp $
+@comment $OpenBSD$
 libexec/nagios/check_breeze
 @bin libexec/nagios/check_hpjd
 libexec/nagios/check_ifoperstatus

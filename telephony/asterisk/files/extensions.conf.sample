@@ -1,4 +1,4 @@
-; $OpenBSD: ports/telephony/asterisk/files/extensions.conf.sample,v 1.4 2010/04/10 12:45:35 sthen Exp $
+; $OpenBSD$
 ; Longer example available in %%LOCALBASE%%/share/examples/asterisk/default
 ; For new installations, you may prefer to use extensions.ael rather than
 ; this file.

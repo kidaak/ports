@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-Audio-FLAC-Header/pkg/PLIST,v 1.1.1.1 2006/12/08 06:57:47 steven Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Audio/
 ${P5ARCH}/Audio/FLAC/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-Makefile_am,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.am.orig	Sat Nov 17 14:50:00 2007
 +++ Makefile.am	Sat Nov 17 14:50:53 2007
 @@ -96,18 +96,6 @@ deb:		dist

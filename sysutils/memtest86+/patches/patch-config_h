@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/memtest86+/patches/patch-config_h,v 1.1.1.1 2009/02/09 14:54:40 form Exp $
+$OpenBSD$
 $RuOBSD: patch-config_h,v 1.1.1.1 2008/07/12 19:00:53 form Exp $
 --- config.h.orig	Thu Feb 21 17:26:05 2008
 +++ config.h	Mon Mar 24 22:04:20 2008

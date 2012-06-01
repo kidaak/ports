@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-lib_plugins_lrm_Makefile_am,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- lib/plugins/lrm/Makefile.am.orig	Sat Nov 17 13:52:47 2007
 +++ lib/plugins/lrm/Makefile.am	Sat Nov 17 13:53:12 2007
 @@ -47,6 +47,3 @@ heartbeat_la_SOURCES = raexechb.c racommon.c

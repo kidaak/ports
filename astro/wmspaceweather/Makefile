@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/wmspaceweather/Makefile,v 1.29 2011/12/18 09:01:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; space weather monitor
 

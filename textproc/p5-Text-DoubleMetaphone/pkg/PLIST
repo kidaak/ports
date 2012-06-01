@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Text-DoubleMetaphone/pkg/PLIST,v 1.1.1.1 2007/10/08 15:24:41 steven Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Text/
 ${P5ARCH}/Text/DoubleMetaphone.pm

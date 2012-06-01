@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/databasin/Makefile,v 1.3 2012/01/08 12:03:09 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep client for salesforce.com
 

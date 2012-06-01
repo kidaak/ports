@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/tomoe/pkg/PLIST,v 1.1.1.1 2006/10/19 00:29:47 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/tomoe
 bin/tomoe1

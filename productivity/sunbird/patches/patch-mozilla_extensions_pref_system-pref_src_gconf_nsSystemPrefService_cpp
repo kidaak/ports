@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_extensions_pref_system-pref_src_gconf_nsSystemPrefService_cpp,v 1.3 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/extensions/pref/system-pref/src/gconf/nsSystemPrefService.cpp.orig	Wed Jun 23 19:46:35 2010
 +++ mozilla/extensions/pref/system-pref/src/gconf/nsSystemPrefService.cpp	Wed Jul  7 08:43:18 2010
 @@ -544,8 +544,8 @@ struct PrefNamePair {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-IPv6/Makefile,v 1.8 2011/12/20 15:25:11 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	IPv6 address handling tools for PHP
 

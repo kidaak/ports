@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/perlbal/pkg/PLIST,v 1.2 2009/10/10 07:50:02 ajacoutot Exp $
+@comment $OpenBSD$
 bin/perlbal
 ${P5SITE}/Perlbal/
 ${P5SITE}/Perlbal.pm

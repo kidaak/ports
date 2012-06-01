@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/alpine/patches/patch-configure,v 1.4 2008/10/15 14:31:04 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Fri Aug 22 03:41:04 2008
 +++ configure	Sat Oct 11 18:58:57 2008
 @@ -21290,6 +21290,7 @@ fi

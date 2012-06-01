@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/mlmmj/pkg/PLIST,v 1.7 2012/01/24 02:20:35 okan Exp $
+@comment $OpenBSD$
 @bin bin/mlmmj-bounce
 @bin bin/mlmmj-list
 @bin bin/mlmmj-maintd

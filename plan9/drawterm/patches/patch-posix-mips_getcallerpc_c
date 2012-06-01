@@ -1,4 +1,4 @@
-$OpenBSD: ports/plan9/drawterm/patches/patch-posix-mips_getcallerpc_c,v 1.1.1.1 2011/08/18 08:04:03 jasper Exp $
+$OpenBSD$
 --- posix-mips/getcallerpc.c.orig	Tue Mar 10 11:45:20 2009
 +++ posix-mips/getcallerpc.c	Tue Mar 10 11:45:24 2009
 @@ -1,7 +1,7 @@

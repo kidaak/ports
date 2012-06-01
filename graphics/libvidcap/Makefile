@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libvidcap/Makefile,v 1.4 2012/03/29 13:38:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	video capture library
 

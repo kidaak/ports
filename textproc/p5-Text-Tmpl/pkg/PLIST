@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Text-Tmpl/pkg/PLIST,v 1.5 2011/05/25 20:12:40 gsoares Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Text/
 ${P5ARCH}/Text/Tmpl.pm

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/p5-Text-Kakasi/pkg/PLIST,v 1.1.1.1 2005/02/27 21:02:16 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 ${P5ARCH}/
 ${P5ARCH}/Text/

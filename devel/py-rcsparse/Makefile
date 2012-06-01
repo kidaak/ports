@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-rcsparse/Makefile,v 1.10 2011/09/19 08:27:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		RCS parsing library for Python
 

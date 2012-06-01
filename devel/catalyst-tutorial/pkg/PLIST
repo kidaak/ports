@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/catalyst-tutorial/pkg/PLIST,v 1.4 2009/02/06 08:10:18 simon Exp $
+@comment $OpenBSD$
 @conflict p5-Catalyst-Runtime-<5.7004
 ${P5SITE}/Task/Catalyst/
 ${P5SITE}/Task/Catalyst/Tutorial.pm

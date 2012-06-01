@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/ruby-multi_json/Makefile,v 1.1.1.1 2011/12/13 17:33:30 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	chooses from multiple available json implementations
 

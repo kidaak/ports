@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/cmu-sphinx3/patches/patch-Makefile_in,v 1.1.1.1 2009/06/07 07:18:39 eric Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Jun  1 23:56:18 2009
 +++ Makefile.in	Mon Jun  1 23:56:00 2009
 @@ -196,7 +196,6 @@ sysconfdir = @sysconfdir@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gindent/Makefile,v 1.29 2011/05/02 11:34:14 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	GNU utility to indent C source files
 

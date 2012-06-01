@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-POE-XS-Queue-Array/Makefile,v 1.7 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C implementation of priority queues
 

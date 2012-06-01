@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/libobjc1/Makefile,v 1.2 2012/01/05 15:16:18 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	traditional GNUstep objective-c runtime
 

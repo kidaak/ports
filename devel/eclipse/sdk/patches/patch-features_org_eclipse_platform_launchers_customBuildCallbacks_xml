@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-features_org_eclipse_platform_launchers_customBuildCallbacks_xml,v 1.1 2006/07/07 01:48:55 kurt Exp $
+$OpenBSD$
 --- features/org.eclipse.platform.launchers/customBuildCallbacks.xml.orig	Tue Jun  6 23:19:35 2006
 +++ features/org.eclipse.platform.launchers/customBuildCallbacks.xml	Tue Jun  6 23:21:27 2006
 @@ -82,6 +82,10 @@

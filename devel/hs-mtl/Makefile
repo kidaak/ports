@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-mtl/Makefile,v 1.2 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =		monad classes using functional dependencies
 

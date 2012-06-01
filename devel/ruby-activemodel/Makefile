@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-activemodel/Makefile,v 1.4 2011/12/13 17:51:08 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	toolkit for building modeling frameworks
 

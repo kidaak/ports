@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmweather/Makefile,v 1.23 2010/11/22 08:37:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; weather monitor
 

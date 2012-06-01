@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/snack/patches/patch-generic_jkAudIO_h,v 1.1.1.1 2011/03/12 08:53:52 sebastia Exp $
+$OpenBSD$
 
 sndio bits
 

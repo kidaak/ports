@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/rsyslog/patches/patch-tools_Makefile_in,v 1.1 2011/09/14 21:25:39 naddy Exp $
+$OpenBSD$
 --- tools/Makefile.in.orig	Tue Sep 13 23:09:17 2011
 +++ tools/Makefile.in	Tue Sep 13 23:11:24 2011
 @@ -141,7 +141,8 @@ CPP = @CPP@

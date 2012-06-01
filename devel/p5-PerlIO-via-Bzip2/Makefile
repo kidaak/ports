@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-PerlIO-via-Bzip2/Makefile,v 1.5 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	implement PerlIO layers which let you handle bzip2 files
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/industrial-icon-theme/Makefile,v 1.11 2011/12/03 19:13:18 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Industrial icon theme from OpenSUSE
 

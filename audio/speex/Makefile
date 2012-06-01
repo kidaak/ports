@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/speex/Makefile,v 1.23 2010/11/15 00:22:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	patent-free speech codec
 

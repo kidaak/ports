@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/pwm/Makefile,v 1.22 2010/11/22 08:37:04 espie Exp $
+# $OpenBSD$
 
 COMMENT=		lightweight window manager with emphasis on usability
 

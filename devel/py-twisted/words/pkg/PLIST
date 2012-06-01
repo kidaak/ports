@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-twisted/words/pkg/PLIST,v 1.7 2011/12/08 20:15:40 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Twisted_Words-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/twisted/plugins/twisted_words.py
 lib/python${MODPY_VERSION}/site-packages/twisted/plugins/twisted_words.pyc

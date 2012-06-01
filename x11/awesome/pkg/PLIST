@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/awesome/pkg/PLIST,v 1.12 2011/05/17 14:03:30 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/awesome
 bin/awesome-client
 bin/awsetbg

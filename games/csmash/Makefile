@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/csmash/Makefile,v 1.9 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Cannon Smash 3D table tennis
 

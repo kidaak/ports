@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xchat/patches/patch-configure,v 1.6 2010/09/23 09:27:21 dcoppa Exp $
+$OpenBSD$
 --- configure.orig	Mon Sep 20 10:02:51 2010
 +++ configure	Mon Sep 20 10:08:38 2010
 @@ -12694,13 +12694,13 @@ rm -f core conftest.err conftest.$ac_objext \

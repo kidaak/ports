@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/webserver/pkg/PLIST,v 1.1.1.1 2011/09/17 07:23:58 sebastia Exp $
+@comment $OpenBSD$
 include/WebServer/
 include/WebServer/WebServer.h
 include/WebServer/WebServerBundles.h

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libffi/patches/patch-testsuite_libffi_call_return_uc_c,v 1.1.1.1 2009/09/23 20:55:46 jasper Exp $
+$OpenBSD$
 
 Fix regression test, due to "comparison between signed and unsigned"
 

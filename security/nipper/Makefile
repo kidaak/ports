@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/nipper/Makefile,v 1.7 2010/11/20 17:22:44 espie Exp $
+# $OpenBSD$
 
 COMMENT =		audit network device configuration
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ipsvd/Makefile,v 1.9 2010/11/19 22:31:33 espie Exp $
+# $OpenBSD$
 
 COMMENT=		set of internet protocol service daemons for Unix
 

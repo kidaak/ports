@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/education/anki/pkg/PLIST,v 1.1.1.1 2012/03/02 09:34:06 fgsch Exp $
+@comment $OpenBSD$
 bin/anki
 lib/python${MODPY_VERSION}/site-packages/anki/
 lib/python${MODPY_VERSION}/site-packages/anki-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/

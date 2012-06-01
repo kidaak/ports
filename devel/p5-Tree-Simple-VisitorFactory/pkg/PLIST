@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Tree-Simple-VisitorFactory/pkg/PLIST,v 1.1.1.1 2006/11/04 19:03:02 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Tree/Simple/Visitor/
 ${P5SITE}/Tree/Simple/Visitor/BreadthFirstTraversal.pm
 ${P5SITE}/Tree/Simple/Visitor/CreateDirectoryTree.pm

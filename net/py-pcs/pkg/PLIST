@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-pcs/pkg/PLIST,v 1.1.1.1 2007/12/06 09:56:30 pyr Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pcs/
 lib/python${MODPY_VERSION}/site-packages/pcs-0.5-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/pcs/__init__.py

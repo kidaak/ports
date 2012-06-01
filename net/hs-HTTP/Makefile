@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/hs-HTTP/Makefile,v 1.17 2011/12/31 22:08:39 kili Exp $
+# $OpenBSD$
 
 COMMENT =		library for client-side HTTP
 

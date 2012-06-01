@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/snack/patches/patch-unix_configure,v 1.2 2011/08/25 12:50:28 naddy Exp $
+$OpenBSD$
 
 mostly sndio bits
 don't clobber CFLAGS

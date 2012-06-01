@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pidgin/patches/patch-libpurple_purple-remote,v 1.6 2010/10/24 19:17:31 steven Exp $
+$OpenBSD$
 --- libpurple/purple-remote.orig	Sat Oct 16 23:43:27 2010
 +++ libpurple/purple-remote	Thu Oct 21 19:55:54 2010
 @@ -1,4 +1,4 @@

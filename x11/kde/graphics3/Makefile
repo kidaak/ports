@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/graphics3/Makefile,v 1.101 2012/02/16 22:33:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main =		K Desktop Environment, graphic applications
 COMMENT-kamera =	KDE interface to digital cameras

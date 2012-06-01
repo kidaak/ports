@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-html5lib/pkg/PLIST,v 1.1.1.1 2009/01/18 20:03:56 djm Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/html5lib/
 lib/python${MODPY_VERSION}/site-packages/html5lib-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/html5lib-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

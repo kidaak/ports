@@ -1,8 +1,9 @@
-# $OpenBSD: ports/print/system-config-printer/Makefile,v 1.34 2012/04/11 16:04:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		printer (CUPS) administration tool
 
 DISTNAME=		system-config-printer-1.3.9
+REVISION=		2
 
 CATEGORIES=		print sysutils
 
@@ -27,6 +28,7 @@ BUILD_DEPENDS=		${RUN_DEPENDS} \
 RUN_DEPENDS=		devel/desktop-file-utils \
 			devel/gettext \
 			devel/py-notify \
+			net/py-curl \
 			net/py-smbc>=1.0.13 \
 			print/py-cups>=1.9.58 \
 			textproc/py-xml \
@@ -45,6 +47,7 @@ SUBST_FILES=		applet.py cupshelpers/cupshelpers.py \
 			probe_printer.py newprinter.py \
 			udev/udev-configure-printer.c \
 			troubleshoot/CheckSELinux.py \
+			troubleshoot/SchedulerNotRunning.py \
 			cupshelpers/xmldriverprefs.py \
 			dbus/org.fedoraproject.Config.Printing.service \
 			check-device-ids.py

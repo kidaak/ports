@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libst/Makefile,v 1.16 2010/07/18 18:49:01 naddy Exp $
+# $OpenBSD$
 
 # see md.h, add others
 ONLY_FOR_ARCHS =	amd64 alpha i386 sparc

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/hs-xmlhtml/pkg/PLIST,v 1.1.1.1 2011/09/24 19:04:46 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/HS${DISTNAME}.o
 lib/ghc/${DISTNAME}/Text/

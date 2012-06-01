@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/lha/Makefile,v 1.31 2010/10/18 16:47:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	archive files using LZW compression (.lzh files)
 

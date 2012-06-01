@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/t1utils/Makefile,v 1.5 2011/12/04 23:59:35 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	utilities for PostScript Type 1 fonts
 DISTNAME=	t1utils-1.37

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-ffi/Makefile,v 1.9 2011/12/02 19:34:42 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	cross-platform dynamic library loading for ruby
 

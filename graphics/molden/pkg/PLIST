@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/molden/pkg/PLIST,v 1.1.1.1 2007/11/09 17:26:27 ckuethe Exp $
+@comment $OpenBSD$
 bin/gmolden
 bin/molden
 share/doc/molden/

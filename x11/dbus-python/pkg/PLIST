@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/dbus-python/pkg/PLIST,v 1.4 2012/03/31 08:45:09 ajacoutot Exp $
+@comment $OpenBSD$
 include/dbus-1.0/dbus/dbus-python.h
 lib/pkgconfig/dbus-python.pc
 @comment lib/python${MODPY_VERSION}/site-packages/_dbus_bindings.a

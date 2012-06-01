@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/slib/patches/patch-guile_init,v 1.2 2009/01/21 18:28:22 kili Exp $
+$OpenBSD$
 --- guile.init.orig	Mon Dec 24 05:33:08 2007
 +++ guile.init	Wed Jan 21 19:10:57 2009
 @@ -68,7 +68,7 @@

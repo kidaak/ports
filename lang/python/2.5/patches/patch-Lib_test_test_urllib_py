@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-Lib_test_test_urllib_py,v 1.1 2011/05/07 09:36:33 fgsch Exp $
+$OpenBSD$
 --- Lib/test/test_urllib.py.orig	Wed Mar 14 08:27:57 2007
 +++ Lib/test/test_urllib.py	Fri May  6 01:15:15 2011
 @@ -122,6 +122,20 @@ class urlopen_HttpTests(unittest.TestCase):

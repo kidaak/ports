@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/fontforge/patches/patch-fontforge_Makefile_dynamic_in,v 1.2 2011/07/08 19:04:05 kili Exp $
+$OpenBSD$
 --- fontforge/Makefile.dynamic.in.orig	Tue Feb 15 04:37:39 2011
 +++ fontforge/Makefile.dynamic.in	Fri Jul  8 16:50:10 2011
 @@ -136,12 +136,12 @@ splinerefigure.lo: $(srcdir)/splinerefigure.c $(srcdir

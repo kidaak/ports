@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/3.3/pkg/PFRAG.shared-java,v 1.2 2009/10/10 22:48:29 jasper Exp $
+@comment $OpenBSD$
 @lib lib/lib-org-w3c-dom.so.0.0
 @lib lib/lib-org-xml-sax.so.0.0
 @comment lib/libffi-2.00-beta.so

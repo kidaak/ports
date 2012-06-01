@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/Makefile,v 1.34 2011/11/17 23:55:48 sebastia Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += aclock

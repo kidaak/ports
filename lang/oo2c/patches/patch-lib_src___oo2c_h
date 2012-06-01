@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/oo2c/patches/patch-lib_src___oo2c_h,v 1.1 2011/01/18 12:03:19 jasper Exp $
+$OpenBSD$
 --- lib/src/__oo2c.h.orig	Sat Dec 24 15:55:21 2005
 +++ lib/src/__oo2c.h	Tue Jan 18 13:47:55 2011
 @@ -152,7 +152,7 @@ extern OOC_INT32 _cmp32(const OOC_CHAR32* l, const OOC

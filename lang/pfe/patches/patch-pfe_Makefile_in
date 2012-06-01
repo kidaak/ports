@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/pfe/patches/patch-pfe_Makefile_in,v 1.3 2008/10/22 12:25:50 jasper Exp $
+$OpenBSD$
 
 Patch created without context (diff -C 0), as an RCS Id is found in
 the context, which is expanded, while it shouldn't.

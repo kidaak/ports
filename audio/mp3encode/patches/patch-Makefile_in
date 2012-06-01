@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mp3encode/patches/patch-Makefile_in,v 1.1 2003/04/14 09:39:18 avsm Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Jan 22 09:43:12 1997
 +++ Makefile.in	Mon Apr 14 10:24:38 2003
 @@ -16,7 +16,7 @@

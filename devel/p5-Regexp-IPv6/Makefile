@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Regexp-IPv6/Makefile,v 1.1.1.1 2011/06/14 11:24:49 robert Exp $
+# $OpenBSD$
 
 COMMENT=	regular expression for IPv6 addresses
 

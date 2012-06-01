@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-agent_helpers_Makefile_in,v 1.5 2010/10/25 22:59:12 sthen Exp $
+$OpenBSD$
 --- agent/helpers/Makefile.in.orig	Sun May 30 21:19:04 2010
 +++ agent/helpers/Makefile.in	Wed Oct  6 23:28:43 2010
 @@ -16,13 +16,13 @@ top_builddir=../..

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/apc-upsd/patches/patch-apc_smart_c,v 1.1 2012/03/17 10:35:10 sthen Exp $
+$OpenBSD$
 --- apc_smart.c.orig	Sat Mar 17 10:33:05 2012
 +++ apc_smart.c	Sat Mar 17 10:33:19 2012
 @@ -93,7 +93,7 @@ int     apc_smart_open  ()

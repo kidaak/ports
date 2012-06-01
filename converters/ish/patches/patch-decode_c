@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/ish/patches/patch-decode_c,v 1.1 2011/12/30 23:14:34 sthen Exp $
+$OpenBSD$
 
 Fix: When decoding, the status display has Y2K problem.
 

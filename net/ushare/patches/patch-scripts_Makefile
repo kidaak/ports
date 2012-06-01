@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ushare/patches/patch-scripts_Makefile,v 1.1.1.1 2010/03/22 22:26:59 ajacoutot Exp $
+$OpenBSD$
 --- scripts/Makefile.orig	Tue Feb  9 13:19:30 2010
 +++ scripts/Makefile	Tue Feb  9 13:19:36 2010
 @@ -17,8 +17,6 @@ distclean:

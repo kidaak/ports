@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/onew/Makefile,v 1.15 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library for Japanese Input Method Wnn4
 

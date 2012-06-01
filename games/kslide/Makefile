@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/kslide/Makefile,v 1.18 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	puzzle game for KDE
 

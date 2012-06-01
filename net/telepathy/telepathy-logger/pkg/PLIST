@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/telepathy/telepathy-logger/pkg/PLIST,v 1.10 2012/04/04 13:02:30 ajacoutot Exp $
+@comment $OpenBSD$
 include/telepathy-logger-0.2/
 include/telepathy-logger-0.2/telepathy-logger/
 include/telepathy-logger-0.2/telepathy-logger/call-event.h

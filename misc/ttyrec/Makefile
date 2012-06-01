@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/ttyrec/Makefile,v 1.14 2011/11/10 21:35:02 kili Exp $
+# $OpenBSD$
 
 COMMENT=	tty recorder
 

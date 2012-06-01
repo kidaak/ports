@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/geany/patches/patch-doc_Makefile_in,v 1.4 2011/07/01 11:28:02 jasper Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Wed Jan  5 18:10:17 2011
 +++ doc/Makefile.in	Fri Jul  1 09:27:55 2011
 @@ -467,12 +467,6 @@ install-data-local:

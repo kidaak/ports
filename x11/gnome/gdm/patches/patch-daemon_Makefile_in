@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-daemon_Makefile_in,v 1.1 2011/10/07 14:04:18 ajacoutot Exp $
+$OpenBSD$
 
 undefined reference to `logwtmp'
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/acroread/pkg/PLIST-main,v 1.2 2009/01/29 20:07:05 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath print/acroread
 Acrobat7/
 Acrobat7/Browser/

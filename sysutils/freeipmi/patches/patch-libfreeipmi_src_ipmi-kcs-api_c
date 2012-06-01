@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/freeipmi/patches/patch-libfreeipmi_src_ipmi-kcs-api_c,v 1.1.1.1 2007/10/25 18:17:02 wilfried Exp $
+$OpenBSD$
 --- libfreeipmi/src/ipmi-kcs-api.c.orig	Sat Jun  2 20:18:29 2007
 +++ libfreeipmi/src/ipmi-kcs-api.c	Tue Oct 23 18:55:45 2007
 @@ -350,7 +350,22 @@ ipmi_kcs_ctx_io_init(ipmi_kcs_ctx_t ctx)

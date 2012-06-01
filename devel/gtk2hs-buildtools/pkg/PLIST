@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gtk2hs-buildtools/pkg/PLIST,v 1.1.1.1 2010/06/16 13:57:39 kili Exp $
+@comment $OpenBSD$
 @bin bin/gtk2hsC2hs
 @bin bin/gtk2hsHookGenerator
 @bin bin/gtk2hsTypeGen

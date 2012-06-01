@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-haskeline/Makefile,v 1.2 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		command-line interface for user input
 

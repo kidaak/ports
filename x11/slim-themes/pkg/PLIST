@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/slim-themes/pkg/PLIST,v 1.4 2011/08/16 10:12:56 landry Exp $
+@comment $OpenBSD$
 @pkgpath x11/slim,-themes
 share/slim/
 share/slim/themes/

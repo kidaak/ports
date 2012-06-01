@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/rplay/Makefile,v 1.33 2010/11/15 00:22:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	network audio player
 DISTNAME=	rplay-3.3.2

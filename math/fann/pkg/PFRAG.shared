@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/fann/pkg/PFRAG.shared,v 1.1.1.1 2007/12/17 20:42:00 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libdoublefann.so.${LIBdoublefann_VERSION}
 @lib lib/libfann.so.${LIBfann_VERSION}
 @lib lib/libfixedfann.so.${LIBfixedfann_VERSION}

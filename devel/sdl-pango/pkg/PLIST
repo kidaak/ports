@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/sdl-pango/pkg/PLIST,v 1.1.1.1 2007/05/24 13:38:11 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/SDL/
 include/SDL/SDL_Pango.h

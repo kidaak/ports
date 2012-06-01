@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ruby-ffi/patches/patch-ext_ffi_c_libffi_bsd_mk,v 1.1.1.1 2010/12/20 18:04:16 jeremy Exp $
+$OpenBSD$
 --- ext/ffi_c/libffi.bsd.mk.orig	Fri Dec 10 11:21:57 2010
 +++ ext/ffi_c/libffi.bsd.mk	Fri Dec 10 11:21:38 2010
 @@ -4,7 +4,7 @@

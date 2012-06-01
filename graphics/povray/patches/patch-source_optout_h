@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/povray/patches/patch-source_optout_h,v 1.1 2011/07/07 14:45:22 jasper Exp $
+$OpenBSD$
 --- source/optout.h.orig	Thu Jul  7 15:21:47 2011
 +++ source/optout.h	Thu Jul  7 15:22:06 2011
 @@ -57,7 +57,7 @@ BEGIN_POV_NAMESPACE

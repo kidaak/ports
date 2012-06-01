@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/beav/patches/patch-Makefile,v 1.4 2010/05/22 15:05:29 espie Exp $
+$OpenBSD$
 --- Makefile.orig	Sat Dec 13 09:34:59 1997
 +++ Makefile	Sat May 22 16:56:49 2010
 @@ -1,7 +1,6 @@

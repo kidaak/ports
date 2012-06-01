@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/volume/Makefile,v 1.21 2011/07/11 13:09:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	volume dial for Gkrellm2
 

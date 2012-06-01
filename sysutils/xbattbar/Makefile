@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/xbattbar/Makefile,v 1.4 2012/04/04 02:35:15 brynet Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS = ${APM_ARCHS}
 

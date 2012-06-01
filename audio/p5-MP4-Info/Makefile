@@ -1,14 +1,10 @@
-# $OpenBSD: ports/audio/p5-MP4-Info/Makefile,v 1.6 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	fetch info from MPEG-4 files
 
 MODULES=	cpan
-DISTNAME=	MP4-Info-1.12
-REVISION=	0
+DISTNAME=	MP4-Info-1.13
 CATEGORIES=	audio
-
-MAINTAINER=	Andreas Bihlmaier <andreas.bihlmaier@gmx.de>
-USE_GROFF =	Yes
 
 # perl
 PERMIT_PACKAGE_CDROM=	Yes

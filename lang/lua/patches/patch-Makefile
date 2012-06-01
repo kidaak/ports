@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/lua/patches/patch-Makefile,v 1.7 2008/11/07 12:23:12 jsg Exp $
+$OpenBSD$
 --- Makefile.orig	Thu Nov  6 21:44:23 2008
 +++ Makefile	Thu Nov  6 21:46:04 2008
 @@ -5,11 +5,11 @@

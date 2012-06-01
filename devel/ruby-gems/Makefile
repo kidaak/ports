@@ -1,8 +1,8 @@
-# $OpenBSD: ports/devel/ruby-gems/Makefile,v 1.25 2011/11/08 23:44:12 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	package management framework for the Ruby language
 
-V=		1.8.10
+V=		1.8.23
 DISTNAME=	rubygems-$V
 PKGNAME= 	ruby-gems-$V
 CATEGORIES=	devel

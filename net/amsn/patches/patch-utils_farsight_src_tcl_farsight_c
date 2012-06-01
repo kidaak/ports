@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amsn/patches/patch-utils_farsight_src_tcl_farsight_c,v 1.1 2012/04/05 16:08:55 jasper Exp $
+$OpenBSD$
 
 Port from farsight2 to farstream, from Fedora's amsn-0.98.4-farstream.patch
 

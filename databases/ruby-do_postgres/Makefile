@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-do_postgres/Makefile,v 1.8 2012/04/06 19:28:22 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		DataObjects driver for PostgreSQL
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wxWidgets/patches/patch-build_aclocal_bakefile_m4,v 1.1 2011/05/22 08:13:18 dcoppa Exp $
+$OpenBSD$
 
 Update bakefile.m4 for the new version (unbreak configure).
 From upstream svn revision 66836.

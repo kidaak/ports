@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/crack-attack/pkg/PLIST,v 1.2 2011/08/26 09:14:11 sthen Exp $
+@comment $OpenBSD$
 @bin bin/crack-attack
 @man man/man6/crack-attack.6
 share/applications/crack-attack.desktop

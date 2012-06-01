@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/pcmanfm/patches/patch-src_vfs_vfs-file-info_h,v 1.2 2008/02/11 20:02:27 ajacoutot Exp $
+$OpenBSD$
 --- src/vfs/vfs-file-info.h.orig	Mon Feb 11 06:51:10 2008
 +++ src/vfs/vfs-file-info.h	Mon Feb 11 18:39:10 2008
 @@ -48,7 +48,7 @@ struct _VFSFileInfo

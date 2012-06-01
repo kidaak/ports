@@ -1,4 +1,4 @@
-# $OpenBSD: ports/education/algotutor/Makefile,v 1.11 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	interactive tutorial for algorithms and data structures
 

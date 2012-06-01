@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-libwww/Makefile,v 1.36 2011/06/29 09:18:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	library for WWW access in Perl
 

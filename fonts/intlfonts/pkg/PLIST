@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/intlfonts/pkg/PLIST,v 1.1.1.1 2011/07/19 09:16:06 jasper Exp $
+@comment $OpenBSD$
 @pkgpath japanese/intlfonts
 lib/X11/fonts/
 @fontdir lib/X11/fonts/ja/

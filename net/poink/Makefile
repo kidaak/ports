@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/poink/Makefile,v 1.4 2010/10/18 18:36:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=	nosuid, secure TCP/IP ping
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/sc/pkg/PLIST,v 1.4 2011/06/25 15:36:08 jasper Exp $
+@comment $OpenBSD$
 @bin bin/psc
 @bin bin/sc
 @bin bin/scqref

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ghc/pkg/PLIST-doc,v 1.16 2012/01/12 20:13:17 kili Exp $
+@comment $OpenBSD$
 share/doc/ghc/
 share/doc/ghc/Cabal.pdf
 share/doc/ghc/Cabal.ps

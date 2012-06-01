@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/daapd/pkg/PLIST,v 1.2 2008/09/15 21:49:10 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/daapd
 @man man/man8/daapd.8
 share/doc/daapd/

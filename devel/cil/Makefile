@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cil/Makefile,v 1.20 2010/12/07 14:57:19 dcoppa Exp $
+# $OpenBSD$
 
 # until tested on others, even though bytecode is produced
 ONLY_FOR_ARCHS=	i386 amd64 powerpc

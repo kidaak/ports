@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/advanced_help/Makefile,v 1.5 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	advanced help system for drupal
 MAINTAINER =	Marc Espie <espie@openbsd.org>

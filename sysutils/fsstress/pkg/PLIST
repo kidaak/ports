@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/fsstress/pkg/PLIST,v 1.2 2009/12/18 08:06:59 landry Exp $
+@comment $OpenBSD$
 @bin bin/fsstress
 share/doc/fsstress/
 share/doc/fsstress/README

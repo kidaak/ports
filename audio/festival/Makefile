@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/Makefile,v 1.4 2010/02/01 17:00:12 espie Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += arctic

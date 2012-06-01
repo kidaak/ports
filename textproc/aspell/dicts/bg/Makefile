@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/bg/Makefile,v 1.3 2008/10/28 16:54:10 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Bulgarian
 CATEGORIES=	textproc

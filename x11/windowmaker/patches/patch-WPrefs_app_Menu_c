@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/windowmaker/patches/patch-WPrefs_app_Menu_c,v 1.4 2007/08/25 09:27:12 mglocker Exp $
+$OpenBSD$
 --- WPrefs.app/Menu.c.orig	Tue Oct 26 04:23:39 2004
 +++ WPrefs.app/Menu.c	Fri Aug 17 20:58:09 2007
 @@ -577,7 +577,7 @@ createPanel(_Panel *p)

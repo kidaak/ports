@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-config_h,v 1.2 2011/06/24 07:55:18 dcoppa Exp $
+$OpenBSD$
 --- config.h.orig	Mon Aug  9 14:22:42 2010
 +++ config.h	Fri Jun 17 15:48:19 2011
 @@ -268,7 +268,7 @@ NAMESPACE_END

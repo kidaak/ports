@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/cryptcat/Makefile,v 1.3 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=		netcat enhanced with twofish encryption
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-PGP-Sign/Makefile,v 1.22 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to create/verify PGP signatures
 

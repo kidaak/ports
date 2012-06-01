@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Starlet/pkg/PLIST,v 1.1.1.1 2011/06/14 12:16:58 robert Exp $
+@comment $OpenBSD$
 ${P5SITE}/Plack/
 ${P5SITE}/Plack/Handler/
 ${P5SITE}/Plack/Handler/Starlet.pm

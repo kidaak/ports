@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nano/patches/patch-doc_syntax_c_nanorc,v 1.2 2010/04/16 15:47:24 naddy Exp $
+$OpenBSD$
 --- doc/syntax/c.nanorc.orig	Sun Mar 21 06:01:24 2010
 +++ doc/syntax/c.nanorc	Fri Apr 16 16:22:45 2010
 @@ -1,13 +1,13 @@

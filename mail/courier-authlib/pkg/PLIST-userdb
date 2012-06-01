@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/courier-authlib/pkg/PLIST-userdb,v 1.2 2009/10/28 14:18:05 giovanni Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @comment lib/libauthuserdb.a
 @comment lib/libauthuserdb.la

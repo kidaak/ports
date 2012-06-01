@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/openvmps/Makefile,v 1.5 2011/06/14 05:52:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	free implementation of Cisco VMPS
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Catalyst-View-TT-ForceUTF8/Makefile,v 1.9 2012/04/08 22:04:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	catalyst TT views with explicit UTF8 encoding (deprecated)
 

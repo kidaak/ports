@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_calls_c,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/calls.c.orig	Sat Sep  6 23:26:46 2003
 +++ gcc/calls.c	Mon Jan  3 10:17:41 2005
 @@ -2331,7 +2331,7 @@ expand_call (exp, target, ignore)

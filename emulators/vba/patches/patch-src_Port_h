@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/vba/patches/patch-src_Port_h,v 1.1.1.1 2007/09/28 14:18:17 jasper Exp $
+$OpenBSD$
 --- src/Port.h.orig	Tue Sep 18 21:26:36 2007
 +++ src/Port.h	Tue Sep 18 21:56:04 2007
 @@ -20,18 +20,6 @@

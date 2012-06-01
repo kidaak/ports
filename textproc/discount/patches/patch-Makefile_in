@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/discount/patches/patch-Makefile_in,v 1.2 2010/08/30 21:40:29 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Jun 17 03:14:33 2010
 +++ Makefile.in	Mon Aug 30 15:01:46 2010
 @@ -7,7 +7,7 @@ MANDIR=@mandir@

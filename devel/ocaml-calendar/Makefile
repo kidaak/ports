@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ocaml-calendar/Makefile,v 1.7 2010/11/15 19:46:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Objective Caml bindings for calendar functions
 CATEGORIES=	devel

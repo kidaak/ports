@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/seyon/patches/patch-SeTerm_c,v 1.1 2002/02/20 21:46:49 naddy Exp $
+$OpenBSD$
 --- SeTerm.c.orig	Wed Feb 20 22:27:03 2002
 +++ SeTerm.c	Wed Feb 20 22:28:29 2002
 @@ -25,8 +25,8 @@

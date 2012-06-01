@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/xphoon/Makefile,v 1.26 2011/11/28 11:16:29 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	set the root window to the moon in its current phase
 DISTNAME=	xphoon-20000613

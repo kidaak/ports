@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-dpkt/Makefile,v 1.7 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT =		python network packet manipulation library
 

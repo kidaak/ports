@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/poptop/Makefile,v 1.16 2011/06/02 13:41:40 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		PPTP Server
 

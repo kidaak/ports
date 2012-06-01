@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/miniupnp/miniupnpc/patches/patch-Makefile,v 1.1.1.1 2012/01/13 09:23:09 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.orig	Tue Jun 21 17:24:14 2011
 +++ Makefile	Sat Jan  7 10:00:43 2012
 @@ -23,7 +23,7 @@ JNAERATOR = jnaerator-0.9.3.jar

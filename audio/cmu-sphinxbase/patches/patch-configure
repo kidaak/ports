@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/cmu-sphinxbase/patches/patch-configure,v 1.2 2010/04/26 07:12:30 eric Exp $
+$OpenBSD$
 --- configure.orig	Thu Mar 18 21:49:35 2010
 +++ configure	Wed Apr 21 14:24:52 2010
 @@ -7240,13 +7240,13 @@ fi

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/netpbm/files/Makefile.config.OpenBSD,v 1.9 2010/07/02 02:54:59 naddy Exp $
+# $OpenBSD$
 # Indented variables are unchanged from the defaults in Makefile.config.in.
 # Commented out variables are set in MAKE_FLAGS.
 #

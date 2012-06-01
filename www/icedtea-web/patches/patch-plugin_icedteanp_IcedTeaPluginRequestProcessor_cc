@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/icedtea-web/patches/patch-plugin_icedteanp_IcedTeaPluginRequestProcessor_cc,v 1.1 2012/03/29 12:28:27 kurt Exp $
+$OpenBSD$
 --- plugin/icedteanp/IcedTeaPluginRequestProcessor.cc.orig	Wed Mar 28 15:02:26 2012
 +++ plugin/icedteanp/IcedTeaPluginRequestProcessor.cc	Wed Mar 28 15:24:27 2012
 @@ -50,6 +50,7 @@ exception statement from your version. */

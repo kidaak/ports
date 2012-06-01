@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/sqlgrey/patches/patch-update_sqlgrey_config,v 1.1.1.1 2009/11/16 10:43:55 giovanni Exp $
+$OpenBSD$
 --- update_sqlgrey_config.orig	Wed Mar  2 01:49:41 2005
 +++ update_sqlgrey_config	Thu Jun  5 19:03:17 2008
 @@ -1,10 +1,10 @@

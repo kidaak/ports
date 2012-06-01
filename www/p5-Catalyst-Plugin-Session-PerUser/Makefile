@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Session-PerUser/Makefile,v 1.8 2012/04/08 21:58:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	per-user session for catalyst
 

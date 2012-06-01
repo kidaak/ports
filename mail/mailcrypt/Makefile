@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mailcrypt/Makefile,v 1.21 2011/03/02 16:01:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	emacs interface to PGP and GnuPG
 

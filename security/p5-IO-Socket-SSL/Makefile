@@ -1,8 +1,8 @@
-# $OpenBSD: ports/security/p5-IO-Socket-SSL/Makefile,v 1.45 2012/04/11 18:24:23 bluhm Exp $
+# $OpenBSD$
 
 COMMENT =		perl interface to SSL sockets
 
-DISTNAME =		IO-Socket-SSL-1.64
+DISTNAME =		IO-Socket-SSL-1.74
 
 CATEGORIES =		security
 

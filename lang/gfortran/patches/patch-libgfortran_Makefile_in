@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-libgfortran_Makefile_in,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- libgfortran/Makefile.in.orig	Wed Mar  7 23:37:37 2007
 +++ libgfortran/Makefile.in	Sun Mar 18 23:58:46 2007
 @@ -382,7 +382,8 @@ toolexeclibdir = @toolexeclibdir@

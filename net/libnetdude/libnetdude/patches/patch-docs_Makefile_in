@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnetdude/libnetdude/patches/patch-docs_Makefile_in,v 1.2 2007/09/26 20:18:08 rui Exp $
+$OpenBSD$
 --- docs/Makefile.in.orig	Tue Jun  5 02:08:19 2007
 +++ docs/Makefile.in	Fri Jul 27 14:23:16 2007
 @@ -180,7 +180,7 @@ version_major = @version_major@

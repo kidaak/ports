@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Parse-DMIDecode/Makefile,v 1.4 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	interface to SMBIOS using dmidecode
 

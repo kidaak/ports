@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/p5-X-Osd/patches/patch-t_1-basic_t,v 1.1.1.1 2009/02/02 22:59:23 simon Exp $
+$OpenBSD$
 
 Fix use of barewords in tests, bug filed upstream at
 http://rt.cpan.org/Public/Bug/Display.html?id=42943

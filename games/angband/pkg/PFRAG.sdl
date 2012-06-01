@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/angband/pkg/PFRAG.sdl,v 1.2 2012/04/11 16:16:33 edd Exp $
+@comment $OpenBSD$
 share/angband/xtra/angband.glade
 share/angband/xtra/font/
 share/angband/xtra/font/10x14x.fon

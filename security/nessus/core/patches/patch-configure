@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/nessus/core/patches/patch-configure,v 1.1 2005/05/16 16:07:43 sturm Exp $
+$OpenBSD$
 --- configure.orig	Tue Feb  8 02:40:42 2005
 +++ configure	Sun May  8 17:06:47 2005
 @@ -5415,80 +5415,8 @@ else

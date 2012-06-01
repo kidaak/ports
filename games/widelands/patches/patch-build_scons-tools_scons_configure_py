@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/widelands/patches/patch-build_scons-tools_scons_configure_py,v 1.1.1.1 2007/10/01 21:37:28 simon Exp $
+$OpenBSD$
 --- build/scons-tools/scons_configure.py.orig	Sat Sep  8 00:53:34 2007
 +++ build/scons-tools/scons_configure.py	Sun Sep 23 21:19:12 2007
 @@ -172,6 +172,8 @@ def do_configure(config_h_file, conf, env):

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Test-TCP/Makefile,v 1.3 2011/07/28 11:48:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		testing TCP program
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/avr/Makefile,v 1.3 2010/08/26 05:16:12 jasper Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += binutils

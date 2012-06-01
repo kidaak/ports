@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/k3b/patches/patch-libk3b_core_k3bglobals_cpp,v 1.1.1.1 2008/05/11 22:18:35 jakemsr Exp $
+$OpenBSD$
 --- libk3b/core/k3bglobals.cpp.orig	Fri Nov  2 02:55:39 2007
 +++ libk3b/core/k3bglobals.cpp	Sat Apr  5 18:07:55 2008
 @@ -46,13 +46,19 @@

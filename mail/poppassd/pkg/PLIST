@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/poppassd/pkg/PLIST,v 1.5 2004/09/15 09:09:44 espie Exp $
+@comment $OpenBSD$
 @mode 0500
 libexec/poppassd
 @mode

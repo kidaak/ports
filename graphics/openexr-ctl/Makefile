@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/openexr-ctl/Makefile,v 1.6 2012/03/29 13:38:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		OpenEXR bindings for CTL
 DISTNAME =		openexr_ctl-1.0.1

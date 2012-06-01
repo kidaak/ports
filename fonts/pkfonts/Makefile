@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/pkfonts/Makefile,v 1.1.1.1 2011/07/19 09:16:07 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main=	English PK fonts (300dpi) for ghostscript, xdvi, etc.
 

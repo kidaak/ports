@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/udunits/patches/patch-lib_Makefile_in,v 1.1 2011/11/18 08:27:34 rpointel Exp $
+$OpenBSD$
 does not install xml files twice
 --- lib/Makefile.in.orig	Mon Sep 12 22:52:32 2011
 +++ lib/Makefile.in	Tue Nov 15 00:44:01 2011

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-speech_tools_stats_EST_DProbDist_cc,v 1.1 2010/06/06 07:45:31 espie Exp $
+$OpenBSD$
 --- speech_tools/stats/EST_DProbDist.cc.orig	Sun Jun  6 09:32:19 2010
 +++ speech_tools/stats/EST_DProbDist.cc	Sun Jun  6 09:36:58 2010
 @@ -305,15 +305,15 @@ double EST_DiscreteProbDistribution::entropy() const

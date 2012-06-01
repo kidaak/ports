@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/plans/patches/patch-plans_config_pl,v 1.1.1.1 2005/01/04 08:31:05 kevlo Exp $
+$OpenBSD$
 --- plans_config.pl.orig	Tue Jan  4 16:17:55 2005
 +++ plans_config.pl	Tue Jan  4 16:18:54 2005
 @@ -168,7 +168,7 @@ if ($options{data_storage_mode}==1) {

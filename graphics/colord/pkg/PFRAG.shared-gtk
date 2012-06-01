@@ -1,0 +1,2 @@
+@comment $OpenBSD$
+@lib lib/libcolord-gtk.so.${LIBcolord-gtk_VERSION}

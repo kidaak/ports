@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/9wm/Makefile,v 1.29 2011/01/13 08:46:42 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	8 1/2-like Window Manager for X11
 

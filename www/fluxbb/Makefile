@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/fluxbb/Makefile,v 1.7 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT =	fast, light, user-friendly web forum
 

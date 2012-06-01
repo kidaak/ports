@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailman/patches/patch-configure,v 1.10 2010/09/21 07:21:00 jasper Exp $
+$OpenBSD$
 --- configure.orig	Mon Sep 20 23:33:13 2010
 +++ configure	Mon Sep 20 23:34:51 2010
 @@ -3372,61 +3372,8 @@ fi

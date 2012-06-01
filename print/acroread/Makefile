@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/acroread/Makefile,v 1.39 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 SHARED_ONLY=	Yes

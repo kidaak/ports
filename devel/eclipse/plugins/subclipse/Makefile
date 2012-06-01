@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/eclipse/plugins/subclipse/Makefile,v 1.6 2011/09/16 09:24:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=		SubVersion (CVS replacement) plug-in for Eclipse IDE
 

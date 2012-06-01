@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/qhacc/pkg/PLIST,v 1.3 2009/06/07 00:08:32 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/qhacc
 @bin bin/qhacc-cli

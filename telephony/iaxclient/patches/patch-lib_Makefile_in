@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/iaxclient/patches/patch-lib_Makefile_in,v 1.1 2010/06/18 17:32:21 sebastia Exp $
+$OpenBSD$
 remove some parameters to make gcc-2.95 happy
 --- lib/Makefile.in.orig	Mon Apr  7 18:08:38 2008
 +++ lib/Makefile.in	Wed Jun 16 09:02:35 2010

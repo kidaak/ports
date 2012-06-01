@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/vba/patches/patch-src_sdl_SDL_cpp,v 1.1.1.1 2007/09/28 14:18:17 jasper Exp $
+$OpenBSD$
 --- src/sdl/SDL.cpp.orig	Fri May 21 22:16:58 2004
 +++ src/sdl/SDL.cpp	Wed Sep 19 17:14:09 2007
 @@ -98,6 +98,7 @@ extern void MotionBlurIB32(u8*,u32,int,int);

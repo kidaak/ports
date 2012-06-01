@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mp3splt-gtk/Makefile,v 1.14 2011/10/12 12:54:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	graphical mp3/ogg file splitter
 

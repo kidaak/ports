@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/Wnn/patches/patch-Wnn_conv_cvt_read_c,v 1.2 2008/08/30 11:16:59 espie Exp $
+$OpenBSD$
 --- Wnn/conv/cvt_read.c.orig	Thu Apr  8 03:59:13 1993
 +++ Wnn/conv/cvt_read.c	Sat Aug 30 13:13:01 2008
 @@ -72,6 +72,13 @@

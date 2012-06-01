@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/flash/patches/patch-Lib_flash_cc,v 1.1 2010/05/23 16:20:47 espie Exp $
+$OpenBSD$
 --- Lib/flash.cc.orig	Sun May 23 18:18:13 2010
 +++ Lib/flash.cc	Sun May 23 18:19:33 2010
 @@ -263,7 +263,6 @@ FlashSettings(FlashHandle flashHandle, long settings)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/ruby-thor/pkg/PLIST,v 1.4 2010/12/08 21:43:44 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/rake2thor${GEM_BIN_SUFFIX}
 ${GEM_BIN}/thor${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem

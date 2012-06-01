@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/angband/patches/patch-src_config_h,v 1.2 2011/09/15 12:30:30 edd Exp $
+$OpenBSD$
 
 This was preventing shared saved games/scores from working.
 Build system bug -- applied upstream.

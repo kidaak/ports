@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libgpod/pkg/PLIST-main,v 1.2 2011/11/15 15:47:52 mpi Exp $
+@comment $OpenBSD$
 @pkgpath audio/libgpod
 @bin bin/ipod-read-sysinfo-extended
 %%SHARED%%

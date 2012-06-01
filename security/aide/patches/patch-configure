@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/aide/patches/patch-configure,v 1.6 2010/06/06 09:03:13 benoit Exp $
+$OpenBSD$
 --- configure.orig	Sat Jun  5 22:39:12 2010
 +++ configure	Sun Jun  6 07:53:24 2010
 @@ -790,7 +790,7 @@

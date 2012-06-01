@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/qimageblitz/patches/patch-test_CMakeLists_txt,v 1.1 2008/01/21 21:47:56 espie Exp $
+$OpenBSD$
 --- test/CMakeLists.txt.orig	Thu Oct 25 09:36:44 2007
 +++ test/CMakeLists.txt	Fri Oct 26 00:27:30 2007
 @@ -25,7 +25,7 @@ qt4_automoc(${blitztest_SRCS}) 

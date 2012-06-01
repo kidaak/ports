@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/tomcat/v5/Makefile,v 1.24 2012/01/26 10:13:15 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT-main=	Java servlet 2.4 and Java server pages 2.0 server
 COMMENT-admin=	administration web application

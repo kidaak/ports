@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-ui/patches/patch-misc_desktops_Makefile_in,v 1.2 2010/04/18 20:59:39 sthen Exp $
+$OpenBSD$
 --- misc/desktops/Makefile.in.orig	Fri Mar  5 20:34:49 2010
 +++ misc/desktops/Makefile.in	Sat Apr  3 12:57:12 2010
 @@ -269,7 +269,7 @@ icon22_DATA = icons/22/xine.png

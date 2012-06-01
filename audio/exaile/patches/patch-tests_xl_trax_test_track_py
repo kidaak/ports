@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/exaile/patches/patch-tests_xl_trax_test_track_py,v 1.1 2010/04/21 07:02:42 giovanni Exp $
+$OpenBSD$
 --- tests/xl/trax/test_track.py.orig	Mon Apr 12 12:00:02 2010
 +++ tests/xl/trax/test_track.py	Mon Apr 12 12:00:12 2010
 @@ -188,7 +188,7 @@ class TestTrack(unittest.TestCase):

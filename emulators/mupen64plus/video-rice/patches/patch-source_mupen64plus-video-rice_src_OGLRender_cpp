@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/video-rice/patches/patch-source_mupen64plus-video-rice_src_OGLRender_cpp,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/OGLRender.cpp.orig	Mon Dec 19 00:22:51 2011
 +++ src/OGLRender.cpp	Mon Dec 19 00:23:55 2011
 @@ -581,8 +581,8 @@ bool OGLRender::RenderLine3D()

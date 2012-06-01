@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/imagecache/pkg/PLIST,v 1.4 2011/05/30 09:37:37 sthen Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}imagecache/

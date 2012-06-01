@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gsl/Makefile,v 1.30 2012/04/04 12:55:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	GNU Scientific Library
 

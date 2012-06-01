@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/guichan/patches/patch-src_Makefile_in,v 1.1.1.1 2008/08/22 11:38:25 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Aug 21 15:21:00 2008
 +++ src/Makefile.in	Thu Aug 21 15:21:18 2008
 @@ -217,7 +217,7 @@ SUBDIRS = widgets @GUICHAN_EXTRADIRS@ hge openlayer co

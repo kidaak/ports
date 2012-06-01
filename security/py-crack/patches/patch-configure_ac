@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/py-crack/patches/patch-configure_ac,v 1.1.1.1 2009/05/26 08:13:04 benoit Exp $
+$OpenBSD$
 --- configure.ac.orig	Mon Apr 10 10:30:43 2006
 +++ configure.ac	Tue May 26 10:05:59 2009
 @@ -7,7 +7,7 @@ dnl First some basic init macros

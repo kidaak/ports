@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.61/patches/patch-tests_Makefile_in,v 1.1.1.1 2006/12/18 20:35:46 espie Exp $
+$OpenBSD$
 --- tests/Makefile.in.orig	Mon Oct 16 22:58:45 2006
 +++ tests/Makefile.in	Mon Dec 18 20:04:14 2006
 @@ -486,9 +486,7 @@ $(wrappers): wrapper.in

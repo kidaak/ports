@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/expect/patches/patch-Makefile_in,v 1.4 2011/01/05 18:45:45 sebastia Exp $
+$OpenBSD$
 
 allow to build with --with-tk=no to please the no_tk flavor
 propagate the -lutil via @LIBS@, otherwise it will break 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gamin/files/gaminrc,v 1.1.1.1 2009/12/04 08:07:20 ajacoutot Exp $
+# $OpenBSD$
 #
 # Configuration file for gamin.
 # See http://www.gnome.org/~veillard/gamin/config.html for details.

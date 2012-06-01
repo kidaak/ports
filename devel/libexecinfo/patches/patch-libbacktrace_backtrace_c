@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libexecinfo/patches/patch-libbacktrace_backtrace_c,v 1.1 2011/11/16 15:12:53 jasper Exp $
+$OpenBSD$
 
 __builtin_return_address() and __builtin_frame_address()
 can't have a !0 argument on mips.

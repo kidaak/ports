@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/bomberclone/pkg/PLIST,v 1.2 2007/12/26 10:55:05 simon Exp $
+@comment $OpenBSD$
 bin/bomberclone
 share/bomberclone/
 share/bomberclone/gfx/

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/security/clamav/pkg/clamd.rc,v 1.1 2011/01/05 06:06:49 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/clamd"
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/libspectre/Makefile,v 1.11 2011/06/02 17:09:32 kili Exp $
+# $OpenBSD$
 
 # libgs from ghostscript is only provided on shared libs archs
 SHARED_ONLY=	Yes

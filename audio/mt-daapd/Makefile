@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mt-daapd/Makefile,v 1.16 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	multi-threaded DAAP server
 

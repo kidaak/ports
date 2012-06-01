@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Perl-Critic/pkg/PLIST,v 1.4 2010/06/30 18:35:52 jim Exp $
+@comment $OpenBSD$
 bin/perlcritic
 ${P5SITE}/Perl/Critic/
 ${P5SITE}/Perl/Critic.pm

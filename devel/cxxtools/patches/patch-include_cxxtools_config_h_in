@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cxxtools/patches/patch-include_cxxtools_config_h_in,v 1.1 2008/05/31 18:50:07 sturm Exp $
+$OpenBSD$
 --- include/cxxtools/config.h.in.orig	Sat May 31 12:37:30 2008
 +++ include/cxxtools/config.h.in	Sat May 31 12:38:04 2008
 @@ -23,6 +23,9 @@

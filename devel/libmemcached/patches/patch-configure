@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libmemcached/patches/patch-configure,v 1.2 2011/04/14 11:17:49 sebastia Exp $
+$OpenBSD$
 
 get rid of a truckload of warnings when compiling
 

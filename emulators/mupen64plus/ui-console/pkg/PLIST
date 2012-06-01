@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/emulators/mupen64plus/ui-console/pkg/PLIST,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+@comment $OpenBSD$
 @bin bin/mupen64plus
 @man man/man6/mupen64plus.6

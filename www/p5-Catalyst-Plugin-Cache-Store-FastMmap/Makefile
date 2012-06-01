@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Cache-Store-FastMmap/Makefile,v 1.6 2012/04/08 21:58:22 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	FastMmap cache store for Catalyst (deprecated)
 

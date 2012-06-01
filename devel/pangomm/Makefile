@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pangomm/Makefile,v 1.19 2011/10/26 12:25:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		C++ interface for pango
 

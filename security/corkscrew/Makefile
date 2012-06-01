@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/corkscrew/Makefile,v 1.10 2007/09/15 23:29:58 merdely Exp $
+# $OpenBSD$
 
 COMMENT=		HTTP tunneling utility for SSH
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/luma/files/setup.py,v 1.1.1.1 2009/08/26 16:53:21 sthen Exp $
+# $OpenBSD$
 
 from distutils.core import setup
 import sys, os

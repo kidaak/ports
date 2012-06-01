@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/uim-chewing/Makefile,v 1.7 2011/09/16 10:02:38 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

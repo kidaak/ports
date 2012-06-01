@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/netclasses/Makefile,v 1.1.1.1 2011/11/17 23:44:04 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	asynchronous networking framework for GNUstep
 

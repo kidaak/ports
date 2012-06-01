@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/glimpse/patches/patch-index_convert_c,v 1.1 2003/04/25 20:25:14 avsm Exp $
+$OpenBSD$
 --- index/convert.c.orig	Sat Apr 19 17:37:47 2003
 +++ index/convert.c	Sat Apr 19 17:38:07 2003
 @@ -791,7 +791,7 @@ change_format(InputFilenames, ReadIntoMe

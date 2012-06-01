@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/classpath/pkg/PLIST,v 1.4 2010/07/22 11:45:12 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/gappletviewer
 bin/gjar

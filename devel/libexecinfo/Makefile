@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libexecinfo/Makefile,v 1.12 2011/12/09 10:20:56 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	clone of backtrace facility found in the GNU libc
 

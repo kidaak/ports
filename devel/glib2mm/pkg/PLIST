@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/glib2mm/pkg/PLIST,v 1.17 2012/03/28 09:24:14 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict glib2mm-docs-*
 @pkgpath devel/glib2mm,-main
 @pkgpath devel/glib2mm,-docs

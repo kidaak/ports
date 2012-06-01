@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-libjava_configure_in,v 1.1.1.1 2005/01/03 15:21:27 espie Exp $
+$OpenBSD$
 --- libjava/configure.in.orig	2003-06-17 18:04:20.000000000 +0200
 +++ libjava/configure.in	2003-11-12 11:46:13.000000000 +0100
 @@ -300,6 +300,7 @@ changequote(<<,>>)dnl

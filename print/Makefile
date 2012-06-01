@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/print/Makefile,v 1.96 2012/02/16 22:31:16 ajacoutot Exp $
+#	$OpenBSD$
 
     SUBDIR =
     SUBDIR += a2ps

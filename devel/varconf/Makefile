@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/varconf/Makefile,v 1.17 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	configuration system for the STAGE server
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tcpslice/patches/patch-Makefile_in,v 1.3 2007/07/13 08:16:16 rui Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu May 31 19:51:14 2007
 +++ Makefile.in	Thu May 31 19:52:49 2007
 @@ -41,8 +41,8 @@ VPATH = @srcdir@

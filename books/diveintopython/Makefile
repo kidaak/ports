@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/diveintopython/Makefile,v 1.7 2011/10/21 16:23:44 espie Exp $
+# $OpenBSD$
 
 COMMENT=	book about Python for experienced programmers
 

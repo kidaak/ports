@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hs-skein/Makefile,v 1.1.1.1 2012/01/22 17:17:51 kili Exp $
+# $OpenBSD$
 
 COMMENT =		a family of cryptographic hash functions
 

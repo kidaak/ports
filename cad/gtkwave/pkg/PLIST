@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/gtkwave/pkg/PLIST,v 1.1.1.1 2010/07/08 11:20:50 jasper Exp $
+@comment $OpenBSD$
 @bin bin/evcd2vcd
 @bin bin/fst2vcd
 @bin bin/ghwdump

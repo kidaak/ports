@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/bzip2/pkg/PLIST,v 1.20 2010/09/20 18:21:10 naddy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/bunzip2
 bin/bzcat

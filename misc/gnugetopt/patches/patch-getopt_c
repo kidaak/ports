@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/gnugetopt/patches/patch-getopt_c,v 1.2 2009/01/18 23:19:15 jasper Exp $
+$OpenBSD$
 --- getopt.c.orig	Mon Nov  7 23:17:01 2005
 +++ getopt.c	Mon Jan 19 00:17:18 2009
 @@ -88,7 +88,7 @@ void *our_malloc(size_t size)

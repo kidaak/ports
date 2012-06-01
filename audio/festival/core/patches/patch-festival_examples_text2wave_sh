@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-festival_examples_text2wave_sh,v 1.1 2011/06/12 12:21:26 sthen Exp $
+$OpenBSD$
 
 fixes occasional segfault/bus error in text2wave, especially using
 alternative voices e.g. 'text2wave -eval "(voice_cmu_us_slt_arctic_hts)"'

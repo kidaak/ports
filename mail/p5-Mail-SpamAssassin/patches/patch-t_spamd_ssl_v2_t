@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/p5-Mail-SpamAssassin/patches/patch-t_spamd_ssl_v2_t,v 1.1 2011/12/13 08:52:54 bluhm Exp $
+$OpenBSD$
 
 SSLv2 support has been removed from OpenSSL and Net::SSLeay
 

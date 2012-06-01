@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libyaml/Makefile,v 1.2 2008/12/31 12:15:45 pea Exp $
+# $OpenBSD$
 
 COMMENT=	YAML 1.1 parser and emitter written in C
 

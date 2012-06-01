@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ntop/Makefile,v 1.31 2012/03/12 17:16:19 ajacoutot Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.2 1998/08/11 09:57:51 andreas Exp $
 
 COMMENT=	network usage, interface similar to top(1)
@@ -26,6 +26,8 @@ USE_GROFF =	Yes
 
 ALL_TARGET=
 INSTALL_TARGET=	install install-man
+
+NO_REGRESS=	Yes
 
 post-install:
 	@chmod 700 ${PREFIX}/sbin/ntop

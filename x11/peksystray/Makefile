@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/peksystray/Makefile,v 1.9 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		freedesktop.org compliant system tray
 

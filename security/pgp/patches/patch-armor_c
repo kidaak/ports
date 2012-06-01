@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pgp/patches/patch-armor_c,v 1.1 2012/03/17 22:42:26 naddy Exp $
+$OpenBSD$
 --- armor.c.orig	Sat Mar 17 16:39:54 2012
 +++ armor.c	Sat Mar 17 16:40:45 2012
 @@ -343,7 +343,7 @@ copyline(FILE * in, FILE * out)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ifmcstat/Makefile,v 1.5 2011/11/16 00:10:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		show Ethernet Multicast memberships
 

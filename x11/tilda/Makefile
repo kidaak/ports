@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tilda/Makefile,v 1.18 2011/09/26 19:49:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		drop-down terminal emulator
 

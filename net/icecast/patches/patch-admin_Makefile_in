@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icecast/patches/patch-admin_Makefile_in,v 1.2 2008/11/18 21:22:02 pea Exp $
+$OpenBSD$
 --- admin/Makefile.in.orig	Fri May 30 01:58:57 2008
 +++ admin/Makefile.in	Fri Nov  7 10:40:00 2008
 @@ -15,7 +15,7 @@

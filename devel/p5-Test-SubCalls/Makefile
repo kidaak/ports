@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-SubCalls/Makefile,v 1.4 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		track the number of times subs are called
 

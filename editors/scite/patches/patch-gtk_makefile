@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/scite/patches/patch-gtk_makefile,v 1.6 2011/11/15 19:17:09 jeremy Exp $
+$OpenBSD$
 --- gtk/makefile.orig	Fri Sep 16 11:14:07 2011
 +++ gtk/makefile	Tue Nov 15 19:30:57 2011
 @@ -5,13 +5,6 @@

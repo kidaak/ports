@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/findlib/Makefile,v 1.20 2011/12/21 21:32:37 avsm Exp $
+# $OpenBSD$
 
 COMMENT=	Objective Caml package manager
 CATEGORIES=	sysutils

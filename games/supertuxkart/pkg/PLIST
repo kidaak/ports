@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/supertuxkart/pkg/PLIST,v 1.2 2011/05/08 20:14:54 kili Exp $
+@comment $OpenBSD$
 @bin bin/supertuxkart
 share/applications/supertuxkart.desktop
 share/doc/supertuxkart/

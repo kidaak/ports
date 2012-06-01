@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/search_config/Makefile,v 1.4 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	decide which fields to display on the advanced search form
 

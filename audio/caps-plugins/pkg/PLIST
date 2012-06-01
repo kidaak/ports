@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/caps-plugins/pkg/PLIST,v 1.1.1.1 2010/10/23 21:59:58 jakemsr Exp $
+@comment $OpenBSD$
 lib/ladspa/
 lib/ladspa/caps.so
 share/ladspa/

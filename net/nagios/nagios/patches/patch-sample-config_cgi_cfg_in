@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nagios/nagios/patches/patch-sample-config_cgi_cfg_in,v 1.5 2009/09/12 12:35:20 sturm Exp $
+$OpenBSD$
 --- sample-config/cgi.cfg.in.orig	Wed Jun 17 17:13:52 2009
 +++ sample-config/cgi.cfg.in	Thu Sep 10 07:13:52 2009
 @@ -264,7 +264,7 @@ default_statuswrl_layout=4

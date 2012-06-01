@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/empathy/patches/patch-src_empathy-video-widget_c,v 1.1 2012/04/05 16:08:56 jasper Exp $
+$OpenBSD$
 
 From 354671e1521cc3157d44701cbac56b3eb19fb35c Mon Sep 17 00:00:00 2001
 From: Gert Kulyk <gkulyk@yahoo.de>

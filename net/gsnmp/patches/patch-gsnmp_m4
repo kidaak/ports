@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gsnmp/patches/patch-gsnmp_m4,v 1.1 2011/06/29 17:23:32 naddy Exp $
+$OpenBSD$
 --- gsnmp.m4.orig	Wed Jun 29 11:18:27 2011
 +++ gsnmp.m4	Wed Jun 29 11:18:48 2011
 @@ -1,7 +1,7 @@

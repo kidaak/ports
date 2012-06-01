@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xscavenger/pkg/PLIST,v 1.3 2010/01/03 21:51:29 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/scavenger
 @man man/cat1/scavenger.0
 share/doc/scavenger/

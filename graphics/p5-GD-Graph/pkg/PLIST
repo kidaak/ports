@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-GD-Graph/pkg/PLIST,v 1.7 2004/09/15 00:50:10 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/GD/Graph/
 ${P5SITE}/GD/Graph.pm
 ${P5SITE}/GD/Graph/Data.pm

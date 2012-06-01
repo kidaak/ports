@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/aimsniff/patches/patch-aimSniff_pl,v 1.1.1.1 2005/11/04 23:06:25 jolan Exp $
+$OpenBSD$
 --- aimSniff.pl.orig	Wed Feb 11 21:25:19 2004
 +++ aimSniff.pl	Fri Nov  4 02:49:27 2005
 @@ -44,7 +44,8 @@ use Proc::Daemon;

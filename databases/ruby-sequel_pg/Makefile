@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-sequel_pg/Makefile,v 1.14 2012/04/06 19:23:37 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	faster SELECTs when using ruby-sequel with ruby-pg
 

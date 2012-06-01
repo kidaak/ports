@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/libarchive/patches/patch-tar_bsdtar_1,v 1.8 2012/04/01 10:50:47 naddy Exp $
+$OpenBSD$
 --- tar/bsdtar.1.orig	Sat Mar 31 21:50:32 2012
 +++ tar/bsdtar.1	Sat Mar 31 21:51:27 2012
 @@ -28,7 +28,7 @@

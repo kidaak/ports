@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pcapdiff/pkg/PLIST,v 1.1.1.1 2009/04/21 16:36:23 sthen Exp $
+@comment $OpenBSD$
 bin/pcapdiff
 bin/printpackets
 lib/python${MODPY_VERSION}/site-packages/pcapdiff-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

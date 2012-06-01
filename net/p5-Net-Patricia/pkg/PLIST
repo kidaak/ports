@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Patricia/pkg/PLIST,v 1.1.1.1 2006/10/18 10:45:59 alek Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Net/
 ${P5ARCH}/Net/Patricia.pm

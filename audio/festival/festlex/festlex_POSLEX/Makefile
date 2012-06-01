@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/festlex/festlex_POSLEX/Makefile,v 1.2 2007/09/15 22:27:38 simon Exp $
+# $OpenBSD$
 
 COMMENT=	part of speech lexicons and ngram from English
 DISTNAME=	festlex_POSLEX

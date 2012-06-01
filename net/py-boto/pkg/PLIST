@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-boto/pkg/PLIST,v 1.5 2011/12/25 23:59:07 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/boto/
 lib/python${MODPY_VERSION}/site-packages/boto-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/boto-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

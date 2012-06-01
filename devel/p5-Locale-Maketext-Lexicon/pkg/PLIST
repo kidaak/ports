@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Locale-Maketext-Lexicon/pkg/PLIST,v 1.1.1.1 2004/12/08 18:36:18 msf Exp $
+@comment $OpenBSD$
 bin/xgettext.pl
 ${P5SITE}/Locale/
 ${P5SITE}/Locale/Maketext/

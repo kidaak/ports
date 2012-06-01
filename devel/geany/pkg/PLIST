@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/geany/pkg/PLIST,v 1.17 2011/12/03 19:38:09 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath devel/geany,vte
 @bin bin/geany
 include/geany/

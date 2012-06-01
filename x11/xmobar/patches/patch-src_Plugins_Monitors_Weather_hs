@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xmobar/patches/patch-src_Plugins_Monitors_Weather_hs,v 1.1 2012/01/12 21:42:07 dcoppa Exp $
+$OpenBSD$
 
 Use lynx(1) from base instead of curl
 

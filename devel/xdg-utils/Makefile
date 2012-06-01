@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/xdg-utils/Makefile,v 1.18 2012/04/09 09:39:15 ajacoutot Exp $
+# $OpenBSD$
 
 # Does _not_ depend on desktop-file-utils, hicolor-icon-theme,
 # gtk-update-icon-cache, shared-mime-info... on purpose as it should

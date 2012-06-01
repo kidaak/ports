@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/nkf/Makefile,v 1.25 2011/01/09 13:52:53 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

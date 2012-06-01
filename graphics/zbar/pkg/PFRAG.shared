@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/zbar/pkg/PFRAG.shared,v 1.1.1.1 2010/03/22 21:57:58 jsg Exp $
+@comment $OpenBSD$
 @lib lib/libzbar.so.${LIBzbar_VERSION}
 @lib lib/libzbargtk.so.${LIBzbargtk_VERSION}
 lib/python${MODPY_VERSION}/site-packages/zbar.so

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/alpine/pkg/PLIST-main,v 1.5 2010/11/12 13:54:47 jasper Exp $
+@comment $OpenBSD$
 @conflict pine-*
 @pkgpath mail/pine
 @bin bin/alpine

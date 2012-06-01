@@ -1,5 +1,6 @@
-@comment $OpenBSD: ports/lang/scheme48/pkg/PLIST,v 1.2 2008/08/19 22:20:40 jasper Exp $
+@comment $OpenBSD$
 @conflict scsh-*
+@conflict gambit-*
 %%SHARED%%
 @bin bin/scheme-r5rs
 @bin bin/scheme-srfi-7

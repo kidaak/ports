@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/lame/Makefile,v 1.49 2012/03/02 07:14:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	lame ain't an MP3 encoder
 

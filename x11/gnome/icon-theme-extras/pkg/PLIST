@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/icon-theme-extras/pkg/PLIST,v 1.7 2012/03/29 06:48:21 ajacoutot Exp $
+@comment $OpenBSD$
 share/icons/gnome/16x16/devices/colorimeter-colorhug.png
 share/icons/gnome/16x16/devices/computer-apple-ipad.png
 share/icons/gnome/16x16/devices/drive-harddisk-ieee1394.png

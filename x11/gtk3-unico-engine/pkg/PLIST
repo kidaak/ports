@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk3-unico-engine/pkg/PLIST,v 1.1.1.1 2011/10/08 16:41:40 ajacoutot Exp $
+@comment $OpenBSD$
 lib/gtk-3.0/3.0.0/theming-engines/
 @comment lib/gtk-3.0/3.0.0/theming-engines/libunico.la
 lib/gtk-3.0/3.0.0/theming-engines/libunico.so

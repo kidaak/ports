@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/espeak/pkg/PLIST,v 1.2 2009/03/23 12:02:28 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/espeak
 include/speak_lib.h

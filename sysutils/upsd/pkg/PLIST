@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/upsd/pkg/PLIST,v 1.9 2004/09/24 09:42:39 espie Exp $
+@comment $OpenBSD$
 @conflict nut-*
 sbin/upsd
 share/examples/upsd/

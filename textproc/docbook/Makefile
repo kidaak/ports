@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/docbook/Makefile,v 1.29 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/modlogan/Makefile,v 1.24 2011/01/14 22:50:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	modular log analyzer
 

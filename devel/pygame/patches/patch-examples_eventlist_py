@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pygame/patches/patch-examples_eventlist_py,v 1.2 2009/04/09 22:49:39 ajacoutot Exp $
+$OpenBSD$
 --- examples/eventlist.py.orig	Mon Jul  7 07:58:40 2008
 +++ examples/eventlist.py	Mon Apr  6 20:08:49 2009
 @@ -1,5 +1,5 @@

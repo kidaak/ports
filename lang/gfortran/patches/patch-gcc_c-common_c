@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_c-common_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/c-common.c.orig	Mon Mar 12 19:50:38 2007
 +++ gcc/c-common.c	Mon Jun 14 19:23:03 2010
 @@ -545,7 +545,9 @@ static tree handle_cleanup_attribute (tree *, tree, tr

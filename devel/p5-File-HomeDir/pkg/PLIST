@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-HomeDir/pkg/PLIST,v 1.4 2010/10/22 20:20:05 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/HomeDir/
 ${P5SITE}/File/HomeDir.pm
 ${P5SITE}/File/HomeDir/Darwin/

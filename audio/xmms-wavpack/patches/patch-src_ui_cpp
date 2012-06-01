@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms-wavpack/patches/patch-src_ui_cpp,v 1.1.1.1 2009/01/12 16:41:37 naddy Exp $
+$OpenBSD$
 --- src/ui.cpp.orig	Fri May  2 07:15:31 2008
 +++ src/ui.cpp	Sun Jan 11 19:39:26 2009
 @@ -21,7 +21,7 @@ extern "C" {

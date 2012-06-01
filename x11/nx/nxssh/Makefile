@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/nx/nxssh/Makefile,v 1.12 2012/01/03 17:42:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	OpenSSH client and daemon for NX
 

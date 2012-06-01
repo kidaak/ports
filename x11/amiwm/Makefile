@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/amiwm/Makefile,v 1.8 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Amiga Workbench lookalike window manager
 

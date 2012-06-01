@@ -1,10 +1,9 @@
-# $OpenBSD: ports/x11/gnome/vino/Makefile,v 1.43 2012/03/30 14:09:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GNOME desktop sharing server
 
 GNOME_PROJECT=	vino
-GNOME_VERSION=	3.4.0
-REVISION=	0
+GNOME_VERSION=	3.4.2
 
 CATEGORIES=	net
 

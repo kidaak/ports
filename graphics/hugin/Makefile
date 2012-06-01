@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/hugin/Makefile,v 1.27 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 VMEM_WARNING =		Yes
 SHARED_ONLY =		Yes

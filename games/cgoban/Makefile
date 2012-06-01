@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/cgoban/Makefile,v 1.22 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=	X11 Go Toolset
 

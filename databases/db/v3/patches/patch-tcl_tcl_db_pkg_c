@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/db/v3/patches/patch-tcl_tcl_db_pkg_c,v 1.1 2004/01/10 08:36:28 sturm Exp $
+$OpenBSD$
 --- tcl/tcl_db_pkg.c.orig	2000-06-30 15:35:07.000000000 +0200
 +++ tcl/tcl_db_pkg.c	2004-01-08 23:34:49.000000000 +0100
 @@ -162,7 +162,7 @@ berkdb_Cmd(notused, interp, objc, objv)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/ginac/pkg/PLIST,v 1.3 2009/03/17 11:53:01 pirofti Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/ginac-excompiler
 @bin bin/ginsh

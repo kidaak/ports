@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgweather/pkg/PLIST,v 1.10 2012/03/07 20:22:04 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gnome-applets2-<=2.22.0
 include/libgweather-3.0/
 include/libgweather-3.0/libgweather/

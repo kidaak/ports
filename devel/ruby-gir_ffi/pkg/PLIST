@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-gir_ffi/pkg/PLIST,v 1.1.1.1 2011/08/18 09:56:34 jasper Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/DESIGN.rdoc

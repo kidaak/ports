@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-js_src_ctypes_libffi_configure,v 1.5 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 --- js/src/ctypes/libffi/configure.orig	Fri Nov  4 21:34:01 2011
 +++ js/src/ctypes/libffi/configure	Thu Nov 10 00:21:25 2011
 @@ -11212,7 +11212,7 @@ case "$host" in

@@ -1,4 +1,4 @@
-$OpenBSD: ports/shells/zsh/patches/patch-Makefile_in,v 1.1 2004/07/12 19:46:52 lebel Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Sep 10 06:48:44 2001
 +++ Makefile.in	Sun Nov 18 12:17:48 2001
 @@ -63,8 +63,8 @@ install-strip:

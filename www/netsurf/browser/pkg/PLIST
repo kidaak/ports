@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/netsurf/browser/pkg/PLIST,v 1.4 2012/01/12 03:17:08 bentley Exp $
+@comment $OpenBSD$
 @bin bin/netsurf
 share/netsurf/
 share/netsurf/C/

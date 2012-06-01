@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gfortran/pkg/PLIST-lib,v 1.2 2010/11/28 21:30:37 jasper Exp $
+@comment $OpenBSD$
 @conflict g95-*
 lib/gcc/
 lib/gcc/${CONFIG}/

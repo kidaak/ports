@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-SPF-Test/Makefile,v 1.1.1.1 2011/09/21 08:01:26 giovanni Exp $
+# $OpenBSD$
 
 COMMENT =		perl SPF test-suite class
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/minitube/Makefile,v 1.19 2012/03/21 10:45:44 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =	standalone YouTube.com video browser/player
 

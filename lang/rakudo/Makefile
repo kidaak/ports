@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/rakudo/Makefile,v 1.11 2012/03/08 15:02:06 pascal Exp $
+# $OpenBSD$
 
 # Memory hog, stuck for days on the same file during build.
 NOT_FOR_ARCHS =		sh
@@ -8,11 +8,11 @@ SHARED_ONLY =		Yes
 COMMENT =		Rakudo Perl 6 compiler
 
 PORTNAME =		rakudo
-VERSION =		2012.02
-DISTNAME =		${PORTNAME}-star-${VERSION}
+VERSION =		2012.04.1
+DISTNAME =		${PORTNAME}-star-${VERSION:S/.1//}
 PKGNAME =		${PORTNAME}-${VERSION}
 
-PARROT_VERSION =	4.1.0
+PARROT_VERSION =	4.3.0
 SUBST_VARS +=		PARROT_VERSION
 
 CATEGORIES =		lang perl6

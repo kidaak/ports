@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/wavpack/pkg/PFRAG.shared,v 1.1.1.1 2009/01/10 02:08:34 sthen Exp $
+@comment $OpenBSD$
 @lib lib/libwavpack.so.${LIBwavpack_VERSION}

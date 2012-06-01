@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/flite/Makefile,v 1.15 2010/07/29 18:06:33 landry Exp $
+# $OpenBSD$
 
 BROKEN-mips64=	GCC hangs compiling cmu_us_kal_diphone.c
 BROKEN-mips64el= GCC hangs compiling cmu_us_kal_diphone.c

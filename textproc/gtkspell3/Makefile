@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/gtkspell3/Makefile,v 1.1.1.1 2012/04/12 18:04:26 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	gtk+3 spelling checker
 

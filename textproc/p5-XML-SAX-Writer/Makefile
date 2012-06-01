@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-SAX-Writer/Makefile,v 1.7 2011/03/17 12:22:18 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	SAX2 writer
 

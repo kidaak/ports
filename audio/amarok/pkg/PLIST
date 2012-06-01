@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/amarok/pkg/PLIST,v 1.13 2009/12/22 15:43:14 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/amarok
 bin/amarok_daapserver.rb
 bin/amarok_proxy.rb

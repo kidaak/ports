@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/compiz/core/patches/patch-gtk_window-decorator_gtk-window-decorator_c,v 1.2 2010/09/30 07:23:47 ajacoutot Exp $
+$OpenBSD$
 
 XXX make it compile with gtk+2 2.22 (*_DISABLE_DEPRECATED)
 gtk-window-decorator.c:5626: error: 'gdk_display' undeclared (first use in this function)

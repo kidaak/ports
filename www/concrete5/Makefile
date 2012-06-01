@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/concrete5/Makefile,v 1.6 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT=	building material for websites
 

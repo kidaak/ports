@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/rox-filer/Makefile,v 1.57 2012/04/04 18:17:50 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		GTK+-2 file manager with desktop features
 

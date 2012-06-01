@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/locale-fr/Makefile,v 1.8 2012/04/12 08:16:06 naddy Exp $
+# $OpenBSD$
 
 COMMENT =	french translation
 MAINTAINER =	Marc Espie <espie@openbsd.org>

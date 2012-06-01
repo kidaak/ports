@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/sattrack/Makefile,v 1.29 2010/10/24 20:58:58 ajacoutot Exp $
+# $OpenBSD$
 
 V=		3.1.6
 COMMENT=	real-time satellite tracking and orbit propagation program

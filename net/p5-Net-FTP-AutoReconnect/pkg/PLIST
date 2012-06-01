@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-FTP-AutoReconnect/pkg/PLIST,v 1.1.1.1 2008/04/11 22:04:59 okan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/FTP/
 ${P5SITE}/Net/FTP/AutoReconnect.pm

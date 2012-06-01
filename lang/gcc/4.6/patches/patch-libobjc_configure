@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libobjc_configure,v 1.1 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libobjc/configure.orig	Wed Jan 25 17:50:55 2012
 +++ libobjc/configure	Wed Jan 25 17:51:02 2012
 @@ -9990,7 +9990,7 @@ openbsd*)

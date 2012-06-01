@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-IMAPClient/Makefile,v 1.23 2012/02/20 16:43:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for an IMAP Client API
 

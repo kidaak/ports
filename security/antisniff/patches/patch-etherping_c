@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/antisniff/patches/patch-etherping_c,v 1.2 2005/04/03 19:32:29 naddy Exp $
+$OpenBSD$
 --- etherping.c.orig	Tue Apr 18 03:52:53 2000
 +++ etherping.c	Sun Apr  3 21:24:04 2005
 @@ -13,7 +13,6 @@ int getIPfromPkt(char *pkt, int len, cha

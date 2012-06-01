@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/hs-xmonad-contrib/patches/patch-XMonad_Util_Loggers_hs,v 1.2 2012/01/12 11:12:38 dcoppa Exp $
+$OpenBSD$
 
 Use our apm(8) instead of linux-only acpi
 

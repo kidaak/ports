@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/memtester/patches/patch-memtester_c,v 1.2 2010/06/27 04:59:13 ckuethe Exp $
+$OpenBSD$
 --- memtester.c.orig	Sun Feb 28 09:24:56 2010
 +++ memtester.c	Thu Mar 25 16:25:03 2010
 @@ -285,7 +285,8 @@ int main(int argc, char **argv) {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/nfsshell/Makefile,v 1.17 2012/03/18 16:50:09 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	NFS auditing tool
 

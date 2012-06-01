@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/passwdqc/pkg/PLIST,v 1.2 2010/07/07 21:29:58 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/pwqcheck
 @bin bin/pwqgen

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-sqlalchemy-migrate/Makefile,v 1.1.1.1 2012/01/10 17:50:23 espie Exp $
+# $OpenBSD$
 
 COMMENT =		schema migration tools for SQLAlchemy
 

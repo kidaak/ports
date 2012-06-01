@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/examples/Makefile,v 1.17 2011/06/27 06:34:55 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	GNUstep example applications
 

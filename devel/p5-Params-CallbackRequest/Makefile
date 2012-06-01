@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Params-CallbackRequest/Makefile,v 1.8 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	functional and object-oriented callback architecture
 

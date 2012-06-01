@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ddd/Makefile,v 1.60 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Data Display Debugger, graphical front-end for GDB, etc
 

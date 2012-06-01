@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/shotwell/patches/patch-Makefile,v 1.8 2012/04/05 17:44:17 ajacoutot Exp $
+$OpenBSD$
 
 remove gudev requirement
 

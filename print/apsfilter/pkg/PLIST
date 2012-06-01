@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/apsfilter/pkg/PLIST,v 1.6 2011/05/11 07:45:53 ajacoutot Exp $
+@comment $OpenBSD$
 @unexec rm -f ${SYSCONFDIR}/apsfilter/basedir
 bin/aps2file
 bin/apsfilter-bug

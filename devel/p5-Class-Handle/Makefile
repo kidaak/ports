@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Handle/Makefile,v 1.7 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to create objects that are handles to classes
 

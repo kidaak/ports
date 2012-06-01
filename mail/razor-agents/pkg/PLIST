@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/razor-agents/pkg/PLIST,v 1.11 2006/08/03 15:18:40 steven Exp $
+@comment $OpenBSD$
 bin/razor-admin
 bin/razor-check
 bin/razor-client

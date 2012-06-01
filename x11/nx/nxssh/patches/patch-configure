@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/nx/nxssh/patches/patch-configure,v 1.2 2010/10/19 07:52:11 jsg Exp $
+$OpenBSD$
 --- configure.orig	Tue Oct  2 19:02:53 2007
 +++ configure	Sat Oct 16 13:40:59 2010
 @@ -4668,10 +4668,10 @@ TEST_SHELL=sh

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/py-lzo/Makefile,v 1.7 2011/10/12 08:37:39 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		Python implementation of the LZO library
 

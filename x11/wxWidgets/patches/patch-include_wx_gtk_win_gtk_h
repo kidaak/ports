@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wxWidgets/patches/patch-include_wx_gtk_win_gtk_h,v 1.1 2010/05/20 10:39:20 espie Exp $
+$OpenBSD$
 --- include/wx/gtk/win_gtk.h.orig	Wed May 12 11:23:13 2010
 +++ include/wx/gtk/win_gtk.h	Wed May 12 11:24:00 2010
 @@ -15,7 +15,10 @@

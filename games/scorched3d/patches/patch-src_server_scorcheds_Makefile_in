@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/scorched3d/patches/patch-src_server_scorcheds_Makefile_in,v 1.1.1.1 2010/10/26 10:34:00 phessler Exp $
+$OpenBSD$
 --- src/server/scorcheds/Makefile.in.orig	Sat Oct 23 23:47:09 2010
 +++ src/server/scorcheds/Makefile.in	Sat Oct 23 23:47:46 2010
 @@ -7896,14 +7896,14 @@ ImageLuminance.obj: ../../common/image/ImageLuminance.

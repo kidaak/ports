@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/coccinelle/patches/patch-commons_common_ml,v 1.1 2011/08/16 08:26:16 sthen Exp $
+$OpenBSD$
 --- commons/common.ml.orig	Thu Aug 11 15:51:39 2011
 +++ commons/common.ml	Thu Aug 11 15:52:01 2011
 @@ -5347,7 +5347,7 @@ let (diff: (int -> int -> diff -> unit)-> (string list

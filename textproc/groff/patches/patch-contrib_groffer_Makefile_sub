@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/groff/patches/patch-contrib_groffer_Makefile_sub,v 1.1 2011/03/19 16:48:53 schwarze Exp $
+$OpenBSD$
 # Do not attempt "install -o root" during the build phase, or you get:
 #   install: roff2dvi: chown/chgrp: Operation not permitted
 #   Build for all aborted

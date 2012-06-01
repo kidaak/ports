@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/itcl/pkg/PLIST,v 1.4 2011/01/05 18:55:32 sebastia Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/itcl/
 include/itcl/itcl.h

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libsigc++-2/pkg/PFRAG.shared-main,v 1.1 2006/11/25 08:30:21 steven Exp $
+@comment $OpenBSD$
 @lib lib/libsigc-${V}.so.${LIBsigc-2.0_VERSION}

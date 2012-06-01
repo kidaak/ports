@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pysvn/patches/patch-Source_setup_configure_py,v 1.1.1.1 2010/12/29 13:47:53 stsp Exp $
+$OpenBSD$
 
 1) Remove -lresolv.
 

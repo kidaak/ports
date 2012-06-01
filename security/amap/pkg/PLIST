@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/amap/pkg/PLIST,v 1.3 2011/06/07 00:13:08 sthen Exp $
+@comment $OpenBSD$
 @pkgpath net/amap
 @bin bin/amap
 @bin bin/amap6

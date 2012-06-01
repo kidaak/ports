@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/games/alephone/scenarios/evil/Makefile,v 1.1.1.1 2009/05/18 06:02:45 phessler Exp $
+#	$OpenBSD$
 PKG_ARCH =		*
 
 COMMENT =		everyone was wrong. monsters do exist.

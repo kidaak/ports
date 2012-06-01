@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/transset-df/pkg/PLIST,v 1.1.1.1 2007/11/05 20:01:36 jasper Exp $
+@comment $OpenBSD$
 bin/transset-df

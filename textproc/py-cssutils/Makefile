@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-cssutils/Makefile,v 1.7 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT =	python package to parse and build CSS
 

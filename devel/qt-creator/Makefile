@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/qt-creator/Makefile,v 1.11 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 BROKEN-powerpc =	qdoc3 goes into an infinite loop
 

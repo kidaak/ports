@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/aide/Makefile,v 1.19 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Advanced Intrusion Detection Environment
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-pdf-reader/pkg/PLIST,v 1.3 2010/11/08 23:24:42 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/pdf_list_callbacks${GEM_BIN_SUFFIX}
 ${GEM_BIN}/pdf_object${GEM_BIN_SUFFIX}
 ${GEM_BIN}/pdf_text${GEM_BIN_SUFFIX}

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tcptrace/patches/patch-tcpdump_h,v 1.1 2011/08/25 22:40:21 bluhm Exp $
+$OpenBSD$
 --- tcpdump.h.orig	Wed Nov 19 15:38:08 2003
 +++ tcpdump.h	Wed Feb  9 23:14:31 2011
 @@ -83,7 +83,8 @@ static char const GCC_UNUSED rcsid_tcpdump[] =

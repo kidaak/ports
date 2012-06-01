@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mono-xsp/patches/patch-docs_Mono_WebServer_Makefile_in,v 1.1.1.1 2011/07/20 14:53:24 robert Exp $
+$OpenBSD$
 --- docs/Mono.WebServer/Makefile.in.orig	Wed Jul 20 16:28:03 2011
 +++ docs/Mono.WebServer/Makefile.in	Wed Jul 20 16:28:15 2011
 @@ -170,7 +170,7 @@ DOCS_TREE_20 = $(DOCS_ARCHIVE_BASE).tree

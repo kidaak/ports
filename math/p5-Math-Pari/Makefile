@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-Pari/Makefile,v 1.12 2011/04/19 15:20:06 jasper Exp $
+# $OpenBSD$
 
 # Lacks p5-Term-Gnuplot regress dependency!
 

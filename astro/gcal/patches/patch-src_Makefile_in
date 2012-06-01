@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/gcal/patches/patch-src_Makefile_in,v 1.1.1.1 2009/10/17 08:39:34 bernd Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Wed Jun 14 00:04:06 2000
 +++ src/Makefile.in	Mon Apr  2 09:32:46 2007
 @@ -136,7 +136,7 @@ MISC_LIBS = @LIBM@ @LIBS@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xcursor-neutral/pkg/PLIST,v 1.1.1.1 2011/01/15 12:50:42 landry Exp $
+@comment $OpenBSD$
 lib/X11/icons/
 lib/X11/icons/neutral/
 lib/X11/icons/neutral/cursors/

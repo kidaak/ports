@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Iterator/Makefile,v 1.2 2010/12/30 10:43:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	general-purpose iterator class.
 

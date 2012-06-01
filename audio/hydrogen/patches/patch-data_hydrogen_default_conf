@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/hydrogen/patches/patch-data_hydrogen_default_conf,v 1.2 2010/01/11 05:11:32 jakemsr Exp $
+$OpenBSD$
 --- data/hydrogen.default.conf.orig	Wed Aug 26 05:12:27 2009
 +++ data/hydrogen.default.conf	Sat Jan  2 03:20:03 2010
 @@ -27,7 +27,7 @@

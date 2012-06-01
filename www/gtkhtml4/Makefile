@@ -1,11 +1,11 @@
-# $OpenBSD: ports/www/gtkhtml4/Makefile,v 1.18 2012/04/16 13:14:20 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 
 COMMENT=		lightweight HTML rendering/printing/editing engine
 
 GNOME_PROJECT=		gtkhtml
-GNOME_VERSION=		4.4.1
+GNOME_VERSION=		4.4.2
 
 API_VERSION=		4.0
 SUBST_VARS=		API_VERSION

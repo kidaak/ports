@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Proc-ProcessTable/Makefile,v 1.16 2012/01/29 02:28:19 william Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

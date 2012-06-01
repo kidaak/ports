@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/gnome/libxklavier/pkg/PFRAG.shared,v 1.4 2006/01/08 15:43:36 steven Exp $
+@comment $OpenBSD$
 @lib lib/libxklavier.so.${LIBxklavier_VERSION}

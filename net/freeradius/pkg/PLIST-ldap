@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/freeradius/pkg/PLIST-ldap,v 1.3 2010/10/25 13:22:20 pea Exp $
+@comment $OpenBSD$
 @conflict freeradius-server-<2.1.8
 lib/freeradius/rlm_ldap.so
 share/doc/freeradius/examples/iplanet.ldif

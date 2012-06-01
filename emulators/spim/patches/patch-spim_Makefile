@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/spim/patches/patch-spim_Makefile,v 1.2 2006/11/09 07:01:47 kevlo Exp $
+$OpenBSD$
 --- spim/Makefile.orig	Tue Aug 29 02:23:19 2006
 +++ spim/Makefile	Thu Nov  9 12:08:01 2006
 @@ -45,6 +45,8 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/gpsd/Makefile,v 1.47 2012/04/01 19:38:57 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=		service daemon that monitors one or more GPSes
 COMMENT-x11=		GUI test apps using gpsd

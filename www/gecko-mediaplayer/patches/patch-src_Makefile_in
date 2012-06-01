@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/gecko-mediaplayer/patches/patch-src_Makefile_in,v 1.7 2012/01/09 12:12:44 dcoppa Exp $
+$OpenBSD$
 
 Fix library linking (remove -ldl)
 

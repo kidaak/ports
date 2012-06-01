@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/cdrtools/Makefile,v 1.19 2011/12/07 07:56:12 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=		ISO 9660 filesystem and CD/DVD/BD creation tools
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-YAML-XS/pkg/PLIST,v 1.1.1.1 2009/06/18 18:08:06 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/YAML/
 ${P5ARCH}/YAML/LibYAML.pm

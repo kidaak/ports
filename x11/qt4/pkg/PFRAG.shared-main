@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt4/pkg/PFRAG.shared-main,v 1.10 2011/09/07 09:54:07 espie Exp $
+@comment $OpenBSD$
 %%GCC4%%
 @lib lib/libQt3Support.so.${LIBQt3Support_VERSION}
 @lib lib/libQtCLucene.so.${LIBQtCLucene_VERSION}

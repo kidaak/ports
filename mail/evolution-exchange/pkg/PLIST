@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/evolution-exchange/pkg/PLIST,v 1.10 2012/03/29 06:59:48 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/exchange-connector-setup-${EVO_VERSION}
 @comment lib/evolution-data-server/addressbook-backends/libebookbackendexchange.la
 lib/evolution-data-server/addressbook-backends/libebookbackendexchange.so

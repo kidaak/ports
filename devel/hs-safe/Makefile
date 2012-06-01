@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-safe/Makefile,v 1.1.1.1 2011/11/13 23:22:54 kili Exp $
+# $OpenBSD$
 
 COMMENT =		safe wrappers for some base functions
 

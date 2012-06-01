@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/libnova/patches/patch-src_heliocentric_time_c,v 1.1 2010/10/24 19:42:27 phessler Exp $
+$OpenBSD$
 
 c89 fixes so it can compile on sparc
 

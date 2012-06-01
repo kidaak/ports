@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/loudmouth/pkg/PLIST,v 1.1.1.1 2007/05/27 19:33:15 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/loudmouth-1.0/
 include/loudmouth-1.0/loudmouth/

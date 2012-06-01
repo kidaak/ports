@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ptpd/Makefile,v 1.2 2010/10/18 18:36:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Precision Time Protocol daemon
 

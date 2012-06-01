@@ -1,4 +1,4 @@
-# $OpenBSD: ports/russian/Makefile,v 1.14 2011/07/19 09:22:50 jasper Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += d1489

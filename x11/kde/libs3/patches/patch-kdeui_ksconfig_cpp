@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/libs3/patches/patch-kdeui_ksconfig_cpp,v 1.2 2006/10/12 23:12:19 espie Exp $
+$OpenBSD$
 --- kdeui/ksconfig.cpp.orig	Mon May 22 20:14:23 2006
 +++ kdeui/ksconfig.cpp	Tue Oct  3 01:00:17 2006
 @@ -188,7 +188,7 @@ KSpellConfig::readGlobalSettings()

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/pim3/pkg/PLIST-kpilot,v 1.6 2005/03/17 01:34:52 espie Exp $
+@comment $OpenBSD$
 bin/kpilot
 bin/kpilotDaemon
 include/kpilot/

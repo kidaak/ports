@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/sdlmess/patches/patch-src_osd_sdl_sdl_mak,v 1.3 2010/09/30 07:26:05 ajacoutot Exp $
+$OpenBSD$
 
 XXX make it compile with gtk+2 2.22 (*_DISABLE_DEPRECATED)
 src/osd/sdl/dview.c:138: warning: implicit declaration of function 'GTK_OBJECT_FLAGS'

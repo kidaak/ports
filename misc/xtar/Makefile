@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/xtar/Makefile,v 1.32 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=	view and manipulate contents of a tar file
 

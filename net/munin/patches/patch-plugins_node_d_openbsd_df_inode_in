@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/munin/patches/patch-plugins_node_d_openbsd_df_inode_in,v 1.1 2010/10/23 15:52:23 sthen Exp $
+$OpenBSD$
 --- plugins/node.d.openbsd/df_inode.in.orig	Mon Sep 21 09:37:21 2009
 +++ plugins/node.d.openbsd/df_inode.in	Sat Oct 23 16:34:39 2010
 @@ -17,7 +17,7 @@

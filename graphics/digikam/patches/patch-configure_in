@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/digikam/patches/patch-configure_in,v 1.4 2008/07/19 11:58:58 espie Exp $
+$OpenBSD$
 --- configure.in.orig	Wed Jul 16 21:05:58 2008
 +++ configure.in	Sat Jul 19 11:40:08 2008
 @@ -176,7 +176,7 @@ then

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk2-aurora-engine/Makefile,v 1.9 2012/03/23 13:28:25 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

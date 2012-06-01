@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-String-ToIdentifier-EN/pkg/PLIST,v 1.1.1.1 2012/04/06 09:27:49 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/String/
 ${P5SITE}/String/ToIdentifier/
 ${P5SITE}/String/ToIdentifier/EN/

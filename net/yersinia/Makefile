@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/yersinia/Makefile,v 1.6 2010/11/26 14:56:15 espie Exp $
+# $OpenBSD$
 
 COMMENT =	framework for analysis of layer 2 network protocols
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libdivxdecore/Makefile,v 1.13 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	opendivx decoding API
 

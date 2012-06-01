@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/mozilla-dicts/pkg/PLIST-nl,v 1.2 2010/11/12 21:41:35 martynas Exp $
+@comment $OpenBSD$
 share/mozilla-dicts/
 share/mozilla-dicts/nl.aff
 share/mozilla-dicts/nl.dic

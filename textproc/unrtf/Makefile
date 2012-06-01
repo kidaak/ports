@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/unrtf/Makefile,v 1.10 2011/03/14 20:49:50 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	RTF document converter
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/smbldap-tools/patches/patch-configure_pl,v 1.1.1.1 2007/01/29 08:32:50 msf Exp $
+$OpenBSD$
 --- configure.pl.orig	Mon Jan 29 15:00:14 2007
 +++ configure.pl	Mon Jan 29 15:02:36 2007
 @@ -49,7 +49,7 @@ Before starting, check

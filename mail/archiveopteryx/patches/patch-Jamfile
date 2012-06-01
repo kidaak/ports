@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/archiveopteryx/patches/patch-Jamfile,v 1.1.1.1 2011/01/09 09:36:21 landry Exp $
+$OpenBSD$
 --- Jamfile.orig	Wed Mar 10 13:17:56 2010
 +++ Jamfile	Fri Apr  9 21:07:19 2010
 @@ -14,7 +14,6 @@ SubInclude TOP recorder ;

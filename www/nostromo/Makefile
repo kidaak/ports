@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/nostromo/Makefile,v 1.39 2011/10/26 16:12:08 mglocker Exp $
+# $OpenBSD$
 
 COMMENT=		Nostromo webserver
 

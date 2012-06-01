@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-ack/Makefile,v 1.11 2011/09/20 08:09:11 landry Exp $
+# $OpenBSD$
 
 COMMENT=		grep like tool, aimed at programmers
 

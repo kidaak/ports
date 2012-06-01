@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/arm-elf/newlib/Makefile,v 1.7 2011/11/01 19:22:24 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	newlib for arm-elf cross-development
 

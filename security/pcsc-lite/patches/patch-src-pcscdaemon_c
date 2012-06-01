@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pcsc-lite/patches/patch-src-pcscdaemon_c,v 1.2 2004/01/02 22:53:09 espie Exp $
+$OpenBSD$
 --- src/pcscdaemon.c.orig	2001-11-07 23:54:30.000000000 +0100
 +++ src/pcscdaemon.c	2004-01-02 23:47:08.000000000 +0100
 @@ -26,9 +26,17 @@

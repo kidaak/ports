@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_container_h,v 1.2 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/container.h.orig	Wed Mar 30 13:25:59 2011
 +++ src/container.h	Wed Mar 30 13:28:01 2011
 @@ -39,6 +39,7 @@ class Container : public QMainWindow

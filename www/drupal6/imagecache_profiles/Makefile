@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/imagecache_profiles/Makefile,v 1.8 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	thumbnail for profile avatars
 MAINTAINER =	Marc Espie <espie@openbsd.org>

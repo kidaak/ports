@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/Makefile,v 1.6 2011/01/16 01:05:50 laurent Exp $
+# $OpenBSD$
 
 # edb, epeg and etk are disabled as they need an update.
 

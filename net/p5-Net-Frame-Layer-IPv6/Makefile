@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Frame-Layer-IPv6/Makefile,v 1.2 2012/03/15 17:52:21 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	Internet Protocol v6 layer object
 

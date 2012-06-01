@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libgnome-media-profiles/Makefile,v 1.9 2011/11/04 09:56:29 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	media profiles management library
 

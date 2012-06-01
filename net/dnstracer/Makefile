@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dnstracer/Makefile,v 1.13 2010/10/18 18:36:46 espie Exp $
+# $OpenBSD$
 
 DISTNAME=	dnstracer-1.9
 CATEGORIES=	net

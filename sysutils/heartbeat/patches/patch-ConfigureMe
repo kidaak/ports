@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-ConfigureMe,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- ConfigureMe.orig	Thu Oct 25 09:40:41 2007
 +++ ConfigureMe	Thu Nov 15 17:10:52 2007
 @@ -121,10 +121,6 @@ ConfigureFreeBSD() {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/sudoku/Makefile,v 1.9 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=		console based sudoku
 

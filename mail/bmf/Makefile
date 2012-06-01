@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/bmf/Makefile,v 1.15 2011/12/02 14:36:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		easy to use Bayesian spam filter
 DISTNAME=		bmf-0.9.4

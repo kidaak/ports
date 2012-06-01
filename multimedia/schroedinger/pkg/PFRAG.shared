@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/multimedia/schroedinger/pkg/PFRAG.shared,v 1.1.1.1 2009/07/18 08:53:08 sthen Exp $
+@comment $OpenBSD$
 @lib lib/libschroedinger-1.0.so.${LIBschroedinger-1.0_VERSION}

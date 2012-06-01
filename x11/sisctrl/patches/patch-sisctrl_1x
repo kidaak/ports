@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/sisctrl/patches/patch-sisctrl_1x,v 1.1.1.1 2007/10/05 11:04:25 winiger Exp $
+$OpenBSD$
 --- sisctrl.1x.orig	Wed Oct  3 23:23:04 2007
 +++ sisctrl.1x	Wed Oct  3 23:25:02 2007
 @@ -106,7 +106,7 @@ Select TV zooming (scaling) mode. \fIscaleno\fP must b

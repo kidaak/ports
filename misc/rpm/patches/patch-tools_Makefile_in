@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-tools_Makefile_in,v 1.1 2011/10/16 07:03:12 ajacoutot Exp $
+$OpenBSD$
 --- tools/Makefile.in.orig	Wed Sep 13 16:01:11 2000
 +++ tools/Makefile.in	Sun Oct 16 02:26:52 2011
 @@ -159,19 +159,19 @@ varprefix = @varprefix@

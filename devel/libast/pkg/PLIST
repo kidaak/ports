@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libast/pkg/PLIST,v 1.2 2006/02/10 16:36:37 naddy Exp $
+@comment $OpenBSD$
 bin/libast-config
 include/libast/
 include/libast.h

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openvpn/patches/patch-sample-config-files_xinetd-server-config,v 1.1 2006/12/15 09:56:14 robert Exp $
+$OpenBSD$
 --- sample-config-files/xinetd-server-config.orig	Tue Nov  1 12:06:10 2005
 +++ sample-config-files/xinetd-server-config	Fri Dec 15 09:22:42 2006
 @@ -21,5 +21,5 @@ service openvpn_1

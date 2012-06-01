@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/libspf2/Makefile,v 1.2 2008/11/05 17:20:07 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	SPF library
 

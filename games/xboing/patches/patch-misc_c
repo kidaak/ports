@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xboing/patches/patch-misc_c,v 1.2 2004/03/06 02:41:00 naddy Exp $
+$OpenBSD$
 --- misc.c.orig	1996-11-22 02:28:46.000000000 +0100
 +++ misc.c	2004-03-06 02:03:24.000000000 +0100
 @@ -89,8 +89,8 @@ void usleep(usec)

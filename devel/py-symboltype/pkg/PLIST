@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-symboltype/pkg/PLIST,v 1.1.1.1 2009/04/05 00:55:00 martynas Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/SymbolType-${MODPY_EGG_VERSION}-py${MODPY_VERSION}-nspkg.pth
 lib/python${MODPY_VERSION}/site-packages/SymbolType-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/SymbolType-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

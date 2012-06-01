@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_mp3/patches/patch-src_pgsql_dispatch_h,v 1.1 2008/01/30 20:41:41 okan Exp $
+$OpenBSD$
 --- src/pgsql_dispatch.h.orig	Sat Jan 26 20:51:42 2008
 +++ src/pgsql_dispatch.h	Sat Jan 26 20:53:07 2008
 @@ -4,7 +4,7 @@

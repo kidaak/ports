@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/nss/patches/patch-mozilla_security_nss_lib_ckfw_builtins_certdata_txt,v 1.8 2012/02/20 09:18:05 landry Exp $
+$OpenBSD$
 add CACert CA
 https://bugzilla.mozilla.org/show_bug.cgi?id=215243
 --- mozilla/security/nss/lib/ckfw/builtins/certdata.txt.orig	Tue Jan 17 23:02:37 2012

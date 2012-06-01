@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/gnutls/pkg/PFRAG.shared,v 1.7 2007/12/03 20:57:33 landry Exp $
+@comment $OpenBSD$
 @lib lib/libgnutls-extra.so.${LIBgnutls-extra_VERSION}
 @lib lib/libgnutls-openssl.so.${LIBgnutls-openssl_VERSION}
 @lib lib/libgnutls.so.${LIBgnutls_VERSION}

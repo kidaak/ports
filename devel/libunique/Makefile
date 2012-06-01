@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libunique/Makefile,v 1.20 2012/02/21 22:36:43 sthen Exp $
+# $OpenBSD$
 
 # XXX fix building with glib2 >= 2.29 (G_CONST_RETURN is deprecated)
 CFLAGS +=	"-DG_CONST_RETURN=const"

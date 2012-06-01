@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-nmap/pkg/PLIST,v 1.1.1.1 2010/10/16 08:58:56 landry Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/nmap/
 lib/python${MODPY_VERSION}/site-packages/nmap/__init__.py
 lib/python${MODPY_VERSION}/site-packages/nmap/__init__.pyc

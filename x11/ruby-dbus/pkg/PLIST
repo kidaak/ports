@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/ruby-dbus/pkg/PLIST,v 1.2 2010/11/09 18:49:33 jeremy Exp $
+@comment $OpenBSD$
 lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/
 lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus.rb
 lib/ruby/site_ruby/${MODRUBY_LIBREV}/dbus/auth.rb

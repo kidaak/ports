@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/luagd/patches/patch-luagd_c,v 1.2 2006/07/30 04:46:42 pedro Exp $
+$OpenBSD$
 --- luagd.c.orig	Wed May  3 22:03:48 2006
 +++ luagd.c	Fri May 19 15:47:39 2006
 @@ -2294,7 +2294,7 @@ static const luaL_reg LgdMetatable[] =

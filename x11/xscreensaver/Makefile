@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xscreensaver/Makefile,v 1.73 2012/01/08 15:36:26 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT-main=		screen saver and locker for the X Window System
 COMMENT-data=		graphical demos (savers) for screensavers

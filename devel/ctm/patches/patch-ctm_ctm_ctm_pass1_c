@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ctm/patches/patch-ctm_ctm_ctm_pass1_c,v 1.2 2007/10/31 23:14:46 ajacoutot Exp $
+$OpenBSD$
 --- ctm/ctm/ctm_pass1.c.orig	Wed Oct 31 23:06:34 2007
 +++ ctm/ctm/ctm_pass1.c	Wed Oct 31 23:06:34 2007
 @@ -23,9 +23,9 @@ Pass1(FILE *fd, unsigned applied)

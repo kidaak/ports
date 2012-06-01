@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/frozen-bubble/Makefile,v 1.14 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

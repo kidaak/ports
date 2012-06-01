@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Tumblr/Makefile,v 1.4 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Perl interface for the Tumblr API
 

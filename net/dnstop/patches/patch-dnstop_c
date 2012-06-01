@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/dnstop/patches/patch-dnstop_c,v 1.6 2012/03/11 14:07:00 sthen Exp $
+$OpenBSD$
 --- dnstop.c.orig	Mon May  2 17:04:51 2011
 +++ dnstop.c	Fri Mar  9 22:49:32 2012
 @@ -46,6 +46,7 @@ static const char *Version = "20110502";

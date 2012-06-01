@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/tornado/pkg/PLIST,v 1.6 2011/03/15 10:38:57 jasper Exp $
+@comment $OpenBSD$
 @mode 2555
 @group games
 @bin bin/tornado

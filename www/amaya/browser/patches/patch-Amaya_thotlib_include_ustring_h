@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/amaya/browser/patches/patch-Amaya_thotlib_include_ustring_h,v 1.1 2001/10/02 20:18:59 heko Exp $
+$OpenBSD$
 --- Amaya/thotlib/include/ustring.h.orig	Wed May 30 17:50:22 2001
 +++ Amaya/thotlib/include/ustring.h	Thu Sep 13 01:44:27 2001
 @@ -5,7 +5,10 @@

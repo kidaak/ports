@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/bwm-ng/Makefile,v 1.7 2011/11/16 00:10:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		realtime bandwidth monitoring of interfaces
 

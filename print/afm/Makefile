@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/afm/Makefile,v 1.14 2007/09/15 21:36:44 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	Adobe Font Metrics
 

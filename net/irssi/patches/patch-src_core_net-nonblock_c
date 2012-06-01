@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi/patches/patch-src_core_net-nonblock_c,v 1.1 2011/11/16 10:16:57 sthen Exp $
+$OpenBSD$
 --- src/core/net-nonblock.c.orig	Sun Nov  6 04:52:20 2011
 +++ src/core/net-nonblock.c	Sun Nov  6 04:52:27 2011
 @@ -35,38 +35,37 @@ typedef struct {

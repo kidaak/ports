@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/py-pyx/Makefile,v 1.14 2011/12/30 22:43:54 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =	package for creating PostScript/PDF graphics
 

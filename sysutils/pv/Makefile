@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/pv/Makefile,v 1.4 2012/02/16 22:34:34 pascal Exp $
+# $OpenBSD$
 
 COMMENT =		monitor the progress of data through a pipeline
 

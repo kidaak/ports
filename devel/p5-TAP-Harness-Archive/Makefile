@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-TAP-Harness-Archive/Makefile,v 1.1.1.1 2012/03/08 14:52:27 pascal Exp $
+# $OpenBSD$
 
 COMMENT =	create an archive of TAP results
 

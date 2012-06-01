@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/openarena/Makefile,v 1.14 2012/03/18 15:47:28 kirby Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =	amd64 i386 macppc
 
@@ -52,6 +52,11 @@ MAKE_FLAGS =		USE_OPENAL=0 \
 			FULLBINEXT='' \
 			V=1 \
 			DEFAULT_BASEDIR=${LOCALBASE}/share/openarena
+
+.if ${MACHINE_ARCH} == "powerpc"
+MAKE_FLAGS += 		ARCH=ppc \
+			COMPILE_ARCH=ppc
+.endif
 
 NO_REGRESS =		Yes
 WRKDIST =		${WRKDIR}/openarena-engine-source-${E_V}

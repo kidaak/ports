@@ -1,9 +1,9 @@
-# $OpenBSD: ports/devel/gsettings-desktop-schemas/Makefile,v 1.27 2012/04/16 13:34:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	collection of shared GSettings schemas
 
 GNOME_PROJECT=	gsettings-desktop-schemas
-GNOME_VERSION=	3.4.1
+GNOME_VERSION=	3.4.2
 
 CATEGORIES=	devel
 

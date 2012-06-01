@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gigolo/pkg/PLIST,v 1.3 2010/09/30 12:13:35 jasper Exp $
+@comment $OpenBSD$
 @bin bin/gigolo
 @man man/man1/gigolo.1
 share/applications/gigolo.desktop

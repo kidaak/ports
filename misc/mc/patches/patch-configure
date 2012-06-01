@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/mc/patches/patch-configure,v 1.8 2012/04/13 13:42:21 robert Exp $
+$OpenBSD$
 --- configure.orig	Wed Apr 11 08:32:30 2012
 +++ configure	Wed Apr 11 08:33:33 2012
 @@ -22455,7 +22455,7 @@ done

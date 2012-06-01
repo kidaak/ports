@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/zangband/pkg/PLIST,v 1.10 2011/05/11 06:56:43 ajacoutot Exp $
+@comment $OpenBSD$
 @extraunexec rm /var/games/zangband/*/* 2>/dev/null || true
 @mode g+s
 @group games

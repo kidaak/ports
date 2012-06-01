@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/e/pkg/PLIST,v 1.9 2011/01/19 18:14:59 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/enlightenment
 @bin bin/enlightenment_imc

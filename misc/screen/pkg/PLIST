@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/screen/pkg/PLIST,v 1.23 2004/08/11 10:07:56 espie Exp $
+@comment $OpenBSD$
 bin/screen
 @info info/screen.info
 @man man/man1/screen.1

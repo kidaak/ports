@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/linuxdoc/Makefile,v 1.19 2011/06/15 11:37:59 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.4 1998/01/17 17:25:46 jfieber Exp $
 
 COMMENT=	Linuxdoc SGML DTD

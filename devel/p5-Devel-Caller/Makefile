@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-Caller/Makefile,v 1.7 2010/12/27 11:02:05 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		meatier versions of caller
 

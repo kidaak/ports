@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Helper-Controller-Scaffold/Makefile,v 1.6 2010/12/03 11:46:51 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		catalyst helper for CRUD scaffolding
 

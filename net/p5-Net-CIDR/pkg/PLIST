@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-CIDR/pkg/PLIST,v 1.1.1.1 2004/11/01 11:13:31 xsa Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/CIDR.pm
 @man man/man3p/Net::CIDR.3p

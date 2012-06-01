@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/gnumail/patches/patch-Framework_GNUMail_FindWindow_m,v 1.1 2010/10/24 13:03:22 sebastia Exp $
+$OpenBSD$
 
 Fix button label.
 

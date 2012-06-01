@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/libgringotts/patches/patch-docs_Makefile_in,v 1.1.1.1 2008/02/04 22:07:15 ajacoutot Exp $
+$OpenBSD$
 --- docs/Makefile.in.orig	Mon Feb  4 22:46:02 2008
 +++ docs/Makefile.in	Mon Feb  4 22:46:47 2008
 @@ -131,7 +131,7 @@ sysconfdir = @sysconfdir@

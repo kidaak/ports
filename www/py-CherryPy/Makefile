@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-CherryPy/Makefile,v 1.19 2011/09/16 12:00:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	pythonic, object-oriented web development framework
 

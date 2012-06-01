@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-bundler/Makefile,v 1.4 2011/11/17 15:35:45 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		ruby application dependency manager
 

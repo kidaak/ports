@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/foomatic-db-engine/patches/patch-configure,v 1.6 2011/08/25 10:40:29 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Mon Jul 25 11:51:22 2011
 +++ configure	Thu Aug 25 12:24:42 2011
 @@ -4038,15 +4038,15 @@ LIBS="$save_LIBS"

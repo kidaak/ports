@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/swh-plugins/patches/patch-util_blo_c,v 1.1.1.1 2010/10/24 10:32:48 jakemsr Exp $
+$OpenBSD$
 
 - no shm_open
 

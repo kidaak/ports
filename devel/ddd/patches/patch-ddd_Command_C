@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ddd/patches/patch-ddd_Command_C,v 1.1 2009/11/30 23:45:35 edd Exp $
+$OpenBSD$
 
 fixes things on amd64; from pkgsrc.
 

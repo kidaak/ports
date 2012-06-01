@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Log-Log4perl/pkg/PLIST,v 1.8 2012/04/07 19:58:53 sthen Exp $
+@comment $OpenBSD$
 bin/l4p-tmpl
 ${P5SITE}/Log/
 ${P5SITE}/Log/Log4perl/

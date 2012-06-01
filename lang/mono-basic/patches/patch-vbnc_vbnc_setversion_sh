@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono-basic/patches/patch-vbnc_vbnc_setversion_sh,v 1.1 2010/10/15 16:25:14 robert Exp $
+$OpenBSD$
 --- vbnc/vbnc/setversion.sh.orig	Wed Oct 13 20:43:00 2010
 +++ vbnc/vbnc/setversion.sh	Wed Oct 13 20:43:38 2010
 @@ -1,4 +1,4 @@

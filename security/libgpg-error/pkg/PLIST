@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/libgpg-error/pkg/PLIST,v 1.5 2010/07/27 21:45:06 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gpg-error
 bin/gpg-error-config
 include/gpg-error.h

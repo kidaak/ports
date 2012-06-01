@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-vorbis/patches/patch-test_short_py,v 1.1.1.1 2011/05/31 09:19:45 dcoppa Exp $
+$OpenBSD$
 
 Use sndio as default libao backend
 

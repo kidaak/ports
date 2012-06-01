@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/Makefile,v 1.20 2011/09/15 15:20:37 jasper Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += chipmunk

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/grap/pkg/PLIST,v 1.1.1.1 2009/10/17 08:29:20 bernd Exp $
+@comment $OpenBSD$
 @bin bin/grap
 @man man/man1/grap.1
 share/doc/grap/

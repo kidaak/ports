@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/perdition/pkg/PFRAG.shared-pgsql,v 1.1.1.1 2006/11/16 23:26:00 msf Exp $
+@comment $OpenBSD$
 @lib lib/libperditiondb_postgresql.so.${LIBperditiondb_postgresql_VERSION}

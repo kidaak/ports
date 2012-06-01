@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-Size-Report/Makefile,v 1.1.1.1 2011/06/22 08:31:14 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		generate a size report for all elements in a structure
 

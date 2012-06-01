@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/tk/8.4/pkg/PFRAG.shared,v 1.5 2009/01/16 00:02:32 sthen Exp $
+@comment $OpenBSD$
 @lib lib/libtk84.so.${LIBtk84_VERSION}
 lib/libtk84_pic.a
 lib/libtkstub84_pic.a

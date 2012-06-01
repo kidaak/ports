@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk2-rezlooks-engine/pkg/PLIST,v 1.1.1.1 2010/10/23 10:39:22 jasper Exp $
+@comment $OpenBSD$
 lib/gtk-2.0/2.10.0/engines/librezlooks.la
 lib/gtk-2.0/2.10.0/engines/librezlooks.so
 share/themes/Rezlooks-Orange/

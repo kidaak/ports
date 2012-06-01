@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/consolekit/patches/patch-src_ck-sysdeps-unix_c,v 1.9 2011/05/14 12:13:13 ajacoutot Exp $
+$OpenBSD$
 --- src/ck-sysdeps-unix.c.orig	Tue May  3 01:51:07 2011
 +++ src/ck-sysdeps-unix.c	Sat May 14 14:11:10 2011
 @@ -36,6 +36,10 @@

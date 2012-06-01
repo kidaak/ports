@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/oggz/patches/patch-configure,v 1.1 2011/08/24 15:36:38 naddy Exp $
+$OpenBSD$
 
 Remove compiler options not available with gcc < 4.
 

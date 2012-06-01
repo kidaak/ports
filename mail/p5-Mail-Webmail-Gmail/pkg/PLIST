@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Mail-Webmail-Gmail/pkg/PLIST,v 1.1.1.1 2007/09/24 20:02:08 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Mail/
 ${P5SITE}/Mail/Webmail/
 ${P5SITE}/Mail/Webmail/Gmail.pm

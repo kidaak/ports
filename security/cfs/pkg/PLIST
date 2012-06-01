@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/cfs/pkg/PLIST,v 1.7 2004/12/03 16:08:48 alek Exp $
+@comment $OpenBSD$
 bin/cattach
 bin/cdetach
 bin/cmkdir

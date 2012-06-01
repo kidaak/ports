@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/wmpop3/patches/patch-wmpop3_wmpop3_c,v 1.1.1.1 2001/02/14 15:45:20 wilfried Exp $
+$OpenBSD$
 --- wmpop3/wmpop3.c.orig	Fri Aug 13 17:56:19 1999
 +++ wmpop3/wmpop3.c	Mon Feb 12 18:22:34 2001
 @@ -49,7 +49,7 @@ int  wminet_mask_height = 64;

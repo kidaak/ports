@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/p5-Math-BigInt-GMP/patches/patch-Makefile_PL,v 1.2 2008/10/29 11:39:36 jasper Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Wed Jul 25 20:13:12 2007
 +++ Makefile.PL	Wed Oct 29 11:34:58 2008
 @@ -49,5 +49,6 @@ WriteMakefile(

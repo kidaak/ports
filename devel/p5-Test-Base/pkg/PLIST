@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Test-Base/pkg/PLIST,v 1.1.1.1 2006/11/13 15:19:32 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Module/
 ${P5SITE}/Module/Install/
 ${P5SITE}/Module/Install/TestBase.pm

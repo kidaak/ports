@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/sslscan/patches/patch-sslscan_c,v 1.1.1.1 2011/06/21 21:05:48 ajacoutot Exp $
+$OpenBSD$
 --- sslscan.c.orig	Tue Sep  1 14:35:59 2009
 +++ sslscan.c	Tue Jun 21 23:03:21 2011
 @@ -41,6 +41,7 @@

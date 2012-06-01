@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/dovecot-pigeonhole/Makefile,v 1.14 2012/04/10 22:39:40 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

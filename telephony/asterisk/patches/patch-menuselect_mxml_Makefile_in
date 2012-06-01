@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/asterisk/patches/patch-menuselect_mxml_Makefile_in,v 1.1 2011/09/16 12:49:21 naddy Exp $
+$OpenBSD$
 --- menuselect/mxml/Makefile.in.orig	Thu Sep 15 19:04:42 2011
 +++ menuselect/mxml/Makefile.in	Thu Sep 15 19:05:02 2011
 @@ -23,11 +23,11 @@

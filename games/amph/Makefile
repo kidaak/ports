@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/amph/Makefile,v 1.18 2010/11/16 11:23:25 espie Exp $
+# $OpenBSD$
 
 COMMENT=	jump'n run game with unique video effects
 

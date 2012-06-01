@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmikmod/patches/patch-include_mikmod_h_in,v 1.2 2010/01/11 04:25:26 jakemsr Exp $
+$OpenBSD$
 --- include/mikmod.h.in.orig	Thu Jan 17 14:39:38 2002
 +++ include/mikmod.h.in	Fri Dec 18 23:53:46 2009
 @@ -85,7 +85,7 @@ typedef char CHAR;

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Elemental/Makefile,v 1.8 2011/08/18 15:32:29 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	generic classes for simplistic handling of XML data
 

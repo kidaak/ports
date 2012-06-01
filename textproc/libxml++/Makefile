@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/libxml++/Makefile,v 1.20 2011/11/03 20:13:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	C++ wrapper for the libxml XML parser library
 

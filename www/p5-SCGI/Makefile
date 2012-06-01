@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-SCGI/Makefile,v 1.3 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module for implementing an SCGI interface
 

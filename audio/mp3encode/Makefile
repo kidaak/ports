@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mp3encode/Makefile,v 1.21 2010/09/06 00:04:28 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	MPEG layer I, II and III audio file encoder
 DISTNAME=	dist10

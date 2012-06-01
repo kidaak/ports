@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/taskjuggler/Makefile,v 1.21 2011/11/03 22:21:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	project management tool
 

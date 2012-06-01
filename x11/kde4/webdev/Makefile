@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/webdev/Makefile,v 1.9 2010/11/22 08:37:02 espie Exp $
+# $OpenBSD$
 
 COMMENT =		K Desktop Environment, web development
 DISTNAME =		kdewebdev-${VERSION}

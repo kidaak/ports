@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/tmw/Makefile,v 1.16 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT-main =	free open source 2D MMORPG
 COMMENT-music =	music addon for TMW

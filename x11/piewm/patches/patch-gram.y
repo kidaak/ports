@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/piewm/patches/patch-gram.y,v 1.2 2007/05/30 18:57:20 jasper Exp $
+$OpenBSD$
 --- gram.y.orig	Thu Jan  1 07:33:42 1998
 +++ gram.y	Wed May 30 20:54:10 2007
 @@ -71,7 +71,7 @@ unsigned int mods_used = (ShiftMask | ControlMask | Mo

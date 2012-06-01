@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/php/php.port.mk,v 1.8 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/tkdvd/patches/patch-TkDVD_sh,v 1.4 2009/11/07 15:54:33 ajacoutot Exp $
+$OpenBSD$
 --- TkDVD.sh.orig	Sat Aug 30 14:04:00 2008
 +++ TkDVD.sh	Sat Nov  7 15:47:06 2009
 @@ -1,6 +1,6 @@

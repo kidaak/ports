@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/nano/Makefile,v 1.68 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Pico editor clone with enhancements
 

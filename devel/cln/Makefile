@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cln/Makefile,v 1.15 2011/11/03 22:13:23 jasper Exp $
+# $OpenBSD$
 
 NOT_FOR_ARCHS =	arm mips64 mips64el sparc64 hppa
 

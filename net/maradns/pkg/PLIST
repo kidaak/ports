@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/maradns/pkg/PLIST,v 1.8 2012/03/20 22:13:49 sthen Exp $
+@comment $OpenBSD$
 @pkgpath net/maradns/stable
 @newgroup _maradns:537
 @newuser _maradns:537:_maradns:daemon:MaraDNS Account:${SYSCONFDIR}/maradns:/sbin/nologin

@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/zsnes/patches/patch-src_cfgload_c,v 1.1 2005/10/21 18:07:10 naddy Exp $
+$OpenBSD$
 --- src/cfgload.c.orig	Tue Oct  4 00:12:19 2005
 +++ src/cfgload.c	Tue Oct  4 00:13:22 2005
 @@ -68,7 +68,7 @@ Foundation, Inc., 675 Mass Ave, Cambridg

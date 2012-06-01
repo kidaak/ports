@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/mico/patches/patch-man_man8_ird_8,v 1.2 2010/09/22 08:42:53 landry Exp $
+$OpenBSD$
 --- man/man8/ird.8.orig	Fri Jul 25 15:41:42 2008
 +++ man/man8/ird.8	Mon Sep 13 21:10:58 2010
 @@ -19,7 +19,7 @@

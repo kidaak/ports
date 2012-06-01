@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Config-Auto/Makefile,v 1.5 2011/06/01 17:41:52 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		magical config file parser
 

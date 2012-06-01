@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Types-Common/pkg/PLIST,v 1.1.1.1 2010/07/02 04:35:49 jim Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/Types/Common/
 ${P5SITE}/MooseX/Types/Common.pm
 ${P5SITE}/MooseX/Types/Common/Numeric.pm

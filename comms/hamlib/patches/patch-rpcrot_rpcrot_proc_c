@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/hamlib/patches/patch-rpcrot_rpcrot_proc_c,v 1.1 2009/02/18 11:02:23 jasper Exp $
+$OpenBSD$
 
 Fix 64-bit issues.
 

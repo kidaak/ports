@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/zip/pkg/PLIST,v 1.10 2009/01/14 16:59:51 sturm Exp $
+@comment $OpenBSD$
 @bin bin/zip
 @bin bin/zipcloak
 @bin bin/zipnote

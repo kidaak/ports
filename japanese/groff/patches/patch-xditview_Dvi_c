@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/groff/patches/patch-xditview_Dvi_c,v 1.1 2000/04/20 22:40:42 espie Exp $
+$OpenBSD$
 --- xditview/Dvi.c.orig	Fri Apr 21 00:32:15 2000
 +++ xditview/Dvi.c	Fri Apr 21 00:32:41 2000
 @@ -353,8 +353,8 @@ static void OpenFile (dw)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/fmirror/pkg/PLIST,v 1.1.1.1 2005/09/17 12:19:41 bernd Exp $
+@comment $OpenBSD$
 bin/fmirror
 @man man/man1/fmirror.1
 share/examples/fmirror/

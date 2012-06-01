@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pygame/patches/patch-Setup_in,v 1.2 2009/04/09 22:49:39 ajacoutot Exp $
+$OpenBSD$
 --- Setup.in.orig	Mon Apr  6 20:06:31 2009
 +++ Setup.in	Mon Apr  6 20:07:24 2009
 @@ -58,6 +58,7 @@ cdrom src/cdrom.c $(SDL) $(DEBUG)

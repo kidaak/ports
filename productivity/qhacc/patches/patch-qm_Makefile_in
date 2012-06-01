@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/qhacc/patches/patch-qm_Makefile_in,v 1.1 2009/06/07 00:08:32 jasper Exp $
+$OpenBSD$
 --- qm/Makefile.in.orig	Tue Jun  2 11:45:59 2009
 +++ qm/Makefile.in	Tue Jun  2 11:46:48 2009
 @@ -250,12 +250,12 @@ distclean-libtool:

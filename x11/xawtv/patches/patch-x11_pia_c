@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xawtv/patches/patch-x11_pia_c,v 1.1.1.1 2003/11/16 16:17:58 sturm Exp $
+$OpenBSD$
 --- x11/pia.c.orig	Fri Feb 14 15:14:08 2003
 +++ x11/pia.c	Sat Nov 15 21:50:04 2003
 @@ -19,7 +19,7 @@

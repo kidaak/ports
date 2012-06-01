@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-System-Command/Makefile,v 1.4 2011/09/16 09:24:53 espie Exp $
+# $OpenBSD$
 
 COMMENT=	commandline execution interface
 

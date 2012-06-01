@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gdevilspie/patches/patch-gdevilspie,v 1.1 2011/11/11 15:57:40 jasper Exp $
+$OpenBSD$
 
 OpenBSD lacks the Python WNCK module after py-gnome-desktop was removed.
 

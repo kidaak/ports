@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-build_unix_mozilla_in,v 1.2 2010/04/28 06:50:23 landry Exp $
+$OpenBSD$
 --- build/unix/mozilla.in.orig	Thu Mar  5 23:31:44 2009
 +++ build/unix/mozilla.in	Fri Mar 13 17:36:45 2009
 @@ -50,6 +50,11 @@

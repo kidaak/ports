@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pen/Makefile,v 1.14 2011/03/14 19:07:16 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		load balancer for simple TCP-based protocols
 

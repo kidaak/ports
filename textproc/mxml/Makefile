@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/mxml/Makefile,v 1.6 2010/11/20 19:56:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=		minimal XML library
 

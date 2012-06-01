@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/evas/Makefile,v 1.21 2011/11/18 12:20:33 nigel Exp $
+# $OpenBSD$
 
 COMMENT =		canvas API for X
 DISTNAME =		evas-1.0.0

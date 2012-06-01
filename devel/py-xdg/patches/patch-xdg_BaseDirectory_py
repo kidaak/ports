@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-xdg/patches/patch-xdg_BaseDirectory_py,v 1.3 2008/10/30 14:19:24 ajacoutot Exp $
+$OpenBSD$
 --- xdg/BaseDirectory.py.orig	Thu Oct 30 15:11:27 2008
 +++ xdg/BaseDirectory.py	Thu Oct 30 15:11:58 2008
 @@ -33,13 +33,13 @@ xdg_data_home = os.environ.get('XDG_DATA_HOME',

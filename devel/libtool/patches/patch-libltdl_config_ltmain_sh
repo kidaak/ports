@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libtool/patches/patch-libltdl_config_ltmain_sh,v 1.2 2011/11/01 16:07:31 jasper Exp $
+$OpenBSD$
 --- libltdl/config/ltmain.sh.orig	Mon Oct 17 06:19:35 2011
 +++ libltdl/config/ltmain.sh	Sat Oct 29 07:05:47 2011
 @@ -2714,51 +2714,6 @@ func_mode_finish ()

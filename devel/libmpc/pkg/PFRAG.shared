@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libmpc/pkg/PFRAG.shared,v 1.1.1.1 2010/04/02 20:33:21 jsg Exp $
+@comment $OpenBSD$
 @lib lib/libmpc.so.${LIBmpc_VERSION}

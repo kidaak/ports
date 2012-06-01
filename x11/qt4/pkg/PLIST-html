@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt4/pkg/PLIST-html,v 1.27 2011/09/19 22:27:35 espie Exp $
+@comment $OpenBSD$
 share/doc/qt4/html/
 share/doc/qt4/html/3rdparty.html
 share/doc/qt4/html/abstractwidgets.html

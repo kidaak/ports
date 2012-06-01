@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-eccrypto_h,v 1.1 2012/02/29 12:46:30 dcoppa Exp $
+$OpenBSD$
 --- eccrypto.h.orig	Fri Aug  6 18:46:24 2010
 +++ eccrypto.h	Wed Feb 29 10:09:08 2012
 @@ -43,7 +43,7 @@ class DL_GroupParameters_EC : public DL_GroupParameter

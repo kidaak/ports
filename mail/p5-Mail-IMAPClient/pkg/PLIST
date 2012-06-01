@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Mail-IMAPClient/pkg/PLIST,v 1.8 2012/02/20 16:43:26 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Mail/
 ${P5SITE}/Mail/IMAPClient/
 ${P5SITE}/Mail/IMAPClient.pm

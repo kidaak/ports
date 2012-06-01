@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/pdfkit/Makefile,v 1.8 2012/01/08 12:03:09 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	framework for accessing and rendering PDF content
 

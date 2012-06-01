@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/goocanvas/pkg/PFRAG.shared,v 1.1.1.1 2008/12/04 22:20:48 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libgoocanvas.so.${LIBgoocanvas_VERSION}

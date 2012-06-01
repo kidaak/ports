@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/plan9/larswm/pkg/PLIST,v 1.7 2004/10/07 17:14:24 naddy Exp $
+@comment $OpenBSD$
 bin/larsclock
 bin/larsmenu
 bin/larsremote

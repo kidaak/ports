@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tcpstat/Makefile,v 1.8 2011/11/16 00:20:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	report network interface statistics
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-IO-Socket-Multicast/Makefile,v 1.16 2011/07/25 20:25:05 gsoares Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

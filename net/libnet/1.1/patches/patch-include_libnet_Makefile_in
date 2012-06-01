@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnet/1.1/patches/patch-include_libnet_Makefile_in,v 1.1 2005/05/23 23:50:40 msf Exp $
+$OpenBSD$
 --- include/libnet/Makefile.in.orig	Fri Sep 10 14:02:13 2004
 +++ include/libnet/Makefile.in	Fri Sep 10 14:02:26 2004
 @@ -40,7 +40,7 @@ localstatedir = @localstatedir@

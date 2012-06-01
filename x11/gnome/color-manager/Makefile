@@ -1,9 +1,10 @@
-# $OpenBSD: ports/x11/gnome/color-manager/Makefile,v 1.9 2012/03/29 06:55:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	color profile manager for GNOME
 
 GNOME_PROJECT=	gnome-color-manager
-GNOME_VERSION=	3.4.0
+GNOME_VERSION=	3.4.2
+REVISION=	0
 
 CATEGORIES=	graphics
 

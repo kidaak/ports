@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/xtimer/Makefile,v 1.24 2011/05/05 18:33:33 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	super simple digital timer for X11
 

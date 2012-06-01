@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/schroedinger/patches/patch-schroedinger_pc_in,v 1.3 2010/11/19 08:58:39 jasper Exp $
+$OpenBSD$
 --- schroedinger.pc.in.orig	Wed Sep 22 16:32:47 2010
 +++ schroedinger.pc.in	Sun Oct 17 23:56:09 2010
 @@ -9,8 +9,7 @@ Name: schroedinger-@SCHRO_MAJORMINOR@

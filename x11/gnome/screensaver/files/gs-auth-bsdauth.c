@@ -1,4 +1,4 @@
-/* $OpenBSD: ports/x11/gnome/screensaver/files/gs-auth-bsdauth.c,v 1.4 2011/11/30 11:13:47 ajacoutot Exp $
+/* $OpenBSD$
  * gs-auth-bsdauth.c --- verifying typed passwords with bsd_auth(3)
  *
  * Copyright (c) 1993-1998 Jamie Zawinski <jwz@jwz.org>

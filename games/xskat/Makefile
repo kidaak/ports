@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xskat/Makefile,v 1.23 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=	skat card game
 

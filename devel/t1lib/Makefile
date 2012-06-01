@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/t1lib/Makefile,v 1.26 2012/01/26 08:48:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Type 1 rasterizer library for UNIX/X11
 

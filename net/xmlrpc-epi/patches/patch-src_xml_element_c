@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xmlrpc-epi/patches/patch-src_xml_element_c,v 1.2 2010/05/22 13:22:53 espie Exp $
+$OpenBSD$
 --- src/xml_element.c.orig	Thu May 23 19:46:51 2002
 +++ src/xml_element.c	Sat May 22 15:19:57 2010
 @@ -88,10 +88,10 @@ static const char rcsid[] = "#(@) $Id: xml_element.c,v

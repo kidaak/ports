@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Statistics-Descriptive/Makefile,v 1.6 2011/09/05 12:06:41 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		basic descriptive statistical functions
 

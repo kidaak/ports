@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/mpack/Makefile,v 1.23 2012/01/08 00:12:12 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	external MIME packer/unpacker
 

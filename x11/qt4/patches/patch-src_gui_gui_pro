@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-src_gui_gui_pro,v 1.1 2011/11/07 08:23:39 espie Exp $
+$OpenBSD$
 --- src/gui/gui.pro.orig	Sun Oct 30 02:05:34 2011
 +++ src/gui/gui.pro	Sun Oct 30 02:06:18 2011
 @@ -46,6 +46,7 @@ win32:!wince*: DEFINES += QT_NO_EGL

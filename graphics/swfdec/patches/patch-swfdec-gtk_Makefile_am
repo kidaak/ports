@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/swfdec/patches/patch-swfdec-gtk_Makefile_am,v 1.1 2009/06/07 11:56:51 phessler Exp $
+$OpenBSD$
 --- swfdec-gtk/Makefile.am.orig	Fri Mar  6 21:53:44 2009
 +++ swfdec-gtk/Makefile.am	Fri Mar  6 21:53:58 2009
 @@ -43,4 +43,5 @@ libswfdec_@SWFDEC_MAJORMINOR@include_HEADERS = \

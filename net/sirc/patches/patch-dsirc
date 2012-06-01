@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/sirc/patches/patch-dsirc,v 1.1.1.1 2001/02/24 11:25:59 reinhard Exp $
+$OpenBSD$
 --- dsirc.orig	Tue Mar 10 12:55:50 1998
 +++ dsirc	Fri Feb  9 22:50:08 2001
 @@ -1,4 +1,4 @@

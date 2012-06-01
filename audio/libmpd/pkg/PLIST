@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libmpd/pkg/PLIST,v 1.4 2009/04/23 19:20:02 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libmpd-1.0/
 include/libmpd-1.0/libmpd/

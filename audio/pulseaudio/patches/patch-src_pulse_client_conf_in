@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/pulseaudio/patches/patch-src_pulse_client_conf_in,v 1.1 2012/01/05 15:31:40 ajacoutot Exp $
+$OpenBSD$
 --- src/pulse/client.conf.in.orig	Thu Jan  5 16:22:55 2012
 +++ src/pulse/client.conf.in	Thu Jan  5 16:23:09 2012
 @@ -30,7 +30,7 @@

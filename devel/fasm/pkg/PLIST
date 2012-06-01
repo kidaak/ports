@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/fasm/pkg/PLIST,v 1.1.1.1 2009/01/11 18:23:25 pirofti Exp $
+@comment $OpenBSD$
 @bin bin/fasm
 share/doc/fasm/
 share/doc/fasm/fasm.txt

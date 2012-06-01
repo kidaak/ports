@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/courier-authlib/patches/patch-Makefile_in,v 1.1 2009/10/28 14:18:05 giovanni Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sat Jun 27 18:09:13 2009
 +++ Makefile.in	Wed Jul 15 13:21:59 2009
 @@ -511,7 +511,7 @@ CLEANFILES = authldaprc.h authmysqlrc.h authdaemonrc.h

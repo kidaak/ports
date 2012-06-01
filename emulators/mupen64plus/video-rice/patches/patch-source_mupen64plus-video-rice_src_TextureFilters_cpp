@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/video-rice/patches/patch-source_mupen64plus-video-rice_src_TextureFilters_cpp,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/TextureFilters.cpp.orig	Mon Dec 19 00:27:06 2011
 +++ src/TextureFilters.cpp	Mon Dec 19 00:27:22 2011
 @@ -30,7 +30,12 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston,

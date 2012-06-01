@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/octave/patches/patch-scripts_pkg_pkg_m,v 1.5 2009/04/14 18:22:59 steven Exp $
+$OpenBSD$
 --- scripts/pkg/pkg.m.orig	Wed Feb 18 07:57:46 2009
 +++ scripts/pkg/pkg.m	Mon Apr 13 16:20:41 2009
 @@ -1242,7 +1242,7 @@ function configure_make (desc, packdir, verbose)   

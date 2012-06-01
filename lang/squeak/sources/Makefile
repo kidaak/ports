@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/squeak/sources/Makefile,v 1.5 2008/07/23 11:17:22 espie Exp $
+# $OpenBSD$
 
 
 COMMENT =	smalltalk system, smalltalk sources

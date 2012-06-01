@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/efreet/Makefile,v 1.17 2011/03/15 19:41:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		implementations of freedesktop.org specifications
 DISTNAME =		efreet-1.0.0

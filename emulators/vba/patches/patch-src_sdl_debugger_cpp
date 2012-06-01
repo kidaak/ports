@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/vba/patches/patch-src_sdl_debugger_cpp,v 1.1 2010/06/07 15:44:58 espie Exp $
+$OpenBSD$
 --- src/sdl/debugger.cpp.orig	Mon Jun  7 17:25:39 2010
 +++ src/sdl/debugger.cpp	Mon Jun  7 17:40:21 2010
 @@ -950,9 +950,9 @@ void debuggerBreakOnWrite(u32 *mem, u32 oldvalue, u32 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-addressable/Makefile,v 1.14 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	replacement for Ruby's URI implementation
 

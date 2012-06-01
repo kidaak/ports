@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-libapreq2/Makefile,v 1.6 2010/11/22 08:36:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	apache HTTP server request library
 SHARED_ONLY=	Yes

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cflow/Makefile,v 1.5 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	analyze C source files and print a call graph
 

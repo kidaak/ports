@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webalizer/patches/patch-sample_conf,v 1.4 2011/01/05 08:19:18 giovanni Exp $
+$OpenBSD$
 --- sample.conf.orig	Mon Jan  3 11:30:14 2011
 +++ sample.conf	Mon Jan  3 11:30:14 2011
 @@ -28,7 +28,7 @@

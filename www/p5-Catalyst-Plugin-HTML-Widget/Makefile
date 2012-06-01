@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-HTML-Widget/Makefile,v 1.9 2010/12/03 11:46:51 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	HTML widget and validation framework for Catalyst
 

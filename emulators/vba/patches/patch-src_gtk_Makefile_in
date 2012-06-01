@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/vba/patches/patch-src_gtk_Makefile_in,v 1.1.1.1 2007/09/28 14:18:17 jasper Exp $
+$OpenBSD$
 --- src/gtk/Makefile.in.orig	Wed Sep 19 18:27:36 2007
 +++ src/gtk/Makefile.in	Wed Sep 19 18:27:46 2007
 @@ -264,7 +264,7 @@ libgba_a_CPPFLAGS = -DSDL

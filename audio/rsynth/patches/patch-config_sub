@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/rsynth/patches/patch-config_sub,v 1.1 2001/12/31 09:44:45 espie Exp $
+$OpenBSD$
 --- config.sub.orig	Mon Oct 31 14:41:52 1994
 +++ config.sub	Mon Dec 31 10:31:55 2001
 @@ -704,7 +704,7 @@ case $os in

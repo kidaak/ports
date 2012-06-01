@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/itk/Makefile,v 1.11 2011/01/05 19:15:09 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	build mega-widgets using the Itcl object system
 

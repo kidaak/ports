@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-mox/Makefile,v 1.5 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Mox is a mock object framework for Python
 

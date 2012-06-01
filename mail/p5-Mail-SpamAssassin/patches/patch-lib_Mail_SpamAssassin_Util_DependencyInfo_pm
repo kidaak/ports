@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/p5-Mail-SpamAssassin/patches/patch-lib_Mail_SpamAssassin_Util_DependencyInfo_pm,v 1.2 2011/06/23 17:32:46 sthen Exp $
+$OpenBSD$
 
 appease makewhatis
 

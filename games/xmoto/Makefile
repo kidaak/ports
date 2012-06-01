@@ -1,10 +1,11 @@
-# $OpenBSD: ports/games/xmoto/Makefile,v 1.10 2012/04/15 08:49:05 kirby Exp $
+# $OpenBSD$
 
 COMMENT =	challenging 2D motocross platform game
 
 V =	 	0.5.9
 DISTNAME =	xmoto-${V}-src
 PKGNAME =	xmoto-${V}
+REVISION=	1
 CATEGORIES =	games
 
 MAINTAINER =	Antti Harri <iku@openbsd.fi>
@@ -18,24 +19,24 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-WANTLIB += GL GLU SDL SDL_mixer SDL_net SDL_ttf X11 bz2 c curl jpeg 
-WANTLIB += lua m ode png pthread sqlite3 stdc++ xdg-basedir xml2 z 
+WANTLIB += GL GLU SDL SDL_mixer SDL_net SDL_ttf X11 bz2 c curl jpeg
+WANTLIB += ${MODLUA_WANTLIB} m ode png pthread sqlite3 stdc++ xdg-basedir xml2 z
 
-MODULES=	devel/gettext
+MODULES=	devel/gettext \
+		lang/lua
 BUILD_DEPENDS = ${MODGNU_AUTOCONF_DEPENDS} \
 		${MODGNU_AUTOMAKE_DEPENDS}
 LIB_DEPENDS =	archivers/bzip2 \
-		databases/sqlite3 \
 		devel/ode \
 		devel/sdl-mixer \
 		devel/sdl-net \
 		devel/sdl-ttf \
 		graphics/jpeg \
 		graphics/png \
-		lang/lua \
 		net/curl \
 		textproc/libxml \
-		x11/libxdg-basedir
+		x11/libxdg-basedir \
+		${MODLUA_LIB_DEPENDS}
 
 SEPARATE_BUILD =	Yes
 USE_GROFF =		Yes

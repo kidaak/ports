@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-turbocheetah/Makefile,v 1.11 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=		plugin to support use of Cheetah templates
 

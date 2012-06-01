@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/cgal/Makefile,v 1.5 2012/01/20 14:48:50 dcoppa Exp $
+# $OpenBSD$
 
 # vax:	no fenv.h support
 NOT_FOR_ARCHS =		vax

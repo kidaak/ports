@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Unicode-LineBreak/Makefile,v 1.5 2011/11/16 17:42:26 naddy Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 COMMENT =	Unicode line breaking algorithm

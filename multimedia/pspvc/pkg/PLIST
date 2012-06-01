@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/pspvc/pkg/PLIST,v 1.1.1.1 2007/11/19 21:10:40 ckuethe Exp $
+@comment $OpenBSD$
 bin/pspvc
 @comment share/doc/pspvc/
 @comment share/doc/pspvc/AUTHORS

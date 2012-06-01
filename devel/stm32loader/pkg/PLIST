@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/stm32loader/pkg/PLIST,v 1.1.1.1 2010/11/05 14:02:25 jasper Exp $
+@comment $OpenBSD$
 bin/stm32loader.py

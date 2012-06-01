@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/palm/pose/pkg/PLIST,v 1.1.1.1 2006/10/19 16:24:52 mbalmer Exp $
+@comment $OpenBSD$
 bin/pose

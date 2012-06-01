@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/libs/patches/patch-kjs_CMakeLists_txt,v 1.1 2010/06/20 21:09:52 espie Exp $
+$OpenBSD$
 --- kjs/CMakeLists.txt.orig	Sat May 29 15:03:46 2010
 +++ kjs/CMakeLists.txt	Sat May 29 15:06:48 2010
 @@ -223,7 +223,7 @@ kde4_add_executable(kjs_bin NOGUI ${kjs_SRCS})

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/www/libghttp/pkg/PFRAG.shared,v 1.3 2005/12/31 14:35:36 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libghttp.so.${LIBghttp_VERSION}

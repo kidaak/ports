@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/readline/patches/patch-Makefile_in,v 1.1.1.1 2010/07/23 14:51:11 laurent Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Apr 19 18:14:24 2009
 +++ Makefile.in	Tue Jul 13 13:34:53 2010
 @@ -97,8 +97,8 @@ GCC_LINT_CFLAGS = $(XCCFLAGS) $(GCC_LINT_FLAGS) @CFLAG

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dspam/patches/patch-src_client_c,v 1.4 2007/12/21 14:42:23 todd Exp $
+$OpenBSD$
 --- src/client.c.orig	Thu May 25 17:36:39 2006
 +++ src/client.c	Sun Apr 29 17:57:52 2007
 @@ -108,7 +108,7 @@ int client_process(AGENT_CTX *ATX, buffer *message) {

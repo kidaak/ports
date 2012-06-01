@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/wordpress/pkg/PLIST,v 1.18 2012/01/24 17:37:02 merdely Exp $
+@comment $OpenBSD$
 @pkgpath www/wordpress-mu
 wordpress/
 wordpress/index.php

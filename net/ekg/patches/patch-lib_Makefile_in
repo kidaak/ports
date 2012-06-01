@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ekg/patches/patch-lib_Makefile_in,v 1.4 2011/04/06 09:35:03 jasper Exp $
+$OpenBSD$
 
 - build without gnu make
 

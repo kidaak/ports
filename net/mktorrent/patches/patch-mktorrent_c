@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/mktorrent/patches/patch-mktorrent_c,v 1.1.1.1 2009/03/10 13:43:05 stsp Exp $
+$OpenBSD$
 --- mktorrent.c.orig	Thu Mar 27 18:38:06 2008
 +++ mktorrent.c	Tue Mar 10 11:53:08 2009
 @@ -50,8 +50,6 @@ char *path;

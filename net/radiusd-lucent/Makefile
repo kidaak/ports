@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/radiusd-lucent/Makefile,v 1.25 2011/05/11 12:03:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Lucent remote access RADIUS server
 

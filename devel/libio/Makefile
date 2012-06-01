@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libio/Makefile,v 1.4 2007/09/16 02:53:00 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	abstraction for general data transport
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/luarexlib/patches/patch-src_common_mak,v 1.1 2009/09/09 18:02:01 jolan Exp $
+$OpenBSD$
 --- src/common.mak.orig	Sat Jun 14 20:11:08 2008
 +++ src/common.mak	Wed Sep  9 12:13:00 2009
 @@ -3,11 +3,11 @@

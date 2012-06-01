@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pop3gwd/Makefile,v 1.17 2010/07/12 22:07:41 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	app-level proxy for mail retrieval behind firewalls
 

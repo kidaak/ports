@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_appl_jasper_c,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/appl/jasper.c.orig	Fri Jan 19 22:43:08 2007
 +++ src/appl/jasper.c	Fri May 16 22:47:48 2008
 @@ -456,9 +456,9 @@ int addopt(char *optstr, int maxlen, char *s)

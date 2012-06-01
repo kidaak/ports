@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/silc-client/Makefile,v 1.68 2012/03/08 12:13:01 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Secure Internet Live Conferencing (SILC) client
 

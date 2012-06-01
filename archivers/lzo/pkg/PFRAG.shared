@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/archivers/lzo/pkg/PFRAG.shared,v 1.5 2005/12/23 13:57:21 espie Exp $
+@comment $OpenBSD$
 @lib lib/liblzo.so.${LIBlzo_VERSION}

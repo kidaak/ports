@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/netsurf/browser/patches/patch-Makefile,v 1.4 2011/07/18 20:10:11 landry Exp $
+$OpenBSD$
 
 XXX make it compile with gtk+2 2.22 (*_DISABLE_DEPRECATED)
 gtk/gtk_tabs.c:41: error: expected declaration specifiers or '...' before 'GtkNotebookPage'

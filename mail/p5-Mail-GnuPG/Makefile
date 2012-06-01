@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-GnuPG/Makefile,v 1.5 2011/11/12 13:11:09 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	handle GnuPG-encrypted/signed messages
 

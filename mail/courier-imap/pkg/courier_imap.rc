@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/courier-imap/pkg/courier_imap.rc,v 1.5 2011/03/20 13:06:23 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/libexec/imapd.rc"
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/eliot/pkg/PLIST,v 1.1.1.1 2012/03/05 18:05:35 landry Exp $
+@comment $OpenBSD$
 @bin bin/compdic
 @bin bin/eliot
 @bin bin/eliotcurses

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ytalk/Makefile,v 1.28 2011/01/07 20:48:34 rpointel Exp $
+# $OpenBSD$
 COMMENT=	enhanced talk that allows for multiple parties
 
 DISTNAME=	ytalk-3.1.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/trayer/patches/patch-systray_fixedtip_c,v 1.1 2007/10/24 22:40:53 jasper Exp $
+$OpenBSD$
 --- systray/fixedtip.c.orig	Mon Oct 15 13:10:44 2007
 +++ systray/fixedtip.c	Mon Oct 15 13:14:34 2007
 @@ -37,7 +37,7 @@ button_press_handler (GtkWidget *tip,

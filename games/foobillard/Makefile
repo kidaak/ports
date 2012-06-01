@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/foobillard/Makefile,v 1.4 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT =		free OpenGl billard game
 

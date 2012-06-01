@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/forcedattack/Makefile,v 1.13 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	connect four of stones in a straight line
 

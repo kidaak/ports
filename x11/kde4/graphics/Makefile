@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/graphics/Makefile,v 1.11 2010/11/22 08:37:02 espie Exp $
+# $OpenBSD$
 
 COMMENT =		K Desktop Environment, graphics
 DISTNAME =		kdegraphics-${VERSION}

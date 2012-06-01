@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/zint/pkg/PLIST-x11,v 1.1.1.1 2011/12/23 15:08:07 jasper Exp $
+@comment $OpenBSD$
 @bin bin/zint-qt
 include/qzint.h
 @lib lib/libQZint.so.${LIBQZint_VERSION}

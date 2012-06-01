@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/www/cgiparse/pkg/PFRAG.shared,v 1.6 2005/12/30 22:26:50 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libcgiparse.so.${LIBcgiparse_VERSION}

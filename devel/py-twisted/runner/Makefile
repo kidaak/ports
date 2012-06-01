@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-twisted/runner/Makefile,v 1.15 2011/12/08 20:15:40 eric Exp $
+# $OpenBSD$
 
 COMMENT=	process management module for Twisted
 

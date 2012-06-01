@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-js_src_xpconnect_src_dom_quickstubs_cpp_diff,v 1.1 2009/06/21 12:30:58 martynas Exp $
+$OpenBSD$
 --- js/src/xpconnect/src/dom_quickstubs.cpp.diff.orig	Sun Jun 21 14:55:20 2009
 +++ js/src/xpconnect/src/dom_quickstubs.cpp.diff	Sun Jun 21 14:55:33 2009
 @@ -0,0 +1,11 @@

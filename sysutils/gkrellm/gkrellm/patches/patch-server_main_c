@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/gkrellm/gkrellm/patches/patch-server_main_c,v 1.1 2010/10/17 14:20:53 sthen Exp $
+$OpenBSD$
 --- server/main.c.orig	Sun Oct 17 14:46:45 2010
 +++ server/main.c	Sun Oct 17 14:48:58 2010
 @@ -177,15 +177,15 @@ static void gkrellmd_syslog_log(GLogLevelFlags log_lev

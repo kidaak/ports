@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/coreutils/Makefile,v 1.1.1.1 2012/03/20 16:34:07 naddy Exp $
+# $OpenBSD$
 
 COMMENT =		file, shell and text manipulation utilities
 DISTNAME =		coreutils-8.15

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/gramps/Makefile,v 1.23 2011/12/03 20:30:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	genealogical research and analysis management program system
 

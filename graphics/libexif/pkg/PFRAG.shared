@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/libexif/pkg/PFRAG.shared,v 1.5 2005/12/26 16:36:12 steven Exp $
+@comment $OpenBSD$
 @lib lib/libexif.so.${LIBexif_VERSION}

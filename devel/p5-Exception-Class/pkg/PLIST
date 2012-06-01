@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Exception-Class/pkg/PLIST,v 1.6 2009/05/29 15:49:37 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Exception/
 ${P5SITE}/Exception/Class/
 ${P5SITE}/Exception/Class.pm

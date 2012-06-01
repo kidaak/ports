@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-debug/Makefile,v 1.16 2012/02/16 23:35:49 pirofti Exp $
+# $OpenBSD$
 
 COMMENT =	faster implementation of the standard debug.rb
 

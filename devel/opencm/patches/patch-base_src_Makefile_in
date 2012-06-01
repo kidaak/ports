@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/opencm/patches/patch-base_src_Makefile_in,v 1.5 2005/12/06 19:05:21 todd Exp $
+$OpenBSD$
 --- base/src/Makefile.in.orig	Sun Oct 24 20:06:46 2004
 +++ base/src/Makefile.in	Tue Dec  6 13:00:38 2005
 @@ -110,8 +110,7 @@ CMINCLUDE=@SSL_INC@

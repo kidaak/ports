@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-ChangeNotify/Makefile,v 1.6 2012/01/13 12:24:18 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	watch for changes to files, cross-platform style
 

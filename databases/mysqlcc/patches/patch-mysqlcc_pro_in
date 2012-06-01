@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mysqlcc/patches/patch-mysqlcc_pro_in,v 1.1.1.1 2004/07/19 13:56:20 wilfried Exp $
+$OpenBSD$
 --- mysqlcc.pro.in.orig	2003-12-14 00:10:43.000000000 +0100
 +++ mysqlcc.pro.in	2003-12-26 14:10:30.000000000 +0100
 @@ -1,5 +1,5 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/chroma/pkg/PLIST,v 1.1.1.1 2010/12/09 21:19:30 landry Exp $
+@comment $OpenBSD$
 @bin bin/chroma
 @bin bin/chroma-curses
 share/chroma/

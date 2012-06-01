@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/id-utils/patches/patch-po_Makefile_in_in,v 1.1 2004/07/19 16:12:36 espie Exp $
+$OpenBSD$
 --- po/Makefile.in.in.orig	Fri Apr 18 08:43:34 1997
 +++ po/Makefile.in.in	Mon Jul 19 18:02:48 2004
 @@ -124,9 +124,9 @@ install-data: install-data-@USE_NLS@

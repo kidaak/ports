@@ -1,9 +1,9 @@
-$OpenBSD: ports/graphics/ggi/patches/patch-display_xf86dga_extutil_h,v 1.1 2005/01/31 14:20:26 todd Exp $
+$OpenBSD$
 --- display/xf86dga/extutil.h.orig	Sat Sep 18 05:48:05 2004
 +++ display/xf86dga/extutil.h	Sun Jan 30 15:40:46 2005
 @@ -1,4 +1,4 @@
--/* $Id: extutil.h,v 1.3 2004/09/18 10:48:05 cegger Exp $ */
-+/* $Id: extutil.h,v 1.3.2.2 2005/01/29 09:36:03 cegger Exp $ */
+-/* $Id$ */
++/* $Id$ */
  /*
   * $XConsortium: extutil.h,v 1.15 94/10/07 15:36:33 kaleb Exp $
   *

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-HappyDoc/Makefile,v 1.18 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Python tool for generate Python API documents
 

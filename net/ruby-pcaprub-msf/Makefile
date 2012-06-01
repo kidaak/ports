@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-pcaprub-msf/Makefile,v 1.6 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Ruby interface to LBL pcap library (Metasploit fork)
 

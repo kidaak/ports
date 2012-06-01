@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/gdiff/patches/patch-configure,v 1.4 2005/02/21 14:29:47 alek Exp $
+$OpenBSD$
 --- configure.orig	Fri Apr  5 23:48:26 2002
 +++ configure	Mon Feb 21 15:17:11 2005
 @@ -3722,7 +3722,7 @@ _ACEOF

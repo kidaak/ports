@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmpdclient/patches/patch-src_tag_c,v 1.1 2010/09/06 11:40:39 jasper Exp $
+$OpenBSD$
 
 Fix build on gcc2.
 

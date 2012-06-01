@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Regexp-Assemble/Makefile,v 1.4 2011/06/21 14:36:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	assemble multiple Regular Expressions into a single RE
 

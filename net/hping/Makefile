@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/hping/Makefile,v 1.26 2010/10/18 18:36:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	TCP/UDP ping/traceroute tool
 

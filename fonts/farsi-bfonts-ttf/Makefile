@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/farsi-bfonts-ttf/Makefile,v 1.1.1.1 2011/07/19 09:16:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	farsi bornaray fonts
 

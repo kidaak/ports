@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/pingus/Makefile,v 1.6 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 COMMENT=	free Lemmings-like game
 

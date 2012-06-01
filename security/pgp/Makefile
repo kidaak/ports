@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pgp/Makefile,v 1.33 2012/03/17 22:42:26 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	Pretty Good Privacy 2.6.3ia
 

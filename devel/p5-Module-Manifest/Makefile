@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Module-Manifest/Makefile,v 1.1.1.1 2012/01/18 16:50:57 okan Exp $
+# $OpenBSD$
 
 COMMENT = 	parse and examine a perl distribution MANIFEST file
 

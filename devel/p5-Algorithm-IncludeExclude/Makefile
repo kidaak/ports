@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Algorithm-IncludeExclude/Makefile,v 1.4 2010/12/03 11:44:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	build and evaluate include/exclude lists
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/x48/Makefile,v 1.22 2011/11/23 19:36:44 pascal Exp $
+# $OpenBSD$
 
 COMMENT=		HP48sx emulator
 

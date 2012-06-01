@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-symboltype/Makefile,v 1.4 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT =		symbol type for python
 

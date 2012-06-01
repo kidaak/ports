@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/discwrapper/patches/patch-src_DiscWrapperApp_cpp,v 1.1.1.1 2009/08/07 14:14:59 ajacoutot Exp $
+$OpenBSD$
 
 XXX locales does not play nice on OpenBSD.
 Do not hardcode paths.

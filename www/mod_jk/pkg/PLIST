@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/mod_jk/pkg/PLIST,v 1.8 2011/09/17 10:29:44 sthen Exp $
+@comment $OpenBSD$
 lib/${MODAPACHE_MODULE}
 @exec-update test ! -f ${MODAPACHE_FINAL} || cp -fp %D/%F ${MODAPACHE_FINAL}
 sbin/${MODAPACHE_ENABLE}

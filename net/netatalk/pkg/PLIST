@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/netatalk/pkg/PLIST,v 1.8 2012/04/11 18:39:13 sthen Exp $
+@comment $OpenBSD$
 @bin bin/ad
 @bin bin/adv1tov2
 @bin bin/afpldaptest

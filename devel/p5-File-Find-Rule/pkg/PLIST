@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-Find-Rule/pkg/PLIST,v 1.1.1.1 2005/03/30 07:22:19 jolan Exp $
+@comment $OpenBSD$
 bin/findrule
 ${P5SITE}/File/
 ${P5SITE}/File/Find/

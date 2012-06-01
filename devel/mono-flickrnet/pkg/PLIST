@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mono-flickrnet/pkg/PLIST,v 1.2 2010/10/20 10:16:50 robert Exp $
+@comment $OpenBSD$
 lib/mono/flickrnet/
 lib/mono/flickrnet/FlickrNet.dll
 lib/mono/flickrnet/FlickrNet.dll.mdb

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gxmessage/pkg/PLIST,v 1.4 2011/12/03 23:20:52 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gxmessage
 @info info/gxmessage.info
 @man man/man1/gxmessage.1

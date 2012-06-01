@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-UUID-Tiny/Makefile,v 1.1.1.1 2011/04/12 06:43:03 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	tiny pure-perl UUID generation
 

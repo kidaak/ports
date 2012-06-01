@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/security/snort2pf/pkg/snort2pf.rc,v 1.1.1.1 2011/03/10 13:42:30 jasper Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/snort2pf"
 

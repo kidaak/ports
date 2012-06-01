@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-TagCloud/Makefile,v 1.4 2011/04/05 14:32:39 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	HTML tag cloud generator
 

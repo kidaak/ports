@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gobject-introspection/patches/patch-giscanner_dumper_py,v 1.5 2012/03/29 06:29:08 ajacoutot Exp $
+$OpenBSD$
 --- giscanner/dumper.py.orig	Tue Nov 29 19:57:22 2011
 +++ giscanner/dumper.py	Mon Mar 26 12:06:27 2012
 @@ -80,7 +80,7 @@ class DumpCompiler(object):

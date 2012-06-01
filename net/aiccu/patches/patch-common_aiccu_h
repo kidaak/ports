@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/aiccu/patches/patch-common_aiccu_h,v 1.1.1.1 2007/02/13 20:30:48 naddy Exp $
+$OpenBSD$
 --- common/aiccu.h.orig	Mon Jan  8 00:59:41 2007
 +++ common/aiccu.h	Mon Jan  8 01:00:01 2007
 @@ -65,7 +65,9 @@

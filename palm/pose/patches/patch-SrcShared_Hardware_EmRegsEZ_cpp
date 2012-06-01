@@ -1,4 +1,4 @@
-$OpenBSD: ports/palm/pose/patches/patch-SrcShared_Hardware_EmRegsEZ_cpp,v 1.2 2007/04/01 17:50:25 martynas Exp $
+$OpenBSD$
 --- SrcShared/Hardware/EmRegsEZ.cpp.orig	Fri Mar 29 15:11:18 2002
 +++ SrcShared/Hardware/EmRegsEZ.cpp	Sun Apr  1 17:53:43 2007
 @@ -59,18 +59,18 @@ static const uint16 gBaseAddressShift = 13;	// Shift t

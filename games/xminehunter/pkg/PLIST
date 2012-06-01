@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xminehunter/pkg/PLIST,v 1.6 2011/04/10 18:01:13 jasper Exp $
+@comment $OpenBSD$
 @pkgpath games/xminehunter,lesstif
 bin/xminehunter
 @mode 666

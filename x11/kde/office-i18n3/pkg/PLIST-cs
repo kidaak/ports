@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/office-i18n3/pkg/PLIST-cs,v 1.5 2012/01/17 18:08:22 espie Exp $
+@comment $OpenBSD$
 @pkgpath x11/kde/office-i18n3,cs
 share/apps/koffice/
 share/apps/koffice/autocorrect/

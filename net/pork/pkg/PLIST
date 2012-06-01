@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pork/pkg/PLIST,v 1.9 2006/07/21 01:55:24 jolan Exp $
+@comment $OpenBSD$
 bin/pork
 share/doc/pork/
 share/doc/pork/QUICK_START

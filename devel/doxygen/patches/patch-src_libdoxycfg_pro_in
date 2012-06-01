@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/doxygen/patches/patch-src_libdoxycfg_pro_in,v 1.3 2010/11/04 20:13:10 sthen Exp $
+$OpenBSD$
 --- src/libdoxycfg.pro.in.orig	Fri Jan  1 11:53:11 2010
 +++ src/libdoxycfg.pro.in	Thu Sep 16 12:30:34 2010
 @@ -20,7 +20,8 @@ HEADERS      =  config.h configoptions.h portable.h

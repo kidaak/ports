@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/swi-prolog/patches/patch-packages_semweb_Makefile_in,v 1.2 2010/12/27 16:07:08 jasper Exp $
+$OpenBSD$
 
 Honor CFLAGS.
 

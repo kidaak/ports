@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openconnect/patches/patch-www_Makefile_in,v 1.1.1.1 2011/12/08 13:55:28 sthen Exp $
+$OpenBSD$
 
 Avoid GNU-specific construct, standard make(1) is sufficient.
 

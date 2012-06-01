@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/hydra/pkg/PLIST-main,v 1.3 2011/11/05 15:24:39 nigel Exp $
+@comment $OpenBSD$
 @pkgpath security/hydra
 @bin bin/hydra
 @bin bin/pw-inspector

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/glimpse/patches/patch-agrep_Makefile_in,v 1.1 2008/02/14 21:00:00 merdely Exp $
+$OpenBSD$
 --- agrep/Makefile.in.orig	Wed Jan 23 09:38:48 2008
 +++ agrep/Makefile.in	Wed Jan 23 09:39:01 2008
 @@ -28,7 +28,7 @@ TCOMPDIR      = ../compress

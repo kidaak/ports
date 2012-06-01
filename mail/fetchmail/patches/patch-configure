@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/fetchmail/patches/patch-configure,v 1.18 2011/06/06 13:57:07 sthen Exp $
+$OpenBSD$
 --- configure.orig	Mon Jun  6 12:22:44 2011
 +++ configure	Mon Jun  6 14:18:30 2011
 @@ -9300,7 +9300,7 @@ $as_echo "#define HEIMDAL 1" >>confdefs.h

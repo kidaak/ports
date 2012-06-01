@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/darkstat/patches/patch-err_c,v 1.2 2012/03/19 11:54:10 sthen Exp $
+$OpenBSD$
 --- err.c.orig	Tue Jun  7 06:54:05 2011
 +++ err.c	Tue Jun  7 18:18:59 2011
 @@ -51,7 +51,7 @@ to_syslog(const char *type, const int want_err,

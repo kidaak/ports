@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/luma/pkg/PLIST,v 1.1.1.1 2009/08/26 16:53:21 sthen Exp $
+@comment $OpenBSD$
 bin/luma
 lib/python${MODPY_VERSION}/site-packages/Luma-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/luma/

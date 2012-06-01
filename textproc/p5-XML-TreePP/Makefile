@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-TreePP/Makefile,v 1.1.1.1 2012/01/24 00:25:56 nigel Exp $
+# $OpenBSD$
 
 COMMENT =	pure Perl implementation for parsing/writing XML documents
 

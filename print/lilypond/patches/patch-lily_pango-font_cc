@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/lilypond/patches/patch-lily_pango-font_cc,v 1.2 2011/07/06 14:14:06 kili Exp $
+$OpenBSD$
 --- lily/pango-font.cc.orig	Sun Jun 12 16:05:50 2011
 +++ lily/pango-font.cc	Sun Jun 19 13:45:40 2011
 @@ -95,19 +95,21 @@ Pango_font::derived_mark () const

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/icedtea-web/patches/patch-Makefile_in,v 1.2 2012/03/27 09:04:53 landry Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Mar  5 18:06:46 2012
 +++ Makefile.in	Thu Mar 15 21:56:38 2012
 @@ -671,12 +671,12 @@ install-data-local:

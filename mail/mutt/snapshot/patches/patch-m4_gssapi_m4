@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mutt/snapshot/patches/patch-m4_gssapi_m4,v 1.2 2010/10/18 20:29:53 jsg Exp $
+$OpenBSD$
 --- m4/gssapi.m4.orig	Wed Mar 19 21:07:06 2008
 +++ m4/gssapi.m4	Sat Oct 16 14:32:52 2010
 @@ -49,11 +49,20 @@ AC_DEFUN([MUTT_AM_PATH_GSSAPI],

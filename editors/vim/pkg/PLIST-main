@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/vim/pkg/PLIST-main,v 1.7 2010/09/09 22:29:29 ckuethe Exp $
+@comment $OpenBSD$
 @pkgpath ${BASE_PKGPATH}
 %%gtk2%%
 bin/ex

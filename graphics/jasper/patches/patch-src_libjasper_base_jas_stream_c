@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_base_jas_stream_c,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/base/jas_stream.c.orig	Fri Jan 19 22:43:05 2007
 +++ src/libjasper/base/jas_stream.c	Fri May 16 22:50:27 2008
 @@ -212,7 +212,7 @@ jas_stream_t *jas_stream_memopen(char *buf, int bufsiz

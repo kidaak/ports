@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/greyscanner/Makefile,v 1.5 2011/05/01 20:05:54 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	greytrapping daemon to compliment OpenBSD spamd
 

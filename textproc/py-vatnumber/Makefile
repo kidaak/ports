@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-vatnumber/Makefile,v 1.3 2011/10/30 14:27:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		Python module to validate VAT numbers
 

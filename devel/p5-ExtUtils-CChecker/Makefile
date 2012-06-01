@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-ExtUtils-CChecker/Makefile,v 1.2 2011/06/01 17:05:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT	= 	configure-time utilities for using C headers, etc.
 

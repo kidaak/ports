@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/raggle/pkg/PLIST,v 1.1.1.1 2008/06/08 17:10:04 landry Exp $
+@comment $OpenBSD$
 bin/raggle
 @man man/man1/raggle.1
 share/doc/raggle/

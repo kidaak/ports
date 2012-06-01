@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Alias/Makefile,v 1.9 2012/03/03 10:21:43 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	comprehensive set of aliasing operations
 SHARED_ONLY =	Yes

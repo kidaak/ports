@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cvsgraph/patches/patch-cvsgraph_1,v 1.2 2007/06/11 20:19:59 jasper Exp $
+$OpenBSD$
 --- cvsgraph.1.orig	Sat Jul  8 15:53:01 2006
 +++ cvsgraph.1	Wed Jun  6 19:37:55 2007
 @@ -92,7 +92,7 @@ Use \fItxt\fR for expansion

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-logilab-common/patches/patch-test_unittest_shellutils_py,v 1.1 2011/08/31 12:39:19 mpi Exp $
+$OpenBSD$
 --- test/unittest_shellutils.py.orig	Thu Aug 18 16:41:21 2011
 +++ test/unittest_shellutils.py	Thu Aug 18 16:41:00 2011
 @@ -178,6 +178,7 @@

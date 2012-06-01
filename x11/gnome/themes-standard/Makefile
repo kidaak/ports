@@ -1,12 +1,11 @@
-# $OpenBSD: ports/x11/gnome/themes-standard/Makefile,v 1.26 2012/04/10 22:23:09 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 
 COMMENT=		standard GNOME themes
 
 GNOME_PROJECT=		gnome-themes-standard
-GNOME_VERSION=		3.4.0
-REVISION=		1
+GNOME_VERSION=		3.4.2
 
 # LGPLv2.1
 PERMIT_PACKAGE_CDROM=	Yes
@@ -45,6 +44,5 @@ post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/icons/default
 	${INSTALL_DATA} ${FILESDIR}/index.theme \
 		${PREFIX}/share/icons/default
-	rm ${PREFIX}/share/icons/HighContrast/icon-theme.cache
 
 .include <bsd.port.mk>

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cil/pkg/PLIST,v 1.5 2009/03/11 21:20:27 avsm Exp $
+@comment $OpenBSD$
 bin/cilly
 bin/patcher
 lib/cil/

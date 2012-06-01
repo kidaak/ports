@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/esound/Makefile,v 1.53 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	sound library for Enlightenment
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/libupnp/pkg/PFRAG.shared,v 1.1.1.1 2010/03/22 22:25:50 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libixml.so.${LIBixml_VERSION}
 @lib lib/libthreadutil.so.${LIBthreadutil_VERSION}
 @lib lib/libupnp.so.${LIBupnp_VERSION}

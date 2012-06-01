@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-MonadCatchIO-mtl/Makefile,v 1.5 2011/12/05 14:53:01 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		monad-transformer version of Control.Exception.catch
 

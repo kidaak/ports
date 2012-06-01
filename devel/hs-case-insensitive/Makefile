@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-case-insensitive/Makefile,v 1.2 2012/01/15 17:17:30 kili Exp $
+# $OpenBSD$
 
 COMMENT =		case insensitive string comparison
 

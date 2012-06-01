@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/poormanscron/Makefile,v 1.5 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	run drupal scheduled tasks from apache
 MAINTAINER =	Marc Espie <espie@openbsd.org>

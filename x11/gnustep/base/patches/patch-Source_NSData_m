@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/base/patches/patch-Source_NSData_m,v 1.2 2011/05/24 13:58:28 sebastia Exp $
+$OpenBSD$
 --- Source/NSData.m.orig	Tue Apr  5 14:12:34 2011
 +++ Source/NSData.m	Mon May 23 12:57:03 2011
 @@ -3109,7 +3109,7 @@ getBytes(void* dst, void* src, unsigned len, unsigned 

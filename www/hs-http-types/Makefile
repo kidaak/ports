@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/hs-http-types/Makefile,v 1.2 2012/01/15 17:18:49 kili Exp $
+# $OpenBSD$
 
 COMMENT =		generic HTTP types for Haskell
 

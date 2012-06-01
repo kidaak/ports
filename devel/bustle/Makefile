@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/bustle/Makefile,v 1.5 2011/12/27 21:10:55 kili Exp $
+# $OpenBSD$
 
 COMMENT=	D-Bus profiler
 

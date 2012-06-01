@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/scons/pkg/PLIST,v 1.6 2011/05/31 09:06:48 ckuethe Exp $
+@comment $OpenBSD$
 bin/scons
 bin/scons-${VERSION}
 bin/scons-time

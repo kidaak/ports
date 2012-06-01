@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/x11/kde/base3/pkg/kdm.rc,v 1.1 2011/03/21 00:58:19 ian Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/kdm"
 

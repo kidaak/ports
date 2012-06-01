@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostscript/gnu/patches/patch-base_unix-gcc_mak,v 1.4 2011/11/16 12:43:23 kili Exp $
+$OpenBSD$
 --- base/unix-gcc.mak.orig	Fri Aug  5 13:12:20 2011
 +++ base/unix-gcc.mak	Mon Nov 14 16:38:09 2011
 @@ -31,6 +31,7 @@ PSLIBDIR=./lib

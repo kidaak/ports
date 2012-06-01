@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/py3-cairo/pkg/PLIST,v 1.1.1.1 2012/03/30 07:12:28 ajacoutot Exp $
+@comment $OpenBSD$
 include/pycairo/
 include/pycairo/py3cairo.h
 lib/pkgconfig/py3cairo.pc

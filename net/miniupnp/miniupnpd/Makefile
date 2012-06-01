@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/miniupnp/miniupnpd/Makefile,v 1.3 2012/02/16 22:27:14 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	UPnP IGD client lightweight library
 

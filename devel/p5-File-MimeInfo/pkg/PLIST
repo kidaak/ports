@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-MimeInfo/pkg/PLIST,v 1.1.1.1 2007/03/18 20:05:56 jasper Exp $
+@comment $OpenBSD$
 bin/mimeopen
 bin/mimetype
 ${P5SITE}/File/MimeInfo/

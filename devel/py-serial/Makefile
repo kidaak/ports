@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-serial/Makefile,v 1.6 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT =		serial interface class for Python
 

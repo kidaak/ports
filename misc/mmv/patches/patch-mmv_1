@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/mmv/patches/patch-mmv_1,v 1.1 2002/12/23 19:11:48 pvalchev Exp $
+$OpenBSD$
 --- mmv.1.orig	Mon Dec 23 13:25:04 2002
 +++ mmv.1	Mon Dec 23 13:25:29 2002
 @@ -141,7 +141,7 @@ If target file exists, it is overwritten

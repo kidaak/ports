@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/xjobs/Makefile,v 1.4 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 #
 
 COMMENT =		execute jobs in parallel

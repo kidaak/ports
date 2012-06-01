@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ORBit2/pkg/PLIST,v 1.13 2008/07/07 22:05:38 jasper Exp $
+@comment $OpenBSD$
 @conflict linc-*
 @bin bin/ior-decode-2
 @bin bin/linc-cleanup-sockets

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/tiff/patches/patch-libtiff_tif_codec_c,v 1.2 2012/04/14 15:09:55 naddy Exp $
+$OpenBSD$
 --- libtiff/tif_codec.c.orig	Tue Dec 14 15:18:28 2010
 +++ libtiff/tif_codec.c	Wed Apr 11 18:22:55 2012
 @@ -108,7 +108,7 @@ _notConfigured(TIFF* tif)

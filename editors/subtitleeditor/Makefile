@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/subtitleeditor/Makefile,v 1.24 2012/03/23 13:26:40 ajacoutot Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	${GCC4_ARCHS}
 

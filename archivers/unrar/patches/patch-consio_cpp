@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/unrar/patches/patch-consio_cpp,v 1.2 2012/04/08 17:04:20 naddy Exp $
+$OpenBSD$
 --- consio.cpp.orig	Mon Jan  9 14:46:08 2012
 +++ consio.cpp	Sun Apr  8 18:41:22 2012
 @@ -141,7 +141,7 @@ void GetPasswordText(wchar *Str,uint MaxLength)

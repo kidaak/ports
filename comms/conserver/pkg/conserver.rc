@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/comms/conserver/pkg/conserver.rc,v 1.5 2011/12/17 22:01:12 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/conserver -d"
 daemon_flags="-n"

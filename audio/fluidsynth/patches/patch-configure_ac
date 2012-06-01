@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/fluidsynth/patches/patch-configure_ac,v 1.2 2009/10/15 15:44:50 jakemsr Exp $
+$OpenBSD$
 --- configure.ac.orig	Sat Apr 11 22:06:55 2009
 +++ configure.ac	Tue Oct 13 20:59:08 2009
 @@ -50,7 +50,8 @@ AM_PROG_LIBTOOL

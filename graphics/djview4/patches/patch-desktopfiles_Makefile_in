@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/djview4/patches/patch-desktopfiles_Makefile_in,v 1.1 2010/09/18 11:19:24 steven Exp $
+$OpenBSD$
 --- desktopfiles/Makefile.in.orig	Sat Mar 20 21:38:33 2010
 +++ desktopfiles/Makefile.in	Sun Aug 29 21:11:01 2010
 @@ -39,6 +39,8 @@ XDG_DESKTOP_MENU = @XDG_DESKTOP_MENU@

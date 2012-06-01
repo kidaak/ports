@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/icewm/patches/patch-src_Makefile_in,v 1.8 2010/12/12 19:13:01 jasper Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Dec  9 16:04:39 2010
 +++ src/Makefile.in	Thu Dec  9 16:06:41 2010
 @@ -32,7 +32,7 @@ DEFS =          @DEFS@ \

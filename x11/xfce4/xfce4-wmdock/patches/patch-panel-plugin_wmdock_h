@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfce4-wmdock/patches/patch-panel-plugin_wmdock_h,v 1.1 2011/01/18 21:14:03 landry Exp $
+$OpenBSD$
 --- panel-plugin/wmdock.h.orig	Sat Jan 15 22:56:16 2011
 +++ panel-plugin/wmdock.h	Sat Jan 15 22:56:23 2011
 @@ -2,7 +2,7 @@

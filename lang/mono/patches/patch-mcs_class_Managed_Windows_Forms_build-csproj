@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono/patches/patch-mcs_class_Managed_Windows_Forms_build-csproj,v 1.3 2010/03/20 17:16:44 robert Exp $
+$OpenBSD$
 --- mcs/class/Managed.Windows.Forms/build-csproj.orig	Fri Sep 25 16:59:05 2009
 +++ mcs/class/Managed.Windows.Forms/build-csproj	Sat Mar 20 11:03:12 2010
 @@ -1,4 +1,4 @@

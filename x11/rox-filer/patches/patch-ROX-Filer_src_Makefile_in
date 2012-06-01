@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/rox-filer/patches/patch-ROX-Filer_src_Makefile_in,v 1.1 2010/10/23 18:43:58 jasper Exp $
+$OpenBSD$
 
 Don't create a debug binary (that doesn't work anyway), this
 breaks mips64(el).

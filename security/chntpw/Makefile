@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/chntpw/Makefile,v 1.5 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =	i386 amd64
 

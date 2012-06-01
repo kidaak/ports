@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/cunit/pkg/PFRAG.shared,v 1.1.1.1 2008/08/29 09:18:39 sthen Exp $
+@comment $OpenBSD$
 @lib lib/libcunit.so.${LIBcunit_VERSION}

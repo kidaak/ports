@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms/patches/patch-Input_cdaudio_cdaudio_h,v 1.1 2009/02/11 15:44:04 naddy Exp $
+$OpenBSD$
 --- Input/cdaudio/cdaudio.h.orig	Sat Feb  7 22:44:27 2009
 +++ Input/cdaudio/cdaudio.h	Sat Feb  7 22:56:20 2009
 @@ -65,7 +65,11 @@

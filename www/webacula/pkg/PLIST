@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/webacula/pkg/PLIST,v 1.4 2012/02/01 12:59:06 ajacoutot Exp $
+@comment $OpenBSD$
 webacula/
 webacula/4CONTRIBUTORS
 webacula/4CONTRIBUTORS.ru

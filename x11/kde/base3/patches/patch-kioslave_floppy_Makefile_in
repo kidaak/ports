@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-kioslave_floppy_Makefile_in,v 1.2 2008/08/26 16:52:29 espie Exp $
+$OpenBSD$
 --- kioslave/floppy/Makefile.in.orig	Wed Aug 20 18:01:45 2008
 +++ kioslave/floppy/Makefile.in	Thu Aug 21 20:22:41 2008
 @@ -456,7 +456,7 @@ AM_LDFLAGS = $(all_libraries)

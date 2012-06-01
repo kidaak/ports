@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pear-Net-URL-Mapper/pkg/PLIST,v 1.1.1.1 2009/11/18 11:13:21 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 pear/lib/.registry/net_url_mapper.reg
 pear/lib/Net/URL/

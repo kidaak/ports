@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/seed/patches/patch-modules_readline_Makefile_in,v 1.3 2011/09/22 08:03:12 ajacoutot Exp $
+$OpenBSD$
 
 Prevent undefined symbols from readline module.
 

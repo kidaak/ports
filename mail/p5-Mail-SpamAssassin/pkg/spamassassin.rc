@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/p5-Mail-SpamAssassin/pkg/spamassassin.rc,v 1.5 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/spamd -d"
 daemon_flags="-u _spamdaemon -P"

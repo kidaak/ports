@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/GraphicsMagick/pkg/PFRAG.x11,v 1.1 2011/01/15 16:17:33 jasper Exp $
+@comment $OpenBSD$
 @comment lib/GraphicsMagick/modules-Q16/coders/x.a
 lib/GraphicsMagick/modules-Q16/coders/x.la
 lib/GraphicsMagick/modules-Q16/coders/x.so

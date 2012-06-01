@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/catfish/Makefile,v 1.8 2011/12/03 23:04:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	versatile file searching tool
 

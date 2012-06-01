@@ -1,10 +1,10 @@
-# $OpenBSD: ports/graphics/digikam/Makefile,v 1.33 2011/11/01 20:30:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		digital image kde application
 CATEGORIES =		graphics x11 x11/kde
 V =			0.9.6
 DISTNAME =		digikam-$V
-REVISION =		3
+REVISION =		4
 SHARED_LIBS +=		digikam              3.0      # .0.0
 HOMEPAGE =		http://www.digikam.org/
 MASTER_SITES =		${MASTER_SITE_SOURCEFORGE:=digikam/}
@@ -41,7 +41,6 @@ AUTOCONF_VERSION =	2.61
 CONFIGURE_ARGS +=	${MODKDE_CONFIGURE_ARGS}
 
 CONFIGURE_ARGS +=	--without-included-sqlite3
-LIB_DEPENDS +=		databases/sqlite3>=3.5.9
 WANTLIB +=		sqlite3
 
 USE_GMAKE ?=		Yes

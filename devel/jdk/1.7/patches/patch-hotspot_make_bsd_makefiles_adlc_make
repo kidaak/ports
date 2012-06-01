@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.7/patches/patch-hotspot_make_bsd_makefiles_adlc_make,v 1.2 2011/09/22 20:26:47 kurt Exp $
+$OpenBSD$
 --- hotspot/make/bsd/makefiles/adlc.make.orig	Tue Sep  6 18:23:37 2011
 +++ hotspot/make/bsd/makefiles/adlc.make	Wed Sep  7 09:44:08 2011
 @@ -61,7 +61,7 @@ CPPFLAGS += -DASSERT

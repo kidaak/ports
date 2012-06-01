@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/mk/modules.port.mk,v 1.6 2007/04/17 15:22:46 espie Exp $
+# $OpenBSD$
 #
 #  Copyright (c) 2001 Marc Espie
 # 

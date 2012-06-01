@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-debug/pkg/PLIST,v 1.6 2011/11/09 00:17:38 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/rdebug${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

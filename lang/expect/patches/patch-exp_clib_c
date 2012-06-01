@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/expect/patches/patch-exp_clib_c,v 1.1 2010/09/24 14:16:50 sebastia Exp $
+$OpenBSD$
 
 Get rid of implicit declaration of function warnings
 

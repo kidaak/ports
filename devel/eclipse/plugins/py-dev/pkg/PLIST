@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/plugins/py-dev/pkg/PLIST,v 1.1.1.1 2009/06/03 15:35:45 ian Exp $
+@comment $OpenBSD$
 eclipse/features/org.python.pydev.feature_${V}.${SVN}/
 eclipse/features/org.python.pydev.feature_${V}.${SVN}/LICENSE.txt
 eclipse/features/org.python.pydev.feature_${V}.${SVN}/feature.xml

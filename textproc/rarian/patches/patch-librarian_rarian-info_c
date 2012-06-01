@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/rarian/patches/patch-librarian_rarian-info_c,v 1.1.1.1 2008/12/16 10:01:38 jasper Exp $
+$OpenBSD$
 --- librarian/rarian-info.c.orig	Sat Nov 22 17:17:52 2008
 +++ librarian/rarian-info.c	Sat Nov 22 17:18:55 2008
 @@ -565,7 +565,7 @@ sanity_check_categories ()

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/onesixtyone/pkg/PLIST,v 1.2 2004/09/15 18:36:01 espie Exp $
+@comment $OpenBSD$
 bin/onesixtyone
 share/onesixtyone/
 share/onesixtyone/dict.txt

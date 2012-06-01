@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/libdvdnav/pkg/PLIST,v 1.4 2009/07/30 19:07:15 jakemsr Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/dvdnav-config
 include/dvdnav/

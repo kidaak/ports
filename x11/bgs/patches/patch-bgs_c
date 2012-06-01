@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/bgs/patches/patch-bgs_c,v 1.1 2009/02/08 20:41:22 merdely Exp $
+$OpenBSD$
 --- bgs.c.orig	Sun Feb  8 15:14:04 2009
 +++ bgs.c	Sun Feb  8 15:16:44 2009
 @@ -87,17 +87,19 @@ drawbg(void) {

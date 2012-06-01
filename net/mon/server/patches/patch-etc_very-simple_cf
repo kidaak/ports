@@ -1,9 +1,9 @@
-$OpenBSD: ports/net/mon/server/patches/patch-etc_very-simple_cf,v 1.1.1.1 2009/11/10 14:33:50 pea Exp $
+$OpenBSD$
 --- etc/very-simple.cf.orig	Wed Jun  9 07:18:06 2004
 +++ etc/very-simple.cf	Wed Oct 14 13:26:22 2009
 @@ -3,32 +3,42 @@
  #
- # $Id: very-simple.cf,v 1.1.1.1 2004/06/09 05:18:06 trockij Exp $
+ # $Id$
  #
 -alertdir   = /usr/lib/mon/alert.d
 -mondir     = /usr/lib/mon/mon.d

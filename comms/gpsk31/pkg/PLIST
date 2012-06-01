@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/gpsk31/pkg/PLIST,v 1.5 2010/07/01 01:57:33 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/gpsk31
 @man man/man1/gpsk31.1
 share/applications/gpsk31.desktop

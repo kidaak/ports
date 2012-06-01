@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/intltool/Makefile,v 1.25 2012/03/28 18:36:14 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		internationalization tools
 

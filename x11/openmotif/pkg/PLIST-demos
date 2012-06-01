@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/openmotif/pkg/PLIST-demos,v 1.6 2009/12/14 18:03:36 jasper Exp $
+@comment $OpenBSD$
 @conflict devtodo-*
 @conflict tree-*
 @bin bin/DNDDemo

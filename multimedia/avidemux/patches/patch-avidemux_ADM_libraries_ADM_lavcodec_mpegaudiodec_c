@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-avidemux_ADM_libraries_ADM_lavcodec_mpegaudiodec_c,v 1.1 2008/03/19 09:21:37 ajacoutot Exp $
+$OpenBSD$
 --- avidemux/ADM_libraries/ADM_lavcodec/mpegaudiodec.c.orig	Mon Jul 16 19:46:57 2007
 +++ avidemux/ADM_libraries/ADM_lavcodec/mpegaudiodec.c	Tue Jan 15 21:34:19 2008
 @@ -2357,70 +2357,6 @@ static int mp_decode_frame(MPADecodeContext *s,

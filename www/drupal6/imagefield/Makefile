@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/imagefield/Makefile,v 1.10 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	image cck field
 MAINTAINER =	Marc Espie <espie@openbsd.org>

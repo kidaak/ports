@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Component-ACCEPT_CONTEXT/Makefile,v 1.7 2012/04/08 21:58:04 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	make Catalyst request contexts available in models and views
 

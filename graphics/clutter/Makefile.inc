@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/clutter/Makefile.inc,v 1.8 2011/12/20 14:01:18 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY?=		Yes
 

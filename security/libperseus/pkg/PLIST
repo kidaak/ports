@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/libperseus/pkg/PLIST,v 1.1.1.1 2011/03/29 12:14:21 pea Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/perseus_test
 include/perseus.h

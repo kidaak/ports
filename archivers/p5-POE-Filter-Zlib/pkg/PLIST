@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/p5-POE-Filter-Zlib/pkg/PLIST,v 1.1.1.1 2010/10/24 11:38:22 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/POE/Filter/Zlib/
 ${P5SITE}/POE/Filter/Zlib.pm
 ${P5SITE}/POE/Filter/Zlib/Stream.pm

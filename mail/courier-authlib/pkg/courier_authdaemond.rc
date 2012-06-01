@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/courier-authlib/pkg/courier_authdaemond.rc,v 1.5 2011/03/20 13:06:23 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/authdaemond"
 

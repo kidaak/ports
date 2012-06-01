@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/xdg-utils/pkg/PLIST,v 1.5 2012/04/09 09:39:15 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict thinkingrock-<=2.0.1p1
 bin/email
 bin/open

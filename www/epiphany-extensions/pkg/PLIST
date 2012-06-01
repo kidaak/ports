@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/epiphany-extensions/pkg/PLIST,v 1.14 2012/04/03 15:41:28 ajacoutot Exp $
+@comment $OpenBSD$
 lib/epiphany/
 lib/epiphany/${M}/
 lib/epiphany/${M}/extensions/

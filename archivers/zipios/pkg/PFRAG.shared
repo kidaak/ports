@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/archivers/zipios/pkg/PFRAG.shared,v 1.2 2005/12/23 13:57:22 espie Exp $
+@comment $OpenBSD$
 @lib lib/libzipios.so.${LIBzipios_VERSION}

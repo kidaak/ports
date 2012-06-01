@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-SNMP-Info/pkg/PLIST,v 1.4 2011/11/19 10:03:22 giovanni Exp $
+@comment $OpenBSD$
 ${P5SITE}/SNMP/
 ${P5SITE}/SNMP/Info/
 ${P5SITE}/SNMP/Info.pm

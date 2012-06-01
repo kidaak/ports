@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/leveldb/pkg/PLIST,v 1.2 2012/03/18 12:56:56 jmatthew Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/leveldb/
 include/leveldb/c.h

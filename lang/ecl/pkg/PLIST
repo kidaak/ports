@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ecl/pkg/PLIST,v 1.5 2011/04/20 15:45:16 shadchin Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/ecl
 bin/ecl-config

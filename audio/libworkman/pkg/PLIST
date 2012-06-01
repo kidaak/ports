@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libworkman/pkg/PLIST,v 1.2 2004/08/06 14:37:27 espie Exp $
+@comment $OpenBSD$
 include/workman/
 include/workman/wm_cdda.h
 include/workman/wm_cddb.h

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Diff/Makefile,v 1.9 2011/06/25 08:23:55 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 	perform diffs on files and record sets
 

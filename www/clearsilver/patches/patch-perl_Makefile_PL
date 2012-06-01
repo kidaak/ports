@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/clearsilver/patches/patch-perl_Makefile_PL,v 1.4 2007/02/14 17:42:32 bernd Exp $
+$OpenBSD$
 --- perl/Makefile.PL.orig	Wed Feb 14 12:20:10 2007
 +++ perl/Makefile.PL	Wed Feb 14 12:20:10 2007
 @@ -9,7 +9,7 @@ WriteMakefile(

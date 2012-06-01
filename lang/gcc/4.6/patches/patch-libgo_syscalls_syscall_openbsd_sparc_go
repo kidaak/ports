@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libgo_syscalls_syscall_openbsd_sparc_go,v 1.1 2011/11/19 22:19:53 pascal Exp $
+$OpenBSD$
 --- libgo/syscalls/syscall_openbsd_sparc.go.orig	Fri Nov 18 11:35:33 2011
 +++ libgo/syscalls/syscall_openbsd_sparc.go	Fri Nov 18 11:35:12 2011
 @@ -0,0 +1,5 @@

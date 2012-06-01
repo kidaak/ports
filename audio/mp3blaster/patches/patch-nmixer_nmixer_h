@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mp3blaster/patches/patch-nmixer_nmixer_h,v 1.1 2010/01/11 07:51:26 jakemsr Exp $
+$OpenBSD$
 --- nmixer/nmixer.h.orig	Sat Jan 24 07:25:12 2009
 +++ nmixer/nmixer.h	Tue Dec 29 03:32:48 2009
 @@ -24,7 +24,15 @@

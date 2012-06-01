@@ -1,0 +1,12 @@
+$OpenBSD$
+--- package.json.orig	Sat May 26 17:41:27 2012
++++ package.json	Sat May 26 17:41:33 2012
+@@ -21,7 +21,7 @@
+   },
+   "main": "./lib/daemon",
+   "scripts" : {
+-    "preinstall" : "bash ./install"
++    "preinstall" : "sh ./install"
+   },
+   "engines" : {
+      "node" : ">= 0.4.0"

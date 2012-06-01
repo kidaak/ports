@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/php/5.3/patches/patch-configure_in,v 1.6 2012/01/21 23:34:35 sthen Exp $
+$OpenBSD$
 --- configure.in.orig.port	Wed Jan 18 13:57:25 2012
 +++ configure.in	Wed Jan 18 13:57:25 2012
 @@ -968,7 +968,7 @@ enable_static=yes

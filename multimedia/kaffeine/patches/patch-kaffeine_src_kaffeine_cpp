@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/kaffeine/patches/patch-kaffeine_src_kaffeine_cpp,v 1.4 2010/10/15 14:11:57 dcoppa Exp $
+$OpenBSD$
 --- kaffeine/src/kaffeine.cpp.orig	Fri May 15 17:18:26 2009
 +++ kaffeine/src/kaffeine.cpp	Fri Oct 15 16:04:21 2010
 @@ -25,6 +25,8 @@

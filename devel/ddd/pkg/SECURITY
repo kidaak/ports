@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ddd/pkg/SECURITY,v 1.2 2003/04/10 16:51:21 sturm Exp $
+$OpenBSD$
 
 Temporary file handling has improved in this version, but still needs
 work. It now uses mkstemp(), but because there is no way to create an

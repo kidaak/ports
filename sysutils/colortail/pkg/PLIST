@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/colortail/pkg/PLIST,v 1.2 2004/08/03 14:43:39 robert Exp $
+@comment $OpenBSD$
 bin/colortail
 @man man/man1/colortail.1
 share/examples/colortail/

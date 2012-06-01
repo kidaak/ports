@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/sieve-connect/patches/patch-sieve-connect_pl,v 1.1 2011/04/02 14:31:42 sthen Exp $
+$OpenBSD$
 --- sieve-connect.pl.orig	Sat Apr  2 07:13:57 2011
 +++ sieve-connect.pl	Sat Apr  2 08:57:18 2011
 @@ -44,7 +44,7 @@

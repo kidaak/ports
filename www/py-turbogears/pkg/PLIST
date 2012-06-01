@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-turbogears/pkg/PLIST,v 1.7 2010/11/30 20:01:04 jasper Exp $
+@comment $OpenBSD$
 bin/tg-admin
 lib/python${MODPY_VERSION}/site-packages/TurboGears-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/TurboGears-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

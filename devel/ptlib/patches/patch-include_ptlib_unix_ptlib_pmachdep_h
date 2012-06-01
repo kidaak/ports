@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/patch-include_ptlib_unix_ptlib_pmachdep_h,v 1.1 2011/10/26 16:59:09 ajacoutot Exp $
+$OpenBSD$
 
 OpenBSD has support for monotonic clock (CLOCK_MONOTONIC), however we
 currently don't have most of the _POSIX_* defines in unistd.h (e.g.

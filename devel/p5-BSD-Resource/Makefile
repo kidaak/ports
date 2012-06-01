@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-BSD-Resource/Makefile,v 1.28 2010/12/13 13:50:39 bluhm Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

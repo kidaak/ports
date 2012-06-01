@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/enchant/patches/patch-configure,v 1.7 2010/12/15 16:57:39 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Thu Apr  1 22:56:39 2010
 +++ configure	Wed Dec 15 17:54:01 2010
 @@ -18213,7 +18213,7 @@ if test "x$ac_cv_lib_aspell_get_aspell_dict_info_list"

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/polkit-gnome/pkg/PLIST,v 1.9 2011/10/27 15:46:16 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath x11/polkit-gnome,gtk2
 @bin libexec/polkit-gnome-authentication-agent-1
 share/examples/polkit-gnome/

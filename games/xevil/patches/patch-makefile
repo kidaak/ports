@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-makefile,v 1.1 2007/12/07 15:54:56 ajacoutot Exp $
+$OpenBSD$
 --- makefile.orig	Fri Dec  7 14:49:02 2007
 +++ makefile	Fri Dec  7 14:49:30 2007
 @@ -63,11 +63,6 @@ $(OBJ_DIR)/xevil::

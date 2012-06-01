@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/e/patches/patch-configure,v 1.4 2011/01/16 01:00:11 laurent Exp $
+$OpenBSD$
 
 Try to avoid linking against libintl.a
 

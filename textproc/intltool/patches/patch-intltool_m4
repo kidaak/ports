@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/intltool/patches/patch-intltool_m4,v 1.4 2012/03/28 18:36:14 ajacoutot Exp $
+$OpenBSD$
 
 https://bugs.edge.launchpad.net/intltool/+bug/867559
 

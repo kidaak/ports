@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_Preferences_cpp,v 1.3 2012/02/22 07:54:26 dcoppa Exp $
+$OpenBSD$
 
 Disable checking for new versions at startup.
 

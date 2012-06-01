@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Date-ICal/Makefile,v 1.8 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl Extensions for ICal objects
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Load/Makefile,v 1.1.1.1 2012/04/08 21:02:10 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	a working 'require Class::Name' and more
 

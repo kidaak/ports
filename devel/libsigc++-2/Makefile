@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libsigc++-2/Makefile,v 1.24 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=		callback framework for C++
 COMMENT-docs=		callback framework for C++ documentation

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pth/Makefile,v 1.16 2010/10/18 17:48:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GNU portable threads
 

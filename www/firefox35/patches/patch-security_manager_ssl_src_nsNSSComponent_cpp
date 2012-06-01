@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-security_manager_ssl_src_nsNSSComponent_cpp,v 1.2 2009/09/10 22:18:59 martynas Exp $
+$OpenBSD$
 --- security/manager/ssl/src/nsNSSComponent.cpp.orig	Mon Aug 24 18:52:58 2009
 +++ security/manager/ssl/src/nsNSSComponent.cpp	Thu Sep 10 23:35:13 2009
 @@ -812,11 +812,10 @@ nsNSSComponent::InstallLoadableRoots()

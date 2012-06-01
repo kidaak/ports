@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-ConfigFile/Makefile,v 1.15 2011/12/05 14:53:01 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		parser and writer for config files
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/d-feet/pkg/PLIST,v 1.5 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 bin/d-feet
 lib/python${MODPY_VERSION}/site-packages/d_feet-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/d_feet-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

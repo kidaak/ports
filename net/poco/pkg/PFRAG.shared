@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/poco/pkg/PFRAG.shared,v 1.1.1.1 2010/07/28 18:13:01 sebastia Exp $
+@comment $OpenBSD$
 @lib lib/libPocoCrypto.so.${LIBPocoCrypto_VERSION}
 @lib lib/libPocoData.so.${LIBPocoData_VERSION}
 @lib lib/libPocoFoundation.so.${LIBPocoFoundation_VERSION}

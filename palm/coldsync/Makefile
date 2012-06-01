@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/coldsync/Makefile,v 1.11 2010/11/20 09:48:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=		tool for synchronizing PalmOS devices
 

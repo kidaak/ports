@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/opencdk/Makefile,v 1.13 2011/07/06 21:09:55 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Open Crypto Development Kit
 

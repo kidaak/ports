@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/dhex/Makefile,v 1.2 2012/03/06 10:11:47 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		ncurses-based hex-editor with diff mode
 V =			0.66

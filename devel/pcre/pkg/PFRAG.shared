@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pcre/pkg/PFRAG.shared,v 1.9 2012/02/17 08:32:34 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libpcre.so.${LIBpcre_VERSION}
 @lib lib/libpcre16.so.${LIBpcre16_VERSION}
 @lib lib/libpcrecpp.so.${LIBpcrecpp_VERSION}

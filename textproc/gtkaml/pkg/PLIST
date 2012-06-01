@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/gtkaml/pkg/PLIST,v 1.6 2012/02/26 15:09:08 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/gtkaml
 @bin bin/gtkamlc

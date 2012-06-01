@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-country/Makefile,v 1.1.1.1 2011/12/18 13:42:31 mpi Exp $
+# $OpenBSD$
 
 COMMENT =		country, language, currency and scripts definitions
 

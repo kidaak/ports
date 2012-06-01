@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-I18N-LangTags/Makefile,v 1.8 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl support to RFC 3066 language tags
 

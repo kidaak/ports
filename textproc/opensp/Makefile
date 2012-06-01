@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/opensp/Makefile,v 1.4 2011/09/16 20:13:46 nigel Exp $
+# $OpenBSD$
 
 COMMENT=	object-oriented SGML parser
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libf2c/patches/patch-g2c_hin,v 1.2 2010/05/26 08:18:07 espie Exp $
+$OpenBSD$
 --- g2c.hin.orig	Sat May 22 20:07:20 2010
 +++ g2c.hin	Wed May 26 10:06:49 2010
 @@ -16,6 +16,19 @@

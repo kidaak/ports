@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/numptyphysics/patches/patch-Makefile_am,v 1.2 2011/01/17 11:39:20 dcoppa Exp $
+$OpenBSD$
 --- Makefile.am.orig	Tue Nov 11 17:54:38 2008
 +++ Makefile.am	Mon Jan 17 12:19:48 2011
 @@ -19,10 +19,7 @@ numptyphysics_SOURCES = \

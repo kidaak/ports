@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-syntax/patches/patch-test_syntax_tc_yaml_rb,v 1.1.1.1 2010/12/20 18:19:10 jeremy Exp $
+$OpenBSD$
 
 This regress test goes into an infinite loop.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fluxbox/patches/patch-src_main_cc,v 1.3 2011/12/29 16:15:53 dcoppa Exp $
+$OpenBSD$
 
 Check getenv output better
 (upstream git commit fa63fcdc669efb868ca8979374eca26d82708c38)

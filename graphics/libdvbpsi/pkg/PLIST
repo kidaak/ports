@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libdvbpsi/pkg/PLIST,v 1.7 2011/11/06 20:28:11 kili Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/dvbpsi/
 include/dvbpsi/bat.h

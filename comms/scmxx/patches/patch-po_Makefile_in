@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/scmxx/patches/patch-po_Makefile_in,v 1.2 2005/07/26 19:18:45 fgsch Exp $
+$OpenBSD$
 --- po/Makefile.in.orig	Wed Jun  8 16:52:10 2005
 +++ po/Makefile.in	Tue Jul 26 04:12:19 2005
 @@ -38,7 +38,7 @@ all: $(MO_FILES)

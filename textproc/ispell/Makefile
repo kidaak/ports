@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ispell/Makefile,v 1.56 2012/03/17 17:19:59 naddy Exp $
+# $OpenBSD$
 
 COMMENT-main=		interactive spelling checker
 COMMENT-dutch=		ispell dictionary for Dutch

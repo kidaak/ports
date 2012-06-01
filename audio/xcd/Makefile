@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xcd/Makefile,v 1.27 2011/10/31 16:55:41 stu Exp $
+# $OpenBSD$
 
 COMMENT =	Tcl/Tk CD player
 DISTNAME =	xcd-1.7

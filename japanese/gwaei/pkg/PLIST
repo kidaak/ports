@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/gwaei/pkg/PLIST,v 1.2 2012/03/13 19:40:27 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/gwaei
 @bin bin/waei

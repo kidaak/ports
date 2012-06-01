@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/mailscanner/pkg/PLIST,v 1.13 2011/07/22 19:57:20 sthen Exp $
+@comment $OpenBSD$
 @conflict clamav-<0.94
 bin/MailScanner
 bin/Quick.Peek

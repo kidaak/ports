@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xonix/Makefile,v 1.29 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=	win land without colliding with 'flyers' and 'eaters'
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Audio-Scan/Makefile,v 1.7 2011/04/21 22:12:10 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	XS parser for many common audio formats
 

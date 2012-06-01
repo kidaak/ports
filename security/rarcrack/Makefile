@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/rarcrack/Makefile,v 1.6 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=		rar, 7zip and zip password bruteforcer
 

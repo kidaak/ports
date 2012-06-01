@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/z-push/patches/patch-config_php,v 1.5 2011/06/02 10:40:51 ajacoutot Exp $
+$OpenBSD$
 --- config.php.orig	Fri Mar 18 20:22:53 2011
 +++ config.php	Thu Jun  2 12:29:57 2011
 @@ -42,7 +42,7 @@

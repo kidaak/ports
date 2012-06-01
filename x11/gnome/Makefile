@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/Makefile,v 1.179 2012/04/13 15:18:44 ajacoutot Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += anjuta
@@ -6,9 +6,9 @@
      SUBDIR += at-spi2-atk
      SUBDIR += at-spi2-core
      SUBDIR += backgrounds
+     SUBDIR += banshee
      SUBDIR += baker
      SUBDIR += baobab
-     SUBDIR += byzanz
      SUBDIR += color-manager
      SUBDIR += common
      SUBDIR += contacts
@@ -34,6 +34,8 @@
      SUBDIR += gdlmm
      SUBDIR += gdm
      SUBDIR += gedit
+     SUBDIR += gedit-code-assistance
+     SUBDIR += gedit-cossa
      SUBDIR += gedit-latex
      SUBDIR += gedit-plugins
      SUBDIR += genius

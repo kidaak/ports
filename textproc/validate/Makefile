@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/validate/Makefile,v 1.9 2010/11/20 19:56:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=		HTML, XHTML validator
 

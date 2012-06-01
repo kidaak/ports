@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Unicode-Stringprep/pkg/PLIST,v 1.1.1.1 2010/09/16 07:25:00 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Unicode/
 ${P5SITE}/Unicode/Stringprep/
 ${P5SITE}/Unicode/Stringprep.pm

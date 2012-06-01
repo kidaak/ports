@@ -1,11 +1,10 @@
-# $OpenBSD: ports/telephony/pjsua/Makefile,v 1.22 2012/03/07 12:35:39 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=		lightweight sip client
 
-VERSION=		1.12
+VERSION=		1.14.2
 DISTNAME=		pjproject-${VERSION}
 PKGNAME=		pjsua-${VERSION}
-REVISION=		2
 EXTRACT_SUFX=		.tar.bz2
 CATEGORIES=		telephony
 

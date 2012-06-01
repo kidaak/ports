@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-RPC-XML/pkg/PLIST,v 1.2 2012/04/07 19:59:59 sthen Exp $
+@comment $OpenBSD$
 bin/make_method
 ${P5SITE}/Apache/
 ${P5SITE}/Apache/RPC/

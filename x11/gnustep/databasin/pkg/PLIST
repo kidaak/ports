@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/databasin/pkg/PLIST,v 1.1.1.1 2011/08/22 08:03:26 sebastia Exp $
+@comment $OpenBSD$
 bin/DataBasin
 libexec/GNUstep/
 libexec/GNUstep/DataBasin.app/

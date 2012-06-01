@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/antisniff/patches/patch-run_etherpingtest_c,v 1.1 2005/04/03 19:32:29 naddy Exp $
+$OpenBSD$
 --- run_etherpingtest.c.orig	Sun Apr  3 21:21:36 2005
 +++ run_etherpingtest.c	Sun Apr  3 21:21:43 2005
 @@ -5,7 +5,6 @@

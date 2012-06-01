@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/kismet/patches/patch-gpsmap_cc,v 1.5 2008/06/27 22:10:14 kili Exp $
+$OpenBSD$
 
 # Disable map sources known to be broken.
 # Use our ftp(1) instead of wget.

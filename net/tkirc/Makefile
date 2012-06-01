@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tkirc/Makefile,v 1.14 2010/11/19 22:31:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	ircII internet relay chat client
 

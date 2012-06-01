@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/pgadmin3/patches/patch-pgadmin_Makefile_deps,v 1.1 2010/11/05 15:34:02 pea Exp $
+$OpenBSD$
 --- pgadmin/Makefile.deps.orig	Fri Nov  5 14:34:45 2010
 +++ pgadmin/Makefile.deps	Fri Nov  5 14:34:53 2010
 @@ -1,5 +1,5 @@

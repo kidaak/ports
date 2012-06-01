@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-NoTabs/Makefile,v 1.4 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	check the presence of tabs in your project
 

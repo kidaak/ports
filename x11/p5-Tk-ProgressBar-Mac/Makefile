@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/p5-Tk-ProgressBar-Mac/Makefile,v 1.6 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	widget that looks just like a Mac OS 9 progress bar
 

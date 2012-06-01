@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/dante/Makefile,v 1.37 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=	SOCKS client and server
 

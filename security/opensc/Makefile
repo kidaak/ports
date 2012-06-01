@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/opensc/Makefile,v 1.15 2010/12/27 15:30:11 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	set of libraries and utilities to access smart cards
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/hs-mwc-random/pkg/PLIST,v 1.1.1.1 2012/01/22 17:16:04 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/HS${DISTNAME}.o
 lib/ghc/${DISTNAME}/System/

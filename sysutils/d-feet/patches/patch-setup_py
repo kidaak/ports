@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/d-feet/patches/patch-setup_py,v 1.3 2011/11/14 19:16:51 ajacoutot Exp $
+$OpenBSD$
 
 Prevent empty directory from ending up in PLIST.
 

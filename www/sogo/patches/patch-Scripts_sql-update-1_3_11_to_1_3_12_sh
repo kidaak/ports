@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/sogo/patches/patch-Scripts_sql-update-1_3_11_to_1_3_12_sh,v 1.1 2012/03/31 17:02:23 sebastia Exp $
+$OpenBSD$
 
 make script sh compatible
 

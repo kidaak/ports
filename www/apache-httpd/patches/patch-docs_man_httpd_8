@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/apache-httpd/patches/patch-docs_man_httpd_8,v 1.4 2011/09/01 13:40:09 giovanni Exp $
+$OpenBSD$
 --- docs/man/httpd.8.orig	Fri Feb  4 16:20:03 2011
 +++ docs/man/httpd.8	Wed Aug 31 11:57:42 2011
 @@ -19,30 +19,30 @@

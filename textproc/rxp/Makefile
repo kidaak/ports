@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/rxp/Makefile,v 1.22 2011/05/22 18:04:10 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	validating namespace-aware XML parser
 

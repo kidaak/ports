@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/yt/Makefile,v 1.43 2011/08/18 08:27:33 jsg Exp $
+# $OpenBSD$
 
 COMMENT=	fetch YouTube and Google videos
 

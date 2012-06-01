@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-hoogle/Makefile,v 1.4 2012/01/15 17:21:48 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell API search engine
 

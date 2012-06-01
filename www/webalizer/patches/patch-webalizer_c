@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webalizer/patches/patch-webalizer_c,v 1.5 2011/01/05 08:19:18 giovanni Exp $
+$OpenBSD$
 --- webalizer.c.orig	Thu Dec 30 14:52:23 2010
 +++ webalizer.c	Mon Jan  3 13:01:54 2011
 @@ -771,7 +771,7 @@ int main(int argc, char *argv[])

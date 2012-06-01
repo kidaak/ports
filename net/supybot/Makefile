@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/supybot/Makefile,v 1.10 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =	cross-platform IRC bot written in Python
 

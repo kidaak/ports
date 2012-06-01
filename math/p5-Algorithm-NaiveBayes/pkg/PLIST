@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-Algorithm-NaiveBayes/pkg/PLIST,v 1.1.1.1 2009/03/31 16:53:43 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Algorithm/
 ${P5SITE}/Algorithm/NaiveBayes/
 ${P5SITE}/Algorithm/NaiveBayes.pm

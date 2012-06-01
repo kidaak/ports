@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-Class-Schema-Loader/Makefile,v 1.17 2012/04/07 14:49:04 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	dynamic definition of a DBIx::Class::Schema
 

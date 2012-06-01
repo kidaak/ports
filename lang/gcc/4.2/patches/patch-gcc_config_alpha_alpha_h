@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_config_alpha_alpha_h,v 1.1 2011/12/03 15:54:05 naddy Exp $
+$OpenBSD$
 --- gcc/config/alpha/alpha.h.orig	Sat Sep  1 17:28:30 2007
 +++ gcc/config/alpha/alpha.h	Fri Dec  2 16:24:16 2011
 @@ -372,12 +372,11 @@ extern enum alpha_fp_trap_mode alpha_fptm;

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xtraceroute/patches/patch-configure_in,v 1.1 2010/03/25 06:30:15 jasper Exp $
+$OpenBSD$
 --- configure.in.orig	Wed Mar 24 19:12:38 2010
 +++ configure.in	Wed Mar 24 19:12:41 2010
 @@ -156,7 +156,7 @@ AC_CHECK_LIB(gtkgl-2.0, gtk_gl_area_new, have_libgtkgl

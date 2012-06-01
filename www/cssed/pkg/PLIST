@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/cssed/pkg/PLIST,v 1.2 2005/11/26 17:05:55 steven Exp $
+@comment $OpenBSD$
 bin/cssed
 lib/pkgconfig/
 lib/pkgconfig/cssed.pc

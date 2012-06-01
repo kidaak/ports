@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-CGI-SpeedyCGI/patches/patch-src_speedy_circ_h,v 1.1 2010/05/24 22:20:55 espie Exp $
+$OpenBSD$
 --- src/speedy_circ.h.orig	Tue May 25 00:17:34 2010
 +++ src/speedy_circ.h	Tue May 25 00:18:18 2010
 @@ -32,7 +32,7 @@ typedef struct {

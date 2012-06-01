@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xerces-c/patches/patch-tests_runConfigure,v 1.1.1.1 2008/10/26 23:15:18 ajacoutot Exp $
+$OpenBSD$
 --- tests/runConfigure.orig	Sun Oct 26 19:59:26 2008
 +++ tests/runConfigure	Sun Oct 26 20:00:24 2008
 @@ -45,7 +45,7 @@ usage()

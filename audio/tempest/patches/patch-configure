@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/tempest/patches/patch-configure,v 1.2 2001/08/14 23:02:58 pvalchev Exp $
+$OpenBSD$
 --- configure.orig	Tue Aug 14 16:51:14 2001
 +++ configure	Tue Aug 14 16:51:15 2001
 @@ -1076,6 +1076,8 @@ else

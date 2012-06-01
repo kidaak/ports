@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/rxvt/Makefile,v 1.46 2011/05/03 00:46:12 ian Exp $
+# $OpenBSD$
 
 COMMENT-main=	color, low memory usage, xterm replacement
 COMMENT-clock=	analog clock for X11 w/appoint. reminder and mail notif

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/pim3/patches/patch-configure_in,v 1.6 2008/03/26 09:15:47 espie Exp $
+$OpenBSD$
 --- configure.in.orig	Wed Feb 13 16:18:12 2008
 +++ configure.in	Tue Mar 25 22:27:11 2008
 @@ -402,29 +402,30 @@ if test -d "$with_opensync"; then

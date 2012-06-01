@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mirmon/Makefile,v 1.9 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	monitors the status of mirrors
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/fedora/Makefile,v 1.4 2011/09/21 15:22:15 sthen Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += base

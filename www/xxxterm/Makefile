@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/xxxterm/Makefile,v 1.28 2012/03/12 17:11:59 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		vi-like minimalists web browser
 DISTNAME =		xxxterm-1.11.3

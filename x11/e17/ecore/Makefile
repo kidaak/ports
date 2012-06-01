@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/ecore/Makefile,v 1.19 2011/11/18 12:20:33 nigel Exp $
+# $OpenBSD$
 
 COMMENT =		core event/X abstraction layer
 DISTNAME =		ecore-1.0.0

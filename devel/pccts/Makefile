@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pccts/Makefile,v 1.21 2007/09/16 02:53:10 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	Purdue Compiler Construction Tool Set 
 

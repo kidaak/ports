@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tkhtml/patches/patch-configure,v 1.1.1.1 2010/07/16 08:32:13 sebastia Exp $
+$OpenBSD$
 --- configure.orig	Mon Dec 28 12:53:41 2009
 +++ configure	Mon Dec 28 12:54:01 2009
 @@ -9545,7 +9545,7 @@ echo "${ECHO_T}$tcl_cv_ld_elf" >&6

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IPC-Run-SafeHandles/Makefile,v 1.5 2011/03/14 09:17:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	safe guarding for IPC::Run
 

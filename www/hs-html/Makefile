@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/hs-html/Makefile,v 1.10 2011/09/16 12:00:06 espie Exp $
+# $OpenBSD$
 
 COMMENT =		HTML combinator library
 

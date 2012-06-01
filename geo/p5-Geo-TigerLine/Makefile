@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/p5-Geo-TigerLine/Makefile,v 1.5 2010/12/20 00:00:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	parse TIGER/Line geographic data
 MODULES=	cpan

@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/games/alephone/scenarios/marathoninfinity/Makefile,v 1.6 2011/09/16 09:48:09 espie Exp $
+#	$OpenBSD$
 PKG_ARCH-main =		*
 PKG_ARCH-hires =	*
 

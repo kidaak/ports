@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/enscript/patches/patch-src_main_c,v 1.2 2008/12/09 15:23:55 jasper Exp $
+$OpenBSD$
 --- src/main.c.orig	Thu Jan 24 08:35:45 2002
 +++ src/main.c	Tue Dec  9 16:23:25 2008
 @@ -1546,9 +1546,13 @@ name             width\theight\tllx\tlly\turx\tury\n\

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gloox/patches/patch-Makefile_in,v 1.1.1.1 2010/07/28 14:20:50 sebastia Exp $
+$OpenBSD$
 
 do not hardocde the make
 

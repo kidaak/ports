@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/libxmlsd/pkg/PLIST,v 1.3 2011/10/25 18:58:07 dhill Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/xmlsd.h
 lib/libxmlsd.a

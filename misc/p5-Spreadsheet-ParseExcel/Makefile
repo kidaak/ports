@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-Spreadsheet-ParseExcel/Makefile,v 1.16 2011/03/18 16:00:57 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	get information from Excel spreadsheets
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/rtunes/Makefile,v 1.13 2011/06/23 22:50:27 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		Streams audio to Apple AirPort Express device
 

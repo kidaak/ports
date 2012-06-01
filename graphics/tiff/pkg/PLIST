@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/tiff/pkg/PLIST,v 1.18 2012/04/14 15:09:56 naddy Exp $
+@comment $OpenBSD$
 @bin bin/bmp2tiff
 @bin bin/fax2ps
 @bin bin/fax2tiff

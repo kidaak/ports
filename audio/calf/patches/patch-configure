@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/calf/patches/patch-configure,v 1.1.1.1 2010/10/23 21:52:00 jakemsr Exp $
+$OpenBSD$
 --- configure.orig	Wed May 20 15:10:18 2009
 +++ configure	Mon Feb  1 04:20:50 2010
 @@ -16619,7 +16619,7 @@ if test "${ac_cv_lib_jack_jack_port_register+set}" = s

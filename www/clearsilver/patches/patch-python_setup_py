@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/clearsilver/patches/patch-python_setup_py,v 1.4 2008/11/18 20:00:09 okan Exp $
+$OpenBSD$
 --- python/setup.py.orig	Tue Nov 18 14:53:47 2008
 +++ python/setup.py	Tue Nov 18 14:54:31 2008
 @@ -28,11 +28,11 @@ LDSHARED = "gcc -shared"

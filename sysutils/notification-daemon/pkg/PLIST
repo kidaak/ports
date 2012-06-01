@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/notification-daemon/pkg/PLIST,v 1.9 2012/03/29 06:25:42 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict notification-daemon-xfce-*
 @conflict xfce4-notifyd-*
 @bin libexec/notification-daemon

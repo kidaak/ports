@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-Box/Makefile,v 1.19 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		perl module to manage mail folders
 

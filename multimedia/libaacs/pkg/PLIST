@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/libaacs/pkg/PLIST,v 1.1.1.1 2012/03/30 13:15:59 phessler Exp $
+@comment $OpenBSD$
 include/libaacs/
 include/libaacs/aacs-version.h
 include/libaacs/aacs.h

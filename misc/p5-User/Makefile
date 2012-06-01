@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-User/Makefile,v 1.4 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		API for locating user information
 

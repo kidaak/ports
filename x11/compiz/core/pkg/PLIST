@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/compiz/core/pkg/PLIST,v 1.4 2010/11/12 14:22:13 jasper Exp $
+@comment $OpenBSD$
 @bin bin/compiz
 @bin bin/gtk-window-decorator
 include/compiz/

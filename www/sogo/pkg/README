@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/sogo/pkg/README,v 1.4 2012/03/31 17:02:23 sebastia Exp $
+# $OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

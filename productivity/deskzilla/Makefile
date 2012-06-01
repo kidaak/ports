@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/deskzilla/Makefile,v 1.6 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT =	desktop bugzilla browser
 

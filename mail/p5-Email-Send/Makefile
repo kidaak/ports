@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-Send/Makefile,v 1.11 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	simply sending email
 

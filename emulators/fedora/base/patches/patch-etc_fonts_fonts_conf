@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/fedora/base/patches/patch-etc_fonts_fonts_conf,v 1.1 2007/03/30 14:27:24 espie Exp $
+$OpenBSD$
 --- fonts.conf.orig	Thu Mar 29 21:39:47 2007
 +++ fonts.conf	Thu Mar 29 21:39:47 2007
 @@ -24,6 +24,7 @@

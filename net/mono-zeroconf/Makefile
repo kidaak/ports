@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mono-zeroconf/Makefile,v 1.7 2011/11/02 07:21:17 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Zero Configuration Networking library for Mono
 

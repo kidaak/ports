@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/psi/Makefile,v 1.16 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	multiplatform Jabber client
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/homebank/Makefile,v 1.20 2011/12/03 23:04:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	personal accounting application
 

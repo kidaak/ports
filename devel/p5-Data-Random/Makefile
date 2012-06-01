@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Random/Makefile,v 1.10 2012/01/26 12:04:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		perl module to generate random data
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libpano13/Makefile,v 1.10 2012/03/29 13:38:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		library for processing panoramic images
 DISTNAME =		libpano13-2.9.18

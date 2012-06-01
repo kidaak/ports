@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/stunnel/pkg/PLIST,v 1.12 2011/09/15 00:42:21 sthen Exp $
+@comment $OpenBSD$
 @newgroup _stunnel:528
 @newuser _stunnel:528:_stunnel:daemon:stunnel account:/var/stunnel:/sbin/nologin
 @extra /var/stunnel/stunnel.pid

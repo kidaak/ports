@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/aumix/pkg/PLIST,v 1.6 2004/08/05 16:14:48 espie Exp $
+@comment $OpenBSD$
 bin/aumix
 @man man/man1/aumix.1
 share/aumix/

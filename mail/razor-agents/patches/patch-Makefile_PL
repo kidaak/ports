@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/razor-agents/patches/patch-Makefile_PL,v 1.1 2006/08/03 15:18:40 steven Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Thu Aug  3 17:11:22 2006
 +++ Makefile.PL	Thu Aug  3 17:11:36 2006
 @@ -57,7 +57,7 @@ MAN5PODS = docs/razor-agent.conf.pod \

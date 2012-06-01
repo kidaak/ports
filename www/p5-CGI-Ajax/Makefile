@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CGI-Ajax/Makefile,v 1.8 2010/11/22 08:36:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=	AJAX framework for perl
 

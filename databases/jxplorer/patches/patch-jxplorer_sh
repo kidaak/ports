@@ -1,9 +1,9 @@
-$OpenBSD: ports/databases/jxplorer/patches/patch-jxplorer_sh,v 1.2 2011/12/15 21:53:26 kili Exp $
+$OpenBSD$
 --- jxplorer.sh.orig	Mon Feb 26 21:08:36 2007
 +++ jxplorer.sh	Wed Dec 14 22:44:15 2011
 @@ -1,24 +1,18 @@
  #!/bin/sh
- # OpenDirectory  jxstart.sh $Revision: 1.13 $  $Date: 2006/04/18 04:12:12 $
+ # OpenDirectory  jxstart.sh $Revision$  $Date$
  
 -if [ -x $JAVA_HOME/bin/java ]; then
 -   JAVA_LOC=$JAVA_HOME/bin/java

@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/recordmydesktop/base/patches/patch-src_rmd_make_dummy_pointer_c,v 1.1 2009/04/14 18:43:39 jasper Exp $
+$OpenBSD$
 
 Include missing header to prevent 64-bit issues.
 

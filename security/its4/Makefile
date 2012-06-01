@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/its4/Makefile,v 1.27 2011/06/01 23:34:53 kili Exp $
+# $OpenBSD$
 
 COMMENT=	scan C/C++ source code for security problems
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/archiveopteryx/patches/patch-scripts_Jamfile,v 1.1.1.1 2011/01/09 09:36:21 landry Exp $
+$OpenBSD$
 No need to install init.d-like shell script
 --- scripts/Jamfile.orig	Thu Apr  8 23:46:46 2010
 +++ scripts/Jamfile	Thu Apr  8 23:47:10 2010

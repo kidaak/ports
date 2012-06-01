@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/theme-zen/Makefile,v 1.5 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	flexible, semantically correct XHTML theme for drupal
 DISTNAME=	zen-6.x-2.0

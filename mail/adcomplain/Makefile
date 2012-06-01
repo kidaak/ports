@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/adcomplain/Makefile,v 1.20 2007/09/16 00:17:04 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	complain about SPAM
 

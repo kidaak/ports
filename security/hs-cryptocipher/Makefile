@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hs-cryptocipher/Makefile,v 1.5 2011/09/16 11:41:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=		symmetrical block and stream ciphers
 

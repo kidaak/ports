@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/klaxon/Makefile,v 1.9 2007/09/15 23:29:58 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	small service wedge to do ident lookup on connecting party
 

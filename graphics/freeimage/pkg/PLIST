@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/freeimage/pkg/PLIST,v 1.1.1.1 2009/03/20 13:53:04 eric Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/FreeImage.h
 lib/libfreeimage.a

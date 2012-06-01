@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/uuid/Makefile,v 1.43 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

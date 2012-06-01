@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/glimpse/patches/patch-Makefile_in,v 1.1 2004/01/04 18:42:42 espie Exp $
+$OpenBSD$
 --- Makefile.in.orig	2004-01-04 19:38:04.000000000 +0100
 +++ Makefile.in	2004-01-04 19:38:10.000000000 +0100
 @@ -32,7 +32,7 @@ TEMPLATESRC     = $(srcdir)/$(TEMPLATEDI

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nmap/patches/patch-libnetutil_netutil_cc,v 1.1 2011/03/28 09:01:24 giovanni Exp $
+$OpenBSD$
 --- libnetutil/netutil.cc.orig	Wed Feb  2 16:14:26 2011
 +++ libnetutil/netutil.cc	Wed Feb  2 16:15:38 2011
 @@ -3424,10 +3424,6 @@ void set_pcap_filter(const char *device, pcap_t *pd, c

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/espeak/Makefile,v 1.8 2010/11/15 00:22:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=		compact speech synthesizer
 

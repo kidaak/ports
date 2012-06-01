@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-fgl/Makefile,v 1.13 2011/12/31 22:11:19 kili Exp $
+# $OpenBSD$
 
 COMMENT =		functional graph library
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/e/patches/patch-src_modules_cpufreq_Makefile_in,v 1.2 2011/01/16 01:00:11 laurent Exp $
+$OpenBSD$
 --- src/modules/cpufreq/Makefile.in.orig	Sat Jan  8 15:37:16 2011
 +++ src/modules/cpufreq/Makefile.in	Sat Jan  8 15:37:26 2011
 @@ -443,7 +443,7 @@ module_la_LIBADD = @e_libs@ @dlopen_libs@

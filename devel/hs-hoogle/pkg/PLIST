@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-hoogle/pkg/PLIST,v 1.2 2012/01/15 17:21:48 kili Exp $
+@comment $OpenBSD$
 @newgroup _hoogle:689
 @newuser _hoogle:689:_hoogle:daemon:Hoogle account:/nonexistent:/sbin/nologin
 @bin bin/hoogle

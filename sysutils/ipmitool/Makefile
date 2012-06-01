@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ipmitool/Makefile,v 1.8 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		manage and configure devices that supports IPMI
 

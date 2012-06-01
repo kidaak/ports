@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/lcms/Makefile,v 1.23 2010/11/17 08:05:14 espie Exp $
+# $OpenBSD$
 
 COMMENT =	color management library
 

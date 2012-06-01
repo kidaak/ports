@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-vorbis/Makefile,v 1.5 2011/10/12 12:54:30 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/awl/pkg/PLIST,v 1.2 2012/03/05 18:19:55 landry Exp $
+@comment $OpenBSD$
 awl/
 awl/README
 awl/dba/

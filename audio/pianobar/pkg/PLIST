@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/pianobar/pkg/PLIST,v 1.5 2011/07/11 13:31:14 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/pianobar
 include/piano.h
 lib/libpiano.a

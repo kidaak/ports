@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/axe/patches/patch-Widgets_AxeTextDeck_c,v 1.1 2001/08/22 00:04:41 naddy Exp $
+$OpenBSD$
 --- Widgets/AxeTextDeck.c.orig	Wed Aug 22 01:00:20 2001
 +++ Widgets/AxeTextDeck.c	Wed Aug 22 01:01:32 2001
 @@ -177,7 +177,7 @@ Initialize(req, new, args, num_args)

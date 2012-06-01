@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-Symbolic/Makefile,v 1.5 2011/08/18 19:04:16 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	symbolic calculations for Perl
 DISTNAME =	Math-Symbolic-0.606

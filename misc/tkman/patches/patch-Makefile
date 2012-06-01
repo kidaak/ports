@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/tkman/patches/patch-Makefile,v 1.4 2011/01/05 17:34:17 stu Exp $
+$OpenBSD$
 --- Makefile.orig	Fri Dec 10 19:26:34 2010
 +++ Makefile	Fri Dec 10 19:35:54 2010
 @@ -25,7 +25,7 @@ mintk = 8.4

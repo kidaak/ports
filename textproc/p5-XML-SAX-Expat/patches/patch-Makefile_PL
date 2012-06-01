@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/p5-XML-SAX-Expat/patches/patch-Makefile_PL,v 1.2 2008/10/10 12:50:53 jasper Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Fri Oct 10 14:44:21 2008
 +++ Makefile.PL	Fri Oct 10 14:44:37 2008
 @@ -23,7 +23,7 @@ WriteMakefile(

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/webalizer/pkg/PLIST,v 1.6 2011/01/05 08:19:18 giovanni Exp $
+@comment $OpenBSD$
 @bin bin/wcmgr
 @bin bin/webalizer
 bin/webazolver

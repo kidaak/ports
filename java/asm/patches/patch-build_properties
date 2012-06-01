@@ -1,4 +1,4 @@
-$OpenBSD: ports/java/asm/patches/patch-build_properties,v 1.1.1.1 2011/09/21 13:38:21 jasper Exp $
+$OpenBSD$
 
 This needs to be set in order for ant to think the build was configured.
 

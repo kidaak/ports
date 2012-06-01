@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/qimageblitz/pkg/PLIST,v 1.2 2010/06/18 09:33:45 espie Exp $
+@comment $OpenBSD$
 @bin bin/blitztest
 include/qimageblitz/
 include/qimageblitz/blitzcpu.h

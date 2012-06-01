@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/simh/patches/patch-VAX_vax780_sbi_c,v 1.4 2009/03/06 10:33:23 form Exp $
+$OpenBSD$
 --- VAX/vax780_sbi.c.orig	Tue Nov 18 10:37:06 2008
 +++ VAX/vax780_sbi.c	Tue Feb 10 22:38:53 2009
 @@ -34,6 +34,10 @@

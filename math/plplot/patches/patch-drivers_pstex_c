@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/plplot/patches/patch-drivers_pstex_c,v 1.2 2009/04/05 16:21:55 steven Exp $
+$OpenBSD$
 --- drivers/pstex.c.orig	Sun Nov 18 21:04:10 2007
 +++ drivers/pstex.c	Fri May 23 21:10:35 2008
 @@ -231,7 +231,8 @@ proc_str (PLStream *pls, EscText *args)

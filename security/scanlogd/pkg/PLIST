@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/scanlogd/pkg/PLIST,v 1.4 2012/01/26 08:03:57 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _scanlogd:514
 @newuser _scanlogd:514:_scanlogd:daemon:scanlogd:/nonexistent:/sbin/nologin
 @man man/man8/scanlogd.8

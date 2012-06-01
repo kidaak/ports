@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/enchant/pkg/PLIST,v 1.5 2009/01/12 13:04:09 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/enchant
 @bin bin/enchant-lsmod

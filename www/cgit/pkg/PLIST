@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/cgit/pkg/PLIST,v 1.1.1.1 2011/04/03 10:27:24 landry Exp $
+@comment $OpenBSD$
 @group daemon
 @bin cgi-bin/cgit.cgi
 conf/modules.sample/cgit.conf.dist

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/stone-soup/patches/patch-source_makefile,v 1.1 2011/12/16 15:03:03 stsp Exp $
+$OpenBSD$
 honour CFLAGS
 --- source/makefile.orig	Fri Dec 16 12:05:58 2011
 +++ source/makefile	Fri Dec 16 12:06:50 2011

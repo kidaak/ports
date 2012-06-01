@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-mutagen/patches/patch-tools_mid3v2,v 1.1 2011/05/31 09:49:52 dcoppa Exp $
+$OpenBSD$
 
 Add --TXXX support to mid3v2
 (upstream revision r97)

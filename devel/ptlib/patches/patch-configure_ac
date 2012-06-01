@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/patch-configure_ac,v 1.4 2012/03/02 09:03:52 ajacoutot Exp $
+$OpenBSD$
 --- configure.ac.orig	Tue Feb 21 23:57:26 2012
 +++ configure.ac	Fri Mar  2 08:37:06 2012
 @@ -201,7 +201,7 @@ case "$target_os" in

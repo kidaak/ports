@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/freemat/pkg/PLIST,v 1.8 2010/10/24 19:28:51 steven Exp $
+@comment $OpenBSD$
 @comment bin/blas.ini
 @bin bin/freemat
 share/FreeMat-${V}/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Test-Reporter/pkg/PLIST,v 1.3 2008/10/08 22:27:06 simon Exp $
+@comment $OpenBSD$
 bin/cpantest
 ${P5SITE}/Test/
 ${P5SITE}/Test/Reporter/

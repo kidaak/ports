@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/bing/Makefile,v 1.24 2010/10/18 18:36:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	point-to-point bandwidth measurement tool
 

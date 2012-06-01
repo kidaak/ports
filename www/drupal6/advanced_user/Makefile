@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/advanced_user/Makefile,v 1.4 2012/01/28 11:33:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	advanced user notification for drupal
 

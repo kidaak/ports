@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-ncurses/Makefile,v 1.33 2011/12/02 19:34:42 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		Ruby interface to ncurses
 

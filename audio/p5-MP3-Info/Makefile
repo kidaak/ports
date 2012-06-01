@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-MP3-Info/Makefile,v 1.21 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	read MPEG1-Layer3 tags
 

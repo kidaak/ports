@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icecast/patches/patch-conf_icecast_xml_in,v 1.5 2008/11/18 21:22:02 pea Exp $
+$OpenBSD$
 --- conf/icecast.xml.in.orig	Fri Apr  4 17:14:10 2008
 +++ conf/icecast.xml.in	Fri Nov  7 13:38:41 2008
 @@ -125,14 +125,14 @@

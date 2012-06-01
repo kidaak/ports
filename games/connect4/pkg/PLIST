@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/connect4/pkg/PLIST,v 1.8 2007/12/04 15:00:20 ajacoutot Exp $
+@comment $OpenBSD$
 @mode 2755
 @group games
 bin/connect4

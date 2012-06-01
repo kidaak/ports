@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/minisat/patches/patch-core_Main_cc,v 1.1 2010/08/19 14:19:22 edd Exp $
+$OpenBSD$
 
 OpenBSD has no RLIMIT_AS
 

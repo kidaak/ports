@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Data-Validate/pkg/PLIST,v 1.1.1.1 2010/06/17 21:49:36 bluhm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Data/
 ${P5SITE}/Data/Validate.pm
 ${P5SITE}/auto/

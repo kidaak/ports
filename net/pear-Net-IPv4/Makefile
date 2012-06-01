@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-IPv4/Makefile,v 1.8 2011/12/19 14:52:21 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	IPv4 address handling tools for PHP
 

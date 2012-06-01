@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/rhythmbox/patches/patch-plugins_audioscrobbler_rb-audioscrobbler-entry_c,v 1.2 2012/03/12 07:42:11 ajacoutot Exp $
+$OpenBSD$
 
 warning: format '%ld' expects type 'long int', but argument 2 has type 'time_t'
 

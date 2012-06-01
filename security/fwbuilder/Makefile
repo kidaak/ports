@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/fwbuilder/Makefile,v 1.28 2012/01/07 13:45:24 sthen Exp $
+# $OpenBSD$
 
 # Consumes more than 512MB on at least i386 when building qrc_MainRes.o
 VMEM_WARNING =	Yes

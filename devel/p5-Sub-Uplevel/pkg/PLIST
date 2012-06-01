@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Sub-Uplevel/pkg/PLIST,v 1.4 2008/10/12 20:44:12 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Sub/
 ${P5SITE}/Sub/Uplevel.pm
 ${P5SITE}/Sub/Uplevel.pod

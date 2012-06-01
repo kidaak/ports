@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libmusicbrainz/pkg/PLIST,v 1.1.1.1 2008/03/25 09:19:23 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/musicbrainz3/
 include/musicbrainz3/artist.h

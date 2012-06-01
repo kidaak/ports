@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/strigi/patches/patch-src_archiveengine_CMakeLists_txt,v 1.3 2010/06/16 13:35:43 espie Exp $
+$OpenBSD$
 --- src/archiveengine/CMakeLists.txt.orig	Sun Feb  1 20:56:04 2009
 +++ src/archiveengine/CMakeLists.txt	Fri May 28 22:32:13 2010
 @@ -15,4 +15,4 @@ add_library(archiveengine STATIC

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/poptop/pkg/PLIST,v 1.11 2011/04/04 16:44:54 giovanni Exp $
+@comment $OpenBSD$
 @man man/man5/pptpd.conf.5
 @man man/man8/pptpctrl.8
 @man man/man8/pptpd.8

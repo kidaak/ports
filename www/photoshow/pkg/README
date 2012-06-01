@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/photoshow/pkg/README,v 1.1.1.1 2011/12/04 11:04:27 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/inputmethods/uim-tomoe-gtk/pkg/PLIST,v 1.1.1.1 2006/10/19 00:53:12 espie Exp $
+@comment $OpenBSD$
 bin/uim-tomoe-gtk

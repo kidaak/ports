@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/phonon/Makefile,v 1.5 2010/11/19 07:23:15 espie Exp $
+# $OpenBSD$
 
 COMMENT =	multimedia layer from qt4/kde4
 CATEGORIES =	multimedia devel

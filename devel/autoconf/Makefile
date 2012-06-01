@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/autoconf/Makefile,v 1.39 2011/05/12 00:18:11 sthen Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += 2.13

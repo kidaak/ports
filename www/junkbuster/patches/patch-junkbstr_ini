@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/junkbuster/patches/patch-junkbstr_ini,v 1.2 2001/06/09 02:36:48 angelos Exp $
+$OpenBSD$
 --- junkbstr.ini.orig	Fri Oct 30 22:58:47 1998
 +++ junkbstr.ini	Fri Jun  8 22:04:40 2001
 @@ -16,31 +16,31 @@

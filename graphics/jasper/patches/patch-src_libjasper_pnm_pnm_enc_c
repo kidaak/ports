@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_pnm_pnm_enc_c,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/pnm/pnm_enc.c.orig	Fri May 16 20:47:04 2008
 +++ src/libjasper/pnm/pnm_enc.c	Fri May 16 20:47:21 2008
 @@ -374,7 +374,7 @@ static int pnm_putdata(jas_stream_t *out, pnm_hdr_t *h

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/mtr/patches/patch-gtk_c,v 1.2 2010/08/19 16:56:45 jasper Exp $
+$OpenBSD$
 
 Fix 64-bit issue.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/streamripper/patches/patch-lib_iconvert_c,v 1.1 2011/12/01 18:57:48 shadchin Exp $
+$OpenBSD$
 --- lib/iconvert.c.orig	Mon Nov 21 00:23:32 2011
 +++ lib/iconvert.c	Mon Nov 21 00:23:39 2011
 @@ -15,6 +15,7 @@

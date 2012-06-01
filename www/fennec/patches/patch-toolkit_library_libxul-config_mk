@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-toolkit_library_libxul-config_mk,v 1.7 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 Ensure systemwide nss is taken
 Ensure local libjs is taken (build failure when spidermonkey is installed,
 its libjs_static.a is found first in lib search path)

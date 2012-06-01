@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/Makefile.inc,v 1.12 2010/07/10 16:57:22 espie Exp $
+# $OpenBSD$
 
 FLAVOR ?=
 FLAVORS ?=		debug

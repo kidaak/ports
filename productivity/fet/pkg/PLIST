@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/fet/pkg/PLIST,v 1.5 2010/09/01 12:43:54 jasper Exp $
+@comment $OpenBSD$
 @bin bin/fet
 @man man/man1/fet.1
 share/doc/fet/

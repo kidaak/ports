@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/expect/pkg/PLIST,v 1.22 2010/09/24 14:16:50 sebastia Exp $
+@comment $OpenBSD$
 bin/autoexpect
 bin/autopasswd
 bin/cryptdir

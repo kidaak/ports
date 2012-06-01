@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/libxslt/Makefile,v 1.71 2011/10/15 12:55:14 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=		XSLT C Library for GNOME
 COMMENT-python= 	Python bindings for libxslt

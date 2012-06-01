@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-actionpack/Makefile,v 1.31 2011/12/13 17:50:23 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	eases web-request routing, handling, and response
 

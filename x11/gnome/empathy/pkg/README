@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/empathy/pkg/README,v 1.4 2012/04/02 06:40:06 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

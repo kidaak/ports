@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openvpn/patches/patch-tun_c,v 1.1 2012/01/23 18:07:21 sthen Exp $
+$OpenBSD$
 --- tun.c.orig	Tue Dec 13 16:58:56 2011
 +++ tun.c	Thu Jan 12 09:04:48 2012
 @@ -776,7 +776,19 @@ do_ifconfig (struct tuntap *tt,

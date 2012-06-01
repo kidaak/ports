@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-Digest/Makefile,v 1.10 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module for computing digests while reading or writing
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/xml2rfc/Makefile,v 1.33 2010/08/31 08:15:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	convert memos written in XML to the RFC format
 

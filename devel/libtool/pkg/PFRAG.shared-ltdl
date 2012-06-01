@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libtool/pkg/PFRAG.shared-ltdl,v 1.5 2005/12/23 17:02:46 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libltdl.so.${LIBltdl_VERSION}

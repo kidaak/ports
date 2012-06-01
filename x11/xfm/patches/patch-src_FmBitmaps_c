@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfm/patches/patch-src_FmBitmaps_c,v 1.2 2010/01/03 22:53:32 jasper Exp $
+$OpenBSD$
 --- src/FmBitmaps.c.orig	Wed Oct 29 07:02:05 1997
 +++ src/FmBitmaps.c	Sun Jan  3 01:03:08 2010
 @@ -489,7 +489,7 @@

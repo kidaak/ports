@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/matchbox/matchbox-keyboard/pkg/PLIST,v 1.4 2009/12/21 20:46:02 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/matchbox-keyboard
 share/applications/matchbox-keyboard.desktop
 share/matchbox-keyboard/

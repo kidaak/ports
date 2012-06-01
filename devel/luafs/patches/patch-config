@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/luafs/patches/patch-config,v 1.7 2009/09/06 19:25:22 jolan Exp $
+$OpenBSD$
 --- config.orig	Sun Sep  6 14:21:39 2009
 +++ config	Sun Sep  6 14:22:00 2009
 @@ -1,24 +1,24 @@
@@ -32,4 +32,4 @@ $OpenBSD: ports/devel/luafs/patches/patch-config,v 1.7 2009/09/06 19:25:22 jolan
 +CFLAGS+= -fPIC $(INCS)
 +#CC= gcc
  
- # $Id: config,v 1.21 2007/10/27 22:42:32 carregal Exp $
+ # $Id$

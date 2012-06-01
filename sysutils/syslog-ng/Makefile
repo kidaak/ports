@@ -1,10 +1,10 @@
-# $OpenBSD: ports/sysutils/syslog-ng/Makefile,v 1.24 2012/04/01 20:38:19 steven Exp $
+# $OpenBSD$
 
 COMMENT=	syslogd replacement
 
 V =		3.1.4
 DISTNAME =	syslog-ng-$V
-REVISION =	2
+REVISION =	5
 CATEGORIES =	sysutils
 
 MAINTAINER =	Steven Mestdagh <steven@openbsd.org>

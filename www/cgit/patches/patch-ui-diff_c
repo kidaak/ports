@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/cgit/patches/patch-ui-diff_c,v 1.2 2012/03/06 17:17:09 landry Exp $
+$OpenBSD$
 
 Security fix for CVE-2011-2711, cgit Rename Hint Script Insertion Vulnerability
 http://hjemli.net/pipermail/cgit/2011-July/000276.html

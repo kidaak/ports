@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/wmmail/pkg/PLIST,v 1.2 2004/09/15 09:09:45 espie Exp $
+@comment $OpenBSD$
 GNUstep/Apps/WMMail.app/
 GNUstep/Apps/WMMail.app/Anims/
 GNUstep/Apps/WMMail.app/Anims/NeXT/

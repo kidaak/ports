@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.65/patches/patch-doc_autoconf_texi,v 1.1.1.1 2010/03/22 20:54:07 espie Exp $
+$OpenBSD$
 --- doc/autoconf.texi.orig	Thu Nov  5 03:42:15 2009
 +++ doc/autoconf.texi	Mon Mar  8 12:26:47 2010
 @@ -222,27 +222,27 @@ freedom.''

@@ -1,4 +1,4 @@
-$OpenBSD: ports/shells/zsh/patches/patch-Completion_Unix_Command__tmux,v 1.2 2009/12/16 15:03:28 pea Exp $
+$OpenBSD$
 --- Completion/Unix/Command/_tmux.orig	Thu Dec 10 17:25:18 2009
 +++ Completion/Unix/Command/_tmux	Thu Dec 10 17:27:19 2009
 @@ -0,0 +1,1491 @@

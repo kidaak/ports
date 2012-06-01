@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ldns/libldns/pkg/PLIST,v 1.6 2011/10/17 19:41:24 jakob Exp $
+@comment $OpenBSD$
 @conflict ldns-*
 %%SHARED%%
 bin/ldns-config

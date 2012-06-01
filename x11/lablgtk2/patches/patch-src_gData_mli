@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/lablgtk2/patches/patch-src_gData_mli,v 1.1 2011/04/18 05:30:12 dcoppa Exp $
+$OpenBSD$
 
 Fix for "adjustment with non-zero page size" warning messages with
 newer gtk+2

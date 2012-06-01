@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xmascot/Makefile,v 1.23 2010/10/24 21:15:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	moving mascot on your X11 screen
 

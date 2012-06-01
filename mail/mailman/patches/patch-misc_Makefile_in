@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailman/patches/patch-misc_Makefile_in,v 1.6 2009/05/02 09:56:44 djm Exp $
+$OpenBSD$
 --- misc/Makefile.in.orig	Tue Feb 24 08:23:35 2009
 +++ misc/Makefile.in	Sat Apr 25 12:00:40 2009
 @@ -74,6 +74,10 @@ ICONS=		$(srcdir)/*.jpg $(srcdir)/*.png

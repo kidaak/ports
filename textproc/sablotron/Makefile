@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/sablotron/Makefile,v 1.35 2010/11/20 19:56:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	fast, compact and portable XSL/XSLT processor
 

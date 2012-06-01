@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/tgif/Makefile,v 1.35 2011/07/16 09:30:10 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	two-dimensional drawing tool and hyper-object browser
 

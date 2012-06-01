@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qgis/patches/patch-src_core_CMakeLists_txt,v 1.5 2011/07/07 20:34:27 landry Exp $
+$OpenBSD$
 --- src/core/CMakeLists.txt.orig	Sun Jun  5 13:59:48 2011
 +++ src/core/CMakeLists.txt	Mon Jun 27 15:28:09 2011
 @@ -339,9 +339,9 @@ ENDIF(APPLE)

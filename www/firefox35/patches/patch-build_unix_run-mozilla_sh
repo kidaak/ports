@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-build_unix_run-mozilla_sh,v 1.1 2010/10/27 12:59:29 landry Exp $
+$OpenBSD$
 help to find our debugger
 --- build/unix/run-mozilla.sh.orig	Wed Oct 27 12:52:10 2010
 +++ build/unix/run-mozilla.sh	Wed Oct 27 12:52:26 2010

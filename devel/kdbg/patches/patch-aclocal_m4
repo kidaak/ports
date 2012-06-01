@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/kdbg/patches/patch-aclocal_m4,v 1.1 2003/03/01 07:08:34 pvalchev Exp $
+$OpenBSD$
 --- aclocal.m4.orig	Wed Mar 20 14:23:10 2002
 +++ aclocal.m4	Fri Feb 28 22:50:06 2003
 @@ -606,7 +606,7 @@ ac_libs_safe="$LIBS"

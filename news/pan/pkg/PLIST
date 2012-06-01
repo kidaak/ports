@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/news/pan/pkg/PLIST,v 1.12 2010/09/13 16:23:47 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/pan
 share/applications/pan.desktop
 share/pixmaps/

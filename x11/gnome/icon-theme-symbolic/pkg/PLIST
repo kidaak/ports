@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/icon-theme-symbolic/pkg/PLIST,v 1.7 2012/03/29 06:36:20 ajacoutot Exp $
+@comment $OpenBSD$
 share/icons/gnome/scalable/
 share/icons/gnome/scalable/actions/
 share/icons/gnome/scalable/actions/action-unavailable-symbolic.svg

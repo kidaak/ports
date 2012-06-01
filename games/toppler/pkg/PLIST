@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/toppler/pkg/PLIST,v 1.7 2009/12/22 16:28:01 ajacoutot Exp $
+@comment $OpenBSD$
 @mode g+s
 @group games
 bin/toppler

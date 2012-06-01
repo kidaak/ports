@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-URI-Find/Makefile,v 1.8 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		find URIs in arbitrary text
 

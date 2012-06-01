@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Scope-Guard/Makefile,v 1.4 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=        lexically scoped resource management
 

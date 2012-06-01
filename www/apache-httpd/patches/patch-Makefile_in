@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/apache-httpd/patches/patch-Makefile_in,v 1.5 2008/09/02 22:05:23 bernd Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Jul 24 12:22:37 2008
 +++ Makefile.in	Thu Jul 24 12:24:01 2008
 @@ -48,6 +48,8 @@ install-conf:

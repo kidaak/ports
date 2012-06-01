@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-validatable/Makefile,v 1.9 2011/09/16 08:48:05 espie Exp $
+# $OpenBSD$
 
 COMMENT =		provide ActiveRecord looking validations
 

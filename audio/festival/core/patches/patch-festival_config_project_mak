@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-festival_config_project_mak,v 1.1 2004/07/11 06:27:07 jolan Exp $
+$OpenBSD$
 --- festival/config/project.mak.orig	2003-01-24 18:15:34.000000000 -0600
 +++ festival/config/project.mak	2004-05-06 15:39:06.000000000 -0500
 @@ -70,8 +70,8 @@ ALL_MODULES = \

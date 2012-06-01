@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/multimedia/libass/pkg/PFRAG.shared,v 1.1.1.1 2011/06/23 09:03:37 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libass.so.${LIBass_VERSION}

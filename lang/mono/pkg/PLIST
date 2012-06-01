@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/mono/pkg/PLIST,v 1.13 2012/04/13 11:51:49 robert Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/al
 bin/al2

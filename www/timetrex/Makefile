@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/timetrex/Makefile,v 1.37 2012/03/15 12:48:05 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	web-based payroll and time management suite
 

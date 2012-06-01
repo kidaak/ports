@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/libdbi/pkg/PLIST,v 1.1.1.1 2009/06/02 00:57:57 merdely Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/dbi/
 include/dbi/dbd.h

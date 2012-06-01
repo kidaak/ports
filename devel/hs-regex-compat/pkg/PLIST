@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-regex-compat/pkg/PLIST,v 1.5 2011/04/11 14:46:30 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/HS${DISTNAME}.o
 lib/ghc/${DISTNAME}/Text/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xmris/pkg/PLIST,v 1.4 2004/09/15 00:46:12 espie Exp $
+@comment $OpenBSD$
 bin/xmred
 bin/xmris
 bin/xmsit

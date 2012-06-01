@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/xulrunner/1.9/pkg/PLIST-main,v 1.10 2011/01/14 22:50:38 landry Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict xulrunner->=1.9
 @unexec xulrunner1.9 --unregister-global

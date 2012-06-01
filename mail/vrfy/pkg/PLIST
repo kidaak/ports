@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/vrfy/pkg/PLIST,v 1.4 2004/09/15 09:09:45 espie Exp $
+@comment $OpenBSD$
 bin/vrfy
 @man man/man1/vrfy.1
 share/doc/vrfy/

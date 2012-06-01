@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-Ogg-Vorbis-Header-PurePerl/pkg/PLIST,v 1.1.1.1 2008/02/04 20:09:39 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Ogg/
 ${P5SITE}/Ogg/Vorbis/
 ${P5SITE}/Ogg/Vorbis/Header/

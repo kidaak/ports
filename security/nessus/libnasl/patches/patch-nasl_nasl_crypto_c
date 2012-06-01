@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/nessus/libnasl/patches/patch-nasl_nasl_crypto_c,v 1.1 2010/10/12 22:05:21 robert Exp $
+$OpenBSD$
 --- nasl/nasl_crypto.c.orig	Tue Oct 12 20:52:08 2010
 +++ nasl/nasl_crypto.c	Tue Oct 12 20:54:14 2010
 @@ -22,7 +22,9 @@

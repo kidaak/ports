@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xdg-user-dirs-gtk/Makefile,v 1.15 2012/04/03 15:57:05 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	integration of xdg-user-dirs into GNOME/gtk+
 

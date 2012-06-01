@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/mecab/Makefile,v 1.1.1.1 2012/03/20 23:43:12 fgsch Exp $
+# $OpenBSD$
 
 COMMENT-main =	japanese morphological analyzer engine
 COMMENT-ipadic = IPA japanese dictionary for mecab

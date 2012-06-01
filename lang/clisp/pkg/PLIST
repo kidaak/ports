@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/clisp/pkg/PLIST,v 1.15 2010/11/09 21:28:36 naddy Exp $
+@comment $OpenBSD$
 @bin bin/clisp
 lib/clisp/
 lib/clisp/base/

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/textproc/py-xml/pkg/PFRAG.pyexpat,v 1.4 2006/09/22 10:39:27 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/_xmlplus/parsers/pyexpat.so

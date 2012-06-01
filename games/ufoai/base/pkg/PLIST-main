@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/ufoai/base/pkg/PLIST-main,v 1.3 2011/12/18 11:36:51 stsp Exp $
+@comment $OpenBSD$
 bin/ufoai
 bin/ufoded
 @man man/man6/ufoai.6

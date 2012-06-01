@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/myhdl/Makefile,v 1.1.1.1 2011/09/16 13:46:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Python as a hardware description and verification language
 

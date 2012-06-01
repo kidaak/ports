@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-regex-pcre-builtin/Makefile,v 1.10 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 # XXX use system pcre instead of the one included the distfile
 

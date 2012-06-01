@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-blinker/Makefile,v 1.1.1.1 2011/12/29 15:09:15 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =	fast, simple object-to-object and broadcast signaling
 

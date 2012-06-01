@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/json-glib/Makefile,v 1.19 2011/10/26 11:52:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		JSON parser for GLib-based libraries and applications
 

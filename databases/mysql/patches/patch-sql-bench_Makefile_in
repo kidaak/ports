@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mysql/patches/patch-sql-bench_Makefile_in,v 1.5 2010/12/26 08:23:17 ajacoutot Exp $
+$OpenBSD$
 --- sql-bench/Makefile.in.orig	Mon Nov 29 05:42:33 2010
 +++ sql-bench/Makefile.in	Tue Dec 14 20:38:01 2010
 @@ -380,7 +380,7 @@ yassl_taocrypt_extra_cxxflags = @yassl_taocrypt_extra_

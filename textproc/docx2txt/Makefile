@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/docx2txt/Makefile,v 1.1.1.1 2011/04/05 15:09:50 schwarze Exp $
+# $OpenBSD$
 
 COMMENT =		command line converter from Microsoft docx to ASCII text
 DISTNAME =		docx2txt-1.0

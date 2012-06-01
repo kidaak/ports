@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/slrn/patches/patch-configure,v 1.2 2009/10/13 21:49:02 sthen Exp $
+$OpenBSD$
 --- configure.orig	Tue Aug 26 17:21:08 2008
 +++ configure	Sat Oct 10 20:33:28 2009
 @@ -14216,7 +14216,7 @@ CANLOCK_LIB!$CANLOCK_LIB$ac_delim

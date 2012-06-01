@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/wmcalc/Makefile,v 1.18 2011/11/03 20:28:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; simple four-function calculator
 

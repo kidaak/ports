@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-glade/Makefile,v 1.8 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell bindings to libglade2
 

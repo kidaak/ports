@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/sdd/patches/patch-RULES_mk-gmake_id,v 1.1 2009/10/10 10:52:54 espie Exp $
+$OpenBSD$
 --- RULES/mk-gmake.id.orig	Sat Oct 10 12:50:49 2009
 +++ RULES/mk-gmake.id	Sat Oct 10 12:50:57 2009
 @@ -37,7 +37,7 @@ MAKEPROG=	gmake

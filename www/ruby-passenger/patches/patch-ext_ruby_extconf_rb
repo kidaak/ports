@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-ext_ruby_extconf_rb,v 1.1 2011/12/13 18:38:18 jeremy Exp $
+$OpenBSD$
 
 Allowing building passenger_native_support ruby extension with
 ruby 1.9.

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/kslide/pkg/PLIST,v 1.2 2004/09/15 00:46:09 espie Exp $
+@comment $OpenBSD$
 bin/kslide
 share/applnk/
 share/applnk/Games/

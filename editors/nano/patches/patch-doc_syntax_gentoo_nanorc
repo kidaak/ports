@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nano/patches/patch-doc_syntax_gentoo_nanorc,v 1.1 2009/12/01 19:39:31 naddy Exp $
+$OpenBSD$
 --- doc/syntax/gentoo.nanorc.orig	Sun Nov 22 17:34:31 2009
 +++ doc/syntax/gentoo.nanorc	Tue Dec  1 18:48:12 2009
 @@ -4,28 +4,28 @@ syntax "ebuild" "\.e(build|class)$"

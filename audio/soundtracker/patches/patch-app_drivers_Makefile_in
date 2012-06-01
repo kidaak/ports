@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/soundtracker/patches/patch-app_drivers_Makefile_in,v 1.4 2009/12/19 22:59:27 jakemsr Exp $
+$OpenBSD$
 --- app/drivers/Makefile.in.orig	Sat Feb 25 05:37:16 2006
 +++ app/drivers/Makefile.in	Fri Dec 18 19:16:40 2009
 @@ -190,7 +190,7 @@ target_vendor = @target_vendor@

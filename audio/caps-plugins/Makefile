@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/caps-plugins/Makefile,v 1.1.1.1 2010/10/23 21:59:58 jakemsr Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

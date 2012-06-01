@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/gnote/Makefile,v 1.24 2012/04/15 15:16:52 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

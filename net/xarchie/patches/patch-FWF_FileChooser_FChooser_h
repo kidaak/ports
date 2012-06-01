@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xarchie/patches/patch-FWF_FileChooser_FChooser_h,v 1.1 2003/12/31 17:49:34 espie Exp $
+$OpenBSD$
 --- FWF/FileChooser/FChooser.h.orig	1993-02-05 17:20:04.000000000 +0100
 +++ FWF/FileChooser/FChooser.h	2003-12-31 13:08:13.000000000 +0100
 @@ -49,7 +49,7 @@ extern WidgetClass xfwfFileChooserWidget

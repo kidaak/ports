@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/amiwm/patches/patch-Makefile_in,v 1.1.1.1 2002/08/27 20:49:58 lebel Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Mar 15 16:28:46 1998
 +++ Makefile.in	Mon Aug 26 09:37:13 2002
 @@ -13,6 +13,7 @@ LIBS = @X_LIBS@ @X_PRE_LIBS@ -Llibami -l

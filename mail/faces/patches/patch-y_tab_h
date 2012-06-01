@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/faces/patches/patch-y_tab_h,v 1.1 2000/06/04 23:08:35 espie Exp $
+$OpenBSD$
 --- y.tab.h.orig	Mon Jun  5 00:48:26 2000
 +++ y.tab.h	Mon Jun  5 00:48:26 2000
 @@ -0,0 +1,11 @@

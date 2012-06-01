@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-Term-ReadKey/patches/patch-genchars_pl,v 1.1 2005/10/30 22:49:13 millert Exp $
+$OpenBSD$
 --- genchars.pl.orig	Tue Jan 11 16:15:17 2005
 +++ genchars.pl	Sun Oct 30 11:02:36 2005
 @@ -174,7 +174,7 @@ XS(XS_Term__ReadKey_GetControlChars)

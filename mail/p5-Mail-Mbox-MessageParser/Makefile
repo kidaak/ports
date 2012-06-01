@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-Mbox-MessageParser/Makefile,v 1.7 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	fast and simple mbox folder reader
 

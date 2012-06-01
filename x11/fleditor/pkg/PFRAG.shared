@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/fleditor/pkg/PFRAG.shared,v 1.5 2005/12/25 20:23:18 naddy Exp $
+@comment $OpenBSD$
 @lib lib/libfleditor.so.${LIBfleditor_VERSION}

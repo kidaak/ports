@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/rman/Makefile,v 1.21 2010/10/19 07:54:25 espie Exp $
+# $OpenBSD$
 
 COMMENT=	reverse compile man pages from formatted form
 

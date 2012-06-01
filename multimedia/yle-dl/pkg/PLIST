@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/yle-dl/pkg/PLIST,v 1.1.1.1 2011/10/19 09:16:08 sthen Exp $
+@comment $OpenBSD$
 @bin bin/rtmpdump-yle
 bin/yle-dl
 share/doc/yle-dl/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-BSD-stat/pkg/PLIST,v 1.1.1.1 2005/02/23 17:56:07 sturm Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/BSD/
 ${P5ARCH}/BSD/stat.pm

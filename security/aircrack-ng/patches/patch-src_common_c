@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/aircrack-ng/patches/patch-src_common_c,v 1.1 2011/05/21 11:19:24 fgsch Exp $
+$OpenBSD$
 --- src/common.c.orig	Mon May  9 09:14:48 2011
 +++ src/common.c	Mon May  9 09:33:03 2011
 @@ -31,6 +31,7 @@

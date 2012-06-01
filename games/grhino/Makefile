@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/grhino/Makefile,v 1.6 2011/05/11 15:20:02 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		Othello/Reversi-like game
 DISTNAME =		grhino-${V}

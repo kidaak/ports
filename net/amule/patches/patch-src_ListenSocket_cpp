@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_ListenSocket_cpp,v 1.2 2011/12/11 18:31:13 dcoppa Exp $
+$OpenBSD$
 
 Ok() is just an undocumented alias for IsOk()
 (upstream git commit 740c0298147a614806f1676f77a89908074b5574)

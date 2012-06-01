@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/unshield/pkg/PLIST,v 1.2 2009/05/23 16:34:59 benoit Exp $
+@comment $OpenBSD$
 @bin bin/unshield
 include/libunshield.h
 lib/libunshield.a

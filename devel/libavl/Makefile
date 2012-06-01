@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libavl/Makefile,v 1.6 2007/09/16 02:53:00 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	library for balanced binary trees
 

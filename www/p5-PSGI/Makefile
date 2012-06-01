@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-PSGI/Makefile,v 1.1.1.1 2010/12/11 09:46:56 landry Exp $
+# $OpenBSD$
 
 COMMENT =		perl Web Server Gateway Interface Specification
 

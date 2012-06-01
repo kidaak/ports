@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/ldapvacation/Makefile,v 1.15 2011/09/16 10:31:21 espie Exp $
+# $OpenBSD$
 
 COMMENT=	return 'I am not here' indication stored in a LDAP tree
 

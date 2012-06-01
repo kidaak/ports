@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xtraceroute/pkg/PLIST,v 1.8 2010/03/25 06:30:15 jasper Exp $
+@comment $OpenBSD$
 @bin bin/xtraceroute
 @man man/man1/xtraceroute.1
 share/locale/

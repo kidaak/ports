@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/squid/patches/patch-src_Makefile_in,v 1.17 2010/06/18 10:32:17 sthen Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun Mar 14 16:27:27 2010
 +++ src/Makefile.in	Thu Jun 17 22:13:15 2010
 @@ -238,7 +238,7 @@ CPP = @CPP@

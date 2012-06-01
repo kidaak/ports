@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/bmp/Makefile,v 1.39 2012/01/03 07:03:54 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

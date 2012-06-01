@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pear-DB/Makefile,v 1.15 2011/12/29 08:48:30 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	database abstraction layer for PHP
 

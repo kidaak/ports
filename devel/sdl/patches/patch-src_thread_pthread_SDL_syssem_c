@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/sdl/patches/patch-src_thread_pthread_SDL_syssem_c,v 1.1 2012/03/02 14:52:29 dcoppa Exp $
+$OpenBSD$
 
 Fixed bug 1426 - SDL_SemWaitTimeout returns -1 and sets error instead of
 SDL_MUTEX_TIMEDOUT on time out

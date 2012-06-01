@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/openmdns/pkg/mdnsd.rc,v 1.1 2011/03/15 06:54:26 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/mdnsd"
 daemon_flags="em0"

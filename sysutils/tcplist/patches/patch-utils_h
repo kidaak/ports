@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/tcplist/patches/patch-utils_h,v 1.3 2012/01/17 17:08:16 sthen Exp $
+$OpenBSD$
 --- utils.h.orig	Tue Jan 17 16:38:38 2012
 +++ utils.h	Tue Jan 17 16:38:39 2012
 @@ -50,19 +50,19 @@

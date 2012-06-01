@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/speech-dispatcher/pkg/PLIST,v 1.1.1.1 2011/10/20 11:28:38 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/clibrary
 @bin bin/clibrary2
 @bin bin/connection_recovery

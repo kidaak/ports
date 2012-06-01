@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xbat/Makefile,v 1.23 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 #
 
 COMMENT=	XEVIOUS-like shooting game

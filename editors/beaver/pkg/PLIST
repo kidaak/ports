@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/beaver/pkg/PLIST,v 1.4 2009/12/22 15:08:35 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/beaver
 @man man/man1/beaver.1
 share/applications/beaver.desktop

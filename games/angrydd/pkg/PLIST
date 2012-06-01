@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/angrydd/pkg/PLIST,v 1.1.1.1 2006/11/11 14:34:34 ajacoutot Exp $
+@comment $OpenBSD$
 bin/angrydd
 @man man/man6/angrydd.6
 share/angrydd/

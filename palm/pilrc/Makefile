@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/pilrc/Makefile,v 1.12 2010/03/21 10:41:43 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	generate resources for PalmOS applications from text descr
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-src_client_cl_language_c,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 
 XXX: OpenBSD's locale support is very limited. This can probably
 be removed when support for LC_MESSAGES is added.

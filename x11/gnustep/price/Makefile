@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/price/Makefile,v 1.3 2011/05/15 13:03:26 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	precision raster image convolution engine
 

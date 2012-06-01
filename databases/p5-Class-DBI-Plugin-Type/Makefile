@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Class-DBI-Plugin-Type/Makefile,v 1.10 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	determine type information for columns
 

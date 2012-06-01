@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/ivan/pkg/PLIST,v 1.1.1.1 2007/02/04 18:56:38 ajacoutot Exp $
+@comment $OpenBSD$
 @mode g+s
 @group games
 bin/ivan

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-FormValidator/Makefile,v 1.10 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=        validate user input from a constraint object
 

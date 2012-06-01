@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gobject-introspection/pkg/PLIST,v 1.10 2012/03/29 06:29:08 ajacoutot Exp $
+@comment $OpenBSD$
 bin/g-ir-annotation-tool
 @bin bin/g-ir-compiler
 @bin bin/g-ir-generate

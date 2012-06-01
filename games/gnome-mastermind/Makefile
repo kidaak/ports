@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/gnome-mastermind/Makefile,v 1.16 2011/12/03 19:49:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Mastermind clone reflexion game
 

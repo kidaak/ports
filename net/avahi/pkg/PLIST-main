@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/avahi/pkg/PLIST-main,v 1.12 2011/07/20 08:45:00 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict howl-*
 @newgroup _avahi:629
 @newuser _avahi:629:629:daemon:Avahi User:/var/empty:/sbin/nologin

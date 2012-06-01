@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/offlineimap/patches/patch-offlineimap_conf,v 1.1 2011/04/27 12:59:27 pea Exp $
+$OpenBSD$
 --- offlineimap.conf.orig	Wed Mar  2 22:16:23 2011
 +++ offlineimap.conf	Wed Mar  2 22:16:37 2011
 @@ -283,7 +283,7 @@ ssl = yes

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xarchie/patches/patch-Imakefile,v 1.1 2003/12/31 17:49:34 espie Exp $
+$OpenBSD$
 --- Imakefile.orig	2003-12-31 18:41:06.000000000 +0100
 +++ Imakefile	2003-12-31 18:42:28.000000000 +0100
 @@ -1,88 +1,88 @@

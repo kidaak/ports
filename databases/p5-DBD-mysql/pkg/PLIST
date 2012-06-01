@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-DBD-mysql/pkg/PLIST,v 1.5 2007/09/16 11:37:29 simon Exp $
+@comment $OpenBSD$
 @comment ${P5ARCH}/Bundle/DBD/
 @comment ${P5ARCH}/Bundle/DBD/mysql.pm
 ${P5ARCH}/DBD/mysql/

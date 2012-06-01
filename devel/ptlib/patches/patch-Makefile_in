@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/patch-Makefile_in,v 1.2 2011/10/26 16:59:09 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Oct 26 10:24:43 2011
 +++ Makefile.in	Wed Oct 26 10:25:11 2011
 @@ -119,6 +119,7 @@ install:

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-boehm-gc_os_dep_c,v 1.2 2012/02/22 12:40:04 kurt Exp $
+$OpenBSD$
 --- boehm-gc/os_dep.c.orig	Sat May 19 08:18:32 2007
 +++ boehm-gc/os_dep.c	Mon Feb 20 13:21:24 2012
 @@ -380,7 +380,7 @@ static void *tiny_sbrk(ptrdiff_t increment)

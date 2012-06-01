@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-redcloth/Makefile,v 1.15 2011/11/09 00:17:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	module for using Textile in Ruby
 

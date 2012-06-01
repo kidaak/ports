@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-IMAP/Makefile,v 1.13 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	implementation of the IMAP protocol for PHP
 

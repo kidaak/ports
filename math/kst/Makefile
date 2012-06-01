@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/kst/Makefile,v 1.19 2011/11/03 20:28:09 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES=	math x11/kde
 COMMENT=	data viewing/plotting tool

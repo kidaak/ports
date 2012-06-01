@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libgo_mksysinfo_sh,v 1.1 2011/11/19 22:19:53 pascal Exp $
+$OpenBSD$
 --- libgo/mksysinfo.sh.orig	Thu Nov 17 20:21:36 2011
 +++ libgo/mksysinfo.sh	Thu Nov 17 21:16:33 2011
 @@ -96,7 +96,7 @@ grep '^const _E' gen-sysinfo.go | \

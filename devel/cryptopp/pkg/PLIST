@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cryptopp/pkg/PLIST,v 1.2 2011/06/24 07:55:18 dcoppa Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/cryptopp/
 include/cryptopp/3way.h

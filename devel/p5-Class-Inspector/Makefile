@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Inspector/Makefile,v 1.8 2011/03/14 09:17:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		get information about a class and its structure
 

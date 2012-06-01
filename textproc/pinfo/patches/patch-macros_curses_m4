@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/pinfo/patches/patch-macros_curses_m4,v 1.1 2007/11/19 18:31:03 mgrimm Exp $
+$OpenBSD$
 
 The world isn't debian.
 

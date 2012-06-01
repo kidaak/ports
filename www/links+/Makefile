@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/links+/Makefile,v 1.45 2012/04/10 11:59:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	graphics and text browser
 

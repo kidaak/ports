@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/gnupg/patches/patch-g10_Makefile_in,v 1.7 2008/01/30 20:18:10 bernd Exp $
+$OpenBSD$
 --- g10/Makefile.in.orig	Mon Jan 28 20:52:01 2008
 +++ g10/Makefile.in	Mon Jan 28 20:52:09 2008
 @@ -342,7 +342,7 @@ sysconfdir = @sysconfdir@

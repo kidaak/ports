@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/aircontrol/pkg/PLIST,v 1.4 2011/05/11 12:03:19 jasper Exp $
+@comment $OpenBSD$
 @newgroup _aircontrol:650
 @newuser _aircontrol:650:_aircontrol:daemon:aircontrol user:/nonexistent:/sbin/nologin
 @extraunexec rm -rf ${PREFIX}/*

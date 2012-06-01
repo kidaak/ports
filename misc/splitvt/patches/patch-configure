@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/splitvt/patches/patch-configure,v 1.1 2005/10/31 20:27:14 naddy Exp $
+$OpenBSD$
 --- configure.orig	Mon Oct 31 20:54:06 2005
 +++ configure	Mon Oct 31 20:56:05 2005
 @@ -4,7 +4,6 @@

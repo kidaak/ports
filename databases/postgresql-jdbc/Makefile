@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/postgresql-jdbc/Makefile,v 1.17 2011/12/17 18:02:44 kili Exp $
+# $OpenBSD$
 
 COMMENT-main=		JDBC Driver for PostgreSQL
 COMMENT-docs=		API docs for PostgreSQL JDBC Driver

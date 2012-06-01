@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/pan/patches/patch-pan_tasks_socket-impl-gio_h,v 1.1 2012/03/29 12:09:55 naddy Exp $
+$OpenBSD$
 --- pan/tasks/socket-impl-gio.h.orig	Wed Mar 28 17:59:47 2012
 +++ pan/tasks/socket-impl-gio.h	Wed Mar 28 17:59:59 2012
 @@ -21,8 +21,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/luasqlite3/patches/patch-Makefile_in,v 1.1 2006/07/30 04:51:39 pedro Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu May 11 08:07:19 2006
 +++ Makefile.in	Fri Jul 28 19:53:51 2006
 @@ -27,7 +27,7 @@ LIBS			:= @LIBS@

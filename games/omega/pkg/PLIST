@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/omega/pkg/PLIST,v 1.5 2005/11/03 14:58:17 niallo Exp $
+@comment $OpenBSD$
 @group games
 @mode g+s
 bin/Omega

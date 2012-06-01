@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pmk/Makefile,v 1.14 2011/05/11 06:22:17 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		dependency configuration tool
 

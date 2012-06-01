@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-src_tools_qlocale_cpp,v 1.1 2010/07/29 13:41:45 kettenis Exp $
+$OpenBSD$
 --- src/tools/qlocale.cpp.orig	Fri Feb  2 15:01:05 2007
 +++ src/tools/qlocale.cpp	Thu Jul 29 10:08:21 2010
 @@ -121,16 +121,6 @@ static inline double nan()

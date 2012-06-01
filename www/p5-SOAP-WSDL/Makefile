@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-SOAP-WSDL/Makefile,v 1.1.1.1 2010/12/22 20:25:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		SOAP with WSDL support
 

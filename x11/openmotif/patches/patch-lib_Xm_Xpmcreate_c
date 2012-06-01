@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/openmotif/patches/patch-lib_Xm_Xpmcreate_c,v 1.2 2007/07/18 21:41:05 mbalmer Exp $
+$OpenBSD$
 --- lib/Xm/Xpmcreate.c.orig	Tue Dec  6 18:31:15 2005
 +++ lib/Xm/Xpmcreate.c	Sat Jun 30 10:39:31 2007
 @@ -1,4 +1,5 @@

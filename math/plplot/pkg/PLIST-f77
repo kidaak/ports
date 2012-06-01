@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/plplot/pkg/PLIST-f77,v 1.6 2010/04/22 16:12:42 dcoppa Exp $
+@comment $OpenBSD$
 @lib lib/libplplotf77cd.so.${LIBplplotf77cd_VERSION}
 @lib lib/libplplotf77d.so.${LIBplplotf77d_VERSION}
 lib/pkgconfig/plplotd-f77.pc

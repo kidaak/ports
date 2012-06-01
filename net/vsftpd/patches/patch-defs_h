@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/vsftpd/patches/patch-defs_h,v 1.1 2003/06/23 19:08:52 sturm Exp $
+$OpenBSD$
 --- defs.h.orig	Sat Jun 21 20:38:55 2003
 +++ defs.h	Sat Jun 21 20:39:09 2003
 @@ -1,7 +1,7 @@

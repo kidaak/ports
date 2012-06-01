@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/pioneers/patches/patch-Makefile_in,v 1.4 2010/11/17 19:23:05 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Sep 26 11:18:08 2010
 +++ Makefile.in	Wed Nov 17 18:57:54 2010
 @@ -1055,7 +1055,7 @@ console_cflags = \

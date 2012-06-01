@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-diff-lcs/Makefile,v 1.7 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT =		port of Algorithm::Diff that uses the LCS algorithm
 

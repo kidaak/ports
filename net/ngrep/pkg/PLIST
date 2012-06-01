@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ngrep/pkg/PLIST,v 1.7 2012/01/26 08:03:57 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _ngrep:622
 @newuser _ngrep:622:_ngrep:daemon:ngrep user:/nonexistent:/sbin/nologin
 @man man/man8/ngrep.8

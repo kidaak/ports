@@ -1,6 +1,6 @@
 Diff from GetLive CVS to incorporate Hotmail site changes.
 
-$OpenBSD: ports/mail/p5-GetLive/patches/patch-GetLive_pl,v 1.7 2011/05/05 13:37:04 gsoares Exp $
+$OpenBSD$
 --- GetLive.pl.orig	Mon May  2 14:49:46 2011
 +++ GetLive.pl	Mon May  2 15:02:56 2011
 @@ -91,7 +91,7 @@ sub new {

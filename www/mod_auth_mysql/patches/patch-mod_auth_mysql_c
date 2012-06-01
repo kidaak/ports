@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_auth_mysql/patches/patch-mod_auth_mysql_c,v 1.1 2008/03/25 23:23:15 simon Exp $
+$OpenBSD$
 --- mod_auth_mysql.c.orig	Mon Sep 10 16:12:08 2001
 +++ mod_auth_mysql.c	Fri Feb 15 16:01:37 2008
 @@ -10,6 +10,34 @@

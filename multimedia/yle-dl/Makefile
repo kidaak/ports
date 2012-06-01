@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/yle-dl/Makefile,v 1.3 2011/12/13 13:11:21 sthen Exp $
+# $OpenBSD$
 
 V =			1.4.6
 COMMENT =		download videos from YLE Areena

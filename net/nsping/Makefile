@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nsping/Makefile,v 1.21 2010/10/18 18:36:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=	DNS ping
 

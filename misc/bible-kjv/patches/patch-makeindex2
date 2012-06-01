@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/bible-kjv/patches/patch-makeindex2,v 1.1.1.1 2011/09/19 20:20:42 naddy Exp $
+$OpenBSD$
 --- makeindex2.orig	Sun Sep 18 17:39:32 2011
 +++ makeindex2	Sun Sep 18 17:39:37 2011
 @@ -1,4 +1,4 @@

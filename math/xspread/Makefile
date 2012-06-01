@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/xspread/Makefile,v 1.18 2011/11/03 20:28:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	spreadsheet program under X11
 

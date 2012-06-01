@@ -1,4 +1,4 @@
-$OpenBSD: ports/infrastructure/mk/README.internals,v 1.9 2011/11/25 15:05:56 espie Exp $
+$OpenBSD$
 Copyright (C) 2011 Marc Espie <espie@openbsd.org>
 
  Permission to use, copy, modify, and distribute this software for any

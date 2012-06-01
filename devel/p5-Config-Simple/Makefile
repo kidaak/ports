@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Config-Simple/Makefile,v 1.4 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	simple configuration file class
 

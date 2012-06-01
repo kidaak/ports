@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/syweb/patches/patch-htdocs_syweb_setup_inc,v 1.2 2010/07/01 13:15:52 sthen Exp $
+$OpenBSD$
 --- htdocs/syweb/setup.inc.orig	Thu Jun  3 14:00:08 2010
 +++ htdocs/syweb/setup.inc	Wed Jun 30 17:09:02 2010
 @@ -17,12 +17,11 @@

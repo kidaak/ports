@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/privoxy/pkg/PLIST,v 1.10 2011/05/02 17:43:43 merdely Exp $
+@comment $OpenBSD$
 @newgroup _privoxy:516
 @newuser _privoxy:516:_privoxy:daemon:Privoxy Account:/var/privoxy:/sbin/nologin
 bin/privoxy-log-parser.pl

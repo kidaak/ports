@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/gringotts/Makefile,v 1.13 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	GTK+2 secure notes manager
 

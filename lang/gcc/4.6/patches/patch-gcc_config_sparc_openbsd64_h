@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_config_sparc_openbsd64_h,v 1.2 2012/04/02 08:51:30 pascal Exp $
+$OpenBSD$
 --- gcc/config/sparc/openbsd64.h.orig	Thu Dec  9 17:31:47 2010
 +++ gcc/config/sparc/openbsd64.h	Sun Apr  1 17:09:13 2012
 @@ -23,7 +23,7 @@ along with GCC; see the file COPYING3.  If not see

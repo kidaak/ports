@@ -1,0 +1,11 @@
+$OpenBSD$
+--- src/vorbis.c.orig	Fri Apr 13 02:47:14 2012
++++ src/vorbis.c	Fri Apr 13 02:47:19 2012
+@@ -32,7 +32,6 @@
+ #include <pthread.h>
+ #include <glib.h>
+ #include <gtk/gtk.h>
+-#include <tremor/ogg.h>
+ #include <tremor/ivorbiscodec.h>
+ #include <tremor/ivorbisfile.h>
+ 

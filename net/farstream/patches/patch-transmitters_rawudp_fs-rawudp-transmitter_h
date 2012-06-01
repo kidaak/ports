@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/farstream/patches/patch-transmitters_rawudp_fs-rawudp-transmitter_h,v 1.1.1.1 2012/04/05 16:02:30 jasper Exp $
+$OpenBSD$
 --- transmitters/rawudp/fs-rawudp-transmitter.h.orig	Mon Dec  5 21:19:49 2011
 +++ transmitters/rawudp/fs-rawudp-transmitter.h	Wed Apr  4 22:49:08 2012
 @@ -34,6 +34,13 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/telephony/siproxd/pkg/PLIST,v 1.4 2012/01/17 17:30:33 sthen Exp $
+@comment $OpenBSD$
 @newgroup _siproxd:574
 @newuser _siproxd:574:574:daemon:SIP proxy:/var/empty:/sbin/nologin
 lib/siproxd/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mbrowse/Makefile,v 1.20 2011/09/16 11:13:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=	graphical MIB browser
 

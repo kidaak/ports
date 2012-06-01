@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/human-icon-theme/pkg/PLIST,v 1.6 2011/12/03 19:13:18 ajacoutot Exp $
+@comment $OpenBSD$
 @unexec-delete rm -f %D/share/icons/Human/icon-theme.cache
 share/icons/Human/
 share/icons/Human/12x12/

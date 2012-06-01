@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libxsvf/pkg/PLIST,v 1.1.1.1 2011/08/27 06:46:20 jasper Exp $
+@comment $OpenBSD$
 @bin bin/xsvftool-bp
 @bin bin/xsvftool-ft2232h
 @bin bin/xsvftool-gpio

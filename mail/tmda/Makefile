@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/tmda/Makefile,v 1.38 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=		reduce the amount of SPAM/UCE (junk-mail)
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/sympa/pkg/README,v 1.4 2011/06/02 13:41:39 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-Modules_ossaudiodev_c,v 1.1 2009/01/01 21:03:27 djm Exp $
+$OpenBSD$
 --- Modules/ossaudiodev.c.orig	Wed Oct  4 20:23:57 2006
 +++ Modules/ossaudiodev.c	Mon Dec 15 22:50:41 2008
 @@ -30,7 +30,7 @@

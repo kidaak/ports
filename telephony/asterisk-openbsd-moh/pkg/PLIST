@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/telephony/asterisk-openbsd-moh/pkg/PLIST,v 1.8 2012/03/15 20:25:34 naddy Exp $
+@comment $OpenBSD$
 share/asterisk/
 share/asterisk/moh/
 share/asterisk/moh/song30.sln

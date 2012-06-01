@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/p5-Audio-CD/patches/patch-Makefile_PL,v 1.1 2011/07/08 09:26:55 jasper Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Wed May 17 07:12:52 2000
 +++ Makefile.PL	Fri Jul  8 11:23:53 2011
 @@ -7,7 +7,8 @@ WriteMakefile(

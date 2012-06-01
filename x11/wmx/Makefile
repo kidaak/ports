@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmx/Makefile,v 1.20 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	minimal window manager
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gtk+2/patches/patch-gtk_Makefile_in,v 1.36 2012/02/16 22:09:14 ajacoutot Exp $
+$OpenBSD$
 
 XXX Link the new icon names to their old icon names
 because some applications are broken. Use this until

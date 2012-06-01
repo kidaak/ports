@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-C3/Makefile,v 1.16 2011/04/13 17:44:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		pragma to use the C3 method resolution order algorithm
 

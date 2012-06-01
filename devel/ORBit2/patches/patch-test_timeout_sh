@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ORBit2/patches/patch-test_timeout_sh,v 1.3 2008/09/19 16:31:23 jasper Exp $
+$OpenBSD$
 --- test/timeout.sh.orig	Sun Aug 31 16:04:42 2008
 +++ test/timeout.sh	Fri Sep 19 18:29:06 2008
 @@ -21,6 +21,9 @@ MINGW*) 

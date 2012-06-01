@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/tiff/patches/patch-libtiff_tiffiop_h,v 1.4 2012/04/14 15:09:56 naddy Exp $
+$OpenBSD$
 
 CVE-2012-1173: integer overflow
 

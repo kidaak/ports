@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Classless/Makefile,v 1.5 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		perl object without classes
 

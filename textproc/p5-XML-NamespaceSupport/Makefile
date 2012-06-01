@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-NamespaceSupport/Makefile,v 1.16 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to the SAX2 NamespaceSupport class
 

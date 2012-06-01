@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/wmclockmon/pkg/PLIST,v 1.2 2010/03/23 22:12:39 jasper Exp $
+@comment $OpenBSD$
 @bin bin/wmclockmon
 @bin bin/wmclockmon-cal
 @bin bin/wmclockmon-config

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/kasumi/pkg/PLIST,v 1.1.1.1 2010/08/19 13:47:55 fgsch Exp $
+@comment $OpenBSD$
 @bin bin/kasumi
 @man man/man1/kasumi.1
 share/applications/kasumi.desktop

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/procmail/patches/patch-src_comsat_c,v 1.2 2009/12/02 22:14:38 ajacoutot Exp $
+$OpenBSD$
 
 A patch from Philip Guenther (procmail maintainer) fixing a
 crash when procmail is invoked without arguments and then

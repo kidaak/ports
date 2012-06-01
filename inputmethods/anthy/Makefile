@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/anthy/Makefile,v 1.13 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT-main =	japanese input method
 COMMENT-emacs =	emacs files for anthy

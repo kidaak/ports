@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk2-murrine-engine/pkg/PLIST,v 1.4 2009/08/20 07:52:25 landry Exp $
+@comment $OpenBSD$
 @comment lib/gtk-2.0/2.10.0/engines/libmurrine.la
 lib/gtk-2.0/2.10.0/engines/libmurrine.so
 share/gtk-engines/

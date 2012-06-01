@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Date-Holidays/SanMarino/Makefile,v 1.3 2012/01/16 22:12:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	San Marinian holiday classes for PHP
 HOLNAME =	SanMarino-0.1.1

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/oinkmaster/pkg/PLIST,v 1.6 2006/04/12 21:18:34 david Exp $
+@comment $OpenBSD$
 bin/oinkmaster
 @man man/man1/oinkmaster.1
 share/doc/oinkmaster/

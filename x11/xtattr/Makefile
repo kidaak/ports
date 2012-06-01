@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xtattr/Makefile,v 1.19 2011/05/22 16:01:01 espie Exp $
+# $OpenBSD$
 
 COMMENT=	changing xterm attributes
 

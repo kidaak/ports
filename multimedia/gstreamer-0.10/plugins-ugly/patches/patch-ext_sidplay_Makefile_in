@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-ugly/patches/patch-ext_sidplay_Makefile_in,v 1.9 2012/03/05 15:22:08 ajacoutot Exp $
+$OpenBSD$
 --- ext/sidplay/Makefile.in.orig	Tue Feb 21 02:06:12 2012
 +++ ext/sidplay/Makefile.in	Mon Mar  5 13:17:05 2012
 @@ -317,7 +317,7 @@ SED = @SED@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/vim/patches/patch-src_vim_h,v 1.2 2010/09/09 22:29:29 ckuethe Exp $
+$OpenBSD$
 --- src/vim.h.orig	Thu Jul 29 11:46:39 2010
 +++ src/vim.h	Tue Sep  7 15:50:20 2010
 @@ -259,6 +259,7 @@

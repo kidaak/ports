@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/hs-tagsoup/pkg/PLIST,v 1.1.1.1 2011/11/16 14:15:19 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/HS${DISTNAME}.o
 lib/ghc/${DISTNAME}/Text/

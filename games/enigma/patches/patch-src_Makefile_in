@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/enigma/patches/patch-src_Makefile_in,v 1.1 2008/10/26 23:19:30 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun Oct 26 18:04:36 2008
 +++ src/Makefile.in	Sun Oct 26 18:06:16 2008
 @@ -99,9 +99,7 @@ enigma_OBJECTS = $(am_enigma_OBJECTS)

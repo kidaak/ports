@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/py-tagpy/pkg/PLIST,v 1.1.1.1 2009/10/15 08:30:01 landry Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/_tagpy.so
 lib/python${MODPY_VERSION}/site-packages/tagpy/
 lib/python${MODPY_VERSION}/site-packages/tagpy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/

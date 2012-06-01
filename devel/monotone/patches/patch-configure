@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/monotone/patches/patch-configure,v 1.2 2008/04/03 07:47:45 bernd Exp $
+$OpenBSD$
 --- configure.orig	Mon Feb 25 17:02:45 2008
 +++ configure	Thu Mar 27 17:07:35 2008
 @@ -14577,10 +14577,10 @@ host_cpu!$host_cpu$ac_delim

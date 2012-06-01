@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/teeworlds/patches/patch-src_engine_client_ec_snd_c,v 1.1 2009/02/10 00:32:43 sthen Exp $
+$OpenBSD$
 --- src/engine/client/ec_snd.c.orig	Tue Jan 27 11:41:17 2009
 +++ src/engine/client/ec_snd.c	Tue Jan 27 12:30:08 2009
 @@ -139,10 +139,19 @@ static int iabs(int i)

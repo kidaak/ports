@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/hamlib/patches/patch-configure,v 1.1 2011/12/09 13:10:56 jasper Exp $
+$OpenBSD$
 --- configure.orig	Fri Dec 22 15:20:36 2006
 +++ configure	Fri Dec  9 14:04:54 2011
 @@ -465,7 +465,7 @@ ac_includes_default="\

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/mk/apache-module.port.mk,v 1.7 2007/06/30 15:27:29 simon Exp $
+# $OpenBSD$
 # simplify installation of apache modules
 # written by Marc Espie 2007, public domain
 #

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/tuxpaint/Makefile,v 1.19 2011/04/16 17:53:54 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	drawing program for children
 

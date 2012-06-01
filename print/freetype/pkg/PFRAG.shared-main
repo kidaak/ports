@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/print/freetype/pkg/PFRAG.shared-main,v 1.1 2006/11/21 10:07:26 espie Exp $
+@comment $OpenBSD$
 @lib lib/libttf.so.${LIBttf_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/avr/Makefile.inc,v 1.8 2011/09/16 10:24:46 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES=	devel devel/avr
 

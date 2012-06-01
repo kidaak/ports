@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/pscpug/patches/patch-psinfo_c,v 1.2 2011/07/06 12:50:15 jasper Exp $
+$OpenBSD$
 
 Adapt to new OpenBSD kinfo_proc API.
 

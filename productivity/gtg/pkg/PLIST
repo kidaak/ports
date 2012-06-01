@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/gtg/pkg/PLIST,v 1.8 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gtg
 bin/gtg_new_task
 lib/python${MODPY_VERSION}/site-packages/GTG/

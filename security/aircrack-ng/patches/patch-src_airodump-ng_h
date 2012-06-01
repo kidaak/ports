@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/aircrack-ng/patches/patch-src_airodump-ng_h,v 1.1 2011/05/21 11:19:24 fgsch Exp $
+$OpenBSD$
 --- src/airodump-ng.h.orig	Sun May  8 22:39:39 2011
 +++ src/airodump-ng.h	Sun May  8 22:42:37 2011
 @@ -111,7 +111,7 @@ static uchar ZERO[32] =

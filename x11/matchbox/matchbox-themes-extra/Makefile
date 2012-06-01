@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/matchbox-themes-extra/Makefile,v 1.4 2010/11/22 08:37:03 espie Exp $
+# $OpenBSD$
 
 COMMENT=		extra themes for matchbox
 

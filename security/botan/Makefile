@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/botan/Makefile,v 1.2 2011/11/26 10:55:17 ajacoutot Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	${GCC4_ARCHS}
 

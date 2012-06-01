@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xxdiff/patches/patch-app_cpp,v 1.5 2008/01/24 11:49:21 ajacoutot Exp $
+$OpenBSD$
 --- app.cpp.orig	Sat Nov  6 00:25:29 2004
 +++ app.cpp	Thu Jan 24 09:43:06 2008
 @@ -2444,7 +2444,7 @@ void XxApp::editFile( const QString& filename )

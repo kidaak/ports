@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/grcs/patches/patch-src_conf_sh,v 1.2 2006/09/25 23:23:10 ray Exp $
+$OpenBSD$
 --- src/conf.sh.orig	Fri Jun 16 02:19:05 1995
 +++ src/conf.sh	Fri Sep  1 13:08:45 2006
 @@ -36,7 +36,7 @@ Id='$Id: conf.sh,v 5.25 1995/06/16 06:19

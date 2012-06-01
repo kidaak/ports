@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/swi-prolog/patches/patch-src_Makefile_in,v 1.2 2011/09/17 16:06:32 edd Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Fri Aug 19 15:31:28 2011
 +++ src/Makefile.in	Sat Sep 17 11:59:17 2011
 @@ -76,7 +76,7 @@ COFLAGS=@COFLAGS@

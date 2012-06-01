@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/gstreamer-0.10/plugins-good/pkg/PLIST-main,v 1.28 2012/02/21 08:46:08 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gstreamer-plugins-bad-<0.10.22
 @conflict gstreamer-jpeg-*
 @conflict gstreamer-png-*

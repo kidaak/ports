@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/jnettop/Makefile,v 1.3 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	capture network traffic, display streams sorted by bandwidth
 

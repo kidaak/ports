@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/swi-prolog/patches/patch-src_test_memmodel_c,v 1.2 2010/12/27 16:07:08 jasper Exp $
+$OpenBSD$
 --- src/test/memmodel.c.orig	Thu Oct 28 21:38:25 2010
 +++ src/test/memmodel.c	Thu Dec 23 01:18:30 2010
 @@ -84,8 +84,11 @@ char *argv[];

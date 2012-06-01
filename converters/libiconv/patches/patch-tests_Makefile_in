@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/libiconv/patches/patch-tests_Makefile_in,v 1.2 2011/09/03 10:57:07 naddy Exp $
+$OpenBSD$
 
 If SEPARATE_BUILD is enabled,
   check-stateless . FOO

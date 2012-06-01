@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-ContextualFetch/Makefile,v 1.10 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	add contextual fetches to DBI
 

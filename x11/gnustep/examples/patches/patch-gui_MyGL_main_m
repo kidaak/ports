@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/examples/patches/patch-gui_MyGL_main_m,v 1.1 2011/06/27 06:34:55 sebastia Exp $
+$OpenBSD$
 
 fix startup of MyGL
 

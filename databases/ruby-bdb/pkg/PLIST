@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/ruby-bdb/pkg/PLIST,v 1.3 2011/07/19 18:00:16 jeremy Exp $
+@comment $OpenBSD$
 ${MODRUBY_SITEARCHDIR}/bdb.so
 ${MODRUBY_RELDOCDIR}/
 ${MODRUBY_RELDOCDIR}/bdb/

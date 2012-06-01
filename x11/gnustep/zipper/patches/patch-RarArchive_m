@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/zipper/patches/patch-RarArchive_m,v 1.1.1.1 2011/07/19 13:58:02 sebastia Exp $
+$OpenBSD$
 
 Fix the offset of the parsed output from the external binary.
 

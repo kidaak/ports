@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/vtcl/Makefile,v 1.6 2010/11/04 17:51:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		Visual Tcl development environment
 

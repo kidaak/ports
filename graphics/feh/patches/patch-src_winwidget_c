@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/feh/patches/patch-src_winwidget_c,v 1.9 2012/03/29 12:29:10 dcoppa Exp $
+$OpenBSD$
 
 winwidget_allocate: memset winwid to zero
 (upstream git commit 82a976e0909e02ba8c25e4fd10d0e56a3e5c13ca)

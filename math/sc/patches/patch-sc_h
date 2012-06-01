@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/sc/patches/patch-sc_h,v 1.1 2011/06/26 09:48:50 sthen Exp $
+$OpenBSD$
 --- sc.h.orig	Sat Jun 25 23:49:22 2011
 +++ sc.h	Sat Jun 25 23:50:59 2011
 @@ -304,6 +304,7 @@ struct go_save {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/tkimg/Makefile,v 1.8 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

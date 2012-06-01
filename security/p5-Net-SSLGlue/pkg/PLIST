@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Net-SSLGlue/pkg/PLIST,v 1.1.1.1 2011/04/11 21:27:49 bluhm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/SSLGlue/
 ${P5SITE}/Net/SSLGlue.pm

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/gstreamer-0.10/py-gstreamer/Makefile,v 1.21 2012/02/21 15:26:58 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		Python bindings for GStreamer
 

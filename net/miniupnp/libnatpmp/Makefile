@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/miniupnp/libnatpmp/Makefile,v 1.1.1.1 2012/02/23 13:56:49 dcoppa Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

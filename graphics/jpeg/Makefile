@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/jpeg/Makefile,v 1.40 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	IJG's JPEG compression utilities
 

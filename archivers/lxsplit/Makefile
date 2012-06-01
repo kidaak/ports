@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/lxsplit/Makefile,v 1.7 2009/08/19 00:17:37 jolan Exp $
+# $OpenBSD$
 
 COMMENT=	file joiner/splitter
 DISTNAME=	lxsplit-0.2.4

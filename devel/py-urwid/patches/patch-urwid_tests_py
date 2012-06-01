@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-urwid/patches/patch-urwid_tests_py,v 1.1 2011/10/08 13:26:02 rpointel Exp $
+$OpenBSD$
 # don't test TermTest, try to modify terminal
 --- urwid/tests.py.orig	Thu Sep 22 15:51:49 2011
 +++ urwid/tests.py	Sat Oct  8 12:24:08 2011

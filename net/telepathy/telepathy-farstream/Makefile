@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/telepathy-farstream/Makefile,v 1.3 2012/04/09 08:59:08 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		flexible communications framework, farstream component
 

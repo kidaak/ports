@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/pinfo/patches/patch-src_Makefile_in,v 1.1 2007/11/19 18:31:03 mgrimm Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Mar 16 17:27:31 2006
 +++ src/Makefile.in	Sun Jul  8 15:30:35 2007
 @@ -783,14 +783,7 @@ uninstall-am: uninstall-binPROGRAMS uninstall-info-am

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libxklavier/pkg/PLIST,v 1.10 2012/01/19 15:37:08 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libxklavier/
 include/libxklavier/xkl-enum-types.h

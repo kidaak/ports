@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/FCKeditor/Makefile,v 1.13 2012/03/18 16:16:24 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	FCKeditor for drupal
 

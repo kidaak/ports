@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/socket/Makefile,v 1.17 2010/10/19 07:43:02 espie Exp $
+# $OpenBSD$
 
 COMMENT=	create tcp socket and connect to stdin/out
 

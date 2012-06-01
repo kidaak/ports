@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-clientform/Makefile,v 1.6 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=		handle HTML forms on the client side
 

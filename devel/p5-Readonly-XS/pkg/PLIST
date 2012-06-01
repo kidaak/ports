@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Readonly-XS/pkg/PLIST,v 1.1.1.1 2006/06/25 14:53:11 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Readonly/
 ${P5ARCH}/Readonly/XS.pm

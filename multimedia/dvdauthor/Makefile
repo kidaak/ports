@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/dvdauthor/Makefile,v 1.18 2011/11/08 15:29:44 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	creates DVD file structures
 

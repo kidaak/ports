@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/ffmpeg2theora/Makefile,v 1.22 2012/02/16 22:35:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	re-encode many media file formats to Ogg Theora
 

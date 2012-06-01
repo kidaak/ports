@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/AsteriskTFOT/Makefile,v 1.3 2008/04/10 00:00:57 ian Exp $
+# $OpenBSD$
 
 PKG_ARCH=		*
 

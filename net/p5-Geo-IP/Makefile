@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Geo-IP/Makefile,v 1.22 2011/05/19 21:17:08 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

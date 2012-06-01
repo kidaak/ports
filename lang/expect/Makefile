@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/expect/Makefile,v 1.60 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	sophisticated scripter based on Tcl/Tk
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-cicphash/Makefile,v 1.4 2011/11/09 00:17:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	case insensitive, case preserving hash class for ruby
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/apcupsd/pkg/PLIST-main,v 1.3 2011/11/28 10:46:19 sthen Exp $
+@comment $OpenBSD$
 @pkgpath sysutils/apcupsd,snmp
 @group bin
 @man man/man5/apcupsd.conf.5

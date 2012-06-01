@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Frame/Makefile,v 1.3 2012/03/15 17:38:19 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	base framework for frame crafting
 

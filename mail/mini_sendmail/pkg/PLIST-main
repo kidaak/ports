@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/mini_sendmail/pkg/PLIST-main,v 1.2 2010/11/15 18:13:55 jasper Exp $
+@comment $OpenBSD$
 @pkgpath mail/mini_sendmail
 @bin bin/mini_sendmail
 @man man/man8/mini_sendmail.8

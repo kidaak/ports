@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/childsplay/Makefile,v 1.14 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	suite of educational games for young children
 

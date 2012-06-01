@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/xfaces/patches/patch-XFaces_ad,v 1.1 2000/06/05 01:09:24 espie Exp $
+$OpenBSD$
 --- XFaces.ad.orig	Sun Mar 13 01:38:54 1994
 +++ XFaces.ad	Mon Jun  5 02:43:44 2000
 @@ -71,8 +71,8 @@

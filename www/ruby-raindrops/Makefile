@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-raindrops/Makefile,v 1.3 2011/11/18 00:04:19 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	real-time stats toolkit for Rack HTTP servers
 

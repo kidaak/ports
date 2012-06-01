@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/exaile/pkg/PLIST,v 1.8 2011/03/28 07:26:16 giovanni Exp $
+@comment $OpenBSD$
 bin/exaile
 lib/python${MODPY_VERSION}/site-packages/exaile/
 lib/python${MODPY_VERSION}/site-packages/exaile/exaile.py

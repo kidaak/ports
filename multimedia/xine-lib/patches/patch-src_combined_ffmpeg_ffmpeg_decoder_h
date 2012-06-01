@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-lib/patches/patch-src_combined_ffmpeg_ffmpeg_decoder_h,v 1.1 2012/04/07 05:48:49 ajacoutot Exp $
+$OpenBSD$
 
 Moved FFmpeg API version checks to single header.
 

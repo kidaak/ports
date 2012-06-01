@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/hiawatha/pkg/hiawatha.rc,v 1.1 2011/04/13 17:44:59 rpointel Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/hiawatha"
 

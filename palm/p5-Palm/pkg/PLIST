@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/palm/p5-Palm/pkg/PLIST,v 1.4 2004/09/15 18:22:17 espie Exp $
+@comment $OpenBSD$
 bin/pdbdump
 ${P5SITE}/Palm/
 ${P5SITE}/Palm/Address.pm

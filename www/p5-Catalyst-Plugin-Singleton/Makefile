@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Singleton/Makefile,v 1.7 2012/04/08 21:58:53 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		singleton for the catalyst context (deprecated)
 

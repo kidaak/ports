@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-twisted/web2/pkg/PLIST,v 1.2 2008/04/15 11:04:27 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Twisted_Web2-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/twisted/plugins/twisted_web2.py
 lib/python${MODPY_VERSION}/site-packages/twisted/plugins/twisted_web2.pyc

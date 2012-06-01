@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/chinese/libchewing/pkg/PFRAG.shared,v 1.1.1.1 2008/10/04 09:16:11 kevlo Exp $
+@comment $OpenBSD$
 @lib lib/libchewing.so.${LIBchewing_VERSION}

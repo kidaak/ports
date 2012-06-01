@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/firmware/wpi/Makefile,v 1.3 2011/06/12 00:20:51 sthen Exp $
+# $OpenBSD$
 
 FW_DRIVER=	wpi
 FW_VER=		3.2

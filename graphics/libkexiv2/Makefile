@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libkexiv2/Makefile,v 1.13 2011/10/30 22:25:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	kde wrapper around exiv2
 CATEGORIES =	graphics

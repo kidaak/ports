@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/9menu/Makefile,v 1.26 2011/01/13 08:47:07 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	simple menu patterned after plan9
 

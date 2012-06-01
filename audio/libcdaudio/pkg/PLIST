@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libcdaudio/pkg/PLIST,v 1.3 2007/09/20 22:07:50 sthen Exp $
+@comment $OpenBSD$
 bin/libcdaudio-config
 include/cdaudio.h
 lib/libcdaudio.a

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-eyed3/patches/patch-Makefile_in,v 1.1.1.1 2007/06/22 14:43:13 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue May  8 04:17:44 2007
 +++ Makefile.in	Thu May 17 21:54:07 2007
 @@ -58,16 +58,9 @@ install:

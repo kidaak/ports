@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/spice/patches/patch-src_lib_hlp_readhelp_c,v 1.1 2010/05/09 17:50:26 espie Exp $
+$OpenBSD$
 --- src/lib/hlp/readhelp.c.orig	Sun May  9 19:27:56 2010
 +++ src/lib/hlp/readhelp.c	Sun May  9 19:29:21 2010
 @@ -41,8 +41,9 @@ Author: 1986 Wayne A. Christopher, U. C. Berkeley CAD 

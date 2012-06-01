@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/g77/Makefile,v 1.15 2012/01/13 00:55:14 naddy Exp $
+# $OpenBSD$
 
 .include <bsd.own.mk>
 .  if ${COMPILER_VERSION:L:Mgcc4*}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/fluxter/Makefile,v 1.4 2010/11/22 08:36:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=		slit pager for fluxbox window manager
 

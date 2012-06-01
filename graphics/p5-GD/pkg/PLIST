@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-GD/pkg/PLIST,v 1.12 2011/01/11 18:32:52 jasper Exp $
+@comment $OpenBSD$
 bin/bdf2gdfont.pl
 ${P5ARCH}/
 ${P5ARCH}/GD/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/gpx-viewer/Makefile,v 1.17 2011/12/03 20:30:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	gpx file viewer
 

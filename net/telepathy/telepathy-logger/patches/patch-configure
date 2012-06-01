@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/telepathy/telepathy-logger/patches/patch-configure,v 1.7 2012/04/03 07:34:35 ajacoutot Exp $
+$OpenBSD$
 
 Bug 627126 - gsettings schema files don't get installed on FreeBSD
 glib commit 136e705e8383ff8848e425ac01278102d7badc52

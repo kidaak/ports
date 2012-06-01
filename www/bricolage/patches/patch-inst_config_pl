@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-inst_config_pl,v 1.1.1.1 2006/11/10 17:04:37 sturm Exp $
+$OpenBSD$
 --- inst/config.pl.orig	Sun Oct 22 10:57:22 2006
 +++ inst/config.pl	Sun Oct 22 10:57:53 2006
 @@ -155,14 +155,6 @@ sub confirm_settings {

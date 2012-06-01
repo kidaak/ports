@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/freeipmi/patches/patch-common_src_pstdout_c,v 1.1.1.1 2007/10/25 18:17:02 wilfried Exp $
+$OpenBSD$
 --- common/src/pstdout.c.orig	Sat Apr 28 19:26:47 2007
 +++ common/src/pstdout.c	Tue Oct 23 16:58:53 2007
 @@ -83,8 +83,8 @@ struct pstdout_thread_data {

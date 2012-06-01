@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libtool/pkg/PLIST-ltdl,v 1.4 2011/09/22 21:10:19 jasper Exp $
+@comment $OpenBSD$
 include/libltdl/
 include/libltdl/lt_dlloader.h
 include/libltdl/lt_error.h

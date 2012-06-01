@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Authen-Krb5-Simple/pkg/PLIST,v 1.2 2004/09/15 18:36:01 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Authen/
 ${P5ARCH}/Authen/Krb5/

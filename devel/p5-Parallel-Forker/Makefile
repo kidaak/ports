@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Parallel-Forker/Makefile,v 1.6 2011/05/13 00:09:29 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	parallel job forking and management
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Getopt-ArgvFile/Makefile,v 1.1.1.1 2012/01/17 07:57:37 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		program arguments processing module
 

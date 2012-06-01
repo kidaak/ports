@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/Makefile,v 1.5 2010/02/01 17:00:14 espie Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += libfakekey

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_kademlia_net_KademliaUDPListener_cpp,v 1.1 2012/04/10 13:08:37 dcoppa Exp $
+$OpenBSD$
 
 Don't assert on ill-formed search requests
 (upstream git commit e213af55f51b1fd34945c3afad3cdb7bfe605d6c)

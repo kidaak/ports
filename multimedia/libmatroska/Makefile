@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/libmatroska/Makefile,v 1.11 2011/10/04 08:59:41 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	extensible open standard audio/video container library
 

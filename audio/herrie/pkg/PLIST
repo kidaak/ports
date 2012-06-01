@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/herrie/pkg/PLIST,v 1.10 2008/10/16 17:29:33 jasper Exp $
+@comment $OpenBSD$
 @bin bin/herrie
 @man man/man1/herrie.1
 share/herrie/

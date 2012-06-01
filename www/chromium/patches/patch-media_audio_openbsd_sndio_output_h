@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-media_audio_openbsd_sndio_output_h,v 1.2 2011/06/08 20:36:56 robert Exp $
+$OpenBSD$
 --- media/audio/openbsd/sndio_output.h.orig	Wed Jun  8 09:58:36 2011
 +++ media/audio/openbsd/sndio_output.h	Wed Jun  8 17:03:54 2011
 @@ -0,0 +1,85 @@

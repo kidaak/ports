@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/recordmydesktop/base/Makefile,v 1.12 2010/11/19 07:23:15 espie Exp $
+# $OpenBSD$
 
 COMMENT =		record desktop sessions to an Ogg-Theora-Vorbis file
 

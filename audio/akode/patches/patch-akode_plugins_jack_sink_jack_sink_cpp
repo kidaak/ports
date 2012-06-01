@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/akode/patches/patch-akode_plugins_jack_sink_jack_sink_cpp,v 1.1 2008/04/16 02:10:21 jakemsr Exp $
+$OpenBSD$
 --- akode/plugins/jack_sink/jack_sink.cpp.orig	Mon Mar 24 03:18:18 2008
 +++ akode/plugins/jack_sink/jack_sink.cpp	Mon Mar 24 03:54:26 2008
 @@ -84,7 +84,7 @@ static int process (jack_nframes_t nframes, void *arg)

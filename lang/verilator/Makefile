@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/verilator/Makefile,v 1.2 2011/11/17 23:33:40 nigel Exp $
+# $OpenBSD$
 
 COMMENT=	very fast free Verilog HDL simulator
 

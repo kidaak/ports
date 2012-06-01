@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/moserial/pkg/PLIST,v 1.5 2012/01/19 07:57:51 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/moserial
 @man man/man1/moserial.1
 share/applications/moserial.desktop

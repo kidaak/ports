@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/py-imdb/pkg/PLIST,v 1.11 2010/09/17 13:25:00 millert Exp $
+@comment $OpenBSD$
 bin/imdbpy2sql.py
 lib/python${MODPY_VERSION}/site-packages/IMDbPY-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/IMDbPY-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

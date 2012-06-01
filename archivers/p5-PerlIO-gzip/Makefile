@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/p5-PerlIO-gzip/Makefile,v 1.11 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	PerlIO layer to gzip/gunzip
 

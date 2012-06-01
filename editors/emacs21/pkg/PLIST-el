@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/emacs21/pkg/PLIST-el,v 1.4 2010/02/26 18:17:38 espie Exp $
+@comment $OpenBSD$
 @pkgpath editors/emacs21,-el,no_x11
 share/emacs/${VERSION}/leim/ja-dic/ja-dic.el
 share/emacs/${VERSION}/leim/quail/4Corner.el

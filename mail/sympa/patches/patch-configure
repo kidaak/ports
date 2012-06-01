@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/sympa/patches/patch-configure,v 1.3 2011/08/16 10:06:58 landry Exp $
+$OpenBSD$
 --- configure.orig	Wed Jul 20 18:37:47 2011
 +++ configure	Sun Aug  7 11:37:43 2011
 @@ -2724,19 +2724,19 @@ else

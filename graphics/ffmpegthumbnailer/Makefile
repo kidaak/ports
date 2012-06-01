@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ffmpegthumbnailer/Makefile,v 1.18 2012/02/22 08:32:25 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight video thumbnailer for file managers
 

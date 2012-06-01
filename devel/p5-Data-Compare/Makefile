@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Compare/Makefile,v 1.1.1.1 2012/04/06 09:24:33 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	compare perl data structures
 

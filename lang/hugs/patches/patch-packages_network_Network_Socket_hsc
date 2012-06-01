@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/hugs/patches/patch-packages_network_Network_Socket_hsc,v 1.1 2010/07/07 19:37:39 kili Exp $
+$OpenBSD$
 --- packages/network/Network/Socket.hsc.orig	Thu Sep 21 00:28:56 2006
 +++ packages/network/Network/Socket.hsc	Wed Jul  7 20:55:09 2010
 @@ -999,15 +999,15 @@ getSocketOption (MkSocket s _ _ _ _) so = do

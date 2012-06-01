@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/Wnn/patches/patch-Xwnmo_xwnmo_Imakefile,v 1.2 2008/08/30 11:17:00 espie Exp $
+$OpenBSD$
 --- Xwnmo/xwnmo/Imakefile.orig	Thu Aug 25 01:26:16 1994
 +++ Xwnmo/xwnmo/Imakefile	Sat Aug 30 13:13:02 2008
 @@ -30,7 +30,7 @@ XCOMM CONNECTION WITH THE USE OR PERFORMANCE OF THIS S

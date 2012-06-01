@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Tester/Makefile,v 1.11 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=        run tests built with Test::Builder
 

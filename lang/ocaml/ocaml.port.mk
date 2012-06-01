@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ocaml/ocaml.port.mk,v 1.16 2011/12/21 21:31:50 avsm Exp $
+# $OpenBSD$
 
 # regular file usage for bytecode:
 # PLIST               -- bytecode base files

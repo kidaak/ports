@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/geeqie/pkg/PLIST,v 1.2 2011/10/22 08:10:45 jasper Exp $
+@comment $OpenBSD$
 @conflict gqview-*
 @pkgpath graphics/gqview
 @bin bin/geeqie

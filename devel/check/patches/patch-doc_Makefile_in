@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/check/patches/patch-doc_Makefile_in,v 1.3 2009/05/27 20:52:18 benoit Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Mon Dec 29 15:19:19 2008
 +++ doc/Makefile.in	Wed May 27 22:41:26 2009
 @@ -159,7 +159,7 @@ build_vendor = @build_vendor@

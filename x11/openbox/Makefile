@@ -1,10 +1,10 @@
-# $OpenBSD: ports/x11/openbox/Makefile,v 1.64 2011/11/11 10:59:17 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	small, fast & usable window manager
 
 V =		3.5.0
 DISTNAME =	openbox-${V}
-REVISION =	0
+REVISION =	1
 SHARED_LIBS +=  obt                  0.0      # 0.1
 SHARED_LIBS +=  obrender             10.0      # 27.1
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icb/patches/patch-icb_unix_c,v 1.2 2005/12/31 02:09:46 fgsch Exp $
+$OpenBSD$
 --- icb/unix.c.orig	Fri Feb 24 21:20:31 1995
 +++ icb/unix.c	Sat Dec 31 01:54:33 2005
 @@ -9,12 +9,36 @@

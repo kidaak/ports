@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/pngfix/pkg/PLIST,v 1.1.1.1 2010/07/12 10:02:19 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}pngfix/

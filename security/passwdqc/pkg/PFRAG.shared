@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/passwdqc/pkg/PFRAG.shared,v 1.1 2010/07/07 21:29:58 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libpasswdqc.so.${LIBpasswdqc_VERSION}

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qwt/patches/patch-examples_examples_pri,v 1.2 2010/11/07 00:26:14 merdely Exp $
+$OpenBSD$
 --- examples/examples.pri.orig	Sun Apr 11 05:55:06 2010
 +++ examples/examples.pri	Tue Oct 26 03:03:10 2010
 @@ -9,8 +9,6 @@

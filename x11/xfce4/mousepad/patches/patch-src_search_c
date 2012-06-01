@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/mousepad/patches/patch-src_search_c,v 1.1 2010/11/25 14:53:30 landry Exp $
+$OpenBSD$
 http://launchpadlibrarian.net/33112647/resensitize-find-button.patch
 http://bugzilla.xfce.org/show_bug.cgi?id=5831
 --- src/search.c.orig	Fri Jun 27 22:01:33 2008

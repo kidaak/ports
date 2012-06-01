@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/spidermonkey/Makefile,v 1.21 2012/04/08 17:21:35 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

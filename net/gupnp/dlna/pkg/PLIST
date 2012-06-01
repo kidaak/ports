@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gupnp/dlna/pkg/PLIST,v 1.4 2012/02/16 22:20:54 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/gupnp-dlna-info
 @bin bin/gupnp-dlna-ls-profiles

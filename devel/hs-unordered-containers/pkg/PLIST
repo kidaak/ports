@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-unordered-containers/pkg/PLIST,v 1.1.1.1 2012/01/23 21:00:08 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Data/
 lib/ghc/${DISTNAME}/Data/FullList/

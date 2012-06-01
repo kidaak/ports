@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Alien-wxWidgets/Makefile,v 1.6 2010/12/03 11:44:26 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	building, finding and using wxWidgets binaries
 

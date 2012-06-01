@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Set-Scalar/Makefile,v 1.14 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module for containing a set of scalars
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gtkhotkey/patches/patch-Makefile_in,v 1.1.1.1 2009/09/27 19:14:44 landry Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Sep 24 22:21:24 2009
 +++ Makefile.in	Thu Sep 24 22:21:58 2009
 @@ -693,7 +693,7 @@ info: info-recursive

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boost/patches/patch-boost_functional_hash_detail_limits_hpp,v 1.1 2011/11/06 20:05:47 jasper Exp $
+$OpenBSD$
 --- boost/functional/hash/detail/limits.hpp.orig	Thu Nov  3 07:03:59 2011
 +++ boost/functional/hash/detail/limits.hpp	Thu Nov  3 07:05:08 2011
 @@ -15,11 +15,7 @@

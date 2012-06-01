@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/stp/pkg/PLIST,v 1.1.1.1 2009/12/17 09:43:28 kevlo Exp $
+@comment $OpenBSD$
 @bin bin/stp
 include/stp/
 include/stp/c_interface.h

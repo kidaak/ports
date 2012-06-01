@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-ao/patches/patch-src_aomodule_c,v 1.1 2010/06/08 19:56:36 pea Exp $
+$OpenBSD$
 --- src/aomodule.c.orig	Sat May 15 17:27:14 2010
 +++ src/aomodule.c	Sat May 15 17:30:51 2010
 @@ -4,7 +4,7 @@

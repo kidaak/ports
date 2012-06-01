@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/lensfun/patches/patch-build_tibs_compiler_gcc_mak,v 1.1 2010/09/16 10:05:20 sthen Exp $
+$OpenBSD$
 --- build/tibs/compiler/gcc.mak.orig	Wed Mar 24 22:40:12 2010
 +++ build/tibs/compiler/gcc.mak	Wed Apr  7 03:58:13 2010
 @@ -3,7 +3,7 @@

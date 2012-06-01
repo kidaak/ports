@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/libtranslate/pkg/PLIST,v 1.1.1.1 2011/11/14 16:38:07 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/translate
 include/libtranslate/

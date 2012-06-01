@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-libjava_configure_host,v 1.1 2009/06/04 18:24:20 kurt Exp $
+$OpenBSD$
 --- libjava/configure.host.orig	Tue Jul 10 13:02:57 2007
 +++ libjava/configure.host	Tue Apr 21 17:22:08 2009
 @@ -275,6 +275,12 @@ EOF

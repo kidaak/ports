@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_expr_h,v 1.1 2008/08/28 19:04:40 martynas Exp $
+$OpenBSD$
 --- gcc/expr.h.orig	Mon Jun  9 06:28:24 2003
 +++ gcc/expr.h	Wed Aug 27 06:22:59 2008
 @@ -159,33 +159,10 @@ enum direction {none, upward, downward};  /* Value has

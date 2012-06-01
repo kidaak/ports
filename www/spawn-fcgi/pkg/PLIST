@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/spawn-fcgi/pkg/PLIST,v 1.3 2009/04/15 00:21:13 sthen Exp $
+@comment $OpenBSD$
 @conflict lighttpd-<1.4.22p0
 @conflict cherokee-<=0.8.1
 @bin bin/spawn-fcgi

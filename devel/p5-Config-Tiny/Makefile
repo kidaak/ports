@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Config-Tiny/Makefile,v 1.11 2011/06/01 17:41:38 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	simple methods to Read/Write .ini style files
 

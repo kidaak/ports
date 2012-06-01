@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/vorbisgain/Makefile,v 1.15 2011/01/16 19:53:17 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		add tags to Ogg Vorbis files to adjust the volume
 

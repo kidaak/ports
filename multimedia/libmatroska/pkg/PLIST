@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/libmatroska/pkg/PLIST,v 1.4 2011/10/04 08:59:41 giovanni Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/matroska/
 include/matroska/FileKax.h

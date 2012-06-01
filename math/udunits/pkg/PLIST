@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/udunits/pkg/PLIST,v 1.1.1.1 2010/07/11 10:32:52 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/udunits2
 include/converter.h

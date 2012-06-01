@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/remind/pkg/PLIST,v 1.5 2007/12/12 21:39:40 okan Exp $
+@comment $OpenBSD$
 bin/cm2rem.tcl
 bin/rem
 bin/rem2ps

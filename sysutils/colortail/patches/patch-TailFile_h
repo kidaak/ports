@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/colortail/patches/patch-TailFile_h,v 1.1.1.1 2004/02/26 00:30:05 naddy Exp $
+$OpenBSD$
 --- TailFile.h.orig	2004-01-11 16:15:51.000000000 -0500
 +++ TailFile.h	2004-01-11 16:15:55.000000000 -0500
 @@ -23,7 +23,8 @@

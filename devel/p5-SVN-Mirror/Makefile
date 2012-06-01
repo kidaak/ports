@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-SVN-Mirror/Makefile,v 1.18 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	subversion repository mirroring tool
 

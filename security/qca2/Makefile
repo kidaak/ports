@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/qca2/Makefile,v 1.8 2012/01/26 09:25:46 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	Qt Cryptographic Architecture
 SHARED_ONLY =	Yes

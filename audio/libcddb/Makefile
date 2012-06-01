@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libcddb/Makefile,v 1.1.1.1 2008/03/19 14:37:54 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		library to access data on a CDDB server
 

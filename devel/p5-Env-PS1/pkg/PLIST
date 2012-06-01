@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Env-PS1/pkg/PLIST,v 1.1.1.1 2007/04/08 22:42:00 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Env/
 ${P5SITE}/Env/PS1.pm
 ${P5SITE}/auto/

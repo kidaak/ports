@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Filesys-Virtual-Plain/Makefile,v 1.10 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for a plain virtual filesystem
 DISTNAME=	Filesys-Virtual-Plain-0.10

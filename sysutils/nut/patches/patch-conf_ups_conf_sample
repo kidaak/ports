@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/nut/patches/patch-conf_ups_conf_sample,v 1.2 2011/03/09 11:00:55 sthen Exp $
+$OpenBSD$
 --- conf/ups.conf.sample.orig	Fri Dec 24 13:23:32 2010
 +++ conf/ups.conf.sample	Mon Mar  7 11:33:52 2011
 @@ -47,7 +47,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xbae/pkg/PLIST,v 1.2 2011/04/10 18:02:55 jasper Exp $
+@comment $OpenBSD$
 @pkgpath x11/xbae,lesstif
 %%SHARED%%
 include/Xbae/

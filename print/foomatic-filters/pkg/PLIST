@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/foomatic-filters/pkg/PLIST,v 1.7 2010/11/13 09:36:22 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict hpijs-<1.5p1
 @conflict cups-<=1.2.7p13
 @bin bin/foomatic-rip

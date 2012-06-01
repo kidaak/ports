@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-MasonX-Interp-WithCallbacks/Makefile,v 1.8 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Mason callback support via Params::CallbackRequest
 

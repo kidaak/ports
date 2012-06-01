@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/fcbanner/pkg/PLIST,v 1.1.1.1 2009/05/11 15:50:35 sthen Exp $
+@comment $OpenBSD$
 @bin bin/fcbanner
 share/doc/fcbanner/
 share/doc/fcbanner/fcbanner.txt

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/p5-Unix-Statgrab/pkg/PLIST,v 1.1.1.1 2007/07/17 23:45:48 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Unix/
 ${P5ARCH}/Unix/Statgrab.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libjava_classpath_configure,v 1.1 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libjava/classpath/configure.orig	Wed Jan 25 21:12:12 2012
 +++ libjava/classpath/configure	Wed Jan 25 21:12:29 2012
 @@ -11218,7 +11218,7 @@ openbsd*)

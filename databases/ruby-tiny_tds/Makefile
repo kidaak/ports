@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-tiny_tds/Makefile,v 1.4 2011/09/16 08:48:05 espie Exp $
+# $OpenBSD$
 
 COMMENT =	simple and fast ruby binding to FreeTDS
 

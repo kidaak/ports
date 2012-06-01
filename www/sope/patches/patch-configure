@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/sope/patches/patch-configure,v 1.3 2011/04/22 05:34:13 sebastia Exp $
+$OpenBSD$
 
 do not link against gnustep-gui in case its installed
 decouple version of sope from the shared library interface versions

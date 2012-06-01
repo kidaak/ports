@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/apache-couchdb/pkg/PLIST,v 1.6 2010/11/24 08:18:09 landry Exp $
+@comment $OpenBSD$
 @newgroup _couchdb:621
 @newuser _couchdb:621:_couchdb:daemon:CouchDB account:/var/couchdb:/bin/sh
 %%SHARED%%

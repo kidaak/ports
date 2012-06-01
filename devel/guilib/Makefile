@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/guilib/Makefile,v 1.31 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	SDL C++ GUI widget library
 

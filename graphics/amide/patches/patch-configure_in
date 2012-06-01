@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/amide/patches/patch-configure_in,v 1.2 2011/05/19 15:28:27 ajacoutot Exp $
+$OpenBSD$
 
 - Remove over-the-top optimization
 - Fix pthread library

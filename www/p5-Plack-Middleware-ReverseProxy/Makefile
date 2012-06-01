@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Plack-Middleware-ReverseProxy/Makefile,v 1.1.1.1 2012/04/08 21:06:47 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	supports app to run as a reverse proxy backend
 

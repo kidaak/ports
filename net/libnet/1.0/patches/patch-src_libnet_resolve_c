@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnet/1.0/patches/patch-src_libnet_resolve_c,v 1.2 2008/11/08 22:09:40 sthen Exp $
+$OpenBSD$
 --- src/libnet_resolve.c.orig	Sun Jan  7 18:29:05 2001
 +++ src/libnet_resolve.c	Sat Nov  8 22:07:54 2008
 @@ -35,10 +35,12 @@

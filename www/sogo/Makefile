@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/sogo/Makefile,v 1.18 2012/03/31 17:02:23 sebastia Exp $
+# $OpenBSD$
 
 COMMENT = 	web based groupware server
 

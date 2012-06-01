@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/plugins/rdt/pkg/PLIST,v 1.1.1.1 2006/11/29 14:42:34 kurt Exp $
+@comment $OpenBSD$
 eclipse/features/org.rubypeople.rdt.source_0.8.0.604272100PRD/
 eclipse/features/org.rubypeople.rdt.source_0.8.0.604272100PRD/feature.xml
 eclipse/features/org.rubypeople.rdt_0.8.0.604272100PRD/

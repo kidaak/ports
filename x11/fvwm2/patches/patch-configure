@@ -1,7 +1,7 @@
-$OpenBSD: ports/x11/fvwm2/patches/patch-configure,v 1.1 2011/04/26 18:50:46 shadchin Exp $
---- configure.orig	Sun Apr 17 02:35:43 2011
-+++ configure	Wed Apr 20 15:50:16 2011
-@@ -11025,7 +11025,7 @@ if test "${with_intl_library+set}" = set; then :
+$OpenBSD$
+--- configure.orig	Fri Apr 20 17:03:57 2012
++++ configure	Mon Apr 30 21:20:31 2012
+@@ -11026,7 +11026,7 @@ if test "${with_intl_library+set}" = set; then :
  else
  
      with_intl=maybe

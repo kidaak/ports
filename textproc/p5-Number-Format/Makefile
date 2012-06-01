@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Number-Format/Makefile,v 1.8 2010/10/19 07:54:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Perl extension for formatting numbers
 

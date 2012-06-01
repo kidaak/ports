@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-installer_linux_indexer_cfg,v 1.4 2011/12/22 17:10:04 ajacoutot Exp $
+$OpenBSD$
 --- installer/linux/indexer.cfg.orig	Wed Dec 21 20:17:06 2011
 +++ installer/linux/indexer.cfg	Thu Dec 22 12:14:19 2011
 @@ -2,19 +2,19 @@

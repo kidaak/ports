@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/sope/patches/patch-sope-xml_DOM_GNUmakefile_preamble,v 1.1.1.1 2010/10/06 11:05:41 sebastia Exp $
+$OpenBSD$
 
 decouple sope version from library interface version.
 

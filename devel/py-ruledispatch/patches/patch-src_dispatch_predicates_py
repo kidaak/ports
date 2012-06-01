@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-ruledispatch/patches/patch-src_dispatch_predicates_py,v 1.1 2009/08/06 23:36:44 martynas Exp $
+$OpenBSD$
 --- src/dispatch/predicates.py.orig	Wed Apr 25 07:01:44 2007
 +++ src/dispatch/predicates.py	Wed Aug  5 18:48:17 2009
 @@ -236,7 +236,7 @@ class OrExpr(LogicalExpr):

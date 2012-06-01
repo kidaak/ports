@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/msp430/binutils/patches/patch-binutils_elfedit_c,v 1.1 2011/10/02 18:26:32 jasper Exp $
+$OpenBSD$
 
 Fix -Wbounded warnings by using correct casts.
 

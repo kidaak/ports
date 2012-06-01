@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/dysnomia/patches/patch-deezer_cpp,v 1.1.1.1 2007/12/25 10:02:58 espie Exp $
+$OpenBSD$
 --- deezer.cpp.orig	Tue Dec 25 10:45:07 2007
 +++ deezer.cpp	Tue Dec 25 10:50:18 2007
 @@ -300,6 +300,19 @@ void parse_searchresults(vector<song>* res, char* buf,

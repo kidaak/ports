@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/cups-pdf/pkg/PLIST,v 1.5 2012/04/11 17:29:50 ajacoutot Exp $
+@comment $OpenBSD$
 bin/cups-pdf-dispatch
 @mode 0700
 @bin libexec/cups/backend/cups-pdf

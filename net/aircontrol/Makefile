@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/aircontrol/Makefile,v 1.17 2011/09/19 09:17:54 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	management tool for Ubiquiti wireless devices
 

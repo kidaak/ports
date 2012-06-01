@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/tkrat/patches/patch-lib_ratStdMessage_c,v 1.2 2003/12/27 23:34:42 jose Exp $
+$OpenBSD$
 --- lib/ratStdMessage.c.orig	2002-02-04 15:35:10.000000000 -0500
 +++ lib/ratStdMessage.c	2003-12-20 18:43:31.000000000 -0500
 @@ -435,10 +435,10 @@ Std_MakeChildrenProc(Tcl_Interp *interp,

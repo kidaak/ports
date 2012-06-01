@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-daemon_controller/Makefile,v 1.1.1.1 2011/11/17 15:33:29 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =		robust daemon management
 

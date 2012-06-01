@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/wmtictactoe/Makefile,v 1.15 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; TicTacToe game
 

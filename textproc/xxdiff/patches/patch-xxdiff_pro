@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xxdiff/patches/patch-xxdiff_pro,v 1.2 2005/04/24 19:02:05 sturm Exp $
+$OpenBSD$
 --- xxdiff.pro.orig	Sat Nov  6 00:29:46 2004
 +++ xxdiff.pro	Thu Apr 21 19:59:48 2005
 @@ -159,7 +159,6 @@ HEADERS = \

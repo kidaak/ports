@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/glabels/patches/patch-help_Makefile_in,v 1.1 2011/05/17 17:05:38 ajacoutot Exp $
+$OpenBSD$
 
 This file is not used anymore and m4 will create a cyclic link to it
 which will prevent packaging.

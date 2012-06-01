@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/py-scipy/pkg/PLIST,v 1.4 2011/11/15 14:45:46 rpointel Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/scipy/
 lib/python${MODPY_VERSION}/site-packages/scipy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/scipy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

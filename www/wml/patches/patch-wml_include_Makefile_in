@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_include_Makefile_in,v 1.1.1.1 2006/07/14 16:12:14 bernd Exp $
+$OpenBSD$
 --- wml_include/Makefile.in.orig	Thu Jun 15 15:56:55 2006
 +++ wml_include/Makefile.in	Thu Jun 15 15:59:16 2006
 @@ -25,6 +25,7 @@ bindir          = $(prefix)/bin

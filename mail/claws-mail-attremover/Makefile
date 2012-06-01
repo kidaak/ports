@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/claws-mail-attremover/Makefile,v 1.13 2012/01/23 18:57:33 landry Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

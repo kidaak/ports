@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Time-Piece-MySQL/pkg/PLIST,v 1.1.1.1 2006/11/14 19:07:17 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Time/
 ${P5SITE}/Time/Piece/
 ${P5SITE}/Time/Piece/MySQL.pm

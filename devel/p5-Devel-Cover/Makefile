@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-Cover/Makefile,v 1.8 2011/06/01 17:41:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	code coverage metrics for Perl
 SHARED_ONLY =	Yes

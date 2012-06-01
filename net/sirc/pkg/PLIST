@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/sirc/pkg/PLIST,v 1.4 2004/09/18 13:01:48 espie Exp $
+@comment $OpenBSD$
 @conflict kdenetwork-*
 bin/dsirc
 bin/sirc

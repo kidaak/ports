@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hmake/Makefile,v 1.21 2011/04/26 14:51:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	compilation manager for Haskell programs
  

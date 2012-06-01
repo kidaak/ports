@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/delay/Makefile,v 1.20 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.1.1.1 1999/03/05 17:07:28 nectar Exp $
 
 COMMENT=	delay program with feedback to the user

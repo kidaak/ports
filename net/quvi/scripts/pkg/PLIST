@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/quvi/scripts/pkg/PLIST,v 1.2 2011/11/16 22:58:14 jasper Exp $
+@comment $OpenBSD$
 lib/pkgconfig/libquvi-scripts.pc
 @man man/man7/libquvi-scripts.7
 share/libquvi-scripts/

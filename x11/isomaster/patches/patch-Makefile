@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/isomaster/patches/patch-Makefile,v 1.9 2010/10/10 15:24:41 jasper Exp $
+$OpenBSD$
 --- Makefile.orig	Mon Jan  4 23:43:26 2010
 +++ Makefile	Sun Oct 10 17:23:15 2010
 @@ -61,18 +61,20 @@ CPPFLAGS +=  -DICONPATH=\"$(ICONPATH)\" -DLOCALEDIR=\"

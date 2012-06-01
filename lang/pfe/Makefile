@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/pfe/Makefile,v 1.15 2011/10/17 07:10:53 ajacoutot Exp $
+# $OpenBSD$
 
 BROKEN-powerpc=	does not build, error: lvalue required as increment operand
 

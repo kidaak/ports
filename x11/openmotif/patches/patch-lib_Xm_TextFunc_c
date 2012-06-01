@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/openmotif/patches/patch-lib_Xm_TextFunc_c,v 1.1 2011/06/22 17:22:37 sebastia Exp $
+$OpenBSD$
 
 fix for build with gcc-2.95
 

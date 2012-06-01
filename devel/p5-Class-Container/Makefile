@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Container/Makefile,v 1.14 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	validate method/function parameters
 

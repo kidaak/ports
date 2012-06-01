@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tangerine-icon-theme/patches/patch-autogen_sh,v 1.1.1.1 2009/06/03 22:27:47 landry Exp $
+$OpenBSD$
 --- autogen.sh.orig	Tue Feb  3 21:42:20 2009
 +++ autogen.sh	Tue Feb  3 21:42:26 2009
 @@ -4,6 +4,3 @@ intltoolize -c --force		|| exit 1

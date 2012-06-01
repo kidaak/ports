@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-IO-CaptureOutput/pkg/PLIST,v 1.1.1.1 2012/03/08 14:51:19 pascal Exp $
+@comment $OpenBSD$
 ${P5SITE}/IO/
 ${P5SITE}/IO/CaptureOutput.pm
 ${P5SITE}/IO/CaptureOutput.pod

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/goggles/Makefile,v 1.16 2010/11/22 10:16:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	gui for ogle
 CATEGORIES=	x11

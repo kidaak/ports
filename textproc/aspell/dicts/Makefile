@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/Makefile,v 1.8 2012/01/17 11:04:12 ajacoutot Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += af

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-Math-BigInt-GMP/pkg/PLIST,v 1.1.1.1 2006/07/10 15:33:58 steven Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Math/
 ${P5ARCH}/Math/BigInt/

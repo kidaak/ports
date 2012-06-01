@@ -1,6 +1,4 @@
-# $OpenBSD: ports/productivity/tryton/trytond/Makefile,v 1.7 2012/03/30 05:49:50 ajacoutot Exp $
-
-MODPY_EGG_VERSION=	2.2.2
+# $OpenBSD$
 
 COMMENT=		server of the Tryton application platform
 

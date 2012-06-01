@@ -1,15 +1,15 @@
-# $OpenBSD: ports/mail/pflogsumm/Makefile,v 1.11 2012/02/20 09:54:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Postfix log entry summarizer
 
-DISTNAME=	pflogsumm-1.1.4
+DISTNAME=	pflogsumm-1.1.5
 CATEGORIES=	mail
 
-MASTER_SITES+=	http://jimsun.linxnet.com/downloads/
+MASTER_SITES=	http://jimsun.linxnet.com/downloads/
 
 HOMEPAGE=	http://jimsun.linxnet.com/postfix_contrib.html
 
-MAINTAINER=     Giovanni Bechis <giovanni@openbsd.org>
+MAINTAINER=	Giovanni Bechis <giovanni@openbsd.org>
 
 # GPLv2+
 PERMIT_PACKAGE_CDROM=	Yes
@@ -19,7 +19,7 @@ PERMIT_DISTFILES_FTP=	Yes
 
 NO_REGRESS=	Yes
 
-RUN_DEPENDS=  devel/p5-Date-Calc>=5.3
+RUN_DEPENDS=	devel/p5-Date-Calc>=5.3
 
 do-build:
 	(cd ${WRKSRC}; \

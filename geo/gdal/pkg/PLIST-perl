@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/gdal/pkg/PLIST-perl,v 1.1 2009/03/14 11:05:50 landry Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Geo/
 ${P5ARCH}/Geo/GDAL/

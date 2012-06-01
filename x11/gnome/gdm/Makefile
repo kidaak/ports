@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/gdm/Makefile,v 1.119 2012/01/19 14:14:13 ajacoutot Exp $
+# $OpenBSD$
 
 BROKEN=			needs PAM(7)
 
@@ -62,8 +62,7 @@ MODGNOME_ICON_CACHE=	Yes
 MODGNOME_CPPFLAGS=	-I${X11BASE}/include -DHAS_SA_LEN
 MODGNOME_LDFLAGS=	-L${X11BASE}/lib
 
-CONFIGURE_ARGS=		--localstatedir=/var \
-			--mandir=${PREFIX}/man \
+CONFIGURE_ARGS=		--mandir=${PREFIX}/man \
 			--with-at-spi-registryd-directory=${LOCALBASE}/libexec \
 			--with-custom-conf=${SYSCONFDIR}/X11/gdm/custom.conf \
 			--with-dbus-sys=${SYSCONFDIR}/dbus-1/system.d \

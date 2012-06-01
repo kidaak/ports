@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Parse-PlainConfig/pkg/PLIST,v 1.1.1.1 2007/07/22 15:59:33 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Parse/
 ${P5SITE}/Parse/PlainConfig.pm
 @man man/man3p/Parse::PlainConfig.3p

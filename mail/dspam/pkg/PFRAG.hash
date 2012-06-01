@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/dspam/pkg/PFRAG.hash,v 1.2 2005/11/23 08:52:49 jakob Exp $
+@comment $OpenBSD$
 bin/cssclean
 bin/csscompress
 bin/cssconvert

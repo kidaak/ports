@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_config_i386_openbsd_h,v 1.1.1.1 2011/11/14 13:00:57 pascal Exp $
+$OpenBSD$
 --- gcc/config/i386/openbsd.h.orig	Sat Nov 12 13:36:52 2011
 +++ gcc/config/i386/openbsd.h	Sat Nov 12 13:37:45 2011
 @@ -40,16 +40,19 @@ along with GCC; see the file COPYING3.  If not see

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/f1spirit/Makefile,v 1.5 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=	remake of Konami's F1-Spirit
 

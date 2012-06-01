@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/mterm/pkg/PLIST,v 1.2 2004/09/15 19:26:30 espie Exp $
+@comment $OpenBSD$
 bin/mterm
 @man man/man1/mterm.1
 share/examples/mterm/

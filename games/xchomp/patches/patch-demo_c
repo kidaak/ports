@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xchomp/patches/patch-demo_c,v 1.1 2007/10/26 21:19:16 ajacoutot Exp $
+$OpenBSD$
 --- demo.c.orig	Fri Mar 18 06:12:23 1994
 +++ demo.c	Fri Oct 26 23:02:48 2007
 @@ -127,7 +127,7 @@ demo_seq()

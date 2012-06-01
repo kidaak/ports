@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mp3info/Makefile,v 1.35 2011/10/17 12:40:44 espie Exp $
+# $OpenBSD$
 
 COMMENT=	MP3 technical info viewer and ID3 1.x tag editor
 

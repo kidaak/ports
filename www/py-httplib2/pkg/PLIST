@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-httplib2/pkg/PLIST,v 1.2 2010/11/23 15:08:16 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/httplib2/
 lib/python${MODPY_VERSION}/site-packages/httplib2-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/httplib2/__init__.py

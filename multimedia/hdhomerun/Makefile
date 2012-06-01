@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/hdhomerun/Makefile,v 1.12 2011/04/16 23:04:11 jolan Exp $
+# $OpenBSD$
 
 COMMENT=	HDHomeRun Config CLI utility & firmware
 FW=		hdhomerun_atsc_firmware_20110323.bin \

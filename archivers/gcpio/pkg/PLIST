@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/gcpio/pkg/PLIST,v 1.8 2010/04/05 16:58:59 naddy Exp $
+@comment $OpenBSD$
 @bin bin/gcpio
 @info info/cpio.info
 @comment lib/charset.alias

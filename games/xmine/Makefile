@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xmine/Makefile,v 1.28 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Athena port of xminesweeper
 

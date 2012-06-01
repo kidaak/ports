@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/texlive/texmf/pkg/PLIST-docs,v 1.12 2012/03/17 21:25:37 kili Exp $
+@comment $OpenBSD$
 @conflict teTeX_texmf-doc-*
 @conflict texlive_base-<2011
 @conflict texlive_texmf-minimal-<2011

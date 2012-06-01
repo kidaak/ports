@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/polkit/patches/patch-actions_org_freedesktop_policykit_policy_in,v 1.1.1.1 2010/07/01 07:46:21 ajacoutot Exp $
+$OpenBSD$
 --- actions/org.freedesktop.policykit.policy.in.orig	Sun Jun 27 20:11:45 2010
 +++ actions/org.freedesktop.policykit.policy.in	Sun Jun 27 20:12:00 2010
 @@ -27,6 +27,6 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/ipmitool/pkg/PLIST,v 1.2 2009/12/01 20:26:18 wilfried Exp $
+@comment $OpenBSD$
 @bin bin/ipmitool
 @man man/man1/ipmitool.1
 @man man/man8/ipmievd.8

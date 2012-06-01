@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libclog/pkg/PLIST,v 1.8 2011/11/14 17:05:22 dhill Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/clog.h
 lib/libclog.a

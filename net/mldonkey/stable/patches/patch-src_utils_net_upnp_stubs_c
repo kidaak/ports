@@ -1,9 +1,11 @@
-$OpenBSD: ports/net/mldonkey/stable/patches/patch-src_utils_net_upnp_stubs_c,v 1.1 2012/02/28 15:38:55 dcoppa Exp $
+$OpenBSD$
 
 Fix build with latest libnatpmp/miniupnpc
 
+Remove bogus call to pthread_mutex_unlock()
+
 --- src/utils/net/upnp_stubs.c.orig	Mon Nov  1 18:19:23 2010
-+++ src/utils/net/upnp_stubs.c	Mon Feb 27 15:35:59 2012
++++ src/utils/net/upnp_stubs.c	Tue May  8 09:24:59 2012
 @@ -501,7 +501,7 @@ natpmpPulse( ml_upnpmp_t * map )
  
      if( map->enabled && ( map->natpmpState == ML_NATPMP_DISCOVER ) )
@@ -40,3 +42,11 @@ Fix build with latest libnatpmp/miniupnpc
              map->upnpMapped = !err;
          }
          dbg_printf( "Port forwarding through \"%s\", service \"%s\". (local address[%s:%d])\n", map->upnpUrls.controlURL, map->upnpData.first.servicetype, map->lanaddr, map->intPort );
+@@ -901,7 +901,6 @@ upnp_thread_start( )
+ 	    //pthread_cond_init(&cond, NULL);
+ 	    pthread_mutex_init(&g_mutex, NULL);
+ 	    pthread_mutex_init(&g_delay_mutex, NULL);
+-	    pthread_mutex_unlock(&g_mutex);
+ 
+ 	    err = pthread_create(&g_pthread, &attr, upnpNatpmpThread, NULL);
+ 

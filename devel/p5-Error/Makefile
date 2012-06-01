@@ -1,12 +1,10 @@
-# $OpenBSD: ports/devel/p5-Error/Makefile,v 1.11 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	error/exception handling in an OO-ish way
 
 MODULES=	cpan
-DISTNAME=	Error-0.17016
-REVISION=	0
+DISTNAME=	Error-0.17018
 CATEGORIES=	devel
-USE_GROFF =	Yes
 
 # perl
 PERMIT_PACKAGE_CDROM=	Yes
@@ -17,5 +15,8 @@ PERMIT_DISTFILES_FTP=	Yes
 CONFIGURE_STYLE=	modbuild
 
 MODCPAN_EXAMPLES=	Yes
+
+REGRESS_DEPENDS =	devel/p5-Test-Pod \
+			devel/p5-Test-Pod-Coverage
 
 .include <bsd.port.mk>

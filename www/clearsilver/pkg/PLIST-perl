@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/clearsilver/pkg/PLIST-perl,v 1.1 2011/09/05 17:12:35 okan Exp $
+@comment $OpenBSD$
 libdata/perl5/${MACHINE_ARCH}-openbsd/
 libdata/perl5/${MACHINE_ARCH}-openbsd/5.12.2/
 libdata/perl5/${MACHINE_ARCH}-openbsd/5.12.2/perllocal.pod

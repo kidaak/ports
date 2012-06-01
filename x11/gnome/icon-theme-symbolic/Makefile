@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/icon-theme-symbolic/Makefile,v 1.17 2012/04/10 08:27:16 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	base icon theme extension for special UI contexts
 

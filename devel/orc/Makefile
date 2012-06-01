@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/orc/Makefile,v 1.13 2012/01/27 09:44:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library and toolset to operate arrays of data
 

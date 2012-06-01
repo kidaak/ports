@@ -1,4 +1,4 @@
-# $OpenBSD: ports/java/jlint/Makefile,v 1.9 2011/08/29 14:12:17 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Java program analyzer and checker
 

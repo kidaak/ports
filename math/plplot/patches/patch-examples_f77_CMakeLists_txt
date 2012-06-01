@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/plplot/patches/patch-examples_f77_CMakeLists_txt,v 1.1 2009/04/05 16:21:55 steven Exp $
+$OpenBSD$
 --- examples/f77/CMakeLists.txt.orig	Sat Jun  7 09:31:42 2008
 +++ examples/f77/CMakeLists.txt	Sat Jun  7 09:32:04 2008
 @@ -85,7 +85,7 @@ endforeach(STRING_INDEX ${f77_STRING_INDICES})

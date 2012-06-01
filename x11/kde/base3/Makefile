@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/base3/Makefile,v 1.106 2011/12/03 23:37:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main = 		K Desktop Environment, basic applications
 COMMENT-samba =		K Desktop Environment, samba support

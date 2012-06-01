@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-builder/Makefile,v 1.14 2011/12/13 17:55:12 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	Ruby library to create XML markup and data structures
 

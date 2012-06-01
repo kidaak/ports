@@ -1,2 +1,0 @@
-@comment $OpenBSD: ports/x11/xfce4/gtk-xfce-engine/pkg/PFRAG.shared,v 1.3 2007/04/23 16:40:04 steven Exp $
-lib/gtk-2.0/2.10.0/engines/libxfce.so

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/oolite/patches/patch-src_Core_Materials_OOPNGTextureLoader_m,v 1.2 2011/07/08 20:38:01 naddy Exp $
+$OpenBSD$
 
 * Missing header.
 * Fix build with png-1.5.

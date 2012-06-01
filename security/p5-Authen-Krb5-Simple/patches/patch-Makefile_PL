@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/p5-Authen-Krb5-Simple/patches/patch-Makefile_PL,v 1.2 2008/08/26 20:57:27 fgsch Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Sun Jul 27 13:29:15 2008
 +++ Makefile.PL	Sun Jul 27 13:29:26 2008
 @@ -55,10 +55,10 @@ if(exists($ENV{KRB5_LIB})) {

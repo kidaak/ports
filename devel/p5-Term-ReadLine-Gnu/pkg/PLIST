@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Term-ReadLine-Gnu/pkg/PLIST,v 1.10 2004/09/14 23:44:00 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Term/
 ${P5ARCH}/Term/ReadLine/

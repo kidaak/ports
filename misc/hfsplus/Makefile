@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/hfsplus/Makefile,v 1.25 2011/09/24 09:47:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	hfsplus filesystem access tool
 

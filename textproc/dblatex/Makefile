@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/dblatex/Makefile,v 1.9 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =		convert DocBook to LaTeX, DVI, PostScript, and PDF
 DISTNAME =		dblatex-0.3

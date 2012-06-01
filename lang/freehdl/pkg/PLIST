@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/freehdl/pkg/PLIST,v 1.1.1.1 2011/09/16 08:13:12 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/freehdl-config
 bin/freehdl-gennodes

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs21/patches/patch-src_m_mips64_h,v 1.1 2004/10/31 23:03:29 mjc Exp $
+$OpenBSD$
 --- src/m/mips64.h.orig	Tue Nov 30 00:18:10 2004
 +++ src/m/mips64.h	Tue Nov 30 00:21:52 2004
 @@ -0,0 +1,109 @@

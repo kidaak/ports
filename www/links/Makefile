@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/links/Makefile,v 1.19 2012/04/03 00:06:54 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	text browser, displays while downloading
 

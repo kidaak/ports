@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-LWP-Authen-Wsse/Makefile,v 1.4 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library for enabling X-WSSE authentication in LWP
 

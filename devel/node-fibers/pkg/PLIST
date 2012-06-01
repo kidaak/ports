@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/node-fibers/pkg/PLIST,v 1.1.1.1 2012/04/03 18:46:03 jeremy Exp $
+@comment $OpenBSD$
 lib/node_modules/
 lib/node_modules/fibers/
 lib/node_modules/fibers/.npmignore

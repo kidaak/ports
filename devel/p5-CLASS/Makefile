@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-CLASS/Makefile,v 1.3 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	alias for __PACKAGE__
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gamin/Makefile,v 1.33 2012/01/01 09:01:41 ajacoutot Exp $
+# $OpenBSD$
 
 # XXX fix building with glib2 >= 2.29 (G_CONST_RETURN is deprecated)	
 CFLAGS +=	"-DG_CONST_RETURN=const"

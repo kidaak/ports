@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pgfouine/Makefile,v 1.9 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT =	PostgreSQL log analyzer
 

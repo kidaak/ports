@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/tn/Makefile,v 1.3 2012/01/17 11:02:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Setswana
 CATEGORIES=	textproc

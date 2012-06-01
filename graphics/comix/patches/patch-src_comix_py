@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/comix/patches/patch-src_comix_py,v 1.2 2009/04/15 08:26:28 landry Exp $
+$OpenBSD$
 
 point python to where comix modules are installed
 

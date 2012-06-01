@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/lyx/Makefile,v 1.63 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	graphical frontend for LaTeX (nearly WYSIWYG)
 

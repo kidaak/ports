@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/amaya/browser/patches/patch-libwww_configure_in,v 1.1 2001/10/02 20:18:59 heko Exp $
+$OpenBSD$
 --- libwww/configure.in.orig	Fri Sep 15 18:16:20 2000
 +++ libwww/configure.in	Tue Oct  2 02:23:33 2001
 @@ -475,24 +475,24 @@ AC_ARG_WITH(expat,

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/argp-standalone/Makefile,v 1.2 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		Standalone version of arguments parsing functions from GLIBC
 

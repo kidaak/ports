@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/rt/patches/patch-config_layout,v 1.2 2010/05/29 13:25:06 robert Exp $
+$OpenBSD$
 --- config.layout.orig	Mon Oct 19 21:55:31 2009
 +++ config.layout	Sun Nov  8 12:37:59 2009
 @@ -84,6 +84,28 @@

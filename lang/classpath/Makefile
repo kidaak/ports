@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/classpath/Makefile,v 1.27 2011/11/17 18:03:43 sthen Exp $
+# $OpenBSD$
 
 # uses gcj which is only supported on select archs
 ONLY_FOR_ARCHS=	i386 amd64 sparc64

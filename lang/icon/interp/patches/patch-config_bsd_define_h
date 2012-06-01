@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/icon/interp/patches/patch-config_bsd_define_h,v 1.1 2006/10/16 10:01:55 espie Exp $
+$OpenBSD$
 --- config/bsd/define.h.orig	Mon Oct 16 10:32:47 2006
 +++ config/bsd/define.h	Mon Oct 16 10:32:55 2006
 @@ -6,5 +6,5 @@

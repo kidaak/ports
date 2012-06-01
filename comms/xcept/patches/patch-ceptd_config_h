@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xcept/patches/patch-ceptd_config_h,v 1.1 2000/09/03 16:25:05 espie Exp $
+$OpenBSD$
 --- ceptd/config.h.orig	Wed Jul 27 10:28:38 1994
 +++ ceptd/config.h	Sun Sep  3 17:29:34 2000
 @@ -49,7 +49,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ctm/patches/patch-ctm_ctm_ctm_pass3_c,v 1.2 2007/10/31 23:14:46 ajacoutot Exp $
+$OpenBSD$
 --- ctm/ctm/ctm_pass3.c.orig	Wed Oct 31 23:06:34 2007
 +++ ctm/ctm/ctm_pass3.c	Wed Oct 31 23:06:34 2007
 @@ -22,7 +22,7 @@ settime(const char *name, const struct timeval *times)

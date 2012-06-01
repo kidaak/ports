@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-hood/Makefile,v 1.6 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell Object Observation Debugger
 

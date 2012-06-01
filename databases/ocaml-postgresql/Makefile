@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ocaml-postgresql/Makefile,v 1.19 2011/09/16 08:48:03 espie Exp $
+# $OpenBSD$
 
 BROKEN-hppa=		ocamldoc hangs build
 

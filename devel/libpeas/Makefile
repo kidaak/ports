@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libpeas/Makefile,v 1.19 2012/04/07 13:48:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	gobject-based plugins engine
 

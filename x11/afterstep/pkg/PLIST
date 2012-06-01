@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/afterstep/pkg/PLIST,v 1.8 2009/12/06 15:09:22 jasper Exp $
+@comment $OpenBSD$
 @bin bin/ASFileBrowser
 @bin bin/ASRun
 @bin bin/ASWallpaper

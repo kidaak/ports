@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nepenthes/patches/patch-modules_submit-http_HTTPSession_cpp,v 1.1 2011/07/05 08:18:30 jasper Exp $
+$OpenBSD$
 --- modules/submit-http/HTTPSession.cpp.orig	Tue Jul  5 09:29:55 2011
 +++ modules/submit-http/HTTPSession.cpp	Tue Jul  5 09:29:58 2011
 @@ -28,7 +28,6 @@

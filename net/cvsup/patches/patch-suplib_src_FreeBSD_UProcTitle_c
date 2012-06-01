@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/cvsup/patches/patch-suplib_src_FreeBSD_UProcTitle_c,v 1.1.1.1 2001/05/05 22:15:20 espie Exp $
+$OpenBSD$
 --- suplib/src/FreeBSD/UProcTitle.c.orig	Thu May  3 00:05:29 2001
 +++ suplib/src/FreeBSD/UProcTitle.c	Thu May  3 00:05:50 2001
 @@ -1,5 +1,10 @@

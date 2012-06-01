@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/firmware/pgt/Makefile,v 1.2 2011/07/08 21:20:49 sthen Exp $
+# $OpenBSD$
 
 FW_DRIVER=	pgt
 FW_VER=		1.2

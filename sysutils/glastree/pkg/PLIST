@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/glastree/pkg/PLIST,v 1.1.1.1 2008/03/29 11:42:40 matthieu Exp $
+@comment $OpenBSD$
 bin/glastree
 bin/glastreeprune
 @man man/man1/glastree.1

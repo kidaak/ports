@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/jasper/Makefile,v 1.13 2010/11/17 08:05:14 espie Exp $
+# $OpenBSD$
 
 COMMENT =	reference implementation of JPEG-2000
 

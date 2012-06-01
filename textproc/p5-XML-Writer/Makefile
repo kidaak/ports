@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Writer/Makefile,v 1.21 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl extension for writing XML documents
 

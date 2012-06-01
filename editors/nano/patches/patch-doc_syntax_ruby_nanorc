@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nano/patches/patch-doc_syntax_ruby_nanorc,v 1.2 2009/12/01 19:39:31 naddy Exp $
+$OpenBSD$
 --- doc/syntax/ruby.nanorc.orig	Fri Aug 14 05:16:32 2009
 +++ doc/syntax/ruby.nanorc	Tue Dec  1 18:48:13 2009
 @@ -3,13 +3,13 @@

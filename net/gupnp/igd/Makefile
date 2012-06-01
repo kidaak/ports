@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gupnp/igd/Makefile,v 1.8 2011/11/08 10:38:48 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		library to handle UPnP IGD port mapping
 

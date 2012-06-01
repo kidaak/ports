@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ADMsmb/Makefile,v 1.19 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Samba security scanner
 

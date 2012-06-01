@@ -1,4 +1,4 @@
-# $OpenBSD: ports/shells/es/Makefile,v 1.20 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	extensible shell, derived from plan9's rc
 

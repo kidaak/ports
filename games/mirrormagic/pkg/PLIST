@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/mirrormagic/pkg/PLIST,v 1.1.1.1 2006/01/27 01:32:50 jolan Exp $
+@comment $OpenBSD$
 bin/mirrormagic
 share/mirrormagic/
 share/mirrormagic/graphics/

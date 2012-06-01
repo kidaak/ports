@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-src_tools_qfile_unix_cpp,v 1.2 2007/03/31 22:49:46 espie Exp $
+$OpenBSD$
 --- src/tools/qfile_unix.cpp.orig	Thu Oct 19 16:25:03 2006
 +++ src/tools/qfile_unix.cpp	Sat Mar 31 14:51:25 2007
 @@ -53,6 +53,17 @@ static inline int qt_open(const char *pathname, int fl

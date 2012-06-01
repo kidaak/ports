@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Unicode-LineBreak/pkg/PLIST,v 1.2 2011/03/10 18:12:16 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Text/
 ${P5ARCH}/Text/LineFold/

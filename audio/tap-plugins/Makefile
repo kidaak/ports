@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/tap-plugins/Makefile,v 1.1.1.1 2010/10/24 10:12:15 jakemsr Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

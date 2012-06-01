@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/fswebcam/Makefile,v 1.6 2010/11/17 08:05:13 espie Exp $
+# $OpenBSD$
 
 COMMENT=		fswebcam is a small and simple webcam app
 

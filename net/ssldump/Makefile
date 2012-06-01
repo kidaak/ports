@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ssldump/Makefile,v 1.13 2010/11/19 22:31:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=	SSLv3/TLS network protocol analyzer
 

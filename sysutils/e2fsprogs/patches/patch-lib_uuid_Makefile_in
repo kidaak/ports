@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/e2fsprogs/patches/patch-lib_uuid_Makefile_in,v 1.3 2010/04/03 11:53:58 kili Exp $
+$OpenBSD$
 --- lib/uuid/Makefile.in.orig	Tue Feb 19 05:33:10 2008
 +++ lib/uuid/Makefile.in	Fri Apr  2 21:35:50 2010
 @@ -38,18 +38,18 @@ SRCS=		$(srcdir)/clear.c \

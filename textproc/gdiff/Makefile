@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/gdiff/Makefile,v 1.15 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	GNU versions of the diff utilities
 

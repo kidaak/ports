@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/apache-couchdb/patches/patch-etc_couchdb_Makefile_in,v 1.6 2011/04/01 07:38:16 jasper Exp $
+$OpenBSD$
 --- etc/couchdb/Makefile.in.orig	Wed Aug 11 20:18:52 2010
 +++ etc/couchdb/Makefile.in	Fri Apr  1 09:37:58 2011
 @@ -394,7 +394,7 @@ info-am:

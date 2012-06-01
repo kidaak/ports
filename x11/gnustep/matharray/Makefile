@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/matharray/Makefile,v 1.1.1.1 2011/11/17 23:42:51 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep library to manipulate matrices
 

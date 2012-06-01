@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-subvertpy/pkg/PLIST,v 1.1.1.1 2011/01/10 20:20:50 eric Exp $
+@comment $OpenBSD$
 bin/subvertpy-fast-export
 lib/python${MODPY_VERSION}/site-packages/subvertpy/
 lib/python${MODPY_VERSION}/site-packages/subvertpy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

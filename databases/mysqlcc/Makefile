@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/mysqlcc/Makefile,v 1.15 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		GUI client for MySQL
 

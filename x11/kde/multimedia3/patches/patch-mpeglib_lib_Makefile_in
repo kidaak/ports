@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/multimedia3/patches/patch-mpeglib_lib_Makefile_in,v 1.8 2010/04/26 01:37:59 jakemsr Exp $
+$OpenBSD$
 --- mpeglib/lib/Makefile.in.orig	Thu Apr 22 19:09:59 2010
 +++ mpeglib/lib/Makefile.in	Thu Apr 22 19:10:32 2010
 @@ -293,7 +293,7 @@ SET_MAKE = @SET_MAKE@

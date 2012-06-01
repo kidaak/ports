@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-IPTrie/pkg/PLIST,v 1.1.1.1 2010/06/28 13:31:32 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/IPTrie/
 ${P5SITE}/Net/IPTrie.pm

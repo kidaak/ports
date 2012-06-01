@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/fluidsynth/patches/patch-src_fluid_sys_c,v 1.2 2009/10/15 15:44:50 jakemsr Exp $
+$OpenBSD$
 --- src/fluid_sys.c.orig	Tue Feb  3 23:29:24 2009
 +++ src/fluid_sys.c	Tue Oct 13 20:47:41 2009
 @@ -889,8 +889,10 @@ new_fluid_timer(int msec, fluid_timer_callback_t callb

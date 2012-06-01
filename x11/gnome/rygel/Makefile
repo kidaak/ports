@@ -1,11 +1,11 @@
-# $OpenBSD: ports/x11/gnome/rygel/Makefile,v 1.15 2012/03/29 07:01:07 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 
 COMMENT=		home media solution that allows easy media sharing
 
 GNOME_PROJECT=		rygel
-GNOME_VERSION=		0.14.0
+GNOME_VERSION=		0.14.1
 
 CATEGORIES=		multimedia
 

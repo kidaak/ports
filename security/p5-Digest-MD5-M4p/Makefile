@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Digest-MD5-M4p/Makefile,v 1.10 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 SHARED_ONLY=	Yes
 
 COMMENT=	perl interface to a variant of the MD5 algorithm

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/iogen/Makefile,v 1.23 2011/06/23 22:50:29 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	i/o generator
 PKGNAME=	iogen-3.1

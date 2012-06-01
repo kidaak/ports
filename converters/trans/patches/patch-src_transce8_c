@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/trans/patches/patch-src_transce8_c,v 1.1 2005/09/05 13:48:52 espie Exp $
+$OpenBSD$
 --- src/transce8.c.orig	Sun Jul 27 01:20:00 1997
 +++ src/transce8.c	Mon Sep  5 15:40:06 2005
 @@ -296,7 +296,7 @@ int     main

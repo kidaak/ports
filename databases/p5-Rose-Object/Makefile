@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Rose-Object/Makefile,v 1.8 2010/12/03 11:44:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	object oriented DBMS for perl
 

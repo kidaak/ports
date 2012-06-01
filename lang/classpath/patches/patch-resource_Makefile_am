@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/classpath/patches/patch-resource_Makefile_am,v 1.1 2009/06/16 15:31:02 kurt Exp $
+$OpenBSD$
 --- resource/Makefile.am.orig	Thu Jan 12 15:15:43 2006
 +++ resource/Makefile.am	Wed Apr 15 22:51:38 2009
 @@ -1,7 +1,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-ftpdlib/pkg/PLIST,v 1.1.1.1 2010/11/11 09:18:57 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pyftpdlib/
 lib/python${MODPY_VERSION}/site-packages/pyftpdlib-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/pyftpdlib/__init__.py

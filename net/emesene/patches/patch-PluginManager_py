@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/emesene/patches/patch-PluginManager_py,v 1.1.1.1 2008/07/10 13:22:41 wcmaier Exp $
+$OpenBSD$
 --- PluginManager.py.orig	Thu Jul 10 07:13:46 2008
 +++ PluginManager.py	Thu Jul 10 07:13:41 2008
 @@ -36,7 +36,7 @@ class PluginManager( object ):

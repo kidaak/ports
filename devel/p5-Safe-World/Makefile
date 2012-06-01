@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Safe-World/Makefile,v 1.5 2011/03/14 09:17:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	create multiple virtual instances of a Perl interpreter
 

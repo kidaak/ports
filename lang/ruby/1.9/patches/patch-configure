@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ruby/1.9/patches/patch-configure,v 1.6 2012/02/28 00:20:41 jeremy Exp $
+$OpenBSD$
 
 Fix so name, checking for DOT and DOXYGEN.
 

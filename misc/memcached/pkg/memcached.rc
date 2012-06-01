@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/misc/memcached/pkg/memcached.rc,v 1.1 2011/12/25 14:37:28 sebastia Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/memcached -d"
 daemon_flags="-u _memcached -P /var/run/memcached.pid"

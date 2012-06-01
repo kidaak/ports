@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/hylafax/patches/patch-configure,v 1.11 2012/04/14 15:13:30 naddy Exp $
+$OpenBSD$
 --- configure.orig	Wed Sep 15 16:42:36 2010
 +++ configure	Fri Apr 13 16:05:41 2012
 @@ -73,13 +73,13 @@ NLS=auto

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/isomaster/pkg/PLIST,v 1.9 2009/12/21 20:46:01 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/isomaster
 @man man/man1/isomaster.1
 share/applications/isomaster.desktop

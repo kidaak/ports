@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/gnumeric/pkg/PFRAG.shared,v 1.9 2010/05/31 06:33:59 ajacoutot Exp $
+@comment $OpenBSD$
 lib/gnumeric/${VERSION}/plugins/applix/applix.so
 lib/gnumeric/${VERSION}/plugins/dif/dif.so
 lib/gnumeric/${VERSION}/plugins/excel/excel.so

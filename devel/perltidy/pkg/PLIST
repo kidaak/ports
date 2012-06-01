@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/perltidy/pkg/PLIST,v 1.9 2011/05/01 21:00:03 jim Exp $
+@comment $OpenBSD$
 bin/perltidy
 ${P5SITE}/Perl/
 ${P5SITE}/Perl/Tidy.pm

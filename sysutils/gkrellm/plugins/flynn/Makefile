@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/flynn/Makefile,v 1.13 2010/10/13 19:12:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	GkrellM2 load meter with a familiar face
 

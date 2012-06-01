@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ap2-mod_perl/patches/patch-Makefile_PL,v 1.1 2007/01/29 16:31:58 simon Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Mon Nov 20 00:31:43 2006
 +++ Makefile.PL	Sun Jan 14 18:33:46 2007
 @@ -23,7 +23,7 @@ BEGIN {

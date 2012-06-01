@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/kpoppassd/Makefile,v 1.8 2011/03/31 12:37:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	pop password changing daemon using KerberosV
 

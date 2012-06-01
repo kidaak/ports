@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libfmt/pkg/PLIST,v 1.2 2004/08/09 15:34:08 espie Exp $
+@comment $OpenBSD$
 include/fmt.h
 lib/libfmt.a
 @man man/man3/fmtinstall.3

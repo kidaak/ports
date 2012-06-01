@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mono-notify/Makefile,v 1.6 2011/05/03 10:22:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C\# client implementation for Desktop Notifications
 

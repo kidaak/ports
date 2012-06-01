@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/pms/Makefile,v 1.9 2011/10/12 12:54:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		curses based frontend for mpd
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/clisp/patches/patch-src_makemake_in,v 1.11 2010/09/23 13:42:22 joshe Exp $
+$OpenBSD$
 
 Override broken compiler test, attempting to build 32-bit clisp on a
 64-bit patform will not work out very well.

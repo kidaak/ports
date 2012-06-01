@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/telephony/siproxd/pkg/siproxd.rc,v 1.2 2012/01/17 17:32:12 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/siproxd"
 

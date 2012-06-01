@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xcursorgen/Makefile,v 1.24 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	X11 Cursors themes generator
 DIST_VERS =	1.0.4

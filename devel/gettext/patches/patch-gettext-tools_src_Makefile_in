@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gettext/patches/patch-gettext-tools_src_Makefile_in,v 1.4 2010/07/03 03:23:22 naddy Exp $
+$OpenBSD$
 --- gettext-tools/src/Makefile.in.orig	Tue Jun 29 00:26:17 2010
 +++ gettext-tools/src/Makefile.in	Tue Jun 29 00:26:33 2010
 @@ -1612,7 +1612,7 @@ urlget_SOURCES = urlget.c

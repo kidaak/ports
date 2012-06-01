@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/hashcash/Makefile,v 1.7 2010/11/19 07:23:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=		hashcash anti-spam / denial of service counter-measure tool
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-CaptureOutput/Makefile,v 1.1.1.1 2012/03/08 14:51:19 pascal Exp $
+# $OpenBSD$
 
 COMMENT =	capture STDOUT and STDERR from Perl code, subprocesses or XS
 

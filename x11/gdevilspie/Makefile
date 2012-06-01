@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gdevilspie/Makefile,v 1.14 2011/11/11 15:57:40 jasper Exp $
+# $OpenBSD$
 
 PKG_ARCH=		*
 

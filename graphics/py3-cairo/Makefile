@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/py3-cairo/Makefile,v 1.1.1.1 2012/03/30 07:12:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	cairo bindings for Python
 

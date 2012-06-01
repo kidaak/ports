@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/avr/gcc/pkg/PLIST,v 1.7 2010/06/27 20:58:10 ckuethe Exp $
+@comment $OpenBSD$
 avr/
 avr/lib/
 @bin bin/avr-c++

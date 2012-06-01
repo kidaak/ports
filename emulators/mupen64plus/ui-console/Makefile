@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/mupen64plus/ui-console/Makefile,v 1.2 2011/12/26 22:58:48 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		n64 emulator command-line ui plugin
 #

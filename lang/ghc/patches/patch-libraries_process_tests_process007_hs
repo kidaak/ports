@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-libraries_process_tests_process007_hs,v 1.1 2011/09/16 21:17:41 kili Exp $
+$OpenBSD$
 --- libraries/process/tests/process007.hs.orig	Thu Sep 15 20:13:52 2011
 +++ libraries/process/tests/process007.hs	Thu Sep 15 20:09:08 2011
 @@ -16,7 +16,7 @@ main = do

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Module-Signature/pkg/PLIST,v 1.1.1.1 2008/07/19 12:12:53 bluhm Exp $
+@comment $OpenBSD$
 bin/cpansign
 ${P5SITE}/Module/
 ${P5SITE}/Module/Signature.pm

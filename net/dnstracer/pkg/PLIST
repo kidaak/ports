@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/net/dnstracer/pkg/PLIST,v 1.2 2004/09/15 18:17:39 espie Exp $
+@comment $OpenBSD$
 bin/dnstracer
 @man man/man8/dnstracer.8

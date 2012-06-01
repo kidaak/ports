@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/blender/patches/patch-extern_carve_include_carve_geom_hpp,v 1.1 2012/02/26 20:37:26 pascal Exp $
+$OpenBSD$
 --- extern/carve/include/carve/geom.hpp.orig	Sat Feb 18 11:45:47 2012
 +++ extern/carve/include/carve/geom.hpp	Sat Feb 18 11:46:00 2012
 @@ -21,6 +21,9 @@

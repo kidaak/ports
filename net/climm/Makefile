@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/climm/Makefile,v 1.1.1.1 2011/11/13 15:45:34 pascal Exp $
+# $OpenBSD$
 
 COMMENT =		simple, command-line multi messenger
 

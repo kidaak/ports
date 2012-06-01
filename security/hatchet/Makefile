@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hatchet/Makefile,v 1.4 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=	PF firewall log analysis
 

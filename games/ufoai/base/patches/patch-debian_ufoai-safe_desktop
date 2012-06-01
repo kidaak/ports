@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-debian_ufoai-safe_desktop,v 1.1 2011/05/30 05:29:09 ajacoutot Exp $
+$OpenBSD$
 
 Resolve conflict with lang/rakudo.
 

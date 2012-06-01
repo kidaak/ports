@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-ICal-TimeZone/Makefile,v 1.4 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	timezones module for Data::ICal
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Jabber/pkg/PLIST,v 1.1.1.1 2007/11/15 18:45:28 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/Jabber/
 ${P5SITE}/Net/Jabber.pm
 ${P5SITE}/Net/Jabber/Client.pm

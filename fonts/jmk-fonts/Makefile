@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/jmk-fonts/Makefile,v 1.1.1.1 2011/07/19 09:16:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		nice fixed width fonts, easy on the eye
 

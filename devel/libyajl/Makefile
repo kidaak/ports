@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libyajl/Makefile,v 1.7 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	small JSON library written in ANSI C
 

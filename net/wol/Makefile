@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/wol/Makefile,v 1.11 2012/03/20 16:46:41 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		Wake On Lan client
 

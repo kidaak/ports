@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/vifm/Makefile,v 1.1.1.1 2009/08/09 21:49:33 landry Exp $
+# $OpenBSD$
 
 COMMENT =		ncurses file manager with vi keybindings
 

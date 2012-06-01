@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/visitors/Makefile,v 1.2 2007/09/15 20:38:26 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	very fast web log analyzer
 

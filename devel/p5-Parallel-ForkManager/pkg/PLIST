@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Parallel-ForkManager/pkg/PLIST,v 1.5 2011/05/15 15:04:51 gsoares Exp $
+@comment $OpenBSD$
 ${P5SITE}/Parallel/
 ${P5SITE}/Parallel/ForkManager.pm
 @man man/man3p/Parallel::ForkManager.3p

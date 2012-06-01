@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/cdrdao/Makefile,v 1.33 2012/03/17 16:04:34 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	write audio/data CD-Rs in disk-at-once mode
 

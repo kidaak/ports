@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_libUnicorn_unicorn_pro_inc,v 1.1 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/libUnicorn/unicorn.pro.inc.orig	Wed Mar 30 13:49:22 2011
 +++ src/libUnicorn/unicorn.pro.inc	Wed Mar 30 13:51:17 2011
 @@ -4,7 +4,7 @@ BUILD_DIR = $$ROOT_DIR/build/$$TARGET

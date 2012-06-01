@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/ffmpeg/pkg/README,v 1.1 2011/09/04 09:22:43 sthen Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

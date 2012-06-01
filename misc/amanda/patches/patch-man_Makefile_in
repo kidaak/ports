@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/amanda/patches/patch-man_Makefile_in,v 1.1 2005/11/25 09:08:01 sturm Exp $
+$OpenBSD$
 --- man/Makefile.in.orig	Thu Nov  3 15:21:10 2005
 +++ man/Makefile.in	Thu Nov  3 15:24:35 2005
 @@ -539,13 +539,21 @@ uninstall-man: uninstall-man5 uninstall-

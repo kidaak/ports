@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/silc-server/patches/patch-doc_example_silcd_conf_in,v 1.9 2008/10/26 18:12:11 sthen Exp $
+$OpenBSD$
 --- doc/example_silcd.conf.in.orig	Sat Oct 25 14:59:17 2008
 +++ doc/example_silcd.conf.in	Sun Oct 26 11:10:26 2008
 @@ -22,7 +22,7 @@

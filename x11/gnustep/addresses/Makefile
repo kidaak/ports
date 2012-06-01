@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/addresses/Makefile,v 1.11 2011/05/15 13:03:26 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	GNUstep address book
 

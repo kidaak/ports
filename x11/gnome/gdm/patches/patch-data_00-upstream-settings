@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-data_00-upstream-settings,v 1.2 2011/10/20 07:23:28 ajacoutot Exp $
+$OpenBSD$
 
 Our gnome-settings-daemon does not provide the
 org.gnome.settings-daemon.plugins.orientation gschema because it depends

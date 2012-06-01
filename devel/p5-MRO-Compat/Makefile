@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MRO-Compat/Makefile,v 1.8 2011/04/13 17:44:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	mro::* interface compatibility for Perl < 5.9.5
 

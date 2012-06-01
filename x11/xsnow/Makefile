@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xsnow/Makefile,v 1.22 2010/11/22 08:37:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=		snowy and Santa-y desktop
 

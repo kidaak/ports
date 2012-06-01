@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/atk2mm/pkg/PLIST,v 1.4 2011/10/26 12:26:15 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gtk2mm-<2.22
 %%SHARED%%
 include/atkmm-1.6/

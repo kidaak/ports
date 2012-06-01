@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/edenmath/pkg/PLIST,v 1.1.1.1 2011/05/24 14:01:48 sebastia Exp $
+@comment $OpenBSD$
 bin/EdenMath
 libexec/GNUstep/
 libexec/GNUstep/EdenMath.app/

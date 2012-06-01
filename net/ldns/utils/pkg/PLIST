@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ldns/utils/pkg/PLIST,v 1.6 2011/10/17 19:41:24 jakob Exp $
+@comment $OpenBSD$
 @bin bin/ldns-chaos
 @bin bin/ldns-compare-zones
 @bin bin/ldns-dpa

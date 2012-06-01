@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/pgpsendmail/patches/patch-lib_options_c,v 1.1 2000/06/05 00:04:03 espie Exp $
+$OpenBSD$
 --- lib/options.c.orig	Thu Oct  9 05:02:24 1997
 +++ lib/options.c	Mon Jun  5 01:29:49 2000
 @@ -69,6 +69,7 @@

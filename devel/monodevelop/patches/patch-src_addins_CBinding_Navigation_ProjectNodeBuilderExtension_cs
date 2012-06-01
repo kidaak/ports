@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/monodevelop/patches/patch-src_addins_CBinding_Navigation_ProjectNodeBuilderExtension_cs,v 1.1 2010/03/29 07:44:28 ajacoutot Exp $
+$OpenBSD$
 --- src/addins/CBinding/Navigation/ProjectNodeBuilderExtension.cs.orig	Thu Nov  5 19:12:15 2009
 +++ src/addins/CBinding/Navigation/ProjectNodeBuilderExtension.cs	Mon Mar 29 09:08:19 2010
 @@ -97,7 +97,7 @@ namespace CBinding.Navigation

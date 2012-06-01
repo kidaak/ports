@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/plan9/w9wm/pkg/PLIST,v 1.2 2004/09/15 18:23:11 espie Exp $
+@comment $OpenBSD$
 bin/w9wm
 @man man/cat1/w9wm.0

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-MatrixReal/Makefile,v 1.6 2011/07/25 20:40:47 gsoares Exp $
+# $OpenBSD$
 
 COMMENT =	implement the data type "matrix of reals"
 DISTNAME =	Math-MatrixReal-2.08

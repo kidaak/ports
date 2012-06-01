@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/bytebench/patches/patch-src_dhry_1_c,v 1.2 2003/01/15 00:14:59 pvalchev Exp $
+$OpenBSD$
 --- src/dhry_1.c.orig	Wed Feb  5 03:08:47 1992
 +++ src/dhry_1.c	Tue Jan 14 16:56:12 2003
 @@ -33,6 +33,7 @@

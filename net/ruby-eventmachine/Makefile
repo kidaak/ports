@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-eventmachine/Makefile,v 1.12 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	event-driven I/O for Ruby using the Reactor pattern
 

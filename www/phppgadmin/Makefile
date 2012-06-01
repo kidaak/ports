@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/phppgadmin/Makefile,v 1.19 2012/03/29 11:56:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	tool to handle the administration of PostgreSQL over the web
 

@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/devel/p5-Hash-AutoHash/Makefile,v 1.6 2010/12/03 11:44:31 ajacoutot Exp $
+#	$OpenBSD$
 
 COMMENT=	object-oriented access to real and tied hashes  
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-BSD-arc4random/pkg/PLIST,v 1.1.1.1 2011/01/15 12:09:32 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 ${P5ARCH}/
 ${P5ARCH}/BSD/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-ghc_mk,v 1.6 2011/08/21 21:38:04 kili Exp $
+$OpenBSD$
 
 Include utf8-string and xhtml for now, because of dependencies.
 Including *any* of those INTREE_ONLY_PACKAGES in the ghc packages

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/at-spi2-atk/pkg/PLIST,v 1.5 2012/03/29 07:04:56 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict at-spi-<=1.32.0p3
 lib/gnome-settings-daemon-3.0/
 lib/gnome-settings-daemon-3.0/gtk-modules/

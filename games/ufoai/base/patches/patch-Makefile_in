@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-Makefile_in,v 1.2 2011/05/30 05:28:31 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Nov 29 19:46:35 2010
 +++ Makefile.in	Sun May 29 16:13:54 2011
 @@ -199,7 +199,6 @@ install_data: pk3

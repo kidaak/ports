@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Mojo/Makefile,v 1.10 2012/04/10 13:32:45 jim Exp $
+# $OpenBSD$
 
 COMMENT =	next generation web framework
 

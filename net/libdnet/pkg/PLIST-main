@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/libdnet/pkg/PLIST-main,v 1.2 2009/03/09 17:09:58 sthen Exp $
+@comment $OpenBSD$
 @pkgpath net/libdnet
 @pkgpath net/libdnet,no_python
 %%SHARED%%

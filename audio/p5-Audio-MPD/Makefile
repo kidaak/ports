@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Audio-MPD/Makefile,v 1.23 2011/04/20 19:52:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		module for communicating with MPD servers
 DISTNAME=		Audio-MPD-1.110560

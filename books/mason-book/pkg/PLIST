@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/books/mason-book/pkg/PLIST,v 1.2 2004/09/16 22:51:46 espie Exp $
+@comment $OpenBSD$
 share/doc/mason-book/
 share/doc/mason-book/appendix-a.html
 share/doc/mason-book/appendix-b.html

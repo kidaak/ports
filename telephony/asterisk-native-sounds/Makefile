@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/asterisk-native-sounds/Makefile,v 1.5 2010/07/27 09:27:24 dcoppa Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

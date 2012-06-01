@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/qgis/Makefile,v 1.26 2011/12/29 21:44:06 landry Exp $
+# $OpenBSD$
 
 BROKEN-powerpc=	doesn't build, assembler error: operand out of range
 

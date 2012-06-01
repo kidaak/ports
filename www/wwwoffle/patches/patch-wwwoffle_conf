@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wwwoffle/patches/patch-wwwoffle_conf,v 1.2 2010/03/20 16:55:33 jasper Exp $
+$OpenBSD$
 
 - enable running as user "daemon"
 - don't get recursive/cache gzip or compress archives

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/go/pkg/PFRAG.amd64,v 1.1.1.1 2012/03/31 12:37:16 jsing Exp $
+@comment $OpenBSD$
 go/src/cmd/6l/enam.c
 go/src/pkg/runtime/zasm_openbsd_amd64.h
 go/src/pkg/runtime/zgoarch_amd64.go

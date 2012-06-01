@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/fuse/Makefile,v 1.26 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Free Unix Spectrum Emulator
 DISTNAME=		fuse-0.10.0.2

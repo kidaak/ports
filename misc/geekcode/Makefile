@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/geekcode/Makefile,v 1.8 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	geek code generator
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/mono-taglib/pkg/PLIST,v 1.2 2012/03/19 10:28:48 ajacoutot Exp $
+@comment $OpenBSD$
 lib/mono/gac/policy.2.0.taglib-sharp/
 lib/mono/gac/policy.2.0.taglib-sharp/0.0.0.0__db62eba44689b5b0/
 lib/mono/gac/policy.2.0.taglib-sharp/0.0.0.0__db62eba44689b5b0/policy.2.0.taglib-sharp.config

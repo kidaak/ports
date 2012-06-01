@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_ada_gnatchop_adb,v 1.1.1.1 2006/07/31 09:50:53 espie Exp $
+$OpenBSD$
 --- gcc/ada/gnatchop.adb.orig	Thu Feb 10 14:49:13 2005
 +++ gcc/ada/gnatchop.adb	Tue Feb 22 19:38:40 2005
 @@ -45,7 +45,7 @@ procedure Gnatchop is

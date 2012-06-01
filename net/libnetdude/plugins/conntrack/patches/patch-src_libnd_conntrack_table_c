@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnetdude/plugins/conntrack/patches/patch-src_libnd_conntrack_table_c,v 1.2 2007/09/26 20:18:08 rui Exp $
+$OpenBSD$
 --- src/libnd_conntrack_table.c.orig	Fri Feb  3 21:22:50 2006
 +++ src/libnd_conntrack_table.c	Fri Jul 27 18:03:19 2007
 @@ -26,10 +26,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALI

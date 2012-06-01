@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nepenthes/patches/patch-modules_shellcode-signatures_shellcode-signatures_cpp,v 1.1 2006/04/26 19:06:17 jolan Exp $
+$OpenBSD$
 --- modules/shellcode-signatures/shellcode-signatures.cpp.orig	Tue Apr 25 16:17:31 2006
 +++ modules/shellcode-signatures/shellcode-signatures.cpp	Tue Apr 25 16:17:52 2006
 @@ -80,7 +80,7 @@ bool SignatureShellcodeHandler::Init()

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-ClassAPI/Makefile,v 1.7 2011/04/21 06:56:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	basic first-pass API testing for large class trees
 

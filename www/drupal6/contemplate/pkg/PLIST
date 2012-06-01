@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/contemplate/pkg/PLIST,v 1.1.1.1 2009/11/25 11:13:45 espie Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}contemplate/

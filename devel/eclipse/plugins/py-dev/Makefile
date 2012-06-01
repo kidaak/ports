@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/eclipse/plugins/py-dev/Makefile,v 1.5 2011/09/16 09:24:49 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Python development plug-in for Eclipse
 

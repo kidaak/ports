@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Amazon/Makefile,v 1.16 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Perl Interface to Amazon.{co.uk,com} Web Services
 

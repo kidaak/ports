@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/wyrd/pkg/PLIST,v 1.2 2009/03/11 21:31:07 avsm Exp $
+@comment $OpenBSD$
 @bin bin/wyrd
 @man man/man1/wyrd.1
 @man man/man5/wyrdrc.5

@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/jpilot/patches/patch-empty_Makefile_in,v 1.1 2010/03/25 10:39:38 giovanni Exp $
+$OpenBSD$
 --- empty/Makefile.in.orig	Wed Mar 24 16:15:00 2010
 +++ empty/Makefile.in	Wed Mar 24 16:17:54 2010
 @@ -287,7 +287,7 @@ install-pdbDATA: $(pdb_DATA)

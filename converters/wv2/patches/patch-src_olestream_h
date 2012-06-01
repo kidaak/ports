@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/wv2/patches/patch-src_olestream_h,v 1.1 2012/03/23 13:28:25 ajacoutot Exp $
+$OpenBSD$
 
 error: #error "Only <glib.h> can be included directly."
 

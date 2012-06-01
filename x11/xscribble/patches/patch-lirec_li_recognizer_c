@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xscribble/patches/patch-lirec_li_recognizer_c,v 1.1.1.1 2005/05/24 07:19:35 mcbride Exp $
+$OpenBSD$
 --- lirec/li_recognizer.c.orig	Mon Jun 12 22:20:13 2000
 +++ lirec/li_recognizer.c	Sun Mar 13 18:07:32 2005
 @@ -21,7 +21,7 @@

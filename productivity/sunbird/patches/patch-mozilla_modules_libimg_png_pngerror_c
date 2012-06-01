@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_modules_libimg_png_pngerror_c,v 1.1 2011/08/02 19:24:38 naddy Exp $
+$OpenBSD$
 
 Fix for CVE-2011-2691 backported from png 1.2.45.
 

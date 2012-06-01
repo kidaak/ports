@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/apc-upsd/patches/patch-apc_upsd_h,v 1.1 2003/04/26 15:00:32 sturm Exp $
+$OpenBSD$
 --- apc_upsd.h.orig	Sat Apr 26 14:22:34 2003
 +++ apc_upsd.h	Sat Apr 26 14:22:57 2003
 @@ -19,7 +19,7 @@

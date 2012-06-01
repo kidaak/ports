@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/pugs/pkg/PLIST,v 1.1.1.1 2010/06/20 09:47:00 kili Exp $
+@comment $OpenBSD$
 @bin bin/pugs
 share/${DISTNAME}/
 share/${DISTNAME}/blib6/

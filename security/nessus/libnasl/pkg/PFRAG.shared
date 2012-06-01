@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/nessus/libnasl/pkg/PFRAG.shared,v 1.3 2005/12/25 15:52:38 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libnasl.so.${LIBnasl_VERSION}

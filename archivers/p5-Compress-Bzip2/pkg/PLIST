@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/p5-Compress-Bzip2/pkg/PLIST,v 1.1.1.1 2008/11/11 13:55:21 kevlo Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Compress/
 ${P5ARCH}/Compress/Bzip2.pm

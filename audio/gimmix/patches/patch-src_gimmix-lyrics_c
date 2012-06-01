@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/gimmix/patches/patch-src_gimmix-lyrics_c,v 1.1 2011/07/05 08:18:29 jasper Exp $
+$OpenBSD$
 --- src/gimmix-lyrics.c.orig	Tue Jul  5 08:46:03 2011
 +++ src/gimmix-lyrics.c	Tue Jul  5 08:46:52 2011
 @@ -30,7 +30,6 @@

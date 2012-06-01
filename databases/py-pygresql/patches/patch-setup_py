@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/py-pygresql/patches/patch-setup_py,v 1.1 2010/11/18 20:48:05 benoit Exp $
+$OpenBSD$
 --- setup.py.orig	Thu Jan  1 14:05:02 2009
 +++ setup.py	Sun Nov 14 01:07:28 2010
 @@ -76,7 +76,6 @@

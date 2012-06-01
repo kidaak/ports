@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/chroma-enigma/Makefile,v 1.1.1.1 2010/12/10 09:43:34 landry Exp $
+# $OpenBSD$
 
 COMMENT =	Enigma levels to the game chroma
 

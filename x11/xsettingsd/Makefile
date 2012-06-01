@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xsettingsd/Makefile,v 1.1.1.1 2012/03/31 20:49:59 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight XSETTINGS daemon
 

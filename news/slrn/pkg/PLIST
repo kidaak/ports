@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/news/slrn/pkg/PLIST,v 1.15 2009/10/13 21:49:02 sthen Exp $
+@comment $OpenBSD$
 @bin bin/slrn
 @bin bin/slrnpull
 @man man/man1/slrn.1

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/gnucap/pkg/PLIST,v 1.2 2008/11/29 09:49:03 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gnucap
 @bin bin/gnucap-modelgen
 @man man/man1/gnucap.1

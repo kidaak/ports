@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/xmlto/Makefile,v 1.8 2011/09/16 11:41:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=	front-end to an XSL toolchain
 

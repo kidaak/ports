@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/gnokii/pkg/PFRAG.no-no_x11,v 1.6 2009/12/21 18:11:02 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/xgnokii
 lib/pkgconfig/xgnokii.pc
 @man man/man1/xgnokii.1

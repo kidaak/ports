@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Date-Holidays/Makefile.inc,v 1.2 2011/06/04 11:41:08 sthen Exp $
+# $OpenBSD$
 
 CATEGORIES =	devel
 MAINTAINER ?=	Johan Huldtgren <jhuldtgren@gmail.com>

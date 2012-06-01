@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-js_src_jsnum_h,v 1.1.1.1 2009/06/21 01:31:24 martynas Exp $
+$OpenBSD$
 --- js/src/jsnum.h.orig	Thu Mar  5 23:31:54 2009
 +++ js/src/jsnum.h	Fri Mar 13 17:23:03 2009
 @@ -57,7 +57,7 @@ JS_BEGIN_EXTERN_C

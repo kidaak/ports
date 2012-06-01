@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mowitz/patches/patch-Mowitz_MwHandle_c,v 1.1 2008/12/01 19:16:39 jasper Exp $
+$OpenBSD$
 --- Mowitz/MwHandle.c.orig	Mon Dec  1 13:20:07 2008
 +++ Mowitz/MwHandle.c	Mon Dec  1 13:20:26 2008
 @@ -4,6 +4,7 @@

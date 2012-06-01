@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xdesktopwaves/Makefile,v 1.6 2010/11/22 08:37:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=		simulation of water waves on the X Window desktop
 

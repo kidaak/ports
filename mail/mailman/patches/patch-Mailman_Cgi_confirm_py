@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailman/patches/patch-Mailman_Cgi_confirm_py,v 1.1 2011/03/03 09:50:11 jasper Exp $
+$OpenBSD$
 
 Security fix for CVE-2011-0707.
 Mailman "Full Name" Script Insertion Vulnerabilities.

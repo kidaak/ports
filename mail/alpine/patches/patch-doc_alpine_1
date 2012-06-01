@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/alpine/patches/patch-doc_alpine_1,v 1.1.1.1 2007/11/22 13:49:52 ajacoutot Exp $
+$OpenBSD$
 --- doc/alpine.1.orig	Tue Nov 20 13:17:45 2007
 +++ doc/alpine.1	Tue Nov 20 13:20:11 2007
 @@ -285,7 +285,7 @@ uses the following environment variables: 

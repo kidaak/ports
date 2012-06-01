@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ophis/pkg/PLIST,v 1.1.1.1 2011/10/14 22:29:57 bentley Exp $
+@comment $OpenBSD$
 bin/ophis
 lib/python${MODPY_VERSION}/site-packages/Ophis/
 lib/python${MODPY_VERSION}/site-packages/Ophis-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

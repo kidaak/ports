@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/openbox/pkg/PLIST,v 1.27 2011/11/11 10:59:22 benoit Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/gdm-control
 @bin bin/gnome-panel-control

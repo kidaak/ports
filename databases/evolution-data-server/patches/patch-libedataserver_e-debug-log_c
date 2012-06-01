@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/evolution-data-server/patches/patch-libedataserver_e-debug-log_c,v 1.2 2011/12/29 09:23:19 ajacoutot Exp $
+$OpenBSD$
 
 e-debug-log.c:172: warning: passing argument 1 of 'localtime' from incompatible pointer type
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ike-scan/Makefile,v 1.13 2010/10/18 18:36:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	VPN scanner and identifier
 DISTNAME=	ike-scan-1.9

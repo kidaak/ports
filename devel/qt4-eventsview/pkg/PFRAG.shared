@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/qt4-eventsview/pkg/PFRAG.shared,v 1.1.1.1 2007/05/03 10:29:11 espie Exp $
+@comment $OpenBSD$
 @lib lib/libeventsview.so.${LIBeventsview_VERSION}

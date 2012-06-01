@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-twisted/Makefile,v 1.5 2010/07/05 13:37:02 eric Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += core

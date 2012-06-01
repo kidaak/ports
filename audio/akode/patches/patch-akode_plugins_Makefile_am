@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/akode/patches/patch-akode_plugins_Makefile_am,v 1.1 2009/12/14 00:02:17 jakemsr Exp $
+$OpenBSD$
 --- akode/plugins/Makefile.am.orig	Wed Dec  9 21:37:22 2009
 +++ akode/plugins/Makefile.am	Wed Dec  9 21:38:15 2009
 @@ -28,6 +28,10 @@ if include_sun_sink

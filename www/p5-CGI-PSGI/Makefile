@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CGI-PSGI/Makefile,v 1.1.1.1 2011/06/14 12:06:04 robert Exp $
+# $OpenBSD$
 
 COMMENT=	CGI.pm adaption to the PSGI protocol
 

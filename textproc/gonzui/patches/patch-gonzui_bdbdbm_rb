@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/gonzui/patches/patch-gonzui_bdbdbm_rb,v 1.1 2011/04/08 06:22:51 jasper Exp $
+$OpenBSD$
 
 Allow this to work with newer ruby-bdb.
 From FreeBSD.

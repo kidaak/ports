@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/vtags/Makefile,v 1.1.1.1 2011/06/13 14:03:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	VHDL tags generator
 

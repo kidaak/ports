@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/yui/Makefile,v 1.9 2011/09/16 12:00:10 espie Exp $
+# $OpenBSD$
 
 COMMENT-main =	yahoo ui library toolkit
 COMMENT-docs =	yahoo ui library examples

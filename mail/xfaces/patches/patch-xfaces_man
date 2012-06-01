@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/xfaces/patches/patch-xfaces_man,v 1.1 2000/06/05 01:09:25 espie Exp $
+$OpenBSD$
 --- xfaces.man.orig	Sun Mar 13 01:38:54 1994
 +++ xfaces.man	Mon Jun  5 02:43:45 2000
 @@ -171,7 +171,7 @@ is to append the users name onto the \fB

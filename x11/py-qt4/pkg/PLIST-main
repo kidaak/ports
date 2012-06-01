@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/py-qt4/pkg/PLIST-main,v 1.13 2011/10/15 16:21:52 jasper Exp $
+@comment $OpenBSD$
 @bin bin/pylupdate4
 @bin bin/pyrcc4
 bin/pyuic4

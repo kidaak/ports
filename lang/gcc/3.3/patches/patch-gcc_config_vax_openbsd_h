@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_vax_openbsd_h,v 1.1 2006/01/13 20:07:53 espie Exp $
+$OpenBSD$
 --- gcc/config/vax/openbsd.h.orig	Fri Jan 13 20:47:38 2006
 +++ gcc/config/vax/openbsd.h	Fri Jan 13 20:47:50 2006
 @@ -32,12 +32,12 @@ Boston, MA 02111-1307, USA.  */

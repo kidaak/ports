@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-Rose-DateTime/pkg/PLIST,v 1.1.1.1 2006/12/10 18:00:20 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Rose/
 ${P5SITE}/Rose/DateTime/
 ${P5SITE}/Rose/DateTime.pm

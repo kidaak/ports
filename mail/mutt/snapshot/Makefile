@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mutt/snapshot/Makefile,v 1.70 2011/09/29 09:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	tty-based e-mail client, development version
 

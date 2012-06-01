@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/dwm/Makefile,v 1.22 2011/09/13 14:02:53 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=		dynamic window manager
 

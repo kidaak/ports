@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.4/patches/patch-libobjc_Makefile_in,v 1.1 2006/01/09 12:16:35 espie Exp $
+$OpenBSD$
 --- libobjc/Makefile.in.orig	Mon Jan  9 13:07:58 2006
 +++ libobjc/Makefile.in	Mon Jan  9 13:08:37 2006
 @@ -254,15 +254,17 @@ $(OBJC_THREAD_FILE)_gc.lo: $(OBJC_THREAD

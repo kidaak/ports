@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xplanet/Makefile,v 1.49 2011/07/06 21:25:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	draw pictures of the earth textured by an image
 

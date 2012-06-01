@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/kimdaba/pkg/PLIST,v 1.6 2009/12/22 16:06:41 ajacoutot Exp $
+@comment $OpenBSD$
 bin/kphotoalbum
 share/applications/kde/kphotoalbum-import.desktop
 share/applications/kde/kphotoalbum.desktop

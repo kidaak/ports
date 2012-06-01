@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-yaml/pkg/PLIST,v 1.1.1.1 2008/10/18 10:54:52 ajacoutot Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/PyYAML-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/_yaml.so
 lib/python${MODPY_VERSION}/site-packages/yaml/

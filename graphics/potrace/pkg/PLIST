@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/potrace/pkg/PLIST,v 1.1.1.1 2005/11/03 13:11:52 alek Exp $
+@comment $OpenBSD$
 bin/mkbitmap
 bin/potrace
 @man man/man1/mkbitmap.1

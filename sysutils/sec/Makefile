@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/sec/Makefile,v 1.18 2012/03/08 15:36:03 okan Exp $
+# $OpenBSD$
 
 COMMENT=	simple event correlator
 

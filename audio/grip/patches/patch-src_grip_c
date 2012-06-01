@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/grip/patches/patch-src_grip_c,v 1.5 2008/05/13 14:20:25 naddy Exp $
+$OpenBSD$
 --- src/grip.c.orig	Thu Apr 15 20:23:54 2004
 +++ src/grip.c	Tue May 13 16:15:31 2008
 @@ -732,7 +732,7 @@ static void DoLoadConfig(GripInfo *ginfo)

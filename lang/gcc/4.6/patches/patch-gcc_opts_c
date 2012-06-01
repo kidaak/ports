@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_opts_c,v 1.1 2012/03/31 20:02:03 pascal Exp $
+$OpenBSD$
 --- gcc/opts.c.orig	Thu Feb 17 23:51:57 2011
 +++ gcc/opts.c	Sun Mar 11 22:26:06 2012
 @@ -43,6 +43,9 @@ along with GCC; see the file COPYING3.  If not see

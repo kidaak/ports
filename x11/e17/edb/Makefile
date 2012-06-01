@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/edb/Makefile,v 1.8 2011/10/21 17:43:30 espie Exp $
+# $OpenBSD$
 
 COMMENT =		database convenience library based on db 2.7.7
 DISTNAME =		edb-20071211

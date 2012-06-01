@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/namazu/pkg/PLIST,v 1.1.1.1 2009/08/14 00:00:18 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/adnmz
 bin/bnamazu

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/flac/patches/patch-man_flac_1,v 1.2 2007/09/24 17:23:55 naddy Exp $
+$OpenBSD$
 --- man/flac.1.orig	Fri Sep 14 17:08:05 2007
 +++ man/flac.1	Tue Sep 18 22:26:09 2007
 @@ -325,7 +325,7 @@ These flags can be used to invert the sense of the cor

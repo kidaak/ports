@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/iwidgets/patches/patch-Makefile_in,v 1.2 2010/06/07 14:40:47 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Sep 10 22:27:21 2002
 +++ Makefile.in	Mon Jun  7 09:45:14 2010
 @@ -10,6 +10,7 @@

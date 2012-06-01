@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ircII/patches/patch-doc_ircII_1,v 1.6 2011/08/20 09:11:51 sthen Exp $
+$OpenBSD$
 --- doc/ircII.1.orig	Mon Jan 24 05:58:43 2011
 +++ doc/ircII.1	Sat Aug 13 17:56:49 2011
 @@ -3,7 +3,7 @@

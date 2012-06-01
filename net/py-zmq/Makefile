@@ -1,8 +1,8 @@
-# $OpenBSD: ports/net/py-zmq/Makefile,v 1.2 2011/12/27 13:05:02 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =		Python bindings for ZeroMQ
 
-MODPY_EGG_VERSION =	2.1.11
+MODPY_EGG_VERSION =	2.2.0
 DISTNAME =		pyzmq-${MODPY_EGG_VERSION}
 PKGNAME =		${DISTNAME:S/py/py-/}
 

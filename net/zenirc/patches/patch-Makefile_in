@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/zenirc/patches/patch-Makefile_in,v 1.1.1.1 2007/10/14 09:28:13 aanriot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu May  7 11:52:29 1998
 +++ Makefile.in	Thu Sep 13 12:53:26 2007
 @@ -36,7 +36,7 @@ libdir = $(exec_prefix)/lib

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/mhash/pkg/PFRAG.shared,v 1.6 2005/12/25 11:15:34 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libmhash.so.${LIBmhash_VERSION}

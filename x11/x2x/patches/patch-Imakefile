@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/x2x/patches/patch-Imakefile,v 1.1 2011/11/22 09:33:09 jasper Exp $
+$OpenBSD$
 
 - Various fixes including -north/-south support.
   From Debian's x2x_1.27-8 patch.

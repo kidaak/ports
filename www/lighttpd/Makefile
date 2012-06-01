@@ -1,11 +1,11 @@
-# $OpenBSD: ports/www/lighttpd/Makefile,v 1.96 2012/04/09 07:02:11 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
 COMMENT=	secure, fast, compliant, and very flexible web-server
 
 DISTNAME=	lighttpd-1.4.30
-REVISION=	2
+REVISION=	5
 CATEGORIES=	www net
 MASTER_SITES=	http://download.lighttpd.net/lighttpd/releases-1.4.x/
 
@@ -18,10 +18,12 @@ PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
-WANTLIB=		c crypto lua>=5.1 m pcre ssl z
+WANTLIB=		c crypto ${MODLUA_WANTLIB} m pcre ssl z
+
+MODULES=	lang/lua
 
 LIB_DEPENDS+=	devel/pcre \
-		lang/lua
+		${MODLUA_LIB_DEPENDS}
 RUN_DEPENDS+=	www/spawn-fcgi
 
 USE_LIBTOOL=	Yes

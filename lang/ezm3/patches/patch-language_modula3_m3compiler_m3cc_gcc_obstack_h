@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ezm3/patches/patch-language_modula3_m3compiler_m3cc_gcc_obstack_h,v 1.1 2010/05/12 07:38:49 espie Exp $
+$OpenBSD$
 --- language/modula3/m3compiler/m3cc/gcc/obstack.h.orig	Wed May 12 08:48:25 2010
 +++ language/modula3/m3compiler/m3cc/gcc/obstack.h	Wed May 12 08:52:01 2010
 @@ -377,8 +377,10 @@ __extension__								\

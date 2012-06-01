@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xcept/patches/patch-ceptd_ceptd_8_template,v 1.1 2000/09/03 16:25:05 espie Exp $
+$OpenBSD$
 --- ceptd/ceptd.8.template.orig	Wed May 25 19:36:11 1994
 +++ ceptd/ceptd.8.template	Sun Sep  3 17:29:35 2000
 @@ -17,8 +17,8 @@ specification; see services(5). 

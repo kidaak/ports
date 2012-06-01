@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/db/Makefile,v 1.37 2011/10/17 10:10:59 espie Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += v3

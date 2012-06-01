@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/transfig/Makefile,v 1.38 2010/11/20 09:48:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	tools to convert Xfig's .fig files
 

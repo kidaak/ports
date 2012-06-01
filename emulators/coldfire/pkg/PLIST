@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/coldfire/pkg/PLIST,v 1.1.1.1 2007/06/07 11:46:07 martin Exp $
+@comment $OpenBSD$
 bin/coldfire
 share/coldfire/
 share/coldfire/arnewsh-5206.board

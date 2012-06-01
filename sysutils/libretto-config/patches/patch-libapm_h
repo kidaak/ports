@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/libretto-config/patches/patch-libapm_h,v 1.1 2004/02/01 01:35:52 millert Exp $
+$OpenBSD$
 --- libapm.h.orig	Mon May 11 20:05:49 1998
 +++ libapm.h	Sat Jan 31 18:11:24 2004
 @@ -32,34 +32,72 @@ static inline int port_inw( int port )

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/gegl/patches/patch-gegl_Makefile_in,v 1.1 2011/12/10 09:13:43 ajacoutot Exp $
+$OpenBSD$
 
 XXX missing from tarball???
 

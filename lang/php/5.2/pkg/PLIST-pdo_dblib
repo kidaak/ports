@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/php/5.2/pkg/PLIST-pdo_dblib,v 1.4 2012/01/29 14:53:21 espie Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict php-pdo_dblib->=5.2,<5.3
 @conflict php5-pdo_dblib->=5.2

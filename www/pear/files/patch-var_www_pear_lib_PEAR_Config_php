@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/pear/files/patch-var_www_pear_lib_PEAR_Config_php,v 1.2 2011/11/16 13:29:13 robert Exp $
+$OpenBSD$
 --- var/www/pear/lib/PEAR/Config.php.orig	Wed Nov 16 14:18:34 2011
 +++ var/www/pear/lib/PEAR/Config.php	Wed Nov 16 14:20:26 2011
 @@ -80,11 +80,7 @@

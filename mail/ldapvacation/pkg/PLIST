@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/ldapvacation/pkg/PLIST,v 1.2 2011/06/23 22:50:27 naddy Exp $
+@comment $OpenBSD$
 @bin bin/ldapvacation
 @man man/man1/ldapvacation.1
 @man man/man5/ldapvacation.conf.5

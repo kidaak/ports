@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/olsrd/pkg/PFRAG.shared-plugins,v 1.1 2010/06/14 12:36:34 sebastia Exp $
+@comment $OpenBSD$
 lib/olsrd-plugins/olsrd_dot_draw.so
 lib/olsrd-plugins/olsrd_dyn_gw.so
 lib/olsrd-plugins/olsrd_dyn_gw_plain.so

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_libMoose_MooseCommon_cpp,v 1.2 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/libMoose/MooseCommon.cpp.orig	Mon Mar 28 17:17:53 2011
 +++ src/libMoose/MooseCommon.cpp	Mon Mar 28 17:20:44 2011
 @@ -47,7 +47,7 @@ namespace MooseUtils

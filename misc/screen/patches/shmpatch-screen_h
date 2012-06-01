@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/screen/patches/shmpatch-screen_h,v 1.1 2003/11/22 00:56:58 espie Exp $
+$OpenBSD$
 --- screen.h.orig	2003-08-22 14:28:43.000000000 +0200
 +++ screen.h	2003-11-17 23:37:54.000000000 +0100
 @@ -288,6 +288,10 @@ struct baud_values

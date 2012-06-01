@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/d-feet/patches/patch-dfeet__util_py,v 1.2 2011/11/14 19:16:51 ajacoutot Exp $
+$OpenBSD$
 --- dfeet/_util.py.orig	Tue Mar 15 22:45:55 2011
 +++ dfeet/_util.py	Mon Nov 14 20:13:57 2011
 @@ -1,18 +1,9 @@

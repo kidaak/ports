@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/olsrd/patches/patch-src_cfgparser_local_mk,v 1.1 2010/07/06 07:41:46 sthen Exp $
+$OpenBSD$
 --- src/cfgparser/local.mk.orig	Wed Mar 31 18:03:53 2010
 +++ src/cfgparser/local.mk	Tue Jun 29 15:25:30 2010
 @@ -73,5 +73,7 @@ $(C)oparse.c: $(C)oparse.y $(C)olsrd_conf.h $(C)Makefi

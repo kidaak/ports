@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/surf/patches/patch-config_mk,v 1.3 2010/06/07 07:24:00 landry Exp $
+$OpenBSD$
 use TRUEPREFIX instead of patching Makefile to remove DESTDIR
 --- config.mk.orig	Sun May 30 22:05:25 2010
 +++ config.mk	Mon Jun  7 09:20:47 2010

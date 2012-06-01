@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Pod/Makefile,v 1.13 2012/04/11 13:35:47 gsoares Exp $
+# $OpenBSD$
 
 COMMENT= 	check for POD errors in files
 

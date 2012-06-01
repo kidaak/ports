@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/graphics3/patches/patch-kpdf_xpdf_splash_Splash_cc,v 1.1 2009/10/15 15:50:25 kili Exp $
+$OpenBSD$
 --- kpdf/xpdf/splash/Splash.cc.orig	Tue Aug 19 20:12:37 2008
 +++ kpdf/xpdf/splash/Splash.cc	Thu Oct 15 16:35:46 2009
 @@ -12,6 +12,7 @@

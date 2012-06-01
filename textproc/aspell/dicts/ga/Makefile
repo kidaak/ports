@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/ga/Makefile,v 1.3 2012/01/17 11:01:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Irish
 CATEGORIES=	textproc

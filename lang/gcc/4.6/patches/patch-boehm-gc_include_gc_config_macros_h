@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-boehm-gc_include_gc_config_macros_h,v 1.2 2011/11/22 21:46:39 pascal Exp $
+$OpenBSD$
 --- boehm-gc/include/gc_config_macros.h.orig	Mon Jul  2 16:56:58 2007
 +++ boehm-gc/include/gc_config_macros.h	Sun Nov 20 23:20:59 2011
 @@ -20,7 +20,7 @@

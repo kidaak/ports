@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/fluidsynth/patches/patch-src_fluid_adriver_c,v 1.3 2009/12/24 10:34:43 jakemsr Exp $
+$OpenBSD$
 --- src/fluid_adriver.c.orig	Sun Mar 15 18:02:15 2009
 +++ src/fluid_adriver.c	Wed Dec 23 01:31:00 2009
 @@ -64,6 +64,15 @@ int delete_fluid_oss_audio_driver(fluid_audio_driver_t

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Catalyst-Manual/pkg/PLIST,v 1.8 2012/04/08 22:01:39 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/
 ${P5SITE}/Catalyst/Manual/
 @comment ${P5SITE}/Catalyst/Manual.pm

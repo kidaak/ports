@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/go/patches/patch-src_pkg_runtime_thread_openbsd_c,v 1.2 2012/04/15 13:37:27 jsing Exp $
+$OpenBSD$
 --- src/pkg/runtime/thread_openbsd.c.orig	Wed Mar 28 15:49:26 2012
 +++ src/pkg/runtime/thread_openbsd.c	Fri Mar  2 02:03:18 2012
 @@ -20,8 +20,11 @@ enum

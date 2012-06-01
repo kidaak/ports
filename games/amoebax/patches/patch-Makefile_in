@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/amoebax/patches/patch-Makefile_in,v 1.1.1.1 2007/12/08 13:35:40 simon Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Oct  2 15:10:20 2007
 +++ Makefile.in	Tue Oct  2 15:10:24 2007
 @@ -194,7 +194,7 @@ sysconfdir = @sysconfdir@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/jpegpixi/Makefile,v 1.5 2010/11/17 08:05:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	jpeg pixel interpolator
 

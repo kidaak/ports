@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/libosip2/Makefile,v 1.10 2012/01/18 13:45:25 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	GNU oSIP library
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/blender/patches/patch-extern_libmv_third_party_glog_src_config_h,v 1.1 2012/02/26 20:37:26 pascal Exp $
+$OpenBSD$
 --- extern/libmv/third_party/glog/src/config.h.orig	Wed Feb 15 20:41:04 2012
 +++ extern/libmv/third_party/glog/src/config.h	Fri Feb 17 19:01:55 2012
 @@ -6,6 +6,8 @@

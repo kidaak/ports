@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/fcbanner/Makefile,v 1.2 2010/10/24 21:38:06 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	fontconfig-based alternative to banner(1)
 

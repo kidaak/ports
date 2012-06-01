@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/dcmtk/pkg/PLIST,v 1.1.1.1 2008/04/10 10:09:56 djm Exp $
+@comment $OpenBSD$
 bin/dcm2pnm
 bin/dcm2xml
 bin/dcmcjpeg

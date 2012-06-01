@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/php-weathermap/pkg/PLIST,v 1.2 2010/03/27 00:00:49 sthen Exp $
+@comment $OpenBSD$
 weathermap/
 weathermap/CHANGES
 weathermap/COPYING

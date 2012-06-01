@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libvorbis/patches/patch-test_Makefile_in,v 1.3 2012/02/17 22:17:52 naddy Exp $
+$OpenBSD$
 --- test/Makefile.in.orig	Fri Feb  3 23:21:56 2012
 +++ test/Makefile.in	Sun Feb  5 20:13:04 2012
 @@ -212,7 +212,7 @@ top_srcdir = @top_srcdir@

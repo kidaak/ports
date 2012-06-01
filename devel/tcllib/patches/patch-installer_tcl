@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tcllib/patches/patch-installer_tcl,v 1.2 2011/01/05 16:27:24 stu Exp $
+$OpenBSD$
 --- installer.tcl.orig	Mon Dec  7 09:56:53 2009
 +++ installer.tcl	Mon Oct  4 23:59:02 2010
 @@ -79,21 +79,29 @@ if {![package vsatisfies [package provide Tcl] 8.0]} {

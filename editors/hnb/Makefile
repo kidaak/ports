@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/hnb/Makefile,v 1.12 2010/10/23 18:26:20 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	hierarchical notebook
 

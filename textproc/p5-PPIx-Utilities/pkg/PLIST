@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-PPIx-Utilities/pkg/PLIST,v 1.1.1.1 2010/06/30 17:06:08 jim Exp $
+@comment $OpenBSD$
 ${P5SITE}/PPIx/
 ${P5SITE}/PPIx/Utilities/
 ${P5SITE}/PPIx/Utilities.pm

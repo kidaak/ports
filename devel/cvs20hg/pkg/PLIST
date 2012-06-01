@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cvs20hg/pkg/PLIST,v 1.1.1.1 2006/07/15 02:16:19 avsm Exp $
+@comment $OpenBSD$
 bin/cvs20hg
 lib/python${MODPY_VERSION}/site-packages/cvstohg/
 lib/python${MODPY_VERSION}/site-packages/cvstohg/CVStools.py

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/makeself/Makefile,v 1.9 2011/12/05 18:37:33 espie Exp $
+# $OpenBSD$
 # Original from: Stephane Peter <megastep@megastep.org>
 
 COMMENT=	script generating a self-extractible .tgz from a directory

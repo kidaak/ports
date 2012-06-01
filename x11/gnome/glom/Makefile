@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/glom/Makefile,v 1.23 2012/04/11 15:32:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GNOME database designer and user interface
 

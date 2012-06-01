@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xfm/pkg/PLIST,v 1.7 2010/01/03 21:49:06 jasper Exp $
+@comment $OpenBSD$
 @bin bin/xfm
 bin/xfm.install
 @bin bin/xfmtype

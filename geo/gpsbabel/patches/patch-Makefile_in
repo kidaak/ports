@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/gpsbabel/patches/patch-Makefile_in,v 1.6 2012/02/18 22:04:07 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Jan  8 01:11:51 2012
 +++ Makefile.in	Sun Jan  8 01:15:47 2012
 @@ -98,7 +98,7 @@ LIBOBJS = queue.o route.o waypt.o filter_vecs.o util.o

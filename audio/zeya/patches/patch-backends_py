@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/zeya/patches/patch-backends_py,v 1.1.1.1 2011/07/20 07:54:58 dcoppa Exp $
+$OpenBSD$
 --- backends.py.orig	Mon Jul 11 11:38:36 2011
 +++ backends.py	Mon Jul 11 11:41:08 2011
 @@ -70,7 +70,7 @@ def filename_to_stream(filename, out_stream, bitrate, 

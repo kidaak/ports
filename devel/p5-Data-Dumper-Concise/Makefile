@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Dumper-Concise/Makefile,v 1.1.1.1 2012/04/06 09:25:08 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		less indentation and newlines plus sub deparsing
 

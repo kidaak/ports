@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/ogi-patch-festival_src_modules_OGIcommon_OGI_TimeWarp_cc,v 1.1 2010/05/22 09:30:04 espie Exp $
+$OpenBSD$
 --- festival/src/modules/OGIcommon/OGI_TimeWarp.cc.orig	Sat May 22 10:23:26 2010
 +++ festival/src/modules/OGIcommon/OGI_TimeWarp.cc	Sat May 22 10:24:53 2010
 @@ -94,7 +94,7 @@ void OGI_TimeWarp::nonuniform_stretch(

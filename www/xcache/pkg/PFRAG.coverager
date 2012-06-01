@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/xcache/pkg/PFRAG.coverager,v 1.1.1.1 2007/07/23 18:57:07 robert Exp $
+@comment $OpenBSD$
 xcache/coverager/
 xcache/coverager/common-en.lang.php
 xcache/coverager/common-zh-simplified-gb2312.lang.php

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/eclipse/sdk/Makefile,v 1.68 2012/04/07 13:11:27 landry Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 ONLY_FOR_ARCHS=		amd64 i386

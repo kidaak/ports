@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Apache-MP3/Makefile,v 1.23 2010/12/03 11:46:51 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	mod_perl class for generating browsable MP3 directory lists
 

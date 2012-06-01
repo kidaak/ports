@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/libnettle/patches/patch-Makefile_in,v 1.2 2011/08/25 09:20:27 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Jul 11 15:59:25 2011
 +++ Makefile.in	Thu Aug 25 11:03:41 2011
 @@ -277,18 +277,10 @@ install-static: $(LIBTARGETS)

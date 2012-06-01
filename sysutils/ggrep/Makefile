@@ -1,8 +1,8 @@
-# $OpenBSD: ports/sysutils/ggrep/Makefile,v 1.15 2012/03/16 08:40:13 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	GNU versions of grep pattern matching utilities
 
-DISTNAME=	grep-2.11
+DISTNAME=	grep-2.12
 CATEGORIES=	sysutils
 HOMEPAGE=	http://www.gnu.org/software/grep/grep.html
 

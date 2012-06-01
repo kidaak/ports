@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/polkit-qt4/Makefile,v 1.9 2011/12/16 08:18:23 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

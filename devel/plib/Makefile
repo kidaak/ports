@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/plib/Makefile,v 1.8 2010/11/15 19:46:07 espie Exp $
+# $OpenBSD$
 
 COMMENT =	suite of portable game libraries
 

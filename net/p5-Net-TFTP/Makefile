@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-TFTP/Makefile,v 1.7 2011/03/11 18:07:26 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	TFTP client class
 

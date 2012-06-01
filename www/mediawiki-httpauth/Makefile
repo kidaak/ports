@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mediawiki-httpauth/Makefile,v 1.5 2011/08/01 10:56:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	MediaWiki extension for http based authentication
 

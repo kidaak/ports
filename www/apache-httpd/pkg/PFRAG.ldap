@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/apache-httpd/pkg/PFRAG.ldap,v 1.1 2007/09/06 07:33:53 merdely Exp $
+@comment $OpenBSD$
 lib/apache2/mod_authnz_ldap.so
 lib/apache2/mod_ldap.so
 share/doc/ap2-mod_auth_ldap/

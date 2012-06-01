@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/www6to4/patches/patch-www6to4_c,v 1.1.1.1 2004/04/20 19:59:53 naddy Exp $
+$OpenBSD$
 --- www6to4.c.orig	2004-04-20 20:59:38.000000000 +0200
 +++ www6to4.c	2004-04-20 20:59:54.000000000 +0200
 @@ -59,7 +59,7 @@ char hostport[MAXPORT] = "8000";

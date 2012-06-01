@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/autogen/Makefile,v 1.15 2011/09/16 09:24:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=automatic text creation from templates
 CATEGORIES=devel

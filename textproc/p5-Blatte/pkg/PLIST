@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Blatte/pkg/PLIST,v 1.4 2004/09/15 18:44:03 espie Exp $
+@comment $OpenBSD$
 bin/blatte
 ${P5SITE}/Blatte/
 ${P5SITE}/Blatte.pm

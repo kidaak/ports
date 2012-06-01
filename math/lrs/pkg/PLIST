@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/lrs/pkg/PLIST,v 1.2 2011/11/07 12:16:22 edd Exp $
+@comment $OpenBSD$
 @bin bin/2gnash
 @bin bin/gfourier
 @bin bin/glrs

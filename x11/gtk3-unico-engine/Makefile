@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk3-unico-engine/Makefile,v 1.2 2012/04/01 09:16:49 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

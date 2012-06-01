@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libmpdclient/Makefile,v 1.7 2012/03/04 16:57:19 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=		library for interfacing MPD
 

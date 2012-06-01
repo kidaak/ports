@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/pkg/README-hpcups,v 1.1 2012/01/17 09:54:27 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

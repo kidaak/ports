@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/remmina/patches/patch-remmina-plugins_xdmcp_CMakeLists_txt,v 1.1 2012/02/24 13:48:26 ajacoutot Exp $
+$OpenBSD$
 --- remmina-plugins/xdmcp/CMakeLists.txt.orig	Fri Feb 10 19:54:23 2012
 +++ remmina-plugins/xdmcp/CMakeLists.txt	Fri Feb 24 11:55:36 2012
 @@ -24,6 +24,9 @@ set(REMMINA_PLUGIN_XDMCP_SRCS

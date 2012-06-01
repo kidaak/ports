@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/icon-naming-utils/Makefile,v 1.9 2012/03/19 10:28:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		compatibility tools from the Tango project
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/swatch/Makefile,v 1.29 2011/09/07 13:26:24 nigel Exp $
+# $OpenBSD$
 
 COMMENT=	simple log monitoring program
 

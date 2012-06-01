@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/its4/patches/patch-Makefile_in,v 1.1 2011/07/08 11:19:35 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Oct  3 00:00:02 2001
 +++ Makefile.in	Fri Jul  8 13:14:14 2011
 @@ -10,10 +10,10 @@ pure: $(OBJECTS)

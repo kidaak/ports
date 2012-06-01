@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/sphinx/pkg/PLIST,v 1.1.1.1 2008/07/21 12:42:21 bernd Exp $
+@comment $OpenBSD$
 @bin bin/indexer
 @bin bin/search
 @bin bin/searchd

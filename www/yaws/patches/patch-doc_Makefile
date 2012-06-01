@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/yaws/patches/patch-doc_Makefile,v 1.2 2011/05/27 17:04:43 jasper Exp $
+$OpenBSD$
 
 Only build and install the postscript file, as generating the
 pdf file make ghostscript unhappy.

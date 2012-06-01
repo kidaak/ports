@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/smbldap-tools/Makefile,v 1.5 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=	tools for managing samba ldap 
 

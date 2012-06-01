@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/twiki/Makefile,v 1.10 2011/05/24 20:15:31 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	web-based collaboration platform
 

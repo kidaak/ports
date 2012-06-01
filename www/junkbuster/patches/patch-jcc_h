@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/junkbuster/patches/patch-jcc_h,v 1.1 2010/05/24 22:17:03 espie Exp $
+$OpenBSD$
 --- jcc.h.orig	Tue May 25 00:13:09 2010
 +++ jcc.h	Tue May 25 00:14:30 2010
 @@ -37,9 +37,9 @@ extern char *referrer;

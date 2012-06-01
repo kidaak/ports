@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/php/5.2/patches/patch-ext_openssl_config0_m4,v 1.2 2011/06/18 19:49:50 sthen Exp $
+$OpenBSD$
 --- ext/openssl/config0.m4.orig.port	Sun Jan  7 18:38:22 2007
 +++ ext/openssl/config0.m4	Sat Jun 18 12:44:56 2011
 @@ -16,7 +16,7 @@ if test "$PHP_OPENSSL" != "no"; then

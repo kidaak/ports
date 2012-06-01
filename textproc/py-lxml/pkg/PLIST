@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-lxml/pkg/PLIST,v 1.5 2011/10/01 08:41:26 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/lxml/
 lib/python${MODPY_VERSION}/site-packages/lxml-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/lxml-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

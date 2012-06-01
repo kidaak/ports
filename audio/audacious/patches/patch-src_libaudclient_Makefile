@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacious/patches/patch-src_libaudclient_Makefile,v 1.2 2009/09/15 21:49:01 fgsch Exp $
+$OpenBSD$
 --- src/libaudclient/Makefile.orig	Mon Jul  6 23:39:12 2009
 +++ src/libaudclient/Makefile	Sat Aug  1 15:20:12 2009
 @@ -1,4 +1,4 @@

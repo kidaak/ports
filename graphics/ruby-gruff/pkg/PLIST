@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/ruby-gruff/pkg/PLIST,v 1.5 2011/12/02 19:36:42 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/History.txt

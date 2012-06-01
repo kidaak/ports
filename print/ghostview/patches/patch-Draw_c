@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostview/patches/patch-Draw_c,v 1.1 2002/04/26 01:44:08 espie Exp $
+$OpenBSD$
 --- Draw.c.orig	Sat Jul 24 04:29:12 1993
 +++ Draw.c	Fri Apr 26 03:39:01 2002
 @@ -30,6 +30,7 @@

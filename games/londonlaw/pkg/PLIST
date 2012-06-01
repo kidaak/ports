@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/londonlaw/pkg/PLIST,v 1.2 2008/06/14 06:17:14 eric Exp $
+@comment $OpenBSD$
 bin/london-client
 bin/london-server
 lib/python${MODPY_VERSION}/site-packages/londonlaw/

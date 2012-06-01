@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/wml/Makefile,v 1.11 2011/05/01 20:43:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		Website META Language
 

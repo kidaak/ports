@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/doc/patches/patch-doc,v 1.2 2001/07/25 11:03:10 jakob Exp $
+$OpenBSD$
 
 --- doc.orig	Wed Jul 25 10:20:59 2001
 +++ doc	Wed Jul 25 10:21:14 2001

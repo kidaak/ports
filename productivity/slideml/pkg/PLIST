@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/slideml/pkg/PLIST,v 1.1.1.1 2010/07/20 15:28:44 laurent Exp $
+@comment $OpenBSD$
 bin/slideml.pl
 share/doc/slideml/
 share/doc/slideml/license

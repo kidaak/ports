@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/plans/Makefile,v 1.5 2010/11/11 12:35:14 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	powerful and flexible web calendar
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Image-Info/Makefile,v 1.22 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for getting image information
 

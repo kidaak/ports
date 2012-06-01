@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ruby-mongrel_cluster/Makefile,v 1.10 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	tool to help start/stop/restart multiple mongrel servers
 

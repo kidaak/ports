@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rtg/patches/patch-etc_rtg_php,v 1.1.1.1 2008/07/19 13:52:22 sthen Exp $
+$OpenBSD$
 --- etc/rtg.php.orig	Wed Sep 24 22:42:03 2003
 +++ etc/rtg.php	Thu Nov 24 12:05:41 2005
 @@ -4,12 +4,12 @@

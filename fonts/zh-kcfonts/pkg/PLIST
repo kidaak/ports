@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/zh-kcfonts/pkg/PLIST,v 1.1.1.1 2011/07/19 16:51:04 jasper Exp $
+@comment $OpenBSD$
 @pkgpath chinese/kcfonts
 lib/X11/fonts/
 @fontdir lib/X11/fonts/chinese/

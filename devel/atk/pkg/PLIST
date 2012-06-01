@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/atk/pkg/PLIST,v 1.17 2012/03/26 23:20:59 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/atk-1.0/
 include/atk-1.0/atk/

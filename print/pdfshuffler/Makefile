@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/pdfshuffler/Makefile,v 1.4 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT =		merge, split, rotate and crop PDF documents
 DISTNAME =		pdfshuffler-0.5.1

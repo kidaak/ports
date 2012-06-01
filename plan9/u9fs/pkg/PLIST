@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/plan9/u9fs/pkg/PLIST,v 1.1.1.1 2011/03/16 08:44:49 jasper Exp $
+@comment $OpenBSD$
 @bin bin/u9fs

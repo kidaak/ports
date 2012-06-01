@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-WikiFormat/Makefile,v 1.10 2011/03/17 12:17:41 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	translate Wiki formatted text into other formats
 

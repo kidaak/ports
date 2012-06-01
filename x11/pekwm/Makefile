@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/pekwm/Makefile,v 1.21 2010/11/22 08:37:04 espie Exp $
+# $OpenBSD$
 
 COMMENT=	aewm++ based pretty themable window manager
 

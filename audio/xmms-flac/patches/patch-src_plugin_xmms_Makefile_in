@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms-flac/patches/patch-src_plugin_xmms_Makefile_in,v 1.4 2007/09/24 17:23:55 naddy Exp $
+$OpenBSD$
 --- src/plugin_xmms/Makefile.in.orig	Sun Sep 16 22:05:18 2007
 +++ src/plugin_xmms/Makefile.in	Mon Sep 24 17:08:57 2007
 @@ -264,8 +264,7 @@ libxmms_flac_la_LIBADD = \

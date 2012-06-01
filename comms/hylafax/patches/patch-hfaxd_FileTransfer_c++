@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/hylafax/patches/patch-hfaxd_FileTransfer_c++,v 1.4 2012/04/14 15:13:30 naddy Exp $
+$OpenBSD$
 
 Fix for TIFF 4.0 API.
 

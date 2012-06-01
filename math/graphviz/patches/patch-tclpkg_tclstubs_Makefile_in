@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/graphviz/patches/patch-tclpkg_tclstubs_Makefile_in,v 1.1 2007/02/20 11:47:07 espie Exp $
+$OpenBSD$
 --- tclpkg/tclstubs/Makefile.in.orig2	Wed Jan 31 18:07:44 2007
 +++ tclpkg/tclstubs/Makefile.in	Wed Jan 31 18:08:04 2007
 @@ -172,7 +172,7 @@ LIBICONV = @LIBICONV@

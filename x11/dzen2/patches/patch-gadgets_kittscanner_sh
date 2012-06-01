@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dzen2/patches/patch-gadgets_kittscanner_sh,v 1.1.1.1 2007/09/06 19:46:01 merdely Exp $
+$OpenBSD$
 --- gadgets/kittscanner.sh.orig	Sat Aug 18 08:18:50 2007
 +++ gadgets/kittscanner.sh	Thu Sep  6 16:54:45 2007
 @@ -19,8 +19,7 @@ BG=black

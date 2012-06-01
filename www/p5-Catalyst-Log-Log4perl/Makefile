@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Log-Log4perl/Makefile,v 1.9 2012/04/08 21:58:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		Log::Log4perl logging for Catalyst (deprecated)
 

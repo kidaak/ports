@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mailnews_mime_src_mimemsg_cpp,v 1.4 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mailnews/mime/src/mimemsg.cpp.orig	Mon Jan 11 18:40:36 2010
 +++ mailnews/mime/src/mimemsg.cpp	Mon Jan 25 22:31:38 2010
 @@ -514,7 +514,7 @@ MimeMessage_close_headers (MimeObject *obj)

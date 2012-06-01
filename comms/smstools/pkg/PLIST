@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/smstools/pkg/PLIST,v 1.8 2011/05/11 06:22:16 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gnokii-*
 @newgroup _smsd:590
 @newuser _smsd:590:_smsd:daemon:smsd user:/nonexistent:/sbin/nologin

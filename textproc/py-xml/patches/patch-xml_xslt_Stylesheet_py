@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/py-xml/patches/patch-xml_xslt_Stylesheet_py,v 1.1 2008/12/16 04:55:09 fgsch Exp $
+$OpenBSD$
 --- xml/xslt/Stylesheet.py.orig	Tue Dec 16 04:52:31 2008
 +++ xml/xslt/Stylesheet.py	Tue Dec 16 04:53:15 2008
 @@ -373,8 +373,8 @@ class StylesheetElement(XsltElement):

@@ -14,7 +14,7 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 # 
 # RBlatter
-# $Id: rblatter,v 1.2 2010/10/20 13:15:55 edd Exp $
+# $Id$
 #
 # == Synopsis
 # RBlatter is a ruby script which allows you to add and subtract TeXmf
@@ -57,7 +57,7 @@
 #
 #	Available file types are 'run', 'src', 'bin' and 'doc'.
 
-$RBLATTER_V = "$OpenBSD: ports/print/texlive/texmf/files/rblatter/rblatter,v 1.2 2011/03/08 00:09:42 edd Exp $"
+$RBLATTER_V = "$OpenBSD$"
 $QUIET = true;
 $FILEPREFIX = ""
 $ARCH = "i386-openbsd"

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/unison/Makefile,v 1.7 2010/02/01 17:00:14 espie Exp $
+# $OpenBSD$
 
 SUBDIR =
 # SUBDIR +=	snapshot

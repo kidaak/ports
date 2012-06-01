@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/gworkspace/pkg/PLIST,v 1.8 2011/10/15 08:10:47 sebastia Exp $
+@comment $OpenBSD$
 bin/GWorkspace
 bin/MDFinder
 bin/Recycler

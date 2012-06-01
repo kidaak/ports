@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/cmu-sphinx3/Makefile,v 1.9 2011/07/07 00:42:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	acoustic decoder for CMU Sphinx3 speech recognition system
 

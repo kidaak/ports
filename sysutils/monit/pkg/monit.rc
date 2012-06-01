@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/sysutils/monit/pkg/monit.rc,v 1.1 2011/06/26 10:29:11 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/monit"
 daemon_flags="-d 300 -c ${SYSCONFDIR}/monitrc"

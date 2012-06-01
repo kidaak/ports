@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-RewriteAttributes/Makefile,v 1.6 2011/06/14 11:56:00 robert Exp $
+# $OpenBSD$
 
 COMMENT=	concise attribute rewriting
 

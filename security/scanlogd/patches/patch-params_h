@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/scanlogd/patches/patch-params_h,v 1.2 2007/05/26 01:12:02 aanriot Exp $
+$OpenBSD$
 --- params.h.orig	Sun Mar  5 11:13:56 2006
 +++ params.h	Fri May 25 19:32:26 2007
 @@ -13,7 +13,7 @@

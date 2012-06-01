@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libmp3splt/pkg/PLIST,v 1.1.1.1 2009/02/11 15:44:30 kevlo Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libmp3splt/
 include/libmp3splt/mp3splt.h

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mongodb/patches/patch-SConstruct,v 1.2 2011/10/03 16:38:21 fgsch Exp $
+$OpenBSD$
 --- SConstruct.orig	Sun Sep 11 15:09:34 2011
 +++ SConstruct	Sun Sep 18 21:38:08 2011
 @@ -670,7 +670,7 @@ if nix:

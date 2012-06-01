@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/sdk/Makefile,v 1.6 2010/11/22 08:37:02 espie Exp $
+# $OpenBSD$
 
 COMMENT = 		K Desktop Environment, developer extensions
 DISTNAME =		kdesdk-${VERSION}

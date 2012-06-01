@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Lingua-EN-Tagger/pkg/PLIST,v 1.1.1.1 2012/04/06 09:26:54 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Lingua/EN/
 ${P5SITE}/Lingua/EN/Tagger/
 ${P5SITE}/Lingua/EN/Tagger.pm

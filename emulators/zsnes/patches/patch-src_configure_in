@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/zsnes/patches/patch-src_configure_in,v 1.7 2005/10/21 18:07:10 naddy Exp $
+$OpenBSD$
 --- src/configure.in.orig	Mon Oct  3 23:11:56 2005
 +++ src/configure.in	Mon Oct  3 23:14:21 2005
 @@ -39,7 +39,7 @@ case "$target" in

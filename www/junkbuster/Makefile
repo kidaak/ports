@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/junkbuster/Makefile,v 1.15 2010/11/11 12:35:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	banner-ad blocking proxy server
 

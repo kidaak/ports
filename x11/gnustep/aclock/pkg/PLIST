@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/aclock/pkg/PLIST,v 1.3 2011/11/17 23:54:40 sebastia Exp $
+@comment $OpenBSD$
 bin/AClock
 libexec/GNUstep/
 libexec/GNUstep/AClock.app/

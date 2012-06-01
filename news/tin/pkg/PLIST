@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/news/tin/pkg/PLIST,v 1.10 2011/10/07 14:12:55 giovanni Exp $
+@comment $OpenBSD$
 @pkgpath news/tin,nntp_only
 bin/rtin
 @bin bin/tin

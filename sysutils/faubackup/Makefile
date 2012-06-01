@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/faubackup/Makefile,v 1.5 2010/11/22 09:38:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	full and incremental backups on filesystem
 DISTNAME =	faubackup-0.5.9

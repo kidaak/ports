@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Parser/Makefile,v 1.43 2011/05/25 16:49:14 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

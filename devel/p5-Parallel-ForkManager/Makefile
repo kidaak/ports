@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Parallel-ForkManager/Makefile,v 1.9 2011/05/15 15:04:51 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	simple parallel processing fork manager
 

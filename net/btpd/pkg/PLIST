@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/btpd/pkg/PLIST,v 1.3 2010/08/24 17:24:20 nicm Exp $
+@comment $OpenBSD$
 @bin bin/btcli
 @bin bin/btinfo
 @bin bin/btpd

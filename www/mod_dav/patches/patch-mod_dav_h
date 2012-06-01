@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_dav/patches/patch-mod_dav_h,v 1.1 2005/10/28 01:04:53 brad Exp $
+$OpenBSD$
 --- mod_dav.h.orig	Thu Oct 27 20:53:42 2005
 +++ mod_dav.h	Thu Oct 27 20:54:13 2005
 @@ -715,7 +715,7 @@ void dav_xml2text(

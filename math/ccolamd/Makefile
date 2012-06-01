@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/ccolamd/Makefile,v 1.8 2012/02/16 23:03:15 pirofti Exp $
+# $OpenBSD$
 
 COMMENT =	library for column approximate minimum degree ordering
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/remmina/patches/patch-remmina-plugins_vnc_libvncserver_CMakeLists_txt,v 1.1 2012/02/24 13:48:26 ajacoutot Exp $
+$OpenBSD$
 --- remmina-plugins/vnc/libvncserver/CMakeLists.txt.orig	Fri Feb 10 19:54:23 2012
 +++ remmina-plugins/vnc/libvncserver/CMakeLists.txt	Fri Feb 24 12:01:55 2012
 @@ -9,6 +9,8 @@ include(TestBigEndian)

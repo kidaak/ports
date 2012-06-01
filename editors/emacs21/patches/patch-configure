@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs21/patches/patch-configure,v 1.11 2010/04/11 21:26:24 jasper Exp $
+$OpenBSD$
 disable Xaw3d
 --- configure.orig	Tue Mar 18 07:19:12 2003
 +++ configure	Sun Apr 11 14:57:06 2010

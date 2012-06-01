@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/patches-3.5.3/patch-admin_libtool_m4_in,v 1.1 2006/06/03 12:47:31 espie Exp $
+$OpenBSD$
 --- admin/libtool.m4.in.orig	Tue May 23 14:51:55 2006
 +++ admin/libtool.m4.in	Sun May 28 12:30:46 2006
 @@ -672,6 +672,19 @@ AC_CACHE_VAL([lt_cv_sys_max_cmd_len], [d

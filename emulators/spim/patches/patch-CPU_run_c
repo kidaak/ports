@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/spim/patches/patch-CPU_run_c,v 1.2 2010/09/03 16:17:19 sthen Exp $
+$OpenBSD$
 
 Fix build on OpenBSD's mips architectures.
 

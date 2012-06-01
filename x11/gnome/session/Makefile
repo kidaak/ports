@@ -1,10 +1,9 @@
-# $OpenBSD: ports/x11/gnome/session/Makefile,v 1.209 2012/04/07 11:07:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GNOME session
 
 GNOME_PROJECT=		gnome-session
-GNOME_VERSION=		3.4.0
-REVISION=		0
+GNOME_VERSION=		3.4.2.1
 
 CATEGORIES=		x11
 

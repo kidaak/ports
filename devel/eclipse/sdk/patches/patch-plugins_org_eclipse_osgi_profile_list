@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_osgi_profile_list,v 1.1 2007/08/02 16:15:07 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.osgi/profile.list.orig	Thu Aug  2 11:05:41 2007
 +++ plugins/org.eclipse.osgi/profile.list	Thu Aug  2 11:05:51 2007
 @@ -9,6 +9,7 @@

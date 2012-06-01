@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-Audio-CD/pkg/PLIST,v 1.6 2004/09/14 23:16:54 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Audio/
 ${P5ARCH}/Audio/CD.pm

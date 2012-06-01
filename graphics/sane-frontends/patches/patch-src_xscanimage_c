@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/sane-frontends/patches/patch-src_xscanimage_c,v 1.2 2009/02/14 10:05:21 jasper Exp $
+$OpenBSD$
 --- src/xscanimage.c.orig	Sat Apr 16 15:12:07 2005
 +++ src/xscanimage.c	Sat Feb 14 10:48:06 2009
 @@ -1284,7 +1284,7 @@ scan_dialog (GtkWidget * widget, gpointer call_data)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-notify/Makefile,v 1.15 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		python bindings for libnotify
 

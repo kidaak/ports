@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-i18n/Makefile,v 1.4 2011/12/13 17:52:28 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	ruby internationalization and localization solution
 

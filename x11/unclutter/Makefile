@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/unclutter/Makefile,v 1.13 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	hides idle X11 cursor
 

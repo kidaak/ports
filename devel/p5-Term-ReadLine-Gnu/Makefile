@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Term-ReadLine-Gnu/Makefile,v 1.25 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

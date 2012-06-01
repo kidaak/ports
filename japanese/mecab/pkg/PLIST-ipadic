@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/mecab/pkg/PLIST-ipadic,v 1.1.1.1 2012/03/20 23:43:12 fgsch Exp $
+@comment $OpenBSD$
 share/mecab/
 share/mecab/dic/
 share/mecab/dic/ipadic/

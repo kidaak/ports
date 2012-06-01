@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Devel-Size/pkg/PLIST,v 1.1.1.1 2004/12/29 00:54:52 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Devel/
 ${P5ARCH}/Devel/Size.pm

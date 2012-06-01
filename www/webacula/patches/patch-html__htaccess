@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webacula/patches/patch-html__htaccess,v 1.1 2012/02/01 12:59:06 ajacoutot Exp $
+$OpenBSD$
 --- html/.htaccess.orig	Tue Jan 31 17:36:45 2012
 +++ html/.htaccess	Tue Jan 31 17:36:55 2012
 @@ -1,5 +1,5 @@

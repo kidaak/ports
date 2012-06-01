@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/synergy/Makefile,v 1.14 2011/11/08 09:30:52 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=		mouse and keyboard sharing utility
 

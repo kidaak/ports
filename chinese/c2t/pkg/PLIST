@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/chinese/c2t/pkg/PLIST,v 1.6 2004/08/06 14:37:29 espie Exp $
+@comment $OpenBSD$
 bin/c2t
 @man man/man1/c2t.1
 share/chinese/

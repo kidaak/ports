@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fluxbox/patches/patch-src_FbTk_App_cc,v 1.1 2011/12/29 16:15:53 dcoppa Exp $
+$OpenBSD$
 
 Make startup failure easier to diagnose
 (upstream git commit afa870802ba4296a4ce8c2b9185250f8da1124ca)

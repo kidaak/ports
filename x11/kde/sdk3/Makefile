@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/sdk3/Makefile,v 1.55 2011/12/03 23:43:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main = 		K Desktop Environment, developer extensions
 COMMENT-svn = 		K Desktop Environment, svn extensions

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/wmcb/patches/patch-wmcb_wmcb_c,v 1.1 2009/02/14 10:10:37 jasper Exp $
+$OpenBSD$
 
 Fix potential 64-bit issue.
 

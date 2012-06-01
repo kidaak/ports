@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/perdition/patches/patch-etc_perdition_perdition_conf,v 1.1.1.1 2006/11/16 23:26:00 msf Exp $
+$OpenBSD$
 --- etc/perdition/perdition.conf.orig	Tue Nov  7 11:44:00 2006
 +++ etc/perdition/perdition.conf	Tue Nov  7 11:47:50 2006
 @@ -132,9 +132,9 @@

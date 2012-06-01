@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_rtl_h,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/rtl.h.orig	Sat Apr 24 21:40:45 2004
 +++ gcc/rtl.h	Mon Jan  3 10:17:42 2005
 @@ -440,6 +440,18 @@ extern void rtvec_check_failed_bounds PA

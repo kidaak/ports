@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/Makefile.inc,v 1.2 2012/01/28 11:33:33 espie Exp $
+# $OpenBSD$
 
 
 MODULES +=	www/drupal6

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/freedroid/Makefile,v 1.8 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=	clone of the commodore 64 game paradroids
 DISTNAME=	freedroid-1.0.2

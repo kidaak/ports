@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/sipsak/Makefile,v 1.11 2011/05/22 14:03:40 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	SIP swiss army knife
 

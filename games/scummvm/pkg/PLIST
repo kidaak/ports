@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/scummvm/pkg/PLIST,v 1.9 2010/10/17 19:59:51 jsg Exp $
+@comment $OpenBSD$
 @bin bin/scummvm
 @man man/man6/scummvm.6
 share/applications/

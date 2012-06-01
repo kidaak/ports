@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/msp430/gdb/patches/patch-libiberty_testsuite_Makefile_in,v 1.1.1.1 2010/12/01 09:06:53 jasper Exp $
+$OpenBSD$
 
 check-expandargv randomly succeeds or fails w/o a reason.
 

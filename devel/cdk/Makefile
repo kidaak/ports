@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cdk/Makefile,v 1.6 2010/11/15 19:45:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=	curses development kit
 

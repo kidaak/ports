@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-tools_rpmgettext_c,v 1.1.1.1 2000/06/12 18:49:41 espie Exp $
+$OpenBSD$
 --- tools/rpmgettext.c.orig	Mon Jun 12 02:19:29 2000
 +++ tools/rpmgettext.c	Mon Jun 12 02:19:57 2000
 @@ -11,6 +11,10 @@

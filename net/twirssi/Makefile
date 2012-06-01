@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/twirssi/Makefile,v 1.7 2011/11/17 23:52:38 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Twitter script for irssi
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/gcc/patches/patch-gcc-4_3_4_gcc_config_avr_t-avr,v 1.1 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- gcc-4.3.4/gcc/config/avr/t-avr.orig	Wed Jan 23 08:07:09 2008
 +++ gcc-4.3.4/gcc/config/avr/t-avr	Sat Jun 26 11:58:40 2010
 @@ -37,24 +37,34 @@ fp-bit.c: $(srcdir)/config/fp-bit.c $(srcdir)/config/a

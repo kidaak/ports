@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/grhino/pkg/PLIST,v 1.1.1.1 2010/09/06 18:55:42 landry Exp $
+@comment $OpenBSD$
 @bin bin/grhino
 @bin bin/gtp-rhino
 share/gnome/help/grhino/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmmsctrl/Makefile,v 1.8 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=	small utility to control XMMS from the command line
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/shotwell/patches/patch-configure,v 1.4 2012/02/27 19:41:55 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Sun Feb 26 15:04:33 2012
 +++ configure	Sun Feb 26 15:07:49 2012
 @@ -1,4 +1,4 @@

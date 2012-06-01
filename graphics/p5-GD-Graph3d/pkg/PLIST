@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-GD-Graph3d/pkg/PLIST,v 1.7 2004/09/15 00:50:10 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/GD/Graph/axestype3d.pm
 ${P5SITE}/GD/Graph/bars3d.pm
 ${P5SITE}/GD/Graph/cylinder.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nmap/patches/patch-zenmap_setup_py,v 1.8 2011/03/28 09:01:24 giovanni Exp $
+$OpenBSD$
 --- zenmap/setup.py.orig	Fri Jan 21 01:04:51 2011
 +++ zenmap/setup.py	Wed Feb  2 13:12:14 2011
 @@ -199,12 +199,11 @@ class my_install(install):

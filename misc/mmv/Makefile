@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/mmv/Makefile,v 1.21 2010/10/18 20:52:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	move/copy/append/link multiple files with wildcards
 

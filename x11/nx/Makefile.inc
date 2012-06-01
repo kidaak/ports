@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/nx/Makefile.inc,v 1.9 2012/01/03 16:39:08 sebastia Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

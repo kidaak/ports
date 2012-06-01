@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome-mplayer/patches/patch-configure,v 1.10 2012/03/26 14:41:16 dcoppa Exp $
+$OpenBSD$
 
 Don't check for libgpod 0.6.x: it's not in our ports tree
 

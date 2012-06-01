@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Sub-Override/Makefile,v 1.6 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	extension for easily overriding subroutines
 

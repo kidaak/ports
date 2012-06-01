@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/sshguard/pkg/PLIST,v 1.2 2011/03/07 17:44:16 rpointel Exp $
+@comment $OpenBSD$
 @man man/man8/sshguard.8
 @bin sbin/sshguard
 @rcscript ${RCDIR}/sshguard

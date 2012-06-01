@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/sleuthkit/patches/patch-man_sorter_1,v 1.2 2009/01/05 22:15:56 rui Exp $
+$OpenBSD$
 --- man/sorter.1.orig	Mon Sep 29 00:02:46 2008
 +++ man/sorter.1	Sun Dec 28 14:02:02 2008
 @@ -76,7 +76,7 @@ have priority over the standard files.  

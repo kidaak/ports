@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/statusnet/pkg/README,v 1.5 2011/10/16 15:20:33 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

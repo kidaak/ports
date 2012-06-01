@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/gkrellm/plugins/mms/patches/patch-gkrellmms_c,v 1.1.1.1 2003/11/03 20:34:17 sturm Exp $
+$OpenBSD$
 --- gkrellmms.c.orig	2003-06-16 20:39:20.000000000 +0200
 +++ gkrellmms.c	2003-11-02 11:51:20.000000000 +0100
 @@ -635,7 +635,7 @@ set_x_position(gint x, gchar *anchor)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/eboard/patches/patch-cimg_cc,v 1.2 2011/12/15 17:59:21 fgsch Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

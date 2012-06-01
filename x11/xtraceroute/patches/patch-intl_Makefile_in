@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xtraceroute/patches/patch-intl_Makefile_in,v 1.1 2010/10/24 17:59:48 naddy Exp $
+$OpenBSD$
 --- intl/Makefile.in.orig	Sun Oct 24 11:48:37 2010
 +++ intl/Makefile.in	Sun Oct 24 11:49:10 2010
 @@ -202,12 +202,12 @@ Makefile: Makefile.in ../config.status

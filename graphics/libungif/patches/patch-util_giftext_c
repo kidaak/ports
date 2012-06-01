@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libungif/patches/patch-util_giftext_c,v 1.1 2006/10/19 13:26:40 naddy Exp $
+$OpenBSD$
 --- util/giftext.c.orig	Thu Oct 19 15:11:42 2006
 +++ util/giftext.c	Thu Oct 19 15:12:18 2006
 @@ -135,7 +135,7 @@ int main(int argc, char **argv)

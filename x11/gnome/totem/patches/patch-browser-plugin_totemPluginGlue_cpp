@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/totem/patches/patch-browser-plugin_totemPluginGlue_cpp,v 1.5 2011/12/01 11:15:02 ajacoutot Exp $
+$OpenBSD$
 
 From d3d467a49fa828f1b6bb5d999c97158bd736785e Mon Sep 17 00:00:00 2001
 From: Antoine Jacoutot <ajacoutot@openbsd.org>

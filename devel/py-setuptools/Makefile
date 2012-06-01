@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-setuptools/Makefile,v 1.18 2011/12/14 20:25:11 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=	simplified packaging system for Python modules
 

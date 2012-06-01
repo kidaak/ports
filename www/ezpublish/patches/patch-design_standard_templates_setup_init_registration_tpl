@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ezpublish/patches/patch-design_standard_templates_setup_init_registration_tpl,v 1.1.1.1 2008/06/17 21:52:04 bernd Exp $
+$OpenBSD$
 
 Disable the "Send Registration" checkbox by default.
 

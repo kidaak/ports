@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/acpica/patches/patch-include_platform_aclinux_h,v 1.1 2011/04/05 08:02:25 sthen Exp $
+$OpenBSD$
 --- include/platform/aclinux.h.orig	Wed Mar 16 16:28:21 2011
 +++ include/platform/aclinux.h	Mon Apr  4 23:43:49 2011
 @@ -122,6 +122,10 @@

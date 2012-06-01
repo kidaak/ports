@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt4/pkg/PFRAG.shared-debug,v 1.4 2005/12/31 15:59:50 espie Exp $
+@comment $OpenBSD$
 @lib lib/libQt3Support_debug.so.${LIBQt3Support_debug_VERSION}
 @lib lib/libQtCore_debug.so.${LIBQtCore_debug_VERSION}
 @lib lib/libQtDesignerComponents_debug.so.${LIBQtDesignerComponents_debug_VERSION}

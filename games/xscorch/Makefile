@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xscorch/Makefile,v 1.12 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Scorched Earth-clone
 

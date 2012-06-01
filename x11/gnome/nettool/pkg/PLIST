@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/nettool/pkg/PLIST,v 1.6 2012/01/03 12:11:54 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gnome-nettool
 share/applications/gnome-nettool.desktop
 share/glib-2.0/schemas/org.gnome.gnome-nettool.gschema.xml

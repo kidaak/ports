@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_test_Makefile_in,v 1.1.1.1 2006/07/14 16:12:14 bernd Exp $
+$OpenBSD$
 --- wml_test/Makefile.in.orig	Sat Jul 21 13:45:17 2001
 +++ wml_test/Makefile.in	Tue Jun 20 12:10:32 2006
 @@ -37,8 +37,8 @@ test:

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-rake/pkg/PLIST,v 1.11 2011/11/09 00:08:50 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/rake18
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

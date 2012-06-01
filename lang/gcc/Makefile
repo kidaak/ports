@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gcc/Makefile,v 1.7 2012/04/23 15:17:56 pascal Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += 3.3

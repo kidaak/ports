@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/pioneers/Makefile,v 1.28 2011/12/05 12:46:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Settlers of Catan for GNOME/Gtk
 

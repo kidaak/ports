@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms2/patches/patch-src_clients_lib_xmmsclient_wscript,v 1.2 2010/04/24 17:37:54 jasper Exp $
+$OpenBSD$
 --- src/clients/lib/xmmsclient/wscript.orig	Sat Mar 13 19:27:38 2010
 +++ src/clients/lib/xmmsclient/wscript	Sat Mar 13 19:28:13 2010
 @@ -31,7 +31,7 @@ def build(bld):

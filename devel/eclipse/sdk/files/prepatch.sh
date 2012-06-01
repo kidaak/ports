@@ -1,5 +1,5 @@
 #!/bin/sh
-# $OpenBSD: ports/devel/eclipse/sdk/files/prepatch.sh,v 1.2 2007/04/13 14:30:43 kurt Exp $
+# $OpenBSD$
 # $FreeBSD: ports/java/eclipse/scripts/configure,v 1.2 2004/07/25 08:01:09 nork Exp $
 
 copy_file()

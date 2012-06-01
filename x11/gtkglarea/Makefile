@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtkglarea/Makefile,v 1.40 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		OpenGL widget for GTK+2 GUI toolkit
 

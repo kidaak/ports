@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/fxtv/patches/patch-annot_c,v 1.2 2010/05/22 14:12:50 espie Exp $
+$OpenBSD$
 --- annot.c.orig	Sun Sep  5 20:42:16 1999
 +++ annot.c	Sat May 22 16:04:13 2010
 @@ -678,6 +678,7 @@ static TV_BOOL TVANNOTInputDevPropUpdate(

@@ -1,4 +1,4 @@
-$OpenBSD: ports/plan9/drawterm/patches/patch-posix-power_Makefile,v 1.1 2011/10/08 15:02:51 mpi Exp $
+$OpenBSD$
 Needed to assemble tas.c that uses inline assembly "portable" to Mac OSX.
 --- posix-power/Makefile.orig	Sat Oct  8 13:12:04 2011
 +++ posix-power/Makefile	Sat Oct  8 13:20:17 2011

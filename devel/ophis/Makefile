@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ophis/Makefile,v 1.1.1.1 2011/10/14 22:29:57 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		65xx-series cross-assembler
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Mail-Tools/pkg/PLIST,v 1.12 2010/12/27 11:49:06 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Mail/
 ${P5SITE}/Mail/Address.pm
 ${P5SITE}/Mail/Address.pod

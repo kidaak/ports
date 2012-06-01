@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Convert-ASCII-Armour/pkg/PLIST,v 1.1.1.1 2005/02/06 15:14:21 sturm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Convert/
 ${P5SITE}/Convert/ASCII/
 ${P5SITE}/Convert/ASCII/Armor.pm

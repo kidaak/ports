@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/onesixtyone/Makefile,v 1.3 2007/09/15 23:29:59 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	efficient SNMP scanner
 

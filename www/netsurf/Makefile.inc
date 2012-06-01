@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/netsurf/Makefile.inc,v 1.3 2012/01/12 03:17:08 bentley Exp $
+# $OpenBSD$
 
 CATEGORIES +=	www/netsurf
 

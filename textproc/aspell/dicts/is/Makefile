@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/is/Makefile,v 1.7 2012/01/17 11:04:12 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Icelandic
 CATEGORIES=	textproc

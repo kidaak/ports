@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/gnustep.port.mk,v 1.16 2011/07/19 06:19:49 sebastia Exp $
+# $OpenBSD$
 
 # until tested on others
 ONLY_FOR_ARCHS =	i386 amd64 macppc

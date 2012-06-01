@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTP-BrowserDetect/Makefile,v 1.8 2011/04/05 14:30:31 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	determine web browser from an HTTP user agent string
 

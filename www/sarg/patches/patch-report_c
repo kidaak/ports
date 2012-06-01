@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/sarg/patches/patch-report_c,v 1.1 2007/06/22 12:48:25 martynas Exp $
+$OpenBSD$
 --- report.c.orig	Tue Jan  2 21:11:26 2007
 +++ report.c	Tue Jun 19 20:26:14 2007
 @@ -46,6 +46,7 @@ void gerarel()

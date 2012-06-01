@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi/patches/patch-src_fe-common_core_fe-core-commands_c,v 1.2 2009/09/10 21:31:42 martynas Exp $
+$OpenBSD$
 
 Don't assume the size of time_t.
 

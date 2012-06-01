@@ -1,5 +1,5 @@
 # ex:ts=8 sw=4:
-# $OpenBSD: ports/devel/quirks/files/Quirks/texlive.pm,v 1.1 2011/07/12 21:25:39 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2009 Marc Espie <espie@openbsd.org>
 #

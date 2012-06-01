@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/slim/Makefile,v 1.20 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	simple login manager
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-content_media_video_src_nsAudioStream_cpp,v 1.1 2009/06/21 13:18:59 martynas Exp $
+$OpenBSD$
 --- content/media/video/src/nsAudioStream.cpp.orig	Wed Jun 17 07:21:42 2009
 +++ content/media/video/src/nsAudioStream.cpp	Sun Jun 21 15:39:50 2009
 @@ -246,7 +246,7 @@ float nsAudioStream::GetPosition()

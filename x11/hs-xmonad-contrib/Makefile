@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/hs-xmonad-contrib/Makefile,v 1.17 2012/01/12 11:12:38 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		third party xmonad extensions
 

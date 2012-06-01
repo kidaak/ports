@@ -14,7 +14,7 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 # 
 # RBlatter
-# $Id: spinner.rb,v 1.1.1.1 2010/10/08 22:08:06 edd Exp $
+# $Id$
 #
 # A pretty spinner
 

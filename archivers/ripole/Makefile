@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/ripole/Makefile,v 1.5 2012/02/01 12:01:40 nigel Exp $
+# $OpenBSD$
 
 COMMENT=		extract attachments from OLE2 data files
 DISTNAME=		ripole-0.2.0

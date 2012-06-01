@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/p5-Finance-Quote/pkg/PLIST,v 1.10 2008/07/12 14:12:10 dhill Exp $
+@comment $OpenBSD$
 ${P5SITE}/Finance/
 ${P5SITE}/Finance/Quote/
 ${P5SITE}/Finance/Quote.pm

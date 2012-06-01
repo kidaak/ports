@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/quake2/patches/patch-src_glw_h,v 1.1 2008/05/25 02:54:58 jsg Exp $
+$OpenBSD$
 --- src/glw.h.orig	Sat May 24 20:42:41 2008
 +++ src/glw.h	Sat May 24 20:42:52 2008
 @@ -30,7 +30,7 @@

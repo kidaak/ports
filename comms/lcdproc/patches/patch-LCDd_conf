@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/lcdproc/patches/patch-LCDd_conf,v 1.1.1.1 2011/12/01 19:05:11 edd Exp $
+$OpenBSD$
 
 OpenBSD path and there is no point in logging to stderr if we use daemon() to daemonise
 (stderr will get closed).

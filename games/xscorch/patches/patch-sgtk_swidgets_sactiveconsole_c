@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xscorch/patches/patch-sgtk_swidgets_sactiveconsole_c,v 1.1 2010/04/27 20:50:21 jasper Exp $
+$OpenBSD$
 
 Fix build with gtk+ 2.20.
 

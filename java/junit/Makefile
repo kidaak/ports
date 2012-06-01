@@ -1,4 +1,4 @@
-# $OpenBSD: ports/java/junit/Makefile,v 1.26 2011/09/16 10:02:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	regression testing utility for use with the Java language
 

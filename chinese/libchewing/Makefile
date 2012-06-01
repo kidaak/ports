@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/libchewing/Makefile,v 1.3 2011/05/02 06:55:07 kevlo Exp $
+# $OpenBSD$
 
 COMMENT=	intelligent phonetic input method library
 

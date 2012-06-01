@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mozplugger/Makefile,v 1.11 2010/11/22 08:36:49 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

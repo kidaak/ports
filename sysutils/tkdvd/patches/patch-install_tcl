@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/tkdvd/patches/patch-install_tcl,v 1.3 2008/11/10 20:18:14 steven Exp $
+$OpenBSD$
 --- install.tcl.orig	Thu Nov  3 20:09:57 2005
 +++ install.tcl	Mon Nov 10 19:49:55 2008
 @@ -1,6 +1,6 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ruby-directory_watcher/Makefile,v 1.2 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =	apply actions to directory changes
 

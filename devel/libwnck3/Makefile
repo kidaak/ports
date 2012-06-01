@@ -1,9 +1,9 @@
-# $OpenBSD: ports/devel/libwnck3/Makefile,v 1.11 2012/03/29 06:40:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		window navigator construction kit
 
 GNOME_PROJECT=		libwnck
-GNOME_VERSION=		3.4.0
+GNOME_VERSION=		3.4.2
 PKGNAME=		${GNOME_PROJECT}3-${GNOME_VERSION}
 
 SHARED_LIBS +=  wnck-3               2.0      # 2.0

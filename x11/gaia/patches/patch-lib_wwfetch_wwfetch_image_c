@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gaia/patches/patch-lib_wwfetch_wwfetch_image_c,v 1.1 2008/11/08 17:13:08 ajacoutot Exp $
+$OpenBSD$
 --- lib/wwfetch/wwfetch_image.c.orig	Wed Nov 29 04:21:14 2006
 +++ lib/wwfetch/wwfetch_image.c	Sat Nov  8 18:01:51 2008
 @@ -27,6 +27,9 @@

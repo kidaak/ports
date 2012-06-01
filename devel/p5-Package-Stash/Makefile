@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Package-Stash/Makefile,v 1.7 2012/04/07 13:50:06 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		routines for manipulating stashes
 

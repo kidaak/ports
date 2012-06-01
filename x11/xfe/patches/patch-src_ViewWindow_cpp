@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfe/patches/patch-src_ViewWindow_cpp,v 1.1 2010/10/24 19:55:46 stephan Exp $
+$OpenBSD$
 --- src/ViewWindow.cpp.orig	Sun Oct 24 14:43:48 2010
 +++ src/ViewWindow.cpp	Sun Oct 24 14:44:22 2010
 @@ -12,6 +12,8 @@

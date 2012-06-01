@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gdb/pkg/PLIST,v 1.10 2012/03/03 19:22:42 pascal Exp $
+@comment $OpenBSD$
 @conflict libbfd-*
 @bin bin/egdb
 @bin bin/egdbtui

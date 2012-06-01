@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/xmysql/Makefile,v 1.32 2012/01/18 20:01:11 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	X11 front end to the MySQL database engine
 

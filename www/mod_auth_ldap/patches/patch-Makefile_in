@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_auth_ldap/patches/patch-Makefile_in,v 1.5 2009/05/11 19:40:58 claudio Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Jul  4 16:37:55 2001
 +++ Makefile.in	Sun May 10 12:37:14 2009
 @@ -20,12 +20,14 @@ html: FAQ.html Changes.html auth_ldap.html

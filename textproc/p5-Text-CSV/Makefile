@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-CSV/Makefile,v 1.9 2011/05/10 03:08:17 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	comma-separated values manipulation routines
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nagios/nrpe/Makefile,v 1.16 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Nagios Remote Plugin Executor
 

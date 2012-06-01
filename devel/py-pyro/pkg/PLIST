@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-pyro/pkg/PLIST,v 1.6 2011/06/25 01:11:26 fgsch Exp $
+@comment $OpenBSD$
 bin/pyro-es
 bin/pyro-esd
 bin/pyro-genguid

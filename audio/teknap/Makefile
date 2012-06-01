@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/teknap/Makefile,v 1.16 2010/09/06 00:04:28 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	console napster client
 

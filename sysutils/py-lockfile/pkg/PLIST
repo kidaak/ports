@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/py-lockfile/pkg/PLIST,v 1.1.1.1 2010/10/12 14:51:56 sthen Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/lockfile/
 lib/python${MODPY_VERSION}/site-packages/lockfile-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/lockfile/__init__.py

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/numptyphysics/pkg/PLIST-main,v 1.3 2011/12/03 19:49:45 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath games/numptyphysics
 @bin bin/numptyphysics
 share/applications/numptyphysics.desktop

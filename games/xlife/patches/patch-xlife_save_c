@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xlife/patches/patch-xlife_save_c,v 1.1 2000/12/16 15:39:33 espie Exp $
+$OpenBSD$
 --- xlife/save.c.orig	Thu Dec 14 03:51:52 2000
 +++ xlife/save.c	Thu Dec 14 03:52:10 2000
 @@ -753,7 +753,7 @@ static void *get_list_of_sorted_cellbox_

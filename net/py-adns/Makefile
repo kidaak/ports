@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-adns/Makefile,v 1.10 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

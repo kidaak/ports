@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/ldapvi/patches/patch-misc_c,v 1.1 2012/03/02 08:01:07 sthen Exp $
+$OpenBSD$
 
 fix possible LP64 issue (improper sentinel)
 allow editors/pagers with arguments

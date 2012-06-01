@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/p5-ldap/patches/patch-test_cfg,v 1.2 2011/03/17 16:00:28 pea Exp $
+$OpenBSD$
 --- test.cfg.orig	Fri Mar 12 04:09:47 2010
 +++ test.cfg	Thu Mar 17 15:19:54 2011
 @@ -3,23 +3,23 @@

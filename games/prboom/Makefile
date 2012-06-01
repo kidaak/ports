@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/prboom/Makefile,v 1.20 2011/05/02 18:49:27 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	enhanced clone of Id Software's Doom game; multiplayer
 DISTNAME=	prboom-2.4.7

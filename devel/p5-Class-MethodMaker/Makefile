@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-MethodMaker/Makefile,v 1.19 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

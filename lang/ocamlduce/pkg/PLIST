@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ocamlduce/pkg/PLIST,v 1.2 2006/05/29 03:55:33 avsm Exp $
+@comment $OpenBSD$
 bin/expungeduce
 bin/ocamlduce
 bin/ocamlducec

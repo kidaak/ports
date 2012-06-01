@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/python/Makefile.inc,v 1.89 2011/12/20 13:08:06 fgsch Exp $
+# $OpenBSD$
 
 # IMPORTANT!  If you make any changes to the Python ports, be sure
 # to also update files/CHANGES.OpenBSD for your change.  This is a
@@ -71,7 +71,7 @@ LIB_DEPENDS-main =	archivers/bzip2
 RUN_DEPENDS-main =
 WANTLIB-main =		ssl panelw m crypto c util z readline pthread \
 			ncursesw stdc++ expat ossaudio bz2
-LIB_DEPENDS-main +=	databases/sqlite3
+LIB_DEPENDS-main +=	
 WANTLIB-main +=		sqlite3
 
 LIB_DEPENDS-bsddb =	lang/python/${VERSION},-main
@@ -121,15 +121,13 @@ CONFIGURE_ARGS+=	${CONFIGURE_SHARED}
 CONFIGURE_ARGS+=	--with-fpectl --with-threads --srcdir=${WRKSRC}
 CONFIGURE_ARGS+=	--enable-ipv6
 
-# THREAD_STACK_SIZE value might be changed by particular python release
-THREAD_STACK_SIZE?=0x20000
-
-CONFIGURE_ENV+= OPT='${CFLAGS} -DTHREAD_STACK_SIZE=${THREAD_STACK_SIZE} -fPIC' \
+CONFIGURE_ENV+= OPT='${CFLAGS} -fPIC' \
 		LDFLAGS='-L${LOCALBASE}/lib/' SVNVERSION=no \
 		LOCALBASE=${LOCALBASE} X11BASE=${X11BASE}
 MAKE_ENV+=	LOCALBASE=${LOCALBASE} X11BASE=${X11BASE}
 .if ${VERSION} < 3.2
 MAKE_FLAGS+=	LDLIBRARY=libpython${VERSION}.so.${LIBpython${VERSION}_VERSION}
+MAKE_FLAGS+=	INSTSONAME=libpython${VERSION}.so.${LIBpython${VERSION}_VERSION}
 .endif
 MAKE_FLAGS+=	LD_LIBRARY_PATH=${WRKSRC} PATH="${WRKDIST}:${PORTPATH}"
 MAKE_FLAGS+=	LDFLAGS='-L${WRKSRC}'

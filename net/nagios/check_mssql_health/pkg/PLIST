@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nagios/check_mssql_health/pkg/PLIST,v 1.1.1.1 2010/05/02 11:17:48 sthen Exp $
+@comment $OpenBSD$
 libexec/nagios/check_mssql_health
 share/doc/check_mssql_health/
 share/doc/check_mssql_health/README

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-third_party_icu_public_common_unicode_popenbsd_h,v 1.2 2012/02/17 10:19:51 robert Exp $
+$OpenBSD$
 --- third_party/icu/public/common/unicode/popenbsd.h.orig	Fri Jan 27 09:04:29 2012
 +++ third_party/icu/public/common/unicode/popenbsd.h	Thu Feb  9 09:31:06 2012
 @@ -311,3 +311,316 @@ typedef unsigned int uint32_t;

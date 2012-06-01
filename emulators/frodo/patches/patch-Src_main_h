@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/frodo/patches/patch-Src_main_h,v 1.2 2010/06/30 22:25:57 jakemsr Exp $
+$OpenBSD$
 --- Src/main.h.orig	Wed Jan  2 13:14:55 2002
 +++ Src/main.h	Thu Jan 14 08:50:10 2010
 @@ -119,6 +119,7 @@ class Frodo { (public)

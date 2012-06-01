@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/testdisk/patches/patch-src_hdaccess_c,v 1.1 2010/07/30 22:49:27 steven Exp $
+$OpenBSD$
 --- src/hdaccess.c.orig	Fri Jul 30 21:07:49 2010
 +++ src/hdaccess.c	Fri Jul 30 21:10:40 2010
 @@ -366,6 +366,7 @@ list_disk_t *hd_parse(list_disk_t *list_disk, const in

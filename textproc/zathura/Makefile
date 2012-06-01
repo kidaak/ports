@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/zathura/Makefile,v 1.17 2012/02/21 22:34:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		pdf viewer with vi-like keybindings
 DISTNAME =		zathura-0.0.8.5

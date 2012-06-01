@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/xmms-kj/patches/patch-playlist_c,v 1.1.1.1 2002/07/30 17:23:24 wcobb Exp $
+$OpenBSD$
 --- playlist.c.orig	Tue Dec  5 00:36:20 2000
 +++ playlist.c	Tue Jul 30 01:22:20 2002
 @@ -224,24 +224,6 @@ GList *n;

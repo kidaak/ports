@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-country/pkg/PLIST,v 1.1.1.1 2011/12/18 13:42:31 mpi Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pycountry/
 lib/python${MODPY_VERSION}/site-packages/pycountry-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/pycountry-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

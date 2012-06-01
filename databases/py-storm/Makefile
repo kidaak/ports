@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-storm/Makefile,v 1.16 2011/11/14 16:20:43 eric Exp $
+# $OpenBSD$
 
 COMMENT=		generic object relational mapper for Python
 

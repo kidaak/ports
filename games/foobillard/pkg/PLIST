@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/foobillard/pkg/PLIST,v 1.1.1.1 2010/10/24 20:19:48 phessler Exp $
+@comment $OpenBSD$
 @bin bin/foobillard
 share/foobillard/
 share/foobillard/ball_ball.raw

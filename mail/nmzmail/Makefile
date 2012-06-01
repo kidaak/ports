@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/nmzmail/Makefile,v 1.6 2010/11/19 07:23:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	fast maildir search engine
 

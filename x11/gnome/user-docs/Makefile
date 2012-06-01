@@ -1,10 +1,9 @@
-# $OpenBSD: ports/x11/gnome/user-docs/Makefile,v 1.19 2012/04/10 08:27:16 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		general user documentation for GNOME
 
 GNOME_PROJECT=		gnome-user-docs
-GNOME_VERSION=		3.4.0
-REVISION=		0
+GNOME_VERSION=		3.4.2
 
 # CC Attribution 3.0
 PERMIT_PACKAGE_CDROM=	Yes

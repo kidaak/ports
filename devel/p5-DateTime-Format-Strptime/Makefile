@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Format-Strptime/Makefile,v 1.13 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	parse and format strp and strf time patterns
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/kam/Makefile,v 1.15 2010/10/19 07:43:01 espie Exp $
+# $OpenBSD$
 
 COMMENT=	webcam plugin for GkrellM2
 

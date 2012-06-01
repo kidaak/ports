@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Encode-Detect/Makefile,v 1.4 2010/12/03 11:46:48 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

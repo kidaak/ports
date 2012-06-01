@@ -1,9 +1,9 @@
-# $OpenBSD: ports/x11/gnome/mousetweaks/Makefile,v 1.43 2012/04/16 13:39:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	mouse accessibility enhancements for GNOME
 
 GNOME_PROJECT=	mousetweaks
-GNOME_VERSION=	3.4.1
+GNOME_VERSION=	3.4.2
 
 HOMEPAGE=	http://live.gnome.org/Mousetweaks/Home
 

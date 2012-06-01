@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-YouTube-Download/Makefile,v 1.5 2012/01/24 00:44:47 nigel Exp $
+# $OpenBSD$
 
 COMMENT =	simple YouTube interface for downloading videos
 

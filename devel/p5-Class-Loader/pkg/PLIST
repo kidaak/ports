@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Loader/pkg/PLIST,v 1.5 2004/09/14 23:43:57 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/
 ${P5SITE}/Class/Loader.pm
 ${P5SITE}/Class/LoaderTest.pm

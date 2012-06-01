@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-GpgME/Makefile,v 1.13 2011/08/30 07:03:17 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Perl interface to gpgme
 SHARED_ONLY=	Yes

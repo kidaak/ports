@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libnettle/Makefile,v 1.4 2011/10/12 06:03:41 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=	cryptographic library
 

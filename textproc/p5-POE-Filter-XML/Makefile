@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-POE-Filter-XML/Makefile,v 1.9 2010/12/03 11:46:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 		POE Filter for parsing XML
 

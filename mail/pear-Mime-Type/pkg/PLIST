@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/pear-Mime-Type/pkg/PLIST,v 1.2 2011/04/19 15:46:56 giovanni Exp $
+@comment $OpenBSD$
 @group daemon
 pear/doc/MIME_Type/
 pear/doc/MIME_Type/docs/

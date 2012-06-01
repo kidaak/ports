@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ddclient/pkg/PLIST,v 1.8 2010/12/01 09:58:43 dcoppa Exp $
+@comment $OpenBSD$
 sbin/ddclient
 share/doc/ddclient/
 share/doc/ddclient/README

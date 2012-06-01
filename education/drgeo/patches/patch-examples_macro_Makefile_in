@@ -1,4 +1,4 @@
-$OpenBSD: ports/education/drgeo/patches/patch-examples_macro_Makefile_in,v 1.1 2005/11/11 20:23:53 wilfried Exp $
+$OpenBSD$
 --- examples/macro/Makefile.in.orig	Fri Nov  4 13:33:37 2005
 +++ examples/macro/Makefile.in	Fri Nov  4 13:33:44 2005
 @@ -178,7 +178,7 @@ sbindir = @sbindir@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gracula/Makefile,v 1.15 2007/09/15 20:09:41 simon Exp $
+# $OpenBSD$
 
 COMMENT=	graphic counter language compiler/interpreter
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/exaile/Makefile,v 1.20 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT =	music manager and player for GTK+ written in Python
 

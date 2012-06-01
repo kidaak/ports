@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/py-cups/Makefile,v 1.22 2012/04/11 16:03:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		CUPS bindings for Python
 

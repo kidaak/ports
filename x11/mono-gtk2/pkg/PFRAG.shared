@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/mono-gtk2/pkg/PFRAG.shared,v 1.1.1.1 2008/10/16 16:02:07 robert Exp $
+@comment $OpenBSD$
 lib/libatksharpglue-2.so
 lib/libgdksharpglue-2.so
 lib/libgladesharpglue-2.so

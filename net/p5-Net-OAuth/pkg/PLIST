@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-OAuth/pkg/PLIST,v 1.2 2010/06/01 09:46:48 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/OAuth/
 ${P5SITE}/Net/OAuth.pm

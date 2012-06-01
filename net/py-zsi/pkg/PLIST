@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-zsi/pkg/PLIST,v 1.1.1.1 2008/04/19 15:13:28 ajacoutot Exp $
+@comment $OpenBSD$
 bin/wsdl2dispatch
 bin/wsdl2py
 lib/python${MODPY_VERSION}/site-packages/ZSI/

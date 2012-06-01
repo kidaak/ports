@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/plan/Makefile,v 1.27 2011/11/13 15:16:01 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	X11/Motif schedule planner with calendar
 

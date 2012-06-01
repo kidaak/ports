@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libwmf/Makefile,v 1.21 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	WMF handling and conversion library
 

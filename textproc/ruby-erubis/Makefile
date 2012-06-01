@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-erubis/Makefile,v 1.15 2011/12/13 17:56:55 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		pure Ruby implementation of eRuby
 

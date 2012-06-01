@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/rioutil/Makefile,v 1.13 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		utility for Rio mp3 players
 

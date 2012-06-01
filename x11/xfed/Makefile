@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xfed/Makefile,v 1.27 2011/07/19 09:28:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	X11 fonts (.bdf files) editor
 

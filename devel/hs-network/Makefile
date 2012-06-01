@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-network/Makefile,v 1.13 2011/12/31 22:11:56 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell networking library
 

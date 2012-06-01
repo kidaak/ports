@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tacacs+/patches/patch-tac_plus_c,v 1.2 2003/06/09 07:19:30 sturm Exp $
+$OpenBSD$
 --- tac_plus.c.orig	Sun Jun 18 19:26:31 2000
 +++ tac_plus.c	Sat Jun  7 16:47:21 2003
 @@ -24,6 +24,9 @@

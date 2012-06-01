@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xmobar/patches/patch-src_Plugins_Monitors_hs,v 1.2 2012/01/12 21:42:07 dcoppa Exp $
+$OpenBSD$
 --- src/Plugins/Monitors.hs.orig	Tue Jan 10 20:31:19 2012
 +++ src/Plugins/Monitors.hs	Tue Jan 10 22:01:23 2012
 @@ -21,20 +21,20 @@ import Plugins

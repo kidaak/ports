@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/cups/patches/patch-filter_Makefile,v 1.10 2012/02/16 22:12:08 ajacoutot Exp $
+$OpenBSD$
 --- filter/Makefile.orig	Fri Sep  9 18:34:29 2011
 +++ filter/Makefile	Mon Feb  6 11:18:46 2012
 @@ -150,10 +150,6 @@ install-headers:

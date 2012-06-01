@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/sane-backends/patches/patch-include_sane_sane_h,v 1.1 2009/05/11 15:22:07 ajacoutot Exp $
+$OpenBSD$
 
 While being deprecated and undocumented, SANE_CAP_ALWAYS_SETTABLE is
 still used by (at least) xsane.

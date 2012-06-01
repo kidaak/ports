@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/dspam/pkg/PFRAG.pgsql,v 1.2 2005/10/26 06:18:39 jakob Exp $
+@comment $OpenBSD$
 bin/dspam_pg2int8
 share/doc/dspam/pgsql_drv.txt
 share/examples/dspam/pgsql/

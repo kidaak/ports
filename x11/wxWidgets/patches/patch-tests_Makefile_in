@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wxWidgets/patches/patch-tests_Makefile_in,v 1.4 2010/11/02 13:10:52 dcoppa Exp $
+$OpenBSD$
 --- tests/Makefile.in.orig	Thu Apr 15 11:03:41 2010
 +++ tests/Makefile.in	Thu Oct 28 12:27:04 2010
 @@ -92,7 +92,7 @@ TEST_OBJECTS =  \

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/examples/patches/patch-gui_MyGL_AppController_m,v 1.3 2011/06/27 06:34:55 sebastia Exp $
+$OpenBSD$
 
 fix for gcc-2.95
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/tkdvd/Makefile,v 1.10 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=		GUI to dvd+rw-tools and cdrecord
 

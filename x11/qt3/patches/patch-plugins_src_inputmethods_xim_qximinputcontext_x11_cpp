@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-plugins_src_inputmethods_xim_qximinputcontext_x11_cpp,v 1.2 2007/03/31 22:49:46 espie Exp $
+$OpenBSD$
 --- plugins/src/inputmethods/xim/qximinputcontext_x11.cpp.orig	Sat Mar 31 14:51:22 2007
 +++ plugins/src/inputmethods/xim/qximinputcontext_x11.cpp	Sat Mar 31 14:51:24 2007
 @@ -361,7 +361,7 @@ void QXIMInputContext::setHolderWidget( QWidget *widge

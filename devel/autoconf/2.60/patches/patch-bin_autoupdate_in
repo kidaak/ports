@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.60/patches/patch-bin_autoupdate_in,v 1.2 2006/07/21 12:27:48 espie Exp $
+$OpenBSD$
 --- bin/autoupdate.in.orig	Mon Apr 10 20:27:21 2006
 +++ bin/autoupdate.in	Sat Jul  8 17:12:30 2006
 @@ -57,6 +57,7 @@ my @include = ('@datadir@');

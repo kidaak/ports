@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/biology/emboss/pkg/PLIST,v 1.4 2009/06/25 01:03:09 jolan Exp $
+@comment $OpenBSD$
 @conflict aguri-*
 @conflict pscan-*
 %%SHARED%%

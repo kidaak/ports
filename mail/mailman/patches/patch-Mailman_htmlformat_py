@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailman/patches/patch-Mailman_htmlformat_py,v 1.5 2009/05/02 09:56:44 djm Exp $
+$OpenBSD$
 --- Mailman/htmlformat.py.orig	Tue Feb 24 08:23:35 2009
 +++ Mailman/htmlformat.py	Sat Apr 25 12:00:26 2009
 @@ -612,12 +612,14 @@ class DefinitionList(Container):

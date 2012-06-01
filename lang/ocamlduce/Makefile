@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ocamlduce/Makefile,v 1.9 2010/11/17 08:05:18 espie Exp $
+# $OpenBSD$
 
 COMMENT=	XML extension types for Objective Caml
 CATEGORIES=	lang textproc

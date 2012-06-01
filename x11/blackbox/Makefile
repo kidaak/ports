@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/blackbox/Makefile,v 1.49 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	small & pretty window manager for 8 and more bits displays
 

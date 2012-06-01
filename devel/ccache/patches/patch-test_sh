@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ccache/patches/patch-test_sh,v 1.2 2012/01/09 09:35:47 sthen Exp $
+$OpenBSD$
 --- test.sh.orig	Sun Jan  8 14:40:55 2012
 +++ test.sh	Mon Jan  9 09:29:04 2012
 @@ -1801,7 +1801,7 @@ fi

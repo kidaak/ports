@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/zendframework/Makefile,v 1.12 2011/11/16 15:56:38 robert Exp $
+# $OpenBSD$
 
 COMMENT=		framework for developing PHP web applications
 
@@ -6,7 +6,7 @@ V=			1.10.8
 DISTNAME=		zendframework-${V}
 DISTFILES=		ZendFramework-${V}.tar.gz
 
-REVISION=		4
+REVISION=		5
 
 CATEGORIES=		www devel
 

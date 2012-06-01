@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/opensp/pkg/PLIST,v 1.1.1.1 2009/11/24 20:20:31 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @conflict openjade-<=1.3
 @bin bin/onsgmls

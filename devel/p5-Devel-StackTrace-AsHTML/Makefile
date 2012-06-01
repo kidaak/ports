@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-StackTrace-AsHTML/Makefile,v 1.3 2011/04/08 13:59:15 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		displays stack trace in HTML
 

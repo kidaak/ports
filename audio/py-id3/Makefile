@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-id3/Makefile,v 1.12 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	read and manipulate ID3 tags on MP3 files with Python
 

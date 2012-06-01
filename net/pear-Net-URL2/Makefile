@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-URL2/Makefile,v 1.3 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	class for parsing and handling URL
 

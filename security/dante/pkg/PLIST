@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/dante/pkg/PLIST,v 1.14 2006/01/21 11:14:44 jakob Exp $
+@comment $OpenBSD$
 @conflict socks5-*
 bin/socksify
 include/socks.h

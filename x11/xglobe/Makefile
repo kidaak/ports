@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xglobe/Makefile,v 1.66 2011/09/16 12:29:18 espie Exp $
+# $OpenBSD$
 
 COMMENT=	display the Earth on X11
 

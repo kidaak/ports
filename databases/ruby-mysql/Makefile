@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-mysql/Makefile,v 1.22 2011/11/09 00:17:37 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	access a MySQL database from Ruby
 

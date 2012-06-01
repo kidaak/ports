@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/gcal/Makefile,v 1.3 2010/10/18 21:35:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		calculate and print calendars
 

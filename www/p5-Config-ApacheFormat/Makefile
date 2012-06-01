@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Config-ApacheFormat/Makefile,v 1.5 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	parse apache-like config files
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/shorten/Makefile,v 1.13 2011/11/14 17:36:24 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	fast compression for waveform files
 

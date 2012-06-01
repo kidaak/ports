@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-rails/Makefile,v 1.31 2011/12/13 18:00:49 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	ruby MVC web application framework
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/openwebmail/Makefile,v 1.30 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	highly configurable webmail client
 

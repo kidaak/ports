@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/autoconf/Makefile.inc,v 1.2 2010/11/26 07:54:43 espie Exp $
+# $OpenBSD$
 
 # most parts common to all autoconfs actually
 COMMENT ?=	automatically configure source code on many Un*x platforms

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/amavisd-new/pkg/amavisd.rc,v 1.6 2011/09/14 01:59:25 william Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/amavisd"
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hs-crypto/Makefile,v 1.14 2011/09/16 11:41:38 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Haskell cryptographic library
 CATEGORIES =	security

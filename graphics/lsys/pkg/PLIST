@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/lsys/pkg/PLIST,v 1.1.1.1 2010/04/30 09:32:05 jasper Exp $
+@comment $OpenBSD$
 @bin bin/lsys
 share/examples/lsys/
 share/examples/lsys/bench.l

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/base-workspace/patches/patch-kcheckpass_kcheckpass_c,v 1.1 2010/06/23 13:11:34 espie Exp $
+$OpenBSD$
 --- kcheckpass/kcheckpass.c.orig	Wed Jun 23 11:51:26 2010
 +++ kcheckpass/kcheckpass.c	Wed Jun 23 11:54:29 2010
 @@ -57,6 +57,10 @@

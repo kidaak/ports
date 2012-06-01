@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/gsed/patches/patch-lib_Makefile_in,v 1.1 2012/02/28 08:46:27 dcoppa Exp $
+$OpenBSD$
 
 No need to install charset.alias: an identical file is already
 provided by libiconv.

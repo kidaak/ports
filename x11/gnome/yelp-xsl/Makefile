@@ -1,10 +1,9 @@
-# $OpenBSD: ports/x11/gnome/yelp-xsl/Makefile,v 1.10 2012/03/30 14:09:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	XSLT stylesheets for yelp
 
 GNOME_PROJECT=	yelp-xsl
-GNOME_VERSION=	3.4.0
-REVISION=	0
+GNOME_VERSION=	3.4.2
 
 HOMEPAGE=	https://projects.gnome.org/yelp/
 

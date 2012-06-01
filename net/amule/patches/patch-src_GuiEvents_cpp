@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_GuiEvents_cpp,v 1.1 2012/04/10 13:08:37 dcoppa Exp $
+$OpenBSD$
 
 Save met file when a download is paused or stopped
 (upstream git commit d9b4458b1ea214af48bea97cd8482016a0eccbb9)

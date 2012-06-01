@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-zopeinterface/pkg/PLIST,v 1.4 2009/06/01 21:18:20 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/zope/
 lib/python${MODPY_VERSION}/site-packages/zope.interface-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/zope.interface-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

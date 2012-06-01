@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xosd/Makefile,v 1.14 2011/06/09 15:28:40 shadchin Exp $
+# $OpenBSD$
 
 COMMENT=	displays text on your screen
 

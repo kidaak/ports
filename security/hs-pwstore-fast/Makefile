@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hs-pwstore-fast/Makefile,v 1.1.1.1 2012/01/22 17:16:57 kili Exp $
+# $OpenBSD$
 
 COMMENT =		secure password storage
 

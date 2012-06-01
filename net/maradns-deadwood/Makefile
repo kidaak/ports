@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/maradns-deadwood/Makefile,v 1.1.1.1 2012/03/21 16:17:58 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	recursive DNS resolver
 

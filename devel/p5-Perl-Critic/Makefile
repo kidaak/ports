@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Perl-Critic/Makefile,v 1.15 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	critique perl source code for best practices
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-js_src_configure_in,v 1.6 2010/03/31 15:56:45 naddy Exp $
+$OpenBSD$
 --- js/src/configure.in.orig	Mon Mar 15 15:53:51 2010
 +++ js/src/configure.in	Tue Mar 30 22:40:16 2010
 @@ -904,7 +904,7 @@ HOST_AR='$(AR)'

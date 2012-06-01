@@ -1,9 +1,9 @@
-# $OpenBSD: ports/x11/gnome/screenshot/Makefile,v 1.1.1.1 2012/03/28 15:37:06 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		screenshot application for GNOME
 
 GNOME_PROJECT=		gnome-screenshot
-GNOME_VERSION=		3.4.0
+GNOME_VERSION=		3.4.1
 
 # GPLv2
 PERMIT_PACKAGE_CDROM=	Yes

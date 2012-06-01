@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_src_share_classes_java_lang_Double_java,v 1.1 2011/10/07 02:04:12 kurt Exp $
+$OpenBSD$
 --- j2se/src/share/classes/java/lang/Double.java.orig	Thu Sep 29 13:44:58 2011
 +++ j2se/src/share/classes/java/lang/Double.java	Thu Sep 29 13:45:43 2011
 @@ -59,7 +59,7 @@ public final class Double extends Number implements Co

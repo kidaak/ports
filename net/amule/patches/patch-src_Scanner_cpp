@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_Scanner_cpp,v 1.1 2011/06/24 08:42:31 dcoppa Exp $
+$OpenBSD$
 --- src/Scanner.cpp.orig	Thu Nov  4 17:41:09 2010
 +++ src/Scanner.cpp	Thu Nov  4 17:44:33 2010
 @@ -31,7 +31,7 @@

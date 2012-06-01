@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/jive/Makefile,v 1.22 2010/10/18 20:52:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	convert English text to Jive
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/sirc/Makefile,v 1.12 2010/10/18 18:36:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	programmable small perl irc client
 

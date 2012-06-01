@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/productivity/tryton/trytond/pkg/trytond.rc,v 1.2 2012/02/20 10:00:21 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/trytond"
 daemon_user="_tryton"

@@ -1,6 +1,7 @@
-# $OpenBSD: ports/devel/sdcc/Makefile,v 1.6 2011/03/14 09:17:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Small Device C Compiler
+BROKEN-sparc64=	illegal operands building SDCCval.c
 
 DISTNAME=	sdcc-src-2.8.0
 PKGNAME=	${DISTNAME:S/-src//}

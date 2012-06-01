@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Module-ScanDeps/Makefile,v 1.14 2010/12/03 11:44:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	recursively scan Perl code for dependencies
 

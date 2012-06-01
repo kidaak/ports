@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/kile/patches/patch-src_kile_syntax_Makefile_in,v 1.4 2008/03/29 16:35:13 steven Exp $
+$OpenBSD$
 --- src/kile/syntax/Makefile.in.orig	Sun Nov 18 22:05:55 2007
 +++ src/kile/syntax/Makefile.in	Sat Mar 22 13:52:40 2008
 @@ -55,9 +55,7 @@ am__strip_dir = `echo $$p | sed -e 's|^.*/||'`;

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/vnstat/patches/patch-cfg_vnstat_conf,v 1.1.1.1 2010/10/25 10:14:53 pea Exp $
+$OpenBSD$
 --- cfg/vnstat.conf.orig	Sat Jan  2 18:36:13 2010
 +++ cfg/vnstat.conf	Fri Sep 24 13:47:14 2010
 @@ -2,10 +2,10 @@

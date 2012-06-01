@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/py-sybase/patches/patch-setup_py,v 1.1 2009/03/15 11:45:08 ajacoutot Exp $
+$OpenBSD$
 --- setup.py.orig	Sun Mar 15 12:35:52 2009
 +++ setup.py	Sun Mar 15 12:36:05 2009
 @@ -44,7 +44,7 @@ if os.name == 'posix':                  # unix

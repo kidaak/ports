@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-ldap/Makefile,v 1.32 2011/04/13 17:44:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	client interface to LDAP servers
 

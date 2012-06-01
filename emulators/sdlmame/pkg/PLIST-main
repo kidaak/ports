@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/sdlmame/pkg/PLIST-main,v 1.5 2011/11/27 12:42:28 fgsch Exp $
+@comment $OpenBSD$
 @conflict xmame+xmess-*
 @conflict xmame-*
 @pkgpath emulators/xmame,-main

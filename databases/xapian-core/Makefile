@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/xapian-core/Makefile,v 1.11 2012/01/07 12:03:29 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	search engine library
 

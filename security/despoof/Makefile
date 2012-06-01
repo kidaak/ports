@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/despoof/Makefile,v 1.15 2010/11/26 14:56:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	command-line anti-spoofing detection utility
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Catalyst-View-JSON/Makefile,v 1.5 2012/04/08 22:01:07 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	JSON view for your data
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/memcached/patches/patch-testapp_c,v 1.3 2010/07/30 15:28:14 naddy Exp $
+$OpenBSD$
 --- testapp.c.orig	Fri Jul 30 17:24:26 2010
 +++ testapp.c	Fri Jul 30 17:25:17 2010
 @@ -5,9 +5,9 @@

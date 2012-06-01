@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-YAML-XS/Makefile,v 1.8 2012/03/09 17:09:52 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	YAML implementation using XS and libyaml
 SHARED_ONLY =	Yes

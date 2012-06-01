@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/timetrex/pkg/README,v 1.4 2012/03/15 12:48:05 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/pfe/patches/patch-pfe_configure,v 1.3 2008/10/16 17:30:24 jasper Exp $
+$OpenBSD$
 --- pfe/configure.orig	Mon May 12 01:46:32 2008
 +++ pfe/configure	Thu Oct 16 10:53:02 2008
 @@ -28098,7 +28098,7 @@ ac_link='$CC -o conftest$ac_exeext $CFLAGS $CPPFLAGS $

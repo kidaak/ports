@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/boehm-gc/pkg/PLIST-main,v 1.1 2008/07/01 09:43:19 landry Exp $
+@comment $OpenBSD$
 @pkgpath devel/boehm-gc
 %%SHARED%%
 include/gc/

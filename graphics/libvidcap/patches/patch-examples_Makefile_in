@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libvidcap/patches/patch-examples_Makefile_in,v 1.1.1.1 2010/06/06 13:43:19 sthen Exp $
+$OpenBSD$
 --- examples/Makefile.in.orig	Fri Apr  4 17:22:20 2008
 +++ examples/Makefile.in	Wed May 19 17:23:22 2010
 @@ -195,7 +195,7 @@ target_alias = @target_alias@

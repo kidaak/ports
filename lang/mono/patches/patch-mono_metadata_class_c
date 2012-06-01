@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono/patches/patch-mono_metadata_class_c,v 1.5 2011/11/03 09:55:12 ajacoutot Exp $
+$OpenBSD$
 --- mono/metadata/class.c.orig	Tue Aug 23 02:10:06 2011
 +++ mono/metadata/class.c	Thu Nov  3 08:54:45 2011
 @@ -1736,7 +1736,8 @@ mono_class_layout_fields (MonoClass *class)

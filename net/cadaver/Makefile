@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/cadaver/Makefile,v 1.18 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 
 COMMENT=		command-line WebDAV client
 

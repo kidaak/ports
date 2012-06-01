@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xcubes/Makefile,v 1.25 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 #
 
 COMMENT=	cube puzzle for X11

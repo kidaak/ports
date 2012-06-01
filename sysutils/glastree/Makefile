@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/glastree/Makefile,v 1.4 2011/03/14 09:15:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	poor man's daily snapshot
 

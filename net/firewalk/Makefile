@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/firewalk/Makefile,v 1.34 2010/11/26 14:56:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	gateway acl scanner (via static-source port traceroute)
 

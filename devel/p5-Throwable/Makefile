@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Throwable/Makefile,v 1.7 2011/08/01 19:30:31 stephan Exp $
+# $OpenBSD$
 
 COMMENT =	a role for classes that can be thrown
 

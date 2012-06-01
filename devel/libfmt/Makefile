@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libfmt/Makefile,v 1.6 2010/11/15 19:45:59 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Extensible formatted print C library
 

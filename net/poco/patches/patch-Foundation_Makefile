@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/poco/patches/patch-Foundation_Makefile,v 1.1.1.1 2010/07/28 18:13:01 sebastia Exp $
+$OpenBSD$
 
 we do not want to mix system pcre with bundled pcre
 

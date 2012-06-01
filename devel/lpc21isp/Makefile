@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/lpc21isp/Makefile,v 1.2 2011/10/19 11:38:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	ISP tool for LPC2000 and ADUC70xx microcontrollers
 

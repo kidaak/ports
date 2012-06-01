@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/zenirc/Makefile,v 1.3 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=	IRC client for Emacs
 COMMENT-el=	elisp sources of zenirc

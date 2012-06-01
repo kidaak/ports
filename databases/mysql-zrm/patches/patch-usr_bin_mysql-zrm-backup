@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mysql-zrm/patches/patch-usr_bin_mysql-zrm-backup,v 1.4 2012/03/29 09:30:05 giovanni Exp $
+$OpenBSD$
 --- usr/bin/mysql-zrm-backup.orig	Thu Feb  4 01:19:25 2010
 +++ usr/bin/mysql-zrm-backup	Thu Mar 29 11:05:57 2012
 @@ -40,7 +40,7 @@ $SIG{'TERM'} = sub { $abort_flag = 1; };

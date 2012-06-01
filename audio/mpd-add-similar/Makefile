@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mpd-add-similar/Makefile,v 1.4 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT =		add similar tracks to your mpd playlist
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/rtty/Makefile,v 1.21 2011/04/14 13:47:59 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	multiuser tip/cu replacement with logging
 

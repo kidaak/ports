@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/arctic/festvox_cmu_us_jmk_arctic_hts/Makefile,v 1.2 2007/09/15 22:27:38 simon Exp $
+# $OpenBSD$
 
 COMMENT=	Canadian English male speaker (JMK)
 DISTNAME=	festvox_cmu_us_jmk_arctic_hts

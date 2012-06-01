@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-DistManifest/Makefile,v 1.1.1.1 2012/01/18 16:52:02 okan Exp $
+# $OpenBSD$
 
 COMMENT = 	author test that validates a package MANIFEST
 

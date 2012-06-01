@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/py-memcached/Makefile,v 1.9 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Python interface to memcached
 

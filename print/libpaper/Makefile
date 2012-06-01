@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/libpaper/Makefile,v 1.5 2012/02/16 22:14:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library for handling paper characteristics
 
@@ -16,8 +16,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM= Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-MASTER_SITES=	http://ftp.debian.org/debian/pool/main/libp/libpaper/ \
-		http://ftp.fr.debian.org/debian/pool/main/libp/libpaper/
+MASTER_SITES=	${MASTER_SITE_DEBIAN:=main/libp/libpaper/}
 
 WRKDIST=	${WRKDIR}/libpaper-${V}
 

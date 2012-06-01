@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/freedt/Makefile,v 1.12 2012/04/06 11:59:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		reimplementation of Dan Bernstein's daemontools #'
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-POE-Component-Supervisor/pkg/PLIST,v 1.1.1.1 2010/01/12 19:26:42 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/POE/Component/Supervisor/
 ${P5SITE}/POE/Component/Supervisor.pm
 ${P5SITE}/POE/Component/Supervisor/Handle/

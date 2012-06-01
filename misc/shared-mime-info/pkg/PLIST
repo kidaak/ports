@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/shared-mime-info/pkg/PLIST,v 1.24 2012/03/19 10:28:48 ajacoutot Exp $
+@comment $OpenBSD$
 share/mime/
 share/mime/packages/
 share/mime/packages/freedesktop.org.xml

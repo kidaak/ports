@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-lib/patches/patch-misc_libxine_pc_in,v 1.3 2008/04/15 11:24:14 jakemsr Exp $
+$OpenBSD$
 --- misc/libxine.pc.in.orig	Sun Apr  6 14:32:21 2008
 +++ misc/libxine.pc.in	Mon Apr 14 20:28:43 2008
 @@ -22,7 +22,7 @@ Name: libxine

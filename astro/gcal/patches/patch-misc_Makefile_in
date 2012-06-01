@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/gcal/patches/patch-misc_Makefile_in,v 1.1.1.1 2009/10/17 08:39:34 bernd Exp $
+$OpenBSD$
 --- misc/Makefile.in.orig	Mon Apr  2 10:11:49 2007
 +++ misc/Makefile.in	Mon Apr  2 10:12:01 2007
 @@ -252,7 +252,7 @@ installaliasdirs: $(top_srcdir)/mkinstalldirs

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/isearch/patches/patch-src_string_hxx,v 1.1 2010/05/22 11:54:14 espie Exp $
+$OpenBSD$
 --- src/string.hxx.orig	Sat May 22 13:45:31 2010
 +++ src/string.hxx	Sat May 22 13:45:53 2010
 @@ -67,7 +67,7 @@ class STRING { (public)

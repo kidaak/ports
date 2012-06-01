@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xpdf/patches/patch-xpdf_Makefile_in,v 1.5 2004/01/25 06:02:40 brad Exp $
+$OpenBSD$
 --- xpdf/Makefile.in.orig	2004-01-21 20:26:45.000000000 -0500
 +++ xpdf/Makefile.in	2004-01-24 23:55:40.000000000 -0500
 @@ -19,7 +19,7 @@ FOFILIBDIR = ../fofi

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Visitor/Makefile,v 1.18 2011/04/16 21:03:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	visitor-style traversal of Perl data structures
 

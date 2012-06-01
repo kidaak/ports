@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/glpng/Makefile,v 1.10 2011/11/18 11:16:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=	load PNG graphics files and bind them to an OpenGL texture
 

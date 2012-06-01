@@ -1,11 +1,11 @@
-# $OpenBSD: ports/print/psutils/Makefile,v 1.34 2012/02/18 09:08:16 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	utilities for manipulating PostScript documents
 
 MINV=		17
 DISTNAME=	psutils-p${MINV}
 PKGNAME=	psutils-1.${MINV}
-REVISION =	3
+REVISION =	4
 
 CATEGORIES=	print
 

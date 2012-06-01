@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/uae/Makefile,v 1.23 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	UAE amiga emulator
 DISTNAME=	uae-0.8.25

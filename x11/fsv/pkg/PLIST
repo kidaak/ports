@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/fsv/pkg/PLIST,v 1.3 2010/03/25 06:29:12 jasper Exp $
+@comment $OpenBSD$
 @bin bin/fsv2
 share/fsv/
 share/fsv/about.html

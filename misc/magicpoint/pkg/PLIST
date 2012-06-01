@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/magicpoint/pkg/PLIST,v 1.10 2005/03/01 18:19:52 jcs Exp $
+@comment $OpenBSD$
 bin/eqn2eps
 bin/mgp
 bin/mgp2html

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/unworkable/Makefile,v 1.11 2011/07/05 04:26:24 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		simple BitTorrent implementation
 

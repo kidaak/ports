@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Data-FormValidator/pkg/PLIST,v 1.1.1.1 2006/11/06 11:53:51 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Data/
 ${P5SITE}/Data/FormValidator/
 ${P5SITE}/Data/FormValidator.pm

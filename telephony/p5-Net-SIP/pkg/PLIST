@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/telephony/p5-Net-SIP/pkg/PLIST,v 1.4 2012/01/01 11:36:26 bluhm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/SIP/
 ${P5SITE}/Net/SIP.pm
 ${P5SITE}/Net/SIP.pod

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/boost/pkg/PLIST,v 1.9 2011/05/05 17:08:27 jasper Exp $
+@comment $OpenBSD$
 @bin bin/bjam
 include/boost/
 include/boost/accumulators/

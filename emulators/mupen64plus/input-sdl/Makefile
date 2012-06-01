@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/mupen64plus/input-sdl/Makefile,v 1.2 2011/12/26 22:58:48 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		n64 emulator input plugin
 

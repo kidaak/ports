@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/wml/pkg/PLIST,v 1.1.1.1 2006/07/14 16:12:12 bernd Exp $
+@comment $OpenBSD$
 bin/wmb
 bin/wmd
 bin/wmk

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mowgli/Makefile,v 1.4 2011/12/02 06:36:28 shadchin Exp $
+# $OpenBSD$
 
 COMMENT =	performance and usability oriented extensions to C
 

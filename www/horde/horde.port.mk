@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/horde.port.mk,v 1.6 2011/01/07 15:32:41 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES +=	www www/horde
 

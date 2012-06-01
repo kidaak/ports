@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/obc/patches/patch-runtime_vm386_c,v 1.1 2011/10/21 20:23:02 jasper Exp $
+$OpenBSD$
 --- runtime/vm386.c.orig	Wed Dec 15 14:39:11 2010
 +++ runtime/vm386.c	Thu Oct 20 19:01:29 2011
 @@ -1137,19 +1137,9 @@ code_addr *vm_jumptable(int n) {

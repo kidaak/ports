@@ -1,4 +1,4 @@
-$OpenBSD: ports/education/gamgi/patches/patch-src-make_local,v 1.6 2011/09/28 16:45:17 jasper Exp $
+$OpenBSD$
 --- src/make_local.orig	Sun Jun 19 22:16:55 2011
 +++ src/make_local	Wed Sep 28 17:35:29 2011
 @@ -70,29 +70,29 @@ PATH_GTKGL_L =-L/usr/lib

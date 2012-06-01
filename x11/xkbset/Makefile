@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xkbset/Makefile,v 1.13 2011/09/16 12:29:18 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=	X11 keyboard accessibility tool
 COMMENT-gui=	GUI for xkbset

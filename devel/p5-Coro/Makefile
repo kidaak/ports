@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Coro/Makefile,v 1.2 2010/12/20 22:21:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	coroutines for perl
 

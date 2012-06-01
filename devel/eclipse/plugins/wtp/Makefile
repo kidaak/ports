@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/eclipse/plugins/wtp/Makefile,v 1.9 2011/09/11 16:32:27 fgsch Exp $
+# $OpenBSD$
 
 COMMENT=		Web Tools Platform for Eclipse
 

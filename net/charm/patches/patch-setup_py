@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/charm/patches/patch-setup_py,v 1.1 2005/07/01 06:55:49 xsa Exp $
+$OpenBSD$
 --- setup.py.orig	Mon Jun 13 23:20:22 2005
 +++ setup.py	Fri Jul  1 08:50:53 2005
 @@ -8,6 +8,7 @@ setup(name = "charm",

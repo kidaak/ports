@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Unix-PID/Makefile,v 1.9 2012/04/05 21:20:29 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	interface for getting PID info
 

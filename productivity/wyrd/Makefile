@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/wyrd/Makefile,v 1.16 2010/11/20 09:48:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=		curses calendar front-end to remind
 

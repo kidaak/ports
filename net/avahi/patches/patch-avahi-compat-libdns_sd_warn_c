@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/avahi/patches/patch-avahi-compat-libdns_sd_warn_c,v 1.2 2010/07/17 14:12:38 ajacoutot Exp $
+$OpenBSD$
 
 Reverse logic to stop polluting syslog(3).
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/haml/Makefile,v 1.11 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT =	provide HAML support for Merb
 

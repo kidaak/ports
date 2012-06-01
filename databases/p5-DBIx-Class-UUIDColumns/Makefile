@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-Class-UUIDColumns/Makefile,v 1.6 2012/04/07 14:35:06 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	unique identifiers as columns in DBIx::Class
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/lighttpd/pkg/PLIST,v 1.22 2011/03/23 12:47:24 sthen Exp $
+@comment $OpenBSD$
 @newgroup _lighttpd:585
 @newuser _lighttpd:585:_lighttpd:daemon:lighttpd Account:/nonexistent:/sbin/nologin
 lib/lighttpd/

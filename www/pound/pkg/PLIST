@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/pound/pkg/PLIST,v 1.5 2012/01/26 08:03:57 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _pound:626
 @newuser _pound:626:_pound:daemon:pound user:/nonexistent:/sbin/nologin
 @man man/man8/pound.8

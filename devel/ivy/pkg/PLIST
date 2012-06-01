@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ivy/pkg/PLIST,v 1.3 2011/09/06 14:51:07 jasper Exp $
+@comment $OpenBSD$
 bin/ivy
 share/java/
 share/java/classes/

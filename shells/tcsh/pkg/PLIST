@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/shells/tcsh/pkg/PLIST,v 1.12 2007/05/27 18:04:47 naddy Exp $
+@comment $OpenBSD$
 @pkgpath shells/tcsh,static
 @shell bin/tcsh
 @man man/man1/tcsh.1

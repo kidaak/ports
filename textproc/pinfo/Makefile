@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/pinfo/Makefile,v 1.7 2010/11/20 19:56:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=		info viewer with lynx-style navigation
 

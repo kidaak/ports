@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/graphics/pkg/PLIST,v 1.6 2010/06/20 14:36:23 espie Exp $
+@comment $OpenBSD$
 @bin bin/gwenview
 @bin bin/gwenview_importer
 @bin bin/kbackgroundsnapshot

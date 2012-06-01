@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ezm3/pkg/PLIST,v 1.2 2004/09/15 19:16:08 espie Exp $
+@comment $OpenBSD$
 bin/m3build
 bin/m3bundle
 bin/m3ship

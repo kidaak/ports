@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-EN-Summarize/Makefile,v 1.5 2010/12/03 11:46:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	summarize english text
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/assets/Makefile,v 1.12 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	provide Merb helpers for assets and asset bundling
 

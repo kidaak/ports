@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-PerlIO-via-symlink/pkg/PLIST,v 1.1.1.1 2004/12/10 03:29:53 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/PerlIO/
 ${P5SITE}/PerlIO/via/
 ${P5SITE}/PerlIO/via/symlink.pm

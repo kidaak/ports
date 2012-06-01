@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/libksba/pkg/PFRAG.shared,v 1.1.1.1 2010/06/15 12:01:53 pea Exp $
+@comment $OpenBSD$
 @lib lib/libksba.so.${LIBksba_VERSION}

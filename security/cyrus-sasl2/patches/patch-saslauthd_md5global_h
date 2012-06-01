@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/cyrus-sasl2/patches/patch-saslauthd_md5global_h,v 1.1 2011/09/20 23:01:29 ajacoutot Exp $
+$OpenBSD$
 
 Use standard types for certain bits types (from pkgsrc).
 

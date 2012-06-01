@@ -1,5 +1,5 @@
 # $FreeBSD: ports/x11-wm/tvtwm/Makefile,v 1.17 1999/08/31 06:53:15 mharo Exp $
-# $OpenBSD: ports/x11/tvtwm/Makefile,v 1.23 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	twm with a virtual desktop
 

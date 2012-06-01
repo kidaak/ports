@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/kakasi/pkg/PLIST,v 1.5 2005/02/27 20:31:52 espie Exp $
+@comment $OpenBSD$
 bin/atoc_conv
 bin/kakasi
 bin/kakasi-config

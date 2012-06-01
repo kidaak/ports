@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/enscript/Makefile,v 1.28 2010/11/20 09:48:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=		convert ASCII files to PostScript
 

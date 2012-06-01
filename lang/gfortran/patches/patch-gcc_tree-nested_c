@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_tree-nested_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/tree-nested.c.orig	Thu Dec 21 14:18:52 2006
 +++ gcc/tree-nested.c	Mon Jun 14 19:23:04 2010
 @@ -222,7 +222,7 @@ get_frame_type (struct nesting_info *info)

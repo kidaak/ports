@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-cmn_physical_cpp,v 1.2 2010/06/15 19:04:05 landry Exp $
+$OpenBSD$
 --- cmn/physical.cpp.orig	Wed Jan 19 20:38:14 2000
 +++ cmn/physical.cpp	Tue Jun 15 20:47:33 2010
 @@ -33,10 +33,12 @@

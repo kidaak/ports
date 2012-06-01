@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/books/diveintopython/pkg/PLIST,v 1.1.1.1 2004/07/28 16:41:33 naddy Exp $
+@comment $OpenBSD$
 share/doc/diveintopython/
 share/doc/diveintopython/html/
 share/doc/diveintopython/html/appendix/

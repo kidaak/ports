@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nylon/Makefile,v 1.5 2010/10/18 18:36:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight SOCKS 4 and SOCKS 5 proxy
 DISTNAME=	nylon-1.21

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Types-LoadableClass/Makefile,v 1.1.1.1 2012/04/08 21:05:28 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	ClassName type constraint with coercion to load the class
 

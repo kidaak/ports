@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xdrawchem/Makefile,v 1.14 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=	two-dimensional molecule drawing program
 

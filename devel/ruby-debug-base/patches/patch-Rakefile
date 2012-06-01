@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ruby-debug-base/patches/patch-Rakefile,v 1.2 2008/10/27 19:16:10 pirofti Exp $
+$OpenBSD$
 --- Rakefile.orig	Thu Oct 16 16:58:37 2008
 +++ Rakefile	Thu Oct 16 16:58:59 2008
 @@ -171,7 +171,7 @@ task :default => [:package]

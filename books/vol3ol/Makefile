@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/vol3ol/Makefile,v 1.2 2007/09/15 21:34:36 simon Exp $
+# $OpenBSD$
 
 COMMENT=        O'Reilly Volume 3: Users Guide, Open Look
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hyena/Makefile,v 1.5 2011/09/12 12:07:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	GUI and non-GUI C-sharp code library
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/fwbuilder/patches/patch-autogen_sh,v 1.2 2011/12/12 18:18:15 jasper Exp $
+$OpenBSD$
 
 - don't force gmake being around, it's not used anyway.
 - don't let this script run configure for us.

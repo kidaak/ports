@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/liblouis/Makefile,v 1.2 2011/10/21 13:01:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	braille translator and back-translator
 

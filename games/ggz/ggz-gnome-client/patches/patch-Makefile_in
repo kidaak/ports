@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ggz/ggz-gnome-client/patches/patch-Makefile_in,v 1.1.1.1 2008/11/17 18:58:58 jasper Exp $
+$OpenBSD$
 
 The .schemas file in the distfile not properly formatted and is in it's
 original form useless.

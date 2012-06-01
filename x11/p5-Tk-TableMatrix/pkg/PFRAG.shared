@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/p5-Tk-TableMatrix/pkg/PFRAG.shared,v 1.1.1.1 2011/08/29 14:30:44 nigel Exp $
+@comment $OpenBSD$
 ${P5ARCH}/auto/Tk/TableMatrix/TableMatrix.so

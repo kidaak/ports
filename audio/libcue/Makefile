@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libcue/Makefile,v 1.1.1.1 2010/12/10 20:45:53 shadchin Exp $
+# $OpenBSD$
 
 COMMENT =		cue sheet parser library
 

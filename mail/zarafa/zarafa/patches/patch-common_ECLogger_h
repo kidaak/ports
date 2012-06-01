@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_ECLogger_h,v 1.2 2011/09/29 17:12:11 ajacoutot Exp $
+$OpenBSD$
 
 Needs newlocale(3).
 

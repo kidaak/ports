@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/krename/patches/patch-doc_en_HTML_index_html,v 1.1 2011/01/11 10:29:20 jasper Exp $
+$OpenBSD$
 --- doc/en/HTML/index.html.orig	Mon Feb  7 00:53:58 2005
 +++ doc/en/HTML/index.html	Tue Jan 11 11:17:24 2011
 @@ -53,6 +53,11 @@

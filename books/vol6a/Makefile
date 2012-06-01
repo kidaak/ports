@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/vol6a/Makefile,v 1.3 2007/09/15 21:34:36 simon Exp $
+# $OpenBSD$
 
 COMMENT=        O'Reilly Volume 6a: Motif Programming Manual
 

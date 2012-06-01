@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/isearch/Makefile,v 1.22 2010/11/20 19:56:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	text search engine by CNIDR
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-gem_plugin/Makefile,v 1.13 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=	install Ruby gems as plugins
 

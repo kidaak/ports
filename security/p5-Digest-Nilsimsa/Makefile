@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Digest-Nilsimsa/Makefile,v 1.11 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

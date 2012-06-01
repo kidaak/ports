@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Deep/Makefile,v 1.11 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=        flexible deep comparison
 

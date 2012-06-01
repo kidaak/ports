@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-src_widgets_qprogressbar_h,v 1.2 2007/03/31 22:49:46 espie Exp $
+$OpenBSD$
 --- src/widgets/qprogressbar.h.orig	Thu Oct 19 16:25:35 2006
 +++ src/widgets/qprogressbar.h	Sat Mar 31 14:51:25 2007
 @@ -61,6 +61,7 @@ class Q_EXPORT QProgressBar : public QFrame

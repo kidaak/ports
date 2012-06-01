@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tclcurl/Makefile,v 1.21 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

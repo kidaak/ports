@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/scm/patches/patch-dynl_c,v 1.2 2009/01/21 18:30:16 kili Exp $
+$OpenBSD$
 --- dynl.c.orig	Thu Jan 31 02:48:03 2008
 +++ dynl.c	Sat Nov 29 15:26:11 2008
 @@ -400,7 +400,23 @@ SCM l_dyn_call(symb, shl)

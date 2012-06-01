@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/leiningen/patches/patch-lein-pkg,v 1.1 2011/11/29 17:42:17 jasper Exp $
+$OpenBSD$
 --- lein-pkg.orig	Tue Nov 29 18:07:40 2011
 +++ lein-pkg	Tue Nov 29 18:09:53 2011
 @@ -1,4 +1,4 @@

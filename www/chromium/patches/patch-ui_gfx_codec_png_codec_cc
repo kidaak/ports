@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-ui_gfx_codec_png_codec_cc,v 1.1 2011/07/08 20:38:02 naddy Exp $
+$OpenBSD$
 --- ui/gfx/codec/png_codec.cc.orig	Mon Jul  4 15:57:42 2011
 +++ ui/gfx/codec/png_codec.cc	Mon Jul  4 15:57:54 2011
 @@ -15,6 +15,7 @@

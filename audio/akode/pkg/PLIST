@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/akode/pkg/PLIST,v 1.9 2009/12/26 02:01:11 jakemsr Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/akode-config
 @bin bin/akodeplay

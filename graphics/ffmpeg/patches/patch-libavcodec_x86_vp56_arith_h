@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/ffmpeg/patches/patch-libavcodec_x86_vp56_arith_h,v 1.1 2011/03/29 20:01:43 edd Exp $
+$OpenBSD$
 --- libavcodec/x86/vp56_arith.h.orig	Mon Mar  7 00:53:24 2011
 +++ libavcodec/x86/vp56_arith.h	Mon Mar  7 00:53:48 2011
 @@ -24,7 +24,7 @@

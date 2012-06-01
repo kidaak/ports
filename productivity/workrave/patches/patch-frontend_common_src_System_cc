@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/workrave/patches/patch-frontend_common_src_System_cc,v 1.2 2010/05/13 12:29:26 jasper Exp $
+$OpenBSD$
 --- frontend/common/src/System.cc.orig	Thu May 28 21:04:02 2009
 +++ frontend/common/src/System.cc	Thu May 13 13:22:40 2010
 @@ -25,6 +25,8 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/workrave/patches/patch-frontend_common_share_sounds_Makefile_in,v 1.4 2011/01/16 20:34:40 ajacoutot Exp $
+$OpenBSD$
 --- frontend/common/share/sounds/Makefile.in.orig	Sat Dec 11 18:05:21 2010
 +++ frontend/common/share/sounds/Makefile.in	Sat Jan 15 00:00:35 2011
 @@ -549,17 +549,6 @@ uninstall-rcDATA:

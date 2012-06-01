@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/boust/patches/patch-boust,v 1.2 2003/12/27 23:36:46 jose Exp $
+$OpenBSD$
 --- boust.orig	Thu Nov  7 00:06:00 2002
 +++ boust	Wed Nov  6 23:53:47 2002
 @@ -2,9 +2,9 @@

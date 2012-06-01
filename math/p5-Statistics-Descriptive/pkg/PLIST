@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-Statistics-Descriptive/pkg/PLIST,v 1.2 2011/06/01 17:10:05 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Statistics/
 ${P5SITE}/Statistics/Descriptive.pm
 @man man/man3p/Statistics::Descriptive.3p

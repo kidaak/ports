@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/squid/patches/patch-src_defines_h,v 1.1 2010/11/26 13:45:04 dcoppa Exp $
+$OpenBSD$
 --- src/defines.h.orig	Tue Nov 23 15:08:29 2010
 +++ src/defines.h	Tue Nov 23 15:09:48 2010
 @@ -259,7 +259,7 @@

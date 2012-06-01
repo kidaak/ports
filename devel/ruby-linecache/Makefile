@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-linecache/Makefile,v 1.9 2011/11/27 11:10:35 pirofti Exp $
+# $OpenBSD$
 
 COMMENT =	caches (Ruby source) files
 

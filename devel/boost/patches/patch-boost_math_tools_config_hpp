@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boost/patches/patch-boost_math_tools_config_hpp,v 1.2 2011/11/02 11:54:15 jasper Exp $
+$OpenBSD$
 --- boost/math/tools/config.hpp.orig	Mon Oct 12 06:35:20 2009
 +++ boost/math/tools/config.hpp	Mon Oct 17 01:15:58 2011
 @@ -24,7 +24,7 @@

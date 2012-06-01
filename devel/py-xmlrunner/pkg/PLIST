@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-xmlrunner/pkg/PLIST,v 1.1.1.1 2011/12/19 10:39:20 mpi Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/unittest_xml_reporting-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/unittest_xml_reporting-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/unittest_xml_reporting-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

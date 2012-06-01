@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/hs-pugs-compat/patches/patch-pugs-compat_cabal,v 1.1 2011/04/11 14:46:52 kili Exp $
+$OpenBSD$
 
 From upstream git repo.
 

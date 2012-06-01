@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/prelude/manager/Makefile,v 1.29 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Prelude manager
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gupnp/vala/Makefile,v 1.9 2012/02/26 15:06:10 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Vala bindings to GUPnP framework
 

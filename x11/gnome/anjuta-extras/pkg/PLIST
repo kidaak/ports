@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/anjuta-extras/pkg/PLIST,v 1.6 2012/03/29 07:22:49 ajacoutot Exp $
+@comment $OpenBSD$
 lib/anjuta/anjuta-editor.plugin
 lib/anjuta/anjuta-sample.plugin
 lib/anjuta/anjuta-scratchbox.plugin

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-orbit/pkg/PLIST,v 1.3 2009/08/07 11:53:41 jasper Exp $
+@comment $OpenBSD$
 include/pyorbit-2/
 include/pyorbit-2/pyorbit.h
 lib/pkgconfig/pyorbit-2.pc

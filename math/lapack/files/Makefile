@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/lapack/files/Makefile,v 1.5 2007/03/24 14:06:54 steven Exp $
+# $OpenBSD$
 
 LIB=	lapack
 

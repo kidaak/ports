@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xpat2/patches/patch-src_Imakefile,v 1.4 2010/10/23 18:24:14 naddy Exp $
+$OpenBSD$
 --- src/Imakefile.orig	Sun Nov  5 20:05:10 2000
 +++ src/Imakefile	Sat Oct 23 20:18:07 2010
 @@ -188,7 +188,7 @@ STDOBJS		= rules.o commands.o messages.o hints.o layou

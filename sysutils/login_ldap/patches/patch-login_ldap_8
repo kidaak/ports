@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/login_ldap/patches/patch-login_ldap_8,v 1.2 2012/03/19 22:15:58 sthen Exp $
+$OpenBSD$
 --- login_ldap.8.orig	Thu Feb  7 16:56:28 2008
 +++ login_ldap.8	Sun Mar 18 13:54:25 2012
 @@ -280,6 +280,7 @@ For more examples, please see the following files.

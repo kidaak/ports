@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/smlnj/patches/patch-src_runtime_include_ml-osdep_h,v 1.1.1.1 2002/06/29 13:25:10 espie Exp $
+$OpenBSD$
 --- src/runtime/include/ml-osdep.h.orig	Fri Dec  3 20:59:32 1999
 +++ src/runtime/include/ml-osdep.h	Sat Jun 29 15:11:35 2002
 @@ -17,7 +17,7 @@

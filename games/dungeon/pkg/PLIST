@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/dungeon/pkg/PLIST,v 1.1.1.1 2011/12/06 13:10:38 pascal Exp $
+@comment $OpenBSD$
 @bin bin/dungeon
 @man man/man6/dungeon.6
 share/doc/dungeon/

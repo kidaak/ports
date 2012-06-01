@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-network/pkg/PLIST,v 1.5 2011/04/11 14:34:55 kili Exp $
+@comment $OpenBSD$
 @conflict hs-network-bytestring-*
 @pkgpath net/hs-network-bytestring
 lib/ghc/${DISTNAME}/

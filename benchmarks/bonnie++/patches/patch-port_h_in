@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/bonnie++/patches/patch-port_h_in,v 1.1 2011/11/13 18:23:24 sthen Exp $
+$OpenBSD$
 --- port.h.in.orig	Tue Dec 23 19:16:16 2008
 +++ port.h.in	Sat Nov 12 14:50:48 2011
 @@ -1,6 +1,8 @@

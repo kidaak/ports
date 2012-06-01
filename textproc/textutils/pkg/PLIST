@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/textutils/pkg/PLIST,v 1.5 2009/06/25 00:23:39 jolan Exp $
+@comment $OpenBSD$
 @bin bin/gcat
 @bin bin/gcksum
 @bin bin/gcomm

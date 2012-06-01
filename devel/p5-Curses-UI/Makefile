@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Curses-UI/Makefile,v 1.15 2012/02/17 09:15:12 landry Exp $
+# $OpenBSD$
 
 COMMENT=	curses based user interface framework for Perl
 

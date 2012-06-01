@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.58/patches/patch-lib_autotest_Makefile_in,v 1.2 2004/07/22 05:50:07 espie Exp $
+$OpenBSD$
 --- lib/autotest/Makefile.in.orig	Tue Nov  4 09:47:20 2003
 +++ lib/autotest/Makefile.in	Thu Jul 22 07:19:47 2004
 @@ -113,7 +113,7 @@ sysconfdir = @sysconfdir@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-paper_trail/Makefile,v 1.2 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT =	paper_trail lets you track changes to your models' data
 

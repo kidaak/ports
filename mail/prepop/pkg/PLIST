@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/prepop/pkg/PLIST,v 1.2 2004/09/15 09:09:44 espie Exp $
+@comment $OpenBSD$
 bin/prepop
 share/doc/prepop/
 share/doc/prepop/MANUAL

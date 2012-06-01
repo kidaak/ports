@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Mouse/pkg/PLIST,v 1.4 2012/04/07 14:28:57 sthen Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Mouse/
 ${P5ARCH}/Mouse.pm

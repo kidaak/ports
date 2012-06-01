@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/mplayer/pkg/PLIST,v 1.30 2011/05/11 21:24:59 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath x11/mplayer,mad
 @pkgpath x11/mplayer,mad,no_x11
 @pkgpath x11/mplayer,sdl,mad

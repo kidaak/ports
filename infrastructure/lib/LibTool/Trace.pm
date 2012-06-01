@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/lib/LibTool/Trace.pm,v 1.1 2010/12/05 16:37:50 espie Exp $
+# $OpenBSD$
 
 # Copyright (c) 2007-2010 Steven Mestdagh <steven@openbsd.org>
 #

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/lib/LibTool/Archive.pm,v 1.2 2011/11/14 22:12:08 jasper Exp $
+# $OpenBSD$
 
 # Copyright (c) 2007-2010 Steven Mestdagh <steven@openbsd.org>
 #

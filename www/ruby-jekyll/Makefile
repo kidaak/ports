@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-jekyll/Makefile,v 1.2 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=		simple, blog aware, static site generator
 

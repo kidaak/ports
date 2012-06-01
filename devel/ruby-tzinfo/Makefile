@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-tzinfo/Makefile,v 1.18 2011/12/13 17:52:56 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		Ruby timezone library
 

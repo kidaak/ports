@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/swi-prolog/pkg/PFRAG.shared,v 1.8 2011/09/17 16:06:32 edd Exp $
+@comment $OpenBSD$
 @lib lib/libpl.so.${LIBpl_VERSION}
 lib/swipl-${V}/lib/${FULLARCH}/cgi.so
 lib/swipl-${V}/lib/${FULLARCH}/crypt.so

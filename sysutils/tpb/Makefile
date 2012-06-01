@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/tpb/Makefile,v 1.18 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 # requires nvram(4) device
 ONLY_FOR_ARCHS=	amd64 i386

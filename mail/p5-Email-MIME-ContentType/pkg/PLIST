@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Email-MIME-ContentType/pkg/PLIST,v 1.1.1.1 2006/01/15 15:24:39 sturm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Email/
 ${P5SITE}/Email/MIME/
 ${P5SITE}/Email/MIME/ContentType.pm

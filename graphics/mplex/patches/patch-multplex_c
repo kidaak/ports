@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/mplex/patches/patch-multplex_c,v 1.2 2002/08/12 19:33:31 wcobb Exp $
+$OpenBSD$
 --- multplex.c.orig	Tue Jun  6 09:16:52 1995
 +++ multplex.c	Thu Jul 18 15:57:13 2002
 @@ -1,4 +1,5 @@

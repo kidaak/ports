@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/par1cmdline/Makefile,v 1.9 2010/07/25 02:59:44 jolan Exp $
+# $OpenBSD$
 
 COMMENT=	command line implementation of the PAR v1.0 specification
 DISTNAME=	par-v1.1

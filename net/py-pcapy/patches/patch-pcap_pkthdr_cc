@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/py-pcapy/patches/patch-pcap_pkthdr_cc,v 1.1.1.1 2009/04/03 15:45:41 sthen Exp $
+$OpenBSD$
 --- pcap_pkthdr.cc.orig	Fri Apr  3 11:52:32 2009
 +++ pcap_pkthdr.cc	Fri Apr  3 11:52:36 2009
 @@ -24,7 +24,7 @@

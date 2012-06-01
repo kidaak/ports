@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/fretsonfire/Makefile,v 1.8 2011/12/20 19:03:58 jasper Exp $
+# $OpenBSD$
 
 V =			1.3.110
 COMMENT =		guitar hero clone

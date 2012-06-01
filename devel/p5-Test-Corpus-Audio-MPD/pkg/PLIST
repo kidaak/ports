@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Test-Corpus-Audio-MPD/pkg/PLIST,v 1.1.1.1 2010/09/29 17:17:26 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Test/
 ${P5SITE}/Test/Corpus/
 ${P5SITE}/Test/Corpus/Audio/

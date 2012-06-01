@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/textproc/gtkspell3/pkg/PFRAG.shared,v 1.1.1.1 2012/04/12 18:04:26 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libgtkspell-3.so.${LIBgtkspell-3_VERSION}

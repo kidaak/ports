@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/blocks404/pkg/PLIST,v 1.1.1.1 2010/10/25 10:57:35 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}blocks404/

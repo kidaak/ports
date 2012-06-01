@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/libnipper/patches/patch-CMakeLists_txt,v 1.1.1.1 2008/09/20 20:26:05 steven Exp $
+$OpenBSD$
 --- CMakeLists.txt.orig	Fri Sep  5 22:01:55 2008
 +++ CMakeLists.txt	Wed Sep 17 17:31:09 2008
 @@ -317,9 +317,12 @@ SET(libnipper_SRC

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/hunspell/patches/patch-tests_test_sh,v 1.1.1.1 2009/06/13 07:48:53 ajacoutot Exp $
+$OpenBSD$
 --- tests/test.sh.orig	Fri Jun  5 17:37:50 2009
 +++ tests/test.sh	Fri Jun  5 17:37:58 2009
 @@ -1,4 +1,4 @@

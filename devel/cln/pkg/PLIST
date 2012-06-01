@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cln/pkg/PLIST,v 1.4 2009/10/22 10:40:33 pirofti Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/cln/
 include/cln/GV.h

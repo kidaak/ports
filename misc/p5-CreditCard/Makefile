@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-CreditCard/Makefile,v 1.13 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	verify credit card pins
 

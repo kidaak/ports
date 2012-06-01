@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/munin/files/sensors_,v 1.2 2010/10/07 11:01:06 jasper Exp $
+# $OpenBSD$
 #
 # Script to monitor OpenBSD sensors
 # (c) 2007 Michael Knudsen <mk@openbsd.org>

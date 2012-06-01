@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/spamspan/pkg/PLIST,v 1.1.1.1 2010/10/25 07:59:37 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}spamspan/

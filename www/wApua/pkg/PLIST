@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/wApua/pkg/PLIST,v 1.1.1.1 2006/11/21 16:06:39 jasper Exp $
+@comment $OpenBSD$
 bin/wApua
 bin/wbmp2xbm
 ${P5SITE}/wApua/

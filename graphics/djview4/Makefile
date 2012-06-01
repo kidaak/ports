@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/djview4/Makefile,v 1.14 2011/12/03 18:35:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	portable DjVu viewer and browser plugin
 

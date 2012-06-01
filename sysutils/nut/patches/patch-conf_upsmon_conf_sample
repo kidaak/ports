@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/nut/patches/patch-conf_upsmon_conf_sample,v 1.2 2010/03/31 22:11:11 sthen Exp $
+$OpenBSD$
 --- conf/upsmon.conf.sample.orig	Thu Feb 18 21:19:09 2010
 +++ conf/upsmon.conf.sample	Sat Mar 20 23:18:18 2010
 @@ -108,7 +108,7 @@ MINSUPPLIES 1

@@ -1,9 +1,9 @@
-# $OpenBSD: ports/net/argus-clients/Makefile,v 1.8 2011/12/06 22:31:04 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	utilities to read and parse Argus data
 
 DISTNAME =	argus-clients-3.0.2
-REVISION =	0
+REVISION =	1
 CATEGORIES =	net
 
 HOMEPAGE =	http://qosient.com/argus/

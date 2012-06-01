@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/math/umfpack/pkg/PFRAG.no_mips64,v 1.1 2010/03/24 16:09:34 jasper Exp $
+@comment $OpenBSD$
 lib/libumfpack_pic.a

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/rxvt/patches/patch-rclock_feature_h,v 1.2 2004/06/17 06:39:05 kevlo Exp $
+$OpenBSD$
 --- rclock/feature.h.orig	2002-04-09 01:22:58.000000000 +0000
 +++ rclock/feature.h	2004-06-16 15:13:19.000000000 +0000
 @@ -58,7 +58,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/clusterit/Makefile,v 1.9 2010/11/20 17:22:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=		suite of clustering tools based on IBM's PSSP
 

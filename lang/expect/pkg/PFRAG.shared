@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/expect/pkg/PFRAG.shared,v 1.10 2011/01/05 18:45:45 sebastia Exp $
+@comment $OpenBSD$
 @lib lib/libexpect544115.so.${LIBexpect544115_VERSION}
 lib/tcl/
 lib/tcl/expect/

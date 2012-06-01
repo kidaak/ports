@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/emesene/files/setup.py,v 1.1.1.1 2008/07/10 13:22:41 wcmaier Exp $
+# $OpenBSD$
 
 from distutils.core import setup
 import sys, os

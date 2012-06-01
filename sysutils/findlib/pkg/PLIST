@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/findlib/pkg/PLIST,v 1.7 2011/12/21 21:32:37 avsm Exp $
+@comment $OpenBSD$
 @bin bin/ocamlfind
 bin/safe_camlp4
 lib/ocaml/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/camd/Makefile,v 1.5 2011/11/18 11:16:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=	constrained approximate minimum degree 
 

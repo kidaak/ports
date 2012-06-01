@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/py-qt4/pkg/PLIST-docs,v 1.8 2011/05/17 08:38:33 dcoppa Exp $
+@comment $OpenBSD$
 @comment lib/python${MODPY_VERSION}/
 @comment lib/python${MODPY_VERSION}/site-packages/
 @comment lib/python${MODPY_VERSION}/site-packages/dbus/

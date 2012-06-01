@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/core/patches/patch-source_mupen64plus-core_src_r4300_cop1_d_c,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/r4300/cop1_d.c.orig	Sun Dec 18 23:21:14 2011
 +++ src/r4300/cop1_d.c	Sun Dec 18 20:04:55 2011
 @@ -27,236 +27,194 @@

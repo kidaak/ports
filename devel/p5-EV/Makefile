@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-EV/Makefile,v 1.4 2011/10/05 17:30:57 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 COMMENT =	perl interface to libev

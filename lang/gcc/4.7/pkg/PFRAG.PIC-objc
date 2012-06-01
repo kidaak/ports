@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.7/pkg/PFRAG.PIC-objc,v 1.1.1.1 2012/04/23 15:56:42 pascal Exp $
+@comment $OpenBSD$
 lib/fpic/libobjc.a
 lib/fpic/libobjc.la
 @comment @lib lib/fpic/libobjc.so.${LIBobjc_VERSION}

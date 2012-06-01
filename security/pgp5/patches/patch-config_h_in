@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pgp5/patches/patch-config_h_in,v 1.1 2002/04/23 06:38:48 fgsch Exp $
+$OpenBSD$
 
 This patch is benign when not using RSAREF and is required when using
 RSAREF to get pgp5 to link.  Without the patch pgp5 fails to link

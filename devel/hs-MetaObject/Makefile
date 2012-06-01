@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-MetaObject/Makefile,v 1.9 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		meta-object system for Haskell based on Perl 6
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtksourceview/pkg/PLIST,v 1.17 2010/06/02 08:47:51 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gtksourceview-${MAJOR_VERSION}/
 include/gtksourceview-${MAJOR_VERSION}/gtksourceview/

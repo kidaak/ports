@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xerces-c/patches/patch-src_xercesc_util_AutoSense_hpp,v 1.1.1.1 2008/10/26 23:15:17 ajacoutot Exp $
+$OpenBSD$
 --- src/xercesc/util/AutoSense.hpp.orig	Sun Oct 26 19:52:30 2008
 +++ src/xercesc/util/AutoSense.hpp	Sun Oct 26 19:53:28 2008
 @@ -107,6 +107,9 @@

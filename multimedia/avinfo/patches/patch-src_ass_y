@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avinfo/patches/patch-src_ass_y,v 1.1.1.1 2010/09/01 10:26:04 kevlo Exp $
+$OpenBSD$
 --- src/ass.y.orig	Tue Aug 31 17:33:31 2010
 +++ src/ass.y	Tue Aug 31 17:34:29 2010
 @@ -224,7 +224,7 @@ var_t Op(var_t var1, var_t var2, int op_type){

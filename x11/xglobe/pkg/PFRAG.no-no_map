@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/xglobe/pkg/PFRAG.no-no_map,v 1.1 2000/05/22 14:01:10 espie Exp $
+@comment $OpenBSD$
 lib/xglobe/map.bmp

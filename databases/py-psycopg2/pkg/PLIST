@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-psycopg2/pkg/PLIST,v 1.7 2011/05/11 20:56:36 rpointel Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/
 lib/python${MODPY_VERSION}/site-packages/
 lib/python${MODPY_VERSION}/site-packages/psycopg2/

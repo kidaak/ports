@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tcpslice/Makefile,v 1.12 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	tool for extracting and gluing pcap (tcpdump) files
 

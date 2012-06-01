@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nepenthes/pkg/PFRAG.shared,v 1.4 2007/09/02 22:42:55 rui Exp $
+@comment $OpenBSD$
 lib/nepenthes/dnsresolveadns.so
 lib/nepenthes/downloadcreceive.so
 lib/nepenthes/downloadcsend.so

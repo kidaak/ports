@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/teknap/patches/patch-source_irchandler_c,v 1.1 2003/12/29 21:10:58 espie Exp $
+$OpenBSD$
 --- source/irchandler.c.orig	2003-12-29 22:04:49.000000000 +0100
 +++ source/irchandler.c	2003-12-29 22:05:22.000000000 +0100
 @@ -170,8 +170,8 @@ char buff[BIG_BUFFER_SIZE];

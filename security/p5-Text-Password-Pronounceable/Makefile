@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Text-Password-Pronounceable/Makefile,v 1.1.1.1 2011/06/14 11:31:45 robert Exp $
+# $OpenBSD$
 
 COMMENT=	generate pronounceable passwords
 

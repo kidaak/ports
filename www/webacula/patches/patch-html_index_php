@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webacula/patches/patch-html_index_php,v 1.5 2012/02/01 12:59:06 ajacoutot Exp $
+$OpenBSD$
 --- html/index.php.orig	Sat Sep 10 22:22:55 2011
 +++ html/index.php	Tue Jan 31 17:35:49 2012
 @@ -19,7 +19,7 @@

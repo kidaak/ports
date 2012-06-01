@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/pacpl/pkg/PLIST-main,v 1.4 2009/01/03 14:50:24 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict pacpl-konqueror-<4.0.3p0
 bin/pacpl
 @man man/man1/pacpl.1

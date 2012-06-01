@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/geo/geoclue/pkg/PFRAG.shared,v 1.1.1.1 2009/02/15 16:35:05 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libgeoclue.so.${LIBgeoclue_VERSION}

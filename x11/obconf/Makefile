@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/obconf/Makefile,v 1.30 2011/12/07 06:18:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=	configuration utility for openbox
 

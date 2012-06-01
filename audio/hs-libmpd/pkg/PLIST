@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/hs-libmpd/pkg/PLIST,v 1.4 2012/04/05 09:12:07 dcoppa Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/HS${DISTNAME}.o
 lib/ghc/${DISTNAME}/Network/

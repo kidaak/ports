@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt4/pkg/PLIST-examples,v 1.27 2011/09/07 09:54:07 espie Exp $
+@comment $OpenBSD$
 @conflict qt4-<=4.2.2
 %%SHARED%%
 %%GCC4%%

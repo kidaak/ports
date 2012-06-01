@@ -1,9 +1,9 @@
-# $OpenBSD: ports/audio/daapd/Makefile,v 1.13 2012/03/06 11:43:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	server for the DAA protocol
 
 DISTNAME=	daapd-0.2.4b
-REVISION=	3
+REVISION=	5
 EXTRACT_SUFX=	.tgz
 CATEGORIES=	audio net
 MASTER_SITES=	${HOMEPAGE}
@@ -18,7 +18,7 @@ PERMIT_PACKAGE_FTP=	Yes
 
 WANTLIB=	c m pthread stdc++ z mp4v2>=1 id3tag>=3.0 howl
 
-LIB_DEPENDS=	multimedia/libmp4v2 \
+LIB_DEPENDS=	multimedia/libmp4v2>=1.9.1 \
 		audio/libid3tag \
 		net/avahi
 

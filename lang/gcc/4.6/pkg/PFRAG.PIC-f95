@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.6/pkg/PFRAG.PIC-f95,v 1.2 2011/11/20 10:32:30 pascal Exp $
+@comment $OpenBSD$
 lib/fpic/libgfortran.a
 lib/fpic/libgfortran.la
 @lib lib/fpic/libgfortran.so.${LIBgfortran_VERSION}

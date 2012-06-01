@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/silc-server/patches/patch-apps_silcd_command_c,v 1.5 2010/05/17 08:39:24 sthen Exp $
+$OpenBSD$
 --- apps/silcd/command.c.orig	Sat Sep 26 16:34:12 2009
 +++ apps/silcd/command.c	Sun May 16 21:05:33 2010
 @@ -85,6 +85,27 @@ SilcServerCommand silc_command_list[] =

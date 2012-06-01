@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/color-manager/patches/patch-configure,v 1.4 2012/03/29 06:55:35 ajacoutot Exp $
+$OpenBSD$
 
 /var/lib -> /var/db
 

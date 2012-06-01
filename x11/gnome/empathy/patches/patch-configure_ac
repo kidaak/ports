@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/empathy/patches/patch-configure_ac,v 1.5 2012/04/05 16:08:56 jasper Exp $
+$OpenBSD$
 
 From e35c34e3935d055c6cd5db1c0808f9906488627b Mon Sep 17 00:00:00 2001
 From: Olivier Crete <olivier.crete@collabora.com>

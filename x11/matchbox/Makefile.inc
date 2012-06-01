@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/Makefile.inc,v 1.4 2010/10/24 21:15:33 ajacoutot Exp $
+# $OpenBSD$
 
 CATEGORIES?=	x11 x11/matchbox
 

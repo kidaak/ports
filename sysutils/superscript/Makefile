@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/superscript/Makefile,v 1.3 2010/10/19 07:43:02 espie Exp $
+# $OpenBSD$
 
 COMMENT=	extended script command
 

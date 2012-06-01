@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/extsmail/pkg/PLIST,v 1.2 2011/06/19 06:12:24 landry Exp $
+@comment $OpenBSD$
 @bin bin/extsmail
 @bin bin/extsmaild
 @man man/man1/extsmail.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnetdude/libnetdude/patches/patch-protocols_icmp_Makefile_in,v 1.2 2007/09/26 20:18:08 rui Exp $
+$OpenBSD$
 --- protocols/icmp/Makefile.in.orig	Fri Jul 27 14:48:22 2007
 +++ protocols/icmp/Makefile.in	Fri Jul 27 14:49:20 2007
 @@ -79,7 +79,7 @@ HEADERS = $(pkginclude_HEADERS)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/mytop/Makefile,v 1.6 2012/03/08 09:30:59 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	top clone for MySQL
 

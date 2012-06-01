@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/tuxpaint/pkg/PLIST,v 1.6 2009/12/22 16:28:01 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/tp-magic-config
 @bin bin/tuxpaint

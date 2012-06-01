@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/readline/patches/patch-doc_rluserman_info,v 1.1 2010/08/01 08:08:58 ajacoutot Exp $
+$OpenBSD$
 --- doc/rluserman.info.orig	Sun Aug  1 10:05:11 2010
 +++ doc/rluserman.info	Sun Aug  1 10:05:17 2010
 @@ -27,7 +27,7 @@ preserved on all copies.

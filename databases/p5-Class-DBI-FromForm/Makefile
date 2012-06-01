@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Class-DBI-FromForm/Makefile,v 1.6 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	update Class:DBI data from html forms
 

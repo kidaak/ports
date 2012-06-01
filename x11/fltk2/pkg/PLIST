@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/fltk2/pkg/PLIST,v 1.1.1.1 2008/10/19 07:34:45 ajacoutot Exp $
+@comment $OpenBSD$
 bin/fltk2-config
 @bin bin/fluid2
 include/fltk/

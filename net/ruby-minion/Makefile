@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-minion/Makefile,v 1.11 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =	super simple job queue over AMQP
 

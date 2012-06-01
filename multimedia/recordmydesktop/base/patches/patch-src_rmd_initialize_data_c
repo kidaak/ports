@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/recordmydesktop/base/patches/patch-src_rmd_initialize_data_c,v 1.1 2010/07/01 10:10:09 jakemsr Exp $
+$OpenBSD$
 
 sndio
 

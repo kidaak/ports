@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/mono-gnome/Makefile,v 1.27 2011/11/04 09:56:29 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	.NET language bindings for assorted GNOME libraries
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xinvaders/patches/patch-main_c,v 1.1 2007/10/26 21:19:16 ajacoutot Exp $
+$OpenBSD$
 --- main.c.orig	Fri Oct 26 23:05:33 2007
 +++ main.c	Fri Oct 26 23:05:40 2007
 @@ -135,14 +135,13 @@ caddr_t data;

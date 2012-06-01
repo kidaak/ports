@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-EN-Tagger/Makefile,v 1.1.1.1 2012/04/06 09:26:54 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	part-of-speech tagger for EN natural language processing
 

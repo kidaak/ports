@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/transcode/pkg/PLIST,v 1.6 2010/01/11 08:49:27 jakemsr Exp $
+@comment $OpenBSD$
 %%i386%%
 %%lzo%%
 %%mjpegtools%%

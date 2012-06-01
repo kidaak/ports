@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/zile/patches/patch-configure,v 1.4 2012/03/27 22:01:50 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Tue Mar 20 16:43:43 2012
 +++ configure	Sun Mar 25 13:45:47 2012
 @@ -30805,7 +30805,7 @@ else

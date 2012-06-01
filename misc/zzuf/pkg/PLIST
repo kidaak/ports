@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/zzuf/pkg/PLIST,v 1.4 2010/10/28 10:17:54 steven Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/zzuf
 @bin bin/zzufcat

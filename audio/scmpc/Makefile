@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/scmpc/Makefile,v 1.19 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=		client for MPD to submit tracks to Last.fm
 CATEGORIES=		audio

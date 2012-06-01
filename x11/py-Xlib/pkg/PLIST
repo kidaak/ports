@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/py-Xlib/pkg/PLIST,v 1.2 2010/11/17 19:27:54 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Xlib/
 lib/python${MODPY_VERSION}/site-packages/Xlib/X.py
 lib/python${MODPY_VERSION}/site-packages/Xlib/X.pyc

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/gshar+gunshar/pkg/PLIST,v 1.8 2004/08/03 11:30:01 espie Exp $
+@comment $OpenBSD$
 bin/gmail-files
 bin/gmailshar
 bin/gremsync

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/clearsilver/patches/patch-util_neo_hdf_c,v 1.4 2008/11/18 20:00:09 okan Exp $
+$OpenBSD$
 --- util/neo_hdf.c.orig	Tue Mar  7 21:24:44 2006
 +++ util/neo_hdf.c	Mon May  8 16:57:13 2006
 @@ -771,13 +771,14 @@ skip_search:

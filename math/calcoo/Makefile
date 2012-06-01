@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/calcoo/Makefile,v 1.43 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	RPN and algebraic scientific calculator
 

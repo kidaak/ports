@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-Alien-Tidyp/patches/patch-Build_PL,v 1.1.1.1 2011/03/14 21:48:16 jasper Exp $
+$OpenBSD$
 --- Build.PL.orig	Thu Mar 10 07:12:05 2011
 +++ Build.PL	Sun Mar 13 22:11:20 2011
 @@ -64,7 +64,7 @@ my $builder = $package->new(

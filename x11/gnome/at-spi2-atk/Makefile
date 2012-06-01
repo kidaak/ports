@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/at-spi2-atk/Makefile,v 1.12 2012/03/29 07:04:56 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

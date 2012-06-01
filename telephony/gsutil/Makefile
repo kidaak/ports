@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/gsutil/Makefile,v 1.2 2010/11/20 19:56:47 espie Exp $
+# $OpenBSD$
 
 COMMENT =		dump/restore Grandstream device configurations
 

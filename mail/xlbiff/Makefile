@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/xlbiff/Makefile,v 1.23 2010/11/19 07:23:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	display from/subject from incoming mails using X11
 

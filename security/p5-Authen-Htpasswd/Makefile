@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Authen-Htpasswd/Makefile,v 1.12 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	read and modify Apache .htpasswd files
 

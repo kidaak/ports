@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/cbb/Makefile,v 1.32 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=	checkbook balancing tool
 

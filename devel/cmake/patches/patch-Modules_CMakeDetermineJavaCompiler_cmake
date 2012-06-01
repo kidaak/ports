@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cmake/patches/patch-Modules_CMakeDetermineJavaCompiler_cmake,v 1.3 2012/01/07 22:14:51 dcoppa Exp $
+$OpenBSD$
 --- Modules/CMakeDetermineJavaCompiler.cmake.orig	Fri Dec 30 17:49:56 2011
 +++ Modules/CMakeDetermineJavaCompiler.cmake	Tue Jan  3 11:26:41 2012
 @@ -16,6 +16,8 @@

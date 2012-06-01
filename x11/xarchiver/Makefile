@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xarchiver/Makefile,v 1.13 2011/12/03 23:34:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	simple archive manager
 CATEGORIES =	x11 archivers

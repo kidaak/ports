@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qvwm/pkg/PLIST,v 1.4 2010/03/25 20:42:50 jasper Exp $
+@comment $OpenBSD$
 @pkgpath x11/qvwm,esound,imlib
 @pkgpath x11/qvwm,esound
 @pkgpath x11/qvwm,imlib

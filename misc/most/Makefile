@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/most/Makefile,v 1.17 2012/01/27 04:13:05 william Exp $
+# $OpenBSD$
 
 COMMENT=	browse or page through a text file
 

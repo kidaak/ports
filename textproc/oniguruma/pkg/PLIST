@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/oniguruma/pkg/PLIST,v 1.1.1.1 2009/09/09 17:46:29 jolan Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/onig-config
 include/oniggnu.h

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/imap-uw/pkg/PFRAG.shared-c-client,v 1.1 2007/10/30 10:12:41 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libc-client.so.${LIBc-client_VERSION}

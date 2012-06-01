@@ -1,4 +1,4 @@
-$OpenBSD: ports/inputmethods/scim-hangul/patches/patch-src_scim_hangul_imengine_cpp,v 1.1.1.1 2008/10/31 01:42:00 kevlo Exp $
+$OpenBSD$
 --- src/scim_hangul_imengine.cpp.orig	Wed Oct 29 18:29:20 2008
 +++ src/scim_hangul_imengine.cpp	Wed Oct 29 18:31:21 2008
 @@ -48,6 +48,8 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/hgd/pkg/README,v 1.1 2011/11/02 21:26:57 edd Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

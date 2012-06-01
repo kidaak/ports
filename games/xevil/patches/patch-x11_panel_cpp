@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-x11_panel_cpp,v 1.1 2007/12/07 15:54:56 ajacoutot Exp $
+$OpenBSD$
 --- x11/panel.cpp.orig	Sat Mar 22 20:50:44 2003
 +++ x11/panel.cpp	Fri Dec  7 13:34:24 2007
 @@ -31,9 +31,11 @@ extern "C" {

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/manaplus/patches/patch-src_mumblemanager_cpp,v 1.1.1.1 2011/07/10 09:56:51 jasper Exp $
+$OpenBSD$
 --- src/mumblemanager.cpp.orig	Sun Jun 12 13:44:19 2011
 +++ src/mumblemanager.cpp	Sun Jun 26 17:46:02 2011
 @@ -7,6 +7,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/haskell-report/Makefile,v 1.4 2011/04/10 06:52:41 kili Exp $
+# $OpenBSD$
 
 COMMENT =		language and library specification for Haskell
 

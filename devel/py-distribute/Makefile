@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-distribute/Makefile,v 1.3 2011/12/16 08:19:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		fork of setuptools Python packages
 

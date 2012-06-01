@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/p5-News-Article/Makefile,v 1.18 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for accessing NNTP articles
 

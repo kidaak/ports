@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/k3dsurf/Makefile,v 1.11 2011/11/02 08:46:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	visualize and manipulate mathematical models
 

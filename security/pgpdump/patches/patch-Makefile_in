@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pgpdump/patches/patch-Makefile_in,v 1.5 2009/01/27 02:04:58 okan Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Jan 28 22:17:01 2004
 +++ Makefile.in	Sun Jan 25 15:52:01 2009
 @@ -3,7 +3,7 @@ exec_prefix = @exec_prefix@

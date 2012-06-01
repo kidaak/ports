@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libao/pkg/PLIST,v 1.10 2008/12/30 21:59:55 naddy Exp $
+@comment $OpenBSD$
 @pkgpath audio/libao,-main
 @pkgpath audio/libao,no_arts
 @pkgpath audio/libao,no_arts,no_esd

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/firmware/malo/Makefile,v 1.2 2011/07/08 21:20:49 sthen Exp $
+# $OpenBSD$
 
 FW_DRIVER=	malo
 FW_VER=		1.4

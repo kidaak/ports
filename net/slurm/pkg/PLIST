@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/slurm/pkg/PLIST,v 1.1.1.1 2008/09/18 23:02:31 sthen Exp $
+@comment $OpenBSD$
 @bin bin/slurm
 @man man/man1/slurm.1
 share/doc/slurm/

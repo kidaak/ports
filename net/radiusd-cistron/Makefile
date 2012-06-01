@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/radiusd-cistron/Makefile,v 1.31 2011/05/11 12:03:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Cistron RADIUS server
 

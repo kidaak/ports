@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/vim/pkg/PFRAG.no-no_x11-main,v 1.3 2008/10/17 14:56:53 ckuethe Exp $
+@comment $OpenBSD$
 bin/eview
 bin/evim
 bin/gview

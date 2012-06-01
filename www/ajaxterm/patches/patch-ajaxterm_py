@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ajaxterm/patches/patch-ajaxterm_py,v 1.2 2009/04/06 15:30:13 ajacoutot Exp $
+$OpenBSD$
 --- ajaxterm.py.orig	Sun Oct 29 03:52:39 2006
 +++ ajaxterm.py	Tue Mar 31 12:32:31 2009
 @@ -1,12 +1,13 @@

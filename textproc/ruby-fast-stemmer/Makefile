@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-fast-stemmer/Makefile,v 1.3 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=		fast Porter stemmer for ruby
 

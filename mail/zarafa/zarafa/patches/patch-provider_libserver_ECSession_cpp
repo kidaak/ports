@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_libserver_ECSession_cpp,v 1.7 2012/03/15 17:04:31 ajacoutot Exp $
+$OpenBSD$
 --- provider/libserver/ECSession.cpp.orig	Tue Mar 13 16:43:38 2012
 +++ provider/libserver/ECSession.cpp	Thu Mar 15 16:42:28 2012
 @@ -810,11 +810,20 @@ ECRESULT ECAuthSession::ValidateUserSocket(int socket,

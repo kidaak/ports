@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-AttributeHelpers/pkg/PLIST,v 1.1.1.1 2009/11/17 04:45:04 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/
 ${P5SITE}/MooseX/AttributeHelpers/
 ${P5SITE}/MooseX/AttributeHelpers.pm

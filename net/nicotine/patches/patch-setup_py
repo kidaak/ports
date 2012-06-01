@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nicotine/patches/patch-setup_py,v 1.1.1.1 2004/02/16 21:16:06 xsa Exp $
+$OpenBSD$
 --- setup.py.orig	2003-11-02 04:41:32.000000000 +0100
 +++ setup.py	2004-02-12 02:16:00.000000000 +0100
 @@ -19,7 +19,7 @@ for mo in mo_dirs:

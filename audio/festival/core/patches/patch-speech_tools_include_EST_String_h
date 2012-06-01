@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-speech_tools_include_EST_String_h,v 1.1 2010/05/22 09:30:04 espie Exp $
+$OpenBSD$
 --- speech_tools/include/EST_String.h.orig	Thu May 13 11:35:04 2010
 +++ speech_tools/include/EST_String.h	Thu May 13 12:00:07 2010
 @@ -75,5 +75,6 @@ extern "C" void abort(void);

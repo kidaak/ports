@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/rubinius/pkg/PLIST,v 1.5 2011/07/20 22:51:33 jeremy Exp $
+@comment $OpenBSD$
 bin/rbx
 lib/rubinius/
 lib/rubinius/bin/

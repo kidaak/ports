@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/xnecview/Makefile,v 1.18 2011/11/01 19:00:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	NEC2 antenna simulator visualizer
 

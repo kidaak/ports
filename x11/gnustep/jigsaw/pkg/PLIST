@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/jigsaw/pkg/PLIST,v 1.1.1.1 2011/07/19 13:50:39 sebastia Exp $
+@comment $OpenBSD$
 bin/Jigsaw
 libexec/GNUstep/
 libexec/GNUstep/Jigsaw.app/

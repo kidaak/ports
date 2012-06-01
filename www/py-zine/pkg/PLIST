@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-zine/pkg/PLIST,v 1.1.1.1 2009/01/18 20:12:01 djm Exp $
+@comment $OpenBSD$
 lib/zine/
 lib/zine/plugins/
 lib/zine/plugins/akismet_spam_filter/

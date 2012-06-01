@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_base_jas_cm_c,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/base/jas_cm.c.orig	Fri Jan 19 22:43:05 2007
 +++ src/libjasper/base/jas_cm.c	Fri May 16 21:37:56 2008
 @@ -704,8 +704,7 @@ static int jas_cmpxformseq_resize(jas_cmpxformseq_t *p

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/minisat/Makefile,v 1.6 2011/11/02 19:18:35 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		minimalistic Boolean satisfiability solver
 

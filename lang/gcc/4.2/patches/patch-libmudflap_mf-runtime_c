@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-libmudflap_mf-runtime_c,v 1.2 2007/03/20 10:48:52 espie Exp $
+$OpenBSD$
 --- libmudflap/mf-runtime.c.orig	Wed Aug 17 05:21:42 2005
 +++ libmudflap/mf-runtime.c	Sun Mar 18 23:58:46 2007
 @@ -45,6 +45,7 @@ Software Foundation, 51 Franklin Street, Fifth Floor, 

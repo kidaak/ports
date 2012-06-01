@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/youtube-dl/Makefile,v 1.29 2012/03/07 22:00:07 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =	command-line program to download videos from YouTube.com
 

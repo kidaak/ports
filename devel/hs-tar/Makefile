@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-tar/Makefile,v 1.6 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =		tar bindings for Haskell
 

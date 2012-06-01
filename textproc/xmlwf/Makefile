@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/xmlwf/Makefile,v 1.3 2010/11/20 19:56:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	verifies XML documents
 V=		2.0.1

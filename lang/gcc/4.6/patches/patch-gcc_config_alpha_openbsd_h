@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_config_alpha_openbsd_h,v 1.2 2012/03/31 20:02:03 pascal Exp $
+$OpenBSD$
 --- gcc/config/alpha/openbsd.h.orig	Sun Sep 27 15:20:23 2009
 +++ gcc/config/alpha/openbsd.h	Sun Mar 11 19:52:18 2012
 @@ -19,6 +19,28 @@ along with GCC; see the file COPYING3.  If not see

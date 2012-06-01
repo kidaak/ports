@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-Random-ISAAC/Makefile,v 1.1.1.1 2012/04/12 13:53:03 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	interface to the ISAAC PRNG algorithm
 

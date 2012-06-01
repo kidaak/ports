@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gsettings-desktop-schemas/patches/patch-schemas_org_gnome_desktop_lockdown_gschema_xml_in_in,v 1.1 2012/04/07 12:21:48 ajacoutot Exp $
+$OpenBSD$
 
 By default it is not possible to run >1 instance of X(7) under OpenBSD
 at securelevel(7) 1, hence it is not possible to switch user.

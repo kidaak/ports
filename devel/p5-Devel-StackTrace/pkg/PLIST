@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Devel-StackTrace/pkg/PLIST,v 1.7 2010/12/11 09:19:02 landry Exp $
+@comment $OpenBSD$
 ${P5SITE}/Devel/
 ${P5SITE}/Devel/StackTrace/
 ${P5SITE}/Devel/StackTrace.pm

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/ghostscript/gnu/pkg/PFRAG.shared,v 1.1 2009/01/19 12:46:23 kili Exp $
+@comment $OpenBSD$
 include/ghostscript/
 include/ghostscript/gdevdsp.h
 include/ghostscript/iapi.h

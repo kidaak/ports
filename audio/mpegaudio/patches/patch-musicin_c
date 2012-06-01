@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mpegaudio/patches/patch-musicin_c,v 1.2 2010/05/19 16:18:28 espie Exp $
+$OpenBSD$
 --- musicin.c.orig	Wed Jan  5 02:13:44 1994
 +++ musicin.c	Wed May 19 18:16:41 2010
 @@ -101,12 +101,15 @@ musicin.c

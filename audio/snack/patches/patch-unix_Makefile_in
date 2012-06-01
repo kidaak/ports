@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/snack/patches/patch-unix_Makefile_in,v 1.2 2011/08/25 12:50:28 naddy Exp $
+$OpenBSD$
 
 don't override CFLAGS
 sndio bits

@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostview/patches/patch-SelFile_c,v 1.1 2002/04/26 01:44:08 espie Exp $
+$OpenBSD$
 --- SelFile.c.orig	Sat Jul 24 04:29:12 1993
 +++ SelFile.c	Fri Apr 26 02:40:34 2002
 @@ -46,7 +46,6 @@

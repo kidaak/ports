@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/vifm/patches/patch-src_ui_c,v 1.1.1.1 2009/08/09 21:49:33 landry Exp $
+$OpenBSD$
 --- src/ui.c.orig	Fri Aug  7 12:01:16 2009
 +++ src/ui.c	Fri Aug  7 12:01:26 2009
 @@ -291,8 +291,7 @@ redraw_window(void)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Format-Natural/Makefile,v 1.5 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	create machine readable date/time with natural parsing logic
 

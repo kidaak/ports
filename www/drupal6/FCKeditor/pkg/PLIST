@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/FCKeditor/pkg/PLIST,v 1.6 2012/03/18 16:16:24 sthen Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}fckeditor/

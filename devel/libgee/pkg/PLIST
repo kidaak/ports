@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libgee/pkg/PLIST,v 1.4 2012/03/29 07:24:25 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gee-0.8/
 include/gee-0.8/gee.h

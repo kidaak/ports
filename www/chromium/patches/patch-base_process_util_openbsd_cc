@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-base_process_util_openbsd_cc,v 1.9 2012/04/15 10:40:44 robert Exp $
+$OpenBSD$
 --- base/process_util_openbsd.cc.orig	Sat Apr 14 12:10:29 2012
 +++ base/process_util_openbsd.cc	Sat Apr 14 16:55:59 2012
 @@ -30,39 +30,59 @@

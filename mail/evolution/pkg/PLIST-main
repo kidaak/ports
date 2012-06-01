@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/evolution/pkg/PLIST-main,v 1.31 2012/03/30 09:00:29 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict evolution-plugins-<=3.2.2p0
 @pkgpath mail/evolution
 @bin bin/evolution

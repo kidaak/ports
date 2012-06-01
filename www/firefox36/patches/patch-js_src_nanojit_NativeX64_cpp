@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox36/patches/patch-js_src_nanojit_NativeX64_cpp,v 1.1 2011/03/26 10:58:36 landry Exp $
+$OpenBSD$
 allow to build the debug FLAVOR
 --- js/src/nanojit/NativeX64.cpp.orig	Tue Oct 26 23:24:13 2010
 +++ js/src/nanojit/NativeX64.cpp	Tue Oct 26 23:28:39 2010

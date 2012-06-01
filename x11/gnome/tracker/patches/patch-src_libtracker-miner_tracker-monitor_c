@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/tracker/patches/patch-src_libtracker-miner_tracker-monitor_c,v 1.7 2012/04/11 07:39:37 ajacoutot Exp $
+$OpenBSD$
 
 Recognize the gio-kqueue monitoring backend.
 (not to be pushed upstream before the glib changes are there first)

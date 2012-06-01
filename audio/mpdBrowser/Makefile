@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mpdBrowser/Makefile,v 1.10 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=		click & play MPD client
 

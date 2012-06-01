@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/gmpc/Makefile,v 1.47 2012/02/26 15:06:10 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GNOME music player client
 

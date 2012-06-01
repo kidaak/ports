@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/chromium-bsu/pkg/PLIST,v 1.2 2012/03/13 06:42:57 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/chromium-bsu
 @man man/man6/chromium-bsu.6
 share/applications/chromium-bsu.desktop

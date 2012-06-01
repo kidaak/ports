@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-ReadBackwards/Makefile,v 1.9 2012/01/29 02:41:33 william Exp $
+# $OpenBSD$
 
 COMMENT=	module to read a file starting at the end
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/py-tagger/pkg/PLIST,v 1.2 2006/09/20 13:22:42 xsa Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/tagger/
 lib/python${MODPY_VERSION}/site-packages/tagger/__init__.py
 lib/python${MODPY_VERSION}/site-packages/tagger/__init__.pyc

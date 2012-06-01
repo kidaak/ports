@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/chicken/Makefile,v 1.17 2011/03/09 06:23:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	practical and portable Scheme system
 

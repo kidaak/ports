@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/slib/patches/patch-mklibcat_scm,v 1.1 2005/12/05 16:28:33 espie Exp $
+$OpenBSD$
 --- mklibcat.scm.orig	Mon Dec  5 17:26:54 2005
 +++ mklibcat.scm	Mon Dec  5 17:27:04 2005
 @@ -17,7 +17,12 @@

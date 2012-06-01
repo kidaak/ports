@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/kinput2/Makefile,v 1.28 2012/03/17 23:01:09 naddy Exp $
+# $OpenBSD$
 
 COMMENT-canna=		X input method for Japanese, canna support
 COMMENT-canna-wnn=	X input method for Japanese, canna and wnn support

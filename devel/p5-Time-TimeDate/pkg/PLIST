@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Time-TimeDate/pkg/PLIST,v 1.10 2010/05/17 08:18:25 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Date/
 ${P5SITE}/Date/Format.pm
 ${P5SITE}/Date/Language/

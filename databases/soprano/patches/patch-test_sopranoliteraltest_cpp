@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/soprano/patches/patch-test_sopranoliteraltest_cpp,v 1.2 2010/06/16 13:42:24 espie Exp $
+$OpenBSD$
 --- test/sopranoliteraltest.cpp.orig	Fri May  1 15:39:20 2009
 +++ test/sopranoliteraltest.cpp	Fri May 28 22:44:58 2010
 @@ -152,6 +152,7 @@ void SopranoLiteralTest::testToString_data()

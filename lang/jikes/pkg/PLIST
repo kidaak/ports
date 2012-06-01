@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/jikes/pkg/PLIST,v 1.5 2004/09/15 19:16:08 espie Exp $
+@comment $OpenBSD$
 bin/jikes
 include/jikesapi.h
 @man man/man1/jikes.1

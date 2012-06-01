@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xscreensaver/pkg/PLIST-main,v 1.5 2009/12/21 20:46:03 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath x11/xscreensaver,no_gle
 @pkgpath x11/xscreensaver
 @mode 4755

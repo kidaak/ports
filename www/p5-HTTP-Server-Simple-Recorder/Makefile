@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTP-Server-Simple-Recorder/Makefile,v 1.5 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	record communication with an HTTP::Server::Simple
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/netpipes/Makefile,v 1.9 2010/10/18 18:36:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=	shell utilities to connect programs to sockets
 

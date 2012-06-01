@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/sarg/Makefile,v 1.13 2010/11/22 08:36:54 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Squid Analysis Report Generator
 

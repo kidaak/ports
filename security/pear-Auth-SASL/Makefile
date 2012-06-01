@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pear-Auth-SASL/Makefile,v 1.10 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	abstraction of various SASL mechanism responses
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dspam/patches/patch-man_Makefile_in,v 1.1 2010/10/24 12:14:08 naddy Exp $
+$OpenBSD$
 --- man/Makefile.in.orig	Sun Oct 24 13:51:14 2010
 +++ man/Makefile.in	Sun Oct 24 13:53:43 2010
 @@ -647,14 +647,14 @@ install-data-hook:

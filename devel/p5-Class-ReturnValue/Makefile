@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-ReturnValue/Makefile,v 1.11 2011/01/14 22:50:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	smart return-value object
 

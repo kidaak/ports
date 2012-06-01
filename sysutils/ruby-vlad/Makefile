@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ruby-vlad/Makefile,v 1.12 2011/11/09 00:09:44 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		pragmatic application deployment automation
 

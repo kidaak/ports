@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Audio-MPD-Common/Makefile,v 1.9 2011/04/20 11:42:17 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		bunch of common helper classes for MPD
 

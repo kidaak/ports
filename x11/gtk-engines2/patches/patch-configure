@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gtk-engines2/patches/patch-configure,v 1.8 2010/10/01 19:39:58 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Fri Oct  1 15:02:42 2010
 +++ configure	Fri Oct  1 21:33:56 2010
 @@ -11951,7 +11951,7 @@ fi

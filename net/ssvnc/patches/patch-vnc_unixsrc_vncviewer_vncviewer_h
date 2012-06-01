@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ssvnc/patches/patch-vnc_unixsrc_vncviewer_vncviewer_h,v 1.1 2011/04/27 22:07:09 sthen Exp $
+$OpenBSD$
 --- vnc_unixsrc/vncviewer/vncviewer.h.orig	Wed Apr 27 23:01:21 2011
 +++ vnc_unixsrc/vncviewer/vncviewer.h	Wed Apr 27 23:02:30 2011
 @@ -67,9 +67,9 @@ extern int endianTest;

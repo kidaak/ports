@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/streamripper/patches/patch-lib_charset_c,v 1.1 2011/12/01 18:57:48 shadchin Exp $
+$OpenBSD$
 --- lib/charset.c.orig	Mon Nov 21 00:21:11 2011
 +++ lib/charset.c	Mon Nov 21 00:21:19 2011
 @@ -26,6 +26,7 @@

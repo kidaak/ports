@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-SQL-ReservedWords/pkg/PLIST,v 1.1.1.1 2006/12/10 12:58:10 espie Exp $
+@comment $OpenBSD$
 bin/sqlrw
 ${P5SITE}/SQL/
 ${P5SITE}/SQL/ReservedWords/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-xulrunner_app_Makefile_in,v 1.6 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 https://bugzilla.mozilla.org/show_bug.cgi?id=648726
 --- xulrunner/app/Makefile.in.orig	Thu Aug 25 02:37:45 2011
 +++ xulrunner/app/Makefile.in	Mon Aug 29 14:55:04 2011

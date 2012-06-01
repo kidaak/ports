@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Convert-Color/Makefile,v 1.3 2011/10/05 17:30:57 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	color space conversions and named lookups
 

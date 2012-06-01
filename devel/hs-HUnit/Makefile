@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-HUnit/Makefile,v 1.11 2011/12/31 22:10:35 kili Exp $
+# $OpenBSD$
 
 COMMENT =		unit testing framework for Haskell
 

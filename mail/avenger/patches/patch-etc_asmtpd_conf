@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/avenger/patches/patch-etc_asmtpd_conf,v 1.1.1.1 2005/11/27 17:42:48 sturm Exp $
+$OpenBSD$
 --- etc/asmtpd.conf.orig	Fri Oct 21 05:49:40 2005
 +++ etc/asmtpd.conf	Sat Nov 26 11:47:12 2005
 @@ -44,7 +44,7 @@ Sendmail sendmail -Am -oi -os -oee

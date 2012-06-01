@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/rdp/Makefile,v 1.24 2010/11/26 14:56:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	ICMP router discovery protocol spoofer
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBD-CSV/Makefile,v 1.14 2011/06/27 18:41:53 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	perl DBI driver for CSV files
 

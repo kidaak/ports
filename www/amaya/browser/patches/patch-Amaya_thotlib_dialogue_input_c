@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/amaya/browser/patches/patch-Amaya_thotlib_dialogue_input_c,v 1.1 2003/06/17 15:03:54 avsm Exp $
+$OpenBSD$
 --- Amaya/thotlib/dialogue/input.c.orig	Tue Jun 17 15:49:22 2003
 +++ Amaya/thotlib/dialogue/input.c	Tue Jun 17 15:51:33 2003
 @@ -1252,7 +1252,7 @@ ThotTranslations      InitTranslations (

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/benchmarks/netperf/pkg/PLIST,v 1.5 2004/08/06 14:37:29 espie Exp $
+@comment $OpenBSD$
 bin/netperf
 bin/netserver
 @man man/man1/netperf.1

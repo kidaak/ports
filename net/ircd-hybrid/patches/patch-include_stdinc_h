@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ircd-hybrid/patches/patch-include_stdinc_h,v 1.2 2011/10/19 13:46:17 jasper Exp $
+$OpenBSD$
 --- include/stdinc.h.orig	Fri Oct 14 15:11:43 2011
 +++ include/stdinc.h	Fri Oct 14 15:12:31 2011
 @@ -65,6 +65,8 @@

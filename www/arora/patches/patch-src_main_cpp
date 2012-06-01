@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/arora/patches/patch-src_main_cpp,v 1.1.1.1 2011/05/22 19:31:09 landry Exp $
+$OpenBSD$
 --- src/main.cpp.orig	Sun May 15 01:47:10 2011
 +++ src/main.cpp	Sun May 15 01:47:43 2011
 @@ -27,7 +27,7 @@ int main(int argc, char **argv)

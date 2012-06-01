@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/god/patches/patch-lib_god_cli_run_rb,v 1.1.1.1 2008/10/08 20:52:27 jcs Exp $
+$OpenBSD$
 --- lib/god/cli/run.rb.orig	Tue Sep 30 00:15:40 2008
 +++ lib/god/cli/run.rb	Tue Sep 30 00:15:40 2008
 @@ -146,6 +146,10 @@ module God

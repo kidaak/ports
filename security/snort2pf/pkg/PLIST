@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/snort2pf/pkg/PLIST,v 1.1.1.1 2011/03/10 13:42:30 jasper Exp $
+@comment $OpenBSD$
 @man man/man8/snort2pf.8
 @man man/man8/snort2pfmon.8
 sbin/snort2pf

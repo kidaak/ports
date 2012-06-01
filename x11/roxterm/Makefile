@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/roxterm/Makefile,v 1.28 2012/01/30 10:18:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		terminal emulator for X
 

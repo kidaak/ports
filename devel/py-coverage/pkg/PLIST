@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-coverage/pkg/PLIST,v 1.4 2011/09/20 00:06:27 fgsch Exp $
+@comment $OpenBSD$
 bin/coverage
 lib/python${MODPY_VERSION}/site-packages/coverage/
 lib/python${MODPY_VERSION}/site-packages/coverage-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/

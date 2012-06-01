@@ -1,0 +1,12 @@
+$OpenBSD$
+--- frontend/main.c.orig	Wed May  2 16:44:58 2012
++++ frontend/main.c	Wed May  2 16:45:07 2012
+@@ -30,7 +30,7 @@
+ #endif
+ 
+ #ifdef HAVE_LIBMP4V2
+-# include <mp4.h>
++# include <mp4v2/mp4v2.h>
+ #endif
+ 
+ #define DEFAULT_TNS     0

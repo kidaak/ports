@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/edenmath/Makefile,v 1.2 2011/06/22 17:39:46 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep based scientific calcualtor
 

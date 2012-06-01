@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-KQueue/Makefile,v 1.11 2011/05/11 18:50:39 gsoares Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

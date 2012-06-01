@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/hatchet/pkg/PLIST,v 1.2 2008/07/03 12:32:30 jdixon Exp $
+@comment $OpenBSD$
 @owner root
 @group daemon
 hatchet/

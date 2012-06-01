@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Hash-Flatten/Makefile,v 1.2 2011/09/21 07:52:48 sthen Exp $ $
+# $OpenBSD$ $
 
 COMMENT =		flatten/unflatten complex data hashes
 

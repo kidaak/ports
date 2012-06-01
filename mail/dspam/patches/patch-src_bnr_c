@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dspam/patches/patch-src_bnr_c,v 1.1 2005/10/26 06:18:38 jakob Exp $
+$OpenBSD$
 --- src/bnr.c.orig	Sat Sep 24 19:49:48 2005
 +++ src/bnr.c	Mon Oct 17 14:48:42 2005
 @@ -137,11 +137,11 @@ int bnr_instantiate(BNR_CTX *BTX) {

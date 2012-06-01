@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/login_ldap/pkg/PLIST,v 1.8 2011/06/23 22:50:29 naddy Exp $
+@comment $OpenBSD$
 libexec/auth/
 @group auth
 @bin libexec/auth/login_-ldap

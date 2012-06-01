@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/mgetty+sendfax/patches/patch-policy_h_dist,v 1.4 2007/03/23 20:28:28 ajacoutot Exp $
+$OpenBSD$
 --- policy.h-dist.orig	Wed Feb 22 14:56:31 2006
 +++ policy.h-dist	Fri Mar 23 20:33:12 2007
 @@ -48,7 +48,7 @@

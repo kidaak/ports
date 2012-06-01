@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_src_solaris_native_com_sun_management_UnixOperatingSystem_md_c,v 1.1 2008/03/17 03:28:26 kurt Exp $
+$OpenBSD$
 --- j2se/src/solaris/native/com/sun/management/UnixOperatingSystem_md.c.orig	Sun Mar 16 09:33:26 2008
 +++ j2se/src/solaris/native/com/sun/management/UnixOperatingSystem_md.c	Sun Mar 16 09:40:42 2008
 @@ -324,12 +324,15 @@ Java_com_sun_management_UnixOperatingSystem_getTotalPh

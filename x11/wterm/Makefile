@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wterm/Makefile,v 1.31 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=		color vt102 terminal emulator with transparency support
 

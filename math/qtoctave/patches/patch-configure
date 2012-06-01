@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/qtoctave/patches/patch-configure,v 1.1.1.1 2007/10/07 18:37:01 steven Exp $
+$OpenBSD$
 --- configure.orig	Tue Jun  5 21:20:28 2007
 +++ configure	Thu Sep 20 21:23:06 2007
 @@ -270,71 +270,6 @@ class qc_qtoctavedep : public ConfObj

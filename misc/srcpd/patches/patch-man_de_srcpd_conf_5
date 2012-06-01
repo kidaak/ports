@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/srcpd/patches/patch-man_de_srcpd_conf_5,v 1.1.1.1 2010/12/11 11:14:54 sebastia Exp $
+$OpenBSD$
 --- man/de/srcpd.conf.5.orig	Fri Dec  3 17:21:36 2010
 +++ man/de/srcpd.conf.5	Fri Dec  3 17:22:08 2010
 @@ -52,8 +52,8 @@ vorkonfigurierten Bus.  Sie hat den folgenden Aufbau:

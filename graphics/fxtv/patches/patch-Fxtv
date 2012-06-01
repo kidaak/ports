@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/fxtv/patches/patch-Fxtv,v 1.4 2004/01/03 14:23:24 espie Exp $
+$OpenBSD$
 --- Fxtv.orig	Mon Feb 12 17:07:05 2001
 +++ Fxtv	Wed Aug 15 13:46:30 2001
 @@ -13,7 +13,7 @@ Fxtv*defaultInput:      tuner           

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/valknut/pkg/PLIST,v 1.1.1.1 2005/11/09 09:23:21 wilfried Exp $
+@comment $OpenBSD$
 bin/valknut
 share/valknut/
 share/valknut/COPYING

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/theme-acquia-marina/pkg/PLIST,v 1.1.1.1 2009/10/30 16:17:50 sthen Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_THEMES}/acquia_marina/

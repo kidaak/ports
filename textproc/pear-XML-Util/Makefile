@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/pear-XML-Util/Makefile,v 1.10 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	XML utility class for PHP
 

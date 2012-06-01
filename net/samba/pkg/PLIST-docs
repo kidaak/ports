@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/samba/pkg/PLIST-docs,v 1.17 2011/10/21 20:10:51 sthen Exp $
+@comment $OpenBSD$
 @conflict samba-<3.6.0
 @pkgpath net/samba,-docs,ads
 @pkgpath net/samba,-docs,cups

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/xv/patches/patch-xvpcd_c,v 1.1 2007/05/29 21:16:03 naddy Exp $
+$OpenBSD$
 --- xvpcd.c.orig	Sun May 27 00:39:02 2007
 +++ xvpcd.c	Sun May 27 00:39:29 2007
 @@ -30,9 +30,6 @@

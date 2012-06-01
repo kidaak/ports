@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Locale-Hebrew/Makefile,v 1.6 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 COMMENT=	bidirectional Hebrew support
 
 MODULES=	cpan

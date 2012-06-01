@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/mnemosyne/pkg/PLIST,v 1.9 2010/08/24 08:19:51 ajacoutot Exp $
+@comment $OpenBSD$
 bin/mnemosyne
 lib/python${MODPY_VERSION}/site-packages/Mnemosyne-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/Mnemosyne-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

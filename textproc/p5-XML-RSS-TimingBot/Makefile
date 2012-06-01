@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-RSS-TimingBot/Makefile,v 1.6 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	efficiently fetch RSS feeds
 

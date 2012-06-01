@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-LockFile-Simple/Makefile,v 1.4 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		perl module implementing simple file locking
 

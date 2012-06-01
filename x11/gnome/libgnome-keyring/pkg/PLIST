@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgnome-keyring/pkg/PLIST,v 1.8 2012/04/16 11:57:38 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gnome-keyring-1/
 include/gnome-keyring-1/gnome-keyring-memory.h

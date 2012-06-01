@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_webserver_src_php_lexer_c,v 1.1 2011/11/28 15:28:49 dcoppa Exp $
+$OpenBSD$
 --- src/webserver/src/php_lexer.c.orig	Mon Nov 28 12:17:33 2011
 +++ src/webserver/src/php_lexer.c	Mon Nov 28 12:19:01 2011
 @@ -31,7 +31,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ffproxy/pkg/PLIST,v 1.5 2004/11/26 16:37:10 alek Exp $
+@comment $OpenBSD$
 @newgroup _ffproxy:523
 @newuser _ffproxy:523:_ffproxy:daemon:ffproxy Account:/nonexistent:/sbin/nologin
 bin/ffproxy

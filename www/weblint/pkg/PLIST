@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/weblint/pkg/PLIST,v 1.5 2006/01/27 20:57:02 alek Exp $
+@comment $OpenBSD$
 @conflict p5-HTML-Lint-*
 bin/weblint
 @man man/man1/weblint.1

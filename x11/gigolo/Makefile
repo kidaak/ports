@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gigolo/Makefile,v 1.14 2011/09/19 07:54:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	GVfs mountpoint manager
 

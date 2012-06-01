@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/sqsh/patches/patch-configure,v 1.5 2011/04/15 16:13:23 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Fri Nov  9 14:58:04 2001
 +++ configure	Thu Apr 14 18:17:45 2011
 @@ -1123,7 +1123,7 @@ echo "configure:1098: checking Open Client libraries" 

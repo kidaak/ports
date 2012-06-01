@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mp3gain/Makefile,v 1.2 2007/09/15 21:26:02 simon Exp $
+# $OpenBSD$
 
 COMMENT=	audio file volume normalizer
 

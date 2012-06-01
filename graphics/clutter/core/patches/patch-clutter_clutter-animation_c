@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/clutter/core/patches/patch-clutter_clutter-animation_c,v 1.1 2011/04/07 07:44:46 jasper Exp $
+$OpenBSD$
 
 Fix spello, gobject-introspection would choke as it wouldn't be able to
 find the n_properies symbol.

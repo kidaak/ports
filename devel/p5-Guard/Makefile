@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Guard/Makefile,v 1.1.1.1 2010/12/13 09:53:16 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 COMMENT =	scope guards, lighter alternative

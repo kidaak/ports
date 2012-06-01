@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/astro/libnova/pkg/PFRAG.shared,v 1.1.1.1 2008/02/08 23:25:56 espie Exp $
+@comment $OpenBSD$
 @lib lib/libnova.so.${LIBnova_VERSION}

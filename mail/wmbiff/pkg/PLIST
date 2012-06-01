@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/wmbiff/pkg/PLIST,v 1.5 2004/09/15 09:09:45 espie Exp $
+@comment $OpenBSD$
 bin/wmbiff
 @comment lib/wmbiff/
 @comment lib/wmbiff/security.debian.rb

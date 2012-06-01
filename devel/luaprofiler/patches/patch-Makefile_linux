@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/luaprofiler/patches/patch-Makefile_linux,v 1.1.1.1 2010/07/08 12:28:57 jasper Exp $
+$OpenBSD$
 --- Makefile.linux.orig	Mon Jul  5 02:43:01 2010
 +++ Makefile.linux	Mon Jul  5 02:43:50 2010
 @@ -1,6 +1,6 @@

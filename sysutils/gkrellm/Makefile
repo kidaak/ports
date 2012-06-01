@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/Makefile,v 1.27 2010/02/01 17:00:14 espie Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += gkrellm

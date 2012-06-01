@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_content_media_nsAudioStream_cpp,v 1.1 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/content/media/nsAudioStream.cpp.orig	Wed Jul  7 08:51:17 2010
 +++ mozilla/content/media/nsAudioStream.cpp	Wed Jul  7 08:52:32 2010
 @@ -246,7 +246,7 @@ float nsAudioStream::GetPosition()

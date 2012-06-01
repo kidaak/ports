@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-TAP-Parser/patches/patch-Build_PL,v 1.1.1.1 2007/09/14 05:53:04 msf Exp $
+$OpenBSD$
 --- Build.PL.orig	Fri Sep 14 14:36:53 2007
 +++ Build.PL	Fri Sep 14 14:37:34 2007
 @@ -36,16 +36,6 @@ my $builder = $build_class->new(

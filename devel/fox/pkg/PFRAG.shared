@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/devel/fox/pkg/PFRAG.shared,v 1.6 2007/02/27 10:46:00 espie Exp $
+@comment $OpenBSD$
 @lib lib/libCHART-1.6.so.${LIBCHART-1.6_VERSION}
 @lib lib/libFOX-1.6.so.${LIBFOX-1.6_VERSION}

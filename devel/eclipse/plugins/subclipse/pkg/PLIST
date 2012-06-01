@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/plugins/subclipse/pkg/PLIST,v 1.2 2007/05/18 02:27:51 kurt Exp $
+@comment $OpenBSD$
 eclipse/features/org.tigris.subversion.subclipse.mylar_1.0.1.jar
 eclipse/features/org.tigris.subversion.subclipse_1.2.1.jar
 eclipse/plugins/org.tigris.subversion.javahl.win32_1.2.0.jar

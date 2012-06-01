@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Event-Recurrence/Makefile,v 1.4 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	DateTime::Set extension to create basic recurrence sets
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/graphics3/patches/patch-ksvg_impl_libs_libtext2path_src_Converter_cpp,v 1.2 2011/11/07 09:35:53 dcoppa Exp $
+$OpenBSD$
 
 Fix with fribidi 0.19.x
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Date-Calc/Makefile,v 1.23 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

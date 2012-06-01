@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/uuid/pkg/PLIST-main,v 1.7 2011/07/06 07:21:24 jasper Exp $
+@comment $OpenBSD$
 @conflict e2fsprogs-<=1.41.4p4
 @conflict uuid-*
 @pkgpath devel/uuid

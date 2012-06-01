@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/libgdiplus/Makefile,v 1.14 2011/03/14 08:44:38 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	GDI+ comptible API
 

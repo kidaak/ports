@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xdino/Makefile,v 1.24 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 #
 
 COMMENT=	dino puzzle game for X11

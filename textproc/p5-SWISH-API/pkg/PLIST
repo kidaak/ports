@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-SWISH-API/pkg/PLIST,v 1.1.1.1 2007/09/11 20:55:21 merdely Exp $
+@comment $OpenBSD$
 ${P5ARCH}/SWISH/
 ${P5ARCH}/SWISH/API.pm
 ${P5ARCH}/auto/SWISH/

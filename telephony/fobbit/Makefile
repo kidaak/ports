@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/fobbit/Makefile,v 1.2 2007/09/15 21:03:00 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	creative voip blaster driver/software
 DISTNAME=	fobbit-0.61

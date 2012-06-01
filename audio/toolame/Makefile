@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/toolame/Makefile,v 1.6 2010/09/06 00:04:28 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: ports/audio/toolame/Makefile,v 1.9 2004/02/08 01:13:48 lioux Exp $
 #
 

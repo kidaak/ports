@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/php-weathermap/patches/patch-lib_datasources_WeatherMapDataSource_mrtg_php,v 1.1 2011/09/27 11:15:00 sthen Exp $
+$OpenBSD$
 
 Allow larger headers when scraping bandwidth data from mrtg pages
 

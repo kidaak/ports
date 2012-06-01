@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/vanessa/logger/Makefile,v 1.3 2010/10/18 17:48:13 espie Exp $
+# $OpenBSD$
 
 COMMENT=	provides a generic logging layer
 

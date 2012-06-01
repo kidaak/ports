@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-SOAP-Lite/pkg/PLIST,v 1.7 2010/12/17 22:06:46 jasper Exp $
+@comment $OpenBSD$
 bin/SOAPsh.pl
 bin/XMLRPCsh.pl
 bin/stubmaker.pl

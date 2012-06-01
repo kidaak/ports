@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Data-UUID/pkg/PLIST,v 1.4 2011/01/04 05:50:38 kevlo Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Data/
 ${P5ARCH}/Data/UUID.pm

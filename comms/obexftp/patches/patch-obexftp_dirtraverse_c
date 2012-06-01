@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/obexftp/patches/patch-obexftp_dirtraverse_c,v 1.1.1.1 2004/11/12 08:06:54 grange Exp $
+$OpenBSD$
 --- obexftp/dirtraverse.c.orig	Wed Oct 20 22:11:21 2004
 +++ obexftp/dirtraverse.c	Wed Oct 20 22:11:36 2004
 @@ -29,6 +29,7 @@

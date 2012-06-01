@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/templates/Makefile.template,v 1.61 2012/03/29 13:41:58 sthen Exp $
+# $OpenBSD$
 # $FreeBSD/NetBSD: credit FreeBSD/NetBSD if thats where the port came from $
 # Original from: credit the original author here
 #

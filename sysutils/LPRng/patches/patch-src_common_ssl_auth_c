@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/LPRng/patches/patch-src_common_ssl_auth_c,v 1.1 2010/10/03 21:41:01 jasper Exp $
+$OpenBSD$
 
 Fix build with OpenSSL 1.0.
 

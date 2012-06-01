@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/pantomime/patches/patch-Framework_Pantomime_CWIMAPCacheManager_m,v 1.1 2011/06/24 10:56:41 sebastia Exp $
+$OpenBSD$
 
 fix to build with gcc-2.95
 

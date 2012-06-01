@@ -1,4 +1,4 @@
-$OpenBSD: ports/meta/gnome/pkg/README-main,v 1.5 2012/02/23 09:22:06 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

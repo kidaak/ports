@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/zaz/pkg/PLIST,v 1.1.1.1 2011/05/31 17:51:32 kili Exp $
+@comment $OpenBSD$
 @bin bin/zaz
 share/applications/zaz.desktop
 @comment share/doc/zaz/

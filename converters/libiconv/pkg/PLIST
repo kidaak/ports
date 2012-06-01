@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/libiconv/pkg/PLIST,v 1.9 2009/04/24 18:56:49 naddy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/iconv
 include/iconv.h

@@ -1,5 +1,5 @@
 # ex:ts=8 sw=4:
-# $OpenBSD: ports/infrastructure/lib/DPB/Fetch.pm,v 1.40 2012/04/10 16:50:33 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2010 Marc Espie <espie@openbsd.org>
 #

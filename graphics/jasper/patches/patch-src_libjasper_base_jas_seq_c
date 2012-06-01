@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_base_jas_seq_c,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/base/jas_seq.c.orig	Fri Jan 19 22:43:05 2007
 +++ src/libjasper/base/jas_seq.c	Fri May 16 21:13:18 2008
 @@ -114,7 +114,7 @@ jas_matrix_t *jas_matrix_create(int numrows, int numco

@@ -1,9 +1,9 @@
-$OpenBSD: ports/benchmarks/lmbench/patches/patch-src_memsize_c,v 1.1 2011/07/08 09:33:25 jasper Exp $
+$OpenBSD$
 --- src/memsize.c.orig	Sat Nov 11 19:42:42 1995
 +++ src/memsize.c	Fri Jul  8 11:31:35 2011
 @@ -10,6 +10,7 @@
   */
- char	*id = "$Id: memsize.c,v 1.6 1995/10/26 01:03:42 lm Exp $\n";
+ char	*id = "$Id$\n";
  
 +#include <stdlib.h>
  #include "timing.c"

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gloox/patches/patch-src_Makefile_in,v 1.2 2010/07/29 06:31:15 sebastia Exp $
+$OpenBSD$
 
 Do not use the hardcoded make
 Get rid of GCC parameters that gcc-2.95 does not know of

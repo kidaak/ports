@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/octave/Makefile,v 1.58 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 # vax:   no IEEE arithmetic
 # sparc: fPIC version of libgcc.a needed but not available

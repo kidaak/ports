@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/go/patches/patch-src_pkg_runtime_sys_openbsd_amd64_s,v 1.2 2012/04/15 13:37:27 jsing Exp $
+$OpenBSD$
 --- src/pkg/runtime/sys_openbsd_amd64.s.orig	Wed Mar 28 15:49:26 2012
 +++ src/pkg/runtime/sys_openbsd_amd64.s	Fri Mar  2 02:03:18 2012
 @@ -8,20 +8,23 @@

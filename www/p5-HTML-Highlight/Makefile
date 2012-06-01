@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Highlight/Makefile,v 1.3 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to highlight words or patterns in HTML documents
 

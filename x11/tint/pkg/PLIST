@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/tint/pkg/PLIST,v 1.4 2010/12/14 11:07:31 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/tint2
 @bin bin/tint2conf
 bin/tintwizard.py

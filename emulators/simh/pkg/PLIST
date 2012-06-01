@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/simh/pkg/PLIST,v 1.26 2009/03/06 10:33:23 form Exp $
+@comment $OpenBSD$
 @bin bin/simh-altair
 @bin bin/simh-altairz80
 @bin bin/simh-eclipse

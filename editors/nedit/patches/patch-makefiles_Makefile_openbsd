@@ -1,8 +1,8 @@
-$OpenBSD: ports/editors/nedit/patches/patch-makefiles_Makefile_openbsd,v 1.9 2010/04/24 20:18:39 naddy Exp $
+$OpenBSD$
 --- makefiles/Makefile.openbsd.orig	Sat Nov 22 06:03:39 2003
 +++ makefiles/Makefile.openbsd	Sat Oct 27 07:31:57 2007
 @@ -1,6 +1,6 @@
- # $Id: patch-makefiles_Makefile_openbsd,v 1.8 2007/10/27 14:01:38 mbalmer Exp $
+ # $Id$
 -CC=cc
 -AR=ar
 +CC?=cc

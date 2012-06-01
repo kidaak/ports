@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/angst/Makefile,v 1.20 2010/11/26 14:56:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	active packet sniffer
 

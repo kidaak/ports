@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-twitter/Makefile,v 1.6 2012/04/06 13:29:57 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		twitter python module
 

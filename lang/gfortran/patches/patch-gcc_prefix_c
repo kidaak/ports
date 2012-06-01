@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_prefix_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/prefix.c.orig	Sat Dec 17 21:45:46 2005
 +++ gcc/prefix.c	Mon Jun 14 19:23:04 2010
 @@ -99,7 +99,7 @@ get_key_value (char *key)

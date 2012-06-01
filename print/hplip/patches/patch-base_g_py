@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-base_g_py,v 1.4 2012/02/17 15:55:36 ajacoutot Exp $
+$OpenBSD$
 --- base/g.py.orig	Fri Dec  9 12:20:37 2011
 +++ base/g.py	Fri Feb 17 16:54:10 2012
 @@ -144,12 +144,12 @@ class ConfigBase(object):

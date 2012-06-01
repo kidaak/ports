@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/irssi-silc/Makefile,v 1.27 2012/03/08 12:13:01 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

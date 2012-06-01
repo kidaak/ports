@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/qucs/pkg/PLIST,v 1.1.1.1 2011/09/15 15:20:17 jasper Exp $
+@comment $OpenBSD$
 bin/ps2sp
 @bin bin/qucs
 @bin bin/qucsator

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ffcall/Makefile,v 1.19 2011/04/16 10:51:39 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: ports/devel/ffcall/Makefile,v 1.2 2001/08/31 14:20:18 sobomax Exp $
 # Original From:                jagapen@home.com
 

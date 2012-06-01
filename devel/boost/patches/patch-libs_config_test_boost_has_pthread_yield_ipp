@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boost/patches/patch-libs_config_test_boost_has_pthread_yield_ipp,v 1.2 2010/03/30 11:00:15 robert Exp $
+$OpenBSD$
 --- libs/config/test/boost_has_pthread_yield.ipp.orig	Tue May 12 18:36:21 2009
 +++ libs/config/test/boost_has_pthread_yield.ipp	Tue May 12 18:36:56 2009
 @@ -17,7 +17,7 @@ namespace boost_has_pthread_yield{

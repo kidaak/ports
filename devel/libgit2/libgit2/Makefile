@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libgit2/libgit2/Makefile,v 1.3 2011/08/28 16:59:22 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		the Git library, take 2
 

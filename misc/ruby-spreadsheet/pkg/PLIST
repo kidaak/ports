@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/ruby-spreadsheet/pkg/PLIST,v 1.1.1.1 2010/12/23 13:54:33 claudio Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/xlsopcodes${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

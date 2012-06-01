@@ -1,4 +1,4 @@
-$OpenBSD: ports/inputmethods/uim/patches/patch-configure_ac,v 1.5 2008/10/14 02:16:46 kevlo Exp $
+$OpenBSD$
 --- configure.ac.orig	Sun Sep  7 16:47:35 2008
 +++ configure.ac	Fri Oct  3 16:09:47 2008
 @@ -1101,15 +1101,10 @@ if test x$use_qt = xyes ; then

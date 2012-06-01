@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/pear-HTML-Select/Makefile,v 1.12 2011/09/16 12:00:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	class for generating HTML form select elements for PHP
 

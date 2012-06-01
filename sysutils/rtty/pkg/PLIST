@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/rtty/pkg/PLIST,v 1.6 2004/09/15 18:39:33 espie Exp $
+@comment $OpenBSD$
 rtty/
 rtty/README
 rtty/bin/

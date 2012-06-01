@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/phpmailer/Makefile,v 1.3 2011/01/11 14:04:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	send mail by smtp/smtp-auth from drupal
 

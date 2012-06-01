@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/baker/pkg/PLIST,v 1.8 2011/12/03 22:17:15 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gnomebaker
 share/applications/gnomebaker.desktop
 share/gnome/help/gnomebaker/

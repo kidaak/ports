@@ -1,4 +1,4 @@
-$OpenBSD: ports/biology/py-biopython/patches/patch-Tests_run_tests_py,v 1.3 2009/06/02 04:48:32 wcmaier Exp $
+$OpenBSD$
 --- Tests/run_tests.py.orig	Thu Apr 16 04:37:26 2009
 +++ Tests/run_tests.py	Mon Jun  1 21:17:37 2009
 @@ -65,11 +65,11 @@ def main(argv):

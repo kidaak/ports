@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/rdesktop/Makefile,v 1.37 2012/03/14 18:36:04 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	open source client for Windows Terminal Server
 DISTNAME=	rdesktop-1.7.1

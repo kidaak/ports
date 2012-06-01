@@ -1,9 +1,9 @@
-# $OpenBSD: ports/x11/xfce4/xfce4.port.mk,v 1.16 2011/12/03 18:33:03 ajacoutot Exp $
+# $OpenBSD$
 
 # Module for Xfce related ports, divided into five categories:
 # core, goodie, artwork, thunar plugins, panel plugins.
 
-XFCE_DESKTOP_VERSION=	4.8.0
+XFCE_DESKTOP_VERSION=	4.10.0
 CATEGORIES+=	x11/xfce4
 
 USE_GMAKE?=	Yes

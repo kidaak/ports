@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-src_codecs_qutfcodec_cpp,v 1.1 2007/03/31 22:49:46 espie Exp $
+$OpenBSD$
 --- src/codecs/qutfcodec.cpp.orig	Thu Oct 19 16:25:07 2006
 +++ src/codecs/qutfcodec.cpp	Sat Mar 31 14:51:50 2007
 @@ -154,6 +154,7 @@ int QUtf8Codec::heuristicContentMatch(const char* char

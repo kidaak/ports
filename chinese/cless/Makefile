@@ -3,7 +3,7 @@
 # Date created:         Thu Jan 18, 2000
 # Whom:                 Kevin Lo <kevlo@openbsd.org>
 #
-# $OpenBSD: ports/chinese/cless/Makefile,v 1.17 2010/10/18 16:57:47 espie Exp $
+# $OpenBSD$
 #
 
 COMMENT=	pager utility that speaks Chinese

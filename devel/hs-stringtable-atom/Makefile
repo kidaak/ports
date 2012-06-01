@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-stringtable-atom/Makefile,v 1.8 2011/12/31 22:19:45 kili Exp $
+# $OpenBSD$
 
 COMMENT =		memoize strings as atoms
 

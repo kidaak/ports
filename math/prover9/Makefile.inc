@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/prover9/Makefile.inc,v 1.2 2011/06/29 18:11:25 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES ?=	math
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-POE-Component-Jabber/Makefile,v 1.9 2010/12/03 11:45:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		POE Component for communicating over Jabber
 

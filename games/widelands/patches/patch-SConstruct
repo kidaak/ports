@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/widelands/patches/patch-SConstruct,v 1.1 2009/04/04 14:53:38 ajacoutot Exp $
+$OpenBSD$
 
 Needed with newer scons to avoid the following error:
 scons: *** [installtarget] AttributeError : 'NoneType' object has no attribute 'genstring'

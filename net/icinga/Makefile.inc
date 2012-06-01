@@ -1,6 +1,6 @@
-# $OpenBSD: ports/net/icinga/Makefile.inc,v 1.9 2011/12/03 15:01:38 sthen Exp $
+# $OpenBSD$
 
-V ?= 1.6.1
+V ?= 1.7.0
 
 CATEGORIES+=	net net/icinga
 

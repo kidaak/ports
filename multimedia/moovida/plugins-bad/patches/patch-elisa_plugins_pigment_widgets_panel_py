@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/moovida/plugins-bad/patches/patch-elisa_plugins_pigment_widgets_panel_py,v 1.1.1.1 2009/10/15 15:41:57 landry Exp $
+$OpenBSD$
 Workaround WTFBUG https://bugs.launchpad.net/elisa/+bug/379409
 --- elisa/plugins/pigment/widgets/panel.py.orig	Wed Sep  9 16:15:23 2009
 +++ elisa/plugins/pigment/widgets/panel.py	Thu Oct 15 17:19:03 2009

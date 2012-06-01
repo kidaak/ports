@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/wireless/Makefile,v 1.20 2011/07/07 00:08:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GkrellM2 plugin to monitor wi(4) signal strength
 

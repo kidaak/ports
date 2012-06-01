@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/comms/openobex/pkg/PFRAG.shared,v 1.2 2005/12/23 14:16:01 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libopenobex.so.${LIBopenobex_VERSION}

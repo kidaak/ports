@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/wxMaxima/pkg/PLIST,v 1.2 2011/03/02 14:03:16 shadchin Exp $
+@comment $OpenBSD$
 @bin bin/wxmaxima
 share/applications/wxmaxima.desktop
 share/locale/ca/LC_MESSAGES/wxMaxima.mo

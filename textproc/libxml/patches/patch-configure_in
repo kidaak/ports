@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/libxml/patches/patch-configure_in,v 1.1 2012/02/23 09:39:00 sthen Exp $
+$OpenBSD$
 
 CVE-2012-0841
 http://git.gnome.org/browse/libxml2/commit/?id=8973d58b7498fa5100a876815476b81fd1a2412a

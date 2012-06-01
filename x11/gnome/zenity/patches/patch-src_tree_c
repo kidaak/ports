@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/zenity/patches/patch-src_tree_c,v 1.4 2012/03/29 11:44:21 ajacoutot Exp $
+$OpenBSD$
 
 https://bugzilla.gnome.org/show_bug.cgi?id=653468
 --auto-close broken by fix for #540560

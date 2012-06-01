@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/slirp/patches/patch-main_c,v 1.1 2003/06/20 13:41:50 avsm Exp $
+$OpenBSD$
 --- main.c.orig	Fri Jun 20 14:27:12 2003
 +++ main.c	Fri Jun 20 14:27:19 2003
 @@ -393,7 +393,7 @@ main_init(argc, argv)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ggz/ggz-client-libs/patches/patch-ggz-wrapper_loop_c,v 1.1.1.1 2008/11/17 18:22:14 jasper Exp $
+$OpenBSD$
 --- ggz-wrapper/loop.c.orig	Mon Nov 17 19:04:15 2008
 +++ ggz-wrapper/loop.c	Mon Nov 17 19:04:38 2008
 @@ -34,6 +34,7 @@

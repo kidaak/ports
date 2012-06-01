@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Devel-SawAmpersand/pkg/PLIST,v 1.1.1.1 2007/06/04 18:37:26 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/B/
 ${P5ARCH}/B/FindAmpersand.pm

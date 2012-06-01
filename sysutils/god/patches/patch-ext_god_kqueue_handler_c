@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/god/patches/patch-ext_god_kqueue_handler_c,v 1.1.1.1 2008/10/08 20:52:27 jcs Exp $
+$OpenBSD$
 --- ext/god/kqueue_handler.c.orig	Mon Sep 29 23:48:56 2008
 +++ ext/god/kqueue_handler.c	Mon Sep 29 23:49:01 2008
 @@ -1,4 +1,4 @@

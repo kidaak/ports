@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/g77/pkg/PLIST,v 1.2 2011/06/21 20:17:53 naddy Exp $
+@comment $OpenBSD$
 @bin bin/f77
 @bin bin/g77
 @comment bin/gccbug

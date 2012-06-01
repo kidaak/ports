@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/multimedia/patches/patch-libkcompactdisc_wmlib_plat_openbsd_c,v 1.1.1.1 2008/02/09 15:39:24 espie Exp $
+$OpenBSD$
 --- libkcompactdisc/wmlib/plat_openbsd.c.orig	Sat Jan  5 01:02:05 2008
 +++ libkcompactdisc/wmlib/plat_openbsd.c	Sat Feb  9 16:04:45 2008
 @@ -30,6 +30,7 @@

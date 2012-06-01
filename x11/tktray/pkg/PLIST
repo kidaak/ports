@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/tktray/pkg/PLIST,v 1.4 2011/01/05 17:47:49 sebastia Exp $
+@comment $OpenBSD$
 lib/tcl/tktray/
 @lib lib/tcl/tktray/libtktray139.so.${LIBtktray139_VERSION}
 lib/tcl/tktray/pkgIndex.tcl

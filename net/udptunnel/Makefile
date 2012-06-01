@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/udptunnel/Makefile,v 1.7 2011/06/10 13:36:04 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	UDP tunnel utility
 

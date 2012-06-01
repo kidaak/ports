@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-bin_bric_clean_tmp,v 1.2 2007/09/21 21:17:56 sturm Exp $
+$OpenBSD$
 --- bin/bric_clean_tmp.orig	Thu Jul  8 07:46:48 2004
 +++ bin/bric_clean_tmp	Fri Sep 21 08:08:26 2007
 @@ -12,7 +12,7 @@ bric_clean_tmp - Bricolage temp directory maintenance

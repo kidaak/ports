@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/yaws/pkg/PLIST-web,v 1.2 2011/05/27 17:04:43 jasper Exp $
+@comment $OpenBSD$
 yaws/
 yaws/ebin/
 yaws/ebin/myappmod.beam

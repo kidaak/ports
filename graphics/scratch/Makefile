@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/scratch/Makefile,v 1.3 2010/11/17 08:05:16 espie Exp $
+# $OpenBSD$
 
 COMMENT =		visual programming environment and toolkit
 

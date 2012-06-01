@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/human-icon-theme/Makefile,v 1.9 2011/12/03 19:13:18 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Human icon theme from Ubuntu
 

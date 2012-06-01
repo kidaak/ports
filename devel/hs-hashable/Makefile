@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-hashable/Makefile,v 1.1.1.1 2012/01/15 16:58:28 kili Exp $
+# $OpenBSD$
 
 COMMENT =		class for hashable data types
 

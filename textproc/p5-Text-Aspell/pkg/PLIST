@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Text-Aspell/pkg/PLIST,v 1.1.1.1 2007/07/22 16:14:30 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Text/
 ${P5ARCH}/Text/Aspell.pm

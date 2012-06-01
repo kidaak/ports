@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-GetLive/pkg/PLIST,v 1.2 2011/05/05 13:37:04 gsoares Exp $
+@comment $OpenBSD$
 bin/GetLive
 share/doc/GetLive/
 share/doc/GetLive/License

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ivan/patches/patch-Main_Source_command_cpp,v 1.1 2010/06/07 14:48:32 espie Exp $
+$OpenBSD$
 --- Main/Source/command.cpp.orig	Mon Jun  7 16:42:47 2010
 +++ Main/Source/command.cpp	Mon Jun  7 16:42:53 2010
 @@ -1043,7 +1043,7 @@ truth commandsystem::Go(character* Char)

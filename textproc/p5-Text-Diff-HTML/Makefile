@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Diff-HTML/Makefile,v 1.9 2011/07/10 12:17:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		XHTML format for Text::Diff::Unified
 

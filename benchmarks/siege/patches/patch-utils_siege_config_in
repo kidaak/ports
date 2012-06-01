@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/siege/patches/patch-utils_siege_config_in,v 1.1.1.1 2009/04/09 00:19:14 sthen Exp $
+$OpenBSD$
 --- utils/siege.config.in.orig	Wed Feb 18 11:27:17 2009
 +++ utils/siege.config.in	Wed Feb 18 11:27:29 2009
 @@ -14,7 +14,7 @@ if test -f $rcfile; then

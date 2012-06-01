@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/p5-Net-SIP/Makefile,v 1.14 2012/01/01 11:36:26 bluhm Exp $
+# $OpenBSD$
 
 COMMENT =		perl framework for SIP
 

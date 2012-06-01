@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-IO-Interface/pkg/PLIST,v 1.4 2006/10/10 05:40:05 kevlo Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/IO/
 ${P5ARCH}/IO/Interface/

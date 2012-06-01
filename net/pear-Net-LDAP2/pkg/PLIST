@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pear-Net-LDAP2/pkg/PLIST,v 1.1.1.1 2011/06/08 09:08:53 sthen Exp $
+@comment $OpenBSD$
 @group daemon
 lib/
 lib/php/

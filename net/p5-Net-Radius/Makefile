@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Radius/Makefile,v 1.8 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl interface to Radius
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cvsps/Makefile,v 1.3 2010/10/18 17:47:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	generate patchsets from CVS repositories
 

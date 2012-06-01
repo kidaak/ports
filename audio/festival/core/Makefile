@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/core/Makefile,v 1.22 2012/01/03 07:03:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	general multi-lingual speech synthesis system
 V=		1.95

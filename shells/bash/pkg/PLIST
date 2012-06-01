@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/shells/bash/pkg/PLIST,v 1.15 2011/03/15 19:22:08 naddy Exp $
+@comment $OpenBSD$
 @pkgpath shells/bash,static
 @shell bin/bash
 bin/bashbug

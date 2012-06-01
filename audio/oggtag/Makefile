@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/oggtag/Makefile,v 1.10 2010/11/15 13:08:38 espie Exp $
+# $OpenBSD$
 COMMENT=	command-line editor for tags in Ogg Vorbis files
 
 DISTNAME=	oggtag_1.0

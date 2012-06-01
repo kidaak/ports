@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/jvim/pkg/PLIST,v 1.5 2005/03/16 15:43:19 naddy Exp $
+@comment $OpenBSD$
 @conflict sleuthkit-*
 bin/jcat
 bin/jfold

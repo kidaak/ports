@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/py-dot/Makefile,v 1.13 2011/09/16 10:02:37 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Python interface to Graphviz's Dot
 

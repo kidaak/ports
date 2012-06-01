@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Config-Any/pkg/PLIST,v 1.2 2009/01/26 20:19:18 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Config/
 ${P5SITE}/Config/Any/
 ${P5SITE}/Config/Any.pm

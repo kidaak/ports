@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/subtitleripper/Makefile,v 1.5 2012/03/21 23:52:16 fgsch Exp $
+# $OpenBSD$
 
 COMMENT=	subtitle ripper, used with transcode
 

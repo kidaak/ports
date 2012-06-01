@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mailscanner/Makefile,v 1.48 2012/03/06 20:09:40 pea Exp $
+# $OpenBSD$
 
 COMMENT=	virus/spam scanning framework
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/JLS/Makefile,v 1.5 2010/03/21 16:12:01 ian Exp $
+# $OpenBSD$
 
 COMMENT=        Sun's official Java Language Specification
 

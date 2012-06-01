@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/tiff/patches/patch-tools_Makefile_in,v 1.8 2011/05/09 08:14:43 giovanni Exp $
+$OpenBSD$
 
 Avoid picking up an old libtiff in ${LOCALBASE}.
 

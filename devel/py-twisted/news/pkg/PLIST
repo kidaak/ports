@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-twisted/news/pkg/PLIST,v 1.4 2011/06/20 10:25:32 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Twisted_News-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/twisted/news/
 lib/python${MODPY_VERSION}/site-packages/twisted/news/__init__.py

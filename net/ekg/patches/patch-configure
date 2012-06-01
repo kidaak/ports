@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ekg/patches/patch-configure,v 1.1 2008/10/27 15:33:52 bernd Exp $
+$OpenBSD$
 
 Don't pick up libexecinfo (devel/libexecinfo) if it's installed.
 

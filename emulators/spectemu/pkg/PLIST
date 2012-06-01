@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/spectemu/pkg/PLIST,v 1.2 2004/09/15 00:42:04 espie Exp $
+@comment $OpenBSD$
 bin/xspect
 @man man/man1/xspect.1
 share/doc/spectemu/

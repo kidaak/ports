@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-Finance-Bank-DE-DTA-Create/Makefile,v 1.1.1.1 2011/11/14 14:02:05 henning Exp $
+# $OpenBSD$
 
 COMMENT=	create DTA/DTAUS files for german banking
 

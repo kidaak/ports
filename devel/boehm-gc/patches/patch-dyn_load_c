@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boehm-gc/patches/patch-dyn_load_c,v 1.6 2008/04/01 17:41:13 kurt Exp $
+$OpenBSD$
 --- dyn_load.c.orig	Thu Jun 28 17:36:03 2007
 +++ dyn_load.c	Thu Mar 20 18:09:28 2008
 @@ -63,6 +63,7 @@ static int (*GC_has_static_roots)(const char *, void *

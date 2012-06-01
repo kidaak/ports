@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/ogre/pkg/PLIST-samples,v 1.2 2012/03/18 15:11:37 pascal Exp $
+@comment $OpenBSD$
 @bin bin/SampleBrowser
 lib/OGRE/Samples/
 lib/OGRE/Samples/Sample_BSP.so

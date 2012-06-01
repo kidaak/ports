@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-chrome_browser_memory_details_cc,v 1.8 2012/04/03 13:59:35 robert Exp $
+$OpenBSD$
 --- chrome/browser/memory_details.cc.orig	Tue Mar 27 03:02:19 2012
 +++ chrome/browser/memory_details.cc	Sun Apr  1 20:04:42 2012
 @@ -32,7 +32,7 @@

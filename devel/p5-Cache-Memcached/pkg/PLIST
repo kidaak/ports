@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Cache-Memcached/pkg/PLIST,v 1.2 2008/10/04 22:59:43 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Cache/
 ${P5SITE}/Cache/Memcached/
 ${P5SITE}/Cache/Memcached.pm

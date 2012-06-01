@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/libpst/patches/patch-configure,v 1.2 2012/01/09 18:25:44 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Sun Dec 25 00:19:22 2011
 +++ configure	Mon Jan  9 18:22:08 2012
 @@ -24111,7 +24111,7 @@ if { as_var=$as_ac_Lib; eval "test \"\${$as_var+set}\"

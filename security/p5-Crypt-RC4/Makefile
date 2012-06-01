@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-RC4/Makefile,v 1.9 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	implementation of the RC4 encryption algorithm
 

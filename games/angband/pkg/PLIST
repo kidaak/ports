@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/angband/pkg/PLIST,v 1.14 2012/04/11 16:16:33 edd Exp $
+@comment $OpenBSD$
 %%sdl%%
 @extraunexec rm /var/games/angband/*/* 2>/dev/null || true
 @mode g+s

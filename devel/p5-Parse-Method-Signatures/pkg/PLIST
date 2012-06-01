@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Parse-Method-Signatures/pkg/PLIST,v 1.1.1.1 2010/01/12 09:43:26 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Parse/
 ${P5SITE}/Parse/Method/
 ${P5SITE}/Parse/Method/Signatures/

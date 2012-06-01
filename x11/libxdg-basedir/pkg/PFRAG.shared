@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/libxdg-basedir/pkg/PFRAG.shared,v 1.1.1.1 2010/03/31 12:31:21 dcoppa Exp $
+@comment $OpenBSD$
 @lib lib/libxdg-basedir.so.${LIBxdg-basedir_VERSION}

@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/spice/patches/patch-src_bin_sconvert_c,v 1.1 2001/08/02 23:54:56 pvalchev Exp $
+$OpenBSD$
 --- src/bin/sconvert.c.orig	Mon Sep 14 19:30:41 1992
 +++ src/bin/sconvert.c	Thu Aug  2 17:32:11 2001
 @@ -42,6 +42,7 @@ main(ac, av)

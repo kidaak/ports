@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/webdev/Makefile,v 1.38 2011/12/03 23:34:05 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT = 		web development tool
 CATEGORIES =		x11 x11/kde

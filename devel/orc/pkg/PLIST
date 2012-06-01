@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/orc/pkg/PLIST,v 1.5 2011/10/04 06:45:41 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/orc-bugreport
 @bin bin/orcc

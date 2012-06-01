@@ -1,11 +1,10 @@
-# $OpenBSD: ports/www/py-repoze-profile/Makefile,v 1.6 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	aggregate profiling for wsgi requests
 
-MODPY_EGG_VERSION = 1.1
+MODPY_EGG_VERSION = 1.4
 DISTNAME =	repoze.profile-${MODPY_EGG_VERSION}
 PKGNAME =	py-${DISTNAME:S/./-/}
-REVISION =	2
 
 CATEGORIES =	www devel
 

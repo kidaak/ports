@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mingw/pkg/PLIST,v 1.3 2011/11/17 15:52:39 pirofti Exp $
+@comment $OpenBSD$
 mingw32/
 mingw32/bin/
 @bin mingw32/bin/ar

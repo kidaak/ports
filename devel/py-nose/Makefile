@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-nose/Makefile,v 1.18 2012/03/13 12:23:53 eric Exp $
+# $OpenBSD$
 
 COMMENT=		discovery-based unittest extension
 
@@ -29,7 +29,7 @@ FLAVOR?=
 .if ${FLAVOR:L:Mpython3}
 NO_REGRESS=		Yes
 .else
-REGRESS_DEPENDS=	devel/py-nose$ \
+REGRESS_DEPENDS=	devel/py-nose \
 			devel/py-twisted/core \
 			devel/py-coverage
 .endif

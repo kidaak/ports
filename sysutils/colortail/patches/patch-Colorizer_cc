@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/colortail/patches/patch-Colorizer_cc,v 1.1.1.1 2004/02/26 00:30:05 naddy Exp $
+$OpenBSD$
 --- Colorizer.cc.orig	2004-01-11 16:15:16.000000000 -0500
 +++ Colorizer.cc	2004-01-11 16:15:46.000000000 -0500
 @@ -23,7 +23,7 @@

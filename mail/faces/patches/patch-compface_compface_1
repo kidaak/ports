@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/faces/patches/patch-compface_compface_1,v 1.1 2000/06/04 23:08:34 espie Exp $
+$OpenBSD$
 --- compface/compface.1.orig	Fri Mar 15 06:10:29 1991
 +++ compface/compface.1	Mon Jun  5 00:48:26 2000
 @@ -12,6 +12,8 @@ compface, uncompface \- compress and exp

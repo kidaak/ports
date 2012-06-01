@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Parse-Method-Signatures/Makefile,v 1.9 2011/10/29 16:31:26 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		perl6-like method signature parser
 

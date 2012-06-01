@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/py-paramiko/Makefile,v 1.26 2011/10/22 07:29:01 rpointel Exp $
+# $OpenBSD$
 
 COMMENT = 	Python module that implements the SSH2 protocol
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-zlib_configure,v 1.1 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- zlib/configure.orig	Wed Jan 25 17:52:40 2012
 +++ zlib/configure	Wed Jan 25 17:52:47 2012
 @@ -9793,7 +9793,7 @@ openbsd*)

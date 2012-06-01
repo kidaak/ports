@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-ole/Makefile,v 1.3 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT =	provides read/write access to OLE2 structured storage files
 

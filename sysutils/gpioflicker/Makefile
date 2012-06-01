@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gpioflicker/Makefile,v 1.6 2012/01/26 19:31:38 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		flashes gpio led whenever pf logs to pflog0
 

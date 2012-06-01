@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-rtf/Makefile,v 1.10 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Rich Text Format document generation in Python
 

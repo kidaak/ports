@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_config_t-openbsd,v 1.2 2009/04/16 18:36:48 espie Exp $
+$OpenBSD$
 --- gcc/config/t-openbsd.orig	Tue Sep 23 20:56:00 2003
 +++ gcc/config/t-openbsd	Sat Apr 11 14:22:32 2009
 @@ -1,2 +1,8 @@

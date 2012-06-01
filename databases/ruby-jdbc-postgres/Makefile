@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-jdbc-postgres/Makefile,v 1.2 2011/03/14 17:53:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	access a PostgreSQL database from JRuby
 

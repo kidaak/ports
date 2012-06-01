@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/calc/pkg/PLIST,v 1.7 2004/09/15 09:11:58 espie Exp $
+@comment $OpenBSD$
 bin/calc
 bin/cscript/
 bin/cscript/4dsphere

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-bin_bric_pgimport,v 1.1.1.1 2006/11/10 17:04:37 sturm Exp $
+$OpenBSD$
 --- bin/bric_pgimport.orig	Sun Oct 22 10:34:10 2006
 +++ bin/bric_pgimport	Sun Oct 22 10:34:45 2006
 @@ -35,7 +35,7 @@ should work if psql is in your path.

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-sphinx/pkg/PLIST,v 1.2 2010/12/11 11:02:08 martynas Exp $
+@comment $OpenBSD$
 bin/sphinx-autogen
 bin/sphinx-build
 bin/sphinx-quickstart

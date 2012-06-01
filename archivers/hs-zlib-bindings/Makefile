@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/hs-zlib-bindings/Makefile,v 1.5 2011/12/28 09:24:08 kili Exp $
+# $OpenBSD$
 
 COMMENT=		low-level bindings to the zlib package
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/yt/pkg/PLIST,v 1.1.1.1 2007/02/04 13:23:12 jasper Exp $
+@comment $OpenBSD$
 bin/yt

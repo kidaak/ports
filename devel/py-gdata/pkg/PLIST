@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-gdata/pkg/PLIST,v 1.9 2011/04/10 21:09:45 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/atom/
 lib/python${MODPY_VERSION}/site-packages/atom/__init__.py
 lib/python${MODPY_VERSION}/site-packages/atom/__init__.pyc

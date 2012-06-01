@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openvpn/patches/patch-syshead_h,v 1.2 2012/01/12 08:15:30 sthen Exp $
+$OpenBSD$
 --- syshead.h.orig	Thu Apr 21 20:13:34 2011
 +++ syshead.h	Mon Jun 20 10:09:54 2011
 @@ -33,7 +33,7 @@

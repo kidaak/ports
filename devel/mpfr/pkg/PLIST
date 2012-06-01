@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mpfr/pkg/PLIST,v 1.2 2011/05/27 20:49:53 naddy Exp $
+@comment $OpenBSD$
 @conflict gmp-<4.2
 %%SHARED%%
 include/mpf2mpfr.h

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-ghc-paths/pkg/PLIST,v 1.5 2010/11/03 19:23:05 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/GHC/
 lib/ghc/${DISTNAME}/GHC/Paths.hi

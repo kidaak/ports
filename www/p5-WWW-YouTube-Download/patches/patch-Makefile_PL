@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-WWW-YouTube-Download/patches/patch-Makefile_PL,v 1.4 2012/04/07 20:54:07 sthen Exp $
+$OpenBSD$
 
 Module::Install::AuthorTests is missing in ports tree,
 but not really essential.

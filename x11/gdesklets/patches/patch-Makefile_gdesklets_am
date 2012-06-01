@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gdesklets/patches/patch-Makefile_gdesklets_am,v 1.1 2011/04/20 15:25:47 ajacoutot Exp $
+$OpenBSD$
 
 http://mail.gnome.org/archives/gdesklets-list/2011-February/msg00001.html
 (should be fixed next release -- patch from Gentoo)

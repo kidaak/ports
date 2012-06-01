@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xmascot/pkg/PLIST,v 1.6 2004/09/15 19:26:35 espie Exp $
+@comment $OpenBSD$
 bin/xmascot
 lib/X11/app-defaults/XMascot
 lib/X11/xmascot/

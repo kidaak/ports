@@ -1,5 +1,5 @@
 Use j prefix elsewhere as well.
-$OpenBSD: ports/japanese/groff/patches/patch-configure,v 1.1.1.1 2000/04/12 20:34:11 espie Exp $
+$OpenBSD$
 --- configure.orig	Wed Apr 12 14:35:51 2000
 +++ configure	Wed Apr 12 14:36:03 2000
 @@ -1901,18 +1901,7 @@ fi

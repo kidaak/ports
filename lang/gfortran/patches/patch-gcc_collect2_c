@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_collect2_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/collect2.c.orig	Fri May 19 00:16:23 2006
 +++ gcc/collect2.c	Mon Jun 14 19:23:03 2010
 @@ -753,19 +753,19 @@ main (int argc, char **argv)

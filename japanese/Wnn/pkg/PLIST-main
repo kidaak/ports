@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/Wnn/pkg/PLIST-main,v 1.2 2012/01/26 08:03:56 ajacoutot Exp $
+@comment $OpenBSD$
 @newuser _wnn:517:bin:daemon:Wnn server:/nonexistent:/sbin/nologin
 @pkgpath japanese/Wnn
 bin/atod

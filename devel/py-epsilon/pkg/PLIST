@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-epsilon/pkg/PLIST,v 1.5 2009/12/28 09:30:09 eric Exp $
+@comment $OpenBSD$
 bin/benchmark
 lib/python${MODPY_VERSION}/site-packages/Epsilon-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/epsilon/

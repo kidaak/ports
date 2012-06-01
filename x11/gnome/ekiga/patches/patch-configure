@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/ekiga/patches/patch-configure,v 1.5 2011/10/26 17:02:53 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Tue Aug 23 00:54:32 2011
 +++ configure	Tue Oct 25 12:52:40 2011
 @@ -16450,8 +16450,8 @@ fi

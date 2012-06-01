@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/amd/pkg/PLIST,v 1.4 2010/10/26 17:55:26 pirofti Exp $
+@comment $OpenBSD$
 %%SHARED%%
 %%no_mips64%%
 include/amd/

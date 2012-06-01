@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/rocksndiamonds/pkg/PLIST,v 1.13 2011/05/11 06:56:43 ajacoutot Exp $
+@comment $OpenBSD$
 @extraunexec rm -rf /var/games/rocksndiamonds/*
 @mode 2555
 @group games

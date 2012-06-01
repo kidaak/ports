@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xscrabble/Makefile,v 1.30 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=	X11 version of the popular board game
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/netwmpager/Makefile,v 1.10 2010/10/24 21:15:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	small EWMH compliant pager
 

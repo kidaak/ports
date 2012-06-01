@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pcsc-lite/patches/patch-src-sys_generic_h,v 1.2 2005/12/25 09:13:57 sturm Exp $
+$OpenBSD$
 --- src/sys_generic.h.orig	Wed Nov  7 23:54:32 2001
 +++ src/sys_generic.h	Sun Dec 25 10:08:58 2005
 @@ -19,6 +19,8 @@

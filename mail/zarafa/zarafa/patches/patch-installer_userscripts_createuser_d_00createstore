@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-installer_userscripts_createuser_d_00createstore,v 1.2 2011/06/02 12:46:37 ajacoutot Exp $
+$OpenBSD$
 --- installer/userscripts/createuser.d/00createstore.orig	Wed Apr 20 16:39:09 2011
 +++ installer/userscripts/createuser.d/00createstore	Mon May  2 12:47:53 2011
 @@ -3,7 +3,7 @@

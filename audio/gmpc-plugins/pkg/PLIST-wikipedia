@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/gmpc-plugins/pkg/PLIST-wikipedia,v 1.2 2009/09/21 18:33:57 landry Exp $
+@comment $OpenBSD$
 lib/gmpc/
 lib/gmpc/plugins/
 lib/gmpc/plugins/wikiplugin.a

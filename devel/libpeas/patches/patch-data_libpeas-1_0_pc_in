@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libpeas/patches/patch-data_libpeas-1_0_pc_in,v 1.1 2012/04/07 13:48:45 ajacoutot Exp $
+$OpenBSD$
 
 From 2d6ea307cf45af6b92b1cd708d0ee288aca0b3fe Mon Sep 17 00:00:00 2001
 From: Olav Vitters <olav@vitters.nl>

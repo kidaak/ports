@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi-icb/patches/patch-src_fe-common_module-formats_h,v 1.1 2008/04/21 10:35:27 sthen Exp $
+$OpenBSD$
 --- src/fe-common/module-formats.h.orig	Sat Apr 27 21:56:18 2002
 +++ src/fe-common/module-formats.h	Sun Oct 21 15:31:29 2007
 @@ -8,7 +8,9 @@ enum {

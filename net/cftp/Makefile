@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/cftp/Makefile,v 1.5 2010/07/12 22:07:37 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	full screen FTP client
 

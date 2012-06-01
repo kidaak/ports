@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/plan9/9menu/pkg/PLIST,v 1.3 2004/09/15 18:23:11 espie Exp $
+@comment $OpenBSD$
 bin/9menu
 @man man/man1/9menu.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/fox/patches/patch-configure,v 1.2 2010/04/26 09:15:00 stephan Exp $
+$OpenBSD$
 --- configure.orig	Thu Apr  8 15:40:14 2010
 +++ configure	Thu Apr  8 15:42:14 2010
 @@ -23078,13 +23078,13 @@ fi

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Convert-ASCII-Armour/Makefile,v 1.8 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	convert binary octets into ASCII armoured messages
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/exiftran/pkg/PLIST,v 1.1.1.1 2011/10/04 07:28:36 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/exiftran
 @bin bin/thumbnail.cgi
 @man man/man1/exiftran.1

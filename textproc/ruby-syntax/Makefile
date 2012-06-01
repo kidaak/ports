@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-syntax/Makefile,v 1.3 2011/09/16 11:41:42 espie Exp $
+# $OpenBSD$
 
 COMMENT =	module for using syntax highlighting in ruby
 

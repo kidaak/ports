@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libxsvf/patches/patch-xsvftool-xpcu_src_xsvftool-xpcu_c,v 1.1.1.1 2011/08/27 06:46:20 jasper Exp $
+$OpenBSD$
 
 Implement (read-only) fmemopen() which is only found in GLIBC.
 

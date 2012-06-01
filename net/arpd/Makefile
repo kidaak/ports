@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/arpd/Makefile,v 1.15 2011/09/16 11:13:37 espie Exp $
+# $OpenBSD$
 			
 COMMENT=		ARP reply daemon
 

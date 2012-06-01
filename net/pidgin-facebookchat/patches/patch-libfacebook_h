@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pidgin-facebookchat/patches/patch-libfacebook_h,v 1.1 2010/10/24 19:19:06 steven Exp $
+$OpenBSD$
 --- libfacebook.h.orig	Sun Oct 24 19:03:03 2010
 +++ libfacebook.h	Sun Oct 24 19:03:27 2010
 @@ -51,6 +51,9 @@

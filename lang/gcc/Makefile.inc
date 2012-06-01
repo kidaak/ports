@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gcc/Makefile.inc,v 1.12 2011/11/19 22:19:53 pascal Exp $
+# $OpenBSD$
 
 # common stuff for all gcc ports
 # we assume each one defines a V variable.

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-libjava_include_config_h_in,v 1.1.1.1 2005/01/03 15:21:27 espie Exp $
+$OpenBSD$
 --- libjava/include/config.h.in.orig	Mon Jun  3 16:40:12 2002
 +++ libjava/include/config.h.in	Mon Jun  3 16:40:42 2002
 @@ -77,6 +77,9 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Audio-Musepack/Makefile,v 1.7 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	object-oriented interface to Musepack/APE file information
 

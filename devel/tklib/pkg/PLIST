@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/tklib/pkg/PLIST,v 1.2 2011/01/05 16:37:10 stu Exp $
+@comment $OpenBSD$
 lib/tcl/autoscroll/
 lib/tcl/autoscroll/autoscroll.tcl
 lib/tcl/autoscroll/pkgIndex.tcl

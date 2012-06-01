@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/freeradius/pkg/PLIST-pgsql,v 1.3 2011/04/15 09:44:06 pea Exp $
+@comment $OpenBSD$
 @conflict freeradius-<2.1.8
 lib/freeradius/rlm_sql_postgresql.so
 share/doc/freeradius/examples/postgresql_update_radacct_group_trigger.sql

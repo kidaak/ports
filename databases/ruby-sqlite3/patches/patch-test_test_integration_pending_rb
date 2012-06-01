@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/ruby-sqlite3/patches/patch-test_test_integration_pending_rb,v 1.1 2011/09/07 16:02:40 jeremy Exp $
+$OpenBSD$
 
 Fix hang when running the test suite using rubinius.  skip would be
 better but rubinius uses ruby 1.8 stdlib and doesn't support it.

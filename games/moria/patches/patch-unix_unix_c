@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/moria/patches/patch-unix_unix_c,v 1.1.1.1 2001/07/04 16:57:50 lebel Exp $
+$OpenBSD$
 --- unix/unix.c.orig	Thu Jul 21 18:36:49 1994
 +++ unix/unix.c	Tue Jul  3 13:02:35 2001
 @@ -18,7 +18,7 @@

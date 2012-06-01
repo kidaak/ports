@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/mboxgrep/pkg/PLIST,v 1.2 2004/09/15 09:09:42 espie Exp $
+@comment $OpenBSD$
 bin/mboxgrep
 @info info/mboxgrep.info
 @man man/man1/mboxgrep.1

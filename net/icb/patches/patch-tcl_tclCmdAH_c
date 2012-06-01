@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icb/patches/patch-tcl_tclCmdAH_c,v 1.2 2010/05/22 14:23:48 espie Exp $
+$OpenBSD$
 --- tcl/tclCmdAH.c.orig	Fri Feb 24 22:19:53 1995
 +++ tcl/tclCmdAH.c	Sat May 22 16:16:44 2010
 @@ -38,9 +38,17 @@ static char rcsid[] = "$Header: /home/agamotto/mark/pk

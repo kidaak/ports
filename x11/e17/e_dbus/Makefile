@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/e_dbus/Makefile,v 1.10 2011/11/18 12:20:33 nigel Exp $
+# $OpenBSD$
 
 COMMENT =		enlightenment DBus component
 DISTNAME =		e_dbus-1.0.0

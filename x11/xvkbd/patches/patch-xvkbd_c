@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xvkbd/patches/patch-xvkbd_c,v 1.1 2005/05/08 14:46:57 naddy Exp $
+$OpenBSD$
 --- xvkbd.c.orig	Sat May  7 01:33:40 2005
 +++ xvkbd.c	Sat May  7 01:33:09 2005
 @@ -340,7 +340,7 @@ static XtResource application_resources[

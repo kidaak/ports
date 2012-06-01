@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/blas/Makefile,v 1.20 2011/11/18 11:16:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Basic Linear Algebra Subprograms
 

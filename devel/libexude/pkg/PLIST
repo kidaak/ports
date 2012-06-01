@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libexude/pkg/PLIST,v 1.2 2011/07/04 16:40:21 dhill Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/exude.h
 lib/libexude.a

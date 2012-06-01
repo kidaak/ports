@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/p5-Archive-Zip/patches/patch-t_10_chmod_t,v 1.1 2010/10/15 18:50:23 sthen Exp $
+$OpenBSD$
 
 http://rt.cpan.org/Public/Bug/Display.html?id=61930
 

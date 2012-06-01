@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/proj/Makefile,v 1.8 2010/11/21 09:31:00 landry Exp $
+# $OpenBSD$
 
 COMMENT=	cartographic projection utilities
 

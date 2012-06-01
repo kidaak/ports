@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xdeblock/pkg/PLIST,v 1.4 2004/09/15 00:46:11 espie Exp $
+@comment $OpenBSD$
 bin/xdeblo
 lib/X11/xdeblock/
 lib/X11/xdeblock/mapf/

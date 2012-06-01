@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/recordmydesktop/gtk/patches/patch-src_rmdConfig_py_in,v 1.1 2009/09/22 12:11:02 ajacoutot Exp $
+$OpenBSD$
 
 Disable sound by default as it requires configuration and will not
 work out-of-the-box.

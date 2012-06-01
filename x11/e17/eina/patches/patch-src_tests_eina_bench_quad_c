@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/eina/patches/patch-src_tests_eina_bench_quad_c,v 1.1 2011/01/16 00:31:30 laurent Exp $
+$OpenBSD$
 --- src/tests/eina_bench_quad.c.orig	Sun Nov 21 14:17:15 2010
 +++ src/tests/eina_bench_quad.c	Sun Nov 21 14:17:28 2010
 @@ -173,10 +173,20 @@ eina_bench_quadtree_render_loop(int request)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/synergy/patches/patch-cmake_CMakeLists_config_txt,v 1.1 2011/04/18 18:37:48 jasper Exp $
+$OpenBSD$
 --- cmake/CMakeLists_config.txt.orig	Sun Jan 23 06:53:37 2011
 +++ cmake/CMakeLists_config.txt	Mon Apr 18 14:45:20 2011
 @@ -41,7 +41,7 @@ IF(UNIX)

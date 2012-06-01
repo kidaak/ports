@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gmp/Makefile,v 1.22 2011/06/15 16:11:25 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	library for arbitrary precision arithmetic
 

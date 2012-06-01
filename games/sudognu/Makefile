@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/sudognu/Makefile,v 1.8 2010/10/18 18:00:18 espie Exp $
+# $OpenBSD$
 
 COMMENT=	sudoku solver and creator
 

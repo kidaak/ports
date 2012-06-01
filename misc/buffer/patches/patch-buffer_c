@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/buffer/patches/patch-buffer_c,v 1.2 2010/05/22 21:28:21 espie Exp $
+$OpenBSD$
 --- buffer.c.orig	Sat Oct 30 18:54:47 1999
 +++ buffer.c	Sat May 22 23:27:19 2010
 @@ -118,6 +118,7 @@

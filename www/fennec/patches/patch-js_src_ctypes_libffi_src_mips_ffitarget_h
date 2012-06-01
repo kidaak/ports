@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-js_src_ctypes_libffi_src_mips_ffitarget_h,v 1.2 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 
 There's no sgidefs on OpenBSD, so don't bother including it.
 

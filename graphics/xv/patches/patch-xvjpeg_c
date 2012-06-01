@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/xv/patches/patch-xvjpeg_c,v 1.1 2009/09/24 20:07:18 naddy Exp $
+$OpenBSD$
 --- xvjpeg.c.orig	Thu Sep 24 21:58:28 2009
 +++ xvjpeg.c	Thu Sep 24 21:58:45 2009
 @@ -696,7 +696,7 @@ L2:

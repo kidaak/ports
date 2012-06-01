@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/freeimage/Makefile,v 1.3 2012/03/17 20:54:25 pascal Exp $
+# $OpenBSD$
 
 COMMENT=		c++ library for common image format
 

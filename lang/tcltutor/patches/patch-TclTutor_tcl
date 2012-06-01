@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/tcltutor/patches/patch-TclTutor_tcl,v 1.4 2011/11/07 03:06:48 stu Exp $
+$OpenBSD$
 --- TclTutor.tcl.orig	Sat Jan  8 08:35:46 2011
 +++ TclTutor.tcl	Fri Nov  4 20:58:15 2011
 @@ -1,8 +1,8 @@

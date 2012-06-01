@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-PAR/Makefile,v 1.8 2011/12/01 12:32:37 gsoares Exp $
+# $OpenBSD$
 
 COMMENT =	Perl Archive Toolkit
 

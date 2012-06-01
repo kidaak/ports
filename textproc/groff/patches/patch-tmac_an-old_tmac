@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/groff/patches/patch-tmac_an-old_tmac,v 1.1 2011/12/04 15:41:26 schwarze Exp $
+$OpenBSD$
 In man(7), show default volume headers like in mdoc(7).
 Inspired by IllumOS, suggested by Yuri Pankov.
 Similar patch accepted upstream into groff by Werner Lemberg.

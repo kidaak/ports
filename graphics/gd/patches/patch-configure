@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/gd/patches/patch-configure,v 1.4 2007/07/02 10:46:04 steven Exp $
+$OpenBSD$
 --- configure.orig	Mon Apr 23 16:57:52 2007
 +++ configure	Tue Jun 26 08:11:35 2007
 @@ -22322,7 +22322,7 @@ if test `eval echo '${'$as_ac_Header'}'` = yes; then

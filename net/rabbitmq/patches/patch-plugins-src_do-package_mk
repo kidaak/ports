@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rabbitmq/patches/patch-plugins-src_do-package_mk,v 1.1 2012/01/13 20:54:25 sthen Exp $
+$OpenBSD$
 --- plugins-src/do-package.mk.orig	Fri Dec 16 12:24:15 2011
 +++ plugins-src/do-package.mk	Tue Dec 20 16:52:19 2011
 @@ -286,7 +286,7 @@ $(eval $(foreach D,$(TEST_SOURCE_DIRS),$(call package_

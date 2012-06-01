@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/apache-ant/pkg/PLIST,v 1.9 2011/05/02 07:20:34 landry Exp $
+@comment $OpenBSD$
 @conflict jakarta-ant-*
 ant/
 ant/bin/

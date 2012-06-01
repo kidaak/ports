@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/libxslt/patches/patch-python_Makefile_in,v 1.10 2009/10/11 10:40:22 steven Exp $
+$OpenBSD$
 
 Don't bother installing an empty file.
 

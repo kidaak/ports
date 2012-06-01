@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/numptyphysics/pkg/PLIST-npcomplete,v 1.1 2009/05/19 21:28:17 sthen Exp $
+@comment $OpenBSD$
 @conflict numptyphysics-0.3.r20090104p1
 share/numptyphysics/AlmostEasy.nph
 share/numptyphysics/Bell.nph

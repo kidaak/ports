@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Test-WWW-Mechanize/pkg/PLIST,v 1.3 2012/04/07 20:04:39 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Test/WWW/
 ${P5SITE}/Test/WWW/Mechanize.pm
 @man man/man3p/Test::WWW::Mechanize.3p

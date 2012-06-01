@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/d-feet/Makefile,v 1.16 2011/12/29 09:10:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		dbus debugger
 

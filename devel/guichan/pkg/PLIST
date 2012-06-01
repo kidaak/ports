@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/guichan/pkg/PLIST,v 1.1.1.1 2008/08/22 11:38:25 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/guichan/
 include/guichan.hpp

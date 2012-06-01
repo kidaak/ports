@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/drupal6/user_import/patches/patch-supported_alt_login_inc,v 1.1 2009/09/20 13:32:36 espie Exp $
+$OpenBSD$
 --- supported/alt_login.inc.orig	Sun Sep 20 15:30:34 2009
 +++ supported/alt_login.inc	Sun Sep 20 15:30:20 2009
 @@ -0,0 +1,33 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/sablotron/pkg/PLIST,v 1.10 2009/05/21 13:07:10 benoit Exp $
+@comment $OpenBSD$
 @bin bin/sabcmd
 bin/sablot-config
 include/sabcfg.h

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/maradns/Makefile,v 1.19 2012/03/20 22:13:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	simple and performant DNS server
 

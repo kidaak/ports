@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pear-Auth/Makefile,v 1.11 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	authentication system for PHP5
 

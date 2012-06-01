@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ADMfzap/Makefile,v 1.13 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=		connect() and bind() wrapper to evade packet filtering
 

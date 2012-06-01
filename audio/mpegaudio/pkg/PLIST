@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/mpegaudio/pkg/PLIST,v 1.3 2004/08/06 14:37:27 espie Exp $
+@comment $OpenBSD$
 bin/mpeg_musicin
 bin/mpeg_musicout
 lib/mpegaudio/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-Path-Expand/pkg/PLIST,v 1.1.1.1 2006/11/13 00:09:35 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/Path/
 ${P5SITE}/File/Path/Expand.pm

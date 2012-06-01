@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Finance-Currency-Convert-XE/Makefile,v 1.10 2011/05/31 09:09:11 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 		currency conversion
 

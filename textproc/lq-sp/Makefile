@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/lq-sp/Makefile,v 1.11 2010/11/10 22:44:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	SGML parser and entity manager
 

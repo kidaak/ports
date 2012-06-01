@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Crypt-CBC/pkg/PLIST,v 1.6 2008/10/06 17:01:16 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Crypt/
 ${P5SITE}/Crypt/CBC.pm
 @man man/man3p/Crypt::CBC.3p

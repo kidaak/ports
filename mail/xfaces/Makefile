@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/xfaces/Makefile,v 1.35 2010/11/19 07:23:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	mail image display for X11
 

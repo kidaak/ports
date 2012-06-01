@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/postler/patches/patch-postler_postler-accounts_vala,v 1.1.1.1 2011/03/22 08:25:18 landry Exp $
+$OpenBSD$
 --- postler/postler-accounts.vala.orig	Mon Mar 21 02:06:07 2011
 +++ postler/postler-accounts.vala	Mon Mar 21 11:32:00 2011
 @@ -151,10 +151,7 @@ public class Postler.Accounts : GLib.Object {

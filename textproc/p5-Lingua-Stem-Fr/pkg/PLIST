@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Lingua-Stem-Fr/pkg/PLIST,v 1.1.1.1 2004/12/30 03:01:02 msf Exp $
+@comment $OpenBSD$
 ${P5SITE}/Lingua/
 ${P5SITE}/Lingua/Stem/
 ${P5SITE}/Lingua/Stem/Fr.pm

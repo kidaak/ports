@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/udis86/Makefile,v 1.1.1.1 2010/05/13 22:19:14 pirofti Exp $
+# $OpenBSD$
 
 COMMENT =	easy-to-use minimalistic disassembler library
 

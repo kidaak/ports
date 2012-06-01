@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/qlandkarte/Makefile,v 1.24 2012/02/21 16:21:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	garmin gps map management tool
 

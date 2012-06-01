@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ziproxy/Makefile,v 1.7 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		compressing non-caching HTTP proxy
 

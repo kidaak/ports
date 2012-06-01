@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_openbsd_h,v 1.2 2012/04/23 14:06:42 pascal Exp $
+$OpenBSD$
 --- gcc/config/openbsd.h.orig	Tue Nov 26 05:54:46 2002
 +++ gcc/config/openbsd.h	Thu Apr 12 17:42:38 2012
 @@ -52,20 +52,20 @@ Boston, MA 02111-1307, USA.  */

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/fetchmail/patches/patch-Makefile_in,v 1.17 2011/06/06 13:57:07 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Jun  6 12:22:47 2011
 +++ Makefile.in	Mon Jun  6 14:18:29 2011
 @@ -1616,7 +1616,7 @@ info: info-recursive

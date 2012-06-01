@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-common_platform_linux_h,v 1.12 2011/12/22 17:10:04 ajacoutot Exp $
+$OpenBSD$
 --- common/platform.linux.h.orig	Thu Dec 22 01:02:34 2011
 +++ common/platform.linux.h	Thu Dec 22 12:14:19 2011
 @@ -63,8 +63,16 @@

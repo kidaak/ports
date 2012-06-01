@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmodplug/patches/patch-src_load_abc_cpp,v 1.1 2011/05/05 21:25:48 jasper Exp $
+$OpenBSD$
 
 Prevent abc_remove_unnecessary_events() from removing the last track.
 From upstream git: d7c36959757fc6c8e4d487be8a72383093d9d26f

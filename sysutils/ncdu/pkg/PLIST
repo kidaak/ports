@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/sysutils/ncdu/pkg/PLIST,v 1.2 2008/10/24 12:09:37 jasper Exp $
+@comment $OpenBSD$
 @bin bin/ncdu
 @man man/man1/ncdu.1

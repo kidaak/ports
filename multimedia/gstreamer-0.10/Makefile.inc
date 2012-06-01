@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/gstreamer-0.10/Makefile.inc,v 1.20 2012/04/05 16:24:35 ajacoutot Exp $
+# $OpenBSD$
 
 CATEGORIES ?=	multimedia devel
 
@@ -36,8 +36,9 @@ BUILD_DEPENDS +=	devel/bison \
 AUTOCONF_VERSION ?=	2.68
 CONFIGURE_STYLE ?=	autoconf
 
+LOCALSTATEDIR=		${BASELOCALSTATEDIR}/db
+
 CONFIGURE_ARGS +=	${CONFIGURE_SHARED} \
-			--localstatedir=/var/db \
 			--with-default-audiosink=sndiosink \
 			--with-default-audiosrc=sndiosrc \
 			--with-default-videosink=xvimagesink \

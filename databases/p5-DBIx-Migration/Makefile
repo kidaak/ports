@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-Migration/Makefile,v 1.8 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	seamless DB up- and downgrades
 

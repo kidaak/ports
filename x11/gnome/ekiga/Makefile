@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/ekiga/Makefile,v 1.52 2012/03/02 09:06:24 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

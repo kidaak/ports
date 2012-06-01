@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/chocolate-doom/Makefile,v 1.11 2012/03/23 08:47:03 rfreeman Exp $
+# $OpenBSD$
 
 COMMENT =	portable version of iD Software's Doom
 DISTNAME =	chocolate-doom-1.6.0

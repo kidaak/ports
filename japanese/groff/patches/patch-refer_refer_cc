@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/groff/patches/patch-refer_refer_cc,v 1.1 2010/05/09 21:26:54 robert Exp $
+$OpenBSD$
 --- refer/refer.cc.orig	Sun May  9 23:24:19 2010
 +++ refer/refer.cc	Sun May  9 23:25:34 2010
 @@ -513,7 +513,7 @@ static void do_file(const char *filename)

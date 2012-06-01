@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/slurm/Makefile,v 1.6 2010/10/18 18:36:58 espie Exp $
+# $OpenBSD$
 
 COMMENT =	network traffic monitor and statistics
 DISTNAME =	slurm-0.3.3

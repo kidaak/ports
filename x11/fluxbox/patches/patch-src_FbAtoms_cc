@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fluxbox/patches/patch-src_FbAtoms_cc,v 1.1 2012/01/20 11:53:30 dcoppa Exp $
+$OpenBSD$
 
 Add mwm _MOTIF_WM_INFO atom to advertise mwm hints capability: fix
 a problem with rxvt-unicode falling out of Fluxbox' control when

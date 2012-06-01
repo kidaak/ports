@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Manifest/Makefile,v 1.8 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		interact with a t/test_manifest file
 

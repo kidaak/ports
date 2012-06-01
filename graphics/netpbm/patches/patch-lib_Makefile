@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/netpbm/patches/patch-lib_Makefile,v 1.4 2010/07/02 02:54:59 naddy Exp $
+$OpenBSD$
 --- lib/Makefile.orig	Wed Jun 30 02:15:15 2010
 +++ lib/Makefile	Wed Jun 30 02:22:04 2010
 @@ -42,6 +42,9 @@ endif

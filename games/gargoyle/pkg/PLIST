@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/gargoyle/pkg/PLIST,v 1.4 2010/10/23 09:15:16 jasper Exp $
+@comment $OpenBSD$
 bin/gargoyle
 lib/libgarglk.so
 libexec/gargoyle/

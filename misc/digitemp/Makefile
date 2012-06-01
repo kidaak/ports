@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/digitemp/Makefile,v 1.5 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	program for reading values from 1-wire devices
 

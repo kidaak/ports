@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/stunnel/patches/patch-Makefile_in,v 1.9 2011/12/08 13:42:05 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sat Dec  3 12:41:59 2011
 +++ Makefile.in	Mon Dec  5 15:16:47 2011
 @@ -247,7 +247,7 @@ top_build_prefix = @top_build_prefix@

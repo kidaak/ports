@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/f-spot/patches/patch-src_Clients_MainApp_f-spot_in,v 1.1 2010/08/21 20:34:34 ajacoutot Exp $
+$OpenBSD$
 --- src/Clients/MainApp/f-spot.in.orig	Sun Aug  8 14:39:53 2010
 +++ src/Clients/MainApp/f-spot.in	Sat Aug 21 22:21:43 2010
 @@ -1,10 +1,11 @@

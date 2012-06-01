@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-media_libsydneyaudio_src_Makefile_in,v 1.4 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 https://bugzilla.mozilla.org/show_bug.cgi?id=648726
 --- media/libsydneyaudio/src/Makefile.in.orig	Wed Jul 21 02:52:30 2010
 +++ media/libsydneyaudio/src/Makefile.in	Sun Aug  1 12:58:33 2010

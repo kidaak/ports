@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Tie-DBI/Makefile,v 1.12 2011/03/29 16:55:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Tie hashes to DBI relational databases
 

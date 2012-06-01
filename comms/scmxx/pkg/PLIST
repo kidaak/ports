@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/scmxx/pkg/PLIST,v 1.4 2010/05/21 14:13:22 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/scmxx
 @comment man/de/
 @comment man/de/man1/

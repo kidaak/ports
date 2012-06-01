@@ -1,4 +1,4 @@
-$OpenBSD: ports/palm/pose/patches/patch-SrcShared_Hardware_EmRegsVZHandEra330_cpp,v 1.1 2010/08/03 20:01:40 naddy Exp $
+$OpenBSD$
 --- SrcShared/Hardware/EmRegsVZHandEra330.cpp.orig	Tue Aug  3 13:51:06 2010
 +++ SrcShared/Hardware/EmRegsVZHandEra330.cpp	Tue Aug  3 13:52:22 2010
 @@ -588,14 +588,14 @@ void EmRegsVZHandEra330::SetSubBankHandlers(void)

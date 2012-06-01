@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/opencdk/pkg/PLIST,v 1.3 2007/12/03 20:48:39 landry Exp $
+@comment $OpenBSD$
 bin/opencdk-config
 include/opencdk.h
 lib/libopencdk.a

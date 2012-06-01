@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/vectoroids/Makefile,v 1.12 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	vector-based, pretty, Asteroids clone
 

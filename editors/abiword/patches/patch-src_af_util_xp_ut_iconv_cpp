@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/abiword/patches/patch-src_af_util_xp_ut_iconv_cpp,v 1.2 2010/03/21 10:55:04 ajacoutot Exp $
+$OpenBSD$
 --- src/af/util/xp/ut_iconv.cpp.orig	Thu Jun 25 02:52:27 2009
 +++ src/af/util/xp/ut_iconv.cpp	Fri Feb  5 12:13:46 2010
 @@ -241,10 +241,10 @@ const char * ucs2Internal ()

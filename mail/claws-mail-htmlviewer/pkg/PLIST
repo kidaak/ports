@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/claws-mail-htmlviewer/pkg/PLIST,v 1.7 2012/01/23 18:57:33 landry Exp $
+@comment $OpenBSD$
 @comment lib/claws-mail/plugins/gtkhtml2_viewer.la
 lib/claws-mail/plugins/gtkhtml2_viewer.so
 share/locale/ca/LC_MESSAGES/gtkhtml2_viewer.mo

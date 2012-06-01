@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libidn/Makefile,v 1.14 2012/03/23 11:01:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		internationalized string handling
 

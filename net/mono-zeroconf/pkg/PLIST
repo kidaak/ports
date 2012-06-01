@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/mono-zeroconf/pkg/PLIST,v 1.1.1.1 2010/06/28 18:42:21 robert Exp $
+@comment $OpenBSD$
 bin/mzclient
 lib/mono-zeroconf/
 lib/mono-zeroconf/MZClient.exe

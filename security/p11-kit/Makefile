@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p11-kit/Makefile,v 1.11 2012/03/23 13:22:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library for loading and enumurating of PKCS\#11 modules
 

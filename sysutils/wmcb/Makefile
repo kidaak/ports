@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/wmcb/Makefile,v 1.7 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=		dockapp; gives access to X11's cut buffers
 

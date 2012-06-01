@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/phplist/patches/patch-public_html_lists_config_config_php,v 1.4 2011/06/24 09:04:30 sthen Exp $
+$OpenBSD$
 --- public_html/lists/config/config.php.orig	Sat Apr 30 13:39:12 2011
 +++ public_html/lists/config/config.php	Mon Jun 13 12:06:53 2011
 @@ -16,7 +16,7 @@ General settings for language and database

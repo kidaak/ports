@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qvwm/patches/patch-src_audio_h,v 1.1 2009/12/20 00:35:23 jakemsr Exp $
+$OpenBSD$
 --- src/audio.h.orig	Wed Jan  5 22:47:55 2000
 +++ src/audio.h	Thu Dec 17 01:54:37 2009
 @@ -33,6 +33,10 @@

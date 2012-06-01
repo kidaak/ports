@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/wv/pkg/PLIST,v 1.6 2008/11/19 17:26:17 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/wvAbw
 bin/wvCleanLatex

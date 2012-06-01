@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-agent_mibgroup_host_hr_swrun_c,v 1.4 2011/07/07 20:02:02 sthen Exp $
+$OpenBSD$
 --- agent/mibgroup/host/hr_swrun.c.orig	Fri Jul  1 23:35:46 2011
 +++ agent/mibgroup/host/hr_swrun.c	Wed Jul  6 23:45:48 2011
 @@ -700,6 +700,8 @@ var_hrswrun(struct variable * vp,

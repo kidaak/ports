@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/unrtf/patches/patch-output_c,v 1.1 2005/05/15 18:09:41 db Exp $
+$OpenBSD$
 --- output.c.orig	Thu May 12 13:04:27 2005
 +++ output.c	Thu May 12 13:04:57 2005
 @@ -218,7 +218,7 @@ op_begin_std_fontsize (OutputPersonality

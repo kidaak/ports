@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/python/2.5/pkg/PLIST-tests,v 1.4 2009/01/01 21:03:27 djm Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict python-tests->=2.5,<2.6
 lib/python2.5/test/

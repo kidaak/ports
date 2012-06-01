@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ipcheck/Makefile,v 1.26 2011/09/16 11:13:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=		fully compliant DynDNS.org client
 

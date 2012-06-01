@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/teknap/patches/patch-source_status_c,v 1.1 2003/12/29 21:10:58 espie Exp $
+$OpenBSD$
 --- source/status.c.orig	2003-12-29 22:02:36.000000000 +0100
 +++ source/status.c	2003-12-29 22:03:00.000000000 +0100
 @@ -38,7 +38,7 @@ extern char *ltoa (long);

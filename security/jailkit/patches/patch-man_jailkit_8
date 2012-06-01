@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/jailkit/patches/patch-man_jailkit_8,v 1.1.1.1 2010/09/20 07:15:30 sebastia Exp $
+$OpenBSD$
 --- man/jailkit.8.orig	Sun Feb  7 17:13:06 2010
 +++ man/jailkit.8	Tue Sep 14 19:11:46 2010
 @@ -36,7 +36,7 @@ This section gives summary sketches of the various pro

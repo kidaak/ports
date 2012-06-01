@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Method-Signatures/Makefile,v 1.6 2011/10/29 16:42:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		method declarations with type constraints
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/foiltex/pkg/PLIST,v 1.5 2004/12/26 14:01:37 sturm Exp $
+@comment $OpenBSD$
 share/texmf-local/doc/
 share/texmf-local/doc/latex/
 share/texmf-local/doc/latex/foiltex/

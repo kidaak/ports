@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-httpclient/Makefile,v 1.8 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	library to access web resources via HTTP
 

@@ -1,5 +1,5 @@
 # ex:ts=8 sw=4:
-# $OpenBSD: ports/infrastructure/lib/DPB/Grabber.pm,v 1.24 2012/01/30 15:11:04 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2010 Marc Espie <espie@openbsd.org>
 #

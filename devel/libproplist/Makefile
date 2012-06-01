@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libproplist/Makefile,v 1.26 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	GNUstep/OPENSTEP property lists compatibility library
 

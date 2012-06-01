@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/portscanner/Makefile,v 1.17 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.5 1999/01/26 22:19:07 billf Exp $
 
 COMMENT=	simple and easy to use TCP port scanner

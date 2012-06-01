@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Smart-Comments/Makefile,v 1.9 2011/04/05 20:38:43 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		debugging aid based on comments
 

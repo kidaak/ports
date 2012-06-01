@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-WWW-Mechanize/pkg/PLIST,v 1.1.1.1 2005/04/01 19:57:26 msf Exp $
+@comment $OpenBSD$
 bin/mech-dump
 ${P5SITE}/WWW/Mechanize/
 ${P5SITE}/WWW/Mechanize.pm

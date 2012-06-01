@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-SMTP_auth/pkg/PLIST,v 1.1.1.1 2009/11/05 13:24:24 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/SMTP_auth.pm
 @man man/man3p/Net::SMTP_auth.3p

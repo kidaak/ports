@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libglade2/pkg/PLIST,v 1.10 2010/03/20 17:06:45 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/libglade-convert
 include/libglade-2.0/

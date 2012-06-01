@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/glib2-networking/pkg/PLIST,v 1.7 2012/03/29 06:28:07 ajacoutot Exp $
+@comment $OpenBSD$
 @comment lib/gio/modules/libgiognomeproxy.la
 lib/gio/modules/libgiognomeproxy.so
 @comment lib/gio/modules/libgiognutls.la

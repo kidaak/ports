@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/ladspa/Makefile,v 1.5 2010/08/25 20:45:52 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	linux audio developer simple plugin API
 HOMEPAGE=	http://www.ladspa.org/

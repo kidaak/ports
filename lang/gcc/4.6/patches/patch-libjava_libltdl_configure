@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libjava_libltdl_configure,v 1.2 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libjava/libltdl/configure.orig	Wed Oct 26 11:30:24 2011
 +++ libjava/libltdl/configure	Wed Jan 25 21:13:59 2012
 @@ -6891,9 +6891,6 @@ cc_basename=`$echo "X$cc_temp" | $Xsed -e 's%.*/%%' -e

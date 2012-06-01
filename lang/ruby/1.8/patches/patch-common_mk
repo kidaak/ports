@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ruby/1.8/patches/patch-common_mk,v 1.2 2011/11/15 00:05:16 jeremy Exp $
+$OpenBSD$
 
 Build the ext stuff during the build phase so we don't have to
 run 'make clean' as root.

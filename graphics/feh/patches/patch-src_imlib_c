@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/feh/patches/patch-src_imlib_c,v 1.13 2012/03/29 12:29:10 dcoppa Exp $
+$OpenBSD$
 
 fix memory leak when encountering unloadable file
 (upstream git commit 8c8c1d5d52096a24e751f07d94972253a0e5054c)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/warzone2100/pkg/PLIST,v 1.5 2011/11/06 21:12:37 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/warzone2100
 share/applications/warzone2100.desktop
 share/doc/warzone2100/

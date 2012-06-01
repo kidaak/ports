@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dovecot/patches/patch-doc_mkcert_sh,v 1.7 2010/03/23 21:32:07 pea Exp $
+$OpenBSD$
 --- doc/mkcert.sh.orig	Wed Jan  7 13:33:25 2009
 +++ doc/mkcert.sh	Sun Dec 27 01:03:53 2009
 @@ -5,19 +5,13 @@

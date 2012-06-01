@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nemesis/Makefile,v 1.32 2010/11/26 14:56:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	command line arbitrary packet builder
 

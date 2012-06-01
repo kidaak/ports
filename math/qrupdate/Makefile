@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/qrupdate/Makefile,v 1.7 2012/02/17 08:32:40 pirofti Exp $
+# $OpenBSD$
 
 COMMENT =	library for fast updates of QR and Cholesky decompositions
 

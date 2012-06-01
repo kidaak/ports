@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_expr_c,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/expr.c.orig	Sun May 16 22:27:15 2004
 +++ gcc/expr.c	Mon Jan  3 10:17:42 2005
 @@ -45,6 +45,7 @@ Software Foundation, 59 Temple Place - S

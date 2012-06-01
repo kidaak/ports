@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/anacron/Makefile,v 1.11 2011/05/11 07:45:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	periodic command scheduler
 

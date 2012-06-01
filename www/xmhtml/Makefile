@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/xmhtml/Makefile,v 1.19 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 # $FreeBSD: ports/x11-toolkits/xmhtml/Makefile,v 1.15 2001/06/29 05:19:06 lkoeller Exp $
 # Original from: Peter Hawkins <thepish@freebsd.org>
 

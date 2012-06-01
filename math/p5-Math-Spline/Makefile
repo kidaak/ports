@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-Spline/Makefile,v 1.4 2010/12/03 11:45:40 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		cubic spline interpolation of data
 

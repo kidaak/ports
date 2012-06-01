@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-YAML-XS/patches/patch-LibYAML_perl_libyaml_c,v 1.1 2012/03/09 17:09:52 sthen Exp $
+$OpenBSD$
 
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=661548
 https://rt.cpan.org/Public/Bug/Display.html?id=46507

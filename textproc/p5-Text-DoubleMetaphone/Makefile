@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-DoubleMetaphone/Makefile,v 1.6 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/firmware/rsu/pkg/PLIST,v 1.1.1.1 2011/06/09 17:08:14 sthen Exp $
+@comment $OpenBSD$
 @pkgpath sysutils/rsu-firmware
 @ask-update rsu-firmware-<1.1 Make sure you have a matching kernel
 firmware/rsu-license

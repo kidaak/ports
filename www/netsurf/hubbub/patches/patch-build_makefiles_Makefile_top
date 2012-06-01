@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/netsurf/hubbub/patches/patch-build_makefiles_Makefile_top,v 1.2 2011/07/18 20:05:48 landry Exp $
+$OpenBSD$
 --- build/makefiles/Makefile.top.orig	Sun Mar 13 04:30:18 2011
 +++ build/makefiles/Makefile.top	Sun Jun 19 00:18:27 2011
 @@ -92,8 +92,8 @@ endif

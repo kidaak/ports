@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/openmotif/patches/patch-Makefile_imake-pure,v 1.1 2007/07/18 21:41:05 mbalmer Exp $
+$OpenBSD$
 --- Makefile.imake-pure.orig	Sat Jun 30 09:55:02 2007
 +++ Makefile.imake-pure	Sat Jun 30 09:55:55 2007
 @@ -115,7 +115,12 @@ World:

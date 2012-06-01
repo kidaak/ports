@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/sysutils/ruby-puppet/pkg/puppetmasterd.rc,v 1.1 2011/03/20 15:46:34 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/puppetmasterd"
 

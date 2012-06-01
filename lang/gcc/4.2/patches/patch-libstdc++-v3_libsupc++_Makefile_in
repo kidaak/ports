@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-libstdc++-v3_libsupc++_Makefile_in,v 1.5 2007/03/17 22:34:13 espie Exp $
+$OpenBSD$
 --- libstdc++-v3/libsupc++/Makefile.in.orig	Mon Oct 16 21:08:22 2006
 +++ libstdc++-v3/libsupc++/Makefile.in	Mon Oct 30 12:43:40 2006
 @@ -308,7 +308,7 @@ AM_CPPFLAGS = $(GLIBCXX_INCLUDES)

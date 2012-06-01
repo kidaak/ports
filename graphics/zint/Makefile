@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/zint/Makefile,v 1.1.1.1 2011/12/23 15:08:07 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main =		library for encoding data in several barcode variants
 COMMENT-x11 = 		graphical interface for the zint barcode generator

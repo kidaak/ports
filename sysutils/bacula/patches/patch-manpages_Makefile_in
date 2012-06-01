@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/patches/patch-manpages_Makefile_in,v 1.4 2012/03/06 20:11:33 sthen Exp $
+$OpenBSD$
 --- manpages/Makefile.in.orig	Mon Mar  5 10:01:00 2012
 +++ manpages/Makefile.in	Mon Mar  5 10:01:42 2012
 @@ -20,17 +20,9 @@ depend:

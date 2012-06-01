@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-haml/Makefile,v 1.12 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=		HTML Abstraction Markup Language for Ruby
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/ndesk-dbus/patches/patch-src_TypeImplementer_cs,v 1.1 2011/05/03 09:51:24 ajacoutot Exp $
+$OpenBSD$
 
 Patch from Debian.
 (Crash with interfaces with the same name but in different namespaces)

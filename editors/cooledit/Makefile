@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/cooledit/Makefile,v 1.38 2011/12/20 11:14:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	easy to use, graphical editor
 

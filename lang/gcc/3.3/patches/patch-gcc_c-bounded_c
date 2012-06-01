@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_c-bounded_c,v 1.1.1.1 2005/01/03 15:21:29 espie Exp $
+$OpenBSD$
 --- gcc/c-bounded.c.orig	Mon Jan  3 10:17:41 2005
 +++ gcc/c-bounded.c	Mon Jan  3 10:17:41 2005
 @@ -0,0 +1,490 @@

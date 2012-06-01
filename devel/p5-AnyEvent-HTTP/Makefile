@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-AnyEvent-HTTP/Makefile,v 1.6 2010/12/03 11:44:26 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		simple but non-blocking HTTP/HTTPS client
 

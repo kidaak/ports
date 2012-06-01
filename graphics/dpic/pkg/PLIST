@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/dpic/pkg/PLIST,v 1.1.1.1 2011/05/15 18:49:41 landry Exp $
+@comment $OpenBSD$
 @bin bin/dpic
 @man man/man1/dpic.1
 share/examples/dpic/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-pcapy/Makefile,v 1.9 2011/12/25 23:59:06 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =		libpcap module for Python
 

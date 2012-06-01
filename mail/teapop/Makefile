@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/teapop/Makefile,v 1.11 2010/11/19 07:23:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=		POP3-server with virtual domain support
 

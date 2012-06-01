@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/freeciv/Makefile,v 1.88 2011/12/03 19:49:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=	Civilization clone for X11; multiplayer; game server
 COMMENT-client=	Freeciv client

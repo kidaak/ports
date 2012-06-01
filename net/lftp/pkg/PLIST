@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/lftp/pkg/PLIST,v 1.25 2011/05/04 00:59:30 kevlo Exp $
+@comment $OpenBSD$
 @bin bin/lftp
 bin/lftpget
 @comment lib/charset.alias

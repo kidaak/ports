@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/sgmlformat/patches/patch-instant_Makefile,v 1.1 2007/10/26 21:29:30 jasper Exp $
+$OpenBSD$
 --- instant/Makefile.orig	Wed Jul 16 18:42:34 1997
 +++ instant/Makefile	Fri Oct 26 23:26:36 2007
 @@ -8,7 +8,6 @@ SRCS+=	sgmls.c

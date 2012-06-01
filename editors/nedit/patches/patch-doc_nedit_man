@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nedit/patches/patch-doc_nedit_man,v 1.5 2007/06/26 19:54:53 jasper Exp $
+$OpenBSD$
 --- doc/nedit.man.orig	Thu Sep 30 23:03:59 2004
 +++ doc/nedit.man	Fri Jun 22 17:30:03 2007
 @@ -168,14 +168,14 @@ Go to line number \fIn\fR.

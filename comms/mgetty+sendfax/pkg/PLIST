@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/mgetty+sendfax/pkg/PLIST,v 1.17 2011/05/11 06:22:16 ajacoutot Exp $
+@comment $OpenBSD$
 @extraunexec rm -rf /var/spool/fax/*
 @bin bin/autopvf
 @bin bin/basictopvf

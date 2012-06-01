@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-lxml/Makefile,v 1.14 2011/11/27 16:40:17 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=	Python binding for the libxml2 and libxslt libraries
 

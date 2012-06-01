@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-binutils_size_c,v 1.1 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- binutils/size.c.orig	Sat Jun 26 11:22:44 2010
 +++ binutils/size.c	Sat Jun 26 11:31:17 2010
 @@ -36,10 +36,31 @@

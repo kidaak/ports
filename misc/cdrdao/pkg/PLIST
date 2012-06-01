@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/cdrdao/pkg/PLIST,v 1.7 2005/06/04 23:11:51 fgsch Exp $
+@comment $OpenBSD$
 bin/cdrdao
 bin/cue2toc
 bin/toc2cddb

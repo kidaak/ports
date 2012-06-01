@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/iodbc/patches/patch-bin_iodbc-config_in,v 1.1 2007/10/09 20:00:14 sthen Exp $
+$OpenBSD$
 --- bin/iodbc-config.in.orig	Tue Oct  9 15:58:50 2007
 +++ bin/iodbc-config.in	Tue Oct  9 16:01:19 2007
 @@ -192,16 +192,16 @@ if test "$echo_cflags" = "yes"; then

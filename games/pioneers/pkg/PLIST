@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/pioneers/pkg/PLIST,v 1.8 2010/11/17 19:23:05 jasper Exp $
+@comment $OpenBSD$
 @conflict gnocatan-*
 @pkgpath games/gnocatan
 @bin bin/pioneers

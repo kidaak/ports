@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xchat/patches/patch-src_common_dbus_Makefile_in,v 1.2 2010/09/23 09:27:21 dcoppa Exp $
+$OpenBSD$
 --- src/common/dbus/Makefile.in.orig	Mon Sep 20 10:24:49 2010
 +++ src/common/dbus/Makefile.in	Mon Sep 20 10:25:46 2010
 @@ -329,7 +329,7 @@ servicedir = $(DBUS_SERVICES_DIR)

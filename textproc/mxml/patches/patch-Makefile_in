@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/mxml/patches/patch-Makefile_in,v 1.2 2009/01/17 20:28:28 jakemsr Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Nov 18 06:25:18 2008
 +++ Makefile.in	Tue Nov 18 07:55:52 2008
 @@ -143,13 +143,13 @@ install-libmxml.a:

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/flac/patches/patch-src_libFLAC++_flac++_pc_in,v 1.1 2008/04/07 03:54:39 fgsch Exp $
+$OpenBSD$
 --- src/libFLAC++/flac++.pc.in.orig	Tue Apr  1 00:21:29 2008
 +++ src/libFLAC++/flac++.pc.in	Tue Apr  1 00:21:50 2008
 @@ -7,5 +7,5 @@ Name: FLAC++

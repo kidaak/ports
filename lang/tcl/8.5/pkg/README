@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/tcl/8.5/pkg/README,v 1.5 2011/12/08 22:41:48 sthen Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

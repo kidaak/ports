@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mutt/stable/patches/patch-extlib_c,v 1.1 2006/07/24 09:44:20 bernd Exp $
+$OpenBSD$
 --- extlib.c.orig	Mon Jul 24 10:33:41 2006
 +++ extlib.c	Mon Jul 24 10:35:01 2006
 @@ -27,6 +27,7 @@

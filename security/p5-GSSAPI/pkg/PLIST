@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-GSSAPI/pkg/PLIST,v 1.2 2011/04/10 20:14:23 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/GSSAPI/
 ${P5ARCH}/GSSAPI.pm

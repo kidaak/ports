@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfce4-quicklauncher/patches/patch-panel-plugin_callbacks_c,v 1.1.1.1 2009/09/17 22:02:31 landry Exp $
+$OpenBSD$
 --- panel-plugin/callbacks.c.orig	Thu Sep 17 20:54:55 2009
 +++ panel-plugin/callbacks.c	Thu Sep 17 20:55:08 2009
 @@ -348,7 +348,7 @@ gchar* get_icon_file()

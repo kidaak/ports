@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/ufoai/base/pkg/PLIST-editor,v 1.2 2011/12/18 11:36:51 stsp Exp $
+@comment $OpenBSD$
 bin/ufo2map
 bin/ufomodel
 bin/uforadiant

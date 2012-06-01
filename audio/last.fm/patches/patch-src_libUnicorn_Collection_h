@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_libUnicorn_Collection_h,v 1.1 2011/10/18 12:17:26 dcoppa Exp $
+$OpenBSD$
 --- src/libUnicorn/Collection.h.orig	Tue Oct 18 11:21:18 2011
 +++ src/libUnicorn/Collection.h	Tue Oct 18 11:21:45 2011
 @@ -31,7 +31,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/naev/data/Makefile,v 1.2 2012/01/26 11:27:56 nigel Exp $
+# $OpenBSD$
 
 COMMENT = 	naev game data
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Pod-Coverage/Makefile,v 1.11 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	check for pod coverage in your distribution
 

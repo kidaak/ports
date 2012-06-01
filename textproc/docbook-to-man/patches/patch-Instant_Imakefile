@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/docbook-to-man/patches/patch-Instant_Imakefile,v 1.1.1.1 2005/02/14 11:56:38 espie Exp $
+$OpenBSD$
 --- Instant/Imakefile.orig	Mon Jun 17 05:50:29 1996
 +++ Instant/Imakefile	Fri Feb 11 11:01:56 2005
 @@ -19,4 +19,4 @@ OBJS	= main.o util.o info.o translate.o 

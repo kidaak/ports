@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/ggrep/pkg/PLIST,v 1.4 2011/05/31 19:36:36 naddy Exp $
+@comment $OpenBSD$
 @bin bin/egrep
 @bin bin/fgrep
 @bin bin/grep

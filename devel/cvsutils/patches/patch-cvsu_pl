@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cvsutils/patches/patch-cvsu_pl,v 1.1 2009/09/24 21:48:49 sthen Exp $
+$OpenBSD$
 
 This change made in 0.2.4 doesn't work reliably with the
 version of CVS in OpenBSD.

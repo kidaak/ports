@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/libiconv/patches/patch-Makefile_devel,v 1.2 2011/09/02 15:44:46 naddy Exp $
+$OpenBSD$
 
 Don't blindly override these variables.
 

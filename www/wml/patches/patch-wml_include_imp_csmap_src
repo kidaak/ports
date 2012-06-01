@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_include_imp_csmap_src,v 1.1.1.1 2006/07/14 16:12:14 bernd Exp $
+$OpenBSD$
 --- wml_include/imp/csmap.src.orig	Thu Jun 15 15:31:28 2006
 +++ wml_include/imp/csmap.src	Thu Jun 15 15:31:31 2006
 @@ -20,7 +20,7 @@

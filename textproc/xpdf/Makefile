@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/xpdf/Makefile,v 1.81 2011/10/01 19:46:35 kili Exp $
+# $OpenBSD$
 
 COMMENT-main=	PDF viewer for X11
 COMMENT-utils=	PDF conversion tools

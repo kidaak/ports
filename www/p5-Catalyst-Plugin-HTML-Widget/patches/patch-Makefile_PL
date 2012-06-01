@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-Catalyst-Plugin-HTML-Widget/patches/patch-Makefile_PL,v 1.1.1.1 2006/11/05 20:43:50 espie Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Sun Nov  5 21:28:41 2006
 +++ Makefile.PL	Sun Nov  5 21:28:47 2006
 @@ -9,8 +9,8 @@ license('perl');

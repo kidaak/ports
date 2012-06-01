@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/alex/Makefile,v 1.23 2011/12/27 21:10:28 kili Exp $
+# $OpenBSD$
 
 COMMENT =	lexical analyser generator for Haskell
 

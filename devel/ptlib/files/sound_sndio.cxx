@@ -24,7 +24,12 @@
  * Portions are Copyright (C) 1993 Free Software Foundation, Inc.
  * All Rights Reserved.
  *
- * $Log: sound_sndio.cxx,v $
+ * $Log$
+ * Revision 1.2  2010/05/11 07:23:23  espie
+ * make it compile on gcc4, by making the relevant patch dependent on
+ * compiler version.
+ * also removes lvalue cast, that's not ansi.
+ *
  * Revision 1.1.1.1  2010/03/23 21:10:17  ajacoutot
  * Import ptlib-2.6.5
  *

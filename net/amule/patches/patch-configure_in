@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-configure_in,v 1.3 2011/12/11 18:31:13 dcoppa Exp $
+$OpenBSD$
 --- configure.in.orig	Fri Nov 11 21:59:14 2011
 +++ configure.in	Fri Dec  9 20:14:19 2011
 @@ -172,7 +172,7 @@ MULE_IF_ENABLED_ANY([monolithic, amule-daemon, amule-g

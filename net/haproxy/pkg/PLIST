@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/haproxy/pkg/PLIST,v 1.2 2008/07/23 15:33:17 jdixon Exp $
+@comment $OpenBSD$
 @newgroup _haproxy:${HAPROXYGID}
 @newuser _haproxy:${HAPROXYUID}:_haproxy:daemon:HAProxy Daemon:/var/haproxy:/sbin/nologin
 @man man/man1/haproxy.1

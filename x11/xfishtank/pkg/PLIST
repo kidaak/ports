@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/xfishtank/pkg/PLIST,v 1.2 2001/07/08 04:19:24 pvalchev Exp $
+@comment $OpenBSD$
 bin/xfishtank

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Catalyst-View-TT-FunctionGenerator/Makefile,v 1.7 2012/04/08 22:04:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	use shorter names in catalyst tt views (deprecated)
 

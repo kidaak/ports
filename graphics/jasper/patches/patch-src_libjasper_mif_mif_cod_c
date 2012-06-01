@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_mif_mif_cod_c,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/mif/mif_cod.c.orig	Fri May 16 21:00:25 2008
 +++ src/libjasper/mif/mif_cod.c	Fri May 16 21:26:40 2008
 @@ -438,8 +438,7 @@ static int mif_hdr_growcmpts(mif_hdr_t *hdr, int maxcm

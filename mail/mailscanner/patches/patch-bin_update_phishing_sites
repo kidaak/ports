@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailscanner/patches/patch-bin_update_phishing_sites,v 1.1.1.1 2008/02/20 03:47:18 todd Exp $
+$OpenBSD$
 --- bin/update_phishing_sites.orig	Tue Jun 26 05:06:26 2007
 +++ bin/update_phishing_sites	Sun Aug  5 04:03:25 2007
 @@ -34,8 +34,8 @@

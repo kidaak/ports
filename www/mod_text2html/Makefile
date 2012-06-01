@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_text2html/Makefile,v 1.12 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Apache module designed to replace text/plain handler
 

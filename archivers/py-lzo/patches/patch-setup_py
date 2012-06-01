@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/py-lzo/patches/patch-setup_py,v 1.1.1.1 2009/05/31 21:03:10 benoit Exp $
+$OpenBSD$
 --- setup.py.orig	Wed Jul 17 19:18:50 2002
 +++ setup.py	Sun May 31 02:28:11 2009
 @@ -25,9 +25,9 @@ if sys.platform == "win32":

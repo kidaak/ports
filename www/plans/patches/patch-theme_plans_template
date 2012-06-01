@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/plans/patches/patch-theme_plans_template,v 1.1.1.1 2005/01/04 08:31:06 kevlo Exp $
+$OpenBSD$
 --- theme/plans.template.orig	Tue Jan  4 16:22:14 2005
 +++ theme/plans.template	Tue Jan  4 16:26:15 2005
 @@ -51,10 +51,10 @@ This calendar service is <br/>

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/jacal/pkg/PLIST,v 1.2 2009/01/21 18:31:42 kili Exp $
+@comment $OpenBSD$
 bin/jacal
 @info info/jacal.info
 lib/jacal/

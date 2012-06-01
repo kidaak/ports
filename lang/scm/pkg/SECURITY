@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/scm/pkg/SECURITY,v 1.1 2001/01/31 14:16:48 espie Exp $
+$OpenBSD$
 
 The scheme standard runtime provides a tmpnam facility which is inherently
 insecure in nature.

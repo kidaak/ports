@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openvpn/patches/patch-socket_c,v 1.4 2012/01/12 08:15:30 sthen Exp $
+$OpenBSD$
 --- socket.c.orig	Mon Feb 21 16:38:10 2011
 +++ socket.c	Tue Mar 22 23:00:56 2011
 @@ -532,6 +532,20 @@ socket_set_tcp_nodelay (int sd, int state)

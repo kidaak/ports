@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/claws-mail/patches/patch-src_mbox_c,v 1.2 2007/09/28 22:12:01 pyr Exp $
+$OpenBSD$
 --- src/mbox.c.orig	Mon Sep 17 04:14:33 2007
 +++ src/mbox.c	Tue Sep 18 21:45:32 2007
 @@ -52,7 +52,7 @@

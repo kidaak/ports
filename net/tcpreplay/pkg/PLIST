@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/tcpreplay/pkg/PLIST,v 1.6 2009/05/17 19:51:54 rui Exp $
+@comment $OpenBSD$
 @bin bin/tcpbridge
 @bin bin/tcpprep
 @bin bin/tcpreplay

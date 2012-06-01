@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/bunny/pkg/PLIST,v 1.2 2008/06/10 05:48:55 pvalchev Exp $
+@comment $OpenBSD$
 @bin bin/bunny-exec
 @bin bin/bunny-flow
 @bin bin/bunny-gcc

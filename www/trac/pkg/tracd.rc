@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/trac/pkg/tracd.rc,v 1.1 2012/03/03 11:42:06 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/tracd -d"
 daemon_flags="-p 8085 /var/www/trac"

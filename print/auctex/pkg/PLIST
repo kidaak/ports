@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/auctex/pkg/PLIST,v 1.2 2004/09/15 18:32:13 espie Exp $
+@comment $OpenBSD$
 share/emacs/site-lisp/auctex/
 share/emacs/site-lisp/auctex/auc-old.el
 share/emacs/site-lisp/auctex/auc-old.elc

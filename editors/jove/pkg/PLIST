@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/jove/pkg/PLIST,v 1.9 2011/11/11 20:08:40 jasper Exp $
+@comment $OpenBSD$
 @bin bin/jove
 @bin bin/teachjove
 libexec/jove/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/fdupes/patches/patch-md5_md5_c,v 1.1.1.1 2008/06/20 06:03:43 ckuethe Exp $
+$OpenBSD$
 --- md5/md5.c.orig	Thu May 29 22:20:16 2008
 +++ md5/md5.c	Thu May 29 22:20:27 2008
 @@ -38,6 +38,7 @@

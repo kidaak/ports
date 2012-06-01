@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/BitTorrent/patches/patch-BitTorrent_platform_py,v 1.4 2006/05/08 13:46:48 naddy Exp $
+$OpenBSD$
 --- BitTorrent/platform.py.orig	Tue Jan 31 21:16:36 2006
 +++ BitTorrent/platform.py	Sun Apr  9 16:24:54 2006
 @@ -92,7 +92,7 @@ elif os_name == 'posix':

@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/graphviz/patches/patch-lib_gvc_gvconfig_c,v 1.2 2010/08/09 08:55:43 espie Exp $
+$OpenBSD$
 --- lib/gvc/gvconfig.c.orig2	Tue Sep 26 20:40:55 2006
 +++ lib/gvc/gvconfig.c	Mon Aug  9 10:26:48 2010
 @@ -312,10 +312,14 @@ static void config_rescan(GVC_t *gvc, char *config_pat

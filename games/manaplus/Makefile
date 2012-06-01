@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/manaplus/Makefile,v 1.3 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT =	extended client for The Mana World
 

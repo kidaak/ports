@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_scgi/patches/patch-apache1_mod_scgi_c,v 1.1 2008/05/09 08:26:53 mbalmer Exp $
+$OpenBSD$
 --- apache1/mod_scgi.c.orig	Wed Dec  5 12:19:31 2007
 +++ apache1/mod_scgi.c	Wed Dec  5 12:23:12 2007
 @@ -266,13 +266,23 @@ static int send_headers(request_rec *r, BUFF *f)

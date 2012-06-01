@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/olsrd/Makefile,v 1.19 2011/11/16 00:20:08 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=		OLSR routing daemon
 COMMENT-gui=		OLSR routing daemon GUI

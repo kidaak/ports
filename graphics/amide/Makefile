@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/amide/Makefile,v 1.23 2011/11/01 20:30:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	Amide a Medical Imaging Data Examiner
 

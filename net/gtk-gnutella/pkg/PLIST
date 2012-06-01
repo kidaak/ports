@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gtk-gnutella/pkg/PLIST,v 1.21 2012/03/29 06:19:12 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gtk-gnutella
 @man man/man1/gtk-gnutella.1
 share/applications/gtk-gnutella.desktop

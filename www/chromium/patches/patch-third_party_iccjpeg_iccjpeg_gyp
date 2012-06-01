@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-third_party_iccjpeg_iccjpeg_gyp,v 1.2 2012/02/17 10:19:51 robert Exp $
+$OpenBSD$
 --- third_party/iccjpeg/iccjpeg.gyp.orig	Fri Jan 27 09:02:02 2012
 +++ third_party/iccjpeg/iccjpeg.gyp	Thu Feb  9 09:31:06 2012
 @@ -21,6 +21,13 @@

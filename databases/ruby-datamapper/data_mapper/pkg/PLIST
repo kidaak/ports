@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/ruby-datamapper/data_mapper/pkg/PLIST,v 1.1.1.1 2010/12/08 22:23:57 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/.gitignore

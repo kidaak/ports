@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pyusb/pkg/PLIST,v 1.2 2008/08/23 20:45:10 martynas Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pyusb-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/usb.so
 share/examples/pyusb/

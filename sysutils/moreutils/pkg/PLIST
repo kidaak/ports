@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/moreutils/pkg/PLIST,v 1.1.1.1 2011/05/04 14:11:59 sthen Exp $
+@comment $OpenBSD$
 bin/chronic
 bin/combine
 @bin bin/ifdata

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-XSAccessor/Makefile,v 1.8 2011/03/10 20:23:22 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

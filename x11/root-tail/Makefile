@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/root-tail/Makefile,v 1.21 2010/11/22 08:37:04 espie Exp $
+# $OpenBSD$
 
 COMMENT=	tails a given file anywhere on your X11 root window
 

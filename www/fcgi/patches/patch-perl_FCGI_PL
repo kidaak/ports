@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fcgi/patches/patch-perl_FCGI_PL,v 1.2 2011/03/28 23:04:42 simon Exp $
+$OpenBSD$
 --- perl/FCGI.PL.orig	Sun Dec 15 21:02:48 2002
 +++ perl/FCGI.PL	Wed Mar  9 13:41:41 2011
 @@ -291,7 +291,7 @@ sub Request(;***$*$) {

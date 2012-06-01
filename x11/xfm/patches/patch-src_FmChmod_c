@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfm/patches/patch-src_FmChmod_c,v 1.2 2010/01/03 22:53:32 jasper Exp $
+$OpenBSD$
 --- src/FmChmod.c.orig	Thu Aug 23 08:45:26 2001
 +++ src/FmChmod.c	Sun Jan  3 01:03:08 2010
 @@ -160,7 +160,7 @@

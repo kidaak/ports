@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/xless/Makefile,v 1.25 2011/05/05 18:19:11 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	X11 viewer for text files
 

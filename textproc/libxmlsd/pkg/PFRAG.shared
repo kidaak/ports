@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/textproc/libxmlsd/pkg/PFRAG.shared,v 1.1.1.1 2011/03/12 13:54:40 dhill Exp $
+@comment $OpenBSD$
 @lib lib/libxmlsd.so.${LIBxmlsd_VERSION}

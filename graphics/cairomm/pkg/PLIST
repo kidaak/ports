@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/cairomm/pkg/PLIST,v 1.6 2012/03/16 13:39:08 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/cairomm-1.0/
 include/cairomm-1.0/cairomm/

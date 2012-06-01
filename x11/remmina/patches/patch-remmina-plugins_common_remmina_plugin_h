@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/remmina/patches/patch-remmina-plugins_common_remmina_plugin_h,v 1.1 2012/02/24 13:48:26 ajacoutot Exp $
+$OpenBSD$
 --- remmina-plugins/common/remmina_plugin.h.orig	Fri Feb 24 11:55:15 2012
 +++ remmina-plugins/common/remmina_plugin.h	Fri Feb 24 11:55:06 2012
 @@ -36,11 +36,11 @@

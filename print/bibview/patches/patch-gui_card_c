@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/bibview/patches/patch-gui_card_c,v 1.1 2001/04/17 13:13:31 naddy Exp $
+$OpenBSD$
 --- gui_card.c.orig	Mon May  8 18:24:55 1995
 +++ gui_card.c	Tue Apr 17 14:30:50 2001
 @@ -370,15 +370,15 @@ CardWinPtr cw;

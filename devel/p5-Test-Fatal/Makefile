@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Fatal/Makefile,v 1.2 2012/04/06 10:02:14 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	incredibly simple helpers for testing code with exceptions
 

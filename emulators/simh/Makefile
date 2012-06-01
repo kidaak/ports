@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/simh/Makefile,v 1.72 2011/12/24 12:57:10 sthen Exp $
+# $OpenBSD$
 # $NetBSD: Makefile,v 1.2 1998/08/23 20:48:03 frueauf Exp $
 
 COMMENT=		PDP, IBM 1401, Nova and other CPUs simulator

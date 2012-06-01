@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libvmime/patches/patch-configure,v 1.4 2011/05/04 12:52:50 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Tue Nov 16 13:56:00 2010
 +++ configure	Wed May  4 14:39:06 2011
 @@ -4120,13 +4120,13 @@ if test "$ac_test_CFLAGS" = set; then

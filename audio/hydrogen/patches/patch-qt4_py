@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/hydrogen/patches/patch-qt4_py,v 1.2 2011/07/20 15:30:32 sthen Exp $
+$OpenBSD$
 --- qt4.py.orig	Sat Aug  8 12:35:13 2009
 +++ qt4.py	Wed Jul 20 16:29:16 2011
 @@ -444,7 +444,7 @@ def enable_modules(self, modules, debug=False, crossco

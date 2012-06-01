@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_cp_g++spec_c,v 1.1.1.1 2011/11/14 13:00:57 pascal Exp $
+$OpenBSD$
 --- gcc/cp/g++spec.c.orig	Sat Nov 12 13:47:34 2011
 +++ gcc/cp/g++spec.c	Sat Nov 12 13:47:58 2011
 @@ -42,7 +42,7 @@ along with GCC; see the file COPYING3.  If not see

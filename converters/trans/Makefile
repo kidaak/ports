@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/trans/Makefile,v 1.21 2011/06/21 20:21:21 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	character encoding converter generator package
 

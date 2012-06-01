@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/flash/patches/patch-Lib_matrix_h,v 1.1 2010/05/23 16:20:47 espie Exp $
+$OpenBSD$
 --- Lib/matrix.h.orig	Sun May 23 18:16:21 2010
 +++ Lib/matrix.h	Sun May 23 18:16:29 2010
 @@ -33,13 +33,13 @@ struct Matrix { (public)

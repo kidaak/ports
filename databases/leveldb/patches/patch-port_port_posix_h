@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/leveldb/patches/patch-port_port_posix_h,v 1.1.1.1 2011/08/19 06:44:00 jasper Exp $
+$OpenBSD$
 
 Add OpenBSD support: http://code.google.com/p/leveldb/issues/detail?id=31
 

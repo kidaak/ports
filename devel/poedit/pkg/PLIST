@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/poedit/pkg/PLIST,v 1.4 2009/12/22 15:31:27 ajacoutot Exp $
+@comment $OpenBSD$
 bin/poedit
 @man man/man1/poedit.1
 share/applications/

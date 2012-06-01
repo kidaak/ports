@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/ruby-vorbis_comment/Makefile,v 1.6 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	ruby library for reading/writing vorbis comments
 

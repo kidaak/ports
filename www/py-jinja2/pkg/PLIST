@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-jinja2/pkg/PLIST,v 1.4 2011/03/06 22:57:03 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Jinja2-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/Jinja2-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/Jinja2-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

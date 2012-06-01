@@ -1,9 +1,9 @@
-$OpenBSD: ports/graphics/ggi/patches/patch-display_xf86dga_visual_c,v 1.1 2005/01/31 14:20:26 todd Exp $
+$OpenBSD$
 --- display/xf86dga/visual.c.orig	Sun Sep 12 16:01:40 2004
 +++ display/xf86dga/visual.c	Sun Jan 30 15:40:46 2005
 @@ -1,4 +1,4 @@
--/* $Id: visual.c,v 1.9 2004/09/12 21:01:40 cegger Exp $
-+/* $Id: visual.c,v 1.9.2.2 2005/01/29 09:35:38 cegger Exp $
+-/* $Id$
++/* $Id$
  ******************************************************************************
  
     XF86DGA display target.

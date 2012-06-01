@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nagios/plugins/patches/patch-configure,v 1.12 2010/08/28 09:19:48 sthen Exp $
+$OpenBSD$
 --- configure.orig	Tue Jul 27 21:48:13 2010
 +++ configure	Thu Aug 26 15:17:44 2010
 @@ -14015,13 +14015,13 @@ if test "${with_pgsql+set}" = set; then

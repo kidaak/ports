@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/games/slash-em/pkg/PFRAG.no-qt-no-no_x11,v 1.2 2005/09/11 12:26:02 espie Exp $
+@comment $OpenBSD$
 lib/X11/app-defaults/SlashEM-${V}

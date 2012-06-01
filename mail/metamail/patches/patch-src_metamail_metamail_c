@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/metamail/patches/patch-src_metamail_metamail_c,v 1.1 2012/03/17 10:57:23 sthen Exp $
+$OpenBSD$
 --- src/metamail/metamail.c.orig	Thu Feb 17 01:57:19 1994
 +++ src/metamail/metamail.c	Sat Mar 17 10:51:52 2012
 @@ -20,6 +20,8 @@ WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES.

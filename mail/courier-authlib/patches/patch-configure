@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/courier-authlib/patches/patch-configure,v 1.2 2009/10/28 14:18:05 giovanni Exp $
+$OpenBSD$
 --- configure.orig	Sat Jun 27 18:09:14 2009
 +++ configure	Wed Jul 15 13:21:59 2009
 @@ -19444,7 +19444,7 @@ then

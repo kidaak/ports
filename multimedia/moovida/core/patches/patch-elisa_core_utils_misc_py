@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/moovida/core/patches/patch-elisa_core_utils_misc_py,v 1.1 2009/10/15 15:44:41 landry Exp $
+$OpenBSD$
 We are not a 'distro', and we don't need to know which desktop our
 user runs. get_user_desktop_name() is only used to choose the
 gst audio sink, and autoaudiosink is the better choice.

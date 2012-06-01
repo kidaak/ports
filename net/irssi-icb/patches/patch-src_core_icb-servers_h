@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi-icb/patches/patch-src_core_icb-servers_h,v 1.1 2011/06/14 10:22:16 sthen Exp $
+$OpenBSD$
 --- src/core/icb-servers.h.orig	Tue Jun 14 10:29:08 2011
 +++ src/core/icb-servers.h	Tue Jun 14 10:29:19 2011
 @@ -31,6 +31,9 @@ struct _ICB_SERVER_REC {

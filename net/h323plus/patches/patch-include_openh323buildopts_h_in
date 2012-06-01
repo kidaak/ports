@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/h323plus/patches/patch-include_openh323buildopts_h_in,v 1.1 2012/03/02 09:04:59 ajacoutot Exp $
+$OpenBSD$
 
 error: ptlib/../../revision.h: No such file or directory
 

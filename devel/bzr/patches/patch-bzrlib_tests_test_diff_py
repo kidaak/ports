@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/bzr/patches/patch-bzrlib_tests_test_diff_py,v 1.4 2011/12/23 17:12:04 eric Exp $
+$OpenBSD$
 --- bzrlib/tests/test_diff.py.orig	Thu Oct 27 15:21:20 2011
 +++ bzrlib/tests/test_diff.py	Thu Dec 22 17:15:46 2011
 @@ -237,7 +237,7 @@ class TestDiffFiles(tests.TestCaseInTempDir):

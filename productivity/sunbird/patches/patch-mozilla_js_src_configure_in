@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_js_src_configure_in,v 1.3 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/js/src/configure.in.orig	Wed Jun 23 19:46:38 2010
 +++ mozilla/js/src/configure.in	Wed Jul  7 08:43:19 2010
 @@ -874,7 +874,7 @@ HOST_AR='$(AR)'

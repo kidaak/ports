@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/balance/patches/patch-balance_c,v 1.7 2007/05/29 18:56:24 rui Exp $
+$OpenBSD$
 --- balance.c.orig	Sun May 27 18:49:46 2007
 +++ balance.c	Sun May 27 18:55:58 2007
 @@ -809,11 +809,13 @@ void initialize_release_variables(void)

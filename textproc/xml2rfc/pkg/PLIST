@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/xml2rfc/pkg/PLIST,v 1.9 2009/05/16 08:43:54 jakob Exp $
+@comment $OpenBSD$
 bin/xml2rfc
 share/doc/xml2rfc/
 share/doc/xml2rfc/README.html

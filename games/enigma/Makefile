@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/enigma/Makefile,v 1.21 2011/12/03 19:49:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Oxyd/Rock'n'Roll clone
 

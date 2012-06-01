@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-iteratee/Makefile,v 1.8 2012/01/25 21:44:21 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Iteratee monad provides strict, safe, and functional I/O
 

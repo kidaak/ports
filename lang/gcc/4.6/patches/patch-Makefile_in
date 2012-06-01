@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-Makefile_in,v 1.1 2012/01/23 17:04:10 espie Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Jan 22 09:47:02 2012
 +++ Makefile.in	Sun Jan 22 09:49:09 2012
 @@ -3256,7 +3256,7 @@ configure-build-libiberty: 

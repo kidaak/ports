@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libdvbpsi/Makefile,v 1.12 2011/11/06 20:28:11 kili Exp $
+# $OpenBSD$
 
 COMMENT=	library for decoding/generating MPEG TS/DVB PSI tables
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/python/2.5/pkg/PLIST-tools,v 1.5 2011/05/23 06:42:02 jasper Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict python-tools->=2.5,<2.6
 lib/python2.5/Tools/

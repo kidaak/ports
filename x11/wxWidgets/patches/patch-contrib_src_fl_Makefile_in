@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wxWidgets/patches/patch-contrib_src_fl_Makefile_in,v 1.6 2010/11/04 12:05:25 dcoppa Exp $
+$OpenBSD$
 --- contrib/src/fl/Makefile.in.orig	Thu Apr 15 11:03:43 2010
 +++ contrib/src/fl/Makefile.in	Thu Nov  4 10:39:23 2010
 @@ -117,21 +117,21 @@ FLLIB_ODEP =  $(_____pch_wxprec_fllib_wx_wxprec_h_gch_

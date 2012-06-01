@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/xemacs21/stable/patches/patch-src_Makefile_in_in,v 1.1 2007/09/18 18:56:03 aanriot Exp $
+$OpenBSD$
 --- src/Makefile.in.in.orig	Wed Jan 15 13:18:00 2003
 +++ src/Makefile.in.in	Mon Feb 24 10:39:21 2003
 @@ -28,8 +28,10 @@ PROGNAME=@PROGNAME@

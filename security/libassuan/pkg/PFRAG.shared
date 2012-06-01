@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/libassuan/pkg/PFRAG.shared,v 1.1 2010/04/27 14:40:12 pea Exp $
+@comment $OpenBSD$
 @lib lib/libassuan.so.${LIBassuan_VERSION}

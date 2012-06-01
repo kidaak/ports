@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-PDF-API2-Simple/Makefile,v 1.1.1.1 2011/04/15 21:07:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		simple wrapper for PDF::API2 module
 

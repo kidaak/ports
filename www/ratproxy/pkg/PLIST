@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ratproxy/pkg/PLIST,v 1.1.1.1 2008/09/23 20:59:40 jasper Exp $
+@comment $OpenBSD$
 @bin bin/ratproxy
 bin/ratproxy-report.sh
 share/doc/ratproxy/

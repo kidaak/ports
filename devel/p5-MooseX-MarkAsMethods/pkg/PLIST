@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-MarkAsMethods/pkg/PLIST,v 1.1.1.1 2012/04/08 21:04:13 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/
 ${P5SITE}/MooseX/MarkAsMethods.pm
 @man man/man3p/MooseX::MarkAsMethods.3p

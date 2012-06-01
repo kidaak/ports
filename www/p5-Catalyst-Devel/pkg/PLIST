@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Catalyst-Devel/pkg/PLIST,v 1.4 2012/04/08 21:58:12 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Devel.pm
 ${P5SITE}/Catalyst/Helper.pm
 ${P5SITE}/Catalyst/Restarter/

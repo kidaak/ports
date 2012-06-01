@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/foomatic-db/pkg/PLIST,v 1.13 2012/04/11 16:16:08 ajacoutot Exp $
+@comment $OpenBSD$
 share/foomatic/
 share/foomatic/db/
 share/foomatic/db/oldprinterids

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boost/patches/patch-libs_filesystem_src_operations_cpp,v 1.1 2011/11/06 20:05:47 jasper Exp $
+$OpenBSD$
 --- libs/filesystem/src/operations.cpp.orig	Thu Nov  3 06:53:43 2011
 +++ libs/filesystem/src/operations.cpp	Thu Nov  3 06:54:19 2011
 @@ -58,14 +58,11 @@ using boost::system::system_category;

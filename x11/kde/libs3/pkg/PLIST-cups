@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/libs3/pkg/PLIST-cups,v 1.2 2008/08/26 16:52:29 espie Exp $
+@comment $OpenBSD$
 @conflict kdelibs-<3.5
 @bin bin/cupsdconf
 @bin bin/cupsdoprint

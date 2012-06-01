@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/dynagen/Makefile,v 1.7 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=		front-end for dynamips cisco emulator
 

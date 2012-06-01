@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/sdl-net/patches/patch-SDLnetsys_h,v 1.4 2012/04/05 11:42:09 ajacoutot Exp $
+$OpenBSD$
 --- SDLnetsys.h.orig	Sun Jan 15 11:20:10 2012
 +++ SDLnetsys.h	Sat Mar 17 12:35:37 2012
 @@ -54,6 +54,11 @@ typedef int socklen_t;

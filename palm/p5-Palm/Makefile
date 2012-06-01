@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/p5-Palm/Makefile,v 1.9 2010/10/18 21:25:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	interface to palm pdb databases
 

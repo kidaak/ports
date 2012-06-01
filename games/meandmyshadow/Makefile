@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/meandmyshadow/Makefile,v 1.2 2012/03/28 13:04:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	puzzle/platform game
 

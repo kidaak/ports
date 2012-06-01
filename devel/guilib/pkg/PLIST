@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/guilib/pkg/PLIST,v 1.4 2011/01/03 19:56:34 jasper Exp $
+@comment $OpenBSD$
 include/GUI/
 include/GUI/GUI.h
 include/GUI/GUI_C.h

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/w3mir/Makefile,v 1.12 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		utility to mirror web pages
 

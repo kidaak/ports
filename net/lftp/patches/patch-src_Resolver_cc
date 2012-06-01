@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/lftp/patches/patch-src_Resolver_cc,v 1.9 2011/10/23 10:28:56 sthen Exp $
+$OpenBSD$
 --- src/Resolver.cc.orig	Tue Sep 13 05:29:47 2011
 +++ src/Resolver.cc	Fri Oct 21 15:05:07 2011
 @@ -794,8 +794,6 @@ void Resolver::LookupOne(const char *name)

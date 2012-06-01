@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/lss/pkg/PLIST,v 1.2 2009/12/22 15:54:32 ajacoutot Exp $
+@comment $OpenBSD$
 bin/lss
 share/applications/lss.desktop
 share/locale/pl/LC_MESSAGES/lss.mo

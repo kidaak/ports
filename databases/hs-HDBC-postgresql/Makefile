@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/hs-HDBC-postgresql/Makefile,v 1.8 2011/12/28 09:25:11 kili Exp $
+# $OpenBSD$
 
 COMMENT=		postgresql driver for HDBC
 

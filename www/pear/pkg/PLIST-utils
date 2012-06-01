@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/pear/pkg/PLIST-utils,v 1.4 2011/11/16 13:29:14 robert Exp $
+@comment $OpenBSD$
 @conflict php4-core-*
 @group daemon
 bin/pear

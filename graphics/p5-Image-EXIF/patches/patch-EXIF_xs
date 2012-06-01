@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/p5-Image-EXIF/patches/patch-EXIF_xs,v 1.3 2005/11/14 17:48:00 pvalchev Exp $
+$OpenBSD$
 --- EXIF.xs.orig	Wed Jan 14 15:12:54 2004
 +++ EXIF.xs	Mon Nov 14 10:30:18 2005
 @@ -29,10 +29,10 @@ read_data(char *fname)

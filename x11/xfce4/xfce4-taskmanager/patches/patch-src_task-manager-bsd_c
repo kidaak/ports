@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfce4-taskmanager/patches/patch-src_task-manager-bsd_c,v 1.1 2012/01/09 16:50:19 robert Exp $
+$OpenBSD$
 --- src/task-manager-bsd.c.orig	Mon Jan  9 09:48:24 2012
 +++ src/task-manager-bsd.c	Mon Jan  9 09:49:01 2012
 @@ -41,7 +41,7 @@ gboolean get_task_list (GArray *task_list)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/oroborus/Makefile,v 1.6 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	minimalistic X11 window manager
 

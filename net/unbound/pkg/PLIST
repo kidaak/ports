@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/unbound/pkg/PLIST,v 1.8 2011/03/06 09:24:41 jakob Exp $
+@comment $OpenBSD$
 @newgroup _unbound:601
 @newuser _unbound:601:601:daemon:Unbound Daemon:/var/unbound:/sbin/nologin
 %%SHARED%%

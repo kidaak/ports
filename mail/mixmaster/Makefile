@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mixmaster/Makefile,v 1.18 2010/11/19 07:23:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	client for anonymous remailing
 

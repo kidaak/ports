@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/arm-elf/Makefile.inc,v 1.5 2011/11/08 12:43:25 jasper Exp $
+# $OpenBSD$
 
 CONFIG=		arm-elf
 PKGNAME?=	${CONFIG}-${DISTNAME}

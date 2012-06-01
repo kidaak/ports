@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/libmspack/Makefile,v 1.7 2011/06/02 17:09:31 kili Exp $
+# $OpenBSD$
 
 COMMENT=	library for handling microsoft compression formats
 

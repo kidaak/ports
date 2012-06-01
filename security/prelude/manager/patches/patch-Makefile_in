@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/prelude/manager/patches/patch-Makefile_in,v 1.7 2009/08/30 20:37:16 rui Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Aug 13 21:51:41 2009
 +++ Makefile.in	Thu Aug 13 21:53:14 2009
 @@ -637,7 +637,7 @@ build_cpu = @build_cpu@

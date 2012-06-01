@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/pear-HTTP-WebDAV-Server/pkg/PLIST,v 1.2 2010/07/29 09:18:26 sthen Exp $
+@comment $OpenBSD$
 @group daemon
 @comment lib/
 @comment lib/php/

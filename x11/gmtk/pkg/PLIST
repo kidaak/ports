@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gmtk/pkg/PLIST,v 1.1.1.1 2012/01/05 14:47:10 dcoppa Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gmtk/
 include/gmtk/gm_audio.h

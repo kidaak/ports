@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/news/leafnode/pkg/PLIST,v 1.17 2012/01/26 08:03:57 ajacoutot Exp $
+@comment $OpenBSD$
 @newuser _news:519:news:daemon:NNTP server:/var/spool/news:/sbin/nologin
 @extraunexec rm -rf /var/spool/news/*
 @bin bin/leafnode-version

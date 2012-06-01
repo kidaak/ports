@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/netclasses/pkg/PLIST,v 1.1.1.1 2011/11/17 23:44:04 sebastia Exp $
+@comment $OpenBSD$
 include/netclasses
 lib/GNUstep/Frameworks/
 lib/GNUstep/Frameworks/netclasses.framework/

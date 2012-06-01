@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mew/Makefile,v 1.5 2011/09/16 10:31:21 espie Exp $
+# $OpenBSD$
 
 COMMENT=	emacs-based mail client
 

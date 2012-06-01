@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/vala/pkg/PLIST,v 1.31 2012/03/27 22:00:09 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/vala
 bin/vala-${API_V}

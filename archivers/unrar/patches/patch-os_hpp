@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/unrar/patches/patch-os_hpp,v 1.8 2012/04/08 17:04:20 naddy Exp $
+$OpenBSD$
 --- os.hpp.orig	Mon Jan  9 14:46:08 2012
 +++ os.hpp	Sun Apr  8 18:41:22 2012
 @@ -193,6 +193,10 @@

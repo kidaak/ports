@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/emacs-haskell/Makefile,v 1.1.1.1 2011/11/12 11:49:29 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		Emacs mode for editing Haskell code
 

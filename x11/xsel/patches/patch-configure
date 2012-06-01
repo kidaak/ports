@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xsel/patches/patch-configure,v 1.1 2009/09/05 08:55:51 sthen Exp $
+$OpenBSD$
 
 -Wdeclaration-after-statement is gcc 4-only.
 

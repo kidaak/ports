@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-ChangeNotify/pkg/PLIST,v 1.2 2010/07/03 03:41:42 jim Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/ChangeNotify/
 ${P5SITE}/File/ChangeNotify.pm

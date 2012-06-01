@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/uim/pkg/PLIST-main,v 1.6 2011/09/13 06:42:50 jasper Exp $
+@comment $OpenBSD$
 @pkgpath inputmethods/uim
 @pkgpath inputmethods/uim,-gnome
 @bin bin/uim-el-agent

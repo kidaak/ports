@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/timidity/patches/patch-goemon_cfg,v 1.1 2006/01/30 10:13:11 jsg Exp $
+$OpenBSD$
 --- goemon.cfg.orig	Wed Jan 11 22:39:35 2006
 +++ goemon.cfg	Wed Jan 11 22:39:47 2006
 @@ -6,8 +6,6 @@

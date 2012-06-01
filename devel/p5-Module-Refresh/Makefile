@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Module-Refresh/Makefile,v 1.9 2010/12/03 11:44:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	refresh perl %INC files when updated on disk
 

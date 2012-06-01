@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/poppler/Makefile,v 1.61 2012/03/27 06:31:05 kili Exp $
+# $OpenBSD$
 
 COMMENT-main=	PDF rendering library
 COMMENT-qt=	qt interface to PDF rendering library

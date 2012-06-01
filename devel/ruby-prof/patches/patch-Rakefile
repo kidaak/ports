@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ruby-prof/patches/patch-Rakefile,v 1.1 2011/11/17 16:08:00 jeremy Exp $
+$OpenBSD$
 
 The gem doesn't ship with it's gemspec, which breaks the Rakefile
 when used from the gem.  Work around it so the regress tests can run.

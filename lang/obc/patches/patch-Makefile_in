@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/obc/patches/patch-Makefile_in,v 1.2 2011/10/21 20:23:02 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Mar 14 23:08:59 2011
 +++ Makefile.in	Thu Jun 30 01:40:43 2011
 @@ -93,7 +93,7 @@ else

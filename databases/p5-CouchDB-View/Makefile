@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-CouchDB-View/Makefile,v 1.4 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		handle and create CouchDB views in Perl
 

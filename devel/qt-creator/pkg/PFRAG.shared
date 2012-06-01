@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/qt-creator/pkg/PFRAG.shared,v 1.1.1.1 2010/05/27 12:30:14 espie Exp $
+@comment $OpenBSD$
 @lib lib/qtcreator/libAggregation.so.${LIBAggregation_VERSION}
 @lib lib/qtcreator/libCPlusPlus.so.${LIBCPlusPlus_VERSION}
 @lib lib/qtcreator/libDebuggingHelper.so.${LIBDebuggingHelper_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/wcalc/Makefile,v 1.5 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 # Original from: Kyle Wheeler <kyle@memoryhole.net>
 
 COMMENT =		natural-expression command-line calculator

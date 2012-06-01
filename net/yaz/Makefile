@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/yaz/Makefile,v 1.11 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Z39.50/SR client and API library
 DISTNAME=		yaz-3.0.49

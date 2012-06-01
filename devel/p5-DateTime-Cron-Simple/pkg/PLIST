@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-DateTime-Cron-Simple/pkg/PLIST,v 1.1.1.1 2006/06/26 09:36:09 bernd Exp $
+@comment $OpenBSD$
 ${P5SITE}/DateTime/
 ${P5SITE}/DateTime/Cron/
 ${P5SITE}/DateTime/Cron/Simple.pm

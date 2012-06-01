@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/session_api/Makefile,v 1.4 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	simple set of functions that extend the core sessions
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/doxygen/patches/patch-src_libdoxygen_pro_in,v 1.5 2010/11/04 20:13:10 sthen Exp $
+$OpenBSD$
 --- src/libdoxygen.pro.in.orig	Fri Apr 30 11:45:25 2010
 +++ src/libdoxygen.pro.in	Thu Sep 16 12:14:12 2010
 @@ -242,6 +242,7 @@ win32:TMAKE_CXXFLAGS       += -DQT_NODLL 

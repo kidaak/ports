@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/fleditor/Makefile,v 1.24 2010/11/22 08:36:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=		text editor widget for FLTK
 

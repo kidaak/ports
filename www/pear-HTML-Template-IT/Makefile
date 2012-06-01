@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/pear-HTML-Template-IT/Makefile,v 1.8 2011/09/16 12:00:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	integrated Templates for PHP
 

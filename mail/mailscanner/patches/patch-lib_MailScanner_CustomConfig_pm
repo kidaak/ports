@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailscanner/patches/patch-lib_MailScanner_CustomConfig_pm,v 1.4 2009/10/07 20:59:29 sthen Exp $
+$OpenBSD$
 --- lib/MailScanner/CustomConfig.pm.orig	Sun Apr  6 12:07:16 2008
 +++ lib/MailScanner/CustomConfig.pm	Fri Aug 28 18:52:24 2009
 @@ -765,7 +765,7 @@ my($hostname);

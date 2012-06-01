@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/radmind/patches/patch-lcksum_c,v 1.4 2008/11/10 09:19:25 jasper Exp $
+$OpenBSD$
 --- lcksum.c.orig	Fri Nov  7 23:33:01 2008
 +++ lcksum.c	Fri Nov  7 23:33:39 2008
 @@ -431,7 +431,7 @@ do_lcksum( char *tpath )

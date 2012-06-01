@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-haml/pkg/PLIST,v 1.6 2010/11/08 23:24:42 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/css2sass${GEM_BIN_SUFFIX}
 ${GEM_BIN}/haml${GEM_BIN_SUFFIX}
 ${GEM_BIN}/html2haml${GEM_BIN_SUFFIX}

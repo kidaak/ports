@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/dspam/pkg/PLIST,v 1.8 2011/05/11 12:57:48 jasper Exp $
+@comment $OpenBSD$
 @newgroup _dspam:540
 @newuser _dspam:540:540:daemon:DSPAM Account:/var/dspam:/sbin/nologin
 @extraunexec rm -rf /var/dspam/*

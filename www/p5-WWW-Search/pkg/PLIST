@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-WWW-Search/pkg/PLIST,v 1.1.1.1 2009/03/04 20:30:50 jasper Exp $
+@comment $OpenBSD$
 bin/AutoSearch
 bin/WebSearch
 ${P5SITE}/WWW/Search/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/maildrop/patches/patch-liblock_locktest_c,v 1.1 2006/11/03 13:52:19 mbalmer Exp $
+$OpenBSD$
 --- liblock/locktest.c.orig	Mon Dec  6 11:18:55 1999
 +++ liblock/locktest.c	Sat Jan  7 20:36:26 2006
 @@ -5,6 +5,7 @@

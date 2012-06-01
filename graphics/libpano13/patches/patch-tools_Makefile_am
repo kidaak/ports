@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libpano13/patches/patch-tools_Makefile_am,v 1.2 2010/09/16 07:52:54 sthen Exp $
+$OpenBSD$
 --- tools/Makefile.am.orig	Sat Jul 24 22:16:56 2010
 +++ tools/Makefile.am	Sat Sep  4 21:32:14 2010
 @@ -24,6 +24,14 @@ LIN_SRC =

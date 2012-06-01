@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/Makefile.inc,v 1.2 2011/07/09 00:14:45 robert Exp $
+# $OpenBSD$
 
 MAINTAINER ?= Stuart Henderson <sthen@openbsd.org>
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/hc/Makefile,v 1.11 2010/10/18 20:52:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=	multi-radix integer desk calculator
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/icon/interp/Makefile,v 1.22 2010/11/17 08:05:17 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=		programming language with generators, X11 and more
 COMMENT-main-no_x11=	programming language with generators

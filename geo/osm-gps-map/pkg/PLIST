@@ -1,12 +1,11 @@
-@comment $OpenBSD: ports/geo/osm-gps-map/pkg/PLIST,v 1.2 2010/03/21 10:44:25 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/mapviewer
-doc/
-doc/osm-gps-map/
-doc/osm-gps-map/README
 include/osmgpsmap/
 include/osmgpsmap/osm-gps-map.h
 lib/libosmgpsmap.a
 lib/libosmgpsmap.la
 lib/pkgconfig/
 lib/pkgconfig/osmgpsmap.pc
+share/doc/osm-gps-map/
+share/doc/osm-gps-map/README

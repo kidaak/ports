@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/clisp/Makefile,v 1.38 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =	amd64 i386 powerpc sparc64
 

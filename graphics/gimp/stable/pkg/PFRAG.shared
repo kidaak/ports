@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gimp/stable/pkg/PFRAG.shared,v 1.9 2008/11/16 21:19:23 kili Exp $
+@comment $OpenBSD$
 lib/gimp/2.0/modules/libcolor-selector-cmyk.so
 lib/gimp/2.0/modules/libcolor-selector-water.so
 lib/gimp/2.0/modules/libcolor-selector-wheel.so

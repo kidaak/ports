@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-FTPServer/Makefile,v 1.10 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	secure, extensible and configurable Perl FTPd
 

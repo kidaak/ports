@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/utils3/patches/patch-ark_tar_cpp,v 1.1 2007/02/02 12:09:36 espie Exp $
+$OpenBSD$
 --- ark/tar.cpp.orig	Mon May 22 20:08:38 2006
 +++ ark/tar.cpp	Fri Feb  2 02:12:52 2007
 @@ -50,6 +50,7 @@

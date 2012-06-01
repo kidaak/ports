@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/snort2pf/pkg/README,v 1.2 2011/06/02 13:41:40 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

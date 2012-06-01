@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/brltty/Makefile,v 1.11 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	access software for a blind person using a braille terminal
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/trn/files/openbsd-hints,v 1.4 2011/12/12 11:53:07 schwarze Exp $
+# $OpenBSD$
 orgname="/etc/organization"
 d_nntp='define'
 d_local='undef'

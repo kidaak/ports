@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/cython/Makefile,v 1.3 2011/09/16 10:31:20 espie Exp $
+# $OpenBSD$
 
 COMMENT =		C-Extensions for Python
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/spranq-ecofont-ttf/Makefile,v 1.2 2012/01/16 12:20:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		ink-saving font based on Vera Sans
 

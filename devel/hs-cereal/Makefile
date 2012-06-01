@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-cereal/Makefile,v 1.5 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		binary serialization library
 

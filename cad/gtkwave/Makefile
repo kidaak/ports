@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/gtkwave/Makefile,v 1.10 2011/11/16 14:52:50 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		GTK+-based electronic waveform viewer
 

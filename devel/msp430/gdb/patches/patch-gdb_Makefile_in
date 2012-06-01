@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/msp430/gdb/patches/patch-gdb_Makefile_in,v 1.3 2011/11/08 12:42:13 jasper Exp $
+$OpenBSD$
 
 Don't install the xml syscall files which only contain Linux' syscalls.
 

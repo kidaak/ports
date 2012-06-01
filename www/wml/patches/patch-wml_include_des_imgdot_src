@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_include_des_imgdot_src,v 1.1.1.1 2006/07/14 16:12:14 bernd Exp $
+$OpenBSD$
 --- wml_include/des/imgdot.src.orig	Fri Jun 16 00:49:02 2006
 +++ wml_include/des/imgdot.src	Fri Jun 16 00:49:15 2006
 @@ -13,7 +13,7 @@

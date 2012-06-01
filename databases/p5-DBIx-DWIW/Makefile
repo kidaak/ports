@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-DWIW/Makefile,v 1.4 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	DBI wrapper intended to Do What I Want
 

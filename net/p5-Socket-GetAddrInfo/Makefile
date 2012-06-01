@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Socket-GetAddrInfo/Makefile,v 1.2 2011/06/01 17:05:01 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-RSS/Makefile,v 1.35 2011/07/10 12:17:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to manage XML RSS files
 

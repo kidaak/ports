@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cutils/Makefile,v 1.6 2011/03/19 09:18:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	collection of utilities for C programmers
 

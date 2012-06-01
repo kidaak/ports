@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/zathura/patches/patch-config_def_h,v 1.1 2012/02/19 20:55:33 edd Exp $
+$OpenBSD$
 --- config.def.h.orig	Fri Feb 17 11:57:19 2012
 +++ config.def.h	Fri Feb 17 11:57:24 2012
 @@ -124,6 +124,8 @@ Shortcut shortcuts[] = {

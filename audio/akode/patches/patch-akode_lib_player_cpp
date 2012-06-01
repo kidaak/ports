@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/akode/patches/patch-akode_lib_player_cpp,v 1.1 2008/04/16 02:10:21 jakemsr Exp $
+$OpenBSD$
 --- akode/lib/player.cpp.orig	Mon Mar 24 01:59:23 2008
 +++ akode/lib/player.cpp	Mon Mar 24 02:54:46 2008
 @@ -398,7 +398,10 @@ bool Player::load() {

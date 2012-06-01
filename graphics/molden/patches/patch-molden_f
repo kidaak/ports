@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/molden/patches/patch-molden_f,v 1.1.1.1 2007/11/09 17:26:27 ckuethe Exp $
+$OpenBSD$
 --- molden.f.orig	Wed Nov  7 04:08:52 2007
 +++ molden.f	Thu Nov  8 19:55:25 2007
 @@ -2339,7 +2339,7 @@ c ASP-H

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-SOAP-WSDL/pkg/PLIST,v 1.1.1.1 2010/12/22 20:25:22 jasper Exp $
+@comment $OpenBSD$
 bin/wsdl2perl.pl
 ${P5SITE}/SOAP/
 ${P5SITE}/SOAP/WSDL/

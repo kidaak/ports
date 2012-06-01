@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Test-LeakTrace/pkg/PLIST,v 1.1.1.1 2009/09/29 09:04:13 kevlo Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Test/
 ${P5ARCH}/Test/LeakTrace/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/sawfish/patches/patch-man_Makefile_in,v 1.4 2011/11/15 19:32:49 jasper Exp $
+$OpenBSD$
 --- man/Makefile.in.orig	Tue Nov 15 20:12:29 2011
 +++ man/Makefile.in	Tue Nov 15 20:13:08 2011
 @@ -56,13 +56,12 @@ install : sawfish.info installdirs

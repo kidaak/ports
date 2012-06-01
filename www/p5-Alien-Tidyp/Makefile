@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Alien-Tidyp/Makefile,v 1.2 2011/03/20 20:19:57 simon Exp $
+# $OpenBSD$
 
 COMMENT=	building, finding and using tidyp librar
 

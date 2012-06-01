@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/goffice/Makefile,v 1.44 2012/03/23 09:44:44 ajacoutot Exp $
+# $OpenBSD$
 
 # XXX on goffice version change,
 # update API_VERSION in math/gnumeric, bump PKGNAME then change the

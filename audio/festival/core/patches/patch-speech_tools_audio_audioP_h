@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-speech_tools_audio_audioP_h,v 1.1 2010/04/26 01:32:38 jakemsr Exp $
+$OpenBSD$
 --- speech_tools/audio/audioP.h.orig	Sat Apr 24 04:27:45 2010
 +++ speech_tools/audio/audioP.h	Sat Apr 24 04:28:17 2010
 @@ -43,6 +43,7 @@ int play_nas_wave(EST_Wave &inwave, EST_Option &al);

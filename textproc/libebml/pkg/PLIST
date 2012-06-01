@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/libebml/pkg/PLIST,v 1.1.1.1 2006/03/22 01:26:57 jolan Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/ebml/
 include/ebml/Debug.h

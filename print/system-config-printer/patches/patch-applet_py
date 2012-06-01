@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/system-config-printer/patches/patch-applet_py,v 1.6 2011/05/04 09:10:52 ajacoutot Exp $
+$OpenBSD$
 --- applet.py.orig	Wed Mar 16 17:44:41 2011
 +++ applet.py	Wed May  4 10:04:38 2011
 @@ -47,7 +47,7 @@ except RuntimeError, e:

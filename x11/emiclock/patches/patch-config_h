@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/emiclock/patches/patch-config_h,v 1.3 2010/10/23 10:52:58 landry Exp $
+$OpenBSD$
 --- config.h.orig	Thu Sep  2 08:33:48 1999
 +++ config.h	Sat Oct 23 04:44:07 2010
 @@ -51,7 +51,7 @@

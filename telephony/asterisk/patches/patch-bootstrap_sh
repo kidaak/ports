@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/asterisk/patches/patch-bootstrap_sh,v 1.4 2012/03/13 23:17:46 sthen Exp $
+$OpenBSD$
 --- bootstrap.sh.orig	Fri Jan 13 21:40:32 2012
 +++ bootstrap.sh	Tue Mar  6 14:23:21 2012
 @@ -18,8 +18,8 @@ case `uname -sr` in

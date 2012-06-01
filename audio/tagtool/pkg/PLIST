@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/tagtool/pkg/PLIST,v 1.6 2011/12/03 18:55:29 ajacoutot Exp $
+@comment $OpenBSD$
 bin/tagtool
 share/applications/
 share/applications/tagtool.desktop

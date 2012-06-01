@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/camd/pkg/PLIST,v 1.2 2010/10/26 17:42:51 steven Exp $
+@comment $OpenBSD$
 %%SHARED%%
 %%no_mips64%%
 include/camd/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Email-Sender/pkg/PLIST,v 1.2 2010/04/12 09:33:58 stephan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Email/Sender/
 ${P5SITE}/Email/Sender.pm
 ${P5SITE}/Email/Sender/Failure/

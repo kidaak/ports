@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/firefox36/pkg/PLIST,v 1.3 2011/03/26 10:58:36 landry Exp $
+@comment $OpenBSD$
 @conflict firefox3-*
 @conflict mozilla-firebird-*
 @pkgpath www/firefox3

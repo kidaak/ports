@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pptp/patches/patch-pptp_gre_c,v 1.2 2008/11/11 16:23:26 naddy Exp $
+$OpenBSD$
 --- pptp_gre.c.orig	Wed May 14 08:33:55 2008
 +++ pptp_gre.c	Sat Sep 20 17:44:51 2008
 @@ -11,6 +11,8 @@

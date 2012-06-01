@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-ConfigLoader/Makefile,v 1.18 2012/04/08 21:58:24 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	catalyst plugin to Config::Any
 

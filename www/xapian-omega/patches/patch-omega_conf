@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/xapian-omega/patches/patch-omega_conf,v 1.1.1.1 2009/07/23 15:16:45 ajacoutot Exp $
+$OpenBSD$
 --- omega.conf.orig	Mon Jun 15 23:29:55 2009
 +++ omega.conf	Mon Jun 15 23:30:46 2009
 @@ -1,11 +1,11 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/education/Makefile,v 1.18 2012/03/02 09:36:05 fgsch Exp $
+# $OpenBSD$
 #
 
      SUBDIR =

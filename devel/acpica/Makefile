@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/acpica/Makefile,v 1.7 2012/01/11 02:35:14 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =	amd64 i386
 

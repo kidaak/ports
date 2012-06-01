@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/unace/Makefile,v 1.31 2010/07/11 15:57:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	extract, view & test ACE archives
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/deco/Makefile,v 1.21 2010/11/05 08:24:49 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.1.1.1 1998/03/27 11:56:44 tg Exp $
 
 COMMENT=	Demos Commander, a free Norton Commander clone

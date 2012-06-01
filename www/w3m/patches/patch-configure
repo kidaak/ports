@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/w3m/patches/patch-configure,v 1.16 2011/03/12 23:20:17 sthen Exp $
+$OpenBSD$
 --- configure.orig	Sat Mar 12 21:00:56 2011
 +++ configure	Sat Mar 12 21:08:16 2011
 @@ -8209,7 +8209,7 @@ if test "${ac_cv_lib_gc_GC_init+set}" = set; then :

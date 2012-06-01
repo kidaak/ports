@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/lmms/patches/patch-lmmsconfig_h_in,v 1.1.1.1 2010/10/28 22:33:41 jakemsr Exp $
+$OpenBSD$
 --- lmmsconfig.h.in.orig	Mon Feb 23 14:34:25 2009
 +++ lmmsconfig.h.in	Wed Dec 23 17:30:47 2009
 @@ -12,6 +12,7 @@

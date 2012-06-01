@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rrdtool/patches/patch-examples_Makefile_in,v 1.7 2009/01/26 21:26:32 sthen Exp $
+$OpenBSD$
 --- examples/Makefile.in.orig	Wed Jul 23 15:56:19 2008
 +++ examples/Makefile.in	Sat Nov 22 14:09:31 2008
 @@ -227,7 +227,7 @@ target_cpu = @target_cpu@

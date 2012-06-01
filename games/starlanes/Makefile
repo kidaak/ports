@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/starlanes/Makefile,v 1.21 2010/10/18 18:00:18 espie Exp $
+# $OpenBSD$
 
 COMMENT=	classic space-age stock trading game
 

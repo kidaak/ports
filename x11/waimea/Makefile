@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/waimea/Makefile,v 1.17 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		virtual desktop manager for X11
 

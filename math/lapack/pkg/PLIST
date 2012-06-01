@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/lapack/pkg/PLIST,v 1.5 2010/02/23 20:12:04 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 %%no_mips64%%
 lib/liblapack.a

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/imapproxy/pkg/PLIST,v 1.3 2007/09/12 19:54:48 brad Exp $
+@comment $OpenBSD$
 @newgroup _imapproxy:592
 @newuser _imapproxy:592:_imapproxy:daemon:IMAP Proxy Account:/nonexistent:/sbin/nologin
 sbin/imapproxyd

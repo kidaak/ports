@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt4/pkg/PLIST-main,v 1.30 2011/11/06 12:44:04 espie Exp $
+@comment $OpenBSD$
 @pkgpath x11/qt4
 @pkgpath x11/qt4,-phonon
 %%SHARED%%

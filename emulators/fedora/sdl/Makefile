@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/fedora/sdl/Makefile,v 1.2 2011/09/21 15:21:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Linux SDL package based on Fedora Core 4
 

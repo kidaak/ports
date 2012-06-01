@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drush/pkg/PLIST,v 1.2 2012/04/09 16:12:12 espie Exp $
+@comment $OpenBSD$
 bin/drush
 libexec/drush/
 libexec/drush/LICENSE.txt

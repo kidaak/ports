@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBD-Mock/Makefile,v 1.6 2011/06/13 16:40:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	mock database driver for testing
 

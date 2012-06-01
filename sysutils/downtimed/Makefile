@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/downtimed/Makefile,v 1.2 2011/03/03 18:41:14 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =		system downtime monitoring
 DISTNAME =		downtimed-0.5

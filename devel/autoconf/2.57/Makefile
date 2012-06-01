@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/autoconf/2.57/Makefile,v 1.10 2010/11/15 20:21:01 espie Exp $
+# $OpenBSD$
 
 VERSION =	2.57
 REVISION =	2

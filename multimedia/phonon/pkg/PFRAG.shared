@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/phonon/pkg/PFRAG.shared,v 1.1.1.1 2010/06/18 12:53:38 espie Exp $
+@comment $OpenBSD$
 lib/kde4/plugins/phonon_backend/phonon_gstreamer.so
 lib/kde4/plugins/phonon_backend/phonon_xine.so
 @lib lib/libphonon.so.${LIBphonon_VERSION}

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/LPRng/pkg/PLIST,v 1.11 2006/10/09 09:15:22 espie Exp $
+@comment $OpenBSD$
 @conflict cups-*
 bin/cancel
 bin/lp

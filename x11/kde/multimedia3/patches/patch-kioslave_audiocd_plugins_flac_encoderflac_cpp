@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/multimedia3/patches/patch-kioslave_audiocd_plugins_flac_encoderflac_cpp,v 1.1 2007/09/18 18:36:53 mgrimm Exp $
+$OpenBSD$
 --- kioslave/audiocd/plugins/flac/encoderflac.cpp.orig	Sun Sep 16 21:51:43 2007
 +++ kioslave/audiocd/plugins/flac/encoderflac.cpp	Sun Sep 16 22:00:43 2007
 @@ -47,7 +47,7 @@ class EncoderFLAC::Private { (public)

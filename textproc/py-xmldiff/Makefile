@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-xmldiff/Makefile,v 1.5 2011/11/03 20:13:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		show differences between XML files/DOM trees
 

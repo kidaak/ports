@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-avidemux_ADM_userInterfaces_ADM_commonUI_DIA_builtin_cpp,v 1.1 2010/04/26 02:09:03 jakemsr Exp $
+$OpenBSD$
 --- avidemux/ADM_userInterfaces/ADM_commonUI/DIA_builtin.cpp.orig	Wed Apr 21 10:10:06 2010
 +++ avidemux/ADM_userInterfaces/ADM_commonUI/DIA_builtin.cpp	Wed Apr 21 10:13:02 2010
 @@ -44,7 +44,7 @@

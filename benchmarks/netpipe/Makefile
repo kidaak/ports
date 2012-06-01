@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/netpipe/Makefile,v 1.24 2010/10/18 16:57:47 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.2 1999/03/03 03:48:56 jkoshy Exp $
 
 COMMENT=	self-scaling network benchmark

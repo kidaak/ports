@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/fretsonfire/pkg/PLIST,v 1.2 2009/10/16 23:24:33 phessler Exp $
+@comment $OpenBSD$
 bin/fretsonfire
 share/fretsonfire/
 share/fretsonfire/copying.txt

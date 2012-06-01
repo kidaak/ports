@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/glimpse/patches/patch-index_Makefile_in,v 1.1 2008/02/14 21:00:00 merdely Exp $
+$OpenBSD$
 --- index/Makefile.in.orig	Wed Jan 23 09:40:06 2008
 +++ index/Makefile.in	Wed Jan 23 09:40:13 2008
 @@ -36,7 +36,7 @@ LIBAGREP	= agrep

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xripple/patches/patch-xrp_c,v 1.1 2007/10/26 21:19:17 ajacoutot Exp $
+$OpenBSD$
 --- xrp.c.orig	Wed Jul 10 14:47:30 1996
 +++ xrp.c	Fri Oct 26 23:10:56 2007
 @@ -124,7 +124,19 @@ doit()

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/parse/patches/patch-display_c,v 1.1 2007/10/26 21:38:24 jasper Exp $
+$OpenBSD$
 --- display.c.orig	Wed Nov  6 23:59:38 1996
 +++ display.c	Fri Oct 26 23:33:35 2007
 @@ -27,7 +27,10 @@

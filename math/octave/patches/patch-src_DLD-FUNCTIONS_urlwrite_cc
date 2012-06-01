@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/octave/patches/patch-src_DLD-FUNCTIONS_urlwrite_cc,v 1.1 2011/07/05 08:18:30 jasper Exp $
+$OpenBSD$
 --- src/DLD-FUNCTIONS/urlwrite.cc.orig	Tue Jul  5 09:23:47 2011
 +++ src/DLD-FUNCTIONS/urlwrite.cc	Tue Jul  5 09:23:51 2011
 @@ -43,7 +43,6 @@ along with Octave; see the file COPYING.  If not, see

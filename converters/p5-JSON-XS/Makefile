@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-JSON-XS/Makefile,v 1.14 2011/04/14 21:21:56 naddy Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

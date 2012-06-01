@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/views_bonus/Makefile,v 1.5 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	providing features that aren't distributed by Views itself
 MAINTAINER =	Marc Espie <espie@openbsd.org>

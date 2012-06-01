@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/vim/pkg/PLIST-lang,v 1.7 2008/01/01 17:02:26 ckuethe Exp $
+@comment $OpenBSD$
 %%gtk2%%
 share/vim/${P}/lang/README.txt
 share/vim/${P}/lang/af/

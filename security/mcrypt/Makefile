@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/mcrypt/Makefile,v 1.24 2011/04/16 21:13:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	extendable encryption program that supports many ciphers
 

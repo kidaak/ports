@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_config_rs6000_openbsd_h,v 1.1 2007/06/19 21:23:38 ajacoutot Exp $
+$OpenBSD$
 --- gcc/config/rs6000/openbsd.h.orig	Sat Jun  9 17:11:08 2007
 +++ gcc/config/rs6000/openbsd.h	Sat Jun  9 18:24:52 2007
 @@ -0,0 +1,132 @@

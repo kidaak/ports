@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/gnumail/patches/patch-Framework_GNUMail_MailWindowController_m,v 1.1.1.1 2007/07/29 14:36:36 ajacoutot Exp $
+$OpenBSD$
 --- Framework/GNUMail/MailWindowController.m.orig	Mon Feb  5 19:41:59 2007
 +++ Framework/GNUMail/MailWindowController.m	Mon May 28 15:21:13 2007
 @@ -2373,13 +2373,7 @@

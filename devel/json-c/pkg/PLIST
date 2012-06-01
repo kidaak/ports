@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/json-c/pkg/PLIST,v 1.2 2009/09/15 18:15:41 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/json/
 include/json/arraylist.h

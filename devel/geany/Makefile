@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/geany/Makefile,v 1.36 2011/12/03 19:38:09 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

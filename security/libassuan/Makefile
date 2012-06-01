@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libassuan/Makefile,v 1.9 2012/03/07 20:42:36 pea Exp $
+# $OpenBSD$
 
 COMMENT=	IPC library used by GnuPG and gpgme
 

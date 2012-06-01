@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xbreaky/pkg/PLIST,v 1.6 2010/01/07 09:38:20 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/xbreaky
 @bin bin/xbreaky.snd
 @man man/man6/xbreaky.6

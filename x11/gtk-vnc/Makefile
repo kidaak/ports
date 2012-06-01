@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk-vnc/Makefile,v 1.38 2012/03/12 17:00:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		VNC viewer widget for GTK
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dbus-glib/patches/patch-dbus_dbus-gvalue_c,v 1.5 2011/10/16 06:45:18 ajacoutot Exp $
+$OpenBSD$
 
 Fixes compile on gcc2.95 archs.
 

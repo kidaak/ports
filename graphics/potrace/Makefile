@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/potrace/Makefile,v 1.4 2010/11/17 08:05:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		transforming bitmaps into vector graphics
 

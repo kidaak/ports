@@ -1,0 +1,12 @@
+$OpenBSD$
+--- 3rdparty/dyncall/dyncallback/dyncall_thunk_x86.h.orig	Wed May  9 15:46:34 2012
++++ 3rdparty/dyncall/dyncallback/dyncall_thunk_x86.h	Wed May  9 15:47:09 2012
+@@ -31,7 +31,7 @@ struct DCThunk_
+   unsigned int code_load;
+   void*        addr_self;
+   unsigned int code_jump;
+-  void        (*addr_entry)();
++  void        (*addr_entry)(void);
+ };
+ 
+ #define DCTHUNK_X86_SIZE	16

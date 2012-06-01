@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/ImageMagick/patches/patch-configure,v 1.5 2011/07/06 22:43:00 kili Exp $
+$OpenBSD$
 --- configure.orig	Fri Dec 31 15:04:17 2010
 +++ configure	Thu Jan  6 14:43:30 2011
 @@ -29429,7 +29429,7 @@ fi

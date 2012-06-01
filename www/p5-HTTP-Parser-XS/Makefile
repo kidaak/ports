@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTP-Parser-XS/Makefile,v 1.1.1.1 2011/01/07 13:45:11 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		fast, primitive HTTP request parser
 

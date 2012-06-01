@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/walker/Makefile,v 1.3 2010/11/19 22:31:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	retrieve DNS zone via DNSSEC NXT/NSEC traversal
 

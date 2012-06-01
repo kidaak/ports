@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/clamav-unofficial-sigs/patches/patch-clamav-unofficial-sigs_sh,v 1.1.1.1 2011/03/26 12:26:44 sthen Exp $
+$OpenBSD$
 --- clamav-unofficial-sigs.sh.orig	Sun Mar 20 22:39:06 2011
 +++ clamav-unofficial-sigs.sh	Sun Mar 20 22:41:12 2011
 @@ -26,6 +26,8 @@ output_ver="

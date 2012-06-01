@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/apache-couchdb/patches/patch-Makefile_in,v 1.7 2011/04/01 07:38:16 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Aug 11 20:18:54 2010
 +++ Makefile.in	Fri Apr  1 09:37:58 2011
 @@ -291,18 +291,18 @@ version_stage = @version_stage@

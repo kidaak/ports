@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/homebank/patches/patch-po_POTFILES_in,v 1.4 2011/03/07 19:24:43 ajacoutot Exp $
+$OpenBSD$
 --- po/POTFILES.in.orig	Sat Jan 15 22:24:30 2011
 +++ po/POTFILES.in	Sat Feb 26 12:54:23 2011
 @@ -31,4 +31,5 @@ src/ui_category.c

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libcaca/patches/patch-caca_Makefile_in,v 1.2 2010/06/28 07:24:30 landry Exp $
+$OpenBSD$
 --- caca/Makefile.in.orig	Mon Feb  8 14:47:01 2010
 +++ caca/Makefile.in	Fri Jun 25 10:58:39 2010
 @@ -1121,7 +1121,6 @@ uninstall-am: uninstall-includeHEADERS uninstall-libLT

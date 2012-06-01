@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/gmpc-libnotify/patches/patch-src_plugin_c,v 1.1 2011/04/21 07:04:56 ajacoutot Exp $
+$OpenBSD$
 
 Fix with libnotify>=0.7
 (notify_notification_new has lost its widget argument)

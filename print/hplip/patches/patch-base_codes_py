@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-base_codes_py,v 1.6 2011/04/17 07:19:44 ajacoutot Exp $
+$OpenBSD$
 --- base/codes.py.orig	Mon Mar 14 08:59:08 2011
 +++ base/codes.py	Sun Apr 17 08:43:04 2011
 @@ -284,7 +284,7 @@ EVENT_RAISE_DEVICE_MANAGER = 9001

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/nmh/pkg/PLIST,v 1.10 2012/01/26 07:24:08 bentley Exp $
+@comment $OpenBSD$
 @bin bin/ali
 @bin bin/anno
 @bin bin/burst

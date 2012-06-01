@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/pkg_mgr/Makefile,v 1.7 2011/07/17 19:47:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	user-friendly package browser and manager
 

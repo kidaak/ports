@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/cdplayer/patches/patch-GNUmakefile,v 1.1.1.1 2011/07/19 06:30:42 sebastia Exp $
+$OpenBSD$
 
 we want to build cddb bundle 
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/fox/Makefile,v 1.22 2011/11/04 09:18:43 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	C++ toolkit for GUI
 CATEGORIES =	devel

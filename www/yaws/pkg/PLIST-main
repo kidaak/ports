@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/yaws/pkg/PLIST-main,v 1.5 2011/05/27 17:13:09 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/yaws
 lib/pkgconfig/

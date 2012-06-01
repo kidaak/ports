@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CGI-SpeedyCGI/Makefile,v 1.11 2011/09/17 18:05:00 jakob Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

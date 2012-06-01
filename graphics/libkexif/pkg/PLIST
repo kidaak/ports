@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libkexif/pkg/PLIST,v 1.5 2008/07/18 19:45:13 espie Exp $
+@comment $OpenBSD$
 include/libkexif/
 include/libkexif/kexifdata.h
 include/libkexif/kexifdialog.h

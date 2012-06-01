@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Term-ReadKey/Makefile,v 1.21 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

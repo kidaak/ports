@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Parser/Makefile,v 1.25 2011/06/25 08:24:00 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

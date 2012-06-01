@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libsrtp/Makefile,v 1.2 2012/01/06 00:45:06 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Secure RTP library
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/wily/Makefile,v 1.27 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	clone of the Plan9 editor 'acme'
 

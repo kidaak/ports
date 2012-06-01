@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/jvim/Makefile,v 1.30 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.1.1.1 1998/07/10 14:05:19 kuriyama Exp $
 
 COMMENT=	Japanized Vim

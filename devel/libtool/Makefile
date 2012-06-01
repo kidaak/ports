@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libtool/Makefile,v 1.79 2012/02/25 10:25:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=	generic shared library support script
 COMMENT-ltdl=	GNU libtool system independent dlopen wrapper

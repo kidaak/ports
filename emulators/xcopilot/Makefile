@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/xcopilot/Makefile,v 1.19 2010/10/24 21:17:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	emulator for US Robotics Pilot PDA
 

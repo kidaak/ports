@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/matchbox-panel/Makefile,v 1.24 2010/11/22 08:37:03 espie Exp $
+# $OpenBSD$
 # XXX hardcoded apm list
 
 COMMENT=	window bar for holding application launchers

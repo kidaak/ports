@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/quake2/patches/patch-src_snd_dma_c,v 1.2 2010/09/01 00:29:07 jakemsr Exp $
+$OpenBSD$
 --- src/snd_dma.c.orig	Mon Mar 15 04:50:39 2004
 +++ src/snd_dma.c	Mon May  3 17:43:55 2010
 @@ -164,10 +164,10 @@ void S_Init (void)

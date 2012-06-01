@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/hugs/patches/patch-docs_users_guide_Makefile_in,v 1.3 2008/10/29 22:55:40 kili Exp $
+$OpenBSD$
 
 Can't build the user's guide, so don't try
 

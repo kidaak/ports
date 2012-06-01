@@ -1,5 +1,5 @@
 # ex:ts=8 sw=4:
-# $OpenBSD: ports/infrastructure/lib/DPB/Locks.pm,v 1.15 2012/03/02 17:14:41 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2010 Marc Espie <espie@openbsd.org>
 #

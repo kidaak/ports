@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xbindkeys/patches/patch-xbindkeys_1,v 1.1 2007/04/23 17:04:29 naddy Exp $
+$OpenBSD$
 --- xbindkeys.1.orig	Sat Apr 21 13:34:33 2007
 +++ xbindkeys.1	Sat Apr 21 13:34:45 2007
 @@ -168,7 +168,7 @@ xbindkeys reload its configuration file each time it h

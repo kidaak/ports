@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk+/pkg/PLIST,v 1.33 2006/01/01 22:23:03 naddy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/gtk-config
 include/gtk-1.2/

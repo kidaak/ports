@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/flyspray/Makefile,v 1.7 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT =	web-based bug tracking system
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ocaml-rss/patches/patch-rss_io_ml,v 1.1 2005/05/24 00:12:23 avsm Exp $
+$OpenBSD$
 --- rss_io.ml.orig	Tue May 24 01:08:24 2005
 +++ rss_io.ml	Tue May 24 01:08:37 2005
 @@ -303,7 +303,7 @@ let opt_element opt s = 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/xnc/patches/patch-_xlaunch__xnlaunch_ini,v 1.1.1.1 2000/12/31 12:54:27 reinhard Exp $
+$OpenBSD$
 --- .xlaunch/.xnlaunch.ini.orig	Fri Nov 10 09:19:22 2000
 +++ .xlaunch/.xnlaunch.ini	Sun Dec 31 12:19:49 2000
 @@ -15,7 +15,7 @@ xnc.sysfiles.path:   /xnctmp

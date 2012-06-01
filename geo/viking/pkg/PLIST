@@ -1,6 +1,5 @@
-@comment $OpenBSD: ports/geo/viking/pkg/PLIST,v 1.4 2012/01/07 15:45:32 landry Exp $
+@comment $OpenBSD$
 @bin bin/viking
-bin/viking-remote
 share/applications/viking.desktop
 share/gnome/
 share/gnome/help/

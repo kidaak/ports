@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/sysutils/backuppc/pkg/wwbackuppc.rc,v 1.1.1.1 2011/09/20 11:36:55 landry Exp $
+# $OpenBSD$
 
 daemon="${LOCALBASE}/bin/spawn-fcgi"
 daemon_flags="-u_backuppc -g_backuppc -p1028 ${TRUEPREFIX}/bin/BackupPC_Admin.fcgi"

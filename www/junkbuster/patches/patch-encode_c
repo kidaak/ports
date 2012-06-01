@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/junkbuster/patches/patch-encode_c,v 1.4 2010/05/24 22:17:03 espie Exp $
+$OpenBSD$
 --- encode.c.orig	Sat Oct 31 04:58:47 1998
 +++ encode.c	Sat May 22 16:47:47 2010
 @@ -24,6 +24,7 @@ url_encode(char **code_map, unsigned char *s)

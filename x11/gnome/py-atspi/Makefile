@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/py-atspi/Makefile,v 1.10 2012/03/29 07:05:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	python bindings for at-spi2
 

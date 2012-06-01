@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/patches/patch-src_dird_bacula-dir_conf_in,v 1.7 2011/11/17 23:45:56 ajacoutot Exp $
+$OpenBSD$
 --- src/dird/bacula-dir.conf.in.orig	Sun Oct 30 13:03:42 2011
 +++ src/dird/bacula-dir.conf.in	Tue Nov 15 20:25:39 2011
 @@ -14,6 +14,7 @@

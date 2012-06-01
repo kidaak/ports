@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/fragroute/patches/patch-pkt_h,v 1.1 2010/04/30 13:44:15 naddy Exp $
+$OpenBSD$
 --- pkt.h.orig	Fri Apr 30 15:26:29 2010
 +++ pkt.h	Fri Apr 30 15:26:51 2010
 @@ -9,10 +9,10 @@

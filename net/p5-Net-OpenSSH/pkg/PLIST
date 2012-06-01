@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-OpenSSH/pkg/PLIST,v 1.1.1.1 2012/01/25 15:43:37 okan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/OpenSSH/
 ${P5SITE}/Net/OpenSSH.pm

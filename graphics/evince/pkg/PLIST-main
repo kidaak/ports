@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/evince/pkg/PLIST-main,v 1.21 2012/03/29 07:03:31 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath graphics/evince
 @bin bin/evince
 @bin bin/evince-previewer

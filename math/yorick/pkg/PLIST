@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/yorick/pkg/PLIST,v 1.8 2010/05/11 23:22:37 pvalchev Exp $
+@comment $OpenBSD$
 @bin bin/gist
 @bin bin/yorick
 include/README

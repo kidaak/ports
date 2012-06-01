@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/slurpie/Makefile,v 1.6 2007/09/15 23:30:01 merdely Exp $
+# $OpenBSD$
 # $FreeBSD: ports/security/slurpie/Makefile,v 1.4 2000/11/06 00:09:26 obrien Exp $
 
 COMMENT=	distributed passwd file cracker

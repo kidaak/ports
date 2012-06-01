@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/tkdiff/Makefile,v 1.10 2010/11/15 19:46:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	graphical front-end to the diff program
 

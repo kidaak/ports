@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/jack/patches/patch-jackd_jackd_1_in,v 1.2 2012/01/24 08:03:52 ajacoutot Exp $
+$OpenBSD$
 --- jackd/jackd.1.in.orig	Thu Jun  9 01:54:48 2011
 +++ jackd/jackd.1.in	Mon Jan 23 14:21:11 2012
 @@ -28,8 +28,9 @@ For the latest JACK information, please consult the we

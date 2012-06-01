@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/mailman/pkg/mailman.rc,v 1.10 2012/01/26 11:34:42 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/lib/mailman/bin/mailmanctl"
 daemon_flags="-s start"

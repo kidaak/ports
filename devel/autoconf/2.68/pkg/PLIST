@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/autoconf/2.68/pkg/PLIST,v 1.1 2011/05/12 00:10:33 sthen Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 bin/autoconf${SUFFIX}
 bin/autoheader${SUFFIX}

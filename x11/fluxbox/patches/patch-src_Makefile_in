@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fluxbox/patches/patch-src_Makefile_in,v 1.2 2011/10/30 15:16:13 dcoppa Exp $
+$OpenBSD$
 
 Don't check for git revision, this is a stable release
 

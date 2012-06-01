@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-mspec/Makefile,v 1.3 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	specialized test framework for running RubySpecs
 

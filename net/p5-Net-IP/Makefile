@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-IP/Makefile,v 1.15 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for IPv4/IPv6 address parsing
 

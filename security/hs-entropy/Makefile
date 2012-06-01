@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hs-entropy/Makefile,v 1.1.1.1 2012/01/22 17:15:24 kili Exp $
+# $OpenBSD$
 
 COMMENT =		platform independent entropy source
 

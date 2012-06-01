@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/TclXML/Makefile,v 1.21 2011/10/03 08:41:58 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	XML parser for Tcl
 

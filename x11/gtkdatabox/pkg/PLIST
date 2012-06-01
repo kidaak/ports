@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtkdatabox/pkg/PLIST,v 1.1.1.1 2009/10/02 13:35:08 pea Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gtkdatabox.h
 include/gtkdatabox_bars.h

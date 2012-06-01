@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/dovecot-pigeonhole/pkg/PLIST,v 1.2 2011/06/10 13:48:52 sthen Exp $
+@comment $OpenBSD$
 @conflict dovecot-sieve-<=0.1.18p0v0
 @pkgpath mail/dovecot,-sieve
 @pkgpath mail/dovecot,-sieve,bdb

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/csup/patches/patch-cpasswd_sh,v 1.1 2010/10/19 20:11:49 naddy Exp $
+$OpenBSD$
 --- cpasswd.sh.orig	Tue Oct 19 21:38:43 2010
 +++ cpasswd.sh	Tue Oct 19 21:39:01 2010
 @@ -18,7 +18,8 @@ countChars() {

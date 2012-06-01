@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/fvwm95/Makefile,v 1.19 2010/11/22 08:36:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=	win95-like window manager based on fvwm 2.x
 

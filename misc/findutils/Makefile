@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/findutils/Makefile,v 1.21 2011/07/15 16:43:29 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		finds and then operates on files
 
@@ -24,7 +24,7 @@ CONFIGURE_STYLE=	gnu
 CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include" \
 			LDFLAGS="-L${LOCALBASE}/lib"
 
-MAKE_FLAGS=		localstatedir=/var/db
+LOCALSTATEDIR=		${BASELOCALSTATEDIR}/db
 USE_GROFF =		Yes
 
 .include <bsd.port.mk>

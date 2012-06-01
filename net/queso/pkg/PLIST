@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/queso/pkg/PLIST,v 1.7 2004/09/15 18:17:45 espie Exp $
+@comment $OpenBSD$
 lib/queso/
 lib/queso/queso.conf.sample
 @sample ${SYSCONFDIR}/queso.conf

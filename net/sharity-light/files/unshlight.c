@@ -1,4 +1,4 @@
-/* $OpenBSD: ports/net/sharity-light/files/unshlight.c,v 1.3 2009/04/01 16:24:05 jasper Exp $ */
+/* $OpenBSD$ */
 
 #include <sys/param.h>
 #include <sys/mount.h>

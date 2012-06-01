@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/hs-asn1-data/Makefile,v 1.9 2012/01/21 12:03:15 kili Exp $
+# $OpenBSD$
 
 COMMENT=		ASN1 data reader and writer for various forms
 

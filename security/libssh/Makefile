@@ -1,7 +1,8 @@
-# $OpenBSD: ports/security/libssh/Makefile,v 1.3 2011/09/23 05:13:18 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =		C library implementing server and client side
 DISTNAME =		libssh-0.5.2
+REVISION =		0
 
 SHARED_LIBS +=  	ssh		0.0 # 4.2
 SHARED_LIBS +=  	ssh_threads	0.0 # 4.2

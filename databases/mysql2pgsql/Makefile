@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/mysql2pgsql/Makefile,v 1.8 2010/11/15 00:22:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=	convert a MySQL dump to a PostgreSQL dump
 

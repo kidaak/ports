@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/thunderbird-i18n/nb-NO/Makefile,v 1.1 2012/01/22 17:11:58 landry Exp $
+# $OpenBSD$
 
 L = nb-NO
 

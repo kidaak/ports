@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/fftw3/Makefile,v 1.22 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=	C routines for computing the Discrete Fourier Transform
 COMMENT-common=	common files for the fftw3 packages

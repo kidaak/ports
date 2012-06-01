@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-GraphViz/Makefile,v 1.6 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	perl interface to the graphviz graphing tool
 

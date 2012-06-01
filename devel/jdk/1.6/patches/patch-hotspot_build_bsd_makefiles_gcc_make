@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-hotspot_build_bsd_makefiles_gcc_make,v 1.2 2008/03/17 03:28:26 kurt Exp $
+$OpenBSD$
 --- hotspot/build/bsd/makefiles/gcc.make.orig	Sun Mar 16 09:33:24 2008
 +++ hotspot/build/bsd/makefiles/gcc.make	Sun Mar 16 09:35:24 2008
 @@ -13,8 +13,7 @@ UNAME.s         = $(shell $(UNAME) -s)

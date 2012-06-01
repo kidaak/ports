@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/akode/Makefile,v 1.29 2011/06/24 11:17:05 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	decoding library for KDE Multimedia
 

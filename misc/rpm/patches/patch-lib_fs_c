@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-lib_fs_c,v 1.2 2010/05/19 13:45:15 espie Exp $
+$OpenBSD$
 --- lib/fs.c.orig	Wed Jun 14 14:34:30 2000
 +++ lib/fs.c	Wed May 19 13:05:05 2010
 @@ -3,6 +3,73 @@

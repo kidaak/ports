@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Template/Makefile,v 1.6 2010/10/19 08:02:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=	use HTML Templates from CGI scripts
 

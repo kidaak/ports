@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/gui/pkg/PLIST,v 1.8 2011/04/18 11:56:01 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/gclose
 @bin bin/gcloseall
 @bin bin/gopen

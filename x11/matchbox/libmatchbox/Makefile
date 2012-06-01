@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/libmatchbox/Makefile,v 1.14 2010/11/22 08:37:03 espie Exp $
+# $OpenBSD$
 
 COMMENT=	matchbox base library
 DISTNAME=	libmatchbox-1.9

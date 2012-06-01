@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-sqlalchemy/pkg/PLIST,v 1.11 2011/05/27 10:39:37 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/SQLAlchemy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/SQLAlchemy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/SQLAlchemy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

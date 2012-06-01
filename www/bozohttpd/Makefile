@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/bozohttpd/Makefile,v 1.13 2011/11/19 09:59:46 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	bozotic HTTP server
 

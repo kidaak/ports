@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/fragrouter/Makefile,v 1.28 2011/11/16 00:21:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	tool for testing network IDS implementations
 

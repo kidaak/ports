@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xgolgo/patches/patch-xeyes_man,v 1.1 2007/10/26 21:19:16 ajacoutot Exp $
+$OpenBSD$
 --- xeyes.man.orig	Fri Jun  4 01:53:05 1993
 +++ xeyes.man	Fri Oct 26 23:03:56 2007
 @@ -1,12 +1,12 @@

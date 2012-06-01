@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/openmotif/patches/patch-config_cf_bsdLib_tmpl,v 1.2 2007/07/18 21:41:05 mbalmer Exp $
+$OpenBSD$
 --- config/cf/bsdLib.tmpl.orig	Sat Jan  5 16:20:51 2002
 +++ config/cf/bsdLib.tmpl	Sat Jun 30 10:25:57 2007
 @@ -1,5 +1,5 @@

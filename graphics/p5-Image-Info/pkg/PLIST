@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Image-Info/pkg/PLIST,v 1.9 2006/10/10 06:17:14 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/Image/
 ${P5SITE}/Image/Info/
 ${P5SITE}/Image/Info.pm

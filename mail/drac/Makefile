@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/drac/Makefile,v 1.9 2011/12/31 08:16:56 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	dynamic relay authorization control daemon
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/editors/qscintilla/pkg/PFRAG.shared,v 1.1.1.1 2008/10/27 00:01:45 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libqscintilla2.so.${LIBqscintilla2_VERSION}

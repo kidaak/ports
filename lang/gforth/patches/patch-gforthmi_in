@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gforth/patches/patch-gforthmi_in,v 1.1 2011/01/13 15:35:39 jasper Exp $
+$OpenBSD$
 
 Adjust for modified path/binary names.
 

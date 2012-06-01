@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-XPathEngine/Makefile,v 1.5 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	re-usable XPath engine for DOM-like trees
 

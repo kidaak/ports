@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/batrachians/Makefile,v 1.11 2011/07/08 22:38:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	clone of the classic Frog Bog game
 

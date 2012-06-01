@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/p5-Mail-SpamAssassin/patches/patch-Makefile_PL,v 1.12 2011/06/23 17:32:46 sthen Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Tue Jun  7 00:59:19 2011
 +++ Makefile.PL	Wed Jun 22 14:54:40 2011
 @@ -837,7 +837,7 @@ sub MY::install {

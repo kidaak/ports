@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/sbcl/Makefile,v 1.12 2012/01/03 02:01:25 krw Exp $
+# $OpenBSD$
 
 # not yet ported to other arches
 ONLY_FOR_ARCHS =	amd64 i386 powerpc

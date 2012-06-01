@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libsigc++-2/pkg/PLIST-main,v 1.4 2010/06/04 17:29:23 espie Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict libsigc++->=2
 @pkgpath devel/libsigc++-2

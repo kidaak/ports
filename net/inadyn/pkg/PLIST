@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/inadyn/pkg/PLIST,v 1.1.1.1 2011/07/21 12:17:02 pea Exp $
+@comment $OpenBSD$
 @newgroup _inadyn:681
 @newuser _inadyn:681:_inadyn:daemon:inadyn daemon:/nonexistent:/sbin/nologin
 @man man/man5/inadyn.conf.5

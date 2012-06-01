@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/polkit/patches/patch-Makefile_am,v 1.2 2012/03/17 10:43:32 ajacoutot Exp $
+$OpenBSD$
 
 undefined references to fgetgrent and fgetpwent
 

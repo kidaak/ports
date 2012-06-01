@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/swh-plugins/patches/patch-metadata_swh-plugins_rdf,v 1.1.1.1 2010/10/24 10:32:48 jakemsr Exp $
+$OpenBSD$
 
 - skip plugins that need shm_open
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/py-nevow/patches/patch-setup_py,v 1.2 2009/12/31 12:34:45 eric Exp $
+$OpenBSD$
 --- setup.py.orig	Tue Dec  8 08:32:23 2009
 +++ setup.py	Tue Dec  8 09:06:21 2009
 @@ -9,7 +9,7 @@ except ImportError:

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBD-Sybase/Makefile,v 1.21 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

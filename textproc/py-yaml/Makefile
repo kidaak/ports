@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-yaml/Makefile,v 1.9 2011/11/03 20:13:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	YAML parser and emitter in Python
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/neverball/Makefile,v 1.11 2011/07/06 18:41:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main =	tilt the floor to roll a ball through an obstacle course
 COMMENT-data =	data for Neverball/Neverputt

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/bzflag/pkg/PLIST,v 1.11 2011/10/18 07:56:41 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/bzadmin
 @bin bin/bzflag
 @bin bin/bzfs

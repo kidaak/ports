@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/jxplorer/Makefile,v 1.12 2011/12/15 21:53:25 kili Exp $
+# $OpenBSD$
 
 COMMENT=	standards compliant LDAP browser
 

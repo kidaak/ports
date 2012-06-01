@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/bfbtester/pkg/PLIST,v 1.2 2001/02/22 06:59:26 obecian Exp $
+@comment $OpenBSD$
 bin/bfbtester

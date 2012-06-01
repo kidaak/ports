@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/tlf/pkg/PLIST,v 1.2 2007/05/30 21:54:17 jason Exp $
+@comment $OpenBSD$
 bin/soundlog
 bin/tlf
 @man man/man1/tlf.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/evolution-data-server/patches/patch-camel_providers_pop3_camel-pop3-folder_c,v 1.1 2012/03/29 06:45:21 ajacoutot Exp $
+$OpenBSD$
 
 On OpenBSD, time_t is an int.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mysql/patches/patch-scripts_mysql_install_db_sh,v 1.13 2012/03/26 08:05:01 giovanni Exp $
+$OpenBSD$
 --- scripts/mysql_install_db.sh.orig	Fri Mar  2 15:39:19 2012
 +++ scripts/mysql_install_db.sh	Fri Mar 23 12:34:21 2012
 @@ -27,7 +27,8 @@ srcdir=""

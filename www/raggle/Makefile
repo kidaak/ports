@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/raggle/Makefile,v 1.10 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	console RSS aggregator
 

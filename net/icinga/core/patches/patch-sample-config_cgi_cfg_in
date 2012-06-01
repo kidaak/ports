@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icinga/core/patches/patch-sample-config_cgi_cfg_in,v 1.4 2011/12/03 15:01:38 sthen Exp $
+$OpenBSD$
 --- sample-config/cgi.cfg.in.orig	Wed Nov 30 12:08:58 2011
 +++ sample-config/cgi.cfg.in	Wed Nov 30 19:35:06 2011
 @@ -394,7 +394,10 @@ default_statuswrl_layout=4

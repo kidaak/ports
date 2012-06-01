@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/trn/patches/patch-Configure,v 1.2 2001/05/06 01:31:39 naddy Exp $
+$OpenBSD$
 --- Configure.orig	Sun May  6 00:31:24 2001
 +++ Configure	Sun May  6 00:31:30 2001
 @@ -1672,6 +1672,9 @@ EOM

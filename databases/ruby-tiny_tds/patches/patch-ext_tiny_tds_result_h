@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/ruby-tiny_tds/patches/patch-ext_tiny_tds_result_h,v 1.1 2011/09/09 00:47:23 jeremy Exp $
+$OpenBSD$
 --- ext/tiny_tds/result.h.orig	Thu Sep  8 16:00:29 2011
 +++ ext/tiny_tds/result.h	Thu Sep  8 16:01:18 2011
 @@ -2,8 +2,9 @@

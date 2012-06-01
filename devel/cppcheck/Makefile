@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cppcheck/Makefile,v 1.12 2012/04/15 14:33:50 gsoares Exp $
+# $OpenBSD$
 
 COMMENT =		C/C++ static checker
 

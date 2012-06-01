@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/libmspack/pkg/PLIST,v 1.2 2010/08/04 17:36:26 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/mspack.h
 lib/libmspack.a

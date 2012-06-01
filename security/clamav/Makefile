@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/clamav/Makefile,v 1.76 2012/03/15 22:04:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		virus scanner
 DISTNAME=		clamav-0.97.4

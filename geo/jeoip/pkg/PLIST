@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/jeoip/pkg/PLIST,v 1.2 2011/09/05 08:57:43 jasper Exp $
+@comment $OpenBSD$
 bin/jeoip
 share/java/
 share/java/classes/

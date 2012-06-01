@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ktdms/patches/patch-_htaccess,v 1.1.1.1 2007/12/12 13:21:43 robert Exp $
+$OpenBSD$
 --- .htaccess.orig	Tue Nov 20 11:58:41 2007
 +++ .htaccess	Tue Nov 20 11:59:01 2007
 @@ -60,16 +60,6 @@ Options +ExecCGI

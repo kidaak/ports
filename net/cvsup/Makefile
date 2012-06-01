@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/cvsup/Makefile,v 1.24 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 COMMENT-main=	network file distribution system

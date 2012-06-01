@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/mono/pkg/PFRAG.shared,v 1.3 2011/03/02 08:37:51 robert Exp $
+@comment $OpenBSD$
 lib/libMonoPosixHelper.so
 lib/libMonoSupportW.so
 lib/libikvm-native.so

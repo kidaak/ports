@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/festvox/festvox_kedlpc16k/Makefile,v 1.2 2007/09/15 22:27:39 simon Exp $
+# $OpenBSD$
 
 COMMENT=	American English male speaker (KED) at 16KHz sampling
 DISTNAME=	festvox_kedlpc16k

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cmake/cmake.port.mk,v 1.12 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 BUILD_DEPENDS+=	devel/cmake>=2.8.0
 

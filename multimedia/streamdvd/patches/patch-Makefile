@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/streamdvd/patches/patch-Makefile,v 1.2 2006/02/19 18:29:32 espie Exp $
+$OpenBSD$
 --- Makefile.orig	Mon Mar  8 23:10:53 2004
 +++ Makefile	Sun Feb 19 18:55:36 2006
 @@ -1,16 +1,16 @@

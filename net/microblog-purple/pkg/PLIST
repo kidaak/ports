@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/microblog-purple/pkg/PLIST,v 1.1.1.1 2010/09/08 08:23:30 sebastia Exp $
+@comment $OpenBSD$
 lib/purple-2/libidentica.so
 lib/purple-2/liboldtwitter.so
 lib/purple-2/libstatusnet.so

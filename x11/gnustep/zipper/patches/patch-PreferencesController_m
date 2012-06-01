@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/zipper/patches/patch-PreferencesController_m,v 1.1.1.1 2011/07/19 13:58:02 sebastia Exp $
+$OpenBSD$
 
 Allow the preferences to remember where to find the 7zip binary
 

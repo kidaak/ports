@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/petite-chez/Makefile,v 1.5 2011/11/11 20:12:51 jasper Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =	i386
 COMMENT =		high-speed threaded Scheme interpreter

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/rxvt-unicode/patches/patch-libev_ev_c,v 1.2 2012/01/23 08:10:41 dcoppa Exp $
+$OpenBSD$
 --- libev/ev.c.orig	Thu Jan 19 18:55:00 2012
 +++ libev/ev.c	Sun Jan 22 18:04:25 2012
 @@ -921,7 +921,6 @@ ecb_function_ ecb_bool ecb_little_endian (void) { retu

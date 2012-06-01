@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/graphviz/pkg/PLIST-main,v 1.3 2011/05/11 07:45:52 ajacoutot Exp $
+@comment $OpenBSD$
 @unexec rm -f %D/lib/graphviz/config
 %%SHARED%%
 @bin bin/acyclic

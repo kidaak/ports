@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_ChatSelector_cpp,v 1.1 2011/12/27 11:51:37 dcoppa Exp $
+$OpenBSD$
 
 Fix crash in chat window on disconnected client
 (upstream git commit ea45371bda1aa96fe63967c15e360b11d9d84bbd)

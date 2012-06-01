@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/efreet/patches/patch-src_Makefile_in,v 1.1 2011/03/15 19:41:00 jasper Exp $
+$OpenBSD$
 
 tests/main.c uses clearenv(), which has been rejected twice by POSIX.
 

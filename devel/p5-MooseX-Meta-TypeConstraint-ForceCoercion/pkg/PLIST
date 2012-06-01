@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Meta-TypeConstraint-ForceCoercion/pkg/PLIST,v 1.1.1.1 2010/01/12 09:41:28 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/
 ${P5SITE}/MooseX/Meta/
 ${P5SITE}/MooseX/Meta/TypeConstraint/

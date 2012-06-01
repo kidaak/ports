@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_SideBarDelegate_cpp,v 1.1 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/SideBarDelegate.cpp.orig	Mon Mar 28 18:05:29 2011
 +++ src/SideBarDelegate.cpp	Mon Mar 28 18:05:52 2011
 @@ -56,7 +56,7 @@ SideBarDelegate::sizeHint( const QStyleOptionViewItem&

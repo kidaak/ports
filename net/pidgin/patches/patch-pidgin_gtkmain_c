@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pidgin/patches/patch-pidgin_gtkmain_c,v 1.12 2011/03/13 17:27:11 jasper Exp $
+$OpenBSD$
 --- pidgin/gtkmain.c.orig	Thu Mar 10 21:20:28 2011
 +++ pidgin/gtkmain.c	Fri Mar 11 18:58:56 2011
 @@ -78,6 +78,7 @@

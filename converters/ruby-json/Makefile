@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/ruby-json/Makefile,v 1.17 2011/11/09 00:17:37 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		JSON implementation for Ruby
 

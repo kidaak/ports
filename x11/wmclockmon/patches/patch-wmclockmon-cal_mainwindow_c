@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wmclockmon/patches/patch-wmclockmon-cal_mainwindow_c,v 1.1 2010/03/23 22:12:39 jasper Exp $
+$OpenBSD$
 
 Switch to gtk+2:
 - Remove call to deprecated function.

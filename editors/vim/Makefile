@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/vim/Makefile,v 1.123 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=	vi clone, many additional features
 COMMENT-lang=	vi clone, NLS subpackage

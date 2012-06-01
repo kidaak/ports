@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/rioutil/patches/patch-librioutil_rio_c,v 1.1 2010/05/20 09:58:36 espie Exp $
+$OpenBSD$
 --- librioutil/rio.c.orig	Thu May 20 11:56:03 2010
 +++ librioutil/rio.c	Thu May 20 11:56:33 2010
 @@ -373,7 +373,8 @@ int get_flist_riohd (rios_t *rio, u_int8_t memory_unit

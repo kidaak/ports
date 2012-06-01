@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/korean/libhangul/pkg/PLIST,v 1.2 2009/11/13 14:25:42 kevlo Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/hangul-1.0/
 include/hangul-1.0/hangul.h

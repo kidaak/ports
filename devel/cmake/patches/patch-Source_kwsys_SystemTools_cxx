@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cmake/patches/patch-Source_kwsys_SystemTools_cxx,v 1.10 2011/10/14 17:22:10 dcoppa Exp $
+$OpenBSD$
 
 Don't spam systrace by attempting to create dirs which already exist.
 

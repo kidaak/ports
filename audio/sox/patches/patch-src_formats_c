@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/sox/patches/patch-src_formats_c,v 1.4 2012/03/26 20:38:49 sthen Exp $
+$OpenBSD$
 --- src/formats.c.orig	Sat Mar 24 06:29:07 2012
 +++ src/formats.c	Sat Mar 24 06:29:53 2012
 @@ -348,7 +348,7 @@ static int sox_checkformat(sox_format_t * ft)

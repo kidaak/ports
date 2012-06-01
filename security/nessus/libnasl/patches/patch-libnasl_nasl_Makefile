@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/nessus/libnasl/patches/patch-libnasl_nasl_Makefile,v 1.2 2005/12/25 15:52:38 sturm Exp $
+$OpenBSD$
 --- nasl/Makefile.orig	Thu Feb 10 17:03:51 2005
 +++ nasl/Makefile	Sun Dec 25 15:30:33 2005
 @@ -88,7 +88,7 @@ CSRCS = \

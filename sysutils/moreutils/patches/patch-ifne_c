@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/moreutils/patches/patch-ifne_c,v 1.1.1.1 2011/05/04 14:11:59 sthen Exp $
+$OpenBSD$
 --- ifne.c.orig	Sun May  1 13:12:58 2011
 +++ ifne.c	Sun May  1 13:13:20 2011
 @@ -23,6 +23,7 @@

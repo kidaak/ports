@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ipython/Makefile,v 1.19 2011/09/22 18:42:14 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=		enhanced interactive Python shell
 

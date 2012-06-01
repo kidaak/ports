@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-parsetree/Makefile,v 1.14 2011/11/09 00:17:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	extracts the parse tree for an entire class or a method
 

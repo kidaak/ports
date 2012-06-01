@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ntp/Makefile,v 1.54 2012/04/10 15:06:29 gonzalo Exp $
+# $OpenBSD$
 
 COMMENT=	Network Time Protocol reference implementation
 
@@ -9,6 +9,7 @@ COMMENT=	Network Time Protocol reference implementation
 VERSION=	4.2.6p5
 DISTNAME=	ntp-${VERSION}
 PKGNAME=	ntp-${VERSION:S/p/pl/}
+REVISION=	0
 CATEGORIES=	net
 MASTER_SITES=	http://archive.ntp.org/ntp4/ntp-4.2/
 

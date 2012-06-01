@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-SWISH-API/Makefile,v 1.7 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Perl interface to the swish-e C library
 SHARED_ONLY =	Yes

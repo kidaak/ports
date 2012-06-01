@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/tea/patches/patch-configure,v 1.1 2008/05/02 11:18:59 jasper Exp $
+$OpenBSD$
 --- configure.orig	Wed Apr 30 09:07:19 2008
 +++ configure	Wed Apr 30 09:09:09 2008
 @@ -5764,22 +5764,6 @@ else

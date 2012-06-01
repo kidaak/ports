@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/hs-haskell-src/Makefile,v 1.13 2011/12/31 22:19:45 kili Exp $
+# $OpenBSD$
 
 COMMENT =		manipulating Haskell source code
 

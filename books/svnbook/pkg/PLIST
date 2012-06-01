@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/books/svnbook/pkg/PLIST,v 1.2 2012/04/06 15:39:07 merdely Exp $
+@comment $OpenBSD$
 share/doc/svnbook/
 share/doc/svnbook/images/
 share/doc/svnbook/images/ch01dia1.png

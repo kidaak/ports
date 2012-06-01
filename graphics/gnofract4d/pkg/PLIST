@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gnofract4d/pkg/PLIST,v 1.1.1.1 2011/11/14 11:01:16 bentley Exp $
+@comment $OpenBSD$
 bin/gnofract4d
 lib/python${MODPY_VERSION}/site-packages/fract4d/
 lib/python${MODPY_VERSION}/site-packages/fract4d/__init__.py

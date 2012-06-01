@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/adns/Makefile,v 1.10 2011/01/14 22:50:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		asynchronous dns resolver client library and utilities
 DISTNAME=		adns-1.4

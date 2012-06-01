@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/http_ping/files/Makefile.bsd,v 1.3 2011/06/23 22:50:30 naddy Exp $
+# $OpenBSD$
 
 PROG =	http_ping
 SRCS =	http_ping.c

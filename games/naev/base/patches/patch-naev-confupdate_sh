@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/naev/base/patches/patch-naev-confupdate_sh,v 1.1 2012/03/14 22:54:28 sthen Exp $
+$OpenBSD$
 --- naev-confupdate.sh.orig	Wed Feb 29 23:42:03 2012
 +++ naev-confupdate.sh	Sun Mar 11 20:53:16 2012
 @@ -16,29 +16,24 @@ cd "$HOME/.naev" || exit

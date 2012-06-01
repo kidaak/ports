@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/xfaces/patches/patch-mail_items_c,v 1.1 2000/06/05 01:09:25 espie Exp $
+$OpenBSD$
 --- mail_items.c.orig	Sun Mar 13 01:38:44 1994
 +++ mail_items.c	Mon Jun  5 02:43:44 2000
 @@ -351,9 +351,18 @@ void

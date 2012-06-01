@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_config_openbsd_h,v 1.2 2012/04/23 14:16:34 pascal Exp $
+$OpenBSD$
 --- gcc/config/openbsd.h.orig	Wed Dec 22 13:06:01 2010
 +++ gcc/config/openbsd.h	Thu Apr 12 14:17:05 2012
 @@ -109,9 +109,9 @@ while (0)

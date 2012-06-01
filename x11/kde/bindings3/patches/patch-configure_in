@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/bindings3/patches/patch-configure_in,v 1.1 2010/09/23 22:24:50 jeremy Exp $
+$OpenBSD$
 --- configure.in.orig	Sun Sep 12 20:36:10 2010
 +++ configure.in	Sun Sep 12 20:38:04 2010
 @@ -417,15 +417,15 @@ dnl ==================================================

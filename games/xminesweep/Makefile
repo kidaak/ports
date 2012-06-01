@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xminesweep/Makefile,v 1.24 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Windows minesweeper
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xpilot/patches/patch-Local_config,v 1.5 2008/01/23 16:07:01 naddy Exp $
+$OpenBSD$
 --- Local.config.orig	Sun Jul 14 16:08:26 2002
 +++ Local.config	Tue Jan 22 21:13:36 2008
 @@ -36,12 +36,11 @@

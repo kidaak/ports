@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-twisted/web2/Makefile,v 1.16 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=	experimental HTTP/1.1 server framework
 

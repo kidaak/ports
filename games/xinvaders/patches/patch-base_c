@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xinvaders/patches/patch-base_c,v 1.1 2007/10/26 21:19:16 ajacoutot Exp $
+$OpenBSD$
 --- base.c.orig	Fri Oct 26 23:05:33 2007
 +++ base.c	Fri Oct 26 23:05:40 2007
 @@ -48,11 +48,6 @@ XImage *explosion;

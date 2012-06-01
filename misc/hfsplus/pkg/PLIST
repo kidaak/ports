@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/hfsplus/pkg/PLIST,v 1.2 2007/07/01 20:56:41 aanriot Exp $
+@comment $OpenBSD$
 bin/hpcd
 bin/hpcopy
 bin/hpfsck

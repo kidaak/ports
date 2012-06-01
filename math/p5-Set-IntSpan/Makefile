@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Set-IntSpan/Makefile,v 1.12 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	manage sets of integers
 

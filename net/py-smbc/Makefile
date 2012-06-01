@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-smbc/Makefile,v 1.8 2012/02/26 07:12:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Python bindings to wrap the libsmbclient API
 

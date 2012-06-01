@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/iverilog/Makefile,v 1.6 2011/06/13 19:42:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		Verilog simulation and synthesis tool
 

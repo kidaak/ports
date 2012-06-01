@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mcp-plugins/Makefile,v 1.1.1.1 2010/10/23 21:57:04 jakemsr Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

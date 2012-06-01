@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/wv2/pkg/PLIST,v 1.2 2004/09/14 23:25:51 espie Exp $
+@comment $OpenBSD$
 bin/wv2-config
 include/wv2/
 include/wv2/associatedstrings.h

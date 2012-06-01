@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/gnomint/patches/patch-src_Makefile_in,v 1.1 2011/04/15 16:13:24 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Wed Apr 13 13:56:56 2011
 +++ src/Makefile.in	Wed Apr 13 13:57:27 2011
 @@ -98,7 +98,7 @@ LTCOMPILE = $(LIBTOOL) --tag=CC --mode=compile $(CC) $

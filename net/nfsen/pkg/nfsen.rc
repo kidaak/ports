@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/nfsen/pkg/nfsen.rc,v 1.2 2011/05/06 13:04:08 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/nfsend"
 

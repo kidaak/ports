@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_tree-dump_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/tree-dump.c.orig	Thu Mar 16 20:47:19 2006
 +++ gcc/tree-dump.c	Mon Jun 14 19:23:04 2010
 @@ -867,7 +867,7 @@ get_dump_file_name (enum tree_dump_index phase)

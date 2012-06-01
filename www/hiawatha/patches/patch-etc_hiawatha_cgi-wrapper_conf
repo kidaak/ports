@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/hiawatha/patches/patch-etc_hiawatha_cgi-wrapper_conf,v 1.7 2009/09/22 09:29:25 ajacoutot Exp $
+$OpenBSD$
 --- etc/hiawatha/cgi-wrapper.conf.orig	Tue Sep 22 11:05:08 2009
 +++ etc/hiawatha/cgi-wrapper.conf	Tue Sep 22 11:05:44 2009
 @@ -5,9 +5,9 @@

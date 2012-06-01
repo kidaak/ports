@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/graphics3/pkg/PLIST-kamera,v 1.5 2005/03/29 21:18:36 espie Exp $
+@comment $OpenBSD$
 ${KDE}/kcm_kamera.la
 ${KDE}/kcm_kamera.so
 ${KDE}/kio_kamera.la

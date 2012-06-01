@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tango-icon-theme/Makefile,v 1.19 2011/12/03 23:20:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Tango icon theme
 

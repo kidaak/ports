@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/matchbox/matchbox-panel/patches/patch-configure,v 1.2 2008/04/23 22:18:27 jasper Exp $
+$OpenBSD$
 --- configure.orig	Tue Mar  7 19:46:56 2006
 +++ configure	Thu Apr 24 00:02:20 2008
 @@ -6519,7 +6519,7 @@ _ACEOF

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/mpgtx/Makefile,v 1.3 2010/11/19 07:23:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		command line MPEG audio/video/system file toolbox
 

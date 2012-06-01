@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-SQL-Statement/pkg/PLIST,v 1.10 2011/06/13 16:34:49 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/SQL/
 ${P5SITE}/SQL/Dialects/
 ${P5SITE}/SQL/Dialects/ANSI.pm

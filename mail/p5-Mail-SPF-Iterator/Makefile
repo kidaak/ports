@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-SPF-Iterator/Makefile,v 1.13 2011/08/30 18:31:12 bluhm Exp $
+# $OpenBSD$
 
 COMMENT =		iterative SPF lookup
 

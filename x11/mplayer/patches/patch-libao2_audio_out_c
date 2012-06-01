@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mplayer/patches/patch-libao2_audio_out_c,v 1.4 2010/05/26 21:29:56 jakemsr Exp $
+$OpenBSD$
 --- libao2/audio_out.c.orig	Sat Feb 20 21:02:49 2010
 +++ libao2/audio_out.c	Mon Mar  8 14:28:42 2010
 @@ -43,6 +43,7 @@ extern const ao_functions_t audio_out_alsa5;

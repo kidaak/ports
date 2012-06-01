@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Net-LDAP/Makefile,v 1.15 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT=	pear ldap
 

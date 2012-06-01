@@ -1,8 +1,8 @@
-# $OpenBSD: ports/productivity/radicale/Makefile,v 1.16 2012/01/12 00:19:54 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	simple CalDAV calendar server
 
-MODPY_EGG_VERSION = 0.6.4
+MODPY_EGG_VERSION = 0.7
 DISTNAME =	Radicale-${MODPY_EGG_VERSION}
 PKGNAME =	${DISTNAME:L}
 CATEGORIES =	productivity net

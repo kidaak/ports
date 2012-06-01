@@ -1,5 +1,5 @@
 #! /usr/bin/perl
-# $OpenBSD: ports/databases/sqlports/files/Column.pm,v 1.9 2010/10/02 10:26:17 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2006-2010 Marc Espie <espie@openbsd.org>
 #

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/Makefile,v 1.16 2010/04/15 17:33:10 giovanni Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += bibelot

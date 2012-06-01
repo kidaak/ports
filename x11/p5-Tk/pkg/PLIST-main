@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Tk/pkg/PLIST-main,v 1.4 2010/09/02 11:53:32 sthen Exp $
+@comment $OpenBSD$
 @pkgpath x11/p5-Tk
 bin/gedi
 bin/ptked

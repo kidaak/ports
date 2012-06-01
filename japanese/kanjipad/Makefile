@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/kanjipad/Makefile,v 1.15 2011/11/01 16:27:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Japanese handwriting recognition
 

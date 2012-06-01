@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Template-Expr/Makefile,v 1.7 2010/11/22 08:36:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=	use HTML Templates which allows expressions
 

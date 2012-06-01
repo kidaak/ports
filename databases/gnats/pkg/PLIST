@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/gnats/pkg/PLIST,v 1.10 2010/11/09 21:33:24 jasper Exp $
+@comment $OpenBSD$
 @newuser _gnats:501:daemon::GNATS database owner:${PREFIX}/share/gnats:/sbin/nologin
 bin/edit-pr
 @bin bin/getclose

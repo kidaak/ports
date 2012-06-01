@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/libtheora/patches/patch-doc_spec_Makefile_in,v 1.2 2009/12/13 22:01:32 sthen Exp $
+$OpenBSD$
 --- doc/spec/Makefile.in.orig	Wed Aug 12 11:58:08 2009
 +++ doc/spec/Makefile.in	Wed Aug 12 21:47:07 2009
 @@ -162,7 +162,7 @@ ltdl_LIBOBJS = @ltdl_LIBOBJS@

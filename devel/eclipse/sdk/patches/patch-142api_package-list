@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-142api_package-list,v 1.1 2006/07/07 01:48:55 kurt Exp $
+$OpenBSD$
 --- 142api/package-list.orig	Mon Jun 19 23:24:03 2006
 +++ 142api/package-list	Mon Jun 19 23:24:16 2006
 @@ -0,0 +1,135 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gtk-vnc/patches/patch-tools_gvnccapture_c,v 1.2 2012/03/13 18:54:03 ajacoutot Exp $
+$OpenBSD$
 
 From c87188617860dc38e3c7c4de43de7c0d950225a3 Mon Sep 17 00:00:00 2001
 From: Alexandre Rostovtsev <tetromino@gentoo.org>

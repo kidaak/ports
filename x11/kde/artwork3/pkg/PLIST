@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/artwork3/pkg/PLIST,v 1.37 2011/12/03 19:13:18 ajacoutot Exp $
+@comment $OpenBSD$
 @unexec-delete rm -f %D/share/icons/Locolor/icon-theme.cache
 @unexec-delete rm -f %D/share/icons/ikons/icon-theme.cache
 @unexec-delete rm -f %D/share/icons/kdeclassic/icon-theme.cache

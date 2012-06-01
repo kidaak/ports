@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/node-fibers/patches/patch-src_platform_mk,v 1.1.1.1 2012/04/03 18:46:03 jeremy Exp $
+$OpenBSD$
 
 Enable build on OpenBSD and respect CFLAGS.
 

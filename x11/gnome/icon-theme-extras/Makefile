@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/icon-theme-extras/Makefile,v 1.14 2012/03/29 06:48:20 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	extra icons for GNOME
 

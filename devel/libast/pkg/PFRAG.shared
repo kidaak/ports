@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libast/pkg/PFRAG.shared,v 1.2 2006/01/02 18:15:53 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libast.so.${LIBast_VERSION}

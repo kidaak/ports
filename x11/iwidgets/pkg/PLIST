@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/iwidgets/pkg/PLIST,v 1.2 2011/01/05 19:20:31 sebastia Exp $
+@comment $OpenBSD$
 lib/tcl/iwidgets/
 lib/tcl/iwidgets/iwidgets.tcl
 lib/tcl/iwidgets/license.terms

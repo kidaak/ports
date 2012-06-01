@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/mico/patches/patch-man_man1_nsadmin_1,v 1.1 2003/03/31 00:53:58 margarida Exp $
+$OpenBSD$
 --- man/man1/nsadmin.1.orig	Wed Mar 12 03:37:44 2003
 +++ man/man1/nsadmin.1	Wed Mar 12 03:38:10 2003
 @@ -78,8 +78,8 @@ Quit

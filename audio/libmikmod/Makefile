@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libmikmod/Makefile,v 1.21 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	mikmod sound library
 

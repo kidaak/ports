@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Validate/Makefile,v 1.6 2011/09/16 09:24:53 espie Exp $
+# $OpenBSD$
 
 COMMENT=	validation class
 

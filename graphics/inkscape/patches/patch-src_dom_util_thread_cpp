@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/inkscape/patches/patch-src_dom_util_thread_cpp,v 1.1.1.1 2008/04/04 14:37:26 landry Exp $
+$OpenBSD$
 --- src/dom/util/thread.cpp.orig	Fri Mar 28 16:19:08 2008
 +++ src/dom/util/thread.cpp	Fri Mar 28 16:20:56 2008
 @@ -33,6 +33,10 @@

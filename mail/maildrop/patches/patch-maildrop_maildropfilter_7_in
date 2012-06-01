@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/maildrop/patches/patch-maildrop_maildropfilter_7_in,v 1.4 2010/04/21 07:23:58 giovanni Exp $
+$OpenBSD$
 --- maildrop/maildropfilter.7.in.orig	Sat Feb 20 05:13:33 2010
 +++ maildrop/maildropfilter.7.in	Fri Mar  5 19:09:57 2010
 @@ -374,7 +374,7 @@ seconds before trying to create its own dot\-lock file

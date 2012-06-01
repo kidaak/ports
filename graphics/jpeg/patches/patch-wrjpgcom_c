@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jpeg/patches/patch-wrjpgcom_c,v 1.1 2009/10/14 13:03:44 naddy Exp $
+$OpenBSD$
 --- wrjpgcom.c.orig	Sat Oct 10 12:35:12 2009
 +++ wrjpgcom.c	Sat Oct 10 12:36:11 2009
 @@ -453,7 +453,7 @@ main (int argc, char **argv)

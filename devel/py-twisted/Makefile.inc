@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-twisted/Makefile.inc,v 1.7 2011/06/20 10:25:32 eric Exp $
+# $OpenBSD$
 
 CATEGORIES+=	devel
 

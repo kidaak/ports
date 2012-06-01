@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/polkit/patches/patch-src_nullbackend_50-nullbackend_conf,v 1.2 2011/04/28 13:09:07 ajacoutot Exp $
+$OpenBSD$
 --- src/nullbackend/50-nullbackend.conf.orig	Mon Jul  5 16:51:53 2010
 +++ src/nullbackend/50-nullbackend.conf	Mon Jul  5 16:52:17 2010
 @@ -1,10 +1,10 @@

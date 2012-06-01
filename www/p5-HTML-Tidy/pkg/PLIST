@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Tidy/pkg/PLIST,v 1.1.1.1 2008/02/16 22:55:26 simon Exp $
+@comment $OpenBSD$
 bin/webtidy
 ${P5ARCH}/
 ${P5ARCH}/HTML/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/cmixer/Makefile,v 1.2 2010/11/15 00:22:46 espie Exp $
+# $OpenBSD$
 
 COMMENT =	simple curses mixer
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/teseq/Makefile,v 1.3 2011/03/07 18:54:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	analyze terminal control sequences
 

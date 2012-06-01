@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/conky/patches/patch-src_ccurl_thread_c,v 1.1 2011/07/05 08:18:30 jasper Exp $
+$OpenBSD$
 --- src/ccurl_thread.c.orig	Tue Jul  5 09:35:29 2011
 +++ src/ccurl_thread.c	Tue Jul  5 09:35:34 2011
 @@ -33,7 +33,6 @@

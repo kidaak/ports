@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.6/pkg/PFRAG.PIC-go,v 1.2 2011/11/22 21:46:39 pascal Exp $
+@comment $OpenBSD$
 lib/fpic/go/
 lib/fpic/go/${V}/
 lib/fpic/go/${V}/${CONFIG}/

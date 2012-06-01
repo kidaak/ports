@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-src_3rdparty_webkit_JavaScriptCore_JavaScriptCore_pro,v 1.2 2010/10/28 14:55:47 espie Exp $
+$OpenBSD$
 --- src/3rdparty/webkit/JavaScriptCore/JavaScriptCore.pro.orig	Fri Sep 10 11:05:22 2010
 +++ src/3rdparty/webkit/JavaScriptCore/JavaScriptCore.pro	Sun Oct 24 14:19:32 2010
 @@ -22,9 +22,9 @@ CONFIG(QTDIR_build) {

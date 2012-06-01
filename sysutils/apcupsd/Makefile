@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/apcupsd/Makefile,v 1.15 2011/11/28 10:46:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main =		daemon for controlling APC UPSes
 COMMENT-cgi =		CGI scripts for web monitoring

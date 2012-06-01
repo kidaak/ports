@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/cmus/Makefile,v 1.6 2011/12/20 16:00:26 shadchin Exp $
+# $OpenBSD$
 
 COMMENT-main=		ncurses-based music player
 COMMENT-flac=		FLAC input plugin for cmus

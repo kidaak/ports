@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/mrtg/pkg/mrtg.rc,v 1.5 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/mrtg --daemon"
 daemon_flags="--user _mrtg --group _mrtg --confcache-file /tmp/mrtg.ok --lock-file /tmp/mrtg_lock --pid-file /var/run/mrtg.pid"

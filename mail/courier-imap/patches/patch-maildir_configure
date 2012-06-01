@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/courier-imap/patches/patch-maildir_configure,v 1.3 2012/01/23 09:14:15 giovanni Exp $
+$OpenBSD$
 --- maildir/configure.orig	Sun Nov 13 03:06:53 2011
 +++ maildir/configure	Wed Dec 14 12:05:24 2011
 @@ -16745,7 +16745,7 @@ if ${ac_cv_lib_fam_FAMOpen+:} false; then :

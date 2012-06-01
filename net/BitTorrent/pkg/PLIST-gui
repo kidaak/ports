@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/BitTorrent/pkg/PLIST-gui,v 1.4 2006/11/28 19:13:57 naddy Exp $
+@comment $OpenBSD$
 bin/bittorrent
 bin/maketorrent
 lib/python${MODPY_VERSION}/site-packages/BitTorrent/Desktop.py

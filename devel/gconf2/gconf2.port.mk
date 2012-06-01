@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gconf2/gconf2.port.mk,v 1.7 2011/05/06 06:43:43 ajacoutot Exp $
+# $OpenBSD$
 
 MODGCONF2_WANTLIB =	gconf-2
 MODGCONF2_LIB_DEPENDS =	devel/gconf2

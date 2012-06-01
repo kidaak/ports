@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/hc/Makefile,v 1.8 2010/10/18 16:57:48 espie Exp $	
+# $OpenBSD$	
 
 COMMENT=	convert between GB and BIG-5 codes
 

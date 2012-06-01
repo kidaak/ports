@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/elm/Makefile,v 1.23 2011/07/03 20:30:42 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	once-popular mail user agent
 

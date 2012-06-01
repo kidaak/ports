@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/asciidoc/pkg/PLIST,v 1.6 2011/07/18 10:28:45 dcoppa Exp $
+@comment $OpenBSD$
 bin/a2x.py
 bin/asciidoc
 @man man/man1/a2x.1

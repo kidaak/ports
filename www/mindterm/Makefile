@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mindterm/Makefile,v 1.14 2008/09/02 18:28:17 todd Exp $
+# $OpenBSD$
 
 COMMENT=	web-based java SSH client
 

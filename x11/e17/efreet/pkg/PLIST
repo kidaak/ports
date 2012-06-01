@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/efreet/pkg/PLIST,v 1.6 2011/03/15 19:41:00 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/efreet-1/
 include/efreet-1/Efreet.h

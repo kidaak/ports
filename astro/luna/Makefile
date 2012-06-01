@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/luna/Makefile,v 1.9 2011/05/16 13:25:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	display the moon's phase
 

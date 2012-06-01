@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/zabbix/pkg/README-server,v 1.5 2011/08/21 09:21:02 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

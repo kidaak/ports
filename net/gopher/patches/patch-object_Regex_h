@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gopher/patches/patch-object_Regex_h,v 1.1.1.1 2006/07/31 12:52:20 steven Exp $
+$OpenBSD$
 --- object/Regex.h.orig	Wed Jul 26 12:56:33 2006
 +++ object/Regex.h	Wed Jul 26 12:56:44 2006
 @@ -171,14 +171,6 @@

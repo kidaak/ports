@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk-vnc/pkg/PLIST,v 1.6 2012/03/12 17:00:55 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath ${BASE_PKGPATH}
 @pkgpath ${BASE_PKGPATH},-main
 @pkgpath x11/gtk-vnc,gtk2

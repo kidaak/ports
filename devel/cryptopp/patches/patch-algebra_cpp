@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-algebra_cpp,v 1.1 2012/02/29 12:46:30 dcoppa Exp $
+$OpenBSD$
 --- algebra.cpp.orig	Fri Aug  6 18:44:32 2010
 +++ algebra.cpp	Wed Feb 29 10:09:08 2012
 @@ -58,7 +58,7 @@ template <class T> const T& AbstractEuclideanDomain<T>

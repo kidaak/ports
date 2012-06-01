@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/globalredirect/Makefile,v 1.4 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	zap duplicate content through redirects
 MAINTAINER =	Marc Espie <espie@openbsd.org>

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/embryo/Makefile,v 1.10 2011/03/15 19:41:17 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		C like scripting language used in E17
 

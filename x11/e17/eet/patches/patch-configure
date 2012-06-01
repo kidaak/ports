@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/eet/patches/patch-configure,v 1.5 2011/03/15 19:40:40 jasper Exp $
+$OpenBSD$
 
 -Wl,--as-needed fucks with -pthread.
 

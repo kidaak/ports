@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xmold/Makefile,v 1.21 2011/05/22 16:01:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	mold spreading over your X11 screen
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/braincurses/pkg/PLIST,v 1.1.1.1 2012/01/03 21:52:09 naddy Exp $
+@comment $OpenBSD$
 @bin bin/braincurses
 share/doc/braincurses/
 share/doc/braincurses/README

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/ggz/ggz-gnome-client/pkg/PLIST,v 1.2 2009/12/22 16:28:00 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/ggz-gnome
 @bin bin/motd_editor
 @man man/man6/ggz-gnome.6

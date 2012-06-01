@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-features_org_eclipse_platform_launchers_library_gtk_make_openbsd_mak,v 1.2 2006/07/07 01:48:55 kurt Exp $
+$OpenBSD$
 --- features/org.eclipse.platform.launchers/library/gtk/make_openbsd.mak.orig	Tue Jun  6 22:47:48 2006
 +++ features/org.eclipse.platform.launchers/library/gtk/make_openbsd.mak	Tue Jun  6 23:29:54 2006
 @@ -23,10 +23,9 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/mousetweaks/pkg/PLIST,v 1.13 2012/04/16 13:39:33 jasper Exp $
+@comment $OpenBSD$
 @bin bin/mousetweaks
 @man man/man1/mousetweaks.1
 share/GConf/gsettings/mousetweaks.convert

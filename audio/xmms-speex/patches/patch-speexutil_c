@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms-speex/patches/patch-speexutil_c,v 1.1 2010/05/19 16:14:48 espie Exp $
+$OpenBSD$
 --- speexutil.c.orig	Wed May 19 18:09:26 2010
 +++ speexutil.c	Wed May 19 18:10:20 2010
 @@ -239,7 +239,7 @@ int speex_comment_init(char *packet, int len, speex_co

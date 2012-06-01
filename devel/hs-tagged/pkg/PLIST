@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-tagged/pkg/PLIST,v 1.3 2011/04/29 09:32:50 jasper Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Data/
 lib/ghc/${DISTNAME}/Data/Proxy.hi

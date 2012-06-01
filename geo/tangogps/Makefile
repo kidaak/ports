@@ -1,9 +1,9 @@
-# $OpenBSD: ports/geo/tangogps/Makefile,v 1.14 2012/02/21 16:21:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		lightweight mapping application for use with or without GPS
 
 DISTNAME =		tangogps-0.99.4
-REVISION =		6
+REVISION =		7
 
 CATEGORIES =		geo
 
@@ -32,7 +32,6 @@ LIB_DEPENDS =		devel/atk \
 			net/curl \
 			graphics/libexif \
 			devel/gconf2 \
-			databases/sqlite3 \
 			devel/libsoup \
 			x11/gtk+2
 

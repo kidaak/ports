@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/gspdf/patches/patch-GSPdf_m,v 1.1.1.1 2010/10/26 14:56:01 sebastia Exp $
+$OpenBSD$
 
 Fix default location of where to find ghostscript
 

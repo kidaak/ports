@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icecast/patches/patch-doc_Makefile_in,v 1.4 2008/11/18 21:22:03 pea Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Fri May 30 01:58:57 2008
 +++ doc/Makefile.in	Fri Nov  7 10:44:18 2008
 @@ -176,7 +176,7 @@ build_vendor = @build_vendor@

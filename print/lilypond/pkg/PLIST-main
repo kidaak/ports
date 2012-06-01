@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/lilypond/pkg/PLIST-main,v 1.8 2011/07/06 14:14:06 kili Exp $
+@comment $OpenBSD$
 @pkgpath print/lilypond
 bin/abc2ly
 bin/convert-ly

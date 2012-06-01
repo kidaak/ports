@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/gnupg/pkg/PLIST,v 1.26 2012/01/31 10:51:48 espie Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict gnupg-<2
 @bin bin/gpg

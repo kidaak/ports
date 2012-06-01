@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/fluidsynth/patches/patch-src_fluidsynth_c,v 1.2 2009/10/15 15:44:50 jakemsr Exp $
+$OpenBSD$
 --- src/fluidsynth.c.orig	Tue Feb  3 23:45:02 2009
 +++ src/fluidsynth.c	Tue Oct 13 20:57:00 2009
 @@ -212,9 +212,9 @@ int main(int argc, char** argv)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-DBI/pkg/PLIST,v 1.31 2011/06/27 18:35:44 jasper Exp $
+@comment $OpenBSD$
 bin/dbilogstrip
 bin/dbiprof
 bin/dbiproxy

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/poppassd/Makefile,v 1.26 2011/05/17 09:05:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	server: allow users to change password from within Eudora
 

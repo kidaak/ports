@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/agrep/patches/patch-sgrep_c,v 1.1 2002/07/21 01:48:42 naddy Exp $
+$OpenBSD$
 --- sgrep.c.orig	Sun Jul 21 03:42:51 2002
 +++ sgrep.c	Sun Jul 21 03:43:05 2002
 @@ -1,5 +1,6 @@

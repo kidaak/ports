@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/giggle/pkg/PLIST,v 1.6 2011/12/03 19:38:09 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/giggle
 include/giggle/

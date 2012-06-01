@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Format-ISO8601/Makefile,v 1.9 2011/01/02 18:07:48 benoit Exp $
+# $OpenBSD$
 
 COMMENT= 	DateTime parser for ISO8601 date formats
 

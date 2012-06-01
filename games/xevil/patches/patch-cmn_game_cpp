@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-cmn_game_cpp,v 1.1 2007/12/07 15:54:56 ajacoutot Exp $
+$OpenBSD$
 --- cmn/game.cpp.orig	Sat Mar 22 22:20:00 2003
 +++ cmn/game.cpp	Fri Dec  7 14:14:11 2007
 @@ -34,7 +34,8 @@ extern "C" {

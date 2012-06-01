@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/netdude/netdude/pkg/PLIST,v 1.3 2007/09/26 20:21:06 rui Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/netdude
 include/netdude/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xbl/pkg/PLIST,v 1.7 2004/09/15 00:46:11 espie Exp $
+@comment $OpenBSD$
 bin/xbl
 lib/X11/app-defaults/Xbl
 lib/xbl/

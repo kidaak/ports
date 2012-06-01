@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libnjb/pkg/PLIST,v 1.1.1.1 2007/01/07 19:34:57 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/njb-cursesplay
 bin/njb-delfile

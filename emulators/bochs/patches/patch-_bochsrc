@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/bochs/patches/patch-_bochsrc,v 1.8 2012/01/12 17:01:47 giovanni Exp $
+$OpenBSD$
 --- .bochsrc.orig	Fri Jan  6 13:51:12 2012
 +++ .bochsrc	Sat Jan  7 13:22:57 2012
 @@ -384,13 +384,13 @@ vgaromimage: file=$BXSHARE/VGABIOS-lgpl-latest

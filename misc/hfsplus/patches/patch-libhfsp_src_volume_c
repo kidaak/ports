@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/hfsplus/patches/patch-libhfsp_src_volume_c,v 1.1 2011/02/06 16:03:55 fgsch Exp $
+$OpenBSD$
 --- libhfsp/src/volume.c.orig	Tue Mar 26 18:00:29 2002
 +++ libhfsp/src/volume.c	Sat Jan 29 06:01:51 2011
 @@ -323,7 +323,8 @@ void* volume_writefork(void *p, hfsp_fork_raw* f)

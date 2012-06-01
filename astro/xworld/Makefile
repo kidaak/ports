@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/xworld/Makefile,v 1.13 2010/10/24 20:58:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	earth as seen from the direction of the sun
 

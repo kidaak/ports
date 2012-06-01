@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-semigroups/Makefile,v 1.1.1.1 2012/01/23 21:02:17 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell 98 semigroups
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xvkbd/pkg/PLIST,v 1.4 2005/05/08 14:46:57 naddy Exp $
+@comment $OpenBSD$
 bin/xvkbd
 lib/X11/app-defaults/XVkbd
 lib/X11/app-defaults/XVkbd-belgian

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/kdoc3/Makefile,v 1.13 2011/05/06 14:32:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 		embedded documentation in C++
 CATEGORIES=		x11 x11/kde devel

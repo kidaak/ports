@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-hg-git/Makefile,v 1.8 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT =	push/pull from a Git server repository using Mercurial
 

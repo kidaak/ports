@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/mhash/pkg/PLIST,v 1.4 2008/09/03 21:02:31 jakob Exp $
+@comment $OpenBSD$
 include/mhash.h
 include/mutils/
 include/mutils/mglobal.h

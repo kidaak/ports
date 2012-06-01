@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-lib_phusion_passenger_native_support_rb,v 1.1 2011/12/13 18:38:18 jeremy Exp $
+$OpenBSD$
 
 We compile this library and place it in the gem lib directory, so requiring
 it should not fail.

@@ -1,4 +1,4 @@
-#	$OpenBSD: ports/devel/libmpc/Makefile,v 1.5 2011/07/06 09:35:13 jasper Exp $
+#	$OpenBSD$
 
 COMMENT=	complex numbers math library
 

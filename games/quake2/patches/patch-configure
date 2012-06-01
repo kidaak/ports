@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/quake2/patches/patch-configure,v 1.3 2010/09/01 00:29:07 jakemsr Exp $
+$OpenBSD$
 --- configure.orig	Tue Mar 16 02:38:24 2004
 +++ configure	Mon May  3 02:17:09 2010
 @@ -21844,10 +21844,10 @@ rm -f conftest.err conftest.$ac_objext \

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xpdf/patches/patch-xpdf_XRef_cc,v 1.6 2011/10/01 19:46:35 kili Exp $
+$OpenBSD$
 --- xpdf/XRef.cc.orig	Mon Aug 15 23:08:53 2011
 +++ xpdf/XRef.cc	Thu Aug 18 21:10:22 2011
 @@ -806,19 +806,19 @@ void XRef::setEncryption(int permFlagsA, GBool ownerPa

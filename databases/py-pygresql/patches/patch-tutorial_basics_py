@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/py-pygresql/patches/patch-tutorial_basics_py,v 1.1.1.1 2008/05/08 16:53:22 wcmaier Exp $
+$OpenBSD$
 --- tutorial/basics.py.orig	Fri Jun  2 08:43:18 2006
 +++ tutorial/basics.py	Mon Apr 14 13:30:41 2008
 @@ -1,4 +1,4 @@

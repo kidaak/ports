@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/linkchecker/pkg/PLIST,v 1.20 2011/10/01 20:14:46 kili Exp $
+@comment $OpenBSD$
 bin/linkchecker
 @comment bin/linkchecker-gui
 lib/python${MODPY_VERSION}/site-packages/LinkChecker-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

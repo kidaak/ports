@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/unrtf/patches/patch-defs_h,v 1.1 2005/05/15 18:09:41 db Exp $
+$OpenBSD$
 --- defs.h.orig	Thu May 12 13:07:16 2005
 +++ defs.h	Thu May 12 13:07:26 2005
 @@ -37,7 +37,7 @@

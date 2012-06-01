@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Template-Plugin-Class/Makefile,v 1.9 2011/06/25 08:23:52 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		template extension for calling class methods
 

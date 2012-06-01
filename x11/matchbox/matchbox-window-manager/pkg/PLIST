@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/matchbox/matchbox-window-manager/pkg/PLIST,v 1.4 2009/03/23 18:39:48 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/matchbox-remote
 @bin bin/matchbox-window-manager
 share/examples/matchbox/

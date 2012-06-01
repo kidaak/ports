@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/dvdbackup/Makefile,v 1.9 2010/11/19 07:23:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=		DVD ripper
 

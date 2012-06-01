@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/mupen64plus/video-rice/pkg/PLIST,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+@comment $OpenBSD$
 lib/mupen64plus/
 lib/mupen64plus/mupen64plus-video-rice.so
 share/mupen64plus/

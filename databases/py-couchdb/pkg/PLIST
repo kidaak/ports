@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-couchdb/pkg/PLIST,v 1.5 2010/09/22 18:53:47 fgsch Exp $
+@comment $OpenBSD$
 @conflict py-CouchDB-*
 bin/couchdb-dump
 bin/couchdb-load

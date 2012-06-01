@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xrestop/Makefile,v 1.11 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	top-like X server resources usage display tool
 DISTNAME=	xrestop-0.4

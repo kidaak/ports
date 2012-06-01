@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hudson/pkg/PLIST,v 1.2 2010/11/09 21:39:57 jasper Exp $
+@comment $OpenBSD$
 @newgroup _hudson:605
 @newuser _hudson:605:_hudson:daemon:Hudson Account:${HOMEDIR}:/sbin/nologin
 bin/hudson

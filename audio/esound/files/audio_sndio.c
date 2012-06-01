@@ -1,4 +1,4 @@
-/* $OpenBSD: ports/audio/esound/files/audio_sndio.c,v 1.1 2008/12/20 08:58:32 jakemsr Exp $ */
+/* $OpenBSD$ */
 
 /*
  * Copyright (c) 2008 Jacob Meuser <jakemsr@sdf.lonestar.org>

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-Tee/Makefile,v 1.5 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	multiplex output to multiple handles
 

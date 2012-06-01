@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/BitTorrent/Makefile,v 1.36 2011/09/16 11:13:37 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=	cooperative file distribution system implemented in Python
 COMMENT-gui=	graphical interface components for BitTorrent

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/queryperf/Makefile,v 1.5 2011/04/14 13:47:59 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	DNS query performance tester from BIND 9
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-ExtUtils-PkgConfig/Makefile,v 1.10 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simplistic perl interface to pkg-config
 

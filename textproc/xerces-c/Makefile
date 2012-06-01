@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/xerces-c/Makefile,v 1.4 2011/12/27 14:27:23 pascal Exp $
+# $OpenBSD$
 
 COMMENT=	c++ validating XML parser
 

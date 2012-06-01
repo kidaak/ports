@@ -1,5 +1,5 @@
 /*
- * $OpenBSD: ports/net/openafs/files/param.i386_obsd.h,v 1.2 2008/07/21 03:13:01 todd Exp $
+ * $OpenBSD$
  * Jim Rees, University of Michigan CITI
  */
 

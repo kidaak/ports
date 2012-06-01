@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-tagpy/Makefile,v 1.10 2011/09/23 20:17:20 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		Python bindings to TagLib audio file tag library
 

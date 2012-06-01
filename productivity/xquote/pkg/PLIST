@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/xquote/pkg/PLIST,v 1.2 2011/04/10 18:02:19 jasper Exp $
+@comment $OpenBSD$
 @pkgpath productivity/xquote,lesstif
 bin/xquote
 lib/X11/app-defaults/Xquote.ad

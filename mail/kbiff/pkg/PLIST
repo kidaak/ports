@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/kbiff/pkg/PLIST,v 1.9 2006/01/09 22:40:03 alek Exp $
+@comment $OpenBSD$
 bin/kbiff
 lib/libkbiff.la
 @man man/man1/kbiff.1

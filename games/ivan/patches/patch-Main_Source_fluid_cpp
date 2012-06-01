@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ivan/patches/patch-Main_Source_fluid_cpp,v 1.1 2010/06/07 14:48:32 espie Exp $
+$OpenBSD$
 --- Main/Source/fluid.cpp.orig	Mon Jun  7 16:45:14 2010
 +++ Main/Source/fluid.cpp	Mon Jun  7 16:45:21 2010
 @@ -598,7 +598,7 @@ void fluid::Redistribute()

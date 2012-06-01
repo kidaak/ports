@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/sudoku-solver/pkg/PLIST,v 1.3 2011/06/23 22:50:27 naddy Exp $
+@comment $OpenBSD$
 @bin bin/sudoku-solver
 @bin bin/xsudoku
 @bin libexec/sudoku-handler

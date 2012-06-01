@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/rsynth/patches/patch-Makefile_in,v 1.2 2009/12/24 21:45:29 jakemsr Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Nov  8 14:30:52 1994
 +++ Makefile.in	Mon Dec 31 10:31:55 2001
 @@ -5,8 +5,9 @@ SRCDIR       = @srcdir@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-YAML-Syck/pkg/PLIST,v 1.2 2008/01/02 22:30:34 bluhm Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/JSON/
 ${P5ARCH}/JSON/Syck.pm

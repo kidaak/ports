@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-RawIP/pkg/PLIST,v 1.6 2011/04/06 18:52:21 pvalchev Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Net/
 ${P5ARCH}/Net/RawIP/

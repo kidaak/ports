@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/glog/pkg/PFRAG.shared,v 1.1.1.1 2009/12/31 15:48:59 landry Exp $
+@comment $OpenBSD$
 @lib lib/libglog.so.${LIBglog_VERSION}

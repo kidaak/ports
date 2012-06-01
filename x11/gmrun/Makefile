@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gmrun/Makefile,v 1.13 2011/09/16 12:29:13 espie Exp $
+# $OpenBSD$
 
 COMMENT=		X11 program launcher
 

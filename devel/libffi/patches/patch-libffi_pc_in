@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libffi/patches/patch-libffi_pc_in,v 1.1.1.1 2009/09/23 20:55:46 jasper Exp $
+$OpenBSD$
 
 Install headers into a standard directory.
 

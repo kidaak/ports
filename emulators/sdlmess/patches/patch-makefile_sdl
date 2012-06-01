@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/sdlmess/patches/patch-makefile_sdl,v 1.1.1.1 2009/03/17 19:58:21 landry Exp $
+$OpenBSD$
 --- makefile.sdl.orig	Fri Mar 13 17:53:53 2009
 +++ makefile.sdl	Sun Mar 15 15:52:01 2009
 @@ -125,10 +125,10 @@ endif

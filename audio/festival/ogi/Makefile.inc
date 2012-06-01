@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/ogi/Makefile.inc,v 1.6 2011/06/14 01:19:10 sthen Exp $
+# $OpenBSD$
 
 MASTER_SITES?=	http://spacehopper.org/mirrors/festival/
 DIST_SUBDIR?=	festival

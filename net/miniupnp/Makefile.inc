@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/miniupnp/Makefile.inc,v 1.2 2012/02/23 13:48:25 dcoppa Exp $
+# $OpenBSD$
 
 CATEGORIES=	net
 

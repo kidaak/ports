@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ruby-pcap/pkg/PLIST,v 1.9 2011/07/19 18:00:16 jeremy Exp $
+@comment $OpenBSD$
 @conflict ruby-pcaprub-msf-*
 ${MODRUBY_SITEDIR}/pcap_misc.rb
 ${MODRUBY_SITEDIR}/pcaplet.rb

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/sqlite3/patches/patch-configure,v 1.14 2012/03/27 18:34:04 sthen Exp $
+$OpenBSD$
 
 XXX careful! this must apply to pthread and not any other lib.
 

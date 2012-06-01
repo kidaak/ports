@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-hyperestraier/pkg/PLIST,v 1.5 2011/07/19 18:00:16 jeremy Exp $
+@comment $OpenBSD$
 bin/estcmd${BIN_SUFFIX}.rb
 ${MODRUBY_SITEARCHDIR}/estraier.so
 ${MODRUBY_RELEXAMPLEDIR}/

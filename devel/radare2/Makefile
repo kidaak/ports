@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/radare2/Makefile,v 1.1.1.1 2011/07/21 01:35:51 edd Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += main

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/miniupnp/miniupnpc/pkg/PLIST-main,v 1.1.1.1 2012/01/13 09:23:09 ajacoutot Exp $
+@comment $OpenBSD$
 bin/external-ip
 @bin bin/upnpc
 include/miniupnpc/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/gnome.port.mk,v 1.60 2012/03/29 16:34:43 ajacoutot Exp $
+# $OpenBSD$
 #
 # Module for GNOME related ports
 

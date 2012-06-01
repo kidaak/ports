@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/sredird/Makefile,v 1.5 2011/03/14 09:17:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	RFC 2217 compliant serial port redirector
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/tntnet/pkg/PLIST,v 1.3 2008/05/27 21:49:31 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/ecppc
 bin/ecppl

@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/gpx-viewer/patches/patch-configure_ac,v 1.1 2010/09/30 07:32:54 jasper Exp $
+$OpenBSD$
 --- configure.ac.orig	Tue Sep 28 13:34:35 2010
 +++ configure.ac	Tue Sep 28 13:34:58 2010
 @@ -34,8 +34,8 @@ PKG_PROG_PKG_CONFIG

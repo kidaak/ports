@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/p5-XML-TreePP/patches/patch-t_09_http-lite_t,v 1.1.1.1 2012/01/24 00:25:56 nigel Exp $
+$OpenBSD$
 
 use.perl.org returns http 500, use different rss feed
 

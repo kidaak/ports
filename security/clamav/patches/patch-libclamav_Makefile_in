@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/clamav/patches/patch-libclamav_Makefile_in,v 1.16 2011/06/10 22:20:20 sthen Exp $
+$OpenBSD$
 --- libclamav/Makefile.in.orig	Thu Jun  9 07:51:36 2011
 +++ libclamav/Makefile.in	Thu Jun  9 10:55:20 2011
 @@ -535,7 +535,7 @@ EXTRA_DIST = c++/Makefile.nollvm.in $(am__append_4) re

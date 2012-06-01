@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libraw/Makefile,v 1.4 2012/02/26 15:07:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		library for reading RAW files
 

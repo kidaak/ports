@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Convert-UUlib/Makefile,v 1.13 2011/01/09 18:01:33 naddy Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/slrn/Makefile,v 1.48 2010/11/20 09:48:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=		SLang-based newsreader
 

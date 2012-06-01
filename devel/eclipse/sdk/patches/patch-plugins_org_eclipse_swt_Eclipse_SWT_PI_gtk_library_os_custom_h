@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_swt_Eclipse_SWT_PI_gtk_library_os_custom_h,v 1.4 2007/04/13 14:30:43 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.swt/Eclipse SWT PI/gtk/library/os_custom.h.orig	Mon Feb 12 13:46:35 2007
 +++ plugins/org.eclipse.swt/Eclipse SWT PI/gtk/library/os_custom.h	Fri Apr  6 17:28:28 2007
 @@ -36,51 +36,51 @@

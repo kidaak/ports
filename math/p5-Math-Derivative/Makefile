@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-Derivative/Makefile,v 1.4 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		numeric 1st and 2nd order differentiation
 

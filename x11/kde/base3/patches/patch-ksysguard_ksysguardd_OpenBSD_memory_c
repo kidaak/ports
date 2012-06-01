@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-ksysguard_ksysguardd_OpenBSD_memory_c,v 1.1 2006/02/18 13:29:36 espie Exp $
+$OpenBSD$
 --- ksysguard/ksysguardd/OpenBSD/memory.c.orig	Sat Feb 18 14:14:15 2006
 +++ ksysguard/ksysguardd/OpenBSD/memory.c	Sat Feb 18 14:22:08 2006
 @@ -37,6 +37,8 @@

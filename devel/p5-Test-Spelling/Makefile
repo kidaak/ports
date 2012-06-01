@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Spelling/Makefile,v 1.8 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	check for spelling errors in POD files
 

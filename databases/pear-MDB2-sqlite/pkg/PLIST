@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/pear-MDB2-sqlite/pkg/PLIST,v 1.1.1.1 2009/06/22 15:47:52 giovanni Exp $
+@comment $OpenBSD$
 @group daemon
 pear/data/MDB2_Driver_sqlite/
 pear/data/MDB2_Driver_sqlite/package_sqlite.xml

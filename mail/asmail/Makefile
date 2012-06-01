@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/asmail/Makefile,v 1.35 2011/07/04 00:25:46 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	biff-type program, designed to match AfterStep
 

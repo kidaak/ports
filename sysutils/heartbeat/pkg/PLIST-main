@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/heartbeat/pkg/PLIST-main,v 1.3 2011/05/11 07:45:52 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup ${HBGROUP}:${HBGID}
 @newuser ${HBUSER}:${HBUID}:${HBGROUP}:daemon:Heartbeat User:/nonexistent:/sbin/nologin
 @unexec rm -f ${SYSCONFDIR}/ha.d/resource.d/ldirectord

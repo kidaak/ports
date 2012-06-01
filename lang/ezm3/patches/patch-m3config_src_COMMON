@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ezm3/patches/patch-m3config_src_COMMON,v 1.2 2003/05/08 01:34:43 naddy Exp $
+$OpenBSD$
 --- m3config/src/COMMON.orig	Mon Dec 31 01:00:37 2001
 +++ m3config/src/COMMON	Sun May  4 01:48:54 2003
 @@ -316,9 +316,9 @@ proc import_DECPEX() is

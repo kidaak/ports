@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xcept/patches/patch-etc_users_cept,v 1.1 2000/09/03 16:25:05 espie Exp $
+$OpenBSD$
 --- etc/users.cept.orig	Tue Jun 28 16:09:30 1994
 +++ etc/users.cept	Sun Sep  3 17:29:38 2000
 @@ -16,223 +16,7 @@

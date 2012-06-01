@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Sort-SQL/Makefile,v 1.8 2010/12/03 11:44:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	manipulate SQL sort strings
 

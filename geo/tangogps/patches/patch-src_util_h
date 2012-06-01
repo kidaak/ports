@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/tangogps/patches/patch-src_util_h,v 1.1 2011/07/05 08:18:30 jasper Exp $
+$OpenBSD$
 --- src/util.h.orig	Tue Jul  5 09:19:32 2011
 +++ src/util.h	Tue Jul  5 09:19:35 2011
 @@ -2,7 +2,6 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rtg/patches/patch-src_Makefile_in,v 1.1.1.1 2008/07/19 13:52:22 sthen Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Oct  2 16:59:33 2003
 +++ src/Makefile.in	Tue Jul  8 15:40:17 2008
 @@ -77,15 +77,17 @@ am__quote = @am__quote@

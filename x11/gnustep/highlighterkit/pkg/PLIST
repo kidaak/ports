@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/highlighterkit/pkg/PLIST,v 1.3 2012/04/09 17:54:20 sebastia Exp $
+@comment $OpenBSD$
 include/HighlighterKit
 lib/GNUstep/
 lib/GNUstep/Frameworks/

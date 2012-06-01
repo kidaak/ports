@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_httpinput_httpinput_h,v 1.1 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/httpinput/httpinput.h.orig	Wed Mar 30 12:53:01 2011
 +++ src/httpinput/httpinput.h	Wed Mar 30 12:58:51 2011
 @@ -97,9 +97,9 @@ public slots:

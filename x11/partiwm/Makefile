@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/partiwm/Makefile,v 1.8 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	tiling window manager
 

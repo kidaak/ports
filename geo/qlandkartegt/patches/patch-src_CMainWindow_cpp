@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qlandkartegt/patches/patch-src_CMainWindow_cpp,v 1.1 2012/01/18 15:08:33 sebastia Exp $
+$OpenBSD$
 
 fix detection of gpsbabel and conversions done with it
 

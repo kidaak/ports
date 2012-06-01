@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/py-kiwi/patches/patch-setup_py,v 1.1.1.1 2009/09/22 15:09:39 jasper Exp $
+$OpenBSD$
 
 Force usage of setuptools over distutils to prevent an:
 error: option --single-version-externally-managed not recognized

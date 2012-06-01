@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Whois-RIPE/Makefile,v 1.11 2011/04/02 08:05:19 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	perl implementation of RIPE whois
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-AI-NeuralNet-Kohonen-Visual/Makefile,v 1.7 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=		visualisation of Kohonen's Self-Organizing Maps
 

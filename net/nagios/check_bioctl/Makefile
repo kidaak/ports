@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nagios/check_bioctl/Makefile,v 1.3 2012/04/04 21:49:44 merdely Exp $
+# $OpenBSD$
 
 PKG_ARCH =		*
 

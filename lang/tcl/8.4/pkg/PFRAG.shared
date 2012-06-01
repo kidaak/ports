@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/tcl/8.4/pkg/PFRAG.shared,v 1.4 2009/01/16 00:02:13 sthen Exp $
+@comment $OpenBSD$
 @lib lib/libtcl84.so.${LIBtcl84_VERSION}
 lib/libtcl84_pic.a
 lib/libtclstub84_pic.a

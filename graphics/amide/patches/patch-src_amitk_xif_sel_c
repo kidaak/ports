@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/amide/patches/patch-src_amitk_xif_sel_c,v 1.2 2011/05/15 21:16:06 jasper Exp $
+$OpenBSD$
 --- src/amitk_xif_sel.c.orig	Wed Dec  9 03:00:11 2009
 +++ src/amitk_xif_sel.c	Sun May 15 23:15:55 2011
 @@ -2018,8 +2018,12 @@ amitk_xif_selection_dir_activate (GtkTreeView       *t

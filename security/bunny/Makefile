@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/bunny/Makefile,v 1.2 2008/06/10 05:48:55 pvalchev Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386 amd64
 			

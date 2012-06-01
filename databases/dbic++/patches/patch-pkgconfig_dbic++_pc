@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/dbic++/patches/patch-pkgconfig_dbic++_pc,v 1.1 2011/03/14 18:30:33 jeremy Exp $
+$OpenBSD$
 --- pkgconfig/dbic++.pc.orig	Wed Jan 12 18:27:58 2011
 +++ pkgconfig/dbic++.pc	Wed Jan 19 11:05:22 2011
 @@ -1,4 +1,4 @@

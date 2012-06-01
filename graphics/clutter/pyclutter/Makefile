@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/clutter/pyclutter/Makefile,v 1.6 2011/03/07 18:56:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		python bindings for Clutter
 

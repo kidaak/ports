@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/mrtg/patches/patch-configure_in,v 1.5 2011/03/02 08:36:28 sthen Exp $
+$OpenBSD$
 --- configure.in.orig	Mon Jan 10 07:00:47 2011
 +++ configure.in	Fri Feb 18 18:15:39 2011
 @@ -114,6 +114,11 @@ AC_CHECK_LIB(gd,gdImagePng,[

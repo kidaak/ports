@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/apvlv/Makefile,v 1.9 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight PDF document viewer with vi bindings
 

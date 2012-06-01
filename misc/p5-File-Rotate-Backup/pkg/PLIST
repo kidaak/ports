@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/p5-File-Rotate-Backup/pkg/PLIST,v 1.1.1.1 2006/11/21 16:00:01 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/Rotate/
 ${P5SITE}/File/Rotate/Backup/

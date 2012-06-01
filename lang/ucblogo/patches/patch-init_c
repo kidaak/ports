@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ucblogo/patches/patch-init_c,v 1.1.1.1 2006/06/01 05:58:15 jolan Exp $
+$OpenBSD$
 --- init.c.orig	Mon May  8 15:39:40 2006
 +++ init.c	Mon May  8 15:38:59 2006
 @@ -484,8 +484,8 @@ void init(void) {

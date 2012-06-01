@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/ruby-profligacy/pkg/PLIST,v 1.1.1.1 2011/01/18 16:30:31 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/profligacy-1.0-java.gem
 ${GEM_LIB}/gems/profligacy-1.0-java/
 ${GEM_LIB}/gems/profligacy-1.0-java/COPYING

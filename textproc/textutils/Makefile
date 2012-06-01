@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/textutils/Makefile,v 1.13 2010/11/20 19:56:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=		GNU text utilities
 

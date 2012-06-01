@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/readline/Makefile,v 1.7 2011/03/14 08:44:38 sthen Exp $
+# $OpenBSD$
 COMMENT =		library to edit command lines as they are typed in
 
 V =			6.1

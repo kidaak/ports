@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/coq/Makefile,v 1.16 2010/11/19 07:23:10 espie Exp $
+# $OpenBSD$
 
 BROKEN=			requires update due to ocaml 3.08
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pfstat/pkg/PLIST-main,v 1.4 2011/06/23 22:50:28 naddy Exp $
+@comment $OpenBSD$
 @pkgpath net/pfstat
 @bin bin/pfstat
 @man man/man8/pfstat.8

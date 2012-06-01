@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/indexpage/Makefile,v 1.8 2010/11/17 08:05:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	generate index pages for displaying images
 

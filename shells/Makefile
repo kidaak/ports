@@ -1,4 +1,4 @@
-# $OpenBSD: ports/shells/Makefile,v 1.22 2010/11/15 00:26:16 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.13 1997/01/03 00:40:55 max Exp $
 #
 

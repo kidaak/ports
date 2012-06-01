@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tcpreen/Makefile,v 1.19 2011/09/07 13:23:07 nigel Exp $
+# $OpenBSD$
 
 COMMENT=		simple tcp re-engineering tool
 

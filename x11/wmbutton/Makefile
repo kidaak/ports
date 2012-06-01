@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmbutton/Makefile,v 1.18 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; application launching program
 

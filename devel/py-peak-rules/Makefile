@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-peak-rules/Makefile,v 1.7 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT =		generic functions support systems
 

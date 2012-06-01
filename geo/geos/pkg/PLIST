@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/geos/pkg/PLIST,v 1.5 2010/11/04 20:14:30 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @comment bin/XMLTester
 bin/geos-config

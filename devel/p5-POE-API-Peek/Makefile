@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-POE-API-Peek/Makefile,v 1.4 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		peek into the internals of a running POE environment
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-chardet/pkg/PLIST,v 1.1.1.1 2010/03/22 22:30:15 ajacoutot Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/chardet/
 lib/python${MODPY_VERSION}/site-packages/chardet-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/chardet/__init__.py

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jbig2dec/patches/patch-test_jbig2dec_py,v 1.1.1.1 2009/10/11 09:59:16 sthen Exp $
+$OpenBSD$
 --- test_jbig2dec.py.orig	Tue Jul 14 22:00:16 2009
 +++ test_jbig2dec.py	Tue Jul 14 22:00:21 2009
 @@ -1,4 +1,4 @@

@@ -1,9 +1,9 @@
-# $OpenBSD: ports/devel/gdb/Makefile,v 1.20 2012/03/03 19:22:42 pascal Exp $
+# $OpenBSD$
 
 COMMENT=	GNU debugger
 CATEGORIES=	devel
 
-DISTNAME=	gdb-7.4
+DISTNAME=	gdb-7.4.1
 
 HOMEPAGE=	http://www.gnu.org/software/gdb/
 

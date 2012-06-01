@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/lostpixels/patches/patch-playersprite_cpp,v 1.1.1.1 2009/10/09 22:09:22 phessler Exp $
+$OpenBSD$
 
 These files are missing in the distribution, so do not use them.
 

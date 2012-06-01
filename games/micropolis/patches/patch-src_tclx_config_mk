@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/micropolis/patches/patch-src_tclx_config_mk,v 1.1.1.1 2008/01/18 03:36:32 deanna Exp $
+$OpenBSD$
 --- src/tclx/config.mk.orig	Fri Nov 30 21:49:55 2007
 +++ src/tclx/config.mk	Sun Jan 13 10:30:56 2008
 @@ -60,9 +60,7 @@ XPM_LIBS=-L/usr/X11R6/lib -lXpm 

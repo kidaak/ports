@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/syweb/Makefile,v 1.14 2012/02/17 22:17:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		web frontend to symon
 DISTNAME=		syweb-0.64

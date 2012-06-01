@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/bogofilter/patches/patch-configure,v 1.2 2007/12/19 21:44:08 bernd Exp $
+$OpenBSD$
 --- configure.orig	Sat Nov 24 05:37:19 2007
 +++ configure	Fri Dec 14 18:01:09 2007
 @@ -12520,7 +12520,8 @@ echo "${ECHO_T}$ac_cv_libsqlite3_libs" >&6; }

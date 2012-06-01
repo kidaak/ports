@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/bnc/patches/patch-server_c,v 1.2 2005/03/02 20:13:23 robert Exp $
+$OpenBSD$
 --- server.c.orig	Mon Feb  7 02:29:11 2005
 +++ server.c	Wed Mar  2 20:57:00 2005
 @@ -403,7 +403,7 @@

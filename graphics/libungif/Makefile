@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libungif/Makefile,v 1.18 2010/11/17 08:05:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	tools and library routines for working with GIF images
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pysvn/Makefile,v 1.5 2011/10/28 11:11:29 stsp Exp $
+# $OpenBSD$
 
 COMMENT =		python interface to subversion
 

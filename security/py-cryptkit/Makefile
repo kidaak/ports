@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/py-cryptkit/Makefile,v 1.18 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

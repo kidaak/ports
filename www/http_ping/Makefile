@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/http_ping/Makefile,v 1.12 2011/06/23 22:50:30 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	HTTP latency performance testing client
 

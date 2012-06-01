@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/dbus-python/Makefile,v 1.21 2012/03/31 08:45:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	dbus bindings for Python
 

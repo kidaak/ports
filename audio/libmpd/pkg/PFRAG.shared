@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/libmpd/pkg/PFRAG.shared,v 1.1.1.1 2006/10/27 14:08:02 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libmpd.so.${LIBmpd_VERSION}

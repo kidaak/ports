@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/p5-AMF-Connection/Makefile,v 1.1.1.1 2012/01/24 22:15:09 nigel Exp $
+# $OpenBSD$
 
 COMMENT =	AMF client to connect to remote FLEX AIR service
 

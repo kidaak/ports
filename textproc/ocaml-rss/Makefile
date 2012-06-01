@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ocaml-rss/Makefile,v 1.8 2010/11/20 19:56:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Objective Caml library to parse RSS 2.0
 CATEGORIES=	textproc

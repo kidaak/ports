@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/onyx/patches/patch-mod_modprompt_Cookfile_inc_in,v 1.1.1.1 2011/03/07 19:26:28 jasper Exp $
+$OpenBSD$
 --- mod/modprompt/Cookfile.inc.in.orig	Thu Mar  3 19:17:46 2011
 +++ mod/modprompt/Cookfile.inc.in	Thu Mar  3 19:18:19 2011
 @@ -73,13 +73,13 @@ modprompt_mods_check_update : ;

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/tempwatch/patches/patch-check_tmp_c,v 1.1 2004/01/05 03:24:14 espie Exp $
+$OpenBSD$
 --- check_tmp.c.orig	2004-01-05 04:21:30.000000000 +0100
 +++ check_tmp.c	2004-01-05 04:21:34.000000000 +0100
 @@ -352,7 +352,7 @@ int main(int argc, char **argv){

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pcapdiff/files/setup.py,v 1.1.1.1 2009/04/21 16:36:23 sthen Exp $
+# $OpenBSD$
 
 from distutils.core import setup
 import sys, os

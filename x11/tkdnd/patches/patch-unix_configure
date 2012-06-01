@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tkdnd/patches/patch-unix_configure,v 1.1.1.1 2010/07/16 08:30:27 sebastia Exp $
+$OpenBSD$
 --- unix/configure.orig	Sat Sep  9 03:16:12 2000
 +++ unix/configure	Wed Dec 23 17:29:12 2009
 @@ -1697,7 +1697,7 @@ EOF

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/emacs-jabber/pkg/PLIST,v 1.1.1.1 2011/11/12 11:51:27 jasper Exp $
+@comment $OpenBSD$
 @info info/jabber.info
 libexec/emacs-jabber-uri-handler
 share/emacs/site-lisp/emacs-jabber/

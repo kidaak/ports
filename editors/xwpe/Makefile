@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/xwpe/Makefile,v 1.31 2010/10/24 21:16:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	powerful programming editor
 

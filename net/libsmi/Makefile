@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libsmi/Makefile,v 1.1.1.1 2012/02/28 19:26:22 nigel Exp $
+# $OpenBSD$
 
 COMMENT=	library and tools to access SMI MIB information
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dzen2/patches/patch-gadgets_Makefile,v 1.1.1.1 2007/09/06 19:46:01 merdely Exp $
+$OpenBSD$
 --- gadgets/Makefile.orig	Wed Sep  5 17:28:21 2007
 +++ gadgets/Makefile	Wed Sep  5 17:31:27 2007
 @@ -16,30 +16,21 @@ options:

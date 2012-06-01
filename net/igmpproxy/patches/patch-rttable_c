@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/igmpproxy/patches/patch-rttable_c,v 1.1.1.1 2008/02/08 19:30:52 sthen Exp $
+$OpenBSD$
 --- rttable.c.orig	Sat Aug 20 13:46:20 2005
 +++ rttable.c	Mon Nov 19 12:56:50 2007
 @@ -38,15 +38,22 @@

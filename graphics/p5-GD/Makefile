@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-GD/Makefile,v 1.37 2011/06/25 18:01:06 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

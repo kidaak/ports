@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ftgl/Makefile,v 1.8 2011/11/01 20:30:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		font rendering library for OpenGL applications
 

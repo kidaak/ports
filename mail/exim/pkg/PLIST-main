@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/exim/pkg/PLIST-main,v 1.3 2011/07/17 20:15:59 sthen Exp $
+@comment $OpenBSD$
 @pkgpath mail/exim
 @pkgpath mail/exim,no_exiscan
 @pkgpath mail/exim,no_exiscan,no_x11

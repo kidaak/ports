@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/roadfighter/Makefile,v 1.5 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	remake of Konami's Road Fighter
 

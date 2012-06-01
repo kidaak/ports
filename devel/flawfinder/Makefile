@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/flawfinder/Makefile,v 1.35 2011/09/16 09:24:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=		C/C++ source code auditing tool
 

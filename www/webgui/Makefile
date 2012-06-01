@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/webgui/Makefile,v 1.4 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	fully featured mod_perl content management system
 

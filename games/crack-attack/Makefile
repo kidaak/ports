@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/crack-attack/Makefile,v 1.15 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	OpenGL game based on SNES classic Tetris Attack
 

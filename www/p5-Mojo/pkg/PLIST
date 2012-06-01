@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Mojo/pkg/PLIST,v 1.5 2012/04/10 13:32:45 jim Exp $
+@comment $OpenBSD$
 @conflict p5-Mojo-*
 bin/hypnotoad
 bin/mojo

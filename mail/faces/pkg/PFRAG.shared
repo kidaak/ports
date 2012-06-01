@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/faces/pkg/PFRAG.shared,v 1.4 2005/12/26 13:19:05 steven Exp $
+@comment $OpenBSD$
 @lib lib/libcompface.so.${LIBcompface_VERSION}

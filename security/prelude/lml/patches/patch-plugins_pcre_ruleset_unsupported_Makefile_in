@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/prelude/lml/patches/patch-plugins_pcre_ruleset_unsupported_Makefile_in,v 1.1 2009/08/30 20:37:16 rui Exp $
+$OpenBSD$
 --- plugins/pcre/ruleset/unsupported/Makefile.in.orig	Thu Aug 13 21:20:53 2009
 +++ plugins/pcre/ruleset/unsupported/Makefile.in	Thu Aug 13 21:21:43 2009
 @@ -728,7 +728,7 @@ top_srcdir = @top_srcdir@

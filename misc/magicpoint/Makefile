@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/magicpoint/Makefile,v 1.56 2012/02/24 07:18:01 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	X11-based presentation tool
 

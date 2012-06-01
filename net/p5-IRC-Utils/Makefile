@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-IRC-Utils/Makefile,v 1.4 2012/04/07 08:03:36 landry Exp $
+# $OpenBSD$
 
 COMMENT=	common utilities for IRC-related tasks
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Event-ExecFlow/pkg/PLIST,v 1.1.1.1 2007/05/19 10:10:24 steven Exp $
+@comment $OpenBSD$
 bin/execflow
 ${P5SITE}/Event/
 ${P5SITE}/Event/ExecFlow/

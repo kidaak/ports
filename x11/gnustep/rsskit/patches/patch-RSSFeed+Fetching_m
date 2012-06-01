@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/rsskit/patches/patch-RSSFeed+Fetching_m,v 1.1.1.1 2011/04/24 14:04:54 sebastia Exp $
+$OpenBSD$
 
 fix detection of RSS 0.92 (which makes RSS feeds on undeadly.org work)
 

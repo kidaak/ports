@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ruby/ruby.port.mk,v 1.50 2011/12/09 21:41:43 jeremy Exp $
+# $OpenBSD$
 
 # ruby module
 

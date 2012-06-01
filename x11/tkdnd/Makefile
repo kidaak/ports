@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tkdnd/Makefile,v 1.3 2011/01/05 17:38:25 sebastia Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

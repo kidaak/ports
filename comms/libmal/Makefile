@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/libmal/Makefile,v 1.10 2011/01/03 11:11:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	MAL convenience library
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/winwrangler/Makefile,v 1.8 2011/12/07 08:56:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	desktop daemon to perform advanced window manipulations
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/onew/patches/patch-onewlib_c,v 1.1 2010/05/19 14:05:37 espie Exp $
+$OpenBSD$
 --- onewlib.c.orig	Sun Jul  2 09:55:41 1995
 +++ onewlib.c	Wed May 19 15:54:13 2010
 @@ -19,6 +19,7 @@

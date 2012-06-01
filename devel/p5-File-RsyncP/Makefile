@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-RsyncP/Makefile,v 1.1.1.1 2011/09/18 22:25:13 landry Exp $
+# $OpenBSD$
 
 COMMENT =	perl implementation of an Rsync client
 SHARED_ONLY =	Yes

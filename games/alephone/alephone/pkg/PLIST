@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/alephone/alephone/pkg/PLIST,v 1.4 2012/01/27 21:35:24 phessler Exp $
+@comment $OpenBSD$
 @bin bin/alephone
 @man man/man6/alephone.6
 share/AlephOne/

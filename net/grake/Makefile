@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/grake/Makefile,v 1.2 2012/01/25 20:49:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		tool for scanning webpages for Youtube links
 

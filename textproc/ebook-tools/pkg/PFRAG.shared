@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/textproc/ebook-tools/pkg/PFRAG.shared,v 1.1.1.1 2011/12/23 13:04:00 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libepub.so.${LIBepub_VERSION}

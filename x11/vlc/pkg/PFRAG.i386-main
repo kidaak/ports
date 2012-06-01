@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/vlc/pkg/PFRAG.i386-main,v 1.5 2011/11/16 13:33:16 phessler Exp $
+@comment $OpenBSD$
 lib/vlc/plugins/3dnow/
 lib/vlc/plugins/3dnow/libmemcpy3dn_plugin.so
 lib/vlc/plugins/mmx/

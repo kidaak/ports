@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/shmux/Makefile,v 1.4 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=		execute a command on many hosts in parallel
 

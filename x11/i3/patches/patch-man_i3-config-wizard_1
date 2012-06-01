@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/i3/patches/patch-man_i3-config-wizard_1,v 1.1 2011/12/01 16:00:01 dcoppa Exp $
+$OpenBSD$
 --- man/i3-config-wizard.1.orig	Thu Dec  1 15:05:38 2011
 +++ man/i3-config-wizard.1	Thu Dec  1 15:09:23 2011
 @@ -33,12 +33,12 @@ i3-config-wizard \- creates a keysym based config base

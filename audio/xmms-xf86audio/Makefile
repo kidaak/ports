@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmms-xf86audio/Makefile,v 1.13 2011/11/14 18:44:18 naddy Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

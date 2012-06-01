@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pcsc-lite/patches/patch-src_Makefile_in,v 1.1 2005/12/25 11:15:34 sturm Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun Dec 25 11:33:49 2005
 +++ src/Makefile.in	Sun Dec 25 11:34:06 2005
 @@ -121,7 +121,8 @@ TESTS = testpcsc

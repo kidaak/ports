@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/mpack/patches/patch-unixos_c,v 1.4 2012/01/08 00:12:13 sthen Exp $
+$OpenBSD$
 
 Fixes from Sebastian Pipping
 http://git.goodpoint.de/?p=mpack.git;a=commitdiff;h=0c87201f64491575350b18d04c62ec142e119d1f

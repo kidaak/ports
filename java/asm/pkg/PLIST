@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/java/asm/pkg/PLIST,v 1.1.1.1 2011/09/21 13:38:21 jasper Exp $
+@comment $OpenBSD$
 share/java/
 share/java/asm/
 share/java/asm/doc/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-mutagen/Makefile,v 1.7 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Python module to handle audio metadata 
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ecl/patches/patch-src_compile_lsp_in,v 1.1 2009/03/16 11:19:12 espie Exp $
+$OpenBSD$
 --- src/compile.lsp.in.orig	Mon Mar 16 10:45:42 2009
 +++ src/compile.lsp.in	Mon Mar 16 10:50:38 2009
 @@ -48,19 +48,19 @@

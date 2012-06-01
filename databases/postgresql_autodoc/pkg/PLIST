@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/postgresql_autodoc/pkg/PLIST,v 1.1.1.1 2008/08/23 16:33:40 simon Exp $
+@comment $OpenBSD$
 bin/postgresql_autodoc
 share/postgresql_autodoc/
 share/postgresql_autodoc/dia.tmpl

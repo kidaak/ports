@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-config_tests_unix_tds_tds_pro,v 1.1 2011/04/15 16:13:23 ajacoutot Exp $
+$OpenBSD$
 
 -pthread is needed to link with libsybdb (gnutls).
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/sdl-gfx/pkg/PLIST,v 1.5 2012/04/05 11:39:29 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/SDL/
 include/SDL/SDL_framerate.h

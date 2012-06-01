@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-SearchBuilder/Makefile,v 1.15 2011/06/14 11:52:58 robert Exp $
+# $OpenBSD$
 
 COMMENT=	encapsulate SQL queries and rows in simple perl objects
 

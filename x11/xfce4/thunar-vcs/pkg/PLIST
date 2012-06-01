@@ -1,8 +1,8 @@
-@comment $OpenBSD: ports/x11/xfce4/thunar-vcs/pkg/PLIST,v 1.9 2011/12/03 22:32:21 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict thunar-vcs-plugin-*
-%%SHARED%%
 @comment lib/thunarx-2/thunar-vcs-plugin.a
 @comment lib/thunarx-2/thunar-vcs-plugin.la
+lib/thunarx-2/thunar-vcs-plugin.so
 @bin libexec/tvp-git-helper
 @bin libexec/tvp-svn-helper
 share/icons/hicolor/24x24/apps/git.png

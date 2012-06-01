@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/compface/pkg/PLIST,v 1.5 2006/06/28 18:12:16 jasper Exp $
+@comment $OpenBSD$
 @conflict faces-*
 bin/compface
 bin/uncompface

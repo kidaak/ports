@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/freeradius/patches/patch-src_main_radsniff_c,v 1.2 2010/10/25 13:22:20 pea Exp $
+$OpenBSD$
 --- src/main/radsniff.c.orig	Tue Sep 28 13:03:56 2010
 +++ src/main/radsniff.c	Mon Oct 11 11:22:27 2010
 @@ -40,7 +40,7 @@ static VALUE_PAIR *filter_vps = NULL;

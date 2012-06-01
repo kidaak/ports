@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/magicpoint/patches/patch-grammar_y,v 1.1 2005/11/05 09:28:42 espie Exp $
+$OpenBSD$
 --- grammar.y.orig	Sat Nov  5 10:10:34 2005
 +++ grammar.y	Sat Nov  5 10:15:31 2005
 @@ -145,6 +145,7 @@ gen_double_int(op, v)

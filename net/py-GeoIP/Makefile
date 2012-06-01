@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-GeoIP/Makefile,v 1.12 2011/10/09 09:18:50 benoit Exp $
+# $OpenBSD$
 
 COMMENT =		GeoIP Python API
 

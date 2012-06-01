@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/calibre/pkg/PLIST,v 1.5 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 bin/calibre
 bin/calibre-complete
 bin/calibre-customize

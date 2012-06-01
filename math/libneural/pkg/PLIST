@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/libneural/pkg/PLIST,v 1.1.1.1 2008/09/08 18:46:57 jasper Exp $
+@comment $OpenBSD$
 include/neuron.h
 include/nnwork.h
 lib/libneural.a

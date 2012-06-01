@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nmap/pkg/PFRAG.shared-main,v 1.9 2011/03/28 09:01:24 giovanni Exp $
+@comment $OpenBSD$
 share/nmap/nse_main.lua
 share/nmap/nselib/
 share/nmap/nselib/afp.lua

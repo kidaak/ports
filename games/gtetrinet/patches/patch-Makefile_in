@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/gtetrinet/patches/patch-Makefile_in,v 1.1 2008/09/29 18:16:58 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Sep 29 20:05:48 2008
 +++ Makefile.in	Mon Sep 29 20:06:04 2008
 @@ -662,7 +662,7 @@ info: info-recursive

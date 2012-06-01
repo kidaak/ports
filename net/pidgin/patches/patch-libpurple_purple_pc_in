@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pidgin/patches/patch-libpurple_purple_pc_in,v 1.2 2010/06/10 20:13:33 steven Exp $
+$OpenBSD$
 --- libpurple/purple.pc.in.orig	Sat May 29 21:24:00 2010
 +++ libpurple/purple.pc.in	Fri Jun  4 21:42:39 2010
 @@ -13,4 +13,4 @@ Description: libpurple is a GLib-based instant messeng

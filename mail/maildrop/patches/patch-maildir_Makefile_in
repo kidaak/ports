@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/maildrop/patches/patch-maildir_Makefile_in,v 1.4 2010/04/21 07:23:58 giovanni Exp $
+$OpenBSD$
 --- maildir/Makefile.in.orig	Thu Feb  4 02:39:54 2010
 +++ maildir/Makefile.in	Fri Mar  5 19:09:56 2010
 @@ -917,16 +917,16 @@ mailbot.h: config.status

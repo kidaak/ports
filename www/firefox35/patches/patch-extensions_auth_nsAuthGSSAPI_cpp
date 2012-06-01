@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox35/patches/patch-extensions_auth_nsAuthGSSAPI_cpp,v 1.2 2010/02/24 16:59:49 sthen Exp $
+$OpenBSD$
 --- extensions/auth/nsAuthGSSAPI.cpp.orig	Tue Feb  2 23:25:15 2010
 +++ extensions/auth/nsAuthGSSAPI.cpp	Fri Feb 19 00:08:38 2010
 @@ -159,9 +159,8 @@ gssInit()

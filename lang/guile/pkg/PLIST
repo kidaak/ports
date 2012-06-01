@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/guile/pkg/PLIST,v 1.10 2009/10/11 18:49:12 kili Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/guile
 bin/guile-config

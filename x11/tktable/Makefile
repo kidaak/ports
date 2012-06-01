@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tktable/Makefile,v 1.26 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		table/matrix widget extension to Tcl/Tk
 

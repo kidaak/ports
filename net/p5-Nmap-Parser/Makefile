@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Nmap-Parser/Makefile,v 1.12 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for parsing nmap XML reports
 

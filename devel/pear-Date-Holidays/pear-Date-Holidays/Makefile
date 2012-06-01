@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Date-Holidays/pear-Date-Holidays/Makefile,v 1.4 2012/03/09 13:58:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	holiday classes for PHP
 DISTNAME =	Date_Holidays-0.21.6

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/xulrunner/Makefile,v 1.39 2010/10/24 13:28:44 landry Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR +=	1.9

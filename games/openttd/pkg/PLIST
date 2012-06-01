@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/openttd/pkg/PLIST,v 1.12 2012/01/13 07:54:43 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/openttd
 @man man/man6/openttd.6
 share/applications/openttd.desktop

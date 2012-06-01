@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/dtach/Makefile,v 1.6 2010/11/05 08:24:50 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		tiny program emulating the detach feature of screen
 DISTNAME=		dtach-0.8

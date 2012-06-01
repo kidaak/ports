@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Traits-Pluggable/pkg/PLIST,v 1.1.1.1 2012/04/08 21:05:04 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/
 ${P5SITE}/MooseX/Traits/
 ${P5SITE}/MooseX/Traits/Pluggable.pm

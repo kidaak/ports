@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Best/Makefile,v 1.5 2011/04/16 11:10:03 simon Exp $
+# $OpenBSD$
 
 COMMENT =	fallbackable module loader
 

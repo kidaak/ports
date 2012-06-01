@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/nostromo/pkg/PLIST,v 1.8 2011/06/23 22:50:30 naddy Exp $
+@comment $OpenBSD$
 @newgroup _nostromo:536
 @newuser _nostromo:536:_nostromo:daemon:Nostromo Account:/nonexistent:/sbin/nologin
 @man man/man8/nhttpd.8

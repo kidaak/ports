@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/math/umfpack/pkg/PFRAG.shared,v 1.1.1.1 2006/10/21 17:22:47 steven Exp $
+@comment $OpenBSD$
 @lib lib/libumfpack.so.${LIBumfpack_VERSION}

@@ -1,6 +1,6 @@
 #-*- mode: Fundamental; tab-width: 4; -*-
 # ex:ts=4 sw=4 filetype=make:
-# $OpenBSD: ports/infrastructure/mk/perl.port.mk,v 1.19 2010/11/26 20:24:36 espie Exp $
+# $OpenBSD$
 #	Based on bsd.port.mk, originally by Jordan K. Hubbard.
 #	This file is in the public domain.
 

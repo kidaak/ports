@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-beautifulsoup/Makefile,v 1.12 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	HTML/XML parser that supports invalid markup
 

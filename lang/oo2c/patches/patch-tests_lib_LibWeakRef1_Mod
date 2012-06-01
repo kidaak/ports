@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/oo2c/patches/patch-tests_lib_LibWeakRef1_Mod,v 1.1 2011/01/18 12:03:19 jasper Exp $
+$OpenBSD$
 --- tests/lib/LibWeakRef1.Mod.orig	Mon Jan 12 08:38:59 2004
 +++ tests/lib/LibWeakRef1.Mod	Tue Jan 18 13:49:14 2011
 @@ -19,7 +19,7 @@ VAR

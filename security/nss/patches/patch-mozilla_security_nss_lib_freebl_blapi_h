@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/nss/patches/patch-mozilla_security_nss_lib_freebl_blapi_h,v 1.2 2011/01/15 16:59:37 landry Exp $
+$OpenBSD$
 
 From firefox in pkgsrc:
 SHA1_Update conflicts with openssl which may be dynamically loaded

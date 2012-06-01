@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libaudiofile/pkg/PFRAG.shared,v 1.5 2006/01/02 18:15:53 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libaudiofile.so.${LIBaudiofile_VERSION}

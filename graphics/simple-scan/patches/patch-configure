@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/simple-scan/patches/patch-configure,v 1.6 2012/03/29 06:42:00 ajacoutot Exp $
+$OpenBSD$
 
 No gudev under OpenBSD.
 

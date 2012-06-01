@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmcd/Makefile,v 1.44 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Motif CD player
 

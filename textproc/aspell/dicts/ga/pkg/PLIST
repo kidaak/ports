@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/aspell/dicts/ga/pkg/PLIST,v 1.2 2008/10/28 16:54:11 jasper Exp $
+@comment $OpenBSD$
 lib/aspell/ga.dat
 lib/aspell/ga_phonet.dat
 share/aspell/ga.multi

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mozilla-firefox/patches/patch-xulrunner_app_Makefile_in,v 1.7 2011/10/03 21:06:09 landry Exp $
+$OpenBSD$
 https://bugzilla.mozilla.org/show_bug.cgi?id=648726
 --- xulrunner/app/Makefile.in.orig	Thu Aug 25 02:37:45 2011
 +++ xulrunner/app/Makefile.in	Mon Aug 29 14:55:04 2011

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dspam/patches/patch-src_list_c,v 1.2 2007/12/21 14:42:23 todd Exp $
+$OpenBSD$
 --- src/list.c.orig	Sat May 13 03:12:59 2006
 +++ src/list.c	Sun Apr 29 17:57:52 2007
 @@ -116,7 +116,7 @@ bnr_list_insert (struct bnr_list *list, void *data, fl

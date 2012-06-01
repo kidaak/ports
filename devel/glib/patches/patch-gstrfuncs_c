@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/glib/patches/patch-gstrfuncs_c,v 1.1 2010/05/09 15:05:31 robert Exp $
+$OpenBSD$
 --- gstrfuncs.c.orig	Sun May  9 17:01:49 2010
 +++ gstrfuncs.c	Sun May  9 17:02:42 2010
 @@ -867,7 +867,7 @@ g_printf_string_upper_bound (const gchar* format,

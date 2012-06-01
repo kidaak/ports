@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libffi/Makefile,v 1.13 2012/04/05 16:11:01 jasper Exp $
+# $OpenBSD$
 
 # XXX: cannot be updated to a newer version before the binutils in base
 # is updated to 2.17.

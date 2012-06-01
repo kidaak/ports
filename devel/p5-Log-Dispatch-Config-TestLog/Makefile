@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Log-Dispatch-Config-TestLog/Makefile,v 1.4 2010/12/03 11:44:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		set up Log::Dispatch::Config for a test run
 

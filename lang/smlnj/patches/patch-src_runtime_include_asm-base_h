@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/smlnj/patches/patch-src_runtime_include_asm-base_h,v 1.4 2004/01/11 01:02:46 espie Exp $
+$OpenBSD$
 --- src/runtime/include/asm-base.h.orig	1999-12-03 20:59:31.000000000 +0100
 +++ src/runtime/include/asm-base.h	2004-01-11 01:58:50.000000000 +0100
 @@ -16,7 +16,7 @@

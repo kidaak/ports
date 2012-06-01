@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/scons/Makefile,v 1.15 2011/12/21 17:41:52 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Python-based build system
 

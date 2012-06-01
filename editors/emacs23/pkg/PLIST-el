@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/emacs23/pkg/PLIST-el,v 1.1.1.1 2011/03/28 15:18:56 jasper Exp $
+@comment $OpenBSD$
 share/emacs/${VERSION}/leim/ja-dic/ja-dic.el.gz
 share/emacs/${VERSION}/leim/quail/4Corner.el.gz
 share/emacs/${VERSION}/leim/quail/ARRAY30.el.gz

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xpilot/Makefile,v 1.26 2012/03/17 15:09:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	multiplayer 2d space battles game
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/news/p5-Gateway/pkg/PLIST,v 1.5 2005/09/05 13:12:47 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/News/Gateway.pm
 ${P5SITE}/News/Gateway.pod
 ${P5SITE}/auto/

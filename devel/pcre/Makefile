@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pcre/Makefile,v 1.43 2012/02/17 08:32:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl-compatible regular expression library
 

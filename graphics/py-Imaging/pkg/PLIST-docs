@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/py-Imaging/pkg/PLIST-docs,v 1.2 2011/12/20 07:03:56 fgsch Exp $
+@comment $OpenBSD$
 share/doc/${MODPY_PY_PREFIX}Imaging/
 share/doc/${MODPY_PY_PREFIX}Imaging/effbot.css
 share/doc/${MODPY_PY_PREFIX}Imaging/index.html

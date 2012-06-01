@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/gtkpod/patches/patch-src_Makefile_in,v 1.1 2011/11/15 15:43:52 mpi Exp $
+$OpenBSD$
 --- src/Makefile.in	Sun Nov 13 17:32:12 2011
 +++ src/Makefile.in	Sun Nov 13 17:33:08 2011
 @@ -282,7 +282,7 @@

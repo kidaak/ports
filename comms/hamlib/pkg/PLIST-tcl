@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/hamlib/pkg/PLIST-tcl,v 1.1.1.1 2007/05/28 17:07:27 jason Exp $
+@comment $OpenBSD$
 %%SHARED%%
 lib/hamlibtcl.a
 lib/hamlibtcl.la

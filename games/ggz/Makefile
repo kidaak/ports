@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ggz/Makefile,v 1.3 2010/02/01 17:00:13 espie Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += ggz-client-libs

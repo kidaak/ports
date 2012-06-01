@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/firefox35/pkg/PLIST,v 1.12 2010/11/11 09:30:37 jasper Exp $
+@comment $OpenBSD$
 bin/${MOZILLA_PROJECT}
 ${MOZILLA_PROJECT}/
 ${MOZILLA_PROJECT}/LICENSE

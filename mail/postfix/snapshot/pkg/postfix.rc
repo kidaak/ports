@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/postfix/snapshot/pkg/postfix.rc,v 1.4 2012/04/11 08:34:55 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/libexec/postfix/master"
 

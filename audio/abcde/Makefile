@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/abcde/Makefile,v 1.18 2011/10/17 12:40:44 espie Exp $
+# $OpenBSD$
 
 COMMENT=	command-line utility to rip and encode audio cds
 

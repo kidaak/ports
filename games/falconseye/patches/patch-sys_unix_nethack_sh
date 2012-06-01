@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/falconseye/patches/patch-sys_unix_nethack_sh,v 1.1 2001/07/05 14:25:04 espie Exp $
+$OpenBSD$
 --- sys/unix/nethack.sh.orig	Sun Jun 24 18:57:24 2001
 +++ sys/unix/nethack.sh	Thu Jul  5 16:22:17 2001
 @@ -6,6 +6,16 @@ export HACKDIR

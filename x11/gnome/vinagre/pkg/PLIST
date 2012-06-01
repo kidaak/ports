@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/vinagre/pkg/PLIST,v 1.21 2012/03/29 07:21:18 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/vinagre
 @man man/man1/vinagre.1
 share/GConf/gsettings/org.gnome.Vinagre.convert

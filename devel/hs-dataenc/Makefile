@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-dataenc/Makefile,v 1.10 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		data encoding library for Haskell
 

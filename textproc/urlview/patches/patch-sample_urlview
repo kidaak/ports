@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/urlview/patches/patch-sample_urlview,v 1.2 2009/12/23 22:04:18 jasper Exp $
+$OpenBSD$
 --- sample.urlview.orig	Tue Jul  4 12:14:30 2000
 +++ sample.urlview	Wed Dec 23 22:06:56 2009
 @@ -22,7 +22,7 @@ REGEXP (((http|https|ftp|gopher)|mailto)[.:][^ >"\t]*|

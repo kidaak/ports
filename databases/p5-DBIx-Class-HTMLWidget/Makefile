@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-Class-HTMLWidget/Makefile,v 1.7 2012/04/07 14:27:35 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	publish DBIx::Class on the web
 

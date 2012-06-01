@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/openwebmail/patches/patch-cgi-bin_openwebmail_openwebmail-tool_pl,v 1.11 2005/03/01 03:52:45 kevlo Exp $
+$OpenBSD$
 --- cgi-bin/openwebmail/openwebmail-tool.pl.orig	Mon Feb 28 08:58:27 2005
 +++ cgi-bin/openwebmail/openwebmail-tool.pl	Tue Mar  1 10:53:51 2005
 @@ -1,4 +1,4 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/epiphany-extensions/Makefile,v 1.41 2012/04/07 13:31:29 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

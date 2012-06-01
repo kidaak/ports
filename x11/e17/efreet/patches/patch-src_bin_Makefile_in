@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/efreet/patches/patch-src_bin_Makefile_in,v 1.2 2011/03/15 19:41:00 jasper Exp $
+$OpenBSD$
 --- src/bin/Makefile.in.orig	Tue Mar  8 16:52:20 2011
 +++ src/bin/Makefile.in	Tue Mar  8 16:53:22 2011
 @@ -95,7 +95,7 @@ am__v_at_0 = @

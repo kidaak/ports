@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/login_oath/Makefile,v 1.3 2011/07/17 12:06:35 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	authentication provider for OATH one-time passwords
 

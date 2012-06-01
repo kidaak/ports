@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/sh-utils/patches/patch-configure,v 1.2 2010/05/22 13:26:59 espie Exp $
+$OpenBSD$
 --- configure.orig	Sat Aug 14 14:51:35 1999
 +++ configure	Sat May 22 15:20:21 2010
 @@ -11036,7 +11036,7 @@ if eval "test \"\${ac_cv_lib_$ac_lib_var+set}\" = set"

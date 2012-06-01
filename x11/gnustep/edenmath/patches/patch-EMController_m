@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/edenmath/patches/patch-EMController_m,v 1.1.1.1 2011/05/24 14:01:48 sebastia Exp $
+$OpenBSD$
 
 fix for gcc-2.95
 

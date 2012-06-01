@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/thinkingrock/pkg/PLIST,v 1.4 2009/09/05 15:52:06 sturm Exp $
+@comment $OpenBSD$
 bin/thinkingrock
 share/thinkingrock/
 share/thinkingrock/etc/

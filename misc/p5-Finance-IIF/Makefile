@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-Finance-IIF/Makefile,v 1.3 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	parse and create IIF files for QuickBooks
 

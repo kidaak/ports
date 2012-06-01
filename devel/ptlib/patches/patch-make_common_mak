@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/patch-make_common_mak,v 1.2 2011/10/26 16:59:09 ajacoutot Exp $
+$OpenBSD$
 --- make/common.mak.orig	Fri Oct 14 08:54:53 2011
 +++ make/common.mak	Wed Oct 26 10:37:55 2011
 @@ -80,6 +80,7 @@ endif

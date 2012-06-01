@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ns/patches/patch-common_net-interface_h,v 1.2 2007/10/24 15:01:09 steven Exp $
+$OpenBSD$
 --- common/net-interface.h.orig	Thu Aug 25 20:58:02 2005
 +++ common/net-interface.h	Sat Oct 13 22:22:21 2007
 @@ -55,7 +55,7 @@

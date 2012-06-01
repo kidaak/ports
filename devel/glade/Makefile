@@ -1,8 +1,8 @@
-# $OpenBSD: ports/devel/glade/Makefile,v 1.45 2012/03/29 07:19:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	user interface builder for the gtk+3 toolkit
 
-GNOME_VERSION=	3.12.0
+GNOME_VERSION=	3.12.1
 GNOME_PROJECT= 	glade
 
 CATEGORIES=	devel

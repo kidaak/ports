@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/japana/Makefile,v 1.8 2011/07/03 23:13:14 naddy Exp $
+# $OpenBSD$
 
 COMMENT =	proxy that can transliterate japanese
 

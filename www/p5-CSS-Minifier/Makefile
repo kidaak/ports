@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CSS-Minifier/Makefile,v 1.3 2010/12/03 11:46:51 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	minifies CSS files
 

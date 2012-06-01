@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xsel/Makefile,v 1.5 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	command-line program for managing X selection contents
 

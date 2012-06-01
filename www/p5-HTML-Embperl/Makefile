@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Embperl/Makefile,v 1.27 2011/09/16 12:00:07 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/ht/pkg/PLIST,v 1.5 2009/01/11 17:02:09 pirofti Exp $
+@comment $OpenBSD$
 @bin bin/hte
 share/doc/ht/
 share/doc/ht/README

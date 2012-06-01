@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-setup_py,v 1.7 2011/07/18 15:32:18 naddy Exp $
+$OpenBSD$
 --- setup.py.orig	Thu Oct 16 12:58:19 2008
 +++ setup.py	Mon Jul 18 08:20:35 2011
 @@ -17,6 +17,11 @@ from distutils.command.install_lib import install_lib

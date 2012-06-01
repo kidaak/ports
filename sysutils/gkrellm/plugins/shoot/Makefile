@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/shoot/Makefile,v 1.19 2011/07/07 00:08:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	snapshot and background plugin for Gkrellm2
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-flowd/Makefile,v 1.13 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

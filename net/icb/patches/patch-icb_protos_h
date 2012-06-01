@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icb/patches/patch-icb_protos_h,v 1.2 2012/03/17 16:55:47 naddy Exp $
+$OpenBSD$
 --- icb/protos.h.orig	Fri Feb 24 14:20:25 1995
 +++ icb/protos.h	Sat Mar 17 10:49:38 2012
 @@ -49,7 +49,7 @@ int filtertext(char *s);

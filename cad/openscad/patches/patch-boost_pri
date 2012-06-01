@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/openscad/patches/patch-boost_pri,v 1.1.1.1 2011/04/29 18:55:37 matthew Exp $
+$OpenBSD$
 --- boost.pri.orig	Thu Apr 28 13:38:05 2011
 +++ boost.pri	Thu Apr 28 13:38:12 2011
 @@ -13,6 +13,6 @@ boost {

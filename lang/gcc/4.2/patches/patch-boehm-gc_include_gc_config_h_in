@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-boehm-gc_include_gc_config_h_in,v 1.1 2009/06/04 18:24:20 kurt Exp $
+$OpenBSD$
 --- boehm-gc/include/gc_config.h.in.orig	Thu Mar 12 12:32:48 2009
 +++ boehm-gc/include/gc_config.h.in	Thu Mar 12 12:33:31 2009
 @@ -30,6 +30,9 @@

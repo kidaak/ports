@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/arc/Makefile,v 1.32 2011/05/23 13:42:10 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	create & extract files from DOS .ARC files
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/lat/pkg/PLIST,v 1.1.1.1 2010/03/26 13:13:12 ajacoutot Exp $
+@comment $OpenBSD$
 bin/lat
 lib/lat/
 lib/lat/gnome-keyring-glue.dll

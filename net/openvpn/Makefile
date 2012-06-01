@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/openvpn/Makefile,v 1.41 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	easy-to-use, robust, and highly configurable VPN
 

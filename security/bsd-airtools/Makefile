@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/bsd-airtools/Makefile,v 1.10 2011/11/16 00:21:16 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		wireless auditing suite
 

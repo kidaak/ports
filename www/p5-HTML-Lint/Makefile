@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Lint/Makefile,v 1.10 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 # Original from: Andy Lester <andy@petdance.com>
 
 COMMENT=		check for HTML errors in a string or file

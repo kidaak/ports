@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-webhelpers/Makefile,v 1.6 2011/11/06 14:36:22 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =	helper functions focused on web applications
 

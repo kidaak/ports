@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-qmake_generators_unix_unixmake2_cpp,v 1.18 2007/12/28 18:53:20 espie Exp $
+$OpenBSD$
 --- qmake/generators/unix/unixmake2.cpp.orig	Fri Feb  2 15:01:27 2007
 +++ qmake/generators/unix/unixmake2.cpp	Fri Dec 28 19:12:54 2007
 @@ -129,6 +129,8 @@ UnixMakefileGenerator::writeMakeParts(QTextStream &t)

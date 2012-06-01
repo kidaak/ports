@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Event-ICal/Makefile,v 1.4 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	DateTime extension for computing rfc2445 recurrences
 

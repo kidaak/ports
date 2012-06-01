@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/pyzor/Makefile,v 1.9 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT =		collaborative, networked system to detect and block spam
 

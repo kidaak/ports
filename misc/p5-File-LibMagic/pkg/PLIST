@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/p5-File-LibMagic/pkg/PLIST,v 1.1.1.1 2011/04/11 09:56:20 bluhm Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/File/
 ${P5ARCH}/File/LibMagic.pm

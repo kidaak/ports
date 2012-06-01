@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/garmindev/Makefile,v 1.3 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

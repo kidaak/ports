@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xcb/pkg/PLIST,v 1.4 2004/09/15 19:26:33 espie Exp $
+@comment $OpenBSD$
 bin/xcb
 lib/X11/app-defaults/Xcb
 @man man/cat1/xcb.0

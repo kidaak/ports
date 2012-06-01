@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_ada_mlib-utl_adb,v 1.1.1.1 2011/11/14 13:00:56 pascal Exp $
+$OpenBSD$
 --- gcc/ada/mlib-utl.adb.orig	Mon Nov 14 13:41:37 2011
 +++ gcc/ada/mlib-utl.adb	Mon Nov 14 13:41:45 2011
 @@ -412,7 +412,7 @@ package body MLib.Utl is

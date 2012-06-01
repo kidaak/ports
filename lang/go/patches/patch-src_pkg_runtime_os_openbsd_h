@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/go/patches/patch-src_pkg_runtime_os_openbsd_h,v 1.1.1.1 2012/03/31 12:37:16 jsing Exp $
+$OpenBSD$
 --- src/pkg/runtime/os_openbsd.h.orig	Mon Mar 19 00:13:54 2012
 +++ src/pkg/runtime/os_openbsd.h	Mon Mar 19 00:13:54 2012
 @@ -5,14 +5,19 @@

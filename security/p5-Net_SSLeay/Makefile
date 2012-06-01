@@ -1,10 +1,10 @@
-# $OpenBSD: ports/security/p5-Net_SSLeay/Makefile,v 1.37 2012/04/11 18:51:49 bluhm Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 
 COMMENT =		perl module for using OpenSSL
 
-DISTNAME =		Net-SSLeay-1.47
+DISTNAME =		Net-SSLeay-1.48
 
 CATEGORIES =		security
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/udis86/pkg/PLIST,v 1.1.1.1 2010/05/13 22:19:14 pirofti Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/udcli
 include/libudis86/

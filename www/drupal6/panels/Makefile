@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/panels/Makefile,v 1.10 2012/01/28 11:24:10 espie Exp $
+# $OpenBSD$
 
 COMMENT =	panels custom layouts
 MAINTAINER =	Marc Espie <espie@openbsd.org>

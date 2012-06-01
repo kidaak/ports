@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/tcl/tcl.port.mk,v 1.11 2011/01/05 16:03:44 stu Exp $
+# $OpenBSD$
 
 CATEGORIES +=		lang/tcl
 

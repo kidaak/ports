@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/squeak/Makefile.inc,v 1.3 2008/07/23 11:17:22 espie Exp $
+# $OpenBSD$
 
 CATEGORIES =	lang
 MAINTAINER =	Marc Espie <espie@openbsd.org>

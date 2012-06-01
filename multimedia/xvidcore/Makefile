@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/xvidcore/Makefile,v 1.15 2012/04/07 05:43:15 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	ISO MPEG-4 compliant video codec
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/gpsbabel/pkg/PLIST-main,v 1.4 2012/04/15 20:03:16 kirby Exp $
+@comment $OpenBSD$
 @pkgpath geo/gpsbabel
 @bin bin/gpsbabel
 @comment share/applications/

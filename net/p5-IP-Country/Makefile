@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-IP-Country/Makefile,v 1.5 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	fast lookup of country codes by IP address
 

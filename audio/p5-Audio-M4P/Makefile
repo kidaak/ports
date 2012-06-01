@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Audio-M4P/Makefile,v 1.6 2011/04/13 17:51:44 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	M4P/MP4/M4a audio/video tools
 

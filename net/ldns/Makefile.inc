@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ldns/Makefile.inc,v 1.21 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 VERSION=	1.6.12
 

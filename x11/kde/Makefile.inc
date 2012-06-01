@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/Makefile.inc,v 1.40 2010/07/08 21:28:48 espie Exp $
+# $OpenBSD$
 DIST_SUBDIR ?=	kde
 HOMEPAGE ?=	http://www.kde.org
 

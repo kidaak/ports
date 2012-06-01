@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/shared-desktop-ontologies/Makefile,v 1.6 2012/04/05 13:49:08 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT = 		shared desktop ontologies
 PKG_ARCH =		*

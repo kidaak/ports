@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/waf/pkg/PLIST,v 1.4 2010/09/30 12:13:07 jasper Exp $
+@comment $OpenBSD$
 bin/waf
 lib/python${MODPY_VERSION}/site-packages/wafadmin/
 lib/python${MODPY_VERSION}/site-packages/wafadmin/Build.py

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/darkstat/patches/patch-darkstat_8_in,v 1.2 2012/03/19 11:54:10 sthen Exp $
+$OpenBSD$
 --- darkstat.8.in.orig	Thu Mar  1 10:06:20 2012
 +++ darkstat.8.in	Mon Mar 19 11:52:26 2012
 @@ -124,6 +124,7 @@ Errors, warnings, and verbose messages will go to \fBs

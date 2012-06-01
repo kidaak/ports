@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/anacron/pkg/PLIST,v 1.5 2011/05/11 07:45:52 ajacoutot Exp $
+@comment $OpenBSD$
 @extraunexec rm -fr /var/spool/anacron/*
 @man man/man5/anacrontab.5
 @man man/man8/anacron.8

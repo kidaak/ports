@@ -1,6 +1,6 @@
 let it build with base gcc
 
-$OpenBSD: ports/security/libnipper/patches/patch-device_crypto_crypto-base64_cpp,v 1.1.1.1 2008/09/20 20:26:05 steven Exp $
+$OpenBSD$
 --- device/crypto/crypto-base64.cpp.orig	Sun Sep  7 23:03:17 2008
 +++ device/crypto/crypto-base64.cpp	Sun Sep  7 23:03:17 2008
 @@ -110,9 +110,9 @@ const char *Device::base64Decode(const char *encodedSt

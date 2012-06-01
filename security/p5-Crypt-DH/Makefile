@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-DH/Makefile,v 1.11 2012/03/08 12:13:01 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Diffie-Hellman key exchange system
 

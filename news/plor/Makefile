@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/plor/Makefile,v 1.19 2010/10/18 21:25:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	alpha-release readers for reading SOUP and QWK packets
 

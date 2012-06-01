@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-build_Makefile_in,v 1.1 2011/10/16 07:03:12 ajacoutot Exp $
+$OpenBSD$
 --- build/Makefile.in.orig	Sun Sep  4 04:47:09 2011
 +++ build/Makefile.in	Sun Sep  4 04:48:34 2011
 @@ -159,7 +159,7 @@ varprefix = @varprefix@

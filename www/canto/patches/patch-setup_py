@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/canto/patches/patch-setup_py,v 1.1.1.1 2010/12/06 22:33:18 dcoppa Exp $
+$OpenBSD$
 --- setup.py.orig	Tue Jul 27 19:47:06 2010
 +++ setup.py	Sun Dec  5 23:47:50 2010
 @@ -6,8 +6,6 @@ import distutils.command.install_data

@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-tests_macros_in,v 1.1.1.1 2000/06/12 18:49:41 espie Exp $
+$OpenBSD$
 --- tests/macros.in.orig	Mon Jun 12 20:22:36 2000
 +++ tests/macros.in	Mon Jun 12 20:23:00 2000
 @@ -52,7 +52,7 @@

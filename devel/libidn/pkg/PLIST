@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libidn/pkg/PLIST,v 1.8 2012/03/23 11:01:11 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/idn
 include/idn-free.h

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-monads-tf/Makefile,v 1.3 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Monad classes, using type families
 

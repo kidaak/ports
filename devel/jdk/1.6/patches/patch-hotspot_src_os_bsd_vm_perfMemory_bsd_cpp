@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-hotspot_src_os_bsd_vm_perfMemory_bsd_cpp,v 1.1 2008/06/28 12:34:58 kurt Exp $
+$OpenBSD$
 --- hotspot/src/os/bsd/vm/perfMemory_bsd.cpp.orig	Thu Jun 26 17:16:43 2008
 +++ hotspot/src/os/bsd/vm/perfMemory_bsd.cpp	Thu Jun 26 17:17:37 2008
 @@ -223,7 +223,6 @@ static bool is_directory_secure(const char* path) {

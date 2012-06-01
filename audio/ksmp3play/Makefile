@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/ksmp3play/Makefile,v 1.23 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	curses-based mp3 player
 

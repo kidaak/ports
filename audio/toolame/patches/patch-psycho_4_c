@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/toolame/patches/patch-psycho_4_c,v 1.1.1.1 2004/07/11 08:11:38 sturm Exp $
+$OpenBSD$
 --- psycho_4.c.orig	2003-03-01 16:50:26.000000000 -0800
 +++ psycho_4.c	2004-04-21 22:41:50.000000000 -0700
 @@ -330,6 +330,8 @@ void psycho_4 (short int *buffer, short 

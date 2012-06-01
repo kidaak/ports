@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/glimpse/patches/patch-agrep_bitap_c,v 1.1 2003/05/13 02:51:07 wilfried Exp $
+$OpenBSD$
 --- agrep/bitap.c.orig	Wed Nov 20 19:28:42 1996
 +++ agrep/bitap.c	Mon May 12 20:33:28 2003
 @@ -534,7 +534,7 @@ alloc_buf(fd, buf, size)

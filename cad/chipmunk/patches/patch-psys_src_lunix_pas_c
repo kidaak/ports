@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/chipmunk/patches/patch-psys_src_lunix_pas_c,v 1.2 2010/05/09 17:18:53 espie Exp $
+$OpenBSD$
 --- psys/src/lunix_pas.c.orig	Wed Mar 12 23:47:35 2003
 +++ psys/src/lunix_pas.c	Sun May  9 19:11:21 2010
 @@ -17,7 +17,7 @@ Void lunix_intToDate (long idate, daterec *date, timer

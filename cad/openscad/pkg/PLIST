@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/openscad/pkg/PLIST,v 1.1.1.1 2011/04/29 18:55:37 matthew Exp $
+@comment $OpenBSD$
 @bin bin/openscad
 share/openscad/
 share/openscad/examples/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/graphics3/patches/patch-kpdf_xpdf_goo_gmem_cc,v 1.1 2009/10/15 15:50:25 kili Exp $
+$OpenBSD$
 --- kpdf/xpdf/goo/gmem.cc.orig	Wed Feb 13 10:37:05 2008
 +++ kpdf/xpdf/goo/gmem.cc	Sun Apr 19 22:28:20 2009
 @@ -55,7 +55,15 @@ void *gmalloc(int size) GMEM_EXCEP {

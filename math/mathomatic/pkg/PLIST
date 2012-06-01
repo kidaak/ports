@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/mathomatic/pkg/PLIST,v 1.13 2011/06/12 19:03:02 shadchin Exp $
+@comment $OpenBSD$
 @bin bin/mathomatic
 @man man/man1/mathomatic.1
 share/applications/mathomatic.desktop

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/p5-Parse-DMIDecode/pkg/PLIST,v 1.1.1.1 2010/10/15 22:44:46 landry Exp $
+@comment $OpenBSD$
 ${P5SITE}/Parse/
 ${P5SITE}/Parse/DMIDecode/
 ${P5SITE}/Parse/DMIDecode.pm

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libgit2/Makefile.inc,v 1.2 2011/08/25 07:10:47 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY?=		Yes
 

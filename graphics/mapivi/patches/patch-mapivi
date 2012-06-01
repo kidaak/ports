@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/mapivi/patches/patch-mapivi,v 1.5 2011/07/18 10:00:32 giovanni Exp $
+$OpenBSD$
 --- mapivi.orig	Thu Feb 21 21:53:44 2008
 +++ mapivi	Mon Jul 18 11:51:32 2011
 @@ -148,12 +148,12 @@ if (($EvilOS) and (defined $ENV{APPDATA}) and ($maprog

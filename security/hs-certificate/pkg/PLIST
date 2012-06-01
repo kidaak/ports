@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/hs-certificate/pkg/PLIST,v 1.4 2012/01/20 20:33:17 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Data/
 lib/ghc/${DISTNAME}/Data/Certificate/

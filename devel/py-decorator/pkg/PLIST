@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-decorator/pkg/PLIST,v 1.2 2011/05/31 09:26:39 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/decorator-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/decorator-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/decorator-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

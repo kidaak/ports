@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-Size/Makefile,v 1.14 2011/05/24 20:49:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	finding memory usage of perl variables
 SHARED_ONLY=	Yes

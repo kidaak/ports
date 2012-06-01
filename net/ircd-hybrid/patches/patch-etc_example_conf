@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ircd-hybrid/patches/patch-etc_example_conf,v 1.2 2011/10/19 13:46:17 jasper Exp $
+$OpenBSD$
 --- etc/example.conf.orig	Fri Oct 14 15:00:45 2011
 +++ etc/example.conf	Fri Oct 14 15:07:21 2011
 @@ -102,7 +102,7 @@ serverinfo {

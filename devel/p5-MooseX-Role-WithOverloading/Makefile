@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Role-WithOverloading/Makefile,v 1.9 2012/04/07 14:28:57 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

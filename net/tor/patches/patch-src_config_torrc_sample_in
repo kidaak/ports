@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tor/patches/patch-src_config_torrc_sample_in,v 1.11 2011/09/07 07:55:41 jasper Exp $
+$OpenBSD$
 --- src/config/torrc.sample.in.orig	Sat Aug 27 01:10:59 2011
 +++ src/config/torrc.sample.in	Wed Sep  7 09:52:35 2011
 @@ -37,18 +37,18 @@ SocksListenAddress 127.0.0.1 # accept connections only

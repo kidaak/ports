@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/phpmyadmin/Makefile,v 1.74 2012/04/02 09:35:20 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	tool to handle the administration of MySQL over the web
 

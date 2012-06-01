@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/pmwiki/Makefile,v 1.10 2011/11/25 12:16:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	wiki-based system for collaborative creation of websites
 

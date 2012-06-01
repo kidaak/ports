@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/node-generic-pool/pkg/PLIST,v 1.1.1.1 2012/04/03 18:47:26 jeremy Exp $
+@comment $OpenBSD$
 lib/node_modules/generic-pool/
 lib/node_modules/generic-pool/.npmignore
 lib/node_modules/generic-pool/README.md

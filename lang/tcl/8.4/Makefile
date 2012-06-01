@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/tcl/8.4/Makefile,v 1.27 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		Tool Command Language
 

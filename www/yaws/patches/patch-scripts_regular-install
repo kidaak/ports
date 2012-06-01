@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/yaws/patches/patch-scripts_regular-install,v 1.1 2011/05/27 17:04:43 jasper Exp $
+$OpenBSD$
 --- scripts/regular-install.orig	Fri May 27 18:53:23 2011
 +++ scripts/regular-install	Fri May 27 18:55:33 2011
 @@ -10,7 +10,7 @@ set -e

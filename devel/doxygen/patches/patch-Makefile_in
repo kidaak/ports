@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/doxygen/patches/patch-Makefile_in,v 1.4 2010/11/04 20:13:10 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Aug 20 20:41:13 2009
 +++ Makefile.in	Thu Sep 16 11:35:26 2010
 @@ -42,7 +42,7 @@ distclean: clean

@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/poppler/patches/patch-poppler_XRef_cc,v 1.8 2011/06/04 19:03:19 kili Exp $
+$OpenBSD$
 --- poppler/XRef.cc.orig	Mon Dec 27 21:44:28 2010
 +++ poppler/XRef.cc	Mon Apr 25 13:00:42 2011
 @@ -922,49 +922,38 @@ void XRef::setEncryption(int permFlagsA, GBool ownerPa

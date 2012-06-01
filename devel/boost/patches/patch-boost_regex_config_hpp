@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boost/patches/patch-boost_regex_config_hpp,v 1.2 2010/03/30 11:00:15 robert Exp $
+$OpenBSD$
 --- boost/regex/config.hpp.orig	Sat Dec 26 15:48:19 2009
 +++ boost/regex/config.hpp	Sat Dec 26 15:48:34 2009
 @@ -75,7 +75,7 @@

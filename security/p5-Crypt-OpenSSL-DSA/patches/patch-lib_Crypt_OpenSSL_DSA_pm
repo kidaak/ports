@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/p5-Crypt-OpenSSL-DSA/patches/patch-lib_Crypt_OpenSSL_DSA_pm,v 1.1 2009/03/04 20:19:16 jasper Exp $
+$OpenBSD$
 
 Fix for Debian #511519.
 

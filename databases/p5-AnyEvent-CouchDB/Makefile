@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-AnyEvent-CouchDB/Makefile,v 1.9 2011/05/15 16:28:47 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=		non-blocking CouchDB client based on jquery.couch.js
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gupnp/tools/pkg/PLIST,v 1.2 2011/12/12 10:00:01 jasper Exp $
+@comment $OpenBSD$
 @bin bin/gssdp-discover
 @bin bin/gupnp-av-cp
 @bin bin/gupnp-network-light

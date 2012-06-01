@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/clo++/Makefile,v 1.14 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	command line parser generator
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/mono-keyring/Makefile,v 1.5 2011/11/03 10:40:09 ajacoutot Exp $
+# $OpenBSD$
 
 # libgnome-keyring-sharp-glue.so is a dlopen() module
 SHARED_ONLY=	Yes

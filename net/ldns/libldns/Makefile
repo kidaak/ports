@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ldns/libldns/Makefile,v 1.22 2012/01/20 09:53:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	DNS library modelled after Net::DNS
 

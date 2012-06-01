@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/zarafa/zarafa/pkg/zarafa_indexer.rc,v 1.1 2011/04/04 08:01:04 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/zarafa-indexer"
 

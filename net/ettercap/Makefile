@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ettercap/Makefile,v 1.56 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/cosmosmash/pkg/PLIST,v 1.6 2010/04/04 15:37:54 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/cosmosmash
 @man man/man6/cosmosmash.6
 share/applications/cosmosmash.desktop

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/obc/pkg/PLIST,v 1.2 2011/10/21 20:23:02 jasper Exp $
+@comment $OpenBSD$
 bin/obb
 bin/obc
 bin/obdb

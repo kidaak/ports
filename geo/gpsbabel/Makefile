@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/gpsbabel/Makefile,v 1.22 2012/04/15 20:03:16 kirby Exp $
+# $OpenBSD$
 
 COMMENT-main=		GPS waypoint, track, and route conversion tool
 COMMENT-tk=		Tk front-end to gpsbabel

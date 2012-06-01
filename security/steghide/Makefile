@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/steghide/Makefile,v 1.4 2010/11/20 17:22:45 espie Exp $
+# $OpenBSD$
 
 COMMENT =		software able to hide data in various kind of files
 

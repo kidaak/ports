@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/kile/pkg/PLIST,v 1.6 2009/12/22 15:08:35 ajacoutot Exp $
+@comment $OpenBSD$
 bin/kile
 share/applications/kde/kile.desktop
 share/apps/katepart/syntax/bibtex-kile.xml

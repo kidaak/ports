@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ap2-mod_fastcgi/pkg/PLIST,v 1.1.1.1 2007/09/21 20:09:21 merdely Exp $
+@comment $OpenBSD$
 lib/apache2/mod_fastcgi.so
 share/doc/apache2/mod/mod_fastcgi/
 share/doc/apache2/mod/mod_fastcgi/LICENSE.TERMS

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/ldapvi/patches/patch-diff_c,v 1.1 2012/03/02 08:01:07 sthen Exp $
+$OpenBSD$
 
 preserve order of attribute values, from git upstream 3ae1458bb7
 

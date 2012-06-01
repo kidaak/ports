@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/octave/pkg/PLIST,v 1.17 2009/12/21 22:07:57 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/mkoctfile
 @bin bin/octave

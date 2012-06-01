@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/www/mediawiki-httpauth/pkg/PLIST,v 1.1.1.1 2010/01/08 13:15:38 stephan Exp $
+@comment $OpenBSD$
 mediawiki/extensions/HttpAuthPlugin.php

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi-icb/patches/patch-src_fe-common_fe-icb_c,v 1.4 2011/10/19 09:47:26 dcoppa Exp $
+$OpenBSD$
 --- src/fe-common/fe-icb.c.orig	Sat Apr 27 22:56:18 2002
 +++ src/fe-common/fe-icb.c	Tue Oct 18 15:20:42 2011
 @@ -18,33 +18,73 @@

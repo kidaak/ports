@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libvorbis/patches/patch-lib_Makefile_in,v 1.9 2012/02/17 22:17:52 naddy Exp $
+$OpenBSD$
 --- lib/Makefile.in.orig	Fri Feb  3 23:21:55 2012
 +++ lib/Makefile.in	Sun Feb  5 20:12:44 2012
 @@ -82,13 +82,13 @@ libvorbis_la_OBJECTS = $(am_libvorbis_la_OBJECTS)

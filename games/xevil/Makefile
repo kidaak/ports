@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xevil/Makefile,v 1.27 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 #
 
 COMMENT=	side-view, fast-action, kill everything type of game

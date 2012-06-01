@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk+3/Makefile,v 1.37 2012/04/14 07:48:32 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
@@ -6,13 +6,15 @@ COMMENT-main=	multi-platform graphical toolkit
 COMMENT-docs=	gtk+3 documentation
 COMMENT-cups=	gtk+3 CUPS print backend
 
-V=		3.4.1
+V=		3.4.3
 DISTNAME=	gtk+-${V}
 EXTRACT_SUFX=	.tar.xz
 
 PKGNAME-main=	gtk+3-${V}
 PKGNAME-docs=	gtk+3-docs-${V}
 PKGNAME-cups=	gtk+3-cups-${V}
+
+REVISION-main=	0
 
 # grep ^GTK_BINARY_VERSION ${WRKSRC}/Makefile (after do-configure)
 GTK_BINARY_VERSION=3.0.0
@@ -73,7 +75,7 @@ PKG_ARCH-docs=	*
 RUN_DEPENDS-cups= # empty
 LIB_DEPENDS-cups= ${LIB_DEPENDS} \
 		print/cups \
-		graphics/colord \
+		graphics/colord,no_gtk,bootstrap \
 		STEM->=${V}:${BASE_PKGPATH},-main
 
 WANTLIB-cups += ${WANTLIB}
@@ -90,7 +92,6 @@ CONFIGURE_ENV=	CPPFLAGS="-I${X11BASE}/include/freetype2/ \
 		LDFLAGS="-L${LOCALBASE}/lib"
 CONFIGURE_ARGS=	${CONFIGURE_SHARED} \
 		--disable-gtk-doc \
-		--disable-man \
 		--disable-papi \
 		--disable-packagekit \
 		--enable-introspection \

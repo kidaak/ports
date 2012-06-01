@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Git-Repository/Makefile,v 1.3 2012/04/07 15:46:23 gsoares Exp $
+# $OpenBSD$
 
 COMMENT = 	Perl interface to Git repositories
 

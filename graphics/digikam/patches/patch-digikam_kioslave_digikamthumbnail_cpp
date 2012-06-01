@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/digikam/patches/patch-digikam_kioslave_digikamthumbnail_cpp,v 1.1 2011/07/08 20:47:26 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

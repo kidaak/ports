@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/timidity/Makefile,v 1.43 2012/02/21 16:21:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	MIDI to WAV renderer and player
 

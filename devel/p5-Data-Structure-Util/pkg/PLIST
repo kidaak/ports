@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Data-Structure-Util/pkg/PLIST,v 1.2 2008/05/26 07:28:56 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Data/
 ${P5ARCH}/Data/Structure/

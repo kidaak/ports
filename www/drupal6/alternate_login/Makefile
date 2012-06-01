@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/alternate_login/Makefile,v 1.7 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	alternate logins for drupal
 MAINTAINER =	Marc Espie <espie@openbsd.org>

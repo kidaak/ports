@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-systemtimer/Makefile,v 1.13 2011/12/02 19:34:42 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	a ruby timer based on SIGALRM
 

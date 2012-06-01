@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/seyon/Makefile,v 1.29 2012/03/17 10:31:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	communication package for X11
 

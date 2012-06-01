@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/spice/Makefile,v 1.32 2011/11/13 12:50:39 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	Simulation Program for Integrated Circuit Electronics
 

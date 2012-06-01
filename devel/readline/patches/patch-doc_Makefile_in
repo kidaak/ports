@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/readline/patches/patch-doc_Makefile_in,v 1.1.1.1 2010/07/23 14:51:11 laurent Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Wed Dec 23 16:42:59 2009
 +++ doc/Makefile.in	Tue Jul 13 10:56:08 2010
 @@ -201,30 +201,30 @@ installdirs:	$(topdir)/support/mkdirs

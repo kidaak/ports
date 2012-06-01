@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-YAML-Syck/Makefile,v 1.12 2011/06/25 18:01:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	YAML and JSON for perl, optimized C
 

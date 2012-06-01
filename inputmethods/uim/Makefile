@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/uim/Makefile,v 1.38 2011/11/03 17:46:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main=	multilingual input method library
 COMMENT-gtk=	uim for GTK

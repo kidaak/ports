@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/teapop/pkg/PLIST,v 1.4 2004/09/15 09:09:45 espie Exp $
+@comment $OpenBSD$
 libexec/teapop
 @man man/man8/teapop.8
 sbin/cronpopauth.pl

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Meta/pkg/PLIST,v 1.2 2011/06/01 17:41:51 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/Meta/
 ${P5SITE}/Class/Meta.pm
 ${P5SITE}/Class/Meta/AccessorBuilder/

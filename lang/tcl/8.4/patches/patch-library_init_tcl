@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/tcl/8.4/patches/patch-library_init_tcl,v 1.1 2011/01/05 16:19:48 stu Exp $
+$OpenBSD$
 --- library/init.tcl.orig	Sun Oct  3 09:43:48 2010
 +++ library/init.tcl	Sun Oct  3 09:44:27 2010
 @@ -55,11 +55,14 @@ namespace eval tcl {

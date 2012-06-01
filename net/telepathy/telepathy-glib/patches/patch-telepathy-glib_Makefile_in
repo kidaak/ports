@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/telepathy/telepathy-glib/patches/patch-telepathy-glib_Makefile_in,v 1.15 2012/04/03 06:45:53 ajacoutot Exp $
+$OpenBSD$
 
 - For some reason on mips64(el), nm doesn't create the _gen/abi.nm file,
 but returns 1. This patch lets the build continue.

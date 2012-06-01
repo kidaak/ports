@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/lilypond/patches/patch-configure_in,v 1.4 2011/07/06 14:14:06 kili Exp $
+$OpenBSD$
 
 # Builds fine with gcc 3.3.5 without makeinfo (unless you try to
 # build the documentation).

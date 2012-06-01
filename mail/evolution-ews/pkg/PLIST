@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/evolution-ews/pkg/PLIST,v 1.2 2012/03/29 06:59:13 ajacoutot Exp $
+@comment $OpenBSD$
 include/evolution-data-server-${EVO_VERSION}/ews/
 include/evolution-data-server-${EVO_VERSION}/ews/e-ews-connection.h
 include/evolution-data-server-${EVO_VERSION}/ews/e-ews-folder.h

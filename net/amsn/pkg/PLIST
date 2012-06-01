@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/amsn/pkg/PLIST,v 1.8 2011/07/07 13:14:29 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/amsn
 bin/amsn-remote

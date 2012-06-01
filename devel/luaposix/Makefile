@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/luaposix/Makefile,v 1.16 2011/08/01 02:13:45 jolan Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

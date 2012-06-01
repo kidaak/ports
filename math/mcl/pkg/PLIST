@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/mcl/pkg/PLIST,v 1.8 2009/12/23 22:08:58 jasper Exp $
+@comment $OpenBSD$
 @bin bin/clm
 @bin bin/clmformat
 @bin bin/mcl

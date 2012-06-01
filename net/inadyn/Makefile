@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/inadyn/Makefile,v 1.1.1.1 2011/07/21 12:17:02 pea Exp $
+# $OpenBSD$
 
 COMMENT =		small memory footprint dynamic dns updater
 

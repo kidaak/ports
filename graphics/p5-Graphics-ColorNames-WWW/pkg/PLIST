@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Graphics-ColorNames-WWW/pkg/PLIST,v 1.1.1.1 2007/07/22 16:05:02 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Graphics/ColorNames/IE.pm
 ${P5SITE}/Graphics/ColorNames/SVG.pm
 ${P5SITE}/Graphics/ColorNames/WWW.pm

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Params-Classify/Makefile,v 1.1.1.1 2012/04/08 21:05:51 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

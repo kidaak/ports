@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webkit/patches/patch-Source_JavaScriptCore_runtime_UString_h,v 1.1 2012/04/03 15:39:35 landry Exp $
+$OpenBSD$
 --- Source/JavaScriptCore/runtime/UString.h.orig	Thu Mar 29 08:51:51 2012
 +++ Source/JavaScriptCore/runtime/UString.h	Thu Mar 29 08:52:38 2012
 @@ -222,7 +222,7 @@ struct UStringHash {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/fcgi-cgi/Makefile,v 1.7 2012/04/11 10:11:32 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=	wrapper to run CGI applications via FastCGI
 COMMENT-static=	static-linked fcgi-cgi wrapper for chroot use

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/sysutils/bacula/pkg/bacula_fd.rc,v 1.1 2011/03/21 17:06:23 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/libexec/bacula/bacula-ctl-fd"
 daemon_flags="start"

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/scim/pkg/PLIST,v 1.6 2010/11/08 09:00:20 fgsch Exp $
+@comment $OpenBSD$
 @bin bin/scim
 @bin bin/scim-config-agent
 bin/scim-setup

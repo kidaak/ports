@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/tcl/8.5/patches/patch-unix_installManPage,v 1.1 2011/10/17 15:18:39 stu Exp $
+$OpenBSD$
 --- unix/installManPage.orig	Thu Jun 23 09:18:36 2011
 +++ unix/installManPage	Mon Oct 10 07:58:17 2011
 @@ -93,6 +93,9 @@ esac

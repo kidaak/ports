@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_i386_i386_h,v 1.1 2008/08/28 19:04:40 martynas Exp $
+$OpenBSD$
 --- gcc/config/i386/i386.h.orig	Sun Dec 12 23:00:47 2004
 +++ gcc/config/i386/i386.h	Wed Aug 27 06:21:41 2008
 @@ -1638,18 +1638,7 @@ enum reg_class

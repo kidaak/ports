@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-twisted/lore/Makefile,v 1.16 2011/12/08 20:15:40 eric Exp $
+# $OpenBSD$
 
 COMMENT=	documentation generator
 

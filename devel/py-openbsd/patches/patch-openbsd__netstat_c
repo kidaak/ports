@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-openbsd/patches/patch-openbsd__netstat_c,v 1.3 2010/12/27 19:03:48 jasper Exp $
+$OpenBSD$
 --- openbsd/_netstat.c.orig	Tue Dec 21 07:32:04 2004
 +++ openbsd/_netstat.c	Mon Dec 27 20:00:16 2010
 @@ -54,10 +54,6 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-libraries_base_cbits_PrelIOUtils_c,v 1.2 2011/04/11 14:30:33 kili Exp $
+$OpenBSD$
 
 We have very limited locale support so used latin1 as default codeset
 which can be overridden by the environment variable `HS_ENCODING'.

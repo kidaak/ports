@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-rspec/1/Makefile,v 1.1 2011/11/17 15:15:26 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =		ruby framework for Behaviour Driven Development
 DISTNAME =		rspec-1.3.2

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/libical/Makefile,v 1.11 2012/03/23 11:58:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	implementation of basic iCAL protocols
 

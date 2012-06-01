@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/capitan-sevilla/patches/patch-src_background_cpp,v 1.1.1.1 2011/06/05 11:13:47 stsp Exp $
+$OpenBSD$
 
 This fixes a random crash that happened during the second screen in the game.
 

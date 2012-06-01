@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ruby-rack/pkg/PLIST,v 1.7 2011/12/13 17:58:27 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/rackup${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

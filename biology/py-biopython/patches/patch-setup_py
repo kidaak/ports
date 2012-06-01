@@ -1,4 +1,4 @@
-$OpenBSD: ports/biology/py-biopython/patches/patch-setup_py,v 1.6 2009/06/02 04:48:32 wcmaier Exp $
+$OpenBSD$
 --- setup.py.orig	Mon Jun  1 21:25:24 2009
 +++ setup.py	Mon Jun  1 21:25:13 2009
 @@ -71,6 +71,7 @@ def check_dependencies_once():

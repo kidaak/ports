@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/hydra/patches/patch-configure,v 1.6 2011/11/05 15:24:39 nigel Exp $
+$OpenBSD$
 Remove tests for include files and libraries there are no
 configure options to disable support the build may fail or be altered
 if added

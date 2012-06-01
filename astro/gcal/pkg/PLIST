@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/astro/gcal/pkg/PLIST,v 1.1.1.1 2009/10/17 08:39:34 bernd Exp $
+@comment $OpenBSD$
 @bin bin/gcal
 bin/gcal-daily
 bin/gcal-ddiff

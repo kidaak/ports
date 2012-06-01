@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/embryo/pkg/PLIST,v 1.4 2011/01/16 00:15:45 laurent Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/embryo_cc
 include/embryo-1/

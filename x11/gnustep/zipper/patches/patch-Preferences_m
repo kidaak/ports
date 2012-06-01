@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/zipper/patches/patch-Preferences_m,v 1.1.1.1 2011/07/19 13:58:02 sebastia Exp $
+$OpenBSD$
 
 default to use GNU tar
 

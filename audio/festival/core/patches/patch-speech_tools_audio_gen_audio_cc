@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-speech_tools_audio_gen_audio_cc,v 1.1 2010/04/26 01:32:38 jakemsr Exp $
+$OpenBSD$
 --- speech_tools/audio/gen_audio.cc.orig	Fri Apr 30 09:56:49 2004
 +++ speech_tools/audio/gen_audio.cc	Sat Apr 24 18:40:17 2010
 @@ -103,6 +103,8 @@ int play_wave(EST_Wave &inwave, EST_Option &al)

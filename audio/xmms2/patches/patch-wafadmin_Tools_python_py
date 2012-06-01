@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms2/patches/patch-wafadmin_Tools_python_py,v 1.2 2010/04/24 17:37:54 jasper Exp $
+$OpenBSD$
 
 We remove the flag "-pthread" because waf is complety incapable to
 treat it correctly when it is in LIB_PYEMBED variable (it adds '-l').

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/gdal/Makefile,v 1.21 2011/12/28 21:14:04 landry Exp $
+# $OpenBSD$
 
 COMMENT-main =	translator library for geospatial data formats
 COMMENT-python =python bindings and utilities for GDAL

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libcdio/patches/patch-lib_driver_cdio_private_h,v 1.1 2008/05/01 09:05:13 fgsch Exp $
+$OpenBSD$
 --- lib/driver/cdio_private.h.orig	Wed Apr 30 17:55:44 2008
 +++ lib/driver/cdio_private.h	Wed Apr 30 17:55:58 2008
 @@ -469,6 +469,7 @@ extern "C" {

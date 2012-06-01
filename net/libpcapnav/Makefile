@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libpcapnav/Makefile,v 1.8 2011/09/21 17:20:56 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	library for navigating to arbitrary packets in a trace file
 

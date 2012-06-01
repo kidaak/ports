@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nano/patches/patch-doc_syntax_java_nanorc,v 1.1 2006/12/14 21:26:53 naddy Exp $
+$OpenBSD$
 --- doc/syntax/java.nanorc.orig	Thu Jun  8 14:49:57 2006
 +++ doc/syntax/java.nanorc	Thu Dec  7 17:32:53 2006
 @@ -1,11 +1,11 @@

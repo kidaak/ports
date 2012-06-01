@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/golem/pkg/PLIST,v 1.5 2011/04/17 18:08:55 jasper Exp $
+@comment $OpenBSD$
 @bin bin/golem
 bin/golem.install
 @man man/man1/golem.1

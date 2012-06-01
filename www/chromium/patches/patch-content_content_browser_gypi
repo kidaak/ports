@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-content_content_browser_gypi,v 1.9 2012/04/03 13:59:35 robert Exp $
+$OpenBSD$
 --- content/content_browser.gypi.orig	Sun Apr  1 20:05:38 2012
 +++ content/content_browser.gypi	Sun Apr  1 20:05:43 2012
 @@ -668,9 +668,6 @@

@@ -1,9 +1,9 @@
-# $OpenBSD: ports/x11/gtksourceview3/Makefile,v 1.18 2012/04/16 13:23:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		text widget that extends the GTK3 GtkTextView widget
 
 GNOME_PROJECT=		gtksourceview
-GNOME_VERSION=		3.4.1
+GNOME_VERSION=		3.4.2
 PKGNAME=		${GNOME_PROJECT}3-${GNOME_VERSION}
 
 SHARED_LIBS +=	gtksourceview-3.0    0.0      # .0.0

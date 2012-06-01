@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/pear-XML-Serializer/pkg/PLIST,v 1.2 2007/03/22 22:48:04 robert Exp $
+@comment $OpenBSD$
 @group daemon
 pear/data/XML_Serializer/
 pear/data/XML_Serializer/doc/

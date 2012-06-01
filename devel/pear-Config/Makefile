@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Config/Makefile,v 1.14 2011/09/16 09:24:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	configuration file library for PHP
 

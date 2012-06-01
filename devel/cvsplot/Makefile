@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cvsplot/Makefile,v 1.10 2010/11/15 19:45:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=		CVS-managed project analyzer
 

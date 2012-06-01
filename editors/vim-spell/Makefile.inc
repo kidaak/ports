@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/vim-spell/Makefile.inc,v 1.1 2012/01/17 18:29:42 espie Exp $
+# $OpenBSD$
 
 LANGS = 	af am bg ca cs cy da de el eo es fo fr ga gd gl he hr hu \
 		id it ku la lt lv mg mi ms nb nl nn ny pl pt ro ru rw sk \

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/libxslt/pkg/PLIST-python,v 1.1 2008/12/26 10:54:21 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 lib/python${MODPY_VERSION}/site-packages/libxslt.py
 lib/python${MODPY_VERSION}/site-packages/libxsltmod.a

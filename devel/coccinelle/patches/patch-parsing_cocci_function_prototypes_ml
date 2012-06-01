@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/coccinelle/patches/patch-parsing_cocci_function_prototypes_ml,v 1.1 2011/08/30 10:20:11 sthen Exp $
+$OpenBSD$
 --- parsing_cocci/function_prototypes.ml.orig	Sat Aug 27 07:26:45 2011
 +++ parsing_cocci/function_prototypes.ml	Sun Aug 28 11:47:32 2011
 @@ -153,18 +153,19 @@ and strip =

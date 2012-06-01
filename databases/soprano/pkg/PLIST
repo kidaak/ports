@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/soprano/pkg/PLIST,v 1.4 2010/06/16 13:42:24 espie Exp $
+@comment $OpenBSD$
 @bin bin/onto2vocabularyclass
 @bin bin/sopranocmd
 @bin bin/sopranod

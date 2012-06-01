@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-DKIM/Makefile,v 1.12 2012/01/29 02:45:19 william Exp $
+# $OpenBSD$
 
 COMMENT=	DKIM and DomainKeys message-signing implementation
 

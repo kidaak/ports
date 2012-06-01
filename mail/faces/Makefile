@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/faces/Makefile,v 1.26 2010/11/19 07:23:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	visual mail, user and print face server
 

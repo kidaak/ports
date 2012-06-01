@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_gensupport_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/gensupport.c.orig	Wed Mar 15 11:14:51 2006
 +++ gcc/gensupport.c	Mon Jun 14 19:23:04 2010
 @@ -220,7 +220,7 @@ process_include (rtx desc, int lineno)

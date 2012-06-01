@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-libraries_unix_cbits_execvpe_c,v 1.1 2012/03/23 20:17:06 kili Exp $
+$OpenBSD$
 
 Don't build the included execvpe().
 

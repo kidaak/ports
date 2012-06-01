@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/system-config-printer/patches/patch-cupshelpers_cupshelpers_py,v 1.7 2011/08/23 06:41:31 ajacoutot Exp $
+$OpenBSD$
 --- cupshelpers/cupshelpers.py.orig	Fri Aug 19 12:17:26 2011
 +++ cupshelpers/cupshelpers.py	Tue Aug 23 08:33:10 2011
 @@ -698,7 +698,7 @@ def missingExecutables(ppd):

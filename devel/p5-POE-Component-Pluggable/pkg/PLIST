@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-POE-Component-Pluggable/pkg/PLIST,v 1.1.1.1 2008/09/01 09:55:34 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/POE/Component/Pluggable/
 ${P5SITE}/POE/Component/Pluggable.pm
 ${P5SITE}/POE/Component/Pluggable/Constants.pm

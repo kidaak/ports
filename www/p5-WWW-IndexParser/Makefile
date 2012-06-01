@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-IndexParser/Makefile,v 1.4 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		fetch and parse the directory index from a web server
 

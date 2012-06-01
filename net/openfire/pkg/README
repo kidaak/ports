@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openfire/pkg/README,v 1.4 2011/07/08 02:14:59 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

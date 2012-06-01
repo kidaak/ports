@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/fossil/pkg/PLIST,v 1.1.1.1 2009/09/23 19:06:46 sthen Exp $
+@comment $OpenBSD$
 @bin bin/fossil

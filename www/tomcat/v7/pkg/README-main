@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/tomcat/v7/pkg/README-main,v 1.1.1.1 2011/10/31 08:23:38 dcoppa Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/gdm/pkg/PLIST,v 1.39 2011/12/27 14:15:06 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _gdm:676
 @newuser _gdm:676:_gdm:daemon:GNOME Display Manager:/var/db/gdm:/sbin/nologin
 @unexec-delete rm -f ${SYSCONFDIR}/dconf/db/gdm

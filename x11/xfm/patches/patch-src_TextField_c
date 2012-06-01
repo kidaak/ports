@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfm/patches/patch-src_TextField_c,v 1.2 2010/01/03 22:53:32 jasper Exp $
+$OpenBSD$
 --- src/TextField.c.orig	Tue Apr  4 11:05:36 2000
 +++ src/TextField.c	Sun Jan  3 01:03:08 2010
 @@ -3437,9 +3437,9 @@

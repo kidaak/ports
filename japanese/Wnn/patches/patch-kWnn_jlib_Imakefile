@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/Wnn/patches/patch-kWnn_jlib_Imakefile,v 1.3 2008/08/30 11:17:00 espie Exp $
+$OpenBSD$
 --- kWnn/jlib/Imakefile.orig	Wed Aug 17 03:11:40 1994
 +++ kWnn/jlib/Imakefile	Sat Aug 30 13:13:02 2008
 @@ -10,7 +10,9 @@ XCOMM

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/lighttpd/pkg/lighttpd.rc,v 1.2 2011/10/09 20:42:33 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/lighttpd"
 daemon_flags="-f ${SYSCONFDIR}/lighttpd.conf"

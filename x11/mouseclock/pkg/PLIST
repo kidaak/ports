@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/mouseclock/pkg/PLIST,v 1.3 2004/09/15 19:26:30 espie Exp $
+@comment $OpenBSD$
 bin/mouseclock
 share/doc/mouseclock/
 share/doc/mouseclock/README

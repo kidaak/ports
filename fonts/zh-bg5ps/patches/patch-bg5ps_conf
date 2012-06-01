@@ -1,4 +1,4 @@
-$OpenBSD: ports/fonts/zh-bg5ps/patches/patch-bg5ps_conf,v 1.1.1.1 2011/07/19 09:14:21 jasper Exp $
+$OpenBSD$
 --- bg5ps.conf.orig	Mon Feb 14 21:28:35 2000
 +++ bg5ps.conf	Fri Jul  8 11:33:55 2011
 @@ -4,7 +4,7 @@

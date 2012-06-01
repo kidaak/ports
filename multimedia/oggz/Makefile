@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/oggz/Makefile,v 1.2 2010/11/19 07:23:15 espie Exp $
+# $OpenBSD$
 
 COMMENT =	inspect, edit and validate Ogg files
 

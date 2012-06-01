@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/widelands/Makefile,v 1.10 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	economic and military simulation game
 

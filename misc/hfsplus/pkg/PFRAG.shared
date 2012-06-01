@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/misc/hfsplus/pkg/PFRAG.shared,v 1.3 2005/12/25 22:56:32 pvalchev Exp $
+@comment $OpenBSD$
 @lib lib/libhfsp.so.${LIBhfsp_VERSION}

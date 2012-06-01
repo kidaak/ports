@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-cdb/pkg/PLIST,v 1.2 2009/10/11 16:36:31 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/cdbmodule.so
 lib/python${MODPY_VERSION}/site-packages/python_cdb-0.32-py${MODPY_VERSION}.egg-info
 share/doc/py-cdb/

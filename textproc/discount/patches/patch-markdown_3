@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/discount/patches/patch-markdown_3,v 1.2 2010/08/30 21:40:29 jasper Exp $
+$OpenBSD$
 --- markdown.3.orig	Mon Aug 30 15:00:43 2010
 +++ markdown.3	Mon Aug 30 15:00:57 2010
 @@ -102,7 +102,7 @@ and

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/tracnav/pkg/PLIST,v 1.1.1.1 2009/10/23 17:24:19 sthen Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/TracNav-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/TracNav-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/TracNav-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

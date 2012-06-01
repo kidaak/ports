@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/drac/pkg/PLIST,v 1.4 2011/12/31 08:16:56 ajacoutot Exp $
+@comment $OpenBSD$
 include/drac.h
 lib/libdrac.a
 libexec/rpc.dracd

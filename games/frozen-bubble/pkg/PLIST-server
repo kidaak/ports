@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/frozen-bubble/pkg/PLIST-server,v 1.1.1.1 2009/06/02 22:07:25 sthen Exp $
+@comment $OpenBSD$
 @comment @dirrm ${P5ARCH}/
 @comment @dirrm ${P5ARCH}/auto/
 libexec/frozen-bubble/

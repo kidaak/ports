@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/luma/patches/patch-lib_luma_base_backend_PluginLoader_py,v 1.1.1.1 2009/08/26 16:53:21 sthen Exp $
+$OpenBSD$
 --- lib/luma/base/backend/PluginLoader.py.orig	Wed Aug 26 14:54:17 2009
 +++ lib/luma/base/backend/PluginLoader.py	Wed Aug 26 14:55:33 2009
 @@ -45,7 +45,9 @@ class PluginLoader(object):

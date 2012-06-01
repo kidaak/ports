@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Mason/Makefile,v 1.24 2011/01/05 17:43:48 dhill Exp $
+# $OpenBSD$
 
 COMMENT=	high-performance dynamic web authoring system
 

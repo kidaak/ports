@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-good/patches/patch-sys_v4l2_v4l2_calls_h,v 1.2 2011/03/08 17:21:48 ajacoutot Exp $
+$OpenBSD$
 --- sys/v4l2/v4l2_calls.h.orig	Tue Mar  8 15:39:25 2011
 +++ sys/v4l2/v4l2_calls.h	Tue Mar  8 17:58:48 2011
 @@ -29,8 +29,12 @@

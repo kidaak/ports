@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-crm_pengine_Makefile_am,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- crm/pengine/Makefile.am.orig	Sat Nov 17 13:56:08 2007
 +++ crm/pengine/Makefile.am	Sat Nov 17 13:57:02 2007
 @@ -79,9 +79,5 @@ clean-generic:

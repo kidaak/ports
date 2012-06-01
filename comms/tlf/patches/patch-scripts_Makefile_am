@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/tlf/patches/patch-scripts_Makefile_am,v 1.1.1.1 2007/05/30 05:55:56 jason Exp $
+$OpenBSD$
 --- scripts/Makefile.am.orig	Wed Nov 23 00:49:56 2005
 +++ scripts/Makefile.am	Wed Nov 23 00:50:08 2005
 @@ -3,7 +3,7 @@ EXTRA_DIST = soundlog

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/java/java-getopt/Makefile,v 1.4 2011/09/16 10:02:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Java port of GNU getopt family functions
 

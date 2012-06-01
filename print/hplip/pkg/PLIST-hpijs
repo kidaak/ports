@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/hplip/pkg/PLIST-hpijs,v 1.17 2012/02/23 16:03:03 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict hplip-libs-<=3.9.8
 @pkgpath print/hpijs
 @bin bin/hpijs

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/oath-toolkit/pkg/PLIST,v 1.1.1.1 2011/03/16 10:10:49 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/oathtool
 include/liboath/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/iodbc/Makefile,v 1.29 2011/11/04 08:16:23 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main=		ODBC 3.x driver manager
 COMMENT-admin=		ODBC 3.x driver manager admin application

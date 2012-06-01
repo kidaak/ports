@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Algorithm-Munkres/Makefile,v 1.1.1.1 2010/12/22 20:22:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		implementation of Munkres' solution to Assignment problem
 

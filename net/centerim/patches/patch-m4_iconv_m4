@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/centerim/patches/patch-m4_iconv_m4,v 1.1.1.1 2012/03/21 14:41:22 ajacoutot Exp $
+$OpenBSD$
 --- m4/iconv.m4.orig	Wed Mar 21 08:33:32 2012
 +++ m4/iconv.m4	Wed Mar 21 08:34:08 2012
 @@ -44,7 +44,7 @@ AC_DEFUN([AM_ICONV_LINK],

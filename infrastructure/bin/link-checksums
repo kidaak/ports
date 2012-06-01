@@ -1,7 +1,7 @@
 #! /usr/bin/perl
 
 # ex:ts=8 sw=4:
-# $OpenBSD: ports/infrastructure/bin/link-checksums,v 1.5 2011/09/05 07:59:28 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2011 Marc Espie <espie@openbsd.org>
 #

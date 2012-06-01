@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-guppy/patches/patch-guppy_heapy_test_test_Classifiers_py,v 1.1.1.1 2011/11/17 17:12:11 kili Exp $
+$OpenBSD$
 
 Disable those (failing) assertions to get further through the test cases.
 

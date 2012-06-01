@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_src_solaris_bin_java_md_c,v 1.1 2008/03/17 03:28:26 kurt Exp $
+$OpenBSD$
 --- j2se/src/solaris/bin/java_md.c.orig	Sun Mar 16 09:33:26 2008
 +++ j2se/src/solaris/bin/java_md.c	Sun Mar 16 09:33:27 2008
 @@ -1032,21 +1032,28 @@ uint64_t

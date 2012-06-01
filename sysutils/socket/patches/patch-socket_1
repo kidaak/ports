@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/socket/patches/patch-socket_1,v 1.1 2011/07/08 11:19:35 jasper Exp $
+$OpenBSD$
 --- socket.1.orig	Wed Sep  9 16:38:19 1992
 +++ socket.1	Fri Jul  8 13:17:27 2011
 @@ -158,4 +158,4 @@ Please report any other bugs to the author.

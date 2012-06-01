@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xloadimage/patches/patch-cmuwmraster_c,v 1.1 2008/07/16 14:38:32 naddy Exp $
+$OpenBSD$
 --- cmuwmraster.c.orig	Wed Jul 16 16:22:59 2008
 +++ cmuwmraster.c	Wed Jul 16 16:23:21 2008
 @@ -22,9 +22,9 @@ struct cmuwm_header *headerp;

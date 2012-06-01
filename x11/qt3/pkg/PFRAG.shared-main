@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt3/pkg/PFRAG.shared-main,v 1.1 2006/11/20 20:41:01 espie Exp $
+@comment $OpenBSD$
 @lib lib/libqt-mt.so.${LIBqt-mt_VERSION}
 @lib lib/libqui-mt.so.${LIBqui-mt_VERSION}
 @lib lib/libqui.so.${LIBqui_VERSION}

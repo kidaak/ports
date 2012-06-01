@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libkipi/Makefile,v 1.20 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		kde image plugins api
 CATEGORIES =		graphics devel x11 x11/kde

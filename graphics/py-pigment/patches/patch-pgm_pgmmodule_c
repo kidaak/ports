@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/py-pigment/patches/patch-pgm_pgmmodule_c,v 1.1.1.1 2009/10/13 19:39:12 landry Exp $
+$OpenBSD$
 Needed for python to correctly view gl syms, has to be dlopened w/ RTLD_GLOBAL.
 --- pgm/pgmmodule.c.orig	Wed May 20 19:08:27 2009
 +++ pgm/pgmmodule.c	Tue Oct 13 13:05:29 2009

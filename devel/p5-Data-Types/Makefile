@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Types/Makefile,v 1.7 2011/06/01 17:41:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		validate and convert data types
 

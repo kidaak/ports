@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pebrot/Makefile,v 1.21 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	text-based MSN messenger client
 

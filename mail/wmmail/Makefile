@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/wmmail/Makefile,v 1.15 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; mail notifier
 

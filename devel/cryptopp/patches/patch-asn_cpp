@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-asn_cpp,v 1.1 2012/02/29 12:46:30 dcoppa Exp $
+$OpenBSD$
 --- asn.cpp.orig	Wed Feb 29 13:07:29 2012
 +++ asn.cpp	Wed Feb 29 13:12:13 2012
 @@ -348,6 +348,10 @@ void EncodedObjectFilter::Put(const byte *inString, si

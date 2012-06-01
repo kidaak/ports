@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/moria/Makefile,v 1.14 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	The Dungeons of Moria
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/archiveopteryx/patches/patch-Jamrules,v 1.1.1.1 2011/01/09 09:36:21 landry Exp $
+$OpenBSD$
 --- Jamrules.orig	Sun Mar 28 22:32:41 2010
 +++ Jamrules	Sun Mar 28 22:32:54 2010
 @@ -30,9 +30,6 @@ else {

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/p5-Unix-Syslog/pkg/PLIST,v 1.4 2007/11/29 22:01:30 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Unix/
 ${P5ARCH}/Unix/Syslog.pm

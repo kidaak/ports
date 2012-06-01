@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/plor/patches/patch-configure,v 1.1 2001/03/12 15:28:14 wilfried Exp $
+$OpenBSD$
 --- configure.orig	Wed Jan 28 21:13:46 1998
 +++ configure	Mon Mar 12 16:24:38 2001
 @@ -523,11 +523,6 @@ VERSION=0.3.2

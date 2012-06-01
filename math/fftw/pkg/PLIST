@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/fftw/pkg/PLIST,v 1.2 2004/09/15 09:11:59 espie Exp $
+@comment $OpenBSD$
 include/fftw.h
 include/rfftw.h
 @info info/fftw.info

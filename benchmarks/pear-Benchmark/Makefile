@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/pear-Benchmark/Makefile,v 1.17 2011/09/16 08:48:01 espie Exp $
+# $OpenBSD$
 
 COMMENT=	framework to benchmark PHP scripts or function calls
 

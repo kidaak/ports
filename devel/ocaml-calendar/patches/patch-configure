@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ocaml-calendar/patches/patch-configure,v 1.1.1.1 2005/09/22 14:38:41 avsm Exp $
+$OpenBSD$
 --- configure.orig	Thu Sep 22 14:53:52 2005
 +++ configure	Thu Sep 22 14:54:14 2005
 @@ -1515,9 +1515,7 @@ echo "${ECHO_T}no" >&6

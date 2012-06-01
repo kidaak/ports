@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/webgui/pkg/PLIST,v 1.1.1.1 2007/07/22 16:22:28 simon Exp $
+@comment $OpenBSD$
 @group daemon
 WebGUI/
 WebGUI/docs/

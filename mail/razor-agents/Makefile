@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/razor-agents/Makefile,v 1.26 2010/11/19 07:23:09 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

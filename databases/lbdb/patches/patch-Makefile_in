@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/lbdb/patches/patch-Makefile_in,v 1.1 2009/04/18 09:02:05 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sat Apr 18 09:54:34 2009
 +++ Makefile.in	Sat Apr 18 09:54:48 2009
 @@ -189,4 +189,4 @@ Makefile: Makefile.in

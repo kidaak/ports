@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-openbsd/patches/patch-openbsd__pcap_c,v 1.1 2010/07/13 15:21:18 naddy Exp $
+$OpenBSD$
 --- openbsd/_pcap.c.orig	Sun Jul 11 22:27:34 2010
 +++ openbsd/_pcap.c	Sun Jul 11 22:27:46 2010
 @@ -436,7 +436,6 @@ void init_pcap(void){

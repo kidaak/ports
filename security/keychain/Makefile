@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/keychain/Makefile,v 1.20 2011/03/29 17:05:54 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		front-end to ssh-agent
 

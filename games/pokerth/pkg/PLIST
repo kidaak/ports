@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/pokerth/pkg/PLIST,v 1.7 2010/10/26 09:41:51 jasper Exp $
+@comment $OpenBSD$
 @bin bin/pokerth
 @bin bin/pokerth_server
 share/applications/pokerth.desktop

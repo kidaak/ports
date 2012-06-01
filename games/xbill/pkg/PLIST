@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xbill/pkg/PLIST,v 1.9 2007/12/05 15:45:18 ajacoutot Exp $
+@comment $OpenBSD$
 @mode 2555
 @group games
 bin/xbill

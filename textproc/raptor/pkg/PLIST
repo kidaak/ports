@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/raptor/pkg/PLIST,v 1.1.1.1 2009/01/18 19:07:05 robert Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/rapper
 bin/raptor-config

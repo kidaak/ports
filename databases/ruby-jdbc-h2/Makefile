@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-jdbc-h2/Makefile,v 1.1.1.1 2010/12/09 20:10:48 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	access an H2 database from JRuby
 

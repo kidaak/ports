@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/sunbird/pkg/PLIST,v 1.6 2011/06/22 14:52:11 landry Exp $
+@comment $OpenBSD$
 @conflict sunbird-<=1.0b1
 @pkgpath productivity/sunbird,-main
 @unexec rm -f %D/sunbird/components/compreg.dat

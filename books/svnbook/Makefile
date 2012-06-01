@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/svnbook/Makefile,v 1.7 2012/04/06 20:39:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		Version Control with Subversion
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/astrolog/pkg/PLIST,v 1.5 2009/01/15 15:32:24 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/astrolog
 lib/astrolog/
 lib/astrolog/CHI_24

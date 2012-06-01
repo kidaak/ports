@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Algorithm-Dependency/Makefile,v 1.11 2010/12/03 11:44:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	base class for implementing various dependency trees
 

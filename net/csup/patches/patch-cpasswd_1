@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/csup/patches/patch-cpasswd_1,v 1.1 2011/01/16 19:13:40 naddy Exp $
+$OpenBSD$
 --- cpasswd.1.orig	Sun Jan 16 20:06:24 2011
 +++ cpasswd.1	Sun Jan 16 20:06:46 2011
 @@ -30,10 +30,10 @@

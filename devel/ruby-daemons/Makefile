@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-daemons/Makefile,v 1.15 2011/11/06 18:16:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	wrap existing Ruby scripts to be run as a daemon
 

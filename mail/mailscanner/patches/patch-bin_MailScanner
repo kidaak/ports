@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailscanner/patches/patch-bin_MailScanner,v 1.10 2010/06/18 21:48:23 sthen Exp $
+$OpenBSD$
 --- bin/MailScanner.orig	Wed Jun  2 04:17:25 2010
 +++ bin/MailScanner	Tue Jun 15 18:46:32 2010
 @@ -1,4 +1,4 @@

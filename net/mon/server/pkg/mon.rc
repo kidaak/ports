@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/mon/server/pkg/mon.rc,v 1.6 2011/03/20 06:36:55 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/mon"
 daemon_flags="-c ${SYSCONFDIR}/mon/mon.cf -f -P /var/run/mon/mon.pid"

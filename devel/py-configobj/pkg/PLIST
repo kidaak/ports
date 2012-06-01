@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-configobj/pkg/PLIST,v 1.2 2008/04/15 09:33:15 martynas Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/configobj-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/configobj.py
 lib/python${MODPY_VERSION}/site-packages/configobj.pyc

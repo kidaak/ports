@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/scim-qtimm/Makefile,v 1.8 2011/11/03 17:46:21 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

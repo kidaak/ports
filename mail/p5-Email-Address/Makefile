@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-Address/Makefile,v 1.8 2011/03/15 02:15:06 dhill Exp $
+# $OpenBSD$
 
 COMMENT=	RFC 2822 Address Parsing and Creation
 

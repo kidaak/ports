@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/icinga/Makefile,v 1.1.1.1 2011/03/28 14:06:06 sthen Exp $
+# $OpenBSD$
 
   SUBDIR =
   SUBDIR += core

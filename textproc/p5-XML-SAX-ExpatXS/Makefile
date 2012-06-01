@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-SAX-ExpatXS/Makefile,v 1.11 2011/07/10 12:17:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	SAX2 driver directly based on expat
 

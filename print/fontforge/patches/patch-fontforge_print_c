@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/fontforge/patches/patch-fontforge_print_c,v 1.1 2011/07/08 19:04:05 kili Exp $
+$OpenBSD$
 --- fontforge/print.c.orig	Fri Feb 18 22:33:20 2011
 +++ fontforge/print.c	Fri Jul  8 17:05:49 2011
 @@ -1056,10 +1056,7 @@ static void dump_pdfprologue(PI *pi) {

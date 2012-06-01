@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-jdtcoresrc_compilejdtcorewithjavac_xml,v 1.1 2007/04/13 14:30:43 kurt Exp $
+$OpenBSD$
 --- jdtcoresrc/compilejdtcorewithjavac.xml.orig	Thu Apr 12 09:23:06 2007
 +++ jdtcoresrc/compilejdtcorewithjavac.xml	Thu Apr 12 09:23:24 2007
 @@ -15,14 +15,14 @@

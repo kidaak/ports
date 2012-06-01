@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/Makefile,v 1.3 2010/08/18 15:04:22 sthen Exp $
+# $OpenBSD$
 
 SUBDIR += chora
 SUBDIR += dimp

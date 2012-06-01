@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/glom/patches/patch-glom_main_local_options_cc,v 1.2 2012/04/12 08:14:56 ajacoutot Exp $
+$OpenBSD$
 
 From 6d5db9687e9aa5bd8fc324b5fa6adea3faae5fb0 Mon Sep 17 00:00:00 2001
 From: Antoine Jacoutot <ajacoutot@gnome.org>

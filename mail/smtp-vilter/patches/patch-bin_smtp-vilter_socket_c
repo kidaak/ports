@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/smtp-vilter/patches/patch-bin_smtp-vilter_socket_c,v 1.1 2009/11/26 14:02:58 jasper Exp $
+$OpenBSD$
 --- bin/smtp-vilter/socket.c.orig	Sun Jan 21 13:09:38 2007
 +++ bin/smtp-vilter/socket.c	Fri Oct 23 15:35:24 2009
 @@ -20,24 +20,49 @@

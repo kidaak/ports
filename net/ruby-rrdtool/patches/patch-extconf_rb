@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ruby-rrdtool/patches/patch-extconf_rb,v 1.1.1.1 2007/09/19 19:38:36 sturm Exp $
+$OpenBSD$
 --- extconf.rb.orig	Tue Sep 18 16:20:21 2007
 +++ extconf.rb	Tue Sep 18 16:20:49 2007
 @@ -5,7 +5,7 @@ require 'mkmf'

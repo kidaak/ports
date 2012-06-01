@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/highlighterkit/Makefile,v 1.5 2012/04/09 17:54:20 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	framework for highlighting and coloring syntax
 

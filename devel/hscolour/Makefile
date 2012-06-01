@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hscolour/Makefile,v 1.15 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Haskell code colourizer
 

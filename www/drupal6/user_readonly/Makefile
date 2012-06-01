@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/user_readonly/Makefile,v 1.4 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	forbid users from changing some drupal profile fields 
 MAINTAINER =	Marc Espie <espie@openbsd.org>

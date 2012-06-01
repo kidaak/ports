@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/grub/pkg/PLIST,v 1.2 2010/11/08 20:12:13 jasper Exp $
+@comment $OpenBSD$
 bin/mbchk
 @info info/grub.info
 @info info/multiboot.info

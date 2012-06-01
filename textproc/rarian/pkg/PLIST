@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/rarian/pkg/PLIST,v 1.11 2011/05/11 07:45:52 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict scrollkeeper-*
 @pkgpath textproc/scrollkeeper
 @extraunexec rm -rf %D/share/help/*

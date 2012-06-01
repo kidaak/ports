@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/argtable/Makefile,v 1.10 2010/11/22 08:56:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		ANSI C command line parser
 

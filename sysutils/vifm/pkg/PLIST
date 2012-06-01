@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/vifm/pkg/PLIST,v 1.1.1.1 2009/08/09 21:49:33 landry Exp $
+@comment $OpenBSD$
 bin/pauseme
 @bin bin/vifm
 share/vifm/

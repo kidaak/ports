@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/freedroidrpg/pkg/PLIST,v 1.7 2011/12/03 08:19:08 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/croppy
 @bin bin/explode_atlas
 @bin bin/explodefont

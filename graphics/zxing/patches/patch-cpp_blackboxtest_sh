@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/zxing/patches/patch-cpp_blackboxtest_sh,v 1.1.1.1 2012/04/04 03:38:45 bentley Exp $
+$OpenBSD$
 --- cpp/blackboxtest.sh.orig	Mon Jul 19 22:20:20 2010
 +++ cpp/blackboxtest.sh	Sun Feb 26 17:35:08 2012
 @@ -1,6 +1,6 @@

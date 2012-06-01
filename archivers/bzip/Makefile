@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/bzip/Makefile,v 1.28 2010/10/18 21:55:51 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	block-sorting file compressor, encumbered
 

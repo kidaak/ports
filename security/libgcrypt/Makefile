@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libgcrypt/Makefile,v 1.24 2012/04/04 06:59:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		crypto library based on code used in GnuPG
 

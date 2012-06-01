@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libexude/pkg/PFRAG.no_mips64,v 1.1.1.1 2011/05/16 20:21:14 dhill Exp $
+@comment $OpenBSD$
 lib/libexude_pic.a

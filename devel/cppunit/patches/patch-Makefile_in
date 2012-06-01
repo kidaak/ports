@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cppunit/patches/patch-Makefile_in,v 1.1 2008/10/24 14:49:44 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Oct 19 23:43:08 2008
 +++ Makefile.in	Sun Oct 19 23:43:11 2008
 @@ -231,7 +231,7 @@ top_builddir = @top_builddir@

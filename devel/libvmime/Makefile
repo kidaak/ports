@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libvmime/Makefile,v 1.11 2011/06/14 22:29:15 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C++ class library for working with Internet mail
 

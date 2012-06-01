@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/libquicktime/pkg/PLIST,v 1.11 2011/08/29 11:23:19 jasper Exp $
+@comment $OpenBSD$
 @bin bin/libquicktime_config
 @bin bin/lqt_transcode
 @bin bin/lqtplay

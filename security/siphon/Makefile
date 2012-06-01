@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/siphon/Makefile,v 1.12 2007/09/15 23:30:01 merdely Exp $
+# $OpenBSD$
 			
 COMMENT=		passive network mapping tool
 

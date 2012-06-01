@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/core/patches/patch-source_mupen64plus-core_src_memory_memory_c,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/memory/memory.c.orig	Sun Dec 18 23:24:33 2011
 +++ src/memory/memory.c	Sun Dec 18 20:04:55 2011
 @@ -72,7 +72,7 @@ unsigned char *PIF_RAMb = (unsigned char *)(PIF_RAM);

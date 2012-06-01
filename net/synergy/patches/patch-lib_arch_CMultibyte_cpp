@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/synergy/patches/patch-lib_arch_CMultibyte_cpp,v 1.3 2011/04/18 18:37:48 jasper Exp $
+$OpenBSD$
 --- lib/arch/CMultibyte.cpp.orig	Sun Jan 23 06:53:37 2011
 +++ lib/arch/CMultibyte.cpp	Sun Apr 17 21:01:57 2011
 @@ -28,7 +28,7 @@

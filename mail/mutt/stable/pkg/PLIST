@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/mutt/stable/pkg/PLIST,v 1.10 2009/06/16 09:37:19 sthen Exp $
+@comment $OpenBSD$
 bin/flea
 @bin bin/mutt
 @bin bin/mutt_dotlock

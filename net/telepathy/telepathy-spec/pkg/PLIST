@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/telepathy/telepathy-spec/pkg/PLIST,v 1.7 2012/04/04 17:51:54 jasper Exp $
+@comment $OpenBSD$
 share/gtk-doc/
 share/gtk-doc/html/
 share/gtk-doc/html/telepathy-spec/

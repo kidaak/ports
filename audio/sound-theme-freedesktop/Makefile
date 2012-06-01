@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/sound-theme-freedesktop/Makefile,v 1.14 2012/03/08 13:28:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	XDG sound theme
 

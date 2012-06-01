@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/squeak/vm/patches/patch-platforms_unix_vm-sound-OpenBSD_acinclude_m4,v 1.1 2008/07/23 11:17:22 espie Exp $
+$OpenBSD$
 --- platforms/unix/vm-sound-OpenBSD/acinclude.m4.orig	Wed Jul 23 13:05:33 2008
 +++ platforms/unix/vm-sound-OpenBSD/acinclude.m4	Wed Jul 23 12:51:12 2008
 @@ -1,15 +1,10 @@

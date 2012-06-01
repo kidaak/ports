@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/flatzebra/patches/patch-Makefile_in,v 1.4 2011/05/02 11:41:32 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Mar 31 04:27:40 2010
 +++ Makefile.in	Thu Apr  1 09:41:21 2010
 @@ -760,7 +760,7 @@ info: info-recursive

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/ldapvi/Makefile,v 1.15 2012/03/16 22:05:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	update LDAP entries with a text editor
 

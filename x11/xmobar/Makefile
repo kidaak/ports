@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xmobar/Makefile,v 1.12 2012/01/12 21:42:07 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		minimalistic text based status bar
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/mico/patches/patch-demo_interop_jboss_jdk1_4_x_corba-friendly-ejb_Makefile,v 1.1 2010/09/22 08:42:53 landry Exp $
+$OpenBSD$
 --- demo/interop/jboss/jdk1.4.x/corba-friendly-ejb/Makefile.orig	Tue Sep 14 21:22:43 2010
 +++ demo/interop/jboss/jdk1.4.x/corba-friendly-ejb/Makefile	Tue Sep 14 21:22:47 2010
 @@ -117,21 +117,21 @@ clean:

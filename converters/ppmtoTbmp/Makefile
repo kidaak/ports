@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/ppmtoTbmp/Makefile,v 1.11 2010/11/15 00:22:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=	PPM to Pilot bitmap converter
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/openldap23/patches/patch-servers_slapd_schema_init_c,v 1.2 2011/10/29 11:56:04 gsoares Exp $
+$OpenBSD$
 
 SECURITY FIX
 

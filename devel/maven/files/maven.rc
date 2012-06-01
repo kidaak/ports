@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/maven/files/maven.rc,v 1.2 2006/08/07 19:30:52 kurt Exp $
+# $OpenBSD$
 #
 # Define JAVA_HOME, M2_HOME and MAVEN_OPTS here.
 #

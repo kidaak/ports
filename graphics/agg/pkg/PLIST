@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/agg/pkg/PLIST,v 1.1.1.1 2006/10/16 11:42:04 steven Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/agg2/
 include/agg2/agg_alpha_mask_u8.h

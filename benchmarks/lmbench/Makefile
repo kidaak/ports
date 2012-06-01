@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/lmbench/Makefile,v 1.22 2010/10/18 16:57:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	system performance measurement
 DISTNAME=	lmbench

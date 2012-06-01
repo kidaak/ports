@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ushare/patches/patch-scripts_ushare_conf,v 1.1.1.1 2010/03/22 22:26:59 ajacoutot Exp $
+$OpenBSD$
 --- scripts/ushare.conf.orig	Tue Feb  9 16:57:02 2010
 +++ scripts/ushare.conf	Tue Feb  9 16:57:35 2010
 @@ -10,7 +10,7 @@ USHARE_IFACE=

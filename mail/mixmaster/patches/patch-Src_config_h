@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mixmaster/patches/patch-Src_config_h,v 1.2 2003/11/23 18:52:40 sturm Exp $
+$OpenBSD$
 --- Src/config.h.orig	2003-11-09 12:09:25.000000000 +0100
 +++ Src/config.h	2003-11-23 19:31:19.000000000 +0100
 @@ -142,7 +142,7 @@

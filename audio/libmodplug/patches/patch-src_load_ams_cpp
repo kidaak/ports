@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmodplug/patches/patch-src_load_ams_cpp,v 1.1 2011/08/18 17:56:47 jasper Exp $
+$OpenBSD$
 
 AMSv2 off by one problem (related to SA45131/C)
 From upstream git: 16d7a78efe14d345a6c5b241f88422ad0ee483ea

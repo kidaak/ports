@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/arirang/Makefile,v 1.24 2011/09/16 11:41:38 espie Exp $
+# $OpenBSD$
 
 COMMENT =	powerful webserver security scanner for network
 

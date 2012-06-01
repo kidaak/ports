@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/hypermail/patches/patch-src_proto_h,v 1.1 2005/04/03 11:05:07 espie Exp $
+$OpenBSD$
 --- src/proto.h.orig	Sun Apr  3 12:59:30 2005
 +++ src/proto.h	Sun Apr  3 12:59:54 2005
 @@ -94,7 +94,7 @@ char *PushByte(struct Push *, char);

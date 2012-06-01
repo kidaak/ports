@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/iso-codes/pkg/PLIST,v 1.17 2012/04/10 09:40:45 jasper Exp $
+@comment $OpenBSD$
 share/locale/
 share/locale/af/
 share/locale/af/LC_MESSAGES/

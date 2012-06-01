@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/txt2tags/Makefile,v 1.15 2011/09/16 11:41:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=	utility to turn simply formatted text into markup 
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/affiche/pkg/PLIST,v 1.1.1.1 2011/05/15 13:05:54 sebastia Exp $
+@comment $OpenBSD$
 bin/Affiche
 libexec/GNUstep/
 libexec/GNUstep/Affiche.app/

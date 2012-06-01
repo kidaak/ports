@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/tremor-tools/patches/patch-Makefile_in,v 1.1 2010/11/06 12:19:38 landry Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sat Nov  6 12:32:38 2010
 +++ Makefile.in	Sat Nov  6 12:33:11 2010
 @@ -117,7 +117,7 @@ VORBIS_LIBS = @VORBIS_LIBS@

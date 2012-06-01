@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/povray/patches/patch-unix_unix_cpp,v 1.1 2011/07/07 14:45:22 jasper Exp $
+$OpenBSD$
 
 Redo pre-processor block to prevent:
 unix.cpp:2543:8: error: macro names must be identifiers

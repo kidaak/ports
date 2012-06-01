@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/fo/Makefile,v 1.7 2012/01/17 11:01:14 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Faroese
 CATEGORIES=	textproc

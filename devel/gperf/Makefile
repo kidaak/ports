@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gperf/Makefile,v 1.25 2010/11/15 19:45:58 espie Exp $
+# $OpenBSD$
 
 COMMENT =	perfect hash functions, to help write parsers
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/hellanzb/Makefile,v 1.12 2012/01/08 11:05:54 eric Exp $
+# $OpenBSD$
 
 COMMENT=		retrieve and process nzb-files
 

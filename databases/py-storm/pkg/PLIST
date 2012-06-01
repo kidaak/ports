@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-storm/pkg/PLIST,v 1.9 2011/11/14 16:20:43 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/storm/
 lib/python${MODPY_VERSION}/site-packages/storm-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/storm-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

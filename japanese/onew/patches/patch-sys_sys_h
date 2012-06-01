@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/onew/patches/patch-sys_sys_h,v 1.1.1.1 2001/03/28 15:17:35 espie Exp $
+$OpenBSD$
 --- sys/sys.h.orig	Fri Jun 30 06:56:38 1995
 +++ sys/sys.h	Wed Mar 28 03:58:57 2001
 @@ -30,7 +30,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/obconf/patches/patch-src_preview_c,v 1.1 2011/11/02 19:12:40 jasper Exp $
+$OpenBSD$
 
 Revert "Use new RrButton structure" which was made for new (> ob 3.5) API.
 (9cffa6a9ddfc4074f3de8d0302404d70c2818d8f)

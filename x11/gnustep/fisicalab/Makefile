@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/fisicalab/Makefile,v 1.6 2012/01/08 12:03:09 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	educational application to solve physics problems
 

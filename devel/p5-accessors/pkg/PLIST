@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-accessors/pkg/PLIST,v 1.1.1.1 2008/08/19 22:51:02 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/accessors/
 ${P5SITE}/accessors.pm
 ${P5SITE}/accessors/chained.pm

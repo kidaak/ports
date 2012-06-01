@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/doxygen/patches/patch-src_doxytag_pro_in,v 1.2 2008/01/06 10:02:59 eric Exp $
+$OpenBSD$
 --- src/doxytag.pro.in.orig	Tue Feb 20 19:27:35 2007
 +++ src/doxytag.pro.in	Wed Dec 19 20:34:17 2007
 @@ -26,6 +26,7 @@ win32-msvc:TMAKE_LFLAGS    += /LIBPATH:..\lib

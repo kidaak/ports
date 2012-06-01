@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/Wnn/patches/patch-Wnn_jserver_de_c,v 1.1 2000/04/16 21:53:31 espie Exp $
+$OpenBSD$
 --- Wnn/jserver/de.c.orig	Fri Aug 19 03:31:23 1994
 +++ Wnn/jserver/de.c	Thu Apr 13 20:41:38 2000
 @@ -65,6 +65,9 @@ extern int errno;		/* Pure BSD */

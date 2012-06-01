@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-sprockets/Makefile,v 1.1.1.1 2011/12/13 17:37:06 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	rack-based asset packaging system
 

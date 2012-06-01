@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/conkeror/Makefile,v 1.2 2011/09/16 12:00:06 espie Exp $
+# $OpenBSD$
 
 COMMENT =		keyboard-oriented Mozilla-based browser
 

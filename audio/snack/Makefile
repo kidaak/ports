@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/snack/Makefile,v 1.8 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main =	Tcl/Tk snack sound toolkit
 COMMENT-python = Python bindings for Tcl/Tk snack sound toolkit

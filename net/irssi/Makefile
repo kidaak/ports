@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/irssi/Makefile,v 1.51 2011/12/01 17:51:10 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

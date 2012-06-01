@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/mapserver/Makefile,v 1.22 2012/02/16 21:21:58 sthen Exp $
+# $OpenBSD$
 
 MULTI_PACKAGES=	-utils -main -php -perl
 SHARED_ONLY=	Yes

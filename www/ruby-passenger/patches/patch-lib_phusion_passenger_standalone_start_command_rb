@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-lib_phusion_passenger_standalone_start_command_rb,v 1.1 2011/12/13 18:38:18 jeremy Exp $
+$OpenBSD$
 
 The if false removes a method that tries to download and compile nginx and
 install it into the user's home directory (even if you change HOME!)

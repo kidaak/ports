@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/html/Makefile,v 1.23 2007/09/15 20:59:38 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	all W3C-published SGML DTDs for HTML
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nagios/plugins/Makefile,v 1.32 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=	nagios base plugins
 COMMENT-fping=	fping plugin

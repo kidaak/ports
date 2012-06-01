@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-buildbot/pkg/PLIST,v 1.10 2012/04/14 09:52:41 landry Exp $
+@comment $OpenBSD$
 @newgroup _buildbot:673
 @newuser _buildbot:673:_buildbot:daemon:BuildBot master daemon:${HOMEDIR}:/sbin/nologin
 bin/buildbot

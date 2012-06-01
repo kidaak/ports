@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/zsnes/pkg/PLIST,v 1.4 2005/10/21 18:07:11 naddy Exp $
+@comment $OpenBSD$
 bin/zsnes
 @man man/man1/zsnes.1
 share/doc/zsnes/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/libwbxml/patches/patch-CMakeLists_txt,v 1.1.1.1 2011/10/24 20:27:40 jasper Exp $
+$OpenBSD$
 --- CMakeLists.txt.orig	Fri Sep  9 04:10:26 2011
 +++ CMakeLists.txt	Fri Sep  9 04:15:08 2011
 @@ -97,6 +97,7 @@ SET( WBXML_SUPPORT_ICONV OFF )

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pcre++/patches/patch-test_Makefile_in,v 1.1.1.1 2004/12/05 14:16:40 alek Exp $
+$OpenBSD$
 --- test/Makefile.in.orig	Wed Aug 25 01:38:04 2004
 +++ test/Makefile.in	Thu Dec  2 20:49:56 2004
 @@ -83,7 +83,7 @@ noinst_PROGRAMS = test

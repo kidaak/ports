@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/ghostscript/Makefile,v 1.14 2010/02/01 17:00:14 espie Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += gnu

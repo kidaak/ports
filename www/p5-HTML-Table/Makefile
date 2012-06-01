@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Table/Makefile,v 1.16 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	generate HTML tables for cgi scripts
 

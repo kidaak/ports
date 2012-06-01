@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/chbg/pkg/PLIST,v 1.4 2010/03/25 20:54:42 jasper Exp $
+@comment $OpenBSD$
 @bin bin/chbg
 @man man/man1/chbg.1
 share/control-center/

@@ -1,4 +1,4 @@
-.\" $OpenBSD: ports/net/pptp/files/pptp_8,v 1.9 2010/04/24 12:09:43 schwarze Exp $
+.\" $OpenBSD$
 .\" Manual page for pptp-1.1.0
 .\" Information gleaned from USING file in the distribution
 .\" SH section heading

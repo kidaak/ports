@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/mpack/patches/patch-decode_c,v 1.4 2012/01/08 00:12:12 sthen Exp $
+$OpenBSD$
 --- decode.c.orig	Mon Jul 21 21:47:54 2003
 +++ decode.c	Sun Jan  8 00:02:59 2012
 @@ -28,10 +28,11 @@

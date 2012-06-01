@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/blas/files/Makefile,v 1.2 2010/08/19 21:23:29 steven Exp $
+# $OpenBSD$
 #	@(#)Makefile	5.7 (Berkeley) 6/27/91
 
 # BLAS sources

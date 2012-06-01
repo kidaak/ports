@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/tlf/patches/patch-share_Makefile_am,v 1.1.1.1 2007/05/30 05:55:56 jason Exp $
+$OpenBSD$
 --- share/Makefile.am.orig	Wed Nov 23 00:49:08 2005
 +++ share/Makefile.am	Wed Nov 23 00:49:31 2005
 @@ -4,14 +4,14 @@ EXTRA_DIST = callmaster cty.dat logcfg.d

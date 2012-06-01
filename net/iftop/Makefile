@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/iftop/Makefile,v 1.7 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		display bandwidth usage on an inteface
 

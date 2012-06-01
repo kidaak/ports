@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/netdude/netdude/pkg/PFRAG.shared,v 1.3 2007/09/26 20:21:06 rui Exp $
+@comment $OpenBSD$
 lib/netdude/0.4/protocols/nd_pcap.so
 lib/netdude/plugins/nd_bpf.so
 lib/netdude/plugins/nd_cksumfix.so

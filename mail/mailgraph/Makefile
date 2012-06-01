@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mailgraph/Makefile,v 1.9 2010/11/19 07:23:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	RRDtool frontend for Postfix statistics
 

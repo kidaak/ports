@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gedit/patches/patch-gedit_gedit-metadata-manager_c,v 1.4 2012/03/29 07:06:36 ajacoutot Exp $
+$OpenBSD$
 
 gedit-2.28.0.log:gedit-metadata-manager.c: In function `save_item':
 gedit-2.28.0.log:gedit-metadata-manager.c:455: warning: long int format, different type arg (arg 2)

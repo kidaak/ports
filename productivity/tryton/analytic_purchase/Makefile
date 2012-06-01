@@ -1,9 +1,9 @@
-# $OpenBSD: ports/productivity/tryton/analytic_purchase/Makefile,v 1.4 2012/01/24 10:16:10 ajacoutot Exp $
+# $OpenBSD$
 
-MODPY_EGG_VERSION =	2.2.0
 TRYTOND_MODULE =	analytic_purchase
+REVISION =		0
 
-RUN_DEPENDS =		productivity/tryton/analytic_invoice>=2.2.0 \
-			productivity/tryton/purchase>=2.2.0
+RUN_DEPENDS =		productivity/tryton/analytic_invoice \
+			productivity/tryton/purchase
 
 .include <bsd.port.mk>

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/scamper/Makefile,v 1.8 2012/04/12 23:25:18 sthen Exp $
+# $OpenBSD$
 
 SHARED_LIBS +=  scamperfile               0.0 # 0.0
 

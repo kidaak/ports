@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-x11_ui_cpp,v 1.2 2010/06/15 19:04:05 landry Exp $
+$OpenBSD$
 --- x11/ui.cpp.orig	Wed Mar 19 10:05:38 2003
 +++ x11/ui.cpp	Tue Jun 15 20:52:51 2010
 @@ -40,9 +40,11 @@ extern "C" {

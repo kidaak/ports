@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/scapy/Makefile,v 1.18 2012/01/12 03:16:24 bluhm Exp $
+# $OpenBSD$
 
 COMMENT=	powerful interactive packet manipulation in python
 

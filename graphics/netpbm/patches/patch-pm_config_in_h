@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/netpbm/patches/patch-pm_config_in_h,v 1.2 2010/07/02 02:54:59 naddy Exp $
+$OpenBSD$
 --- pm_config.in.h.orig	Wed Jun 30 02:05:34 2010
 +++ pm_config.in.h	Wed Jun 30 02:06:24 2010
 @@ -67,9 +67,9 @@

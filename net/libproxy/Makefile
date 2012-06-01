@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libproxy/Makefile,v 1.25 2012/03/30 16:28:58 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

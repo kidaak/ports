@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/artwork3/Makefile,v 1.66 2011/12/03 19:13:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT = 		K Desktop Environment, additional artwork
 CATEGORIES =		x11 x11/kde

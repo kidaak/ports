@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/sope/Makefile,v 1.20 2012/03/31 16:55:57 sebastia Exp $
+# $OpenBSD$
 
 COMMENT-main=		Skyrix Object Publishing Environment
 COMMENT-mysql=		SOPE MySQL adaptor

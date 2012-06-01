@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/fyre/pkg/PLIST,v 1.5 2011/12/03 18:35:11 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/fyre
 share/fyre/
 share/fyre/about-box.fa

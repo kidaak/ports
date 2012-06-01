@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/postgis/patches/patch-doc_Makefile_in,v 1.2 2010/11/04 13:45:54 eric Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Sun Sep 19 14:21:28 2010
 +++ doc/Makefile.in	Tue Nov  2 17:59:04 2010
 @@ -41,25 +41,14 @@ DBLATEX=@DBLATEX@

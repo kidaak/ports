@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/sonata/patches/patch-sonata_misc_py,v 1.1 2011/07/27 15:27:26 ajacoutot Exp $
+$OpenBSD$
 --- sonata/misc.py.orig	Wed Jul 27 17:22:46 2011
 +++ sonata/misc.py	Wed Jul 27 17:22:03 2011
 @@ -159,13 +159,7 @@ def browser_load(docslink, browser, window):

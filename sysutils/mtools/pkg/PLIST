@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/mtools/pkg/PLIST,v 1.10 2005/04/15 19:06:56 fgsch Exp $
+@comment $OpenBSD$
 !%%no_x11%%
 bin/amuFormat.sh
 bin/lz

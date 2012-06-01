@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-mkspecs_openbsd-g++_qmake_conf,v 1.9 2010/10/28 14:55:47 espie Exp $
+$OpenBSD$
 --- mkspecs/openbsd-g++/qmake.conf.orig	Fri Sep 10 11:04:49 2010
 +++ mkspecs/openbsd-g++/qmake.conf	Sun Oct 24 12:32:06 2010
 @@ -8,16 +8,17 @@ TEMPLATE		= app

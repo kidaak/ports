@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/glpng/patches/patch-src_glpng_c,v 1.2 2011/07/08 20:36:09 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

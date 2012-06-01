@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/rcube-sieverules/pkg/PLIST,v 1.2 2012/01/16 23:10:41 sthen Exp $
+@comment $OpenBSD$
 roundcubemail/plugins/sieverules/
 roundcubemail/plugins/sieverules/CHANGELOG
 roundcubemail/plugins/sieverules/README

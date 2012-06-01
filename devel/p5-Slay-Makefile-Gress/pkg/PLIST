@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Slay-Makefile-Gress/pkg/PLIST,v 1.1.1.1 2007/11/02 14:49:10 merdely Exp $
+@comment $OpenBSD$
 ${P5SITE}/Slay/Makefile/
 ${P5SITE}/Slay/Makefile/Gress.pm
 @man man/man3p/Slay::Makefile::Gress.3p

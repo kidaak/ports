@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tintin++/Makefile,v 1.16 2010/07/12 22:07:42 sthen Exp $ 
+# $OpenBSD$ 
 
 COMMENT=	client program to help playing muds
 

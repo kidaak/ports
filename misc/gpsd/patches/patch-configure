@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/gpsd/patches/patch-configure,v 1.2 2010/11/25 08:55:24 sebastia Exp $
+$OpenBSD$
 
 Prevent linking with -lpthread, and use -pthread instead.
 

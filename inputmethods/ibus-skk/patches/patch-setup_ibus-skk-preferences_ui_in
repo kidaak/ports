@@ -1,4 +1,4 @@
-$OpenBSD: ports/inputmethods/ibus-skk/patches/patch-setup_ibus-skk-preferences_ui_in,v 1.1 2011/09/25 13:34:57 fgsch Exp $
+$OpenBSD$
 --- setup/ibus-skk-preferences.ui.in.orig	Tue Sep 20 11:02:58 2011
 +++ setup/ibus-skk-preferences.ui.in	Tue Sep 20 11:03:05 2011
 @@ -766,7 +766,7 @@

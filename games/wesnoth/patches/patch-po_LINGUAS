@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/wesnoth/patches/patch-po_LINGUAS,v 1.1 2012/04/07 08:32:32 kirby Exp $
+$OpenBSD$
 --- po/LINGUAS.orig	Sat Apr  7 01:01:50 2012
 +++ po/LINGUAS	Sat Apr  7 01:09:22 2012
 @@ -1 +1 @@

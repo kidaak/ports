@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/frogatto/patches/patch-src_sound_cpp,v 1.1.1.1 2010/09/23 11:30:56 ajacoutot Exp $
+$OpenBSD$
 --- src/sound.cpp.orig	Thu Sep 23 08:02:09 2010
 +++ src/sound.cpp	Thu Sep 23 08:01:33 2010
 @@ -356,7 +356,7 @@ int play_internal(const std::string& file, int loops, 

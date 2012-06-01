@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xvkbd/Makefile,v 1.14 2010/11/22 08:37:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=		virtual keyboard for X Window System
 

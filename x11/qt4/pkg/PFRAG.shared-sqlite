@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/qt4/pkg/PFRAG.shared-sqlite,v 1.1 2006/05/15 21:09:39 espie Exp $
+@comment $OpenBSD$
 lib/qt4/plugins/sqldrivers/libqsqlite.so

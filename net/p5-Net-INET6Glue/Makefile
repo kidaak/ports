@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-INET6Glue/Makefile,v 1.6 2011/04/10 23:55:42 bluhm Exp $
+# $OpenBSD$
 
 COMMENT =		make common perl modules IPv6 ready by hotpatching
 

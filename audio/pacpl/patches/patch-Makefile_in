@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/pacpl/patches/patch-Makefile_in,v 1.1 2008/12/23 15:52:42 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sat Aug 23 17:13:47 2008
 +++ Makefile.in	Thu Nov 13 14:52:56 2008
 @@ -70,7 +70,7 @@ MIMELNK	= $(MIMEDIR)/x-ape.desktop \

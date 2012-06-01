@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/assl/pkg/PFRAG.shared,v 1.1 2010/09/28 21:14:56 ckuethe Exp $
+@comment $OpenBSD$
 @lib lib/libassl.so.${LIBassl_VERSION}

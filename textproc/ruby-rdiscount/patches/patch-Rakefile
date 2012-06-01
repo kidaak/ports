@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-rdiscount/patches/patch-Rakefile,v 1.1 2011/11/17 16:08:00 jeremy Exp $
+$OpenBSD$
 
 Fix regress with rake 0.9, which no longer defines ::RUBY.
 

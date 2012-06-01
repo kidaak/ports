@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libgtop2/patches/patch-configure,v 1.17 2011/08/30 12:24:53 jasper Exp $
+$OpenBSD$
 --- configure.orig	Tue Aug 30 13:48:13 2011
 +++ configure	Tue Aug 30 13:51:10 2011
 @@ -7091,10 +7091,12 @@ newos6*)

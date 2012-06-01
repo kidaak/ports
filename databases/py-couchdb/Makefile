@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-couchdb/Makefile,v 1.10 2011/09/16 08:48:03 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Python library for working with CouchDB
 

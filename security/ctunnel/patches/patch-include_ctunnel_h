@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/ctunnel/patches/patch-include_ctunnel_h,v 1.1 2011/01/12 15:19:15 pea Exp $
+$OpenBSD$
 --- include/ctunnel.h.orig	Wed Jan 12 09:24:23 2011
 +++ include/ctunnel.h	Wed Jan 12 09:24:33 2011
 @@ -10,8 +10,8 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ksmp3play/patches/patch-configure,v 1.3 2003/12/29 13:52:19 espie Exp $
+$OpenBSD$
 --- configure.orig	2003-12-29 14:44:54.000000000 +0100
 +++ configure	2003-12-29 14:46:22.000000000 +0100
 @@ -1258,16 +1258,12 @@ int main (int argc, char *argv[])

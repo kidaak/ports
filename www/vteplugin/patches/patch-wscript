@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/vteplugin/patches/patch-wscript,v 1.2 2010/06/13 14:16:46 landry Exp $
+$OpenBSD$
 --- wscript.orig	Thu Apr 15 12:55:27 2010
 +++ wscript	Thu Apr 15 12:55:43 2010
 @@ -28,6 +28,6 @@ def build(ctx):

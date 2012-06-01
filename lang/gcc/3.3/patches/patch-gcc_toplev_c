@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_toplev_c,v 1.4 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/toplev.c.orig	Fri Mar  5 19:55:51 2004
 +++ gcc/toplev.c	Fri Jul 25 12:34:58 2008
 @@ -852,7 +852,11 @@ int flag_instrument_function_entry_exit = 0;

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/sawfish/pkg/PLIST,v 1.17 2011/12/03 23:20:53 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/sawfish
 bin/sawfish-client
 bin/sawfish-config

@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/cups/patches/patch-filter_pdftops_c,v 1.3 2011/09/08 10:33:12 ajacoutot Exp $
+$OpenBSD$
 
 Security fix for CVE-2009-3608, CVE-2009-3609.
 CUPS "pdftops" Filter Data Handling Integer Overflow Vulnerabilities

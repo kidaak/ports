@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/awesome/patches/patch-awesomeConfig_cmake,v 1.5 2011/11/30 11:50:58 dcoppa Exp $
+$OpenBSD$
 --- awesomeConfig.cmake.orig	Wed Nov 23 15:08:50 2011
 +++ awesomeConfig.cmake	Wed Nov 30 10:43:32 2011
 @@ -16,11 +16,11 @@ option(COMPRESS_MANPAGES "compress manpages" ON)

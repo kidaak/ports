@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/oilwar/Makefile,v 1.17 2011/04/25 15:01:28 jolan Exp $
+# $OpenBSD$
 
 COMMENT=	sdl shoot 'em up; stop evil army from getting your oil
 DISTNAME=	OilWar-1.2.1

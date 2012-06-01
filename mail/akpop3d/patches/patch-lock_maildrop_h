@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/akpop3d/patches/patch-lock_maildrop_h,v 1.1.1.1 2004/11/08 21:57:05 naddy Exp $
+$OpenBSD$
 --- lock_maildrop.h.orig	Thu Jan  3 21:21:52 2002
 +++ lock_maildrop.h	Fri Aug 27 01:45:07 2004
 @@ -5,7 +5,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qwt/patches/patch-qwtconfig_pri,v 1.2 2010/11/07 00:26:14 merdely Exp $
+$OpenBSD$
 --- qwtconfig.pri.orig	Sun Apr 11 05:55:06 2010
 +++ qwtconfig.pri	Tue Oct 26 04:57:31 2010
 @@ -8,7 +8,7 @@ VER_PAT      = 1

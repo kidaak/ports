@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/openclipart/Makefile,v 1.11 2010/11/20 09:48:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	desktop publishing clip-art
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-protocols_fddi_Makefile_in,v 1.4 2007/09/26 20:21:06 rui Exp $
+$OpenBSD$
 --- protocols/fddi/Makefile.in.orig	Fri Jul 27 16:29:27 2007
 +++ protocols/fddi/Makefile.in	Fri Jul 27 16:31:01 2007
 @@ -79,7 +79,7 @@ HEADERS = $(pkginclude_HEADERS)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libungif/pkg/PLIST,v 1.4 2005/11/09 21:17:20 brad Exp $
+@comment $OpenBSD$
 @conflict giflib-*
 %%SHARED%%
 bin/gif2epsn

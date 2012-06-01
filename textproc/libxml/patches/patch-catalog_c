@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/libxml/patches/patch-catalog_c,v 1.4 2007/07/05 16:05:09 steven Exp $
+$OpenBSD$
 --- catalog.c.orig	Tue Jun 12 11:09:38 2007
 +++ catalog.c	Mon Jul  2 12:50:32 2007
 @@ -68,10 +68,10 @@

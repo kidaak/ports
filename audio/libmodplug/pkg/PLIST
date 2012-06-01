@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libmodplug/pkg/PLIST,v 1.1.1.1 2010/11/07 00:44:09 jeremy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libmodplug/
 include/libmodplug/it_defs.h

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/py-mutagen/pkg/PLIST,v 1.2 2011/05/31 09:49:52 dcoppa Exp $
+@comment $OpenBSD$
 bin/mid3iconv
 bin/mid3v2
 bin/moggsplit

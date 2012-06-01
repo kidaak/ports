@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/jailkit/patches/patch-man_jk_chrootsh_8,v 1.1.1.1 2010/09/20 07:15:31 sebastia Exp $
+$OpenBSD$
 --- man/jk_chrootsh.8.orig	Sun Feb  7 17:13:06 2010
 +++ man/jk_chrootsh.8	Tue Sep 14 19:08:21 2010
 @@ -11,13 +11,13 @@ jk_chrootsh \- a shell that will put the user inside a

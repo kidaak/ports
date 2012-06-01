@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/procmail/pkg/PLIST,v 1.7 2012/03/17 10:47:19 sthen Exp $
+@comment $OpenBSD$
 @bin bin/formail
 @bin bin/lockfile
 bin/mailstat

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rabbitmq/patches/patch-Makefile,v 1.6 2012/01/13 20:54:25 sthen Exp $
+$OpenBSD$
 --- Makefile.orig	Fri Dec 16 12:24:15 2011
 +++ Makefile	Tue Dec 20 18:50:37 2011
 @@ -22,21 +22,10 @@ USAGES_XML=$(DOCS_DIR)/rabbitmqctl.1.xml $(DOCS_DIR)/r

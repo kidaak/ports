@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-GD-SecurityImage/pkg/PLIST,v 1.1.1.1 2007/09/15 16:40:52 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/GD/
 ${P5SITE}/GD/SecurityImage/
 ${P5SITE}/GD/SecurityImage.pm

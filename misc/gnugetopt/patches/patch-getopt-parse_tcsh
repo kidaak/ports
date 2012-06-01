@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/gnugetopt/patches/patch-getopt-parse_tcsh,v 1.1.1.1 2006/11/03 13:25:02 bernd Exp $
+$OpenBSD$
 --- getopt-parse.tcsh.orig	Thu Nov  2 15:33:06 2006
 +++ getopt-parse.tcsh	Thu Nov  2 15:33:32 2006
 @@ -1,6 +1,6 @@

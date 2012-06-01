@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/bindings3/Makefile,v 1.78 2012/01/12 23:52:20 naddy Exp $
+# $OpenBSD$
 
 COMMENT = 		K Desktop Environment, extra language support
 CATEGORIES =		x11 x11/kde devel

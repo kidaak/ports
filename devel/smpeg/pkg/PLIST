@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/smpeg/pkg/PLIST,v 1.6 2012/01/21 07:53:58 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/plaympeg
 bin/smpeg-config

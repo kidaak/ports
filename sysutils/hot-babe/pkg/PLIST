@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/hot-babe/pkg/PLIST,v 1.2 2004/12/25 22:29:25 naddy Exp $
+@comment $OpenBSD$
 bin/hot-babe
 @man man/man1/hot-babe.1
 share/examples/hot-babe/

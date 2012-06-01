@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/py-scipy/Makefile,v 1.16 2011/11/15 14:45:46 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=		maths, science and engineering modules for Python
 

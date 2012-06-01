@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xlogout/pkg/PLIST,v 1.4 2004/09/15 19:26:35 espie Exp $
+@comment $OpenBSD$
 bin/xlogout
 lib/X11/app-defaults/XLogout
 @man man/cat1/xlogout.0

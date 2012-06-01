@@ -1,4 +1,4 @@
-$OpenBSD: ports/plan9/9wm/patches/patch-manage_c,v 1.1 2011/07/08 09:44:02 jasper Exp $
+$OpenBSD$
 --- manage.c.orig	Fri Jul  8 11:42:53 2011
 +++ manage.c	Fri Jul  8 11:42:53 2011
 @@ -135,7 +135,7 @@ int mapped;

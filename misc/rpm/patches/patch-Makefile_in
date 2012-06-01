@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-Makefile_in,v 1.4 2011/10/16 07:03:12 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Sep 13 16:00:40 2000
 +++ Makefile.in	Sun Oct 16 02:26:04 2011
 @@ -162,19 +162,19 @@ EXTRA_DIST = CHANGES CREDITS GROUPS README.amiga INSTA

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fltk2/patches/patch-configure,v 1.2 2010/11/21 14:42:36 benoit Exp $
+$OpenBSD$
 --- configure.orig	Fri Oct 22 10:03:20 2010
 +++ configure	Sun Nov 14 11:05:03 2010
 @@ -8556,13 +8556,13 @@ fi

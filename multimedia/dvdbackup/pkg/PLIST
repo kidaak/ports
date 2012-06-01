@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/dvdbackup/pkg/PLIST,v 1.1.1.1 2005/11/03 07:46:02 jakemsr Exp $
+@comment $OpenBSD$
 bin/dvdbackup
 share/doc/dvdbackup/
 share/doc/dvdbackup/README

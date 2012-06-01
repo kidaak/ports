@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/gnumeric/patches/patch-gnumeric_desktop_in,v 1.1 2010/05/09 15:31:38 ajacoutot Exp $
+$OpenBSD$
 --- gnumeric.desktop.in.orig	Sun May  9 13:17:12 2010
 +++ gnumeric.desktop.in	Sun May  9 13:17:31 2010
 @@ -15,4 +15,4 @@ X-GNOME-Bugzilla-Product=Gnumeric

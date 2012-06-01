@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/sqlclient/pkg/PLIST,v 1.2 2011/10/15 08:02:23 sebastia Exp $
+@comment $OpenBSD$
 include/SQLClient/
 include/SQLClient/SQLClient.h
 lib/GNUstep/Bundles/

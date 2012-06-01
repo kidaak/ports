@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/rt/pkg/rt.rc,v 1.2 2011/06/14 13:19:33 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/rt-server"
 

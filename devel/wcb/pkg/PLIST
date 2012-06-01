@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/wcb/pkg/PLIST,v 1.1.1.1 2011/01/17 06:51:50 stu Exp $
+@comment $OpenBSD$
 lib/tcl/wcb/
 lib/tcl/wcb/pkgIndex.tcl
 lib/tcl/wcb/scripts/

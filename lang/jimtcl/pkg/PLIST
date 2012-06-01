@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/jimtcl/pkg/PLIST,v 1.1.1.1 2011/09/16 20:07:35 jasper Exp $
+@comment $OpenBSD$
 @bin bin/jimsh
 include/jim-config.h
 include/jim-eventloop.h

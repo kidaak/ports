@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/qtoctave/Makefile,v 1.13 2011/11/03 20:28:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	graphical front-end for octave
 

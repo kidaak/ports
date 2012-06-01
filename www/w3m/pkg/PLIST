@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/w3m/pkg/PLIST,v 1.20 2011/03/12 23:20:17 sthen Exp $
+@comment $OpenBSD$
 @bin bin/w3m
 bin/w3mman
 libexec/w3m/

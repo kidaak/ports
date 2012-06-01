@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/fontforge/patches/patch-Makefile_dynamic_in,v 1.4 2008/10/27 17:58:52 kili Exp $
+$OpenBSD$
 --- Makefile.dynamic.in.orig	Tue Jul 29 02:01:36 2008
 +++ Makefile.dynamic.in	Sun Oct 26 14:25:29 2008
 @@ -75,7 +75,6 @@ install_libs: libs

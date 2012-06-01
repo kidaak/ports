@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/tracker/Makefile,v 1.29 2011/10/21 17:43:30 espie Exp $
+# $OpenBSD$
 
 COMMENT =	MOD player
 DISTNAME =	tracker-5.3

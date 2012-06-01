@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xerces-c/patches/patch-src_xercesc_runConfigure,v 1.1.1.1 2008/10/26 23:15:17 ajacoutot Exp $
+$OpenBSD$
 --- src/xercesc/runConfigure.orig	Tue Aug 28 20:44:56 2007
 +++ src/xercesc/runConfigure	Sun Oct 26 19:35:14 2008
 @@ -272,7 +272,7 @@ echo "Extra configure options: $configureoptions"

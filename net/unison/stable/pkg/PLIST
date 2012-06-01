@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/unison/stable/pkg/PLIST,v 1.2 2009/10/09 07:13:41 giovanni Exp $
+@comment $OpenBSD$
 @bin bin/unison
 share/doc/unison/
 share/doc/unison/BUGS.txt

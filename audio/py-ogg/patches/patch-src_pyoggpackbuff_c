@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-ogg/patches/patch-src_pyoggpackbuff_c,v 1.2 2011/05/31 09:30:43 dcoppa Exp $
+$OpenBSD$
 
 Fix memory allocation/deallocation for Python 2.5 and above
 (from Debian's patchset for python-ogg)

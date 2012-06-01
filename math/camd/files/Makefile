@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/camd/files/Makefile,v 1.1.1.1 2010/10/26 16:59:53 steven Exp $
+# $OpenBSD$
 
 LIB=	camd
 

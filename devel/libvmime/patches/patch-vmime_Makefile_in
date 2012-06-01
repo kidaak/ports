@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libvmime/patches/patch-vmime_Makefile_in,v 1.3 2011/05/04 12:52:50 ajacoutot Exp $
+$OpenBSD$
 --- vmime/Makefile.in.orig	Tue Nov 16 13:56:03 2010
 +++ vmime/Makefile.in	Wed May  4 14:36:11 2011
 @@ -390,9 +390,6 @@ nobase_libvmimeinclude_HEADERS = address.hpp \

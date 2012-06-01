@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/eet/pkg/PLIST,v 1.3 2011/01/16 00:35:27 laurent Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/eet
 include/eet-1/

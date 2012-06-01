@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pgpdump/Makefile,v 1.19 2010/10/18 21:41:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	PGP packet visualizer
 

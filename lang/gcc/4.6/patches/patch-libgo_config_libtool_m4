@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libgo_config_libtool_m4,v 1.1 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libgo/config/libtool.m4.orig	Wed Jan 25 10:24:45 2012
 +++ libgo/config/libtool.m4	Wed Jan 25 10:24:56 2012
 @@ -2546,7 +2546,7 @@ openbsd*)

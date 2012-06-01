@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Config-Options/Makefile,v 1.5 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		provide a configuration hash with options
 

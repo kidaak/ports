@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/mysql/Makefile,v 1.202 2012/03/26 08:05:01 giovanni Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
@@ -6,10 +6,11 @@ COMMENT-main=	multithreaded SQL database (client)
 COMMENT-server=	multithreaded SQL database (server)
 COMMENT-tests=	multithreaded SQL database (regression test suite/benchmark)
 
-VERSION=	5.1.62
+VERSION=	5.1.63
 DISTNAME=	mysql-${VERSION}
 PKGNAME-main=	mysql-client-${VERSION}
 PKGNAME-server=	mysql-server-${VERSION}
+REVISION-server= 0
 PKGNAME-tests= 	mysql-tests-${VERSION}
 CATEGORIES=	databases
 V=		MySQL-5.1
@@ -29,9 +30,9 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 WANTLIB=		c m pthread
 
-DB_DIR?=	/var/mysql
+LOCALSTATEDIR=	${BASELOCALSTATEDIR}/mysql
 SOCKET_DIR=	/var/run/mysql
-SUBST_VARS=	DB_DIR SOCKET_DIR VERSION
+SUBST_VARS=	SOCKET_DIR
 
 MULTI_PACKAGES=		-main -server -tests
 
@@ -47,8 +48,7 @@ USE_GROFF=	Yes
 CONFIGURE_STYLE= autoconf
 AUTOCONF_VERSION= 2.63
 CONFIGURE_ARGS+= ${CONFIGURE_SHARED}
-CONFIGURE_ARGS+= --localstatedir="${DB_DIR}" \
-		 --with-big-tables \
+CONFIGURE_ARGS+= --with-big-tables \
 		 --with-comment='OpenBSD port: ${FULLPKGNAME-server}' \
 		 --with-libwrap \
 		 --with-low-memory \

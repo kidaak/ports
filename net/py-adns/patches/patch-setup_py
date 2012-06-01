@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/py-adns/patches/patch-setup_py,v 1.1.1.1 2008/04/01 13:50:36 jasper Exp $
+$OpenBSD$
 --- setup.py.orig	Tue Apr  1 14:50:35 2008
 +++ setup.py	Tue Apr  1 14:51:35 2008
 @@ -10,8 +10,8 @@ from distutils.extension import Extension

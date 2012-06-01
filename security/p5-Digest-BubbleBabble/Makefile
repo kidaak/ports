@@ -1,16 +1,14 @@
-# $OpenBSD: ports/security/p5-Digest-BubbleBabble/Makefile,v 1.6 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to bubble-babble fingerprints
 
 MODULES=	cpan
-DISTNAME=	Digest-BubbleBabble-0.01
-REVISION=	0
+DISTNAME=	Digest-BubbleBabble-0.02
 CATEGORIES=	security
-USE_GROFF =	Yes
 
 MAINTAINER=	Peter Stromberg <wilfried@openbsd.org>
 
-# Artistic licence
+# Perl
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/Wnn/pkg/PLIST-ko,v 1.10 2004/09/15 00:53:48 espie Exp $
+@comment $OpenBSD$
 bin/katod
 bin/katof
 bin/kdtoa

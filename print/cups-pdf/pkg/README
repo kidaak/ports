@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/cups-pdf/pkg/README,v 1.1 2012/04/11 17:29:50 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

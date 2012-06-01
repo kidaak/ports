@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-comonad/pkg/PLIST,v 1.1.1.1 2012/01/23 21:02:56 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Control/
 lib/ghc/${DISTNAME}/Control/Comonad.hi

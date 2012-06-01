@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-htmltmpl/Makefile,v 1.4 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	templating engine for separation of code and HTML
 

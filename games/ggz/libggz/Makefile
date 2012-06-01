@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ggz/libggz/Makefile,v 1.11 2011/08/29 12:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GGZ Gaming Zone - base library
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gif2png/Makefile,v 1.40 2011/11/02 08:46:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	converts GIF images to the PNG format
 

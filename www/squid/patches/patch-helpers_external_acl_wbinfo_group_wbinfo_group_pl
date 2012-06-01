@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/squid/patches/patch-helpers_external_acl_wbinfo_group_wbinfo_group_pl,v 1.1 2010/11/26 13:45:04 dcoppa Exp $
+$OpenBSD$
 --- helpers/external_acl/wbinfo_group/wbinfo_group.pl.orig	Mon Nov 15 20:11:59 2010
 +++ helpers/external_acl/wbinfo_group/wbinfo_group.pl	Mon Nov 15 20:12:56 2010
 @@ -45,14 +45,14 @@ sub debug {

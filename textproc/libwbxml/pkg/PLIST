@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/libwbxml/pkg/PLIST,v 1.1.1.1 2011/10/24 20:27:40 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/wbxml2xml
 @bin bin/xml2wbxml

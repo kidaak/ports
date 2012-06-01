@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/trans/patches/patch-src_transiso_man,v 1.1 2005/09/05 13:48:52 espie Exp $
+$OpenBSD$
 --- src/transiso.man.orig	Mon Sep  5 15:41:06 2005
 +++ src/transiso.man	Mon Sep  5 15:45:26 2005
 @@ -1,6 +1,7 @@

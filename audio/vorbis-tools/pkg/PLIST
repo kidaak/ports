@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/vorbis-tools/pkg/PLIST,v 1.12 2010/06/03 15:50:28 naddy Exp $
+@comment $OpenBSD$
 @bin bin/ogg123
 @bin bin/oggdec
 @bin bin/oggenc

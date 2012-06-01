@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/mk/fortran.port.mk,v 1.12 2010/11/20 19:57:30 espie Exp $
+# $OpenBSD$
 
 MODFORTRAN_COMPILER ?= g77
 

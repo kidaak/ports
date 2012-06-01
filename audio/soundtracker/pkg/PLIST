@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/soundtracker/pkg/PLIST,v 1.8 2009/12/19 22:59:27 jakemsr Exp $
+@comment $OpenBSD$
 @pkgpath audio/soundtracker,esd
 @pkgpath audio/soundtracker,gnome
 @pkgpath audio/soundtracker,gnome,esd

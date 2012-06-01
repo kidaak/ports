@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-features_org_eclipse_platform_launchers_target_build_xml,v 1.1 2006/07/07 01:48:55 kurt Exp $
+$OpenBSD$
 --- features/org.eclipse.platform.launchers/target.build.xml.orig	Tue Jun  6 23:21:36 2006
 +++ features/org.eclipse.platform.launchers/target.build.xml	Tue Jun  6 23:23:45 2006
 @@ -73,6 +73,16 @@

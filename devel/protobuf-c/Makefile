@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/protobuf-c/Makefile,v 1.2 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		c protocol buffers
 

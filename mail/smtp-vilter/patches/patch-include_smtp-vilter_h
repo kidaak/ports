@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/smtp-vilter/patches/patch-include_smtp-vilter_h,v 1.1 2009/11/26 14:02:58 jasper Exp $
+$OpenBSD$
 --- include/smtp-vilter.h.orig	Sun Jan 21 13:09:38 2007
 +++ include/smtp-vilter.h	Fri Oct 23 16:32:18 2009
 @@ -98,9 +98,11 @@ enum reactions {

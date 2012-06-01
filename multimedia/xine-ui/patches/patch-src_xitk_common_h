@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-ui/patches/patch-src_xitk_common_h,v 1.1 2010/04/18 20:59:39 sthen Exp $
+$OpenBSD$
 --- src/xitk/common.h.orig	Fri Apr  9 19:01:24 2010
 +++ src/xitk/common.h	Fri Apr  9 19:09:16 2010
 @@ -375,8 +375,8 @@ typedef struct {

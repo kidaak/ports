@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tintin++/patches/patch-configure,v 1.1 2007/10/26 22:10:06 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Sun Aug 28 12:06:38 1994
 +++ configure	Sat Oct 27 00:05:07 2007
 @@ -474,17 +474,20 @@ fi

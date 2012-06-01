@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/tinyproxy/patches/patch-doc_tinyproxy_conf,v 1.2 2009/04/11 23:54:12 sthen Exp $
+$OpenBSD$
 --- doc/tinyproxy.conf.orig	Sun Aug 24 06:58:43 2008
 +++ doc/tinyproxy.conf	Tue Mar 24 03:09:09 2009
 @@ -6,8 +6,8 @@

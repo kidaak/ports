@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/ijs/Makefile,v 1.4 2012/02/17 15:53:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		raster image transmission library
 

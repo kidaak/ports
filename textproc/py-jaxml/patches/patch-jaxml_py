@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/py-jaxml/patches/patch-jaxml_py,v 1.1 2011/06/07 18:47:59 jasper Exp $
+$OpenBSD$
 
 Assignment to __debug__, even as an attribute, is not allowed in
 Python 2.7. See upstream tracker issue

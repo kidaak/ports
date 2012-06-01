@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-CDDB-File/Makefile,v 1.4 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		parse a CDDB/freedb data file
 

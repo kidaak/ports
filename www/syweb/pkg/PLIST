@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/syweb/pkg/PLIST,v 1.3 2010/07/01 13:15:52 sthen Exp $
+@comment $OpenBSD$
 htdocs/syweb/
 htdocs/syweb/class_cache.inc
 htdocs/syweb/class_graph.inc

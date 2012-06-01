@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/gpsbabel/patches/patch-guibabel,v 1.2 2012/02/18 22:04:07 sthen Exp $
+$OpenBSD$
 --- guibabel.orig	Thu Oct 12 19:37:40 2006
 +++ guibabel	Thu Oct 12 19:37:51 2006
 @@ -1,6 +1,6 @@

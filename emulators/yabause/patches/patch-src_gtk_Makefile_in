@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/yabause/patches/patch-src_gtk_Makefile_in,v 1.1.1.1 2011/04/01 17:17:45 jeremy Exp $
+$OpenBSD$
 
 Remove unnecessary code that breaks fake.
 

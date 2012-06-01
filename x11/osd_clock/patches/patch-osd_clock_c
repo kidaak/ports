@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/osd_clock/patches/patch-osd_clock_c,v 1.1.1.1 2004/12/01 06:46:35 jolan Exp $
+$OpenBSD$
 --- osd_clock.c.orig	Sat Apr  7 17:50:01 2001
 +++ osd_clock.c	Wed Dec  1 00:34:21 2004
 @@ -109,7 +109,15 @@ int main (int argc, char *argv[])

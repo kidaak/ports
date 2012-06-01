@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/libs3/pkg/PLIST-main,v 1.17 2011/12/03 18:46:30 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict kdebase-<3.5
 @conflict kdeartwork-<3.4
 @conflict kdeaddons-<3.4

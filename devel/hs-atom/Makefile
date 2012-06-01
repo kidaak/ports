@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-atom/Makefile,v 1.4 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=		DSL for embedded hard realtime applications
 

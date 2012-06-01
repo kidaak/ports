@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/aircrack-ng/pkg/PLIST,v 1.2 2011/05/21 11:19:24 fgsch Exp $
+@comment $OpenBSD$
 @bin bin/aircrack-ng
 @bin bin/airdecap-ng
 @bin bin/airdecloak-ng

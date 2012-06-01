@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/nut/patches/patch-configure,v 1.18 2012/01/12 11:39:36 sthen Exp $
+$OpenBSD$
 --- configure.orig	Tue Jan  3 13:36:06 2012
 +++ configure	Wed Jan 11 15:30:24 2012
 @@ -9396,7 +9396,8 @@ if test -z "${nut_have_libwrap_seen}"; then

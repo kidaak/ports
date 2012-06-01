@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/dillo/patches/patch-dpid_Makefile_in,v 1.5 2010/03/01 14:53:34 benoit Exp $
+$OpenBSD$
 --- dpid/Makefile.in.orig	Thu Feb 11 11:20:00 2010
 +++ dpid/Makefile.in	Tue Feb 23 10:30:20 2010
 @@ -440,7 +440,7 @@

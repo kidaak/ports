@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-protocols_arp_Makefile_in,v 1.4 2007/09/26 20:21:06 rui Exp $
+$OpenBSD$
 --- protocols/arp/Makefile.in.orig	Fri Jul 27 16:26:47 2007
 +++ protocols/arp/Makefile.in	Fri Jul 27 16:27:35 2007
 @@ -75,7 +75,7 @@ DIST_SOURCES = $(nd_arp_la_SOURCES)

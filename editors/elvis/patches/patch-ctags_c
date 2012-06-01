@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/elvis/patches/patch-ctags_c,v 1.2 2008/12/11 13:58:14 jasper Exp $
+$OpenBSD$
 --- ctags.c.orig	Tue Dec  9 12:02:33 2008
 +++ ctags.c	Tue Dec  9 12:04:16 2008
 @@ -241,7 +241,7 @@ int file_copyline(seek, fp, buf)

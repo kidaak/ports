@@ -1,10 +1,10 @@
-# $OpenBSD: ports/security/py-crypto/Makefile,v 1.25 2012/02/17 09:32:18 mpi Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 
 COMMENT =		cryptographic tools for Python
 
-MODPY_EGG_VERSION =	2.5
+MODPY_EGG_VERSION =	2.6
 DISTNAME =		pycrypto-${MODPY_EGG_VERSION}
 PKGNAME =		py-crypto-${MODPY_EGG_VERSION}
 CATEGORIES =    	security devel
@@ -31,7 +31,7 @@ LIB_DEPENDS =	${MODPY_LIB_DEPENDS} \
 WANTLIB =	${MODPY_WANTLIB} gmp
 
 # XXX Don't set CONFIGURE_STYLE=simple otherwise python.port.mk will
-# not define do-build and do-install 
+# not define do-build and do-install
 CONFIGURE_ARGS =	CFLAGS="-I${LOCALBASE}/include" \
 			LDFLAGS="-L${LOCALBASE}/lib"
 CFLAGS += 		-I${LOCALBASE}/include

@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/tin/patches/patch-configure_in,v 1.2 2011/10/07 14:12:55 giovanni Exp $
+$OpenBSD$
 --- configure.in.orig	Tue Aug 23 00:03:55 2011
 +++ configure.in	Tue Oct  4 11:16:42 2011
 @@ -34,7 +34,7 @@ dnl SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SU

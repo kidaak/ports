@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/clamav/pkg/PLIST,v 1.21 2012/03/15 22:04:44 sthen Exp $
+@comment $OpenBSD$
 @newgroup _clamav:539
 @newuser _clamav:539:539:daemon:Clam AntiVirus:/nonexistent:/sbin/nologin
 @extraunexec rm -fr /var/db/clamav/*

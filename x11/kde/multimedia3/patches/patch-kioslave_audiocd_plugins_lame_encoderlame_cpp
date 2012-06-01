@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/multimedia3/patches/patch-kioslave_audiocd_plugins_lame_encoderlame_cpp,v 1.1 2007/10/24 21:52:18 espie Exp $
+$OpenBSD$
 --- kioslave/audiocd/plugins/lame/encoderlame.cpp.orig	Wed Oct 24 18:26:48 2007
 +++ kioslave/audiocd/plugins/lame/encoderlame.cpp	Wed Oct 24 18:27:36 2007
 @@ -17,7 +17,8 @@

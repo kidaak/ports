@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/ruby-json/pkg/PLIST,v 1.8 2011/11/09 00:17:37 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/edit_json.rb${GEM_BIN_SUFFIX}
 ${GEM_BIN}/prettify_json.rb${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem

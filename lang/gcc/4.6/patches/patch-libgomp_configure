@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libgomp_configure,v 1.1 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libgomp/configure.orig	Wed Oct 26 11:30:24 2011
 +++ libgomp/configure	Wed Jan 25 18:22:06 2012
 @@ -10504,7 +10504,7 @@ openbsd*)

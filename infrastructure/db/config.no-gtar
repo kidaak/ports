@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/db/config.no-gtar,v 1.1 2011/12/10 11:15:16 espie Exp $
+# $OpenBSD$
 # included unless archivers/gtar*
 am_cv_prog_tar_ustar=${am_cv_prog_tar_ustar=tar}
 AMTAR=${AMTAR=tar}

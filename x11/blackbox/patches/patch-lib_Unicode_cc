@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/blackbox/patches/patch-lib_Unicode_cc,v 1.1 2005/06/23 20:35:23 sturm Exp $
+$OpenBSD$
 --- lib/Unicode.cc.orig	Mon Jan  3 10:42:53 2005
 +++ lib/Unicode.cc	Tue Jun  7 07:33:56 2005
 @@ -166,7 +166,7 @@ bool bt::hasUnicode() {

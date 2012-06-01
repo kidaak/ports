@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/htmldoc/Makefile,v 1.29 2011/07/10 09:40:57 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	convert HTML pages to PDF/PS format
 

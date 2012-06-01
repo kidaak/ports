@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/session/pkg/PLIST,v 1.38 2012/03/29 07:23:22 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gnome-session
 @bin bin/gnome-session-properties
 @bin bin/gnome-session-quit
@@ -43,6 +43,7 @@ share/locale/ca/LC_MESSAGES/gnome-session-3.0.mo
 share/locale/ca@valencia/LC_MESSAGES/gnome-session-3.0.mo
 share/locale/crh/LC_MESSAGES/gnome-session-3.0.mo
 share/locale/cs/LC_MESSAGES/gnome-session-3.0.mo
+share/locale/csb/LC_MESSAGES/gnome-session-3.0.mo
 share/locale/cy/LC_MESSAGES/gnome-session-3.0.mo
 share/locale/da/LC_MESSAGES/gnome-session-3.0.mo
 share/locale/de/LC_MESSAGES/gnome-session-3.0.mo

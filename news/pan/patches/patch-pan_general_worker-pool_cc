@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/pan/patches/patch-pan_general_worker-pool_cc,v 1.1 2012/03/29 12:09:55 naddy Exp $
+$OpenBSD$
 --- pan/general/worker-pool.cc.orig	Wed Mar 28 17:41:49 2012
 +++ pan/general/worker-pool.cc	Wed Mar 28 17:41:59 2012
 @@ -21,7 +21,7 @@

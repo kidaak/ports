@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-transaction-simple/Makefile,v 1.12 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT =	generic active transaction support for ruby objects
 

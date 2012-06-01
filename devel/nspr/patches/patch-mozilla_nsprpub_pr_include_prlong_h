@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/nspr/patches/patch-mozilla_nsprpub_pr_include_prlong_h,v 1.1 2011/10/27 07:58:03 robert Exp $
+$OpenBSD$
 --- mozilla/nsprpub/pr/include/prlong.h.orig	Wed Oct 12 11:57:07 2011
 +++ mozilla/nsprpub/pr/include/prlong.h	Wed Oct 12 11:57:16 2011
 @@ -67,7 +67,7 @@ NSPR_API(PRUint64) LL_MaxUint(void);

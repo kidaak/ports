@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/openjade/Makefile,v 1.22 2010/11/20 19:56:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	object-oriented DSSSL engine
 

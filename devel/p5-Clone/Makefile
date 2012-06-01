@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Clone/Makefile,v 1.17 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

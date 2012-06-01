@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-ruledispatch/pkg/PLIST,v 1.2 2009/10/11 20:59:37 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/RuleDispatch-0.5a0.dev_r2306-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/RuleDispatch-0.5a0.dev_r2306-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/RuleDispatch-0.5a0.dev_r2306-py${MODPY_VERSION}.egg-info/SOURCES.txt

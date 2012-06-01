@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/freemat/patches/patch-CMakeLists_txt,v 1.1 2010/10/24 19:28:50 steven Exp $
+$OpenBSD$
 --- CMakeLists.txt.orig	Fri Oct  9 08:24:39 2009
 +++ CMakeLists.txt	Sun Oct 24 14:32:58 2010
 @@ -25,7 +25,7 @@ set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake/module

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.65/patches/patch-Makefile_in,v 1.1.1.1 2010/03/22 20:54:07 espie Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sat Nov 21 14:59:19 2009
 +++ Makefile.in	Mon Mar  8 12:26:47 2010
 @@ -312,6 +312,7 @@ install-pkgdataDATA: $(pkgdata_DATA)

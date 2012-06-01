@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ezm3/Makefile,v 1.15 2010/10/24 21:06:28 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 

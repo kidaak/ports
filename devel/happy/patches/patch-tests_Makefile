@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/happy/patches/patch-tests_Makefile,v 1.2 2010/04/22 21:48:51 kili Exp $
+$OpenBSD$
 
 AttrGrammer stuff doesn't exist.
 

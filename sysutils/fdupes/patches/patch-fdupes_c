@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/fdupes/patches/patch-fdupes_c,v 1.1.1.1 2008/06/20 06:03:43 ckuethe Exp $
+$OpenBSD$
 --- fdupes.c.orig	Thu Mar 15 04:16:09 2001
 +++ fdupes.c	Fri May 30 13:49:42 2008
 @@ -34,6 +34,11 @@

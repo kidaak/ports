@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/aimsniff/Makefile,v 1.3 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 PKG_ARCH=	*
 
 COMMENT=	utility for monitoring and archiving AOL Instant Messenger

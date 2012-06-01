@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-LockFile-Simple/pkg/PLIST,v 1.1.1.1 2008/11/14 07:28:43 pea Exp $
+@comment $OpenBSD$
 ${P5SITE}/LockFile/
 ${P5SITE}/LockFile/Lock/
 ${P5SITE}/LockFile/Lock.pm

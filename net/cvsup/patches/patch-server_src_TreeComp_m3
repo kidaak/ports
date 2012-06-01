@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/cvsup/patches/patch-server_src_TreeComp_m3,v 1.1 2005/03/28 19:06:25 naddy Exp $
+$OpenBSD$
 --- server/src/TreeComp.m3.orig	Tue Mar  4 20:26:17 2003
 +++ server/src/TreeComp.m3	Sun Mar 27 00:22:15 2005
 @@ -662,21 +662,20 @@ PROCEDURE GetFromServer(m: Merger): File

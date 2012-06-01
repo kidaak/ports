@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/monodevelop/Makefile,v 1.13 2011/12/03 19:38:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	IDE for the .NET platform
 DISTNAME=	monodevelop-2.4.2

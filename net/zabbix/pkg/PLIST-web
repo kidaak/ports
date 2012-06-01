@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/zabbix/pkg/PLIST-web,v 1.16 2012/01/03 09:58:41 robert Exp $
+@comment $OpenBSD$
 @pkgpath net/zabbix,-web,mysql
 @pkgpath net/zabbix,-web,pgsql
 conf/modules.sample/zabbix.conf

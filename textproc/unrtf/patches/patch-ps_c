@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/unrtf/patches/patch-ps_c,v 1.2 2005/05/15 18:09:41 db Exp $
+$OpenBSD$
 --- ps.c.orig	Thu Feb 19 00:35:03 2004
 +++ ps.c	Thu May 12 12:46:35 2005
 @@ -116,352 +116,350 @@ static char* cp850 [] = {

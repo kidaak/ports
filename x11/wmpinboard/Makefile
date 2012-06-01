@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmpinboard/Makefile,v 1.16 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; resembling a miniature pin board
 

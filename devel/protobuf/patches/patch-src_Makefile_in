@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/protobuf/patches/patch-src_Makefile_in,v 1.2 2011/07/11 05:25:31 dcoppa Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sat Apr 30 19:25:00 2011
 +++ src/Makefile.in	Sat Jul  9 02:32:35 2011
 @@ -156,8 +156,8 @@ protobuf_lazy_descriptor_test_OBJECTS =  \

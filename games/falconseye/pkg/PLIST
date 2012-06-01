@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/falconseye/pkg/PLIST,v 1.5 2011/05/11 06:56:42 ajacoutot Exp $
+@comment $OpenBSD$
 @unexec rm -rf ${GAMEDIR}/save/*
 @group games
 bin/falconseye

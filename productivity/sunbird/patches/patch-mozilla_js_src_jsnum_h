@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_js_src_jsnum_h,v 1.3 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/js/src/jsnum.h.orig	Wed Jun 23 19:46:38 2010
 +++ mozilla/js/src/jsnum.h	Wed Jul  7 08:43:19 2010
 @@ -65,7 +65,7 @@ JS_BEGIN_EXTERN_C

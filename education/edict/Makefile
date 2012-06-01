@@ -1,4 +1,4 @@
-# $OpenBSD: ports/education/edict/Makefile,v 1.7 2007/09/16 03:07:06 merdely Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-thin/Makefile,v 1.13 2011/11/17 15:53:54 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	fast and very simple Ruby web server
 

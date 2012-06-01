@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-WordDiff/Makefile,v 1.9 2011/06/25 08:23:43 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		module to diff based on word, not lines
 

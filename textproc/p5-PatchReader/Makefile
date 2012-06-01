@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-PatchReader/Makefile,v 1.6 2011/06/03 13:59:55 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	utilities to read and manipulate patches and CVS
 

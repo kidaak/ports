@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Socket6/pkg/PLIST,v 1.2 2004/09/15 18:17:44 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Socket6.pm
 ${P5ARCH}/auto/

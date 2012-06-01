@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-genshi/pkg/PLIST,v 1.2 2010/06/15 11:25:02 sthen Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Genshi-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/Genshi-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/Genshi-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/gambatte/Makefile,v 1.3 2010/12/08 20:13:14 landry Exp $
+# $OpenBSD$
 
 COMMENT =		highly accurate Game Boy Color emulator
 

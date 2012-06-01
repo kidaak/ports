@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-mocha/Makefile,v 1.14 2011/11/17 15:41:11 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	Ruby library for mocking and stubbing
 

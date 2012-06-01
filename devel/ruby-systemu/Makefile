@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-systemu/Makefile,v 1.1.1.1 2011/12/21 19:27:23 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		portable replacement for popen4
 

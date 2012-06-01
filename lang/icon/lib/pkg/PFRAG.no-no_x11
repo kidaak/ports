@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/icon/lib/pkg/PFRAG.no-no_x11,v 1.6 2006/10/16 10:01:55 espie Exp $
+@comment $OpenBSD$
 bin/vib
 bin/xtiles
 @man man/man6/xtiles.6

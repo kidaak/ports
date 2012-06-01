@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-Calc-Units/Makefile,v 1.4 2011/03/10 23:23:17 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	human-readable unit-aware calculator
 

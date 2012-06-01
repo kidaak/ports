@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/py-gnome/Makefile,v 1.42 2011/10/29 08:12:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GNOME Python bindings
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/dpic/Makefile,v 1.3 2012/01/13 11:25:39 nigel Exp $
+# $OpenBSD$
 
 COMMENT =		pic-like interpreter for producing line graphics
 

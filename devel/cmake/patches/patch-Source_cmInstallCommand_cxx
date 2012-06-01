@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cmake/patches/patch-Source_cmInstallCommand_cxx,v 1.2 2010/07/28 20:34:22 dcoppa Exp $
+$OpenBSD$
 --- Source/cmInstallCommand.cxx.orig	Mon Jun 28 17:15:59 2010
 +++ Source/cmInstallCommand.cxx	Wed Jul 28 21:12:05 2010
 @@ -324,6 +324,9 @@ bool cmInstallCommand::HandleTargetsMode(std::vector<s

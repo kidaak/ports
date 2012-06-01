@@ -1,9 +1,9 @@
-# $OpenBSD: ports/x11/gnome/online-accounts/Makefile,v 1.16 2012/03/29 07:51:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interfaces for interacting with online accounts
 
 GNOME_PROJECT=	gnome-online-accounts
-GNOME_VERSION=	3.4.0
+GNOME_VERSION=	3.4.2
 
 SHARED_LIBS +=  goa-1.0              0.0      # .0.0
 SHARED_LIBS +=  goa-backend-1.0      0.0      # .0.0
@@ -28,6 +28,7 @@ WANTLIB += json-glib-1.0 m notify orc-0.4 pango-1.0 pangocairo-1.0
 WANTLIB += pangoft2-1.0 pcre pixman-1 png pthread pthread-stubs
 WANTLIB += rest-0.7 soup-2.4 soup-gnome-2.4 sqlite3 stdc++ webkitgtk-3.0
 WANTLIB += xcb xcb-render xcb-shm xml2 xslt z
+WANTLIB += dbus-glib-1 geoclue gstaudio-0.10 gstfft-0.10
 
 MODULES=		devel/gettext \
 			x11/gnome
@@ -40,7 +41,5 @@ LIB_DEPENDS=		devel/json-glib \
 
 MODGNOME_TOOLS= 	goi
 MODGNOME_ICON_CACHE=	Yes
-
-CONFIGURE_ARGS=		--localstatedir=/var
 
 .include <bsd.port.mk>

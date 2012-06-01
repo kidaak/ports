@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/libtomoe-gtk/pkg/PLIST,v 1.1.1.1 2006/10/19 00:40:15 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/tomoe/
 include/tomoe/tomoe-gtk.h

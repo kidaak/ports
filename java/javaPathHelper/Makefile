@@ -1,4 +1,4 @@
-# $OpenBSD: ports/java/javaPathHelper/Makefile,v 1.7 2011/09/07 21:15:21 armani Exp $
+# $OpenBSD$
 
 COMMENT=		helper script for launching java applications
 

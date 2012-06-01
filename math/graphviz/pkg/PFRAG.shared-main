@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/graphviz/pkg/PFRAG.shared-main,v 1.1 2007/02/20 11:47:07 espie Exp $
+@comment $OpenBSD$
 @lib lib/graphviz/guile/libgv_guile.so.${LIBgv_guile_VERSION}
 @lib lib/graphviz/libgvplugin_core.so.${LIBgvplugin_core_VERSION}
 @lib lib/graphviz/libgvplugin_dot_layout.so.${LIBgvplugin_dot_layout_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/imapproxy/Makefile,v 1.7 2010/11/19 07:23:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	caching IMAP proxy to be used with webmail clients
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ac3dec/patches/patch-libac3_Makefile_in,v 1.2 2007/10/29 07:59:27 jakemsr Exp $
+$OpenBSD$
 --- libac3/Makefile.in.orig	Wed Mar 29 16:55:28 2000
 +++ libac3/Makefile.in	Mon Oct 29 00:13:50 2007
 @@ -70,8 +70,6 @@ VERSION = @VERSION@

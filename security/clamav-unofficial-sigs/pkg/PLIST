@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/clamav-unofficial-sigs/pkg/PLIST,v 1.1.1.1 2011/03/26 12:26:44 sthen Exp $
+@comment $OpenBSD$
 bin/clamav-unofficial-sigs.sh
 @man man/man8/clamav-unofficial-sigs.8
 share/examples/clamav-unofficial-sigs/

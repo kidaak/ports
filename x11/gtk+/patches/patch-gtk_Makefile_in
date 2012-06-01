@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gtk+/patches/patch-gtk_Makefile_in,v 1.5 2008/12/22 20:19:00 naddy Exp $
+$OpenBSD$
 --- gtk/Makefile.in.orig	Mon Apr  2 05:14:13 2001
 +++ gtk/Makefile.in	Mon Dec 22 21:17:53 2008
 @@ -125,7 +125,7 @@ x_ldflags = @x_ldflags@

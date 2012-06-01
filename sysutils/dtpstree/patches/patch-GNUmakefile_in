@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/dtpstree/patches/patch-GNUmakefile_in,v 1.1 2012/01/08 22:49:56 naddy Exp $
+$OpenBSD$
 --- GNUmakefile.in.orig	Mon Aug  2 00:42:56 2010
 +++ GNUmakefile.in	Sun Jan  8 23:44:59 2012
 @@ -23,7 +23,7 @@ VPATH := @srcdir@

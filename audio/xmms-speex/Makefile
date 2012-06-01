@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmms-speex/Makefile,v 1.9 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

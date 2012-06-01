@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/core/patches/patch-source_mupen64plus-core_src_r4300_recomp_h,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/r4300/recomp.h.orig	Sun Dec 18 23:14:01 2011
 +++ src/r4300/recomp.h	Sun Dec 18 20:04:55 2011
 @@ -88,14 +88,15 @@ typedef struct _precomp_block

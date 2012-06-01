@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/qtoctave/pkg/PLIST,v 1.2 2009/04/14 18:23:40 steven Exp $
+@comment $OpenBSD$
 @bin bin/qtoctave
 @bin bin/widgetserver
 share/doc/qtoctave/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/seed/patches/patch-configure,v 1.3 2011/11/02 19:21:36 jasper Exp $
+$OpenBSD$
 
 From 1ec48efc03df9368a59f501dfd1de9c9b15f016c Mon Sep 17 00:00:00 2001
 From: Alan Knowles <alan@akbkhome.com>

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Convert-BER/pkg/PLIST,v 1.6 2004/09/14 23:25:50 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Convert/
 ${P5SITE}/Convert/BER.pm
 ${P5SITE}/Convert/BER.pod

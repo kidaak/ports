@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/eruby/patches/patch-configure_rb,v 1.2 2010/09/23 22:14:09 jeremy Exp $
+$OpenBSD$
 --- configure.rb.orig	Sun Feb  9 19:18:10 2003
 +++ configure.rb	Wed Sep 15 18:04:56 2010
 @@ -1,4 +1,4 @@

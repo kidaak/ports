@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/telepathy-glib/Makefile,v 1.43 2012/04/03 06:45:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		flexible communications framework, glib bindings
 

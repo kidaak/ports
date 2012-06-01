@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/cadaver/patches/patch-configure,v 1.2 2010/04/30 09:41:20 jasper Exp $
+$OpenBSD$
 --- configure.orig	Tue Dec 15 23:36:26 2009
 +++ configure	Fri Apr 30 11:39:15 2010
 @@ -24397,13 +24397,13 @@ rm -f core conftest.err conftest.$ac_objext conftest_i

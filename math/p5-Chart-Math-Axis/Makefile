@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Chart-Math-Axis/Makefile,v 1.5 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=        algorithm to find good values for chart axis
 

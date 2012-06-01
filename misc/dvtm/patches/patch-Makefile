@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/dvtm/patches/patch-Makefile,v 1.1 2010/11/24 13:09:11 jasper Exp $
+$OpenBSD$
 
 - Don't hide the compile commands.
 - Don't unconditionally strip the binary.

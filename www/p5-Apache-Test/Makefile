@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Apache-Test/Makefile,v 1.14 2010/12/03 11:46:51 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Test wrapper with helpers for testing Apache
 

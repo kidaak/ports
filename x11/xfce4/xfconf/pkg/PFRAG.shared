@@ -1,2 +1,0 @@
-@comment $OpenBSD: ports/x11/xfce4/xfconf/pkg/PFRAG.shared,v 1.1.1.1 2009/03/08 17:06:42 landry Exp $
-@lib lib/libxfconf-0.so.${LIBxfconf-0_VERSION}

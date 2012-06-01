@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/dosbox/Makefile,v 1.21 2011/09/21 09:15:21 jasper Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	${GCC4_ARCHS}
 

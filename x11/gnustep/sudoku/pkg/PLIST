@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/sudoku/pkg/PLIST,v 1.1.1.1 2011/07/16 15:21:43 sebastia Exp $
+@comment $OpenBSD$
 bin/Sudoku
 libexec/GNUstep/
 libexec/GNUstep/Sudoku.app/

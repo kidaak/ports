@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openconnect/patches/patch-ssl_c,v 1.1 2012/01/16 22:58:54 sthen Exp $
+$OpenBSD$
 
 Fix potential crash when processing libproxy results. 88f79b upstream
 

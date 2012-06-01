@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/swish-e/patches/patch-src_swish_c,v 1.1 2010/10/26 12:21:35 merdely Exp $
+$OpenBSD$
 --- src/swish.c.orig	Tue Oct 26 01:41:44 2010
 +++ src/swish.c	Tue Oct 26 01:41:58 2010
 @@ -269,15 +269,15 @@ static void    usage()

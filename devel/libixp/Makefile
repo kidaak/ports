@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libixp/Makefile,v 1.6 2010/11/15 19:45:59 espie Exp $
+# $OpenBSD$
 
 COMMENT=	stand-alone client/server 9P library
 

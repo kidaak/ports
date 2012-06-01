@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/orc/patches/patch-configure_ac,v 1.5 2011/10/04 06:45:41 ajacoutot Exp $
+$OpenBSD$
 --- configure.ac.orig	Sun Sep 25 17:12:47 2011
 +++ configure.ac	Sun Oct  2 23:37:06 2011
 @@ -171,7 +171,7 @@ ORC_CFLAGS="$ORC_CFLAGS \$(ERROR_CFLAGS) -I\$(top_srcd

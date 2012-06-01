@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/doc++/Makefile,v 1.19 2010/11/15 19:45:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=	documentation system for C, C++, IDL and Java
 

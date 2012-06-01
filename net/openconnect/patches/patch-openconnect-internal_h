@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openconnect/patches/patch-openconnect-internal_h,v 1.1 2012/01/16 22:58:54 sthen Exp $
+$OpenBSD$
 
 Fix memory leak of CSTP deflated packets, and resend current pkt on reconnect
 b39d34 upstream

@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/ginac/patches/patch-ginac_function_pl,v 1.2 2010/10/24 22:36:37 pirofti Exp $
+$OpenBSD$
 --- ginac/function.pl.orig	Tue Jul  6 15:39:14 2010
 +++ ginac/function.pl	Sun Oct 24 20:37:54 2010
 @@ -59,7 +59,7 @@ sub generate {

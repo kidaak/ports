@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/polipo/pkg/PLIST,v 1.4 2010/11/11 20:19:52 kili Exp $
+@comment $OpenBSD$
 @newgroup _polipo:548
 @newuser _polipo:548:_polipo:daemon:Polipo Account:/nonexistent:/sbin/nologin
 @bin bin/polipo

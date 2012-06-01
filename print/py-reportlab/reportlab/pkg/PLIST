@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/py-reportlab/reportlab/pkg/PLIST,v 1.4 2009/10/11 17:51:30 jasper Exp $
+@comment $OpenBSD$
 @conflict py-reportlab-barcode-*
 lib/python${MODPY_VERSION}/site-packages/Reportlab-2.1-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/_rl_accel.so

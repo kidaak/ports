@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Capture-Tiny/Makefile,v 1.9 2011/06/01 17:05:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		capture STDOUT and STDERR
 

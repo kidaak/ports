@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-OLE-Storage_Lite/Makefile,v 1.8 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simple class for OLE document interface
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/svk/Makefile,v 1.17 2010/11/26 07:19:01 espie Exp $
+# $OpenBSD$
 
 COMMENT=	decentralized version control system
 

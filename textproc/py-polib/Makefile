@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-polib/Makefile,v 1.1.1.1 2011/11/02 13:33:10 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Python library to manipulate gettext files
 

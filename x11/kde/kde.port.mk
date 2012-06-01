@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/kde.port.mk,v 1.35 2010/11/22 08:37:01 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY ?=	Yes
 

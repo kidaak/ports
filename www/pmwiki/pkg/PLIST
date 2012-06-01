@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/pmwiki/pkg/PLIST,v 1.3 2011/11/25 12:16:13 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 pmwiki/
 pmwiki/README.txt

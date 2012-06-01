@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/opencv/patches/patch-OpenCVPCHSupport_cmake,v 1.1 2011/07/16 22:43:57 espie Exp $
+$OpenBSD$
 --- OpenCVPCHSupport.cmake.orig	Sat Jul 16 23:20:31 2011
 +++ OpenCVPCHSupport.cmake	Sat Jul 16 23:20:38 2011
 @@ -20,7 +20,7 @@ IF(CMAKE_COMPILER_IS_GNUCXX)

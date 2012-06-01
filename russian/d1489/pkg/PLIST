@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/russian/d1489/pkg/PLIST,v 1.4 2009/01/31 21:48:31 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/a2kfcnv
 bin/fromdos
 bin/fromwin

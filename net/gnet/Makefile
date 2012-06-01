@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gnet/Makefile,v 1.22 2011/09/28 09:54:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	simple network library
 

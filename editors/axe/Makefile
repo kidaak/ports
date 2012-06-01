@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/axe/Makefile,v 1.27 2010/11/15 23:22:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=		simple to use text editor for X11
 

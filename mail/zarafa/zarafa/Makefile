@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/zarafa/zarafa/Makefile,v 1.117 2012/03/15 17:04:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=	MS Exchange groupware suite replacement
 COMMENT-web=	zarafa webaccess frontend and MAPI extensions for PHP
@@ -6,6 +6,8 @@ COMMENT-web=	zarafa webaccess frontend and MAPI extensions for PHP
 PKGNAME=	zarafa-${V}
 PKGNAME-main=	zarafa-${V}
 PKGNAME-web=	zarafa-webaccess-${V}
+
+REVISION-main=	0
 
 CATEGORIES=	mail www productivity
 
@@ -37,7 +39,7 @@ WANTLIB += m pthread stdc++ z ${MODGETTEXT_WANTLIB}
 WANTLIB-main += ${WANTLIB} ${MODPY_WANTLIB}
 WANTLIB-main += asn1 boost_filesystem-mt boost_system-mt c com_err
 WANTLIB-main += crypto execinfo gssapi ical icalss icudata icui18n
-WANTLIB-main += icuuc krb5 lber ldap mysqlclient ncurses
+WANTLIB-main += icuuc krb5 lber ldap mysqlclient ncursesw
 WANTLIB-main += sasl2 ssl util uuid vmime-zarafa xml2
 
 RUN_DEPENDS-main=${MODGETTEXT_RUN_DEPENDS} \
@@ -49,7 +51,7 @@ LIB_DEPENDS-main= ${MODGETTEXT_LIB_DEPENDS} \
 		databases/openldap \
 		devel/uuid \
 		devel/libexecinfo \
-		mail/zarafa/libvmime>=0.9.2p0v0 \
+		mail/zarafa/libvmime>=0.9.2p1v0 \
 		textproc/libical \
 		textproc/icu4c \
 		devel/boost
@@ -169,8 +171,8 @@ post-install:
 	find ${PREFIX}/share/php -type f \
 		-exec perl -pi -e 's,\?php\?,\?php,' {} \;
 	for i in ${WRKINST}${INSTDIR}/server/language/* ; do \
-		msgfmt -f -v -o $$i/LC_MESSAGES/zarafa.mo $$i/LC_MESSAGES/zarafa.po ; \
-		rm $$i/LC_MESSAGES/zarafa.po ; \
+		msgfmt -f -v -o $$i/LC_MESSAGES/zarafa_webaccess.mo $$i/LC_MESSAGES/zarafa_webaccess.po ; \
+		rm $$i/LC_MESSAGES/zarafa_webaccess.po ; \
 	done
 
 	${SUBST_CMD} -c ${FILESDIR}/zarafa.m4 ${PREFIX}/share/examples/zarafa/zarafa.m4
@@ -209,10 +211,9 @@ post-install:
 		man/man5/zarafa-msr.cfg.5 \
 		man/man5/zarafa-backup.cfg.5
 	rmdir ${PREFIX}/share/examples/zarafa/report-ca
-	rmdir ${PREFIX}/var/lib/zarafa/report
-	rmdir ${PREFIX}/var/lib/zarafa/
-	rmdir ${PREFIX}/var/lib/
-	rmdir ${PREFIX}/var/
+	rmdir ${WRKINST}/var/lib/zarafa/report
+	rmdir ${WRKINST}/var/lib/zarafa/
+	rmdir ${WRKINST}/var/lib/
 
 	chown -R ${SHAREOWN}:${SHAREGRP} ${WRKINST}${INSTDIR}
 	chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/share/doc/zarafa

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/Makefile,v 1.283 2012/04/03 18:58:01 jeremy Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.23 1997/11/09 10:17:02 asami Exp $
 #
 
@@ -58,6 +58,7 @@
      SUBDIR += hlfl
      SUBDIR += hs-asn1-data
      SUBDIR += hs-certificate
+     SUBDIR += hs-cprng-aes
      SUBDIR += hs-crypto
      SUBDIR += hs-crypto-api
      SUBDIR += hs-cryptocipher
@@ -75,6 +76,7 @@
      SUBDIR += its4
      SUBDIR += jailkit
      SUBDIR += john
+     SUBDIR += kc
      SUBDIR += kedpm
      SUBDIR += keepassx
      SUBDIR += keychain
@@ -150,6 +152,7 @@
      SUBDIR += p5-Crypt-PasswdMD5
      SUBDIR += p5-Crypt-Primes
      SUBDIR += p5-Crypt-RC4
+     SUBDIR += p5-Crypt-RC5
      SUBDIR += p5-Crypt-RSA
      SUBDIR += p5-Crypt-Random
      SUBDIR += p5-Crypt-Rijndael
@@ -222,6 +225,9 @@
      SUBDIR += ruby-openid
      SUBDIR += ruby-yadis
      SUBDIR += samdump2
+     SUBDIR += samhain
+     SUBDIR += samhain,mysql
+     SUBDIR += samhain,postgresql
      SUBDIR += scanlogd
      SUBDIR += scanssh
      SUBDIR += scrypt

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/ruby-mailfactory/Makefile,v 1.11 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	simple creation of MIME email messages in Ruby
 

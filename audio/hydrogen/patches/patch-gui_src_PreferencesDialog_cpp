@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/hydrogen/patches/patch-gui_src_PreferencesDialog_cpp,v 1.1 2010/01/11 05:11:32 jakemsr Exp $
+$OpenBSD$
 --- gui/src/PreferencesDialog.cpp.orig	Wed Jul 22 20:10:25 2009
 +++ gui/src/PreferencesDialog.cpp	Sat Jan  2 03:24:33 2010
 @@ -63,6 +63,7 @@ PreferencesDialog::PreferencesDialog(QWidget* parent)

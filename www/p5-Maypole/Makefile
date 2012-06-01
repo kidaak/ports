@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Maypole/Makefile,v 1.7 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl MVC for web applications
 

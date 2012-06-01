@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/R/pkg/PLIST,v 1.16 2008/10/26 23:04:00 mbalmer Exp $
+@comment $OpenBSD$
 bin/R
 @bin bin/Rscript
 lib/R/

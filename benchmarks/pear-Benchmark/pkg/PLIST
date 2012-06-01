@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/benchmarks/pear-Benchmark/pkg/PLIST,v 1.8 2007/03/22 22:48:03 robert Exp $
+@comment $OpenBSD$
 @group daemon
 lib/
 lib/php/

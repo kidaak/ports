@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/falconseye/Makefile,v 1.24 2011/10/21 17:43:30 espie Exp $
+# $OpenBSD$
 
 COMMENT =	NetHack derivative
 

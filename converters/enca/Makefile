@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/enca/Makefile,v 1.2 2011/10/18 06:05:20 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	detect character set and encoding of text files
 

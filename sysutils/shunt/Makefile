@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/shunt/Makefile,v 1.3 2011/04/20 14:38:26 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	tools to extend pipe capabilities
 

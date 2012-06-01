@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Data-URIEncode/pkg/PLIST,v 1.1.1.1 2008/10/16 00:02:24 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Data/
 ${P5SITE}/Data/URIEncode.pm
 @man man/man3p/Data::URIEncode.3p

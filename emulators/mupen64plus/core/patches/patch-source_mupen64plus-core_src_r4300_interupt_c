@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/core/patches/patch-source_mupen64plus-core_src_r4300_interupt_c,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/r4300/interupt.c.orig	Tue Nov 23 03:15:08 2010
 +++ src/r4300/interupt.c	Sun Dec 18 23:38:17 2011
 @@ -560,10 +560,7 @@ void gen_interupt()

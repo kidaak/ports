@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mico/Makefile,v 1.18 2011/07/11 12:26:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	free and complete CORBA-compliant implementation
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/udis86/pkg/PFRAG.shared,v 1.1.1.1 2010/05/13 22:19:14 pirofti Exp $
+@comment $OpenBSD$
 @lib lib/libudis86.so.${LIBudis86_VERSION}

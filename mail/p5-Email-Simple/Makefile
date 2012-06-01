@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-Simple/Makefile,v 1.11 2011/08/01 19:42:19 stephan Exp $
+# $OpenBSD$
 
 COMMENT =	simple module for handling email messages
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-media_audio_openbsd_audio_manager_openbsd_h,v 1.9 2012/04/03 13:59:35 robert Exp $
+$OpenBSD$
 --- media/audio/openbsd/audio_manager_openbsd.h.orig	Sun Apr  1 22:57:39 2012
 +++ media/audio/openbsd/audio_manager_openbsd.h	Sun Apr  1 22:57:49 2012
 @@ -34,7 +34,7 @@ class MEDIA_EXPORT AudioManagerOpenBSD : public AudioM

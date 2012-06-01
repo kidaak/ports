@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libkipi/pkg/PLIST,v 1.6 2008/07/19 11:58:58 espie Exp $
+@comment $OpenBSD$
 include/libkipi/
 include/libkipi/batchprogressdialog.h
 include/libkipi/imagecollection.h

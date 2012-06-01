@@ -1,10 +1,10 @@
-# $OpenBSD: ports/sysutils/backuppc/Makefile,v 1.4 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	remote backup software system
 
 DISTNAME =	BackupPC-3.2.1
 PKGNAME =	${DISTNAME:L}
-REVISION =	1
+REVISION =	2
 
 CATEGORIES =	sysutils
 

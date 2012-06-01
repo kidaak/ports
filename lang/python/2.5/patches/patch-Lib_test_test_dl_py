@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-Lib_test_test_dl_py,v 1.1 2006/11/01 20:59:18 alek Exp $
+$OpenBSD$
 --- Lib/test/test_dl.py.orig	Mon Apr 10 01:07:40 2006
 +++ Lib/test/test_dl.py	Mon Sep 18 06:31:09 2006
 @@ -5,13 +5,22 @@

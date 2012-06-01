@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libgo_configure,v 1.5 2012/04/06 07:50:32 pascal Exp $
+$OpenBSD$
 --- libgo/configure.orig	Mon Feb 21 05:17:20 2011
 +++ libgo/configure	Wed Apr  4 23:09:24 2012
 @@ -644,6 +644,8 @@ LIBGO_IS_LINUX_FALSE

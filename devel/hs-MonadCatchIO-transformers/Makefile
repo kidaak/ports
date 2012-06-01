@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-MonadCatchIO-transformers/Makefile,v 1.7 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		functions to throw and catch exceptions
 

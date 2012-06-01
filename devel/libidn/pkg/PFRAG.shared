@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libidn/pkg/PFRAG.shared,v 1.3 2006/01/06 12:24:55 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libidn.so.${LIBidn_VERSION}

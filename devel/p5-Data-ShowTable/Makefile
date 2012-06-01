@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-ShowTable/Makefile,v 1.11 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		print arrays of data in a nicely formatted listing
 

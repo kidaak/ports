@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libslang/pkg/PFRAG.shared,v 1.14 2011/09/21 22:01:56 sthen Exp $
+@comment $OpenBSD$
 @comment lib/libslang.so
 @lib lib/libslang.so.${LIBslang_VERSION}
 lib/slang/v2/modules/csv-module.so

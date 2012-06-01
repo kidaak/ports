@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-OpenSSL-DSA/Makefile,v 1.15 2010/11/20 17:22:44 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

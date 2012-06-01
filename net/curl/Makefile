@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/curl/Makefile,v 1.83 2012/03/24 14:33:06 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	get files from FTP, Gopher, HTTP or HTTPS servers
 

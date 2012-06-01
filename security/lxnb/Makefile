@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/lxnb/Makefile,v 1.17 2007/09/15 23:29:58 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	NetBus client
 

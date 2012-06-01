@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/gnote/pkg/PLIST,v 1.10 2012/04/15 15:16:52 jasper Exp $
+@comment $OpenBSD$
 @pkgpath x11/gnome/tomboy
 @bin bin/gnote
 lib/gnote/

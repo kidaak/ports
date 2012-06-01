@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/p7zip/patches/patch-install_sh,v 1.2 2008/06/10 03:24:38 sthen Exp $
+$OpenBSD$
 --- install.sh.orig	Sun Mar  2 13:35:05 2008
 +++ install.sh	Mon Jun  9 20:27:58 2008
 @@ -1,14 +1,14 @@

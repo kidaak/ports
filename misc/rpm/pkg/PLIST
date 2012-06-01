@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/rpm/pkg/PLIST,v 1.7 2011/10/16 07:03:12 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict rpm2cpio-*
 %%SHARED%%
 bin/gendiff

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/back/Makefile,v 1.28 2011/07/06 23:56:08 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GNUstep gui backend
 

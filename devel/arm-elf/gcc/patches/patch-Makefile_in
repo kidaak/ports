@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/arm-elf/gcc/patches/patch-Makefile_in,v 1.3 2010/10/22 15:20:04 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sat Apr 25 06:10:29 2009
 +++ Makefile.in	Thu Oct 14 12:03:35 2010
 @@ -749,27 +749,8 @@ configure-host:  \

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libeventextra/Makefile,v 1.5 2011/11/18 11:16:23 espie Exp $
+# $OpenBSD$
 
 COMMENT =	libevent extra features
 

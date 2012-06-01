@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/openocd/Makefile,v 1.6 2011/11/14 18:30:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Open On-Chip Debugging
 

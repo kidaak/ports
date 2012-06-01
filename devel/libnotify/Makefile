@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libnotify/Makefile,v 1.25 2012/04/06 07:26:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		send desktop notifications to a notification daemon
 

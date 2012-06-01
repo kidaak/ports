@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/kdoc3/pkg/PLIST,v 1.2 2004/09/18 09:46:36 espie Exp $
+@comment $OpenBSD$
 bin/kdoc
 bin/makekdedoc
 bin/qt2kdoc

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/fuse-utils/Makefile,v 1.16 2010/11/15 23:22:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Free Unix Spectrum Emulator utilities
 

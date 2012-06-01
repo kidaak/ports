@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/openexr/Makefile,v 1.20 2012/03/29 13:38:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=	high dynamic range image format
 COMMENT-tools=	image viewing tools for OpenEXR

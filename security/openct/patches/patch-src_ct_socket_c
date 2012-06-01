@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/openct/patches/patch-src_ct_socket_c,v 1.1 2010/07/01 10:45:57 djm Exp $
+$OpenBSD$
 --- src/ct/socket.c.orig	Thu Jul  1 11:51:42 2010
 +++ src/ct/socket.c	Thu Jul  1 11:52:26 2010
 @@ -295,7 +295,7 @@ ct_socket_t *ct_socket_accept(ct_socket_t * sock)

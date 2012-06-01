@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/p5-Gateway/Makefile,v 1.21 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to gateway between news and mail
 

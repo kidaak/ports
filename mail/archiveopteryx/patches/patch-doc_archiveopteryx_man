@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/archiveopteryx/patches/patch-doc_archiveopteryx_man,v 1.1.1.1 2011/01/09 09:36:21 landry Exp $
+$OpenBSD$
 --- doc/archiveopteryx.man.orig	Fri Apr  9 23:53:20 2010
 +++ doc/archiveopteryx.man	Fri Apr  9 23:54:00 2010
 @@ -213,7 +213,7 @@ settings.

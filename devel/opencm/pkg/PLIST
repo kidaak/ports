@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/opencm/pkg/PLIST,v 1.9 2007/07/14 22:17:22 kili Exp $
+@comment $OpenBSD$
 bin/cm
 @info info/opencm.info
 share/opencm/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/djvulibre/pkg/PLIST,v 1.5 2010/09/18 13:46:59 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @comment bin/any2djvu
 @bin bin/bzz

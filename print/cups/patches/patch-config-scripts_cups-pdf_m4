@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/cups/patches/patch-config-scripts_cups-pdf_m4,v 1.4 2012/02/17 07:45:10 ajacoutot Exp $
+$OpenBSD$
 
 CUPS check for the ghostscript binary; we cannot depend on
 print/ghostscript/gnu because of a cyclic dependency but we know our

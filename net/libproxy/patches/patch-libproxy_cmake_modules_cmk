@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libproxy/patches/patch-libproxy_cmake_modules_cmk,v 1.2 2012/03/29 14:58:24 ajacoutot Exp $
+$OpenBSD$
 --- libproxy/cmake/modules.cmk.orig	Mon Jun  6 23:44:37 2011
 +++ libproxy/cmake/modules.cmk	Thu Mar 29 11:30:44 2012
 @@ -19,10 +19,10 @@ include(cmake/modules/pacrunner_natus.cmk)

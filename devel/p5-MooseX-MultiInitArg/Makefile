@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-MultiInitArg/Makefile,v 1.4 2010/12/03 11:44:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	attributes with aliases for constructor arguments for MooseX
 

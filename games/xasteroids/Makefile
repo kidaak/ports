@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xasteroids/Makefile,v 1.30 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	X11-based asteroids-style arcade
 

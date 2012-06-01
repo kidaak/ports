@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/mc/patches/patch-src_filemanager_mountlist_c,v 1.1 2012/04/13 13:44:15 robert Exp $
+$OpenBSD$
 --- src/filemanager/mountlist.c.orig	Wed Apr 11 08:34:49 2012
 +++ src/filemanager/mountlist.c	Wed Apr 11 08:35:17 2012
 @@ -38,6 +38,11 @@

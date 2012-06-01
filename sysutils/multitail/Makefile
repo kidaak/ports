@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/multitail/Makefile,v 1.28 2012/01/08 12:08:17 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	multi-window tail(1) utility
 

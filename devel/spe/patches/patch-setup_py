@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/spe/patches/patch-setup_py,v 1.1 2008/10/08 21:32:51 jasper Exp $
+$OpenBSD$
 --- setup.py.orig	Mon Mar 17 21:35:39 2008
 +++ setup.py	Wed Oct  8 22:13:46 2008
 @@ -9,7 +9,37 @@ setup(name          = "spe",

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nfdump/pkg/PLIST-main,v 1.4 2011/03/24 23:03:23 sthen Exp $
+@comment $OpenBSD$
 @newgroup _nfcapd:649
 @newuser _nfcapd:649:_nfcapd:daemon:nfcapd user:/nonexistent:/sbin/nologin
 @bin bin/ft2nfdump

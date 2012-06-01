@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/archivers/libtar/pkg/PFRAG.shared,v 1.1.1.1 2010/04/16 13:10:47 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libtar.so.${LIBtar_VERSION}

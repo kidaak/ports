@@ -1,9 +1,9 @@
-# $OpenBSD: ports/www/drupal6/core/Makefile,v 1.29 2012/03/20 10:00:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	powerful content management system
 MAINTAINER =	Marc Espie <espie@openbsd.org>
 
-DISTNAME =	drupal-6.25
+DISTNAME =	drupal-6.26
 DISTFILES =	${DISTNAME}${EXTRACT_SUFX}
 
 MODULES=	lang/php

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Set-Object/pkg/PLIST,v 1.2 2007/02/03 19:10:39 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Set/
 ${P5ARCH}/Set/Object/

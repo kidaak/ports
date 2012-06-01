@@ -1,8 +1,7 @@
-# $OpenBSD: ports/databases/sqlports/Makefile,v 1.38 2012/01/28 11:40:34 espie Exp $
+# $OpenBSD$
 
 CATEGORIES =		databases
-V =			1.19
-REVISION =		0
+V =			2.2
 DISTNAME =		sqlports-$V
 DISTFILES =
 COMMENT =		sqlite database of ports
@@ -22,7 +21,7 @@ MULTI_PACKAGES =	-main -compact
 DBNAME =		${WRKBUILD}/sqlports
 
 do-build:
-	@cd ${PORTSDIR} && perl ${FILESDIR}/mksqlitedb -v ${DBNAME} -p ${WRKBUILD}/ouch
+	@cd ${PORTSDIR} && PORTSDIR=${PORTSDIR} perl ${FILESDIR}/mksqlitedb -v ${DBNAME} -p ${WRKBUILD}/ouch
 	@if test -s ${WRKBUILD}/ouch; then \
 		cat ${WRKBUILD}/ouch; \
 		exit 1; \

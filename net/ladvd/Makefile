@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ladvd/Makefile,v 1.13 2012/02/22 08:41:54 weerd Exp $
+# $OpenBSD$
 
 COMMENT =		link advertisement (LLDP/CDP etc) daemon
 

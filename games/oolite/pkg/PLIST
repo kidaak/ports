@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/oolite/pkg/PLIST,v 1.1.1.1 2010/04/19 23:44:55 nicm Exp $
+@comment $OpenBSD$
 @bin bin/oolite
 share/doc/oolite/
 share/doc/oolite/AdviceForNewCommanders.pdf

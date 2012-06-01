@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/pymissile/Makefile,v 1.13 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=	usb missile launcher control script
 DISTNAME=	pymissile-20061111

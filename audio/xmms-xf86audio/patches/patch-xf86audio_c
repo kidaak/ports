@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms-xf86audio/patches/patch-xf86audio_c,v 1.1 2005/07/13 19:52:06 naddy Exp $
+$OpenBSD$
 --- xf86audio.c.orig	Wed Jul 13 13:16:59 2005
 +++ xf86audio.c	Wed Jul 13 13:35:19 2005
 @@ -110,6 +110,7 @@ static void plugin_cleanup()

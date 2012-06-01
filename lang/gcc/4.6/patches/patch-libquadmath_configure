@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libquadmath_configure,v 1.1 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libquadmath/configure.orig	Wed Jan 25 17:51:10 2012
 +++ libquadmath/configure	Wed Jan 25 17:51:17 2012
 @@ -9920,7 +9920,7 @@ openbsd*)

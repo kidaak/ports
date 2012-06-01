@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mutt/Makefile.inc,v 1.37 2011/05/04 07:49:40 sthen Exp $
+# $OpenBSD$
 
 CATEGORIES=	mail
 

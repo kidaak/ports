@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/swftools/pkg/PLIST,v 1.1.1.1 2011/07/11 19:49:58 kili Exp $
+@comment $OpenBSD$
 @bin bin/as3compile
 @bin bin/font2swf
 @bin bin/gif2swf

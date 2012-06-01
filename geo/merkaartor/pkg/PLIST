@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/merkaartor/pkg/PLIST,v 1.6 2012/01/06 16:46:13 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/merkaartor
 lib/merkaartor/

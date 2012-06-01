@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/tinyproxy/Makefile,v 1.21 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		lightweight HTTP/SSL proxy
 

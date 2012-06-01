@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/pear-Mail-mimeDecode/pkg/PLIST,v 1.1.1.1 2009/11/18 19:07:09 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 pear/lib/.registry/mail_mimedecode.reg
 pear/lib/Mail/mimeDecode.php

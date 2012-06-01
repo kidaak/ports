@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/pear-XML-Tree/pkg/PLIST,v 1.5 2007/03/22 22:48:04 robert Exp $
+@comment $OpenBSD$
 @group daemon
 pear/lib/.registry/xml_tree.reg
 pear/lib/XML/Tree/

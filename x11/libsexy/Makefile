@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/libsexy/Makefile,v 1.12 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	collection of additional GTK widgets
 

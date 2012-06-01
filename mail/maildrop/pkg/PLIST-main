@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/maildrop/pkg/PLIST-main,v 1.3 2009/10/28 14:21:38 giovanni Exp $
+@comment $OpenBSD$
 @pkgpath mail/maildrop
 @newgroup _courier:571
 @newuser _courier:571:571:daemon:Courier Mail Server:/var/empty:/sbin/nologin

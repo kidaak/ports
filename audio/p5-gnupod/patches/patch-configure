@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/p5-gnupod/patches/patch-configure,v 1.1 2011/06/01 00:04:16 sthen Exp $
+$OpenBSD$
 --- configure.orig	Tue Aug  4 01:49:56 2009
 +++ configure	Mon May 30 13:44:37 2011
 @@ -1872,7 +1872,7 @@ echo " done"

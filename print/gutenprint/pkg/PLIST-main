@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/gutenprint/pkg/PLIST-main,v 1.10 2011/05/04 14:55:02 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict foomatic-db-gutenprint-<5.2.4p1
 %%SHARED%%
 @bin bin/escputil

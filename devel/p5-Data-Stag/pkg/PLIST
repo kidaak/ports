@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Data-Stag/pkg/PLIST,v 1.1.1.1 2008/09/24 13:32:49 jasper Exp $
+@comment $OpenBSD$
 bin/stag-autoschema.pl
 bin/stag-db.pl
 bin/stag-diff.pl

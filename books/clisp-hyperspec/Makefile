@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/clisp-hyperspec/Makefile,v 1.2 2007/11/26 21:54:45 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		Common Lisp reference
 

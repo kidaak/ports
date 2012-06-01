@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/efreet/pkg/PFRAG.shared,v 1.4 2011/01/16 00:56:28 laurent Exp $
+@comment $OpenBSD$
 @lib lib/libefreet.so.${LIBefreet_VERSION}
 @lib lib/libefreet_mime.so.${LIBefreet_mime_VERSION}
 @lib lib/libefreet_trash.so.${LIBefreet_trash_VERSION}

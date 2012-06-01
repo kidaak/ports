@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Module-Starter/Makefile,v 1.7 2010/12/03 11:44:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		simple starter kit for any module
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xdeblock/Makefile,v 1.30 2011/10/21 16:23:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	block action game
 

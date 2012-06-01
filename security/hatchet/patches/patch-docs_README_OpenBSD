@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/hatchet/patches/patch-docs_README_OpenBSD,v 1.1.1.1 2008/06/27 15:16:01 jdixon Exp $
+$OpenBSD$
 --- docs/README.OpenBSD.orig	Mon Jun 23 21:39:58 2008
 +++ docs/README.OpenBSD	Mon Jun 23 21:40:19 2008
 @@ -13,12 +13,12 @@ To finish installing Hatchet, the following steps must

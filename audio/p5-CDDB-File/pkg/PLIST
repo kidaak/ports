@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-CDDB-File/pkg/PLIST,v 1.1.1.1 2008/06/08 11:14:55 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/CDDB/
 ${P5SITE}/CDDB/File.pm
 @man man/man3p/CDDB::File.3p

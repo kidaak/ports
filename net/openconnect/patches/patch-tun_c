@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openconnect/patches/patch-tun_c,v 1.1.1.1 2011/12/08 13:55:28 sthen Exp $
+$OpenBSD$
 
 Print error when write() to tun device fails.
 37867847e5 upstream

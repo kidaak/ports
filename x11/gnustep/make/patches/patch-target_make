@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/make/patches/patch-target_make,v 1.6 2011/04/18 11:30:47 sebastia Exp $
+$OpenBSD$
 
 We do not want to use the -Wl,-soname, cruft to encode soname into the
 library.

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-pexpect/Makefile,v 1.15 2011/10/22 09:07:18 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=	pure Python Expect-like module
 

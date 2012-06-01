@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostview/patches/patch-callbacks_c,v 1.1 2002/04/26 01:44:08 espie Exp $
+$OpenBSD$
 --- callbacks.c.orig	Sun Apr 21 00:44:47 2002
 +++ callbacks.c	Sun Apr 21 00:54:26 2002
 @@ -96,7 +96,7 @@ popup_dialog(w, client_data, call_data)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-installer_userscripts_companies_common_sh,v 1.5 2012/02/27 19:01:34 ajacoutot Exp $
+$OpenBSD$
 --- installer/userscripts/companies_common.sh.orig	Wed Feb  1 15:42:09 2012
 +++ installer/userscripts/companies_common.sh	Mon Feb 27 19:24:56 2012
 @@ -1,7 +1,7 @@

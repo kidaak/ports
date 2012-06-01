@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/hfsplus/patches/patch-libhfsp_src_swab_h,v 1.5 2011/04/22 11:37:46 sthen Exp $
+$OpenBSD$
 --- libhfsp/src/swab.h.orig	Tue Mar  5 19:50:29 2002
 +++ libhfsp/src/swab.h	Sun Apr 17 09:50:06 2011
 @@ -25,7 +25,12 @@

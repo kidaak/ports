@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/auctex/patches/patch-Makefile,v 1.2 2008/05/07 05:10:30 steven Exp $
+$OpenBSD$
 --- Makefile.orig	Sun Dec 15 03:15:42 2002
 +++ Makefile	Wed May  7 07:06:32 2008
 @@ -20,6 +20,7 @@ lispdir = $(prefix)/share/emacs/site-lisp

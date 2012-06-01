@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/gmpc/pkg/PLIST,v 1.14 2011/12/03 18:55:29 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gmpc
 @bin bin/gmpc-remote
 bin/gmpc-remote-stream

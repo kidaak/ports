@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/cups-pdf/Makefile,v 1.13 2012/04/11 17:29:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		PDF backend for CUPS
 

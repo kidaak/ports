@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-buildslave/pkg/PLIST,v 1.5 2012/01/09 19:57:38 landry Exp $
+@comment $OpenBSD$
 @newgroup _buildslave:674
 @newuser _buildslave:674:_buildslave:daemon:BuildBot slave daemon:${HOMEDIR}:/sbin/nologin
 bin/buildslave

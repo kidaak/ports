@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/gogo/Makefile,v 1.19 2010/11/15 00:22:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	686 class CPU optimized mp3 encoder
 DISTNAME=	gogo226a	

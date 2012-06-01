@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xforms/patches/patch-image_Imakefile,v 1.1 2005/12/31 17:29:38 naddy Exp $
+$OpenBSD$
 --- image/Imakefile.orig	Sat Dec 31 18:18:24 2005
 +++ image/Imakefile	Sat Dec 31 18:19:22 2005
 @@ -101,7 +101,7 @@ CCOPTIONS	= -nostdinc

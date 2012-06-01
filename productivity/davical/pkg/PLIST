@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/davical/pkg/PLIST,v 1.2 2012/03/07 08:38:44 ajacoutot Exp $
+@comment $OpenBSD$
 davical/
 davical/INSTALL
 davical/README

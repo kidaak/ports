@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tilda/patches/patch-Makefile_in,v 1.2 2008/04/28 14:50:20 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Apr 28 12:41:33 2008
 +++ Makefile.in	Mon Apr 28 15:15:40 2008
 @@ -319,12 +319,12 @@ uninstall-PixmapsDATA:

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/gmpc/patches/patch-glade_playlist3_ui,v 1.1 2012/02/16 21:36:03 landry Exp $
+$OpenBSD$
 Fix icon warnings upon startup
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=646822
 http://repo.or.cz/w/gmpc.git/commit/ced4f26e053bff5bb04205f623a179fc97fdfe52

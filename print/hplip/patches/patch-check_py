@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-check_py,v 1.6 2011/10/09 07:42:29 ajacoutot Exp $
+$OpenBSD$
 --- check.py.orig	Sun Oct  2 05:06:19 2011
 +++ check.py	Sun Oct  9 09:17:00 2011
 @@ -342,7 +342,7 @@ try:

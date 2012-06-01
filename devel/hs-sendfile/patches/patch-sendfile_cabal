@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/hs-sendfile/patches/patch-sendfile_cabal,v 1.1 2011/04/11 14:39:12 kili Exp $
+$OpenBSD$
 
 network-bytestring has been merged into hs-network.
 

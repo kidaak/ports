@@ -1,9 +1,10 @@
-# $OpenBSD: ports/x11/xfce4/xfmpc/Makefile,v 1.15 2011/12/26 18:41:06 landry Exp $
+# $OpenBSD$
 
 COMMENT=	Xfce4 Music Player Daemon client
 
 XFCE_VERSION=	0.2.2
 XFCE_GOODIE=	xfmpc
+REVISION =	0
 
 # GPLv2
 PERMIT_DISTFILES_CDROM=	Yes

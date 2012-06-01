@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mlterm/patches/patch-xwindow_x_imagelib_gdk_c,v 1.1 2005/03/11 21:30:14 robert Exp $
+$OpenBSD$
 --- xwindow/x_imagelib_gdk.c.orig	Fri Mar 11 21:52:55 2005
 +++ xwindow/x_imagelib_gdk.c	Fri Mar 11 21:57:26 2005
 @@ -294,6 +294,12 @@

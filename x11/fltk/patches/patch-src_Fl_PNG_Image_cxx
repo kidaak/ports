@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fltk/patches/patch-src_Fl_PNG_Image_cxx,v 1.1 2011/07/08 20:36:09 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Package-Generator/pkg/PLIST,v 1.1.1.1 2007/11/18 21:35:09 merdely Exp $
+@comment $OpenBSD$
 ${P5SITE}/Package/
 ${P5SITE}/Package/Generator.pm
 ${P5SITE}/Package/Reaper.pm

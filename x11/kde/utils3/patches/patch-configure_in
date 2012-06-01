@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/utils3/patches/patch-configure_in,v 1.4 2007/05/25 09:49:56 espie Exp $
+$OpenBSD$
 --- configure.in.orig	Mon May 14 13:43:12 2007
 +++ configure.in	Thu May 24 02:31:49 2007
 @@ -555,7 +555,7 @@ AC_SUBST(XMMS_LDFLAGS)

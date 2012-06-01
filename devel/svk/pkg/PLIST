@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/svk/pkg/PLIST,v 1.4 2008/11/14 09:24:42 kevlo Exp $
+@comment $OpenBSD$
 @conflict p5-SVK-*
 bin/svk
 ${P5SITE}/SVK/

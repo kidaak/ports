@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-kcontrol_kfontinst_kfontinst_GetPid_c,v 1.4 2011/07/06 14:51:19 dcoppa Exp $
+$OpenBSD$
 --- kcontrol/kfontinst/kfontinst/GetPid.c.orig	Mon May 14 09:55:38 2007
 +++ kcontrol/kfontinst/kfontinst/GetPid.c	Wed Jul  6 16:22:03 2011
 @@ -55,6 +55,7 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/chinese/libtabe/patches/patch-script_Makefile_in,v 1.1 2007/12/28 13:33:59 espie Exp $
+$OpenBSD$
 --- script/Makefile.in.orig	Mon Aug 20 05:53:03 2001
 +++ script/Makefile.in	Fri Dec 28 14:31:40 2007
 @@ -7,7 +7,10 @@

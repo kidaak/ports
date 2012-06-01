@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-lib/patches/patch-src_video_out_video_out_opengl_c,v 1.1 2012/04/07 05:48:49 ajacoutot Exp $
+$OpenBSD$
 
 Quick-fix to enable OSD when using fragment shader for YUV conversion.
 

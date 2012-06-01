@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/k3b/patches/patch-src_rip_base_k3bcddbpatternwidget_ui,v 1.1.1.1 2008/05/11 22:18:35 jakemsr Exp $
+$OpenBSD$
 --- src/rip/base_k3bcddbpatternwidget.ui.orig	Thu Jan 17 17:30:14 2008
 +++ src/rip/base_k3bcddbpatternwidget.ui	Thu Jan 17 17:32:56 2008
 @@ -175,6 +175,7 @@

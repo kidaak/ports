@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/maradns-deadwood/patches/patch-doc_dwood3rc,v 1.1.1.1 2012/03/21 16:17:58 sthen Exp $
+$OpenBSD$
 --- doc/dwood3rc.orig	Wed Feb 29 07:59:53 2012
 +++ doc/dwood3rc	Tue Mar 20 22:28:45 2012
 @@ -6,7 +6,7 @@ bind_address="127.0.0.1" # IP we bind to

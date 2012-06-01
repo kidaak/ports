@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/poppler/pkg/PLIST-qt4,v 1.4 2010/10/09 08:05:30 kili Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/poppler/qt4/
 include/poppler/qt4/poppler-annotation.h

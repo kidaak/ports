@@ -1,4 +1,4 @@
-$OpenBSD: ports/java/asm/patches/patch-archive_asm-xml_xml,v 1.1.1.1 2011/09/21 13:38:21 jasper Exp $
+$OpenBSD$
 --- archive/asm-xml.xml.orig	Sun Sep 18 17:04:40 2011
 +++ archive/asm-xml.xml	Sun Sep 18 17:04:59 2011
 @@ -10,7 +10,6 @@

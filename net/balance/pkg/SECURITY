@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/balance/pkg/SECURITY,v 1.1.1.1 2001/06/25 23:05:45 lebel Exp $
+$OpenBSD$
 
 Fixed several strcpy/sprintf issues.
 

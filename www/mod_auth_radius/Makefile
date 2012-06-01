@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_auth_radius/Makefile,v 1.22 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 REVISION=	8
 DISTNAME=	mod_auth_radius-1.5.7

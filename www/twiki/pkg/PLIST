@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/twiki/pkg/PLIST,v 1.6 2007/06/01 22:07:39 aanriot Exp $
+@comment $OpenBSD$
 cgi-bin/twiki/
 cgi-bin/twiki/LocalLib.cfg
 cgi-bin/twiki/LocalLib.cfg.txt

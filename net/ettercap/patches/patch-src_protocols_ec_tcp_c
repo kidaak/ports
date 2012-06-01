@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ettercap/patches/patch-src_protocols_ec_tcp_c,v 1.1 2011/08/02 18:40:16 dcoppa Exp $
+$OpenBSD$
 
 Fix segfault when trying to scan for hosts on 64bit systems
 (from Debian: http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=521857)

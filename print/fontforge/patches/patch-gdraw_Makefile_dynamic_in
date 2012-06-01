@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/fontforge/patches/patch-gdraw_Makefile_dynamic_in,v 1.5 2009/04/22 12:23:00 kili Exp $
+$OpenBSD$
 --- gdraw/Makefile.dynamic.in.orig	Sat Jan  3 01:56:57 2009
 +++ gdraw/Makefile.dynamic.in	Mon Mar  9 21:28:42 2009
 @@ -34,7 +34,7 @@ libgdraw_OBJECTS =  choosericons.lo ctlvalues.lo drawb

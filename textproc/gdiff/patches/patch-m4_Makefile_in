@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/gdiff/patches/patch-m4_Makefile_in,v 1.2 2004/08/11 20:55:50 naddy Exp $
+$OpenBSD$
 --- m4/Makefile.in.orig	Fri Apr  5 15:19:17 2002
 +++ m4/Makefile.in	Wed Aug 11 12:09:52 2004
 @@ -257,14 +257,14 @@ uninstall-am: uninstall-info-am

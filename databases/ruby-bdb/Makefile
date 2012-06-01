@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-bdb/Makefile,v 1.29 2011/09/16 08:48:04 espie Exp $
+# $OpenBSD$
 
 COMMENT=		ruby interface to Berkeley DB
 DISTNAME=		bdb-0.6.5

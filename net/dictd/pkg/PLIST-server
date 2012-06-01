@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/dictd/pkg/PLIST-server,v 1.1.1.1 2006/04/19 17:11:52 alek Exp $
+@comment $OpenBSD$
 bin/colorit
 bin/dictdplugin-config
 bin/dictfmt

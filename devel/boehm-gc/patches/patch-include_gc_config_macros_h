@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boehm-gc/patches/patch-include_gc_config_macros_h,v 1.1 2007/07/14 22:16:17 kili Exp $
+$OpenBSD$
 --- include/gc_config_macros.h.orig	Mon Jul  2 14:21:33 2007
 +++ include/gc_config_macros.h	Thu Jul 12 09:56:42 2007
 @@ -65,7 +65,7 @@

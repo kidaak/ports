@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Catalyst-Model-DBIC-Schema/Makefile,v 1.12 2012/04/08 22:01:20 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	model class for catalyst
 

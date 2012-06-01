@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/its4/pkg/PLIST,v 1.4 2011/06/01 23:34:53 kili Exp $
+@comment $OpenBSD$
 @bin bin/its4
 @man man/man1/its4.1
 share/its4/

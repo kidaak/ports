@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_flags_h,v 1.1 2012/03/31 20:02:03 pascal Exp $
+$OpenBSD$
 --- gcc/flags.h.orig	Sun Mar 11 21:50:11 2012
 +++ gcc/flags.h	Sun Mar 11 22:13:05 2012
 @@ -28,6 +28,11 @@ along with GCC; see the file COPYING3.  If not see

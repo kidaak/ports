@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/log4cplus/patches/patch-src_Makefile_in,v 1.1.1.1 2012/03/26 09:06:35 sthen Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun Jan 16 10:27:34 2011
 +++ src/Makefile.in	Thu Mar 15 00:58:22 2012
 @@ -412,7 +412,8 @@ LIB_SRC = $(SINGLE_THREADED_SRC) \

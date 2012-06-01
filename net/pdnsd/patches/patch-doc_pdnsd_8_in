@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pdnsd/patches/patch-doc_pdnsd_8_in,v 1.2 2009/03/23 09:54:36 ajacoutot Exp $
+$OpenBSD$
 --- doc/pdnsd.8.in.orig	Mon Aug 20 14:24:51 2007
 +++ doc/pdnsd.8.in	Sun Mar 22 20:14:48 2009
 @@ -11,7 +11,7 @@ This man page is an extract of the documentation of \f

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/samba/patches/patch-source3_smbd_utmp_c,v 1.1 2012/04/10 22:01:20 sthen Exp $
+$OpenBSD$
 --- source3/smbd/utmp.c.orig	Sat Apr  7 14:23:20 2012
 +++ source3/smbd/utmp.c	Tue Apr 10 22:56:36 2012
 @@ -253,14 +253,58 @@ static char *uw_pathname(TALLOC_CTX *ctx,

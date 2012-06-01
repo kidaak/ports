@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/synergy/patches/patch-cmake_CMakeLists_lib_txt,v 1.1 2011/04/18 18:37:48 jasper Exp $
+$OpenBSD$
 --- cmake/CMakeLists_lib.txt.orig	Sun Jan 23 06:53:37 2011
 +++ cmake/CMakeLists_lib.txt	Mon Apr 18 14:08:05 2011
 @@ -405,6 +405,7 @@ SET(inc_lib_dirs

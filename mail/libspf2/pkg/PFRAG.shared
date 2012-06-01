@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/libspf2/pkg/PFRAG.shared,v 1.1.1.1 2008/01/30 15:58:49 okan Exp $
+@comment $OpenBSD$
 @lib lib/libspf2.so.${LIBspf2_VERSION}

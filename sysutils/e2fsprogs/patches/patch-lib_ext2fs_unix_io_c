@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/e2fsprogs/patches/patch-lib_ext2fs_unix_io_c,v 1.1 2009/03/15 19:59:31 landry Exp $
+$OpenBSD$
 --- lib/ext2fs/unix_io.c.orig	Sat Feb 21 17:42:28 2009
 +++ lib/ext2fs/unix_io.c	Sat Feb 21 17:42:49 2009
 @@ -35,6 +35,7 @@

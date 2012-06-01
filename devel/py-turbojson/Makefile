@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-turbojson/Makefile,v 1.13 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT =		template plugin for TurboGears that supports json
 

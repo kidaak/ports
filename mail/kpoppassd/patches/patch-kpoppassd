@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/kpoppassd/patches/patch-kpoppassd,v 1.1.1.1 2005/06/11 09:46:08 alek Exp $
+$OpenBSD$
 --- kpoppassd.c.orig	Tue Apr 29 04:12:05 2003
 +++ kpoppassd.c	Wed Jun  8 00:34:39 2005
 @@ -40,7 +40,7 @@

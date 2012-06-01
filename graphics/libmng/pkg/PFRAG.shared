@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/libmng/pkg/PFRAG.shared,v 1.5 2005/12/26 15:07:55 steven Exp $
+@comment $OpenBSD$
 @lib lib/libmng.so.${LIBmng_VERSION}

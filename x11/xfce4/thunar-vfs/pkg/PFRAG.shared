@@ -1,2 +1,0 @@
-@comment $OpenBSD: ports/x11/xfce4/thunar-vfs/pkg/PFRAG.shared,v 1.1.1.1 2011/01/18 20:01:46 landry Exp $
-@lib lib/libthunar-vfs-1.so.${LIBthunar-vfs-1_VERSION}

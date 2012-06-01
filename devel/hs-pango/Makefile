@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-pango/Makefile,v 1.9 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Haskell bindings to pango
 

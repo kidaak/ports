@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libsigc++-2/pkg/PLIST-docs,v 1.11 2011/07/25 08:10:59 ajacoutot Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict libsigc++-docs->=2
 share/devhelp/

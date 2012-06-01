@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/cdrdao/patches/patch-scsilib_include_schily_h,v 1.1 2012/03/17 16:04:34 naddy Exp $
+$OpenBSD$
 --- scsilib/include/schily.h.orig	Sat Mar 17 09:32:53 2012
 +++ scsilib/include/schily.h	Sat Mar 17 09:34:36 2012
 @@ -187,7 +187,7 @@ extern	char	*fillbytes __PR((void *, int, char));

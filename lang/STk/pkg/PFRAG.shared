@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/STk/pkg/PFRAG.shared,v 1.2 2003/05/19 08:50:43 naddy Exp $
+@comment $OpenBSD$
 lib/stk/${STK_VERSION}/${STK_ARCH}/base64.so
 lib/stk/${STK_VERSION}/${STK_ARCH}/hash.so
 lib/stk/${STK_VERSION}/${STK_ARCH}/html.so

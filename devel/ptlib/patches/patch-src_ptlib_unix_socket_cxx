@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/patch-src_ptlib_unix_socket_cxx,v 1.2 2011/10/26 16:59:09 ajacoutot Exp $
+$OpenBSD$
 --- src/ptlib/unix/socket.cxx.orig	Fri Oct 14 08:54:51 2011
 +++ src/ptlib/unix/socket.cxx	Sat Oct 22 12:41:24 2011
 @@ -69,7 +69,7 @@

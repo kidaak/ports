@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-eBay/pkg/PLIST,v 1.1.1.1 2011/03/16 14:23:43 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/eBay.pm
 @man man/man3p/Net::eBay.3p
 share/examples/p5-Net-eBay/

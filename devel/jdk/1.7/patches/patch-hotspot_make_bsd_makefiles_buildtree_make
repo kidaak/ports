@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.7/patches/patch-hotspot_make_bsd_makefiles_buildtree_make,v 1.4 2012/03/19 19:50:57 kurt Exp $
+$OpenBSD$
 --- hotspot/make/bsd/makefiles/buildtree.make.orig	Wed Mar 14 12:33:29 2012
 +++ hotspot/make/bsd/makefiles/buildtree.make	Wed Mar 14 12:33:30 2012
 @@ -394,7 +394,6 @@ test_gamma:  $(BUILDTREE_MAKE) $(GAMMADIR)/make/test/Q

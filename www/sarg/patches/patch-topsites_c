@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/sarg/patches/patch-topsites_c,v 1.1 2008/12/08 08:35:46 sthen Exp $
+$OpenBSD$
 --- topsites.c.orig	Tue Dec  2 14:58:52 2008
 +++ topsites.c	Tue Dec  2 14:59:05 2008
 @@ -216,7 +216,7 @@ void topsites()

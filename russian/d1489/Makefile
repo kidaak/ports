@@ -1,5 +1,5 @@
 # $FreeBSD: ports/russian/d1489/Makefile,v 1.12 1999/08/31 06:49:57 mharo Exp $
-# $OpenBSD: ports/russian/d1489/Makefile,v 1.13 2011/03/21 20:02:41 shadchin Exp $
+# $OpenBSD$
 
 COMMENT=	cp866<>koi8-r & cp1251<>koi8-r decoders and font converter
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/bluetile/Makefile,v 1.14 2012/01/12 11:14:17 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		modern tiling window manager
 

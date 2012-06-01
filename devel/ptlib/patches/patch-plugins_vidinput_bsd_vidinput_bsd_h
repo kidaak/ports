@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/patch-plugins_vidinput_bsd_vidinput_bsd_h,v 1.2 2011/10/26 16:59:09 ajacoutot Exp $
+$OpenBSD$
 --- plugins/vidinput_bsd/vidinput_bsd.h.orig	Fri Oct 14 08:54:54 2011
 +++ plugins/vidinput_bsd/vidinput_bsd.h	Wed Oct 26 10:28:10 2011
 @@ -6,6 +6,9 @@

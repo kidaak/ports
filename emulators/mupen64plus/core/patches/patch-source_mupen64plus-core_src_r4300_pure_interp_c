@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/core/patches/patch-source_mupen64plus-core_src_r4300_pure_interp_c,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/r4300/pure_interp.c.orig	Sun Dec 18 23:17:24 2011
 +++ src/r4300/pure_interp.c	Sun Dec 18 20:04:55 2011
 @@ -33,6 +33,7 @@

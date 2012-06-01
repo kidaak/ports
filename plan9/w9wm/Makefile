@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/w9wm/Makefile,v 1.19 2011/01/13 08:47:07 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	hacked 9wm, with support for virtual screens
 

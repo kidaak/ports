@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/p5-Gtk2-Ex-FormFactory/Makefile,v 1.5 2010/12/03 11:46:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	framework which makes building complex GUIs easy
 

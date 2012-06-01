@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/xmms-kj/Makefile,v 1.15 2011/11/02 09:57:23 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

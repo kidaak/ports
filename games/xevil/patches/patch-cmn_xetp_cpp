@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-cmn_xetp_cpp,v 1.2 2010/06/15 19:04:05 landry Exp $
+$OpenBSD$
 --- cmn/xetp.cpp.orig	Wed Jan 19 12:54:30 2000
 +++ cmn/xetp.cpp	Tue Jun 15 20:46:20 2010
 @@ -29,9 +29,12 @@

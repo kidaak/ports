@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-ltcf-c_sh,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- ltcf-c.sh.orig	Fri Nov 18 23:53:08 2005
 +++ ltcf-c.sh	Thu Oct 19 13:07:14 2006
 @@ -219,8 +219,8 @@ EOF

@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/celestia/patches/patch-src_celestia_wineclipses_cpp,v 1.1 2009/11/17 23:12:16 ajacoutot Exp $
+$OpenBSD$
 --- src/celestia/wineclipses.cpp.orig	Tue Nov 17 15:25:44 2009
 +++ src/celestia/wineclipses.cpp	Tue Nov 17 15:26:05 2009
 @@ -65,7 +65,7 @@ bool InitEclipseFinderColumns(HWND listView)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pscan/Makefile,v 1.5 2010/11/15 19:46:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	limited problem scanner for C source files
 

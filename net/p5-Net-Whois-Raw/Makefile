@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Whois-Raw/Makefile,v 1.23 2011/11/25 21:07:00 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	extension for unparsed raw whois information
 

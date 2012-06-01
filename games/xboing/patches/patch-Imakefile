@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xboing/patches/patch-Imakefile,v 1.8 2010/08/25 18:04:37 jasper Exp $
+$OpenBSD$
 --- Imakefile.orig	Fri Nov 22 02:28:46 1996
 +++ Imakefile	Wed Aug 25 20:02:50 2010
 @@ -24,23 +24,23 @@ XCOMM ================================================

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-JSON-XS/pkg/PLIST,v 1.2 2008/06/07 20:58:48 simon Exp $
+@comment $OpenBSD$
 bin/json_xs
 ${P5ARCH}/
 ${P5ARCH}/JSON/

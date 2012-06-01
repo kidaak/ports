@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-testsuite_mk_test_mk,v 1.1 2011/04/11 14:30:33 kili Exp $
+$OpenBSD$
 
 Disable LLVM tests for now (until I unslack and debug why all LLVM
 tests are failing).

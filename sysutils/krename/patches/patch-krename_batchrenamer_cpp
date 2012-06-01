@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/krename/patches/patch-krename_batchrenamer_cpp,v 1.1.1.1 2008/02/15 12:33:10 ajacoutot Exp $
+$OpenBSD$
 --- krename/batchrenamer.cpp.orig	Mon Jan  8 12:29:53 2007
 +++ krename/batchrenamer.cpp	Fri Feb 15 10:17:49 2008
 @@ -312,9 +312,9 @@ void BatchRenamer::work( ProgressDialog* p )

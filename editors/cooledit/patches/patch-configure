@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/cooledit/patches/patch-configure,v 1.7 2010/05/19 15:18:35 espie Exp $
+$OpenBSD$
 --- configure.orig	Sat Nov 27 09:46:40 2004
 +++ configure	Wed May 19 17:08:39 2010
 @@ -20225,15 +20225,17 @@ cat >>confdefs.h <<_ACEOF

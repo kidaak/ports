@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xtermset/Makefile,v 1.14 2010/10/19 08:14:01 espie Exp $
+# $OpenBSD$
 
 COMMENT=	dynamically change some settings of an xterm
 

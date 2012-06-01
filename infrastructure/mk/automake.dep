@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/mk/automake.dep,v 1.3 2007/02/03 17:08:59 espie Exp $
+# $OpenBSD$
 configure configure.ac
 configure configure.in
 /Makefile.in /Makefile.am

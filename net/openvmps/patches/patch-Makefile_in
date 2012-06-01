@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/openvmps/patches/patch-Makefile_in,v 1.2 2009/11/23 08:25:11 benoit Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Feb 15 19:45:50 2009
 +++ Makefile.in	Sat Nov 21 17:12:03 2009
 @@ -686,7 +686,7 @@ install-data-am: install-man

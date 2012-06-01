@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/clisp/patches/patch-configure,v 1.3 2010/01/07 10:55:28 edd Exp $
+$OpenBSD$
 --- configure.orig	Thu Jan 15 08:37:34 2009
 +++ configure	Wed Dec 30 01:35:49 2009
 @@ -389,7 +389,7 @@ do

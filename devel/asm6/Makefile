@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/asm6/Makefile,v 1.1.1.1 2011/06/15 18:25:03 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	simple 6502 assembler
 

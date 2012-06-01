@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Format-Builder/Makefile,v 1.8 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	create DateTime parser classes and objects
 

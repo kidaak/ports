@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/libwpd/Makefile,v 1.14 2011/11/03 20:13:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	import and export WordPerfect(tm) documents
 

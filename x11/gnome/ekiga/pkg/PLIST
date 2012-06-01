@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/ekiga/pkg/PLIST,v 1.10 2011/12/03 22:17:15 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/ekiga
 bin/ekiga-config-tool
 @bin bin/ekiga-helper

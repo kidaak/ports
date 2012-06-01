@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/ktimeclock/Makefile,v 1.16 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT=	task-based timeclock for KDE
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/camlimages/pkg/PFRAG.native,v 1.5 2011/01/13 10:22:54 dcoppa Exp $
+@comment $OpenBSD$
 lib/ocaml/site-lib/camlimages/camlimages.a
 lib/ocaml/site-lib/camlimages/camlimages.cmxa
 lib/ocaml/site-lib/camlimages/camlimages_core.a

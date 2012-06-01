@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/regionset/Makefile,v 1.1.1.1 2008/01/03 19:30:16 oga Exp $
+# $OpenBSD$
 
 COMMENT=	set region on dvd drives
 

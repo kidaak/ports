@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/h323plus/patches/patch-plugins_audio_GSM0610_Makefile_in,v 1.2 2011/10/26 16:59:51 ajacoutot Exp $
+$OpenBSD$
 --- plugins/audio/GSM0610/Makefile.in.orig	Wed Feb 24 03:19:05 2010
 +++ plugins/audio/GSM0610/Makefile.in	Tue Oct 25 17:14:46 2011
 @@ -30,8 +30,8 @@ libdir=@libdir@

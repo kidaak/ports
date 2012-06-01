@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/iksemel/Makefile,v 1.10 2011/11/03 20:13:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		XML parser designed for Jabber applications
 DISTNAME=		iksemel-1.4

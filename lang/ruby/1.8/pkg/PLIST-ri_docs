@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ruby/1.8/pkg/PLIST-ri_docs,v 1.1 2011/11/08 23:40:05 jeremy Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict ruby-ri_docs->=1.8,<1.9
 share/ri/${REV}/system/ACL/

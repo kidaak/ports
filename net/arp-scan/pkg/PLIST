@@ -1,4 +1,6 @@
-@comment $OpenBSD: ports/net/arp-scan/pkg/PLIST,v 1.2 2011/03/03 09:47:51 sthen Exp $
+@comment $OpenBSD$
+@extra ${TRUEPREFIX}/share/arp-scan/ieee-iab.txt.bak
+@extra ${TRUEPREFIX}/share/arp-scan/ieee-oui.txt.bak
 bin/arp-fingerprint
 @bin bin/arp-scan
 bin/get-iab

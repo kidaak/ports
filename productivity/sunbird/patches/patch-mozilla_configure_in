@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_configure_in,v 1.3 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/configure.in.orig	Wed Jun 23 19:47:29 2010
 +++ mozilla/configure.in	Wed Jul  7 08:43:04 2010
 @@ -1059,7 +1059,7 @@ MOZ_PNG_LIBS='$(call EXPAND_LIBNAME_PATH,mozpng,$(DEPT

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/totem/pkg/PLIST-nautilus,v 1.1 2011/09/12 07:28:55 jasper Exp $
+@comment $OpenBSD$
 lib/nautilus/
 lib/nautilus/extensions-3.0/
 @comment lib/nautilus/extensions-3.0/libtotem-properties-page.a

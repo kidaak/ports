@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_libUnicorn_WebService_Request_h,v 1.1 2011/10/18 12:17:26 dcoppa Exp $
+$OpenBSD$
 --- src/libUnicorn/WebService/Request.h.orig	Tue Oct 18 11:20:48 2011
 +++ src/libUnicorn/WebService/Request.h	Tue Oct 18 11:21:07 2011
 @@ -31,7 +31,7 @@

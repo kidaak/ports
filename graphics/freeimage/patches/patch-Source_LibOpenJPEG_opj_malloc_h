@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/freeimage/patches/patch-Source_LibOpenJPEG_opj_malloc_h,v 1.1 2012/03/17 20:54:25 pascal Exp $
+$OpenBSD$
 --- Source/LibOpenJPEG/opj_malloc.h.orig	Sat Mar 17 18:18:00 2012
 +++ Source/LibOpenJPEG/opj_malloc.h	Sat Mar 17 18:19:23 2012
 @@ -85,7 +85,7 @@ Allocate memory aligned to a 16 byte boundry

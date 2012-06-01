@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libmodplug/Makefile,v 1.6 2011/08/18 17:56:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		library for decoding mod-like music formats
 

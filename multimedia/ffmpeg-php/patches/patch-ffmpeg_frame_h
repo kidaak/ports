@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/ffmpeg-php/patches/patch-ffmpeg_frame_h,v 1.2 2009/08/17 00:24:38 jolan Exp $
+$OpenBSD$
 --- ffmpeg_frame.h.orig	Mon Oct 13 18:02:40 2008
 +++ ffmpeg_frame.h	Sun Aug 16 18:27:37 2009
 @@ -40,17 +40,19 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-chdir/pkg/PLIST,v 1.2 2008/07/12 13:39:14 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/chdir.pm
 ${P5SITE}/File/chdir.pod

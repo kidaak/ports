@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/ruby-data_objects/patches/patch-tasks_spec_rake,v 1.2 2012/04/06 19:28:22 jeremy Exp $
+$OpenBSD$
 
 The rcov.opts file is not shipped with the gem, and isn't
 necessary as we aren't running the rcov task.

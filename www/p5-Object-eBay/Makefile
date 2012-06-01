@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Object-eBay/Makefile,v 1.1.1.1 2011/04/03 17:16:13 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	OO interface to the eBay API
 

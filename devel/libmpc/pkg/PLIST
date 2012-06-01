@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libmpc/pkg/PLIST,v 1.1.1.1 2010/04/02 20:33:21 jsg Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/mpc.h
 @info info/mpc.info

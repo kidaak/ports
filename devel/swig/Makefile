@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/swig/Makefile,v 1.52 2011/06/09 07:34:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	simplified wrapper and interface generator
 

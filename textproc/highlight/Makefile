@@ -1,8 +1,9 @@
-# $OpenBSD: ports/textproc/highlight/Makefile,v 1.14 2012/01/08 07:46:19 benoit Exp $
+# $OpenBSD$
 
 COMMENT =		convert source code to markup formats
 
-DISTNAME =		highlight-3.7
+DISTNAME =		highlight-3.9
+REVISION =		0
 CATEGORIES =		textproc converters
 
 HOMEPAGE =		http://www.andre-simon.de/
@@ -15,15 +16,17 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM = Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-WANTLIB =		c m stdc++ lua
+WANTLIB =		c m stdc++ ${MODLUA_WANTLIB}
 
 MASTER_SITES =		${HOMEPAGE}/zip/
 EXTRACT_SUFX =		.tar.bz2
 
 USE_GMAKE =		Yes
 
+MODULES =		lang/lua
+
 BUILD_DEPENDS =		devel/boost
-LIB_DEPENDS =		lang/lua
+LIB_DEPENDS =		${MODLUA_LIB_DEPENDS}
 
 MAKE_FILE =		makefile
 MAKE_FLAGS =		CXX=${CXX} \

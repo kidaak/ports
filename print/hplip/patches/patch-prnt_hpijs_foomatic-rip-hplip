@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-prnt_hpijs_foomatic-rip-hplip,v 1.2 2009/08/20 08:07:48 ajacoutot Exp $
+$OpenBSD$
 --- prnt/hpijs/foomatic-rip-hplip.orig	Tue Aug  4 23:35:41 2009
 +++ prnt/hpijs/foomatic-rip-hplip	Thu Aug 20 09:24:11 2009
 @@ -44,19 +44,19 @@ my $ripversion='$Revision=3.0.2.131$';

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/cache/Makefile,v 1.12 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	caching plugin for Merb
 

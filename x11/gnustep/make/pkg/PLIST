@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/make/pkg/PLIST,v 1.7 2011/04/18 11:30:47 sebastia Exp $
+@comment $OpenBSD$
 bin/debugapp
 bin/gnustep-config
 bin/gnustep-tests

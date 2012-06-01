@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/oinkmaster/Makefile,v 1.17 2011/04/28 09:45:14 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	update your Snort rules
 

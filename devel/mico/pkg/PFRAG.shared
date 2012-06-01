@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mico/pkg/PFRAG.shared,v 1.6 2010/09/22 08:42:53 landry Exp $
+@comment $OpenBSD$
 @lib lib/libmico${V}.so.${LIBmico2.3.13_VERSION}
 @lib lib/libmicoaux${V}.so.${LIBmicoaux2.3.13_VERSION}
 @lib lib/libmicocoss${V}.so.${LIBmicocoss2.3.13_VERSION}

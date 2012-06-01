@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nedit/patches/patch-doc_nedit_doc,v 1.4 2004/10/17 21:23:50 djm Exp $
+$OpenBSD$
 --- doc/nedit.doc.orig	Fri Oct  1 07:03:56 2004
 +++ doc/nedit.doc	Sat Oct 16 17:42:51 2004
 @@ -4,6 +4,10 @@

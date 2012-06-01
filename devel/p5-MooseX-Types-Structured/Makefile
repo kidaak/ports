@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Types-Structured/Makefile,v 1.8 2011/04/12 14:33:54 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		structured Type Constraints for Moose
 

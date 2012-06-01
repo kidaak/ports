@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/openmpi/pkg/PFRAG.shared,v 1.2 2010/03/21 10:45:19 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libmca_common_sm.so.${LIBmca_common_sm_VERSION}
 @lib lib/libmpi.so.${LIBmpi_VERSION}
 @lib lib/libmpi_cxx.so.${LIBmpi_cxx_VERSION}

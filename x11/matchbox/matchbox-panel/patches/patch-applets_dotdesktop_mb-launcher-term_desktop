@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/matchbox/matchbox-panel/patches/patch-applets_dotdesktop_mb-launcher-term_desktop,v 1.1.1.1 2005/06/17 02:57:30 jolan Exp $
+$OpenBSD$
 --- applets/dotdesktop/mb-launcher-term.desktop.orig	Sun Mar 20 11:43:31 2005
 +++ applets/dotdesktop/mb-launcher-term.desktop	Thu Jun 16 13:15:03 2005
 @@ -2,7 +2,7 @@

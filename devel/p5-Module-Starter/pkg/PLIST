@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Module-Starter/pkg/PLIST,v 1.1.1.1 2010/05/12 18:47:03 jamesw Exp $
+@comment $OpenBSD$
 bin/module-starter
 ${P5SITE}/Module/
 ${P5SITE}/Module/Starter/

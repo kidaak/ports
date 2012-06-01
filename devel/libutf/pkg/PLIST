@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libutf/pkg/PLIST,v 1.2 2004/08/09 15:34:08 espie Exp $
+@comment $OpenBSD$
 include/utf.h
 lib/libutf.a
 @man man/man3/isalpharune.3

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/cgiparse/Makefile,v 1.32 2010/11/11 12:35:09 sthen Exp $
+# $OpenBSD$
 
 BROKEN-alpha=	Alpha architecture not yet supported
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/eet/Makefile,v 1.16 2011/03/15 19:40:40 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		library to write an arbitary set of chunks of data to a file
 DISTNAME =		eet-1.4.0

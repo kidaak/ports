@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_Makefile_in,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/Makefile.in.orig	Thu Apr  1 18:55:23 2004
 +++ gcc/Makefile.in	Mon Jan  3 10:39:12 2005
 @@ -391,7 +391,7 @@ INSTALL_LIBGCC = install-libgcc

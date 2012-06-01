@@ -1,5 +1,5 @@
 #!/bin/sh
-# $OpenBSD: ports/infrastructure/bin/find-build-order,v 1.1 2011/11/28 10:30:22 jasper Exp $
+# $OpenBSD$
 # Copyright (c) 1999 Marc Espie.  All rights reserved.
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions

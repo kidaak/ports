@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/dsniff/patches/patch-sshcrypto_c,v 1.2 2010/10/16 11:26:33 jsg Exp $
+$OpenBSD$
 --- sshcrypto.c.orig	Tue Nov 28 22:23:28 2000
 +++ sshcrypto.c	Fri Oct 15 19:03:56 2010
 @@ -15,7 +15,9 @@

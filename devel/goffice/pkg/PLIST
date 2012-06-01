@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/goffice/pkg/PLIST,v 1.14 2011/05/22 10:06:51 ajacoutot Exp $
+@comment $OpenBSD$
 include/libgoffice-0.8/
 include/libgoffice-0.8/goffice/
 include/libgoffice-0.8/goffice/app/

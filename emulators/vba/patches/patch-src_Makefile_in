@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/vba/patches/patch-src_Makefile_in,v 1.1.1.1 2007/09/28 14:18:17 jasper Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu May 20 20:17:48 2004
 +++ src/Makefile.in	Wed Sep 19 18:34:14 2007
 @@ -46,7 +46,7 @@ AUTOMAKE = @AUTOMAKE@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/py-reportlab/plugins/Makefile.inc,v 1.4 2010/11/20 09:48:40 espie Exp $
+# $OpenBSD$
 
 CATEGORIES=	print graphics
 

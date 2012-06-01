@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-sanitize/Makefile,v 1.3 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=		whitelist-based HTML sanitizer
 

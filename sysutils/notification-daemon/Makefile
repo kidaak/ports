@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/notification-daemon/Makefile,v 1.26 2012/03/29 06:25:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		send small notifications to your desktop
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Cache-FileCache/Makefile,v 1.5 2012/04/07 16:47:58 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	file cache extension for Catalyst (deprecated)
 

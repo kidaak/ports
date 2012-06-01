@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/spectrwm/Makefile,v 1.1.1.1 2012/02/28 05:56:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		small tiling window manager
 

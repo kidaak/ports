@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/sysbench/Makefile,v 1.6 2011/10/17 12:57:39 espie Exp $
+# $OpenBSD$
 
 COMMENT =	modular, cross-platform and multi-threaded benchmark tool
 DISTNAME =	sysbench-0.4.8

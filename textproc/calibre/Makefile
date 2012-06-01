@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/calibre/Makefile,v 1.11 2011/12/20 11:25:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		ebook management application
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Parse-RecDescent/Makefile,v 1.13 2011/03/10 22:51:29 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to generate recursive descent parsers
 

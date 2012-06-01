@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gcolor2/pkg/PLIST,v 1.1.1.1 2010/10/17 21:38:05 landry Exp $
+@comment $OpenBSD$
 @bin bin/gcolor2
 share/pixmaps/
 share/pixmaps/gcolor2/

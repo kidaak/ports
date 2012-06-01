@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-gas_config_tc-avr_h,v 1.1 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- gas/config/tc-avr.h.orig	Sat Jun 26 11:23:23 2010
 +++ gas/config/tc-avr.h	Sat Jun 26 11:31:17 2010
 @@ -147,3 +147,6 @@ extern long md_pcrel_from_section (struct fix *, segT)

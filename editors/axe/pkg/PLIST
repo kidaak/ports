@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/axe/pkg/PLIST,v 1.7 2004/09/15 18:01:06 espie Exp $
+@comment $OpenBSD$
 bin/axe
 bin/axinfo
 bin/coaxe

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/spectrum-tools/pkg/PLIST-utils,v 1.1.1.1 2008/06/12 21:33:57 sthen Exp $
+@comment $OpenBSD$
 @bin bin/spectool_curses
 @bin bin/spectool_net
 @bin bin/spectool_raw

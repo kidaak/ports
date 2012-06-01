@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/unrar/patches/patch-makefile_unix,v 1.15 2012/04/08 17:04:20 naddy Exp $
+$OpenBSD$
 --- makefile.unix.orig	Mon May 30 18:47:49 2011
 +++ makefile.unix	Sun Apr  8 18:41:22 2012
 @@ -8,9 +8,10 @@

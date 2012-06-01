@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/unbound/patches/patch-Makefile_in,v 1.14 2011/12/20 10:49:19 sthen Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri Nov 11 09:49:19 2011
 +++ Makefile.in	Tue Dec 13 07:37:19 2011
 @@ -467,7 +467,6 @@ install:	all $(PYTHONMOD_INSTALL) $(PYUNBOUND_INSTALL)

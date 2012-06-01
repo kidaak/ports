@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_libserver_ECDatabaseUtils_cpp,v 1.6 2012/02/16 22:18:36 ajacoutot Exp $
+$OpenBSD$
 
 Needs newlocale(3).
 

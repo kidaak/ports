@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/lsof/Makefile,v 1.86 2012/03/15 21:39:53 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	list information about open files
 

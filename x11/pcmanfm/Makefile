@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/pcmanfm/Makefile,v 1.22 2012/01/01 09:04:13 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	fast and lightweight file manager
 

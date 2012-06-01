@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/py-matplotlib/patches/patch-setupext_py,v 1.12 2012/02/28 23:01:23 rpointel Exp $
+$OpenBSD$
 --- setupext.py.orig	Fri Dec 19 05:34:22 2008
 +++ setupext.py	Tue Feb 28 23:26:18 2012
 @@ -46,6 +46,7 @@ import re

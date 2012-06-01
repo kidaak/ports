@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_config_i386_openbsdelf_h,v 1.4 2011/11/16 12:32:49 espie Exp $
+$OpenBSD$
 --- gcc/config/i386/openbsdelf.h.orig	Sat Sep  1 11:28:30 2007
 +++ gcc/config/i386/openbsdelf.h	Wed Oct 19 09:54:14 2011
 @@ -55,10 +55,10 @@ along with GCC; see the file COPYING3.  If not see

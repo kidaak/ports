@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/nhc98/pkg/PLIST,v 1.6 2010/07/27 18:16:19 kili Exp $
+@comment $OpenBSD$
 @pkgpath lang/nhc98
 bin/cabal-parse
 @comment bin/cpphs

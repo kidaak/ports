@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/gdiff/pkg/PLIST,v 1.5 2004/08/11 20:55:50 naddy Exp $
+@comment $OpenBSD$
 bin/gcmp
 bin/gdiff
 bin/gdiff3

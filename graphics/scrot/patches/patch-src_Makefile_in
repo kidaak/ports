@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/scrot/patches/patch-src_Makefile_in,v 1.2 2011/07/08 11:25:47 jasper Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Mon Jun 23 14:13:34 2003
 +++ src/Makefile.in	Fri Jul  8 13:22:30 2011
 @@ -73,13 +73,13 @@ VERSION = @VERSION@

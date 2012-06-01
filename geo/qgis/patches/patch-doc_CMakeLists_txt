@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qgis/patches/patch-doc_CMakeLists_txt,v 1.5 2011/12/29 21:44:06 landry Exp $
+$OpenBSD$
 --- doc/CMakeLists.txt.orig	Sat Dec 10 19:23:35 2011
 +++ doc/CMakeLists.txt	Wed Dec 28 22:24:16 2011
 @@ -13,8 +13,8 @@ ENDIF(TXT2TAGS_EXECUTABLE)

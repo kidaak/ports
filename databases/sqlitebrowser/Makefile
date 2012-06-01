@@ -1,8 +1,8 @@
-# $OpenBSD: ports/databases/sqlitebrowser/Makefile,v 1.13 2012/03/17 22:50:56 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	graphical interface to sqlite databases
 DISTNAME=	sqlitebrowser-1.3
-REVISION=	6
+REVISION=	7
 DISTFILES=	${DISTNAME}-src.tar.gz
 WRKDIST=	${WRKDIR}/sqlitebrowser
 CATEGORIES=	databases x11
@@ -12,7 +12,6 @@ HOMEPAGE=	http://sqlitebrowser.sourceforge.net/
 MODULES=	x11/qt3
 NO_REGRESS=	Yes
 
-LIB_DEPENDS +=	databases/sqlite3
 WANTLIB=	Xext m X11 c pthread stdc++ sqlite3
 
 # Special: files are macintosh encoded.

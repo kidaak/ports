@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/desktop/patches/patch-libgnome-desktop_Makefile_in,v 1.1 2012/03/29 06:46:31 ajacoutot Exp $
+$OpenBSD$
 --- libgnome-desktop/Makefile.in.orig	Mon Mar 26 11:40:36 2012
 +++ libgnome-desktop/Makefile.in	Mon Mar 26 11:40:42 2012
 @@ -359,8 +359,7 @@ libgnome_desktop_3_la_SOURCES = \

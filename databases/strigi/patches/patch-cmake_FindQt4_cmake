@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/strigi/patches/patch-cmake_FindQt4_cmake,v 1.2 2007/10/24 22:49:38 espie Exp $
+$OpenBSD$
 --- cmake/FindQt4.cmake.orig	Mon Jul 16 13:26:59 2007
 +++ cmake/FindQt4.cmake	Thu Oct 25 00:10:55 2007
 @@ -184,6 +184,19 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hyperestraier/Makefile,v 1.12 2011/03/28 15:09:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		high performance full-text search system
 

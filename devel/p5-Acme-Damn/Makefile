@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Acme-Damn/Makefile,v 1.1.1.1 2011/03/10 21:34:49 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

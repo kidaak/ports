@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/havp/pkg/havp.rc,v 1.2 2011/11/30 11:00:59 robert Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/havp"
 

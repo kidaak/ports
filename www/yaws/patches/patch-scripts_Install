@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/yaws/patches/patch-scripts_Install,v 1.1.1.1 2010/12/22 18:38:03 jasper Exp $
+$OpenBSD$
 
 Don't install these directories, it's taken care of already
 by mtree, or will be with @sample in the PLIST.

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/dspam/pkg/PFRAG.sqlite3,v 1.3 2006/10/18 05:12:35 aanriot Exp $
+@comment $OpenBSD$
 share/examples/dspam/sqlite/purge-3.sql

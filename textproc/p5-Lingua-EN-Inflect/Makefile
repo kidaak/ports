@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-EN-Inflect/Makefile,v 1.10 2011/11/17 15:15:04 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	convert singular to plural, select a or an
 

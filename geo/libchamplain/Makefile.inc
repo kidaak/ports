@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/libchamplain/Makefile.inc,v 1.13 2011/04/02 21:03:02 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY?=		Yes
 

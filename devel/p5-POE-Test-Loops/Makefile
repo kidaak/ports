@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-POE-Test-Loops/Makefile,v 1.8 2011/04/25 13:46:16 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	reusable tests for POE::Loop authors 
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/sleuthkit/Makefile,v 1.14 2011/09/07 13:27:13 nigel Exp $
+# $OpenBSD$
 
 COMMENT=		forensic toolkit based on TCT
 

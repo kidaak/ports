@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-OpenSSL-Random/Makefile,v 1.11 2010/10/18 21:41:46 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

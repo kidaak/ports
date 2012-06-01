@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-bfd_Makefile_in,v 1.4 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- bfd/Makefile.in.orig	Sat Jun 26 11:23:54 2010
 +++ bfd/Makefile.in	Sat Jun 26 11:31:17 2010
 @@ -524,6 +524,8 @@ BFD32_BACKENDS = \

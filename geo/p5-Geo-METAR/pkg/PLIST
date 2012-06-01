@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/p5-Geo-METAR/pkg/PLIST,v 1.1.1.1 2008/04/05 04:13:44 okan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Geo/
 ${P5SITE}/Geo/METAR.pm
 @man man/man3p/Geo::METAR.3p

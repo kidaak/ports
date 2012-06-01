@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/py-Imaging/patches/patch-setup_py,v 1.5 2010/11/15 20:57:10 sthen Exp $
+$OpenBSD$
 --- setup.py.orig	Sun Nov 15 21:06:10 2009
 +++ setup.py	Sun Nov 14 17:21:14 2010
 @@ -160,6 +160,13 @@ class pil_build_ext(build_ext):

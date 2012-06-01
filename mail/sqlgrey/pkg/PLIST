@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/sqlgrey/pkg/PLIST,v 1.1.1.1 2009/11/16 10:43:55 giovanni Exp $
+@comment $OpenBSD$
 @newgroup _sqlgrey:647
 @newuser _sqlgrey:647:_sqlgrey:daemon:SQLgrey Account:/nonexistent:/sbin/nologin
 bin/sqlgrey-logstats

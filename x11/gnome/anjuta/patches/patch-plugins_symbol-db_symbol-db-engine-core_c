@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/anjuta/patches/patch-plugins_symbol-db_symbol-db-engine-core_c,v 1.2 2012/03/29 07:22:04 ajacoutot Exp $
+$OpenBSD$
 
 Do not use shm_open() which OpenBSD lacks (from FreeBSD ports).
 

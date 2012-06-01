@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/wy60/patches/patch-wy60_c,v 1.2 2011/11/14 19:33:34 naddy Exp $
+$OpenBSD$
 
 Don't mix mixed declarations and code, for gcc2.95.
 

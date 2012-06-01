@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/opensonic/pkg/PLIST,v 1.1.1.1 2009/10/15 14:39:50 phessler Exp $
+@comment $OpenBSD$
 bin/opensonic
 share/opensonic/
 share/opensonic/config/

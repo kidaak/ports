@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/slib/pkg/PLIST,v 1.4 2009/01/21 18:28:22 kili Exp $
+@comment $OpenBSD$
 @info info/slib.info
 share/slib/
 share/slib/ANNOUNCE

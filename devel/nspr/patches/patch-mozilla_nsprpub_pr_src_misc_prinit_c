@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/nspr/patches/patch-mozilla_nsprpub_pr_src_misc_prinit_c,v 1.8 2011/08/23 20:07:08 landry Exp $
+$OpenBSD$
 --- mozilla/nsprpub/pr/src/misc/prinit.c.orig	Wed Jul 27 21:40:42 2011
 +++ mozilla/nsprpub/pr/src/misc/prinit.c	Tue Aug 16 09:09:13 2011
 @@ -416,8 +416,6 @@ PR_IMPLEMENT(PRStatus) PR_Cleanup()

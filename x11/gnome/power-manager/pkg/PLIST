@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/power-manager/pkg/PLIST,v 1.6 2012/03/29 06:58:43 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gnome-power-statistics
 share/applications/gnome-power-statistics.desktop
 share/glib-2.0/schemas/org.gnome.power-manager.gschema.xml

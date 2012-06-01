@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/agg/pkg/PFRAG.shared,v 1.1.1.1 2006/10/16 11:42:04 steven Exp $
+@comment $OpenBSD$
 @lib lib/libagg.so.${LIBagg_VERSION}
 @lib lib/libaggfontfreetype.so.${LIBaggfontfreetype_VERSION}
 @lib lib/libaggplatformX11.so.${LIBaggplatformX11_VERSION}

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-distutils-extra/pkg/PLIST,v 1.1.1.1 2009/04/23 10:30:48 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/DistUtilsExtra/
 lib/python${MODPY_VERSION}/site-packages/DistUtilsExtra/__init__.py
 lib/python${MODPY_VERSION}/site-packages/DistUtilsExtra/__init__.pyc

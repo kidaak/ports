@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/varnish/pkg/PLIST,v 1.4 2011/12/23 13:06:30 jasper Exp $
+@comment $OpenBSD$
 @newgroup _varnish:625
 @newuser _varnish:625:_varnish:daemon:Varnish Cache:/var/varnish:/bin/sh
 @bin bin/varnishadm

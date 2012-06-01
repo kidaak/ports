@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_src_share_classes_java_lang_Float_java,v 1.1 2011/10/07 02:04:12 kurt Exp $
+$OpenBSD$
 --- j2se/src/share/classes/java/lang/Float.java.orig	Thu Sep 29 13:42:28 2011
 +++ j2se/src/share/classes/java/lang/Float.java	Thu Sep 29 13:45:01 2011
 @@ -59,7 +59,7 @@ public final class Float extends Number implements Com

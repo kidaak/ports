@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-build_tests_mk,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- build/tests.mk.orig	Mon Nov 29 19:46:35 2010
 +++ build/tests.mk	Mon Apr 18 16:42:04 2011
 @@ -52,7 +52,7 @@ ifeq ($(HARD_LINKED_GAME),1)

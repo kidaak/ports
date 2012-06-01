@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/cracklib/Makefile,v 1.7 2011/09/16 11:41:38 espie Exp $
+# $OpenBSD$
 
 COMMENT =		sensible unix password cracker
 

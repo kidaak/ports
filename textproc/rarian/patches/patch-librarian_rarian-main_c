@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/rarian/patches/patch-librarian_rarian-main_c,v 1.2 2008/12/16 19:54:02 jasper Exp $
+$OpenBSD$
 --- librarian/rarian-main.c.orig	Sat Nov 22 17:04:05 2008
 +++ librarian/rarian-main.c	Sat Nov 22 17:04:19 2008
 @@ -215,7 +215,7 @@ past:

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/textproc/libebml/pkg/PFRAG.shared,v 1.1.1.1 2006/03/22 01:26:57 jolan Exp $
+@comment $OpenBSD$
 @lib lib/libebml.so.${LIBebml_VERSION}

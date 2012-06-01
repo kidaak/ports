@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/postgresql-odbc/Makefile,v 1.9 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	ODBC driver for PostgreSQL
 VERSION=	08.03.0400

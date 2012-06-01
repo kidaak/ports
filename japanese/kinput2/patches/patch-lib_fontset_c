@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/kinput2/patches/patch-lib_fontset_c,v 1.1.1.1 2000/04/26 00:43:14 espie Exp $
+$OpenBSD$
 --- lib/fontset.c.orig	Thu May 27 01:55:26 1999
 +++ lib/fontset.c	Wed Apr 26 02:18:48 2000
 @@ -208,9 +208,9 @@ Cardinal numlist;

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ejabberd/Makefile,v 1.28 2012/01/23 10:54:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		jabber server written in Erlang
 

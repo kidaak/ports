@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/driftnet/patches/patch-img_h,v 1.1.1.1 2007/04/30 13:38:50 claudio Exp $
+$OpenBSD$
 --- img.h.orig	Tue Apr 24 14:45:52 2007
 +++ img.h	Tue Apr 24 14:47:02 2007
 @@ -20,13 +20,15 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-Serpent/Makefile,v 1.6 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

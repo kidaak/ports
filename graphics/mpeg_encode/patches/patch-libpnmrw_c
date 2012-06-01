@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/mpeg_encode/patches/patch-libpnmrw_c,v 1.1.1.1 2001/06/19 03:22:33 angelos Exp $
+$OpenBSD$
 --- libpnmrw.c.orig	Wed Aug 16 18:24:26 1995
 +++ libpnmrw.c	Sun Jun 10 01:33:48 2001
 @@ -126,7 +126,9 @@ static void

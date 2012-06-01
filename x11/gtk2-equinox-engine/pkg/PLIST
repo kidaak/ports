@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk2-equinox-engine/pkg/PLIST,v 1.4 2011/04/29 07:01:18 ajacoutot Exp $
+@comment $OpenBSD$
 @comment lib/gtk-2.0/2.10.0/engines/libequinox.la
 lib/gtk-2.0/2.10.0/engines/libequinox.so
 share/themes/Equinox_Evolution/

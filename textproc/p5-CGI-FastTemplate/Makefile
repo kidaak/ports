@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-CGI-FastTemplate/Makefile,v 1.3 2010/12/03 11:46:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	manages templates and performs variable interpolation
 

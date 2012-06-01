@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gcc/3.3/gcc3.port.mk,v 1.9 2012/04/23 14:06:42 pascal Exp $
+# $OpenBSD$
 
 MODGCC3_ARCHS?=
 # Supported languages for now

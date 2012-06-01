@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-logilab-astng/pkg/PLIST,v 1.2 2011/08/31 12:41:07 mpi Exp $
+@comment $OpenBSD$
 @comment lib/python${MODPY_VERSION}/site-packages/logilab/__init__.py
 lib/python${MODPY_VERSION}/site-packages/logilab/astng/
 lib/python${MODPY_VERSION}/site-packages/logilab/astng/__init__.py

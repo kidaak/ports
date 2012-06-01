@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/daapd/patches/patch-daapd-example_conf,v 1.1.1.1 2005/01/21 06:49:11 jolan Exp $
+$OpenBSD$
 --- daapd-example.conf.orig	Tue Jan  4 17:18:48 2005
 +++ daapd-example.conf	Fri Jan 21 00:20:23 2005
 @@ -1,8 +1,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-XML-Atom/Makefile,v 1.8 2011/01/07 14:51:41 benoit Exp $
+# $OpenBSD$
 
 COMMENT= 	Atom RSS protocol for perl
 

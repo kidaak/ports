@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-unicorn/patches/patch-test_test_helper_rb,v 1.1 2011/11/18 00:05:43 jeremy Exp $
+$OpenBSD$
 --- test/test_helper.rb.orig	Tue Nov 15 20:43:39 2011
 +++ test/test_helper.rb	Tue Nov 15 20:46:17 2011
 @@ -72,6 +72,7 @@ def hit(uris)

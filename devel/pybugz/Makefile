@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pybugz/Makefile,v 1.6 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Commandline client for Bugzilla bug tracking systems
 

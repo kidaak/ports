@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libgo_Makefile_in,v 1.1 2011/11/19 22:19:53 pascal Exp $
+$OpenBSD$
 --- libgo/Makefile.in.orig	Fri Mar 11 02:00:15 2011
 +++ libgo/Makefile.in	Sat Nov 19 04:20:59 2011
 @@ -1040,7 +1040,7 @@ go_netchan_files = \

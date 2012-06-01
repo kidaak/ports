@@ -1,5 +1,5 @@
 # ex:ts=8 sw=4:
-# $OpenBSD: ports/infrastructure/lib/DPB/Engine.pm,v 1.47 2012/04/07 12:16:58 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2010 Marc Espie <espie@openbsd.org>
 #

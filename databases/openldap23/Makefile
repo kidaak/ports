@@ -1,10 +1,10 @@
-# $OpenBSD: ports/databases/openldap23/Makefile,v 1.6 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Open source LDAP software (server)
 
 DISTNAME=	openldap-2.3.43
 PKGNAME=	${DISTNAME:S/-/-server-/}
-REVISION=	9
+REVISION=	10
 
 CATEGORIES=	databases net
 
@@ -31,7 +31,6 @@ CONFIGURE_STYLE=	gnu
 USE_GROFF=		Yes
 
 CONFIGURE_ARGS+=	${CONFIGURE_SHARED} \
-			--localstatedir="/var" \
 			--enable-ipv6
 
 # slapd options

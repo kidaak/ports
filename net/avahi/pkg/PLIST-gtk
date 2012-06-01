@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/avahi/pkg/PLIST-gtk,v 1.6 2011/07/14 18:48:15 ajacoutot Exp $
+@comment $OpenBSD$
 lib/libavahi-ui.a
 lib/libavahi-ui.la
 @lib lib/libavahi-ui.so.${LIBavahi-ui_VERSION}

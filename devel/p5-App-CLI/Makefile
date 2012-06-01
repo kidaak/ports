@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-App-CLI/Makefile,v 1.10 2010/12/03 11:44:26 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	dispatcher for command line interface programs
 

@@ -1,0 +1,12 @@
+$OpenBSD$
+--- memcache_pool.c.orig	Mon Apr 11 05:56:53 2011
++++ memcache_pool.c	Thu Apr 12 21:53:54 2012
+@@ -24,6 +24,8 @@
+ #endif
+ 
+ #include <zlib.h>
++#include <sys/types.h>
++#include <netinet/in.h>
+ #include <arpa/inet.h>
+ 
+ #include "php.h"

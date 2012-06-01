@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/avahi/pkg/avahi_dnsconfd.rc,v 1.7 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/avahi-dnsconfd -D"
 

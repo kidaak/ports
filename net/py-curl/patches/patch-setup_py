@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/py-curl/patches/patch-setup_py,v 1.5 2009/02/01 19:49:59 wcmaier Exp $
+$OpenBSD$
 --- setup.py.orig	Tue Sep  9 19:40:34 2008
 +++ setup.py	Sat Jan  3 01:13:32 2009
 @@ -151,20 +151,20 @@ def get_data_files():

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/bibview/Makefile,v 1.22 2010/10/24 21:32:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GUI for manipulating BibTeX bibliography databases
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/hicolor-icon-theme/Makefile,v 1.17 2011/12/03 18:35:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		fallback theme of the icon theme specification
 

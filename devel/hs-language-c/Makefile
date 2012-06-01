@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-language-c/Makefile,v 1.13 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		analysis and generation of C code in Haskell
 

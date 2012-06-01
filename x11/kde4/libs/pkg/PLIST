@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/libs/pkg/PLIST,v 1.8 2010/07/10 16:57:22 espie Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict kdelibs->=4
 bin/checkXML

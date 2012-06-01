@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/hicolor-icon-theme/pkg/PLIST,v 1.13 2011/12/03 18:35:11 ajacoutot Exp $
+@comment $OpenBSD$
 share/icons/
 share/icons/hicolor/
 share/icons/hicolor/128x128/

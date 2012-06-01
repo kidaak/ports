@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/lilypond-test-baseline/Makefile,v 1.4 2011/09/18 17:18:09 espie Exp $
+# $OpenBSD$
 
 # This port is not wired to the build by intention. It's not even
 # meant to be built, because it's just a helper port to avoid

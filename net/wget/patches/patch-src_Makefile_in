@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/wget/patches/patch-src_Makefile_in,v 1.2 2011/10/12 10:14:30 dcoppa Exp $
+$OpenBSD$
 
 Fix linking order so this works on static arches too.
 (libidn before libintl before libiconv).

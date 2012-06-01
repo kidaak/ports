@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-MakeMethods/Makefile,v 1.6 2011/03/14 09:17:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT= 	framework for generating methods
 

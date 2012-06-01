@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/freehdl/Makefile,v 1.2 2011/09/23 13:06:26 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	open-source (C++ generating) VHDL simulator
 

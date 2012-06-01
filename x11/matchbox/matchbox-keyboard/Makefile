@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/matchbox/matchbox-keyboard/Makefile,v 1.15 2010/11/22 08:37:03 espie Exp $
+# $OpenBSD$
 
 COMMENT=	on-screen virtual keyboard
 DISTNAME=	matchbox-keyboard-0.1

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-AI-NeuralNet-BackProp/Makefile,v 1.11 2011/03/14 09:17:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	implement a back-propagation feed-forward neural network
 

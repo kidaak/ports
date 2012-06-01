@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libkexiv2/pkg/PLIST,v 1.2 2007/06/28 15:08:59 espie Exp $
+@comment $OpenBSD$
 include/libkexiv2/
 include/libkexiv2/kexiv2.h
 include/libkexiv2/libkexiv2_export.h

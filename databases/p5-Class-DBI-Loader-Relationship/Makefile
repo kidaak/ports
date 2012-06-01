@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Class-DBI-Loader-Relationship/Makefile,v 1.6 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	easier relationship specification in CDBI::L
 

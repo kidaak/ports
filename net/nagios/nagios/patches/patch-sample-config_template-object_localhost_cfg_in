@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nagios/nagios/patches/patch-sample-config_template-object_localhost_cfg_in,v 1.1 2008/03/18 20:25:11 sturm Exp $
+$OpenBSD$
 --- sample-config/template-object/localhost.cfg.in.orig	Sat Sep  1 10:20:47 2007
 +++ sample-config/template-object/localhost.cfg.in	Sat Sep  1 10:21:21 2007
 @@ -5,7 +5,7 @@

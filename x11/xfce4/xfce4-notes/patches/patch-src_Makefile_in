@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfce4-notes/patches/patch-src_Makefile_in,v 1.1 2011/01/18 20:59:31 landry Exp $
+$OpenBSD$
 we want a regular .so for panel
 --- src/Makefile.in.orig	Sun Nov  7 12:27:13 2010
 +++ src/Makefile.in	Sun Jan 16 13:58:22 2011

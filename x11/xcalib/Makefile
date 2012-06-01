@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xcalib/Makefile,v 1.3 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		tiny monitor calibration loader for XFree86 or X.org
 

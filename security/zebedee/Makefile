@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/zebedee/Makefile,v 1.16 2010/11/22 09:34:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	portable, encrypted, compressed tunnel
 

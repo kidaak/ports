@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/sudognu/pkg/PLIST,v 1.2 2009/03/08 08:37:06 steven Exp $
+@comment $OpenBSD$
 @bin bin/sudognu
 @man man/man1/sudognu.1
 share/examples/sudognu/

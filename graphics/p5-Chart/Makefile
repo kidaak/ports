@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Chart/Makefile,v 1.8 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Charting library for Perl
 

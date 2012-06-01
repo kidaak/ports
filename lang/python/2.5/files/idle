@@ -1,4 +1,4 @@
 #!/bin/sh
-# $OpenBSD: ports/lang/python/2.5/files/idle,v 1.1 2006/11/01 20:59:18 alek Exp $
+# $OpenBSD$
 
 /usr/bin/env python@VERSION@ @LOCALBASE@/lib/python@VERSION@/idlelib/idle.py

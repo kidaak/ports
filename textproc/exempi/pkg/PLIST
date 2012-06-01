@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/exempi/pkg/PLIST,v 1.1.1.1 2008/11/18 12:43:28 okan Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/exempi-2.0/
 include/exempi-2.0/exempi/

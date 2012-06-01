@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Patricia/Makefile,v 1.9 2011/01/07 11:28:40 benoit Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

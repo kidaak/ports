@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/otpcalc/Makefile,v 1.15 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	OTP and S/Key calculator for X
 

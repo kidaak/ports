@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-good/patches/patch-ext_Makefile_am,v 1.7 2012/01/25 14:06:27 ajacoutot Exp $
+$OpenBSD$
 --- ext/Makefile.am.orig	Mon Jun 13 19:24:09 2011
 +++ ext/Makefile.am	Wed Jan 25 05:42:10 2012
 @@ -100,13 +100,18 @@ else

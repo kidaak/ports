@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/git-cola/Makefile,v 1.9 2011/09/16 09:24:49 espie Exp $
+# $OpenBSD$
 
 COMMENT =	python powered git gui
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/jbigkit/pkg/PFRAG.shared,v 1.5 2005/12/26 15:49:48 steven Exp $
+@comment $OpenBSD$
 @lib lib/libjbig.so.${LIBjbig_VERSION}

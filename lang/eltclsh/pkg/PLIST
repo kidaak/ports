@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/eltclsh/pkg/PLIST,v 1.4 2010/10/23 21:49:06 naddy Exp $
+@comment $OpenBSD$
 @bin bin/eltclsh
 @bin bin/elwish
 @man man/man1/eltclsh.1

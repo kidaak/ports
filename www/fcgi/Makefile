@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/fcgi/Makefile,v 1.18 2011/06/21 20:21:21 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		FastCGI Development Kit
 

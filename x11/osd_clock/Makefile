@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/osd_clock/Makefile,v 1.12 2010/11/22 08:37:03 espie Exp $
+# $OpenBSD$
 
 COMMENT=	xosd based clock
 DISTNAME=	osd_clock-0.5

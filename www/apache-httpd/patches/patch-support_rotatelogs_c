@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/apache-httpd/patches/patch-support_rotatelogs_c,v 1.4 2008/09/02 22:05:23 bernd Exp $
+$OpenBSD$
 --- support/rotatelogs.c.orig	Fri May  9 15:43:24 2008
 +++ support/rotatelogs.c	Thu Jul 24 12:22:15 2008
 @@ -86,7 +86,7 @@ static void usage(const char *argv0, const char *reaso

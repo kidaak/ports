@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xinvaders/Makefile,v 1.27 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 NOT_FOR_ARCHS=	${LP64_ARCHS}
 

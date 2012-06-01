@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/trn/Makefile,v 1.18 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	threaded newsreader
 

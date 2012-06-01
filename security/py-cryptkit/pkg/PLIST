@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/py-cryptkit/pkg/PLIST,v 1.4 2009/05/23 15:07:25 benoit Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/aes/
 lib/python${MODPY_VERSION}/site-packages/aes/__init__.py
 lib/python${MODPY_VERSION}/site-packages/aes/__init__.pyc

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmms-flac/Makefile,v 1.26 2011/10/12 12:54:31 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

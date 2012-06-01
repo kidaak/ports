@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/pgpsendmail/patches/patch-Makefile,v 1.2 2008/01/24 18:31:24 merdely Exp $
+$OpenBSD$
 --- Makefile.orig	Mon Oct 20 18:58:19 1997
 +++ Makefile	Wed Jan 23 23:08:34 2008
 @@ -30,7 +30,7 @@ DEFINES =

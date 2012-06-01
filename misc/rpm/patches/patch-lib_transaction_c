@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-lib_transaction_c,v 1.1.1.1 2000/06/12 18:49:41 espie Exp $
+$OpenBSD$
 --- lib/transaction.c.orig	Mon Jun 12 01:38:08 2000
 +++ lib/transaction.c	Mon Jun 12 01:38:34 2000
 @@ -12,6 +12,10 @@

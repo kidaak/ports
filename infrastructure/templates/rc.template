@@ -5,7 +5,7 @@ See rc.subr(8) for more information.
 -----------------------------------8<-----------------------------------
 #!/bin/sh
 #
-# $OpenBSD: ports/infrastructure/templates/rc.template,v 1.5 2011/03/10 13:46:59 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/foobar"
 #daemon_flags=""

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ipcalc/Makefile,v 1.10 2011/06/23 22:50:28 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	small network calculator
 

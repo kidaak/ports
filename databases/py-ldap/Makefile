@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-ldap/Makefile,v 1.34 2011/12/20 11:39:23 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

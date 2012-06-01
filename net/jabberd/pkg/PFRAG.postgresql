@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/jabberd/pkg/PFRAG.postgresql,v 1.1 2005/06/10 19:56:37 naddy Exp $
+@comment $OpenBSD$
 share/examples/jabberd/db-setup.pgsql

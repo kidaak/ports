@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_config_mips_openbsd_h,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/config/mips/openbsd.h.orig	Sat Aug  6 15:26:35 2005
 +++ gcc/config/mips/openbsd.h	Mon Jun 14 19:23:04 2010
 @@ -58,16 +58,19 @@ Boston, MA 02110-1301, USA.  */

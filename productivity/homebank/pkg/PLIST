@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/homebank/pkg/PLIST,v 1.9 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/homebank
 share/application-registry/
 share/application-registry/homebank.applications

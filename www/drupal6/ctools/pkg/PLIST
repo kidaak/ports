@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/ctools/pkg/PLIST,v 1.6 2011/02/04 10:22:16 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}ctools/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ftpcopy/Makefile,v 1.12 2010/10/18 18:36:47 espie Exp $
+# $OpenBSD$
 
 COMMENT =	FTP listing and transfer tools
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/toys3/pkg/PLIST,v 1.20 2011/12/03 23:34:04 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/amor
 @bin bin/kodo
 @bin bin/kteatime

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/tilecache/pkg/PLIST,v 1.1.1.1 2009/11/06 18:44:45 landry Exp $
+@comment $OpenBSD$
 bin/tilecache_clean.py
 bin/tilecache_http_server.py
 bin/tilecache_install_config.py

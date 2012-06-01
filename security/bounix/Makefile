@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/bounix/Makefile,v 1.14 2007/09/15 23:29:58 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	Back Orifice Unix client by the cDc
 

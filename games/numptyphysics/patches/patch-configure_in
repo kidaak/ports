@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/numptyphysics/patches/patch-configure_in,v 1.1.1.1 2009/01/28 10:12:35 sthen Exp $
+$OpenBSD$
 --- configure.in.orig	Tue Jan 27 21:57:05 2009
 +++ configure.in	Tue Jan 27 21:57:14 2009
 @@ -47,7 +47,7 @@ if test "x${enable_hildon}" = "xyes" ; then

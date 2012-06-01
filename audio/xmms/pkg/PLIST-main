@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/xmms/pkg/PLIST-main,v 1.6 2010/04/20 23:43:34 sthen Exp $
+@comment $OpenBSD$
 @pkgpath audio/xmms
 @bin bin/wmxmms
 @bin bin/xmms

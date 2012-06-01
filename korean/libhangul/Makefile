@@ -1,4 +1,4 @@
-# $OpenBSD: ports/korean/libhangul/Makefile,v 1.2 2009/11/13 14:25:42 kevlo Exp $
+# $OpenBSD$
 
 COMMENT=	hangul input library
 

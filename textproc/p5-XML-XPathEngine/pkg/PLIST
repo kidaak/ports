@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-XPathEngine/pkg/PLIST,v 1.1.1.1 2007/09/22 11:04:40 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/XML/
 ${P5SITE}/XML/XPathEngine/
 ${P5SITE}/XML/XPathEngine.pm

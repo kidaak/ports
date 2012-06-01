@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/image/Makefile,v 1.2 2012/01/28 11:33:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	upload images into Drupal
 

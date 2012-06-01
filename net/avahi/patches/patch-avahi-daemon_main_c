@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/avahi/patches/patch-avahi-daemon_main_c,v 1.5 2011/04/25 10:02:43 ajacoutot Exp $
+$OpenBSD$
 --- avahi-daemon/main.c.orig	Wed Feb 23 14:10:07 2011
 +++ avahi-daemon/main.c	Mon Apr 25 11:42:00 2011
 @@ -320,6 +320,11 @@ static void update_browse_domains(void) {

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/swi-prolog/patches/patch-packages_ssl_configure,v 1.2 2011/04/08 07:55:16 jasper Exp $
+$OpenBSD$
 
 We need -lcrypto when linking with -ssl.
 

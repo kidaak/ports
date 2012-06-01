@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/freetds/patches/patch-freetds_conf,v 1.1 2010/05/02 11:36:27 sthen Exp $
+$OpenBSD$
 --- freetds.conf.orig	Thu Feb 28 22:30:19 2008
 +++ freetds.conf	Sun May  2 12:35:40 2010
 @@ -9,7 +9,10 @@

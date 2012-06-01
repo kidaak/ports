@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xboing/patches/patch-editor_c,v 1.2 2004/03/06 02:41:00 naddy Exp $
+$OpenBSD$
 --- editor.c.orig	1996-11-22 02:28:46.000000000 +0100
 +++ editor.c	2004-03-06 01:55:49.000000000 +0100
 @@ -213,7 +213,7 @@ static void DoLoadLevel(display, window)

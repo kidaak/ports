@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-gir_ffi/Makefile,v 1.3 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Ruby-FFI-based binding to the GObjectIntrospection API
 

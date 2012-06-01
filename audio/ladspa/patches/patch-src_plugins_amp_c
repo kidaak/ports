@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ladspa/patches/patch-src_plugins_amp_c,v 1.1 2006/08/04 23:34:39 espie Exp $
+$OpenBSD$
 --- src/plugins/amp.c.orig	Sat Aug  5 01:10:01 2006
 +++ src/plugins/amp.c	Sat Aug  5 01:13:05 2006
 @@ -150,10 +150,13 @@ LADSPA_Descriptor * g_psStereoDescriptor

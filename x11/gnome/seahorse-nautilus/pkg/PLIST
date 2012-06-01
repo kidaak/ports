@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/seahorse-nautilus/pkg/PLIST,v 1.1.1.1 2012/03/29 08:10:23 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict seahorse-plugins-*
 @bin bin/seahorse-tool
 @comment lib/nautilus/extensions-3.0/libnautilus-seahorse.la

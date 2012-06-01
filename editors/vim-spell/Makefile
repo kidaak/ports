@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/vim-spell/Makefile,v 1.8 2012/01/17 18:29:42 espie Exp $
+# $OpenBSD$
      SUBDIR += af
      SUBDIR += am
      SUBDIR += bg

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-features_org_eclipse_pde_build_xml,v 1.4 2006/07/07 01:48:55 kurt Exp $
+$OpenBSD$
 --- features/org.eclipse.pde/build.xml.orig	Fri Jun  2 13:29:59 2006
 +++ features/org.eclipse.pde/build.xml	Tue Jun  6 23:01:51 2006
 @@ -123,6 +123,10 @@

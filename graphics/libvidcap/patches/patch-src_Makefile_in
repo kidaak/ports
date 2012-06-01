@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libvidcap/patches/patch-src_Makefile_in,v 1.1.1.1 2010/06/06 13:43:19 sthen Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Fri Apr  4 17:22:20 2008
 +++ src/Makefile.in	Wed May 19 17:22:47 2010
 @@ -270,8 +270,8 @@ top_srcdir = @top_srcdir@

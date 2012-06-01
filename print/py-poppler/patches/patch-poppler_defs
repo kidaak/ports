@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/py-poppler/patches/patch-poppler_defs,v 1.1 2011/06/04 19:07:59 kili Exp $
+$OpenBSD$
 --- poppler.defs.orig	Sun Sep 27 11:07:59 2009
 +++ poppler.defs	Mon May 23 21:42:00 2011
 @@ -1796,6 +1796,12 @@

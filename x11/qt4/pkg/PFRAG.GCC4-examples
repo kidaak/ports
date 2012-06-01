@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt4/pkg/PFRAG.GCC4-examples,v 1.5 2010/05/23 10:36:49 espie Exp $
+@comment $OpenBSD$
 lib/qt4/demos/browser/
 lib/qt4/demos/browser/Info_mac.plist
 lib/qt4/demos/browser/addbookmarkdialog.ui

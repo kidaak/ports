@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/ttyrec/patches/patch-Makefile,v 1.2 2006/06/21 10:08:07 alek Exp $
+$OpenBSD$
 --- Makefile.orig	Tue Oct 22 12:01:23 2002
 +++ Makefile	Fri Nov 22 15:50:53 2002
 @@ -1,5 +1,5 @@

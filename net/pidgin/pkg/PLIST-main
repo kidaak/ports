@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pidgin/pkg/PLIST-main,v 1.15 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gaim-*
 @conflict pidgin-facebookchat-<1.68p0
 @pkgpath net/pidgin

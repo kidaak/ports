@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-gobject3/pkg/PLIST,v 1.2 2012/03/29 06:30:10 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict py-gtk2-2.8.6*
 @conflict py-gobject-<2.28.6p2v0
 include/pygobject-3.0/

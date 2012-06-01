@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ilmbase/Makefile,v 1.6 2010/11/17 08:05:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	ILM base libraries
 

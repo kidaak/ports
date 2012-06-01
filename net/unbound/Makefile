@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/unbound/Makefile,v 1.41 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	validating DNS resolver
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/jdk/1.7/pkg/PLIST-jre,v 1.10 2012/03/19 19:50:57 kurt Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict jre->=1.7,<1.8|jre->=1.7v0,<1.8v0
 ${JREHOME}/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/aspell/core/patches/patch-common_lock_hpp,v 1.1 2012/01/17 10:59:27 ajacoutot Exp $
+$OpenBSD$
 
 common/lock.hpp:63: error: 'NULL' was not declared in this scope
 

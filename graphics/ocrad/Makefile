@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ocrad/Makefile,v 1.6 2010/10/18 18:13:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	OCR program for pnm files
 

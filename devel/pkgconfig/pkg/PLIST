@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pkgconfig/pkg/PLIST,v 1.7 2010/09/28 11:41:22 jasper Exp $
+@comment $OpenBSD$
 @bin bin/pkg-config
 @man man/man1/pkg-config.1
 @comment share/aclocal/pkg.m4

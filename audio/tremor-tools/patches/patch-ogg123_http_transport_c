@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/tremor-tools/patches/patch-ogg123_http_transport_c,v 1.2 2010/11/06 12:19:38 landry Exp $
+$OpenBSD$
 --- ogg123/http_transport.c.orig	Wed Jul 17 14:12:18 2002
 +++ ogg123/http_transport.c	Sat Nov  6 12:15:35 2010
 @@ -112,7 +112,6 @@ void set_curl_opts (http_private_t *private)

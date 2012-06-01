@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cmake/patches/patch-Modules_Compiler_G95-Fortran_cmake,v 1.2 2010/11/15 11:39:08 dcoppa Exp $
+$OpenBSD$
 --- Modules/Compiler/G95-Fortran.cmake.orig	Wed Nov  3 20:58:27 2010
 +++ Modules/Compiler/G95-Fortran.cmake	Wed Nov 10 10:34:50 2010
 @@ -1,7 +1,5 @@

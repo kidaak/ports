@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_flags_h,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/flags.h.orig	Fri Jun 20 23:18:41 2003
 +++ gcc/flags.h	Mon Jan  3 10:17:42 2005
 @@ -690,4 +690,13 @@ extern const char *flag_random_seed;

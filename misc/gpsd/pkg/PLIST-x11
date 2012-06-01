@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/gpsd/pkg/PLIST-x11,v 1.1 2010/11/25 08:55:24 sebastia Exp $
+@comment $OpenBSD$
 @conflict gpsd-motif-<=2.38p4
 @pkgpath misc/gpsd,-motif
 bin/xgps

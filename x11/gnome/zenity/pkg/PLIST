@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/zenity/pkg/PLIST,v 1.20 2012/03/29 06:45:57 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gdialog
 @bin bin/zenity
 @man man/man1/zenity.1

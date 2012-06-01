@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jbigkit/patches/patch-libjbig_Makefile,v 1.5 2006/10/19 13:53:48 naddy Exp $
+$OpenBSD$
 --- libjbig/Makefile.orig	Tue Jun  8 10:40:06 2004
 +++ libjbig/Makefile	Mon Dec 26 12:53:54 2005
 @@ -7,17 +7,32 @@ CC = gcc

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/jhead/Makefile,v 1.16 2010/11/17 08:05:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Exif jpeg camera setting parser and thumbnail remover
 

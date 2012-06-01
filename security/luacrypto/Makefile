@@ -1,10 +1,10 @@
-# $OpenBSD: ports/security/luacrypto/Makefile,v 1.10 2011/04/18 18:12:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Lua binding for the OpenSSL crypto libraries
 SHARED_ONLY=	Yes
 
 DISTNAME=	luacrypto-0.2.0
-REVISION=	0
+REVISION=	1
 CATEGORIES=	security
 
 MASTER_SITES=	http://luaforge.net/frs/download.php/1722/
@@ -24,9 +24,8 @@ CFLAGS+=	-fPIC -DPIC
 MODULES=	lang/lua
 
 post-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/luacrypto
-	${INSTALL_DATA} ${WRKSRC}/doc/us/{*.html,*.png} \
-		${PREFIX}/share/doc/luacrypto
+	${INSTALL_DATA_DIR} ${MODLUA_DOCDIR}
+	${INSTALL_DATA} ${WRKSRC}/doc/us/{*.html,*.png} ${MODLUA_DOCDIR}
 
 do-regress:
 	cd ${WRKDIST}/tests && \

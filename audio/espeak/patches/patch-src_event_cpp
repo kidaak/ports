@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/espeak/patches/patch-src_event_cpp,v 1.1 2009/04/16 16:39:17 ajacoutot Exp $
+$OpenBSD$
 --- src/event.cpp.orig	Mon Dec 22 23:36:40 2008
 +++ src/event.cpp	Thu Apr 16 18:20:56 2009
 @@ -40,6 +40,12 @@

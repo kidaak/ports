@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/xmake/Makefile,v 1.22 2012/03/16 14:30:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	powerful make utility
 

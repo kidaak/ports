@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/Xaw3d/patches/patch-XawI18n_h,v 1.1 2004/11/03 23:46:11 naddy Exp $
+$OpenBSD$
 --- XawI18n.h.orig	Thu Nov  4 00:32:53 2004
 +++ XawI18n.h	Thu Nov  4 00:33:46 2004
 @@ -29,10 +29,12 @@ in this Software without prior written a

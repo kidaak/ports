@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/akpop3d/patches/patch-lock_maildrop_c,v 1.2 2005/12/14 06:02:09 jolan Exp $
+$OpenBSD$
 --- lock_maildrop.c.orig	Mon Aug 18 03:44:55 2003
 +++ lock_maildrop.c	Mon Nov 28 11:40:13 2005
 @@ -35,7 +35,7 @@ int lock_maildrop(char * maildrop, uid_t

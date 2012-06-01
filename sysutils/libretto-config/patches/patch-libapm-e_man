@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/libretto-config/patches/patch-libapm-e_man,v 1.1 2004/02/01 01:35:52 millert Exp $
+$OpenBSD$
 --- libapm-e.man.orig	Thu Jun 18 21:02:48 1998
 +++ libapm-e.man	Sat Jan 31 18:17:09 2004
 @@ -1,15 +1,15 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/tcllib/Makefile,v 1.16 2012/03/09 14:15:32 stu Exp $
+# $OpenBSD$
 
 COMMENT =	Tcl Standard Library
 

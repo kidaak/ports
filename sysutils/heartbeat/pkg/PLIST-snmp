@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/heartbeat/pkg/PLIST-snmp,v 1.2 2010/04/03 11:54:56 kili Exp $
+@comment $OpenBSD$
 lib/heartbeat/SNMPAgentSanityCheck
 @bin lib/heartbeat/hbagent
 lib/stonith/plugins/stonith2/apcmastersnmp.la

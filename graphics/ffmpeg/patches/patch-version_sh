@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/ffmpeg/patches/patch-version_sh,v 1.6 2011/04/12 22:59:07 sthen Exp $
+$OpenBSD$
 --- version.sh.orig	Mon Mar 28 22:46:40 2011
 +++ version.sh	Mon Mar 28 22:48:02 2011
 @@ -1,5 +1,8 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Log-Procmail/pkg/PLIST,v 1.1.1.1 2006/12/26 23:56:04 avsm Exp $
+@comment $OpenBSD$
 bin/mailstat.pl
 ${P5SITE}/Log/
 ${P5SITE}/Log/Procmail.pm

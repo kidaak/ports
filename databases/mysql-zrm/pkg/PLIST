@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/mysql-zrm/pkg/PLIST,v 1.4 2010/06/11 10:01:26 giovanni Exp $
+@comment $OpenBSD$
 bin/mysql-zrm
 bin/mysql-zrm-abort-backup
 bin/mysql-zrm-backup

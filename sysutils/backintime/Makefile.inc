@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/backintime/Makefile.inc,v 1.6 2011/09/15 09:05:22 ajacoutot Exp $
+# $OpenBSD$
 
 V=		1.0.8
 BASENAME=	backintime-${V}

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pear-Date-Holidays/Brazil/pkg/PLIST,v 1.1.1.1 2011/04/05 17:36:47 sthen Exp $
+@comment $OpenBSD$
 @group daemon
 pear/lib/.registry/date_holidays_brazil.reg
 pear/lib/Date/Holidays/Driver/Brazil.php

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-country/patches/patch-src_pycountry_db_py,v 1.1.1.1 2011/12/18 13:42:31 mpi Exp $
+$OpenBSD$
 
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=599369
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/fedora/cups/pkg/PLIST,v 1.1 2010/11/09 13:23:21 sthen Exp $
+@comment $OpenBSD$
 emul/fedora/etc/krb5.conf
 emul/fedora/lib/libcom_err.so.2
 emul/fedora/lib/libcom_err.so.${LIBcom_err_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/gmpc-plugins/Makefile,v 1.22 2011/10/17 12:23:53 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

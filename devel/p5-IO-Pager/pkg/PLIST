@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-IO-Pager/pkg/PLIST,v 1.1.1.1 2005/05/06 08:53:52 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/IO/
 ${P5SITE}/IO/Pager/
 ${P5SITE}/IO/Pager.pm

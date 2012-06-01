@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/wordnet/Makefile,v 1.10 2010/11/06 22:06:59 espie Exp $
+# $OpenBSD$
 COMMENT=		browser for a large lexical database of English
 
 V=			3.0

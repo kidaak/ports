@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/mime-data/patches/patch-configure,v 1.2 2007/07/11 19:46:58 jasper Exp $
+$OpenBSD$
 --- configure.orig	Fri Jul  6 12:28:33 2007
 +++ configure	Fri Jul  6 12:29:51 2007
 @@ -4995,7 +4995,7 @@ if test "${ac_cv_lib_intl_bindtextdomain+set}" = set; 

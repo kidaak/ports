@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/xspread/patches/patch-interp_c,v 1.1 2002/11/23 07:25:59 pvalchev Exp $
+$OpenBSD$
 --- interp.c.orig	Tue Nov  7 03:17:26 1995
 +++ interp.c	Fri Nov 22 15:31:18 2002
 @@ -516,7 +516,7 @@ int mo, day, yr;

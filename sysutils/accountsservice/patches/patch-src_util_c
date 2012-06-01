@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/accountsservice/patches/patch-src_util_c,v 1.7 2012/03/28 09:05:54 ajacoutot Exp $
+$OpenBSD$
 
 We don't use /proc on OpenBSD.
 

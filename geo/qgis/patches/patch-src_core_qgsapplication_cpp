@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qgis/patches/patch-src_core_qgsapplication_cpp,v 1.1 2011/07/07 20:34:27 landry Exp $
+$OpenBSD$
 Fix paths to various doc files, installed in share/doc/qgis
 per doc/CMakeLists.txt patch
 --- src/core/qgsapplication.cpp.orig	Wed Jun 29 09:17:57 2011

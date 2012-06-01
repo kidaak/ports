@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/redshift/pkg/PLIST,v 1.4 2011/12/03 20:30:09 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gtk-redshift
 @bin bin/redshift
 lib/python${MODPY_VERSION}/site-packages/gtk_redshift/

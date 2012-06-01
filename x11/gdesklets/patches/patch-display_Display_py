@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gdesklets/patches/patch-display_Display_py,v 1.2 2011/04/20 15:25:47 ajacoutot Exp $
+$OpenBSD$
 --- display/Display.py.orig	Mon Jun  7 09:41:57 2010
 +++ display/Display.py	Wed Apr 20 16:21:53 2011
 @@ -1100,7 +1100,7 @@ class Display(gtk.HBox, Observable):

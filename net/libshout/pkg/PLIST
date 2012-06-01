@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/libshout/pkg/PLIST,v 1.5 2006/03/14 19:59:01 sturm Exp $
+@comment $OpenBSD$
 include/shout/
 include/shout/shout.h
 lib/libshout.a

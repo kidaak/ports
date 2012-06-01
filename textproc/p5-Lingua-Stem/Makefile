@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-Stem/Makefile,v 1.10 2011/05/24 20:59:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	stemming of words
 

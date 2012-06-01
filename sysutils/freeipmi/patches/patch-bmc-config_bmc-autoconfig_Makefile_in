@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/freeipmi/patches/patch-bmc-config_bmc-autoconfig_Makefile_in,v 1.1 2012/04/13 20:53:19 sthen Exp $
+$OpenBSD$
 --- bmc-config/bmc-autoconfig/Makefile.in.orig	Fri Apr 13 16:41:25 2012
 +++ bmc-config/bmc-autoconfig/Makefile.in	Fri Apr 13 16:43:31 2012
 @@ -195,7 +195,7 @@ Extensionsdir = $(sbindir)

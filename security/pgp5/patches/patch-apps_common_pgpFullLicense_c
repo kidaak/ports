@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pgp5/patches/patch-apps_common_pgpFullLicense_c,v 1.1 2004/01/04 20:47:19 espie Exp $
+$OpenBSD$
 --- apps/common/pgpFullLicense.c.orig	1998-02-07 20:04:06.000000000 +0100
 +++ apps/common/pgpFullLicense.c	2004-01-04 21:41:33.000000000 +0100
 @@ -3,239 +3,239 @@

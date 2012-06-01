@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Hook-LexWrap/pkg/PLIST,v 1.2 2011/04/10 19:11:59 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Hook/
 ${P5SITE}/Hook/LexWrap.pm
 @man man/man3p/Hook::LexWrap.3p

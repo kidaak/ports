@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/openmotif/patches/patch-demos_unsupported_motifshell_motifshell_c,v 1.2 2007/07/18 21:41:05 mbalmer Exp $
+$OpenBSD$
 --- demos/unsupported/motifshell/motifshell.c.orig	Tue Jan 29 17:16:39 2002
 +++ demos/unsupported/motifshell/motifshell.c	Sat Jun 30 10:27:21 2007
 @@ -598,7 +598,7 @@ void SysCall (Widget widget, char *systemCommand, Bool

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/books/docbook-guide/pkg/PLIST,v 1.2 2004/08/06 14:37:29 espie Exp $
+@comment $OpenBSD$
 share/doc/docbook-guide/
 share/doc/docbook-guide/glyphs/
 share/doc/docbook-guide/glyphs/100dpi/

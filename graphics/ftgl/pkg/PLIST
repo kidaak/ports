@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/ftgl/pkg/PLIST,v 1.2 2011/09/16 17:22:13 phessler Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/FTGL/
 include/FTGL/FTBBox.h

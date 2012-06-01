@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Imager-QRCode/pkg/PLIST,v 1.1.1.1 2011/08/17 19:04:13 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/Imager/QRCode.pm
 ${P5ARCH}/auto/Imager/QRCode/
 ${P5ARCH}/auto/Imager/QRCode/QRCode.bs

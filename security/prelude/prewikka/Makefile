@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/prelude/prewikka/Makefile,v 1.26 2011/09/22 11:42:01 landry Exp $
+# $OpenBSD$
 
 COMMENT=	Prelude Management Console
 

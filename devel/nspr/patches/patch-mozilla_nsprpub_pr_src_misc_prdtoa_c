@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/nspr/patches/patch-mozilla_nsprpub_pr_src_misc_prdtoa_c,v 1.7 2011/01/15 16:58:29 landry Exp $
+$OpenBSD$
 --- mozilla/nsprpub/pr/src/misc/prdtoa.c.orig	Sat Aug  7 07:33:14 2010
 +++ mozilla/nsprpub/pr/src/misc/prdtoa.c	Sat Jan 15 11:39:05 2011
 @@ -48,44 +48,14 @@

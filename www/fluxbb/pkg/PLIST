@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/fluxbb/pkg/PLIST,v 1.2 2010/09/24 15:40:17 ckuethe Exp $
+@comment $OpenBSD$
 fluxbb/
 @comment fluxbb/.gitignore
 fluxbb/COPYING

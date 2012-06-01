@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-hyperestraier/patches/patch-rubynative_src_estraier_c,v 1.1 2011/07/12 18:06:23 jeremy Exp $
+$OpenBSD$
 --- rubynative/src/estraier.c.orig	Fri Jul  8 09:05:46 2011
 +++ rubynative/src/estraier.c	Fri Jul  8 09:08:29 2011
 @@ -351,7 +351,7 @@ static VALUE doc_make_snippet(VALUE vself, VALUE vword

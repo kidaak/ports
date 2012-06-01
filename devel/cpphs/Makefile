@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cpphs/Makefile,v 1.29 2011/12/27 21:12:36 kili Exp $
+# $OpenBSD$
 
 COMMENT-main =	liberalised reimplementation of cpp in Haskell
 COMMENT-lib =	cpphs library

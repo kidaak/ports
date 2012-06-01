@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/cups/patches/patch-scheduler_log_c,v 1.1 2012/02/16 22:12:08 ajacoutot Exp $
+$OpenBSD$
 
 log.c:289: warning: passing argument 1 of 'localtime' from incompatible pointer type
 

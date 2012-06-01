@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/pympd/Makefile,v 1.12 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=		frontend to mpd written in Python
 

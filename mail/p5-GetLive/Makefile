@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-GetLive/Makefile,v 1.13 2011/09/20 13:43:37 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	automatically fetch hotmail.com email
 

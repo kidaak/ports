@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/py-gnuplot/Makefile,v 1.13 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Python interface to the gnuplot plotting program
 

@@ -1,0 +1,12 @@
+$OpenBSD$
+--- include/GL/freeglut_ext.h.orig	Mon Apr 30 20:39:58 2012
++++ include/GL/freeglut_ext.h	Mon Apr 30 20:40:07 2012
+@@ -163,7 +163,7 @@ FGAPI void    FGAPIENTRY glutSolidCylinder( GLdouble r
+ /*
+  * Extension functions, see freeglut_ext.c
+  */
+-typedef void (*GLUTproc)();
++typedef void (*GLUTproc)(void);
+ FGAPI GLUTproc FGAPIENTRY glutGetProcAddress( const char *procName );
+ 
+ /*

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gtk-gnutella/patches/patch-Configure,v 1.16 2012/03/29 06:19:12 ajacoutot Exp $
+$OpenBSD$
 --- Configure.orig	Sun Sep 11 16:28:07 2011
 +++ Configure	Thu Mar 29 08:10:00 2012
 @@ -358,7 +358,7 @@ d_open3=''

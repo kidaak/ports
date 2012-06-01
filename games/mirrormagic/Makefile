@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/mirrormagic/Makefile,v 1.7 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 COMMENT=	game like Deflektor (C64) / Mindbender (Amiga)
 DISTNAME=	mirrormagic-2.0.2

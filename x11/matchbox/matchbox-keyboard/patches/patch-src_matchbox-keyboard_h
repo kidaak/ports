@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/matchbox/matchbox-keyboard/patches/patch-src_matchbox-keyboard_h,v 1.1 2010/09/03 16:06:23 sthen Exp $
+$OpenBSD$
 --- src/matchbox-keyboard.h.orig	Fri Sep  3 17:01:32 2010
 +++ src/matchbox-keyboard.h	Fri Sep  3 17:02:17 2010
 @@ -55,7 +55,7 @@

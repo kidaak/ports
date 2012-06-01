@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/bouml/pkg/PLIST-docs,v 1.3 2011/01/12 14:33:35 jasper Exp $
+@comment $OpenBSD$
 share/doc/bouml/
 share/doc/bouml/activity.html
 share/doc/bouml/activityaction.html

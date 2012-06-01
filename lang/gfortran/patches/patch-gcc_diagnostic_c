@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_diagnostic_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/diagnostic.c.orig	Wed Mar 22 20:36:22 2006
 +++ gcc/diagnostic.c	Mon Jun 14 19:23:04 2010
 @@ -398,7 +398,7 @@ diagnostic_report_diagnostic (diagnostic_context *cont

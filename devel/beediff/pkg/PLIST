@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/beediff/pkg/PLIST,v 1.2 2008/12/16 08:14:54 jasper Exp $
+@comment $OpenBSD$
 @bin bin/beediff

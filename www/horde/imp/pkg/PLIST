@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/horde/imp/pkg/PLIST,v 1.2 2011/01/04 09:46:51 sthen Exp $
+@comment $OpenBSD$
 @pkgpath mail/imp
 ${INSTDIR}/
 ${INSTDIR}/COPYING

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/hpodder/pkg/PLIST,v 1.1.1.1 2010/04/28 16:21:40 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/hpodder
 @man man/man1/hpodder.1
 @comment share/doc/${DISTNAME}/

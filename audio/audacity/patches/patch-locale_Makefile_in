@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacity/patches/patch-locale_Makefile_in,v 1.4 2009/03/14 03:49:43 jakemsr Exp $
+$OpenBSD$
 --- locale/Makefile.in.orig	Tue Jan 27 12:52:01 2009
 +++ locale/Makefile.in	Tue Feb 10 03:21:35 2009
 @@ -96,8 +96,8 @@ FORCE:

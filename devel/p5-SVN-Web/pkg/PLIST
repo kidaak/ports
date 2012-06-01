@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-SVN-Web/pkg/PLIST,v 1.2 2006/07/12 05:25:48 sturm Exp $
+@comment $OpenBSD$
 bin/svnweb-install
 @comment bin/svnweb-server
 ${P5SITE}/SVN/

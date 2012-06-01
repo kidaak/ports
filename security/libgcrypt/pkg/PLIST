@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/libgcrypt/pkg/PLIST,v 1.6 2008/10/26 10:39:27 landry Exp $
+@comment $OpenBSD$
 @bin bin/dumpsexp
 @bin bin/hmac256
 bin/libgcrypt-config

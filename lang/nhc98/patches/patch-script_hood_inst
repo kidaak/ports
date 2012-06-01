@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/nhc98/patches/patch-script_hood_inst,v 1.1 2007/06/29 11:06:25 kili Exp $
+$OpenBSD$
 
 We don't have to care about different archs installed at the same place.
 

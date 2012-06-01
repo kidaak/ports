@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/cgit/Makefile,v 1.5 2012/03/06 17:17:09 landry Exp $
+# $OpenBSD$
 
 COMMENT =	web frontend for git repositories
 

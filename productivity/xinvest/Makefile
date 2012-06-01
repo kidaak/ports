@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/xinvest/Makefile,v 1.18 2011/09/16 11:13:43 espie Exp $
+# $OpenBSD$
 
 COMMENT= 		personal finance tracking and performance tool
 

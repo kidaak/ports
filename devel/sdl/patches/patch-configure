@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/sdl/patches/patch-configure,v 1.24 2012/03/22 13:00:42 dcoppa Exp $
+$OpenBSD$
 --- configure.orig	Thu Jan 19 07:30:12 2012
 +++ configure	Thu Mar 22 13:52:46 2012
 @@ -21000,6 +21000,20 @@ _ACEOF

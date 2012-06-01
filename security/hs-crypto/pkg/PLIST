@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/hs-crypto/pkg/PLIST,v 1.9 2011/04/11 14:52:45 kili Exp $
+@comment $OpenBSD$
 @comment bin/HMACTest
 @comment bin/QuickTest
 @comment bin/RSATest

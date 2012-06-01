@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/putty/patches/patch-unix_uxnet_c,v 1.1 2010/07/22 14:26:53 landry Exp $
+$OpenBSD$
 Make sure netinet/in.h is included before arpa/inet.h
 --- unix/uxnet.c.orig	Thu Jul 22 16:20:22 2010
 +++ unix/uxnet.c	Thu Jul 22 16:20:34 2010

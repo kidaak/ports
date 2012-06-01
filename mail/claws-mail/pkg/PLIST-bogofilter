@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/claws-mail/pkg/PLIST-bogofilter,v 1.4 2011/01/15 09:21:31 sthen Exp $
+@comment $OpenBSD$
 @pkgpath mail/sylpheed-claws,-bogofilter
 @pkgpath mail/sylpheed-claws,-bogofilter,compface
 @pkgpath mail/sylpheed-claws,-bogofilter,pgpmime

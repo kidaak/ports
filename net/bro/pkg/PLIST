@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/bro/pkg/PLIST,v 1.1.1.1 2008/12/17 01:34:53 kevlo Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/bro
 bin/broccoli-config

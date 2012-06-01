@@ -1,4 +1,4 @@
-$OpenBSD: ports/java/jna/patches/patch-jnalib_build_xml,v 1.1.1.1 2011/08/29 15:07:32 jasper Exp $
+$OpenBSD$
 
 - Don't run regress tests during regular build.
 - Don't sign the jar since it's different from what upstream builds.

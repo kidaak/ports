@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_m88k_openbsd_h,v 1.2 2012/04/23 14:06:42 pascal Exp $
+$OpenBSD$
 --- gcc/config/m88k/openbsd.h.orig	Wed Feb 27 19:47:38 2002
 +++ gcc/config/m88k/openbsd.h	Thu Apr 12 14:44:55 2012
 @@ -35,16 +35,16 @@ Boston, MA 02111-1307, USA.  */

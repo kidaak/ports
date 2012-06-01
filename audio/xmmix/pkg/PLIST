@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/xmmix/pkg/PLIST,v 1.5 2011/04/10 18:00:23 jasper Exp $
+@comment $OpenBSD$
 @pkgpath audio/xmmix,lesstif
 bin/xmmix
 lib/X11/app-defaults/XMmix

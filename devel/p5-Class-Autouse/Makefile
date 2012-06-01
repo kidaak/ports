@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Autouse/Makefile,v 1.13 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	run-time class loading on first method call
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/sdl-sound/Makefile,v 1.19 2010/11/15 19:46:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library that handles the decoding of sound file formats
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk-chtheme/Makefile,v 1.14 2011/09/16 12:29:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		gtk+-2 theme switcher
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-DateTime-Precise/pkg/PLIST,v 1.1.1.1 2011/03/16 14:20:10 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/DateTime/
 ${P5SITE}/DateTime/Math/
 ${P5SITE}/DateTime/Math/bigfloat.pl

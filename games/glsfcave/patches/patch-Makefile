@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/glsfcave/patches/patch-Makefile,v 1.1.1.1 2008/03/19 20:22:09 simon Exp $
+$OpenBSD$
 --- Makefile.orig	Fri Mar 14 13:35:20 2008
 +++ Makefile	Mon Mar 17 11:32:06 2008
 @@ -1,9 +1,9 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/soundconverter/pkg/PLIST,v 1.2 2011/12/03 18:55:29 ajacoutot Exp $
+@comment $OpenBSD$
 bin/soundconverter
 @man man/man1/soundconverter.1
 share/applications/soundconverter.desktop

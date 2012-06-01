@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms/patches/patch-Input_cdaudio_cdaudio_c,v 1.5 2009/02/11 15:44:04 naddy Exp $
+$OpenBSD$
 --- Input/cdaudio/cdaudio.c.orig	Fri Nov 16 22:51:24 2007
 +++ Input/cdaudio/cdaudio.c	Sat Feb  7 23:13:08 2009
 @@ -819,6 +819,10 @@ static int get_current_frame(void)

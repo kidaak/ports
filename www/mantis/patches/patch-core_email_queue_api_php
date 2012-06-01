@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mantis/patches/patch-core_email_queue_api_php,v 1.1 2008/12/23 10:51:02 mbalmer Exp $
+$OpenBSD$
 --- core/email_queue_api.php.orig	Tue Dec 23 11:42:11 2008
 +++ core/email_queue_api.php	Tue Dec 23 11:42:21 2008
 @@ -104,7 +104,7 @@

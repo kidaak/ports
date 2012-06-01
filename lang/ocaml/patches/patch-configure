@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ocaml/patches/patch-configure,v 1.14 2010/12/17 18:42:04 dcoppa Exp $
+$OpenBSD$
 --- configure.orig	Wed Jul 28 15:18:22 2010
 +++ configure	Thu Nov 18 10:07:33 2010
 @@ -629,6 +629,8 @@ if test $withsharedlibs = "yes"; then

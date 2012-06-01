@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/xtrkcad/patches/patch-app_wlib_gtklib_CMakeLists_txt,v 1.1.1.1 2010/10/24 20:07:55 sebastia Exp $
+$OpenBSD$
 
 switch from old gtkhtml to webkit based on Debian patches:
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=549039

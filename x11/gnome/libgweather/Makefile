@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libgweather/Makefile,v 1.35 2012/03/11 08:18:00 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

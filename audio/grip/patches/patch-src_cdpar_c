@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/grip/patches/patch-src_cdpar_c,v 1.2 2005/06/30 22:34:29 alek Exp $
+$OpenBSD$
 --- src/cdpar.c.orig	Mon Jun  6 11:04:03 2005
 +++ src/cdpar.c	Mon Jun  6 11:03:51 2005
 @@ -56,10 +56,12 @@ static inline int bigendianp(void){

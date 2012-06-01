@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/feldspar/compiler/Makefile,v 1.3 2011/12/27 21:22:39 kili Exp $
+# $OpenBSD$
 
 COMMENT=                prototype compiler for the Feldspar DSL
 

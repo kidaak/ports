@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-GD-Barcode/Makefile,v 1.10 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	create barcode image with GD
 

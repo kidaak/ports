@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/edje/pkg/PLIST,v 1.6 2011/03/15 19:40:04 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/edje_cc
 @bin bin/edje_decc

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/clutter/pyclutter/pkg/PLIST,v 1.1.1.1 2009/02/15 17:47:21 jasper Exp $
+@comment $OpenBSD$
 include/pyclutter-1.0/
 include/pyclutter-1.0/pyclutter/
 include/pyclutter-1.0/pyclutter/pyclutter.h

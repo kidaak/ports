@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nagios/nagios/patches/patch-sample-config_httpd_conf_in,v 1.2 2006/01/15 13:37:44 sturm Exp $
+$OpenBSD$
 --- sample-config/httpd.conf.in.orig	Sun Jan 15 14:08:18 2006
 +++ sample-config/httpd.conf.in	Sun Jan 15 14:11:15 2006
 @@ -11,16 +11,15 @@ ScriptAlias @cgiurl@ "@sbindir@"

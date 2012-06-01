@@ -1,4 +1,4 @@
-$OpenBSD: ports/palm/coldsync/patches/patch-libpconn_PConnection_net_c,v 1.1.1.1 2005/01/17 00:25:38 jcs Exp $
+$OpenBSD$
 --- libpconn/PConnection_net.c.orig	Wed Jul 30 08:20:57 2003
 +++ libpconn/PConnection_net.c	Sun Jan 16 18:16:16 2005
 @@ -476,6 +476,7 @@ net_accept(PConnection *p)

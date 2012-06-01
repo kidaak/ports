@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Wikipedia/Makefile,v 1.13 2011/05/02 18:42:56 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=		automated interface to the Wikipedia encyclopedia
 

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/cntlm/pkg/cntlm.rc,v 1.1 2012/01/25 22:00:15 dcoppa Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/cntlm"
 daemon_flags="-c ${SYSCONFDIR}/cntlm/cntlm.conf"

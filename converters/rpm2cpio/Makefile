@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/rpm2cpio/Makefile,v 1.14 2011/11/06 18:30:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	rpm2cpio converter in Perl
 

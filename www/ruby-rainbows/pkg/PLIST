@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ruby-rainbows/pkg/PLIST,v 1.4 2011/11/18 00:07:19 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/rainbows${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/nettool/patches/patch-src_utils_h,v 1.3 2012/01/03 12:11:53 ajacoutot Exp $
+$OpenBSD$
 --- src/utils.h.orig	Sun Jan  1 00:54:24 2012
 +++ src/utils.h	Tue Jan  3 10:50:22 2012
 @@ -26,6 +26,8 @@

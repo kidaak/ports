@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Starlet/Makefile,v 1.2 2011/10/05 17:30:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	simple, high-performance PSGI/Plack HTTP server
 

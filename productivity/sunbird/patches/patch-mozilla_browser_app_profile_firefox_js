@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_browser_app_profile_firefox_js,v 1.3 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/browser/app/profile/firefox.js.orig	Wed Jun 23 19:46:29 2010
 +++ mozilla/browser/app/profile/firefox.js	Wed Jul  7 08:43:04 2010
 @@ -100,7 +100,7 @@ pref("app.update.timer", 600000);

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/nx/nxcomp/pkg/PLIST,v 1.1.1.1 2008/06/13 17:12:42 jasper Exp $
+@comment $OpenBSD$
 include/nx/
 include/nx/MD5.h
 include/nx/NX.h

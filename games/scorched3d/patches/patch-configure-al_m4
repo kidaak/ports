@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/scorched3d/patches/patch-configure-al_m4,v 1.1 2011/06/25 18:43:07 jasper Exp $
+$OpenBSD$
 --- configure-al.m4.orig	Fri Oct  2 01:22:31 2009
 +++ configure-al.m4	Thu Jun 23 00:00:52 2011
 @@ -7,25 +7,9 @@ AC_ARG_ENABLE(openaltest, 

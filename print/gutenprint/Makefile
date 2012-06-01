@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/gutenprint/Makefile,v 1.27 2012/02/21 22:19:32 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=		high quality print drivers
 COMMENT-foomatic=	Foomatic data for gutenprint drivers

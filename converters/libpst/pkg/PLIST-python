@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/libpst/pkg/PLIST-python,v 1.2 2012/01/09 18:25:45 ajacoutot Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/
 lib/python${MODPY_VERSION}/site-packages/
 @comment lib/python${MODPY_VERSION}/site-packages/_libpst.a

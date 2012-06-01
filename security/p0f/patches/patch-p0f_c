@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/p0f/patches/patch-p0f_c,v 1.10 2009/02/13 22:58:18 rui Exp $
+$OpenBSD$
 --- p0f.c.orig	Mon Aug 21 16:16:00 2006
 +++ p0f.c	Thu Jan 29 04:24:17 2009
 @@ -36,12 +36,6 @@

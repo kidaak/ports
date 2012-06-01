@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cmake/patches/patch-Modules_FindJava_cmake,v 1.6 2012/01/07 22:14:51 dcoppa Exp $
+$OpenBSD$
 --- Modules/FindJava.cmake.orig	Fri Dec 30 17:49:56 2011
 +++ Modules/FindJava.cmake	Tue Jan  3 11:03:39 2012
 @@ -56,6 +56,8 @@

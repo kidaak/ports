@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/amaya/Makefile.inc,v 1.11 2011/07/08 17:13:29 naddy Exp $
+# $OpenBSD$
 
 BROKEN=		obsolete, does not build with modern libpng
 

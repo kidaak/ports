@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/groff/Makefile,v 1.13 2010/10/18 18:13:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	japanese groff
 

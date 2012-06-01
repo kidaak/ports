@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-rainbows/Makefile,v 1.7 2011/11/18 00:07:19 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	ruby-unicorn for sleepy apps and slow clients
 

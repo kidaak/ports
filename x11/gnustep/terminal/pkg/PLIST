@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/terminal/pkg/PLIST,v 1.1.1.1 2010/10/24 22:16:38 sebastia Exp $
+@comment $OpenBSD$
 @conflict terminal-<=0.4.5p1
 bin/Terminal
 libexec/GNUstep/

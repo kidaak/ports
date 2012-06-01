@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/flite/pkg/PLIST,v 1.3 2009/12/14 00:33:08 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/flite
 @bin bin/flite_time
 include/flite/

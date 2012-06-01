@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/siag/pkg/PLIST,v 1.5 2008/12/01 19:23:55 jasper Exp $
+@comment $OpenBSD$
 @bin bin/egon
 @bin bin/gvu
 bin/mgptotxt

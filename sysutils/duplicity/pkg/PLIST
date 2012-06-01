@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/duplicity/pkg/PLIST,v 1.8 2012/03/22 06:43:19 ajacoutot Exp $
+@comment $OpenBSD$
 bin/duplicity
 bin/rdiffdir
 lib/python${MODPY_VERSION}/site-packages/duplicity/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/cbb/patches/patch-install_pl,v 1.1 2007/07/30 15:30:27 steven Exp $
+$OpenBSD$
 --- install.pl.orig	Wed May  7 03:17:45 1997
 +++ install.pl	Sat Jul 28 12:55:51 2007
 @@ -500,12 +500,12 @@ if ( ! -e "$dest_libdir/docs/cbb-man/icons" || 

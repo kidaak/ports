@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/gnash/Makefile,v 1.50 2012/02/22 13:22:00 dcoppa Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/hs-xmonad-contrib/pkg/PLIST,v 1.6 2012/01/12 11:12:38 dcoppa Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/HS${DISTNAME}.o
 lib/ghc/${DISTNAME}/XMonad/

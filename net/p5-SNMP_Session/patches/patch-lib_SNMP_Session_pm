@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/p5-SNMP_Session/patches/patch-lib_SNMP_Session_pm,v 1.2 2010/03/20 23:05:17 sthen Exp $
+$OpenBSD$
 --- lib/SNMP_Session.pm.orig	Fri Nov 21 05:25:17 2008
 +++ lib/SNMP_Session.pm	Tue Mar 16 16:14:22 2010
 @@ -146,7 +146,7 @@ BEGIN {

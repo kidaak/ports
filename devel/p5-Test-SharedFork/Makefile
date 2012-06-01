@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-SharedFork/Makefile,v 1.1.1.1 2010/12/11 09:36:52 landry Exp $
+# $OpenBSD$
 
 COMMENT =		fork test
 

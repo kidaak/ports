@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cvslock/Makefile,v 1.5 2010/10/18 17:47:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	safely manipulate and inspect CVS respositories
 

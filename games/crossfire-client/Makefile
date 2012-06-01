@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/crossfire-client/Makefile,v 1.30 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	graphical networked AD&D style game
 

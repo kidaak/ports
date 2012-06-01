@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/py-ao/pkg/PLIST,v 1.4 2011/05/31 07:21:04 dcoppa Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/aomodule.so
 lib/python${MODPY_VERSION}/site-packages/pyao-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 share/examples/py-ao/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libofx/pkg/PLIST,v 1.3 2011/04/13 06:22:29 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/ofx2qif
 @bin bin/ofxdump

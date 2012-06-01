@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-flowd/Makefile,v 1.9 2010/11/19 22:31:37 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

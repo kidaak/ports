@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/btpd/Makefile,v 1.12 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 
 COMMENT=		BitTorrent Protocol Daemon
 

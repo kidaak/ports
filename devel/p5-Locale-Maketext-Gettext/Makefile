@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Locale-Maketext-Gettext/Makefile,v 1.10 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	joins the gettext and maketext frameworks
 

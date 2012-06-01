@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/randread/Makefile,v 1.5 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	help benchmark random read performance
 

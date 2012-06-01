@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-LongString/Makefile,v 1.13 2011/04/08 19:14:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 	tests strings for equality
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-GSSAPI/Makefile,v 1.11 2011/04/10 20:14:23 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde4/artwork/patches/patch-kscreensaver_kxsconfig_CMakeLists_txt,v 1.2 2010/06/20 21:01:36 espie Exp $
+$OpenBSD$
 --- kscreensaver/kxsconfig/CMakeLists.txt.orig	Fri Dec 11 00:15:09 2009
 +++ kscreensaver/kxsconfig/CMakeLists.txt	Sun Jun 20 22:33:58 2010
 @@ -40,10 +40,10 @@ foreach(_currentdesktopfile ${_desktopfiles})

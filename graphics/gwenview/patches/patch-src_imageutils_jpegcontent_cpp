@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/gwenview/patches/patch-src_imageutils_jpegcontent_cpp,v 1.2 2009/09/10 16:43:35 sthen Exp $
+$OpenBSD$
 
 second two hunks: adapt to exiv2 0.18, from Gentoo via FreeBSD
 

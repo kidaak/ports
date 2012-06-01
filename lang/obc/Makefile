@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/obc/Makefile,v 1.2 2011/10/21 20:23:02 jasper Exp $
+# $OpenBSD$
 
 # Fatal error: assertion sizeof(page_index) == GC_PAGESIZE failed on line 1110 of file gc.c
 ONLY_FOR_ARCHS= i386

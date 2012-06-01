@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-FillInForm/Makefile,v 1.7 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	inserts data into HTML input and select tags
 

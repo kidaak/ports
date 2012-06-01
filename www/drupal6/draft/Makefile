@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/draft/Makefile,v 1.4 2012/01/28 11:33:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	saves work in progress automatically
 

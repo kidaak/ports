@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/GeoIP/Makefile,v 1.24 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	find the country where IP address/hostname originates from
 

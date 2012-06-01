@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/quvi/scripts/Makefile,v 1.2 2011/11/16 22:58:14 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	scripts libquvi uses for parsing the media details
 

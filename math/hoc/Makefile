@@ -1,5 +1,5 @@
 # Ports collection makefile for	"hoc", the High Order Calculator
-# $OpenBSD: ports/math/hoc/Makefile,v 1.26 2010/10/18 20:52:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	from Kernighan & Pike: High Order Calculator
 

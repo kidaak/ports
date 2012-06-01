@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/ogmtools/Makefile,v 1.5 2010/11/19 07:23:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		ogg mux/demuxer
 DISTNAME=		ogmtools-1.5

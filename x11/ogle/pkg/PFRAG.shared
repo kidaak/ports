@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/ogle/pkg/PFRAG.shared,v 1.13 2005/12/26 16:45:43 naddy Exp $
+@comment $OpenBSD$
 @lib lib/libdvdcontrol.so.${LIBdvdcontrol_VERSION}
 @lib lib/libmsgevents.so.${LIBmsgevents_VERSION}
 @lib lib/ogle/libdvdcontrol.so.${LIBdvdcontrol_VERSION}

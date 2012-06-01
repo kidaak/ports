@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-SVN-Simple/pkg/PLIST,v 1.1.1.1 2004/12/09 03:48:39 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/SVN/
 ${P5SITE}/SVN/Simple/
 ${P5SITE}/SVN/Simple/Edit.pm

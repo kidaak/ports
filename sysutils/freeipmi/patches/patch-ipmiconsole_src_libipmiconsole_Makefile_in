@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/freeipmi/patches/patch-ipmiconsole_src_libipmiconsole_Makefile_in,v 1.1 2010/03/01 13:18:30 espie Exp $
+$OpenBSD$
 --- ipmiconsole/src/libipmiconsole/Makefile.in.orig	Mon Mar  1 14:13:06 2010
 +++ ipmiconsole/src/libipmiconsole/Makefile.in	Mon Mar  1 14:13:18 2010
 @@ -608,7 +608,7 @@ uninstall-am: uninstall-includeHEADERS uninstall-info-

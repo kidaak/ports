@@ -1,7 +1,7 @@
-# $OpenBSD: ports/lang/php/5.3/Makefile,v 1.25 2012/02/03 08:44:51 sthen Exp $
+# $OpenBSD$
 
 PV=		5.3
-V=		${PV}.10
+V=		${PV}.13
 SUHOSIN_PHPV=	5.3.9
 SUHOSIN_P_V=	0.9.10
 
@@ -9,10 +9,10 @@ INI_TEMPLATES=	development production
 
 # fpm
 PKGNAME-fpm?=		php-fpm-${V}
+REVISION-fpm=		0
 MULTI_PACKAGES+=        -fpm
 COMMENT-fpm=		stand-alone FPM version of PHP
 CONFIGURE_ARGS+=	--enable-fpm \
-			--localstatedir=/var \
 			--with-fpm-user=www \
 			--with-fpm-group=www
 LIB_DEPENDS-fpm=	${LIB_DEPENDS-main}

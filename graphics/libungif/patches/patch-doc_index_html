@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/libungif/patches/patch-doc_index_html,v 1.1.1.1 2001/11/02 21:13:35 brad Exp $
+$OpenBSD$
 --- doc/index.html.orig	Tue Oct 30 18:57:54 2001
 +++ doc/index.html	Tue Oct 30 18:58:33 2001
 @@ -63,16 +63,10 @@ hotlink to HTML documentation.<P>

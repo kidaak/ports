@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/bzip2/Makefile,v 1.60 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	block-sorting file compressor, unencumbered
 

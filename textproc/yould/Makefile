@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/yould/Makefile,v 1.7 2011/09/16 11:41:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=		generator for pronounceable random words
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tktray/patches/patch-configure,v 1.3 2011/01/05 17:47:49 sebastia Exp $
+$OpenBSD$
 
 remove parameters that gcc2 doesn't know of, and do not overwrite CFLAGS_OPTIMIZE
 

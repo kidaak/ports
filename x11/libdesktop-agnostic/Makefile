@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/libdesktop-agnostic/Makefile,v 1.7 2011/12/07 08:55:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		desktop-agnostic library, apis and tools
 

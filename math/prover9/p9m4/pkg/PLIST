@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/prover9/p9m4/pkg/PLIST,v 1.1.1.1 2011/03/07 22:26:24 jasper Exp $
+@comment $OpenBSD$
 bin/prover9-mace4
 libexec/prover9/
 libexec/prover9/p9m4/

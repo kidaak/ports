@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-libapreq/Makefile,v 1.14 2011/01/14 22:50:56 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/groff/patches/patch-Makefile_comm,v 1.2 2011/12/04 15:41:26 schwarze Exp $
+$OpenBSD$
 # Install preformatted manuals
 # since mandoc(1) does not format the groff manuals well.
 # But install groff_mdoc(7) as source

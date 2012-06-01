@@ -1,5 +1,5 @@
 Avoid surprises, install jafmtodit.
-$OpenBSD: ports/japanese/groff/patches/patch-afmtodit_Makefile_sub,v 1.1.1.1 2000/04/12 20:34:11 espie Exp $
+$OpenBSD$
 --- afmtodit/Makefile.sub.orig	Wed Apr 12 13:53:52 2000
 +++ afmtodit/Makefile.sub	Wed Apr 12 13:54:10 2000
 @@ -15,7 +15,7 @@ afmtodit: afmtodit.pl

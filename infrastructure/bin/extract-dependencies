@@ -1,6 +1,6 @@
 #! /usr/bin/perl
 
-# $OpenBSD: ports/infrastructure/bin/extract-dependencies,v 1.1 2010/08/20 14:44:56 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2005 Marc Espie <espie@openbsd.org>
 #

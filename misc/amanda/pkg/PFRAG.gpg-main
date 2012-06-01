@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/misc/amanda/pkg/PFRAG.gpg-main,v 1.1 2006/11/21 22:19:01 espie Exp $
+@comment $OpenBSD$
 bin/gpgzip

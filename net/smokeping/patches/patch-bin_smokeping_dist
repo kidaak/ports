@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/smokeping/patches/patch-bin_smokeping_dist,v 1.9 2008/11/12 12:49:42 sthen Exp $
+$OpenBSD$
 --- bin/smokeping.dist.orig	Sat Apr 26 14:02:18 2008
 +++ bin/smokeping.dist	Wed Nov 12 10:24:56 2008
 @@ -1,5 +1,4 @@

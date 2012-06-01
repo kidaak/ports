@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/pear-HTTP-WebDAV-Server/Makefile,v 1.4 2011/09/16 12:00:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	helper class for PHP WebDAV server implementations
 

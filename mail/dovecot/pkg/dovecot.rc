@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/dovecot/pkg/dovecot.rc,v 1.1 2011/03/03 00:40:05 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/dovecot"
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/mnemo/Makefile,v 1.13 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT=	memo application, for Horde
 

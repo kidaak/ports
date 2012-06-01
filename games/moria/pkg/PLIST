@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/moria/pkg/PLIST,v 1.7 2005/11/03 14:45:09 niallo Exp $
+@comment $OpenBSD$
 @group games
 @mode g+s
 bin/moria

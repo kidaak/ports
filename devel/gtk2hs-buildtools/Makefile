@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gtk2hs-buildtools/Makefile,v 1.10 2011/12/27 21:16:56 kili Exp $
+# $OpenBSD$
 
 COMMENT =		tools to build Gtk2Hs
 

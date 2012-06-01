@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/cosmosmash/Makefile,v 1.21 2011/07/08 22:39:14 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	astrosmash clone for X
 

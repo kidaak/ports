@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/gv/pkg/PLIST,v 1.5 2010/09/14 08:50:07 jasper Exp $
+@comment $OpenBSD$
 @bin bin/gv
 bin/gv-update-userconfig
 @info info/gv.info

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/flatzebra/Makefile,v 1.10 2011/07/08 22:38:08 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	generic game engine library
 

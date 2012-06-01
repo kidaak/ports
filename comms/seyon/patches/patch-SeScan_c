@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/seyon/patches/patch-SeScan_c,v 1.1 2003/12/30 01:18:55 espie Exp $
+$OpenBSD$
 --- SeScan.c.orig	2003-12-30 02:08:16.000000000 +0100
 +++ SeScan.c	2003-12-30 02:08:33.000000000 +0100
 @@ -275,9 +275,9 @@ GetFirstWord(line) 

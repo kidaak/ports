@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/statusnet/pkg/PLIST,v 1.5 2010/10/27 17:56:26 espie Exp $
+@comment $OpenBSD$
 @pkgpath www/statusnet,mysql
 @pkgpath www/statusnet,pgsql
 @owner www

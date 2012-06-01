@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Catalyst-Plugin-Cache-Store-FastMmap/pkg/PLIST,v 1.1.1.1 2008/09/06 10:33:45 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Plugin/Cache/Backend/FastMmap.pm
 ${P5SITE}/Catalyst/Plugin/Cache/Store/FastMmap.pm
 @man man/man3p/Catalyst::Plugin::Cache::Backend::FastMmap.3p

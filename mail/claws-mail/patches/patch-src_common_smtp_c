@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/claws-mail/patches/patch-src_common_smtp_c,v 1.1 2008/10/17 12:46:33 landry Exp $
+$OpenBSD$
 --- src/common/smtp.c.orig	Sat Oct  4 16:19:23 2008
 +++ src/common/smtp.c	Sat Oct  4 16:21:59 2008
 @@ -124,7 +124,7 @@ static void smtp_session_destroy(Session *session)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gromit/Makefile,v 1.21 2011/09/16 12:29:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		small tool to make annotations on the screen
 

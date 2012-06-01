@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_auth_bsd/patches/patch-Makefile,v 1.4 2012/03/08 12:13:01 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.orig	Wed Feb 21 19:32:45 2007
 +++ Makefile	Wed Feb 21 19:33:14 2007
 @@ -16,4 +16,4 @@ clean:

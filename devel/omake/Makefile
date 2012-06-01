@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/omake/Makefile,v 1.10 2010/11/22 08:50:26 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	build system designed for scalability and portability
 CATEGORIES=	devel

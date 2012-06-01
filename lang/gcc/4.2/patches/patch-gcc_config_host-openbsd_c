@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_config_host-openbsd_c,v 1.2 2008/06/12 01:14:06 kurt Exp $
+$OpenBSD$
 --- gcc/config/host-openbsd.c.orig	Wed Apr 23 07:42:45 2008
 +++ gcc/config/host-openbsd.c	Wed Apr 23 17:57:19 2008
 @@ -0,0 +1,107 @@

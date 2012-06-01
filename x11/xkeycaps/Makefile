@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xkeycaps/Makefile,v 1.14 2010/10/24 21:15:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	keymap editor for the X window system
 

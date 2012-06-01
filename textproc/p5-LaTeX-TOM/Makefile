@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-LaTeX-TOM/Makefile,v 1.9 2011/08/21 14:19:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		parse, analyze and manipulate LaTeX documents
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/dbuskit/pkg/PLIST,v 1.1.1.1 2011/05/14 08:32:30 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/dk_make_protocol
 include/DBusKit
 @info info/DBusKit.info

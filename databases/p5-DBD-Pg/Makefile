@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBD-Pg/Makefile,v 1.64 2012/03/12 13:29:19 pea Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

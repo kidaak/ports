@@ -1,5 +1,5 @@
 #
-# $Id: Makefile,v 1.1.1.1 1997/05/30 20:07:45 jfitz Exp $
+# $Id$
 #
 
 CC=	g++

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/wesnoth/patches/patch-src_campaign_server_campaign_server_cpp,v 1.2 2010/10/12 20:33:18 jasper Exp $
+$OpenBSD$
 --- src/campaign_server/campaign_server.cpp.orig	Thu Apr  8 11:17:11 2010
 +++ src/campaign_server/campaign_server.cpp	Thu Apr  8 11:17:29 2010
 @@ -41,6 +41,8 @@

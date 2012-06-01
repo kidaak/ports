@@ -1,9 +1,9 @@
-# $OpenBSD: ports/x11/gnome/system-log/Makefile,v 1.1.1.1 2012/03/28 15:39:06 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		system log viewer for GNOME
 
 GNOME_PROJECT=		gnome-system-log
-GNOME_VERSION=		3.4.0
+GNOME_VERSION=		3.4.1
 
 # GPLv2 - GFDLv1.1
 PERMIT_PACKAGE_CDROM=	Yes

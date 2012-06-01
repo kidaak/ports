@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/ttfm/Makefile,v 1.22 2010/10/24 21:05:24 ajacoutot Exp $ 
+# $OpenBSD$ 
 
 COMMENT=	big5/gb enhanced truetype font manager
 

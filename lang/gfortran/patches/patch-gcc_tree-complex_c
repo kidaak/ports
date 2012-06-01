@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_tree-complex_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/tree-complex.c.orig	Mon Jun 19 16:33:46 2006
 +++ gcc/tree-complex.c	Mon Jun 14 19:23:04 2010
 @@ -397,7 +397,7 @@ create_one_component_var (tree type, tree orig, const 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal7/theme-danland/Makefile,v 1.1.1.1 2012/04/10 12:50:24 espie Exp $
+# $OpenBSD$
 
 COMMENT =	classy 3-columns theme
 DISTNAME=	danland-7.x-1.0

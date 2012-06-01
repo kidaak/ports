@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacious/patches/patch-buildsys_mk_in,v 1.4 2012/03/20 19:10:18 stsp Exp $
+$OpenBSD$
 --- buildsys.mk.in.orig	Fri Jan 20 20:46:56 2012
 +++ buildsys.mk.in	Sun Feb  5 19:13:21 2012
 @@ -35,9 +35,9 @@ LD = ${CC}

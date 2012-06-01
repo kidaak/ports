@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/no-ip/Makefile,v 1.19 2011/11/28 08:37:51 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		No-IP.com Dynamic DNS client
 

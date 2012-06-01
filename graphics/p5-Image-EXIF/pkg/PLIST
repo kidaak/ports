@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Image-EXIF/pkg/PLIST,v 1.2 2004/09/15 00:50:10 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Image/
 ${P5ARCH}/Image/EXIF.pm

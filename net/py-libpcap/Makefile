@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-libpcap/Makefile,v 1.27 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

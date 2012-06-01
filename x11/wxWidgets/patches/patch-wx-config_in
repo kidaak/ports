@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wxWidgets/patches/patch-wx-config_in,v 1.4 2010/11/02 13:10:52 dcoppa Exp $
+$OpenBSD$
 --- wx-config.in.orig	Thu Apr 15 11:02:51 2010
 +++ wx-config.in	Wed Oct 27 12:35:47 2010
 @@ -1,4 +1,4 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/pose/Makefile,v 1.9 2010/11/20 09:48:38 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=		i386
 COMMENT=		Palm OS Emulator

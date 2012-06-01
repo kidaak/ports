@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailscanner/pkg/README,v 1.3 2011/07/22 19:57:20 sthen Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

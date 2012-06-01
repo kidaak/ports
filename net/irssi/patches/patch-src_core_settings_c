@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi/patches/patch-src_core_settings_c,v 1.4 2009/05/23 17:47:01 martynas Exp $
+$OpenBSD$
 --- src/core/settings.c.orig	Tue Mar 31 22:50:02 2009
 +++ src/core/settings.c	Sun Apr  5 01:22:16 2009
 @@ -647,7 +647,7 @@ static CONFIG_REC *parse_configfile(const char *fname)

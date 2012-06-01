@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Copy/Makefile,v 1.4 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	copy a HTML file without breaking links
 

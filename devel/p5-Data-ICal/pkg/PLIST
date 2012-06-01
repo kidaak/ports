@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Data-ICal/pkg/PLIST,v 1.1.1.1 2010/04/02 13:34:39 giovanni Exp $
+@comment $OpenBSD$
 ${P5SITE}/Data/
 ${P5SITE}/Data/ICal/
 ${P5SITE}/Data/ICal.pm

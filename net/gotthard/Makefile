@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gotthard/Makefile,v 1.5 2010/11/19 22:31:33 espie Exp $
+# $OpenBSD$
 
 COMMENT=		ssh through https proxy tunnel
 

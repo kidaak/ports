@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/directoryassistant/pkg/PLIST,v 1.1.1.1 2006/05/01 12:35:54 alek Exp $
+@comment $OpenBSD$
 bin/directoryassistant
 @man man/man1/directoryassistant.1
 share/directoryassistant/

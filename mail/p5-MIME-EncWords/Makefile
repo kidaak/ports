@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-MIME-EncWords/Makefile,v 1.6 2011/06/25 18:01:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	perl module to deal with RFC 2047 encoded words
 

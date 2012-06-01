@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/uim/pkg/PLIST-qt,v 1.2 2008/10/14 02:16:46 kevlo Exp $
+@comment $OpenBSD$
 @bin bin/uim-chardict-qt
 @bin bin/uim-im-switcher-qt
 @bin bin/uim-pref-qt

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/jed/pkg/PLIST,v 1.15 2010/09/13 07:36:01 sthen Exp $
+@comment $OpenBSD$
 @bin bin/jed
 bin/jed-script
 lib/jed/

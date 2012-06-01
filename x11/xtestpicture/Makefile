@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xtestpicture/Makefile,v 1.18 2010/10/24 21:15:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	full-screen image to adjust your monitor
 

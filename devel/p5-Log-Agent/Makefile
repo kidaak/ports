@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Log-Agent/Makefile,v 1.10 2011/10/04 07:40:15 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	abstraction layer for logging and tracing
 

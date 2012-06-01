@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libotr/Makefile,v 1.14 2012/04/04 06:45:27 ajacoutot Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.2 2005/04/21 14:22:54 pav Exp $
 
 COMMENT=	portable OTR messaging library and toolkit

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/prelude/libprelude/patches/patch-Makefile_in,v 1.6 2009/08/30 20:37:16 rui Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Aug 11 16:05:56 2009
 +++ Makefile.in	Thu Aug 13 16:49:58 2009
 @@ -708,7 +708,7 @@ POLL_H = @POLL_H@

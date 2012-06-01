@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/imap-uw/Makefile,v 1.69 2011/11/06 09:03:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-server=	University of Washington IMAP4rev1/POP2/POP3 mail servers
 COMMENT-mailutil=University of Washington IMAP4rev1/POP2/POP3 mail utility

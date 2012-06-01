@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/zendframework/pkg/PLIST,v 1.5 2010/08/28 19:46:00 robert Exp $
+@comment $OpenBSD$
 @group daemon
 zendframework/
 zendframework/Zend/

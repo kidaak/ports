@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/py-gnupg/Makefile,v 1.24 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Python module for GnuPG interface
 

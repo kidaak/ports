@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/orca/pkg/PLIST,v 1.13 2012/03/29 07:18:11 ajacoutot Exp $
+@comment $OpenBSD$
 bin/orca
 lib/python${MODPY_VERSION}/site-packages/orca/
 lib/python${MODPY_VERSION}/site-packages/orca/__init__.py

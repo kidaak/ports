@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ruby-bcrypt/Makefile,v 1.14 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	Ruby binding for the bcrypt() password hashing algorithm
 

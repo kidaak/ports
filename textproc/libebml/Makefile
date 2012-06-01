@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/libebml/Makefile,v 1.9 2011/10/04 08:57:42 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	Extensible Binary Meta Language library
 

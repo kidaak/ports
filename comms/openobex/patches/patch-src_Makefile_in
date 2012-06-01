@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/openobex/patches/patch-src_Makefile_in,v 1.1.1.1 2004/11/12 08:04:22 grange Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Fri Nov 12 10:51:50 2004
 +++ src/Makefile.in	Fri Nov 12 10:52:19 2004
 @@ -95,7 +95,7 @@ lib_LTLIBRARIES = libopenobex.la

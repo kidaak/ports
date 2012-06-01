@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tla/patches/patch-tla_libneon_ne_207_c,v 1.2 2010/05/19 23:29:14 espie Exp $
+$OpenBSD$
 --- tla/libneon/ne_207.c.orig	Sat Dec  6 20:35:28 2003
 +++ tla/libneon/ne_207.c	Wed May 19 19:28:47 2010
 @@ -320,12 +320,12 @@ int ne_simple_request(ne_session *sess, ne_request *re

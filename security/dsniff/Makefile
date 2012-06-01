@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/dsniff/Makefile,v 1.57 2011/09/25 14:42:51 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	sniffing tools for penetration testing
 

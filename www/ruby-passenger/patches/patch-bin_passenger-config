@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-bin_passenger-config,v 1.1 2011/12/13 18:38:17 jeremy Exp $
+$OpenBSD$
 
 Make sure that --root uses the location of the symlink, so it
 doesn't change from version to version.

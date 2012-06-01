@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-AI-NeuralNet-Kohonen/pkg/PLIST,v 1.1.1.1 2009/03/31 16:45:43 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/AI/
 ${P5SITE}/AI/NeuralNet/
 ${P5SITE}/AI/NeuralNet/Kohonen/

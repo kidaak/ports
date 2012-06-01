@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/freetalk/pkg/PLIST,v 1.1.1.1 2009/01/20 08:11:34 kevlo Exp $
+@comment $OpenBSD$
 @bin bin/freetalk
 @info info/freetalk.info
 @man man/man1/freetalk.1

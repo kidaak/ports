@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/node-fibers/patches/patch-test_sh,v 1.1.1.1 2012/04/03 18:46:03 jeremy Exp $
+$OpenBSD$
 --- test.sh.orig	Wed Feb  1 13:47:26 2012
 +++ test.sh	Wed Feb  1 13:47:37 2012
 @@ -1,4 +1,4 @@

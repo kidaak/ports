@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-lib/patches/patch-m4_libFLAC_m4,v 1.1 2008/12/14 23:57:34 brad Exp $
+$OpenBSD$
 --- m4/libFLAC.m4.orig	Wed Dec 10 23:08:32 2008
 +++ m4/libFLAC.m4	Wed Dec 10 23:08:58 2008
 @@ -21,7 +21,7 @@ AC_ARG_ENABLE(libFLACtest, AS_HELP_STRING([--disable-l

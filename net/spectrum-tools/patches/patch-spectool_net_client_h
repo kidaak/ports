@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/spectrum-tools/patches/patch-spectool_net_client_h,v 1.2 2012/02/16 21:26:55 sthen Exp $
+$OpenBSD$
 --- spectool_net_client.h.orig	Fri Jun 10 16:53:29 2011
 +++ spectool_net_client.h	Sun Jan 22 11:34:31 2012
 @@ -23,8 +23,9 @@

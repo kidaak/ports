@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/gnuvd/Makefile,v 1.7 2010/11/20 19:56:48 espie Exp $
+# $OpenBSD$
 
 COMMENT =		query the online Dutch Van Dale dictionary
 DISTNAME =		gnuvd-1.0.11

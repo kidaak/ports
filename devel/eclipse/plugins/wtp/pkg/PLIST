@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/plugins/wtp/pkg/PLIST,v 1.2 2007/05/18 02:32:12 kurt Exp $
+@comment $OpenBSD$
 @conflict eclipse-plugin-jem-sdk-*
 eclipse/features/org.apache.axis.feature_1.3.0.v200606071530--0842282_383A68/
 eclipse/features/org.apache.axis.feature_1.3.0.v200606071530--0842282_383A68/LICENSE

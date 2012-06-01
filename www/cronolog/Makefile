@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/cronolog/Makefile,v 1.8 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	web log rotation program
 

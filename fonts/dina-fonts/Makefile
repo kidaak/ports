@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/dina-fonts/Makefile,v 1.1.1.1 2011/12/07 09:27:16 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		monospace bitmap font, primarily aimed at programmers
 

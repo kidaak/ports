@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.52/patches/patch-doc_autoconf_texi,v 1.3 2004/07/22 05:50:07 espie Exp $
+$OpenBSD$
 --- doc/autoconf.texi.orig	Tue Jul 17 18:34:55 2001
 +++ doc/autoconf.texi	Thu Jul 22 07:36:27 2004
 @@ -2,6 +2,7 @@

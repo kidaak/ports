@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/honeyd/pkg/PLIST,v 1.9 2010/04/21 23:42:18 alek Exp $
+@comment $OpenBSD$
 @newgroup _honeyd:!546
 @newuser _honeyd:!546:!_honeyd:daemon:honeyd user:/nonexistent:/sbin/nologin
 @bin bin/honeyd

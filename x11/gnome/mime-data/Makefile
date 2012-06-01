@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/mime-data/Makefile,v 1.31 2012/03/19 10:28:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		MIME and application database for GNOME
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-ISA/Makefile,v 1.4 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		report the search path for a class's ISA tree
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/eclipse/plugins/ivyde/Makefile,v 1.6 2011/09/16 09:24:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=		IVY plug-in for Eclipse IDE
 

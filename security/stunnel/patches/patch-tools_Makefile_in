@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/stunnel/patches/patch-tools_Makefile_in,v 1.10 2011/11/30 19:37:21 sthen Exp $
+$OpenBSD$
 --- tools/Makefile.in.orig	Sat Nov 26 20:37:01 2011
 +++ tools/Makefile.in	Wed Nov 30 19:33:49 2011
 @@ -202,7 +202,7 @@ examplesdir = $(docdir)/examples

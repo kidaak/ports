@@ -1,9 +1,9 @@
-# $OpenBSD: ports/graphics/feh/Makefile,v 1.40 2012/03/29 12:29:10 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight image viewer
 
 DISTNAME=	feh-2.5
-REVISION=	0
+REVISION=	1
 EXTRACT_SUFX=	.tar.bz2
 CATEGORIES=	graphics
 

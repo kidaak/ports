@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/pingus/patches/patch-src_pingus_main_cpp,v 1.1.1.1 2009/03/14 14:08:38 ajacoutot Exp $
+$OpenBSD$
 --- src/pingus_main.cpp.orig	Tue Oct 30 09:39:56 2007
 +++ src/pingus_main.cpp	Sat Mar 14 15:07:08 2009
 @@ -593,6 +593,7 @@ PingusMain::init_path_finder()

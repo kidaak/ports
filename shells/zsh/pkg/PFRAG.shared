@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/shells/zsh/pkg/PFRAG.shared,v 1.9 2009/06/03 14:35:48 pea Exp $
+@comment $OpenBSD$
 lib/zsh/
 lib/zsh/${V}/
 lib/zsh/${V}/zsh/

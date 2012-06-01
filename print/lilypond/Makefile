@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/lilypond/Makefile,v 1.37 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

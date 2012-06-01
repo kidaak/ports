@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-base/patches/patch-gst_audioresample_resample_sse_h,v 1.2 2012/02/23 15:11:04 ajacoutot Exp $
+$OpenBSD$
 
 https://bugzilla.gnome.org/show_bug.cgi?id=670690
 

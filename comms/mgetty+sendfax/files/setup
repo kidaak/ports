@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 
-# $OpenBSD: ports/comms/mgetty+sendfax/files/setup,v 1.4 2008/06/02 10:46:04 ajacoutot Exp $
+# $OpenBSD$
 
 $confdir = "@sysconfdir@/mgetty+sendfax";
 $defport = "tty00";

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/qstat/Makefile,v 1.8 2011/06/29 19:25:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	displays the status of multi-player Internet Game servers
 

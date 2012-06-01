@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-SOAPpy/patches/patch-SOAPpy_Types_py,v 1.3 2007/10/06 19:41:49 steven Exp $
+$OpenBSD$
 --- SOAPpy/Types.py.orig	Sat Sep 11 05:03:33 2004
 +++ SOAPpy/Types.py	Sat Oct  6 21:33:57 2007
 @@ -34,2 +34,3 @@

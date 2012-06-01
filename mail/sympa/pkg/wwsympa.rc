@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/sympa/pkg/wwsympa.rc,v 1.1 2010/12/30 17:51:25 landry Exp $
+# $OpenBSD$
 
 daemon="${LOCALBASE}/bin/spawn-fcgi"
 daemon_flags="-u_sympa -g_sympa -p1026 ${TRUEPREFIX}/libexec/sympa/wwsympa.fcgi"

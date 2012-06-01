@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/recordmydesktop/base/patches/patch-configure,v 1.2 2009/04/14 18:43:39 jasper Exp $
+$OpenBSD$
 
 Don't link with -lpthread, but with -pthread.
 

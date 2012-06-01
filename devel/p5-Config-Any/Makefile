@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Config-Any/Makefile,v 1.19 2012/04/06 10:07:20 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	load various configuration file formats
 

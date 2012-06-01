@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.2/pkg/PLIST-main,v 1.6 2009/04/16 18:36:48 espie Exp $
+@comment $OpenBSD$
 @pkgpath lang/gcc/4.2
 %%SHARED%%
 @bin bin/ecpp

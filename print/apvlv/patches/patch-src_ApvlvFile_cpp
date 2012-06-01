@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/apvlv/patches/patch-src_ApvlvFile_cpp,v 1.2 2011/11/26 19:47:40 kili Exp $
+$OpenBSD$
 
 Fixes for poppler-0.16 and poppler-0.18. The latter gyped from archlinux.
 

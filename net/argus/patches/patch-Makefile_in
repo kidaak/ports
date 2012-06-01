@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/argus/patches/patch-Makefile_in,v 1.2 2010/04/15 19:15:19 steven Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Oct  7 19:13:20 2009
 +++ Makefile.in	Sat Apr 10 12:32:04 2010
 @@ -34,7 +34,7 @@ prefix = @prefix@

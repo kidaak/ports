@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/cowsay/Makefile,v 1.6 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=		speaking ascii cow
 DISTNAME=		cowsay-3.03

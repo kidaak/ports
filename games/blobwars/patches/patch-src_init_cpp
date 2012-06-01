@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/blobwars/patches/patch-src_init_cpp,v 1.2 2011/05/08 21:47:44 kili Exp $
+$OpenBSD$
 --- src/init.cpp.orig	Sun Apr 17 16:56:56 2011
 +++ src/init.cpp	Sun May  8 15:41:13 2011
 @@ -473,9 +473,11 @@ void cleanup()

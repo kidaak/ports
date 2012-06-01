@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/moria/patches/patch-unix_Makefile,v 1.1.1.1 2001/07/04 16:57:50 lebel Exp $
+$OpenBSD$
 --- unix/Makefile.orig	Wed Jul  4 12:31:27 2001
 +++ unix/Makefile	Wed Jul  4 12:31:34 2001
 @@ -3,15 +3,15 @@

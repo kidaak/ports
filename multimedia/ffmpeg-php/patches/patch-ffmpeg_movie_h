@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/ffmpeg-php/patches/patch-ffmpeg_movie_h,v 1.2 2009/08/17 00:24:38 jolan Exp $
+$OpenBSD$
 --- ffmpeg_movie.h.orig	Mon Oct 13 14:41:03 2008
 +++ ffmpeg_movie.h	Sun Aug 16 18:27:37 2009
 @@ -33,7 +33,7 @@

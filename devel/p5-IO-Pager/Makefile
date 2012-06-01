@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-IO-Pager/Makefile,v 1.9 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	select a pager if destination is a TTY
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/corewars/patches/patch-src_dirbrowser_c,v 1.1 2010/03/24 22:32:17 jasper Exp $
+$OpenBSD$
 
 Swith to gtk+2.
 From Debian's corewars_0.9.13+ds-1.diff.

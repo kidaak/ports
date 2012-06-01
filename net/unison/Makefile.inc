@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/unison/Makefile.inc,v 1.18 2011/07/07 00:22:37 ajacoutot Exp $
+# $OpenBSD$
 
 DISTNAME=	unison-$V
 CATEGORIES=	net

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/dungeon-crawl/patches/patch-source_religion_cc,v 1.1.1.1 2005/10/22 15:20:28 espie Exp $
+$OpenBSD$
 --- source/religion.cc.orig	Tue Oct 18 23:53:56 2005
 +++ source/religion.cc	Tue Oct 18 23:54:14 2005
 @@ -53,18 +53,18 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/nhc98/patches/patch-man_nhc98_1,v 1.1 2007/06/29 11:06:25 kili Exp $
+$OpenBSD$
 
 No harch, no MACHINE (well, it's just hardcoded).
 

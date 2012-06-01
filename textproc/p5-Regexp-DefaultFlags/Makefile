@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Regexp-DefaultFlags/Makefile,v 1.5 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	set default flags on regular expressions
 

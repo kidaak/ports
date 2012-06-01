@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/gtar/patches/patch-tests_sparse04_at,v 1.1 2011/03/15 21:10:13 naddy Exp $
+$OpenBSD$
 --- tests/sparse04.at.orig	Tue Mar 15 21:51:27 2011
 +++ tests/sparse04.at	Tue Mar 15 21:51:47 2011
 @@ -34,7 +34,7 @@ m4_define([NAME_111],

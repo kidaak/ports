@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-ksysguard_ksysguardd_OpenBSD_ProcessList_c,v 1.4 2011/07/06 14:51:19 dcoppa Exp $
+$OpenBSD$
 --- ksysguard/ksysguardd/OpenBSD/ProcessList.c.orig	Wed Jul  6 15:42:15 2011
 +++ ksysguard/ksysguardd/OpenBSD/ProcessList.c	Wed Jul  6 15:57:03 2011
 @@ -0,0 +1,500 @@

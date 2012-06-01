@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libestr/pkg/PFRAG.shared,v 1.1.1.1 2012/01/16 15:17:58 dhill Exp $
+@comment $OpenBSD$
 @lib lib/libestr.so.${LIBestr_VERSION}

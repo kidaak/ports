@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/munin/patches/patch-plugins_node_d_exim_mailstats_in,v 1.1 2010/10/23 15:52:23 sthen Exp $
+$OpenBSD$
 --- plugins/node.d/exim_mailstats.in.orig	Sat Oct 23 15:40:44 2010
 +++ plugins/node.d/exim_mailstats.in	Sat Oct 23 15:41:36 2010
 @@ -128,7 +128,7 @@ sub parseEximfile

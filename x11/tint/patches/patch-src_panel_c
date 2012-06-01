@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tint/patches/patch-src_panel_c,v 1.1 2010/07/19 15:17:45 edd Exp $
+$OpenBSD$
 
 Patch from svn. Fixes tint2 on sparc64.
 

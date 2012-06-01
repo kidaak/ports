@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-PasswdMD5/Makefile,v 1.5 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	md5-based passwords in perl
 

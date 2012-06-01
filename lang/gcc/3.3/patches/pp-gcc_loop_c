@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_loop_c,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/loop.c.orig	Sun May 30 01:27:30 2004
 +++ gcc/loop.c	Mon Jan  3 10:17:42 2005
 @@ -1130,6 +1130,7 @@ scan_loop (loop, flags)

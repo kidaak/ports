@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mp3blaster/Makefile,v 1.15 2010/11/15 00:22:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	text console audio player with an interactive interface
 

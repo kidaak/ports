@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nagios/nsca/patches/patch-src_nsca_c,v 1.4 2011/11/12 00:49:49 sthen Exp $
+$OpenBSD$
 --- src/nsca.c.orig	Tue Aug 31 13:47:57 2010
 +++ src/nsca.c	Sat Nov 12 00:45:12 2011
 @@ -28,7 +28,7 @@ char    *server_address=NULL;

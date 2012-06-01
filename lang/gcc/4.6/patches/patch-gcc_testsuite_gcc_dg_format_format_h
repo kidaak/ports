@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_testsuite_gcc_dg_format_format_h,v 1.1.1.1 2011/11/14 13:00:57 pascal Exp $
+$OpenBSD$
 --- gcc/testsuite/gcc.dg/format/format.h.orig	Sat Nov 12 13:49:12 2011
 +++ gcc/testsuite/gcc.dg/format/format.h	Sat Nov 12 13:49:42 2011
 @@ -35,11 +35,13 @@

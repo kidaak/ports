@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-irclib/Makefile,v 1.12 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Internet Relay Chat (IRC) protocol client library for Python
 

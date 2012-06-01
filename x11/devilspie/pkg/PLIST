@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/devilspie/pkg/PLIST,v 1.2 2008/02/15 15:44:00 jasper Exp $
+@comment $OpenBSD$
 bin/devilspie
 @man man/man1/devilspie.1
 share/doc/devilspie/

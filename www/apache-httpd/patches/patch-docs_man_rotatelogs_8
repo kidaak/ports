@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/apache-httpd/patches/patch-docs_man_rotatelogs_8,v 1.5 2011/09/01 13:40:09 giovanni Exp $
+$OpenBSD$
 --- docs/man/rotatelogs.8.orig	Fri Feb  4 16:20:03 2011
 +++ docs/man/rotatelogs.8	Wed Aug 31 11:58:24 2011
 @@ -19,7 +19,7 @@

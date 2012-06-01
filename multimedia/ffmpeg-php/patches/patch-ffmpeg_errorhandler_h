@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/ffmpeg-php/patches/patch-ffmpeg_errorhandler_h,v 1.1.1.1 2009/08/16 20:04:39 jolan Exp $
+$OpenBSD$
 --- ffmpeg_errorhandler.h.orig	Fri Nov 21 14:57:21 2008
 +++ ffmpeg_errorhandler.h	Fri Nov 21 14:57:40 2008
 @@ -0,0 +1,38 @@

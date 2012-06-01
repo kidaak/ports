@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/powerdns/pkg/PLIST-pgsql,v 1.2 2009/06/23 22:59:57 sthen Exp $
+@comment $OpenBSD$
 @comment lib/powerdns/libgpgsqlbackend.a
 @comment lib/powerdns/libgpgsqlbackend.la
 lib/powerdns/libgpgsqlbackend.so

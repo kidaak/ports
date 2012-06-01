@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Rcs/Makefile,v 1.5 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl Object Class for Revision Control System (RCS)
 

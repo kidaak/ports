@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/firefox36/patches/patch-security_coreconf_UNIX_mk,v 1.3 2011/03/26 10:58:36 landry Exp $
+$OpenBSD$
 --- security/coreconf/UNIX.mk.orig	Wed Jun 17 07:22:08 2009
 +++ security/coreconf/UNIX.mk	Sun Jun 21 17:58:10 2009
 @@ -42,7 +42,7 @@ AR          = ar cr $@

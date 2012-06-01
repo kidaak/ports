@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/amph/patches/patch-Makefile,v 1.7 2009/01/25 01:27:23 jakemsr Exp $
+$OpenBSD$
 --- Makefile.orig	Mon Mar 25 11:11:27 2002
 +++ Makefile	Thu Jan 22 02:39:13 2009
 @@ -3,14 +3,13 @@

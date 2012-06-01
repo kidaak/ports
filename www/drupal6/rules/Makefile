@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/rules/Makefile,v 1.6 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	conditionally executed actions based on occurring events
 MAINTAINER =	Marc Espie <espie@openbsd.org>

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/shells/scsh/pkg/PLIST,v 1.8 2007/02/04 15:54:19 steven Exp $
+@comment $OpenBSD$
 @conflict scheme48-*
 bin/scsh
 include/scheme48.h

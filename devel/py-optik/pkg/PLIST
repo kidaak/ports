@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-optik/pkg/PLIST,v 1.4 2009/10/02 22:27:00 benoit Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/__init__.py
 lib/python${MODPY_VERSION}/site-packages/__init__.pyc
 lib/python${MODPY_VERSION}/site-packages/errors.py

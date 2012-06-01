@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/enjoympeg/Makefile,v 1.11 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	mpeg-1 video player
 

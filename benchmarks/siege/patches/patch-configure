@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/siege/patches/patch-configure,v 1.2 2010/09/15 09:59:39 sthen Exp $
+$OpenBSD$
 --- configure.orig	Fri Jul 16 15:52:42 2010
 +++ configure	Wed Sep 15 10:40:56 2010
 @@ -25178,13 +25178,13 @@ PTHREAD_CFLAGS=error

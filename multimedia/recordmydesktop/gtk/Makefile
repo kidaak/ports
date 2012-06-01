@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/recordmydesktop/gtk/Makefile,v 1.15 2011/09/16 10:31:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=		GTK frontend to recordMyDesktop
 

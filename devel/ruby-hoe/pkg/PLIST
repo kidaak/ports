@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-hoe/pkg/PLIST,v 1.9 2011/11/17 17:29:28 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/sow${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

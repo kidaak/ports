@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/plugins/ivyde/pkg/PLIST,v 1.2 2007/05/15 19:30:42 kili Exp $
+@comment $OpenBSD$
 eclipse/plugins/org.jayasoft.ivyde.eclipse_${VERSION}/
 eclipse/plugins/org.jayasoft.ivyde.eclipse_${VERSION}/CHANGES.txt
 eclipse/plugins/org.jayasoft.ivyde.eclipse_${VERSION}/LICENSE.txt

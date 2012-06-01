@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostview/patches/patch-main_c,v 1.1 2002/04/26 01:44:08 espie Exp $
+$OpenBSD$
 --- main.c.orig	Sat Jul 24 04:29:12 1993
 +++ main.c	Sun Apr 21 01:04:00 2002
 @@ -53,6 +53,11 @@

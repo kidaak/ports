@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/swish-e/pkg/PLIST,v 1.2 2010/10/26 12:21:35 merdely Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/swish-config
 @bin bin/swish-e

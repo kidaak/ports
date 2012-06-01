@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gegl/pkg/PLIST-main,v 1.10 2011/12/28 09:31:58 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gegl
 include/gegl-0.1/
 include/gegl-0.1/gegl-buffer-backend.h

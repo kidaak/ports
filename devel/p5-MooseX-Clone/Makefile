@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Clone/Makefile,v 1.6 2011/04/14 07:01:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	fine grained cloning support for Moose objects
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-FolderType/Makefile,v 1.8 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	determine email folder type
 

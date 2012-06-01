@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pgtcl/Makefile,v 1.8 2011/09/16 08:48:03 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
  

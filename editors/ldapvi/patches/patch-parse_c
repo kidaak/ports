@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/ldapvi/patches/patch-parse_c,v 1.1 2012/03/02 08:01:07 sthen Exp $
+$OpenBSD$
 
 unbreak hash generation
 http://lists.askja.de/pipermail/ldapvi/2007-October/000041.html

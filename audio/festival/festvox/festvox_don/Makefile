@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/festvox/festvox_don/Makefile,v 1.2 2007/09/15 22:27:38 simon Exp $
+# $OpenBSD$
 
 COMMENT=	British English RP male speaker (DON)
 DISTNAME=	festvox_don

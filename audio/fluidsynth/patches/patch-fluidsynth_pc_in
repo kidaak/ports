@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/fluidsynth/patches/patch-fluidsynth_pc_in,v 1.2 2008/12/26 08:45:12 jakemsr Exp $
+$OpenBSD$
 --- fluidsynth.pc.in.orig	Sat Aug 18 14:55:32 2007
 +++ fluidsynth.pc.in	Sat Dec 20 17:33:14 2008
 @@ -6,5 +6,5 @@ includedir=@includedir@

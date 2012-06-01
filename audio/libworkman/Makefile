@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libworkman/Makefile,v 1.13 2010/10/24 21:00:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		multi-platform CD-Player library
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-rake/Makefile,v 1.22 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	ruby make
 

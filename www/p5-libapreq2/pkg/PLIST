@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-libapreq2/pkg/PLIST,v 1.1.1.1 2007/07/22 16:22:01 simon Exp $
+@comment $OpenBSD$
 bin/apreq2-config
 include/apache2/apreq2/
 include/apache2/apreq2/apreq_module_apache2.h

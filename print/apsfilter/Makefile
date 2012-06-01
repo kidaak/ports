@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/apsfilter/Makefile,v 1.16 2012/02/17 13:25:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		filter to print a wide range of file formats
 

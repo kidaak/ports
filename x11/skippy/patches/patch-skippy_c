@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/skippy/patches/patch-skippy_c,v 1.3 2009/01/03 23:02:57 jasper Exp $
+$OpenBSD$
 --- skippy.c.orig	Wed May 19 23:23:49 2004
 +++ skippy.c	Sat Jan  3 23:56:53 2009
 @@ -72,7 +72,7 @@ skippy_run(MainWin *mw, dlist *clients, int force, Win

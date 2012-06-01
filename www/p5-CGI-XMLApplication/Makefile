@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CGI-XMLApplication/Makefile,v 1.22 2010/12/03 11:46:51 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	object oriented interface for CGI script applications
 

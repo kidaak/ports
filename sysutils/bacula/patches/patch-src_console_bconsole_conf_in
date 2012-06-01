@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/patches/patch-src_console_bconsole_conf_in,v 1.2 2009/10/02 02:34:05 merdely Exp $
+$OpenBSD$
 --- src/console/bconsole.conf.in.orig	Thu May 14 12:06:41 2009
 +++ src/console/bconsole.conf.in	Tue Sep  1 22:31:52 2009
 @@ -5,6 +5,6 @@

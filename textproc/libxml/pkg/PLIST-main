@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/libxml/pkg/PLIST-main,v 1.6 2009/10/11 10:39:42 steven Exp $
+@comment $OpenBSD$
 @pkgpath textproc/libxml
 %%SHARED%%
 bin/xml2-config

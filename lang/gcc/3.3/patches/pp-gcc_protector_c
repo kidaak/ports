@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_protector_c,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/protector.c.orig	Mon Jan  3 10:17:42 2005
 +++ gcc/protector.c	Mon Jan  3 10:17:42 2005
 @@ -0,0 +1,2722 @@

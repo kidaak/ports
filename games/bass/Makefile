@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/bass/Makefile,v 1.9 2010/11/26 07:20:11 espie Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

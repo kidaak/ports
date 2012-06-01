@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/gns3/patches/patch-qemuwrapper_qemuwrapper_py,v 1.1 2011/03/03 16:29:29 sthen Exp $
+$OpenBSD$
 --- qemuwrapper/qemuwrapper.py.orig	Tue Dec 14 17:52:57 2010
 +++ qemuwrapper/qemuwrapper.py	Sat Jan 29 21:34:13 2011
 @@ -44,7 +44,7 @@ import threading

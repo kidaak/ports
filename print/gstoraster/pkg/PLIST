@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/gstoraster/pkg/PLIST,v 1.2 2011/07/06 16:07:16 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict ghostscript-<9.02
 @pkgpath print/ghostscript/gnu
 @newgroup _cups:541

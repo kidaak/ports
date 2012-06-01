@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-ptkdb/Makefile,v 1.9 2011/09/16 09:24:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=	perl debugger built with a PerlTk GUI
 

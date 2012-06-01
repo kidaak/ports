@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-SubRequest/Makefile,v 1.12 2012/04/08 21:58:56 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	map subrequests to actions in Catalyst
 

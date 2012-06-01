@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/imageapi/Makefile,v 1.7 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	image API
 MAINTAINER =	Marc Espie <espie@openbsd.org>

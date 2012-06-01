@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-vorbis/patches/patch-test_ogg123_py,v 1.1.1.1 2011/05/31 09:19:45 dcoppa Exp $
+$OpenBSD$
 
 whrandom in python2.4 is deprecated, and in python2.5 is gone: use
 the 'random' module which is a drop-in replacement

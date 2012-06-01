@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTP-Response-Encoding/Makefile,v 1.5 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		add encoding to HTTP::Response
 

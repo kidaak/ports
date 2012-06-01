@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Locale-gettext/pkg/PLIST,v 1.1.1.1 2004/12/08 19:00:49 msf Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Locale/
 ${P5ARCH}/Locale/gettext.pm

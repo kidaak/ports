@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/wdsetup/Makefile,v 1.7 2011/06/21 20:21:21 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	Western Digital and SMC ethernet card configuration program
 

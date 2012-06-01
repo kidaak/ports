@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/osmo/pkg/PLIST,v 1.7 2011/12/03 23:04:36 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/osmo
 @man man/man1/osmo.1
 share/applications/osmo.desktop

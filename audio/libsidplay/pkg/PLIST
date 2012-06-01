@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libsidplay/pkg/PLIST,v 1.2 2004/08/06 14:37:27 espie Exp $
+@comment $OpenBSD$
 include/sidplay/
 include/sidplay/compconf.h
 include/sidplay/emucfg.h

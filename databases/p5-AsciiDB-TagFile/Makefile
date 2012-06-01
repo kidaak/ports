@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-AsciiDB-TagFile/Makefile,v 1.18 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	tie class for a simple ASCII database
 DISTNAME =	AsciiDB-TagFile-1.06

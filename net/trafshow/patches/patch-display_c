@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/trafshow/patches/patch-display_c,v 1.2 2004/05/08 17:24:45 mickey Exp $
+$OpenBSD$
 --- display.c.orig	Sat May  8 13:20:48 2004
 +++ display.c	Sat May  8 13:19:09 2004
 @@ -389,8 +389,8 @@

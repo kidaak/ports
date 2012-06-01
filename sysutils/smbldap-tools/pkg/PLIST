@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/smbldap-tools/pkg/PLIST,v 1.2 2007/01/31 07:59:33 msf Exp $
+@comment $OpenBSD$
 libdata/perl5/site_perl/smbldap_tools.pm
 sbin/smbldap-configure
 sbin/smbldap-groupadd

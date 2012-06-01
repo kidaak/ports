@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dclib/Makefile,v 1.12 2011/09/16 11:13:37 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Library for direct-connect protocol
 

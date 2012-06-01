@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/redis/patches/patch-src_mkreleasehdr_sh,v 1.1 2011/07/28 08:57:32 dcoppa Exp $
+$OpenBSD$
 --- src/mkreleasehdr.sh.orig	Wed Jul 27 09:33:10 2011
 +++ src/mkreleasehdr.sh	Wed Jul 27 09:34:31 2011
 @@ -1,6 +1,6 @@

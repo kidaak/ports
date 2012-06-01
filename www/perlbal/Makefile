@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/perlbal/Makefile,v 1.6 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl-based reverse proxy load balancer and web server
 

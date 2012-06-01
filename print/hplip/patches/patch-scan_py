@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-scan_py,v 1.5 2011/10/09 07:42:29 ajacoutot Exp $
+$OpenBSD$
 --- scan.py.orig	Sun Oct  2 05:06:19 2011
 +++ scan.py	Sun Oct  9 09:17:00 2011
 @@ -1040,7 +1040,7 @@ try:

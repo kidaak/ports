@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/sdlmm/Makefile,v 1.25 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	C++ wrapper for the Simple DirectMedia Layer
 

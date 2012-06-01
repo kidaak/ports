@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/sqsh/patches/patch-src_Makefile_in,v 1.2 2003/05/12 18:02:44 sturm Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun Dec 23 16:52:30 2001
 +++ src/Makefile.in	Sun Dec 23 16:53:03 2001
 @@ -7,7 +7,7 @@

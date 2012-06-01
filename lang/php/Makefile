@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/php/Makefile,v 1.1.1.1 2010/06/27 20:28:44 robert Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += 5.2

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/wwwoffle/pkg/PLIST,v 1.6 2010/03/20 16:55:33 jasper Exp $
+@comment $OpenBSD$
 @bin bin/wwwoffle
 bin/wwwoffle-ls
 bin/wwwoffle-mv

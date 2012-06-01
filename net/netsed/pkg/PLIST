@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/netsed/pkg/PLIST,v 1.2 2004/09/15 18:17:42 espie Exp $
+@comment $OpenBSD$
 bin/netsed
 share/doc/netsed/
 share/doc/netsed/README

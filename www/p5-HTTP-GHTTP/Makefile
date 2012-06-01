@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTP-GHTTP/Makefile,v 1.20 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

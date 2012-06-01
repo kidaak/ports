@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xdmchoose/patches/patch-Makefile_in,v 1.1 2009/03/23 21:41:44 naddy Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Apr 24 03:41:13 2003
 +++ Makefile.in	Mon Mar 23 22:32:09 2009
 @@ -87,7 +87,7 @@ install_sh = @install_sh@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/mantis/pkg/PLIST,v 1.6 2008/12/23 10:51:02 mbalmer Exp $
+@comment $OpenBSD$
 @group daemon
 mantis/
 @comment mantis/.gitignore

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-Checker/Makefile,v 1.31 2011/09/16 09:24:54 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Python codes checker
 

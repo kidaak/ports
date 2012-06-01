@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/p5-Math-GMP/patches/patch-Makefile_PL,v 1.4 2008/10/10 12:12:07 jasper Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Fri Oct 10 13:52:55 2008
 +++ Makefile.PL	Fri Oct 10 13:53:31 2008
 @@ -8,7 +8,8 @@ my $output = WriteMakefile

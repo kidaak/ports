@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ruby-openid/Makefile,v 1.16 2011/11/27 11:12:22 pirofti Exp $
+# $OpenBSD$
 
 COMMENT=	robust library for verifying and serving OpenID identities
 

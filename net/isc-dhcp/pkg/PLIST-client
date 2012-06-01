@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/isc-dhcp/pkg/PLIST-client,v 1.4 2012/01/14 12:43:25 sthen Exp $
+@comment $OpenBSD$
 @conflict isc-dhcp-*
 @man man/man5/dhclient.conf.5
 @man man/man5/dhclient.leases.5

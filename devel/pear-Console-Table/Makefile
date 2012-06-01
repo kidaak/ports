@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Console-Table/Makefile,v 1.6 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT=	php class for building console-style tables
 

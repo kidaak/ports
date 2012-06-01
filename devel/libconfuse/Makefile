@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libconfuse/Makefile,v 1.8 2011/06/28 09:10:32 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=		configuration file parser library
 DISTNAME=		confuse-2.7

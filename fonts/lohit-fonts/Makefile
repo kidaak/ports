@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/lohit-fonts/Makefile,v 1.1.1.1 2011/12/16 20:15:06 naddy Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

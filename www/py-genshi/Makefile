@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-genshi/Makefile,v 1.8 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	toolkit for generation of output for the web
 

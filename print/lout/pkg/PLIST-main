@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/lout/pkg/PLIST-main,v 1.3 2011/05/11 07:45:53 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath print/lout
 @unexec rm -rf %D/lib/lout/data/*.li
 @unexec rm -rf %D/lib/lout/hyph/*.lp

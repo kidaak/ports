@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-IP/pkg/PLIST,v 1.4 2009/10/01 20:13:11 benoit Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/IPy-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/IPy.py
 lib/python${MODPY_VERSION}/site-packages/IPy.pyc

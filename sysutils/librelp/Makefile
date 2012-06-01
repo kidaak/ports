@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/librelp/Makefile,v 1.1.1.1 2010/07/25 17:12:56 todd Exp $
+# $OpenBSD$
 
 COMMENT =	reliable event logging protocol library
 

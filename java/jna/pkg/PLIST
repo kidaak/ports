@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/java/jna/pkg/PLIST,v 1.2 2011/09/01 08:05:05 jasper Exp $
+@comment $OpenBSD$
 share/java/
 share/java/classes/
 share/java/classes/jna-platform.jar

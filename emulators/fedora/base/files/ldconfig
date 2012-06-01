@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-# $Id: ldconfig,v 1.1 2003/09/25 06:50:21 pvalchev Exp $
+# $Id$
 #
 
 if [ x`sysctl -n kern.emul.linux` = x1 ]; then

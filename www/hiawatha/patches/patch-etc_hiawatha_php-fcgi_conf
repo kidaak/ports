@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/hiawatha/patches/patch-etc_hiawatha_php-fcgi_conf,v 1.3 2011/06/02 18:53:39 rpointel Exp $
+$OpenBSD$
 --- etc/hiawatha/php-fcgi.conf.orig	Tue Jun  9 15:26:50 2009
 +++ etc/hiawatha/php-fcgi.conf	Thu Jul 23 07:48:49 2009
 @@ -22,7 +22,7 @@ MaxRequests = 100

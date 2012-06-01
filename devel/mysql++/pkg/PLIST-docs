@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mysql++/pkg/PLIST-docs,v 1.6 2012/03/16 16:42:42 ajacoutot Exp $
+@comment $OpenBSD$
 share/doc/mysql++/
 share/doc/mysql++/refman/
 share/doc/mysql++/refman/_header.html

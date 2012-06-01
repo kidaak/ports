@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/smarty/Makefile,v 1.16 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT-main =	template engine for PHP
 COMMENT-docs =	documentation for Smarty

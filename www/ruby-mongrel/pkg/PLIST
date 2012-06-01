@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ruby-mongrel/pkg/PLIST,v 1.7 2011/11/09 00:17:38 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/mongrel_rails${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

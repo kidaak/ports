@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/sl/Makefile,v 1.3 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT =			Steam Locomotive
 DISTNAME =			sl-3.03

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/login_ldap/Makefile,v 1.18 2012/04/12 01:00:23 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	provide ldap authentication type
 

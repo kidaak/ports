@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/rsnapshot/Makefile,v 1.11 2011/12/04 08:53:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		remote filesystem snapshot utility
 

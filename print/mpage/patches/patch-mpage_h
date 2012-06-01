@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/mpage/patches/patch-mpage_h,v 1.2 2010/05/26 13:53:16 jasper Exp $
+$OpenBSD$
 --- mpage.h.orig	Mon Jan 14 23:52:30 2008
 +++ mpage.h	Fri May 21 12:02:36 2010
 @@ -204,6 +204,13 @@ struct pagebox {

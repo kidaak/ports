@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/festival/festlex/Makefile.inc,v 1.4 2010/11/15 00:22:46 espie Exp $
+# $OpenBSD$
 
 V?=		1.95
 PKGNAME?=	${DISTNAME}-20040804

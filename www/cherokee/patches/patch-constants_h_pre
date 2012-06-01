@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/cherokee/patches/patch-constants_h_pre,v 1.2 2010/12/20 07:51:58 ajacoutot Exp $
+$OpenBSD$
 --- constants.h.pre.orig	Tue Jan 12 09:52:45 2010
 +++ constants.h.pre	Wed Dec 15 16:37:42 2010
 @@ -16,6 +16,6 @@

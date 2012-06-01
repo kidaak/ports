@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/lincity/Makefile,v 1.12 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Rich city simulation game for X
 

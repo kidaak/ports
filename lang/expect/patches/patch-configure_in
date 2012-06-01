@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/expect/patches/patch-configure_in,v 1.1 2010/09/24 14:16:50 sebastia Exp $
+$OpenBSD$
 --- configure.in.orig	Wed Sep 15 13:23:31 2010
 +++ configure.in	Wed Sep 15 13:24:45 2010
 @@ -1112,7 +1112,7 @@ EXP_UNSHARED_LIB_FILE=libexpect${EXP_LIB_VERSION}.a

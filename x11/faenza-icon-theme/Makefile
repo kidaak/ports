@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/faenza-icon-theme/Makefile,v 1.4 2012/01/30 08:49:17 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		complete, colourful suite of squared icons
 

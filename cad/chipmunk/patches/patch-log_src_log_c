@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/chipmunk/patches/patch-log_src_log_c,v 1.2 2010/05/09 17:18:53 espie Exp $
+$OpenBSD$
 --- log/src/log.c.orig	Wed Mar 12 23:49:30 2003
 +++ log/src/log.c	Sun May  9 19:14:48 2010
 @@ -2865,6 +2865,8 @@ Static Void show_events()

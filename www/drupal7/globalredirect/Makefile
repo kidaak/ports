@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal7/globalredirect/Makefile,v 1.1.1.1 2012/04/10 12:50:24 espie Exp $
+# $OpenBSD$
 
 COMMENT =	zap duplicate content through redirects
 BROKEN =	drupal7 apache configuration creates loops

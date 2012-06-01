@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wwwoffle/patches/patch-misc_h,v 1.1 2010/03/20 16:55:33 jasper Exp $
+$OpenBSD$
 
 - change arg type for gmtime() and localtime() from long to time_t
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/palm/coldsync/pkg/PLIST,v 1.2 2005/03/11 19:47:50 jcs Exp $
+@comment $OpenBSD$
 bin/coldsync
 @info info/conduits.info
 @comment libdata/perl5/${MACHINE_ARCH}-openbsd/

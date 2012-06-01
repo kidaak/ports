@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gcc/4.7/Makefile,v 1.4 2012/05/03 11:22:29 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS = amd64 i386 hppa powerpc sparc sparc64
 
@@ -18,8 +18,10 @@ PKGNAME-objc =  gobjc-${FULL_PKGVERSION}
 PKGNAME-ada =   gnat-${FULL_PKGVERSION}
 # needs [gs]etcontext
 #PKGNAME-go =	gccgo-${FULL_PKGVERSION}
-REVISION-c++ = 0
-REVISION-java = 0
+REVISION = 0
+REVISION-c++ = 1
+REVISION-java = 2
+PKGSPEC-main = gcc->=4.7,<4.8
 
 SHARED_LIBS =	estdc++		15.0 \
 		gfortran	4.0 \
@@ -192,9 +194,6 @@ LIB_DEPENDS +=		devel/gmp>=4.2 \
 			devel/libmpc
 LIB_DEPENDS-estdc =
 
-#.if ${MACHINE_ARCH:Mamd64}
-#CONFIG = x86_64-unknown-openbsd${OSREV}
-#.endif
 CONFIG = ${MACHINE_ARCH}-unknown-linux-gnu
 
 post-extract:

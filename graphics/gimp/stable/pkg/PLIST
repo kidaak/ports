@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gimp/stable/pkg/PLIST,v 1.29 2012/02/27 10:11:38 giovanni Exp $
+@comment $OpenBSD$
 @pkgpath ${BASE_PKGPATH},altivec
 %%SHARED%%
 bin/gimp

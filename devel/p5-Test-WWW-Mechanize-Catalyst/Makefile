@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-WWW-Mechanize-Catalyst/Makefile,v 1.10 2012/04/08 22:01:43 sthen Exp $
+# $OpenBSD$
 
 COMMENT=        Test-WWW-Mechanize extension for catalyst
 

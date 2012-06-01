@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Date-Holidays/Ukraine/Makefile,v 1.3 2012/01/16 22:12:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	Ukrainian holiday classes for PHP
 HOLNAME =	Ukraine-0.1.2

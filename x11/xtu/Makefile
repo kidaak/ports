@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xtu/Makefile,v 1.12 2010/12/09 14:55:39 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	configurable analog clock for X11
 DISTNAME=	xtu-1.3

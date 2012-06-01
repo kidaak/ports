@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Set-IntRange/Makefile,v 1.6 2010/12/20 00:00:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 	sets of integers
 

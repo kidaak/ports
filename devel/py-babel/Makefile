@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-babel/Makefile,v 1.7 2011/09/16 09:24:54 espie Exp $
+# $OpenBSD$
 
 COMMENT=		I18N/L10N tools for Python
 

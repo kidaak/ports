@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CGI-Emulate-PSGI/Makefile,v 1.1.1.1 2011/06/14 12:04:11 robert Exp $
+# $OpenBSD$
 
 COMMENT=	PSGI adapter for CGI
 

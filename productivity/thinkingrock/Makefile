@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/thinkingrock/Makefile,v 1.14 2011/09/16 11:13:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=	collecting and processing thoughts according to GTD
 

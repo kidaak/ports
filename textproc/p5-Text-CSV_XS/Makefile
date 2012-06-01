@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-CSV_XS/Makefile,v 1.15 2011/03/10 13:04:00 dhill Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/hs-libmpd/Makefile,v 1.7 2012/04/05 09:12:07 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=		Haskell interface to MPD
 

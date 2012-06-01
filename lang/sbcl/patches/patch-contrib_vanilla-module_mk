@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/sbcl/patches/patch-contrib_vanilla-module_mk,v 1.1 2011/07/08 11:42:09 jasper Exp $
+$OpenBSD$
 
 Add an 'all' target to allow building without running tests.
 

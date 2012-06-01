@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/uniutils/pkg/PLIST,v 1.1.1.1 2009/10/12 12:38:28 nicm Exp $
+@comment $OpenBSD$
 @bin bin/ExplicateUTF8
 @bin bin/unidesc
 @bin bin/unifuzz

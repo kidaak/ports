@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-XML-Atom-SimpleFeed/pkg/PLIST,v 1.1.1.1 2008/09/06 10:34:02 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/XML/
 ${P5SITE}/XML/Atom/
 ${P5SITE}/XML/Atom/SimpleFeed.pm

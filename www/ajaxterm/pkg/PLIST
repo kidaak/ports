@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ajaxterm/pkg/PLIST,v 1.1.1.1 2009/02/03 10:52:36 espie Exp $
+@comment $OpenBSD$
 @newgroup _ajaxterm:618
 @newuser _ajaxterm:618:_ajaxterm:daemon:Ajaxterm Account:/nonexistent:/sbin/nologin
 bin/ajaxterm

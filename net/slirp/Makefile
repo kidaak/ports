@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/slirp/Makefile,v 1.22 2010/10/18 18:36:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	SLIP/CSLIP emulator for users with shell accounts
 

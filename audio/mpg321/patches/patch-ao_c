@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mpg321/patches/patch-ao_c,v 1.2 2010/06/03 16:07:02 pea Exp $
+$OpenBSD$
 --- ao.c.orig	Sun Mar 24 06:49:47 2002
 +++ ao.c	Fri May 14 22:52:35 2010
 @@ -94,7 +94,7 @@ void check_ao_default_play_device()

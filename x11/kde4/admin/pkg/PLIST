@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/admin/pkg/PLIST,v 1.5 2010/06/22 23:31:55 espie Exp $
+@comment $OpenBSD$
 @bin bin/ksystemlog
 @bin bin/kuser
 lib/kde4/kcm_cron.so

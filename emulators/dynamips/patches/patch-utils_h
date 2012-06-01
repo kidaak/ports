@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/dynamips/patches/patch-utils_h,v 1.2 2008/04/10 15:22:17 sthen Exp $
+$OpenBSD$
 --- utils.h.orig	Sun Oct 14 09:43:07 2007
 +++ utils.h	Wed Apr  9 11:05:18 2008
 @@ -14,6 +14,7 @@

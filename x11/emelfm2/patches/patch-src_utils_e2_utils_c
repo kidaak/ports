@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/emelfm2/patches/patch-src_utils_e2_utils_c,v 1.5 2010/05/04 07:25:54 giovanni Exp $
+$OpenBSD$
 Our file(1) doesn't have all that fancy options.
 --- src/utils/e2_utils.c.orig	Wed Oct  7 23:37:51 2009
 +++ src/utils/e2_utils.c	Mon Apr 12 19:47:33 2010

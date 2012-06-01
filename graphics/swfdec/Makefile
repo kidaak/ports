@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/swfdec/Makefile,v 1.30 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	flash rendering library
 

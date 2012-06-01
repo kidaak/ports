@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/lzo2/pkg/PLIST,v 1.2 2011/11/14 12:41:51 rpointel Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/lzo/
 include/lzo/lzo1.h

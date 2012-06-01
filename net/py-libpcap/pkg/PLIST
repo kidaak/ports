@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-libpcap/pkg/PLIST,v 1.7 2009/10/11 17:51:30 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/_pcap.so
 lib/python${MODPY_VERSION}/site-packages/pcap.py
 lib/python${MODPY_VERSION}/site-packages/pcap.pyc

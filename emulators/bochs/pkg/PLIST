@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/bochs/pkg/PLIST,v 1.20 2011/11/29 17:22:01 giovanni Exp $
+@comment $OpenBSD$
 @bin bin/bochs
 @bin bin/bxcommit
 @bin bin/bximage

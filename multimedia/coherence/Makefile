@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/coherence/Makefile,v 1.7 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT =	uPnP/DLNA media server
 

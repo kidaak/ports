@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/quake2/Makefile,v 1.23 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS= 	amd64 i386
 SHARED_ONLY=		Yes

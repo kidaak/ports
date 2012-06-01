@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-blowfish_h,v 1.1 2011/06/24 07:55:18 dcoppa Exp $
+$OpenBSD$
 
 Fix Blowfish minimum keylength to be 4 bytes (upstream rev 528).
 

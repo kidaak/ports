@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-DNS-Resolver-Programmable/Makefile,v 1.1.1.1 2011/09/21 07:56:16 giovanni Exp $
+# $OpenBSD$
 
 COMMENT =		programmable DNS resolver class for offline emulation of DNS
 

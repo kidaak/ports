@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/c3270/Makefile,v 1.3 2011/03/14 23:26:48 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	curses-based 3270 terminal editor
 

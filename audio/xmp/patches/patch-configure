@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmp/patches/patch-configure,v 1.5 2012/03/22 13:32:55 dcoppa Exp $
+$OpenBSD$
 
 Disable obsolete audio(4) driver
 

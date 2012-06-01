@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.4/patches/patch-gcc_config_openbsd_h,v 1.1.1.1 2004/09/23 22:13:31 espie Exp $
+$OpenBSD$
 --- gcc/config/openbsd.h.orig	Mon Sep 13 14:31:45 2004
 +++ gcc/config/openbsd.h	Mon Sep 13 14:35:31 2004
 @@ -52,29 +52,60 @@ Boston, MA 02111-1307, USA.  */

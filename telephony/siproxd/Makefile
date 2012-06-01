@@ -1,10 +1,10 @@
-# $OpenBSD: ports/telephony/siproxd/Makefile,v 1.10 2012/01/21 22:02:13 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 COMMENT=	proxy/masquerading daemon for the SIP protocol
 
 DISTNAME=	siproxd-0.8.1
-REVISION=	2
+REVISION=	3
 CATEGORIES=	telephony net
 
 HOMEPAGE=	http://siproxd.sourceforge.net/

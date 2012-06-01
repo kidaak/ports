@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/adsuck/pkg/adsuck.rc,v 1.2 2011/09/20 15:20:03 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/adsuck"
 daemon_flags="-c /var/adsuck -f /files/resolv.conf -r /files/regex /files/hosts.small"

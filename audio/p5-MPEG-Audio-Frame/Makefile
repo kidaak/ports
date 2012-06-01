@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-MPEG-Audio-Frame/Makefile,v 1.3 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	class for weeding out MPEG audio frames from a file handle
 

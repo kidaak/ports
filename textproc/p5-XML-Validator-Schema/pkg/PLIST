@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-Validator-Schema/pkg/PLIST,v 1.2 2008/10/06 17:02:17 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/XML/Validator/
 ${P5SITE}/XML/Validator/Schema/
 ${P5SITE}/XML/Validator/Schema.pm

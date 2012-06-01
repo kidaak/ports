@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-MojoX-Session/Makefile,v 1.6 2012/04/10 12:56:40 jim Exp $
+# $OpenBSD$
 
 COMMENT =	session management for Mojo
 

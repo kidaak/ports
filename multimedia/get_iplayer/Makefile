@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/get_iplayer/Makefile,v 1.59 2011/11/04 22:51:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		download/stream programmes from BBC iPlayer
 

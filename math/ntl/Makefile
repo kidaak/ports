@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/ntl/Makefile,v 1.17 2011/11/03 20:28:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	Victor Shoup's Number Theory Library
 

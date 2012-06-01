@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/cdplayer/Makefile,v 1.2 2012/01/04 17:32:21 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep based CD player
 

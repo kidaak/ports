@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-FormFu/Makefile,v 1.5 2012/04/07 19:50:59 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	HTML form creation, rendering and validation framework
 

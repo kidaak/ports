@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/znc/pkg/PLIST,v 1.9 2012/03/24 21:42:58 sthen Exp $
+@comment $OpenBSD$
 @bin bin/znc
 bin/znc-buildmod
 bin/znc-config

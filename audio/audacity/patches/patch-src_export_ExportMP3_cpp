@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacity/patches/patch-src_export_ExportMP3_cpp,v 1.9 2009/10/28 18:40:13 jakemsr Exp $
+$OpenBSD$
 --- src/export/ExportMP3.cpp.orig	Mon Aug 31 03:45:40 2009
 +++ src/export/ExportMP3.cpp	Sat Oct 17 14:29:54 2009
 @@ -575,8 +575,9 @@ class FindDialog : public wxDialog (public)

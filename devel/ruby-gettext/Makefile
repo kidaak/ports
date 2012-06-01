@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-gettext/Makefile,v 1.15 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Ruby interface to gettext
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-thin/patches/patch-spec_spec_helper_rb,v 1.1 2011/11/17 15:53:54 jeremy Exp $
+$OpenBSD$
 
 Work with rspec 1.3.
 

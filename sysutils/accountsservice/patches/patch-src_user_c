@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/accountsservice/patches/patch-src_user_c,v 1.12 2012/03/28 09:05:54 ajacoutot Exp $
+$OpenBSD$
 --- src/user.c.orig	Mon Mar 26 22:39:21 2012
 +++ src/user.c	Wed Mar 28 10:58:04 2012
 @@ -46,7 +46,7 @@

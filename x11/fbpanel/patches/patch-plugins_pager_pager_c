@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fbpanel/patches/patch-plugins_pager_pager_c,v 1.2 2012/03/29 08:17:41 dcoppa Exp $
+$OpenBSD$
 
 add icon drawing support to the pager plugin
 (adapted from an older patch written for fbpanel-4.3 by daf@minuslab.net)

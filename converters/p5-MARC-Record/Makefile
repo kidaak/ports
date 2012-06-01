@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-MARC-Record/Makefile,v 1.7 2011/03/10 18:02:57 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	MARC (machine readable cataloging format)
 CATEGORIES=	converters

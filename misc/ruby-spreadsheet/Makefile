@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/ruby-spreadsheet/Makefile,v 1.2 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT =	generate and parse Excel compatible spreadsheets
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/astro/jday/pkg/PFRAG.shared,v 1.1 2006/11/02 21:30:57 naddy Exp $
+@comment $OpenBSD$
 @lib lib/libjday.so.${LIBjday_VERSION}

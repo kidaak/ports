@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/polkit/patches/patch-configure_ac,v 1.4 2012/02/16 22:28:23 ajacoutot Exp $
+$OpenBSD$
 
 Force disabling gtk-doc.
 Add bsd_auth(3) support.

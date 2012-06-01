@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/chbg/Makefile,v 1.22 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		Desktop wallpaper manager and X11 screensaver
 

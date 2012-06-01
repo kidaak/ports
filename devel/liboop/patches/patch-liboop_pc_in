@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/liboop/patches/patch-liboop_pc_in,v 1.1 2009/01/26 09:58:47 ajacoutot Exp $
+$OpenBSD$
 --- liboop.pc.in.orig	Mon Jan 26 10:55:46 2009
 +++ liboop.pc.in	Mon Jan 26 10:55:55 2009
 @@ -6,5 +6,5 @@ includedir=@includedir@

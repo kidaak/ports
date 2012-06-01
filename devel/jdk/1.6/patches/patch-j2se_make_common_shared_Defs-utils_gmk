@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_make_common_shared_Defs-utils_gmk,v 1.1 2010/09/03 19:37:57 naddy Exp $
+$OpenBSD$
 --- j2se/make/common/shared/Defs-utils.gmk.orig	Fri Sep  3 13:02:16 2010
 +++ j2se/make/common/shared/Defs-utils.gmk	Fri Sep  3 13:03:20 2010
 @@ -176,6 +176,10 @@ ifeq ($(SYSTEM_UNAME),NetBSD)

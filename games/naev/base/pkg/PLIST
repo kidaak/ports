@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/naev/base/pkg/PLIST,v 1.2 2012/03/14 22:54:28 sthen Exp $
+@comment $OpenBSD$
 @bin bin/naev
 @man man/man6/naev.6
 share/applications/naev.desktop

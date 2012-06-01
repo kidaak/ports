@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-User-Identity/Makefile,v 1.5 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		maintains info about a physical person
 

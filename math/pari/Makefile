@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/pari/Makefile,v 1.10 2011/11/03 20:28:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	number theory-oriented computer algebra system
 

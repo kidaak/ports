@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/py-yenc/Makefile,v 1.8 2011/11/01 16:36:10 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		yEnc encoding/decoding extension for Python
 

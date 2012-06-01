@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/gamin/patches/patch-server_gam_fs_c,v 1.1.1.1 2009/12/04 08:07:20 ajacoutot Exp $
+$OpenBSD$
 
 From FreeBSD: get list of mounted filesystems.
 (no support for /etc/mtab)

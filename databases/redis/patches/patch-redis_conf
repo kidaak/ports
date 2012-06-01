@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/redis/patches/patch-redis_conf,v 1.2 2012/02/28 11:57:11 dcoppa Exp $
+$OpenBSD$
 --- redis.conf.orig	Wed Feb 22 14:23:43 2012
 +++ redis.conf	Tue Feb 28 12:29:39 2012
 @@ -13,12 +13,13 @@

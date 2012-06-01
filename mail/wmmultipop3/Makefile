@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/wmmultipop3/Makefile,v 1.12 2010/11/19 07:23:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; multiple pop3 mailbox checker
 

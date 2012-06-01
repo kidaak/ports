@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/rolereference/Makefile,v 1.1.1.1 2012/01/28 11:18:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	cck field that references a role
 MAINTAINER =	Marc Espie <espie@openbsd.org>

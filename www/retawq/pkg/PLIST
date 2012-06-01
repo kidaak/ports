@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/retawq/pkg/PLIST,v 1.1.1.1 2008/12/07 22:03:28 okan Exp $
+@comment $OpenBSD$
 @bin bin/retawq
 @man man/man1/retawq.1
 share/doc/retawq/

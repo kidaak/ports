@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/star/Makefile,v 1.23 2011/11/10 14:13:06 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	unique standard tape archiver
 

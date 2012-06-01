@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/icontool/Makefile,v 1.2 2010/11/22 08:37:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	suite of tools for managing icons in an application
 

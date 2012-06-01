@@ -1,9 +1,9 @@
-# $OpenBSD: ports/security/hs-tls/Makefile,v 1.9 2012/01/21 12:03:50 kili Exp $
+# $OpenBSD$
 
 COMMENT=		TLS/SSL protocol native implementation
 
 DISTNAME=		tls-0.8.1
-REVISION=		0
+REVISION=		1
 CATEGORIES=		security net
 
 MAINTAINER=		Jasper Lievisse Adriaanse <jasper@openbsd.org>

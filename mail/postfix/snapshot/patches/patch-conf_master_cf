@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/postfix/snapshot/patches/patch-conf_master_cf,v 1.4 2012/04/10 22:24:29 sthen Exp $
+$OpenBSD$
 --- conf/master.cf.orig	Tue Mar 13 19:50:43 2012
 +++ conf/master.cf	Tue Apr 10 17:06:14 2012
 @@ -8,12 +8,12 @@

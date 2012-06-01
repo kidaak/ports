@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/hs-cairo/pkg/PLIST,v 1.4 2011/04/11 14:48:48 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Graphics/
 lib/ghc/${DISTNAME}/Graphics/Rendering/

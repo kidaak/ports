@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/zile/Makefile,v 1.39 2012/03/27 22:01:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		lightweight Emacs clone
 DISTNAME=		zile-2.4.7

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/polkit-qt4/pkg/PLIST,v 1.3 2011/04/28 13:10:24 ajacoutot Exp $
+@comment $OpenBSD$
 include/polkit-qt-1/
 include/polkit-qt-1/PolkitQt1/
 include/polkit-qt-1/PolkitQt1/ActionDescription

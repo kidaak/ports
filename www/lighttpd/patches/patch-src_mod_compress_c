@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/lighttpd/patches/patch-src_mod_compress_c,v 1.4 2012/03/06 08:23:43 sthen Exp $
+$OpenBSD$
 
 - Fix handling if etags are disabled but cache-dir is set - may lead to double response.
 - Disable mmap by default (fixes #2391).

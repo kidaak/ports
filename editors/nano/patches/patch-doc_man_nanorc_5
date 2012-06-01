@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nano/patches/patch-doc_man_nanorc_5,v 1.4 2010/08/18 19:41:45 naddy Exp $
+$OpenBSD$
 --- doc/man/nanorc.5.orig	Mon Jun 21 05:09:25 2010
 +++ doc/man/nanorc.5	Wed Aug 11 02:11:16 2010
 @@ -558,8 +558,7 @@ Per-user configuration file

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms2/patches/patch-waftools_man_py,v 1.1.1.1 2009/06/03 18:25:25 ajacoutot Exp $
+$OpenBSD$
 
 Bypass the gzip function that compress man files.
 

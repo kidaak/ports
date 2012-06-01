@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/automake/1.4/patches/patch-tests_vtexi_test,v 1.1.1.1 2005/01/11 07:11:00 sturm Exp $
+$OpenBSD$
 --- tests/vtexi.test.orig	Sun Oct  7 14:02:36 2001
 +++ tests/vtexi.test	Sun Oct  7 14:02:52 2001
 @@ -24,4 +24,4 @@ END

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/libs3/patches/patch-kdecore_tests_kurltest_cpp,v 1.4 2008/08/26 16:52:29 espie Exp $
+$OpenBSD$
 --- kdecore/tests/kurltest.cpp.orig	Tue Aug 19 20:18:16 2008
 +++ kdecore/tests/kurltest.cpp	Thu Aug 21 00:02:14 2008
 @@ -317,6 +317,16 @@ int main(int argc, char *argv[])

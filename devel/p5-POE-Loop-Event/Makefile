@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-POE-Loop-Event/Makefile,v 1.6 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		bridge that allows POE to be driven by Event.pm
 

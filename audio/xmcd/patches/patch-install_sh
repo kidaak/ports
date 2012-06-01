@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmcd/patches/patch-install_sh,v 1.2 2008/10/28 12:09:05 jasper Exp $
+$OpenBSD$
 --- install.sh.orig	Sat Feb  5 08:26:20 2000
 +++ install.sh	Tue Oct 28 13:06:18 2008
 @@ -50,11 +50,11 @@ XMCD_URL=http://metalab.unc.edu/tkan/xmcd/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/libretto-config/patches/patch-Makefile,v 1.1 2004/02/01 01:35:52 millert Exp $
+$OpenBSD$
 --- Makefile.orig	Thu Jun 18 04:44:09 1998
 +++ Makefile	Sat Jan 31 18:11:24 2004
 @@ -10,11 +10,14 @@ MANDIR  = /usr/local/man/ja_JP.ujis

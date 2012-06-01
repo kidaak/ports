@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pgp5/Makefile,v 1.37 2010/10/18 21:41:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Pretty Good Privacy 5.0i (world wide use)
 

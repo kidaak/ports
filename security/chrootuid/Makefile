@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/chrootuid/Makefile,v 1.9 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=		control chroot and su access rights by application
 

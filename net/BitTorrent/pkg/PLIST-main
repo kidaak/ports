@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/BitTorrent/pkg/PLIST-main,v 1.3 2010/11/09 19:46:52 jasper Exp $
+@comment $OpenBSD$
 @pkgpath net/BitTorrent
 bin/bittorrent-console
 bin/bittorrent-curses

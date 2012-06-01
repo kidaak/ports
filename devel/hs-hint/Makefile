@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-hint/Makefile,v 1.3 2011/12/31 22:19:45 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Runtime Haskell interpreter (GHC API wrapper)
 

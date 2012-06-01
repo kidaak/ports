@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/dmidecode/Makefile,v 1.6 2010/10/19 07:43:00 espie Exp $
+# $OpenBSD$
 ONLY_FOR_ARCHS=	amd64 i386
 
 COMMENT=	dump DMI/SMBIOS contents in human-readable format

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/p5-Tk-Stderr/Makefile,v 1.5 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	capture standard error output, display in separate window
 

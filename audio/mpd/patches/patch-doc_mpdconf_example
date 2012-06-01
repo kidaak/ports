@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mpd/patches/patch-doc_mpdconf_example,v 1.8 2011/10/30 11:46:19 dcoppa Exp $
+$OpenBSD$
 --- doc/mpdconf.example.orig	Sun Oct  9 13:43:52 2011
 +++ doc/mpdconf.example	Thu Oct 13 16:42:40 2011
 @@ -10,14 +10,14 @@

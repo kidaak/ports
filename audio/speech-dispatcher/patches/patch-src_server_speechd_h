@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/speech-dispatcher/patches/patch-src_server_speechd_h,v 1.1.1.1 2011/10/20 11:28:38 ajacoutot Exp $
+$OpenBSD$
 
 speechd.h:63: error: redefinition of 'union semun'
 

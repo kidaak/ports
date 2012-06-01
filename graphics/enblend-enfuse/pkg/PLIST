@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/enblend-enfuse/pkg/PLIST,v 1.2 2010/07/11 20:09:00 sthen Exp $
+@comment $OpenBSD$
 @bin bin/enblend
 @bin bin/enfuse
 @info info/enblend.info

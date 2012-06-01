@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Catalyst-Plugin-HTML-Widget/pkg/PLIST,v 1.1.1.1 2006/11/05 20:43:50 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Plugin/
 ${P5SITE}/Catalyst/Plugin/HTML/
 ${P5SITE}/Catalyst/Plugin/HTML/Widget.pm

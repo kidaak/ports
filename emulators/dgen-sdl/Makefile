@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/dgen-sdl/Makefile,v 1.4 2012/03/13 11:15:02 edd Exp $
+# $OpenBSD$
 
 COMMENT =		Sega Megadrive/Genesis emulator
 DISTNAME =		dgen-sdl-1.30

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/flite/pkg/PFRAG.shared,v 1.4 2005/12/24 16:01:55 espie Exp $
+@comment $OpenBSD$
 @lib lib/libflite.so.${LIBflite_VERSION}
 @lib lib/libflite_cmu_time_awb.so.${LIBflite_cmu_time_awb_VERSION}
 @lib lib/libflite_cmu_us_kal.so.${LIBflite_cmu_us_kal_VERSION}

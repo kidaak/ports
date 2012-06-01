@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/pinfo/patches/patch-src_filehandling_functions_c,v 1.2 2007/11/19 18:31:03 mgrimm Exp $
+$OpenBSD$
 --- src/filehandling_functions.c.orig	Sun Jul  8 17:06:45 2007
 +++ src/filehandling_functions.c	Sun Jul  8 17:09:39 2007
 @@ -139,6 +139,7 @@ dirpage_lookup(char **type, char ***message, long *lin

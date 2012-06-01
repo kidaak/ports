@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmmix/Makefile,v 1.34 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Motif-based audio mixer
 VERSION=	1.2.2

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/captcha/pkg/PLIST,v 1.4 2010/11/18 13:38:39 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}captcha/

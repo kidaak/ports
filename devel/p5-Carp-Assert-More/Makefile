@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Carp-Assert-More/Makefile,v 1.6 2010/12/03 11:44:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	convenience wrappers around Carp::Assert
 

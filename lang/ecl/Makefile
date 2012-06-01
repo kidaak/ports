@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ecl/Makefile,v 1.15 2012/03/30 09:06:34 phessler Exp $
+# $OpenBSD$
 
 COMMENT = 	embeddable common-lisp
 CATEGORIES = 	lang

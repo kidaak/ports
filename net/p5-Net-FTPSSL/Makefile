@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-FTPSSL/Makefile,v 1.5 2011/04/08 08:49:23 pea Exp $
+# $OpenBSD$
 
 COMMENT =	FTP over SSL/TLS client class
 

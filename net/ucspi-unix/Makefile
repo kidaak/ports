@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ucspi-unix/Makefile,v 1.10 2010/07/12 22:07:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	tools for building unix domain socket client/servers
 

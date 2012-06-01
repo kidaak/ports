@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/chipmunk/patches/patch-psys_src_Makefile,v 1.2 2003/12/29 22:25:48 espie Exp $
+$OpenBSD$
 --- psys/src/Makefile.orig	2003-03-12 23:47:36.000000000 +0100
 +++ psys/src/Makefile	2003-12-29 23:17:52.000000000 +0100
 @@ -149,7 +149,7 @@ CD = cd

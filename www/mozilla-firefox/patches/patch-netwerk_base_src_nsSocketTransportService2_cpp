@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mozilla-firefox/patches/patch-netwerk_base_src_nsSocketTransportService2_cpp,v 1.1 2012/03/16 21:31:24 landry Exp $
+$OpenBSD$
 https://bugzilla.mozilla.org/show_bug.cgi?id=706955, only needed on ppc ?
 xpcshell hang during fake
 --- netwerk/base/src/nsSocketTransportService2.cpp.orig	Mon Mar 12 19:28:27 2012

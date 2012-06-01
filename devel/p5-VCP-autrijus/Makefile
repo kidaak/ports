@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-VCP-autrijus/Makefile,v 1.9 2010/12/03 11:44:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	tool for copying resources between repositories
 

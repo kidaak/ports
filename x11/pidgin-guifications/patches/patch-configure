@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/pidgin-guifications/patches/patch-configure,v 1.2 2008/07/07 00:30:31 brad Exp $
+$OpenBSD$
 --- configure.orig	Sun Dec 16 21:24:32 2007
 +++ configure	Tue Jun  3 04:43:27 2008
 @@ -21889,7 +21889,7 @@ fi

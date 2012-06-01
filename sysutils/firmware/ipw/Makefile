@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/firmware/ipw/Makefile,v 1.2 2011/06/12 00:20:51 sthen Exp $
+# $OpenBSD$
 
 FW_DRIVER=	ipw
 FW_VER=		1.3

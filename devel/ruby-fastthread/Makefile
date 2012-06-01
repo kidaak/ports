@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-fastthread/Makefile,v 1.13 2011/12/13 18:10:55 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	optimized replacement for Ruby thread.rb primitives
 

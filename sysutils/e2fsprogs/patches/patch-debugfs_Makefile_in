@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/e2fsprogs/patches/patch-debugfs_Makefile_in,v 1.4 2009/03/15 19:59:31 landry Exp $
+$OpenBSD$
 --- debugfs/Makefile.in.orig	Wed Jun 18 05:53:42 2008
 +++ debugfs/Makefile.in	Sun Feb 22 11:52:07 2009
 @@ -26,47 +26,39 @@ SRCS= debug_cmds.c $(srcdir)/debugfs.c $(srcdir)/util.

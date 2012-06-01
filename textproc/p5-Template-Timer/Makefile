@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Template-Timer/Makefile,v 1.9 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	rudimentary profiling module for Template Toolkit
 

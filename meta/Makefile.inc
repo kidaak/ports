@@ -1,4 +1,4 @@
-# $OpenBSD: ports/meta/Makefile.inc,v 1.1 2011/11/12 16:38:08 ajacoutot Exp $
+# $OpenBSD$
 
 CATEGORIES=	meta
 DISTFILES=	# empty

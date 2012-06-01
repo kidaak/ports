@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Blatte/Makefile,v 1.12 2010/10/19 07:54:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	text macro/markup/template language
 

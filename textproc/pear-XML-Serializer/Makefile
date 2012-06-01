@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/pear-XML-Serializer/Makefile,v 1.9 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Swiss-army knife for reading and writing XML files
 

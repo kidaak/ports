@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/cms-ms/pkg/PLIST,v 1.6 2011/03/07 19:46:19 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 cms/
 cms/admin/

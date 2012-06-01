@@ -1,4 +1,4 @@
-$OpenBSD: ports/shells/tcsh/patches/patch-tests_arguments_at,v 1.1 2007/05/27 18:04:47 naddy Exp $
+$OpenBSD$
 --- tests/arguments.at.orig	Sat May 26 19:00:06 2007
 +++ tests/arguments.at	Sat May 26 19:00:23 2007
 @@ -71,7 +71,7 @@ TCSH_UNTESTED([-m])

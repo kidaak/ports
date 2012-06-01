@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ocaml/pkg/PFRAG.native,v 1.12 2011/12/21 21:31:50 avsm Exp $
+@comment $OpenBSD$
 @bin bin/camlp4o.opt
 @bin bin/camlp4of.opt
 @bin bin/camlp4oof.opt

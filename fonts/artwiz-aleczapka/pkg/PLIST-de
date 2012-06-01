@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/artwiz-aleczapka/pkg/PLIST-de,v 1.1.1.1 2011/07/19 09:16:06 jasper Exp $
+@comment $OpenBSD$
 @pkgpath x11/artwiz-aleczapka,de
 @fontdir lib/X11/fonts/artwiz-aleczapka/
 lib/X11/fonts/artwiz-aleczapka/anorexia.de.pcf

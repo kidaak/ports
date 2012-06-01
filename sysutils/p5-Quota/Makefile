@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/p5-Quota/Makefile,v 1.17 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

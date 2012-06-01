@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/matchbox/libmatchbox/pkg/PFRAG.shared,v 1.2 2005/12/26 16:45:43 naddy Exp $
+@comment $OpenBSD$
 @lib lib/libmb.so.${LIBmb_VERSION}

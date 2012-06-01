@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/postler/Makefile,v 1.17 2012/02/27 20:40:05 landry Exp $
+# $OpenBSD$
 
 COMMENT =	lightweight mail user agent
 

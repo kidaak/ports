@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Proc-Simple/pkg/PLIST,v 1.1.1.1 2005/09/21 16:46:28 jolan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Proc/
 ${P5SITE}/Proc/Simple.pm
 ${P5SITE}/auto/

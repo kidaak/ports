@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-AnyEvent/Makefile,v 1.16 2011/03/09 07:52:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	provide framework for multiple event loops
 

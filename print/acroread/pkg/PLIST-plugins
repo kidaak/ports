@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/acroread/pkg/PLIST-plugins,v 1.2 2006/10/19 00:20:55 sturm Exp $
+@comment $OpenBSD$
 Acrobat7/Reader/intellinux/plug_ins/Accessibility.api
 Acrobat7/Reader/intellinux/plug_ins/AcroForm/
 Acrobat7/Reader/intellinux/plug_ins/AcroForm.api

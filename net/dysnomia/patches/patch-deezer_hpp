@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/dysnomia/patches/patch-deezer_hpp,v 1.1 2011/07/05 08:18:30 jasper Exp $
+$OpenBSD$
 --- deezer.hpp.orig	Tue Jul  5 09:24:40 2011
 +++ deezer.hpp	Tue Jul  5 09:24:45 2011
 @@ -41,7 +41,6 @@

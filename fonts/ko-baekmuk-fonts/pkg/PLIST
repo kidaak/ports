@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/ko-baekmuk-fonts/pkg/PLIST,v 1.1.1.1 2011/07/19 09:13:19 jasper Exp $
+@comment $OpenBSD$
 @pkgpath korean/baekmuk-fonts
 lib/X11/fonts/
 @fontdir lib/X11/fonts/korean/

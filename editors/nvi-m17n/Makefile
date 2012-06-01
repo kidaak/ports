@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/nvi-m17n/Makefile,v 1.31 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 # NetBSD: Makefile,v 1.6 2000/01/19 12:28:44 hubertf Exp
 # FreeBSD Id: Makefile,v 1.11 1999/04/17 10:51:03 itojun Exp
 

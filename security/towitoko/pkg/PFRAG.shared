@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/towitoko/pkg/PFRAG.shared,v 1.3 2005/12/25 15:52:38 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libtowitoko.so.${LIBtowitoko_VERSION}

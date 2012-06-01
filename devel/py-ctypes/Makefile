@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-ctypes/Makefile,v 1.12 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 COMMENT=	Python foreign function interface library
 
 DISTNAME=	ctypes-1.0.1

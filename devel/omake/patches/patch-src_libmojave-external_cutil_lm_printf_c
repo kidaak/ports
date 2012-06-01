@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/omake/patches/patch-src_libmojave-external_cutil_lm_printf_c,v 1.1 2010/11/22 08:50:26 dcoppa Exp $
+$OpenBSD$
 
 Patch from upstream: fix attempt to free a non-heap object
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/flock/Makefile,v 1.4 2011/05/25 21:21:15 robert Exp $
+# $OpenBSD$
 
 COMMENT=	flock(2) manager for shell scripts
 

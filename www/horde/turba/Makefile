@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/turba/Makefile,v 1.12 2012/01/13 15:30:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	contact management module, for Horde
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ghc/ghc.port.mk,v 1.24 2011/07/25 21:45:15 kili Exp $
+# $OpenBSD$
 # Module for Glasgow Haskell Compiler
 
 # Not yet ported to other architectures

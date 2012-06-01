@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/glsfcave/Makefile,v 1.6 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 COMMENT=	control a ribbon to avoid hitting walls
 

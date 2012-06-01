@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/libtomoe-gtk/Makefile,v 1.18 2011/11/03 17:46:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	japanese handwriting input widget
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/splint/Makefile,v 1.10 2010/11/15 19:46:09 espie Exp $
+# $OpenBSD$
 
 COMMENT =	advanced lint: statically check C programs
 DISTNAME =	splint-3.1.2

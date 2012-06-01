@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mozilla-firefox/patches/patch-js_src_ctypes_libffi_src_mips_ffitarget_h,v 1.1 2011/04/15 08:31:48 jasper Exp $
+$OpenBSD$
 
 There's no sgidefs on OpenBSD, so don't bother including it.
 

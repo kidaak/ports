@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pgpool/Makefile,v 1.1.1.1 2011/12/21 15:51:04 pea Exp $
+# $OpenBSD$
 
 COMMENT= 	connection pool server for PostgreSQL
 

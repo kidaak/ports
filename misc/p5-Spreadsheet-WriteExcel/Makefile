@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-Spreadsheet-WriteExcel/Makefile,v 1.12 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	write a cross-platform Excel binary file
 

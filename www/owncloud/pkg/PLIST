@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/owncloud/pkg/PLIST,v 1.2 2012/04/03 16:31:00 ajacoutot Exp $
+@comment $OpenBSD$
 owncloud/
 owncloud/.htaccess.dist
 @sample owncloud/.htaccess

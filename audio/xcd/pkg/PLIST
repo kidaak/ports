@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/xcd/pkg/PLIST,v 1.7 2011/10/31 16:55:41 stu Exp $
+@comment $OpenBSD$
 bin/xcd
 lib/xcd/
 @bin lib/xcd/cdplayer

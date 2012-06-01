@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/aide/patches/patch-doc_aide_conf_in,v 1.5 2010/05/04 14:42:28 ajacoutot Exp $
+$OpenBSD$
 --- doc/aide.conf.in.orig	Wed Feb 17 21:19:18 2010
 +++ doc/aide.conf.in	Tue May  4 16:41:43 2010
 @@ -19,7 +19,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/castle-combat/pkg/PLIST,v 1.3 2007/12/04 14:43:17 ajacoutot Exp $
+@comment $OpenBSD$
 bin/castle-combat
 share/castle-combat/
 share/castle-combat/colourba.ttf

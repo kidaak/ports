@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgda/pkg/PLIST-mysql,v 1.4 2011/06/02 07:16:33 ajacoutot Exp $
+@comment $OpenBSD$
 @comment lib/libgda-${GDA_MAJOR}/providers/libgda-mysql.la
 lib/libgda-${GDA_MAJOR}/providers/libgda-mysql.so
 lib/pkgconfig/libgda-mysql-${GDA_MAJOR}.pc

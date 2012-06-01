@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/catfish/patches/patch-catfish_py,v 1.1.1.1 2009/06/04 02:03:39 landry Exp $
+$OpenBSD$
 - strip heading spaces
 - expand ~ to /home/user as default search path
 - fix find/locate args

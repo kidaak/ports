@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_SharedFileList_cpp,v 1.1 2012/02/22 07:54:26 dcoppa Exp $
+$OpenBSD$
 
 Fix showing of shared files to other clients
 (upstream git commit 4e40aecb160baac72aa28a8a4c7aaf19261e051f)

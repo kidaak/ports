@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dbus/patches/patch-dbus_Makefile_in,v 1.14 2012/03/31 17:56:44 ajacoutot Exp $
+$OpenBSD$
 --- dbus/Makefile.in.orig	Tue Mar 27 14:01:12 2012
 +++ dbus/Makefile.in	Sat Mar 31 10:32:00 2012
 @@ -566,7 +566,7 @@ configdir = $(sysconfdir)/dbus-1

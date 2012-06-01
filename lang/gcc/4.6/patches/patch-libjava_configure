@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libjava_configure,v 1.2 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libjava/configure.orig	Wed Oct 26 11:30:24 2011
 +++ libjava/configure	Wed Jan 25 21:13:10 2012
 @@ -6369,7 +6369,7 @@ openbsd*)

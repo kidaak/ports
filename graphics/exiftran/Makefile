@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/exiftran/Makefile,v 1.1.1.1 2011/10/04 07:28:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	command line utility to transform jpeg files
 

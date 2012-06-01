@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-ffi-inliner/Makefile,v 1.3 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	embed C code in your ruby script
 

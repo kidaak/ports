@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/jasper/patches/patch-src_libjasper_jpc_jpc_t2cod_c,v 1.1 2008/05/17 09:32:16 espie Exp $
+$OpenBSD$
 --- src/libjasper/jpc/jpc_t2cod.c.orig	Fri May 16 21:00:25 2008
 +++ src/libjasper/jpc/jpc_t2cod.c	Fri May 16 21:34:48 2008
 @@ -573,7 +573,7 @@ int jpc_pchglist_insert(jpc_pchglist_t *pchglist, int 

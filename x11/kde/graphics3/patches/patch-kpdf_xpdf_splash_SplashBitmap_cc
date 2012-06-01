@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/graphics3/patches/patch-kpdf_xpdf_splash_SplashBitmap_cc,v 1.1 2009/10/15 15:50:25 kili Exp $
+$OpenBSD$
 --- kpdf/xpdf/splash/SplashBitmap.cc.orig	Mon May 14 09:39:31 2007
 +++ kpdf/xpdf/splash/SplashBitmap.cc	Thu Oct 15 16:35:46 2009
 @@ -11,6 +11,7 @@

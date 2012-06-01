@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_gcc_c,v 1.1.1.1 2005/01/03 15:21:27 espie Exp $
+$OpenBSD$
 --- gcc/gcc.c.orig	Thu Apr  1 18:55:17 2004
 +++ gcc/gcc.c	Mon Jan  3 10:17:42 2005
 @@ -6767,9 +6767,9 @@ used_arg (p, len)

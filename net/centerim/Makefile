@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/centerim/Makefile,v 1.1.1.1 2012/03/21 14:41:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		text based IM client
 

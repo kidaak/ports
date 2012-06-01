@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ruby/Makefile,v 1.79 2010/09/23 21:58:50 jeremy Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += 1.8

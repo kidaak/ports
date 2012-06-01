@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-SQL-Abstract/Makefile,v 1.9 2011/07/10 12:02:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	generate SQL from Perl data structures
 

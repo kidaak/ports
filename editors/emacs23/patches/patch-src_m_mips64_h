@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs23/patches/patch-src_m_mips64_h,v 1.3 2011/08/18 09:25:19 jasper Exp $
+$OpenBSD$
 --- src/m/mips64.h.orig	Mon Aug  1 10:49:43 2011
 +++ src/m/mips64.h	Mon Aug  1 10:51:06 2011
 @@ -0,0 +1,82 @@

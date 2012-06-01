@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/gstreamer-0.10/py-gstreamer/pkg/PLIST,v 1.6 2011/10/29 18:44:48 ajacoutot Exp $
+@comment $OpenBSD$
 include/gstreamer-${VERSION}/gst/pygst.h
 include/gstreamer-${VERSION}/gst/pygstexception.h
 include/gstreamer-${VERSION}/gst/pygstminiobject.h

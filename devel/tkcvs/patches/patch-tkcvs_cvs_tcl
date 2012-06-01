@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tkcvs/patches/patch-tkcvs_cvs_tcl,v 1.1 2007/10/26 20:44:35 ajacoutot Exp $
+$OpenBSD$
 --- tkcvs/cvs.tcl.orig	Sat May 25 04:54:58 1996
 +++ tkcvs/cvs.tcl	Fri Oct 26 22:41:28 2007
 @@ -285,7 +285,7 @@ proc cvs_commit {revision comment args} {

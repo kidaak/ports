@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/tap-plugins/pkg/PLIST,v 1.1.1.1 2010/10/24 10:12:15 jakemsr Exp $
+@comment $OpenBSD$
 lib/ladspa/
 lib/ladspa/tap_autopan.so
 lib/ladspa/tap_chorusflanger.so

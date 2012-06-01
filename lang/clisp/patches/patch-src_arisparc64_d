@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/clisp/patches/patch-src_arisparc64_d,v 1.1 2010/09/23 13:42:22 joshe Exp $
+$OpenBSD$
 
 Disable the assembler loops, at least one of them is broken.
 

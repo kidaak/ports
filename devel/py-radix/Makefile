@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-radix/Makefile,v 1.9 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

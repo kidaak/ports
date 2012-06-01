@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-buildslave/Makefile,v 1.8 2012/04/14 09:55:09 landry Exp $
+# $OpenBSD$
 
 COMMENT=	buildslave implementation for the buildot system
 

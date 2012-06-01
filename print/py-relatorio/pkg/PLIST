@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/py-relatorio/pkg/PLIST,v 1.1.1.1 2011/06/09 12:55:55 ajacoutot Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/relatorio/
 lib/python${MODPY_VERSION}/site-packages/relatorio-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/relatorio-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

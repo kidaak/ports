@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/p5-Geo-Inverse/Makefile,v 1.4 2011/03/14 09:17:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	calculate geographic distance from a lat/lon pair
 MODULES=	cpan

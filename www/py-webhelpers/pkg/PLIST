@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-webhelpers/pkg/PLIST,v 1.2 2011/11/06 14:36:22 rpointel Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/WebHelpers-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/WebHelpers-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/WebHelpers-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

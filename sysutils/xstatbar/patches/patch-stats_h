@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/xstatbar/patches/patch-stats_h,v 1.1 2011/11/17 14:16:51 robert Exp $
+$OpenBSD$
 --- stats.h.orig	Thu Nov 17 15:03:08 2011
 +++ stats.h	Thu Nov 17 15:10:28 2011
 @@ -30,6 +30,7 @@

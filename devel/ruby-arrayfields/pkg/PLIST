@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-arrayfields/pkg/PLIST,v 1.2 2011/03/14 17:41:33 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/README

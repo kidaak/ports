@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/munin/pkg/PLIST-main,v 1.8 2012/02/27 15:44:58 sthen Exp $
+@comment $OpenBSD$
 @newgroup _munin:644
 @newgroup _munin-plugin:645
 @newuser _munin:644:_munin:daemon:munin user:/nonexistent:/sbin/nologin

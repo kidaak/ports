@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cmake/patches/patch-Modules_FindXMLRPC_cmake,v 1.2 2010/05/28 20:21:48 dcoppa Exp $
+$OpenBSD$
 --- Modules/FindXMLRPC.cmake.orig	Tue Apr 20 10:32:19 2010
 +++ Modules/FindXMLRPC.cmake	Tue Apr 20 10:37:39 2010
 @@ -109,6 +109,8 @@ IF(XMLRPC_FOUND)

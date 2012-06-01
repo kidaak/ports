@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/avahi/pkg/PFRAG.shared-main,v 1.1 2009/06/04 21:42:40 ajacoutot Exp $
+@comment $OpenBSD$
 lib/libavahi-client.la
 @lib lib/libavahi-client.so.${LIBavahi-client_VERSION}
 lib/libavahi-common.la

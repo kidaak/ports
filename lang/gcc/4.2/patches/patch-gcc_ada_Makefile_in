@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_ada_Makefile_in,v 1.5 2009/04/16 18:36:48 espie Exp $
+$OpenBSD$
 --- gcc/ada/Makefile.in.orig	Mon Sep  3 15:11:02 2007
 +++ gcc/ada/Makefile.in	Tue Apr  7 19:38:58 2009
 @@ -116,12 +116,12 @@ TEXI2DVI = texi2dvi

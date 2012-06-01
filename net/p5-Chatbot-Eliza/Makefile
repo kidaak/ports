@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Chatbot-Eliza/Makefile,v 1.10 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	clone of the classic Eliza program
 

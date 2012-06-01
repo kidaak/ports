@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-TripleDES/Makefile,v 1.9 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		implementation of 3DES encryption on ECB mode
 

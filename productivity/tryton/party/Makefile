@@ -1,8 +1,10 @@
-# $OpenBSD: ports/productivity/tryton/party/Makefile,v 1.4 2011/11/02 14:29:38 ajacoutot Exp $
+# $OpenBSD$
 
+MODPY_EGG_VERSION =	2.4.0
 TRYTOND_MODULE =	party
+REVISION =		0
 
-RUN_DEPENDS =		productivity/tryton/country>=2.2.0 \
+RUN_DEPENDS =		productivity/tryton/country \
 			textproc/py-vatnumber
 
 .include <bsd.port.mk>

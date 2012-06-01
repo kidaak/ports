@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/roundcubemail/pkg/README,v 1.1 2012/01/19 13:53:48 sthen Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-acinclude_m4,v 1.2 2011/11/28 15:28:49 dcoppa Exp $
+$OpenBSD$
 --- acinclude.m4.orig	Mon Jun 13 10:50:25 2011
 +++ acinclude.m4	Mon Nov 28 14:10:57 2011
 @@ -253,7 +253,7 @@ AC_DEFUN([MULE_CHECK_SYSTEM],

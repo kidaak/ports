@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-JSON-DWIW/Makefile,v 1.9 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	JSON converter that Does What I Want
 SHARED_ONLY =	Yes

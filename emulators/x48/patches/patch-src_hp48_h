@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/x48/patches/patch-src_hp48_h,v 1.2 2011/11/23 19:36:44 pascal Exp $
+$OpenBSD$
 --- src/hp48.h.orig	Thu Oct  6 19:54:57 2011
 +++ src/hp48.h	Thu Oct  6 19:55:20 2011
 @@ -227,7 +227,7 @@ typedef struct saturn_t {

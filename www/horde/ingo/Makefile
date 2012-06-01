@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/ingo/Makefile,v 1.12 2012/01/13 15:30:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	mail filter rules for IMP
 

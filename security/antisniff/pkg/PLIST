@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/antisniff/pkg/PLIST,v 1.3 2004/09/15 18:35:59 espie Exp $
+@comment $OpenBSD$
 bin/antisniff
 share/doc/antisniff/
 share/doc/antisniff/ANTI_SNIFFER_DOCS

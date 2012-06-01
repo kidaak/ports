@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/hs-http-types/pkg/PLIST,v 1.1.1.1 2011/11/16 14:16:13 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/HS${DISTNAME}.o
 lib/ghc/${DISTNAME}/Network/

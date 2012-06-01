@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/fontforge/patches/patch-Unicode_Makefile_dynamic_in,v 1.3 2009/04/22 12:23:00 kili Exp $
+$OpenBSD$
 --- Unicode/Makefile.dynamic.in.orig	Tue Dec 23 22:03:33 2008
 +++ Unicode/Makefile.dynamic.in	Mon Mar  9 21:29:26 2009
 @@ -18,7 +18,7 @@ libgunicode_OBJECTS =  ArabicForms.lo alphabet.lo back

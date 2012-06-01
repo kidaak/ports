@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Engine-Apache/Makefile,v 1.11 2012/04/08 21:58:14 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Catalyst Apache engine
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/xemacs21/stable/patches/patch-lib-src_gnuserv_h,v 1.1 2007/09/18 18:56:03 aanriot Exp $
+$OpenBSD$
 --- lib-src/gnuserv.h.orig	Tue Jun 22 20:56:27 2004
 +++ lib-src/gnuserv.h	Tue Jun 22 20:57:41 2004
 @@ -52,7 +52,7 @@

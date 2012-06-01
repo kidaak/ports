@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/digikam/pkg/PLIST,v 1.13 2009/12/22 16:06:40 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict digikamimageplugins-*
 @bin bin/digikam
 @bin bin/digikamthemedesigner

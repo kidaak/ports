@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pear-Date/pkg/PLIST,v 1.9 2011/10/07 20:06:13 sthen Exp $
+@comment $OpenBSD$
 @group daemon
 lib/
 lib/php/

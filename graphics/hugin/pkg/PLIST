@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/hugin/pkg/PLIST,v 1.8 2011/05/30 09:06:28 sthen Exp $
+@comment $OpenBSD$
 @bin bin/PTBatcher
 @bin bin/PTBatcherGUI
 @bin bin/align_image_stack

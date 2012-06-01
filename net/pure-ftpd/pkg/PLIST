@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pure-ftpd/pkg/PLIST,v 1.12 2011/04/25 09:26:47 sthen Exp $
+@comment $OpenBSD$
 @newgroup _pure-ftpd:642
 @newuser _pure-ftpd:642:_pure-ftpd:daemon:pure-ftpd user:/nonexistent:/sbin/nologin
 @bin bin/pure-pw

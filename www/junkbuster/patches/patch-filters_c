@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/junkbuster/patches/patch-filters_c,v 1.3 2010/05/24 22:17:03 espie Exp $
+$OpenBSD$
 --- filters.c.orig	Sat Oct 31 04:58:47 1998
 +++ filters.c	Sat May 22 16:47:47 2010
 @@ -103,9 +103,12 @@ block_url(struct http_request *http, struct client_sta

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/commons-io/Makefile,v 1.4 2011/09/16 09:24:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Java library to assist with developing IO functionality
 

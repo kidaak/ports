@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/icinga/core/Makefile,v 1.20 2012/03/16 12:39:55 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main =		network monitoring system (improved fork of Nagios)
 COMMENT-cgi =		cgi scripts for Icinga (classic Nagios-style UI)
@@ -6,7 +6,7 @@ COMMENT-ido =		store Icinga configuration and events in a database
 
 DISTNAME =		icinga-$V
 PKGNAME-main =		icinga-$V
-REVISION-main =		1
+REVISION =		4
 PKGNAME-cgi =		icinga-cgi-$V
 PKGNAME-ido =		icinga-idoutils-$V
 
@@ -38,13 +38,13 @@ RUN_DEPENDS-cgi =
 
 FAKE_FLAGS =		CFGDIR=${TRUEPREFIX}/share/examples/icinga
 
+LOCALSTATEDIR =		${BASELOCALSTATEDIR}/icinga
+SYSCONFDIR =		${BASESYSCONFDIR}/icinga
+
 CONFIGURE_STYLE =	gnu
-CONFIGURE_STYLE +=	old # don't override sysconfdir
 CONFIGURE_ARGS += \
-	--sysconfdir=${SYSCONFDIR}/icinga \
 	--datarootdir=/var/www/icinga-cgi \
 	--libexecdir=${PREFIX}/libexec/nagios \
-	--localstatedir=/var/icinga \
 	--sbindir=/var/www/cgi-bin/icinga \
 	--with-command-group=www \
 	--with-cgiurl=/cgi-bin/icinga \
@@ -72,6 +72,8 @@ INSTALL_TARGET = install-unstripped install-idoutils \
 # perl tests work; C tests require --enable-libtap in configure and
 # fixing up WRKSRC/tap/configure
 REGRESS_TARGET = test
+REGRESS_DEPENDS = devel/p5-IPC-Run3
+# devel/p5-Test-Most
 
 post-install:
 	${INSTALL_DATA_DIR} ${WRKINST}${PREFIX-cgi}/conf/modules.sample

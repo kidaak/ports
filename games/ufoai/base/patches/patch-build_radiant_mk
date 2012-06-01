@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-build_radiant_mk,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- build/radiant.mk.orig	Mon Apr 25 17:42:16 2011
 +++ build/radiant.mk	Mon Apr 25 17:43:58 2011
 @@ -256,27 +256,21 @@ endif

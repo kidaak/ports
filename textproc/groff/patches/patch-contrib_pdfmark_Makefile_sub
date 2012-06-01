@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/groff/patches/patch-contrib_pdfmark_Makefile_sub,v 1.1 2012/01/01 21:05:33 schwarze Exp $
+$OpenBSD$
 Fix parallel build race failure.
 This is because the generated pdf files use the local generated
 pdfroff helper script, but they don't depend directly upon it, so

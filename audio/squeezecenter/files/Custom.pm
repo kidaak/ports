@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/squeezecenter/files/Custom.pm,v 1.1 2009/01/28 01:36:00 sthen Exp $
+# $OpenBSD$
 
 package Slim::Utils::OS::Custom;
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/libdv/patches/patch-libdv_Makefile_in,v 1.4 2010/08/23 07:51:22 jasper Exp $
+$OpenBSD$
 --- libdv/Makefile.in.orig	Mon Sep 25 22:11:48 2006
 +++ libdv/Makefile.in	Sat Aug 21 14:23:04 2010
 @@ -189,7 +189,7 @@ INSTALL_SCRIPT = @INSTALL_SCRIPT@

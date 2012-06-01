@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-bfd_coff-avr_c,v 1.3 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- bfd/coff-avr.c.orig	Sat Jun 26 11:31:17 2010
 +++ bfd/coff-avr.c	Sat Jun 26 11:31:17 2010
 @@ -0,0 +1,613 @@

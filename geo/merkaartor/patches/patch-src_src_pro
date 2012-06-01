@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/merkaartor/patches/patch-src_src_pro,v 1.4 2011/01/10 09:34:24 landry Exp $
+$OpenBSD$
 Properly set translations/plugins paths
 --- src/src.pro.orig	Sun Dec 26 12:09:36 2010
 +++ src/src.pro	Sun Jan  9 10:49:44 2011

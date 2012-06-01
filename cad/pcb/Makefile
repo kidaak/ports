@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/pcb/Makefile,v 1.24 2011/12/03 19:26:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	printed circuit board layout tool
 DISTNAME=	pcb-20110918

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/rhythmbox/Makefile,v 1.99 2012/03/12 07:42:11 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		integrated music management application for GNOME
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Clean/pkg/PLIST,v 1.1.1.1 2006/06/16 01:31:41 bernd Exp $
+@comment $OpenBSD$
 bin/htmlclean
 ${P5SITE}/HTML/
 ${P5SITE}/HTML/Clean.pm

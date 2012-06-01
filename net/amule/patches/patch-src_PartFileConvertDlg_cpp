@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_PartFileConvertDlg_cpp,v 1.1 2011/12/11 18:31:13 dcoppa Exp $
+$OpenBSD$
 
 Fix: disable the partfile importer's 'Add' button on the remote gui
 unless using a localhost connection

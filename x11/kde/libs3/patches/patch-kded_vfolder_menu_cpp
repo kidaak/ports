@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/libs3/patches/patch-kded_vfolder_menu_cpp,v 1.1 2009/12/02 15:39:39 ajacoutot Exp $
+$OpenBSD$
 
 The merged menu directory is always called applications-merged
 (and not kde3-applications-merged).

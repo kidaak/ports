@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/ogre/Makefile,v 1.1.1.1 2012/03/18 14:31:00 pascal Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

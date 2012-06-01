@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/openmpi/patches/patch-opal_asm_base_MIPS_asm,v 1.1 2010/06/14 10:12:46 jasper Exp $
+$OpenBSD$
 
 - include correct headers.
 - LEAF needs two arguments.

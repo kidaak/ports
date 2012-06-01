@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/libiconv/Makefile,v 1.42 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	character set conversion library
 

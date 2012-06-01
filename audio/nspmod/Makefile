@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/nspmod/Makefile,v 1.23 2010/10/18 16:52:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	MOD/S3M/MTM tracker that does its own DSP
 DISTNAME=	nspmod-0.1

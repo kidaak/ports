@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/metasploit/Makefile,v 1.2 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT-main = 	penetration testing resources
 COMMENT-mysql = penetration testing resources (mysql backend)

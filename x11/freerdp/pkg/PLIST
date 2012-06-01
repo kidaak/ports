@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/freerdp/pkg/PLIST,v 1.3 2012/03/24 18:53:27 sthen Exp $
+@comment $OpenBSD$
 @bin bin/xfreerdp
 include/freerdp/
 include/freerdp/altsec.h

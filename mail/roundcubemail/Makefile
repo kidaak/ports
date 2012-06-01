@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/roundcubemail/Makefile,v 1.53 2012/03/14 16:20:47 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	imap4 webmail client
 

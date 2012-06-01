@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-js_src_Makefile_in,v 1.7 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 https://bug691898.bugzilla.mozilla.org/attachment.cgi?id=588391
 use yarr interpreter on ppc
 --- js/src/Makefile.in.orig	Mon Jan 16 17:05:37 2012

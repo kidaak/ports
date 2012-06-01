@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ap2-mod_perl/patches/patch-src_modules_perl_modperl_apache_compat_h,v 1.1 2008/05/05 21:21:43 simon Exp $
+$OpenBSD$
 --- src/modules/perl/modperl_apache_compat.h.orig	Fri May  2 22:44:18 2008
 +++ src/modules/perl/modperl_apache_compat.h	Fri May  2 22:44:43 2008
 @@ -22,6 +22,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-DateTime-Format-ICal/pkg/PLIST,v 1.2 2010/09/04 18:10:48 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/DateTime/Format/
 ${P5SITE}/DateTime/Format/ICal.pm
 @man man/man3p/DateTime::Format::ICal.3p

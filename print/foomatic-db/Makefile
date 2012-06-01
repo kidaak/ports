@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/foomatic-db/Makefile,v 1.22 2012/04/11 16:16:08 ajacoutot Exp $
+# $OpenBSD$
 
 PKG_ARCH=		*
 

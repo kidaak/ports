@@ -4,7 +4,7 @@
 # Whom:			jfieber
 #
 # $FreeBSD: Makefile,v 1.9 1998/02/21 21:59:37 jfieber Exp $
-# $OpenBSD: ports/textproc/sgmlformat/Makefile,v 1.20 2011/06/23 22:50:29 naddy Exp $
+# $OpenBSD$
 #
 
 COMMENT=	generate groff/HTML from linuxdoc/docbook SGML documents

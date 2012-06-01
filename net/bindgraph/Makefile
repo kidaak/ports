@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/bindgraph/Makefile,v 1.2 2010/11/19 22:31:32 espie Exp $
+# $OpenBSD$
 
 COMMENT=	rrdtool frontend for Bind installation
 

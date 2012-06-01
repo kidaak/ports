@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Session-State-Cookie/Makefile,v 1.11 2012/04/08 21:58:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	catalyst session IDs with cookies
 

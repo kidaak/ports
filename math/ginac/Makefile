@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/ginac/Makefile,v 1.17 2012/02/16 23:29:11 pirofti Exp $
+# $OpenBSD$
 
 COMMENT=	GiNaC is Not a Computer Algebra System (CAS)
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/py-proj/Makefile,v 1.11 2012/01/22 08:40:47 benoit Exp $
+# $OpenBSD$
 
 COMMENT =		Pyrex generated python interface to PROJ.4 library
 

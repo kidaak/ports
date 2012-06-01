@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_mediadevices_ipod_IpodDevice_h,v 1.1 2011/10/18 12:17:26 dcoppa Exp $
+$OpenBSD$
 --- src/mediadevices/ipod/IpodDevice.h.orig	Tue Oct 18 11:27:38 2011
 +++ src/mediadevices/ipod/IpodDevice.h	Tue Oct 18 11:27:51 2011
 @@ -22,7 +22,7 @@

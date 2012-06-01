@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/mono/Makefile,v 1.70 2012/04/13 11:51:49 robert Exp $
+# $OpenBSD$
 
 COMMENT=	cross platform, open source .NET developement framework
 

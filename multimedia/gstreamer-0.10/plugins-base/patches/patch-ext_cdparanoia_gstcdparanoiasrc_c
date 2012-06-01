@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-base/patches/patch-ext_cdparanoia_gstcdparanoiasrc_c,v 1.3 2010/09/20 16:11:12 ajacoutot Exp $
+$OpenBSD$
 
 Our cdparanoia version does not have cache control.
 

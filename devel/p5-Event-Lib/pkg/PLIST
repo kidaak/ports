@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Event-Lib/pkg/PLIST,v 1.3 2006/11/25 16:32:35 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Event/
 ${P5ARCH}/Event/Lib.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-resources_OCF_mysql,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- resources/OCF/mysql.orig	Thu Oct 25 09:40:41 2007
 +++ resources/OCF/mysql	Mon Nov 12 11:13:26 2007
 @@ -6,9 +6,10 @@

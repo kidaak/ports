@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-nokogiri/pkg/PLIST,v 1.5 2011/07/27 18:17:09 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/nokogiri${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

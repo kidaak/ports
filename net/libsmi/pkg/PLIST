@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/libsmi/pkg/PLIST,v 1.1.1.1 2012/02/28 19:26:22 nigel Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/smicache
 @bin bin/smidiff

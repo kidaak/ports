@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/publishcontent/Makefile,v 1.4 2012/01/28 11:20:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =	simplify publisher's life
 MAINTAINER =	Marc Espie <espie@openbsd.org>

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/prelude/manager/patches/patch-prelude-manager_conf_in,v 1.7 2009/08/30 20:37:16 rui Exp $
+$OpenBSD$
 --- prelude-manager.conf.in.orig	Thu Aug 13 21:53:39 2009
 +++ prelude-manager.conf.in	Thu Aug 13 21:54:04 2009
 @@ -29,9 +29,8 @@ listen = 127.0.0.1

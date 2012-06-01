@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-mmap/Makefile,v 1.13 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT =		mmap API for Haskell
 

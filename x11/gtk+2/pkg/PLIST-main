@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk+2/pkg/PLIST-main,v 1.26 2011/12/03 18:30:41 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gail-*
 @pkgpath x11/gtk+2
 @unexec-delete rm -f ${SYSCONFDIR}/gtk-2.0/gtk.immodules

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/databases/sqlite/pkg/PFRAG.shared,v 1.4 2005/12/26 21:32:01 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libsqlite.so.${LIBsqlite_VERSION}

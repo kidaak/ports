@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/kronolith/Makefile,v 1.13 2012/01/13 15:30:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	web based calendar application, for Horde
 

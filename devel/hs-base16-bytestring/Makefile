@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-base16-bytestring/Makefile,v 1.1.1.1 2012/01/23 21:01:37 kili Exp $
+# $OpenBSD$
 
 COMMENT=		fast base16 (hex) encoding and decoding for ByteStrings
 

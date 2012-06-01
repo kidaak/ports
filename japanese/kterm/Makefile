@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/kterm/Makefile,v 1.33 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Japanese-capable xterm
 

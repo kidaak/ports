@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-src_nd_main_c,v 1.4 2007/09/26 20:21:06 rui Exp $
+$OpenBSD$
 --- src/nd_main.c.orig	Wed Jun  6 01:55:17 2007
 +++ src/nd_main.c	Fri Jul 27 16:20:01 2007
 @@ -154,14 +154,14 @@ main_runtime_options_read(int argc, char** argv)

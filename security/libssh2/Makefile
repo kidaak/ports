@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libssh2/Makefile,v 1.12 2011/11/26 09:25:46 benoit Exp $
+# $OpenBSD$
 
 COMMENT =		library implementing the SSH2 protocol
 

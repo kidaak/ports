@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/unace/patches/patch-uac_crt_c,v 1.1 2005/02/22 15:13:09 naddy Exp $
+$OpenBSD$
 --- uac_crt.c.orig	Wed Jul  1 10:29:00 1998
 +++ uac_crt.c	Mon Feb 14 17:51:47 2005
 @@ -33,12 +33,15 @@

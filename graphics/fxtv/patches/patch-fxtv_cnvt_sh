@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/fxtv/patches/patch-fxtv_cnvt_sh,v 1.4 2006/10/18 11:10:31 ajacoutot Exp $
+$OpenBSD$
 --- fxtv_cnvt.sh.orig	Mon Feb 12 22:18:40 2001
 +++ fxtv_cnvt.sh	Wed Oct 18 12:38:30 2006
 @@ -40,12 +40,12 @@

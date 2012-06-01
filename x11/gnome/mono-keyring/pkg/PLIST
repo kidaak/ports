@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/mono-keyring/pkg/PLIST,v 1.2 2011/11/03 10:40:09 ajacoutot Exp $
+@comment $OpenBSD$
 @comment lib/libgnome-keyring-sharp-glue.la
 lib/libgnome-keyring-sharp-glue.so
 lib/mono/gac/Gnome.Keyring/

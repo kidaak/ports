@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-net-sftp/Makefile,v 1.16 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =	pure-ruby implementation of the SFTP client protocol
 

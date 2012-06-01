@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Stag/Makefile,v 1.5 2011/09/16 09:24:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =		structured tags datastructures
 

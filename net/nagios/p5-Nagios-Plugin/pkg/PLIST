@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nagios/p5-Nagios-Plugin/pkg/PLIST,v 1.2 2007/07/25 20:45:04 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Nagios/
 ${P5SITE}/Nagios/Plugin/
 ${P5SITE}/Nagios/Plugin.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/gnupg/patches/patch-util_Makefile_in,v 1.6 2008/01/30 20:18:10 bernd Exp $
+$OpenBSD$
 --- util/Makefile.in.orig	Mon Jan 28 20:52:56 2008
 +++ util/Makefile.in	Mon Jan 28 20:53:09 2008
 @@ -308,7 +308,7 @@ sysconfdir = @sysconfdir@

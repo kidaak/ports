@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/mp3cddb/pkg/PLIST,v 1.4 2004/09/14 23:16:54 espie Exp $
+@comment $OpenBSD$
 bin/mp3cddb
 bin/mp3cddbtag
 share/doc/mp3cddb/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/swfmill/Makefile,v 1.2 2011/09/16 10:31:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=	xml2swf and swf2xml processor with import functionalities
 

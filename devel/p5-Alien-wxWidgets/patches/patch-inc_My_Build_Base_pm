@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-Alien-wxWidgets/patches/patch-inc_My_Build_Base_pm,v 1.2 2009/12/09 21:45:12 landry Exp $
+$OpenBSD$
 --- inc/My/Build/Base.pm.orig	Sat Dec  5 16:17:30 2009
 +++ inc/My/Build/Base.pm	Wed Dec  9 22:10:11 2009
 @@ -370,12 +370,11 @@ sub awx_get_name {

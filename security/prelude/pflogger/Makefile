@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/prelude/pflogger/Makefile,v 1.15 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Prelude sensors for Packet Filter
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tcllib/patches/patch-support_devel_sak_test_run_tcl,v 1.3 2011/11/04 11:45:21 stu Exp $
+$OpenBSD$
 --- support/devel/sak/test/run.tcl.orig	Tue Jan 25 00:37:57 2011
 +++ support/devel/sak/test/run.tcl	Thu Oct 13 10:37:23 2011
 @@ -770,6 +770,7 @@ proc ::sak::test::run::SetupError {} {

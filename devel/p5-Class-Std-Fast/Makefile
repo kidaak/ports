@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Std-Fast/Makefile,v 1.1.1.1 2010/12/22 20:21:50 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		faster Class::Std
 

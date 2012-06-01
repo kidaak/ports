@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/freedroid/patches/patch-configure,v 1.2 2007/07/06 18:48:15 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Fri Jul  6 10:24:49 2007
 +++ configure	Fri Jul  6 10:25:04 2007
 @@ -5404,7 +5404,7 @@ done

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/latex-mk/pkg/PLIST,v 1.2 2009/08/24 07:03:02 jasper Exp $
+@comment $OpenBSD$
 @comment bin/ieee-copyout
 bin/latex-mk
 @info info/latex-mk.info

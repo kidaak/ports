@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icecast/patches/patch-Makefile_in,v 1.4 2008/11/18 21:22:02 pea Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri May 30 01:58:59 2008
 +++ Makefile.in	Fri Nov  7 10:39:29 2008
 @@ -242,7 +242,7 @@ EXTRA_DIST = HACKING m4/acx_pthread.m4 m4/ogg.m4 \

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/libid3tag/pkg/PFRAG.shared,v 1.4 2005/12/23 15:29:08 espie Exp $
+@comment $OpenBSD$
 @lib lib/libid3tag.so.${LIBid3tag_VERSION}

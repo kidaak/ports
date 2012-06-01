@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/icb/patches/patch-icb_oset_c,v 1.2 2010/05/22 14:23:48 espie Exp $
+$OpenBSD$
 --- icb/oset.c.orig	Fri Feb 24 22:20:24 1995
 +++ icb/oset.c	Sat May 22 16:21:47 2010
 @@ -5,6 +5,7 @@

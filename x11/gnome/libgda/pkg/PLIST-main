@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgda/pkg/PLIST-main,v 1.26 2012/01/25 13:26:05 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict libgda-db4-*
 @conflict libgda-ldap-<4.2.8p0v0
 @pkgpath x11/gnome/libgda,-mdb

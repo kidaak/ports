@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/pyzor/pkg/PLIST,v 1.2 2009/10/04 09:41:42 benoit Exp $
+@comment $OpenBSD$
 bin/pyzor
 bin/pyzord
 lib/python${MODPY_VERSION}/site-packages/pyzor/

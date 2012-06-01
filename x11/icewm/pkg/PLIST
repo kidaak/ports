@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/icewm/pkg/PLIST,v 1.15 2010/12/12 19:13:01 jasper Exp $
+@comment $OpenBSD$
 @bin bin/icehelp
 @bin bin/icesh
 @bin bin/icewm

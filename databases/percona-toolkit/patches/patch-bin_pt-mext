@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/percona-toolkit/patches/patch-bin_pt-mext,v 1.1.1.1 2012/02/27 10:18:12 giovanni Exp $
+$OpenBSD$
 --- bin/pt-mext.orig	Mon Feb  6 21:52:31 2012
 +++ bin/pt-mext	Thu Feb 23 15:11:19 2012
 @@ -62,7 +62,7 @@ NUM=0;

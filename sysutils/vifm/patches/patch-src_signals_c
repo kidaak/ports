@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/vifm/patches/patch-src_signals_c,v 1.1.1.1 2009/08/09 21:49:33 landry Exp $
+$OpenBSD$
 --- src/signals.c.orig	Wed Jun  4 16:48:31 2008
 +++ src/signals.c	Sat Aug  8 16:02:07 2009
 @@ -37,7 +37,9 @@

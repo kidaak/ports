@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-axiom/Makefile,v 1.12 2011/09/16 08:48:03 espie Exp $
+# $OpenBSD$
 
 COMMENT=	sqlite-based object persistence system for python
 

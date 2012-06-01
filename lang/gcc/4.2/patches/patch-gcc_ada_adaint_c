@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_ada_adaint_c,v 1.4 2007/03/20 10:48:52 espie Exp $
+$OpenBSD$
 --- gcc/ada/adaint.c.orig	Wed Feb 15 10:30:39 2006
 +++ gcc/ada/adaint.c	Sun Mar 18 23:58:42 2007
 @@ -794,7 +794,7 @@ __gnat_open_new_temp (char *path, int fmode)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mplayer/patches/patch-stream_audio_in_c,v 1.2 2010/05/26 21:29:56 jakemsr Exp $
+$OpenBSD$
 --- stream/audio_in.c.orig	Sat Jan 30 22:26:47 2010
 +++ stream/audio_in.c	Mon Mar  8 14:28:42 2010
 @@ -54,6 +54,12 @@ int audio_in_init(audio_in_t *ai, int type)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/graphics3/pkg/PLIST-sane,v 1.8 2011/12/03 23:43:04 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/kooka
 lib/libkscan.la
 @lib ${KDE}/libkscan.so.${LIBkscan_VERSION}

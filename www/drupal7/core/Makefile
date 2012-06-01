@@ -1,10 +1,10 @@
-# $OpenBSD: ports/www/drupal7/core/Makefile,v 1.1 2012/04/10 12:52:32 espie Exp $
+# $OpenBSD$
 
 COMMENT =	powerful content management system
 MAINTAINER =	Marc Espie <espie@openbsd.org>
  
-DISTNAME =	drupal-7.12
-PKGNAME =	drupal-7.12
+DISTNAME =	drupal-7.14
+PKGNAME =	drupal-7.14
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
 MODULES =	lang/php

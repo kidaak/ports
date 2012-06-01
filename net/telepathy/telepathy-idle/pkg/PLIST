@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/telepathy/telepathy-idle/pkg/PLIST,v 1.3 2009/06/02 04:46:29 jasper Exp $
+@comment $OpenBSD$
 @bin libexec/telepathy-idle
 @man man/man8/telepathy-idle.8
 share/dbus-1/services/org.freedesktop.Telepathy.ConnectionManager.idle.service

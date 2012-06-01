@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/libgpg-error/patches/patch-tests_Makefile_in,v 1.5 2010/07/27 21:45:06 ajacoutot Exp $
+$OpenBSD$
 --- tests/Makefile.in.orig	Wed Jul 21 10:00:00 2010
 +++ tests/Makefile.in	Tue Jul 27 23:31:52 2010
 @@ -73,7 +73,7 @@ am__EXEEXT_1 = t-strerror$(EXEEXT) t-syserror$(EXEEXT)

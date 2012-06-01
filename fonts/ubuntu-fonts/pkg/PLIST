@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/fonts/ubuntu-fonts/pkg/PLIST,v 1.1.1.1 2011/11/08 15:03:31 dcoppa Exp $
+@comment $OpenBSD$
 lib/X11/fonts/
 @fontdir lib/X11/fonts/ubuntu/
 lib/X11/fonts/ubuntu/Ubuntu-B.ttf

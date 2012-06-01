@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-LibXML-Common/Makefile,v 1.17 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

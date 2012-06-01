@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/curl/pkg/PLIST,v 1.23 2011/07/05 08:18:11 jasper Exp $
+@comment $OpenBSD$
 @bin bin/curl
 bin/curl-config
 include/curl/

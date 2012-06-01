@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/icecast/pkg/PLIST,v 1.10 2010/11/11 10:32:54 edd Exp $
+@comment $OpenBSD$
 @newgroup _icecast:611
 @newuser _icecast:611:_icecast:daemon:Icecast Server:/var/empty:/sbin/nologin
 @bin bin/icecast

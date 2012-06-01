@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/strigi/patches/patch-src_streamanalyzer_saxeventanalyzer_cpp,v 1.1 2010/06/18 15:09:41 sthen Exp $
+$OpenBSD$
 --- src/streamanalyzer/saxeventanalyzer.cpp.orig	Wed Feb  3 19:03:07 2010
 +++ src/streamanalyzer/saxeventanalyzer.cpp	Fri Jun 18 15:07:00 2010
 @@ -27,7 +27,7 @@

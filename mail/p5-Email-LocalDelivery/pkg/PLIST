@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Email-LocalDelivery/pkg/PLIST,v 1.1.1.1 2006/11/13 00:11:49 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Email/LocalDelivery/
 ${P5SITE}/Email/LocalDelivery.pm
 ${P5SITE}/Email/LocalDelivery/Maildir.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/automake/1.4/patches/patch-texi-vers_am,v 1.1.1.1 2005/01/11 07:11:00 sturm Exp $
+$OpenBSD$
 --- texi-vers.am.orig	Sun Jun 10 05:46:36 2001
 +++ texi-vers.am	Sat Jun 30 13:41:22 2001
 @@ -15,7 +15,7 @@

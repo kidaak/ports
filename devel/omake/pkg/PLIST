@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/omake/pkg/PLIST,v 1.2 2009/03/11 21:21:18 avsm Exp $
+@comment $OpenBSD$
 @bin bin/cvs_realclean
 bin/ocamldep-omake
 @bin bin/omake

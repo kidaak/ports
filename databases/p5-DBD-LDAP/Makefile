@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBD-LDAP/Makefile,v 1.6 2011/04/10 18:58:31 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	DBI driver for LDAP databases
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/tango-icon-theme-extras/pkg/PLIST,v 1.4 2011/12/03 23:20:53 ajacoutot Exp $
+@comment $OpenBSD$
 share/icons/Tango/16x16/devices/multimedia-player-dell-dj-pocket.png
 share/icons/Tango/16x16/devices/multimedia-player-ipod-U2-color.png
 share/icons/Tango/16x16/devices/multimedia-player-ipod-U2-monochrome.png

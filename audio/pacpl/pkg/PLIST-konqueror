@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/pacpl/pkg/PLIST-konqueror,v 1.3 2009/01/03 14:50:24 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict pacpl-<4.0.3p0
 share/apps/
 share/apps/konqueror/

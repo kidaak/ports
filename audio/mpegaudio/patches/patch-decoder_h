@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mpegaudio/patches/patch-decoder_h,v 1.1 2010/05/19 16:18:28 espie Exp $
+$OpenBSD$
 --- decoder.h.orig	Wed May 19 18:17:08 2010
 +++ decoder.h	Wed May 19 18:17:17 2010
 @@ -92,14 +92,6 @@ decoder.h

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_testsuite_ada_acats_run_acats,v 1.1.1.1 2006/07/31 09:50:53 espie Exp $
+$OpenBSD$
 --- gcc/testsuite/ada/acats/run_acats.orig	Fri Jan  7 04:04:46 2005
 +++ gcc/testsuite/ada/acats/run_acats	Fri Jan  7 04:06:26 2005
 @@ -7,8 +7,8 @@ fi

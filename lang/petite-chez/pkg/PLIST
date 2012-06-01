@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/petite-chez/pkg/PLIST,v 1.1.1.1 2009/04/24 13:13:45 wcmaier Exp $
+@comment $OpenBSD$
 @conflict chez-*
 @bin bin/petite
 lib/csv7.4/

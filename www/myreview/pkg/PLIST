@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/myreview/pkg/PLIST,v 1.2 2008/10/14 14:40:37 ajacoutot Exp $
+@comment $OpenBSD$
 myreview/
 myreview/Admin.php
 myreview/AdminLists.php

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/courier-imap/patches/patch-imap_pop3d-ssl_dist_in,v 1.8 2012/01/23 09:14:15 giovanni Exp $
+$OpenBSD$
 --- imap/pop3d-ssl.dist.in.orig	Wed Apr 13 18:39:29 2011
 +++ imap/pop3d-ssl.dist.in	Wed Dec 14 12:05:23 2011
 @@ -305,8 +305,8 @@ TLS_VERIFYPEER=NONE

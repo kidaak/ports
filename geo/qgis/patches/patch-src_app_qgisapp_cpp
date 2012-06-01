@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qgis/patches/patch-src_app_qgisapp_cpp,v 1.2 2011/12/29 21:44:06 landry Exp $
+$OpenBSD$
 Fix paths to docs
 --- src/app/qgisapp.cpp.orig	Sat Dec 10 19:23:35 2011
 +++ src/app/qgisapp.cpp	Wed Dec 28 22:24:16 2011

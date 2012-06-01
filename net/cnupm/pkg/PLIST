@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/cnupm/pkg/PLIST,v 1.6 2012/01/26 08:03:57 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _cnupm:531
 @newuser _cnupm:531:_cnupm:daemon:cnupm traffic collector:/var/cnupm:/sbin/nologin
 @man man/man8/cnupm.8

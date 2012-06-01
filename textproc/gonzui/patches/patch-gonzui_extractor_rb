@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/gonzui/patches/patch-gonzui_extractor_rb,v 1.1 2011/04/08 08:14:16 jasper Exp $
+$OpenBSD$
 
 Add support for dealing with (.tar).xz
 

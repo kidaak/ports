@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/DevIL/patches/patch-m4_devil-definitions_m4,v 1.1.1.1 2011/03/30 09:27:58 jasper Exp $
+$OpenBSD$
 --- m4/devil-definitions.m4.orig	Wed Mar 25 13:30:42 2009
 +++ m4/devil-definitions.m4	Tue Mar 29 19:35:03 2011
 @@ -244,12 +244,12 @@ AC_DEFUN([SETTLE_MNG],

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libdca/patches/patch-libdca_Makefile_in,v 1.2 2010/04/26 20:01:25 steven Exp $
+$OpenBSD$
 --- libdca/Makefile.in.orig	Tue Apr 10 14:31:23 2007
 +++ libdca/Makefile.in	Mon Apr 26 21:57:51 2010
 @@ -191,7 +191,7 @@ libdca_la_SOURCES = dca_internal.h tables.h tables_qua

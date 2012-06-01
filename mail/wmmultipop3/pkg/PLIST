@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/wmmultipop3/pkg/PLIST,v 1.1.1.1 2002/04/30 07:32:07 wilfried Exp $
+@comment $OpenBSD$
 bin/wmmultipop3

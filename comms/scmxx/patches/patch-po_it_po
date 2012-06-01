@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/scmxx/patches/patch-po_it_po,v 1.1 2005/07/26 17:00:51 fgsch Exp $
+$OpenBSD$
 --- po/it.po.orig	Tue Jul 26 02:15:04 2005
 +++ po/it.po	Tue Jul 26 02:15:11 2005
 @@ -13,7 +13,7 @@ msgstr ""

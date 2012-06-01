@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Tk-TableMatrix/pkg/PLIST,v 1.1.1.1 2011/08/29 14:30:44 nigel Exp $
+@comment $OpenBSD$
 %%SHARED%%
 ${P5ARCH}/Tk/TableMatrix/
 ${P5ARCH}/Tk/TableMatrix.pm

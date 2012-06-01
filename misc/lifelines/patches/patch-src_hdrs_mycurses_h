@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/lifelines/patches/patch-src_hdrs_mycurses_h,v 1.1 2010/09/06 18:38:07 nicm Exp $
+$OpenBSD$
 --- src/hdrs/mycurses.h.orig	Sat Sep 24 01:46:56 2005
 +++ src/hdrs/mycurses.h	Mon Aug 30 09:40:26 2010
 @@ -5,7 +5,7 @@

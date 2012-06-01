@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-CGI-Simple/patches/patch-t_070_standard_t,v 1.1 2010/12/06 07:59:34 jasper Exp $
+$OpenBSD$
 
 Fix for SA42443, "multipart_init()" HTTP Header Injection Vulnerability
 From: https://github.com/AndyA/CGI--Simple/commit/e4942b871a26c1317a175a91ebb7262eea59b380

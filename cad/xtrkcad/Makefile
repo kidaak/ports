@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/xtrkcad/Makefile,v 1.7 2011/11/02 21:05:38 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	CAD program for designing model railroad layouts
 

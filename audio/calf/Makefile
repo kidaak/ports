@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/calf/Makefile,v 1.9 2011/12/03 18:55:28 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

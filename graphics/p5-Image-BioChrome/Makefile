@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Image-BioChrome/Makefile,v 1.6 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	recolor gif images on the fly
 

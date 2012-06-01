@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtkglext/Makefile,v 1.15 2011/09/16 12:29:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	OpenGL extension to GTK+ 2.0 and later
 

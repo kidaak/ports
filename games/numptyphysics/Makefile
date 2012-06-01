@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/numptyphysics/Makefile,v 1.20 2011/12/03 19:49:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main =		physics-based drawing puzzle game
 COMMENT-npcomplete =	extra levels for physics-based drawing puzzle game

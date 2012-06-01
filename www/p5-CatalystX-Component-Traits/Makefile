@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CatalystX-Component-Traits/Makefile,v 1.1.1.1 2012/04/08 21:06:25 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	automatic trait loading and resolution
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.7/pkg/PFRAG.PIC-java,v 1.1.1.1 2012/04/23 15:56:42 pascal Exp $
+@comment $OpenBSD$
 @comment lib/fpic/gcj-${V}-12/classmap.db
 @comment lib/fpic/gcj-${V}-12/libjvm.so
 lib/fpic/libgcj-tools.la

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/smarty/pkg/PLIST-docs,v 1.2 2006/11/18 17:49:40 alek Exp $
+@comment $OpenBSD$
 share/doc/smarty/
 share/doc/smarty/advanced.features.html
 share/doc/smarty/advanced.features.outputfilters.html

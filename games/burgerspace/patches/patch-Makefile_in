@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/burgerspace/patches/patch-Makefile_in,v 1.6 2011/07/08 22:38:52 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon May 17 03:55:43 2010
 +++ Makefile.in	Sat Jul  9 00:12:49 2011
 @@ -791,7 +791,7 @@ info: info-recursive

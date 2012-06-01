@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Catalyst-Plugin-Session/pkg/PLIST,v 1.2 2012/04/08 21:58:38 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Plugin/
 ${P5SITE}/Catalyst/Plugin/Session/
 ${P5SITE}/Catalyst/Plugin/Session.pm

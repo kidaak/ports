@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/k3b/patches/patch-libk3b_tools_k3bfilesysteminfo_cpp,v 1.1.1.1 2008/05/11 22:18:35 jakemsr Exp $
+$OpenBSD$
 --- libk3b/tools/k3bfilesysteminfo.cpp.orig	Thu Jan 17 16:08:18 2008
 +++ libk3b/tools/k3bfilesysteminfo.cpp	Thu Jan 17 16:20:20 2008
 @@ -25,7 +25,7 @@

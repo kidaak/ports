@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/e_dbus/pkg/PFRAG.shared,v 1.2 2011/01/16 00:45:56 laurent Exp $
+@comment $OpenBSD$
 @lib lib/libebluez.so.${LIBebluez_VERSION}
 @lib lib/libeconnman.so.${LIBeconnman_VERSION}
 @lib lib/libedbus.so.${LIBedbus_VERSION}

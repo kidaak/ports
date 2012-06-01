@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/groff/pkg/PLIST,v 1.2 2004/09/15 00:56:28 espie Exp $
+@comment $OpenBSD$
 bin/jaddftinfo
 bin/jafmtodit
 bin/jeqn

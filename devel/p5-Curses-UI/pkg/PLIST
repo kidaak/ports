@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Curses-UI/pkg/PLIST,v 1.9 2008/10/06 16:50:49 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Curses/
 ${P5SITE}/Curses/UI/
 ${P5SITE}/Curses/UI.pm

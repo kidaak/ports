@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tla/patches/patch-hackerlab_vu_vu-virtual-null_h,v 1.1 2010/05/19 23:29:14 espie Exp $
+$OpenBSD$
 --- hackerlab/vu/vu-virtual-null.h.orig	Thu May 20 01:20:33 2010
 +++ hackerlab/vu/vu-virtual-null.h	Thu May 20 01:20:58 2010
 @@ -16,14 +16,6 @@

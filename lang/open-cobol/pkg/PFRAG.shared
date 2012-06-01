@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/lang/open-cobol/pkg/PFRAG.shared,v 1.2 2006/01/02 21:49:23 alek Exp $
+@comment $OpenBSD$
 @lib lib/libcob.so.${LIBcob_VERSION}

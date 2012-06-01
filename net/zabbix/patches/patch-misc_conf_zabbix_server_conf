@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/zabbix/patches/patch-misc_conf_zabbix_server_conf,v 1.6 2010/12/27 17:19:17 ajacoutot Exp $
+$OpenBSD$
 --- misc/conf/zabbix_server.conf.orig	Thu Dec 23 17:51:28 2010
 +++ misc/conf/zabbix_server.conf	Mon Dec 27 16:19:44 2010
 @@ -36,8 +36,6 @@

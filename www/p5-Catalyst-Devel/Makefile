@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Devel/Makefile,v 1.14 2012/04/08 21:58:12 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Catalyst development tools
 

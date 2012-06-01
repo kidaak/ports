@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Glib2/Makefile,v 1.21 2011/09/16 09:24:52 espie Exp $
+# $OpenBSD$
 
 BROKEN=		glib2 is threaded but our perl is not so we end up with undefined symbols
 

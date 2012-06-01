@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/quirc/patches/patch-data_Makefile_in,v 1.7 2010/06/15 16:20:42 landry Exp $
+$OpenBSD$
 --- data/Makefile.in.orig	Tue Jan 13 08:23:10 2004
 +++ data/Makefile.in	Tue Jun 15 18:14:35 2010
 @@ -316,7 +316,7 @@ uninstall-am: uninstall-info-am uninstall-pkgdataDATA

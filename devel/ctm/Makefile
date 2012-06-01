@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ctm/Makefile,v 1.16 2011/06/23 22:50:27 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		directory synchronization over mail
 

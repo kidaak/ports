@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/tkcvs/Makefile,v 1.29 2010/11/15 19:46:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	graphical frontend to CVS
 DISTNAME=	tkcvs-6.0

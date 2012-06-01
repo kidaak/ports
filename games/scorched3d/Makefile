@@ -1,4 +1,4 @@
- # $OpenBSD: ports/games/scorched3d/Makefile,v 1.6 2011/09/16 09:48:10 espie Exp $
+ # $OpenBSD$
 
 COMMENT =		modernization of the classic DOS game Scorched Earth
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/courtney/Makefile,v 1.9 2007/09/15 22:36:52 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	simple port scan detector
 

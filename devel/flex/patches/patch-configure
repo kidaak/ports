@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/flex/patches/patch-configure,v 1.1.1.1 2009/10/28 23:13:56 sthen Exp $
+$OpenBSD$
 --- configure.orig	Tue Feb 26 21:34:02 2008
 +++ configure	Tue Jun  9 20:51:58 2009
 @@ -4651,6 +4651,9 @@ _ACEOF

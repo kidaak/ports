@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/dzen2/pkg/PLIST-main,v 1.1.1.1 2007/09/06 19:46:01 merdely Exp $
+@comment $OpenBSD$
 bin/dzen2
 share/doc/dzen2/
 share/doc/dzen2/CREDITS

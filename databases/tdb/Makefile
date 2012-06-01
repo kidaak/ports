@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/tdb/Makefile,v 1.5 2011/09/26 09:30:08 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	trivial database library
 

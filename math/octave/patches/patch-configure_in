@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/octave/patches/patch-configure_in,v 1.5 2007/07/28 07:09:19 steven Exp $
+$OpenBSD$
 --- configure.in.orig	Thu Apr 26 21:00:48 2007
 +++ configure.in	Sat May 26 22:28:32 2007
 @@ -95,7 +95,7 @@ OCTAVE_SET_DEFAULT(localfcnfiledir, '$(datadir)/octave

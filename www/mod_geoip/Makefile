@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_geoip/Makefile,v 1.18 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Apache module for finding the country of web requests
 

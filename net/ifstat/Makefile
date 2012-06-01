@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ifstat/Makefile,v 1.12 2011/11/16 00:10:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		tool to monitor interface bandwidth usage
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-CBC/Makefile,v 1.24 2011/08/29 10:58:26 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	cryptographic cipher block chaining mode
 

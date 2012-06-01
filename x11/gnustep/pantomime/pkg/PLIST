@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/pantomime/pkg/PLIST,v 1.2 2011/04/18 12:37:17 sebastia Exp $
+@comment $OpenBSD$
 include/Pantomime
 lib/GNUstep/
 lib/GNUstep/Frameworks/

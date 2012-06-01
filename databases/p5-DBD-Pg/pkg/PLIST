@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-DBD-Pg/pkg/PLIST,v 1.13 2011/05/09 13:59:50 pea Exp $
+@comment $OpenBSD$
 @pkgpath databases/p5-DBD-Pg,regress
 ${P5ARCH}/Bundle/DBD/
 ${P5ARCH}/Bundle/DBD/Pg.pm

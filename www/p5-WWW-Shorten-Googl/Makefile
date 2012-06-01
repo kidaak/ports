@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Shorten-Googl/Makefile,v 1.1.1.1 2011/08/18 11:47:42 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		interface to goo.gl shortening site
 

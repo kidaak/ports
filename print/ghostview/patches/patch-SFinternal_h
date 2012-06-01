@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostview/patches/patch-SFinternal_h,v 1.1 2002/04/26 01:44:08 espie Exp $
+$OpenBSD$
 --- SFinternal.h.orig	Wed Apr 15 16:15:45 1992
 +++ SFinternal.h	Fri Apr 26 02:41:41 2002
 @@ -91,20 +91,20 @@ extern XSegment SFsegs[], SFcompletionSe

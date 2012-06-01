@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/hping/patches/patch-main_c,v 1.1 2005/04/24 22:59:08 alek Exp $
+$OpenBSD$
 --- main.c.orig	Sun Apr 24 20:31:59 2005
 +++ main.c	Sun Apr 24 20:49:52 2005
 @@ -315,24 +315,24 @@ int main(int argc, char **argv)

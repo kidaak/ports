@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/classpath/pkg/PFRAG.shared,v 1.3 2010/07/22 11:45:12 landry Exp $
+@comment $OpenBSD$
 lib/classpath/libgconfpeer.so
 lib/classpath/libgtkpeer.so
 @lib lib/classpath/libjavaio.so.${LIBjavaio_VERSION}

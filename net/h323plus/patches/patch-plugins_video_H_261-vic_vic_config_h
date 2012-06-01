@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/h323plus/patches/patch-plugins_video_H_261-vic_vic_config_h,v 1.1 2011/10/26 16:59:51 ajacoutot Exp $
+$OpenBSD$
 --- plugins/video/H.261-vic/vic/config.h.orig	Wed Oct 26 13:06:46 2011
 +++ plugins/video/H.261-vic/vic/config.h	Wed Oct 26 13:07:05 2011
 @@ -73,6 +73,10 @@ typedef unsigned int  u_int;

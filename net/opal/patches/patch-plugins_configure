@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/opal/patches/patch-plugins_configure,v 1.7 2012/03/02 09:04:21 ajacoutot Exp $
+$OpenBSD$
 --- plugins/configure.orig	Wed Feb 22 00:08:24 2012
 +++ plugins/configure	Fri Mar  2 09:12:25 2012
 @@ -6482,7 +6482,7 @@ $as_echo "#define PLUGIN_CODEC_DLL_EXPORTS 1" >>confde

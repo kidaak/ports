@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/webdev/pkg/PLIST,v 1.4 2010/06/24 07:45:06 espie Exp $
+@comment $OpenBSD$
 @bin bin/kfilereplace
 @bin bin/kimagemapeditor
 @bin bin/klinkstatus

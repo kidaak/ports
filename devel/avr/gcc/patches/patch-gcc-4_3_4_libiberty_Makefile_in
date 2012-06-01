@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/gcc/patches/patch-gcc-4_3_4_libiberty_Makefile_in,v 1.1 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- gcc-4.3.4/libiberty/Makefile.in.orig	Wed Jul 25 00:26:45 2007
 +++ gcc-4.3.4/libiberty/Makefile.in	Sat Jun 26 11:58:40 2010
 @@ -344,7 +344,8 @@ libiberty.html : $(srcdir)/libiberty.texi $(TEXISRC)

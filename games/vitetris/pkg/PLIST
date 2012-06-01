@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/vitetris/pkg/PLIST,v 1.1.1.1 2008/09/22 12:43:31 ajacoutot Exp $
+@comment $OpenBSD$
 @mode g+s
 @group games
 @bin bin/vitetris

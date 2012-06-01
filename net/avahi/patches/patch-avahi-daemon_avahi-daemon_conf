@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/avahi/patches/patch-avahi-daemon_avahi-daemon_conf,v 1.4 2010/07/17 14:12:38 ajacoutot Exp $
+$OpenBSD$
 --- avahi-daemon/avahi-daemon.conf.orig	Tue Jun 29 02:19:57 2010
 +++ avahi-daemon/avahi-daemon.conf	Mon Jul  5 12:02:37 2010
 @@ -21,15 +21,15 @@

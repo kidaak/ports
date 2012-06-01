@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/office3/patches/patch-kspread_plugins_calculator_Makefile_in,v 1.9 2006/12/03 11:00:34 espie Exp $
+$OpenBSD$
 --- kspread/plugins/calculator/Makefile.in.orig	Wed Nov 22 22:43:34 2006
 +++ kspread/plugins/calculator/Makefile.in	Sat Dec  2 10:44:14 2006
 @@ -693,7 +693,7 @@ clean-kde_moduleLTLIBRARIES:

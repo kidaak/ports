@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/icu4c/patches/patch-source_config_icu-config-bottom,v 1.5 2010/04/05 21:40:24 landry Exp $
+$OpenBSD$
 --- source/config/icu-config-bottom.orig	Tue Mar 16 06:14:02 2010
 +++ source/config/icu-config-bottom	Sun Apr  4 10:11:32 2010
 @@ -3,8 +3,8 @@

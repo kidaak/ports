@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/s10sh/patches/patch-Makefile_in,v 1.1 2001/11/15 13:28:52 wilfried Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Mar 13 14:46:18 2001
 +++ Makefile.in	Thu Nov  1 12:03:55 2001
 @@ -1,10 +1,10 @@

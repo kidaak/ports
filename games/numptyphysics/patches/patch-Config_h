@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/numptyphysics/patches/patch-Config_h,v 1.4 2011/01/17 11:39:20 dcoppa Exp $
+$OpenBSD$
 --- Config.h.orig	Fri Oct 31 18:04:08 2008
 +++ Config.h	Mon Jan 17 12:14:05 2011
 @@ -37,7 +37,7 @@

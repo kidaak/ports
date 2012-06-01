@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/liboop/pkg/PLIST,v 1.1.1.1 2006/06/18 08:33:49 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/oop-adns.h
 include/oop-glib.h

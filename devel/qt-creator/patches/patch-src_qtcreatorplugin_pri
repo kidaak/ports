@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/qt-creator/patches/patch-src_qtcreatorplugin_pri,v 1.2 2010/05/28 12:12:05 espie Exp $
+$OpenBSD$
 --- src/qtcreatorplugin.pri.orig	Fri Jan 15 18:36:52 2010
 +++ src/qtcreatorplugin.pri	Fri May 28 12:10:12 2010
 @@ -35,6 +35,13 @@ macx {

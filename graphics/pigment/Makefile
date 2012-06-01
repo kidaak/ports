@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/pigment/Makefile,v 1.7 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	3D scene graph library for rich UI
 

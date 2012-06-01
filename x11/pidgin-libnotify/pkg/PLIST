@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/pidgin-libnotify/pkg/PLIST,v 1.2 2010/10/27 09:37:09 jasper Exp $
+@comment $OpenBSD$
 lib/purple-2/pidgin-libnotify.la
 lib/purple-2/pidgin-libnotify.so
 share/locale/bg/LC_MESSAGES/pidgin-libnotify.mo

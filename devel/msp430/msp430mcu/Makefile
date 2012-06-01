@@ -1,27 +1,25 @@
-# $OpenBSD: ports/devel/msp430/msp430mcu/Makefile,v 1.8 2011/11/11 18:38:17 jasper Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 
 COMMENT=	C headers and binutils linker scripts for msp430
 
-DISTNAME=	msp430mcu-20110613
-PKGNAME=	${DISTNAME}
-REVISION=	1
+TOOL=		msp430mcu
+TOOL_V= 	${LTS_V}
 
-LTS_PATCHES=	msp430mcu-20110613-sf3379189.patch \
-		msp430mcu-20110613-sf3384550.patch \
-		msp430mcu-20110613-sf3400714.patch
+# msp430mcu-20120406-sf3522088.patch doesn't apply to us, since ${BINDIR}
+# is already created by mtree.
 
-CONFIGURE_STYLE=#empty
+CONFIGURE_STYLE=# This space intentionally left blank
 
-RUN_DEPENDS=	devel/msp430/libc>=20110612
+RUN_DEPENDS=	devel/msp430/libc>=20120224
 
 NO_BUILD=	Yes
-NO_REGRESS=	Yes
 
 do-install:
 	cd ${WRKSRC} && \
-		MSP430MCU_ROOT=${WRKSRC} /bin/sh scripts/install.sh ${PREFIX}
+		MSP430MCU_ROOT=${WRKSRC} TRUEPREFIX=${TRUEPREFIX} \
+			/bin/sh scripts/install.sh ${PREFIX}
 	chown -R ${SHAREOWN}:${SHAREGRP} ${PREFIX}/msp430/
 
 .include <bsd.port.mk>

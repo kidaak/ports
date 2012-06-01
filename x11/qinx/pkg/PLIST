@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qinx/pkg/PLIST,v 1.5 2008/05/21 09:05:54 ajacoutot Exp $
+@comment $OpenBSD$
 ${KDE}/kstyle_qinx_config.la
 ${KDE}/kstyle_qinx_config.so
 ${KDE}/kwin3_qinx.la

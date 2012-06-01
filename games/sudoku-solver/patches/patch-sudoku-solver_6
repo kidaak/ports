@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/sudoku-solver/patches/patch-sudoku-solver_6,v 1.1 2010/04/03 20:07:06 naddy Exp $
+$OpenBSD$
 --- sudoku-solver.6.orig	Sat Apr  3 21:54:22 2010
 +++ sudoku-solver.6	Sat Apr  3 21:57:22 2010
 @@ -30,7 +30,7 @@ solves sudoku puzzles for you - so you have more time 

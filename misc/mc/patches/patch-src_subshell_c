@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/mc/patches/patch-src_subshell_c,v 1.6 2012/04/13 13:42:21 robert Exp $
+$OpenBSD$
 
 warning: implicit declaration of function `getgrnam'
 

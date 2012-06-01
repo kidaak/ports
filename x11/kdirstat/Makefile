@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kdirstat/Makefile,v 1.23 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	graphical disk usage utility for KDE
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/league-fonts/Makefile,v 1.2 2012/02/28 11:53:04 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		fonts from the League of Moveable Type
 

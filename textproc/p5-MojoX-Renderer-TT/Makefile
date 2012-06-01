@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-MojoX-Renderer-TT/Makefile,v 1.6 2012/04/10 13:02:02 jim Exp $
+# $OpenBSD$
 
 COMMENT =	Template Toolkit renderer for Mojo
 

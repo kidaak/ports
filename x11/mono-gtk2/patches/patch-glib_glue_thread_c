@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mono-gtk2/patches/patch-glib_glue_thread_c,v 1.1 2012/03/29 11:38:01 naddy Exp $
+$OpenBSD$
 --- glib/glue/thread.c.orig	Wed Mar 28 17:05:16 2012
 +++ glib/glue/thread.c	Wed Mar 28 17:05:28 2012
 @@ -20,7 +20,7 @@

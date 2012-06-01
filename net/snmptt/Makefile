@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/snmptt/Makefile,v 1.4 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=		SNMP trap handler written
 

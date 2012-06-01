@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/tikiwiki/pkg/PLIST,v 1.10 2010/11/06 08:27:27 ajacoutot Exp $
+@comment $OpenBSD$
 @group daemon
 tikiwiki/
 tikiwiki/INSTALL

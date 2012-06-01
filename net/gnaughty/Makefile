@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gnaughty/Makefile,v 1.20 2011/11/19 02:05:03 mlarkin Exp $
+# $OpenBSD$
 
 COMMENT=	fast and easy porn downloader
 

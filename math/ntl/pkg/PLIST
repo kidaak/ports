@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/ntl/pkg/PLIST,v 1.5 2009/05/22 09:03:33 benoit Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/NTL/
 include/NTL/FFT.h

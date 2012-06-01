@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/ktsuss/patches/patch-src_Makefile_in,v 1.1.1.1 2009/06/18 19:45:14 landry Exp $
+$OpenBSD$
 no lcrypt, and PLIST takes care of setuid'ing ktuss binary
 --- src/Makefile.in.orig	Tue Jul  1 04:23:01 2008
 +++ src/Makefile.in	Thu Jun 18 21:27:59 2009

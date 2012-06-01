@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/freetype/pkg/PLIST-main,v 1.1 2006/11/21 10:07:26 espie Exp $
+@comment $OpenBSD$
 @pkgpath print/freetype
 include/freetype1/
 include/freetype1/freetype/

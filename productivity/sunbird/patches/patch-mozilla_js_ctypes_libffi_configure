@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_js_ctypes_libffi_configure,v 1.1 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/js/ctypes/libffi/configure.orig	Wed Jul  7 09:04:46 2010
 +++ mozilla/js/ctypes/libffi/configure	Wed Jul  7 09:05:38 2010
 @@ -20976,7 +20976,7 @@ case "$host" in

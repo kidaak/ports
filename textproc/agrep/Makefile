@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/agrep/Makefile,v 1.21 2010/11/20 19:56:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	approximate grep (fast approximate pattern-matching tool)
 

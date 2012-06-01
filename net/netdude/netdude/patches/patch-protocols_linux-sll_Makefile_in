@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-protocols_linux-sll_Makefile_in,v 1.4 2007/09/26 20:21:06 rui Exp $
+$OpenBSD$
 --- protocols/linux-sll/Makefile.in.orig	Fri Jul 27 17:06:55 2007
 +++ protocols/linux-sll/Makefile.in	Fri Jul 27 17:07:38 2007
 @@ -75,7 +75,7 @@ DIST_SOURCES = $(nd_sll_la_SOURCES)

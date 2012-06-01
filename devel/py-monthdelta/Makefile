@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-monthdelta/Makefile,v 1.1.1.1 2011/09/28 12:34:13 mpi Exp $
+# $OpenBSD$
 
 COMMENT =		date computations with months	
 

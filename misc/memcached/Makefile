@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/memcached/Makefile,v 1.17 2012/04/03 16:37:42 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	distributed memory object caching system
 

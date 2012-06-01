@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/zmtx-zmrx/Makefile,v 1.21 2010/10/18 16:57:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=	receive/send files via ZMODEM protocol (unrestricted)
 

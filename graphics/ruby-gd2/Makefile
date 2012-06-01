@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ruby-gd2/Makefile,v 1.9 2011/09/16 10:02:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=	ruby interface to the gd2 graphics library
 

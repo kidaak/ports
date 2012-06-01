@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/libtar/Makefile,v 1.7 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C library for manipulating tar files
 

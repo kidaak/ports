@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libyubikey/Makefile,v 1.5 2012/04/09 07:17:20 landry Exp $
+# $OpenBSD$
 
 COMMENT=	Yubikey OTP library
 

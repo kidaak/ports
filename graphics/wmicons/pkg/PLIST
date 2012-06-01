@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/wmicons/pkg/PLIST,v 1.2 2004/09/15 00:50:11 espie Exp $
+@comment $OpenBSD$
 share/WindowMaker/Pixmaps/3D-Gun.xpm
 share/WindowMaker/Pixmaps/3D.png
 share/WindowMaker/Pixmaps/3D.tif

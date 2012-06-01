@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dspam/patches/patch-src_mysql_drv_c,v 1.6 2007/12/21 14:42:23 todd Exp $
+$OpenBSD$
 --- src/mysql_drv.c.orig	Thu Sep 21 20:25:19 2006
 +++ src/mysql_drv.c	Sun Apr 29 17:57:52 2007
 @@ -1362,7 +1362,7 @@ _ds_get_nextuser (DSPAM_CTX * CTX)

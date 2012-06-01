@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/gomoku/Makefile,v 1.1.1.1 2011/11/17 23:28:59 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	extended TicTacToe game for GNUstep
 

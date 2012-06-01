@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Unicode-MapUTF8/pkg/PLIST,v 1.5 2006/07/13 07:28:21 steven Exp $
+@comment $OpenBSD$
 ${P5SITE}/Unicode/
 ${P5SITE}/Unicode/MapUTF8.pm
 ${P5SITE}/Unicode/MapUTF8.pod

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/zint/patches/patch-backend_common_c,v 1.1.1.1 2011/12/23 15:08:07 jasper Exp $
+$OpenBSD$
 --- backend/common.c.orig	Mon May 16 21:12:46 2011
 +++ backend/common.c	Mon Nov 14 20:01:43 2011
 @@ -127,6 +127,13 @@ void lookup(char set_string[], char *table[], char dat

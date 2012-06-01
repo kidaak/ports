@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xloadimage/patches/patch-xloadimage.man,v 1.4 2003/04/06 02:59:48 naddy Exp $
+$OpenBSD$
 --- xloadimage.man.orig	Sun Apr  6 04:12:12 2003
 +++ xloadimage.man	Sun Apr  6 04:19:17 2003
 @@ -633,7 +633,7 @@ distribution.

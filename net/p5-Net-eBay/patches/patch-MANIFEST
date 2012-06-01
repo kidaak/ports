@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/p5-Net-eBay/patches/patch-MANIFEST,v 1.1.1.1 2011/03/16 14:23:43 jasper Exp $
+$OpenBSD$
 
 Don't install these example scripts into bin/ but just treat
 them as examples.

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/gdlmm/Makefile,v 1.1.1.1 2012/04/13 15:18:07 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C++ binding for gdl
 

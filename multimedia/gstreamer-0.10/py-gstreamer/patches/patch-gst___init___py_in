@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/py-gstreamer/patches/patch-gst___init___py_in,v 1.1 2010/12/13 06:37:06 ajacoutot Exp $
+$OpenBSD$
 --- gst/__init__.py.in.orig	Mon Dec 13 07:30:03 2010
 +++ gst/__init__.py.in	Mon Dec 13 07:30:41 2010
 @@ -156,7 +156,7 @@ class Fraction(Value):

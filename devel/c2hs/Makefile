@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/c2hs/Makefile,v 1.20 2011/12/27 21:11:17 kili Exp $
+# $OpenBSD$
 # $FreeBSD: ports/devel/hs-c2hs/Makefile,v 1.20 2004/03/25 08:29:28 obraun Exp $
 
 COMMENT=		interface generator for Haskell to C bindings

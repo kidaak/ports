@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/grepmail/Makefile,v 1.18 2010/11/19 07:23:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	search mailboxes for a particular email
 

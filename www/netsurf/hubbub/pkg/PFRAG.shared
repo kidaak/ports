@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/www/netsurf/hubbub/pkg/PFRAG.shared,v 1.1.1.1 2010/06/29 20:11:13 landry Exp $
+@comment $OpenBSD$
 @lib lib/libhubbub.so.${LIBhubbub_VERSION}

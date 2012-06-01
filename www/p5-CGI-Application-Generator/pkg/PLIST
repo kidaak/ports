@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-CGI-Application-Generator/pkg/PLIST,v 1.1.1.1 2006/11/13 15:20:45 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/CGI/Application/Generator/
 ${P5SITE}/CGI/Application/Generator.pm
 ${P5SITE}/CGI/Application/Generator/app_module.tmpl

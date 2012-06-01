@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-j2se_src_solaris_hpi_native_threads_src_threads_md_c,v 1.1 2012/03/20 16:57:58 kurt Exp $
+$OpenBSD$
 --- j2se/src/solaris/hpi/native_threads/src/threads_md.c.orig	Tue Mar 13 16:58:01 2012
 +++ j2se/src/solaris/hpi/native_threads/src/threads_md.c	Tue Mar 13 16:58:57 2012
 @@ -488,6 +488,12 @@ sysThreadCreate(sys_thread_t **tidP, long ss, void (*s

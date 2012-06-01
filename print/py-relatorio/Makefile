@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/py-relatorio/Makefile,v 1.2 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=		templating library able to output odt and pdf files
 

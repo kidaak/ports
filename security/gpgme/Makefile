@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/gpgme/Makefile,v 1.25 2011/08/30 06:43:07 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GnuPG Made Easy
 

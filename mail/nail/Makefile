@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/nail/Makefile,v 1.24 2012/01/27 04:14:03 william Exp $
+# $OpenBSD$
 
 COMMENT=		enhanced, MIME capable Berkeley Mail
 

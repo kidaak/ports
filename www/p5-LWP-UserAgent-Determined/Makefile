@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-LWP-UserAgent-Determined/Makefile,v 1.6 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	virtual browser that retries on errors
 

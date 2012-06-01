@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/odt2txt/Makefile,v 1.4 2010/11/20 19:56:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=		convert OpenDocument Text to plain text
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mrtd/Makefile,v 1.22 2010/11/19 22:31:34 espie Exp $
+# $OpenBSD$
 # Uses pthreads
 
 COMMENT=		daemon/libs/toolkit for routing BGP4+, RIP, OSPF, etc.

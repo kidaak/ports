@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Catalyst-Authentication-Store-DBIx-Class/Makefile,v 1.5 2012/04/08 22:02:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	storage class for Catalyst Authentication using DBIx::Class
 

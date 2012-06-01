@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/intellij/pkg/PLIST,v 1.5 2010/11/10 07:58:59 jasper Exp $
+@comment $OpenBSD$
 bin/idea
 bin/intellij
 intellij/

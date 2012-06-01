@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libcanberra/pkg/PLIST-gtk3,v 1.1 2011/04/13 06:47:22 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict libcanberra-<=0.24p1
 %%SHARED%%
 @bin bin/canberra-gtk-play

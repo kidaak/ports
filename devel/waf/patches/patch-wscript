@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/waf/patches/patch-wscript,v 1.4 2010/10/03 12:40:55 jasper Exp $
+$OpenBSD$
 --- wscript.orig	Tue Jul  6 19:50:52 2010
 +++ wscript	Sun Oct  3 14:40:31 2010
 @@ -1,4 +1,4 @@

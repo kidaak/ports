@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/phpicalendar/Makefile,v 1.11 2011/11/16 15:56:38 robert Exp $
+# $OpenBSD$
 
 COMMENT=	web-based iCal file parser
 

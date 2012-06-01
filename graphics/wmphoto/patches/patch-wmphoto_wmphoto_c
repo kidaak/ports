@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/wmphoto/patches/patch-wmphoto_wmphoto_c,v 1.1.1.1 2001/01/16 22:44:43 naddy Exp $
+$OpenBSD$
 --- wmphoto/wmphoto.c.orig	Sun Oct  3 07:11:37 1999
 +++ wmphoto/wmphoto.c	Tue Jan 16 18:05:55 2001
 @@ -34,7 +34,6 @@ char current[1024];

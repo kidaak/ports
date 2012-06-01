@@ -1,4 +1,4 @@
-# $OpenBSD: ports/biology/p5-Bio-ASN1-EntrezGene/Makefile,v 1.8 2011/04/14 21:21:56 naddy Exp $
+# $OpenBSD$
 
 COMMENT =		regular expression-based parser for NCBI Entrez Gene
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/sc/patches/patch-sc_doc,v 1.4 2006/05/28 21:21:51 weingart Exp $
+$OpenBSD$
 --- sc.doc.orig	Thu May  4 10:12:29 2006
 +++ sc.doc	Thu May  4 10:13:05 2006
 @@ -113,7 +113,7 @@ often based on other cell values.

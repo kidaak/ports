@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mdbtools/snapshot/patches/patch-doc_Makefile_in,v 1.1.1.1 2006/05/01 09:55:33 espie Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Tue Apr 25 19:49:57 2006
 +++ doc/Makefile.in	Tue Apr 25 19:50:38 2006
 @@ -418,19 +418,19 @@ install.tgz: $(srcdir)/install.sgml

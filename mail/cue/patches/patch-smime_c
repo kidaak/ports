@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/cue/patches/patch-smime_c,v 1.2 2010/10/03 21:40:42 jasper Exp $
+$OpenBSD$
 
 * Fix for OpenSSL 1.0.0. (STACK has gone.)
 * Use proper sk_TYPE_num, sk_TYPE_value for each TYPE.

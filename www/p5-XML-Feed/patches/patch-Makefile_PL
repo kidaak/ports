@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-XML-Feed/patches/patch-Makefile_PL,v 1.1.1.1 2007/04/18 00:16:58 espie Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Wed Apr 18 02:14:47 2007
 +++ Makefile.PL	Wed Apr 18 02:14:56 2007
 @@ -12,6 +12,7 @@ sign(1);

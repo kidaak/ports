@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Data-URIEncode/Makefile,v 1.3 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	allow complex data structures to be encoded using flat URIs
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-GnuPG/pkg/PLIST,v 1.6 2004/09/15 18:36:01 espie Exp $
+@comment $OpenBSD$
 bin/gpgmailtunl
 ${P5SITE}/GnuPG/
 ${P5SITE}/GnuPG.pm

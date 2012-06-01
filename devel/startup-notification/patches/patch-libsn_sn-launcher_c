@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/startup-notification/patches/patch-libsn_sn-launcher_c,v 1.4 2011/05/23 12:06:10 ajacoutot Exp $
+$OpenBSD$
 --- libsn/sn-launcher.c.orig	Thu May  5 11:34:34 2011
 +++ libsn/sn-launcher.c	Mon May 23 08:18:52 2011
 @@ -223,7 +223,7 @@ sn_launcher_context_initiate (SnLauncherContext *conte

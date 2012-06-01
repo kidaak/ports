@@ -1,4 +1,4 @@
-$OpenBSD: ports/shells/sash/patches/patch-cmd_ls_c,v 1.1 2002/07/21 08:44:35 wcobb Exp $
+$OpenBSD$
 --- cmd_ls.c.orig	Sun Jul 21 05:33:34 2002
 +++ cmd_ls.c	Sun Jul 21 05:34:27 2002
 @@ -380,7 +380,7 @@ listFile(

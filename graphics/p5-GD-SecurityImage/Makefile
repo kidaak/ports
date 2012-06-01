@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-GD-SecurityImage/Makefile,v 1.8 2011/03/14 09:17:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	security image (captcha) generator
 

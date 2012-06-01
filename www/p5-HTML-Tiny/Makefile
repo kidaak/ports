@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Tiny/Makefile,v 1.4 2011/04/09 19:25:33 simon Exp $
+# $OpenBSD$
 
 COMMENT =	lightweight, dependency free HTML/XML generation
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/dzen2/Makefile,v 1.3 2011/09/16 12:29:13 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=	general purpose messaging, notification and menu program
 COMMENT-gadgets=gadgets and scripts for dzen2

@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/mysql/patches/patch-configure_in,v 1.34 2011/09/05 07:11:23 giovanni Exp $
+$OpenBSD$
 --- configure.in.orig	Fri Jul  1 11:22:18 2011
 +++ configure.in	Thu Aug 25 21:46:08 2011
 @@ -464,44 +464,7 @@ AC_SUBST(ABI_CHECK)

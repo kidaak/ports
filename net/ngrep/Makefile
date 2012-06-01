@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ngrep/Makefile,v 1.35 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	network grep
 

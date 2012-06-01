@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/sma/Makefile,v 1.7 2010/11/19 07:23:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Sendmail Log Analysis Report
 

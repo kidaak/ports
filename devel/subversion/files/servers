@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/subversion/files/servers,v 1.1 2009/08/25 10:26:20 stsp Exp $
+# $OpenBSD$
 
 [global]
 store-plaintext-passwords=no

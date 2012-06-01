@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/fyre/patches/patch-data-Makefile_in,v 1.1.1.1 2007/05/21 14:24:06 jasper Exp $
+$OpenBSD$
 --- data/Makefile.in.orig	Mon Oct  9 06:01:08 2006
 +++ data/Makefile.in	Mon May 21 14:53:37 2007
 @@ -187,13 +187,13 @@ fyredata_DATA = \

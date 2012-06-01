@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/wmpinboard/patches/patch-configure_in,v 1.2 2002/12/25 11:16:27 wilfried Exp $
+$OpenBSD$
 --- configure.in.orig	Thu Apr 13 14:40:33 2000
 +++ configure.in	Wed Dec 25 12:03:38 2002
 @@ -10,9 +10,6 @@ CFLAGS=`echo "x $CFLAGS"|sed 's/^x //; s

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/lensfun/patches/patch-libs_auxfun_image_cpp,v 1.1 2011/07/08 20:36:09 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

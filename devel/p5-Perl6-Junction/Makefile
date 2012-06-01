@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Perl6-Junction/Makefile,v 1.4 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Perl6 style Junction operators in Perl5
 

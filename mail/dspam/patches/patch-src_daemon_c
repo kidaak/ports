@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dspam/patches/patch-src_daemon_c,v 1.4 2007/12/21 14:42:23 todd Exp $
+$OpenBSD$
 --- src/daemon.c.orig	Tue Jun 13 16:43:12 2006
 +++ src/daemon.c	Sun Apr 29 17:57:52 2007
 @@ -549,7 +549,7 @@ void *process_connection(void *ptr) {

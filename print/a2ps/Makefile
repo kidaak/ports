@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/a2ps/Makefile,v 1.49 2012/02/18 09:08:16 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	format files for printing on PostScript printers
 

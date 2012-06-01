@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.7/pkg/PLIST-ada,v 1.1.1.1 2012/04/23 15:56:43 pascal Exp $
+@comment $OpenBSD$
 @bin bin/gnat
 @bin bin/gnatbind
 @bin bin/gnatchop

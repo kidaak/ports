@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/dfu-util/Makefile,v 1.10 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		device firmware update (DFU) USB programmer
 

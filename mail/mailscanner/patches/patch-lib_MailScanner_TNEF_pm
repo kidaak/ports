@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailscanner/patches/patch-lib_MailScanner_TNEF_pm,v 1.2 2012/03/06 08:34:20 sthen Exp $
+$OpenBSD$
 
 http://permalink.gmane.org/gmane.mail.virus.mailscanner/77741
 

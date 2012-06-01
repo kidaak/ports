@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/unicon/Makefile,v 1.26 2011/11/13 17:55:22 pirofti Exp $
+# $OpenBSD$
 
 # crashes & hangs on anything but i386
 ONLY_FOR_ARCHS=	i386

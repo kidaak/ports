@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Template-Plugin-Markdown/Makefile,v 1.4 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	TT plugin for Text::Markdown
 

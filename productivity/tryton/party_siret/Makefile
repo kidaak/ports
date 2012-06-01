@@ -1,8 +1,9 @@
-# $OpenBSD: ports/productivity/tryton/party_siret/Makefile,v 1.4 2012/01/24 10:16:10 ajacoutot Exp $
+# $OpenBSD$
 
-MODPY_EGG_VERSION =     2.2.0
+MODPY_EGG_VERSION =	2.4.0
 TRYTOND_MODULE =	party_siret
+REVISION =		0
 
-RUN_DEPENDS =		productivity/tryton/party>=2.2.0
+RUN_DEPENDS =		productivity/tryton/party
 
 .include <bsd.port.mk>

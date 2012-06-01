@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/hylafax/pkg/README,v 1.6 2011/06/02 13:41:36 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

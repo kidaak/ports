@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ices/Makefile,v 1.25 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	icecast source for streaming MP3
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-vector/Makefile,v 1.8 2012/01/16 23:32:02 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Int-indexed arrays
 

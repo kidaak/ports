@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qwt/pkg/PLIST,v 1.2 2010/11/07 00:26:14 merdely Exp $
+@comment $OpenBSD$
 include/qwt.h
 include/qwt_abstract_scale.h
 include/qwt_abstract_scale_draw.h

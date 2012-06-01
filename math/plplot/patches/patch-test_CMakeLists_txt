@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/plplot/patches/patch-test_CMakeLists_txt,v 1.1 2009/04/05 16:21:55 steven Exp $
+$OpenBSD$
 --- test/CMakeLists.txt.orig	Sat Jun  7 09:33:46 2008
 +++ test/CMakeLists.txt	Sat Jun  7 09:34:00 2008
 @@ -216,14 +216,14 @@ WORLD_EXECUTE

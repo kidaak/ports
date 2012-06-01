@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/evolution/pkg/PLIST-plugins,v 1.11 2012/03/29 06:56:25 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict evolution-<=3.2.2p0
 lib/evolution/${R}/plugins/liborg-gnome-audio-inline.so
 lib/evolution/${R}/plugins/liborg-gnome-backup-restore.so

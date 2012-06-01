@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/p5-X-Osd/Makefile,v 1.8 2010/12/03 11:46:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	Perl extension to the X On Screen Display library (xosd)
 SHARED_ONLY =	Yes

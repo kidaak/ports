@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono/patches/patch-mono_metadata_rand_c,v 1.1 2008/10/17 09:07:13 robert Exp $
+$OpenBSD$
 --- mono/metadata/rand.c.orig	Fri Oct 17 10:56:50 2008
 +++ mono/metadata/rand.c	Fri Oct 17 10:57:20 2008
 @@ -15,6 +15,9 @@

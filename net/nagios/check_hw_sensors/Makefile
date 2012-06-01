@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nagios/check_hw_sensors/Makefile,v 1.4 2011/09/16 11:13:38 espie Exp $
+# $OpenBSD$
 
 PKG_ARCH=		*
 

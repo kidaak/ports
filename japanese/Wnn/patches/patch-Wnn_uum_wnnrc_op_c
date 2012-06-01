@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/Wnn/patches/patch-Wnn_uum_wnnrc_op_c,v 1.1 2000/04/16 21:53:32 espie Exp $
+$OpenBSD$
 --- Wnn/uum/wnnrc_op.c.orig	Sat Apr 15 21:28:33 2000
 +++ Wnn/uum/wnnrc_op.c	Sat Apr 15 21:31:43 2000
 @@ -148,7 +148,7 @@ char	*s;

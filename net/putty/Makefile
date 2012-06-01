@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/putty/Makefile,v 1.10 2012/03/08 12:13:01 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=	SSH and telnet client
 COMMENT-gui=	PuTTY GUI clients

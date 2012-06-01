@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/p5-Geo-Forward/Makefile,v 1.4 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to calculate geographic location
 MODULES=	cpan

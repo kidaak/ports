@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/ko-baekmuk-ttf/Makefile,v 1.1.1.1 2011/07/19 09:13:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Baekmuk Korean truetype fonts
 

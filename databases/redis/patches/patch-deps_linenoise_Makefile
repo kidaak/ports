@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/redis/patches/patch-deps_linenoise_Makefile,v 1.2 2011/07/28 08:57:32 dcoppa Exp $
+$OpenBSD$
 --- deps/linenoise/Makefile.orig	Fri Jul 22 12:22:26 2011
 +++ deps/linenoise/Makefile	Wed Jul 27 09:22:55 2011
 @@ -1,10 +1,10 @@

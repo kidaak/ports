@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/bytebench/patches/patch-src_fstime_c,v 1.1 2002/07/17 21:57:21 lebel Exp $
+$OpenBSD$
 --- src/fstime.c.orig	Wed Feb  5 05:08:45 1992
 +++ src/fstime.c	Wed Jul 17 17:36:08 2002
 @@ -37,8 +37,8 @@ int			seconds = SECONDS;

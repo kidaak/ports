@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/gmapcatcher/pkg/PLIST,v 1.5 2011/06/27 06:33:33 ajacoutot Exp $
+@comment $OpenBSD$
 bin/mapcatcher
 bin/mapdownloader
 lib/python${MODPY_VERSION}/site-packages/GMapCatcher-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info

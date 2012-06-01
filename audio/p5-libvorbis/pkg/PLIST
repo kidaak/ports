@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/p5-libvorbis/pkg/PLIST,v 1.7 2006/07/14 18:38:23 steven Exp $
+@comment $OpenBSD$
 @comment bin/pogg
 ${P5ARCH}/
 ${P5ARCH}/Ogg/

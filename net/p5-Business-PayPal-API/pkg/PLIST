@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Business-PayPal-API/pkg/PLIST,v 1.1.1.1 2010/10/23 16:05:53 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Business/PayPal/
 ${P5SITE}/Business/PayPal/API/
 ${P5SITE}/Business/PayPal/API.pm

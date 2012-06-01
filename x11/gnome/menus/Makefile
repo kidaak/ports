@@ -1,11 +1,11 @@
-# $OpenBSD: ports/x11/gnome/menus/Makefile,v 1.57 2012/03/29 06:46:57 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 
 COMMENT=		implementation of the FreeDesktop Desktop Menu Spec
 
 GNOME_PROJECT=		gnome-menus
-GNOME_VERSION=		3.4.0
+GNOME_VERSION=		3.4.2
 
 SHARED_LIBS +=  gnome-menu-3         0.0      # 0.0
 

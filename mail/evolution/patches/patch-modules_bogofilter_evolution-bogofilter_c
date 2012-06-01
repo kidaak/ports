@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/evolution/patches/patch-modules_bogofilter_evolution-bogofilter_c,v 1.2 2012/03/29 06:56:25 ajacoutot Exp $
+$OpenBSD$
 --- modules/bogofilter/evolution-bogofilter.c.orig	Fri Mar  9 17:33:42 2012
 +++ modules/bogofilter/evolution-bogofilter.c	Wed Mar 28 09:19:52 2012
 @@ -33,7 +33,7 @@

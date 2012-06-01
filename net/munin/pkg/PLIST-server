@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/munin/pkg/PLIST-server,v 1.3 2011/05/11 12:03:19 jasper Exp $
+@comment $OpenBSD$
 @extraunexec rm -rf /var/www/htdocs/munin/*
 @extraunexec rm -rf /var/db/munin/*
 @owner _munin

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/httperf/Makefile,v 1.3 2010/11/15 00:22:49 espie Exp $
+# $OpenBSD$
 
 COMMENT =		web server performance testing tool
 

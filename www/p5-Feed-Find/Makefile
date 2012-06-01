@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Feed-Find/Makefile,v 1.6 2011/03/23 07:43:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		autodiscover syndication feeds
 

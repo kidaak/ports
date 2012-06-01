@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/ruby-fastri/pkg/PLIST,v 1.5 2010/11/08 23:24:42 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/fastri-server${GEM_BIN_SUFFIX}
 ${GEM_BIN}/fri${GEM_BIN_SUFFIX}
 ${GEM_BIN}/qri${GEM_BIN_SUFFIX}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/ctwm/Makefile,v 1.21 2010/10/24 21:15:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	twm, plus support for multiple virtual screens, etc
 

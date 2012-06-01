@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gupnp/core/patches/patch-libgupnp_gupnp-unix-context-manager_c,v 1.1 2011/07/05 17:27:15 jasper Exp $
+$OpenBSD$
 
 Fix a warning:
 /usr/include/arpa/inet.h:74: warning: 'struct in_addr' declared inside parameter list

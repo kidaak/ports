@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/menu_force/Makefile,v 1.4 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	make the Menu Settings required on specific content types
 

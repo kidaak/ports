@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/freetype/Makefile,v 1.43 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.6 1998/06/21 02:42:33 jseger Exp $
 
 COMMENT-main=	free and portable TrueType font rendering engine

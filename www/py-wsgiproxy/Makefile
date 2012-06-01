@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-wsgiproxy/Makefile,v 1.7 2011/11/13 03:54:45 fgsch Exp $
+# $OpenBSD$
 
 COMMENT =	http proxying tools for wsgi apps
 

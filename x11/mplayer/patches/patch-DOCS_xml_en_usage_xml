@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mplayer/patches/patch-DOCS_xml_en_usage_xml,v 1.1 2010/11/08 21:25:44 edd Exp $
+$OpenBSD$
 --- DOCS/xml/en/usage.xml.orig	Tue Oct 26 12:49:00 2010
 +++ DOCS/xml/en/usage.xml	Tue Oct 26 12:50:35 2010
 @@ -452,7 +452,7 @@ syntax is the same, except that you need to use dvdnav

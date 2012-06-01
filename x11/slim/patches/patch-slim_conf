@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/slim/patches/patch-slim_conf,v 1.5 2010/08/24 11:37:50 landry Exp $
+$OpenBSD$
 --- slim.conf.orig	Thu Jul  8 07:04:10 2010
 +++ slim.conf	Mon Aug 23 21:40:33 2010
 @@ -1,17 +1,17 @@

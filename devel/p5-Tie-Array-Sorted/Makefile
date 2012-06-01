@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Tie-Array-Sorted/Makefile,v 1.10 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	array which is kept ordered
 

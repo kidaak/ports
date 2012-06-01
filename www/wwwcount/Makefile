@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/wwwcount/Makefile,v 1.29 2010/10/19 08:02:58 espie Exp $
+# $OpenBSD$
 
 COMMENT=	access counter, clock and date for WWW pages
 

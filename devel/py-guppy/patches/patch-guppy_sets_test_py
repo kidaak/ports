@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-guppy/patches/patch-guppy_sets_test_py,v 1.1.1.1 2011/11/17 17:12:11 kili Exp $
+$OpenBSD$
 
 Python-2.7 fix from upstream svn.
 

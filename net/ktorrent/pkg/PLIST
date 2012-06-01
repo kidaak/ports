@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ktorrent/pkg/PLIST,v 1.8 2009/12/22 00:31:23 sthen Exp $
+@comment $OpenBSD$
 @bin bin/ktcachecheck
 @bin bin/ktorrent
 bin/ktshell

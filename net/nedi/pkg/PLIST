@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nedi/pkg/PLIST,v 1.1 2012/02/17 21:41:08 mglocker Exp $
+@comment $OpenBSD$
 nedi/
 nedi/License.txt
 nedi/conf/

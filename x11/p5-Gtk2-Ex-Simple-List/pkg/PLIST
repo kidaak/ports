@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Gtk2-Ex-Simple-List/pkg/PLIST,v 1.1.1.1 2009/09/05 08:40:01 landry Exp $
+@comment $OpenBSD$
 ${P5SITE}/Gtk2/
 ${P5SITE}/Gtk2/Ex/
 ${P5SITE}/Gtk2/Ex/Simple/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/ps2eps/pkg/PLIST,v 1.2 2010/11/23 21:26:46 jasper Exp $
+@comment $OpenBSD$
 @bin bin/bbox
 bin/ps2eps
 @man man/man1/bbox.1

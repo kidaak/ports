@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/munin/patches/patch-plugins_node_d_colour_tester_in,v 1.1 2010/10/23 15:52:23 sthen Exp $
+$OpenBSD$
 
 doesn't use bash
 

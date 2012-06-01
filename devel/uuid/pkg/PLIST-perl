@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/uuid/pkg/PLIST-perl,v 1.9 2011/07/12 09:10:22 jasper Exp $
+@comment $OpenBSD$
 @conflict p5-UUID-*
 @pkgpath devel/uuid,-perl
 @comment libdata/perl5/${MACHINE_ARCH}-openbsd/5.12.2/

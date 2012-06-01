@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/xmlto/pkg/PLIST,v 1.1.1.1 2006/11/03 14:00:21 msf Exp $
+@comment $OpenBSD$
 bin/xmlif
 bin/xmlto
 @man man/man1/xmlif.1

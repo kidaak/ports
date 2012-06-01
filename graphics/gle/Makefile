@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gle/Makefile,v 1.18 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		OpenGL Extrusion library
 

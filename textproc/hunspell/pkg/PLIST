@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/hunspell/pkg/PLIST,v 1.2 2010/11/14 14:25:24 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/affixcompress
 @bin bin/analyze

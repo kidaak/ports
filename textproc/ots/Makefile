@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ots/Makefile,v 1.12 2011/11/03 20:13:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	open source tool for summarizing texts
 DISTNAME=	ots-0.4.2

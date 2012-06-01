@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-MethodAttributes/Makefile,v 1.7 2012/04/07 14:28:57 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	code attribute introspection
 

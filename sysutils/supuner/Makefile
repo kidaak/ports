@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/supuner/Makefile,v 1.1.1.1 2011/07/04 20:04:54 edd Exp $
+# $OpenBSD$
 
 COMMENT =		SUPress command stdout / stderr UNless ERror
 

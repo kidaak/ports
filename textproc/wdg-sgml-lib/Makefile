@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/wdg-sgml-lib/Makefile,v 1.9 2010/11/10 22:24:16 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	collection of HTML, XHTML, ISO-HTML, WML and MathML DTDs
 

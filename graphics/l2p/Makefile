@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/l2p/Makefile,v 1.10 2011/07/23 13:32:44 espie Exp $
+# $OpenBSD$
 
 COMMENT=		create PNG images from LaTeX expressions
 

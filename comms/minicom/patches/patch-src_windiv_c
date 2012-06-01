@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/minicom/patches/patch-src_windiv_c,v 1.4 2012/03/19 22:17:43 sthen Exp $
+$OpenBSD$
 --- src/windiv.c.orig	Sat Dec 12 15:47:47 2009
 +++ src/windiv.c	Fri Mar 16 22:24:59 2012
 @@ -20,6 +20,7 @@

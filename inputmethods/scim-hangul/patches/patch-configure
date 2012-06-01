@@ -1,4 +1,4 @@
-$OpenBSD: ports/inputmethods/scim-hangul/patches/patch-configure,v 1.2 2010/09/21 19:39:25 fgsch Exp $
+$OpenBSD$
 --- configure.orig	Tue Sep 21 20:31:49 2010
 +++ configure	Tue Sep 21 20:31:43 2010
 @@ -6642,7 +6642,7 @@ fi

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/maildrop/patches/patch-maildrop_configure,v 1.5 2010/07/08 16:35:58 giovanni Exp $
+$OpenBSD$
 --- maildrop/configure.orig	Sun May 30 23:36:43 2010
 +++ maildrop/configure	Fri Jun 25 09:17:14 2010
 @@ -16697,16 +16697,12 @@ fi

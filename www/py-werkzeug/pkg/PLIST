@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-werkzeug/pkg/PLIST,v 1.4 2011/12/31 15:06:41 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Werkzeug-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/Werkzeug-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/Werkzeug-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

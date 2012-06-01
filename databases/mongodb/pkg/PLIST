@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/mongodb/pkg/PLIST,v 1.2 2011/10/03 16:38:21 fgsch Exp $
+@comment $OpenBSD$
 @newgroup _mongodb:670
 @newuser _mongodb:670:670:daemon:MongoDB Account:/nonexistent:/sbin/nologin
 %%SHARED%%

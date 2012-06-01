@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/ratpoison/pkg/PLIST,v 1.8 2009/02/09 18:36:49 martynas Exp $
+@comment $OpenBSD$
 @bin bin/ratpoison
 bin/rpws
 @info info/ratpoison.info

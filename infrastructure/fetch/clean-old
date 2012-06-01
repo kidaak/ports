@@ -3,7 +3,7 @@
 # This script actually produces another shell-script that you may edit
 # before executing.
 
-# $OpenBSD: ports/infrastructure/fetch/clean-old,v 1.5 2008/05/16 17:06:54 espie Exp $
+# $OpenBSD$
 #
 # Copyright (c) 2000 Marc Espie.
 # 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/rabbitmq/Makefile,v 1.14 2012/01/13 20:54:25 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	highly reliable Enterprise Messaging System
 

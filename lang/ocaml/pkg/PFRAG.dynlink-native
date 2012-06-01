@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/ocaml/pkg/PFRAG.dynlink-native,v 1.1 2010/12/07 15:01:35 dcoppa Exp $
+@comment $OpenBSD$
 @bin lib/ocaml/bigarray.cmxs
 @bin lib/ocaml/dbm.cmxs
 lib/ocaml/dynlink.a

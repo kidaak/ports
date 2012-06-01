@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/pacpl/pkg/PLIST-amarok,v 1.2 2008/12/23 15:52:42 ajacoutot Exp $
+@comment $OpenBSD$
 share/apps/
 share/apps/amarok/
 share/apps/amarok/scripts/

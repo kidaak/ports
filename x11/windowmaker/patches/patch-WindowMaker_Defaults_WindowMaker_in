@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/windowmaker/patches/patch-WindowMaker_Defaults_WindowMaker_in,v 1.1 2005/11/01 17:28:34 wilfried Exp $
+$OpenBSD$
 --- WindowMaker/Defaults/WindowMaker.in.orig	Wed Oct 27 05:01:38 2004
 +++ WindowMaker/Defaults/WindowMaker.in	Mon Oct 31 18:52:02 2005
 @@ -15,7 +15,7 @@

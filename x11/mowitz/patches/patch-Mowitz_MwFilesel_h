@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mowitz/patches/patch-Mowitz_MwFilesel_h,v 1.1 2008/12/01 19:16:39 jasper Exp $
+$OpenBSD$
 --- Mowitz/MwFilesel.h.orig	Mon Dec  1 13:18:42 2008
 +++ Mowitz/MwFilesel.h	Mon Dec  1 13:19:28 2008
 @@ -18,3 +18,4 @@

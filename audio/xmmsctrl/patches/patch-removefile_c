@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmmsctrl/patches/patch-removefile_c,v 1.1.1.1 2007/10/26 20:22:42 jasper Exp $
+$OpenBSD$
 --- removefile.c.orig	Wed Oct  3 17:23:48 2007
 +++ removefile.c	Wed Oct  3 17:25:15 2007
 @@ -193,7 +193,7 @@ void remove_file(gint session, char *filename) {

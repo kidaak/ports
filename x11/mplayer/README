@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mplayer/README,v 1.4 2011/08/17 15:12:15 edd Exp $
+$OpenBSD$
 
 Porting notes for MPlayer
 =========================

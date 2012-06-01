@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/gargoyle/Makefile,v 1.12 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

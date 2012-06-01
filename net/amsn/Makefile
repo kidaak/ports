@@ -1,4 +1,4 @@
-#$OpenBSD: ports/net/amsn/Makefile,v 1.21 2012/04/05 16:08:55 jasper Exp $
+#$OpenBSD$
 
 COMMENT=	open source MSN Messenger clone
 

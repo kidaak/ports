@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/mk/cpan.port.mk,v 1.17 2011/11/27 14:59:21 jasper Exp $
+# $OpenBSD$
 
 PKGNAME ?=	p5-${DISTNAME}
 .if !defined(CPAN_AUTHOR)

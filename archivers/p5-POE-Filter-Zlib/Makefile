@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/p5-POE-Filter-Zlib/Makefile,v 1.4 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		POE filter wrapped around Compress::Zlib
 

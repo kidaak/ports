@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/sane-backends/pkg/PLIST,v 1.15 2011/06/16 10:14:58 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _saned:553
 @newuser _saned:553:_saned:daemon:SANE Scanner Daemon:/var/empty:/sbin/nologin
 @extraunexec rm -rf /var/spool/lock/sane/*

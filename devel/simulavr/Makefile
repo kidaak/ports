@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/simulavr/Makefile,v 1.5 2011/11/15 18:55:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	AVR simulator
 

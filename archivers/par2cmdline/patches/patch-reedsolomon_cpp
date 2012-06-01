@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/par2cmdline/patches/patch-reedsolomon_cpp,v 1.1 2010/05/09 15:30:53 robert Exp $
+$OpenBSD$
 --- reedsolomon.cpp.orig	Sun May  9 17:26:56 2010
 +++ reedsolomon.cpp	Sun May  9 17:28:12 2010
 @@ -51,7 +51,7 @@ u32 gcd(u32 a, u32 b)

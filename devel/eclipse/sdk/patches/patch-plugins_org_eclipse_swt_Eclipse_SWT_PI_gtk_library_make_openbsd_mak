@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_swt_Eclipse_SWT_PI_gtk_library_make_openbsd_mak,v 1.6 2007/04/06 02:16:21 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.swt/Eclipse SWT PI/gtk/library/make_openbsd.mak.orig	Thu Apr  5 08:12:42 2007
 +++ plugins/org.eclipse.swt/Eclipse SWT PI/gtk/library/make_openbsd.mak	Thu Apr  5 08:59:10 2007
 @@ -30,18 +30,18 @@ PROFILE17_PREFIX = swt-mozilla17-profile$(GCC_VERSION)

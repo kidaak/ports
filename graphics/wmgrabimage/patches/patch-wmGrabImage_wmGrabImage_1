@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/wmgrabimage/patches/patch-wmGrabImage_wmGrabImage_1,v 1.2 2008/06/20 10:49:42 martynas Exp $
+$OpenBSD$
 --- wmGrabImage/wmGrabImage.1.orig	Sun May 27 21:02:18 2001
 +++ wmGrabImage/wmGrabImage.1	Thu Jun 19 20:44:48 2008
 @@ -1,6 +1,6 @@

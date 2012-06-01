@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Aliases/Makefile,v 1.1.1.1 2011/11/16 14:55:51 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	easy aliasing of methods and attributes
 

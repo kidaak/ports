@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/emacs-haskell/pkg/PLIST,v 1.1.1.1 2011/11/12 11:49:29 jasper Exp $
+@comment $OpenBSD$
 share/doc/emacs-haskell/
 share/doc/emacs-haskell/README
 share/emacs/

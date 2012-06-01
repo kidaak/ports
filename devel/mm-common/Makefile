@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mm-common/Makefile,v 1.5 2012/03/19 10:28:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	common build utilities for GNOME C++ binding libraries
 

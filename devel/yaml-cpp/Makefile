@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/yaml-cpp/Makefile,v 1.2 2012/03/03 10:33:47 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		YAML parser and emitter in C++
 DISTNAME =		yaml-cpp-0.3.0

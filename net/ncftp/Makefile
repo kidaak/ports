@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ncftp/Makefile,v 1.42 2011/11/19 15:58:21 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	ftp replacement with advanced user interface
 

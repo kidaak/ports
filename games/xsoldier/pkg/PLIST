@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xsoldier/pkg/PLIST,v 1.11 2009/12/19 16:03:54 benoit Exp $
+@comment $OpenBSD$
 @mode 2755
 @group games
 @bin bin/xsoldier

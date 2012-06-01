@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/mftrace/Makefile,v 1.2 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Scalable PostScript fonts for MetaFont
 

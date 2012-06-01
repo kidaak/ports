@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/projectcenter/patches/patch-Modules_Preferences_Build_PCBuildPrefs_h,v 1.2 2011/04/18 12:41:18 sebastia Exp $
+$OpenBSD$
 
 GNUstep requires gmake, so let it point to gmake by default.
 

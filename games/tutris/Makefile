@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/tutris/Makefile,v 1.11 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	graphical tetris clone
 DISTNAME=	Tutris-1.0.1

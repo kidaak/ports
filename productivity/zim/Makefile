@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/zim/Makefile,v 1.6 2011/12/03 23:04:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		desktop wiki
 

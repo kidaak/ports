@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/mediatomb/patches/patch-tombupnp_threadutil_src_ThreadPool_c,v 1.2 2010/11/09 13:26:31 jasper Exp $
+$OpenBSD$
 --- tombupnp/threadutil/src/ThreadPool.c.orig	Thu Mar 25 10:58:13 2010
 +++ tombupnp/threadutil/src/ThreadPool.c	Sun Nov  7 12:25:04 2010
 @@ -372,8 +372,10 @@ tp->stats.totalJobsLQ++; tp->stats.totalTimeLQ += diff

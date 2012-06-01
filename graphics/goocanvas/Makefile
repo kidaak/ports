@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/goocanvas/Makefile,v 1.13 2011/11/02 08:46:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		canvas widget for GTK+ based on Cairo
 

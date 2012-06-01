@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mono-gdata/Makefile,v 1.2 2011/11/02 09:10:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	.NET library for the Google Data API
 

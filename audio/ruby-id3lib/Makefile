@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/ruby-id3lib/Makefile,v 1.18 2011/11/27 11:11:48 pirofti Exp $
+# $OpenBSD$
 
 COMMENT=	Ruby interface to the id3lib C++ library
 

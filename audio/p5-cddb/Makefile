@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-cddb/Makefile,v 1.24 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interface to CDDB and freedb servers
 

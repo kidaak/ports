@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ratproxy/Makefile,v 1.5 2011/04/16 21:13:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		passive web application security assessment tool
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/hot-babe/Makefile,v 1.20 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	small utility which displays system activity
 

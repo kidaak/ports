@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gammapage/Makefile,v 1.7 2011/09/16 12:29:13 espie Exp $
+# $OpenBSD$
 
 COMMENT=	gamma-adjusting utility
 

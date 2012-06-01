@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/zeya/patches/patch-doc_zeyaclient_1,v 1.1.1.1 2011/07/20 07:54:58 dcoppa Exp $
+$OpenBSD$
 --- doc/zeyaclient.1.orig	Mon Jul 11 11:15:58 2011
 +++ doc/zeyaclient.1	Mon Jul 11 11:16:29 2011
 @@ -35,7 +35,3 @@ to return to the prompt.

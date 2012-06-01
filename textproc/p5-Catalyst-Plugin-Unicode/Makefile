@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Catalyst-Plugin-Unicode/Makefile,v 1.9 2012/04/08 22:04:35 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	unicode-aware catalyst (old style)
 

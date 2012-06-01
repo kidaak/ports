@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/python/2.5/patches/patch-configure_in,v 1.7 2011/12/10 19:06:03 naddy Exp $
+$OpenBSD$
 --- configure.in.orig	Sun Dec 14 01:13:52 2008
 +++ configure.in	Mon Dec 15 20:13:14 2008
 @@ -201,7 +201,7 @@ case $ac_sys_system/$ac_sys_release in

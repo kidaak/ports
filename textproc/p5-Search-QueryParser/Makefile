@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Search-QueryParser/Makefile,v 1.4 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	parses a query string suitable for external search engines
 

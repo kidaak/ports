@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/Makefile.inc,v 1.10 2011/04/05 19:53:03 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY?=	Yes
 

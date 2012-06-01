@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-rtex/patches/patch-lib_rtex_tempdir_rb,v 1.1.1.1 2010/12/23 13:58:04 claudio Exp $
+$OpenBSD$
 --- lib/rtex/tempdir.rb.orig	Thu Jan  1 01:00:00 1970
 +++ lib/rtex/tempdir.rb	Sun Dec 19 20:05:25 2010
 @@ -40,13 +40,15 @@ module RTeX

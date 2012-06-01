@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/ghostscript/gnu/patches/patch-base_lib_mak,v 1.2 2011/11/16 12:43:23 kili Exp $
+$OpenBSD$
 --- base/lib.mak.orig	Fri Aug  5 13:12:20 2011
 +++ base/lib.mak	Mon Nov 14 13:41:09 2011
 @@ -27,12 +27,12 @@ AUXO_=$(O_)$(AUX)

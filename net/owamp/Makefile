@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/owamp/Makefile,v 1.1.1.1 2011/07/08 09:31:06 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	rfc4656 one-way active measurement protocol
 

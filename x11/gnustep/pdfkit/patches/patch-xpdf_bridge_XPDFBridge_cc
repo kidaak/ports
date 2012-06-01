@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/pdfkit/patches/patch-xpdf_bridge_XPDFBridge_cc,v 1.1 2011/10/04 12:53:38 sebastia Exp $
+$OpenBSD$
 
 fix api changes from 3.02 -> 3.03
 

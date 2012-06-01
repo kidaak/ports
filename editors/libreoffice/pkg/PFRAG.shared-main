@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/libreoffice/pkg/PFRAG.shared-main,v 1.7 2012/04/03 08:56:50 robert Exp $
+@comment $OpenBSD$
 lib/libreoffice/program/basprov.uno.so
 lib/libreoffice/program/cairocanvas.uno.so
 lib/libreoffice/program/canvasfactory.uno.so

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libdmtx/Makefile,v 1.1.1.1 2012/01/14 08:55:17 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =		library for handling data matrix barcodes
 

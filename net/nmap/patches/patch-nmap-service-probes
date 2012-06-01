@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nmap/patches/patch-nmap-service-probes,v 1.1 2011/10/05 15:07:53 giovanni Exp $
+$OpenBSD$
 Remove POSIX collating elements in regexps
 From upstream: http://seclists.org/nmap-dev/2011/q3/640
 --- nmap-service-probes.orig	Thu Jan 20 11:09:04 2011

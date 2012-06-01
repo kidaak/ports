@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-HsSyck/Makefile,v 1.7 2011/12/31 22:19:45 kili Exp $
+# $OpenBSD$
 
 COMMENT =		fast, lightweight YAML loader and dumper
 

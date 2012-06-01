@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/security/clamav/pkg/clamav_milter.rc,v 1.2 2012/01/21 23:13:59 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/clamav-milter"
 

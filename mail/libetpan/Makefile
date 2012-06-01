@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/libetpan/Makefile,v 1.12 2011/12/15 21:11:55 kili Exp $
+# $OpenBSD$
 
 COMMENT=	mail purpose library
 

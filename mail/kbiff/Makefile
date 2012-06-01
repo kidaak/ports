@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/kbiff/Makefile,v 1.34 2011/09/16 10:31:21 espie Exp $
+# $OpenBSD$
 
 COMMENT=		new mail notification utility for KDE
 

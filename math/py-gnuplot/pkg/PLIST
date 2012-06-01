@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/py-gnuplot/pkg/PLIST,v 1.3 2009/05/19 13:56:20 benoit Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/Gnuplot/
 lib/python${MODPY_VERSION}/site-packages/Gnuplot/Errors.py
 lib/python${MODPY_VERSION}/site-packages/Gnuplot/Errors.pyc

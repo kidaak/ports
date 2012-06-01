@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/x3270/Makefile,v 1.10 2011/11/04 08:21:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	IBM 3270 terminal emulator for the X Window System
 

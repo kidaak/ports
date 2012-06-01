@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/cfitsio/patches/patch-configure_in,v 1.1.1.1 2006/06/12 11:14:08 espie Exp $
+$OpenBSD$
 --- configure.in.orig	Thu Jul 28 23:26:00 2005
 +++ configure.in	Mon Jun 12 13:04:54 2006
 @@ -307,7 +307,8 @@ AC_MSG_RESULT("yes")

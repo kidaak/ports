@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/apache-httpd/patches/patch-docs_man_apachectl_8,v 1.2 2007/03/25 17:40:55 deanna Exp $
+$OpenBSD$
 --- docs/man/apachectl.8.orig	Tue Sep 20 10:54:17 2005
 +++ docs/man/apachectl.8	Sun Mar 25 13:21:03 2007
 @@ -19,56 +19,56 @@

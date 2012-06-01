@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms-shn/patches/patch-configure,v 1.5 2008/01/14 01:16:37 jakemsr Exp $
+$OpenBSD$
 --- configure.orig	Fri Dec 28 21:33:34 2007
 +++ configure	Fri Dec 28 21:34:21 2007
 @@ -11102,7 +11102,7 @@ else

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/axel/Makefile,v 1.4 2011/01/05 06:47:08 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	tiny download accelerator
 DISTNAME=	axel-2.4

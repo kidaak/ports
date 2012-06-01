@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/tcl/8.4/patches/patch-unix_Makefile_in,v 1.2 2011/01/05 16:19:48 stu Exp $
+$OpenBSD$
 --- unix/Makefile.in.orig	Thu Apr 17 16:29:49 2008
 +++ unix/Makefile.in	Sun Oct  3 08:48:18 2010
 @@ -485,6 +485,10 @@ ${STUB_LIB_FILE}: ${STUB_LIB_OBJS}

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xbattle/pkg/PLIST,v 1.4 2004/09/15 00:46:11 espie Exp $
+@comment $OpenBSD$
 bin/xbattle
 @man man/cat1/xbattle.0
 share/doc/xbattle/

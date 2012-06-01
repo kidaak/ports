@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/avr/gcc/Makefile,v 1.22 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Atmel AVR 8-bit RISC microcontrollers' XGCC
 

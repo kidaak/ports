@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/petite-chez/patches/patch-custom_Mf-install_in,v 1.2 2011/11/11 20:12:51 jasper Exp $
+$OpenBSD$
 
 Fix example path and don't install with restrictive permissions.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pysvn/patches/patch-Source_pysvn_svnenv_hpp,v 1.1 2011/10/28 11:11:32 stsp Exp $
+$OpenBSD$
 --- Source/pysvn_svnenv.hpp.orig	Fri Oct 28 11:15:42 2011
 +++ Source/pysvn_svnenv.hpp	Fri Oct 28 11:17:27 2011
 @@ -21,6 +21,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/queso/Makefile,v 1.16 2010/10/18 18:36:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=	determine remote OS using simple tcp packets
 

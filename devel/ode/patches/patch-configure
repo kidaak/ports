@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ode/patches/patch-configure,v 1.2 2009/08/06 10:59:21 jasper Exp $
+$OpenBSD$
 
 s/-lpthread/-pthread/
 

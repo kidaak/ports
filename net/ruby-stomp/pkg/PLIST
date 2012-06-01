@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ruby-stomp/pkg/PLIST,v 1.2 2010/11/08 23:24:42 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/catstomp${GEM_BIN_SUFFIX}
 ${GEM_BIN}/stompcat${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem

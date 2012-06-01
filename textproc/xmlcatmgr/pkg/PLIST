@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/xmlcatmgr/pkg/PLIST,v 1.1.1.1 2006/05/22 22:57:50 alek Exp $
+@comment $OpenBSD$
 bin/xmlcatmgr
 @man man/man1/xmlcatmgr.1
 share/doc/xmlcatmgr/

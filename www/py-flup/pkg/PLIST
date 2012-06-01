@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-flup/pkg/PLIST,v 1.3 2011/01/02 20:50:55 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/flup/
 lib/python${MODPY_VERSION}/site-packages/flup-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/flup-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

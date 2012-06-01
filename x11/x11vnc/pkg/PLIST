@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/x11vnc/pkg/PLIST,v 1.7 2010/11/09 10:52:22 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/x11vnc
 include/rfb/
 include/rfb/keysym.h

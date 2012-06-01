@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Time-Duration/Makefile,v 1.3 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=        module for rounded or exact english expression of durations
 

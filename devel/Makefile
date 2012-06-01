@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/Makefile,v 1.1032 2012/04/13 20:41:47 okan Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.85 1997/11/20 05:22:14 asami Exp $
 
      SUBDIR =
@@ -9,11 +9,8 @@
      SUBDIR += alex
      SUBDIR += apache-ant
      SUBDIR += apr
-     SUBDIR += apr,mt
      SUBDIR += apr-util
      SUBDIR += apr-util,ldap
-     SUBDIR += apr-util,mt
-     SUBDIR += apr-util,mt,ldap
      SUBDIR += arduino
      SUBDIR += argp-standalone
      SUBDIR += argtable
@@ -120,6 +117,7 @@
      SUBDIR += git
      SUBDIR += git-cola
      SUBDIR += glade
+     SUBDIR += glade3
      SUBDIR += glib
      SUBDIR += glib2
      SUBDIR += glib2mm
@@ -160,7 +158,9 @@
      SUBDIR += hs-QuickCheck
      SUBDIR += hs-aeson
      SUBDIR += hs-ansi-terminal
+     SUBDIR += hs-ansi-wl-pprint
      SUBDIR += hs-atom
+     SUBDIR += hs-base-unicode-symbols
      SUBDIR += hs-base16-bytestring
      SUBDIR += hs-base64-bytestring
      SUBDIR += hs-bimap
@@ -171,8 +171,11 @@
      SUBDIR += hs-case-insensitive
      SUBDIR += hs-cereal
      SUBDIR += hs-cmdargs
+     SUBDIR += hs-cmdlib
      SUBDIR += hs-comonad
      SUBDIR += hs-comonad-transformers
+     SUBDIR += hs-concurrent-extra
+     SUBDIR += hs-configurator
      SUBDIR += hs-contravariant
      SUBDIR += hs-control-timeout
      SUBDIR += hs-convertible
@@ -225,15 +228,22 @@
      SUBDIR += hs-semigroupoids
      SUBDIR += hs-semigroups
      SUBDIR += hs-sendfile
+     SUBDIR += hs-shellish
+     SUBDIR += hs-split
      SUBDIR += hs-stm
+     SUBDIR += hs-strict
      SUBDIR += hs-stringtable-atom
      SUBDIR += hs-syb
      SUBDIR += hs-tagged
      SUBDIR += hs-tar
      SUBDIR += hs-terminfo
+     SUBDIR += hs-test-framework
+     SUBDIR += hs-test-framework-hunit
+     SUBDIR += hs-test-framework-quickcheck2
      SUBDIR += hs-text
      SUBDIR += hs-transformers
      SUBDIR += hs-type-level
+     SUBDIR += hs-unbounded-delays
      SUBDIR += hs-uniplate
      SUBDIR += hs-unix-compat
      SUBDIR += hs-unordered-containers
@@ -333,6 +343,7 @@
      SUBDIR += libyaml
      SUBDIR += libyubikey
      SUBDIR += llvm
+     SUBDIR += log4c
      SUBDIR += log4cplus
      SUBDIR += lpc21isp
      SUBDIR += lpeg
@@ -375,8 +386,10 @@
      SUBDIR += nant
      SUBDIR += nasm
      SUBDIR += netbeans
+     SUBIDR += node-expresso
      SUBDIR += node-fibers
      SUBDIR += node-generic-pool
+     SUBDIR += node-mnm
      SUBDIR += nspr
      SUBDIR += ocaml-calendar
      SUBDIR += ocaml-pcre
@@ -505,8 +518,8 @@
      SUBDIR += p5-Data-Compare
      SUBDIR += p5-Data-Dump
      SUBDIR += p5-Data-Dump-Streamer
-     SUBDIR += p5-Data-Dumper-Simple
      SUBDIR += p5-Data-Dumper-Concise
+     SUBDIR += p5-Data-Dumper-Simple
      SUBDIR += p5-Data-Flow
      SUBDIR += p5-Data-FormValidator
      SUBDIR += p5-Data-HexDump
@@ -543,6 +556,7 @@
      SUBDIR += p5-DateTime-Format-MySQL
      SUBDIR += p5-DateTime-Format-Natural
      SUBDIR += p5-DateTime-Format-Pg
+     SUBDIR += p5-DateTime-Format-SQLite
      SUBDIR += p5-DateTime-Format-Strptime
      SUBDIR += p5-DateTime-Format-W3CDTF
      SUBDIR += p5-DateTime-Locale
@@ -685,10 +699,10 @@
      SUBDIR += p5-Log-Dispatch-FileRotate
      SUBDIR += p5-Log-Log4perl
      SUBDIR += p5-Log-Trace
-     SUBDIR += p5-Memoize-ExpireLRU
      SUBDIR += p5-MLDBM
      SUBDIR += p5-MLDBM-Sync
      SUBDIR += p5-MRO-Compat
+     SUBDIR += p5-Memoize-ExpireLRU
      SUBDIR += p5-Module-Find
      SUBDIR += p5-Module-Install
      SUBDIR += p5-Module-Manifest
@@ -699,6 +713,7 @@
      SUBDIR += p5-Module-Starter
      SUBDIR += p5-Module-Starter-Plugin-CGIApp
      SUBDIR += p5-Module-Versions-Report
+     SUBDIR += p5-Module-Which
      SUBDIR += p5-Moose
      SUBDIR += p5-MooseX-Aliases
      SUBDIR += p5-MooseX-AttributeHelpers
@@ -732,6 +747,7 @@
      SUBDIR += p5-MooseX-Types-Path-Class
      SUBDIR += p5-MooseX-Types-Structured
      SUBDIR += p5-Mouse
+     SUBDIR += p5-MouseX-Types
      SUBDIR += p5-Net-Server
      SUBDIR += p5-Number-Compare
      SUBDIR += p5-Number-Compare-Date
@@ -816,6 +832,7 @@
      SUBDIR += p5-String-CRC32
      SUBDIR += p5-String-Format
      SUBDIR += p5-String-Scanf
+     SUBDIR += p5-String-Truncate
      SUBDIR += p5-Sub-Exporter
      SUBDIR += p5-Sub-Identify
      SUBDIR += p5-Sub-Install
@@ -841,6 +858,7 @@
      SUBDIR += p5-Term-Screen
      SUBDIR += p5-Term-ScreenColor
      SUBDIR += p5-Term-Shell
+     SUBDIR += p5-Term-Size
      SUBDIR += p5-Test-Assertions
      SUBDIR += p5-Test-Base
      SUBDIR += p5-Test-CheckManifest
@@ -918,6 +936,7 @@
      SUBDIR += p5-Time-Piece-MySQL
      SUBDIR += p5-Time-Progress
      SUBDIR += p5-Time-TimeDate
+     SUBDIR += p5-Time-Warp
      SUBDIR += p5-Time-modules
      SUBDIR += p5-Tree-DAG_Node
      SUBDIR += p5-Tree-Simple
@@ -1084,7 +1103,6 @@
      SUBDIR += re2c
      SUBDIR += readline
      SUBDIR += remake
-     SUBDIR += rsvndump
      SUBDIR += ruby-abstract
      SUBDIR += ruby-actionpack
      SUBDIR += ruby-activemodel
@@ -1192,7 +1210,6 @@
      SUBDIR += stm32loader
      SUBDIR += stp
      SUBDIR += subversion
-     SUBDIR += subversion,gnome_keyring
      SUBDIR += svk
      SUBDIR += swig
      SUBDIR += t1lib

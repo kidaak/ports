@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/akpop3d/patches/patch-main_c,v 1.2 2005/12/14 06:02:09 jolan Exp $
+$OpenBSD$
 --- main.c.orig	Sun Aug  3 00:54:56 2003
 +++ main.c	Mon Nov 28 11:25:21 2005
 @@ -23,26 +23,34 @@

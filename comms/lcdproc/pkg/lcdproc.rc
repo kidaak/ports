@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/comms/lcdproc/pkg/lcdproc.rc,v 1.1.1.1 2011/12/01 19:05:11 edd Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/lcdproc"
 daemon_user="_lcdproc"

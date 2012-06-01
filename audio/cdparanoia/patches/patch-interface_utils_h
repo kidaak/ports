@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/cdparanoia/patches/patch-interface_utils_h,v 1.4 2007/10/27 15:01:53 espie Exp $
+$OpenBSD$
 --- interface/utils.h.orig	Thu Apr 20 00:41:04 2000
 +++ interface/utils.h	Sat Oct 27 16:57:49 2007
 @@ -1,4 +1,16 @@

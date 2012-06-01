@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gnugk/patches/patch-docs_gnugk_1,v 1.5 2012/01/05 08:44:35 ajacoutot Exp $
+$OpenBSD$
 --- docs/gnugk.1.orig	Sun Aug  7 09:23:04 2011
 +++ docs/gnugk.1	Thu Jan  5 09:29:45 2012
 @@ -81,7 +81,7 @@ Write trace log to the specified file.

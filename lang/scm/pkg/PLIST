@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/scm/pkg/PLIST,v 1.7 2009/01/21 18:30:16 kili Exp $
+@comment $OpenBSD$
 @bin bin/scm
 @bin bin/scm-sicp
 @bin bin/scmlit

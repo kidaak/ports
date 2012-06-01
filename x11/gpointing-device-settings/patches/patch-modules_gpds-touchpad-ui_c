@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gpointing-device-settings/patches/patch-modules_gpds-touchpad-ui_c,v 1.1.1.1 2011/08/31 15:15:25 mpi Exp $
+$OpenBSD$
 
 Bug: https://bugzilla.gnome.org/show_bug.cgi?id=613022
 Fix: http://git.gnome.org/browse/gpointing-device-settings/commit/?id=70add06dec8413965f3e98b6ba9a3c82168ea72c

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xawtv/pkg/PLIST,v 1.6 2007/09/28 08:24:42 jakemsr Exp $
+@comment $OpenBSD$
 @conflict cqcam-*
 bin/dump-mixers
 bin/ntsc-cc

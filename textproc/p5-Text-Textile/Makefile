@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Textile/Makefile,v 1.7 2010/10/19 07:54:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=	converts simple text to web constructs
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-smartptr_h,v 1.2 2011/06/24 07:55:18 dcoppa Exp $
+$OpenBSD$
 --- smartptr.h.orig	Wed Jun 18 13:41:43 2008
 +++ smartptr.h	Wed Jun 18 13:42:09 2008
 @@ -189,8 +189,8 @@ template <class T> counted_ptr<T> & counted_ptr<T>::op

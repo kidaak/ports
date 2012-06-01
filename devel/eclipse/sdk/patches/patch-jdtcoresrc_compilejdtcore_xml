@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-jdtcoresrc_compilejdtcore_xml,v 1.1 2007/04/13 14:30:43 kurt Exp $
+$OpenBSD$
 --- jdtcoresrc/compilejdtcore.xml.orig	Thu Apr 12 09:22:20 2007
 +++ jdtcoresrc/compilejdtcore.xml	Thu Apr 12 09:22:55 2007
 @@ -32,13 +32,13 @@

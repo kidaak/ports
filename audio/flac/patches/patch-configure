@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/flac/patches/patch-configure,v 1.12 2007/09/24 17:23:55 naddy Exp $
+$OpenBSD$
 --- configure.orig	Tue Sep 18 22:24:27 2007
 +++ configure	Tue Sep 18 22:25:47 2007
 @@ -23490,7 +23490,7 @@ else

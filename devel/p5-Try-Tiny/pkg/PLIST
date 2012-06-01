@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Try-Tiny/pkg/PLIST,v 1.1.1.1 2009/10/26 16:39:57 jim Exp $
+@comment $OpenBSD$
 ${P5SITE}/Try/
 ${P5SITE}/Try/Tiny.pm
 @man man/man3p/Try::Tiny.3p

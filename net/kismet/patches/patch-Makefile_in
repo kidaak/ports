@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/kismet/patches/patch-Makefile_in,v 1.7 2010/11/11 14:11:34 espie Exp $
+$OpenBSD$
 
 # Don't hard code -O2 -Wall.
 # Use BSD_INSTALL_* macros for installation.

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Mechanize-TreeBuilder/Makefile,v 1.8 2011/08/01 19:36:02 stephan Exp $
+# $OpenBSD$
 
 COMMENT= 	combines WWW::Mechanize and HTML::TreeBuilder
 

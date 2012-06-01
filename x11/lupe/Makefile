@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/lupe/Makefile,v 1.23 2010/10/24 21:15:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	real-time magnifying glass for X11
 

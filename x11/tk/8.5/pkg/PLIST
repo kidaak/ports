@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/tk/8.5/pkg/PLIST,v 1.7 2011/10/17 15:19:22 stu Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict tk->=8.5,<8.6
 %%SHARED%%

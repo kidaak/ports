@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/vgrind/Makefile,v 1.4 2011/06/06 19:12:45 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		grind nice listings of programs
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Cache-Memcached/Makefile,v 1.5 2012/04/08 21:58:20 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	distributed cache for Catalyst (deprecated)
 

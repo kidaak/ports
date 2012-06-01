@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xwrits/Makefile,v 1.13 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	typing break alarm and timer
 

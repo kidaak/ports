@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-trollop/pkg/PLIST,v 1.3 2012/01/22 16:36:25 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/FAQ.txt

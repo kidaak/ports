@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/analog/pkg/PLIST,v 1.25 2005/10/12 05:42:31 fgsch Exp $
+@comment $OpenBSD$
 @conflict chipmunk-*
 bin/analog
 share/analog/

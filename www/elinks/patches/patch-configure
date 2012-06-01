@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/elinks/patches/patch-configure,v 1.5 2009/06/16 23:17:33 sthen Exp $
+$OpenBSD$
 --- configure.orig	Sat Mar 21 12:50:25 2009
 +++ configure	Wed Jun 17 00:08:56 2009
 @@ -17596,7 +17596,7 @@ if test -z "$disable_lua"; then

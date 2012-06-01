@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/sudoku-solver/Makefile,v 1.17 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	sudoku puzzle solver with cli, gui, and web ui
 

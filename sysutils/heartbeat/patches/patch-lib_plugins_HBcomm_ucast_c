@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-lib_plugins_HBcomm_ucast_c,v 1.1.1.1 2007/11/21 18:48:39 ajacoutot Exp $
+$OpenBSD$
 --- lib/plugins/HBcomm/ucast.c.orig	Thu Oct 25 09:40:41 2007
 +++ lib/plugins/HBcomm/ucast.c	Mon Nov 12 11:13:26 2007
 @@ -455,6 +455,9 @@ static int HB_make_send_sock(struct hb_media *mp)

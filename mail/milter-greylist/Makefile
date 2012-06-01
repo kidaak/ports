@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/milter-greylist/Makefile,v 1.12 2011/05/13 12:52:22 okan Exp $
+# $OpenBSD$
 
 COMMENT=	greylist milter
 

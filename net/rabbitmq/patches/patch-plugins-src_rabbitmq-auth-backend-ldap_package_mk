@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rabbitmq/patches/patch-plugins-src_rabbitmq-auth-backend-ldap_package_mk,v 1.1 2012/01/13 20:54:25 sthen Exp $
+$OpenBSD$
 --- plugins-src/rabbitmq-auth-backend-ldap/package.mk.orig	Fri Jan 13 20:23:17 2012
 +++ plugins-src/rabbitmq-auth-backend-ldap/package.mk	Fri Jan 13 20:23:20 2012
 @@ -1,7 +1,7 @@

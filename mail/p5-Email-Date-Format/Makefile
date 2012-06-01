@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-Date-Format/Makefile,v 1.3 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	produce RFC 2822 date strings
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/quake2/pkg/PLIST,v 1.6 2010/09/01 00:29:07 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/quake2
 lib/quake2/
 lib/quake2/baseq2/

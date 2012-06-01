@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/ps2eps/Makefile,v 1.6 2010/11/23 21:26:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	convert Postscript to Encapsulated Postscript
 

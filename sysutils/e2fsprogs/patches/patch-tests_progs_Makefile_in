@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/e2fsprogs/patches/patch-tests_progs_Makefile_in,v 1.3 2009/03/15 19:59:31 landry Exp $
+$OpenBSD$
 --- tests/progs/Makefile.in.orig	Wed Jun 18 05:53:42 2008
 +++ tests/progs/Makefile.in	Sat Feb 21 17:12:42 2009
 @@ -22,7 +22,7 @@ TEST_ICOUNT_OBJS=	test_icount.o test_icount_cmds.o

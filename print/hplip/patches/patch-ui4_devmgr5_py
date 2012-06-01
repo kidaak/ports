@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-ui4_devmgr5_py,v 1.5 2010/10/31 07:43:44 ajacoutot Exp $
+$OpenBSD$
 --- ui4/devmgr5.py.orig	Sun Sep 26 19:07:19 2010
 +++ ui4/devmgr5.py	Sun Oct 31 07:30:55 2010
 @@ -988,7 +988,7 @@ class DevMgr5(QMainWindow,  Ui_MainWindow):

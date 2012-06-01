@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mp3cut/Makefile,v 1.5 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		cut and cat MP3 files
 

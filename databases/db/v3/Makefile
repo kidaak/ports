@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/db/v3/Makefile,v 1.27 2011/10/17 10:10:59 espie Exp $
+# $OpenBSD$
 
 REV=		3
 DBLIBDIR=	lib/db

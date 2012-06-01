@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/cln/pkg/PFRAG.shared,v 1.1.1.1 2007/11/20 12:09:52 steven Exp $
+@comment $OpenBSD$
 @lib lib/libcln.so.${LIBcln_VERSION}

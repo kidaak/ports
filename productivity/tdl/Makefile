@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/tdl/Makefile,v 1.6 2010/11/05 07:57:07 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	to-do list manager
 

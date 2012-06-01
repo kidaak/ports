@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/iaxmodem/Makefile,v 1.4 2010/11/20 19:56:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	a software fax modem that uses an IAX channel
 

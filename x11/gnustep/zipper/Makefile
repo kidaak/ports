@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/zipper/Makefile,v 1.2 2011/09/16 12:29:15 espie Exp $
+# $OpenBSD$
 
 COMMENT =	tool for inspecting compressed archvies
 

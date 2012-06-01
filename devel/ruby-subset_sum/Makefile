@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-subset_sum/Makefile,v 1.4 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	simple subset sum problem solver for ruby
 

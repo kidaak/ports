@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libconfuse/pkg/PLIST,v 1.3 2011/06/28 09:10:32 rpointel Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/confuse.h
 lib/libconfuse.a

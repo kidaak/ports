@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xcb/Makefile,v 1.22 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	tool for managing X11 cut-buffers
 

@@ -1,12 +1,11 @@
-# $OpenBSD: ports/net/glib2-networking/Makefile,v 1.14 2012/03/29 15:00:19 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
 COMMENT=	network-related gio modules for glib2
 
-GNOME_VERSION=	2.32.0
+GNOME_VERSION=	2.32.3
 GNOME_PROJECT=	glib-networking
-REVISION=	0
 
 PKGNAME=	glib2-networking-${GNOME_VERSION}
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Audio-Scrobbler/Makefile,v 1.7 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		submit tracks to last.fm/audioscrobbler
 

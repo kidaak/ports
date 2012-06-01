@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/gdal/pkg/PLIST-main,v 1.6 2011/07/01 08:04:57 landry Exp $
+@comment $OpenBSD$
 @pkgpath geo/gdal
 @conflict gdal-<=1.8.0
 %%SHARED%%

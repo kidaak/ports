@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/bro/patches/patch-policy_Makefile_in,v 1.1.1.1 2008/12/17 01:34:53 kevlo Exp $
+$OpenBSD$
 --- policy/Makefile.in.orig	Mon Dec 15 12:43:31 2008
 +++ policy/Makefile.in	Mon Dec 15 12:43:44 2008
 @@ -436,7 +436,7 @@ install-data-hook:

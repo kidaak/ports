@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/epic4/Makefile,v 1.70 2012/03/29 13:38:41 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	(E)nhanced (P)rogrammable (I)RC-II (C)lient
 

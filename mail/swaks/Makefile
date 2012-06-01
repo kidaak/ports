@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/swaks/Makefile,v 1.7 2012/01/24 02:18:20 okan Exp $
+# $OpenBSD$
 
 COMMENT=	swiss army knife SMTP transaction tester
 

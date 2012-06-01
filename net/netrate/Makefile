@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/netrate/Makefile,v 1.3 2007/09/15 22:36:56 merdely Exp $
+# $OpenBSD$
 
 COMMENT=		FreeBSD's tcp/udp traffic generator
 

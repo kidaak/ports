@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/googlecl/pkg/PLIST,v 1.3 2012/02/28 10:20:14 sthen Exp $
+@comment $OpenBSD$
 bin/google
 lib/python${MODPY_VERSION}/site-packages/googlecl/
 lib/python${MODPY_VERSION}/site-packages/googlecl-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/

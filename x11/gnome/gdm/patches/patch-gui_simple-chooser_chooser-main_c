@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-gui_simple-chooser_chooser-main_c,v 1.1 2011/10/07 14:04:18 ajacoutot Exp $
+$OpenBSD$
 --- gui/simple-chooser/chooser-main.c.orig	Fri Oct  7 14:45:29 2011
 +++ gui/simple-chooser/chooser-main.c	Fri Oct  7 14:45:38 2011
 @@ -53,7 +53,7 @@ assistive_registry_launch (void)

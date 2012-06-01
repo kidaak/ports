@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/R/Makefile,v 1.46 2012/02/17 08:56:21 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mpd/patches/patch-Makefile_in,v 1.6 2012/04/10 15:12:54 dcoppa Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Apr  5 03:37:06 2012
 +++ Makefile.in	Tue Apr 10 17:05:49 2012
 @@ -2361,7 +2361,7 @@ SPARSE_CPPFLAGS = $(DEFAULT_INCLUDES) -I$(shell $(CC) 

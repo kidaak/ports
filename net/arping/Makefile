@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/arping/Makefile,v 1.35 2012/02/29 09:31:10 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =	ARP level ping utility
 

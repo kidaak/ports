@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/libdbi/patches/patch-configure,v 1.1.1.1 2009/06/02 00:57:57 merdely Exp $
+$OpenBSD$
 --- configure.orig	Wed Feb  6 14:40:11 2008
 +++ configure	Sun May 31 15:46:40 2009
 @@ -19264,9 +19264,10 @@ else

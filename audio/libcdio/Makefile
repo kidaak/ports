@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libcdio/Makefile,v 1.10 2011/03/18 23:58:55 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	compact disk input and control library
 

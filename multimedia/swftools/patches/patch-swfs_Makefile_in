@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/swftools/patches/patch-swfs_Makefile_in,v 1.1.1.1 2011/07/11 19:49:58 kili Exp $
+$OpenBSD$
 --- swfs/Makefile.in.orig	Thu Jun 23 23:35:39 2011
 +++ swfs/Makefile.in	Thu Jun 23 23:40:03 2011
 @@ -34,26 +34,26 @@ PreLoaderTemplate.swf: $(programs)

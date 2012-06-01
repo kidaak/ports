@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/hiawatha/patches/patch-monitor_c,v 1.2 2011/06/02 18:53:39 rpointel Exp $
+$OpenBSD$
 --- monitor.c.orig	Mon Mar 14 08:38:53 2011
 +++ monitor.c	Tue May 31 11:15:57 2011
 @@ -89,7 +89,7 @@

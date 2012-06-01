@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/p5-Net-Ping-External/patches/patch-test_pl,v 1.1 2007/03/15 07:56:33 jasper Exp $
+$OpenBSD$
 --- test.pl.orig	Wed Feb 14 14:36:12 2007
 +++ test.pl	Wed Feb 14 14:36:50 2007
 @@ -6,7 +6,7 @@

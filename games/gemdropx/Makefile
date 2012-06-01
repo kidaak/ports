@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/gemdropx/Makefile,v 1.12 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=	one-player puzzle game for x11
 

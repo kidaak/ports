@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Filter-Template/Makefile,v 1.5 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		source filter for inline code templates (macros)
 DISTNAME=		Filter-Template-1.02

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono-basic/patches/patch-configure,v 1.2 2011/11/09 22:23:42 robert Exp $
+$OpenBSD$
 --- configure.orig	Thu Jan 13 23:38:33 2011
 +++ configure	Wed Nov  9 23:14:41 2011
 @@ -29,7 +29,7 @@ done

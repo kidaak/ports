@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/lang/sbcl/pkg/PFRAG.powerpc,v 1.1 2010/08/24 12:20:43 jasper Exp $
+@comment $OpenBSD$
 lib/sbcl/sb-rotate-byte/ppc-vm.fasl

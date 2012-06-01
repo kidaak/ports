@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gsettings-desktop-schemas/patches/patch-schemas_org_gnome_desktop_media-handling_gschema_xml_in_in,v 1.1 2011/05/27 16:43:33 ajacoutot Exp $
+$OpenBSD$
 
 Media handling requires udev(8) which doesn't exist under OpenBSD, so no
 need to try to auto{mount,run} removable devices by default.

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-SFTP/Makefile,v 1.9 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	client for the Secure File Transfer Protocol
 

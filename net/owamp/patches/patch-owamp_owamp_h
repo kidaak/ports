@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/owamp/patches/patch-owamp_owamp_h,v 1.1.1.1 2011/07/08 09:31:06 sthen Exp $
+$OpenBSD$
 
 remove conflict with sys/time.h macros
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/sec/pkg/PLIST,v 1.4 2011/05/13 12:43:56 okan Exp $
+@comment $OpenBSD$
 @conflict nut-<2
 bin/sec
 @man man/man1/sec.1

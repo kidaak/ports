@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/chinese/cless/pkg/PLIST,v 1.4 2004/08/06 14:37:29 espie Exp $
+@comment $OpenBSD$
 bin/cless
 bin/clesskey
 @man man/man1/cless.1

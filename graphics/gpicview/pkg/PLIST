@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gpicview/pkg/PLIST,v 1.6 2011/08/17 23:13:44 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gpicview
 share/applications/gpicview.desktop
 share/gpicview/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Fortran-Format/Makefile,v 1.5 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	read/write data according to a standard Fortran 77 FORMAT
 

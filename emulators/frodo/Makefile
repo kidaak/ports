@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/frodo/Makefile,v 1.22 2010/11/15 23:22:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Commodore 64 emulator
 

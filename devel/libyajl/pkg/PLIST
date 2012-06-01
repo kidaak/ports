@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libyajl/pkg/PLIST,v 1.4 2011/05/05 12:17:44 dcoppa Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/json_reformat
 @bin bin/json_verify

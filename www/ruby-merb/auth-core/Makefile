@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/auth-core/Makefile,v 1.10 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	authentication core framework
 

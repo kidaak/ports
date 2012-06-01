@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Log-Dispatch/pkg/PLIST,v 1.2 2008/10/06 08:15:32 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Log/
 ${P5SITE}/Log/Dispatch/
 ${P5SITE}/Log/Dispatch.pm

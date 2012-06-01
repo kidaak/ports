@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/lrzsz/Makefile,v 1.23 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	receive/send files via X/Y/ZMODEM protocol
 

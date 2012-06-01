@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/ruby-mini_magick/pkg/PLIST,v 1.4 2010/11/08 23:24:41 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/.gitignore

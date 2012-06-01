@@ -1,5 +1,5 @@
 # $RuOBSD: Makefile,v 1.3 2002/04/10 05:14:52 form Exp $
-# $OpenBSD: ports/editors/joe/Makefile,v 1.41 2011/10/16 15:03:24 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		Joe's Own Editor
 

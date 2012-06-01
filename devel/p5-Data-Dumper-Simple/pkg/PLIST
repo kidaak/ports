@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Data-Dumper-Simple/pkg/PLIST,v 1.1.1.1 2007/11/07 22:09:44 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Data/
 ${P5SITE}/Data/Dumper/
 ${P5SITE}/Data/Dumper/Simple.pm

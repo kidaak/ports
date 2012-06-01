@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.6/pkg/PFRAG.I386-main,v 1.4 2011/12/08 17:42:10 pascal Exp $
+@comment $OpenBSD$
 lib/gcc/${CONFIG}/${V}/include/abmintrin.h
 lib/gcc/${CONFIG}/${V}/include/ammintrin.h
 lib/gcc/${CONFIG}/${V}/include/avxintrin.h

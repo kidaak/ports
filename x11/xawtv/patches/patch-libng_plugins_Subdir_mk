@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xawtv/patches/patch-libng_plugins_Subdir_mk,v 1.1 2007/09/28 08:24:42 jakemsr Exp $
+$OpenBSD$
 --- libng/plugins/Subdir.mk.orig	Thu Sep 27 16:48:48 2007
 +++ libng/plugins/Subdir.mk	Thu Sep 27 16:50:10 2007
 @@ -41,6 +41,9 @@ libng/plugins/read-qt.so  : LDLIBS := $(QT_LIBS)

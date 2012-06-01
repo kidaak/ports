@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/icontool/pkg/PLIST,v 1.1.1.1 2010/04/22 22:01:12 jasper Exp $
+@comment $OpenBSD$
 bin/icontool-map
 bin/icontool-render
 share/icontool/

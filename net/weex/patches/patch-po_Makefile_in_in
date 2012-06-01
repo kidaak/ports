@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/weex/patches/patch-po_Makefile_in_in,v 1.1.1.1 2004/10/09 18:55:20 naddy Exp $
+$OpenBSD$
 --- po/Makefile.in.in.orig	Mon Apr 24 16:44:53 2000
 +++ po/Makefile.in.in	Sat Oct  9 18:55:54 2004
 @@ -24,6 +24,8 @@ gnulocaledir = $(prefix)/share/locale

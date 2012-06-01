@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/texlive/base/patches/patch-texk_web2c_Makefile_in,v 1.5 2011/11/23 12:00:45 edd Exp $
+$OpenBSD$
 --- texk/web2c/Makefile.in.origy	Sat Jun  4 14:36:26 2011
 +++ texk/web2c/Makefile.in	Sat Aug 27 14:12:00 2011
 @@ -1131,7 +1131,7 @@ WARNING_OBJCXXFLAGS = @WARNING_OBJCXXFLAGS@

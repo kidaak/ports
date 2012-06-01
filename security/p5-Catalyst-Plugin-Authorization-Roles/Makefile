@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Catalyst-Plugin-Authorization-Roles/Makefile,v 1.11 2012/04/08 22:02:37 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	role based authorization for Catalyst
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/rsynth/patches/patch-configure_in,v 1.1 2001/12/31 09:44:45 espie Exp $
+$OpenBSD$
 --- configure.in.orig	Tue Nov  8 14:30:51 1994
 +++ configure.in	Mon Dec 31 10:31:55 2001
 @@ -11,8 +11,6 @@ hplay=dummy

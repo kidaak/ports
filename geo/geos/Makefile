@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/geos/Makefile,v 1.7 2010/11/17 08:05:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	2d geometry and topology engine
 DISTNAME=	geos-3.2.2

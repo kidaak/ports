@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/gtklp/patches/patch-Makefile_fallback,v 1.1.1.1 2008/05/17 13:29:29 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.fallback.orig	Fri May 16 17:50:48 2008
 +++ Makefile.fallback	Fri May 16 17:52:53 2008
 @@ -1,21 +1,15 @@

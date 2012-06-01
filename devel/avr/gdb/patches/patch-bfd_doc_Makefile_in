@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/gdb/patches/patch-bfd_doc_Makefile_in,v 1.1 2011/11/08 13:00:21 jasper Exp $
+$OpenBSD$
 --- bfd/doc/Makefile.in.orig	Tue Nov  8 13:53:12 2011
 +++ bfd/doc/Makefile.in	Tue Nov  8 13:53:24 2011
 @@ -64,7 +64,7 @@ CONFIG_CLEAN_FILES =

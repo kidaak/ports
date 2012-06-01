@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/p5-Finance-Quote/Makefile,v 1.19 2010/11/19 07:23:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	module to obtain financial quotes from exchanges
 

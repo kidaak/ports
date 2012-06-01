@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Daemonize/Makefile,v 1.1.1.1 2012/04/08 21:03:35 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	role for daemonizing your Moose based application
 

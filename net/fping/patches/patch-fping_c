@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/fping/patches/patch-fping_c,v 1.8 2010/11/24 15:14:45 sthen Exp $
+$OpenBSD$
 --- fping.c.orig	Thu Dec 31 15:57:28 2009
 +++ fping.c	Wed Nov 24 15:07:47 2010
 @@ -67,7 +67,7 @@ extern "C"

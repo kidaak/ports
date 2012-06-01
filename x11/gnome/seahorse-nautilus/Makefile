@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/seahorse-nautilus/Makefile,v 1.1.1.1 2012/03/29 08:10:23 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

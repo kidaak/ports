@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-extlib/Makefile,v 1.12 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	Ruby extensions serving DataMapper and DataObjects
 

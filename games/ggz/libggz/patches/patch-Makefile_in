@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ggz/libggz/patches/patch-Makefile_in,v 1.1.1.1 2008/11/17 18:22:14 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Nov 17 18:30:24 2008
 +++ Makefile.in	Mon Nov 17 18:31:03 2008
 @@ -226,7 +226,6 @@ Makefile: $(srcdir)/Makefile.in $(top_builddir)/config

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/trac-ldapplugin/pkg/PLIST,v 1.2 2009/06/20 13:41:43 sthen Exp $
+@comment $OpenBSD$
 @conflict trac-<0.11
 lib/python${MODPY_VERSION}/site-packages/LdapPlugin-${MODPY_EGG_VERSION}dev-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/LdapPlugin-${MODPY_EGG_VERSION}dev-py${MODPY_VERSION}.egg-info/PKG-INFO

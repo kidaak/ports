@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/uniutils/Makefile,v 1.3 2010/10/19 09:21:04 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Unicode utilities
 

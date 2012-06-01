@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-POE-Component-Supervisor/Makefile,v 1.5 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Erlang inspired babysitting
 

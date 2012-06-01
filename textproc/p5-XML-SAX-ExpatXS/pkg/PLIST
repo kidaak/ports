@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-SAX-ExpatXS/pkg/PLIST,v 1.2 2008/10/02 15:39:12 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/XML/
 ${P5ARCH}/XML/SAX/

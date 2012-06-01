@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/colrdx/Makefile,v 1.5 2010/10/18 16:57:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	curses DX cluster watcher
 

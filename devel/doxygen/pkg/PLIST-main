@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/doxygen/pkg/PLIST-main,v 1.2 2010/11/04 20:13:10 sthen Exp $
+@comment $OpenBSD$
 @pkgpath devel/doxygen,gui
 @pkgpath devel/doxygen
 @bin bin/doxygen

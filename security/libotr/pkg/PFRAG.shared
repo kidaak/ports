@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/security/libotr/pkg/PFRAG.shared,v 1.4 2005/12/25 15:52:38 sturm Exp $
+@comment $OpenBSD$
 @lib lib/libotr.so.${LIBotr_VERSION}

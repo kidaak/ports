@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xkobo/pkg/PLIST,v 1.10 2011/05/11 06:56:43 ajacoutot Exp $
+@comment $OpenBSD$
 @extraunexec rm -rf /var/games/xkobo.scores/*
 @mode 2755
 @group games

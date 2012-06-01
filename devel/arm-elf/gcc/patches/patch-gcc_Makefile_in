@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/arm-elf/gcc/patches/patch-gcc_Makefile_in,v 1.3 2010/10/22 15:20:04 jasper Exp $
+$OpenBSD$
 --- gcc/Makefile.in.orig	Thu Oct 14 09:30:30 2010
 +++ gcc/Makefile.in	Thu Oct 14 09:31:09 2010
 @@ -4185,13 +4185,7 @@ install-driver: installdirs xgcc$(exeext)

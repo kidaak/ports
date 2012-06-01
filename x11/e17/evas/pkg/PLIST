@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/evas/pkg/PLIST,v 1.5 2011/01/16 00:37:45 laurent Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/evas-1/
 include/evas-1/Evas.h

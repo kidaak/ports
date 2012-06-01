@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/chicken/pkg/PLIST,v 1.6 2009/10/09 13:03:22 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/chicken
 @bin bin/chicken-profile

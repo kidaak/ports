@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/man2web/Makefile,v 1.9 2011/11/15 16:36:01 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	convert man pages to HTML
 

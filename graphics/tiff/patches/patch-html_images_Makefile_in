@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/tiff/patches/patch-html_images_Makefile_in,v 1.6 2012/04/09 17:21:05 naddy Exp $
+$OpenBSD$
 --- html/images/Makefile.in.orig	Sat Feb 18 23:27:07 2012
 +++ html/images/Makefile.in	Mon Apr  9 19:13:44 2012
 @@ -226,7 +226,7 @@ build_vendor = @build_vendor@

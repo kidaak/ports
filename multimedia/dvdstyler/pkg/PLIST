@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/dvdstyler/pkg/PLIST,v 1.5 2010/05/26 21:56:03 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/dvdstyler
 @man man/man1/dvdstyler.1
 share/applications/dvdstyler.desktop

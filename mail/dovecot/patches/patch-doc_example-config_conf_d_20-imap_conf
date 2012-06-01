@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dovecot/patches/patch-doc_example-config_conf_d_20-imap_conf,v 1.1 2011/05/23 22:54:38 sthen Exp $
+$OpenBSD$
 --- doc/example-config/conf.d/20-imap.conf.orig	Wed Mar 16 11:46:51 2011
 +++ doc/example-config/conf.d/20-imap.conf	Fri May 13 17:04:17 2011
 @@ -54,5 +54,5 @@ protocol imap {

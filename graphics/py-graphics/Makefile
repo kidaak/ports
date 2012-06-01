@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/py-graphics/Makefile,v 1.8 2011/12/20 18:55:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	multimedia framework for Python
 

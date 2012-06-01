@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/sysutils/xbattbar/pkg/PLIST,v 1.1.1.1 2011/05/22 12:32:41 schwarze Exp $
+@comment $OpenBSD$
 @bin bin/xbattbar
 @man man/man1/xbattbar.1

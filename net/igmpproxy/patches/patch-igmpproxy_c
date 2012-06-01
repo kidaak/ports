@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/igmpproxy/patches/patch-igmpproxy_c,v 1.1.1.1 2008/02/08 19:30:52 sthen Exp $
+$OpenBSD$
 --- igmpproxy.c.orig	Sat Aug 20 13:56:32 2005
 +++ igmpproxy.c	Mon Nov 19 12:56:50 2007
 @@ -41,8 +41,8 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gforth/patches/patch-engine_engine_c,v 1.1 2009/11/17 01:04:43 kurt Exp $
+$OpenBSD$
 --- engine/engine.c.orig	Fri Nov 13 17:29:14 2009
 +++ engine/engine.c	Fri Nov 13 17:29:33 2009
 @@ -304,8 +304,8 @@ Label *engine(Xt *ip0, Cell *sp0, Cell *rp0, Float *fp

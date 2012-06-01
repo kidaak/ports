@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mplayer/patches/patch-DOCS_man_en_mplayer_1,v 1.5 2011/03/29 20:04:41 edd Exp $
+$OpenBSD$
 --- DOCS/man/en/mplayer.1.orig	Wed Mar  9 00:32:59 2011
 +++ DOCS/man/en/mplayer.1	Wed Mar  9 00:45:10 2011
 @@ -1366,7 +1366,7 @@ May be negative.

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/hydrogen/pkg/PLIST,v 1.2 2010/01/11 05:11:32 jakemsr Exp $
+@comment $OpenBSD$
 @bin bin/hydrogen
 share/applications/hydrogen.desktop
 share/hydrogen/

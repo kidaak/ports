@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/firmware/iwi/Makefile,v 1.3 2011/06/22 11:35:12 sthen Exp $
+# $OpenBSD$
 
 FW_DRIVER=	iwi
 FW_VER=		3.1

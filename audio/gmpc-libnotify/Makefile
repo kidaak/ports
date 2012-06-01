@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/gmpc-libnotify/Makefile,v 1.16 2011/11/04 08:42:25 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/nkf/pkg/PLIST,v 1.7 2011/01/05 12:05:11 jasper Exp $
+@comment $OpenBSD$
 @bin bin/nkf
 ${P5ARCH}/
 ${P5ARCH}/NKF.pm

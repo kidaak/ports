@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/smlnj/patches/patch-src_runtime_objs_makefile,v 1.1 2010/05/22 10:17:36 espie Exp $
+$OpenBSD$
 --- src/runtime/objs/makefile.orig	Sat May 22 12:03:11 2010
 +++ src/runtime/objs/makefile	Sat May 22 12:06:12 2010
 @@ -260,7 +260,7 @@ prim.o:		$(MACH_DIR)/$(TARGET).prim.asm \

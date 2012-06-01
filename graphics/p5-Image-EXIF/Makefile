@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Image-EXIF/Makefile,v 1.14 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	interface to read EXIF tags in JPEG images
 

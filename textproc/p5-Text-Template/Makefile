@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Template/Makefile,v 1.13 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	expand template text with embedded perl
 

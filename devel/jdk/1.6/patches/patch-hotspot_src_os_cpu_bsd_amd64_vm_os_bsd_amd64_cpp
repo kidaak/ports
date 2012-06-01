@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/jdk/1.6/patches/patch-hotspot_src_os_cpu_bsd_amd64_vm_os_bsd_amd64_cpp,v 1.1 2008/03/17 03:28:26 kurt Exp $
+$OpenBSD$
 --- hotspot/src/os_cpu/bsd_amd64/vm/os_bsd_amd64.cpp.orig	Sun Mar 16 09:33:24 2008
 +++ hotspot/src/os_cpu/bsd_amd64/vm/os_bsd_amd64.cpp	Sun Mar 16 09:47:09 2008
 @@ -449,6 +449,24 @@ JVM_handle_bsd_signal(int sig,

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/devel/Makefile,v 1.11 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	development helps
 MAINTAINER =	Marc Espie <espie@openbsd.org>

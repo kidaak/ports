@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/tnef/patches/patch-configure,v 1.4 2011/04/28 02:01:47 gsoares Exp $
+$OpenBSD$
 --- configure.orig	Mon Apr 18 22:29:50 2011
 +++ configure	Wed Apr 27 14:21:22 2011
 @@ -4618,7 +4618,7 @@ if ${ac_cv_lib_intl_gettext+:} false; then :

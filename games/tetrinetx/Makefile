@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/tetrinetx/Makefile,v 1.4 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	tetrinet server
 

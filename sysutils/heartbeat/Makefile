@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/heartbeat/Makefile,v 1.24 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
@@ -109,7 +109,6 @@ CONFIGURE_ENV=	LIBNETCONFIG=${LOCALBASE}/bin/libnet-config-1.0 \
 		AUTOCONF_VERSION=${AUTOCONF_VERSION}
 CONFIGURE_ARGS=	configure --prefix=${PREFIX} \
 		--sysconfdir=${SYSCONFDIR} \
-		--localstatedir=/var \
 		--with-initdir=${SYSCONFDIR}/ha.d/init.d \
 		--with-group-id=${HBGID} \
                 --with-ccmuser-id=${HBUID} \

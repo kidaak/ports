@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-JSON-Any/Makefile,v 1.8 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	wrapper class for the various JSON classes
 

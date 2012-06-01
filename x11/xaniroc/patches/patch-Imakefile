@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xaniroc/patches/patch-Imakefile,v 1.1 2010/02/07 15:17:12 landry Exp $
+$OpenBSD$
 
 --- Imakefile.orig	Sun Feb  7 03:14:40 2010
 +++ Imakefile	Sun Feb  7 03:14:47 2010

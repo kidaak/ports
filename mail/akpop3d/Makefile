@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/akpop3d/Makefile,v 1.8 2010/11/19 07:23:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=	small and secure POP3 daemon
 

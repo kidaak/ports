@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Reform/Makefile,v 1.11 2011/01/01 12:57:23 benoit Exp $
+# $OpenBSD$
 
 COMMENT=		perl module to formating plaintext
 

@@ -1,7 +1,7 @@
 /* im_sndio.c
  * - Raw PCM input from sndio audio subsystem
  *
- * $Id: im_sndio.c,v 1.1 2010/04/23 05:54:26 jakemsr Exp $
+ * $Id$
  *
  * by Jacob Meuser <jakemsr@sdf.lonestar.org>, based
  * on im_sun.c which is...

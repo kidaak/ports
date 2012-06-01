@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-columnize/Makefile,v 1.11 2011/11/27 11:09:27 pirofti Exp $
+# $OpenBSD$
 
 COMMENT =	sorts an array in column order
 

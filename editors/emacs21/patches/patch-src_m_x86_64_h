@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs21/patches/patch-src_m_x86_64_h,v 1.1 2004/02/26 08:19:26 pvalchev Exp $
+$OpenBSD$
 --- src/m/x86_64.h.orig	2004-02-25 17:44:51.000000000 -0700
 +++ src/m/x86_64.h	2004-02-25 17:46:42.000000000 -0700
 @@ -0,0 +1,165 @@

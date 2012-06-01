@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/hs-bytestring-nums/pkg/PLIST,v 1.3 2011/04/11 14:54:34 kili Exp $
+@comment $OpenBSD$
 @comment bin/spoj-eugene
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Data/

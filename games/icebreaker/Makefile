@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/icebreaker/Makefile,v 1.17 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 COMMENT=	jezzball-style, penguin puzzle game
 

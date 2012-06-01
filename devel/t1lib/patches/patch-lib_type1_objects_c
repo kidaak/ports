@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/t1lib/patches/patch-lib_type1_objects_c,v 1.1 2012/01/26 08:48:54 ajacoutot Exp $
+$OpenBSD$
 
 CVE-2011-0764, CVE-2011-1552, CVE-2011-1553 and CVE-2011-1554
 

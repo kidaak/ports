@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/barrage/patches/patch-configure,v 1.1.1.1 2007/06/26 22:56:49 simon Exp $
+$OpenBSD$
 --- configure.orig	Mon Jun 25 13:31:34 2007
 +++ configure	Mon Jun 25 13:31:43 2007
 @@ -1421,7 +1421,7 @@ fi

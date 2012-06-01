@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mutt/snapshot/patches/patch-rfc2047_c,v 1.1 2010/10/02 01:22:12 sthen Exp $
+$OpenBSD$
 
 RFC2047 encode/decode the group name in an address list.
 upstream f2452f1f1fef, fixes bug#3317

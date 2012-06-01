@@ -1,4 +1,4 @@
-$OpenBSD: ports/inputmethods/scim/patches/patch-scim-x11utils_pc_in,v 1.1.1.1 2008/10/29 02:21:46 kevlo Exp $
+$OpenBSD$
 --- scim-x11utils.pc.in.orig	Fri Oct 24 16:07:13 2008
 +++ scim-x11utils.pc.in	Fri Oct 24 16:07:33 2008
 @@ -4,6 +4,7 @@ libdir=@libdir@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/lt/Makefile,v 1.5 2012/01/17 11:04:12 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	aspell dictionary for Lithuanian
 CATEGORIES=	textproc

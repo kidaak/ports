@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Syntax-Highlight-HTML/Makefile,v 1.8 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	syntax highlight for HTML
 

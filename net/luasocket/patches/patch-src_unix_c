@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/luasocket/patches/patch-src_unix_c,v 1.1 2009/08/22 20:28:40 robert Exp $
+$OpenBSD$
 --- src/unix.c.orig	Thu Apr 27 05:23:21 2006
 +++ src/unix.c	Sat Aug 22 22:19:02 2009
 @@ -105,22 +105,22 @@ int luaopen_socket_unix(lua_State *L) {

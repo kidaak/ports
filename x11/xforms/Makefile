@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xforms/Makefile,v 1.41 2010/11/22 08:37:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GUI toolkit for X11
 

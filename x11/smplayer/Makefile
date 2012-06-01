@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/smplayer/Makefile,v 1.9 2011/12/03 23:34:05 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		complete front-end for MPlayer
 

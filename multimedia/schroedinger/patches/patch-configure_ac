@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/schroedinger/patches/patch-configure_ac,v 1.4 2012/01/25 13:50:28 ajacoutot Exp $
+$OpenBSD$
 --- configure.ac.orig	Sun Jan 22 20:32:45 2012
 +++ configure.ac	Sun Jan 22 21:48:48 2012
 @@ -135,8 +135,6 @@ then

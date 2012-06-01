@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/patches-3.5/patch-acinclude_m4,v 1.4 2006/11/05 13:02:30 espie Exp $
+$OpenBSD$
 --- acinclude.m4.orig	Tue Sep  6 19:30:06 2005
 +++ acinclude.m4	Tue Oct 17 10:34:00 2006
 @@ -6561,6 +6561,19 @@ AC_CACHE_VAL([lt_cv_sys_max_cmd_len], [d

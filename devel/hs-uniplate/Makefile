@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-uniplate/Makefile,v 1.6 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 COMMENT=	help writing simple, concise and fast operations
 

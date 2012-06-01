@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ORBit2/patches/patch-configure_in,v 1.6 2009/03/06 09:52:17 jasper Exp $
+$OpenBSD$
 --- configure.in.orig	Sat Jan 10 18:36:18 2009
 +++ configure.in	Fri Mar  6 10:46:50 2009
 @@ -280,7 +280,18 @@ AC_HEADER_STDC

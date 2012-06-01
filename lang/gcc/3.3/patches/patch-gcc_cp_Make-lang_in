@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_cp_Make-lang_in,v 1.2 2012/04/23 14:06:42 pascal Exp $
+$OpenBSD$
 --- gcc/cp/Make-lang.in.orig	Sat May  8 23:52:43 2004
 +++ gcc/cp/Make-lang.in	Thu Apr 12 19:11:22 2012
 @@ -78,8 +78,8 @@ g++-cross$(exeext): g++$(exeext)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/junkbuster/patches/patch-parsers_c,v 1.4 2001/06/09 04:02:22 angelos Exp $
+$OpenBSD$
 --- parsers.c.orig	Fri Oct 30 22:58:47 1998
 +++ parsers.c	Fri Jun  8 23:58:26 2001
 @@ -224,7 +224,7 @@ list_to_text(struct list *h)

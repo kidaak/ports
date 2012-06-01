@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/mono-basic/Makefile,v 1.10 2011/11/09 22:23:42 robert Exp $
+# $OpenBSD$
 
 COMMENT=	Visual Basic .NET support for Mono
 DISTNAME=	mono-basic-2.10

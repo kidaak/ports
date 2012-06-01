@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-RTx-Tags/pkg/PLIST,v 1.2 2009/06/24 22:44:02 simon Exp $
+@comment $OpenBSD$
 html/
 html/Callbacks/
 html/Callbacks/RTx-Tags/

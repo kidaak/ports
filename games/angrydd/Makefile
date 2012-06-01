@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/angrydd/Makefile,v 1.12 2011/09/16 09:48:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	falling blocks puzzle game
 

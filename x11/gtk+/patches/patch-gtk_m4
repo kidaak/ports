@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gtk+/patches/patch-gtk_m4,v 1.1 2008/12/22 20:28:18 naddy Exp $
+$OpenBSD$
 --- gtk.m4.orig	Mon Dec 22 21:19:25 2008
 +++ gtk.m4	Mon Dec 22 21:19:37 2008
 @@ -4,7 +4,7 @@

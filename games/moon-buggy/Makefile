@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/moon-buggy/Makefile,v 1.14 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 COMMENT=	drive some car across the moon
 

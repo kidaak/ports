@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/firmware/uath/pkg/PLIST,v 1.1.1.1 2011/06/09 17:08:14 sthen Exp $
+@comment $OpenBSD$
 @pkgpath /root/uath-firmware
 @pkgpath sysutils/uath-firmware
 @ask-update uath-firmware-<2.0 Make sure you have a matching kernel

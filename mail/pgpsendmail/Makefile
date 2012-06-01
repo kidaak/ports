@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/pgpsendmail/Makefile,v 1.25 2010/11/19 07:23:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	PGP sign/encrypt/decrypt messages automatically
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xminehunter/Makefile,v 1.24 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Motif minesweeper game
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/coccigrep/Makefile,v 1.2 2011/11/17 14:27:14 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	semantic grep, based on coccinelle
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-installer_userscripts_createcompany_d_00createpublic,v 1.2 2011/06/02 12:46:37 ajacoutot Exp $
+$OpenBSD$
 --- installer/userscripts/createcompany.d/00createpublic.orig	Wed Apr 20 16:39:09 2011
 +++ installer/userscripts/createcompany.d/00createpublic	Mon May  2 12:47:53 2011
 @@ -2,7 +2,7 @@

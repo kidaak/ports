@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/osm-gps-map/patches/patch-Makefile_in,v 1.1 2010/03/21 10:44:25 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Thu Jan 21 17:16:14 2010
 +++ Makefile.in	Thu Jan 21 18:55:49 2010
 @@ -255,12 +255,7 @@ top_srcdir = @top_srcdir@

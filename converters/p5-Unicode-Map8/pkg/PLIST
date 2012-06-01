@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Unicode-Map8/pkg/PLIST,v 1.10 2004/09/14 23:25:51 espie Exp $
+@comment $OpenBSD$
 bin/umap
 ${P5ARCH}/Unicode/Map8/
 ${P5ARCH}/Unicode/Map8.pm

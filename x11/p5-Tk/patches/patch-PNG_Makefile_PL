@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/p5-Tk/patches/patch-PNG_Makefile_PL,v 1.4 2010/09/02 11:53:32 sthen Exp $
+$OpenBSD$
 --- PNG/Makefile.PL.orig	Sun Nov 23 08:57:09 2008
 +++ PNG/Makefile.PL	Thu Sep  2 12:10:16 2010
 @@ -16,7 +16,7 @@ foreach my $file (qw(zlib/Makefile.PL libpng/Makefile.

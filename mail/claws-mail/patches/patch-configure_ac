@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/claws-mail/patches/patch-configure_ac,v 1.7 2012/01/23 18:57:33 landry Exp $
+$OpenBSD$
 --- configure.ac.orig	Wed Dec 28 21:50:29 2011
 +++ configure.ac	Wed Dec 28 21:52:39 2011
 @@ -141,7 +141,7 @@ AM_CONDITIONAL(CYGWIN, test x"$env_cygwin" = x"yes")

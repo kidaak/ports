@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/mktorrent/pkg/PLIST,v 1.1.1.1 2009/03/10 13:43:05 stsp Exp $
+@comment $OpenBSD$
 @bin bin/mktorrent
 share/doc/mktorrent/
 share/doc/mktorrent/LICENSE

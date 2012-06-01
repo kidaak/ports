@@ -3,7 +3,7 @@
 # Date created:		28 April 1998
 # Whom:			Ejovi Nuwere <ejovi@ejovi.net>
 #
-# $OpenBSD: ports/news/newsfetch/Makefile,v 1.22 2010/10/18 21:25:08 espie Exp $
+# $OpenBSD$
 #
 
 COMMENT=	download news articles from NNTP server

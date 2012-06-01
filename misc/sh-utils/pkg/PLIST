@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/sh-utils/pkg/PLIST,v 1.7 2005/11/19 01:23:42 alek Exp $
+@comment $OpenBSD$
 @bin bin/basename
 @bin bin/chroot
 @bin bin/date

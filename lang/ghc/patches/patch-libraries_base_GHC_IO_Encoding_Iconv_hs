@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-libraries_base_GHC_IO_Encoding_Iconv_hs,v 1.2 2011/04/11 14:30:33 kili Exp $
+$OpenBSD$
 
 This is needed for our version of GNU libiconv-1.13.
 

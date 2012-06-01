@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/pscal/Makefile,v 1.4 2007/09/15 21:36:45 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	utility for generating PostScript calendars
 

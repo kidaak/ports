@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/py-webpy/pkg/PLIST,v 1.5 2011/08/21 14:29:51 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/web/
 lib/python${MODPY_VERSION}/site-packages/web.py-${VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/web/__init__.py

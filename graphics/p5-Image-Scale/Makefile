@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Image-Scale/Makefile,v 1.1.1.1 2012/01/20 19:27:55 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

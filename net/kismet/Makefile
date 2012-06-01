@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/kismet/Makefile,v 1.27 2010/11/19 22:31:34 espie Exp $
+# $OpenBSD$
 # Much help came from Alexandre Anriot, Robert Nagy, Bernd Ahlers,
 # and, last but not least, Pedro la Peu.
 

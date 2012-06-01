@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/p5-Geo-Fips55/Makefile,v 1.4 2010/12/03 11:45:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl extension for parsing FIPS-55 gazetteer data
 MODULES=	cpan

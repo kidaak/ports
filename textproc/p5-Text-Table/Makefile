@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Table/Makefile,v 1.9 2011/06/13 19:04:10 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	organize data in tables
 

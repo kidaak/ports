@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/qt-creator/patches/patch-doc_doc_pri,v 1.1 2010/05/28 12:49:05 espie Exp $
+$OpenBSD$
 --- doc/doc.pri.orig	Fri May 28 14:12:39 2010
 +++ doc/doc.pri	Fri May 28 14:16:38 2010
 @@ -15,11 +15,11 @@ equals(QMAKE_DIR_SEP, /) {   # unix, mingw+msys

@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/libtranslate/patches/patch-data_services_xml_in,v 1.1.1.1 2011/11/14 16:38:07 sthen Exp $
+$OpenBSD$
 
 from ubuntu
 

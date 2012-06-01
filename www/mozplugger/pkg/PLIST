@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/mozplugger/pkg/PLIST,v 1.3 2010/09/27 08:08:37 fgsch Exp $
+@comment $OpenBSD$
 @bin bin/mozplugger-controller
 @bin bin/mozplugger-helper
 @bin bin/mozplugger-linker

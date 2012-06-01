@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/falconseye/patches/patch-win_jtp_jtp_win_c,v 1.1 2001/07/05 14:25:05 espie Exp $
+$OpenBSD$
 --- win/jtp/jtp_win.c.orig	Mon Jul  2 08:59:00 2001
 +++ win/jtp/jtp_win.c	Thu Jul  5 16:21:59 2001
 @@ -7811,6 +7811,7 @@ jtp_init_filenames()

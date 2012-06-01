@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/eclipse/plugins/findbugs/Makefile,v 1.8 2011/09/16 09:24:49 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Eclipse plugin for Java program checker (bytecode analyzer)
 

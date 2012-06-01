@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/vba/patches/patch-configure_in,v 1.1 2010/05/24 08:48:58 espie Exp $
+$OpenBSD$
 --- configure.in.orig	Mon May 24 10:35:00 2010
 +++ configure.in	Mon May 24 10:36:15 2010
 @@ -77,26 +77,6 @@ AC_C_CONST

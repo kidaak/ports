@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qgis/patches/patch-src_core_spatialite_headers_spatialite_sqlite3_h,v 1.1 2011/07/07 20:34:27 landry Exp $
+$OpenBSD$
 http://hub.qgis.org/issues/4030
 --- src/core/spatialite/headers/spatialite/sqlite3.h.orig	Tue Jun 28 16:21:50 2011
 +++ src/core/spatialite/headers/spatialite/sqlite3.h	Tue Jun 28 16:22:07 2011

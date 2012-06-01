@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/hiawatha/patches/patch-doc_hiawatha_1_in,v 1.9 2011/04/13 17:44:59 rpointel Exp $
+$OpenBSD$
 --- doc/hiawatha.1.in.orig	Mon Oct 18 14:54:29 2010
 +++ doc/hiawatha.1.in	Wed Apr 13 16:47:17 2011
 @@ -150,12 +150,12 @@ Example: CGIextension = cgi

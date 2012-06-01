@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/phonon/pkg/PLIST,v 1.1.1.1 2010/06/18 12:53:38 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/KDE/
 include/KDE/Phonon/

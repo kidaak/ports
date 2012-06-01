@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-kate_data_externaltools,v 1.1 2005/10/24 10:56:03 espie Exp $
+$OpenBSD$
 --- kate/data/externaltools.orig	Mon Oct 24 12:52:36 2005
 +++ kate/data/externaltools	Mon Oct 24 12:52:56 2005
 @@ -9,7 +9,7 @@ externaltool_RunScript=Ctrl+Shift+X

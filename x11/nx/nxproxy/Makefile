@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/nx/nxproxy/Makefile,v 1.2 2012/01/03 16:58:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		NX X proxy support tool
 

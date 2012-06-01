@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/minisat/patches/patch-utils_System_cc,v 1.1 2010/08/19 14:19:22 edd Exp $
+$OpenBSD$
 
  * memUsed is the same as FreeBSD
  * namespace typo

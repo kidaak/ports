@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hs-hexpat/Makefile,v 1.9 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 COMMENT =		XML parser/formatter based on expat
 

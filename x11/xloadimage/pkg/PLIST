@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xloadimage/pkg/PLIST,v 1.9 2010/10/26 16:57:57 naddy Exp $
+@comment $OpenBSD$
 @bin bin/uufilter
 @bin bin/xloadimage
 bin/xsetbg

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/catalyst/Makefile,v 1.7 2010/12/03 11:44:25 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		catalyst development bundle
 

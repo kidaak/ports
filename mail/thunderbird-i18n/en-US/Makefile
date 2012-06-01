@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/thunderbird-i18n/en-US/Makefile,v 1.1 2012/01/22 17:11:58 landry Exp $
+# $OpenBSD$
 
 L = en-US
 

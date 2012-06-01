@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-BGP/pkg/PLIST,v 1.2 2004/09/15 18:17:43 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/BGP/
 ${P5SITE}/Net/BGP.pm

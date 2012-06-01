@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-agent_Makefile_in,v 1.6 2011/07/07 20:02:02 sthen Exp $
+$OpenBSD$
 --- agent/Makefile.in.orig	Fri Jul  1 23:35:46 2011
 +++ agent/Makefile.in	Wed Jul  6 23:15:52 2011
 @@ -20,8 +20,8 @@ SUBDIRS=helpers mibgroup

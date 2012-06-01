@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/p5-Mail-SPF/patches/patch-Build_PL,v 1.1.1.1 2011/09/21 07:59:25 giovanni Exp $
+$OpenBSD$
 --- Build.PL.orig	Sat Oct 31 23:16:14 2009
 +++ Build.PL	Thu Sep 15 10:32:49 2011
 @@ -63,13 +63,13 @@ my $build = $class->new(

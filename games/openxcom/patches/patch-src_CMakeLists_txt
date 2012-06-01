@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/openxcom/patches/patch-src_CMakeLists_txt,v 1.1 2012/02/29 08:25:32 ajacoutot Exp $
+$OpenBSD$
 --- src/CMakeLists.txt.orig	Thu Feb 16 17:24:58 2012
 +++ src/CMakeLists.txt	Fri Feb 17 20:54:58 2012
 @@ -530,10 +530,10 @@ if ( WIN32 )

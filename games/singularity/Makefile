@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/singularity/Makefile,v 1.10 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	simulation of a true AI
 

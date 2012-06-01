@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/slirp/patches/patch-misc_c,v 1.1 2003/06/20 13:41:50 avsm Exp $
+$OpenBSD$
 --- misc.c.orig	Wed Jan  3 10:02:46 1996
 +++ misc.c	Fri Jun 20 14:31:49 2003
 @@ -650,7 +650,7 @@ add_emu(buff)

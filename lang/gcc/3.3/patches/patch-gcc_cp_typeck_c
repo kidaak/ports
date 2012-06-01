@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_cp_typeck_c,v 1.2 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/cp/typeck.c.orig	Sun Feb 22 18:27:37 2004
 +++ gcc/cp/typeck.c	Fri Jul 25 12:34:58 2008
 @@ -2739,6 +2739,9 @@ build_function_call_real (function, params, flags)

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_iconshack_h,v 1.2 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/iconshack.h.orig	Mon Mar 28 15:25:29 2011
 +++ src/iconshack.h	Mon Mar 28 15:48:20 2011
 @@ -81,6 +81,12 @@ class IconShack (public)

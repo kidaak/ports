@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/db/v4/Makefile,v 1.60 2012/03/09 12:59:25 espie Exp $
+# $OpenBSD$
 
 COMMENT-java=	Java bindings for Berkeley DB, revision ${REV}
 

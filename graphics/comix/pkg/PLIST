@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/comix/pkg/PLIST,v 1.11 2011/12/03 20:30:09 ajacoutot Exp $
+@comment $OpenBSD$
 bin/comicthumb
 bin/comix
 @man man/man1/comicthumb.1

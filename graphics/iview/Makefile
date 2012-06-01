@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/iview/Makefile,v 1.14 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	image viewer for X
 

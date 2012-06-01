@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Apache-Reload/pkg/PLIST,v 1.1.1.1 2008/07/23 18:39:19 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Apache/
 ${P5SITE}/Apache/Reload.pm
 ${P5SITE}/Apache2/

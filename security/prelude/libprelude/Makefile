@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/prelude/libprelude/Makefile,v 1.34 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 # XXX fails to build if not using the bundled libtool
 

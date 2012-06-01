@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_xpcom_reflect_xptcall_src_md_unix_Makefile_in,v 1.3 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/xpcom/reflect/xptcall/src/md/unix/Makefile.in.orig	Wed Jun 23 19:47:15 2010
 +++ mozilla/xpcom/reflect/xptcall/src/md/unix/Makefile.in	Wed Jul  7 08:43:19 2010
 @@ -207,7 +207,7 @@ endif

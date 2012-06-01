@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/claws-mail-notification/pkg/PLIST,v 1.9 2012/01/23 18:57:33 landry Exp $
+@comment $OpenBSD$
 include/claws-mail/plugins/notification_plugin/
 include/claws-mail/plugins/notification_plugin/gtkhotkey/
 include/claws-mail/plugins/notification_plugin/gtkhotkey/eggaccelerators.h

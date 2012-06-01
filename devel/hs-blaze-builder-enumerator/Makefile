@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-blaze-builder-enumerator/Makefile,v 1.1.1.1 2011/09/24 19:01:52 kili Exp $
+# $OpenBSD$
 
 COMMENT =		integrate blaze-builder and enumerator
 

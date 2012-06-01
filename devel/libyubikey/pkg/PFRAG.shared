@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libyubikey/pkg/PFRAG.shared,v 1.1 2012/04/06 17:56:03 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libyubikey.so.${LIByubikey_VERSION}

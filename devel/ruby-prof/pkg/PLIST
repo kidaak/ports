@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-prof/pkg/PLIST,v 1.2 2011/05/11 23:39:02 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/ruby-prof${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

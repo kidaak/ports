@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gnet/pkg/PLIST,v 1.6 2008/02/04 18:01:47 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gnet-2.0/
 include/gnet-2.0/base64.h

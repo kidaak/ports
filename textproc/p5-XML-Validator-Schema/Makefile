@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Validator-Schema/Makefile,v 1.8 2011/03/14 09:15:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	validate XML schema using SAX
 

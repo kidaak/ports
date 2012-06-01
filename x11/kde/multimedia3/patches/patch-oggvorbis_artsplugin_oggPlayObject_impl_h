@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/multimedia3/patches/patch-oggvorbis_artsplugin_oggPlayObject_impl_h,v 1.2 2007/10/24 21:52:18 espie Exp $
+$OpenBSD$
 --- oggvorbis_artsplugin/oggPlayObject_impl.h.orig	Mon Oct  8 11:48:53 2007
 +++ oggvorbis_artsplugin/oggPlayObject_impl.h	Wed Oct 24 11:55:37 2007
 @@ -3,7 +3,7 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-String-CRC32/Makefile,v 1.16 2010/12/30 15:38:33 benoit Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

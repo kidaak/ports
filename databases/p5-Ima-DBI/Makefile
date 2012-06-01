@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Ima-DBI/Makefile,v 1.6 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	database connection caching and organization
 

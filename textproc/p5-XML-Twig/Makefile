@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-Twig/Makefile,v 1.15 2011/03/10 17:36:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	perl module for parsing huge XML documents
 

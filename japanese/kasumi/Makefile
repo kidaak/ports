@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/kasumi/Makefile,v 1.10 2011/11/01 16:27:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	personal dictionary manager for anthy
 

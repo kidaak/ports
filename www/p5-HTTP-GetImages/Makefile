@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTP-GetImages/Makefile,v 1.8 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		spider to recover and store images from web pages
 

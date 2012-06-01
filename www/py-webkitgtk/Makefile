@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-webkitgtk/Makefile,v 1.20 2011/10/13 06:55:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		python bindings for the WebKit GTK+ port
 

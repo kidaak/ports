@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/xchat/Makefile,v 1.82 2011/09/16 11:13:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GTK+2 IRC client
 

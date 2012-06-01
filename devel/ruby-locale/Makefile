@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-locale/Makefile,v 1.7 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT =		basic APIs for localization
 

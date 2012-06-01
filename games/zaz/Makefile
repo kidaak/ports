@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/zaz/Makefile,v 1.4 2012/02/21 16:21:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	zuma-like arkade game
 DISTNAME =	zaz-1.0.0

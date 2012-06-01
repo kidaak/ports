@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/hatchet/patches/patch-docs_INSTALL,v 1.3 2008/11/30 22:33:30 jdixon Exp $
+$OpenBSD$
 --- docs/INSTALL.orig	Sun Nov 30 00:29:12 2008
 +++ docs/INSTALL	Sun Nov 30 00:52:21 2008
 @@ -15,7 +15,7 @@

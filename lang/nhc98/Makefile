@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/nhc98/Makefile,v 1.13 2010/11/17 08:05:18 espie Exp $
+# $OpenBSD$
 # $NetBSD: Makefile,v 1.29 2004/03/26 21:19:53 wiz Exp $
 
 COMMENT=	portable Haskell compiler

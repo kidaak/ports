@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/tnef/Makefile,v 1.17 2011/04/28 02:01:47 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	decode MS-TNEF MIME attachments
 

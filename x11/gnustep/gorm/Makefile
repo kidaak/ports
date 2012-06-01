@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/gorm/Makefile,v 1.6 2012/03/31 16:37:06 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	GNUstep graphical object relationship modeller
 

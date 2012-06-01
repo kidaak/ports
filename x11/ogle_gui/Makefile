@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/ogle_gui/Makefile,v 1.32 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 CATEGORIES=	x11
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Text-vFile-asData/Makefile,v 1.5 2011/04/10 20:33:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	parse vFile formatted files into data structures
 

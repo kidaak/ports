@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-railties/Makefile,v 1.4 2011/12/13 18:00:24 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	glues the Ruby on Rails framework together
 

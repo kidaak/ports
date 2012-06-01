@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ghc/patches/patch-testsuite_tests_ghc-regress_cabal_ghcpkg01_stdout,v 1.1 2011/09/15 17:23:29 kili Exp $
+$OpenBSD$
 --- testsuite/tests/ghc-regress/cabal/ghcpkg01.stdout.orig	Wed Jun 15 02:36:50 2011
 +++ testsuite/tests/ghc-regress/cabal/ghcpkg01.stdout	Wed Sep 14 21:44:08 2011
 @@ -13,6 +13,7 @@ package-url: http://www.haskell.org/ghc

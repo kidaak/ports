@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/education/drgeo-doc/pkg/PLIST,v 1.4 2005/11/11 20:24:48 wilfried Exp $
+@comment $OpenBSD$
 share/drgeo/
 share/drgeo/help/
 share/drgeo/help/c/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-boehm-gc_configure,v 1.5 2012/02/28 20:00:16 pascal Exp $
+$OpenBSD$
 --- boehm-gc/configure.orig	Wed Oct 26 11:30:24 2011
 +++ boehm-gc/configure	Mon Feb 20 21:59:55 2012
 @@ -10756,7 +10756,7 @@ netbsd*)

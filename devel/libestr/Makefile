@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libestr/Makefile,v 1.3 2012/01/16 15:46:14 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	library for string essentials
 DISTNAME =	libestr-0.1.2

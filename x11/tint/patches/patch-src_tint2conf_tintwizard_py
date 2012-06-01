@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/tint/patches/patch-src_tint2conf_tintwizard_py,v 1.1 2010/06/15 10:10:06 edd Exp $
+$OpenBSD$
 --- src/tint2conf/tintwizard.py.orig	Sun May  9 21:00:13 2010
 +++ src/tint2conf/tintwizard.py	Mon Jun 14 13:55:09 2010
 @@ -1112,7 +1112,7 @@ class TintWizardGUI(gtk.Window):

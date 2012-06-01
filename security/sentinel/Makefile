@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/sentinel/Makefile,v 1.20 2011/03/08 06:44:55 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		remote promiscuous mode detection tool
 

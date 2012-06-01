@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libunique3/Makefile,v 1.8 2011/09/28 09:51:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	library for writing single instance GTK+3 applications
 

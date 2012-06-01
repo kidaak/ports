@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cryptopp/patches/patch-salsa_cpp,v 1.1 2012/02/29 12:46:30 dcoppa Exp $
+$OpenBSD$
 --- salsa.cpp.orig	Fri Aug  6 18:44:28 2010
 +++ salsa.cpp	Wed Feb 29 10:09:08 2012
 @@ -122,17 +122,17 @@ void Salsa20_Policy::OperateKeystream(KeystreamOperati

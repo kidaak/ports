@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/lmms/patches/patch-plugins_zynaddsubfx_CMakeLists_txt,v 1.1.1.1 2010/10/28 22:33:41 jakemsr Exp $
+$OpenBSD$
 --- plugins/zynaddsubfx/CMakeLists.txt.orig	Thu Sep  2 15:27:44 2010
 +++ plugins/zynaddsubfx/CMakeLists.txt	Sun Oct 24 09:53:54 2010
 @@ -40,14 +40,15 @@ IF(LMMS_HOST_X86 OR LMMS_HOST_X86_64)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libIDL/pkg/PLIST,v 1.9 2004/08/10 08:36:46 espie Exp $
+@comment $OpenBSD$
 bin/libIDL-config-2
 include/libIDL-2.0/
 include/libIDL-2.0/libIDL/

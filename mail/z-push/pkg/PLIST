@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/z-push/pkg/PLIST,v 1.6 2012/03/15 13:35:53 ajacoutot Exp $
+@comment $OpenBSD$
 z-push/
 z-push/INSTALL
 z-push/LICENSE

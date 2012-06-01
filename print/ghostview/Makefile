@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/ghostview/Makefile,v 1.26 2010/11/20 09:48:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	X11 front-end for ghostscript
 

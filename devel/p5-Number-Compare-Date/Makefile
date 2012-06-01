@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Number-Compare-Date/Makefile,v 1.8 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Compare Dates
 

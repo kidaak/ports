@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/patches/patch-scripts_mtx-changer_in,v 1.7 2012/03/06 20:11:33 sthen Exp $
+$OpenBSD$
 --- scripts/mtx-changer.in.orig	Tue Feb 21 15:59:33 2012
 +++ scripts/mtx-changer.in	Mon Mar  5 12:43:07 2012
 @@ -1,6 +1,6 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/education/edict/pkg/PLIST,v 1.4 2004/09/15 00:39:58 espie Exp $
+@comment $OpenBSD$
 bin/edict
 bin/ethes
 share/doc/edict/

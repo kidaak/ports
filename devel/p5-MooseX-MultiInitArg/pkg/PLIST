@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-MultiInitArg/pkg/PLIST,v 1.1.1.1 2009/11/17 04:43:46 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/
 ${P5SITE}/MooseX/MultiInitArg/
 ${P5SITE}/MooseX/MultiInitArg.pm

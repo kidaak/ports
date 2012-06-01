@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/openfire/pkg/openfire.rc,v 1.2 2011/03/09 17:08:00 ajacoutot Exp $
+# $OpenBSD$
 
 OPENFIRE_HOME="${TRUEPREFIX}/openfire"
 OPENFIRE_LIB="${OPENFIRE_HOME}/lib"

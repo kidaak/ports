@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/filepp/pkg/PLIST,v 1.1.1.1 2009/09/04 01:37:37 william Exp $
+@comment $OpenBSD$
 bin/filepp
 @man man/man1/filepp.1
 share/filepp/

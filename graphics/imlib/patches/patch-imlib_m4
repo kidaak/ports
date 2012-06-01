@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/imlib/patches/patch-imlib_m4,v 1.1 2009/01/09 17:43:39 naddy Exp $
+$OpenBSD$
 --- imlib.m4.orig	Fri Jan  9 17:23:31 2009
 +++ imlib.m4	Fri Jan  9 17:23:57 2009
 @@ -6,7 +6,7 @@

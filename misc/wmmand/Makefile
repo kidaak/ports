@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/wmmand/Makefile,v 1.14 2010/11/19 07:23:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; mandelbrot explorer
 

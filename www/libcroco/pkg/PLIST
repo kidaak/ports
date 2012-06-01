@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/libcroco/pkg/PLIST,v 1.4 2012/02/16 22:10:35 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/croco-0.6-config
 @bin bin/csslint-0.6

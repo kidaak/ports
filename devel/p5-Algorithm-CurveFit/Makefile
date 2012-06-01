@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Algorithm-CurveFit/Makefile,v 1.7 2011/07/25 20:40:47 gsoares Exp $
+# $OpenBSD$
 
 COMMENT =	nonlinear least squares curve fitting
 

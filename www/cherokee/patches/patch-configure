@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/cherokee/patches/patch-configure,v 1.9 2010/12/20 07:51:58 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Mon Dec 13 14:49:57 2010
 +++ configure	Wed Dec 15 16:37:42 2010
 @@ -17414,13 +17414,14 @@ $as_echo "no" >&6; }

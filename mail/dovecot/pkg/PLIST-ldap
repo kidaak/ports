@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/dovecot/pkg/PLIST-ldap,v 1.1 2011/05/28 19:40:41 sthen Exp $
+@comment $OpenBSD$
 lib/dovecot/auth/libauthdb_ldap.so

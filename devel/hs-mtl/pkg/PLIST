@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-mtl/pkg/PLIST,v 1.1.1.1 2010/12/26 19:10:50 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Control/
 lib/ghc/${DISTNAME}/Control/Monad/

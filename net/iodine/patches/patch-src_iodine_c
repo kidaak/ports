@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/iodine/patches/patch-src_iodine_c,v 1.2 2009/03/30 09:17:45 sthen Exp $
+$OpenBSD$
 
 Drop privileges and chroot by default.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/liblqr/Makefile,v 1.6 2012/03/29 13:38:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT = 			seam-carving smart rescale library
 CATEGORIES =			graphics devel

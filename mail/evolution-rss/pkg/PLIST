@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/evolution-rss/pkg/PLIST,v 1.4 2012/01/02 14:49:45 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath mail/evolution-plugin-rss
 @bin bin/evolution-import-rss
 @comment lib/evolution/${EVO_VERSION}/plugins/liborg-gnome-evolution-rss.a

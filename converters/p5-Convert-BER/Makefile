@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Convert-BER/Makefile,v 1.13 2011/01/06 08:33:38 landry Exp $
+# $OpenBSD$
 
 COMMENT=	module to encode and decode objects
 

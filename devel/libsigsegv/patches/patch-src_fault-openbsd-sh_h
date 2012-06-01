@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libsigsegv/patches/patch-src_fault-openbsd-sh_h,v 1.1 2009/12/28 14:59:09 pirofti Exp $
+$OpenBSD$
 --- src/fault-openbsd-sh.h.orig	Mon Dec 28 07:01:13 2009
 +++ src/fault-openbsd-sh.h	Mon Dec 28 08:20:53 2009
 @@ -0,0 +1,3 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/color-manager/pkg/PLIST,v 1.6 2012/03/29 06:55:35 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gcm-calibrate
 @bin bin/gcm-import
 @bin bin/gcm-inspect

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gtk+/patches/patch-gtk_gtktypeutils_h,v 1.1 2011/07/17 15:39:50 naddy Exp $
+$OpenBSD$
 
 Fix LP64 warnings.
 

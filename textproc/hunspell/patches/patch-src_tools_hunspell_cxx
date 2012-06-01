@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/hunspell/patches/patch-src_tools_hunspell_cxx,v 1.2 2010/11/14 14:25:24 sthen Exp $
+$OpenBSD$
 --- src/tools/hunspell.cxx.orig	Mon Jul  5 11:06:21 2010
 +++ src/tools/hunspell.cxx	Sat Sep 25 11:45:07 2010
 @@ -61,26 +61,17 @@

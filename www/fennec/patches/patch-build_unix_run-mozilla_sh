@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-build_unix_run-mozilla_sh,v 1.4 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 find our gdb by default
 --- build/unix/run-mozilla.sh.orig	Thu Nov  4 21:05:18 2010
 +++ build/unix/run-mozilla.sh	Sat Nov 13 12:00:19 2010

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-ExtUtils-XSBuilder/pkg/PLIST,v 1.1.1.1 2007/07/22 15:58:36 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/ExtUtils/
 ${P5SITE}/ExtUtils/XSBuilder/
 ${P5SITE}/ExtUtils/XSBuilder.pm

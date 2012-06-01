@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_bandwidth/Makefile,v 1.12 2012/03/15 13:38:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	bandwidth limiter for Apache
 

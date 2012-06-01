@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-js_src_jscompartment_cpp,v 1.1 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 --- js/src/jscompartment.cpp.orig	Wed Jan 11 18:14:47 2012
 +++ js/src/jscompartment.cpp	Sat Jan 14 20:21:44 2012
 @@ -50,7 +50,6 @@

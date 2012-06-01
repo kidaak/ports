@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/sudoku/pkg/PLIST,v 1.1.1.1 2006/05/29 19:32:08 alek Exp $
+@comment $OpenBSD$
 bin/sudoku
 @man man/man6/sudoku.6
 share/sudoku/

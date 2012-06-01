@@ -1,8 +1,8 @@
-# $OpenBSD: ports/productivity/tryton/account_statement/Makefile,v 1.4 2012/01/24 10:16:10 ajacoutot Exp $
+# $OpenBSD$
 
-MODPY_EGG_VERSION =	2.2.0
 TRYTOND_MODULE =	account_statement
+REVISION =		0
 
-RUN_DEPENDS =		productivity/tryton/company>=2.2.0
+RUN_DEPENDS =		productivity/tryton/company
 
 .include <bsd.port.mk>

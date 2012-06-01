@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-wbem/pkg/PLIST,v 1.1.1.1 2012/03/31 08:30:42 sthen Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pywbem/
 lib/python${MODPY_VERSION}/site-packages/pywbem-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/pywbem-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

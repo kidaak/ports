@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/komi/patches/patch-sprites_h,v 1.1 2008/11/05 09:53:46 ajacoutot Exp $
+$OpenBSD$
 --- sprites.h.orig	Wed Nov  5 10:48:52 2008
 +++ sprites.h	Wed Nov  5 10:49:16 2008
 @@ -146,8 +146,8 @@ void loadsprite (struct sprite_struct * thesprite, cha

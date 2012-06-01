@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/netris/Makefile,v 1.21 2012/02/21 22:19:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	network head-to-head version of T*tris
 

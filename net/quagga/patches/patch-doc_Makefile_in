@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/quagga/patches/patch-doc_Makefile_in,v 1.10 2012/03/31 10:51:47 sthen Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Mon Mar 12 11:43:03 2012
 +++ doc/Makefile.in	Tue Mar 20 20:11:40 2012
 @@ -381,7 +381,7 @@ clean-libtool:

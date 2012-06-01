@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-DateTime-Format-Builder/pkg/PLIST,v 1.2 2008/10/08 12:41:46 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/DateTime/Format/Builder/
 ${P5SITE}/DateTime/Format/Builder.pm
 ${P5SITE}/DateTime/Format/Builder.pod

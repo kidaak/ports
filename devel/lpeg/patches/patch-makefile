@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/lpeg/patches/patch-makefile,v 1.6 2011/08/25 19:14:58 naddy Exp $
+$OpenBSD$
 --- makefile.orig	Wed Feb 16 16:03:25 2011
 +++ makefile	Thu Aug 25 21:09:29 2011
 @@ -1,14 +1,13 @@

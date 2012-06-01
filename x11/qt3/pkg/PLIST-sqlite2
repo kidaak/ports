@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/qt3/pkg/PLIST-sqlite2,v 1.1 2007/01/22 18:18:28 espie Exp $
+@comment $OpenBSD$
 lib/qt3/${QT_PLUGINS}/sqldrivers/libqsqlite.so

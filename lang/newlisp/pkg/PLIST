@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/newlisp/pkg/PLIST,v 1.2 2011/07/27 18:17:27 todd Exp $
+@comment $OpenBSD$
 bin/newlisp
 @bin bin/newlisp-${V}
 bin/newlisp-edit

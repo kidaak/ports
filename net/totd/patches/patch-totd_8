@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/totd/patches/patch-totd_8,v 1.1 2009/09/06 21:14:10 stsp Exp $
+$OpenBSD$
 
 formatting error; s/I N-ADDR/IN-ADDR/g; s/IP 6.ARPA/IP6.ARPA/g
 

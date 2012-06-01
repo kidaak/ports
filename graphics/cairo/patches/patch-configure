@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/cairo/patches/patch-configure,v 1.9 2011/06/28 11:04:40 kili Exp $
+$OpenBSD$
 
 Use `Requires', not `Requires.private', because otherwise libraries
 required for linking aren't exposed.

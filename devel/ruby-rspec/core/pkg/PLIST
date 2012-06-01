@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-rspec/core/pkg/PLIST,v 1.1 2011/11/17 15:15:26 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/autospec${GEM_BIN_SUFFIX}
 ${GEM_BIN}/rspec${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem

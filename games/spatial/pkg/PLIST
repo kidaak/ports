@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/spatial/pkg/PLIST,v 1.1.1.1 2005/09/09 08:26:58 espie Exp $
+@comment $OpenBSD$
 @mode g+s
 @group games
 bin/spatial

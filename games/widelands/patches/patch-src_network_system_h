@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/widelands/patches/patch-src_network_system_h,v 1.1.1.1 2007/10/01 21:37:28 simon Exp $
+$OpenBSD$
 --- src/network_system.h.orig	Sun Sep 23 19:42:49 2007
 +++ src/network_system.h	Sun Sep 23 19:43:00 2007
 @@ -25,6 +25,7 @@

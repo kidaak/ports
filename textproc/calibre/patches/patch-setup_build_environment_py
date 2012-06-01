@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/calibre/patches/patch-setup_build_environment_py,v 1.1.1.1 2011/04/17 18:39:21 phessler Exp $
+$OpenBSD$
 --- setup/build_environment.py.orig	Fri Jan 21 23:22:10 2011
 +++ setup/build_environment.py	Thu Jan 27 09:46:09 2011
 @@ -170,7 +170,7 @@ else:

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/vim/patches/sup-vax-src_Makefile,v 1.2 2010/03/21 10:53:37 jasper Exp $
+$OpenBSD$
 --- src/Makefile.orig	Fri Feb  5 14:16:52 2010
 +++ src/Makefile	Fri Feb  5 14:16:55 2010
 @@ -2347,10 +2347,10 @@ objects/digraph.o: digraph.c

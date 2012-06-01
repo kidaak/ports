@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/qt3/Makefile,v 1.101 2011/10/02 07:03:11 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.33 1999/02/27 03:09:57 andreas Exp $
 
 COMMENT-main=		C++ X11 GUI toolkit

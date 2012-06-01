@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/wxSVG/pkg/PLIST,v 1.5 2011/11/24 08:08:18 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/svgview
 include/wxSVG/

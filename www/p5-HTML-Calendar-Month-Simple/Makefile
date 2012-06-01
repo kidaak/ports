@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Calendar-Month-Simple/Makefile,v 1.8 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Simple HTML Calendars
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-SQL-Translator/pkg/PLIST,v 1.4 2011/03/10 22:52:51 sthen Exp $
+@comment $OpenBSD$
 bin/sqlt
 bin/sqlt-diagram
 bin/sqlt-diff

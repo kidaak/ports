@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-DAV-Server/Makefile,v 1.10 2011/06/25 08:35:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to provide a DAV server
 

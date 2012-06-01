@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-ICQ2000/Makefile,v 1.11 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module for ICQv7 protocol realisation
 

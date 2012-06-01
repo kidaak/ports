@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/telephony/asterisk/pkg/PLIST-odbc,v 1.4 2011/01/19 11:25:16 sthen Exp $
+@comment $OpenBSD$
 @pkgpath telephony/asterisk,-odbc,h323
 include/asterisk/res_odbc.h
 lib/asterisk/modules/cdr_adaptive_odbc.so

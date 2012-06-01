@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/libproxy/pkg/PLIST-main,v 1.5 2012/03/29 14:58:25 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict libproxy-gnome-*
 @pkgpath net/libproxy,-gnome
 @bin bin/proxy

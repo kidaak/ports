@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-bin_bric_republish,v 1.2 2007/09/21 21:17:56 sturm Exp $
+$OpenBSD$
 --- bin/bric_republish.orig	Sun May 21 06:24:13 2006
 +++ bin/bric_republish	Fri Sep 21 08:08:26 2007
 @@ -62,7 +62,7 @@ crontab like this to republish all stories hourly:

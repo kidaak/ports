@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/silc-server/patches/patch-apps_silcd_Makefile_in,v 1.7 2010/05/17 22:53:37 sthen Exp $
+$OpenBSD$
 --- apps/silcd/Makefile.in.orig	Sat Sep 26 21:34:14 2009
 +++ apps/silcd/Makefile.in	Mon May 17 09:21:59 2010
 @@ -586,7 +586,6 @@ install-dirs-server:

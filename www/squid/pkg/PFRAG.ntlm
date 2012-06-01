@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/squid/pkg/PFRAG.ntlm,v 1.1 2010/11/26 13:45:04 dcoppa Exp $
+@comment $OpenBSD$
 @bin libexec/fakeauth_auth
 @bin libexec/ntlm_auth
 @bin libexec/smb_auth

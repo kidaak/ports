@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/g77/patches/patch-gcc_config_rs6000_openbsd_h,v 1.1 2010/08/01 08:45:16 eric Exp $
+$OpenBSD$
 --- gcc/config/rs6000/openbsd.h.orig	Sat Jul 31 22:30:21 2010
 +++ gcc/config/rs6000/openbsd.h	Sat Jul 31 22:30:10 2010
 @@ -75,6 +75,9 @@ Boston, MA 02111-1307, USA.  */

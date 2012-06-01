@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/openldap/pkg/PLIST-main,v 1.7 2012/03/09 09:48:32 pea Exp $
+@comment $OpenBSD$
 @pkgpath ${BASE_PKGPATH}
 bin/ldapadd
 @bin bin/ldapcompare

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/festival/festlex/festlex_POSLEX/pkg/PLIST,v 1.2 2004/08/06 03:36:25 jolan Exp $
+@comment $OpenBSD$
 lib/festival/dicts/
 lib/festival/dicts/COPYING.poslex
 lib/festival/dicts/wsj.wp39.poslexR

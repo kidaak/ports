@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/lua/pkg/PLIST,v 1.13 2008/11/07 12:23:12 jsg Exp $
+@comment $OpenBSD$
 @bin bin/lua
 @bin bin/luac
 include/lauxlib.h

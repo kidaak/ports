@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-Services-oEmbed/Makefile,v 1.5 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	interface to oEmbed
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/p5-Compress-LZO/pkg/PLIST,v 1.11 2004/09/14 23:12:43 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Compress/
 ${P5ARCH}/Compress/LZO.pm

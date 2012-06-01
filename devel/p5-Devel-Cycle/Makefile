@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-Cycle/Makefile,v 1.13 2011/06/01 17:41:50 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 	find memory cycles in objects
 

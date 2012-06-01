@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/screenshot/pkg/PLIST,v 1.1.1.1 2012/03/28 15:37:06 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gnome-utils-*
 @bin bin/gnome-screenshot
 @man man/man1/gnome-screenshot.1

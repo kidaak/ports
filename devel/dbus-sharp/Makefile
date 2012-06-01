@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/dbus-sharp/Makefile,v 1.1.1.1 2011/11/02 12:45:56 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C\# implementation of D-Bus
 

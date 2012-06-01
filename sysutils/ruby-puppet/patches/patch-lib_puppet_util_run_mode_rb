@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/ruby-puppet/patches/patch-lib_puppet_util_run_mode_rb,v 1.2 2011/10/05 07:41:43 jasper Exp $
+$OpenBSD$
 --- lib/puppet/util/run_mode.rb.orig	Tue Oct  4 23:25:45 2011
 +++ lib/puppet/util/run_mode.rb	Tue Oct  4 23:25:59 2011
 @@ -34,7 +34,7 @@ module Puppet

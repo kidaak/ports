@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/tellico/pkg/PLIST,v 1.7 2011/12/03 23:20:53 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/tellico
 share/applications/kde/tellico.desktop
 share/apps/kconf_update/tellico-1-3-update.pl

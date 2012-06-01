@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/rhythmbox/pkg/PLIST,v 1.32 2012/03/12 07:42:12 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/rhythmbox
 @bin bin/rhythmbox-client
 include/rhythmbox/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/nspr/patches/patch-mozilla_nsprpub_pr_include_md__openbsd_cfg,v 1.7 2010/03/30 11:47:33 jasper Exp $
+$OpenBSD$
 --- mozilla/nsprpub/pr/include/md/_openbsd.cfg.orig	Mon Nov 26 19:17:17 2007
 +++ mozilla/nsprpub/pr/include/md/_openbsd.cfg	Mon Feb  8 16:00:15 2010
 @@ -193,7 +193,7 @@

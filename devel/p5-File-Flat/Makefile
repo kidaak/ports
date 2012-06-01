@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-Flat/Makefile,v 1.7 2011/03/14 09:17:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	implements a flat filesystem
 

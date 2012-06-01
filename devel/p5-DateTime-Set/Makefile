@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Set/Makefile,v 1.5 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	datetime sets and set math
 

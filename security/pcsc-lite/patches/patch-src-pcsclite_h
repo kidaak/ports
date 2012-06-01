@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/pcsc-lite/patches/patch-src-pcsclite_h,v 1.4 2005/12/25 09:13:57 sturm Exp $
+$OpenBSD$
 --- src/pcsclite.h.orig	Wed Nov  7 23:54:30 2001
 +++ src/pcsclite.h	Sun Dec 25 10:08:58 2005
 @@ -143,11 +143,13 @@ char * pcsc_stringify_error( long );

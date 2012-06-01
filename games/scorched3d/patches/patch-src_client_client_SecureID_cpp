@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/scorched3d/patches/patch-src_client_client_SecureID_cpp,v 1.1.1.1 2010/10/26 10:34:00 phessler Exp $
+$OpenBSD$
 
 the comment portion is evil
 

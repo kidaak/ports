@@ -1,11 +1,11 @@
-# $OpenBSD: ports/textproc/py-feedparser/Makefile,v 1.12 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	RSS and Atom feeds parser written in Python
 
 V=		5.0.1
 DISTNAME=	feedparser-${V}
 PKGNAME=	py-${DISTNAME}
-REVISION=	1
+REVISION=	2
 CATEGORIES=	textproc
 
 HOMEPAGE=	http://www.feedparser.org/

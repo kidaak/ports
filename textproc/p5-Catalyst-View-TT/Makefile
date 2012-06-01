@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Catalyst-View-TT/Makefile,v 1.13 2012/04/08 22:04:37 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Template Toolkit views for Catalyst
 

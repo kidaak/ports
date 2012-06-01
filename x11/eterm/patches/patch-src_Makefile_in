@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/eterm/patches/patch-src_Makefile_in,v 1.1 2007/11/18 12:55:58 jasper Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Wed Nov 14 17:36:17 2007
 +++ src/Makefile.in	Wed Nov 14 17:36:35 2007
 @@ -257,7 +257,7 @@ libEterm_la_SOURCES = actions.c actions.h buttons.c bu

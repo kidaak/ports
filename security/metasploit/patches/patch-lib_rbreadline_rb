@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/metasploit/patches/patch-lib_rbreadline_rb,v 1.1.1.1 2010/12/23 12:39:17 stephan Exp $
+$OpenBSD$
 --- lib/rbreadline.rb.orig	Wed Oct 20 15:19:56 2010
 +++ lib/rbreadline.rb	Fri Nov 19 14:37:36 2010
 @@ -1818,7 +1818,7 @@ module RbReadline

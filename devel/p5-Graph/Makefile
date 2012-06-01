@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Graph/Makefile,v 1.21 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	graph data structures in perl
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/eboard/patches/patch-configure,v 1.5 2011/12/15 17:59:21 fgsch Exp $
+$OpenBSD$
 --- configure.orig	Fri Feb 22 13:51:22 2008
 +++ configure	Wed Dec 14 23:30:00 2011
 @@ -6,8 +6,8 @@ my $prefix      = "/usr/local";

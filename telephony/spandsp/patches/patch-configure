@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/spandsp/patches/patch-configure,v 1.1 2011/03/10 09:36:43 sthen Exp $
+$OpenBSD$
 --- configure.orig	Sat Jan 22 02:49:54 2011
 +++ configure	Wed Mar  9 20:40:19 2011
 @@ -28626,8 +28626,6 @@ fi

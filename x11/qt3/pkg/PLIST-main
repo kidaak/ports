@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/qt3/pkg/PLIST-main,v 1.7 2011/08/28 07:57:41 espie Exp $
+@comment $OpenBSD$
 @conflict qt3-*
 @conflict qt3-base-*
 @pkgpath x11/qt3,mt

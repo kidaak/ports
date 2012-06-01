@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfm/patches/patch-src_FmMain_c,v 1.3 2010/01/03 22:53:32 jasper Exp $
+$OpenBSD$
 --- src/FmMain.c.orig	Thu Aug 23 08:45:26 2001
 +++ src/FmMain.c	Sun Jan  3 01:03:08 2010
 @@ -353,7 +353,7 @@

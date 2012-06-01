@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pavuk/pkg/PLIST,v 1.5 2008/01/22 20:12:48 fgsch Exp $
+@comment $OpenBSD$
 bin/pavuk
 @comment bin/pavuk.sh
 @comment bin/tperf.sh

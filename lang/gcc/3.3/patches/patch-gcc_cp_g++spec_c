@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_cp_g++spec_c,v 1.2 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/cp/g++spec.c.orig	Tue Mar 11 02:59:25 2003
 +++ gcc/cp/g++spec.c	Fri Jul 25 12:34:58 2008
 @@ -37,11 +37,17 @@ Boston, MA 02111-1307, USA.  */

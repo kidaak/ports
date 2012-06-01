@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/soundtracker/Makefile,v 1.25 2011/10/12 12:54:31 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		music tracking tool for X11
 

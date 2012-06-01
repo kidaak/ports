@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/digikam-doc/pkg/PLIST,v 1.5 2008/01/12 12:10:38 espie Exp $
+@comment $OpenBSD$
 share/doc/HTML/
 share/doc/HTML/en/
 share/doc/HTML/en/digikam/

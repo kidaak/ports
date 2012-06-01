@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmi/Makefile,v 1.16 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	window manager improved - key driven window manager
 

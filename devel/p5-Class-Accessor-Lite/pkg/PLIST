@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Accessor-Lite/pkg/PLIST,v 1.1.1.1 2011/06/14 12:13:51 robert Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/
 ${P5SITE}/Class/Accessor/
 ${P5SITE}/Class/Accessor/Lite.pm

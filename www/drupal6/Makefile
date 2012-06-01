@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/Makefile,v 1.47 2012/01/28 11:19:42 espie Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += CKeditor

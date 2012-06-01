@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-speech_tools_config_compilers_gcc_defaults_mak,v 1.1 2004/07/11 06:27:07 jolan Exp $
+$OpenBSD$
 --- speech_tools/config/compilers/gcc_defaults.mak.orig	2002-11-29 07:34:50.000000000 -0600
 +++ speech_tools/config/compilers/gcc_defaults.mak	2004-05-06 15:00:52.000000000 -0500
 @@ -38,14 +38,14 @@

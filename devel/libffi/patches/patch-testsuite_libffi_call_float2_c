@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libffi/patches/patch-testsuite_libffi_call_float2_c,v 1.2 2010/09/19 20:19:15 jasper Exp $
+$OpenBSD$
 
 The %Lf printf format expects "long double", so cast args accordingly.
 

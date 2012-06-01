@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ccrtp/pkg/PLIST,v 1.1.1.1 2007/12/08 05:23:20 jakemsr Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/ccrtp/
 include/ccrtp/CryptoContext.h

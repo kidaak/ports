@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/phonon/patches/patch-xine_videowidget_h,v 1.1.1.1 2010/06/18 12:53:38 espie Exp $
+$OpenBSD$
 --- xine/videowidget.h.orig	Fri Jun 18 14:20:12 2010
 +++ xine/videowidget.h	Fri Jun 18 14:21:31 2010
 @@ -28,9 +28,9 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/silc-toolkit/Makefile,v 1.31 2011/07/07 16:59:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	toolkit for the development of SILC applications
 

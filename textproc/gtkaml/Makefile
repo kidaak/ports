@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/gtkaml/Makefile,v 1.32 2012/02/26 15:09:08 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		XML parser that extends the Vala.Parser
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/nfsen/pkg/PLIST-web,v 1.2 2011/03/24 23:04:00 sthen Exp $
+@comment $OpenBSD$
 htdocs/nfsen/
 htdocs/nfsen/alerting.php
 htdocs/nfsen/colour_palette.html

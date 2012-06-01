@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/most/pkg/PLIST,v 1.4 2009/10/13 21:47:59 sthen Exp $
+@comment $OpenBSD$
 @bin bin/most
 @man man/man1/most.1
 share/doc/most/

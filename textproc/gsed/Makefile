@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/gsed/Makefile,v 1.4 2012/02/28 08:46:27 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=		GNU stream editor
 

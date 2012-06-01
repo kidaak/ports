@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/qca2/patches/patch-configure,v 1.1 2012/01/26 09:25:46 sebastia Exp $
+$OpenBSD$
 
 rename library to qca2
 

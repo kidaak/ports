@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Hook-LexWrap/Makefile,v 1.7 2011/04/10 19:11:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	lexically scoped subroutine wrappers
 

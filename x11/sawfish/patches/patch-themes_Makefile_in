@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/sawfish/patches/patch-themes_Makefile_in,v 1.3 2011/11/15 19:32:49 jasper Exp $
+$OpenBSD$
 
 BSD tar cannot handle the StyleTar.tar.gz file:
 tar: Cannot identify format. Searching...

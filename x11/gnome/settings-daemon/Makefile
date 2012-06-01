@@ -1,11 +1,12 @@
-# $OpenBSD: ports/x11/gnome/settings-daemon/Makefile,v 1.70 2012/03/29 06:47:51 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
 COMMENT=	GNOME settings daemon
 
 GNOME_PROJECT=	gnome-settings-daemon
-GNOME_VERSION=	3.4.0
+GNOME_VERSION=	3.4.2
+REVISION=	0
 
 # GPLv3
 PERMIT_PACKAGE_CDROM=	Yes
@@ -34,7 +35,7 @@ LIB_DEPENDS=	devel/libnotify>=0.7.2 \
 		x11/gnome/libgnomekbd \
 		security/nss \
 		print/cups \
-		audio/pulseaudio \
+		audio/pulseaudio>=2.0 \
 		audio/libcanberra,-gtk3 \
 		sysutils/upower \
 		graphics/colord
@@ -54,10 +55,9 @@ MODGNOME_ICON_CACHE=	Yes
 LIBTOOL_FLAGS=	--tag=disable-static
 
 MODGNOME_CPPFLAGS=	-I${X11BASE}/include
-MODGNOME_LDFLAGS=	-L${X11BASE}/lib
+MODGNOME_LDFLAGS=	-L${X11BASE}/lib -Wl,-rpath,${LOCALBASE}/lib/pulseaudio
 
 CONFIGURE_ARGS=	--disable-static \
-		--localstatedir=/var \
 		--disable-packagekit \
 		--disable-gudev \
 		--disable-systemd
@@ -65,5 +65,17 @@ CONFIGURE_ARGS=	--disable-static \
 FAKE_FLAGS+=	desktopdir=${PREFIX}/share/examples/gnome-settings-daemon/xdg/autostart \
 		sysconfdir=${PREFIX}/share/examples/gnome-settings-daemon \
 		DBUS_SYS_DIR=${PREFIX}/share/examples/gnome-settings-daemon/dbus-1/system.d
+
+AUTOCONF_VERSION=	2.68
+AUTOMAKE_VERSION=	1.11
+BUILD_DEPENDS +=devel/autoconf/${AUTOCONF_VERSION} \
+		devel/automake/${AUTOMAKE_VERSION} \
+		devel/libtool
+
+pre-configure:
+	@cd ${WRKSRC} && \
+		AUTOCONF_VERSION=${AUTOCONF_VERSION} \
+		AUTOMAKE_VERSION=${AUTOMAKE_VERSION} \
+		autoreconf -i
 
 .include <bsd.port.mk>

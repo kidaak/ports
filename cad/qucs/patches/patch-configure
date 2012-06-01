@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/qucs/patches/patch-configure,v 1.1.1.1 2011/09/15 15:20:17 jasper Exp $
+$OpenBSD$
 
 - Fixup after ${SUBST_CMD} mangled this file
 - Fix path to qt library

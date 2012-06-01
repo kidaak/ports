@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gtk2-theme-switch/patches/patch-switch_1,v 1.1.1.1 2005/10/31 20:14:11 alek Exp $
+$OpenBSD$
 --- switch.1.orig	Mon Oct 31 21:08:06 2005
 +++ switch.1	Mon Oct 31 21:08:42 2005
 @@ -3,7 +3,7 @@

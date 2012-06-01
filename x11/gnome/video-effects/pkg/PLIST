@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/video-effects/pkg/PLIST,v 1.1.1.1 2012/04/11 08:50:14 ajacoutot Exp $
+@comment $OpenBSD$
 share/gnome-video-effects/
 share/gnome-video-effects/bulge.effect
 share/gnome-video-effects/cartoon.effect

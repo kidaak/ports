@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/sdl/pkg/PLIST,v 1.15 2012/03/02 09:10:38 dcoppa Exp $
+@comment $OpenBSD$
 @pkgpath ${BASE_PKGPATH},altivec
 @pkgpath ${BASE_PKGPATH},caca
 @pkgpath ${BASE_PKGPATH},esd

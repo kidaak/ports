@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/nqp/pkg/PLIST,v 1.1.1.1 2012/03/08 14:57:25 pascal Exp $
+@comment $OpenBSD$
 @bin bin/nqp
 lib/parrot/${PARROT_VERSION}/dynext/nqp_bigint_ops.so
 lib/parrot/${PARROT_VERSION}/dynext/nqp_dyncall_ops.so

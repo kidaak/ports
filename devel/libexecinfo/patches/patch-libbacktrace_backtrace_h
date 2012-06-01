@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libexecinfo/patches/patch-libbacktrace_backtrace_h,v 1.1 2011/11/14 19:14:18 sthen Exp $
+$OpenBSD$
 --- libbacktrace/backtrace.h.orig	Fri Sep 10 00:23:45 2010
 +++ libbacktrace/backtrace.h	Mon Nov 14 00:11:25 2011
 @@ -16,10 +16,19 @@

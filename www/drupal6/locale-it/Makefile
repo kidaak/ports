@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/locale-it/Makefile,v 1.7 2012/04/12 08:16:06 naddy Exp $
+# $OpenBSD$
 
 COMMENT =	italian translation
 DRUPAL_LANG =		it

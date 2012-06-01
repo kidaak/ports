@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/Makefile,v 1.107 2012/04/12 14:03:32 gsoares Exp $
+# $OpenBSD$
 #
 
      SUBDIR =
@@ -41,6 +41,7 @@
      SUBDIR += lapack
      SUBDIR += libneural
      SUBDIR += logic2cnf
+     SUBDIR += lpsolve
      SUBDIR += lrs
      SUBDIR += maple
      SUBDIR += maple-share

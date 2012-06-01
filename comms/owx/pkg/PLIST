@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/owx/pkg/PLIST,v 1.1.1.1 2011/09/18 20:27:54 landry Exp $
+@comment $OpenBSD$
 bin/owx-check
 bin/owx-export
 bin/owx-get

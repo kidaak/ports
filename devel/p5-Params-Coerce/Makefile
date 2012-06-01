@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Params-Coerce/Makefile,v 1.4 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	allow your classes to do coercion of parameters
 

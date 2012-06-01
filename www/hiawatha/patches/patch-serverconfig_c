@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/hiawatha/patches/patch-serverconfig_c,v 1.15 2011/04/13 17:44:59 rpointel Exp $
+$OpenBSD$
 --- serverconfig.c.orig	Tue Nov  2 17:15:29 2010
 +++ serverconfig.c	Wed Apr 13 16:47:17 2011
 @@ -28,7 +28,7 @@

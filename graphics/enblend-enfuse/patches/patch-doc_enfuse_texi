@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/enblend-enfuse/patches/patch-doc_enfuse_texi,v 1.3 2010/07/15 17:01:58 sthen Exp $
+$OpenBSD$
 
 workaround missing @textdegree{}; support was added in texinfo-4.11
 

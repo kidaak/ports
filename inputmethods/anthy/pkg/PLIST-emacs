@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/anthy/pkg/PLIST-emacs,v 1.1.1.1 2006/10/18 23:13:34 espie Exp $
+@comment $OpenBSD$
 share/emacs/
 share/emacs/site-lisp/
 share/emacs/site-lisp/anthy/

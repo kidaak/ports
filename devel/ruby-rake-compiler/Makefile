@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-rake-compiler/Makefile,v 1.6 2012/04/03 18:15:18 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	build and package Ruby extensions using Rake as glue
 

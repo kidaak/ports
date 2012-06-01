@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gpointing-device-settings/pkg/PLIST,v 1.1.1.1 2011/08/31 15:15:25 mpi Exp $
+@comment $OpenBSD$
 @bin bin/gpointing-device-settings
 include/gpointing-device-settings/
 include/gpointing-device-settings/gpds-gconf.h

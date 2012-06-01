@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/bytebench/Makefile,v 1.21 2011/05/22 16:25:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=	BYTE magazine benchmark suite
 DISTNAME=       bytebench-3.1

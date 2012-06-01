@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-PPIx-Regexp/pkg/PLIST,v 1.2 2011/07/10 12:17:42 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/PPIx/
 ${P5SITE}/PPIx/Regexp/
 ${P5SITE}/PPIx/Regexp.pm

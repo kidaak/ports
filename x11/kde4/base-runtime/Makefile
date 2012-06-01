@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/base-runtime/Makefile,v 1.8 2010/11/22 08:37:02 espie Exp $
+# $OpenBSD$
 
 COMMENT =		K Desktop Environment, base runtime
 DISTNAME =		kdebase-runtime-${VERSION}

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/pkgconfig/patches/patch-pkg_c,v 1.9 2011/07/08 17:57:44 jasper Exp $
+$OpenBSD$
 --- pkg.c.orig	Sun May 15 14:04:08 2011
 +++ pkg.c	Fri Jul  8 19:52:01 2011
 @@ -379,7 +379,55 @@ get_package_quiet (const char *name)

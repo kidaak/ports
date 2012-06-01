@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-dnspython/pkg/PLIST,v 1.6 2011/10/09 10:17:19 sthen Exp $
+@comment $OpenBSD$
 @conflict linkchecker->=7.1,<7.1p1
 lib/python${MODPY_VERSION}/site-packages/dns/
 lib/python${MODPY_VERSION}/site-packages/dns/__init__.py

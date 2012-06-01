@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/crossfire-client/patches/patch-gtk-v2_src_gtk2proto_h,v 1.1 2008/04/01 09:14:31 ajacoutot Exp $
+$OpenBSD$
 --- gtk-v2/src/gtk2proto.h.orig	Mon Mar 31 20:58:22 2008
 +++ gtk-v2/src/gtk2proto.h	Mon Mar 31 20:58:26 2008
 @@ -110,7 +110,7 @@ extern void menu_quit_character(GtkMenuItem *menuitem,

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_toplev_c,v 1.1 2012/02/16 21:30:15 pascal Exp $
+$OpenBSD$
 --- gcc/toplev.c.orig	Fri Jan 20 14:23:40 2012
 +++ gcc/toplev.c	Fri Jan 20 14:24:30 2012
 @@ -1580,6 +1580,8 @@ process_options (void)

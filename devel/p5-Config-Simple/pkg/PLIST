@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Config-Simple/pkg/PLIST,v 1.1.1.1 2010/08/19 21:07:34 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Config/
 ${P5SITE}/Config/Simple.pm
 ${P5SITE}/auto/

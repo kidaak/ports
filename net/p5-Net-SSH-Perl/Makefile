@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-SSH-Perl/Makefile,v 1.12 2011/07/10 16:50:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	perl implementation of the SSH1 and SSH2 protocols
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk+2/pkg/PLIST-guic,v 1.1 2011/12/03 18:30:41 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gtk+2-<2.24.8p0
 @unexec rm -f %D/share/icons/hicolor/icon-theme.cache
 @bin bin/gtk-update-icon-cache

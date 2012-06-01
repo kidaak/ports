@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/quirc/pkg/PLIST,v 1.4 2010/10/01 15:23:07 sthen Exp $
+@comment $OpenBSD$
 @bin bin/quirc
 share/doc/quirc/
 share/doc/quirc/AUTHORS

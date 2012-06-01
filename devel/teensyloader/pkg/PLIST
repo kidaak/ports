@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/teensyloader/pkg/PLIST,v 1.2 2010/06/26 21:22:00 ckuethe Exp $
+@comment $OpenBSD$
 @bin bin/teensyloader
 share/examples/teensy/
 share/examples/teensy/blink_fast.hex

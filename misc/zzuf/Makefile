@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/zzuf/Makefile,v 1.9 2011/07/26 06:07:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		transparent application input fuzzer
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/R/patches/patch-src_extra_blas_Makefile_in,v 1.1 2009/03/11 08:21:33 sthen Exp $
+$OpenBSD$
 --- src/extra/blas/Makefile.in.orig	Wed Mar 11 01:06:21 2009
 +++ src/extra/blas/Makefile.in	Wed Mar 11 01:06:58 2009
 @@ -10,6 +10,7 @@ subdir = src/extra/blas

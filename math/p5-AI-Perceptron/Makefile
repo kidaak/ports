@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-AI-Perceptron/Makefile,v 1.11 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module to internal operations of neural networks
 

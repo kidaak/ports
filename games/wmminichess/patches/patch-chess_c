@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/wmminichess/patches/patch-chess_c,v 1.2 2002/02/26 13:26:21 wilfried Exp $
+$OpenBSD$
 --- chess.c.orig	Mon Sep 13 19:15:50 1999
 +++ chess.c	Tue Feb 26 14:20:47 2002
 @@ -1864,7 +1864,8 @@ void textGame

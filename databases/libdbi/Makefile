@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/libdbi/Makefile,v 1.1.1.1 2009/06/02 00:57:57 merdely Exp $
+# $OpenBSD$
 
 COMMENT =		database-independent abstraction layer
 DISTNAME =		libdbi-0.8.3

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/mnemosyne/Makefile,v 1.18 2011/12/20 18:55:08 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

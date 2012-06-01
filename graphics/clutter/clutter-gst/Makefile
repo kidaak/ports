@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/clutter/clutter-gst/Makefile,v 1.10 2011/11/01 20:30:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		clutter GStreamer integration library
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/isomaster/Makefile,v 1.20 2011/09/16 12:29:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		gui cd image editor
 

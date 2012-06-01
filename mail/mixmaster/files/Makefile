@@ -6,7 +6,7 @@
 # ANY KIND, either express or implied. See the file COPYRIGHT for
 # details.
 
-# $Id: Makefile,v 1.2 2002/10/30 15:07:54 naddy Exp $
+# $Id$
 
 # Edit according to the libraries you want to use:
 INC =  -Ipcre-2.08

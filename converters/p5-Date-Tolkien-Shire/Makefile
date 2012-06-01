@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Date-Tolkien-Shire/Makefile,v 1.9 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	convert dates into the Shire Calendar
 

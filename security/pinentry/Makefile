@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pinentry/Makefile,v 1.6 2011/11/08 16:55:19 stsp Exp $
+# $OpenBSD$
 
 # pinentry builds against it's own stripped version of libassuan
 # I will see with upstream how to change this behavior

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/arabica/Makefile,v 1.2 2012/03/06 19:47:45 landry Exp $
+# $OpenBSD$
 
 COMMENT =	XML and HTML processing toolkit
 DISTNAME =	arabica-2010-November

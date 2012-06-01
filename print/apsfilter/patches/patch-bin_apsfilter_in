@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/apsfilter/patches/patch-bin_apsfilter_in,v 1.1 2007/04/08 15:19:31 sturm Exp $
+$OpenBSD$
 --- bin/apsfilter.in.orig	Sun Jul  9 17:54:24 2006
 +++ bin/apsfilter.in	Sat Apr  7 18:25:03 2007
 @@ -277,12 +277,14 @@ play_mp3()

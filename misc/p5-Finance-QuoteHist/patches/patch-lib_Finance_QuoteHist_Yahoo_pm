@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/p5-Finance-QuoteHist/patches/patch-lib_Finance_QuoteHist_Yahoo_pm,v 1.1.1.1 2003/04/13 19:31:33 sturm Exp $
+$OpenBSD$
 --- lib/Finance/QuoteHist/Yahoo.pm.orig	Thu Mar 27 14:42:18 2003
 +++ lib/Finance/QuoteHist/Yahoo.pm	Thu Mar 27 14:42:41 2003
 @@ -21,8 +21,10 @@ use Date::Manip;

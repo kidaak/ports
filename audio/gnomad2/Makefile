@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/gnomad2/Makefile,v 1.24 2011/10/12 12:54:30 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		GTK+ tool for managing Creative and Dell audio players
 

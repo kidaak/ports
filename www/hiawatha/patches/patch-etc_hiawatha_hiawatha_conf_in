@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/hiawatha/patches/patch-etc_hiawatha_hiawatha_conf_in,v 1.1 2009/09/22 09:29:25 ajacoutot Exp $
+$OpenBSD$
 --- etc/hiawatha/hiawatha.conf.in.orig	Tue Sep 22 11:06:11 2009
 +++ etc/hiawatha/hiawatha.conf.in	Tue Sep 22 11:08:10 2009
 @@ -4,7 +4,7 @@

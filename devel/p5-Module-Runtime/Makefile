@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Module-Runtime/Makefile,v 1.1.1.1 2012/04/08 21:02:51 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	runtime module handling
 

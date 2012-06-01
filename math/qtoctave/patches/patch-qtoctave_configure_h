@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/qtoctave/patches/patch-qtoctave_configure_h,v 1.1.1.1 2007/10/07 18:37:01 steven Exp $
+$OpenBSD$
 --- qtoctave/configure.h.orig	Tue Jun 12 09:01:23 2007
 +++ qtoctave/configure.h	Sun Oct  7 19:36:11 2007
 @@ -1,5 +1,5 @@

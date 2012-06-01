@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/august/Makefile,v 1.20 2010/11/22 08:36:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	html editor designed for the experienced web designer
 

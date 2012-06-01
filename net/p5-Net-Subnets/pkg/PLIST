@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Subnets/pkg/PLIST,v 1.1.1.1 2007/07/22 16:09:41 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/Subnets.pm
 @man man/man3p/Net::Subnets.3p

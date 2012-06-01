@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-FromText/Makefile,v 1.15 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	convert text to HTML with controlling options
 

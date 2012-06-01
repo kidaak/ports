@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xgrab/patches/patch-Imakefile,v 1.1 2007/10/26 20:59:01 jasper Exp $
+$OpenBSD$
 --- Imakefile.orig	Tue Nov  7 20:31:39 1995
 +++ Imakefile	Fri Oct 26 22:51:21 2007
 @@ -14,7 +14,7 @@

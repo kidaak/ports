@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/archie/Makefile,v 1.17 2010/10/18 18:36:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Prospero client for the archie service
 

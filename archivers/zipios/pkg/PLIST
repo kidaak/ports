@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/zipios/pkg/PLIST,v 1.1.1.1 2005/02/19 12:31:30 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/zipios++/
 include/zipios++/basicentry.h

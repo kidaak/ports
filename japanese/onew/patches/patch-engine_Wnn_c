@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/onew/patches/patch-engine_Wnn_c,v 1.1 2010/05/19 14:05:37 espie Exp $
+$OpenBSD$
 --- engine/Wnn.c.orig	Wed May 19 16:04:00 2010
 +++ engine/Wnn.c	Wed May 19 16:04:07 2010
 @@ -26,6 +26,7 @@ int KanakanExists;

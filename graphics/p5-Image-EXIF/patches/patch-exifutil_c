@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/p5-Image-EXIF/patches/patch-exifutil_c,v 1.1.1.1 2004/05/17 05:09:52 robert Exp $
+$OpenBSD$
 --- exifutil.c.orig	2004-05-03 11:34:15.000000000 -0700
 +++ exifutil.c	2004-05-03 11:35:12.000000000 -0700
 @@ -165,7 +165,7 @@ finddescr(struct descrip *table, u_int16

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_amule_cpp,v 1.3 2011/11/28 15:28:49 dcoppa Exp $
+$OpenBSD$
 
 Disable checking for new versions at startup: it's useless and was
 causing a crash with amuled on sparc64.

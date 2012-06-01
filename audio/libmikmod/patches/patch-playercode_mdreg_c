@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmikmod/patches/patch-playercode_mdreg_c,v 1.1 2010/01/11 04:25:26 jakemsr Exp $
+$OpenBSD$
 --- playercode/mdreg.c.orig	Fri Dec 18 23:51:15 2009
 +++ playercode/mdreg.c	Fri Dec 18 23:51:44 2009
 @@ -66,6 +66,9 @@ void _mm_registeralldrivers(void)

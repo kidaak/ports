@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/views_bulk_operations/pkg/PLIST,v 1.5 2012/01/28 10:40:40 espie Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}views_bulk_operations/

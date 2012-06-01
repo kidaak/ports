@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/netstrain/Makefile,v 1.4 2007/09/15 21:30:27 simon Exp $
+# $OpenBSD$
 
 COMMENT=	tool to measure TCP throughput
 DISTNAME=	netstrain-3.0

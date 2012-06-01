@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/openmotif/patches/patch-demos_unsupported_xmform_xmform_c,v 1.1 2010/08/31 21:04:06 jasper Exp $
+$OpenBSD$
 
 Fix implicit declaration.
 

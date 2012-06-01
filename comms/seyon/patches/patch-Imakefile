@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/seyon/patches/patch-Imakefile,v 1.1 2002/02/20 21:46:49 naddy Exp $
+$OpenBSD$
 --- Imakefile.orig	Sat Mar 27 22:20:12 1993
 +++ Imakefile	Wed Feb 20 22:31:21 2002
 @@ -46,13 +46,6 @@ InstallAppDefaults(Seyon)

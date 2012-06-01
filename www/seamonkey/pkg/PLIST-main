@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/seamonkey/pkg/PLIST-main,v 1.21 2012/03/16 21:38:33 landry Exp $
+@comment $OpenBSD$
 @conflict seamonkey-<=2.0.6
 @pkgpath www/seamonkey
 bin/${MOZILLA_PROJECT}

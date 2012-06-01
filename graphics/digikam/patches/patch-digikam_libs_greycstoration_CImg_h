@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/digikam/patches/patch-digikam_libs_greycstoration_CImg_h,v 1.4 2009/09/27 23:47:22 sthen Exp $
+$OpenBSD$
 --- digikam/libs/greycstoration/CImg.h.orig	Fri Jul  3 05:19:41 2009
 +++ digikam/libs/greycstoration/CImg.h	Thu Sep 10 21:08:53 2009
 @@ -130,6 +130,7 @@

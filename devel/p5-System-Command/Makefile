@@ -1,11 +1,10 @@
-# $OpenBSD: ports/devel/p5-System-Command/Makefile,v 1.1.1.1 2011/07/20 18:04:48 jasper Exp $
+# $OpenBSD$
 
 COMMENT = 	object for running system commands
 
 MODULES =	cpan
-DISTNAME =	System-Command-1.05
+DISTNAME =	System-Command-1.07
 CATEGORIES =	devel
-USE_GROFF =	Yes
 
 MAINTAINER =	Wen Heping <wenheping@gmail.com>
 
@@ -16,5 +15,9 @@ PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
 CONFIGURE_STYLE =	modbuild
+
+MAKE_ENV +=		TEST_POD=yes
+
+REGRESS_DEPENDS =	devel/p5-Test-Output
 
 .include <bsd.port.mk>

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/redis/pkg/PLIST,v 1.5 2011/11/29 16:07:23 dcoppa Exp $
+@comment $OpenBSD$
 @newgroup _redis:686
 @newuser _redis:686:_redis:daemon:redis account:${DBDIR}:/sbin/nologin
 @bin bin/redis-benchmark

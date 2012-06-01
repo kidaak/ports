@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/libdvd/patches/patch-src_libdvd_c,v 1.1 2006/10/15 23:00:43 jolan Exp $
+$OpenBSD$
 --- src/libdvd.c.orig	Sun Apr 17 13:48:13 2005
 +++ src/libdvd.c	Sun Oct 15 14:54:04 2006
 @@ -348,16 +348,7 @@ extern libdvd_t libdvd_open ( char *psz_

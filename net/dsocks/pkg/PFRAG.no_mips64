@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/dsocks/pkg/PFRAG.no_mips64,v 1.1 2010/08/23 15:44:26 jasper Exp $
+@comment $OpenBSD$
 lib/libdsocks_pic.a

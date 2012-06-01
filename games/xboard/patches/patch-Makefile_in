@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xboard/patches/patch-Makefile_in,v 1.4 2007/12/06 16:07:18 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri Nov 28 22:12:57 2003
 +++ Makefile.in	Thu Dec  6 16:58:57 2007
 @@ -21,7 +21,7 @@ man6ext = .6

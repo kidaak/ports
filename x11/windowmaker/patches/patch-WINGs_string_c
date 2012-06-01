@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/windowmaker/patches/patch-WINGs_string_c,v 1.4 2007/04/25 11:32:55 wilfried Exp $
+$OpenBSD$
 --- WINGs/string.c.orig	Tue Oct 12 20:32:12 2004
 +++ WINGs/string.c	Thu Mar 15 20:00:31 2007
 @@ -1,6 +1,6 @@

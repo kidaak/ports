@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/jbigkit/Makefile,v 1.35 2010/11/17 08:05:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	lossless image compression library
 

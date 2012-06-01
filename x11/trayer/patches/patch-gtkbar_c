@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/trayer/patches/patch-gtkbar_c,v 1.1 2010/04/27 20:05:05 jasper Exp $
+$OpenBSD$
 
 Fix build with gtk+ 2.20.
 

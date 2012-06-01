@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Convert-UU/Makefile,v 1.28 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl5 module for uuencode and uudecode
 

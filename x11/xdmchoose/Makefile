@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xdmchoose/Makefile,v 1.12 2011/04/17 20:20:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	alternative xdm-invoked chooser
 

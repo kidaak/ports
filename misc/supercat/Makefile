@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/supercat/Makefile,v 1.3 2010/11/19 07:23:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	colorize specific patterns in input
 

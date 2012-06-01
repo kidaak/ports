@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ctunnel/Makefile,v 1.2 2011/01/12 15:19:14 pea Exp $
+# $OpenBSD$
 
 COMMENT=	provide cryptographic tunnel
 

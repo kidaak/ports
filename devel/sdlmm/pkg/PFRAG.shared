@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/sdlmm/pkg/PFRAG.shared,v 1.6 2010/09/30 17:34:57 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libSDLmm.so.${LIBSDLmm_VERSION}

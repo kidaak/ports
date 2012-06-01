@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/maelstrom/Makefile,v 1.5 2010/11/16 11:23:27 espie Exp $
+# $OpenBSD$
 
 COMMENT =		asteroid-like game
 

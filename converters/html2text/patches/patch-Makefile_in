@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/html2text/patches/patch-Makefile_in,v 1.1.1.1 2007/09/17 19:21:21 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Jan 14 14:47:02 2004
 +++ Makefile.in	Thu Sep 13 21:36:17 2007
 @@ -29,9 +29,9 @@ BISONXX  = bison++

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/ja-kanjistrokeorders-ttf/Makefile,v 1.1.1.1 2011/07/19 09:13:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	font to view stroke order diagrams for Kanji, Kana and etc
 

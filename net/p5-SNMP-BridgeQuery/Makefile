@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-SNMP-BridgeQuery/Makefile,v 1.8 2010/12/03 11:45:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl extension for retrieving bridge tables
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/t1utils/pkg/PLIST,v 1.2 2011/12/04 23:59:35 sthen Exp $
+@comment $OpenBSD$
 @bin bin/t1ascii
 @bin bin/t1asm
 @bin bin/t1binary

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/atk2mm/Makefile,v 1.13 2011/10/26 12:26:15 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C++ binding for the ATK library
 

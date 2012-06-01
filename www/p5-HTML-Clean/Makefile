@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-Clean/Makefile,v 1.6 2011/03/14 09:15:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	cleans up HTML code for web browsers, not humans
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/pear-DB/pkg/PLIST,v 1.4 2011/12/29 08:48:30 giovanni Exp $
+@comment $OpenBSD$
 @group daemon
 lib/
 lib/php/

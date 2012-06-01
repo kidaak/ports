@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/activerecord/Makefile,v 1.14 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	plugin for the Merb that provides activerecord access
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/mlterm/pkg/PFRAG.shared,v 1.4 2005/12/25 21:14:27 naddy Exp $
+@comment $OpenBSD$
 @lib lib/libkik.so.${LIBkik_VERSION}
 @lib lib/libmkf.so.${LIBmkf_VERSION}
 lib/mlterm/libathena.so

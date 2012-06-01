@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-largeword/Makefile,v 1.2 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT=		provides Word128, Word192 and various others large words
 

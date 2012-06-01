@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/xcdroast/pkg/PLIST,v 1.10 2009/08/18 23:58:56 jolan Exp $
+@comment $OpenBSD$
 @bin bin/xcdroast
 lib/xcdroast-0.98/
 lib/xcdroast-0.98/bin/

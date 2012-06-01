@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avrdude/patches/patch-avrdude_conf_in,v 1.1 2011/03/02 07:20:53 jasper Exp $
+$OpenBSD$
 
 Add support for attiny4313:
 http://savannah.nongnu.org/patch/?7393

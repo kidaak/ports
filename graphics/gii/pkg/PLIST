@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gii/pkg/PLIST,v 1.16 2005/01/14 19:56:47 todd Exp $
+@comment $OpenBSD$
 bin/mhub
 bin/xsendbut
 include/ggi/

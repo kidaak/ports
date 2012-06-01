@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_pde_doc_user_pdeOptions,v 1.2 2006/12/13 20:57:16 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.pde.doc.user/pdeOptions.orig	Thu Sep 21 10:55:44 2006
 +++ plugins/org.eclipse.pde.doc.user/pdeOptions	Tue Dec  5 13:28:52 2006
 @@ -2,7 +2,7 @@

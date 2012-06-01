@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/phplist/pkg/PLIST,v 1.6 2011/11/06 20:10:45 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 lists/
 lists/.htaccess

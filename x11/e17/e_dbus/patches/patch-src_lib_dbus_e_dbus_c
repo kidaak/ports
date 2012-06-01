@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/e17/e_dbus/patches/patch-src_lib_dbus_e_dbus_c,v 1.2 2011/01/16 00:45:56 laurent Exp $
+$OpenBSD$
 
 dbus_message_get_path() could return NULL.
 

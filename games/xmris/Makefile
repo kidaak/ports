@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xmris/Makefile,v 1.27 2010/12/05 18:24:33 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Mr Do video arcade game for X11
 

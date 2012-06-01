@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/moonlander/pkg/PLIST,v 1.2 2004/09/15 00:46:09 espie Exp $
+@comment $OpenBSD$
 bin/moonlander
 share/moonlander/
 share/moonlander/fonts/

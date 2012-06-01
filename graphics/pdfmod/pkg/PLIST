@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/pdfmod/pkg/PLIST,v 1.2 2011/12/03 20:30:09 ajacoutot Exp $
+@comment $OpenBSD$
 bin/pdfmod
 lib/pdfmod/
 lib/pdfmod/Hyena.Gui.dll

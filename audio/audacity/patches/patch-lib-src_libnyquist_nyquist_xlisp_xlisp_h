@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacity/patches/patch-lib-src_libnyquist_nyquist_xlisp_xlisp_h,v 1.1 2009/10/28 18:40:13 jakemsr Exp $
+$OpenBSD$
 --- lib-src/libnyquist/nyquist/xlisp/xlisp.h.orig	Sat Oct 17 15:12:12 2009
 +++ lib-src/libnyquist/nyquist/xlisp/xlisp.h	Sat Oct 17 15:18:45 2009
 @@ -152,6 +152,16 @@ extern long ptrtoabs();

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ices2/patches/patch-src_Makefile_am,v 1.1 2010/04/23 05:54:26 jakemsr Exp $
+$OpenBSD$
 --- src/Makefile.am.orig	Mon Jan 18 03:42:30 2010
 +++ src/Makefile.am	Mon Jan 18 03:47:44 2010
 @@ -14,6 +14,10 @@ if HAVE_OSS

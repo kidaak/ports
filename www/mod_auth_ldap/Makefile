@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_auth_ldap/Makefile,v 1.18 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Apache LDAP authentication module
 

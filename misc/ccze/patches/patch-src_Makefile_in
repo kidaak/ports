@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/ccze/patches/patch-src_Makefile_in,v 1.1 2010/05/23 16:15:50 espie Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Sun May 23 18:14:41 2010
 +++ src/Makefile.in	Sun May 23 18:14:48 2010
 @@ -22,7 +22,7 @@ WFLAGS_GCC	= -Wshadow -Wpointer-arith -Waggregate-retu

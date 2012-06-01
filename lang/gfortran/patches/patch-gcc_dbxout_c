@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_dbxout_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/dbxout.c.orig	Wed Jul 26 19:38:37 2006
 +++ gcc/dbxout.c	Mon Jun 14 19:23:04 2010
 @@ -1008,7 +1008,7 @@ dbxout_init (const char *input_file_name)

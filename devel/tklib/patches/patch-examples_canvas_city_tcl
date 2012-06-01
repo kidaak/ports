@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tklib/patches/patch-examples_canvas_city_tcl,v 1.1.1.1 2009/03/18 09:10:27 sthen Exp $
+$OpenBSD$
 --- examples/canvas/city.tcl.orig	Thu Jan 29 18:19:20 2009
 +++ examples/canvas/city.tcl	Thu Jan 29 18:19:26 2009
 @@ -13,7 +13,6 @@ exec tclsh "$0" ${1+"$@"}

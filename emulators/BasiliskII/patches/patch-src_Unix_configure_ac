@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/BasiliskII/patches/patch-src_Unix_configure_ac,v 1.1 2010/03/25 08:10:56 jasper Exp $
+$OpenBSD$
 --- src/Unix/configure.ac.orig	Thu Mar 25 08:53:10 2010
 +++ src/Unix/configure.ac	Thu Mar 25 08:54:55 2010
 @@ -194,14 +194,23 @@ if [[ "x$WANT_SDL" = "xno" ]]; then

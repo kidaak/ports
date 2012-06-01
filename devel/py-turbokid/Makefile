@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-turbokid/Makefile,v 1.10 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=		template plugin that supports Kid templates
 

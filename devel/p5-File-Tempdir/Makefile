@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-Tempdir/Makefile,v 1.4 2010/12/03 11:44:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		object oriented interface to File::Temp::tempdir()
 

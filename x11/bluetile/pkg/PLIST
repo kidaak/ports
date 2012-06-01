@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/bluetile/pkg/PLIST,v 1.2 2010/10/26 22:19:22 jasper Exp $
+@comment $OpenBSD$
 @bin bin/bluetile
 @bin bin/gnome-bluetile-session
 @bin libexec/bluetiledock

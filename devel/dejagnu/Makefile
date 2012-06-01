@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/dejagnu/Makefile,v 1.34 2011/05/07 14:03:47 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	framework to test programs
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ldns/Makefile,v 1.9 2010/02/01 17:00:13 espie Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += libldns

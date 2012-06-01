@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tmake/patches/patch-lib_openbsd-g++_tmake_conf,v 1.2 2003/02/02 16:34:02 sturm Exp $
+$OpenBSD$
 --- lib/openbsd-g++/tmake.conf.orig	Fri Jan 31 14:25:37 2003
 +++ lib/openbsd-g++/tmake.conf	Fri Jan 31 14:36:50 2003
 @@ -7,52 +7,50 @@

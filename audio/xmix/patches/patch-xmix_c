@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmix/patches/patch-xmix_c,v 1.1 2007/10/26 20:28:51 ajacoutot Exp $
+$OpenBSD$
 --- xmix.c.orig	Fri Oct 26 22:14:51 2007
 +++ xmix.c	Fri Oct 26 22:14:51 2007
 @@ -76,8 +76,8 @@ to Rick! I'll call this version V2.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/goffice/patches/patch-docs_reference_Makefile_in,v 1.4 2011/03/25 07:24:32 ajacoutot Exp $
+$OpenBSD$
 --- docs/reference/Makefile.in.orig	Fri Mar 25 00:34:53 2011
 +++ docs/reference/Makefile.in	Fri Mar 25 07:44:27 2011
 @@ -243,7 +243,7 @@ target_alias = @target_alias@

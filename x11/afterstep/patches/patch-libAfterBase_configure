@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/afterstep/patches/patch-libAfterBase_configure,v 1.2 2012/04/12 17:31:12 naddy Exp $
+$OpenBSD$
 
 Force disable libexecinfo, causes problems during linking.
 

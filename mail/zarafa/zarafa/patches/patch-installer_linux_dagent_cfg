@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-installer_linux_dagent_cfg,v 1.2 2010/04/22 10:06:18 ajacoutot Exp $
+$OpenBSD$
 --- installer/linux/dagent.cfg.orig	Wed Apr 14 09:14:51 2010
 +++ installer/linux/dagent.cfg	Thu Apr 22 10:28:51 2010
 @@ -11,7 +11,7 @@ server_socket	=	file:///var/run/zarafa

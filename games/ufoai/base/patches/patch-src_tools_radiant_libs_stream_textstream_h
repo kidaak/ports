@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-src_tools_radiant_libs_stream_textstream_h,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- src/tools/radiant/libs/stream/textstream.h.orig	Thu May 19 13:54:02 2011
 +++ src/tools/radiant/libs/stream/textstream.h	Thu May 19 13:55:49 2011
 @@ -46,7 +46,7 @@ inline char* write_unsigned_nonzero_decimal_backward(c

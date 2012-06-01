@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-Makefile_top,v 1.14 2011/11/18 12:39:06 sthen Exp $
+$OpenBSD$
 --- Makefile.top.orig	Wed Aug 31 03:21:51 2011
 +++ Makefile.top	Thu Sep  1 23:24:44 2011
 @@ -39,6 +39,8 @@ LIBTOOLCLEAN	= $(LIBTOOL) --mode=clean rm -f

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/xemacs21-sumo/Makefile,v 1.23 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 VERSION=		2010-07-27
 PKGNAME=		xemacs-sumo-21.${VERSION:S/-//g}

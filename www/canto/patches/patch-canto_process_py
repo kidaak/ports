@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/canto/patches/patch-canto_process_py,v 1.1 2011/03/13 09:36:24 dcoppa Exp $
+$OpenBSD$
 
 Fix a crash reported by a user on the #canto irc channel.
 Patch by Jack Miller <jack@codezen.org> (upstream developer)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hgrep/Makefile,v 1.8 2010/11/20 19:56:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=		grep wrapper with search highlighting
 

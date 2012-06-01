@@ -1,10 +1,10 @@
-# $OpenBSD: ports/x11/xfce4/xfprint/Makefile,v 1.30 2012/02/17 13:26:40 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Xfce4 printing helper
 
 XFCE_PROJECT=	xfprint
 XFCE_VERSION=	4.6.1
-REVISION=	13
+REVISION=	14
 
 MASTER_SITES=	http://archive.xfce.org/src/archive/${XFCE_PROJECT}/${XFCE_BRANCH}/
 SHARED_LIBS=	xfprint	0.1

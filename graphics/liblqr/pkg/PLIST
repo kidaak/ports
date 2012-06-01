@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/liblqr/pkg/PLIST,v 1.1.1.1 2008/09/01 11:03:29 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/lqr-1/
 include/lqr-1/lqr/

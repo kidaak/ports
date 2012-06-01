@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nload/patches/patch-src_devreader-bsd_cpp,v 1.1 2012/02/19 14:03:37 sthen Exp $
+$OpenBSD$
 
 Don't include garbage after the interface name. From upstream.
 

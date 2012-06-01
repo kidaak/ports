@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/otpcalc/patches/patch-crypto_c,v 1.2 2010/03/20 16:53:53 jasper Exp $
+$OpenBSD$
 --- crypto.c.orig	Tue Jun 26 10:22:52 2001
 +++ crypto.c	Fri Jan 29 15:42:06 2010
 @@ -60,7 +60,7 @@

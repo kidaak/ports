@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-PDF-API2/Makefile,v 1.6 2010/12/03 11:46:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	create PDF documents with perl
 

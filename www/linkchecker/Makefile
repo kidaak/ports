@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/linkchecker/Makefile,v 1.36 2011/10/01 20:14:46 kili Exp $
+# $OpenBSD$
 
 COMMENT=	checks HTML documents for broken links
 

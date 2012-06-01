@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Runtime/Makefile,v 1.22 2012/04/08 21:49:58 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	MVC Web Application Framework
 

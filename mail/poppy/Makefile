@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/poppy/Makefile,v 1.6 2010/10/18 19:59:18 espie Exp $
+# $OpenBSD$
 
 COMMENT=	client to perform simple tasks with a POP3/IMAP server
 

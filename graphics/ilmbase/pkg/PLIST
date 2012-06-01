@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/ilmbase/pkg/PLIST,v 1.2 2008/04/11 11:15:48 jasper Exp $
+@comment $OpenBSD$
 @conflict OpenEXR-<=1.2.2p3
 %%SHARED%%
 include/OpenEXR/

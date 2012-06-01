@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/bclock/patches/patch-Imakefile,v 1.1 2006/08/08 11:30:18 bernd Exp $
+$OpenBSD$
 
 app-defaults/Clock-color is installed by X.org.
 

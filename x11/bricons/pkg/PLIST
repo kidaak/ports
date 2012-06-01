@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/bricons/pkg/PLIST,v 1.5 2004/09/15 19:26:28 espie Exp $
+@comment $OpenBSD$
 bin/bricons
 include/X11/bitmaps/
 include/X11/bitmaps/calander.xbm

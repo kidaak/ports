@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/fvwm95/pkg/PLIST,v 1.5 2008/07/02 18:16:19 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict fvwm2-*
 @conflict fvwm2+fvicons-*
 @bin bin/fvwm95

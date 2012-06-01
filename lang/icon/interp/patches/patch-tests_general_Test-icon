@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/icon/interp/patches/patch-tests_general_Test-icon,v 1.1 2006/10/16 10:01:55 espie Exp $
+$OpenBSD$
 --- tests/general/Test-icon.orig	Mon Oct 16 11:33:08 2006
 +++ tests/general/Test-icon	Mon Oct 16 11:51:37 2006
 @@ -13,6 +13,10 @@ ICONX=../../bin/iconx

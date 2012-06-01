@@ -1,4 +1,4 @@
-/* $OpenBSD: ports/math/maple/files/resolv_display.c,v 1.1 1999/06/18 15:32:17 espie Exp $ */
+/* $OpenBSD$ */
 
 #include <netdb.h>
 #include <sys/types.h>

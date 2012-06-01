@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/onew/patches/patch-engine_Canna_c,v 1.1 2010/05/19 14:05:37 espie Exp $
+$OpenBSD$
 --- engine/Canna.c.orig	Wed Jun 28 18:13:26 1995
 +++ engine/Canna.c	Wed May 19 16:02:05 2010
 @@ -24,6 +24,8 @@ int KanakanExists;

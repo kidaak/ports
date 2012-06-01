@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/webalizer/Makefile,v 1.36 2012/01/19 15:31:02 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	web server log file analysis program
 

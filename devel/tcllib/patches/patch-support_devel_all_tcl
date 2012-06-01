@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/tcllib/patches/patch-support_devel_all_tcl,v 1.4 2012/03/09 14:15:32 stu Exp $
+$OpenBSD$
 --- support/devel/all.tcl.orig	Tue Dec 13 13:13:22 2011
 +++ support/devel/all.tcl	Mon Feb 20 18:07:35 2012
 @@ -98,6 +98,7 @@ if {[catch {::tcltest::normalizePath ::tcltest::testsD

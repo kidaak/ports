@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/qgis/pkg/PLIST,v 1.9 2011/12/29 21:44:06 landry Exp $
+@comment $OpenBSD$
 @bin bin/qgis
 @bin bin/qgis_mapserv.fcgi
 include/qgis/

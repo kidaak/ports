@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-SVG/Makefile,v 1.16 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Scalable Vector Graphics (SVG) in perl
 

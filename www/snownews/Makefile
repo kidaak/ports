@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/snownews/Makefile,v 1.29 2011/09/16 12:00:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=	text mode rss newsreader
 DISTNAME=	snownews-1.5.12

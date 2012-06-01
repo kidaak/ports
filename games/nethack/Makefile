@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/nethack/Makefile,v 1.53 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.13 1997/12/25 22:29:17 asami Exp $
 
 COMMENT =	dungeon explorin', hackin', game.  Piece of cake

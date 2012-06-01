@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-Webmail-Gmail/Makefile,v 1.7 2011/03/11 09:00:14 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		interface to Google webmail service
 

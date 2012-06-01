@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/twitux/Makefile,v 1.24 2011/12/03 23:04:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Gtk-based GUI client for Twitter
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/telephony/p5-asterisk/pkg/PLIST,v 1.2 2011/03/03 13:39:05 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Asterisk/
 ${P5SITE}/Asterisk.pm
 ${P5SITE}/Asterisk/AGI.pm

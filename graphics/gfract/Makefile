@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gfract/Makefile,v 1.20 2011/11/02 08:46:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		fractal program with GTK interface
 DISTNAME=		gfract-0.33

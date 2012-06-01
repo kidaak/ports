@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-chrome_browser_shell_integration_linux_cc,v 1.7 2012/04/03 13:59:35 robert Exp $
+$OpenBSD$
 --- chrome/browser/shell_integration_linux.cc.orig	Tue Mar 27 03:02:19 2012
 +++ chrome/browser/shell_integration_linux.cc	Sun Apr  1 20:04:43 2012
 @@ -123,6 +123,8 @@ void CreateShortcutOnDesktop(const FilePath& shortcut_

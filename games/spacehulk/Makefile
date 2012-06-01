@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/spacehulk/Makefile,v 1.8 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	total conversion of the Space Hulk board game
 

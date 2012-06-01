@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/sysutils/toprump/pkg/PLIST,v 1.2 2011/06/23 22:50:29 naddy Exp $
+@comment $OpenBSD$
 @bin bin/toprump
 @man man/man1/toprump.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/lgeneral/patches/patch-configure_in,v 1.2 2002/05/26 01:07:57 brad Exp $
+$OpenBSD$
 --- configure.in.orig	Fri Aug  3 15:45:21 2001
 +++ configure.in	Sat May 25 19:59:07 2002
 @@ -50,6 +50,8 @@ mixer_flag="-lSDL_mixer"

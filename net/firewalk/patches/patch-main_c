@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/firewalk/patches/patch-main_c,v 1.1 2005/05/24 00:00:11 mjc Exp $
+$OpenBSD$
 --- main.c.orig	Sat Nov  7 17:37:34 1998
 +++ main.c	Mon May 23 09:50:51 2005
 @@ -223,12 +223,12 @@ main(int argc, char *argv[])

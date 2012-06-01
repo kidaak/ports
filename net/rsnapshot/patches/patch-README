@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rsnapshot/patches/patch-README,v 1.4 2010/12/17 06:35:44 ajacoutot Exp $
+$OpenBSD$
 --- README.orig	Sun Apr 27 12:26:16 2008
 +++ README	Fri Sep 19 11:07:44 2008
 @@ -70,13 +70,13 @@ COMPATIBILITY NOTICES (Please read)

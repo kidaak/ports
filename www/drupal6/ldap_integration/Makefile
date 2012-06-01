@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/ldap_integration/Makefile,v 1.6 2012/01/28 11:33:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	authenticate against LDAP
 

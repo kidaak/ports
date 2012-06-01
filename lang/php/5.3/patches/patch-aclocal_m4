@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/php/5.3/patches/patch-aclocal_m4,v 1.6 2011/11/16 12:29:00 espie Exp $
+$OpenBSD$
 --- aclocal.m4.orig.port	Tue Aug 23 11:33:49 2011
 +++ aclocal.m4	Wed Nov 16 12:59:21 2011
 @@ -194,7 +194,7 @@ dnl the path is interpreted relative to the top build-

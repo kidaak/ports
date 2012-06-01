@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/catalyst/patches/patch-Makefile_PL,v 1.1.1.1 2006/11/06 14:28:43 espie Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Mon Nov  6 15:18:09 2006
 +++ Makefile.PL	Mon Nov  6 15:18:44 2006
 @@ -8,8 +8,9 @@ license('perl');

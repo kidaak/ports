@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/sqlitebrowser/patches/patch-sqlitebrowser_sqlitedb_h,v 1.1 2009/08/14 12:44:26 espie Exp $
+$OpenBSD$
 --- sqlitebrowser/sqlitedb.h.orig	Thu Aug 13 20:20:25 2009
 +++ sqlitebrowser/sqlitedb.h	Thu Aug 13 20:23:09 2009
 @@ -71,19 +71,22 @@ class DBBrowserIndex (private)

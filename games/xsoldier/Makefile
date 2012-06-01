@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xsoldier/Makefile,v 1.29 2011/12/04 10:01:52 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	space-based shoot'em up game for X11
 
@@ -20,7 +20,6 @@ WANTLIB =		ICE SM X11 Xpm c
 MASTER_SITES =		${HOMEPAGE}
 
 CONFIGURE_STYLE =	gnu
-CONFIGURE_ARGS =	--localstatedir=/var
 
 MAKE_FLAGS =		CC_OPTIMIZE="${CFLAGS}"
 

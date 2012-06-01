@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-installer_linux_ical_cfg,v 1.3 2010/10/27 18:26:17 ajacoutot Exp $
+$OpenBSD$
 --- installer/linux/ical.cfg.orig	Wed Oct 20 12:42:55 2010
 +++ installer/linux/ical.cfg	Wed Oct 27 19:18:52 2010
 @@ -2,16 +2,16 @@

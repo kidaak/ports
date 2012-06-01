@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/setquota/Makefile,v 1.26 2011/06/23 22:50:29 naddy Exp $
+# $OpenBSD$
 # Original from: Ejovi Nuwere <ejovi@ejovi.net>
 
 COMMENT=	command line quota tools

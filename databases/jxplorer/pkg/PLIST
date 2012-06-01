@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/jxplorer/pkg/PLIST,v 1.1.1.1 2007/05/31 18:13:15 aanriot Exp $
+@comment $OpenBSD$
 bin/jxplorer
 share/jxplorer/
 @comment share/jxplorer/RELEASE.TXT

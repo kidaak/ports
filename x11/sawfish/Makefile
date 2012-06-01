@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/sawfish/Makefile,v 1.60 2012/03/29 18:57:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	extensible window manager
 

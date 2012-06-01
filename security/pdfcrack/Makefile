@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pdfcrack/Makefile,v 1.2 2009/12/17 16:08:44 benoit Exp $
+# $OpenBSD$
 
 COMMENT =		password recovery tool for PDF-files
 

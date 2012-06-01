@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/mshell/patches/patch-functions1_c,v 1.1 2002/12/23 07:42:00 pvalchev Exp $
+$OpenBSD$
 --- functions1.c.orig	Sun Dec 22 23:47:32 2002
 +++ functions1.c	Sun Dec 22 23:47:32 2002
 @@ -15,7 +15,7 @@ char * filename;

@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/www/squid/pkg/squid.rc,v 1.5 2011/05/18 14:47:55 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/squid"
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/archiveopteryx/patches/patch-aox_servers_cpp,v 1.1.1.1 2011/01/09 09:36:21 landry Exp $
+$OpenBSD$
 --- aox/servers.cpp.orig	Fri Mar 12 07:25:36 2010
 +++ aox/servers.cpp	Sun Apr 11 11:16:55 2010
 @@ -27,6 +27,7 @@

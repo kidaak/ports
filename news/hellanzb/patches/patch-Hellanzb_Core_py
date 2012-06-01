@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/hellanzb/patches/patch-Hellanzb_Core_py,v 1.2 2011/01/14 19:12:13 jasper Exp $
+$OpenBSD$
 --- Hellanzb/Core.py.orig	Mon Jun 11 00:58:14 2007
 +++ Hellanzb/Core.py	Mon Jun 11 00:58:40 2007
 @@ -35,7 +35,7 @@ def findAndLoadConfig(optionalConfigFile = None):

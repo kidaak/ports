@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/ladvd/pkg/ladvd.rc,v 1.1 2011/04/23 17:40:34 weerd Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/ladvd"
 daemon_flags="-a -z"

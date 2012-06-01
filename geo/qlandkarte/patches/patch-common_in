@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qlandkarte/patches/patch-common_in,v 1.2 2010/05/21 19:56:02 jasper Exp $
+$OpenBSD$
 --- common.in.orig	Thu Oct 16 18:25:32 2008
 +++ common.in	Thu Oct 16 18:25:58 2008
 @@ -16,6 +16,6 @@ unix{

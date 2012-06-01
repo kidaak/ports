@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/editors/scintilla/pkg/PFRAG.shared,v 1.4 2005/12/27 12:36:50 aanriot Exp $
+@comment $OpenBSD$
 @lib lib/libscintilla.so.${LIBscintilla_VERSION}
 @lib lib/libscintilla_lexers.so.${LIBscintilla_lexers_VERSION}

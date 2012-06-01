@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/festival/core/pkg/PFRAG.ogi,v 1.2 2004/08/06 03:36:24 jolan Exp $
+@comment $OpenBSD$
 lib/festival/ogi_effect.scm
 lib/festival/ogi_enhance.scm
 lib/festival/ogi_gswdurtreeZ_wb.scm

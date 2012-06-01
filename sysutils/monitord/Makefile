@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/monitord/Makefile,v 1.1.1.1 2007/10/07 09:53:44 sturm Exp $
+# $OpenBSD$
 
 COMMENT=	system monitoring daemon
 

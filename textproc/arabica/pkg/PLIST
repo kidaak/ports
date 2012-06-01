@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/arabica/pkg/PLIST,v 1.1.1.1 2012/03/05 18:03:37 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/mangle
 include/arabica/

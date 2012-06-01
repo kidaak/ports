@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/xfaces/patches/patch-face_search_facedb_c,v 1.1 2000/06/05 01:09:24 espie Exp $
+$OpenBSD$
 --- face_search_facedb.c.orig	Sun Mar 13 01:38:42 1994
 +++ face_search_facedb.c	Mon Jun  5 02:43:44 2000
 @@ -483,6 +483,10 @@ FacedbInfo*	info;

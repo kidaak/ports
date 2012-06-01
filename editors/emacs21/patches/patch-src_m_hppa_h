@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs21/patches/patch-src_m_hppa_h,v 1.1 2007/07/06 16:59:32 kettenis Exp $
+$OpenBSD$
 --- src/m/hppa.h.orig	Thu Jun 28 21:56:37 2007
 +++ src/m/hppa.h	Thu Jun 28 21:57:02 2007
 @@ -0,0 +1,124 @@

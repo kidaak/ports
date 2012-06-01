@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Heap/pkg/PLIST,v 1.2 2008/10/02 23:10:26 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Heap/
 ${P5SITE}/Heap.pm
 ${P5SITE}/Heap/Binary.pm

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/games/pkg/PLIST,v 1.19 2011/12/03 22:17:15 ajacoutot Exp $
+@comment $OpenBSD$
 bin/glchess
 @mode g+s
 @group games

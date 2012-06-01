@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/rtg/Makefile,v 1.6 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

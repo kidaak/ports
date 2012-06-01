@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/pcb/pkg/PLIST,v 1.9 2011/12/03 19:26:37 ajacoutot Exp $
+@comment $OpenBSD$
 bin/MergePCBPS
 bin/Merge_dimPCBPS
 @bin bin/pcb

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/geda-gaf/Makefile,v 1.10 2011/11/01 19:00:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		suite of tools for electronic design automation
 DISTNAME =		geda-gaf-1.6.0

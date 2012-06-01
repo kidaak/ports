@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-build_packaging_rb,v 1.2 2011/05/17 03:25:18 william Exp $
+$OpenBSD$
 --- build/packaging.rb.orig	Mon Apr 11 03:22:53 2011
 +++ build/packaging.rb	Wed Apr 27 10:35:15 2011
 @@ -100,7 +100,7 @@ Rake::Task['package:force'].prerequisites.unshift(:doc

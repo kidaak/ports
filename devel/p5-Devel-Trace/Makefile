@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-Trace/Makefile,v 1.4 2011/05/25 18:00:21 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	print out each line before it is executed
 

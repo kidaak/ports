@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/gnumail/patches/patch-Bundles_PGP_PGPController_h,v 1.1 2010/10/24 13:03:22 sebastia Exp $
+$OpenBSD$
 
 patch from Debian repository
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/intltool/pkg/PLIST,v 1.8 2008/06/09 16:21:03 ajacoutot Exp $
+@comment $OpenBSD$
 bin/intltool-extract
 bin/intltool-merge
 bin/intltool-prepare

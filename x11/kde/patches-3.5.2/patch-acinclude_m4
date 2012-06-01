@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/patches-3.5.2/patch-acinclude_m4,v 1.1 2006/04/01 10:49:21 espie Exp $
+$OpenBSD$
 --- acinclude.m4.orig	Sat Mar 18 14:58:51 2006
 +++ acinclude.m4	Sun Mar 26 12:08:07 2006
 @@ -3516,7 +3516,10 @@ int main() {

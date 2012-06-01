@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/tktable/pkg/PLIST,v 1.9 2011/01/05 17:03:34 stu Exp $
+@comment $OpenBSD$
 %%SHARED%%
 lib/tcl/tktable/
 lib/tcl/tktable/pkgIndex.tcl

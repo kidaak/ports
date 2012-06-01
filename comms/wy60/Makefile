@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/wy60/Makefile,v 1.10 2011/11/14 19:33:34 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	curses-based emulator for the Wyse 60 terminal
 

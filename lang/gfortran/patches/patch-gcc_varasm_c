@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_varasm_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/varasm.c.orig	Sat Mar 10 01:59:15 2007
 +++ gcc/varasm.c	Mon Jun 14 19:23:04 2010
 @@ -397,7 +397,7 @@ initialize_cold_section_name (void)

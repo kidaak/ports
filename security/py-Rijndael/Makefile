@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/py-Rijndael/Makefile,v 1.18 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT =	Python implementation of the Rijndael encryption algorithm
 

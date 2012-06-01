@@ -1,4 +1,4 @@
-# $OpenBSD: ports/inputmethods/uim-tomoe-gtk/Makefile,v 1.15 2011/11/03 17:46:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	japanese handwriting
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/glog/pkg/PLIST,v 1.1.1.1 2009/12/31 15:48:59 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/glog/
 include/glog/log_severity.h

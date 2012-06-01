@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/libiconv/libiconv.port.mk,v 1.6 2010/11/15 00:22:50 espie Exp $
+# $OpenBSD$
 
 # The RUN_DEPENDS entry is to ensure libiconv is installed. This is
 # necessary so that we have charset.alias installed on static archs.

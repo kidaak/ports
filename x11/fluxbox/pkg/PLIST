@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/fluxbox/pkg/PLIST,v 1.16 2011/04/24 17:32:24 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/fbrun
 bin/fbsetbg
 @bin bin/fbsetroot

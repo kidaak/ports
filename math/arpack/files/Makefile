@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/arpack/files/Makefile,v 1.1.1.1 2006/10/19 16:19:54 steven Exp $
+# $OpenBSD$
 
 LIB=	arpack
 SRCS=	sgetv0.f slaqrb.f sstqrb.f ssortc.f ssortr.f sstatn.f sstats.f \

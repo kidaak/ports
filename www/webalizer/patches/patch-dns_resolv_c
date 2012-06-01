@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webalizer/patches/patch-dns_resolv_c,v 1.5 2011/01/05 08:19:18 giovanni Exp $
+$OpenBSD$
 --- dns_resolv.c.orig	Mon Oct  4 19:30:36 2010
 +++ dns_resolv.c	Mon Jan  3 11:45:53 2011
 @@ -244,7 +244,7 @@ int dns_resolver(void *log_fp)

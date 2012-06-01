@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/cmus/patches/patch-configure,v 1.1.1.1 2011/09/06 07:10:56 landry Exp $
+$OpenBSD$
 Remove -Wredundant-decls which makes a lot of useless noise on
 OpenBSD because of some problems in system headers.
 (+ sndio support)

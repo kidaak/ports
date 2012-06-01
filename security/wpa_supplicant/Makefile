@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/wpa_supplicant/Makefile,v 1.5 2012/01/19 16:14:11 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	IEEE 802.1X supplicant
 

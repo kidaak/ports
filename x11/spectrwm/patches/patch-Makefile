@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/spectrwm/patches/patch-Makefile,v 1.1.1.1 2012/02/28 05:56:11 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.orig	Fri Feb 17 14:12:34 2012
 +++ Makefile	Fri Feb 17 14:35:04 2012
 @@ -6,8 +6,9 @@ BINDIR=${PREFIX}/bin

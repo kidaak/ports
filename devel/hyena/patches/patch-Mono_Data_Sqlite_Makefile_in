@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/hyena/patches/patch-Mono_Data_Sqlite_Makefile_in,v 1.1 2011/04/15 19:28:05 naddy Exp $
+$OpenBSD$
 --- Mono.Data.Sqlite/Makefile.in.orig	Wed Oct  6 21:46:07 2010
 +++ Mono.Data.Sqlite/Makefile.in	Fri Apr 15 17:26:28 2011
 @@ -394,7 +394,7 @@ uninstall-am: uninstall-local uninstall-moduleSCRIPTS

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/prosody/pkg/PLIST,v 1.6 2012/01/26 16:28:48 sthen Exp $
+@comment $OpenBSD$
 @newgroup _prosody:638
 @newuser _prosody:638:_prosody:daemon:prosody user:/nonexistent:/sbin/nologin
 %%SHARED%%

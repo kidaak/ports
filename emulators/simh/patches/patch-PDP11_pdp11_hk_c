@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/simh/patches/patch-PDP11_pdp11_hk_c,v 1.1 2011/04/20 05:16:33 form Exp $
+$OpenBSD$
 --- PDP11/pdp11_hk.c.orig	Sat Nov 22 18:40:26 2008
 +++ PDP11/pdp11_hk.c	Wed Apr 20 11:37:12 2011
 @@ -904,7 +904,7 @@ switch (fnc) {                                        

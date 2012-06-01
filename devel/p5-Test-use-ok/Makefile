@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-use-ok/Makefile,v 1.7 2010/12/03 11:44:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=        alternative to Test::More
 

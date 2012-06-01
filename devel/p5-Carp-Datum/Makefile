@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Carp-Datum/Makefile,v 1.10 2011/10/04 07:40:15 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	debugging and tracing ultimate module
 

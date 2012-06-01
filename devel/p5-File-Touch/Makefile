@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-Touch/Makefile,v 1.1.1.1 2012/04/13 20:40:47 okan Exp $
+# $OpenBSD$
 
 COMMENT =	update access and modification timestamps of files
 

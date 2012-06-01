@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/mkvtoolnix/patches/patch-configure,v 1.11 2010/07/17 22:52:53 benoit Exp $
+$OpenBSD$
 --- configure.orig	Sat Jun  5 08:26:22 2010
 +++ configure	Sat Jun 26 20:44:09 2010
 @@ -5043,7 +5043,7 @@ fi

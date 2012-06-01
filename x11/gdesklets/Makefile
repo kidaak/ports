@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gdesklets/Makefile,v 1.27 2011/12/03 23:20:53 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

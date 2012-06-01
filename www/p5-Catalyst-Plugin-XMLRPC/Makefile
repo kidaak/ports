@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-XMLRPC/Makefile,v 1.7 2012/04/08 21:58:58 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		dispatch XML-RPC methods with Catalyst (deprecated)
 

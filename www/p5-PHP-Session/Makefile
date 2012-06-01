@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-PHP-Session/Makefile,v 1.9 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	read / write PHP session files
 

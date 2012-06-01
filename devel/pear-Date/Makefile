@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-Date/Makefile,v 1.16 2011/10/07 20:06:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	date and timezone classes for PHP
 

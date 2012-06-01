@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/yokadi/Makefile,v 1.5 2011/09/16 11:13:43 espie Exp $
+# $OpenBSD$
 
 COMMENT =	command-line oriented todo list system
 

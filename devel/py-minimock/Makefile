@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-minimock/Makefile,v 1.3 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		the simplest possible mock library, for Python
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xrootconsole/Makefile,v 1.9 2010/11/22 08:37:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=		writes any log live onto the background
 V=			0.6

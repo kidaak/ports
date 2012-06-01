@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/moovida/plugins-good/Makefile,v 1.8 2011/12/20 19:03:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	Moovida media center - good plugins
 DISTNAME =	moovida-plugins-good-${VERSION}

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gnugk/pkg/PLIST,v 1.9 2011/10/26 17:00:06 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath net/gnugk,mysql
 @pkgpath net/gnugk,pgsq
 @newgroup _gnugk:586

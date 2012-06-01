@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/freemat/Makefile,v 1.27 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	environment for rapid engineering and scientific processing
 

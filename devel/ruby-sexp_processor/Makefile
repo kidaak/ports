@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-sexp_processor/Makefile,v 1.10 2011/09/16 09:24:58 espie Exp $
+# $OpenBSD$
 
 COMMENT =	sexp helper library for parsetree
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/cnupm/patches/patch-cnupmstat_cnupmstat_8,v 1.1 2010/04/03 20:07:06 naddy Exp $
+$OpenBSD$
 --- cnupmstat/cnupmstat.8.orig	Sat Apr  3 21:49:54 2010
 +++ cnupmstat/cnupmstat.8	Sat Apr  3 21:51:28 2010
 @@ -49,15 +49,14 @@ prints traffic statistics collected by

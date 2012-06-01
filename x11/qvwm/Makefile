@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/qvwm/Makefile,v 1.19 2010/11/04 17:44:14 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Windows 95/98/NT like window manager
 

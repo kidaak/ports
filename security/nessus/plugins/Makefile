@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/nessus/plugins/Makefile,v 1.11 2011/09/16 11:41:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	plugins for Nessus
 DISTNAME=	nessus-plugins-GPL-${V}

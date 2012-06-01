@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nicotine/patches/patch-nicotine,v 1.2 2005/01/25 21:56:51 mjc Exp $
+$OpenBSD$
 --- nicotine.orig	Fri Jan 21 13:10:19 2005
 +++ nicotine	Fri Jan 21 13:12:25 2005
 @@ -1,4 +1,4 @@

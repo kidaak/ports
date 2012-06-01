@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/py-cryptkit/patches/patch-sha256_src_sha2_c,v 1.1 2009/03/25 20:14:23 jasper Exp $
+$OpenBSD$
 
 Fix potential 64-bit issue due to missing header.
 

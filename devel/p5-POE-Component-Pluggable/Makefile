@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-POE-Component-Pluggable/Makefile,v 1.10 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		base class for creating plugin enabled POE Components
 

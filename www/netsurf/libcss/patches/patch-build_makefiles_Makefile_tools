@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/netsurf/libcss/patches/patch-build_makefiles_Makefile_tools,v 1.1 2011/09/16 13:35:49 naddy Exp $
+$OpenBSD$
 
 Don't override CFLAGS.
 

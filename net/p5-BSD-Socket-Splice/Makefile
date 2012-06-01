@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-BSD-Socket-Splice/Makefile,v 1.3 2011/09/15 17:17:29 bluhm Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

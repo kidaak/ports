@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nedi/Makefile,v 1.2 2012/02/18 00:50:10 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =			network discovery tool
 

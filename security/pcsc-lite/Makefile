@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pcsc-lite/Makefile,v 1.10 2010/11/20 17:22:45 espie Exp $
+# $OpenBSD$
 # Uses pthreads
 
 COMMENT=	resource manager for PCSC

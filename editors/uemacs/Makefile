@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/uemacs/Makefile,v 1.20 2007/09/16 00:44:00 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	full screen simple editor
 

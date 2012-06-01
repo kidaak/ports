@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/png2ico/Makefile,v 1.10 2010/11/17 08:05:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Convert PNG images to Windows .ico files
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/lsof/patches/patch-dialects_n+obsd_dstore_c,v 1.1 2011/06/30 19:13:58 jasper Exp $
+$OpenBSD$
 
 Adjust after FMARK/FDEFER removal.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/raptor/Makefile,v 1.6 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=		RDF Parser Toolkit for Redland
 DISTNAME=		raptor-1.4.18

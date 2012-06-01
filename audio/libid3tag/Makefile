@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libid3tag/Makefile,v 1.15 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	library for reading ID3 tags
 

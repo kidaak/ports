@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/grhino/patches/patch-configure,v 1.1.1.1 2010/09/06 18:55:42 landry Exp $
+$OpenBSD$
 --- configure.orig	Sun Sep  5 17:09:07 2010
 +++ configure	Sun Sep  5 17:10:29 2010
 @@ -4300,13 +4300,13 @@ ac_compiler_gnu=$ac_cv_cxx_compiler_gnu

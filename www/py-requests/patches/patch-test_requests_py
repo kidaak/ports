@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/py-requests/patches/patch-test_requests_py,v 1.1.1.1 2011/10/14 16:32:54 jasper Exp $
+$OpenBSD$
 --- test_requests.py.orig	Sun Oct  9 04:11:48 2011
 +++ test_requests.py	Thu Oct 13 21:33:02 2011
 @@ -17,7 +17,7 @@

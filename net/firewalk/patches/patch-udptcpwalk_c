@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/firewalk/patches/patch-udptcpwalk_c,v 1.1 2005/05/24 00:00:11 mjc Exp $
+$OpenBSD$
 --- udptcpwalk.c.orig	Sat Dec  5 10:24:52 1998
 +++ udptcpwalk.c	Mon May 23 09:50:51 2005
 @@ -111,7 +111,7 @@ udptcpwalk(struct firepack *fp)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/qgo/Makefile,v 1.10 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=	go client and fully featured sgf editor
 

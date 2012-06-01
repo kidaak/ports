@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/singularity/patches/patch-code_graphics_g_py,v 1.1 2011/01/15 12:43:26 ajacoutot Exp $
+$OpenBSD$
 
 From singularity 0.2X to prevent:
     "IOError: unable to read font filename"

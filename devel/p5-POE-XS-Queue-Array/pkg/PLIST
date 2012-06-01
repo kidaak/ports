@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-POE-XS-Queue-Array/pkg/PLIST,v 1.1.1.1 2007/10/25 22:01:48 sthen Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/POE/
 ${P5ARCH}/POE/XS/

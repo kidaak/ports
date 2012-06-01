@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal7/auto_nodetitle/pkg/PLIST,v 1.1.1.1 2012/04/10 12:49:31 espie Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_MODS}auto_nodetitle/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/munin/patches/patch-plugins_node_d_named_in,v 1.1 2010/10/23 15:52:23 sthen Exp $
+$OpenBSD$
 --- plugins/node.d/named.in.orig	Sat Oct 23 12:25:39 2010
 +++ plugins/node.d/named.in	Sat Oct 23 12:25:42 2010
 @@ -74,8 +74,8 @@ munin-node.

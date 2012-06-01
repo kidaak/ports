@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-XHTML_Table/Makefile,v 1.25 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	create HTML table from sql queries
 

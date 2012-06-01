@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/hs-X11/Makefile,v 1.12 2011/12/31 22:19:45 kili Exp $
+# $OpenBSD$
 
 COMMENT =		bindings to the X11 graphics library for GHC
 

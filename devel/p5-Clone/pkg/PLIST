@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Clone/pkg/PLIST,v 1.1.1.1 2004/12/02 06:47:14 kevlo Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Clone.pm
 ${P5ARCH}/auto/

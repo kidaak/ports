@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/netsurf/libnsbmp/Makefile,v 1.3 2012/01/12 03:17:08 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		BMP/ICO decoding library
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gssdp/Makefile,v 1.7 2011/12/09 15:16:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		API for handling SSDP resource discovery and announcement
 

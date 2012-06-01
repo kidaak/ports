@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/jpilot/pkg/PLIST,v 1.15 2010/03/25 10:39:38 giovanni Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/jpilot
 @bin bin/jpilot-dump

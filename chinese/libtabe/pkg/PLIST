@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/chinese/libtabe/pkg/PLIST,v 1.3 2005/05/11 02:08:12 kevlo Exp $
+@comment $OpenBSD$
 bin/tsiadd
 bin/tsidel
 bin/tsidump

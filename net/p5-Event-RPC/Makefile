@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Event-RPC/Makefile,v 1.8 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Event based transparent Client/Server RPC framework
 

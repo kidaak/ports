@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/sharity-light/pkg/PLIST,v 1.4 2009/04/01 16:24:05 jasper Exp $
+@comment $OpenBSD$
 @man man/man8/sh-smbmount.8
 @bin sbin/shlight
 @bin sbin/unshlight

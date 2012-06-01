@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/icu4c/patches/patch-source_common_uloc_c,v 1.1 2012/01/28 10:41:30 ajacoutot Exp $
+$OpenBSD$
 
 Fix denial of service and possible code execution via out of bounds
 access: http://bugs.icu-project.org/trac/ticket/8984

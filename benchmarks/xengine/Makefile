@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/xengine/Makefile,v 1.32 2010/11/03 07:20:50 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	reciprocating engine for X11
 PKGNAME=	xengine-1.0.1

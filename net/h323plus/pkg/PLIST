@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/h323plus/pkg/PLIST,v 1.4 2012/03/02 09:04:59 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict openh323-*
 @pkgpath net/openh323
 include/openh323/

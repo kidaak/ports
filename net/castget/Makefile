@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/castget/Makefile,v 1.9 2011/09/16 11:13:37 espie Exp $
+# $OpenBSD$
 
 COMMENT=		command-line podcast downloader
 

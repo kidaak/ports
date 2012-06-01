@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/ruby-passenger/patches/patch-lib_phusion_passenger_standalone_package_runtime_command_rb,v 1.1 2011/12/13 18:38:18 jeremy Exp $
+$OpenBSD$
 
 OpenBSD tar defaults to /dev/rst0 if not given an f flag.
 

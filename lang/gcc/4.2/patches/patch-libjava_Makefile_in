@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-libjava_Makefile_in,v 1.1 2009/06/04 18:24:20 kurt Exp $
+$OpenBSD$
 --- libjava/Makefile.in.orig	Tue Apr 21 17:41:26 2009
 +++ libjava/Makefile.in	Tue Apr 21 17:50:13 2009
 @@ -772,12 +772,13 @@ AM_CPPFLAGS = -I$(top_srcdir) \

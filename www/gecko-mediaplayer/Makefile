@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/gecko-mediaplayer/Makefile,v 1.31 2012/04/10 13:31:31 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		gnome-mplayer browser media plugin
 V =			1.0.6

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ssvnc/patches/patch-scripts_ssvnc,v 1.5 2011/09/15 20:24:16 sthen Exp $
+$OpenBSD$
 
 use the correct wish binary first.  N.B. update-patches will destroy
 the ${MODTK_BIN} expansion in the 'for' line.

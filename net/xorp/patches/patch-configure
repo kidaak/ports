@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xorp/patches/patch-configure,v 1.1 2011/08/18 19:22:31 sthen Exp $
+$OpenBSD$
 --- configure.orig	Wed Jan  7 13:47:14 2009
 +++ configure	Tue Aug 16 21:31:41 2011
 @@ -43568,8 +43568,8 @@ echo "${ECHO_T}no" >&6; }

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ser/Makefile,v 1.18 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=	SIP Express Router
 

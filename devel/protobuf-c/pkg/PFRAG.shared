@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/protobuf-c/pkg/PFRAG.shared,v 1.1.1.1 2011/07/08 08:58:02 dcoppa Exp $
+@comment $OpenBSD$
 @lib lib/libprotobuf-c.so.${LIBprotobuf-c_VERSION}

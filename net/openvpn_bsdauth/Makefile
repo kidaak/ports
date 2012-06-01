@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/openvpn_bsdauth/Makefile,v 1.11 2011/06/23 22:50:28 naddy Exp $
+# $OpenBSD$
 
 COMMENT =	BSD Auth helper program for OpenVPN
 

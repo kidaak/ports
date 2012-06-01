@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/cbb/patches/patch-Makefile,v 1.1 2007/07/30 15:30:27 steven Exp $
+$OpenBSD$
 --- Makefile.orig	Thu Jun 12 23:57:50 1997
 +++ Makefile	Sat Jul 28 12:55:51 2007
 @@ -26,14 +26,16 @@

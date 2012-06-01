@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/mhgui/Makefile,v 1.12 2012/03/15 13:38:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GUI widget library used in MakeHuman
 

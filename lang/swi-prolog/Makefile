@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/swi-prolog/Makefile,v 1.39 2012/01/13 00:55:14 naddy Exp $
+# $OpenBSD$
 
 COMMENT =		Prolog for the real world
 

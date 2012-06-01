@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/prosody/pkg/prosody.rc,v 1.2 2012/01/26 10:32:06 ajacoutot Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/prosodyctl"
 daemon_flags="start"

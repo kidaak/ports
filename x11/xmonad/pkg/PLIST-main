@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xmonad/pkg/PLIST-main,v 1.4 2012/01/12 11:11:58 dcoppa Exp $
+@comment $OpenBSD$
 @pkgpath x11/xmonad
 @bin bin/xmonad
 @man man/man1/xmonad.1

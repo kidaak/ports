@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pavuk/Makefile,v 1.25 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	tool to mirror contents of HTTP and FTP servers
 

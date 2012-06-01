@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/srcpd/patches/patch-man_srcpd_conf_5,v 1.1.1.1 2010/12/11 11:14:54 sebastia Exp $
+$OpenBSD$
 --- man/srcpd.conf.5.orig	Fri Dec  3 17:21:01 2010
 +++ man/srcpd.conf.5	Fri Dec  3 17:21:28 2010
 @@ -39,8 +39,8 @@ default settings and an example bus configuration.

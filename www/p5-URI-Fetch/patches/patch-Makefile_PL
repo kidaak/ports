@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-URI-Fetch/patches/patch-Makefile_PL,v 1.1.1.1 2007/04/17 23:59:31 espie Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Wed Apr 18 01:56:07 2007
 +++ Makefile.PL	Wed Apr 18 01:56:20 2007
 @@ -12,6 +12,7 @@ sign(1);

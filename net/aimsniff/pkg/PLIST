@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/aimsniff/pkg/PLIST,v 1.1.1.1 2005/11/04 23:06:25 jolan Exp $
+@comment $OpenBSD$
 bin/aimsniff
 share/doc/aimsniff/
 share/doc/aimsniff/README

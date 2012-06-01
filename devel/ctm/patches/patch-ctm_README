@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ctm/patches/patch-ctm_README,v 1.2 2007/10/31 23:14:46 ajacoutot Exp $
+$OpenBSD$
 --- ctm/README.orig	Wed Oct 31 23:06:34 2007
 +++ ctm/README	Wed Oct 31 23:06:34 2007
 @@ -21,7 +21,7 @@ CTM is now meant to be the definitive way to make and 

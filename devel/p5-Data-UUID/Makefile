@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-UUID/Makefile,v 1.17 2011/01/04 05:50:38 kevlo Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 COMMENT=	extension for generating GUIDs/UUIDs

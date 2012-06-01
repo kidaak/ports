@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/silc-client/pkg/PLIST,v 1.22 2009/01/11 02:03:55 martynas Exp $
+@comment $OpenBSD$
 @bin bin/silc
 @man man/man1/silc.1
 share/doc/silc/

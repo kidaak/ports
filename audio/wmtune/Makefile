@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/wmtune/Makefile,v 1.17 2011/10/17 12:40:44 espie Exp $
+# $OpenBSD$
 
 COMMENT=	premier dockable radio tuner
 

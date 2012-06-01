@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-open4/Makefile,v 1.8 2011/09/16 09:24:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=	open processes with handles on pid, stdin, stdout, stderr
 

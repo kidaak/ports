@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/grace/patches/patch-src_editpwin_c,v 1.2 2003/03/31 16:58:55 sturm Exp $
+$OpenBSD$
 --- src/editpwin.c.orig	Wed Aug 21 21:37:59 2002
 +++ src/editpwin.c	Thu Mar  6 21:57:56 2003
 @@ -770,15 +770,19 @@ void create_ss_frame(int gno, int setno)

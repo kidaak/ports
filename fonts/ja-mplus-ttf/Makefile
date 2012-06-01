@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/ja-mplus-ttf/Makefile,v 1.1.1.1 2011/07/19 09:13:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	high quality japanese truetype fonts
 

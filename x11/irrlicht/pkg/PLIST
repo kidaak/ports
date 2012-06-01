@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/irrlicht/pkg/PLIST,v 1.2 2011/05/04 11:33:16 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/irrlicht/
 include/irrlicht/CDynamicMeshBuffer.h

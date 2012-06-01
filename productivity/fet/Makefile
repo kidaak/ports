@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/fet/Makefile,v 1.14 2011/11/03 22:21:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		automatically create timetables
 

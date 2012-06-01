@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hs-polyparse/Makefile,v 1.4 2011/12/31 22:19:45 kili Exp $
+# $OpenBSD$
 
 COMMENT =		alternative parser combinator libraries
 

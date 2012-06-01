@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/phpmyadmin/pkg/PLIST,v 1.39 2012/02/17 14:48:07 giovanni Exp $
+@comment $OpenBSD$
 @group daemon
 phpMyAdmin/
 phpMyAdmin/CREDITS

@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/openarena/patches/patch-code_qcommon_vm_x86_c,v 1.1 2012/03/18 16:48:16 kirby Exp $
+$OpenBSD$
 
  * Add PROT_READ to x86 and x86_64 VM mmap calls[1]
 

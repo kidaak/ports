@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/timetrex/patches/patch-templates_install_SystemSettings_tpl,v 1.2 2008/10/07 10:42:27 ajacoutot Exp $
+$OpenBSD$
 --- templates/install/SystemSettings.tpl.orig	Tue Oct  7 11:19:11 2008
 +++ templates/install/SystemSettings.tpl	Tue Oct  7 11:20:25 2008
 @@ -70,7 +70,7 @@

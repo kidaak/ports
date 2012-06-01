@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-oox_Library_oox_mk,v 1.1 2012/04/03 08:56:50 robert Exp $
+$OpenBSD$
 --- oox/Library_oox.mk.orig.port	Mon Mar 19 15:55:25 2012
 +++ oox/Library_oox.mk	Mon Mar 19 15:56:20 2012
 @@ -79,6 +79,16 @@ $(eval $(call gb_Library_use_external,oox,openssl))

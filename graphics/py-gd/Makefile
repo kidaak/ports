@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/py-gd/Makefile,v 1.17 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

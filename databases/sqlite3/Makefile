@@ -1,16 +1,18 @@
-# $OpenBSD: ports/databases/sqlite3/Makefile,v 1.63 2012/03/27 18:34:04 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=	embedded SQL implementation
 COMMENT-tcl=	TCL bindings for Sqlite3
 COMMENT-lemon=	LEMON LALR(1) parser generator
-V=		3.7.11
-DISTNAME=	sqlite-src-3071100
+V=		3.7.12
+DISTNAME=	sqlite-src-3071200
 EXTRACT_SUFX =	.zip
 PKGNAME-main=	sqlite3-${V}
 PKGNAME-tcl=	sqlite3-tcl-${V}
 PKGNAME-lemon=	lemon-${V}
 CATEGORIES=	databases
-SHARED_LIBS +=	sqlite3              17.0      # .8.6
+IGNORE-main = "--${FULLPKGNAME-main} comes with OpenBSD as of release 5.2"
+SUBPACKAGE ?= -lemon
+REVISION-tcl =	0
 
 MASTER_SITES=	${HOMEPAGE}
 
@@ -53,7 +55,6 @@ CONFIGURE_ARGS +=	--enable-load-extension
 MODULES+=	lang/tcl
 
 BUILD_DEPENDS=	${MODTCL_BUILD_DEPENDS}
-LIB_DEPENDS-tcl = ${BUILD_PKGPATH},-main>=${V}
 WANTLIB-tcl =	sqlite3
 
 CONFIGURE_ARGS+=--with-tcl=${MODTCL_LIBDIR}
@@ -72,12 +73,8 @@ NO_REGRESS=	Yes
 # Don't include dependency on pthreads, weak pthread functions are
 # used for non-threaded applications.
 post-install:
-	perl -pi -e s,'\-pthread','',g ${PREFIX}/lib/libsqlite3.la \
-		${PREFIX}/lib/pkgconfig/sqlite3.pc
 	${INSTALL_DATA_DIR} ${PREFIX}/share/lemon
 	${INSTALL_DATA} ${WRKBUILD}/lempar.c ${PREFIX}/share/lemon
 	${INSTALL_PROGRAM} ${WRKBUILD}/lemon ${PREFIX}/bin
-	${INSTALL_MAN} ${WRKBUILD}/sqlite3.1 ${PREFIX}/man/man1
-	@if objdump -p ${WRKINST}/${TRUEPREFIX}/lib/libsqlite3.so.${LIBsqlite3_VERSION} | grep NEEDED.*pthread; then echo "libsqlite seems to be linked with -lpthread; problem with patch-configure?"; exit 1; fi
 
 .include <bsd.port.mk>

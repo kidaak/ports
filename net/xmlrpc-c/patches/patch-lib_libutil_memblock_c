@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xmlrpc-c/patches/patch-lib_libutil_memblock_c,v 1.2 2008/03/15 10:35:54 ajacoutot Exp $
+$OpenBSD$
 --- lib/libutil/memblock.c.orig	Fri Sep 23 04:17:35 2005
 +++ lib/libutil/memblock.c	Wed Jan 16 14:20:17 2008
 @@ -73,8 +73,8 @@ xmlrpc_mem_block_init(xmlrpc_env *       const envP,

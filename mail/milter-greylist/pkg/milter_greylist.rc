@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/mail/milter-greylist/pkg/milter_greylist.rc,v 1.1 2011/05/13 12:52:22 okan Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/libexec/milter-greylist"
 

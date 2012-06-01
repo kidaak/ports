@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/latexmk/Makefile,v 1.1.1.1 2012/04/08 11:26:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	LaTeX documents output generation automation tool
 

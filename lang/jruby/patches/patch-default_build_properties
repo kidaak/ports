@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/jruby/patches/patch-default_build_properties,v 1.1 2012/04/04 20:24:00 jeremy Exp $
+$OpenBSD$
 
 Reduce amount of memory used when launching jruby.  It doesn't
 require 1G, and without this patch you can't build JRuby on a

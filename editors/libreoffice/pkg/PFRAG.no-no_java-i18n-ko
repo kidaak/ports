@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/libreoffice/pkg/PFRAG.no-no_java-i18n-ko,v 1.4 2012/04/03 08:56:50 robert Exp $
+@comment $OpenBSD$
 lib/libreoffice/help/ko/sbasic.idxl/
 lib/libreoffice/help/ko/sbasic.idxl/_0.cfs
 lib/libreoffice/help/ko/sbasic.idxl/segments.gen

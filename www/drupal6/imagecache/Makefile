@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/imagecache/Makefile,v 1.7 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	image manipulation and cache
 MAINTAINER =	Marc Espie <espie@openbsd.org>

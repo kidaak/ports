@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/gwenview/patches/patch-src_gvcore_documentimpl_cpp,v 1.1 2008/04/15 03:45:11 merdely Exp $
+$OpenBSD$
 --- src/gvcore/documentimpl.cpp.orig	Mon Apr 14 21:26:16 2008
 +++ src/gvcore/documentimpl.cpp	Mon Apr 14 21:26:50 2008
 @@ -38,6 +38,11 @@ void DocumentImpl::switchToImpl(DocumentImpl* impl) {

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/pscpug/Makefile,v 1.8 2011/07/06 12:50:15 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	draws a graph of CPU usage of a certain process
 

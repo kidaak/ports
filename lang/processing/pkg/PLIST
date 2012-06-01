@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/processing/pkg/PLIST,v 1.2 2011/07/03 21:49:30 jasper Exp $
+@comment $OpenBSD$
 bin/processing
 share/applications/processing.desktop
 share/pixmaps/

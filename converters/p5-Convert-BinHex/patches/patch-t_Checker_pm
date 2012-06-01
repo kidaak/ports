@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/p5-Convert-BinHex/patches/patch-t_Checker_pm,v 1.1 2006/12/04 22:23:21 steven Exp $
+$OpenBSD$
 --- t/Checker.pm.orig	Mon Dec  4 23:21:57 2006
 +++ t/Checker.pm	Mon Dec  4 23:22:04 2006
 @@ -1,5 +1,6 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/apache-ant/patches/patch-bin_ant,v 1.6 2011/05/02 07:20:34 landry Exp $
+$OpenBSD$
 --- bin/ant.orig	Fri Jun 27 01:03:55 2008
 +++ bin/ant	Thu Feb 11 17:00:29 2010
 @@ -122,27 +122,9 @@ fi

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/newvox/Makefile,v 1.13 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	voxel-style landscape rendering fly-by
 

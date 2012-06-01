@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-PAR-Dist/Makefile,v 1.14 2011/04/16 11:14:36 simon Exp $
+# $OpenBSD$
 
 COMMENT=	create and manipulate PAR distributions
 

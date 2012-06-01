@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/libmms/Makefile,v 1.6 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	library for parsing mms:// and mmsh:// type network streams
 

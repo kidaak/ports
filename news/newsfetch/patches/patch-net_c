@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/newsfetch/patches/patch-net_c,v 1.1 2002/07/23 17:58:56 pvalchev Exp $
+$OpenBSD$
 --- net.c.orig	Mon Apr 13 03:09:26 1998
 +++ net.c	Tue Jul 23 11:52:31 2002
 @@ -1,13 +1,15 @@

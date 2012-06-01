@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/libvmime/patches/patch-src_Makefile_in,v 1.4 2012/02/16 22:18:06 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Tue Jan 10 10:33:02 2012
 +++ src/Makefile.in	Thu Feb  2 12:03:51 2012
 @@ -499,7 +499,7 @@ top_srcdir = @top_srcdir@

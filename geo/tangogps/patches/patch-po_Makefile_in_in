@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/tangogps/patches/patch-po_Makefile_in_in,v 1.2 2010/09/13 13:26:49 jasper Exp $
+$OpenBSD$
 --- po/Makefile.in.in.orig	Sat Feb 13 17:48:20 2010
 +++ po/Makefile.in.in	Fri Apr 16 16:19:08 2010
 @@ -168,17 +168,6 @@ install-data-yes: all

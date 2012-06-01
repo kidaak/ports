@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ircd-ratbox/patches/patch-src_ircd_c,v 1.1.1.1 2009/02/09 09:41:54 simon Exp $
+$OpenBSD$
 --- src/ircd.c.orig	Sun Feb  8 23:12:35 2009
 +++ src/ircd.c	Sun Feb  8 23:15:04 2009
 @@ -242,7 +242,6 @@ make_daemon(void)

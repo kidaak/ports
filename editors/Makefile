@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/Makefile,v 1.85 2012/03/27 18:17:17 rpointel Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.44 1997/09/13 20:19:28 chuckr Exp $
 #
 

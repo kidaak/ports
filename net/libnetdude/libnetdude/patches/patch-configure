@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnetdude/libnetdude/patches/patch-configure,v 1.1 2011/12/08 22:16:28 jasper Exp $
+$OpenBSD$
 
 Don't use the bundled libltdl.
 

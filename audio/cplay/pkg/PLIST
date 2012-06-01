@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/audio/cplay/pkg/PLIST,v 1.2 2004/08/05 03:28:11 espie Exp $
+@comment $OpenBSD$
 bin/cplay
 @man man/man1/cplay.1

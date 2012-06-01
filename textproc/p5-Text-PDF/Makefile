@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-PDF/Makefile,v 1.25 2010/12/03 11:46:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	perl modules for creating and manipulating PDF
 

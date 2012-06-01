@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/matchbox/matchbox-panel-manager/pkg/PLIST,v 1.2 2009/12/21 20:46:02 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/matchbox-panel-manager
 share/applications/mb-panel-manager.desktop
 share/pixmaps/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/fotaq/Makefile,v 1.6 2010/11/26 07:20:12 espie Exp $
+# $OpenBSD$
 
 PKG_ARCH=	*
 

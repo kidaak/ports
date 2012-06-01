@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/ccze/Makefile,v 1.13 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=	log colorizer
 

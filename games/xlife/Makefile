@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xlife/Makefile,v 1.28 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=	John Horton Conway's Game of Life
 

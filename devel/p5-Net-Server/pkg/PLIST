@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Net-Server/pkg/PLIST,v 1.8 2010/10/26 09:09:18 merdely Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/Server/
 ${P5SITE}/Net/Server.pm

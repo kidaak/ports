@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Types-Structured/pkg/PLIST,v 1.2 2011/04/12 11:31:07 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/Meta/
 ${P5SITE}/MooseX/Meta/TypeCoercion/
 ${P5SITE}/MooseX/Meta/TypeCoercion/Structured/

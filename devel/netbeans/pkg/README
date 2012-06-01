@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/netbeans/pkg/README,v 1.2 2011/06/02 13:41:38 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-redcarpet/Makefile,v 1.1.1.1 2011/12/13 14:07:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	fast, safe and extensible Markdown to (X)HTML parser
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/Makefile,v 1.19 2011/12/15 22:26:59 fgsch Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += AsteriskGuide

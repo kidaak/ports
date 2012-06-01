@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/morseplayer/Makefile,v 1.13 2011/06/23 22:50:27 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		morse player
 

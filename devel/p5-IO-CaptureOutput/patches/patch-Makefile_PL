@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-IO-CaptureOutput/patches/patch-Makefile_PL,v 1.1.1.1 2012/03/08 14:51:19 pascal Exp $
+$OpenBSD$
 --- Makefile.PL.orig	Mon Feb 15 13:38:48 2010
 +++ Makefile.PL	Thu Feb  2 13:49:40 2012
 @@ -16,6 +16,9 @@ WriteMakefile

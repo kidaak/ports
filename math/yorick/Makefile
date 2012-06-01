@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/yorick/Makefile,v 1.22 2011/11/13 16:09:27 pirofti Exp $
+# $OpenBSD$
 
 # Memory hog, stuck for days on the same file during build.
 NOT_FOR_ARCHS=	sh

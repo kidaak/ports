@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/toolame/patches/patch-psycho_3_c,v 1.1.1.1 2004/07/11 08:11:38 sturm Exp $
+$OpenBSD$
 --- psycho_3.c.orig	2003-03-01 01:34:52.000000000 -0800
 +++ psycho_3.c	2004-04-21 22:41:50.000000000 -0700
 @@ -131,10 +131,10 @@ void psycho_3_fft(FLOAT sample[BLKSIZE],

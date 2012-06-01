@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/grpn/patches/patch-run_cmd_c,v 1.1 2010/03/23 20:38:20 jasper Exp $
+$OpenBSD$
 --- run_cmd.c.orig	Tue Mar 23 21:31:29 2010
 +++ run_cmd.c	Tue Mar 23 21:31:38 2010
 @@ -20,6 +20,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston,

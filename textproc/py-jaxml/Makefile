@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-jaxml/Makefile,v 1.11 2012/04/02 13:06:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Python module to easily generate XML/XHTML/HTML documents
 

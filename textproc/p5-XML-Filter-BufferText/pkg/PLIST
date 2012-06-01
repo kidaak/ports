@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-Filter-BufferText/pkg/PLIST,v 1.1.1.1 2006/11/14 19:08:18 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/XML/Filter/
 ${P5SITE}/XML/Filter/BufferText.pm
 @man man/man3p/XML::Filter::BufferText.3p

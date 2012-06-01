@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xcdplayer/patches/patch-debug_c,v 1.2 2003/12/29 21:38:34 espie Exp $
+$OpenBSD$
 --- debug.c.orig	1993-01-12 19:59:35.000000000 +0100
 +++ debug.c	2003-12-29 22:34:24.000000000 +0100
 @@ -15,28 +15,29 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ksmp3play/patches/patch-acinclude_m4,v 1.1 2003/12/29 13:52:19 espie Exp $
+$OpenBSD$
 --- acinclude.m4.orig	2003-12-29 14:44:54.000000000 +0100
 +++ acinclude.m4	2003-12-29 14:47:06.000000000 +0100
 @@ -110,16 +110,12 @@ int main (int argc, char *argv[])

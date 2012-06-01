@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/themes-standard/pkg/PLIST,v 1.13 2012/03/26 23:12:23 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gnome-themes-<2.32.1p3
 @unexec-delete rm -f %D/share/icons/HighContrast/icon-theme.cache
 @unexec-delete rm -f %D/share/icons/HighContrastInverse/icon-theme.cache

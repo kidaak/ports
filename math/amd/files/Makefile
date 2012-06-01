@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/amd/files/Makefile,v 1.1.1.1 2006/10/21 16:58:00 steven Exp $
+# $OpenBSD$
 
 LIB=	amd
 

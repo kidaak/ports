@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/ruby-data_objects/patches/patch-Rakefile,v 1.1 2011/11/17 16:08:00 jeremy Exp $
+$OpenBSD$
 
 This isn't needed for the specs, and causes an error.
 

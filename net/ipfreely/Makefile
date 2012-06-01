@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ipfreely/Makefile,v 1.8 2011/06/23 22:50:28 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		simple, secure TCP proxy daemon
 

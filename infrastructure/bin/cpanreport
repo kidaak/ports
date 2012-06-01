@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# $OpenBSD: ports/infrastructure/bin/cpanreport,v 1.1 2011/11/27 13:29:35 jasper Exp $
+# $OpenBSD$
 # Copyright (c) 2007, 2008 Simon Bertrang <simon@openbsd.org>
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions

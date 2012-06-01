@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/p5-Spreadsheet-WriteExcel/pkg/PLIST,v 1.6 2010/10/03 15:16:24 jasper Exp $
+@comment $OpenBSD$
 bin/chartex
 ${P5SITE}/Spreadsheet/
 ${P5SITE}/Spreadsheet/WriteExcel/

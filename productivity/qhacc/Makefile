@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/qhacc/Makefile,v 1.17 2011/11/03 22:21:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	qt home accounting program
 

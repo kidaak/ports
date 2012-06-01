@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Text-Restructured/pkg/PLIST,v 1.1.1.1 2007/11/02 14:54:27 merdely Exp $
+@comment $OpenBSD$
 bin/prest
 ${P5SITE}/Text/Restructured/
 ${P5SITE}/Text/Restructured.pm

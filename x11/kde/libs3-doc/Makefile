@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/libs3-doc/Makefile,v 1.18 2010/11/22 08:37:02 espie Exp $
+# $OpenBSD$
 
 BROKEN=			evaluate whether this still makes sense
 COMMENT=		X11 toolkit, libraries documentation

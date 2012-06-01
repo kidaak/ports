@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/freedt/pkg/PLIST,v 1.2 2012/01/01 16:16:24 sthen Exp $
+@comment $OpenBSD$
 @bin bin/anonidentd
 @bin bin/argv0
 @bin bin/dumblog

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/libepc/pkg/PLIST,v 1.2 2011/10/13 15:01:07 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libepc-1.0/
 include/libepc-1.0/libepc/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_DiagnosticsDialog_cpp,v 1.2 2011/09/19 12:50:57 dcoppa Exp $
+$OpenBSD$
 --- src/DiagnosticsDialog.cpp.orig	Mon Sep 19 11:46:56 2011
 +++ src/DiagnosticsDialog.cpp	Mon Sep 19 11:53:56 2011
 @@ -27,7 +27,6 @@

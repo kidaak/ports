@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/oggfwd/Makefile,v 1.9 2011/01/16 19:53:17 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	pipe an Ogg stream to an Icecast server
 

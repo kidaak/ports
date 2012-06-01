@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/giggle/Makefile,v 1.25 2011/12/03 19:38:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	gtk-based git repository viewer
 

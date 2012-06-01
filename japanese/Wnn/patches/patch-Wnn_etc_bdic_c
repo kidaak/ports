@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/Wnn/patches/patch-Wnn_etc_bdic_c,v 1.1 2000/04/16 21:53:30 espie Exp $
+$OpenBSD$
 --- Wnn/etc/bdic.c.orig	Sat Apr 15 22:36:49 2000
 +++ Wnn/etc/bdic.c	Sat Apr 15 22:37:12 2000
 @@ -291,7 +291,7 @@ register int n;

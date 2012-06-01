@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libgringotts/Makefile,v 1.5 2011/10/02 19:25:51 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	encryption backend
 

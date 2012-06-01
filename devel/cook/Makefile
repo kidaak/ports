@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cook/Makefile,v 1.19 2011/03/22 15:27:57 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.5 2000/05/30 23:19:09 jasone Exp $
 
 COMMENT=	like make(1), but more powerful and clean

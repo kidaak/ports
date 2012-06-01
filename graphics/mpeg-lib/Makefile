@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/mpeg-lib/Makefile,v 1.31 2010/11/17 08:05:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	collection of C routines to decode MPEG movies
 

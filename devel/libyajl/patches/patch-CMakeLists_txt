@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libyajl/patches/patch-CMakeLists_txt,v 1.1 2011/09/05 14:56:24 naddy Exp $
+$OpenBSD$
 
 Check for compiler flags not available with gcc < 4.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/vitetris/Makefile,v 1.3 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT =	terminal-based tetris clone in vein of nintendo tetris
 DISTNAME =	vitetris-0.51

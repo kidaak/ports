@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xdrawchem/patches/patch-xdrawchem_application_cpp,v 1.1.1.1 2007/01/23 15:43:05 ajacoutot Exp $
+$OpenBSD$
 --- xdrawchem/application.cpp.orig	Tue Jan 16 16:05:03 2007
 +++ xdrawchem/application.cpp	Tue Jan 16 16:05:40 2007
 @@ -58,6 +58,7 @@ using std::endl;

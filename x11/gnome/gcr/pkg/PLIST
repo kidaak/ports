@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/gcr/pkg/PLIST,v 1.2 2012/03/29 06:50:16 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gnome-keyring-<3.4.0
 %%SHARED%%
 @bin bin/gcr-viewer

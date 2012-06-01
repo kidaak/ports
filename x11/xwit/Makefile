@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xwit/Makefile,v 1.14 2011/11/15 16:36:01 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	X11 window interface tool
 

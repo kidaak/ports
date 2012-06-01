@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/p5-IO-Tty/patches/patch-Tty_xs,v 1.2 2011/10/28 22:38:15 okan Exp $
+$OpenBSD$
 --- Tty.xs.orig	Mon Oct 11 14:07:57 2010
 +++ Tty.xs	Tue Oct 11 23:43:40 2011
 @@ -233,6 +233,7 @@ make_safe_fd(int * fd)

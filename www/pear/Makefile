@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/pear/Makefile,v 1.15 2011/12/20 15:21:30 giovanni Exp $
+# $OpenBSD$
 
 COMMENT-main=	base classes for common PHP tasks
 COMMENT-utils=	utilities for managing pear extensions

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/unzip/pkg/PLIST,v 1.10 2010/04/25 10:36:06 jsg Exp $
+@comment $OpenBSD$
 @bin bin/funzip
 @bin bin/unzip
 @bin bin/unzipsfx

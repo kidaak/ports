@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/sudoku/Makefile,v 1.2 2012/01/08 12:03:09 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep sudoku generator
 

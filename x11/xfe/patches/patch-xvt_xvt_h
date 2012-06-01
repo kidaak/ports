@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfe/patches/patch-xvt_xvt_h,v 1.2 2010/10/24 19:55:46 stephan Exp $
+$OpenBSD$
 --- xvt/xvt.h.orig	Wed Sep 15 16:32:26 2010
 +++ xvt/xvt.h	Thu Oct  7 14:55:48 2010
 @@ -60,6 +60,10 @@ int unlockpt(int);

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/addresses/pkg/PLIST,v 1.4 2011/04/18 12:20:50 sebastia Exp $
+@comment $OpenBSD$
 bin/AddressManager
 include/AddressBook
 include/AddressView

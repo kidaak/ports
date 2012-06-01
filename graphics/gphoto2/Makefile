@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gphoto2/Makefile,v 1.21 2011/11/13 17:15:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	digital camera command-line interface
 CATEGORIES =	graphics

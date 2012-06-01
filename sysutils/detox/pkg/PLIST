@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/detox/pkg/PLIST,v 1.1.1.1 2011/06/30 21:00:29 kili Exp $
+@comment $OpenBSD$
 @bin bin/detox
 @bin bin/inline-detox
 @man man/man1/detox.1

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/netdude/netdude/patches/patch-Makefile_in,v 1.1 2011/12/09 14:45:06 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri Dec  9 15:40:13 2011
 +++ Makefile.in	Fri Dec  9 15:40:32 2011
 @@ -197,7 +197,7 @@ sysconfdir = @sysconfdir@

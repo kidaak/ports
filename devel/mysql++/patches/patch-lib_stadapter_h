@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/mysql++/patches/patch-lib_stadapter_h,v 1.1 2009/03/31 11:37:20 wilfried Exp $
+$OpenBSD$
 
 work-around for gcc 3.3
 

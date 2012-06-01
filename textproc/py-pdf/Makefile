@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/py-pdf/Makefile,v 1.4 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Python PDF toolkit
 

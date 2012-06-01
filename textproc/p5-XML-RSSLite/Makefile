@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-XML-RSSLite/Makefile,v 1.3 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight, 'relaxed' RSS (and XML-ish) parser
 

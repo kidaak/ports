@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/textproc/iksemel/pkg/PFRAG.shared,v 1.1.1.1 2007/09/04 15:05:27 sthen Exp $
+@comment $OpenBSD$
 @lib lib/libiksemel.so.${LIBiksemel_VERSION}

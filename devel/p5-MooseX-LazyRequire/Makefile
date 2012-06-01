@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-LazyRequire/Makefile,v 1.5 2011/04/12 06:41:27 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		required attributes which fail only when trying to use them
 

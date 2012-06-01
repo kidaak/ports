@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/libshout/pkg/PFRAG.shared,v 1.4 2005/12/31 11:32:49 steven Exp $
+@comment $OpenBSD$
 @lib lib/libshout.so.${LIBshout_VERSION}

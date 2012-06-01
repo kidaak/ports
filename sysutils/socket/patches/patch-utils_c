@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/socket/patches/patch-utils_c,v 1.1 2011/07/08 11:19:35 jasper Exp $
+$OpenBSD$
 --- utils.c.orig	Wed Sep  9 16:31:16 1992
 +++ utils.c	Fri Jul  8 13:17:27 2011
 @@ -25,8 +25,10 @@ Please read the file COPYRIGHT for further details.

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ruby-minitest/pkg/PLIST,v 1.6 2011/07/27 18:13:57 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/.autotest

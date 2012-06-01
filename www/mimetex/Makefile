@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mimetex/Makefile,v 1.4 2010/11/11 12:35:14 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		parse LaTeX math expressions into gif images
 

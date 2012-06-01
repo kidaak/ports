@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/cups-pk-helper/Makefile,v 1.5 2012/03/28 09:07:51 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	fine-grained privileges PolicyKit helper for CUPS
 

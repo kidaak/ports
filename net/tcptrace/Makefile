@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tcptrace/Makefile,v 1.26 2011/08/25 22:40:21 bluhm Exp $
+# $OpenBSD$
 
 COMMENT=		TCP dump file analysis tool
 

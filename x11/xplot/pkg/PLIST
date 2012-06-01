@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xplot/pkg/PLIST,v 1.1.1.1 2005/04/01 08:01:39 markus Exp $
+@comment $OpenBSD$
 bin/tcpdump2xplot
 bin/xplot
 @man man/man1/tcpdump2xplot.1

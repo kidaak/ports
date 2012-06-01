@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xdmchoose/patches/patch-configure,v 1.1 2009/03/23 21:41:44 naddy Exp $
+$OpenBSD$
 --- configure.orig	Mon Mar 23 22:27:21 2009
 +++ configure	Mon Mar 23 22:28:21 2009
 @@ -4905,7 +4905,7 @@ fi

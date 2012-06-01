@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/py-openssl/pkg/PLIST,v 1.5 2011/11/25 20:19:30 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/OpenSSL/
 lib/python${MODPY_VERSION}/site-packages/OpenSSL/SSL.so
 lib/python${MODPY_VERSION}/site-packages/OpenSSL/__init__.py

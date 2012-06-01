@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-activeresource/Makefile,v 1.18 2011/12/13 17:57:42 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	wraps web resources in model classes
 

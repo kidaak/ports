@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-Primes/Makefile,v 1.8 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	provable prime number generator
 

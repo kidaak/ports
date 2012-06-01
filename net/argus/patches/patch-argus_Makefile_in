@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/argus/patches/patch-argus_Makefile_in,v 1.1 2011/09/10 11:55:26 naddy Exp $
+$OpenBSD$
 --- argus/Makefile.in.orig	Thu Sep  8 17:36:27 2011
 +++ argus/Makefile.in	Thu Sep  8 17:38:25 2011
 @@ -19,6 +19,7 @@

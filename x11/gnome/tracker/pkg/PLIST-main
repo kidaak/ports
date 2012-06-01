@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/tracker/pkg/PLIST-main,v 1.7 2012/03/08 14:14:10 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath ${BASE_PKGPATH}
 @bin bin/tracker-control
 @bin bin/tracker-explorer

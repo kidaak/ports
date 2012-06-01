@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/junkbuster/patches/patch-gnu_regex_c,v 1.4 2010/05/24 22:17:03 espie Exp $
+$OpenBSD$
 --- gnu_regex.c.orig	Sat Oct 31 04:58:47 1998
 +++ gnu_regex.c	Sat May 22 16:47:47 2010
 @@ -4909,15 +4909,7 @@ regerror (errcode, preg, errbuf, errbuf_size)

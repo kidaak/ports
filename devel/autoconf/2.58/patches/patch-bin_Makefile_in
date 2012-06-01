@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.58/patches/patch-bin_Makefile_in,v 1.3 2008/03/15 07:24:38 espie Exp $
+$OpenBSD$
 --- bin/Makefile.in.orig	Tue Nov  4 09:47:19 2003
 +++ bin/Makefile.in	Sat Mar  8 14:09:55 2008
 @@ -195,7 +195,7 @@ edit = sed \

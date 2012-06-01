@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-mysql2/Makefile,v 1.7 2011/12/13 18:06:20 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	modern, simple and very fast Mysql library for Ruby
 

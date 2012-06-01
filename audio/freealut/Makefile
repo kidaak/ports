@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/freealut/Makefile,v 1.6 2010/11/15 00:22:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	OpenAL Utility Toolkit
 

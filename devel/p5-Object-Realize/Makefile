@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Object-Realize/Makefile,v 1.12 2010/10/18 17:48:04 espie Exp $
+# $OpenBSD$
 
 COMMENT=	perl module to implementing delay loading of object-data
 

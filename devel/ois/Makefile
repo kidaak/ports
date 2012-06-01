@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ois/Makefile,v 1.2 2012/03/18 15:28:02 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		object-oriented input system
 

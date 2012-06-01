@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-Music-Audioscrobbler-MPD/Makefile,v 1.6 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		module to submit songs to last.fm from MPD
 DISTNAME=		Music-Audioscrobbler-MPD-0.13

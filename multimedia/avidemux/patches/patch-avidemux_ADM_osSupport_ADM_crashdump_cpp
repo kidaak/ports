@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-avidemux_ADM_osSupport_ADM_crashdump_cpp,v 1.1 2008/03/19 09:21:37 ajacoutot Exp $
+$OpenBSD$
 --- avidemux/ADM_osSupport/ADM_crashdump.cpp.orig	Wed Jan  9 14:36:11 2008
 +++ avidemux/ADM_osSupport/ADM_crashdump.cpp	Wed Jan  9 15:26:39 2008
 @@ -249,7 +249,9 @@ EXCEPTION_DISPOSITION exceptionHandler(struct _EXCEPTI

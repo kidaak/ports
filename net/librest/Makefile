@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/librest/Makefile,v 1.13 2011/11/10 19:41:08 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	access web services that claim to be RESTful
 

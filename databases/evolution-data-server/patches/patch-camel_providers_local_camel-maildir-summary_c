@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/evolution-data-server/patches/patch-camel_providers_local_camel-maildir-summary_c,v 1.8 2012/04/16 14:22:30 jasper Exp $
+$OpenBSD$
 
 On OpenBSD, time_t is an int.
 

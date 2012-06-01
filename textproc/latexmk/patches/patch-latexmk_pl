@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/latexmk/patches/patch-latexmk_pl,v 1.1.1.1 2012/04/08 11:26:30 ajacoutot Exp $
+$OpenBSD$
 --- latexmk.pl.orig	Sun Apr  8 10:43:23 2012
 +++ latexmk.pl	Sun Apr  8 10:43:38 2012
 @@ -931,6 +931,9 @@ else {

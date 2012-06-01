@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/phpicalendar/pkg/PLIST,v 1.6 2009/02/11 12:48:48 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 phpicalendar/
 @comment phpicalendar/.DS_Store

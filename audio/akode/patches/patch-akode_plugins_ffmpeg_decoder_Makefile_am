@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/akode/patches/patch-akode_plugins_ffmpeg_decoder_Makefile_am,v 1.1 2011/04/03 06:37:29 ajacoutot Exp $
+$OpenBSD$
 
 C++ code needs to define __STDC_CONSTANT_MACROS to pull in parts of
 stdint.h (needed by graphics/ffmpeg).

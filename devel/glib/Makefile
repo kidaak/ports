@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/glib/Makefile,v 1.64 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 # Uses pthreads
 
 COMMENT=	useful routines for C programming

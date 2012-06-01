@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/beav/patches/patch-tcap_c,v 1.2 2010/05/22 15:05:29 espie Exp $
+$OpenBSD$
 --- tcap.c.orig	Sat Dec 13 09:34:59 1997
 +++ tcap.c	Sat May 22 16:56:49 2010
 @@ -39,7 +39,7 @@ char *UP, PC, *CM, *CE, *CL, *SO, *SE, *TI, *TE;	/* DR

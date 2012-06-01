@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/rrdtool/Makefile,v 1.65 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes 
 

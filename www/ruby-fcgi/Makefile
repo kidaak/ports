@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-fcgi/Makefile,v 1.13 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	ruby FastCGI library
 

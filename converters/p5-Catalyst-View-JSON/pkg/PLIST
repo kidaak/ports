@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Catalyst-View-JSON/pkg/PLIST,v 1.1.1.1 2008/08/20 11:05:46 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Helper/
 ${P5SITE}/Catalyst/Helper/View/
 ${P5SITE}/Catalyst/Helper/View/JSON.pm

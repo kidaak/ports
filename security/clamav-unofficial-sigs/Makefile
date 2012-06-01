@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/clamav-unofficial-sigs/Makefile,v 1.1.1.1 2011/03/26 12:26:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	fetch and update unofficial signatures for ClamAV
 

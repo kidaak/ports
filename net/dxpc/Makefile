@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dxpc/Makefile,v 1.29 2010/11/19 22:31:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	X11 over a low bandwidth link
 VERSION =	3.8.2

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/sdk3/pkg/PLIST-main,v 1.6 2011/12/03 23:37:39 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath x11/kde/sdk3
 bin/adddebug
 bin/build-progress.sh

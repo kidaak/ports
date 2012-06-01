@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/strigi/Makefile,v 1.14 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 COMMENT =	document indexer

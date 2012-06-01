@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/sdl-net/Makefile,v 1.31 2012/04/05 11:42:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	SDL cross-platform networking library
 

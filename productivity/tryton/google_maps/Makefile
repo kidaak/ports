@@ -1,8 +1,9 @@
-# $OpenBSD: ports/productivity/tryton/google_maps/Makefile,v 1.5 2012/01/24 10:16:10 ajacoutot Exp $
+# $OpenBSD$
 
-MODPY_EGG_VERSION =	2.2.0
+MODPY_EGG_VERSION =	2.4.0
 TRYTOND_MODULE =	google_maps
+REVISION =		0
 
-RUN_DEPENDS =		productivity/tryton/party>=2.2.0
+RUN_DEPENDS =		productivity/tryton/party
 
 .include <bsd.port.mk>

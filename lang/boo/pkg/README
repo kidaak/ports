@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/boo/pkg/README,v 1.1.1.1 2011/10/06 12:43:32 jasper Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/jam/Makefile,v 1.8 2010/11/15 19:45:59 espie Exp $
+# $OpenBSD$
 
 COMMENT=		build utility like make
 

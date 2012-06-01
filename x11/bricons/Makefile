@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/bricons/Makefile,v 1.27 2011/11/13 15:34:40 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	quick start-up utility for applications on an X11 display
 

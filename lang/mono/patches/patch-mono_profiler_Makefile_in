@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/mono/patches/patch-mono_profiler_Makefile_in,v 1.4 2012/04/13 11:51:49 robert Exp $
+$OpenBSD$
 --- mono/profiler/Makefile.in.orig	Wed Apr 11 13:12:23 2012
 +++ mono/profiler/Makefile.in	Wed Apr 11 13:12:39 2012
 @@ -344,7 +344,7 @@ libmono_profiler_aot_la_LIBADD = $(LIBMONO)

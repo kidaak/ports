@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/gnokii/Makefile,v 1.32 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	tools to talk to GSM cellular phones
 

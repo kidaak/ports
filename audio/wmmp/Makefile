@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/wmmp/Makefile,v 1.11 2011/10/12 12:54:31 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp to control MPD
 DISTNAME=		WMmp-0.10.0

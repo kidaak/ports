@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Curl/Makefile,v 1.18 2011/06/15 13:31:44 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

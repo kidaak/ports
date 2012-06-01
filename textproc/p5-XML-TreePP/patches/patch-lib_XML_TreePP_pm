@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/p5-XML-TreePP/patches/patch-lib_XML_TreePP_pm,v 1.1.1.1 2012/01/24 00:25:56 nigel Exp $
+$OpenBSD$
 
 timeout of 10 seconds is way too low, stick with defaults
 

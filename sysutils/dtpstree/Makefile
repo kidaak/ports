@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/dtpstree/Makefile,v 1.5 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		display a tree of processes
 

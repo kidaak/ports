@@ -1,10 +1,9 @@
-# $OpenBSD: ports/x11/gnome/gcalctool/Makefile,v 1.57 2012/03/30 14:09:59 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GTK desktop calculator
 
 GNOME_PROJECT=		gcalctool
-GNOME_VERSION=		6.4.0
-REVISION=		0
+GNOME_VERSION=		6.4.2.1
 
 CATEGORIES=		math
 

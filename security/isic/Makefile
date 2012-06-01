@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/isic/Makefile,v 1.30 2010/11/26 14:56:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	IP stack integrity checker
 

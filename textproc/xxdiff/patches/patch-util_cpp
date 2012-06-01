@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xxdiff/patches/patch-util_cpp,v 1.2 2008/01/24 11:49:21 ajacoutot Exp $
+$OpenBSD$
 --- util.cpp.orig	Fri Nov  5 19:47:06 2004
 +++ util.cpp	Thu Jan 24 09:43:07 2008
 @@ -1031,10 +1031,28 @@ QString XxUtil::escapeChars( const QString& format )

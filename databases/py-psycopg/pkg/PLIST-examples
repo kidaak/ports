@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-psycopg/pkg/PLIST-examples,v 1.5 2011/12/20 07:02:19 fgsch Exp $
+@comment $OpenBSD$
 @pkgpath databases/py-psycopg,-examples[,python2.4][,python2.5][,python2.6]
 share/examples/${MODPY_PY_PREFIX}psycopg/
 share/examples/${MODPY_PY_PREFIX}psycopg/binary.py

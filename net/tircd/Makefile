@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tircd/Makefile,v 1.3 2010/11/19 22:31:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	ircd proxy to the twitter API
 

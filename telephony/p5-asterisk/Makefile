@@ -1,4 +1,4 @@
-# $OpenBSD: ports/telephony/p5-asterisk/Makefile,v 1.6 2011/03/03 13:39:05 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	collection of perl modules to be used with asterisk
 

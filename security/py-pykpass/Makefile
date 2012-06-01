@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/py-pykpass/Makefile,v 1.5 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		kerberos5 password verification python module
 

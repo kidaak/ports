@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/bwidget/pkg/PLIST,v 1.3 2011/01/05 17:07:26 stu Exp $
+@comment $OpenBSD$
 lib/tcl/bwidget/
 lib/tcl/bwidget/arrow.tcl
 lib/tcl/bwidget/bitmap.tcl

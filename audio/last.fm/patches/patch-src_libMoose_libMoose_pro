@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_libMoose_libMoose_pro,v 1.3 2011/10/18 12:17:26 dcoppa Exp $
+$OpenBSD$
 --- src/libMoose/libMoose.pro.orig	Tue Oct 18 11:12:40 2011
 +++ src/libMoose/libMoose.pro	Tue Oct 18 11:31:21 2011
 @@ -1,8 +1,8 @@

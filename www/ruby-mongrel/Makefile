@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-mongrel/Makefile,v 1.19 2011/11/09 00:17:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=	fast HTTP library and server for Ruby
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Encode-Detect/pkg/PLIST,v 1.1.1.1 2008/10/16 00:01:46 sthen Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Encode/
 ${P5ARCH}/Encode/Detect/

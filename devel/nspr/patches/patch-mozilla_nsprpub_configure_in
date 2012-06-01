@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/nspr/patches/patch-mozilla_nsprpub_configure_in,v 1.13 2012/02/20 09:17:00 landry Exp $
+$OpenBSD$
 --- mozilla/nsprpub/configure.in.orig	Tue Feb 14 20:06:00 2012
 +++ mozilla/nsprpub/configure.in	Fri Feb 17 08:51:34 2012
 @@ -2232,9 +2232,11 @@ mips-sony-newsos*)

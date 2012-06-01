@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libnet/1.0/Makefile,v 1.11 2010/11/26 14:56:15 espie Exp $
+# $OpenBSD$
 
 REV=		1.0
 VERSION=	${REV}.2a

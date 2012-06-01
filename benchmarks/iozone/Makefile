@@ -1,4 +1,4 @@
-# $OpenBSD: ports/benchmarks/iozone/Makefile,v 1.43 2010/10/18 16:57:46 espie Exp $
+# $OpenBSD$
 # Uses pthreads
 
 COMMENT=	performance test of sequential file I/O

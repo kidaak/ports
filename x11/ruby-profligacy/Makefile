@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/ruby-profligacy/Makefile,v 1.1.1.1 2011/01/18 16:30:31 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	friendly JRuby interface to Swing
 

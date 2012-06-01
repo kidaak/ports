@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal7/Makefile.inc,v 1.1.1.1 2012/04/10 12:49:31 espie Exp $
+# $OpenBSD$
 
 
 MODULES +=	www/drupal7

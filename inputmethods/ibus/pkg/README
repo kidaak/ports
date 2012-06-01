@@ -1,4 +1,4 @@
-$OpenBSD: ports/inputmethods/ibus/pkg/README,v 1.3 2011/06/02 13:41:39 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

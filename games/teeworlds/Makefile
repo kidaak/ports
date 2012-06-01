@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/teeworlds/Makefile,v 1.15 2011/10/21 17:43:30 espie Exp $
+# $OpenBSD$
 
 COMMENT =	platform game featuring buggers equipped with weapons
 

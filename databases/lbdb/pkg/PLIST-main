@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/lbdb/pkg/PLIST-main,v 1.1.1.1 2008/06/15 07:22:57 sthen Exp $
+@comment $OpenBSD$
 bin/lbdb-fetchaddr
 @bin bin/lbdb_dotlock
 bin/lbdbq

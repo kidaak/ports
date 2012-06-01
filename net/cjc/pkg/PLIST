@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/cjc/pkg/PLIST,v 1.3 2011/11/16 16:00:00 rpointel Exp $
+@comment $OpenBSD$
 bin/cjc
 lib/python${MODPY_VERSION}/site-packages/Console_Jabber_Client-1.0.1-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/cjc/

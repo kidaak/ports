@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/grace/pkg/PLIST,v 1.6 2004/10/08 10:37:24 espie Exp $
+@comment $OpenBSD$
 bin/grace
 bin/gracebat
 grace/

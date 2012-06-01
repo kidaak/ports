@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Chart/pkg/PLIST,v 1.2 2006/04/30 03:05:00 djm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Chart/
 ${P5SITE}/Chart.pod
 ${P5SITE}/Chart/Bars.pm

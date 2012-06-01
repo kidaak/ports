@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/Makefile,v 1.741 2012/04/13 14:14:54 sthen Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.129 1997/11/20 13:47:40 itojun Exp $
 #
 
@@ -25,6 +25,7 @@
      SUBDIR += arpd
      SUBDIR += arping
      SUBDIR += arpwatch
+     SUBDIR += arm
      SUBDIR += avahi,
      SUBDIR += axel
      SUBDIR += balance
@@ -39,9 +40,9 @@
      SUBDIR += bwm-ng
      SUBDIR += cadaver
      SUBDIR += castget
+     SUBDIR += centerim
      SUBDIR += cftp
      SUBDIR += charm
-     SUBDIR += centerim
      SUBDIR += cjc
      SUBDIR += climm
      SUBDIR += clive
@@ -97,7 +98,6 @@
      SUBDIR += ftpcopy
      SUBDIR += ftpsesame
      SUBDIR += gajim
-     SUBDIR += gftp
      SUBDIR += glib2-networking
      SUBDIR += gloox
      SUBDIR += gmudix
@@ -106,6 +106,7 @@
      SUBDIR += gnugk
      SUBDIR += gopher
      SUBDIR += gotthard
+     SUBDIR += gpodder
      SUBDIR += grake
      SUBDIR += gsnmp
      SUBDIR += gssdp
@@ -117,7 +118,7 @@
      SUBDIR += hping
      SUBDIR += hpodder
      SUBDIR += hs-HTTP
-     SUBDIR += hs-pb
+     SUBDIR += hs-hostname
      SUBDIR += httptunnel
      SUBDIR += icb
      SUBDIR += icbirc
@@ -125,6 +126,8 @@
      SUBDIR += ices
      SUBDIR += ices2
      SUBDIR += icinga
+     SUBDIR += icli
+     SUBDIR += icli,nagios
      SUBDIR += icmpinfo
      SUBDIR += ifmcstat
      SUBDIR += ifstat
@@ -206,10 +209,11 @@
      SUBDIR += mrtd
      SUBDIR += mrtg
      SUBDIR += mtr
-     SUBDIR += mtr,no_x11
+     SUBDIR += mtr,gtk
      SUBDIR += mudix
      SUBDIR += munin
      SUBDIR += mutella
+     SUBDIR += mygpoclient
      SUBDIR += nagios
      SUBDIR += nam
      SUBDIR += natpmpd
@@ -270,6 +274,7 @@
      SUBDIR += p5-Danga-Socket
      SUBDIR += p5-Event-RPC
      SUBDIR += p5-Filesys-Virtual-DAAP
+     SUBDIR += p5-GRID-Machine
      SUBDIR += p5-Geo-IP
      SUBDIR += p5-IO-Interface
      SUBDIR += p5-IO-Socket-INET6
@@ -293,7 +298,6 @@
      SUBDIR += p5-Net-Daemon
      SUBDIR += p5-Net-Dict
      SUBDIR += p5-Net-Domain-TLD
-     SUBDIR += p5-Net-eBay
      SUBDIR += p5-Net-FTP-AutoReconnect
      SUBDIR += p5-Net-FTP-Recursive
      SUBDIR += p5-Net-FTPSSL
@@ -322,10 +326,10 @@
      SUBDIR += p5-Net-ParseWhois
      SUBDIR += p5-Net-Patricia
      SUBDIR += p5-Net-Pcap
+     SUBDIR += p5-Net-Pcap-Reassemble
      SUBDIR += p5-Net-Ping-External
      SUBDIR += p5-Net-Radius
      SUBDIR += p5-Net-RawIP
-     SUBDIR += p5-Net-Server-SS-PreFork
      SUBDIR += p5-Net-SFTP
      SUBDIR += p5-Net-SFTP-Foreign
      SUBDIR += p5-Net-SMTP-SSL
@@ -336,6 +340,7 @@
      SUBDIR += p5-Net-SSH-Expect
      SUBDIR += p5-Net-SSH-Perl
      SUBDIR += p5-Net-SSH2
+     SUBDIR += p5-Net-Server-SS-PreFork
      SUBDIR += p5-Net-Snort-Parser
      SUBDIR += p5-Net-Subnets
      SUBDIR += p5-Net-TFTP
@@ -351,6 +356,7 @@
      SUBDIR += p5-Net-XMPP
      SUBDIR += p5-Net-XWhois
      SUBDIR += p5-Net-Z3950-Zoom
+     SUBDIR += p5-Net-eBay
      SUBDIR += p5-NetAddr-IP
      SUBDIR += p5-NetPacket
      SUBDIR += p5-Nmap-Parser
@@ -367,10 +373,10 @@
      SUBDIR += p5-PlRPC
      SUBDIR += p5-RPC-XML
      SUBDIR += p5-Regexp-Common-net-CIDR
-     SUBDIR += p5-Server-Starter
      SUBDIR += p5-SNMP-BridgeQuery
      SUBDIR += p5-SNMP-Info
      SUBDIR += p5-SNMP_Session
+     SUBDIR += p5-Server-Starter
      SUBDIR += p5-Socket-GetAddrInfo
      SUBDIR += p5-Socket6
      SUBDIR += p5-Sys-Hostname-Long
@@ -410,6 +416,7 @@
      SUBDIR += pidgin,gtkspell
      SUBDIR += pidgin-facebookchat
      SUBDIR += pidgin-icb
+     SUBDIR += pidgin-sipe
      SUBDIR += pidgin-tlen
      SUBDIR += pktstat
      SUBDIR += plushs

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/birda/Makefile,v 1.12 2011/06/23 22:50:27 naddy Exp $
+# $OpenBSD$
 # $RuOBSD: Makefile,v 1.7 2003/08/18 18:40:14 grange Exp $
 
 COMMENT=		Bohlin's IrDA utilities

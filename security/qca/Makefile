@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/qca/Makefile,v 1.13 2012/01/26 09:25:46 sebastia Exp $
+# $OpenBSD$
 
 COMMENT=	Qt Cryptographic Architecture
 

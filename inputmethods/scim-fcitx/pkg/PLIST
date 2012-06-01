@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/inputmethods/scim-fcitx/pkg/PLIST,v 1.1.1.1 2008/10/29 02:24:17 kevlo Exp $
+@comment $OpenBSD$
 @bin bin/createPYMB
 @bin bin/mb2txt
 @bin bin/txt2mb

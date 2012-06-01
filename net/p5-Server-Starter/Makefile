@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Server-Starter/Makefile,v 1.2 2011/01/06 08:46:16 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		superdaemon for hot-deploying server programs
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/video-rice/patches/patch-source_mupen64plus-video-rice_src_FrameBuffer_cpp,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/FrameBuffer.cpp.orig	Mon Dec 19 00:17:20 2011
 +++ src/FrameBuffer.cpp	Mon Dec 19 00:18:11 2011
 @@ -653,9 +653,9 @@ l1:             mov esi, [ecx+ebx]

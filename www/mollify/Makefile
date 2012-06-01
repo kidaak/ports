@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mollify/Makefile,v 1.6 2011/10/16 15:20:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simple and clean multi-user web file manager
 

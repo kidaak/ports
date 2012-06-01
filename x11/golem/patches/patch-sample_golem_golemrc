@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/golem/patches/patch-sample_golem_golemrc,v 1.2 2002/01/11 00:51:05 naddy Exp $
+$OpenBSD$
 --- sample.golem/golemrc.orig	Wed Dec 12 16:02:07 2001
 +++ sample.golem/golemrc	Wed Dec 12 16:03:42 2001
 @@ -160,7 +160,12 @@ keys {

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Locale-Hebrew/pkg/PLIST,v 1.1.1.1 2007/10/25 22:00:33 sthen Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Locale/
 ${P5ARCH}/Locale/Hebrew.pm

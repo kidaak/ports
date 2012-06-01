@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/views/pkg/PLIST,v 1.7 2012/01/28 10:02:35 espie Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 @incompatibility drupal6-cck-<2.6

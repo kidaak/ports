@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Affixes/Makefile,v 1.5 2011/03/14 09:15:34 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		prefixes and suffixes analisys of text
 

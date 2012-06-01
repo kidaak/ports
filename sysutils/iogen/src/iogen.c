@@ -1,4 +1,4 @@
-/* $OpenBSD: ports/sysutils/iogen/src/iogen.c,v 1.9 2007/05/18 14:48:16 marco Exp $ */
+/* $OpenBSD$ */
 /*
  * Copyright (c) 2005 Marco Peereboom <marco@peereboom.us>
  *

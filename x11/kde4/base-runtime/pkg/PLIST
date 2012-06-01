@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/base-runtime/pkg/PLIST,v 1.4 2010/06/20 09:36:14 espie Exp $
+@comment $OpenBSD$
 @conflict kdebase-<4
 @group wheel
 @bin bin/kcmshell4

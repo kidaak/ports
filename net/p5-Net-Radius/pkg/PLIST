@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Radius/pkg/PLIST,v 1.3 2010/05/20 20:12:13 bluhm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/Radius/
 ${P5SITE}/Net/Radius/Dictionary.pm

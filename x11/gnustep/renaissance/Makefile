@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnustep/renaissance/Makefile,v 1.1.1.1 2011/07/19 13:52:40 sebastia Exp $
+# $OpenBSD$
 
 COMMENT =	GNUstep layer to write portable GUIs
 

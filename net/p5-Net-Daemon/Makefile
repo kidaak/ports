@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Daemon/Makefile,v 1.16 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	extension for portable daemons
 

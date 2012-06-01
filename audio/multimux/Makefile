@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/multimux/Makefile,v 1.3 2010/11/15 00:22:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=		create multichannel WAV audio files
 DISTNAME=		multimux-0.2.5.2

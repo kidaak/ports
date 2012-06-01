@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/gpa/Makefile,v 1.28 2011/11/04 08:43:32 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	graphical interface for GnuPG
 

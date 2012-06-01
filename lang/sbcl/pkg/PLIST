@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/sbcl/pkg/PLIST,v 1.6 2012/01/04 20:16:43 krw Exp $
+@comment $OpenBSD$
 %%amd64%%
 %%i386%%
 %%powerpc%%

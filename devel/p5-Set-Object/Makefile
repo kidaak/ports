@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Set-Object/Makefile,v 1.16 2010/12/03 11:44:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	set of objects and strings
 SHARED_ONLY=	Yes

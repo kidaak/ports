@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_client_ECNotifyMaster_cpp,v 1.5 2010/06/30 02:46:48 ajacoutot Exp $
+$OpenBSD$
 --- provider/client/ECNotifyMaster.cpp.orig	Mon May 31 19:28:58 2010
 +++ provider/client/ECNotifyMaster.cpp	Mon Jun 14 09:16:44 2010
 @@ -392,7 +392,7 @@ void* ECNotifyMaster::NotifyWatch(void *pTmpNotifyMast

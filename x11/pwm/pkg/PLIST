@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/pwm/pkg/PLIST,v 1.8 2006/08/02 15:32:16 naddy Exp $
+@comment $OpenBSD$
 @conflict ion-2.*
 bin/pwm
 @man man/man1/pwm.1

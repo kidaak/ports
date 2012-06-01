@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/portsentry/Makefile,v 1.9 2007/09/15 23:30:00 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	port scan detection and active defense
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/xfig/pkg/PLIST,v 1.11 2009/06/09 13:19:44 jasper Exp $
+@comment $OpenBSD$
 @bin bin/xfig
 lib/X11/app-defaults/Fig
 lib/X11/xfig/CompKeyDB

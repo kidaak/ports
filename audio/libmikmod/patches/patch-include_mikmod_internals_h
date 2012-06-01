@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libmikmod/patches/patch-include_mikmod_internals_h,v 1.1 2004/09/14 22:42:30 brad Exp $
+$OpenBSD$
 --- include/mikmod_internals.h.orig	Wed Sep  1 15:32:26 2004
 +++ include/mikmod_internals.h	Wed Sep  1 15:32:42 2004
 @@ -50,7 +50,7 @@ extern "C" {

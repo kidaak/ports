@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/ri-li/Makefile,v 1.9 2011/11/17 22:57:18 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	drive a toy wood engine
 

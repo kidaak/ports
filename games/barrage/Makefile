@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/barrage/Makefile,v 1.5 2010/11/16 11:23:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=	kill and destroy as many targets as possible in 3 minutes
 

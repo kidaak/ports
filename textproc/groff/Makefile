@@ -1,8 +1,8 @@
-# $OpenBSD: ports/textproc/groff/Makefile,v 1.17 2012/02/26 22:28:34 schwarze Exp $
+# $OpenBSD$
 
 COMMENT =		GNU troff typesetter
 DISTNAME =		groff-1.21
-REVISION =		7
+REVISION =		8
 
 CATEGORIES =		textproc
 HOMEPAGE =		http://www.gnu.org/software/groff/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_read-rtl_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/read-rtl.c.orig	Sat Feb 18 23:06:53 2006
 +++ gcc/read-rtl.c	Mon Jun 14 19:23:04 2010
 @@ -784,7 +784,7 @@ join_c_conditions (const char *cond1, const char *cond

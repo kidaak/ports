@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/xapian-omega/pkg/PLIST,v 1.3 2012/01/07 12:03:29 sthen Exp $
+@comment $OpenBSD$
 bin/dbi2omega
 bin/htdig2omega
 bin/mbox2omega

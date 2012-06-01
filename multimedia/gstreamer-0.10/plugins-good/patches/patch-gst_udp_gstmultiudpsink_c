@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-good/patches/patch-gst_udp_gstmultiudpsink_c,v 1.2 2012/02/21 08:46:08 ajacoutot Exp $
+$OpenBSD$
 --- gst/udp/gstmultiudpsink.c.orig	Thu Feb 16 00:48:07 2012
 +++ gst/udp/gstmultiudpsink.c	Tue Feb 21 09:16:15 2012
 @@ -43,6 +43,11 @@

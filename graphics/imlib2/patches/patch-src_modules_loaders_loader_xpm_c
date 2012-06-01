@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/imlib2/patches/patch-src_modules_loaders_loader_xpm_c,v 1.5 2009/04/30 10:09:49 simon Exp $
+$OpenBSD$
 
 Chunk at line 246:
 CVE-2008-5187, Buffer overflow in the xpm loader.

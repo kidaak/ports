@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/silc-toolkit/pkg/PLIST,v 1.12 2009/01/10 01:30:54 sthen Exp $
+@comment $OpenBSD$
 @conflict silc-client-<=1.0.1
 include/silc/
 include/silc/client.h

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/grub/patches/patch-util_grub-install_in,v 1.1.1.1 2007/04/13 08:29:17 sturm Exp $
+$OpenBSD$
 --- util/grub-install.in.orig	Sat Jul 24 20:57:31 2004
 +++ util/grub-install.in	Wed Apr 11 00:06:12 2007
 @@ -124,6 +124,12 @@ convert () {

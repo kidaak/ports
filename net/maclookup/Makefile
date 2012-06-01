@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/maclookup/Makefile,v 1.1.1.1 2011/12/30 14:24:07 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	simple filter to look up MAC address vendors
 

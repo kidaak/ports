@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/tiff/patches/patch-libtiff_Makefile_in,v 1.12 2012/04/14 15:09:55 naddy Exp $
+$OpenBSD$
 
 * Avoid picking up an old libtiff in ${LOCALBASE}.
 * Do not record inter-library dependencies.

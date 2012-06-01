@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/libiconv/patches/patch-src_Makefile_in,v 1.6 2011/09/02 15:44:47 naddy Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Sep  1 18:19:18 2011
 +++ src/Makefile.in	Thu Sep  1 18:20:19 2011
 @@ -71,7 +71,6 @@ OBJECTS_RES_no =

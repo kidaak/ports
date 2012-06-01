@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/polkit/patches/patch-src_polkitd_gposixsignal_c,v 1.1 2011/04/28 13:09:07 ajacoutot Exp $
+$OpenBSD$
 --- src/polkitd/gposixsignal.c.orig	Sat Feb 26 23:23:53 2011
 +++ src/polkitd/gposixsignal.c	Wed Apr 27 16:07:00 2011
 @@ -26,7 +26,13 @@

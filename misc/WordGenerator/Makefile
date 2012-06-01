@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/WordGenerator/Makefile,v 1.10 2010/11/19 07:23:11 espie Exp $
+# $OpenBSD$
 
 COMMENT =		generates lists of words given certain information
 

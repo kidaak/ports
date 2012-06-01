@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/py-distribute/pkg/PFRAG.no-python3,v 1.2 2011/12/16 08:19:36 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict py-setuptools-*

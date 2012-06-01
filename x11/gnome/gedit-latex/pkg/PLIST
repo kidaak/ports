@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/gedit-latex/pkg/PLIST,v 1.3 2012/03/29 07:10:11 ajacoutot Exp $
+@comment $OpenBSD$
 lib/gedit/plugins/latex/
 lib/gedit/plugins/latex.plugin
 lib/gedit/plugins/latex/__init__.py

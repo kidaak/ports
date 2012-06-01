@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/emesene/Makefile,v 1.8 2011/09/16 11:13:38 espie Exp $
+# $OpenBSD$
 
 COMMENT =		client for the Windows Live Messenger chat network
 

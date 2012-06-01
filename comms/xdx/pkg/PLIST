@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/xdx/pkg/PLIST,v 1.6 2010/04/27 20:48:54 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/xdx
 @man man/man1/xdx.1
 share/applications/Xdx.desktop

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/swh-plugins/Makefile,v 1.5 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

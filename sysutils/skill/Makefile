@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/skill/Makefile,v 1.18 2011/07/06 13:41:29 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	signal or reprioritize specified processes
 

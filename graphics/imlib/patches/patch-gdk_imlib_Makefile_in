@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/imlib/patches/patch-gdk_imlib_Makefile_in,v 1.4 2009/01/09 16:21:42 naddy Exp $
+$OpenBSD$
 --- gdk_imlib/Makefile.in.orig	Mon Mar 25 17:50:24 2002
 +++ gdk_imlib/Makefile.in	Fri Jan  9 17:20:41 2009
 @@ -147,13 +147,13 @@ lib_LTLIBRARIES =  	libgdk_imlib.la			$(DYNAMIC_LIBS)

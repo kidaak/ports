@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/lua/Makefile,v 1.45 2012/03/29 08:51:26 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT=	powerful, light-weight programming language
 

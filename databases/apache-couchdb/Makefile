@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/apache-couchdb/Makefile,v 1.13 2012/04/08 17:21:49 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	distributed, document-oriented database
 
@@ -42,7 +42,6 @@ USE_GROFF =	Yes
 
 CONFIGURE_STYLE = gnu
 CONFIGURE_ARGS = ${CONFIGURE_SHARED} \
-		 --localstatedir=/var \
 		 --with-erlang=${LOCALBASE}/lib/erlang/usr/include \
 		 --with-js-include=${LOCALBASE}/include/js \
 		 --with-js-lib=${LOCALBASE}/lib

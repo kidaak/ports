@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/mupen64plus/Makefile.inc,v 1.2 2011/12/26 23:03:24 stsp Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS ?=	amd64 i386
 SHARED_ONLY = 		Yes

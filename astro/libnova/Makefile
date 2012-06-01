@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/libnova/Makefile,v 1.5 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	astronomic computations as a library
 

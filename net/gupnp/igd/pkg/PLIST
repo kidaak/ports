@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gupnp/igd/pkg/PLIST,v 1.2 2011/11/08 10:38:48 jasper Exp $
+@comment $OpenBSD$
 include/gupnp-igd-1.0/
 include/gupnp-igd-1.0/libgupnp-igd/
 include/gupnp-igd-1.0/libgupnp-igd/gupnp-simple-igd-thread.h

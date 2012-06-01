@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/xine-lib/patches/patch-src_combined_ffmpeg_ffmpeg_compat_h,v 1.1 2012/04/07 05:48:49 ajacoutot Exp $
+$OpenBSD$
 
 - Moved FFmpeg API version checks to single header.
 - avcodec_init(), avcodec_alloc_context() and avcodec_open() are depreated.

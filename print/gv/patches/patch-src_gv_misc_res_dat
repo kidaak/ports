@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/gv/patches/patch-src_gv_misc_res_dat,v 1.1 2011/06/05 15:03:09 jasper Exp $
+$OpenBSD$
 
 Fix Unknown keysym name: apLineDel.
 From FreeBSD ports/50074.

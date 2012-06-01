@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/libvmime/patches/patch-vmime_utility_smartPtrInt_hpp,v 1.2 2010/05/23 13:49:19 espie Exp $
+$OpenBSD$
 --- vmime/utility/smartPtrInt.hpp.orig	Sun Oct 12 10:54:33 2008
 +++ vmime/utility/smartPtrInt.hpp	Sun May 23 15:41:45 2010
 @@ -53,7 +53,11 @@ class refCounter (private)

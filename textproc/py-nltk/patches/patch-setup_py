@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/py-nltk/patches/patch-setup_py,v 1.2 2010/08/30 07:16:02 jasper Exp $
+$OpenBSD$
 
 - don't install random java files.
 

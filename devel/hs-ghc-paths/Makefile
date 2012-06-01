@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-ghc-paths/Makefile,v 1.10 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		knowledge of GHC's installation directories
 

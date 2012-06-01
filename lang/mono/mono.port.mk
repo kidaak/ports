@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/mono/mono.port.mk,v 1.21 2012/03/09 10:59:11 espie Exp $
+# $OpenBSD$
 
 # XXX list in infrastructure/mk/arch-defines.mk
 # XXX arm powerpc (no support for sigcontext)

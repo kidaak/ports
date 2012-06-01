@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-control-timeout/Makefile,v 1.7 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		timeout handling
 

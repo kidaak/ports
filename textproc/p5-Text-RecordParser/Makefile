@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-RecordParser/Makefile,v 1.10 2011/01/07 09:59:07 benoit Exp $
+# $OpenBSD$
 
 COMMENT= 	parse records in CSV-like formats
 

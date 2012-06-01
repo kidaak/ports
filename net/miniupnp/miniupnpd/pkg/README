@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/miniupnp/miniupnpd/pkg/README,v 1.1.1.1 2012/01/13 09:22:50 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

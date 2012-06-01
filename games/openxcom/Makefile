@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/openxcom/Makefile,v 1.4 2012/03/05 17:57:21 nigel Exp $
+# $OpenBSD$
 
 COMMENT =		open source reimplementation of the original X-Com
 DISTNAME =		openxcom-20120217

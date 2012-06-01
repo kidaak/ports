@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/thewidgetfactory/Makefile,v 1.9 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=	showcase for GTK+ 2 widgets
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/plplot/patches/patch-examples_c_CMakeLists_txt,v 1.1 2009/04/05 16:21:55 steven Exp $
+$OpenBSD$
 --- examples/c/CMakeLists.txt.orig	Sat Jun  7 09:30:57 2008
 +++ examples/c/CMakeLists.txt	Sat Jun  7 09:31:34 2008
 @@ -80,7 +80,7 @@ README.plplotcanvas

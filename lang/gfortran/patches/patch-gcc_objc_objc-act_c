@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_objc_objc-act_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/objc/objc-act.c.orig	Tue Jun  6 12:22:54 2006
 +++ gcc/objc/objc-act.c	Sun Jul 23 11:24:02 2006
 @@ -494,7 +494,7 @@ objc_init (void)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/wwwoffle/Makefile,v 1.15 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=		WWW OFFLine Explorer
 

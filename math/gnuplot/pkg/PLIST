@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/gnuplot/pkg/PLIST,v 1.16 2011/06/19 21:00:24 jasper Exp $
+@comment $OpenBSD$
 @bin bin/gnuplot
 bin/lasergnu
 @info info/gnuplot.info

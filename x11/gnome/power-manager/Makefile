@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/power-manager/Makefile,v 1.20 2012/04/12 06:23:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GNOME power manager
 

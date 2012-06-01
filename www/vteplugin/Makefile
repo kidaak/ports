@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/vteplugin/Makefile,v 1.17 2011/09/26 14:30:29 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	npapi vte-based terminal for web browsers
 

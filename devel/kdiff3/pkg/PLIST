@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/kdiff3/pkg/PLIST,v 1.1.1.1 2011/08/19 07:12:11 landry Exp $
+@comment $OpenBSD$
 @bin bin/kdiff3
 share/doc/kdiff3/
 share/doc/kdiff3/CMakeLists.txt

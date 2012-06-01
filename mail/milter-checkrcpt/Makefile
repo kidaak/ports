@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/milter-checkrcpt/Makefile,v 1.1.1.1 2011/07/11 12:12:53 okan Exp $
+# $OpenBSD$
 
 COMMENT=	sendmail milter plugin for recipient checking
 

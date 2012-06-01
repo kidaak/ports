@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libyaml/pkg/PLIST,v 1.1.1.1 2008/10/18 10:50:46 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/yaml.h
 lib/libyaml.a

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/attica/pkg/PLIST,v 1.1.1.1 2010/06/18 09:22:45 espie Exp $
+@comment $OpenBSD$
 include/attica/
 include/attica/accountbalance.h
 include/attica/activity.h

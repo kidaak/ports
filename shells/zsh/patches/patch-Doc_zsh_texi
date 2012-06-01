@@ -1,4 +1,4 @@
-$OpenBSD: ports/shells/zsh/patches/patch-Doc_zsh_texi,v 1.6 2010/09/06 18:53:51 nicm Exp $
+$OpenBSD$
 --- Doc/zsh.texi.orig	Mon Jun  1 10:00:26 2009
 +++ Doc/zsh.texi	Wed Aug 25 08:44:01 2010
 @@ -7,6 +7,10 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-FormValidator/Makefile,v 1.10 2012/04/08 21:58:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	plugin to Data::FormValidator for catalyst (deprecated)
 

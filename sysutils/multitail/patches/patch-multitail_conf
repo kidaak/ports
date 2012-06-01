@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/multitail/patches/patch-multitail_conf,v 1.9 2008/05/22 19:45:19 naddy Exp $
+$OpenBSD$
 --- multitail.conf.orig	Mon May 19 11:19:09 2008
 +++ multitail.conf	Wed May 21 21:58:29 2008
 @@ -917,8 +917,8 @@ tab_stop:8

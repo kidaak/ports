@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/x11vnc/patches/patch-x11vnc_ssltools_h,v 1.2 2011/09/15 20:27:29 sthen Exp $
+$OpenBSD$
 
 - use [[:>:]] for end-of-word matching in grep(1), \> is a gnu extension
 - fix path to su(1)

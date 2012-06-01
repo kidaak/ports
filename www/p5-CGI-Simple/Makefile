@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CGI-Simple/Makefile,v 1.16 2010/12/06 07:58:50 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	drop-in object-oriented CGI.pm replacement
 

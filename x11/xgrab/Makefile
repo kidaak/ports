@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xgrab/Makefile,v 1.27 2010/11/22 08:37:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	X11 image grabber
 

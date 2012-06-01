@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/hs-HaXml/pkg/PLIST,v 1.6 2011/05/26 08:13:25 dcoppa Exp $
+@comment $OpenBSD$
 @bin bin/Canonicalise
 @bin bin/CanonicaliseLazy
 @bin bin/DtdToHaskell

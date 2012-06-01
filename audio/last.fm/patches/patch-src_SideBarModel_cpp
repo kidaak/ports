@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_SideBarModel_cpp,v 1.1 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/SideBarModel.cpp.orig	Wed Mar 30 12:53:01 2011
 +++ src/SideBarModel.cpp	Wed Mar 30 13:01:25 2011
 @@ -236,6 +236,8 @@ SideBarModel::data( const QModelIndex &index, int role

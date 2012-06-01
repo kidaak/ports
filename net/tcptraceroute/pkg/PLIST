@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/tcptraceroute/pkg/PLIST,v 1.5 2007/05/26 22:06:19 rui Exp $
+@comment $OpenBSD$
 bin/tcptraceroute
 @man man/man1/tcptraceroute.1
 share/doc/tcptraceroute/

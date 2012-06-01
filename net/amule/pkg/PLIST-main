@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/amule/pkg/PLIST-main,v 1.7 2011/11/28 15:28:49 dcoppa Exp $
+@comment $OpenBSD$
 @pkgpath net/amule
 @bin bin/alc
 @bin bin/alcc

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/libdnsres/pkg/PFRAG.shared,v 1.1.1.1 2007/04/03 15:10:17 aanriot Exp $
+@comment $OpenBSD$
 @lib lib/libdnsres.so.${LIBdnsres_VERSION}

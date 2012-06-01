@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-SMTP-TLS/Makefile,v 1.5 2011/12/14 14:58:57 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Perl module for SMTP with TLS/AUTH support
 

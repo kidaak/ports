@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/xmms/patches/patch-xmms_input_c,v 1.2 2007/12/08 21:54:57 ajacoutot Exp $
+$OpenBSD$
 --- xmms/input.c.orig	Fri Nov 23 16:21:19 2007
 +++ xmms/input.c	Fri Nov 23 16:23:46 2007
 @@ -246,6 +246,8 @@ void input_play(char *filename)

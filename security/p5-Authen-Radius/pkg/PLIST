@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Authen-Radius/pkg/PLIST,v 1.5 2010/07/01 09:18:54 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Authen/
 ${P5SITE}/Authen/Radius.pm
 @man man/man3p/Authen::Radius.3p

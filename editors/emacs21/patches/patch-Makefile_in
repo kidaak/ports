@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs21/patches/patch-Makefile_in,v 1.2 2004/08/16 23:34:02 pvalchev Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Aug  3 02:14:28 2004
 +++ Makefile.in	Tue Aug  3 02:15:39 2004
 @@ -328,7 +328,7 @@ install-arch-dep: mkdir

@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/nessus/libnasl/patches/patch-nasl-config_in,v 1.1.1.1 2005/05/16 16:02:56 sturm Exp $
+$OpenBSD$
 --- nasl-config.in.orig	Sun May  8 12:34:11 2005
 +++ nasl-config.in	Sun May  8 12:33:54 2005
 @@ -40,7 +40,7 @@ while test $# -gt 0; do

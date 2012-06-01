@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/terminal/pkg/PLIST,v 1.34 2011/10/17 11:53:46 jasper Exp $
+@comment $OpenBSD$
 @bin bin/gnome-terminal
 share/applications/gnome-terminal.desktop
 share/gnome/

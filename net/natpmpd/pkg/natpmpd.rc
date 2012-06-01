@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/natpmpd/pkg/natpmpd.rc,v 1.1.1.1 2011/12/23 15:15:30 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/natpmpd"
 

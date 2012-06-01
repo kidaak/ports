@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-psyco/pkg/PLIST,v 1.5 2009/10/11 20:59:37 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/psyco/
 lib/python${MODPY_VERSION}/site-packages/psyco-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/psyco/__init__.py

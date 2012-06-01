@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/apc-upsd/pkg/PLIST,v 1.7 2012/03/17 10:35:10 sthen Exp $
+@comment $OpenBSD$
 lib/apc-upsd/
 lib/apc-upsd/apc-upsd.conf
 @sample ${SYSCONFDIR}/apc-upsd.conf

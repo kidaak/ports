@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/rftg/pkg/PLIST-client,v 1.1 2010/08/17 22:22:59 espie Exp $
+@comment $OpenBSD$
 @pkgpath games/rftg
 bin/do_train
 @bin bin/rftg

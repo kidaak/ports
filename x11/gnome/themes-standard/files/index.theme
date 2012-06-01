@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/themes-standard/files/index.theme,v 1.1 2011/10/20 06:14:04 ajacoutot Exp $
+# $OpenBSD$
 
 [Icon Theme]
 Inherits=Adwaita

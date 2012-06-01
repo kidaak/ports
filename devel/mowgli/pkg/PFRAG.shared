@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/mowgli/pkg/PFRAG.shared,v 1.1.1.1 2007/09/14 21:16:14 steven Exp $
+@comment $OpenBSD$
 @lib lib/libmowgli.so.${LIBmowgli_VERSION}

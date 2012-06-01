@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/smartmontools/Makefile,v 1.18 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=		amd64 i386 powerpc
 

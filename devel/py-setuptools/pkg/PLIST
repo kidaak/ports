@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-setuptools/pkg/PLIST,v 1.6 2011/12/14 20:25:11 rpointel Exp $
+@comment $OpenBSD$
 @conflict py-distribute-*
 @comment bin/easy_install
 bin/easy_install-${MODPY_VERSION}

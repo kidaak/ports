@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/geekcode/pkg/PLIST,v 1.2 2004/08/10 14:17:03 xsa Exp $
+@comment $OpenBSD$
 bin/geekcode
 share/doc/geekcode/
 share/doc/geekcode/geekcode.txt

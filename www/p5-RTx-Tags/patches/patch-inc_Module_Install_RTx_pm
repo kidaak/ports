@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-RTx-Tags/patches/patch-inc_Module_Install_RTx_pm,v 1.1 2009/06/24 22:44:02 simon Exp $
+$OpenBSD$
 --- inc/Module/Install/RTx.pm.orig	Mon Jun 22 00:15:28 2009
 +++ inc/Module/Install/RTx.pm	Mon Jun 22 00:16:00 2009
 @@ -97,7 +97,7 @@ sub RTx {

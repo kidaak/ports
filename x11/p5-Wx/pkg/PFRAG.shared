@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/p5-Wx/pkg/PFRAG.shared,v 1.1.1.1 2009/09/07 20:30:58 landry Exp $
+@comment $OpenBSD$
 ${P5ARCH}/auto/Wx/AUI/AUI.so
 ${P5ARCH}/auto/Wx/Calendar/Calendar.so
 ${P5ARCH}/auto/Wx/DND/DND.so

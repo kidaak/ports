@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/locale-de/Makefile,v 1.3 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	german translation
 EXTRACT_ONLY =

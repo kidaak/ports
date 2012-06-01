@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/fwbuilder/pkg/PLIST,v 1.12 2012/01/04 08:57:50 sebastia Exp $
+@comment $OpenBSD$
 @conflict libfwbuilder-*
 @pkgpath security/libfwbuilder
 @bin bin/fwb_iosacl

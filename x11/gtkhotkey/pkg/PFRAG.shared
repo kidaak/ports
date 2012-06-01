@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/gtkhotkey/pkg/PFRAG.shared,v 1.1.1.1 2009/09/27 19:14:44 landry Exp $
+@comment $OpenBSD$
 @lib lib/libgtkhotkey.so.${LIBgtkhotkey_VERSION}

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/openjpeg/pkg/PLIST,v 1.2 2012/03/29 15:45:43 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/image_to_j2k
 @bin bin/j2k_dump

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/postgresql/pkg/PLIST-main,v 1.21 2011/09/23 09:46:14 pea Exp $
+@comment $OpenBSD$
 @conflict pgsql-*
 @conflict pgsql-clients-*
 @conflict postgresql-*

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/hgd/patches/patch-Makefile_in,v 1.4 2012/04/15 15:23:54 edd Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Mar 21 17:26:33 2012
 +++ Makefile.in	Sun Apr 15 01:35:35 2012
 @@ -84,7 +84,7 @@ mplayer.o: mplayer.c mplayer.h

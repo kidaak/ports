@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/roadfighter/pkg/PLIST,v 1.2 2009/12/22 16:28:01 ajacoutot Exp $
+@comment $OpenBSD$
 bin/roadfighter
 share/applications/roadfighter.desktop
 share/pixmaps/

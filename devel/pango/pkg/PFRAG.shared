@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pango/pkg/PFRAG.shared,v 1.14 2007/04/23 16:24:18 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libpango-1.0.so.${LIBpango-1.0_VERSION}
 @lib lib/libpangocairo-1.0.so.${LIBpangocairo-1.0_VERSION}
 @lib lib/libpangoft2-1.0.so.${LIBpangoft2-1.0_VERSION}

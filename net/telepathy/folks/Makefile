@@ -1,20 +1,20 @@
-# $OpenBSD: ports/net/telepathy/folks/Makefile,v 1.35 2012/04/03 09:37:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=		people aggregation library
 COMMENT-tracker=	(meta-)tracker backend for folks
 
 GNOME_PROJECT=		folks
-GNOME_VERSION=		0.6.8
-API_V=			32
+GNOME_VERSION=		0.7.0
+API_V=			33
 
 PKGNAME-main=		${DISTNAME}
 PKGNAME-tracker=	${GNOME_PROJECT}-meta-tracker-${GNOME_VERSION}
 
-SHARED_LIBS +=  folks-telepathy           5.0 # 29.0
-SHARED_LIBS +=  folks                     5.0 # 29.0
-SHARED_LIBS +=  folks-eds                 0.1 # 29.0
-SHARED_LIBS +=  folks-libsocialweb        0.0 # 32.0
-SHARED_LIBS +=  folks-tracker             0.0 # 30.0
+SHARED_LIBS +=  folks-telepathy           5.0 # 33.0
+SHARED_LIBS +=  folks                     5.1 # 33.0
+SHARED_LIBS +=  folks-eds                 0.1 # 33.0
+SHARED_LIBS +=  folks-libsocialweb        0.0 # 33.0
+SHARED_LIBS +=  folks-tracker             0.0 # 33.0
 
 TRACKER_VERSION=	0.14
 SUBST_VARS=		API_V TRACKER_VERSION
@@ -38,7 +38,7 @@ WANTLIB-main += xml2 z
 LIB_DEPENDS-main=	${MODGETTEXT_LIB_DEPENDS} \
 			databases/evolution-data-server \
 			devel/libgee06 \
-			net/telepathy/telepathy-glib>=0.14.3 \
+			net/telepathy/telepathy-glib>=0.15.5 \
 			net/libsocialweb
 RUN_DEPENDS-main=	${MODGETTEXT_RUN_DEPENDS} \
 			net/telepathy/telepathy-mission-control

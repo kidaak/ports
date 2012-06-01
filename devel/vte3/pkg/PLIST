@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/vte3/pkg/PLIST,v 1.10 2012/03/23 13:25:00 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict vte-<0.28.2p3
 @conflict vte-ptyhelper-*
 @bin bin/vte2_90

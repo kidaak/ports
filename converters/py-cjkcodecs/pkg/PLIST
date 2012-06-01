@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/py-cjkcodecs/pkg/PLIST,v 1.5 2007/07/04 19:18:46 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/cjkcodecs/
 lib/python${MODPY_VERSION}/site-packages/cjkcodecs.pth
 lib/python${MODPY_VERSION}/site-packages/cjkcodecs/__init__.py

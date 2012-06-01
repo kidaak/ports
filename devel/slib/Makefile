@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/slib/Makefile,v 1.12 2009/01/21 18:28:22 kili Exp $
+# $OpenBSD$
 
 COMMENT=	scheme r5 library
 

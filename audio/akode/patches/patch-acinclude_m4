@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/akode/patches/patch-acinclude_m4,v 1.1 2007/12/11 07:55:05 jakemsr Exp $
+$OpenBSD$
 --- acinclude.m4.orig	Fri Apr  6 06:23:11 2007
 +++ acinclude.m4	Sun Oct 21 05:27:14 2007
 @@ -4394,7 +4394,10 @@ AC_DEFUN([KDE_CHECK_LIBPTHREAD],

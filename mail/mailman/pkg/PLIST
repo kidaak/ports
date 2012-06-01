@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/mailman/pkg/PLIST,v 1.23 2012/02/16 22:27:56 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _mailman:504
 @newuser _mailman:504:_mailman:daemon:Mailing List Manager:${PREFIX}/lib/mailman:/sbin/nologin
 @extraunexec rm -fr /var/spool/mailman/*

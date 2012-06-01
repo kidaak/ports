@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/compact_forms/Makefile,v 1.4 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	fancy forms fields
 MAINTAINER =	Marc Espie <espie@openbsd.org>

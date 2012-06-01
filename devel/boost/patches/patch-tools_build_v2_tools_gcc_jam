@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boost/patches/patch-tools_build_v2_tools_gcc_jam,v 1.4 2011/09/19 19:53:20 naddy Exp $
+$OpenBSD$
 --- tools/build/v2/tools/gcc.jam.orig	Wed Oct 28 08:47:51 2009
 +++ tools/build/v2/tools/gcc.jam	Sun Sep 18 13:12:45 2011
 @@ -269,7 +269,7 @@ class gcc-pch-generator : pch-generator

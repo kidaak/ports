@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-MarkupSafe/pkg/PLIST,v 1.1.1.1 2010/10/23 08:35:12 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/MarkupSafe-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/MarkupSafe-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/MarkupSafe-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

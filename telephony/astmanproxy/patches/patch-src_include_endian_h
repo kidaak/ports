@@ -1,4 +1,4 @@
-$OpenBSD: ports/telephony/astmanproxy/patches/patch-src_include_endian_h,v 1.1.1.1 2009/10/13 11:10:41 sthen Exp $
+$OpenBSD$
 --- src/include/endian.h.orig	Fri Jan 18 11:11:28 2008
 +++ src/include/endian.h	Fri Jan 18 11:13:09 2008
 @@ -29,9 +29,11 @@

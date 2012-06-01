@@ -1,4 +1,4 @@
-$OpenBSD: ports/productivity/sunbird/patches/patch-mozilla_security_manager_ssl_src_nsNSSComponent_cpp,v 1.3 2011/07/22 05:25:27 landry Exp $
+$OpenBSD$
 --- mozilla/security/manager/ssl/src/nsNSSComponent.cpp.orig	Sat Dec  5 02:56:23 2009
 +++ mozilla/security/manager/ssl/src/nsNSSComponent.cpp	Sat Jan 16 16:28:36 2010
 @@ -812,11 +812,10 @@ nsNSSComponent::InstallLoadableRoots()

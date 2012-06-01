@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/fpdns/pkg/PLIST,v 1.1.1.1 2011/09/05 07:25:12 giovanni Exp $
+@comment $OpenBSD$
 bin/fpdns
 ${P5SITE}/Net/DNS/
 ${P5SITE}/Net/DNS/Fingerprint.pm

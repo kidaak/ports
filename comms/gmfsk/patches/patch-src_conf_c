@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/gmfsk/patches/patch-src_conf_c,v 1.1 2010/04/26 01:47:15 jakemsr Exp $
+$OpenBSD$
 --- src/conf.c.orig	Sun Apr 18 16:43:00 2010
 +++ src/conf.c	Sun Apr 18 16:43:16 2010
 @@ -127,7 +127,7 @@ static struct conf_default conf_defs[] = {

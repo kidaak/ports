@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/pdfmod/Makefile,v 1.8 2011/12/03 20:30:09 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simple application for modifying PDF documents
 

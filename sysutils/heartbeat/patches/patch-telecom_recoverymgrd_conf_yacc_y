@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-telecom_recoverymgrd_conf_yacc_y,v 1.1 2009/10/31 20:27:51 naddy Exp $
+$OpenBSD$
 
 Our yacc does not include a predefined variable yyrcsid[] any longer.
 It also does not throw a warning.

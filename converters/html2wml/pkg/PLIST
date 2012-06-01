@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/html2wml/pkg/PLIST,v 1.8 2004/09/14 23:25:50 espie Exp $
+@comment $OpenBSD$
 bin/html2wml
 @man man/man1/html2wml.1
 share/doc/html2wml/

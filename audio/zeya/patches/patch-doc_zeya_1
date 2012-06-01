@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/zeya/patches/patch-doc_zeya_1,v 1.1.1.1 2011/07/20 07:54:58 dcoppa Exp $
+$OpenBSD$
 --- doc/zeya.1.orig	Tue Sep 21 08:13:42 2010
 +++ doc/zeya.1	Thu Jul 14 15:46:11 2011
 @@ -5,7 +5,7 @@

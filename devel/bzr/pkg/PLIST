@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/bzr/pkg/PLIST,v 1.7 2011/12/23 17:12:04 eric Exp $
+@comment $OpenBSD$
 bin/bzr
 lib/python${MODPY_VERSION}/site-packages/bzr-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/bzrlib/

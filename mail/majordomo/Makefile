@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/majordomo/Makefile,v 1.22 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	mailing list manager
 

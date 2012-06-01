@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/netbeans/patches/patch-platform_lib_nbexec,v 1.1 2010/07/09 07:35:04 landry Exp $
+$OpenBSD$
 --- platform/lib/nbexec.orig	Thu Jun 10 19:59:48 2010
 +++ platform/lib/nbexec	Sun Jun 20 02:16:30 2010
 @@ -357,7 +357,7 @@ detect_system_proxy () {

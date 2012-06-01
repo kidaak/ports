@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/slurpie/patches/patch-src_mn_h,v 1.1.1.1 2001/01/03 22:34:09 danh Exp $
+$OpenBSD$
 --- src/mn.h.orig	Sat Jan 30 16:09:01 1999
 +++ src/mn.h	Wed Jan  3 15:17:44 2001
 @@ -2,11 +2,12 @@

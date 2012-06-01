@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/libogg/pkg/PFRAG.shared,v 1.10 2005/12/23 15:03:09 espie Exp $
+@comment $OpenBSD$
 @lib lib/libogg.so.${LIBogg_VERSION}

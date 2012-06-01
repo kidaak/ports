@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk2-theme-switch/Makefile,v 1.18 2011/09/16 12:29:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=		switch GTK+2 themes quickly
 

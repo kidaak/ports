@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-arel/Makefile,v 1.5 2011/12/13 17:49:22 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	relational algebra for ruby
 

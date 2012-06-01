@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/smlnj/patches/patch-src_runtime_include_ml-unixdep_h,v 1.2 2003/08/21 20:59:11 espie Exp $
+$OpenBSD$
 --- src/runtime/include/ml-unixdep.h.orig	1999-12-03 20:59:32.000000000 +0100
 +++ src/runtime/include/ml-unixdep.h	2003-08-21 08:47:17.000000000 +0200
 @@ -95,7 +95,7 @@

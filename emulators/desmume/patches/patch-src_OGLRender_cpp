@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/desmume/patches/patch-src_OGLRender_cpp,v 1.1.1.1 2011/09/21 03:58:08 bentley Exp $
+$OpenBSD$
 --- src/OGLRender.cpp.orig	Fri Jul  1 10:17:51 2011
 +++ src/OGLRender.cpp	Fri Jul  1 10:18:09 2011
 @@ -76,7 +76,7 @@ static void ENDGL() {

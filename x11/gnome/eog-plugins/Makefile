@@ -1,9 +1,9 @@
-# $OpenBSD: ports/x11/gnome/eog-plugins/Makefile,v 1.31 2012/03/29 07:13:55 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		plugins for EOG
 
 GNOME_PROJECT=		eog-plugins
-GNOME_VERSION=		3.4.0
+GNOME_VERSION=		3.4.1
 
 CATEGORIES=		graphics
 

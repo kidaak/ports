@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xmlrpc-c/patches/patch-Makefile_config_in,v 1.3 2009/03/14 19:01:31 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.config.in.orig	Tue Mar 25 15:24:58 2008
 +++ Makefile.config.in	Sat Mar 14 19:07:03 2009
 @@ -35,8 +35,8 @@ HAVE_WCHAR_H_DEFINE = @HAVE_WCHAR_H_DEFINE@

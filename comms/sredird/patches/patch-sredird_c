@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/sredird/patches/patch-sredird_c,v 1.1.1.1 2006/06/29 10:53:08 alek Exp $
+$OpenBSD$
 --- sredird.c.orig	Fri Aug 12 16:10:46 2005
 +++ sredird.c	Sun Jun 18 02:10:10 2006
 @@ -110,9 +110,9 @@

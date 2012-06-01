@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/clonekeen/patches/patch-src_savegame_c,v 1.1.1.1 2010/10/25 12:12:05 edd Exp $
+$OpenBSD$
 
 Make sure the saves are in the user's home dir where they have write access
 

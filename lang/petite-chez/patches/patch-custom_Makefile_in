@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/petite-chez/patches/patch-custom_Makefile_in,v 1.2 2011/11/11 20:12:51 jasper Exp $
+$OpenBSD$
 
 Don't use bundled zlib.
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/news/py-yenc/pkg/PLIST,v 1.1.1.1 2007/12/17 00:57:35 merdely Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/_yenc.so
 lib/python${MODPY_VERSION}/site-packages/yenc-0.3-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/yenc.py

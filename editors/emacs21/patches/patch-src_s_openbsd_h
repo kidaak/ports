@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs21/patches/patch-src_s_openbsd_h,v 1.2 2004/09/15 17:55:25 espie Exp $
+$OpenBSD$
 --- src/s/openbsd.h.orig	Wed Mar 22 13:08:40 2000
 +++ src/s/openbsd.h	Mon Aug 30 12:04:49 2004
 @@ -9,3 +9,16 @@

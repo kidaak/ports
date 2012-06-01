@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/st/Makefile,v 1.3 2011/09/26 09:32:46 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		simple X terminal
 

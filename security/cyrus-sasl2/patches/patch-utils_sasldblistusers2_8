@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/cyrus-sasl2/patches/patch-utils_sasldblistusers2_8,v 1.2 2005/12/18 10:37:26 jakob Exp $
+$OpenBSD$
 --- utils/sasldblistusers2.8.orig	Mon Apr 11 06:51:26 2005
 +++ utils/sasldblistusers2.8	Sun Dec 18 11:34:29 2005
 @@ -1,7 +1,6 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Apache-ASP/Makefile,v 1.18 2010/12/03 11:46:51 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Apache ASP support
 

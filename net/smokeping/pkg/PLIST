@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/smokeping/pkg/PLIST,v 1.12 2008/07/16 11:51:46 sthen Exp $
+@comment $OpenBSD$
 @newgroup _smokeping:562
 @newuser _smokeping:562:562:daemon:Smokeping account:/var/empty:/sbin/nologin
 bin/smokeping

@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/hfsplus/patches/patch-libhfsp_src_btreecheck_c,v 1.1 2011/02/06 16:03:55 fgsch Exp $
+$OpenBSD$
 --- libhfsp/src/btreecheck.c.orig	Tue Mar  5 19:50:29 2002
 +++ libhfsp/src/btreecheck.c	Fri Jan 28 07:34:59 2011
 @@ -264,7 +264,7 @@ static int fscheck_btree_init(btree* bt, volume* vol, 

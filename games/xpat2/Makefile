@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xpat2/Makefile,v 1.29 2010/10/24 21:19:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	X11 solitaire with 14 variations
 

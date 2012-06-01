@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-blaze-textual/Makefile,v 1.1.1.1 2012/01/23 20:59:17 kili Exp $
+# $OpenBSD$
 
 COMMENT =		fast rendering of common datatypes
 

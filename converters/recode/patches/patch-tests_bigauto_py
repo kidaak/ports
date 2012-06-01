@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/recode/patches/patch-tests_bigauto_py,v 1.1 2005/01/28 21:00:28 alek Exp $
+$OpenBSD$
 --- tests/bigauto.py.orig	Mon Jan 17 21:00:16 2005
 +++ tests/bigauto.py	Mon Jan 17 21:01:43 2005
 @@ -81,16 +81,20 @@ class Report:

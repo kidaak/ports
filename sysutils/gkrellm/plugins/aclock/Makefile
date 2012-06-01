@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/gkrellm/plugins/aclock/Makefile,v 1.21 2011/07/07 00:08:35 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	analog clock for GkrellM2
 

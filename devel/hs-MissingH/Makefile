@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-MissingH/Makefile,v 1.15 2011/12/31 22:19:45 kili Exp $
+# $OpenBSD$
 
 COMMENT =		large library of utility functions
 

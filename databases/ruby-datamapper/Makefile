@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-datamapper/Makefile,v 1.3 2010/12/08 22:26:18 jeremy Exp $
+# $OpenBSD$
 
     SUBDIR =
     SUBDIR += core

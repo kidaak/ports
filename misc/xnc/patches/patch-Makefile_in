@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/xnc/patches/patch-Makefile_in,v 1.6 2005/12/30 23:25:56 steven Exp $
+$OpenBSD$
 --- Makefile.in.orig	Wed Mar 27 13:16:28 2002
 +++ Makefile.in	Sat Dec 31 00:15:44 2005
 @@ -268,19 +268,19 @@ install: install-$(PLUGINS)

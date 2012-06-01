@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/abs/Makefile,v 1.16 2011/11/03 20:28:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	free spreadsheet with graphical user interface
 

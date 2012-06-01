@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/slurm/patches/patch-src_if_media_c,v 1.2 2009/11/10 23:07:46 sthen Exp $
+$OpenBSD$
 --- src/if_media.c.orig	Mon Sep 27 15:08:59 2004
 +++ src/if_media.c	Sat Nov  7 11:22:56 2009
 @@ -95,8 +95,16 @@ int get_if_speed (char *ifstring)

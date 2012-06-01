@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-Rijndael/Makefile,v 1.11 2011/04/13 17:54:48 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

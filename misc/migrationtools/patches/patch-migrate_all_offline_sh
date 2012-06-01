@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/migrationtools/patches/patch-migrate_all_offline_sh,v 1.1 2012/03/23 11:17:02 sthen Exp $
+$OpenBSD$
 
 This is where it lives on OpenBSD.
 

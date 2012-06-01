@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Unicode-Map/Makefile,v 1.10 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/windowmaker-extra/Makefile,v 1.17 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=		themes and icons for Window Maker
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/goocanvas2/pkg/PLIST,v 1.2 2011/10/10 08:14:46 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/goocanvas-2.0/
 include/goocanvas-2.0/goocanvas.h

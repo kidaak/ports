@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nagios/nagios/patches/patch-include_config_h_in,v 1.7 2011/09/05 14:56:46 sthen Exp $
+$OpenBSD$
 --- include/config.h.in.orig	Sat Oct 23 10:56:29 2010
 +++ include/config.h.in	Tue Jul 26 13:58:39 2011
 @@ -135,11 +135,6 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/tcptraceroute/Makefile,v 1.20 2011/03/14 20:49:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		traceroute implementation using TCP packets
 

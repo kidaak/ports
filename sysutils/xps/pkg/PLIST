@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/xps/pkg/PLIST,v 1.4 2011/04/10 18:02:55 jasper Exp $
+@comment $OpenBSD$
 @pkgpath sysutils/xps,lesstif
 @group kmem
 @mode 2555

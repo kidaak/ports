@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/mouseclock/patches/patch-mouseclock_man,v 1.1 2007/10/26 20:44:07 jasper Exp $
+$OpenBSD$
 --- mouseclock.man.orig	Fri Oct 26 22:37:18 2007
 +++ mouseclock.man	Fri Oct 26 22:37:18 2007
 @@ -0,0 +1 @@

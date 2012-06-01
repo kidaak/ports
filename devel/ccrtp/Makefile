@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ccrtp/Makefile,v 1.10 2011/11/04 12:42:20 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	implementation of the Real-time Transport Protocol
 

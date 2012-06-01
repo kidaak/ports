@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/leiningen/Makefile,v 1.3 2011/11/29 17:42:17 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	tool for building of code, written in Clojure
 

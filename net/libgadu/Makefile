@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libgadu/Makefile,v 1.12 2011/07/04 19:01:44 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	implementation of Gadu-Gadu IM protocol
 

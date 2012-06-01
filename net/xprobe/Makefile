@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/xprobe/Makefile,v 1.14 2011/03/10 20:28:12 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		ICMP active OS fingerprint scanner
 

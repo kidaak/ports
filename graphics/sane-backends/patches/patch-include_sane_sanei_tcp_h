@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/sane-backends/patches/patch-include_sane_sanei_tcp_h,v 1.1 2010/05/21 11:47:54 ajacoutot Exp $
+$OpenBSD$
 --- include/sane/sanei_tcp.h.orig	Fri May 21 13:36:09 2010
 +++ include/sane/sanei_tcp.h	Fri May 21 13:36:22 2010
 @@ -20,6 +20,7 @@

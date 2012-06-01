@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/jpilot/Makefile,v 1.62 2011/11/04 08:21:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	desktop organizer software for the palm pilot
 

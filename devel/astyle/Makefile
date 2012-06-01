@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/astyle/Makefile,v 1.12 2007/09/16 02:52:57 merdely Exp $
+# $OpenBSD$
 
 COMMENT=		indenter and formatter of C/C++/Java source files
 

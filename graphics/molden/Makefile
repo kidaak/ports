@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/molden/Makefile,v 1.9 2012/01/29 13:18:30 espie Exp $
+# $OpenBSD$
 
 COMMENT=	ab initio MOLecular DENsity display program
 

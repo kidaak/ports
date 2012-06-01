@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/ruby-mysql2/patches/patch-ext_mysql2_extconf_rb,v 1.1 2011/04/14 17:23:32 jeremy Exp $
+$OpenBSD$
 --- ext/mysql2/extconf.rb.orig	Mon Apr 11 16:14:10 2011
 +++ ext/mysql2/extconf.rb	Mon Apr 11 16:14:41 2011
 @@ -31,10 +31,10 @@ elsif mc = (with_config('mysql-config') || Dir[GLOB].f

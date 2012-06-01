@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/e17/eina/Makefile,v 1.7 2011/03/06 21:35:41 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		EFL API for data types
 DISTNAME =		eina-1.0.0

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pktstat/Makefile,v 1.16 2011/11/16 00:20:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		network traffic viewer
 DISTNAME=		pktstat-1.8.4

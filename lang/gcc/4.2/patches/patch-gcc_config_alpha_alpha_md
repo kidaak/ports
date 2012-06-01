@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_config_alpha_alpha_md,v 1.1 2010/10/29 08:50:38 naddy Exp $
+$OpenBSD$
 --- gcc/config/alpha/alpha.md.orig	Sat Sep  1 17:28:30 2007
 +++ gcc/config/alpha/alpha.md	Tue Oct 26 16:38:28 2010
 @@ -6717,7 +6717,8 @@

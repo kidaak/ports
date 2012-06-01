@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/pstree/Makefile,v 1.15 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT =		list processes as a tree
 DISTNAME =		pstree-2.33

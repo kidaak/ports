@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/Makefile,v 1.23 2010/02/01 17:00:14 espie Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.32 1997/11/16 04:58:09 fenner Exp $
 #
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/epiphany/Makefile,v 1.77 2012/04/07 13:31:29 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 
@@ -10,7 +10,7 @@ COMMENT=	GNOME web browser based on webkit
 # www/epiphany-extensions
 
 GNOME_PROJECT=	epiphany
-GNOME_VERSION=	3.4.0.1
+GNOME_VERSION=	3.4.2
 
 # NOTE: when M changes, increment M accordingly and bump:
 # www/epiphany-extensions

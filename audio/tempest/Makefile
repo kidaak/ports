@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/tempest/Makefile,v 1.19 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	sends AM radio signals using a monitor
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cdk/pkg/PLIST,v 1.1.1.1 2008/09/17 13:22:06 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/cdk/
 include/cdk/alphalist.h

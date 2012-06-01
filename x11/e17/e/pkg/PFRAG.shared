@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/e/pkg/PFRAG.shared,v 1.6 2011/01/19 18:14:59 landry Exp $
+@comment $OpenBSD$
 lib/enlightenment/modules/battery/openbsd${OSREV}-${FULLARCH}-ver-pre-svn-08/module.so
 lib/enlightenment/modules/bluez/openbsd${OSREV}-${FULLARCH}-ver-pre-svn-08/module.so
 lib/enlightenment/modules/clock/openbsd${OSREV}-${FULLARCH}-ver-pre-svn-08/module.so

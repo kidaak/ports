@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-configure,v 1.1 2009/06/04 18:24:20 kurt Exp $
+$OpenBSD$
 --- configure.orig	Tue Mar  3 10:14:47 2009
 +++ configure	Tue Mar  3 10:21:11 2009
 @@ -1243,6 +1243,8 @@ case "${target}" in

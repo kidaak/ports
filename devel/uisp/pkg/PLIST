@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/uisp/pkg/PLIST,v 1.1.1.1 2005/04/26 17:05:05 martin Exp $
+@comment $OpenBSD$
 bin/uisp
 @man man/man1/uisp.1
 share/doc/uisp/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/ufraw/patches/patch-configure,v 1.5 2011/03/06 11:43:38 sthen Exp $
+$OpenBSD$
 
 XXX make it compile with gtk+2 2.22 (*_DISABLE_DEPRECATED)
 graphics/ufraw to fix : ufraw_preview.c:4026: error: expected declaration specifiers or '...' before 'GtkNotebookPage'

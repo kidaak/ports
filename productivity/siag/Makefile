@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/siag/Makefile,v 1.15 2011/04/17 18:04:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		tightly integrated, free office package
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/seamonkey/patches/patch-config_rules_mk,v 1.8 2012/03/16 21:38:33 landry Exp $
+$OpenBSD$
 --- config/rules.mk.orig	Thu Dec 15 01:11:08 2011
 +++ config/rules.mk	Mon Dec 19 22:30:23 2011
 @@ -573,6 +573,12 @@ endif

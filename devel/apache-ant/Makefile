@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/apache-ant/Makefile,v 1.28 2011/12/02 08:29:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=        build tool for java applications
 

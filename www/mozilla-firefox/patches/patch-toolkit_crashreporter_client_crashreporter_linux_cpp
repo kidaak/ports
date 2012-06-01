@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mozilla-firefox/patches/patch-toolkit_crashreporter_client_crashreporter_linux_cpp,v 1.5 2011/04/19 09:16:33 landry Exp $
+$OpenBSD$
 OBSD specific patch
 --- toolkit/crashreporter/client/crashreporter_linux.cpp.orig	Wed Feb 23 06:53:51 2011
 +++ toolkit/crashreporter/client/crashreporter_linux.cpp	Sat Feb 26 09:25:37 2011

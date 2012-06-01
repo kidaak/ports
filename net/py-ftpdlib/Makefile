@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/py-ftpdlib/Makefile,v 1.3 2011/09/16 11:13:40 espie Exp $
+# $OpenBSD$
 
 COMMENT=		FTP server library for Python
 

@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/graphics/fswebcam/pkg/PLIST,v 1.2 2008/06/13 17:10:30 robert Exp $
+@comment $OpenBSD$
 @bin bin/fswebcam
 @man man/man1/fswebcam.1

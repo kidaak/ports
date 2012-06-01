@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/scm/patches/patch-setjump_h,v 1.1 2010/09/28 20:48:04 jasper Exp $
+$OpenBSD$
 
 Allow scm to build on OpenBSD/hppa.
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/eboard-extras/pkg/PLIST,v 1.2 2003/09/30 21:47:45 fgsch Exp $
+@comment $OpenBSD$
 share/doc/eboard/CREDITS.1
 share/doc/eboard/CREDITS.2
 share/eboard/Adventurer.png

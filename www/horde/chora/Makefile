@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/chora/Makefile,v 1.4 2012/01/13 15:30:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	web-based CVS viewer module for Horde
 

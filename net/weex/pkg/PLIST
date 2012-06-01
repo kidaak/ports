@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/weex/pkg/PLIST,v 1.1.1.1 2004/10/09 18:55:20 naddy Exp $
+@comment $OpenBSD$
 bin/weex
 @man man/man1/weex.1
 share/doc/weex/

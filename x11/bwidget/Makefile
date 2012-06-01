@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/bwidget/Makefile,v 1.9 2011/11/04 10:30:47 stu Exp $
+# $OpenBSD$
 
 COMMENT =		high-level widget set for Tcl/Tk
 

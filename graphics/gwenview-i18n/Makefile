@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gwenview-i18n/Makefile,v 1.8 2011/09/16 10:02:37 espie Exp $
+# $OpenBSD$
 
 COMMENT=	image viewer for KDE, translations
 

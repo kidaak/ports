@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ruby-rmagick/Makefile,v 1.19 2011/11/09 00:17:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	Ruby interface to ImageMagick
 

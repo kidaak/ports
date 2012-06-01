@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/pm3/patches/patch-language_modula3_m3compiler_m3cc_gcc_config_openbsd_h,v 1.2 2003/05/11 22:42:32 naddy Exp $
+$OpenBSD$
 --- language/modula3/m3compiler/m3cc/gcc/config/openbsd.h.orig	Sun May  4 01:48:54 2003
 +++ language/modula3/m3compiler/m3cc/gcc/config/openbsd.h	Sun May  4 16:47:56 2003
 @@ -0,0 +1,231 @@

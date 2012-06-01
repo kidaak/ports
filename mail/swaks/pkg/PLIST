@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/mail/swaks/pkg/PLIST,v 1.1.1.1 2008/03/15 19:14:23 simon Exp $
+@comment $OpenBSD$
 bin/swaks
 @man man/man1/swaks.1

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/xulrunner/1.9/pkg/PFRAG.amd64-devel,v 1.3 2010/07/09 16:38:58 landry Exp $
+@comment $OpenBSD$
 ${MOZILLA_PROJECT}/include/NativeX64.h

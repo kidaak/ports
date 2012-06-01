@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xcowsay/pkg/PLIST,v 1.1.1.1 2009/10/25 11:13:34 landry Exp $
+@comment $OpenBSD$
 bin/xcowdream
 bin/xcowfortune
 @bin bin/xcowsay

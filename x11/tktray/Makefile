@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/tktray/Makefile,v 1.6 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

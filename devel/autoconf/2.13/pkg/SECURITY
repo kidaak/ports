@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.13/pkg/SECURITY,v 1.1.1.1 2003/02/15 14:02:54 espie Exp $
+$OpenBSD$
 
 autoconf scripts create quite a few temporary files in public
 directories.

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ucblogo/patches/patch-makefile_in,v 1.1.1.1 2006/06/01 05:58:15 jolan Exp $
+$OpenBSD$
 --- makefile.in.orig	Tue Nov 30 10:11:07 2004
 +++ makefile.in	Sun May 28 23:33:24 2006
 @@ -1,5 +1,5 @@

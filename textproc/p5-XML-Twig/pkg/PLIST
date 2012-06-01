@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-XML-Twig/pkg/PLIST,v 1.3 2005/11/25 21:06:58 sturm Exp $
+@comment $OpenBSD$
 bin/xml_grep
 bin/xml_merge
 bin/xml_pp

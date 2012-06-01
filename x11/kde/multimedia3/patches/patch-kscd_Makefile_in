@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/multimedia3/patches/patch-kscd_Makefile_in,v 1.16 2007/10/24 21:52:18 espie Exp $
+$OpenBSD$
 --- kscd/Makefile.in.orig	Mon Oct  8 16:27:12 2007
 +++ kscd/Makefile.in	Wed Oct 24 12:02:26 2007
 @@ -54,7 +54,7 @@ CONFIG_HEADER = $(top_builddir)/config.h

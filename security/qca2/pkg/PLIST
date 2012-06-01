@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/qca2/pkg/PLIST,v 1.5 2012/01/26 09:25:46 sebastia Exp $
+@comment $OpenBSD$
 @bin bin/qcatool2
 include/QtCrypto/
 include/QtCrypto/QtCrypto

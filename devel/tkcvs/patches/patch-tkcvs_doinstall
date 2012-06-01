@@ -1,9 +1,9 @@
-$OpenBSD: ports/devel/tkcvs/patches/patch-tkcvs_doinstall,v 1.2 2009/03/13 13:36:57 sthen Exp $
+$OpenBSD$
 --- tkcvs/doinstall.orig	Tue Jan  9 21:17:52 1996
 +++ tkcvs/doinstall	Fri Mar 13 13:28:27 2009
 @@ -2,39 +2,32 @@
  #
- # $Id: doinstall,v 1.9 1996/01/09 21:17:52 del Exp $
+ # $Id$
  #
 -
 +PATH=/bin:/usr/bin:/sbin:/usr/sbin:${LOCALBASE}/bin

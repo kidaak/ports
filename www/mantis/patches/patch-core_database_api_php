@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mantis/patches/patch-core_database_api_php,v 1.1 2008/12/23 10:51:02 mbalmer Exp $
+$OpenBSD$
 --- core/database_api.php.orig	Tue Dec 23 11:40:48 2008
 +++ core/database_api.php	Tue Dec 23 11:41:35 2008
 @@ -248,11 +248,12 @@

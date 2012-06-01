@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-WWW-IndexParser/pkg/PLIST,v 1.1.1.1 2009/12/19 23:02:07 landry Exp $
+@comment $OpenBSD$
 ${P5SITE}/WWW/
 ${P5SITE}/WWW/IndexParser/
 ${P5SITE}/WWW/IndexParser.pm

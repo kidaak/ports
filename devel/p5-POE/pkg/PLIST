@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-POE/pkg/PLIST,v 1.6 2010/11/24 15:28:09 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/POE.pm
 ${P5SITE}/POE/Component/
 ${P5SITE}/POE/Component.pm

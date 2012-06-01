@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Mail-Audit/Makefile,v 1.14 2011/11/17 16:22:38 gsoares Exp $
+# $OpenBSD$
 
 COMMENT=	library for creating easy mail filters
 

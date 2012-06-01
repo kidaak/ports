@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/parcellite/pkg/PLIST,v 1.1.1.1 2011/09/20 09:04:41 landry Exp $
+@comment $OpenBSD$
 @bin bin/parcellite
 @man man/man1/parcellite.1
 share/applications/parcellite.desktop

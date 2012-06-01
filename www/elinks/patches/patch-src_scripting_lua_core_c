@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/elinks/patches/patch-src_scripting_lua_core_c,v 1.2 2008/08/21 01:12:35 sthen Exp $
+$OpenBSD$
 --- src/scripting/lua/core.c.orig	Fri Jun 20 21:19:55 2008
 +++ src/scripting/lua/core.c	Sat Aug  2 21:57:51 2008
 @@ -641,7 +641,7 @@ do_hooks_file(LS, unsigned char *prefix, unsigned char

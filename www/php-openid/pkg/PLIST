@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/php-openid/pkg/PLIST,v 1.1.1.1 2009/03/27 10:41:01 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 pear/lib/Auth/
 pear/lib/Auth/OpenID/

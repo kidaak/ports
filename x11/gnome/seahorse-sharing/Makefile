@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/seahorse-sharing/Makefile,v 1.7 2012/04/01 15:04:00 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	PGP public keys sharing via DNS-SD and HKP
 

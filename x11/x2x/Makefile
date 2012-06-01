@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/x2x/Makefile,v 1.20 2011/11/22 09:33:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	one keyboard/mouse to multiple X displays
 

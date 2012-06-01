@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-MessageID/Makefile,v 1.7 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	generate world unique message-ids
 

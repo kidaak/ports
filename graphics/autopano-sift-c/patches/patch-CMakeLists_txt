@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/autopano-sift-c/patches/patch-CMakeLists_txt,v 1.1 2009/05/27 12:59:45 sthen Exp $
+$OpenBSD$
 --- CMakeLists.txt.orig	Wed May 27 13:57:42 2009
 +++ CMakeLists.txt	Wed May 27 13:57:44 2009
 @@ -146,8 +146,8 @@ endif (WIN32)

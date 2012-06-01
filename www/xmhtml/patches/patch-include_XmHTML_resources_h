@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/xmhtml/patches/patch-include_XmHTML_resources_h,v 1.1.1.1 2001/07/13 17:50:45 pvalchev Exp $
+$OpenBSD$
 --- include/XmHTML/resources.h.orig	Sun Dec 13 13:48:46 1998
 +++ include/XmHTML/resources.h	Sat Jun 30 23:39:06 2001
 @@ -102,7 +102,9 @@

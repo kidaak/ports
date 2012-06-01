@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Convert-UUlib/pkg/PLIST,v 1.4 2004/09/14 23:25:50 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Convert/
 ${P5ARCH}/Convert/UUlib.pm

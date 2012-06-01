@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/awesome/patches/patch-CMakeLists_txt,v 1.12 2011/11/30 11:50:58 dcoppa Exp $
+$OpenBSD$
 
 These auto-generated (db2man.xsl) manpages contain a mixture of ISO
 latin-1 characters and numerical HTML entities that neither mandoc

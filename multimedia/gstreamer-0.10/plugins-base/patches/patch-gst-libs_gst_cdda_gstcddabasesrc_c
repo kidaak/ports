@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-base/patches/patch-gst-libs_gst_cdda_gstcddabasesrc_c,v 1.1 2010/09/20 16:11:12 ajacoutot Exp $
+$OpenBSD$
 --- gst-libs/gst/cdda/gstcddabasesrc.c.orig	Mon Sep 20 17:24:31 2010
 +++ gst-libs/gst/cdda/gstcddabasesrc.c	Mon Sep 20 17:25:25 2010
 @@ -94,7 +94,7 @@

@@ -1,6 +1,4 @@
-# $OpenBSD: ports/x11/gnome/seed/Makefile,v 1.17 2012/04/05 10:22:29 ajacoutot Exp $
-
-BROKEN-sparc64= 	bus error webkit's JSC::Lexer::lex()
+# $OpenBSD$
 
 COMMENT=		GObject JavaScriptCore bridge
 

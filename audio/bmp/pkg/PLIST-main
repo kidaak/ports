@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/bmp/pkg/PLIST-main,v 1.4 2010/06/19 20:21:14 sthen Exp $
+@comment $OpenBSD$
 @pkgpath audio/bmp
 @pkgpath audio/bmp,no_mp3
 @pkgpath audio/bmp,no_vorbis

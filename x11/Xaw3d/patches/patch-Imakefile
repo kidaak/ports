@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/Xaw3d/patches/patch-Imakefile,v 1.2 2005/12/31 17:29:38 naddy Exp $
+$OpenBSD$
 --- Imakefile.orig	Tue Oct 15 16:41:19 1996
 +++ Imakefile	Sat Dec 31 16:32:15 2005
 @@ -39,9 +39,9 @@ DEFINES = XawI18nDefines

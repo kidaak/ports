@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/leptonica/Makefile,v 1.1.1.1 2011/12/22 09:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	image processing and analysis library
 

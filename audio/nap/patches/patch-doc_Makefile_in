@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/nap/patches/patch-doc_Makefile_in,v 1.2 2004/07/20 07:04:05 pvalchev Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Tue Jul 20 00:03:06 2004
 +++ doc/Makefile.in	Tue Jul 20 00:03:21 2004
 @@ -124,7 +124,7 @@ sharedstatedir = @sharedstatedir@

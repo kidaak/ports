@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xpad/Makefile,v 1.29 2011/12/03 23:34:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	virtual sticky pad system
 

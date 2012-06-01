@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/vomit/Makefile,v 1.19 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		voice over misconfigured internet telephones
 

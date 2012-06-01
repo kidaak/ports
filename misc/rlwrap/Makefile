@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/rlwrap/Makefile,v 1.7 2010/11/19 07:23:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=		generic readline wrapper for various programs
 

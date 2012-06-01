@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hs-type-level/pkg/PLIST,v 1.1.1.1 2011/05/01 17:29:26 jasper Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Data/
 lib/ghc/${DISTNAME}/Data/TypeLevel/

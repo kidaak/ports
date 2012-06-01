@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/pari/pkg/PLIST,v 1.1.1.1 2005/02/08 02:36:12 msf Exp $
+@comment $OpenBSD$
 bin/gp
 bin/gp-2.1
 bin/gphelp

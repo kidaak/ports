@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/gnet/patches/patch-Makefile_in,v 1.4 2008/02/04 18:01:47 jasper Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Feb  4 00:12:05 2008
 +++ Makefile.in	Mon Feb  4 00:12:15 2008
 @@ -265,7 +265,7 @@ target_alias = @target_alias@

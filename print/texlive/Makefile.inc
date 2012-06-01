@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/texlive/Makefile.inc,v 1.8 2011/11/23 12:00:45 edd Exp $
+# $OpenBSD$
 
 CATEGORIES ?=	print
 HOMEPAGE ?=	http://tug.org/texlive/

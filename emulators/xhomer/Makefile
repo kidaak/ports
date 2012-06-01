@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/xhomer/Makefile,v 1.5 2011/10/16 15:03:24 naddy Exp $
+# $OpenBSD$
 # $RuOBSD: Makefile,v 1.4 2009/02/05 06:38:32 form Exp $
 
 COMMENT=		DEC Professional 350 emulator based on SIMH

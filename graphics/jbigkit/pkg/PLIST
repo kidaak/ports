@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/jbigkit/pkg/PLIST,v 1.6 2004/09/15 00:50:09 espie Exp $
+@comment $OpenBSD$
 bin/jbgtopbm
 bin/pbmtojbg
 include/jbig.h

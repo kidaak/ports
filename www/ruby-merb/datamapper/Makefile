@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ruby-merb/datamapper/Makefile,v 1.11 2011/09/16 12:00:08 espie Exp $
+# $OpenBSD$
 
 COMMENT =	DataMapper ORM plugin
 

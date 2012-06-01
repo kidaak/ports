@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal7/devel/Makefile,v 1.1.1.1 2012/04/10 12:50:24 espie Exp $
+# $OpenBSD$
 
 COMMENT =	development helps
 

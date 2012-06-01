@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/surfraw/Makefile,v 1.26 2011/07/15 13:26:56 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	command line interface to popular WWW search engines
 

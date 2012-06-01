@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmms2-scrobbler/Makefile,v 1.6 2010/11/15 00:22:49 espie Exp $
+# $OpenBSD$
 
 COMMENT =		last.fm client for xmms2
 

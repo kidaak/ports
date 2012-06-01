@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/e2fsprogs/pkg/PLIST,v 1.10 2011/07/31 14:48:19 kili Exp $
+@comment $OpenBSD$
 @conflict e2fs-uuid-*
 @conflict uuid-*
 @conflict ossp-uuid-<1.6.2p1

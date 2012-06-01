@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libofx/Makefile,v 1.6 2011/04/13 06:22:29 landry Exp $
+# $OpenBSD$
 
 COMMENT=	opensource implementation of the OFX specification
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/sdlzombies/Makefile,v 1.14 2010/11/16 11:23:28 espie Exp $
+# $OpenBSD$
 
 COMMENT=	zombies clone
 

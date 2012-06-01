@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/crimson/Makefile,v 1.24 2012/03/03 11:48:44 sthen Exp $
+# $OpenBSD$
 
 BROKEN-arm=	mktileset buggy, loops at high CPU use
 

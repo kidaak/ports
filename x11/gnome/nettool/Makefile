@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/nettool/Makefile,v 1.23 2012/04/13 07:57:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	GNOME interface for various networking tools
 

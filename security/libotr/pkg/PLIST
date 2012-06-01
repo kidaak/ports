@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/libotr/pkg/PLIST,v 1.5 2008/07/18 13:21:22 dhill Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/otr_mackey
 @bin bin/otr_modify

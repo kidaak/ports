@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/fluidsynth/pkg/PLIST,v 1.2 2008/12/26 08:45:12 jakemsr Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/fluidsynth
 include/fluidsynth/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/gpstk/Makefile,v 1.11 2011/09/16 09:48:10 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=		GPS processing toolkit
 COMMENT-devel=		GPStk development libraries and headers

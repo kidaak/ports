@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-Class-DBI-Plugin-RetrieveAll/Makefile,v 1.7 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	more complex retrieve_all() for Class::DBI
 

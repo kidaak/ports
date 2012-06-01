@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libkdcraw/Makefile,v 1.11 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	grab raw data from digital cameras
 

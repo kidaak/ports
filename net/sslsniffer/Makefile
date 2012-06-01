@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/sslsniffer/Makefile,v 1.4 2011/03/14 20:49:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	SSLv3/TLS and SSLv2 sniffer
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ffcall/patches/patch-callback_vacall_r_vacall-rs6000-linux_s,v 1.1 2010/08/23 14:16:09 jasper Exp $
+$OpenBSD$
 
 We're using %r13 like on NetBSD instead of %r11.
 

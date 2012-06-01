@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/openfire/pkg/PLIST,v 1.4 2011/03/09 16:50:40 ian Exp $
+@comment $OpenBSD$
 @newgroup _openfire:632
 @newuser _openfire:632:_openfire:daemon:openfire user:/var/empty:/bin/sh
 @mode 775

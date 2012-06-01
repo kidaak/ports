@@ -1,4 +1,4 @@
-$OpenBSD: ports/education/gamgi/patches/patch-src-make_rules,v 1.8 2010/12/01 08:13:19 jasper Exp $
+$OpenBSD$
 --- src/make_rules.orig	Tue Nov 30 23:44:32 2010
 +++ src/make_rules	Tue Nov 30 23:47:52 2010
 @@ -17,6 +17,7 @@ SHELL=/bin/sh

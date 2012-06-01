@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-requests/Makefile,v 1.1.1.1 2011/10/14 16:32:54 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	elegant and simple HTTP library for Python
 

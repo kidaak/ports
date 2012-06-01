@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Format-MySQL/Makefile,v 1.6 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		parse and create MySQL date objects
 

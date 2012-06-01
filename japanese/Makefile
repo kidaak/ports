@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/Makefile,v 1.27 2012/03/20 23:47:17 fgsch Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += Wnn

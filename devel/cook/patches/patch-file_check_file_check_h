@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/cook/patches/patch-file_check_file_check_h,v 1.1 2010/05/19 15:34:21 espie Exp $
+$OpenBSD$
 --- file_check/file_check.h.orig	Wed May 19 17:25:22 2010
 +++ file_check/file_check.h	Wed May 19 17:25:24 2010
 @@ -26,7 +26,6 @@

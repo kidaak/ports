@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/xmlsec/Makefile,v 1.32 2011/11/22 15:34:10 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main=	XML security library
 COMMENT-docs=	XML security library documentation

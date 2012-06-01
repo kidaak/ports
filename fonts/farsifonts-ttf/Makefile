@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/farsifonts-ttf/Makefile,v 1.1.1.1 2011/07/19 09:16:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	ISIRI 6219 conforming Farsi fonts
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/tkman/Makefile,v 1.23 2011/01/05 17:34:17 stu Exp $
+# $OpenBSD$
 
 COMMENT =	Tcl/Tk-based manual browser
 

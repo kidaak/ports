@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/lilypond/patches/patch-lily_include_smobs_hh,v 1.3 2011/07/06 14:14:06 kili Exp $
+$OpenBSD$
 
 Make g++ 3.3.5 happy.
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xblast/Makefile,v 1.26 2010/10/24 21:19:03 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	graphical multi-player real-time strategy game for X11
 

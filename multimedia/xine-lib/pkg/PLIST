@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/xine-lib/pkg/PLIST,v 1.16 2012/04/08 07:37:25 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict xine-lib-arts-*
 @conflict xine-lib-esd-*
 @conflict xine-lib-jack-*

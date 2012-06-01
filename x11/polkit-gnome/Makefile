@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/polkit-gnome/Makefile,v 1.19 2011/10/27 15:46:16 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	PolicyKit authentication agent for GNOME/GTK+
 
@@ -34,8 +34,7 @@ LIB_DEPENDS=	sysutils/polkit>=0.102 \
 		x11/gtk+3
 
 CONFIGURE_STYLE=gnu
-CONFIGURE_ARGS=	--localstatedir=/var \
-		--disable-gtk-doc
+CONFIGURE_ARGS=	--disable-gtk-doc
 
 # XXX no introspection support anymore, but configure still has a check for it
 CONFIGURE_ARGS += --disable-introspection

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/xkcd-viewer/pkg/PLIST,v 1.1.1.1 2009/06/07 09:01:39 landry Exp $
+@comment $OpenBSD$
 bin/xkcd_viewer.pl
 ${P5SITE}/XKCD/
 ${P5SITE}/XKCD/Core.pm

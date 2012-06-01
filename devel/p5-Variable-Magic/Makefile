@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Variable-Magic/Makefile,v 1.11 2011/03/14 09:17:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	associate user-defined magic to variables from Perl
 SHARED_ONLY =	Yes

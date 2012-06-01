@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/gmime/pkg/PFRAG.shared-main,v 1.1 2011/08/30 06:45:53 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libgmime-2.6.so.${LIBgmime-2.6_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libmp3splt/Makefile,v 1.3 2010/11/15 00:22:47 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library to split mp3/ogg files without decoding
 

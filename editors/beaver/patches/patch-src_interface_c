@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/beaver/patches/patch-src_interface_c,v 1.1 2008/09/16 20:00:18 jasper Exp $
+$OpenBSD$
 
 Correct paths to pixmap files.
 

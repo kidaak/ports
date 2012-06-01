@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-kirbybase/Makefile,v 1.7 2011/09/16 08:48:05 espie Exp $
+# $OpenBSD$
 
 COMMENT =	small, plain-text, DBMS written in Ruby
 

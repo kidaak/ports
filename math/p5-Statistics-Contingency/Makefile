@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Statistics-Contingency/Makefile,v 1.5 2010/12/27 11:41:02 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	calculate precision, recall, F1, accuracy, etc
 DISTNAME=	Statistics-Contingency-0.08

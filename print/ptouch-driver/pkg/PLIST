@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/ptouch-driver/pkg/PLIST,v 1.1.1.1 2011/03/07 21:57:15 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict foomatic-db-<4.0.20110101p0
 @bin libexec/cups/filter/rastertoptch
 share/foomatic/

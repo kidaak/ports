@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/ruby-gd2/patches/patch-lib_gd2_rb,v 1.1.1.1 2008/02/03 01:10:01 jcs Exp $
+$OpenBSD$
 --- lib/gd2.rb.orig	Sat Feb  2 19:02:32 2008
 +++ lib/gd2.rb	Sat Feb  2 19:02:54 2008
 @@ -33,7 +33,7 @@ module GD2

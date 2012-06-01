@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/kile/Makefile,v 1.19 2011/09/16 09:48:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	integrated LaTeX environment for KDE
 DISTNAME=	kile-2.0

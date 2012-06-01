@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/metamail/pkg/PLIST,v 1.10 2012/03/17 10:57:23 sthen Exp $
+@comment $OpenBSD$
 bin/audiocompose
 bin/audiosend
 bin/extcompose

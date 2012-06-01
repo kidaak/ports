@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/arpack/Makefile,v 1.12 2011/11/18 11:16:24 espie Exp $
+# $OpenBSD$
 
 COMMENT=	solve large scale eigenvalue problems
 

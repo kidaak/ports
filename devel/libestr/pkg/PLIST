@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libestr/pkg/PLIST,v 1.1.1.1 2012/01/16 15:17:58 dhill Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libestr.h
 lib/libestr.a

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/amd/files/Makefile.f77,v 1.1.1.1 2006/10/21 16:58:00 steven Exp $
+# $OpenBSD$
 
 LIB=amdf77
 SRCS =	amd.f amdbar.f

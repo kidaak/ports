@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/xemacs21/stable/Makefile,v 1.23 2012/01/13 00:55:14 naddy Exp $
+# $OpenBSD$
 
 BRANCH=		21.4
 VERSION=	22

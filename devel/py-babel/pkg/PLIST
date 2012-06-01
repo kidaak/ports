@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-babel/pkg/PLIST,v 1.1.1.1 2009/01/18 20:01:41 djm Exp $
+@comment $OpenBSD$
 bin/pybabel
 lib/python${MODPY_VERSION}/site-packages/Babel-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/Babel-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

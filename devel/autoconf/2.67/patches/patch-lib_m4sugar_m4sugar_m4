@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/autoconf/2.67/patches/patch-lib_m4sugar_m4sugar_m4,v 1.1 2011/04/15 09:46:32 sthen Exp $
+$OpenBSD$
 
 first hunk: from commit f6030a3204a9b87e9b346e6eff4ce1117382fc86
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/wmtime/pkg/PLIST,v 1.1.1.1 2000/12/26 18:22:14 naddy Exp $
+@comment $OpenBSD$
 bin/wmtime

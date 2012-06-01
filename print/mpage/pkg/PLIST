@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/mpage/pkg/PLIST,v 1.7 2012/02/16 22:13:45 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath print/mpage,legal
 @pkgpath print/mpage,letter
 @bin bin/mpage

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/varconf/pkg/PFRAG.shared,v 1.5 2011/01/04 08:36:11 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libvarconf-1.0.so.${LIBvarconf-1.0_VERSION}

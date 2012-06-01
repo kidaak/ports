@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/esound/pkg/PFRAG.shared,v 1.10 2005/12/23 16:57:17 espie Exp $
+@comment $OpenBSD$
 @lib lib/libesd.so.${LIBesd_VERSION}

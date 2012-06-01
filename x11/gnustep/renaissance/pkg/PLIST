@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/renaissance/pkg/PLIST,v 1.1.1.1 2011/07/19 13:52:40 sebastia Exp $
+@comment $OpenBSD$
 bin/GSMarkupBrowser
 bin/GSMarkupLocalizableStrings
 include/Renaissance/

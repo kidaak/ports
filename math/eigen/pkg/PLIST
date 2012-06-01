@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/eigen/pkg/PLIST,v 1.1.1.1 2007/03/20 11:35:50 espie Exp $
+@comment $OpenBSD$
 include/eigen/
 include/eigen/linearsolver.h
 include/eigen/linearsolverbase.h

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Libxml/pkg/PLIST,v 1.5 2004/09/15 18:44:03 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Data/
 ${P5SITE}/Data/Grove/
 ${P5SITE}/Data/Grove.pm

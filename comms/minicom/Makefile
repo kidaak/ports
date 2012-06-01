@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/minicom/Makefile,v 1.53 2012/03/19 22:17:43 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		MS-DOS Telix-like serial communication program
 

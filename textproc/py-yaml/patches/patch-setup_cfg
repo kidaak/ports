@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/py-yaml/patches/patch-setup_cfg,v 1.1.1.1 2008/10/18 10:54:52 ajacoutot Exp $
+$OpenBSD$
 --- setup.cfg.orig	Thu Oct 16 09:49:10 2008
 +++ setup.cfg	Thu Oct 16 09:49:34 2008
 @@ -4,10 +4,10 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/news/tin/Makefile,v 1.40 2012/03/12 15:17:17 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	threaded NNTP- and spool-based UseNet newsreader
 

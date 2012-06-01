@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/startup-notification/patches/patch-test_test-launcher-xcb_c,v 1.1 2009/12/25 21:36:22 phessler Exp $
+$OpenBSD$
 --- test/test-launcher-xcb.c.orig	Fri Dec 25 14:21:32 2009
 +++ test/test-launcher-xcb.c	Fri Dec 25 14:23:10 2009
 @@ -45,15 +45,16 @@ slowly_obtain_timestamp (SnDisplay *display)

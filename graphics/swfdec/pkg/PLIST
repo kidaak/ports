@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/swfdec/pkg/PLIST,v 1.5 2009/06/07 11:52:16 phessler Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/swfdec-0.8/
 include/swfdec-0.8/swfdec/

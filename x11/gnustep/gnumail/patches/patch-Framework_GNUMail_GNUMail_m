@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/gnumail/patches/patch-Framework_GNUMail_GNUMail_m,v 1.1.1.1 2007/07/29 14:36:36 ajacoutot Exp $
+$OpenBSD$
 --- Framework/GNUMail/GNUMail.m.orig	Sat Feb  3 15:49:24 2007
 +++ Framework/GNUMail/GNUMail.m	Tue Jun 19 17:06:09 2007
 @@ -843,21 +843,26 @@ static BOOL doneInit = NO;

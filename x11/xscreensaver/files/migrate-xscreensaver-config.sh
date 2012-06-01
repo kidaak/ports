@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/x11/xscreensaver/files/migrate-xscreensaver-config.sh,v 1.1 2008/11/29 11:29:07 ajacoutot Exp $
+# $OpenBSD$
 #
 # script originally from gnome-screensavers sources
 

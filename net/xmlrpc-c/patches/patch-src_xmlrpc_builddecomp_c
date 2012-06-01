@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xmlrpc-c/patches/patch-src_xmlrpc_builddecomp_c,v 1.2 2008/03/15 10:35:54 ajacoutot Exp $
+$OpenBSD$
 --- src/xmlrpc_builddecomp.c.orig	Thu Mar 23 00:48:31 2006
 +++ src/xmlrpc_builddecomp.c	Wed Jan 16 14:20:18 2008
 @@ -26,11 +26,15 @@ typedef double va_double;

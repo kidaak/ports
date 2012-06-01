@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/emacs23/patches/patch-src_xgselect_c,v 1.1 2012/03/29 18:07:27 ajacoutot Exp $
+$OpenBSD$
 
 http://debbugs.gnu.org/cgi/bugreport.cgi?bug=10631
 

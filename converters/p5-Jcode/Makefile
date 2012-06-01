@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Jcode/Makefile,v 1.7 2010/10/18 17:06:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	handles various Japanese charsets
 

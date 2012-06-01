@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/freedroid/patches/patch-Makefile_in,v 1.1 2007/07/09 07:39:01 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Aug 11 12:40:47 2003
 +++ Makefile.in	Fri Jul  6 11:04:22 2007
 @@ -87,7 +87,7 @@ SUBDIRS = src 

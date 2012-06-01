@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/teeworlds/patches/patch-bam-0_2_0_src_context_h,v 1.1 2009/02/08 22:31:58 ajacoutot Exp $
+$OpenBSD$
 
 Fix bus error on sparc64.
 

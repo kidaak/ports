@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/splix/Makefile,v 1.10 2011/06/02 13:41:40 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	CUPS drivers for SPL printers
 

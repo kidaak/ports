@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Bit-Vector/Makefile,v 1.14 2010/12/03 11:45:39 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

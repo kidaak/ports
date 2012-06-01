@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/libgnomekbd/Makefile,v 1.44 2012/03/29 06:38:37 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

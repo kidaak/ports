@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-binutils_debug_c,v 1.3 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- binutils/debug.c.orig	Sat Jun 26 11:22:43 2010
 +++ binutils/debug.c	Sat Jun 26 11:31:17 2010
 @@ -31,6 +31,7 @@

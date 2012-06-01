@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/libwebp/Makefile,v 1.1.1.1 2011/12/22 08:36:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Google WebP image format conversion tool
 

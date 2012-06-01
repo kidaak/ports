@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_webserver_src_WebServer_cpp,v 1.1 2012/02/22 07:54:26 dcoppa Exp $
+$OpenBSD$
 
 Fix amuleweb crash on CProgressImage::CreateSpan
 (upstream git commit 846dcf92ce64fd42caf8a86d644fe3a3f4683d09)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/jeoip/Makefile,v 1.20 2011/12/15 21:33:19 kili Exp $
+# $OpenBSD$
 
 COMMENT=		Java interface to GeoIP database
 DISTNAME=		jeoip-0.5

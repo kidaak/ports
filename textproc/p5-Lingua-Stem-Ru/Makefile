@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Lingua-Stem-Ru/Makefile,v 1.8 2010/12/03 11:46:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Russian language stemming
 

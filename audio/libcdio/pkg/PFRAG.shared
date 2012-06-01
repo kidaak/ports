@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/libcdio/pkg/PFRAG.shared,v 1.1.1.1 2008/03/20 18:24:42 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libcdio++.so.${LIBcdio++_VERSION}
 @lib lib/libcdio.so.${LIBcdio_VERSION}
 @lib lib/libcdio_cdda.so.${LIBcdio_cdda_VERSION}

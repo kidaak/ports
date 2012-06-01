@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libiberty_cp-demangle_c,v 1.1 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libiberty/cp-demangle.c.orig	Wed Jan 25 10:50:45 2012
 +++ libiberty/cp-demangle.c	Wed Jan 25 10:54:17 2012
 @@ -3409,7 +3409,7 @@ static inline void

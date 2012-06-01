@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/arm-elf/binutils/patches/patch-bfd_doc_Makefile_in,v 1.2 2010/10/22 15:19:28 jasper Exp $
+$OpenBSD$
 --- bfd/doc/Makefile.in.orig	Wed Oct 13 23:28:12 2010
 +++ bfd/doc/Makefile.in	Wed Oct 13 23:28:37 2010
 @@ -66,7 +66,7 @@ CONFIG_CLEAN_VPATH_FILES =

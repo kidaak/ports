@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/nn/patches/patch-term_c,v 1.1.1.1 2008/11/17 08:42:13 jasper Exp $
+$OpenBSD$
 --- term.c.orig	Sun Jul 20 16:39:03 2008
 +++ term.c	Sun Jul 20 16:39:38 2008
 @@ -25,7 +25,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/yould/pkg/PLIST,v 1.2 2009/12/23 20:39:57 jasper Exp $
+@comment $OpenBSD$
 bin/yould
 bin/yould-train
 lib/python${MODPY_VERSION}/site-packages/yould/

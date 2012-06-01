@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/vte/patches/patch-configure_in,v 1.2 2012/03/09 06:45:54 ajacoutot Exp $
+$OpenBSD$
 
 From 116fe70d32c810ccd0bb226fc0c06c74e28db075 Mon Sep 17 00:00:00 2001
 From: Martin Pieuchot <mpi@openbsd.org>

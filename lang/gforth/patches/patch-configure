@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gforth/patches/patch-configure,v 1.1.1.1 2008/10/25 10:40:37 jasper Exp $
+$OpenBSD$
 
 From NetBSD:
 The gforth configure script tests for linker support of -export-dynamic,

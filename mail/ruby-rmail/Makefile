@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/ruby-rmail/Makefile,v 1.10 2011/09/16 10:31:22 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Ruby library to create and parse MIME messages
 

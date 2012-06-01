@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_swt_Eclipse_SWT_Mozilla_gtk_org_eclipse_swt_browser_Browser_java,v 1.2 2007/04/06 02:16:21 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.swt/Eclipse SWT Mozilla/gtk/org/eclipse/swt/browser/Browser.java.orig	Thu Sep 21 10:57:19 2006
 +++ plugins/org.eclipse.swt/Eclipse SWT Mozilla/gtk/org/eclipse/swt/browser/Browser.java	Thu Apr  5 08:12:50 2007
 @@ -10,16 +10,76 @@

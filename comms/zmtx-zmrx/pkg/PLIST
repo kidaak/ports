@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/zmtx-zmrx/pkg/PLIST,v 1.4 2004/08/06 16:06:03 espie Exp $
+@comment $OpenBSD$
 bin/zmrx
 bin/zmtx
 @man man/man1/zmrx.1

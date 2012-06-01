@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/davical/Makefile,v 1.2 2012/03/07 08:38:44 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	CalDAV/CardDav calendar/contacts server
 

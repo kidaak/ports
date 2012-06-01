@@ -1,0 +1,6 @@
+@comment $OpenBSD$
+@pkgpath subversion,gnome_keyring
+@conflict subversion-*-gnome_keyring
+@comment lib/libsvn_auth_gnome_keyring-1.a
+@comment lib/libsvn_auth_gnome_keyring-1.la
+@lib lib/libsvn_auth_gnome_keyring-1.so.${LIBsvn_auth_gnome_keyring-1_VERSION}

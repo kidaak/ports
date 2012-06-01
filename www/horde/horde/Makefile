@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/horde/horde/Makefile,v 1.18 2012/03/19 15:44:33 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	modular framework for web-based applications
 

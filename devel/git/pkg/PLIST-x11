@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/git/pkg/PLIST-x11,v 1.9 2011/04/29 11:09:12 stsp Exp $
+@comment $OpenBSD$
 @conflict git-<1.6.5.3p0
 bin/gitk
 libexec/git/git-citool

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/dhtml_menu/Makefile,v 1.3 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	javascript-enhanced persistant menus for drupal
 MAINTAINER =	Marc Espie <espie@openbsd.org>

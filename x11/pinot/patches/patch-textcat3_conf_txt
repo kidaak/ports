@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/pinot/patches/patch-textcat3_conf_txt,v 1.1.1.1 2009/08/17 14:34:07 ajacoutot Exp $
+$OpenBSD$
 --- textcat3_conf.txt.orig	Tue Aug  4 15:15:19 2009
 +++ textcat3_conf.txt	Tue Aug  4 15:15:47 2009
 @@ -3,64 +3,64 @@

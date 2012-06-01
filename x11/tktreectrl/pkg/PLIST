@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/tktreectrl/pkg/PLIST,v 1.6 2011/10/30 07:38:50 sebastia Exp $
+@comment $OpenBSD$
 lib/tcl/tktreectrl/
 lib/tcl/tktreectrl/filelist-bindings.tcl
 @lib lib/tcl/tktreectrl/libtreectrl24.so.${LIBtreectrl24_VERSION}

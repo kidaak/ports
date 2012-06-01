@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/aewm/Makefile,v 1.32 2011/09/16 12:29:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	minimalistic window manager for X11
 

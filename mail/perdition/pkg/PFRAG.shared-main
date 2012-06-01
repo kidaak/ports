@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/perdition/pkg/PFRAG.shared-main,v 1.2 2008/06/08 10:55:25 simon Exp $
+@comment $OpenBSD$
 @lib lib/libjain.so.${LIBjain_VERSION}
 @lib lib/libperditiondb_bdb.so.${LIBperditiondb_bdb_VERSION}
 @lib lib/libperditiondb_daemon.so.${LIBperditiondb_daemon_VERSION}

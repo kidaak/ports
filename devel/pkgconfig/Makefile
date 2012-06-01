@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pkgconfig/Makefile,v 1.32 2011/09/16 09:24:54 espie Exp $
+# $OpenBSD$
 
 COMMENT=		tool for managing library compile/link flags
 

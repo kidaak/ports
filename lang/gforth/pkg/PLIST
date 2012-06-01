@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gforth/pkg/PLIST,v 1.1.1.1 2008/10/25 10:40:37 jasper Exp $
+@comment $OpenBSD$
 @bin bin/gforth
 @bin bin/gforth-fast
 @bin bin/gforth-itc

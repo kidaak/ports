@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/nmh/Makefile,v 1.32 2012/01/30 19:50:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	new MH mail handling program
 

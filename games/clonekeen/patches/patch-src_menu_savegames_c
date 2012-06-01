@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/clonekeen/patches/patch-src_menu_savegames_c,v 1.1.1.1 2010/10/25 12:12:05 edd Exp $
+$OpenBSD$
 --- src/menu_savegames.c.orig	Sun Oct 24 23:00:24 2010
 +++ src/menu_savegames.c	Sun Oct 24 23:01:32 2010
 @@ -59,10 +59,19 @@ void loadsavegamenames(void)

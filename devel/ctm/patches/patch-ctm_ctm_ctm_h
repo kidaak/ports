@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ctm/patches/patch-ctm_ctm_ctm_h,v 1.2 2007/10/31 23:14:46 ajacoutot Exp $
+$OpenBSD$
 --- ctm/ctm/ctm.h.orig	Wed May  1 01:01:43 1996
 +++ ctm/ctm/ctm.h	Wed Oct 31 23:35:36 2007
 @@ -10,24 +10,27 @@

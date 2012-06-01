@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_config_host-openbsd_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/config/host-openbsd.c.orig	Wed Apr 23 07:42:45 2008
 +++ gcc/config/host-openbsd.c	Wed Apr 23 17:57:19 2008
 @@ -0,0 +1,107 @@

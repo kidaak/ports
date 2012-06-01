@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-YAML-Tiny/Makefile,v 1.7 2011/06/25 18:01:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	read/write YAML files with as little code as possible
 

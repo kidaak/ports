@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_common_Makefile_in,v 1.1.1.1 2006/07/14 16:12:14 bernd Exp $
+$OpenBSD$
 --- wml_common/Makefile.in.orig	Wed Feb  7 00:02:12 2001
 +++ wml_common/Makefile.in	Thu Jun 15 18:58:09 2006
 @@ -41,8 +41,8 @@ INITVARS = \

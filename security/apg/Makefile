@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/apg/Makefile,v 1.15 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT=		automated password generator
 

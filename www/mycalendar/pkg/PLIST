@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/mycalendar/pkg/PLIST,v 1.8 2006/04/11 05:49:38 kevlo Exp $
+@comment $OpenBSD$
 cgi-bin/calendar/
 cgi-bin/calendar/LICENSE
 cgi-bin/calendar/README.MAKING-PRINTABLE-CALENDARS

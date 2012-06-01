@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-postgres/Makefile,v 1.20 2011/09/16 08:48:05 espie Exp $
+# $OpenBSD$
 
 COMMENT=	access a PostgreSQL database from ruby
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/py-pdf/pkg/PLIST,v 1.1.1.1 2009/11/25 22:00:26 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pyPdf/
 lib/python${MODPY_VERSION}/site-packages/pyPdf-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/pyPdf/__init__.py

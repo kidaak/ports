@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/sshguard/patches/patch-src_sshguard_logsuck_c,v 1.2 2011/03/07 17:44:16 rpointel Exp $
+$OpenBSD$
 --- src/sshguard_logsuck.c.orig	Wed Feb  9 13:01:47 2011
 +++ src/sshguard_logsuck.c	Sat Mar  5 19:27:53 2011
 @@ -242,7 +242,7 @@ int logsuck_getline(char *restrict buf, size_t buflen,

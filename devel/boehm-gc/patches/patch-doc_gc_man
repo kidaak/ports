@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boehm-gc/patches/patch-doc_gc_man,v 1.5 2008/04/01 17:41:13 kurt Exp $
+$OpenBSD$
 --- doc/gc.man.orig	Mon Oct 10 18:33:34 2005
 +++ doc/gc.man	Wed Feb  6 19:33:58 2008
 @@ -1,4 +1,4 @@

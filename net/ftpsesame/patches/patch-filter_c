@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ftpsesame/patches/patch-filter_c,v 1.2 2010/01/22 14:42:11 sthen Exp $
+$OpenBSD$
 --- filter.c.orig	Tue Oct  5 13:12:22 2004
 +++ filter.c	Mon Jan 18 13:57:49 2010
 @@ -34,7 +34,6 @@

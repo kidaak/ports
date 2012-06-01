@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-amalgalite/Makefile,v 1.7 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 BROKEN-mips64el= hangs when compiling sqlite3.o
 

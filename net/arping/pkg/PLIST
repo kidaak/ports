@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/arping/pkg/PLIST,v 1.6 2010/07/25 13:57:38 benoit Exp $
+@comment $OpenBSD$
 @man man/man8/arping.8
 @bin sbin/arping
 share/doc/arping/

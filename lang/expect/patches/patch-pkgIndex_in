@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/expect/patches/patch-pkgIndex_in,v 1.1 2011/01/05 18:45:45 sebastia Exp $
+$OpenBSD$
 --- pkgIndex.in.orig	Thu Dec 23 10:12:51 2010
 +++ pkgIndex.in	Thu Dec 23 10:13:04 2010
 @@ -7,4 +7,4 @@

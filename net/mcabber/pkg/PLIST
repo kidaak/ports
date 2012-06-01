@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/mcabber/pkg/PLIST,v 1.5 2010/06/20 14:08:32 sthen Exp $
+@comment $OpenBSD$
 @bin bin/mcabber
 include/mcabber/
 include/mcabber/api.h

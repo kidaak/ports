@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/ruby/1.8/patches/patch-ext_openssl_openssl_missing_h,v 1.1 2010/09/23 21:58:50 jeremy Exp $
+$OpenBSD$
 
 don't try to declare conflicting prototypes for functions already declared
 by OpenSSL 0.9.8j

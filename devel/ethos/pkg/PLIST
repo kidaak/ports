@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/ethos/pkg/PLIST,v 1.4 2011/04/07 11:21:01 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/ethos-1.0/
 include/ethos-1.0/ethos/

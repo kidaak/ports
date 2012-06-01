@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xmoto/patches/patch-configure_in,v 1.1 2012/04/15 08:49:05 kirby Exp $
+$OpenBSD$
 --- configure.in.orig	Sun Nov 13 22:04:13 2011
 +++ configure.in	Sat Mar 10 12:53:53 2012
 @@ -32,7 +32,7 @@ AM_PATH_XML2([], 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/evolution-rss/Makefile,v 1.17 2012/03/29 07:00:26 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-FastProf/Makefile,v 1.8 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 COMMENT=	per-line quick profiler for perl

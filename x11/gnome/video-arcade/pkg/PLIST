@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/video-arcade/pkg/PLIST,v 1.10 2012/03/19 06:56:32 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/gnome-video-arcade
 @man man/man1/gnome-video-arcade.1

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/axel/pkg/PLIST,v 1.2 2011/01/05 06:47:08 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/axel
 @man man/man1/axel.1
 man/zh_CN/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/pp-gcc_reload1_c,v 1.1 2005/01/04 23:06:33 espie Exp $
+$OpenBSD$
 --- gcc/reload1.c.orig	Mon Sep 13 10:54:35 2004
 +++ gcc/reload1.c	Mon Jan  3 10:17:42 2005
 @@ -42,6 +42,7 @@ Software Foundation, 59 Temple Place - S

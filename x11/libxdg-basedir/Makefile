@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/libxdg-basedir/Makefile,v 1.3 2012/01/25 14:13:34 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =	implementation of the XDG Base Directory specification
 

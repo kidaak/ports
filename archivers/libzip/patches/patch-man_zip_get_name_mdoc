@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/libzip/patches/patch-man_zip_get_name_mdoc,v 1.1 2011/05/30 16:53:40 shadchin Exp $
+$OpenBSD$
 --- man/zip_get_name.mdoc.orig	Mon May 30 22:26:58 2011
 +++ man/zip_get_name.mdoc	Mon May 30 22:26:17 2011
 @@ -81,6 +81,7 @@ or

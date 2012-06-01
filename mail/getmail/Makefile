@@ -1,8 +1,8 @@
-# $OpenBSD: ports/mail/getmail/Makefile,v 1.81 2011/12/19 21:36:27 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	IMAP/POP3/SDPS mail retriever
 
-MODPY_EGG_VERSION=	4.24.0
+MODPY_EGG_VERSION=	4.26.0
 DISTNAME=	getmail-${MODPY_EGG_VERSION}
 CATEGORIES=	mail
 

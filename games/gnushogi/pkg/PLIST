@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/gnushogi/pkg/PLIST,v 1.5 2007/12/16 01:01:30 ajacoutot Exp $
+@comment $OpenBSD$
 bin/gnushogi
 @man man/man6/gnushogi.6
 share/doc/gnushogi/

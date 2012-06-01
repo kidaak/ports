@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/postler/patches/patch-wscript,v 1.2 2011/09/12 18:23:26 jasper Exp $
+$OpenBSD$
 --- wscript.orig	Mon Sep 12 19:49:58 2011
 +++ wscript	Mon Sep 12 19:51:06 2011
 @@ -186,13 +186,13 @@ def configure (conf):

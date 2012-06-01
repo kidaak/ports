@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome-colors-icon-theme/Makefile,v 1.5 2011/12/03 19:13:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		complete, multi-colored suite of icons
 

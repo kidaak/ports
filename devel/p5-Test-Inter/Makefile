@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Inter/Makefile,v 1.3 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		framework for more readable interactive test scripts  
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libeventextra/files/Makefile,v 1.1.1.1 2010/04/21 22:55:34 nicm Exp $
+# $OpenBSD$
 
 LIB=	eventextra
 SRCS=	http.c evdns.c evrpc.c

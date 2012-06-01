@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-festival_lib_init_scm,v 1.1 2010/04/26 01:32:38 jakemsr Exp $
+$OpenBSD$
 --- festival/lib/init.scm.orig	Sat Apr 24 18:22:07 2010
 +++ festival/lib/init.scm	Sat Apr 24 18:34:12 2010
 @@ -93,8 +93,10 @@

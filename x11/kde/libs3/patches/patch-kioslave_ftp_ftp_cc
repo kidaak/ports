@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/libs3/patches/patch-kioslave_ftp_ftp_cc,v 1.5 2007/05/25 09:49:54 espie Exp $
+$OpenBSD$
 --- kioslave/ftp/ftp.cc.orig	Mon May 14 09:52:34 2007
 +++ kioslave/ftp/ftp.cc	Mon May 14 16:18:30 2007
 @@ -757,6 +757,14 @@ bool Ftp::ftpSendCmd( const QCString& cmd, int maxretr

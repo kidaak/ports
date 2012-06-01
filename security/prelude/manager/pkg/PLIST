@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/prelude/manager/pkg/PLIST,v 1.11 2011/05/11 08:24:41 ajacoutot Exp $
+@comment $OpenBSD$
 @extraunexec rm -rf /var/prelude/manager/*
 @extraunexec rm -rf /var/spool/prelude/prelude-manager/*
 @extraunexec rm -rf /var/spool/prelude-manager/failover/*

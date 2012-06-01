@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-enumerator/Makefile,v 1.8 2011/12/31 22:19:45 kili Exp $
+# $OpenBSD$
 
 COMMENT=		implementation of Oleg Kiselyov's left-fold enumerators
 

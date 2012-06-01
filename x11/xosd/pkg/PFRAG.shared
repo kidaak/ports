@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/xosd/pkg/PFRAG.shared,v 1.2 2005/12/26 18:45:11 naddy Exp $
+@comment $OpenBSD$
 @lib lib/libxosd.so.${LIBxosd_VERSION}

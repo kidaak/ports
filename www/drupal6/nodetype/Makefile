@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/nodetype/Makefile,v 1.6 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	change the content type of nodes
 

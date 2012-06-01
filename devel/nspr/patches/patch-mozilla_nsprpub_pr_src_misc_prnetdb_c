@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/nspr/patches/patch-mozilla_nsprpub_pr_src_misc_prnetdb_c,v 1.9 2011/08/23 20:07:08 landry Exp $
+$OpenBSD$
 --- mozilla/nsprpub/pr/src/misc/prnetdb.c.orig	Thu May 12 05:13:21 2011
 +++ mozilla/nsprpub/pr/src/misc/prnetdb.c	Tue Aug 16 09:16:00 2011
 @@ -2076,7 +2076,9 @@ PR_IMPLEMENT(PRAddrInfo *) PR_GetAddrInfoByName(const 

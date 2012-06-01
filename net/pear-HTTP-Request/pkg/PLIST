@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pear-HTTP-Request/pkg/PLIST,v 1.4 2009/11/18 19:16:08 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 pear/doc/HTTP_Request/
 pear/doc/HTTP_Request/docs/

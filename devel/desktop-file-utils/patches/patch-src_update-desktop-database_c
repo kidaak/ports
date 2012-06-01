@@ -1,5 +1,6 @@
-$OpenBSD: ports/devel/desktop-file-utils/patches/patch-src_update-desktop-database_c,v 1.8 2012/01/02 14:07:06 ajacoutot Exp $
+$OpenBSD$
 
+XXX remove when kde3 is gone;
 Quiet warnings about deprecated/discouraged and invalid MIME types.
 
 Under OpenBSD, desktop files are installed using INSTALL_DATA which is

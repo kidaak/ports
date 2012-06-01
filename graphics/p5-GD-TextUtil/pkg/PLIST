@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-GD-TextUtil/pkg/PLIST,v 1.6 2004/09/15 00:50:10 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/GD/
 ${P5SITE}/GD/Text/
 ${P5SITE}/GD/Text.pm

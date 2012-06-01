@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Filesys-Virtual-DAAP/Makefile,v 1.9 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	presents a DAAP share as a VFS
 

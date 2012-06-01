@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/py-pigment/pkg/PLIST,v 1.1.1.1 2009/10/13 19:39:12 landry Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/_pgmgtkmodule.a
 lib/python${MODPY_VERSION}/site-packages/_pgmgtkmodule.la
 lib/python${MODPY_VERSION}/site-packages/_pgmgtkmodule.so

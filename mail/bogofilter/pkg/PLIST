@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/bogofilter/pkg/PLIST,v 1.4 2007/12/19 21:44:08 bernd Exp $
+@comment $OpenBSD$
 bin/bf_compact
 bin/bf_copy
 bin/bf_tar

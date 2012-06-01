@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/aescrypt/pkg/PLIST,v 1.2 2004/09/15 18:35:59 espie Exp $
+@comment $OpenBSD$
 bin/aescrypt
 bin/aesget
 share/doc/aescrypt/

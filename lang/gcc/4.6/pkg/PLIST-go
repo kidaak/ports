@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/4.6/pkg/PLIST-go,v 1.2 2011/11/20 11:10:36 pascal Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/egccgo
 @bin bin/${CONFIG}-egccgo

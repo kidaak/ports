@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/bricolage/patches/patch-INSTALL,v 1.2 2007/09/21 21:17:56 sturm Exp $
+$OpenBSD$
 --- INSTALL.orig	Thu Aug  9 11:28:07 2007
 +++ INSTALL	Fri Sep 21 23:01:46 2007
 @@ -660,10 +660,7 @@ INSTALLATION

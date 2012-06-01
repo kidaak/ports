@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dspam/patches/patch-src_pgsql_drv_c,v 1.6 2010/10/24 12:14:08 naddy Exp $
+$OpenBSD$
 --- src/pgsql_drv.c.orig	Sat Jul 29 15:38:48 2006
 +++ src/pgsql_drv.c	Sun Oct 24 13:51:05 2010
 @@ -1146,7 +1146,7 @@ _ds_get_signature (DSPAM_CTX * CTX, struct _ds_spam_si

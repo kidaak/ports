@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/samdump2/patches/patch-samdump2_c,v 1.1.1.1 2009/06/02 08:36:02 benoit Exp $
+$OpenBSD$
 --- samdump2.c.orig	Thu Oct  2 15:44:47 2008
 +++ samdump2.c	Thu May 28 23:24:23 2009
 @@ -41,7 +41,12 @@

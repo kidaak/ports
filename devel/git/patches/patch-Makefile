@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/git/patches/patch-Makefile,v 1.32 2011/07/24 16:29:30 benoit Exp $
+$OpenBSD$
 --- Makefile.orig	Mon Jun 27 00:26:13 2011
 +++ Makefile	Sat Jul 16 14:44:47 2011
 @@ -271,7 +271,7 @@

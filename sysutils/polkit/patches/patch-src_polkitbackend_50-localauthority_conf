@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/polkit/patches/patch-src_polkitbackend_50-localauthority_conf,v 1.2 2011/04/28 13:09:07 ajacoutot Exp $
+$OpenBSD$
 --- src/polkitbackend/50-localauthority.conf.orig	Mon Jul  5 16:52:24 2010
 +++ src/polkitbackend/50-localauthority.conf	Mon Jul  5 16:52:30 2010
 @@ -1,6 +1,6 @@

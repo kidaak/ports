@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/xstatbar/patches/patch-stats_c,v 1.7 2011/11/17 14:23:36 robert Exp $
+$OpenBSD$
 
 If devinfo.type != AUDIO_MIXER_CLASS is true, xstatbar will never make
 progress and loop forever. Fix it by trying the next device.

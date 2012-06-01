@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/startup-notification/patches/patch-test_test-send-xmessage-xcb_c,v 1.1 2009/12/25 21:36:22 phessler Exp $
+$OpenBSD$
 --- test/test-send-xmessage-xcb.c.orig	Fri Dec 25 13:49:47 2009
 +++ test/test-send-xmessage-xcb.c	Fri Dec 25 13:50:16 2009
 @@ -34,6 +34,7 @@ main (int argc, char **argv)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/snort/Makefile,v 1.65 2012/04/07 08:31:39 mcbride Exp $
+# $OpenBSD$
 
 SHARED_ONLY = 		Yes
 

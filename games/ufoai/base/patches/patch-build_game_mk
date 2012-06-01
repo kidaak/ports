@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ufoai/base/patches/patch-build_game_mk,v 1.1.1.1 2011/05/27 07:20:11 ajacoutot Exp $
+$OpenBSD$
 --- build/game.mk.orig	Mon Nov 29 19:46:35 2010
 +++ build/game.mk	Mon Apr 18 16:04:15 2011
 @@ -86,10 +86,8 @@ endif

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/gv/Makefile,v 1.37 2011/06/05 15:03:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 	PostScript and PDF previewer
 

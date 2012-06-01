@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/popt/Makefile,v 1.20 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	getopt(3)-like library with a number of enhancements
 

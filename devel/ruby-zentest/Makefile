@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-zentest/Makefile,v 1.12 2011/11/27 11:13:16 pirofti Exp $
+# $OpenBSD$
 
 COMMENT =	ensures test coverage and accelerates TDD
 

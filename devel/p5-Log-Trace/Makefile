@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Log-Trace/Makefile,v 1.3 2010/12/03 11:44:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	provides a unified approach to tracing
 

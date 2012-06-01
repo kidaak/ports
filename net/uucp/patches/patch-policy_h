@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/uucp/patches/patch-policy_h,v 1.2 2003/12/14 01:39:18 naddy Exp $
+$OpenBSD$
 --- policy.h.orig	2003-11-11 20:37:44.000000000 +0100
 +++ policy.h	2003-11-11 20:55:38.000000000 +0100
 @@ -64,7 +64,7 @@

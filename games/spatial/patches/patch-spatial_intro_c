@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/spatial/patches/patch-spatial_intro_c,v 1.2 2007/12/05 14:08:36 ajacoutot Exp $
+$OpenBSD$
 --- spatial/intro.c.orig	Fri Aug 27 21:02:51 1993
 +++ spatial/intro.c	Wed Dec  5 15:03:28 2007
 @@ -3,8 +3,13 @@

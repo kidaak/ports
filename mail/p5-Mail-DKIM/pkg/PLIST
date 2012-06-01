@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Mail-DKIM/pkg/PLIST,v 1.4 2009/05/28 08:58:03 giovanni Exp $
+@comment $OpenBSD$
 ${P5SITE}/Mail/DKIM/
 ${P5SITE}/Mail/DKIM.pm
 ${P5SITE}/Mail/DKIM/Algorithm/

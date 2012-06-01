@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/tt-rss/pkg/README,v 1.2 2012/03/15 11:28:19 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/omake/patches/patch-src_build_omake_rule_ml,v 1.1 2010/11/22 08:50:26 dcoppa Exp $
+$OpenBSD$
 
 Patch from upstream: stdin <-> stdout fix (upstream r12115)
 

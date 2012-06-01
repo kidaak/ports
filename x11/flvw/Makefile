@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/flvw/Makefile,v 1.17 2010/11/22 08:36:56 espie Exp $
+# $OpenBSD$
 
 COMMENT=		FLTK Virtual styles, list, table, and complex table Widgets
 

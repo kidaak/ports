@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/vte/pkg/PLIST-main,v 1.20 2012/02/24 10:44:55 mpi Exp $
+@comment $OpenBSD$
 @conflict vte-ptyhelper-*
 @pkgpath devel/vte
 @pkgpath devel/vte,-main,gtk2

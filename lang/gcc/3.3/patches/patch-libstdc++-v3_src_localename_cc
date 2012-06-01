@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-libstdc++-v3_src_localename_cc,v 1.1 2005/10/30 19:24:11 espie Exp $
+$OpenBSD$
 --- libstdc++-v3/src/localename.cc.orig	Sun Oct 30 17:44:31 2005
 +++ libstdc++-v3/src/localename.cc	Sun Oct 30 17:47:13 2005
 @@ -125,8 +125,9 @@ namespace std

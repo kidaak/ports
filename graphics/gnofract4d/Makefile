@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gnofract4d/Makefile,v 1.2 2011/12/06 08:03:53 espie Exp $
+# $OpenBSD$
 
 COMMENT =		fractal image generator
 

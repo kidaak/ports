@@ -1,4 +1,4 @@
-# $OpenBSD: ports/korean/Makefile,v 1.6 2011/07/19 09:22:50 jasper Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += hanterm-xf

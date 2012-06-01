@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xpostit/Makefile,v 1.24 2010/10/24 21:15:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	PostIt (R) messages onto your X11 screen
 

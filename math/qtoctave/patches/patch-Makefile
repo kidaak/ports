@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/qtoctave/patches/patch-Makefile,v 1.1.1.1 2007/10/07 18:37:01 steven Exp $
+$OpenBSD$
 --- Makefile.orig	Tue Sep 18 21:10:47 2007
 +++ Makefile	Tue Sep 18 21:12:02 2007
 @@ -1,11 +1,11 @@

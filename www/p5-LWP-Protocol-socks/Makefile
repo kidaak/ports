@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-LWP-Protocol-socks/Makefile,v 1.3 2011/09/16 18:08:06 nigel Exp $
+# $OpenBSD$
 
 COMMENT =	adds support for SOCKS to p5-libwww
 

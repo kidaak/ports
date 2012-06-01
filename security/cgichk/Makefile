@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/cgichk/Makefile,v 1.16 2007/09/15 23:29:58 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	scans webservers for vulnerable CGI programs
 

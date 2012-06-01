@@ -1,4 +1,4 @@
-# $OpenBSD: ports/education/drgeo/Makefile,v 1.30 2011/11/03 16:49:54 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	interactive geometry program
 

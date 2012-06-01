@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/jimtcl/patches/patch-Makefile_in,v 1.2 2011/11/14 18:30:17 ajacoutot Exp $
+$OpenBSD$
 
 - Install docs into the right directory.
 - Add shared library versioning to libjim.

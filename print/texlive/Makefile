@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/texlive/Makefile,v 1.5 2011/03/08 00:09:42 edd Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += base

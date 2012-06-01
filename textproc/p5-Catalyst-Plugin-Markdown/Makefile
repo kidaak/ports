@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Catalyst-Plugin-Markdown/Makefile,v 1.5 2012/04/08 22:04:33 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	persistent Markdown processor for Catalyst
 

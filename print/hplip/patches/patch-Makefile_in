@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-Makefile_in,v 1.16 2012/02/23 16:03:03 ajacoutot Exp $
+$OpenBSD$
 
 libcompat is needed because hplip uses ftime(3).
 

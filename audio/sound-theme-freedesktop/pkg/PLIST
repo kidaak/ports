@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/sound-theme-freedesktop/pkg/PLIST,v 1.4 2011/05/23 14:20:59 ajacoutot Exp $
+@comment $OpenBSD$
 share/sounds/
 share/sounds/freedesktop/
 share/sounds/freedesktop/index.theme

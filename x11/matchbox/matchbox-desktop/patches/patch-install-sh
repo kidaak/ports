@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/matchbox/matchbox-desktop/patches/patch-install-sh,v 1.1.1.1 2005/06/17 02:57:31 jolan Exp $
+$OpenBSD$
 --- install-sh.orig	Thu Dec  9 09:27:15 2004
 +++ install-sh	Mon Jun  6 21:47:13 2005
 @@ -207,7 +207,7 @@ do

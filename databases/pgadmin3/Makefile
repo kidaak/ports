@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/pgadmin3/Makefile,v 1.23 2011/11/03 14:27:05 nigel Exp $
+# $OpenBSD$
 
 COMMENT=	administration and development platform for PostgreSQL
 

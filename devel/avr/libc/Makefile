@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/avr/libc/Makefile,v 1.18 2011/03/11 08:52:29 ckuethe Exp $
+# $OpenBSD$
 
 COMMENT=	libc for Atmel AVR 8-bit RISC microcontrollers
 

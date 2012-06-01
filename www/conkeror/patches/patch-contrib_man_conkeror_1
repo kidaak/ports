@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/conkeror/patches/patch-contrib_man_conkeror_1,v 1.1.1.1 2010/12/21 20:47:48 joshe Exp $
+$OpenBSD$
 --- contrib/man/conkeror.1.orig	Wed Dec 15 19:19:52 2010
 +++ contrib/man/conkeror.1	Sat Dec 18 09:21:00 2010
 @@ -170,7 +170,7 @@ See \fIhttp://conkeror.org/ConkerorRC\fP for the detai

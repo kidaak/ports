@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/enscript/patches/patch-src_psgen_c,v 1.3 2008/12/09 16:00:18 jasper Exp $
+$OpenBSD$
 
 Among the changes in this patch are security fixes for CVE-2008-3863
 and CVE-2008-4306 . Patch by Werner Fink, Debian #506261

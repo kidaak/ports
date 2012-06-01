@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Session-Store-File/Makefile,v 1.13 2012/04/08 21:58:51 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	catalyst file storage backend for session data
 

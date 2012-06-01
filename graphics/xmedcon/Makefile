@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/xmedcon/Makefile,v 1.24 2011/11/02 09:57:23 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	medical image conversion
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-ConfigLoader-Environment/Makefile,v 1.5 2012/04/08 21:58:26 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	configure your application with environment variables
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-MOP/Makefile,v 1.17 2011/04/09 19:09:47 simon Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

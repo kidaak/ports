@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libsigsegv/Makefile,v 1.10 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS = 	alpha amd64 arm i386 hppa m68k mips64 mips64el powerpc sparc64 sparc sh
 

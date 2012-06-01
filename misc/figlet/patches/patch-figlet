@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/figlet/patches/patch-figlet,v 1.4 2009/05/27 10:24:53 benoit Exp $
+$OpenBSD$
 --- figlet.6.orig	Thu Apr 10 14:59:31 2008
 +++ figlet.6	Mon May 25 22:07:34 2009
 @@ -54,7 +54,27 @@ FIGlet \- display large characters made up of ordinary

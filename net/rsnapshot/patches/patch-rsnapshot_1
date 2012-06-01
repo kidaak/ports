@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/rsnapshot/patches/patch-rsnapshot_1,v 1.3 2008/09/27 11:54:11 ajacoutot Exp $
+$OpenBSD$
 --- rsnapshot.1.orig	Fri Sep 19 11:02:40 2008
 +++ rsnapshot.1	Fri Sep 19 11:05:44 2008
 @@ -156,7 +156,7 @@ of cron jobs. It is possible, however, to run as any a

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/fbpanel/Makefile,v 1.18 2012/03/29 08:17:41 dcoppa Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

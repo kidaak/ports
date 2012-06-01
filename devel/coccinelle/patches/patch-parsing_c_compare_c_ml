@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/coccinelle/patches/patch-parsing_c_compare_c_ml,v 1.1.1.1 2011/05/14 15:02:50 sthen Exp $
+$OpenBSD$
 --- parsing_c/compare_c.ml.orig	Thu May  5 20:04:22 2011
 +++ parsing_c/compare_c.ml	Thu May  5 20:06:39 2011
 @@ -156,9 +156,9 @@ let compare_ast filename1 filename2  =

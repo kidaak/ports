@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/tcs/Makefile,v 1.22 2010/10/18 21:25:08 espie Exp $
+# $OpenBSD$
 
 COMMENT=	translate character sets
 

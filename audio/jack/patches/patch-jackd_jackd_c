@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/jack/patches/patch-jackd_jackd_c,v 1.2 2012/01/24 08:03:52 ajacoutot Exp $
+$OpenBSD$
 --- jackd/jackd.c.orig	Thu Jun  9 01:54:48 2011
 +++ jackd/jackd.c	Mon Jan 23 14:22:51 2012
 @@ -399,7 +399,7 @@ static void usage (FILE *file) 

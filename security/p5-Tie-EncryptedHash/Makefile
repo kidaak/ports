@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Tie-EncryptedHash/Makefile,v 1.7 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	hashes with encrypting fields
 

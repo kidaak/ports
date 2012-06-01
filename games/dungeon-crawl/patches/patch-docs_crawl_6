@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/dungeon-crawl/patches/patch-docs_crawl_6,v 1.1.1.1 2005/10/22 15:20:28 espie Exp $
+$OpenBSD$
 --- docs/crawl.6.orig	Wed Oct 19 12:01:32 2005
 +++ docs/crawl.6	Wed Oct 19 12:01:42 2005
 @@ -1,9 +1,9 @@

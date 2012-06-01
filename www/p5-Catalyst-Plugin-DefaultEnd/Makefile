@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-DefaultEnd/Makefile,v 1.9 2012/04/08 21:58:28 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		sensible default end action (deprecated)
 

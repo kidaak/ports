@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/gwaei/patches/patch-src_gwaei_Makefile_in,v 1.1.1.1 2012/03/13 01:08:42 fgsch Exp $
+$OpenBSD$
 --- src/gwaei/Makefile.in.orig	Sun Mar 11 02:15:13 2012
 +++ src/gwaei/Makefile.in	Sun Mar 11 02:15:30 2012
 @@ -321,7 +321,7 @@ top_builddir = @top_builddir@

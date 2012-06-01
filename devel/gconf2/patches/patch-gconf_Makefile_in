@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gconf2/patches/patch-gconf_Makefile_in,v 1.20 2012/03/23 13:24:10 ajacoutot Exp $
+$OpenBSD$
 --- gconf/Makefile.in.orig	Sat Mar 10 23:58:21 2012
 +++ gconf/Makefile.in	Sat Mar 17 08:13:49 2012
 @@ -400,7 +400,7 @@ INCLUDES = \

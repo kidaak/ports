@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-twisted/mail/pkg/PLIST,v 1.5 2011/12/08 20:15:40 eric Exp $
+@comment $OpenBSD$
 bin/mailmail
 lib/python${MODPY_VERSION}/site-packages/Twisted_Mail-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/twisted/mail/

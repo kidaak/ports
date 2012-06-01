@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/macutil/Makefile,v 1.14 2011/12/18 09:01:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		several programs to handle macintosh files and archives
 DISTNAME=		macutil2.0b3

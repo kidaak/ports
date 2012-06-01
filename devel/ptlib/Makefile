@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ptlib/Makefile,v 1.14 2012/03/02 09:03:52 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

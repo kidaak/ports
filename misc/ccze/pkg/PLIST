@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/misc/ccze/pkg/PLIST,v 1.4 2006/02/01 16:29:47 robert Exp $
+@comment $OpenBSD$
 bin/ccze
 bin/ccze-cssdump
 @comment include/ccze.h

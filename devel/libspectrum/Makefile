@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libspectrum/Makefile,v 1.20 2011/09/16 09:24:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=		ZX Spectrum emulator file format library
 DISTNAME=		libspectrum-1.0.0

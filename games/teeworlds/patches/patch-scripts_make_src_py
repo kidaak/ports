@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/teeworlds/patches/patch-scripts_make_src_py,v 1.1.1.1 2009/01/18 17:53:36 ajacoutot Exp $
+$OpenBSD$
 --- scripts/make_src.py.orig	Fri Jan 16 17:17:44 2009
 +++ scripts/make_src.py	Fri Jan 16 17:18:15 2009
 @@ -34,7 +34,7 @@ os.chdir(root_dir)

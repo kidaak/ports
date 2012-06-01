@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/libgda/pkg/PLIST-ui,v 1.18 2012/01/31 07:58:19 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict libgda-<4.2.8p1v2
 @bin bin/gda-browser-${GDA_MAJOR}
 @bin bin/gda-control-center-${GDA_MAJOR}

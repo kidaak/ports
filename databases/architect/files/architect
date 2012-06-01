@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # OpenBSD-specific startup script for Architect.
-# $OpenBSD: ports/databases/architect/files/architect,v 1.1.1.1 2007/01/13 01:01:34 ian Exp $
+# $OpenBSD$
 
 ARCHITECT_HOME=/usr/local/architect
 

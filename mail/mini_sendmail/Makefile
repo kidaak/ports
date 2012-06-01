@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mini_sendmail/Makefile,v 1.13 2011/06/02 13:41:39 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main=	accept email on behalf of real sendmail
 COMMENT-chroot=	static mini_sendmail for chrooted apache

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/video-effects/Makefile,v 1.1.1.1 2012/04/11 08:50:14 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	collection of GStreamer video effects
 

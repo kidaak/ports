@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/captcha/Makefile,v 1.6 2012/01/28 11:33:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	challenges and captcha
 

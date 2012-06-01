@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/node-bcrypt/pkg/PLIST,v 1.1.1.1 2012/04/03 18:41:57 jeremy Exp $
+@comment $OpenBSD$
 lib/node_modules/
 lib/node_modules/bcrypt/
 lib/node_modules/bcrypt/.lock-wscript

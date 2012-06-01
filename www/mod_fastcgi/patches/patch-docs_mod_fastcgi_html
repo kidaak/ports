@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_fastcgi/patches/patch-docs_mod_fastcgi_html,v 1.1 2007/04/28 11:49:56 mbalmer Exp $
+$OpenBSD$
 --- docs/mod_fastcgi.html.orig	Sat Apr 28 13:44:09 2007
 +++ docs/mod_fastcgi.html	Sat Apr 28 13:44:29 2007
 @@ -62,10 +62,6 @@

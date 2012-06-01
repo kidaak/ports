@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/tornado/Makefile,v 1.8 2011/03/15 10:38:57 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	Ouranos (Weather War) clone; multiplayer
 DISTNAME=	tornado-1.4

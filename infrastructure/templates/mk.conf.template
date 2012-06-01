@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/templates/mk.conf.template,v 1.8 2012/03/09 11:38:56 sthen Exp $
+# $OpenBSD$
 
 # This file contains some mk.conf entries suitable for ports work.
 #

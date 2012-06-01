@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/tre/pkg/PLIST,v 1.2 2009/06/20 20:06:55 kili Exp $
+@comment $OpenBSD$
 @conflict agrep-*
 @conflict glimpse-*
 @bin bin/agrep

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-MockTime/Makefile,v 1.3 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	replaces actual time with simulated time
 

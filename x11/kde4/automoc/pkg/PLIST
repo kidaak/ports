@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/automoc/pkg/PLIST,v 1.1.1.1 2010/06/18 09:17:16 espie Exp $
+@comment $OpenBSD$
 @bin bin/automoc4
 lib/automoc4/
 lib/automoc4/Automoc4Config.cmake

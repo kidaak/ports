@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Time-TimeDate/Makefile,v 1.16 2010/12/03 11:44:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	library for parsing and formatting dates and times
 

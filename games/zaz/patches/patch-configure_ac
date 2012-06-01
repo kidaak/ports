@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/zaz/patches/patch-configure_ac,v 1.1.1.1 2011/05/31 17:51:32 kili Exp $
+$OpenBSD$
 --- configure.ac.orig	Fri Jul 23 16:18:23 2010
 +++ configure.ac	Tue May 31 19:37:17 2011
 @@ -14,7 +14,7 @@ PKG_CHECK_MODULES(ZAZ, [sdl vorbisfile theoraenc theor

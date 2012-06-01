@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/castle-combat/patches/patch-data_doc_rules_html,v 1.1 2007/12/04 14:43:17 ajacoutot Exp $
+$OpenBSD$
 --- data/doc/rules.html.orig	Tue Dec  4 15:21:32 2007
 +++ data/doc/rules.html	Tue Dec  4 15:21:47 2007
 @@ -64,7 +64,7 @@

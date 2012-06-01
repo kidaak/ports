@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-Format/Makefile,v 1.1.1.1 2011/03/16 14:21:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		various subroutines to format text
 

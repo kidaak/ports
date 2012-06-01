@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/hs-haskell-src-exts/Makefile,v 1.9 2011/09/16 10:31:21 espie Exp $
+# $OpenBSD$
 
 COMMENT=		abstract syntax, lexer, parser and pretty printer
 

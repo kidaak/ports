@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-# $OpenBSD: ports/devel/arduino/files/arduinoboot,v 1.1.1.1 2011/09/17 16:41:30 jasper Exp $
+# $OpenBSD$
 # Copyright (c) 2011 Chris Kuethe <ckuethe@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

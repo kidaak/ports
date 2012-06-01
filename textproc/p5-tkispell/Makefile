@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-tkispell/Makefile,v 1.10 2011/09/16 11:41:41 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Perl/Tk graphical user interface to GNU ispell
 

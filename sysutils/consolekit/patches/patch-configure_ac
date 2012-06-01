@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/consolekit/patches/patch-configure_ac,v 1.5 2011/04/28 13:08:33 ajacoutot Exp $
+$OpenBSD$
 --- configure.ac.orig	Tue Oct 26 16:34:03 2010
 +++ configure.ac	Tue Nov 30 15:34:31 2010
 @@ -176,6 +176,14 @@ dnl --------------------------------------------------

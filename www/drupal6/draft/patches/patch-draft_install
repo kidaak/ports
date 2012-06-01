@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/drupal6/draft/patches/patch-draft_install,v 1.1.1.1 2009/10/10 13:42:46 espie Exp $
+$OpenBSD$
 --- draft.install.orig	Sat Oct 10 15:17:15 2009
 +++ draft.install	Sat Oct 10 15:17:30 2009
 @@ -37,10 +37,10 @@ function draft_schema() {

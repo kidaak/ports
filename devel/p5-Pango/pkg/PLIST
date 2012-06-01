@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Pango/pkg/PLIST,v 1.1.1.1 2009/06/07 08:45:52 landry Exp $
+@comment $OpenBSD$
 @conflict p5-Gtk2-<1.220
 ${P5ARCH}/Pango/
 ${P5ARCH}/Pango.pm

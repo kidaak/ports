@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-Telnet/Makefile,v 1.12 2010/12/03 11:45:42 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		perl5 module for interactive network functions
 

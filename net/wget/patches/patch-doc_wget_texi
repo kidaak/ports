@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/wget/patches/patch-doc_wget_texi,v 1.4 2011/10/12 10:14:30 dcoppa Exp $
+$OpenBSD$
 --- doc/wget.texi.orig	Sat Aug  6 12:22:58 2011
 +++ doc/wget.texi	Thu Oct  6 10:25:12 2011
 @@ -10,6 +10,11 @@

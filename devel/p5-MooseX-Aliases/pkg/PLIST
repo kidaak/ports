@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-MooseX-Aliases/pkg/PLIST,v 1.1.1.1 2011/11/16 14:55:51 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/MooseX/
 ${P5SITE}/MooseX/Aliases/
 ${P5SITE}/MooseX/Aliases.pm

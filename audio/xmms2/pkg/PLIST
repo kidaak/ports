@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/xmms2/pkg/PLIST,v 1.4 2010/04/24 17:37:54 jasper Exp $
+@comment $OpenBSD$
 @bin bin/nyxmms2
 @bin bin/vistest
 @bin bin/vistest-fft

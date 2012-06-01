@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/tphdisk/Makefile,v 1.6 2010/07/30 14:36:30 naddy Exp $
+# $OpenBSD$
 
 # not useful on anything else
 ONLY_FOR_ARCHS=	i386

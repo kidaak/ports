@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Devel-GlobalDestruction/Makefile,v 1.6 2010/12/28 22:28:26 benoit Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

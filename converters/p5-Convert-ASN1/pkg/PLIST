@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Convert-ASN1/pkg/PLIST,v 1.7 2004/09/14 23:25:50 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Convert/
 ${P5SITE}/Convert/ASN1/
 ${P5SITE}/Convert/ASN1.pm

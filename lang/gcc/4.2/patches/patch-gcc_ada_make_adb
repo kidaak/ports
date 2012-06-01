@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.2/patches/patch-gcc_ada_make_adb,v 1.1.1.1 2006/07/31 09:50:53 espie Exp $
+$OpenBSD$
 --- gcc/ada/make.adb.orig	Tue Nov 15 15:00:29 2005
 +++ gcc/ada/make.adb	Sat Mar  4 14:34:45 2006
 @@ -601,7 +601,7 @@ package body Make is

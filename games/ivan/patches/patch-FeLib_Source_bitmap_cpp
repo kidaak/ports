@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ivan/patches/patch-FeLib_Source_bitmap_cpp,v 1.2 2010/05/23 15:58:02 espie Exp $
+$OpenBSD$
 --- FeLib/Source/bitmap.cpp.orig	Tue Oct 26 21:35:47 2004
 +++ FeLib/Source/bitmap.cpp	Sat May 22 07:28:38 2010
 @@ -2047,10 +2047,10 @@ void cachedfont::PrintCharacter(const blitdata B) cons

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/cdparanoia/Makefile,v 1.22 2010/10/18 21:35:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	CDDA reading utility with extra data verification features
 

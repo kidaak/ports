@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gaia/patches/patch-programs_gaia_GPSSourceGPSD_cc,v 1.1 2010/11/25 08:58:49 sebastia Exp $
+$OpenBSD$
 
 Fix build with newer gpsd, patch found in Debian bugzilla:
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=560242

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mpg321/Makefile,v 1.26 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 # not very useful with static libao
 SHARED_ONLY=	Yes

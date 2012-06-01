@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/nail/patches/patch-openssl_c,v 1.1 2010/10/03 21:24:52 sthen Exp $
+$OpenBSD$
 
 work with OpenSSL 1.0, from upstream repo.
 

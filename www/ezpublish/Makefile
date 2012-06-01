@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/ezpublish/Makefile,v 1.8 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT =	professional PHP application framework
 

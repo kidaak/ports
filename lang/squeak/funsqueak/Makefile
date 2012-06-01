@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/squeak/funsqueak/Makefile,v 1.3 2010/11/17 08:05:18 espie Exp $
+# $OpenBSD$
 
 
 COMMENT =	smalltalk system, exploration image

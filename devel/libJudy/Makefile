@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libJudy/Makefile,v 1.11 2011/11/18 10:13:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=		general purpose dynamic array
 

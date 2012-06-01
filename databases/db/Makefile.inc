@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/db/Makefile.inc,v 1.31 2011/10/17 10:10:59 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=	Berkeley DB package, revision ${REV}
 COMMENT-tcl=	TCL bindings for Berkeley DB, revision ${REV}

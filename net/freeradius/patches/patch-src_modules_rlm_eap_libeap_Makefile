@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/freeradius/patches/patch-src_modules_rlm_eap_libeap_Makefile,v 1.5 2008/12/29 19:17:36 rui Exp $
+$OpenBSD$
 --- src/modules/rlm_eap/libeap/Makefile.orig	Fri Dec  5 16:37:56 2008
 +++ src/modules/rlm_eap/libeap/Makefile	Sun Dec 28 00:26:20 2008
 @@ -27,7 +27,7 @@ TARGET		= $(LIBPREFIX)freeradius-eap

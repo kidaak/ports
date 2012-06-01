@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/klavaro/Makefile,v 1.12 2011/12/03 23:20:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	touch typing tutor program
 

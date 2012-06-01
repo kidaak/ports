@@ -1,8 +1,8 @@
-# $OpenBSD: ports/devel/gobject-introspection/Makefile,v 1.57 2012/03/29 07:46:17 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		GObject Introspection
 
-GNOME_VERSION=		1.32.0
+GNOME_VERSION=		1.32.1
 GNOME_PROJECT=		gobject-introspection
 CATEGORIES=		devel
 

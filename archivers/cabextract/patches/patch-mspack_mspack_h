@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/cabextract/patches/patch-mspack_mspack_h,v 1.1 2010/07/31 00:30:27 kevlo Exp $
+$OpenBSD$
 --- mspack/mspack.h.orig	Fri Jul 30 16:35:48 2010
 +++ mspack/mspack.h	Fri Jul 30 16:36:00 2010
 @@ -360,7 +360,7 @@ struct mspack_system {

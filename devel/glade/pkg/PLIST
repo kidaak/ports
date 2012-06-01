@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/glade/pkg/PLIST,v 1.17 2012/03/29 07:19:46 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict glade3-<3.8.0p1
 @bin bin/glade
 @bin bin/glade-previewer

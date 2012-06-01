@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/consolekit/patches/patch-src_Makefile_in,v 1.4 2011/04/28 13:08:33 ajacoutot Exp $
+$OpenBSD$
 --- src/Makefile.in.orig	Thu Feb 17 00:44:31 2011
 +++ src/Makefile.in	Wed Apr 27 15:40:59 2011
 @@ -48,6 +48,10 @@ host_triplet = @host@

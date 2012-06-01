@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/gpsbabel/patches/patch-gui_serial_unix_cpp,v 1.1 2012/02/18 22:04:07 sthen Exp $
+$OpenBSD$
 --- gui/serial_unix.cpp.orig	Sun Jan 15 20:10:04 2012
 +++ gui/serial_unix.cpp	Sun Jan 15 20:11:26 2012
 @@ -22,12 +22,12 @@

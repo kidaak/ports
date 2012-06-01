@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/slirp/patches/patch-options_c,v 1.1 2003/06/20 13:41:50 avsm Exp $
+$OpenBSD$
 --- options.c.orig	Fri Jan 12 07:09:37 1996
 +++ options.c	Fri Jun 20 14:32:14 2003
 @@ -335,22 +335,22 @@ cfg_redir(buff, inso)

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/haddock/Makefile,v 1.36 2012/01/12 20:20:05 kili Exp $
+# $OpenBSD$
 
 COMMENT-main =	documentation-generation tool for Haskell libraries
 COMMENT-lib =	haddock library

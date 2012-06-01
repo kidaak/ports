@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/ruby-multi_json/pkg/PLIST,v 1.1.1.1 2011/12/13 17:33:30 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/.document

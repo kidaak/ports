@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-mysql/pkg/PLIST,v 1.11 2010/11/14 08:57:19 benoit Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/MySQL_python-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/MySQL_python-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/MySQL_python-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

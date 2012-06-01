@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/libdmtx/pkg/PFRAG.shared,v 1.1.1.1 2012/01/14 08:55:17 sebastia Exp $
+@comment $OpenBSD$
 @lib lib/libdmtx.so.${LIBdmtx_VERSION}

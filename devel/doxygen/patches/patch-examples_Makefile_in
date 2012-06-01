@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/doxygen/patches/patch-examples_Makefile_in,v 1.4 2010/11/04 20:13:10 sthen Exp $
+$OpenBSD$
 --- examples/Makefile.in.orig	Sun Jul 20 13:16:34 2008
 +++ examples/Makefile.in	Thu Sep 16 11:35:27 2010
 @@ -114,7 +114,5 @@ docstring/html/index.html: docstring.py docstring.cfg

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/openal/pkg/PFRAG.shared,v 1.2 2005/12/23 16:10:48 espie Exp $
+@comment $OpenBSD$
 @lib lib/libopenal.so.${LIBopenal_VERSION}

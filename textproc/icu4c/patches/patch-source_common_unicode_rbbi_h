@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/icu4c/patches/patch-source_common_unicode_rbbi_h,v 1.3 2011/06/14 10:12:48 ajacoutot Exp $
+$OpenBSD$
 --- source/common/unicode/rbbi.h.orig	Mon May 23 23:56:00 2011
 +++ source/common/unicode/rbbi.h	Tue Jun  7 14:42:15 2011
 @@ -663,12 +663,14 @@ class U_COMMON_API RuleBasedBreakIterator : public Bre

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/umfpack/pkg/PLIST,v 1.2 2010/03/24 16:09:34 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 %%no_mips64%%
 include/umfpack/

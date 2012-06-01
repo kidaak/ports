@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/pantomime/patches/patch-Framework_Pantomime_CWParser_m,v 1.1.1.1 2007/07/29 14:15:31 ajacoutot Exp $
+$OpenBSD$
 --- Framework/Pantomime/CWParser.m.orig	Mon May 21 16:27:17 2007
 +++ Framework/Pantomime/CWParser.m	Mon May 21 16:27:25 2007
 @@ -40,7 +40,7 @@

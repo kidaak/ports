@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/node-fibers/patches/patch-fibers_js,v 1.1.1.1 2012/04/03 18:46:03 jeremy Exp $
+$OpenBSD$
 
 Don't check mtimes against process, as it appears to break things
 and should not be a problem with ports.

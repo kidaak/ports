@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/unison/snapshot/Makefile,v 1.10 2010/10/11 08:16:52 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	multi-platform file synchronization tool, beta version
 

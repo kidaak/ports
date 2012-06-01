@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/js-common/Makefile,v 1.3 2011/09/28 09:47:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		shared JavaScript files for GNOME
 

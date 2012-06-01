@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Mail-SPF-Test/pkg/PLIST,v 1.1.1.1 2011/09/21 08:01:26 giovanni Exp $
+@comment $OpenBSD$
 ${P5SITE}/Mail/
 ${P5SITE}/Mail/SPF/
 ${P5SITE}/Mail/SPF/Test/

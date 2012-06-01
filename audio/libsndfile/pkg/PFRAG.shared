@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/libsndfile/pkg/PFRAG.shared,v 1.7 2005/12/23 15:03:09 espie Exp $
+@comment $OpenBSD$
 @lib lib/libsndfile.so.${LIBsndfile_VERSION}

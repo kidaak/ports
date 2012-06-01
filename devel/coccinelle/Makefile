@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/coccinelle/Makefile,v 1.14 2011/11/03 22:13:23 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

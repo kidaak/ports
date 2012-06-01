@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/clutter/clutter-gst/pkg/PLIST,v 1.3 2010/09/27 15:11:08 jasper Exp $
+@comment $OpenBSD$
 include/clutter-${MAJOR}/
 include/clutter-${MAJOR}/clutter-gst/
 include/clutter-${MAJOR}/clutter-gst/clutter-gst-audio.h

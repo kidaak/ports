@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_config_rs6000_t-openbsd,v 1.2 2011/11/14 22:37:23 pascal Exp $
+$OpenBSD$
 --- gcc/config/rs6000/t-openbsd.orig	Mon Nov 14 12:16:44 2011
 +++ gcc/config/rs6000/t-openbsd	Mon Nov 14 13:23:24 2011
 @@ -0,0 +1,48 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/kermit/Makefile,v 1.29 2012/04/06 15:57:52 merdely Exp $
+# $OpenBSD$
 
 COMMENT =		serial and network communications package
 

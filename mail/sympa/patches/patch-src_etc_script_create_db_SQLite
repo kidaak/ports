@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/sympa/patches/patch-src_etc_script_create_db_SQLite,v 1.2 2011/08/16 10:06:58 landry Exp $
+$OpenBSD$
 fix non-sqlite keywords ?
 --- src/etc/script/create_db.SQLite.orig	Mon Jan 17 08:53:45 2011
 +++ src/etc/script/create_db.SQLite	Sun Aug  7 11:40:00 2011

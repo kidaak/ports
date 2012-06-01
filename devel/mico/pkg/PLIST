@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mico/pkg/PLIST,v 1.6 2010/09/22 08:42:53 landry Exp $
+@comment $OpenBSD$
 @pkgpath devel/mico,ssl
 %%SHARED%%
 @bin bin/eventd

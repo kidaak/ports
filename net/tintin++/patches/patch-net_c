@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tintin++/patches/patch-net_c,v 1.1 2007/10/26 22:10:06 ajacoutot Exp $
+$OpenBSD$
 --- net.c.orig	Sun Aug 28 16:12:10 1994
 +++ net.c	Sat Oct 27 00:05:07 2007
 @@ -80,7 +80,7 @@ int connect_mud(host, port, ses)

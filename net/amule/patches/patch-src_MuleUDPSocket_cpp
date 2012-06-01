@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_MuleUDPSocket_cpp,v 1.1 2011/12/11 18:31:13 dcoppa Exp $
+$OpenBSD$
 
 Fix: disabling protocol obfuscation broke Kad and triggered assertions
 (upstream git commit ec2e66216738f92724a37fa030a79734e0e8b1ba)

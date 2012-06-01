@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/qemu/Makefile,v 1.85 2012/03/16 11:40:53 fgsch Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	amd64 arm hppa i386 mips64 mips64el powerpc sparc sparc64
 BROKEN-hppa=	compiler bug with gcc 4.2

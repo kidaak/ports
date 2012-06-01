@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/thttpd/patches/patch-Makefile_in,v 1.1 2001/03/19 17:43:11 wilfried Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Jul  4 18:21:32 2000
 +++ Makefile.in	Mon Mar 19 17:58:13 2001
 @@ -50,7 +50,7 @@ CC =		@CC@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde4/extragear-plasma/Makefile,v 1.11 2011/07/06 21:25:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		K Desktop Environment, extra plasmoids
 DISTNAME =		extragear-plasma-${VERSION}

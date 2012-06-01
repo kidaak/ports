@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/xcache/pkg/PLIST,v 1.5 2011/07/08 22:52:23 robert Exp $
+@comment $OpenBSD$
 lib/php-${MODPHP_VERSION}/modules/xcache.so
 share/examples/php-${MODPHP_VERSION}/xcache.ini
 @sample ${SYSCONFDIR}/php-${MODPHP_VERSION}.sample/xcache.ini

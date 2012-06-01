@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/ruby-hyperestraier/patches/patch-rubynative_configure,v 1.3 2011/07/12 18:06:23 jeremy Exp $
+$OpenBSD$
 --- rubynative/configure.orig	Mon Dec 24 17:53:40 2007
 +++ rubynative/configure	Fri Jul  8 09:01:02 2011
 @@ -1228,8 +1228,6 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu

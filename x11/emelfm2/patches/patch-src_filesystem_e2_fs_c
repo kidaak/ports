@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/emelfm2/patches/patch-src_filesystem_e2_fs_c,v 1.5 2010/05/04 07:25:54 giovanni Exp $
+$OpenBSD$
 --- src/filesystem/e2_fs.c.orig	Sun Dec 20 00:52:08 2009
 +++ src/filesystem/e2_fs.c	Mon Apr 12 19:47:33 2010
 @@ -58,7 +58,7 @@ Not implemented yet.

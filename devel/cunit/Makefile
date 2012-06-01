@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cunit/Makefile,v 1.6 2011/08/19 08:04:02 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		c unit testing framework
 

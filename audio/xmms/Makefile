@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/xmms/Makefile,v 1.77 2011/11/04 08:42:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main=		Multimedia player for the X Window System
 COMMENT-vorbis=		Ogg Vorbis input plugin for XMMS

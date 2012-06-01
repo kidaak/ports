@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/dictd/Makefile,v 1.7 2010/10/23 11:04:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main=	Dictionary Server Protocol client
 COMMENT-server=	Dictionary Server Protocol server

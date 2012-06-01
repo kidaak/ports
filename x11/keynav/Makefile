@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/keynav/Makefile,v 1.5 2010/10/24 21:15:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	turns your keyboard into an fast pointer mover
 

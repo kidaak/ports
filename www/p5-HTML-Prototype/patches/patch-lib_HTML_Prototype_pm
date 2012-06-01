@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-HTML-Prototype/patches/patch-lib_HTML_Prototype_pm,v 1.2 2006/10/08 21:54:15 espie Exp $
+$OpenBSD$
 --- lib/HTML/Prototype.pm.orig	Fri Jul 14 01:57:40 2006
 +++ lib/HTML/Prototype.pm	Fri Oct  6 23:29:09 2006
 @@ -646,11 +646,11 @@ sub javascript_tag {

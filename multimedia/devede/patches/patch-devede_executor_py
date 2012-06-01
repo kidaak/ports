@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/devede/patches/patch-devede_executor_py,v 1.8 2011/11/27 16:53:55 ajacoutot Exp $
+$OpenBSD$
 --- devede_executor.py.orig	Sat Nov 26 14:51:25 2011
 +++ devede_executor.py	Sun Nov 27 17:47:18 2011
 @@ -177,7 +177,7 @@ class executor:

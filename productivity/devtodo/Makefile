@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/devtodo/Makefile,v 1.18 2010/11/05 07:57:07 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		reminder/task program aimed at developers
 

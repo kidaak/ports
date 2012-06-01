@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/emulators/fuse/pkg/PFRAG.no-gtk,v 1.1 2009/01/07 17:59:40 grange Exp $
+@comment $OpenBSD$
 share/fuse/fuse.font

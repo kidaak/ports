@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xforms/patches/patch-lib_Imakefile,v 1.1 2005/12/31 17:29:38 naddy Exp $
+$OpenBSD$
 --- lib/Imakefile.orig	Sat Dec 31 17:55:11 2005
 +++ lib/Imakefile	Sat Dec 31 17:58:16 2005
 @@ -150,7 +150,7 @@ CCOPTIONS	=

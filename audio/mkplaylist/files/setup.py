@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mkplaylist/files/setup.py,v 1.1.1.1 2008/06/04 07:33:20 sthen Exp $
+# $OpenBSD$
 
 from distutils.core import setup
 import sys, os

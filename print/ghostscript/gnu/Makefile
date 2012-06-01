@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/ghostscript/gnu/Makefile,v 1.90 2012/03/09 10:59:54 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GNU PostScript interpreter
 

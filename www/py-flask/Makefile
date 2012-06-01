@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/py-flask/Makefile,v 1.7 2011/12/29 15:14:01 fgsch Exp $
+# $OpenBSD$
 
 COMMENT = 	microframework based on Werkzeug and Jinja 2
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/rplay/patches/patch-rplayd_cdrom_c,v 1.1 2011/07/08 09:26:55 jasper Exp $
+$OpenBSD$
 --- rplayd/cdrom.c.orig	Wed Mar 10 08:58:02 1999
 +++ rplayd/cdrom.c	Fri Jul  8 11:24:13 2011
 @@ -46,14 +46,18 @@ CDROM_TABLE cdrom_table[MAX_CDROMS] =

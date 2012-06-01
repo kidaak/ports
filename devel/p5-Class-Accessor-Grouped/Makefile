@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Accessor-Grouped/Makefile,v 1.9 2011/05/10 13:13:51 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	lets you build groups of accessors
 

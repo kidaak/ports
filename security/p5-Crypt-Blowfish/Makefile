@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-Blowfish/Makefile,v 1.18 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

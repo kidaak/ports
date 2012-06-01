@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/p5-Archive-Zip/pkg/PLIST,v 1.7 2006/11/21 18:33:09 jasper Exp $
+@comment $OpenBSD$
 bin/crc32
 ${P5SITE}/Archive/
 ${P5SITE}/Archive/Zip/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/crimson/pkg/PLIST,v 1.12 2009/12/22 16:28:00 ajacoutot Exp $
+@comment $OpenBSD$
 bin/bi2cf
 bin/cfed
 bin/comet

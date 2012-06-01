@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/spdrs60/Makefile,v 1.3 2011/09/16 10:31:23 espie Exp $
+# $OpenBSD$
 
 COMMENT =	graphical SRCP client to control a digital model railway
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-WWW-Google-SiteMap/Makefile,v 1.7 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	perl interface to google sitemap protocol
 

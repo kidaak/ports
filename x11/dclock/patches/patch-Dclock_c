@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/dclock/patches/patch-Dclock_c,v 1.1 2004/05/21 10:48:48 xsa Exp $
+$OpenBSD$
 --- Dclock.c.orig	2004-05-19 15:22:57.000000000 +0200
 +++ Dclock.c	2004-05-19 15:22:58.000000000 +0200
 @@ -36,7 +36,7 @@ static Pixmap old_pix[4];

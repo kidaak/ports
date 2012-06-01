@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/icewm/patches/patch-configure,v 1.12 2010/12/12 19:13:01 jasper Exp $
+$OpenBSD$
 --- configure.orig	Thu Dec  9 16:07:00 2010
 +++ configure	Thu Dec  9 16:07:51 2010
 @@ -2624,7 +2624,7 @@ test -n "$target_alias" &&

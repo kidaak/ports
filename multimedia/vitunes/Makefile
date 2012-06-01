@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/vitunes/Makefile,v 1.6 2011/09/08 16:34:02 naddy Exp $
+# $OpenBSD$
 
 COMMENT =		curses media indexer and player for vi users
 

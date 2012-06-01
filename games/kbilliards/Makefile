@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/kbilliards/Makefile,v 1.23 2011/12/03 19:49:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 		billiard game
 CATEGORIES=		x11 x11/kde games

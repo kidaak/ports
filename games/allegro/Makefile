@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/allegro/Makefile,v 1.8 2012/02/21 16:21:41 ajacoutot Exp $
+# $OpenBSD$
 
 BROKEN-hppa =	./src/x/xdga2s.s:25: Error: symbol .text is already defined
 

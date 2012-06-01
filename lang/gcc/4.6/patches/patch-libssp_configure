@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libssp_configure,v 1.1 2012/01/26 13:17:22 pascal Exp $
+$OpenBSD$
 --- libssp/configure.orig	Wed Jan 25 17:51:22 2012
 +++ libssp/configure	Wed Jan 25 17:51:31 2012
 @@ -10057,7 +10057,7 @@ openbsd*)

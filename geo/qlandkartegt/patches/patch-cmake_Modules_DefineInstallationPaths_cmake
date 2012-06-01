@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qlandkartegt/patches/patch-cmake_Modules_DefineInstallationPaths_cmake,v 1.1.1.1 2010/12/21 09:05:17 sebastia Exp $
+$OpenBSD$
 
 Install man pages in correct directory
 

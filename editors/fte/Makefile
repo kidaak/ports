@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/fte/Makefile,v 1.5 2011/01/16 19:58:18 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	powerful and intuitive editor for programmers
 

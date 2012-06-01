@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/cad/geda-gaf/pkg/PLIST,v 1.1.1.1 2010/04/11 22:22:40 edd Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/convert_sym
 bin/garchive

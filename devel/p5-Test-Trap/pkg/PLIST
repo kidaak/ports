@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Test-Trap/pkg/PLIST,v 1.1.1.1 2011/01/04 10:12:57 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/Test/Trap/
 ${P5SITE}/Test/Trap.pm
 ${P5SITE}/Test/Trap/Builder/

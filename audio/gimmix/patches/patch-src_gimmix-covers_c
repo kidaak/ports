@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/gimmix/patches/patch-src_gimmix-covers_c,v 1.1 2011/07/05 08:18:29 jasper Exp $
+$OpenBSD$
 --- src/gimmix-covers.c.orig	Tue Jul  5 08:45:56 2011
 +++ src/gimmix-covers.c	Tue Jul  5 08:46:37 2011
 @@ -29,7 +29,6 @@

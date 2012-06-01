@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/ruby-thin/pkg/PLIST,v 1.5 2011/11/17 15:53:54 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/thin${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/

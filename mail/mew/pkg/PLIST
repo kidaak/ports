@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/mew/pkg/PLIST,v 1.1.1.1 2007/05/31 18:06:54 aanriot Exp $
+@comment $OpenBSD$
 bin/incm
 bin/mew-pinentry
 bin/mewcat

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/pdfkit/patches/patch-configure,v 1.2 2011/07/27 19:55:40 sebastia Exp $
+$OpenBSD$
 --- configure.orig	Wed Jul 27 10:34:17 2011
 +++ configure	Wed Jul 27 14:44:10 2011
 @@ -1785,7 +1785,7 @@ ac_compiler_gnu=$ac_cv_c_compiler_gnu

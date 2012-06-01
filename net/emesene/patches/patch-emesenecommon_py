@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/emesene/patches/patch-emesenecommon_py,v 1.1.1.1 2008/07/10 13:22:41 wcmaier Exp $
+$OpenBSD$
 --- emesenecommon.py.orig	Mon Mar 24 19:46:56 2008
 +++ emesenecommon.py	Thu Jul 10 07:05:25 2008
 @@ -33,10 +33,11 @@ class PATH(object):

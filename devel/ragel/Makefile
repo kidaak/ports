@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ragel/Makefile,v 1.1.1.1 2011/11/15 16:35:15 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	state machine compiler
 

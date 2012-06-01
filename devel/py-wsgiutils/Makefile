@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-wsgiutils/Makefile,v 1.9 2011/09/16 09:24:56 espie Exp $
+# $OpenBSD$
 
 COMMENT =		libraries for WSGI development
 

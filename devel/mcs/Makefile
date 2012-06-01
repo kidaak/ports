@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/mcs/Makefile,v 1.6 2010/12/06 08:23:24 shadchin Exp $
+# $OpenBSD$
 
 COMMENT =	abstract the storage of configuration settings
 

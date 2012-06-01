@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/slim/patches/patch-Makefile_openbsd,v 1.1.1.1 2007/10/24 23:32:00 landry Exp $
+$OpenBSD$
 --- Makefile.openbsd.orig	Wed Oct 24 19:29:25 2007
 +++ Makefile.openbsd	Wed Oct 24 19:31:24 2007
 @@ -5,12 +5,10 @@

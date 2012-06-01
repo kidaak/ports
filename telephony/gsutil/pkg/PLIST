@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/telephony/gsutil/pkg/PLIST,v 1.1.1.1 2008/03/20 18:59:15 ian Exp $
+@comment $OpenBSD$
 bin/gsutil
 share/doc/gsutil/
 share/doc/gsutil/README

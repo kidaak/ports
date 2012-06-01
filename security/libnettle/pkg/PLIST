@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/libnettle/pkg/PLIST,v 1.3 2011/10/12 06:03:41 rpointel Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/nettle-hash
 @bin bin/nettle-lfib-stream

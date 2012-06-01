@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTTP-Server-Simple-Mason/Makefile,v 1.8 2011/04/10 19:08:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	abstract baseclass for a standalone mason server
 

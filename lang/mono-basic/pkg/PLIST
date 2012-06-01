@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/mono-basic/pkg/PLIST,v 1.4 2011/11/09 22:23:42 robert Exp $
+@comment $OpenBSD$
 bin/vbnc
 bin/vbnc2
 lib/mono/2.0/Microsoft.VisualBasic.dll

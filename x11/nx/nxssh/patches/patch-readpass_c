@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/nx/nxssh/patches/patch-readpass_c,v 1.1.1.1 2008/06/13 17:13:42 jasper Exp $
+$OpenBSD$
 --- readpass.c.orig	Tue Jun  3 13:48:22 2008
 +++ readpass.c	Tue Jun  3 13:49:38 2008
 @@ -176,6 +176,11 @@ read_passphrase(const char *prompt, int flags)

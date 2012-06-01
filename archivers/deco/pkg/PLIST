@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/deco/pkg/PLIST,v 1.2 2010/04/20 10:25:09 kevlo Exp $
+@comment $OpenBSD$
 @conflict deco-*
 @bin bin/deco
 share/deco/

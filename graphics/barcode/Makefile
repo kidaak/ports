@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/barcode/Makefile,v 1.8 2010/11/17 08:05:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	convert text strings to printed bars
 

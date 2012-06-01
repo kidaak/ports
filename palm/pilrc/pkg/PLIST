@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/palm/pilrc/pkg/PLIST,v 1.4 2010/03/21 10:41:43 jasper Exp $
+@comment $OpenBSD$
 @pkgpath palm/pilrc,no_x11
 @bin bin/pilrc
 share/doc/pilrc/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pyrex/pkg/PLIST,v 1.4 2010/09/05 17:18:22 jasper Exp $
+@comment $OpenBSD$
 @conflict Pyrex-*
 bin/pyrexc
 lib/python${MODPY_VERSION}/site-packages/Pyrex/

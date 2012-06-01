@@ -1,9 +1,9 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/icinga/core/pkg/icinga.rc,v 1.2 2011/12/17 22:01:13 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/icinga -d"
-daemon_flags="${SYSCONFDIR}/icinga/icinga.cfg"
+daemon_flags="${SYSCONFDIR}/icinga.cfg"
 
 . /etc/rc.d/rc.subr
 

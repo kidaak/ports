@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/git/Makefile,v 1.85 2012/02/21 22:19:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main =	GIT - Tree History Storage Tool
 COMMENT-svn =	GIT - subversion interoperability tools

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/remotedesk/pkg/PLIST,v 1.1.1.1 2010/10/26 17:38:22 sebastia Exp $
+@comment $OpenBSD$
 bin/RemoteDesk
 libexec/GNUstep/
 libexec/GNUstep/RemoteDesk.app/

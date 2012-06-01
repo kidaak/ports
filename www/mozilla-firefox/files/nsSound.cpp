@@ -1,4 +1,4 @@
-/*	$OpenBSD: ports/www/mozilla-firefox/files/nsSound.cpp,v 1.2 2010/04/26 19:55:58 landry Exp $	*/
+/*	$OpenBSD$	*/
 
 /*
  * Copyright (c) 2009 Martynas Venckus <martynas@openbsd.org>

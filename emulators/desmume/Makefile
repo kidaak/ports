@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/desmume/Makefile,v 1.2 2011/12/11 13:11:49 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	Nintendo DS emulator
 

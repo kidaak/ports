@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBD-Chart/Makefile,v 1.5 2010/12/03 11:44:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	DBI driver abstraction for rendering charts and graphs
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-urwid/Makefile,v 1.13 2011/10/08 13:26:02 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =	console user interface library for python
 

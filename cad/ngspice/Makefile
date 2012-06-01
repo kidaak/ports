@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/ngspice/Makefile,v 1.1.1.1 2011/05/16 08:20:17 landry Exp $
+# $OpenBSD$
 
 COMMENT =		circuit simulator, based on Berkeley SPICE
 

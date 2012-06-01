@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Return-Value/pkg/PLIST,v 1.1.1.1 2006/11/13 00:10:03 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Return/
 ${P5SITE}/Return/Value.pm
 @man man/man3p/Return::Value.3p

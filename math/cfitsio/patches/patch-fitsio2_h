@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/cfitsio/patches/patch-fitsio2_h,v 1.2 2008/01/23 15:57:26 naddy Exp $
+$OpenBSD$
 --- fitsio2.h.orig	Tue Jan  3 23:05:19 2006
 +++ fitsio2.h	Tue Jan 22 22:05:04 2008
 @@ -28,6 +28,8 @@

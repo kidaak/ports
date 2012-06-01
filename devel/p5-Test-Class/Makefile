@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Class/Makefile,v 1.12 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	easily create test classes in an xUnit style
 

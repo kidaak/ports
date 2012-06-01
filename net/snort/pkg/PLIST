@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/snort/pkg/PLIST,v 1.19 2010/07/12 19:38:40 sthen Exp $
+@comment $OpenBSD$
 @newgroup _snort:557
 @newuser _snort:557:_snort:daemon:Snort Account:/nonexistent:/sbin/nologin
 %%prelude%%

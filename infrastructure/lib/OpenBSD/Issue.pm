@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/lib/OpenBSD/Issue.pm,v 1.4 2011/12/03 09:29:41 espie Exp $
+# $OpenBSD$
 # Copyright (c) 2004-2010 Marc Espie <espie@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

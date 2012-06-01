@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/metronome/Makefile,v 1.2 2011/06/23 22:50:26 naddy Exp $
+# $OpenBSD$
 
 COMMENT = 	simple metronome
 CATEGORIES =	audio

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/p5-GetLive/patches/patch-Manual,v 1.4 2010/07/21 02:21:52 merdely Exp $
+$OpenBSD$
 --- Manual.orig	Tue Jul 20 22:15:44 2010
 +++ Manual	Tue Jul 20 22:16:11 2010
 @@ -51,7 +51,7 @@ Following are the possible options :

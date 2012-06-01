@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Catalyst-Plugin-Cache/Makefile,v 1.5 2012/04/08 21:58:18 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	flexible caching support for Catalyst
 

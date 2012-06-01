@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/mrxvt/Makefile,v 1.22 2011/10/06 10:00:02 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=	multi-tabbed terminal emulator
 

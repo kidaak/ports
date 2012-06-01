@@ -1,4 +1,4 @@
-# $OpenBSD: ports/geo/emerillon/Makefile,v 1.17 2011/11/03 17:35:12 jasper Exp $
+# $OpenBSD$
 
 # XXX fix building with glib2 >= 2.29 (G_CONST_RETURN is deprecated)
 CFLAGS +=		"-DG_CONST_RETURN=const"

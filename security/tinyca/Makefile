@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/tinyca/Makefile,v 1.7 2010/11/20 17:22:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	GUI to manage a certification authority
 

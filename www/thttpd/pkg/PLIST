@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/thttpd/pkg/PLIST,v 1.5 2009/02/10 20:04:08 jakob Exp $
+@comment $OpenBSD$
 libexec/thttpd/
 @bin libexec/thttpd/redirect
 @bin libexec/thttpd/ssi

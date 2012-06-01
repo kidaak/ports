@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libgit2/libgit2/pkg/PLIST,v 1.2 2011/08/25 07:11:20 jasper Exp $
+@comment $OpenBSD$
 include/git2/
 include/git2.h
 include/git2/blob.h

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ipfm/pkg/PLIST,v 1.5 2009/12/26 08:28:11 benoit Exp $
+@comment $OpenBSD$
 @man man/man5/ipfm.conf.5
 @man man/man8/ipfm.8
 @bin sbin/ipfm

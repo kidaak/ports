@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libsocialweb/Makefile,v 1.12 2012/03/29 12:52:17 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/p5-Imager/pkg/PLIST,v 1.13 2011/07/27 17:26:47 jasper Exp $
+@comment $OpenBSD$
 @pkgpath graphics/p5-Imager,libs
 ${P5ARCH}/
 ${P5ARCH}/Imager/

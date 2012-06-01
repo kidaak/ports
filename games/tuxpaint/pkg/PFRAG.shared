@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/tuxpaint/pkg/PFRAG.shared,v 1.2 2009/12/17 17:10:34 ajacoutot Exp $
+@comment $OpenBSD$
 lib/tuxpaint/plugins/alien.so
 lib/tuxpaint/plugins/blocks_chalk_drip.so
 lib/tuxpaint/plugins/blur.so

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/flvstreamer/Makefile,v 1.13 2010/02/26 18:46:52 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		dump unencrypted RTMP media streams
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/dtcltiny/Makefile,v 1.3 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		small SRCP client to control digital model trains
 

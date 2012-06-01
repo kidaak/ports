@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xgolgo/patches/patch-xgolgo_man,v 1.1 2007/10/26 21:19:16 ajacoutot Exp $
+$OpenBSD$
 --- xgolgo.man.orig	Fri Oct 26 23:03:56 2007
 +++ xgolgo.man	Fri Oct 26 23:03:56 2007
 @@ -0,0 +1,54 @@

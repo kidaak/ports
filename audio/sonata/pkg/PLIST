@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/sonata/pkg/PLIST,v 1.12 2009/12/22 15:43:15 ajacoutot Exp $
+@comment $OpenBSD$
 bin/sonata
 lib/python${MODPY_VERSION}/site-packages/Sonata-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/mmkeys.so

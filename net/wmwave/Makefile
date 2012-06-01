@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/wmwave/Makefile,v 1.15 2010/10/24 21:30:02 ajacoutot Exp $
+# $OpenBSD$
 
 DISTNAME=	wmwave-0-4
 PKGNAME=	wmwave-0.4

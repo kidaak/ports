@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/glib2/patches/patch-glib-2_0_pc_in,v 1.1 2012/03/23 13:19:32 ajacoutot Exp $
+$OpenBSD$
 
 libglib-2.0.so includes pthread_* symbols.
 

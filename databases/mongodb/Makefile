@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/mongodb/Makefile,v 1.8 2012/04/08 17:21:49 ajacoutot Exp $
+# $OpenBSD$
 
 #atomic_int.h: error "unsupported compiler or platform" on other archs
 ONLY_FOR_ARCHS =	i386 amd64

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/prosody/pkg/PFRAG.shared,v 1.1.1.1 2009/09/06 18:40:57 jolan Exp $
+@comment $OpenBSD$
 lib/prosody/util/encodings.so
 lib/prosody/util/hashes.so
 lib/prosody/util/pposix.so

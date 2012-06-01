@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/pgpool/pkg/PLIST,v 1.1.1.1 2011/12/21 15:51:04 pea Exp $
+@comment $OpenBSD$
 @newgroup _pgpool:690
 @newuser _pgpool:690:_pgpool:daemon:pgpool daemon:/nonexistent:/sbin/nologin
 %%SHARED%%

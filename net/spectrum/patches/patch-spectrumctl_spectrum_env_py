@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/spectrum/patches/patch-spectrumctl_spectrum_env_py,v 1.2 2011/01/10 18:34:31 sebastia Exp $
+$OpenBSD$
 
 Use the default OpenBSD _spectrum user
 

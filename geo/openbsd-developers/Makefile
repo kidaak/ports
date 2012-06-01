@@ -1,10 +1,10 @@
-# $OpenBSD: ports/geo/openbsd-developers/Makefile,v 1.82 2012/04/07 16:00:39 jim Exp $
+# $OpenBSD$
 
 CATEGORIES=		geo
 COMMENT=		geographic location of OpenBSD developers
 
 DISTNAME=		openbsd-developers-1.0
-REVISION=		78
+REVISION=		80
 DISTFILES=
 HOMEPAGE=		http://www.openbsd.org/
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/views_bulk_operations/Makefile,v 1.10 2012/01/28 11:33:34 espie Exp $
+# $OpenBSD$
 
 COMMENT =	node based bulk operations displayed by a view
 

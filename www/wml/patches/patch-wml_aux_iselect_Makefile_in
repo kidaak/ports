@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_aux_iselect_Makefile_in,v 1.1.1.1 2006/07/14 16:12:14 bernd Exp $
+$OpenBSD$
 --- wml_aux/iselect/Makefile.in.orig	Sun Jun 25 11:52:25 2006
 +++ wml_aux/iselect/Makefile.in	Sun Jun 25 11:52:39 2006
 @@ -11,8 +11,7 @@ srcdir          = @srcdir@

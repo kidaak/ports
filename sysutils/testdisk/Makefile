@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/testdisk/Makefile,v 1.10 2010/11/27 09:32:09 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =	data recovery software
 

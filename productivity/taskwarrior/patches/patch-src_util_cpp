@@ -1,0 +1,12 @@
+$OpenBSD$
+--- src/util.cpp.orig	Fri May 11 11:20:27 2012
++++ src/util.cpp	Fri May 11 11:20:36 2012
+@@ -406,7 +406,7 @@ int execute(const std::string& executable, std::vector
+ 
+   // create command line before forking because the parent process also needs this for 
+   // calling context.debug()
+-  char shell[] = "bash";
++  char shell[] = "sh";
+   char opt[]   = "-c";
+ 
+   std::string cmdline = executable;

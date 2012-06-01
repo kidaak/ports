@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-NonMoose/Makefile,v 1.1.1.1 2012/04/08 21:04:36 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	easy subclassing of non-Moose classes
 

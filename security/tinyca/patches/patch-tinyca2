@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/tinyca/patches/patch-tinyca2,v 1.1 2006/07/14 18:59:51 msf Exp $
+$OpenBSD$
 --- tinyca2.orig	Thu Jul 13 11:57:01 2006
 +++ tinyca2	Thu Jul 13 12:03:39 2006
 @@ -18,7 +18,7 @@

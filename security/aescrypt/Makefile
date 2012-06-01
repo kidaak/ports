@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/aescrypt/Makefile,v 1.9 2012/03/08 12:13:00 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		encrypt/decrypt using Rijndael encryption algorithm
 

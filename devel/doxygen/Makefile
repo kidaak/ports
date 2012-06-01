@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/doxygen/Makefile,v 1.24 2012/04/13 16:08:20 sthen Exp $
+# $OpenBSD$
 
 # Memory hog, stuck for days on the same file during build.
 # XXX check with different optimizer level? see doc/install.doc

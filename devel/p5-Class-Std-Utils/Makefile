@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Std-Utils/Makefile,v 1.9 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		utilities functions to build inside-out objects
 

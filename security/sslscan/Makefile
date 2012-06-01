@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/sslscan/Makefile,v 1.1.1.1 2011/06/21 21:05:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	SSL port scanner
 

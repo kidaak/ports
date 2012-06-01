@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/py-Imaging/patches/patch-Tk_tkImaging_c,v 1.5 2010/11/15 20:57:10 sthen Exp $
+$OpenBSD$
 --- Tk/tkImaging.c.orig	Sun Nov  1 05:44:12 2009
 +++ Tk/tkImaging.c	Sat Nov 13 14:56:09 2010
 @@ -258,8 +258,8 @@ PyImagingPhotoGet(ClientData clientdata, Tcl_Interp* i

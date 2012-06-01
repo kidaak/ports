@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/mico/patches/patch-Makefile,v 1.2 2010/09/22 08:42:53 landry Exp $
+$OpenBSD$
 --- Makefile.orig	Tue Sep 14 08:44:43 2010
 +++ Makefile	Tue Sep 14 08:44:58 2010
 @@ -79,7 +79,6 @@ install:

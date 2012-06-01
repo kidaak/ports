@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-libobjc_Makefile_in,v 1.1.1.1 2011/11/14 13:00:57 pascal Exp $
+$OpenBSD$
 --- libobjc/Makefile.in.orig	Sat Nov 12 14:09:37 2011
 +++ libobjc/Makefile.in	Sat Nov 12 14:11:18 2011
 @@ -321,18 +321,20 @@ install-html:

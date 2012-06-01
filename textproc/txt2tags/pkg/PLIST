@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/txt2tags/pkg/PLIST,v 1.5 2011/04/23 09:03:20 kili Exp $
+@comment $OpenBSD$
 bin/gensite
 bin/txt2tags
 @man man/man1/txt2tags.1

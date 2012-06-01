@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/bindings3/patches/patch-qtruby_rubylib_qtruby_Qt_cpp,v 1.1 2010/09/23 22:24:50 jeremy Exp $
+$OpenBSD$
 --- qtruby/rubylib/qtruby/Qt.cpp.orig	Mon Jan 15 03:19:09 2007
 +++ qtruby/rubylib/qtruby/Qt.cpp	Fri Sep  3 23:13:18 2010
 @@ -950,7 +950,7 @@ cast_object_to(VALUE /*self*/, VALUE object, VALUE new

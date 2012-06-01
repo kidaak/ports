@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xbat/patches/patch-Imakefile,v 1.1 2006/11/10 17:07:18 steven Exp $
+$OpenBSD$
 --- Imakefile.orig	Mon Mar 17 13:32:22 1997
 +++ Imakefile	Fri Nov 10 11:51:42 2006
 @@ -1,24 +1,24 @@

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/compiz/core/patches/patch-configure,v 1.1.1.1 2009/09/01 01:49:14 fgsch Exp $
+$OpenBSD$
 --- configure.orig	Mon Aug  3 20:42:58 2009
 +++ configure	Mon Aug  3 20:44:46 2009
 @@ -22627,7 +22627,7 @@ if test "${ac_cv_lib_intl_bindtextdomain+set}" = set; 

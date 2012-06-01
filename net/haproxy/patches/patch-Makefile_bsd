@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/haproxy/patches/patch-Makefile_bsd,v 1.1.1.1 2008/07/17 04:31:45 jdixon Exp $
+$OpenBSD$
 --- Makefile.bsd.orig	Sat Jun 21 15:59:05 2008
 +++ Makefile.bsd	Tue Jul 15 12:51:26 2008
 @@ -19,13 +19,13 @@ CPU = generic

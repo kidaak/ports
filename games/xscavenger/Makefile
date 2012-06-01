@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xscavenger/Makefile,v 1.16 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 DISTNAME=	xscavenger-1.4.4
 REVISION =	2

@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xastir/patches/patch-configure_ac,v 1.1.1.1 2007/05/28 17:19:37 jason Exp $
+$OpenBSD$
 --- configure.ac.orig	Wed Aug 16 15:50:07 2006
 +++ configure.ac	Wed Aug 16 15:51:48 2006
 @@ -216,6 +216,7 @@ AC_CHECK_FUNCS([roundf])

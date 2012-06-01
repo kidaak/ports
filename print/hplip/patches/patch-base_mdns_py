@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/hplip/patches/patch-base_mdns_py,v 1.1 2010/11/05 10:29:48 ajacoutot Exp $
+$OpenBSD$
 
 XXX Unable to setup multicatst socket... [Errno 22] Invalid argument
 

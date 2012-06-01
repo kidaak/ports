@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/xorp/Makefile,v 1.25 2011/11/16 00:20:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT-main=	eXtensible Open Router Platform
 

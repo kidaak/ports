@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libogg/patches/patch-doc_libogg_Makefile_in,v 1.6 2011/11/14 16:52:38 naddy Exp $
+$OpenBSD$
 --- doc/libogg/Makefile.in.orig	Thu Aug  4 19:37:26 2011
 +++ doc/libogg/Makefile.in	Mon Nov 14 17:37:56 2011
 @@ -168,7 +168,7 @@ build_vendor = @build_vendor@

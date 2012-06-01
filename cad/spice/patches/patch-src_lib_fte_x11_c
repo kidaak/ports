@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/spice/patches/patch-src_lib_fte_x11_c,v 1.1 2010/05/09 17:50:26 espie Exp $
+$OpenBSD$
 --- src/lib/fte/x11.c.orig	Wed Apr 14 21:44:56 1993
 +++ src/lib/fte/x11.c	Sun May  9 19:39:08 2010
 @@ -79,6 +79,9 @@ static Bool noclear = False;

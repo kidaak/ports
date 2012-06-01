@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Types-DateTime/Makefile,v 1.1.1.1 2011/04/12 11:18:14 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		DateTime related constraints and coercions for Moose
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/qtoctave/patches/patch-qtoctave_qtoctave_pro,v 1.1.1.1 2007/10/07 18:37:01 steven Exp $
+$OpenBSD$
 --- qtoctave/qtoctave.pro.orig	Sun Oct  7 19:35:02 2007
 +++ qtoctave/qtoctave.pro	Sun Oct  7 19:35:34 2007
 @@ -51,12 +51,12 @@ SOURCES += autocomplete.cpp \

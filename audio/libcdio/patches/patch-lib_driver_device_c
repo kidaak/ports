@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/libcdio/patches/patch-lib_driver_device_c,v 1.1 2008/05/01 09:05:13 fgsch Exp $
+$OpenBSD$
 --- lib/driver/device.c.orig	Wed Apr 30 17:44:39 2008
 +++ lib/driver/device.c	Wed Apr 30 17:46:40 2008
 @@ -66,6 +66,8 @@ const driver_id_t cdio_os_driver = DRIVER_BSDI;

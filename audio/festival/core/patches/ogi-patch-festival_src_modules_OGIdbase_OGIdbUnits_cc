@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/ogi-patch-festival_src_modules_OGIdbase_OGIdbUnits_cc,v 1.2 2010/05/22 09:30:04 espie Exp $
+$OpenBSD$
 --- festival/src/modules/OGIdbase/OGIdbUnits.cc.orig	Thu Sep 14 00:08:16 2000
 +++ festival/src/modules/OGIdbase/OGIdbUnits.cc	Sat May 22 10:10:46 2010
 @@ -194,7 +194,7 @@ void OGIdbUnits::load_file(EST_String &unitdic_file, f

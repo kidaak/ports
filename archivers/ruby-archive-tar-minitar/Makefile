@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/ruby-archive-tar-minitar/Makefile,v 1.8 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT =	command-line utility for POSIX tar(1) archive files
 

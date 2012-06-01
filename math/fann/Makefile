@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/fann/Makefile,v 1.1.1.1 2007/12/17 20:42:00 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		Fast Artificial Neural Network Library
 

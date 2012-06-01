@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/cmail/pkg/PLIST,v 1.4 2004/09/18 12:54:10 espie Exp $
+@comment $OpenBSD$
 @conflict xboard-*
 bin/cmail
 @man man/man1/cmail.1

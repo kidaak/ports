@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/kde/pim3/Makefile,v 1.71 2012/03/25 16:33:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT = 		KDE personal information applications
 COMMENT-kpilot =	KDE interface to sync with Palm Pilot

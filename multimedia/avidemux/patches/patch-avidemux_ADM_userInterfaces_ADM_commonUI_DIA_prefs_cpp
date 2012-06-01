@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-avidemux_ADM_userInterfaces_ADM_commonUI_DIA_prefs_cpp,v 1.1 2010/04/26 02:09:03 jakemsr Exp $
+$OpenBSD$
 --- avidemux/ADM_userInterfaces/ADM_commonUI/DIA_prefs.cpp.orig	Tue Sep 23 17:43:30 2008
 +++ avidemux/ADM_userInterfaces/ADM_commonUI/DIA_prefs.cpp	Wed Apr 21 10:35:12 2010
 @@ -317,6 +317,9 @@ char     *globalGlyphName=NULL;

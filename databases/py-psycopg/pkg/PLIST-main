@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-psycopg/pkg/PLIST-main,v 1.6 2011/12/20 07:02:19 fgsch Exp $
+@comment $OpenBSD$
 @pkgpath databases/py-psycopg,no_zope
 @pkgpath databases/py-psycopg
 @pkgpath databases/py-psycopg,-main[,python2.5][,python2.6][,python2.7]

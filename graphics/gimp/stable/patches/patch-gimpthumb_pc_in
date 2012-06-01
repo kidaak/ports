@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/gimp/stable/patches/patch-gimpthumb_pc_in,v 1.2 2008/10/20 21:38:18 kili Exp $
+$OpenBSD$
 --- gimpthumb.pc.in.orig	Thu Aug 21 13:35:29 2008
 +++ gimpthumb.pc.in	Thu Oct  2 19:38:17 2008
 @@ -6,6 +6,6 @@ includedir=@includedir@

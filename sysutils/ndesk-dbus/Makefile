@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ndesk-dbus/Makefile,v 1.7 2011/05/03 09:51:24 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	C\# implementation of dbus
 DISTNAME=	ndesk-dbus-0.6.1a

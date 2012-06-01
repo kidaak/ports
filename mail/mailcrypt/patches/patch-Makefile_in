@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailcrypt/patches/patch-Makefile_in,v 1.1 2002/10/27 16:59:48 naddy Exp $
+$OpenBSD$
 --- Makefile.in.orig	Sun Oct 27 17:36:03 2002
 +++ Makefile.in	Sun Oct 27 17:36:46 2002
 @@ -70,7 +70,7 @@ SHELL = /bin/sh

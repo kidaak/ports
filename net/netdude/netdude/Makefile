@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/netdude/netdude/Makefile,v 1.16 2011/12/09 14:45:06 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	network traffic visualization and editing tool
 

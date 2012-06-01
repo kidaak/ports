@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/bbpager/Makefile,v 1.16 2010/11/22 08:36:55 espie Exp $
+# $OpenBSD$
 
 COMMENT =	pager for the Blackbox window manager
 

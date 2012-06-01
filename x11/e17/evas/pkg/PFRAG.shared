@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/e17/evas/pkg/PFRAG.shared,v 1.4 2011/01/16 00:37:45 laurent Exp $
+@comment $OpenBSD$
 lib/evas/modules/engines/buffer/${FULLARCH}-1.0.0/module.so
 lib/evas/modules/engines/gl_x11/${FULLARCH}-1.0.0/module.so
 lib/evas/modules/engines/software_generic/${FULLARCH}-1.0.0/module.so

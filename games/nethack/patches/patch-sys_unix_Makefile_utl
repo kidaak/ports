@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/nethack/patches/patch-sys_unix_Makefile_utl,v 1.3 2002/03/23 14:51:46 espie Exp $
+$OpenBSD$
 --- sys/unix/Makefile.utl.orig	Wed Mar 20 18:43:54 2002
 +++ sys/unix/Makefile.utl	Fri Mar 22 08:11:35 2002
 @@ -1,6 +1,7 @@

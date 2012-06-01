@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wwwcount/patches/patch-libs_combine_Makefile_in,v 1.1 2007/10/26 21:26:02 jasper Exp $
+$OpenBSD$
 --- libs/combine/Makefile.in.orig	Mon Mar 19 02:59:51 2001
 +++ libs/combine/Makefile.in	Fri Oct 26 23:23:50 2007
 @@ -24,7 +24,7 @@ INCLUDES=  -I. -I..

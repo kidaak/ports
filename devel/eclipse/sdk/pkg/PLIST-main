@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/eclipse/sdk/pkg/PLIST-main,v 1.5 2009/12/22 15:31:26 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict eclipse-sdk-gtk2-<=3.0.1
 @conflict eclipse-sdk-motif-<=3.0.1
 @pkgpath devel/eclipse/sdk

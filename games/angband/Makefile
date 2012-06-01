@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/angband/Makefile,v 1.26 2012/04/11 16:16:33 edd Exp $
+# $OpenBSD$
 # Original from: Robert Ruehlmann
 
 COMMENT=		rogue-like game with X11 support

@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-# $Id: ispell-config,v 1.2 2004/11/11 18:50:01 millert Exp $
+# $Id$
 #
 # Script to change the default language for ispell.
 # Parts borrowed from a similar script for Debian Linux.

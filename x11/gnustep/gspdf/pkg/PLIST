@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/gspdf/pkg/PLIST,v 1.1.1.1 2010/10/26 14:56:01 sebastia Exp $
+@comment $OpenBSD$
 bin/GSPdf
 libexec/GNUstep/
 libexec/GNUstep/GSPdf.app/

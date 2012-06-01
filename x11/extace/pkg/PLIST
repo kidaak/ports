@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/extace/pkg/PLIST,v 1.2 2008/07/16 13:53:35 sthen Exp $
+@comment $OpenBSD$
 @bin bin/extace
 share/gnome/
 share/gnome/apps/

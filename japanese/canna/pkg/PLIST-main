@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/japanese/canna/pkg/PLIST-main,v 1.1 2006/11/21 21:17:31 espie Exp $
+@comment $OpenBSD$
 @pkgpath japanese/canna
 include/canna/
 include/canna/RK.h

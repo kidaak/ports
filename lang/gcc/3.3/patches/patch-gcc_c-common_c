@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_c-common_c,v 1.2 2008/07/25 20:50:26 martynas Exp $
+$OpenBSD$
 --- gcc/c-common.c.orig	Sun Jun  8 01:13:24 2003
 +++ gcc/c-common.c	Fri Jul 25 12:34:56 2008
 @@ -39,7 +39,6 @@ Software Foundation, 59 Temple Place - Suite 330, Bost

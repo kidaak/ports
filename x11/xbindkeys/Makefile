@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xbindkeys/Makefile,v 1.13 2012/03/29 13:39:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	bind keys or mouse buttons to shell commands under X11
 DISTNAME =	xbindkeys-1.8.4

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kountdown/pkg/PLIST,v 1.2 2004/09/15 19:26:30 espie Exp $
+@comment $OpenBSD$
 bin/kountdown
 share/applnk/
 share/applnk/System/

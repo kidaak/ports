@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ipfm/Makefile,v 1.13 2010/11/19 22:31:33 espie Exp $
+# $OpenBSD$
 
 COMMENT =	IP bandwidth analysis tool
 

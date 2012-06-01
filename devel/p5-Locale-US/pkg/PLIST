@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Locale-US/pkg/PLIST,v 1.1.1.1 2007/07/22 15:58:57 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Locale/
 ${P5SITE}/Locale/US.pm
 ${P5SITE}/Locale/kruft2codes.pl

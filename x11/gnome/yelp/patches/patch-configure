@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/yelp/patches/patch-configure,v 1.6 2012/03/29 06:41:05 ajacoutot Exp $
+$OpenBSD$
 
 https://bugzilla.gnome.org/show_bug.cgi?id=627126
 

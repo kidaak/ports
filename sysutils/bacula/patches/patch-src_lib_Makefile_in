@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/patches/patch-src_lib_Makefile_in,v 1.2 2011/11/17 23:45:56 ajacoutot Exp $
+$OpenBSD$
 --- src/lib/Makefile.in.orig	Mon Nov 14 15:51:58 2011
 +++ src/lib/Makefile.in	Mon Nov 14 15:53:34 2011
 @@ -120,7 +120,7 @@ libbac.a: $(LIBBAC_OBJS)

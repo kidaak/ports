@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/arm-elf/binutils/Makefile,v 1.6 2011/11/11 18:33:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	binutils for arm-elf cross-development
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/sam/Makefile,v 1.26 2010/10/24 21:31:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	X11 version of Rob Pike's editor, sam
 

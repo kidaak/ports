@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/gcc/3.3/pkg/PLIST-objc,v 1.2 2005/09/14 10:41:02 espie Exp $
+@comment $OpenBSD$
 @conflict egcs-*-core
 @pkgpath lang/egcs/stable,-objc
 lib/gcc-lib/${CONFIG}/${V}/cc1obj

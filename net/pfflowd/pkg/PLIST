@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pfflowd/pkg/PLIST,v 1.4 2008/09/24 13:56:00 sthen Exp $
+@comment $OpenBSD$
 @newgroup _pfflowd:565
 @newuser _pfflowd:565:565:daemon:pfflowd:/nonexistent:/sbin/nologin
 @man man/man8/pfflowd.8

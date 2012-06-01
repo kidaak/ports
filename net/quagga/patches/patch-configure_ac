@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/quagga/patches/patch-configure_ac,v 1.1 2012/03/31 10:51:47 sthen Exp $
+$OpenBSD$
 --- configure.ac.orig	Tue Mar 20 20:59:59 2012
 +++ configure.ac	Tue Mar 20 21:00:03 2012
 @@ -935,7 +935,7 @@ AC_CHECK_MEMBERS([struct ip_mreqn.imr_ifindex], [], []

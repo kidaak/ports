@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gupnp/ui/Makefile,v 1.5 2011/09/20 20:51:52 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		collection of GTK+ widgets on top of GUPnp
 

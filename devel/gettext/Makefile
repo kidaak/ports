@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gettext/Makefile,v 1.55 2012/01/26 22:08:26 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	GNU gettext
 

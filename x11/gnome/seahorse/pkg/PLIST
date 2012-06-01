@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/seahorse/pkg/PLIST,v 1.24 2012/03/29 07:15:37 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/seahorse
 lib/seahorse/
 @bin lib/seahorse/seahorse-ssh-askpass

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/irssi-icb/pkg/PLIST,v 1.4 2004/09/15 18:17:41 espie Exp $
+@comment $OpenBSD$
 @comment lib/irssi/modules/libfe_icb.la
 lib/irssi/modules/libfe_icb.so
 @comment lib/irssi/modules/libicb_core.la

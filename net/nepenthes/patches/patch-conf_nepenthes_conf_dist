@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/nepenthes/patches/patch-conf_nepenthes_conf_dist,v 1.3 2007/09/02 22:42:55 rui Exp $
+$OpenBSD$
 --- conf/nepenthes.conf.dist.orig	Sat May 26 01:50:10 2007
 +++ conf/nepenthes.conf.dist	Sat May 26 01:53:31 2007
 @@ -3,8 +3,8 @@

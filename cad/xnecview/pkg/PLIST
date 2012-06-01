@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/cad/xnecview/pkg/PLIST,v 1.1.1.1 2007/05/28 17:49:39 jason Exp $
+@comment $OpenBSD$
 bin/xnecview
 @man man/cat1/xnecview.0

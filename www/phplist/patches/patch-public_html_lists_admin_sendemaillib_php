@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/phplist/patches/patch-public_html_lists_admin_sendemaillib_php,v 1.5 2011/11/06 20:10:45 jasper Exp $
+$OpenBSD$
 --- public_html/lists/admin/sendemaillib.php.orig	Tue Sep 20 16:35:49 2011
 +++ public_html/lists/admin/sendemaillib.php	Sun Nov  6 21:08:32 2011
 @@ -148,7 +148,7 @@ function sendEmail ($messageid,$email,$hash,$htmlpref 

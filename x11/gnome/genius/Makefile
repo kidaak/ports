@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/genius/Makefile,v 1.35 2012/04/10 08:27:16 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

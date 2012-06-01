@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/abiword/patches/patch-abiword_desktop,v 1.2 2010/05/10 12:31:52 ajacoutot Exp $
+$OpenBSD$
 --- abiword.desktop.orig	Wed Apr 14 23:50:18 2010
 +++ abiword.desktop	Mon May 10 08:39:45 2010
 @@ -6,7 +6,7 @@ Type=Application

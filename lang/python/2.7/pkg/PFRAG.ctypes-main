@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/python/2.7/pkg/PFRAG.ctypes-main,v 1.1.1.1 2011/04/24 09:31:46 rpointel Exp $
+@comment $OpenBSD$
 lib/python2.7/ctypes/
 lib/python2.7/ctypes/__init__.py
 lib/python2.7/ctypes/__init__.pyc

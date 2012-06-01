@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/graphics/tesseract/pkg/PFRAG.shared-main,v 1.2 2011/12/22 09:47:50 ajacoutot Exp $
+@comment $OpenBSD$
 @lib lib/libtesseract.so.${LIBtesseract_VERSION}

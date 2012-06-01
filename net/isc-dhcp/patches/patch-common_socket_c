@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/isc-dhcp/patches/patch-common_socket_c,v 1.1 2012/01/14 12:43:25 sthen Exp $
+$OpenBSD$
 --- common/socket.c.orig	Mon Jun 27 12:18:20 2011
 +++ common/socket.c	Fri Dec 23 14:14:40 2011
 @@ -717,6 +717,7 @@ ssize_t send_packet6(struct interface_info *interface,

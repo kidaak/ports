@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ldns/utils/Makefile,v 1.24 2012/01/20 09:53:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	LDNS utilities
 

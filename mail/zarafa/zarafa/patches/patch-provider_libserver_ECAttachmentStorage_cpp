@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-provider_libserver_ECAttachmentStorage_cpp,v 1.7 2011/11/17 15:14:37 ajacoutot Exp $
+$OpenBSD$
 --- provider/libserver/ECAttachmentStorage.cpp.orig	Thu Nov 17 03:03:24 2011
 +++ provider/libserver/ECAttachmentStorage.cpp	Thu Nov 17 13:59:31 2011
 @@ -1215,7 +1215,7 @@ ECFileAttachment::ECFileAttachment(ECDatabase *lpDatab

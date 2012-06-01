@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-Text-TabularDisplay/Makefile,v 1.5 2010/12/03 11:46:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	render tabular data as plain text
 

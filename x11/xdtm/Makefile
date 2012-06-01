@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/xdtm/Makefile,v 1.28 2011/11/13 16:03:15 naddy Exp $
+# $OpenBSD$
 
 COMMENT=		Desktop Manager: a graphical shell for X11
 

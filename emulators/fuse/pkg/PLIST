@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/fuse/pkg/PLIST,v 1.8 2009/01/07 17:59:40 grange Exp $
+@comment $OpenBSD$
 !%%gtk%%
 @bin bin/fuse
 @man man/man1/fuse.1

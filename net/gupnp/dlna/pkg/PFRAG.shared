@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/gupnp/dlna/pkg/PFRAG.shared,v 1.1.1.1 2011/07/05 16:59:40 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libgupnp-dlna-1.0.so.${LIBgupnp-dlna-1.0_VERSION}

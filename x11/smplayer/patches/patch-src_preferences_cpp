@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/smplayer/patches/patch-src_preferences_cpp,v 1.1.1.1 2009/10/18 22:24:45 edd Exp $
+$OpenBSD$
 --- src/preferences.cpp.orig	Mon Jul  6 22:51:36 2009
 +++ src/preferences.cpp	Sat Oct 17 16:48:27 2009
 @@ -103,7 +103,7 @@ void Preferences::reset() {

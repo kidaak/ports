@@ -1,4 +1,4 @@
-$OpenBSD: ports/cad/chipmunk/patches/patch-until_V1_2_data_types_c,v 1.2 2010/05/09 17:18:53 espie Exp $
+$OpenBSD$
 --- until/V1.2/data_types.c.orig	Wed Mar 12 23:59:51 2003
 +++ until/V1.2/data_types.c	Sun May  9 19:11:21 2010
 @@ -87,7 +87,7 @@ short curRots;  /* Number of possible rotations */

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/kbiff/patches/patch-kbiff_Makefile_in,v 1.2 2006/03/31 17:25:21 bernd Exp $
+$OpenBSD$
 --- kbiff/Makefile.in.orig	Sun Sep 11 00:09:56 2005
 +++ kbiff/Makefile.in	Tue Mar 28 20:05:21 2006
 @@ -85,7 +85,7 @@ am_kbiff_OBJECTS = dummy.$(OBJEXT)

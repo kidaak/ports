@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt3/patches/patch-mkspecs_openbsd-g++_qmake_conf,v 1.18 2007/03/31 22:49:46 espie Exp $
+$OpenBSD$
 --- mkspecs/openbsd-g++/qmake.conf.orig	Thu Oct 19 16:26:15 2006
 +++ mkspecs/openbsd-g++/qmake.conf	Sat Mar 31 14:51:24 2007
 @@ -6,8 +6,9 @@

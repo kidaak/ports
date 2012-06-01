@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/squeak/vm/pkg/PLIST,v 1.6 2008/07/23 11:17:22 espie Exp $
+@comment $OpenBSD$
 bin/squeak
 lib/squeak/${FULLV}/
 lib/squeak/${FULLV}/B3DAcceleratorPlugin

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/mp3encode/patches/patch-musicin_c,v 1.2 2003/04/20 22:40:14 naddy Exp $
+$OpenBSD$
 --- musicin.c.orig	Wed Jan 22 10:43:17 1997
 +++ musicin.c	Mon Apr 21 00:32:17 2003
 @@ -151,7 +151,7 @@ char            encoded_file_name[MAX_NA

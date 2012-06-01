@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_mips_openbsd-be_h,v 1.1.1.1 2005/01/03 15:21:26 espie Exp $
+$OpenBSD$
 --- gcc/config/mips/openbsd-be.h.orig	Mon Sep 27 22:02:46 1999
 +++ gcc/config/mips/openbsd-be.h	Mon Jan  3 10:17:43 2005
 @@ -1,21 +0,0 @@

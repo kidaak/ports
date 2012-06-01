@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_scgi/Makefile,v 1.6 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	apache interface for SCGI servers
 

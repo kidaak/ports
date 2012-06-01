@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/antiword/Makefile,v 1.25 2010/10/19 07:54:21 espie Exp $
+# $OpenBSD$
 
 COMMENT=	converts MSWord Documents to ASCII Text and PostScript
 

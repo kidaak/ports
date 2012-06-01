@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mutt/snapshot/pkg/SECURITY,v 1.1.1.1 2001/08/20 19:51:53 lebel Exp $
+$OpenBSD$
 
 Note: in ${WRKDIR}/rfc1524.c the function mutt_adv_mktemp
 uses mktemp, but the resulting name is used much later in

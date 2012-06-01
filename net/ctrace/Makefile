@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ctrace/Makefile,v 1.17 2011/03/30 09:00:44 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	multiprotocol traceroute tool
 

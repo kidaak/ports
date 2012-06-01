@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-Apache-Gallery/pkg/PLIST,v 1.6 2012/03/19 07:31:11 landry Exp $
+@comment $OpenBSD$
 ${P5SITE}/Apache/
 ${P5SITE}/Apache/Gallery.pm
 @man man/man3p/Apache::Gallery.3p

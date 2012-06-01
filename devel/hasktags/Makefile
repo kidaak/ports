@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hasktags/Makefile,v 1.3 2011/12/27 21:19:10 kili Exp $
+# $OpenBSD$
 
 COMMENT =	ctags-like tool for Haskell sources
 

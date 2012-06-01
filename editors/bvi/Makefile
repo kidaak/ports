@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/bvi/Makefile,v 1.16 2010/10/23 18:26:20 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	binary visual display editor, based on vi
 

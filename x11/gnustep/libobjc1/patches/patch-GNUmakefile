@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/libobjc1/patches/patch-GNUmakefile,v 1.1.1.1 2011/06/28 16:06:20 sebastia Exp $
+$OpenBSD$
 
 Allow switching the name of the library
 

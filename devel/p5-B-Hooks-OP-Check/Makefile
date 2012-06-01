@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-B-Hooks-OP-Check/Makefile,v 1.8 2011/10/29 16:32:50 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

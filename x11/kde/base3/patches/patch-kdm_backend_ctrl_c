@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-kdm_backend_ctrl_c,v 1.1 2010/05/13 07:01:00 ajacoutot Exp $
+$OpenBSD$
 
 CVE-2010-0436, see:
     http://www.kde.org/info/security/advisory-20100413-1.txt

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/singularity/pkg/PLIST,v 1.3 2011/01/15 12:43:26 ajacoutot Exp $
+@comment $OpenBSD$
 bin/singularity
 share/doc/singularity/
 share/doc/singularity/Attribution-ShareAlike 3.0.html

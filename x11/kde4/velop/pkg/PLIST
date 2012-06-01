@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/velop/pkg/PLIST,v 1.1.1.1 2007/04/03 22:46:14 espie Exp $
+@comment $OpenBSD$
 bin/kdevelop
 include/kdevelop/
 include/kdevelop/persistenthash/

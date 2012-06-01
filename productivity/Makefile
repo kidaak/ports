@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/Makefile,v 1.43 2012/03/05 21:20:20 landry Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += bruce

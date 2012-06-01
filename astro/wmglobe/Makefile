@@ -1,4 +1,4 @@
-# $OpenBSD: ports/astro/wmglobe/Makefile,v 1.26 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; displays the earth on an icon
 

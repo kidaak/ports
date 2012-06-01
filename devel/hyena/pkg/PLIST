@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/hyena/pkg/PLIST,v 1.1.1.1 2011/03/07 21:52:11 ajacoutot Exp $
+@comment $OpenBSD$
 lib/hyena/
 lib/hyena/Hyena.Data.Sqlite.dll
 lib/hyena/Hyena.Data.Sqlite.dll.mdb

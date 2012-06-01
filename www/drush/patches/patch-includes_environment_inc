@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/drush/patches/patch-includes_environment_inc,v 1.2 2012/04/09 16:12:12 espie Exp $
+$OpenBSD$
 --- includes/environment.inc.orig	Thu Apr  5 04:56:38 2012
 +++ includes/environment.inc	Mon Apr  9 18:07:00 2012
 @@ -133,30 +133,7 @@ function drush_environment_lib() {

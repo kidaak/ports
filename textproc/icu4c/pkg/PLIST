@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/icu4c/pkg/PLIST,v 1.8 2011/09/12 06:45:53 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/derb
 @bin bin/genbrk

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-mustache/Makefile,v 1.1.1.1 2011/11/17 15:30:08 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =		logic-free template language
 

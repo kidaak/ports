@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/pear-File-Find/pkg/PLIST,v 1.2 2010/08/30 13:24:28 sthen Exp $
+@comment $OpenBSD$
 @comment lib/
 @comment lib/php/
 @group daemon

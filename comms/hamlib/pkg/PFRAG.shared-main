@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/hamlib/pkg/PFRAG.shared-main,v 1.1.1.1 2007/05/28 17:07:27 jason Exp $
+@comment $OpenBSD$
 lib/hamlib-alinco.so
 lib/hamlib-aor.so
 lib/hamlib-drake.so

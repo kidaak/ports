@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/flipit/patches/patch-conf_c,v 1.1 2003/12/30 00:46:27 espie Exp $
+$OpenBSD$
 --- conf.c.orig	2003-12-30 01:39:44.000000000 +0100
 +++ conf.c	2003-12-30 01:39:51.000000000 +0100
 @@ -31,7 +31,7 @@

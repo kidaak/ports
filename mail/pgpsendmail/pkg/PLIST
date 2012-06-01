@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/pgpsendmail/pkg/PLIST,v 1.6 2004/09/15 09:09:44 espie Exp $
+@comment $OpenBSD$
 bin/extract-addrs
 bin/match-email-addr
 bin/pgpdaemon

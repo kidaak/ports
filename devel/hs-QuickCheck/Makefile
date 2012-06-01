@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-QuickCheck/Makefile,v 1.14 2011/09/16 09:24:50 espie Exp $
+# $OpenBSD$
 
 COMMENT =		automatic testing of Haskell programs
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Bot-BasicBot/Makefile,v 1.7 2011/03/16 12:08:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	simple irc bot baseclass
 

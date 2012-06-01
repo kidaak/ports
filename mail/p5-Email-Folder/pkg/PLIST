@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Email-Folder/pkg/PLIST,v 1.1.1.1 2006/11/13 00:11:37 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Email/Folder/
 ${P5SITE}/Email/Folder.pm
 ${P5SITE}/Email/Folder/Ezmlm.pm

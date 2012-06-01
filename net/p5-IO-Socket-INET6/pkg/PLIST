@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-IO-Socket-INET6/pkg/PLIST,v 1.2 2009/01/02 10:16:07 bluhm Exp $
+@comment $OpenBSD$
 @conflict p5-IO-INET6-*
 @pkgpath net/p5-IO-INET6
 ${P5SITE}/IO/

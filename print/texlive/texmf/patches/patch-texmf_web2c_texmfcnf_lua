@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/texlive/texmf/patches/patch-texmf_web2c_texmfcnf_lua,v 1.1 2012/01/10 18:04:31 edd Exp $
+$OpenBSD$
 --- texmf/web2c/texmfcnf.lua.origy	Mon Jun  6 12:28:45 2011
 +++ texmf/web2c/texmfcnf.lua	Mon Dec 26 13:42:48 2011
 @@ -3,9 +3,6 @@

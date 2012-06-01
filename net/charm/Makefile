@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/charm/Makefile,v 1.16 2011/09/16 11:13:37 espie Exp $
+# $OpenBSD$
 
 COMMENT=	LiveJournal client for Python
 

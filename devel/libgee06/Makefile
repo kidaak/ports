@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libgee06/Makefile,v 1.1.1.1 2012/03/29 07:25:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	GObject based collection library 
 

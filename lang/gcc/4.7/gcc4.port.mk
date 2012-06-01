@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gcc/4.7/gcc4.port.mk,v 1.2 2012/04/23 21:32:29 pascal Exp $
+# $OpenBSD$
 
 MODGCC4_ARCHS ?=
 MODGCC4_LANGS ?=

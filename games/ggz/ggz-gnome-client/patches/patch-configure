@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ggz/ggz-gnome-client/patches/patch-configure,v 1.1.1.1 2008/11/17 18:58:58 jasper Exp $
+$OpenBSD$
 --- configure.orig	Mon Nov 17 19:34:27 2008
 +++ configure	Mon Nov 17 19:34:50 2008
 @@ -4841,7 +4841,7 @@ if test "${ac_cv_lib_intl_gettext+set}" = set; then

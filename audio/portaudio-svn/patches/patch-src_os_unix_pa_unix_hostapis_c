@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/portaudio-svn/patches/patch-src_os_unix_pa_unix_hostapis_c,v 1.1 2009/03/14 02:31:40 jakemsr Exp $
+$OpenBSD$
 --- src/os/unix/pa_unix_hostapis.c.orig	Thu May 22 01:47:01 2008
 +++ src/os/unix/pa_unix_hostapis.c	Sun Mar  8 22:53:55 2009
 @@ -44,6 +44,7 @@

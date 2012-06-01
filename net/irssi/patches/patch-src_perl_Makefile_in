@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi/patches/patch-src_perl_Makefile_in,v 1.5 2010/05/19 15:04:28 sthen Exp $
+$OpenBSD$
 --- src/perl/Makefile.in.orig	Sat Apr  3 18:21:29 2010
 +++ src/perl/Makefile.in	Sun Apr  4 16:31:38 2010
 @@ -275,7 +275,7 @@ INCLUDES = \

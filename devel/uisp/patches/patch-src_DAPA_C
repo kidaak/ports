@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/uisp/patches/patch-src_DAPA_C,v 1.2 2010/05/22 14:27:21 espie Exp $
+$OpenBSD$
 --- src/DAPA.C.orig	Tue Dec 28 15:39:38 2004
 +++ src/DAPA.C	Sat May 22 16:17:55 2010
 @@ -84,6 +84,35 @@

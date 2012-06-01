@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-POE/Makefile,v 1.21 2010/11/24 15:28:09 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	portable multitasking and networking framework for perl
 

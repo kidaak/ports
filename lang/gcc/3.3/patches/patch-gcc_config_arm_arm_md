@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_arm_arm_md,v 1.1.1.1 2005/01/03 15:21:26 espie Exp $
+$OpenBSD$
 --- gcc/config/arm/arm.md.orig	Tue Mar 30 22:43:44 2004
 +++ gcc/config/arm/arm.md	Mon Jan  3 10:17:43 2005
 @@ -3948,7 +3948,13 @@

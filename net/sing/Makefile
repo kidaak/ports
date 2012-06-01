@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/sing/Makefile,v 1.23 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	send ICMP nasty garbage
 

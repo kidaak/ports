@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/pan/patches/patch-pan_general_time-elapsed_h,v 1.1 2012/03/29 12:09:55 naddy Exp $
+$OpenBSD$
 --- pan/general/time-elapsed.h.orig	Wed Mar 28 18:06:09 2012
 +++ pan/general/time-elapsed.h	Wed Mar 28 18:06:45 2012
 @@ -1,9 +1,7 @@

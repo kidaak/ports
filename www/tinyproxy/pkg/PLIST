@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/tinyproxy/pkg/PLIST,v 1.8 2009/04/11 23:54:12 sthen Exp $
+@comment $OpenBSD$
 @newgroup _tinyproxy:617
 @newuser _tinyproxy:617:_tinyproxy:daemon:tinyproxy:/nonexistent:/sbin/nologin
 @man man/man8/tinyproxy.8

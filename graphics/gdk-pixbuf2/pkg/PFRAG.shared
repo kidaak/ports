@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/gdk-pixbuf2/pkg/PFRAG.shared,v 1.1.1.1 2010/09/30 07:15:36 ajacoutot Exp $
+@comment $OpenBSD$
 lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ani.so
 lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-bmp.so
 lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so

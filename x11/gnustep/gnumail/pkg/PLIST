@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/gnumail/pkg/PLIST,v 1.6 2011/04/18 12:21:25 sebastia Exp $
+@comment $OpenBSD$
 bin/GNUMail
 include/GNUMail
 lib/GNUstep/ApplicationSupport/

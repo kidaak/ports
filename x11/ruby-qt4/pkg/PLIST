@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/ruby-qt4/pkg/PLIST,v 1.1.1.1 2011/11/15 16:27:44 jeremy Exp $
+@comment $OpenBSD$
 bin/rbqt4api
 @bin bin/rbrcc
 @bin bin/rbuic4

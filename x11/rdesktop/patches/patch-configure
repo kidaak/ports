@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/rdesktop/patches/patch-configure,v 1.8 2012/03/14 18:36:04 gsoares Exp $
+$OpenBSD$
 
 Don't pickup libsamplerate if that's installed.
 

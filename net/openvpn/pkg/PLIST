@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/openvpn/pkg/PLIST,v 1.15 2012/01/27 12:30:28 jsing Exp $
+@comment $OpenBSD$
 @newgroup _openvpn:577
 @newuser _openvpn:577:_openvpn:daemon:OpenVPN Daemon:/nonexistent:/sbin/nologin
 include/openvpn/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/x48/pkg/PLIST,v 1.5 2011/11/23 19:36:44 pascal Exp $
+@comment $OpenBSD$
 @bin bin/checkrom
 @bin bin/dump2rom
 @bin bin/mkcard

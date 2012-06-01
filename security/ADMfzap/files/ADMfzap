@@ -1,11 +1,11 @@
 #!/bin/sh
-# $OpenBSD: ports/security/ADMfzap/files/ADMfzap,v 1.2 2002/03/24 07:30:43 jsyn Exp $
+# $OpenBSD$
 #
 # ADMfzap wrapper.
 #
 # Dug Song <dugsong@monkey.org>
 #
-# $Id: ADMfzap,v 1.1.1.1 2000/04/06 20:45:01 dugsong Exp $
+# $Id$
 
 LIBFZAP=y0y0y0
 

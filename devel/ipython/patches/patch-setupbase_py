@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ipython/patches/patch-setupbase_py,v 1.2 2011/09/22 18:42:14 rpointel Exp $
+$OpenBSD$
 --- setupbase.py.orig	Sun Jul 31 06:36:48 2011
 +++ setupbase.py	Fri Sep 16 07:49:37 2011
 @@ -202,7 +202,7 @@

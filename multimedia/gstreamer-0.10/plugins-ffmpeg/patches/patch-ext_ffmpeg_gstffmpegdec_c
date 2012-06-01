@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-ffmpeg/patches/patch-ext_ffmpeg_gstffmpegdec_c,v 1.4 2012/03/03 10:33:42 ajacoutot Exp $
+$OpenBSD$
 
 From upstream:
 - Report latency if B-frames are present.

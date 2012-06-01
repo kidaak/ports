@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-OpenSSH/Makefile,v 1.1.1.1 2012/01/25 15:43:37 okan Exp $
+# $OpenBSD$
 
 COMMENT =	perl SSH client package implemented on top of OpenSSH
 

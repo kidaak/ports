@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/liboauth/Makefile,v 1.2 2012/03/23 20:14:55 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		library implementing the OAuth Core RFC 5849 standard
 

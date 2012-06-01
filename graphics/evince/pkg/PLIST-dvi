@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/evince/pkg/PLIST-dvi,v 1.8 2012/03/29 07:03:31 ajacoutot Exp $
+@comment $OpenBSD$
 lib/evince/4/backends/dvidocument.evince-backend
 @comment lib/evince/3/backends/libdvidocument.la
 lib/evince/4/backends/libdvidocument.so

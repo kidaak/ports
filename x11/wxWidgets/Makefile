@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wxWidgets/Makefile,v 1.40 2012/03/30 12:03:03 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 

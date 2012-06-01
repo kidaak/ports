@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xcept/patches/patch-xcept_makefile,v 1.1 2000/09/03 16:25:05 espie Exp $
+$OpenBSD$
 --- xcept/makefile.orig	Fri May 13 12:19:55 1994
 +++ xcept/makefile	Sun Sep  3 17:41:23 2000
 @@ -48,24 +48,25 @@ SERVERPORT = 20005

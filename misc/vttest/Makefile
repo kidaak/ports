@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/vttest/Makefile,v 1.6 2012/03/29 13:38:40 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	test VT100-type terminal
 

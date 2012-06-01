@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-PlRPC/Makefile,v 1.21 2010/12/03 11:45:43 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	module for writing rpc servers and clients
 

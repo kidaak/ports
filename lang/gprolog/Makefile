@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/gprolog/Makefile,v 1.11 2010/11/17 08:05:17 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=		amd64 i386
 

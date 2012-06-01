@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/upower/Makefile,v 1.17 2012/03/03 17:30:17 ajacoutot Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS =${APM_ARCHS}
 

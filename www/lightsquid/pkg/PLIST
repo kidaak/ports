@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/lightsquid/pkg/PLIST,v 1.2 2009/08/20 21:51:58 rui Exp $
+@comment $OpenBSD$
 htdocs/lightsquid/
 htdocs/lightsquid/.htaccess
 htdocs/lightsquid/bigfiles.cgi

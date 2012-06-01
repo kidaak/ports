@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-TAP-Parser/pkg/PLIST,v 1.1.1.1 2007/09/14 05:53:04 msf Exp $
+@comment $OpenBSD$
 bin/runtests
 ${P5SITE}/TAP/
 ${P5SITE}/TAP/Base.pm

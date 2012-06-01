@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/clamnailer/pkg/PLIST,v 1.3 2011/05/11 12:57:47 jasper Exp $
+@comment $OpenBSD$
 @extraunexec rm -rf /var/db/clamnailer/*
 sbin/clamnailer
 @mode 775

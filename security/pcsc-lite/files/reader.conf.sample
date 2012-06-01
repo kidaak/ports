@@ -13,7 +13,7 @@
 #	0x0103E8	COM3
 #	0x0102E8	COM4
 #
-# $OpenBSD: ports/security/pcsc-lite/files/reader.conf.sample,v 1.1.1.1 2001/12/07 06:33:19 shell Exp $
+# $OpenBSD$
 
 FRIENDLYNAME     "Generic Reader"
 DEVICENAME       GEN_SMART_RDR

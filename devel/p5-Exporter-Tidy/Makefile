@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Exporter-Tidy/Makefile,v 1.7 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	alternative to the standard perl exporter
 CATEGORIES=	devel

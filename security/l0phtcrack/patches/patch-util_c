@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/l0phtcrack/patches/patch-util_c,v 1.1 2010/10/19 07:59:04 jsg Exp $
+$OpenBSD$
 --- util.c.orig	Sat Oct 16 15:16:15 2010
 +++ util.c	Sat Oct 16 15:16:43 2010
 @@ -15,7 +15,7 @@ int isvalid_userline(int, char *str);

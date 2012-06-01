@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/p5-Math-Base36/Makefile,v 1.6 2011/04/05 21:19:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		encoding and decoding of base36 strings
 

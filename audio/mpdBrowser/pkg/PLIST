@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/mpdBrowser/pkg/PLIST,v 1.2 2009/12/22 15:43:15 ajacoutot Exp $
+@comment $OpenBSD$
 bin/mpdBrowser
 lib/python${MODPY_VERSION}/site-packages/mpdBrowser/
 lib/python${MODPY_VERSION}/site-packages/mpdBrowser-0.9.0-py${MODPY_VERSION}.egg-info

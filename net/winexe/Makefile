@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/winexe/Makefile,v 1.5 2011/04/15 16:10:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	remotely execute programs on a Windows host
 

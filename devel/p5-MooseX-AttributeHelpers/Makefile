@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-AttributeHelpers/Makefile,v 1.5 2010/12/03 11:44:33 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	extend your attribute interfaces
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/wv2/patches/patch-configure,v 1.1 2008/07/25 15:16:34 sthen Exp $
+$OpenBSD$
 --- configure.orig	Fri Jul 25 15:59:24 2008
 +++ configure	Fri Jul 25 16:01:23 2008
 @@ -25945,6 +25945,7 @@ _ACEOF

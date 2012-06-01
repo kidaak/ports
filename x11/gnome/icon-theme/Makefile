@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/icon-theme/Makefile,v 1.50 2012/03/29 06:35:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	base icon theme for GNOME
 

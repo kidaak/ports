@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/mutella/Makefile,v 1.10 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		gnutella client with an easy to use interface
 

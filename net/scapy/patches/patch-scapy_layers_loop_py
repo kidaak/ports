@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/scapy/patches/patch-scapy_layers_loop_py,v 1.1 2012/01/12 03:16:24 bluhm Exp $
+$OpenBSD$
 Add layer for sniffing on OpenBSD loopback device.
 http://trac.secdev.org/scapy/ticket/485
 

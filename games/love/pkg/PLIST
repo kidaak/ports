@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/games/love/pkg/PLIST,v 1.1.1.1 2011/07/02 09:54:39 jasper Exp $
+@comment $OpenBSD$
 @bin bin/love

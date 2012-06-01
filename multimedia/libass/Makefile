@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/libass/Makefile,v 1.2 2011/11/18 00:21:51 phessler Exp $
+# $OpenBSD$
 
 COMMENT=	portable ASS/SSA subtitle renderer
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/freeze/pkg/PLIST,v 1.6 2009/06/02 20:46:15 benoit Exp $
+@comment $OpenBSD$
 @bin bin/fcat
 @bin bin/freeze
 @bin bin/melt

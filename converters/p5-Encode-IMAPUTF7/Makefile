@@ -1,4 +1,4 @@
-# $OpenBSD: ports/converters/p5-Encode-IMAPUTF7/Makefile,v 1.5 2010/12/03 11:44:23 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	modification of UTF-7 encoding for IMAP
 

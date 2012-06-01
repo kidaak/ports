@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/pcsxr/pkg/PLIST,v 1.2 2011/04/01 21:56:21 jeremy Exp $
+@comment $OpenBSD$
 @bin bin/pcsx
 lib/games/
 lib/games/psemu/

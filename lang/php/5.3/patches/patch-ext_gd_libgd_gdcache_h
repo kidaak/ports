@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/php/5.3/patches/patch-ext_gd_libgd_gdcache_h,v 1.2 2011/06/18 19:49:50 sthen Exp $
+$OpenBSD$
 --- ext/gd/libgd/gdcache.h.orig.port	Wed Sep 26 16:44:16 2007
 +++ ext/gd/libgd/gdcache.h	Sat Jun 18 12:14:49 2011
 @@ -41,7 +41,7 @@

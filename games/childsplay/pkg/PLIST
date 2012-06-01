@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/childsplay/pkg/PLIST,v 1.2 2006/12/08 06:53:40 ajacoutot Exp $
+@comment $OpenBSD$
 @mode g+s
 @group games
 bin/childsplay

@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-base_debug_debugger_posix_cc,v 1.8 2012/04/15 10:40:44 robert Exp $
+$OpenBSD$
 --- base/debug/debugger_posix.cc.orig	Sat Apr 14 12:17:19 2012
 +++ base/debug/debugger_posix.cc	Sat Apr 14 16:54:46 2012
 @@ -92,33 +92,36 @@ bool BeingDebugged() {

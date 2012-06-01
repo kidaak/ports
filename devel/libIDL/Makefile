@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libIDL/Makefile,v 1.36 2011/09/28 09:51:35 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		IDL parsing library
 

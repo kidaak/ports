@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/wml/patches/patch-wml_include_fmt_xtable_src,v 1.1.1.1 2006/07/14 16:12:14 bernd Exp $
+$OpenBSD$
 --- wml_include/fmt/xtable.src.orig	Thu Jun 15 15:14:16 2006
 +++ wml_include/fmt/xtable.src	Thu Jun 15 15:14:16 2006
 @@ -29,7 +29,7 @@

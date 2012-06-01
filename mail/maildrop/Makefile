@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/maildrop/Makefile,v 1.41 2011/09/16 10:31:21 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=		mail delivery agent with filtering abilities
 COMMENT-utils=		quota tools for the Courier mail suite

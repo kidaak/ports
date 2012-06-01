@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/nessus/plugins/pkg/PLIST,v 1.8 2007/02/13 11:55:01 aanriot Exp $
+@comment $OpenBSD$
 @conflict nessus-<2.2.4
 bin/nessus-build
 @comment no checksum

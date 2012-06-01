@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/oolite/patches/patch-src_Core_Debug_OODebugTCPConsoleClient_m,v 1.2 2011/01/15 10:13:23 sebastia Exp $
+$OpenBSD$
 
 fix: 'struct in_addr' declared inside parameter list
 

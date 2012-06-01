@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xscreensaver/patches/patch-hacks_glx_Makefile_in,v 1.4 2005/06/03 05:38:32 marcm Exp $
+$OpenBSD$
 --- hacks/glx/Makefile.in.orig	Sun Mar 20 23:18:19 2005
 +++ hacks/glx/Makefile.in	Sun Apr 17 23:30:27 2005
 @@ -11,7 +11,7 @@ VPATH		= @srcdir@

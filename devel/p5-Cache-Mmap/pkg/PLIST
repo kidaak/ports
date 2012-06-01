@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Cache-Mmap/pkg/PLIST,v 1.2 2006/11/25 16:32:34 espie Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Cache/
 ${P5ARCH}/Cache/Mmap.pm

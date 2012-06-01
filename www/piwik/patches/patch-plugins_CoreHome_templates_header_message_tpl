@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/piwik/patches/patch-plugins_CoreHome_templates_header_message_tpl,v 1.5 2012/02/20 08:47:02 giovanni Exp $
+$OpenBSD$
 --- plugins/CoreHome/templates/header_message.tpl.orig	Fri Dec 23 04:47:13 2011
 +++ plugins/CoreHome/templates/header_message.tpl	Fri Feb 17 18:50:48 2012
 @@ -6,8 +6,6 @@

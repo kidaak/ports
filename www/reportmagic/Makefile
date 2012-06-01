@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/reportmagic/Makefile,v 1.10 2010/11/22 08:36:53 espie Exp $
+# $OpenBSD$
 
 COMMENT=	make pretty graphs from Analog logfiles
 

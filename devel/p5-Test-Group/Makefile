@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Group/Makefile,v 1.5 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	group together related tests in a test suite
 

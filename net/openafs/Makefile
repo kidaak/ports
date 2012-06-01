@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/openafs/Makefile,v 1.39 2012/01/13 00:23:29 naddy Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=		i386
 
@@ -36,7 +36,6 @@ CONFIGURE_STYLE=	automake autoconf
 CONFIGURE_ENV+=		KRB5CFLAGS="-I/usr/include/kerberosV -DUSING_HEIMDAL" \
 			KRB5LIBS="-lkrb5"
 CONFIGURE_ARGS+=	${CONFIGURE_SHARED} \
-			--localstatedir=/var \
 			--disable-transarc-paths \
 			--enable-namei-fileserver \
 			--enable-largefile-fileserver \

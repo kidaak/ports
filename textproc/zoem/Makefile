@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/zoem/Makefile,v 1.10 2010/10/19 07:54:26 espie Exp $
+# $OpenBSD$
 
 COMMENT=	interpretive macro/programming language
 

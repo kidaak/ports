@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/h323plus/patches/patch-plugins_configure,v 1.4 2011/10/26 16:59:51 ajacoutot Exp $
+$OpenBSD$
 --- plugins/configure.orig	Mon Sep 20 11:04:24 2010
 +++ plugins/configure	Wed Oct 26 13:08:03 2011
 @@ -2318,6 +2318,10 @@ fi

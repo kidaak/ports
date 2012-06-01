@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/cnupm/Makefile,v 1.17 2012/01/26 08:03:57 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		IPv4/IPv6 traffic collector
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-tagger/Makefile,v 1.9 2011/09/16 08:26:11 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Python ID3 tag reader/writer module
 

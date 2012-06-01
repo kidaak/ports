@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Accessor-Lite/Makefile,v 1.2 2011/06/14 12:54:18 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	minimalistic variant of Class::Accessor
 COMMENT=	automated accessor generation

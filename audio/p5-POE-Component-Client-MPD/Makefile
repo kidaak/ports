@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-POE-Component-Client-MPD/Makefile,v 1.11 2010/12/03 11:44:22 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		complete MPD client library
 

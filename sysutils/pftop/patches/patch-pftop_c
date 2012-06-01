@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/pftop/patches/patch-pftop_c,v 1.15 2011/08/23 11:42:11 sthen Exp $
+$OpenBSD$
 --- pftop.c.orig	Wed Nov  7 06:36:46 2007
 +++ pftop.c	Tue Aug 23 12:41:14 2011
 @@ -127,6 +127,13 @@

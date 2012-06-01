@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/multimedia/libdv/pkg/PFRAG.shared,v 1.5 2005/12/28 13:43:07 jakemsr Exp $
+@comment $OpenBSD$
 @lib lib/libdv.so.${LIBdv_VERSION}

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/wide-dhcp/Makefile,v 1.22 2011/11/16 00:20:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	client and servers for the WIDE DHCP protocol
 

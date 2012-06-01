@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/w3m/Makefile,v 1.80 2012/02/20 18:25:47 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	pager/text-based web browser
 

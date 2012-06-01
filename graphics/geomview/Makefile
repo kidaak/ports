@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/geomview/Makefile,v 1.5 2011/11/02 08:46:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT =		geometry viewer for OOGL file formats
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/phplist/Makefile,v 1.16 2011/12/15 10:14:05 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		web-based double opt-in newsletter manager
 

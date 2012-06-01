@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/jdk/java.port.mk,v 1.30 2011/12/15 21:31:29 kili Exp $
+# $OpenBSD$
 
 # Set MODJAVA_VER to x.y or x.y+ based on the version
 # of the jdk needed for the port. x.y  means any x.y jdk.

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nssl/Makefile,v 1.5 2011/04/17 17:56:02 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		netcat-like program with transparent SSL support
 

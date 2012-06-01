@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/apvlv/patches/patch-src_ApvlvUtil_cpp,v 1.1.1.1 2010/05/13 16:05:05 landry Exp $
+$OpenBSD$
 HOME and PWD are not always set in env.
 --- src/ApvlvUtil.cpp.orig	Tue Apr 20 03:01:33 2010
 +++ src/ApvlvUtil.cpp	Tue May  4 10:44:58 2010

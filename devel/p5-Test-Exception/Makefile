@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Exception/Makefile,v 1.12 2010/12/03 11:44:36 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	test functions for exception based code
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/capitan-sevilla/Makefile,v 1.2 2011/06/05 14:24:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		platform game set in seville and in space
 VERSION = 		1.0.3

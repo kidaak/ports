@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gpicview/Makefile,v 1.17 2011/11/02 08:46:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	simple and fast image viewer for X
 

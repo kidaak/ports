@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/retawq/Makefile,v 1.5 2010/11/11 12:35:18 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		interactive, multi-threaded text mode web browser
 

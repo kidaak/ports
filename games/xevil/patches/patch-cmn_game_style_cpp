@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-cmn_game_style_cpp,v 1.2 2010/06/15 19:04:05 landry Exp $
+$OpenBSD$
 --- cmn/game_style.cpp.orig	Sat Mar 22 20:47:42 2003
 +++ cmn/game_style.cpp	Tue Jun 15 20:48:55 2010
 @@ -29,12 +29,10 @@

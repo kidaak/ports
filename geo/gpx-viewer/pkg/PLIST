@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/geo/gpx-viewer/pkg/PLIST,v 1.5 2011/12/03 20:30:09 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gpx-viewer
 share/applications/gpx-viewer.desktop
 share/gpx-viewer/

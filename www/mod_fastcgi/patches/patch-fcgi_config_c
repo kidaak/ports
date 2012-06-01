@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_fastcgi/patches/patch-fcgi_config_c,v 1.1 2009/06/19 12:19:00 simon Exp $
+$OpenBSD$
 
 Cast like it's done in httpd sources.
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Catalyst-View-XSLT/pkg/PLIST,v 1.1.1.1 2006/11/07 18:19:25 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Helper/
 ${P5SITE}/Catalyst/Helper/View/
 ${P5SITE}/Catalyst/Helper/View/XSLT.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/freeipmi/patches/patch-libfreeipmi_src_Makefile_in,v 1.2 2012/04/13 20:53:19 sthen Exp $
+$OpenBSD$
 --- libfreeipmi/src/Makefile.in.orig	Thu Oct 11 16:58:32 2007
 +++ libfreeipmi/src/Makefile.in	Fri Apr 13 16:43:57 2012
 @@ -186,7 +186,7 @@ LIBIPMICONSOLE_VERSION_INFO = @LIBIPMICONSOLE_VERSION_

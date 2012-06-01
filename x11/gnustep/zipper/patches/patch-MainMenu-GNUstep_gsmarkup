@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/zipper/patches/patch-MainMenu-GNUstep_gsmarkup,v 1.1.1.1 2011/07/19 13:58:02 sebastia Exp $
+$OpenBSD$
 --- MainMenu-GNUstep.gsmarkup.orig	Wed Apr 27 18:56:55 2011
 +++ MainMenu-GNUstep.gsmarkup	Wed Apr 27 18:57:58 2011
 @@ -5,28 +5,28 @@

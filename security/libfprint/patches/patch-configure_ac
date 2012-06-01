@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/libfprint/patches/patch-configure_ac,v 1.1 2012/02/22 09:30:20 dcoppa Exp $
+$OpenBSD$
 --- configure.ac.orig	Fri Nov 18 19:17:48 2011
 +++ configure.ac	Fri Nov 18 19:20:02 2011
 @@ -127,22 +127,17 @@ AC_SUBST(GLIB_CFLAGS)

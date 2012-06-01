@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/hfsplus/patches/patch-libhfsp_src_fscheck_c,v 1.1 2011/02/06 16:03:55 fgsch Exp $
+$OpenBSD$
 --- libhfsp/src/fscheck.c.orig	Mon Mar 25 15:48:37 2002
 +++ libhfsp/src/fscheck.c	Sat Jan 29 06:01:31 2011
 @@ -204,7 +204,8 @@ static int fscheck_volume_header(volume * vol, hfsp_vh

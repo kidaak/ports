@@ -1,0 +1,12 @@
+$OpenBSD$
+--- 3rdparty/dyncall/dyncallback/dyncall_thunk_x64.c.orig	Mon Apr 30 21:01:20 2012
++++ 3rdparty/dyncall/dyncallback/dyncall_thunk_x64.c	Mon Apr 30 21:01:28 2012
+@@ -25,7 +25,7 @@
+ 
+ #include "dyncall_thunk.h"
+ 
+-void dcbInitThunk(DCThunk* p, void (*entry)())
++void dcbInitThunk(DCThunk* p, void (*entry)(void))
+ {
+   /*
+     # x64 thunk code:

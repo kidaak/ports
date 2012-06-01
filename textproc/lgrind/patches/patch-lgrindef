@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/lgrind/patches/patch-lgrindef,v 1.2 2004/04/11 19:12:24 sturm Exp $
+$OpenBSD$
 --- lgrindef.orig	2004-04-11 20:38:29.000000000 +0200
 +++ lgrindef	2004-04-11 20:38:29.000000000 +0200
 @@ -823,7 +823,6 @@ firstpreamble:\

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xscreensaver/patches/patch-configure,v 1.15 2012/01/08 15:36:26 dcoppa Exp $
+$OpenBSD$
 --- configure.orig	Thu Sep 29 06:16:35 2011
 +++ configure	Thu Jan  5 22:15:46 2012
 @@ -9874,7 +9874,7 @@ if test "${ac_cv_lib_intl_bindtextdomain+set}" = set; 

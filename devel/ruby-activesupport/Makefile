@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-activesupport/Makefile,v 1.27 2011/12/13 17:51:43 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	utility classes and extensions for rails framework 
 

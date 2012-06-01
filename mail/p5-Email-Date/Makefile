@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-Email-Date/Makefile,v 1.10 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT= 	find and format date headers
 

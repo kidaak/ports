@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/zeromq/patches/patch-configure,v 1.2 2011/07/05 13:57:23 jasper Exp $
+$OpenBSD$
 --- configure.orig	Thu May 12 12:09:22 2011
 +++ configure	Thu Jun 16 02:59:55 2011
 @@ -16088,7 +16088,7 @@

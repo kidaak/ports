@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/gettext/patches/patch-gettext-runtime_intl_Makefile_in,v 1.5 2010/07/03 03:23:22 naddy Exp $
+$OpenBSD$
 --- gettext-runtime/intl/Makefile.in.orig	Fri Jun  4 00:53:31 2010
 +++ gettext-runtime/intl/Makefile.in	Mon Jun 28 20:20:26 2010
 @@ -220,7 +220,7 @@ libintl.a libgnuintl.a: $(OBJECTS)

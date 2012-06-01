@@ -1,4 +1,4 @@
-# $OpenBSD: ports/biology/emboss/Makefile,v 1.8 2011/11/01 16:05:26 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	European Molecular Biology Open Software Suite
 

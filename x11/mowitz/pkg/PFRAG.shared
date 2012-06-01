@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/x11/mowitz/pkg/PFRAG.shared,v 1.3 2005/12/31 16:33:45 naddy Exp $
+@comment $OpenBSD$
 @lib lib/libMowitz.so.${LIBMowitz_VERSION}

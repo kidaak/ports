@@ -1,7 +1,7 @@
-# $OpenBSD: ports/databases/redis/Makefile,v 1.25 2012/04/02 12:14:31 dcoppa Exp $
+# $OpenBSD$
 
 COMMENT =		persistent key-value database
-DISTNAME =		redis-2.4.10
+DISTNAME =		redis-2.4.14
 CATEGORIES =		databases
 HOMEPAGE =		http://redis.io/
 
@@ -13,27 +13,28 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
+WANTLIB += 		c execinfo m pthread
+
 MASTER_SITES =		http://redis.googlecode.com/files/
 
 MODULES =		lang/tcl
 
-USE_GMAKE =		Yes
+LIB_DEPENDS =		devel/libexecinfo
 
-FAKE_FLAGS =		INSTALL_TOP=${WRKINST}${PREFIX}
-
-# Replace cp/mkdir with our install commands
-# Enable verbose compilation
-MAKE_FLAGS =		INSTALL="${INSTALL_PROGRAM}" \
-			INSTALL_DIR="${INSTALL_DATA_DIR}" \
+MAKE_FLAGS =		CC=${CC} \
+			DEBUG="" \
+			OPTIMIZATION="" \
 			V=1
+
+FAKE_FLAGS =		INSTALL="${INSTALL_PROGRAM}" \
+			INSTALL_DIR="${INSTALL_DATA_DIR}" \
+			INSTALL_TOP="${WRKINST}${PREFIX}"
+
+USE_GMAKE =		Yes
 
 CFLAGS +=		-I${LOCALBASE}/include
 
-WANTLIB += 		c execinfo m pthread
-
-LIB_DEPENDS =		devel/libexecinfo
-
-# Warning: executing the test suite can take a long time and will
+# Warning: running the test suite can take a long time and will
 # consume a lot of cpu cycles
 REGRESS_DEPENDS =       ${MODTCL_BUILD_DEPENDS}
 REGRESS_FLAGS =		TCL_BIN="${MODTCL_BIN}"

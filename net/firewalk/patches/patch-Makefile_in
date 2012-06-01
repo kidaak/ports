@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/firewalk/patches/patch-Makefile_in,v 1.1 2005/05/24 00:00:11 mjc Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Dec 15 15:58:01 1998
 +++ Makefile.in	Mon May 23 09:50:51 2005
 @@ -11,14 +11,14 @@

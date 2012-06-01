@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Crypt-DES-EDE3/Makefile,v 1.7 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Triple-DES EDE encryption/decryption
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/Makefile,v 1.55 2011/03/11 21:25:45 dhill Exp $
+# $OpenBSD$
 
      SUBDIR =
      SUBDIR += arc
@@ -15,6 +15,7 @@
      SUBDIR += ha
      SUBDIR += hs-zlib
      SUBDIR += hs-zlib-bindings
+     SUBDIR += hs-zlib-enum
      SUBDIR += lha
      SUBDIR += libarchive
      SUBDIR += libmspack

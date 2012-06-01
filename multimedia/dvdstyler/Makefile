@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/dvdstyler/Makefile,v 1.22 2011/11/22 09:05:33 ajacoutot Exp $
+# $OpenBSD$
 
 BROKEN=			needs an update
 

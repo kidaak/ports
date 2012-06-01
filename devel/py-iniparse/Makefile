@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-iniparse/Makefile,v 1.1.1.1 2012/03/27 18:19:39 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =		INI parser for Python
 

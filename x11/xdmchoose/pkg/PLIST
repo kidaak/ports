@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/xdmchoose/pkg/PLIST,v 1.4 2004/08/08 15:51:06 naddy Exp $
+@comment $OpenBSD$
 bin/xdmchooser
 bin/xdmping
 @man man/man1/xdmchoose.1

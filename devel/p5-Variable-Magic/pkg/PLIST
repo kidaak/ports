@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Variable-Magic/pkg/PLIST,v 1.1.1.1 2009/02/02 00:58:07 simon Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Variable/
 ${P5ARCH}/Variable/Magic.pm

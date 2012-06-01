@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/djvulibre/pkg/PFRAG.no-no_x11,v 1.6 2011/12/03 18:35:11 ajacoutot Exp $
+@comment $OpenBSD$
 @comment bin/djview
 @bin bin/djview3
 @comment lib/netscape/

@@ -1,6 +1,6 @@
 #! /bin/sh
 #
-# $OpenBSD: ports/infrastructure/fetch/check-license,v 1.5 2003/06/12 22:30:28 marc Exp $
+# $OpenBSD$
 #
 # PUBLIC DOMAIN -- Marco S Hyman -- <marc@snafu.org>
 #

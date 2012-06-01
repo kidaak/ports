@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/libxml/patches/patch-python_tests_Makefile_in,v 1.10 2010/11/15 09:54:11 jasper Exp $
+$OpenBSD$
 --- python/tests/Makefile.in.orig	Thu Nov  4 18:28:16 2010
 +++ python/tests/Makefile.in	Fri Nov 12 15:00:38 2010
 @@ -296,7 +296,7 @@ target_alias = @target_alias@

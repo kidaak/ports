@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/libreoffice/patches/patch-desktop_Executable_soffice_bin_mk,v 1.1 2012/04/03 08:56:50 robert Exp $
+$OpenBSD$
 --- desktop/Executable_soffice.bin.mk.orig.port	Thu Mar  8 09:12:12 2012
 +++ desktop/Executable_soffice.bin.mk	Thu Mar  8 09:11:41 2012
 @@ -42,6 +42,7 @@ $(eval $(call gb_Executable_set_include,$(sofficebin),

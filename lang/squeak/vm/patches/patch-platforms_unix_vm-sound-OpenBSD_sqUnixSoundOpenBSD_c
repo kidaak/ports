@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/squeak/vm/patches/patch-platforms_unix_vm-sound-OpenBSD_sqUnixSoundOpenBSD_c,v 1.1 2008/07/23 11:17:22 espie Exp $
+$OpenBSD$
 --- platforms/unix/vm-sound-OpenBSD/sqUnixSoundOpenBSD.c.orig	Wed Jul 23 13:05:41 2008
 +++ platforms/unix/vm-sound-OpenBSD/sqUnixSoundOpenBSD.c	Wed Jul 23 13:05:12 2008
 @@ -1,4 +1,4 @@

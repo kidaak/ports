@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/smstools/Makefile,v 1.26 2011/12/09 10:01:32 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	gateway to send and receive SMS through GSM mobile phones
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/nedit/patches/patch-doc_nc_man,v 1.7 2007/08/29 10:06:52 mbalmer Exp $
+$OpenBSD$
 --- doc/nc.man.orig	Thu Sep 30 23:03:59 2004
 +++ doc/nc.man	Mon Aug 27 12:03:21 2007
 @@ -128,30 +128,30 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/books/mason-book/Makefile,v 1.7 2010/11/15 12:47:38 espie Exp $
+# $OpenBSD$
 
 COMMENT=	book on embedding Perl in HTML with Mason
 CATEGORIES=	books 

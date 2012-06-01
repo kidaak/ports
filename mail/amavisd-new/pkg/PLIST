@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/amavisd-new/pkg/PLIST,v 1.15 2012/03/14 09:17:09 sthen Exp $
+@comment $OpenBSD$
 @newgroup _vscan:530
 @newuser _vscan:530:_vscan:daemon:Amavisd-new Daemon:/var/empty:/sbin/nologin
 @extraunexec rm -fr /var/amavisd/*

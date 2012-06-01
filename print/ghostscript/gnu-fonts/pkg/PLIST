@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/ghostscript/gnu-fonts/pkg/PLIST,v 1.5 2009/10/21 14:19:01 kili Exp $
+@comment $OpenBSD$
 share/ghostscript/
 @fontdir share/ghostscript/fonts/
 share/ghostscript/fonts/a010013l.afm

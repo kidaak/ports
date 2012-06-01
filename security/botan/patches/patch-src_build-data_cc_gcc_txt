@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/botan/patches/patch-src_build-data_cc_gcc_txt,v 1.2 2011/11/26 10:55:17 ajacoutot Exp $
+$OpenBSD$
 --- src/build-data/cc/gcc.txt.orig	Mon Jul 11 13:32:23 2011
 +++ src/build-data/cc/gcc.txt	Wed Nov 23 00:15:03 2011
 @@ -33,12 +33,20 @@ default -> "$(CXX) -shared -fPIC -Wl,-soname,$(SONAME)

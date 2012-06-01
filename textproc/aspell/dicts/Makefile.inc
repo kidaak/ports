@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/aspell/dicts/Makefile.inc,v 1.13 2012/01/17 11:04:12 ajacoutot Exp $
+# $OpenBSD$
 
 # Check individual packages for overrides when bumping this!
 PKGNAMEBASE=	${DISTNAME:C/aspell[0-9]/aspell/}

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/lablgtk2/pkg/PFRAG.shared,v 1.2 2011/01/14 19:38:33 jasper Exp $
+@comment $OpenBSD$
 lib/ocaml/stublibs/
 lib/ocaml/stublibs/dlllablglade2.so
 lib/ocaml/stublibs/dlllablgtk2.so

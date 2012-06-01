@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/ipv6calc/pkg/PLIST,v 1.6 2009/12/22 10:27:42 giovanni Exp $
+@comment $OpenBSD$
 @bin bin/ipv6calc
 @bin bin/ipv6loganon
 @bin bin/ipv6logconv

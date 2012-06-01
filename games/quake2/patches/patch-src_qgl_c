@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/quake2/patches/patch-src_qgl_c,v 1.1 2008/05/25 02:54:58 jsg Exp $
+$OpenBSD$
 --- src/qgl.c.orig	Sat May 24 20:42:30 2008
 +++ src/qgl.c	Sat May 24 20:42:47 2008
 @@ -70,7 +70,7 @@ static FILE * log_fp = NULL;

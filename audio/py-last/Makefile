@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-last/Makefile,v 1.3 2011/09/16 08:26:10 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Python last.fm library
 

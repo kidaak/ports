@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/soundconverter/Makefile,v 1.5 2011/12/03 18:55:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		simple audio file converter for the GNOME Desktop
 

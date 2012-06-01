@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/netfwd/Makefile,v 1.6 2011/06/23 22:50:28 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	netword traffic redirector
 

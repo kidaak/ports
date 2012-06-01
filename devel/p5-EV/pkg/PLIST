@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-EV/pkg/PLIST,v 1.1.1.1 2010/12/01 14:27:57 millert Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/EV/
 ${P5ARCH}/EV.pm

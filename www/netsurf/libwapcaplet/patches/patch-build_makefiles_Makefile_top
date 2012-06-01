@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/netsurf/libwapcaplet/patches/patch-build_makefiles_Makefile_top,v 1.1.1.1 2010/06/29 20:11:13 landry Exp $
+$OpenBSD$
 --- build/makefiles/Makefile.top.orig	Wed Jun 23 22:56:26 2010
 +++ build/makefiles/Makefile.top	Wed Jun 23 22:55:49 2010
 @@ -94,8 +94,8 @@ endif

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-turbokid/pkg/PLIST,v 1.2 2008/01/13 17:25:17 martynas Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/TurboKid-${VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/TurboKid-${VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO
 lib/python${MODPY_VERSION}/site-packages/TurboKid-${VERSION}-py${MODPY_VERSION}.egg-info/SOURCES.txt

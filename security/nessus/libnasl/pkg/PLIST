@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/nessus/libnasl/pkg/PLIST,v 1.7 2011/05/15 08:03:42 jasper Exp $
+@comment $OpenBSD$
 @conflict nessus-<2.2.4
 %%SHARED%%
 bin/nasl

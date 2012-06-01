@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/backuppc/pkg/README,v 1.1.1.1 2011/09/20 11:36:55 landry Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

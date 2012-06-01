@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/mshell/Makefile,v 1.26 2011/05/22 16:07:25 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Unix menuing shell
 

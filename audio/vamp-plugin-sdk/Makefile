@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/vamp-plugin-sdk/Makefile,v 1.7 2010/11/15 00:22:49 espie Exp $
+# $OpenBSD$
 
 COMMENT =		audio plugin API
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/alex/pkg/PLIST,v 1.4 2010/04/22 21:48:30 kili Exp $
+@comment $OpenBSD$
 @bin bin/alex
 share/${DISTNAME}/
 share/${DISTNAME}/AlexTemplate

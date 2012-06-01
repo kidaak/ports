@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mutt/stable/patches/patch-missing,v 1.1 2004/02/21 01:48:27 fgsch Exp $
+$OpenBSD$
 --- missing.orig	2004-02-20 22:46:45.000000000 -0300
 +++ missing	2004-02-20 22:46:55.000000000 -0300
 @@ -87,7 +87,7 @@ Supported PROGRAM values:

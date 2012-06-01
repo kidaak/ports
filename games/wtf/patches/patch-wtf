@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/wtf/patches/patch-wtf,v 1.1 2011/09/20 11:08:52 sthen Exp $
+$OpenBSD$
 --- wtf.orig	Tue Sep 20 12:04:02 2011
 +++ wtf	Tue Sep 20 12:04:29 2011
 @@ -65,7 +65,7 @@ while [ $# -gt 0 ] ; do

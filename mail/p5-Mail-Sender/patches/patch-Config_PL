@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/p5-Mail-Sender/patches/patch-Config_PL,v 1.2 2008/10/10 12:11:31 jasper Exp $
+$OpenBSD$
 --- Config.PL.orig	Mon Jul 14 22:44:08 2008
 +++ Config.PL	Fri Oct 10 13:48:02 2008
 @@ -71,6 +71,7 @@ nmake.exe may be found at ftp://ftp.microsoft.com/Soft

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/amule/patches/patch-src_include_common_Constants_h,v 1.1 2011/12/27 11:51:37 dcoppa Exp $
+$OpenBSD$
 
 Fix bad #define (git commit b2ff838be24f5effae9ac4b75bd1897b710a60dc)
 

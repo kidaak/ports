@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/ruby-capistrano/pkg/PLIST,v 1.7 2010/11/08 23:24:42 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_BIN}/cap${GEM_BIN_SUFFIX}
 ${GEM_BIN}/capify${GEM_BIN_SUFFIX}
 ${GEM_LIB}/cache/${DISTNAME}.gem

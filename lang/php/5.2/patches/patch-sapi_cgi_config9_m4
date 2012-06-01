@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/php/5.2/patches/patch-sapi_cgi_config9_m4,v 1.3 2011/06/18 19:49:50 sthen Exp $
+$OpenBSD$
 --- sapi/cgi/config9.m4.orig.port	Thu Jul 12 00:20:37 2007
 +++ sapi/cgi/config9.m4	Sat Jun 18 12:44:58 2011
 @@ -25,7 +25,6 @@ PHP_ARG_ENABLE(path-info-check,,

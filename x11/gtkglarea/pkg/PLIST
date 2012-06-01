@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtkglarea/pkg/PLIST,v 1.8 2010/03/25 06:27:44 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/gtkgl-2.0/
 include/gtkgl-2.0/gtkgl/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/sharedance/Makefile,v 1.4 2012/01/29 02:26:17 william Exp $
+# $OpenBSD$
 
 COMMENT=	high-performance server that centralizes key/data pairs
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Authen-Krb5-Simple/Makefile,v 1.11 2010/12/03 11:46:46 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl module to authenticate against a Kerberos server
 SHARED_ONLY=	Yes

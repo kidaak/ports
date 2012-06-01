@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libmagic/pkg/PLIST,v 1.4 2012/01/17 17:36:47 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @comment @bin bin/file
 include/magic.h

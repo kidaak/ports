@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-List-UtilsBy/Makefile,v 1.2 2011/06/14 11:16:29 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		higher-order list utility functions
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/clucene/pkg/PLIST,v 1.2 2008/10/28 16:20:57 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/CLucene/
 include/CLucene.h

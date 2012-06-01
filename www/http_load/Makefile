@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/http_load/Makefile,v 1.22 2011/06/23 22:50:30 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	multiprocessing HTTP performance testing client
 

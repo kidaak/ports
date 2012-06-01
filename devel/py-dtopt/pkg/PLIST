@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/py-dtopt/pkg/PLIST,v 1.2 2009/03/22 17:37:58 fgsch Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/dtopt/
 lib/python${MODPY_VERSION}/site-packages/dtopt-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/
 lib/python${MODPY_VERSION}/site-packages/dtopt-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info/PKG-INFO

@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/audacity/patches/patch-lib-src_libnyquist_nyquist_nyqstk_src_FileRead_cpp,v 1.1 2009/10/28 18:40:13 jakemsr Exp $
+$OpenBSD$
 --- lib-src/libnyquist/nyquist/nyqstk/src/FileRead.cpp.orig	Sat Oct 17 15:24:50 2009
 +++ lib-src/libnyquist/nyquist/nyqstk/src/FileRead.cpp	Sat Oct 17 15:28:03 2009
 @@ -160,7 +160,7 @@ bool FileRead :: getWavInfo( const char *fileName )

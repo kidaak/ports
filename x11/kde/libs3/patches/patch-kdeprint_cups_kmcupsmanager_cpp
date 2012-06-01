@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/libs3/patches/patch-kdeprint_cups_kmcupsmanager_cpp,v 1.2 2007/10/24 21:52:18 espie Exp $
+$OpenBSD$
 --- kdeprint/cups/kmcupsmanager.cpp.orig	Mon Jan 15 12:34:19 2007
 +++ kdeprint/cups/kmcupsmanager.cpp	Thu Oct 18 00:39:45 2007
 @@ -102,10 +102,10 @@ QString KMCupsManager::driverDirectory()

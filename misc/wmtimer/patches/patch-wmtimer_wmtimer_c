@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/wmtimer/patches/patch-wmtimer_wmtimer_c,v 1.4 2010/03/25 06:22:41 jasper Exp $
+$OpenBSD$
 --- wmtimer/wmtimer.c.orig	Thu Jan 29 03:45:48 2004
 +++ wmtimer/wmtimer.c	Wed Mar 24 17:15:25 2010
 @@ -84,7 +84,7 @@ configState configSt;

@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/games/xroach/pkg/PLIST,v 1.6 2011/06/23 22:50:27 naddy Exp $
+@comment $OpenBSD$
 @bin bin/xroach
 @man man/man6/xroach.6

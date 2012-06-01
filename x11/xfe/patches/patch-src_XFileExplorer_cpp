@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfe/patches/patch-src_XFileExplorer_cpp,v 1.1 2010/10/24 19:55:46 stephan Exp $
+$OpenBSD$
 --- src/XFileExplorer.cpp.orig	Sun Oct 24 17:08:12 2010
 +++ src/XFileExplorer.cpp	Sun Oct 24 17:08:33 2010
 @@ -13,6 +13,7 @@

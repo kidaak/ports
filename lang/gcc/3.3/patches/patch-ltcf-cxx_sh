@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-ltcf-cxx_sh,v 1.1.1.1 2005/01/03 15:21:29 espie Exp $
+$OpenBSD$
 --- ltcf-cxx.sh.orig	2003-02-20 02:12:47.000000000 +0100
 +++ ltcf-cxx.sh	2003-11-10 20:03:58.000000000 +0100
 @@ -407,6 +407,19 @@ case $host_os in

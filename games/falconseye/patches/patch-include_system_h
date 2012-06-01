@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/falconseye/patches/patch-include_system_h,v 1.1.1.1 2001/07/05 13:29:05 espie Exp $
+$OpenBSD$
 --- include/system.h.orig	Sun Jun 24 18:57:16 2001
 +++ include/system.h	Wed Jul  4 11:23:29 2001
 @@ -513,11 +513,15 @@ E struct tm *FDECL(localtime, (const tim

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/gtkparasite/Makefile,v 1.12 2011/11/04 09:18:43 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	Gtk debugging tool
 

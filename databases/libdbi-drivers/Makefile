@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/libdbi-drivers/Makefile,v 1.11 2012/04/16 15:42:56 nigel Exp $
+# $OpenBSD$
 
 V =			0.8.3-1
 COMMENT-main =		mysql driver for libdbi
@@ -14,9 +14,9 @@ REVISION-pgsql =	2
 PKGNAME-sqlite =	libdbi-drivers-sqlite-${V:S/-/./}
 REVISION-sqlite =	0
 PKGNAME-sqlite3 =	libdbi-drivers-sqlite3-${V:S/-/./}
-REVISION-sqlite3 =	1
+REVISION-sqlite3 =	2
 PKGNAME-freetds =	libdbi-drivers-freetds-${V:S/-/./}
-REVISION-freetds =	4
+REVISION-freetds =	5
 CATEGORIES =		databases
 
 HOMEPAGE =		http://libdbi-drivers.sourceforge.net/
@@ -66,12 +66,10 @@ LIB_DEPENDS-sqlite =	databases/sqlite \
 RUN_DEPENDS-sqlite =
 
 WANTLIB-sqlite3 =	m sqlite3 dbi
-LIB_DEPENDS-sqlite3 =	databases/sqlite3 \
-			databases/libdbi
+LIB_DEPENDS-sqlite3 =	databases/libdbi
 RUN_DEPENDS-sqlite3 =
 
-WANTLIB-freetds =	m ct dbi gmp gnutls p11-kit hogweed \
-			nettle tasn1 z ${MODGETTEXT_WANTLIB}
+WANTLIB-freetds =	crypto ct dbi m ssl ${MODGETTEXT_WANTLIB}
 LIB_DEPENDS-freetds =	databases/freetds \
 			databases/libdbi
 

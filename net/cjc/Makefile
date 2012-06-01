@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/cjc/Makefile,v 1.11 2011/11/16 16:00:00 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=		Jabber client for text terminals
 

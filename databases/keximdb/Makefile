@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/keximdb/Makefile,v 1.10 2011/11/04 08:16:23 jasper Exp $
+# $OpenBSD$
 
 CATEGORIES=	databases x11 x11/kde
 COMMENT=	MDB (access) file migration driver for kexi

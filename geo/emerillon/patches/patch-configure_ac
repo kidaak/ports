@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/emerillon/patches/patch-configure_ac,v 1.2 2011/04/28 10:49:15 jasper Exp $
+$OpenBSD$
 
 Adjust for champlain 0.8 and rest.
 

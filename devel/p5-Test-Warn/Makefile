@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-Warn/Makefile,v 1.10 2011/09/05 12:11:01 jasper Exp $
+# $OpenBSD$
 
 COMMENT= 	Perl extension to test methods for warnings
 

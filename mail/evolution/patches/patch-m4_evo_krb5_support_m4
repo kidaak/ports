@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/evolution/patches/patch-m4_evo_krb5_support_m4,v 1.4 2011/09/21 13:27:59 jasper Exp $
+$OpenBSD$
 --- m4/evo_krb5_support.m4.orig	Thu Apr 21 13:18:40 2011
 +++ m4/evo_krb5_support.m4	Sun Sep 18 15:05:42 2011
 @@ -59,7 +59,7 @@ AC_DEFUN([EVO_KRB5_SUPPORT],[

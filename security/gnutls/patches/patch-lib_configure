@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/gnutls/patches/patch-lib_configure,v 1.9 2012/03/06 16:37:49 ajacoutot Exp $
+$OpenBSD$
 --- lib/configure.orig	Thu Mar  1 17:51:56 2012
 +++ lib/configure	Tue Mar  6 17:26:21 2012
 @@ -18835,21 +18835,9 @@ else

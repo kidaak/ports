@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/m4/Makefile,v 1.29 2012/01/06 23:08:01 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	GNU m4
 

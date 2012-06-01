@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/zabbix/patches/patch-src_libs_zbxnix_daemon_c,v 1.8 2012/03/20 12:00:37 robert Exp $
+$OpenBSD$
 --- src/libs/zbxnix/daemon.c.orig	Tue Mar 20 10:15:16 2012
 +++ src/libs/zbxnix/daemon.c	Tue Mar 20 12:21:24 2012
 @@ -194,7 +194,7 @@ int	daemon_start(int allow_root)

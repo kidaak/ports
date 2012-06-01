@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/ecm/Makefile,v 1.9 2012/01/08 10:48:55 benoit Exp $
+# $OpenBSD$
 
 COMMENT =	elliptic curve method (ECM) factorization library
 

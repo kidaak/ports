@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/icewm/Makefile,v 1.51 2012/03/31 11:10:57 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	small and fast window manager
 

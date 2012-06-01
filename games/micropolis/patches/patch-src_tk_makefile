@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/micropolis/patches/patch-src_tk_makefile,v 1.1.1.1 2008/01/18 03:36:32 deanna Exp $
+$OpenBSD$
 --- src/tk/makefile.orig	Fri Nov 30 21:49:55 2007
 +++ src/tk/makefile	Sun Jan 13 10:56:25 2008
 @@ -27,14 +27,12 @@

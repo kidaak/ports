@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/xuvmstat/Makefile,v 1.13 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=	graphical display for the current uvm status
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/openmotif/patches/patch-config_cf_host_def,v 1.2 2009/12/14 18:03:36 jasper Exp $
+$OpenBSD$
 --- config/cf/host.def.orig	Mon Jan  7 19:10:03 2002
 +++ config/cf/host.def	Thu Dec 10 00:20:05 2009
 @@ -1,13 +1,128 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/pciutils/pkg/PLIST,v 1.4 2009/09/30 05:24:24 matthieu Exp $
+@comment $OpenBSD$
 include/pci/
 include/pci/config.h
 include/pci/header.h

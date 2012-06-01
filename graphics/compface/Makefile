@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/compface/Makefile,v 1.20 2010/11/17 08:05:13 espie Exp $
+# $OpenBSD$
 
 COMMENT=	programs and library for the 'X-face' mail and news header
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-boehm-gc_include_gc_pthread_redirects_h,v 1.2 2011/11/22 21:46:39 pascal Exp $
+$OpenBSD$
 --- boehm-gc/include/gc_pthread_redirects.h.orig	Tue Aug 22 00:07:30 2006
 +++ boehm-gc/include/gc_pthread_redirects.h	Tue Nov 22 14:08:19 2011
 @@ -52,7 +52,7 @@

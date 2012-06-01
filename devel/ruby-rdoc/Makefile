@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-rdoc/Makefile,v 1.1.1.1 2011/12/13 17:36:02 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	generate and display ruby documentation
 

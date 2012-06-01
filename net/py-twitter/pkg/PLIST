@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-twitter/pkg/PLIST,v 1.2 2011/06/27 21:13:23 jasper Exp $
+@comment $OpenBSD$
 bin/twitter
 bin/twitter-log
 bin/twitter-stream-example

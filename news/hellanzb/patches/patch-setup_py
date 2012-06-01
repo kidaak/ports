@@ -1,4 +1,4 @@
-$OpenBSD: ports/news/hellanzb/patches/patch-setup_py,v 1.1.1.1 2007/06/24 16:57:40 jasper Exp $
+$OpenBSD$
 --- setup.py.orig	Tue Mar 27 06:20:43 2007
 +++ setup.py	Mon Jun 11 00:43:49 2007
 @@ -38,8 +38,8 @@ def runSetup():

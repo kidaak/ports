@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-CSS-Tiny/Makefile,v 1.7 2010/12/03 11:46:51 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	handle CSS with little overhead
 

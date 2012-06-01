@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/openexr-viewers/Makefile,v 1.5 2012/03/29 13:38:39 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		viewers for OpenEXR
 DISTNAME =		openexr_viewers-1.0.1

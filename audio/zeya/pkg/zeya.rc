@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/audio/zeya/pkg/zeya.rc,v 1.1.1.1 2011/07/20 07:54:58 dcoppa Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/zeya"
 daemon_flags="--path=/var/tmp"

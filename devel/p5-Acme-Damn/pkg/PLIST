@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Acme-Damn/pkg/PLIST,v 1.1.1.1 2011/03/10 21:34:49 sthen Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Acme/
 ${P5ARCH}/Acme/Damn.pm

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/mtools/Makefile,v 1.55 2012/03/29 13:39:00 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	read/write/list/format DOS disks under Unix
 

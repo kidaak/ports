@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/ruby-markaby/Makefile,v 1.13 2011/09/16 11:41:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=	HTML templating language for Ruby
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/xmms/pkg/PLIST-mp3,v 1.2 2007/10/10 14:54:05 merdely Exp $
+@comment $OpenBSD$
 lib/xmms/Input/libmpg123.so

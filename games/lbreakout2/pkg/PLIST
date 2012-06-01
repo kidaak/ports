@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/lbreakout2/pkg/PLIST,v 1.8 2011/03/19 13:37:21 benoit Exp $
+@comment $OpenBSD$
 @mode g+s
 @group games
 @bin bin/lbreakout2

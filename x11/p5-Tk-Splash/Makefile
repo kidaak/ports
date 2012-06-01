@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/p5-Tk-Splash/Makefile,v 1.7 2011/09/16 12:29:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	splash screen widget
 

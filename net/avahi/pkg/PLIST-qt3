@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/avahi/pkg/PLIST-qt3,v 1.2 2009/06/04 21:42:40 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/avahi-qt3/
 include/avahi-qt3/qt-watch.h

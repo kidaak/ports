@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/hs-warp/Makefile,v 1.2 2012/01/15 17:20:41 kili Exp $
+# $OpenBSD$
 
 COMMENT =		web server for WAI applications
 

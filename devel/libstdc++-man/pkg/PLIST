@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libstdc++-man/pkg/PLIST,v 1.1.1.1 2008/06/13 21:59:17 landry Exp $
+@comment $OpenBSD$
 @man man/man3/Allocators.3
 @man man/man3/Arithmetic_functors.3
 @man man/man3/Assoc_containers.3

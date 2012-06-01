@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/tarsnap/Makefile,v 1.2 2011/12/13 13:06:23 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		client for the tarsnap.com online encrypted backup service
 V=			1.0.31

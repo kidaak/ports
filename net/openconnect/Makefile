@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/openconnect/Makefile,v 1.4 2012/03/29 15:00:19 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	client for Cisco AnyConnect SSL VPN
 

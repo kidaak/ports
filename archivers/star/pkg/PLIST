@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/star/pkg/PLIST,v 1.9 2008/06/19 17:43:10 naddy Exp $
+@comment $OpenBSD$
 @bin bin/scpio
 @bin bin/smt
 @bin bin/spax

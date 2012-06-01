@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libunique3/pkg/PLIST,v 1.1.1.1 2011/04/27 11:22:07 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/unique-3.0/
 include/unique-3.0/unique/

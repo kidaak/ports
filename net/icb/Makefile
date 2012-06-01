@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/icb/Makefile,v 1.28 2012/03/17 16:55:46 naddy Exp $
+# $OpenBSD$
 # $NetBSD: Makefile,v 1.6 1998/04/15 11:15:34 frueauf Exp $
 
 COMMENT=	Internet CB - mostly-defunct chat client

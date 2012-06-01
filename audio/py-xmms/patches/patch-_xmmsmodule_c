@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/py-xmms/patches/patch-_xmmsmodule_c,v 1.1 2003/12/29 20:58:27 espie Exp $
+$OpenBSD$
 --- _xmmsmodule.c.orig	2003-12-29 21:50:34.000000000 +0100
 +++ _xmmsmodule.c	2003-12-29 21:54:11.000000000 +0100
 @@ -326,14 +326,14 @@ static PyObject *func_void_glist(void (*

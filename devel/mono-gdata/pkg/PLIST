@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/mono-gdata/pkg/PLIST,v 1.2 2011/11/02 09:10:54 ajacoutot Exp $
+@comment $OpenBSD$
 lib/mono/GData-Sharp/
 lib/mono/GData-Sharp/Google.GData.AccessControl.dll
 lib/mono/GData-Sharp/Google.GData.Analytics.dll

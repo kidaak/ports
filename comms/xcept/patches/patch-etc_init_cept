@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/xcept/patches/patch-etc_init_cept,v 1.1 2000/09/03 16:25:05 espie Exp $
+$OpenBSD$
 --- etc/init.cept.orig	Tue Jun 28 16:09:20 1994
 +++ etc/init.cept	Sun Sep  3 17:29:38 2000
 @@ -26,30 +26,16 @@

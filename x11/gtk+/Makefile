@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gtk+/Makefile,v 1.73 2011/07/17 15:39:50 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	General Toolkit for X11 GUI
 

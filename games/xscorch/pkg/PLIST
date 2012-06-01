@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/xscorch/pkg/PLIST,v 1.2 2010/03/21 09:24:25 jasper Exp $
+@comment $OpenBSD$
 @bin bin/xscorch
 @bin bin/xscorch-server
 @man man/man6/xscorch.6

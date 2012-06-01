@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi/patches/patch-src_irc_core_irc-expandos_c,v 1.1 2011/12/01 17:51:10 sthen Exp $
+$OpenBSD$
 --- src/irc/core/irc-expandos.c.orig	Wed Nov 16 17:11:24 2011
 +++ src/irc/core/irc-expandos.c	Wed Nov 16 17:11:37 2011
 @@ -87,11 +87,13 @@ static char *expando_cumode(SERVER_REC *server, void *

@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/sketch/patches/patch-makefile,v 1.1.1.1 2011/05/15 18:34:20 landry Exp $
+$OpenBSD$
 Honour ${CC}
 --- makefile.orig	Sun May 15 20:25:19 2011
 +++ makefile	Sun May 15 20:25:25 2011

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/kdbg/Makefile,v 1.29 2011/09/16 09:24:51 espie Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 COMMENT=	graphical debugger for KDE

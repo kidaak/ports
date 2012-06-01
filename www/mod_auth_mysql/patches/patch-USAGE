@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_auth_mysql/patches/patch-USAGE,v 1.2 2008/03/25 23:23:15 simon Exp $
+$OpenBSD$
 --- USAGE.orig	Mon Sep 10 16:11:37 2001
 +++ USAGE	Wed Mar 26 00:10:48 2008
 @@ -28,10 +28,11 @@ can skip to the next phase.  Otherwise:

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/archivers/libarchive/pkg/PLIST,v 1.8 2012/04/01 10:50:47 naddy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/bsdcpio
 @bin bin/bsdtar

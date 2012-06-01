@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/imlib/patches/patch-Imlib_misc_c,v 1.1 2007/12/19 21:30:53 bernd Exp $
+$OpenBSD$
 
 Include patch (max24bpp.patch) to fix mishandling of 32-bit
 visuals (LP: #70367)

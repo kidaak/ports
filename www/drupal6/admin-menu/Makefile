@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/admin-menu/Makefile,v 1.7 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	drop-down css admin menu for drupal
 MAINTAINER =	Marc Espie <espie@openbsd.org>

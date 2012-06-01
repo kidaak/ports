@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webacula/patches/patch-application_config_ini,v 1.2 2011/07/28 09:24:35 ajacoutot Exp $
+$OpenBSD$
 --- application/config.ini.orig	Wed May 11 10:20:56 2011
 +++ application/config.ini	Thu Jul 28 10:47:40 2011
 @@ -5,25 +5,25 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/py-psycopg/Makefile,v 1.50 2011/12/20 19:07:07 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=		Yes
 

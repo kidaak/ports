@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/liblrdf/pkg/PLIST,v 1.1.1.1 2010/10/23 16:54:23 jakemsr Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/lrdf.h
 include/lrdf_types.h

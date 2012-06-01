@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/icbirc/Makefile,v 1.12 2010/10/18 18:36:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=	proxy IRC client with ICB server
 

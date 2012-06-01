@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Regexp-Common-net-CIDR/Makefile,v 1.3 2011/10/05 17:30:58 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	provide patterns for CIDR blocks
 

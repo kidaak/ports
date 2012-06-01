@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/anjuta/patches/patch-plugins_project-wizard_templates_pygtk_wiz_in,v 1.2 2011/10/04 11:24:41 jasper Exp $
+$OpenBSD$
 
 Prevent an error saying that python isn't installed by adjusting
 the python binary name.

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/obconf/pkg/PLIST,v 1.9 2011/11/02 19:12:40 jasper Exp $
+@comment $OpenBSD$
 @bin bin/obconf
 share/applications/obconf.desktop
 share/locale/cs/LC_MESSAGES/obconf.mo

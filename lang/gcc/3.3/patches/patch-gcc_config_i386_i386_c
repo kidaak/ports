@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_i386_i386_c,v 1.1 2008/08/28 19:04:40 martynas Exp $
+$OpenBSD$
 --- gcc/config/i386/i386.c.orig	Sun Dec 12 23:00:44 2004
 +++ gcc/config/i386/i386.c	Wed Aug 27 06:21:41 2008
 @@ -1725,6 +1725,10 @@ classify_argument (mode, type, classes, bit_offset)

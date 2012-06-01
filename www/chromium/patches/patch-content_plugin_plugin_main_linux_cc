@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-content_plugin_plugin_main_linux_cc,v 1.1 2011/06/08 20:36:56 robert Exp $
+$OpenBSD$
 --- content/plugin/plugin_main_linux.cc.orig	Wed Jun  8 10:31:08 2011
 +++ content/plugin/plugin_main_linux.cc	Wed Jun  8 10:31:20 2011
 @@ -5,13 +5,13 @@

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/arora/Makefile,v 1.3 2011/12/03 23:20:53 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/mono-gdata/patches/patch-version_AssemblyVersion_cs,v 1.1 2011/11/02 09:10:54 ajacoutot Exp $
+$OpenBSD$
 
 Prevent from randomizing the DLL install path.
 

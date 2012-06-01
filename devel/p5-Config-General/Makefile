@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Config-General/Makefile,v 1.10 2010/12/19 23:51:46 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	generic configuration parser, inspired by apache
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/telepathy-inspector/Makefile,v 1.27 2012/04/04 14:41:34 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	display information about a given connection manager
 

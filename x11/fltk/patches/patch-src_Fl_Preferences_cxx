@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/fltk/patches/patch-src_Fl_Preferences_cxx,v 1.2 2007/04/01 17:48:42 martynas Exp $
+$OpenBSD$
 --- src/Fl_Preferences.cxx.orig	Sun Nov 27 16:45:48 2005
 +++ src/Fl_Preferences.cxx	Sun Apr  1 18:27:01 2007
 @@ -673,7 +673,7 @@ Fl_Preferences::RootNode::RootNode( Fl_Preferences *pr

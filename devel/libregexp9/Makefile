@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libregexp9/Makefile,v 1.7 2010/11/15 19:46:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Simple regular expression library from Plan 9
 

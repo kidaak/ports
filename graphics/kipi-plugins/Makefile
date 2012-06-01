@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/kipi-plugins/Makefile,v 1.29 2011/11/02 09:57:21 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main =		kde image plugins
 COMMENT-cal =		kde image calendar plugin

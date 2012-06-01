@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/make/patches/patch-GNUmakefile_in,v 1.6 2011/04/18 11:30:47 sebastia Exp $
+$OpenBSD$
 --- GNUmakefile.in.orig	Sun Apr  3 18:10:31 2011
 +++ GNUmakefile.in	Sun Apr  3 18:13:14 2011
 @@ -99,7 +99,7 @@ export GNUSTEP_TARGET_LDIR

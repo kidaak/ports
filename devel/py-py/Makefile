@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-py/Makefile,v 1.14 2012/03/24 16:39:42 eric Exp $
+# $OpenBSD$
 
 COMMENT=		cross-python path, ini-parsing, io, code, log facilities
 

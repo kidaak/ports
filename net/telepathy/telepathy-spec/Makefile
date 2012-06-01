@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/telepathy/telepathy-spec/Makefile,v 1.32 2012/04/04 17:51:54 jasper Exp $
+# $OpenBSD$
 
 PKG_ARCH=		*
 

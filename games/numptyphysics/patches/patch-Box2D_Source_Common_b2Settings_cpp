@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/numptyphysics/patches/patch-Box2D_Source_Common_b2Settings_cpp,v 1.3 2011/06/29 07:42:02 dcoppa Exp $
+$OpenBSD$
 
 Fix LP64 architectures (i.e. sparc64)
 

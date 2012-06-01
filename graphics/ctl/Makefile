@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/ctl/Makefile,v 1.4 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		Color Transformation Language interpreter
 

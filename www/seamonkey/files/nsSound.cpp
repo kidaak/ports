@@ -1,4 +1,4 @@
-/*	$OpenBSD: ports/www/seamonkey/files/nsSound.cpp,v 1.3 2011/07/24 07:31:57 landry Exp $	*/
+/*	$OpenBSD$	*/
 
 /*
  * Copyright (c) 2009 Martynas Venckus <martynas@openbsd.org>

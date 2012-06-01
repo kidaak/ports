@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal6/backup_migrate/Makefile,v 1.6 2012/01/28 11:20:52 espie Exp $
+# $OpenBSD$
 
 COMMENT =	backup mysql database directly from drupal
 MAINTAINER =	Marc Espie <espie@openbsd.org>

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/tklib/Makefile,v 1.7 2011/10/24 05:59:26 stu Exp $
+# $OpenBSD$
 
 COMMENT =		Tk Standard Library
 

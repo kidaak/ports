@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/sane-backends/patches/patch-configure,v 1.12 2011/03/03 13:43:50 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Mon Feb 14 02:27:52 2011
 +++ configure	Mon Feb 14 06:50:54 2011
 @@ -7202,13 +7202,13 @@ if test "x$ac_cv_header_pthread_h" = x""yes; then :

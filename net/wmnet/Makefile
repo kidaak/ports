@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/wmnet/Makefile,v 1.19 2011/11/16 00:20:09 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	little X dock.app network monitor
 

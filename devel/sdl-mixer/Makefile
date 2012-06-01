@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/sdl-mixer/Makefile,v 1.41 2012/04/05 11:41:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	SDL multi-channel audio mixer library
 

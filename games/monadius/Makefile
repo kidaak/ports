@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/monadius/Makefile,v 1.11 2011/12/27 21:21:54 kili Exp $
+# $OpenBSD$
 
 COMMENT =		Gradius clone
 

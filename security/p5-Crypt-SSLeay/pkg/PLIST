@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Crypt-SSLeay/pkg/PLIST,v 1.10 2011/04/05 14:27:46 jasper Exp $
+@comment $OpenBSD$
 ${P5ARCH}/
 ${P5ARCH}/Crypt/
 ${P5ARCH}/Crypt/SSLeay/

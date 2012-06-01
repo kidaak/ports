@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-rparsec/Makefile,v 1.8 2011/11/09 00:17:38 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	recursive descent parser combinator framework
 

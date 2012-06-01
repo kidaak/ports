@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/libnipper/Makefile,v 1.13 2010/11/20 17:22:43 espie Exp $
+# $OpenBSD$
 
 COMMENT =		library for nipper
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/gdbm/pkg/PLIST,v 1.6 2004/08/08 16:50:45 espie Exp $
+@comment $OpenBSD$
 include/gdbm.h
 @info info/gdbm.info
 lib/libgdbm.a

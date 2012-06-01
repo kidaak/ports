@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_tree_c,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/tree.c.orig	Tue May  1 21:23:47 2007
 +++ gcc/tree.c	Mon Jun 14 19:23:04 2010
 @@ -6803,11 +6803,11 @@ build_common_builtin_nodes (void)

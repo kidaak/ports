@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/gwenview/patches/patch-src_tools_gimp_desktop,v 1.1 2008/02/18 18:43:56 ajacoutot Exp $
+$OpenBSD$
 --- src/tools/gimp.desktop.orig	Mon Feb 18 19:29:42 2008
 +++ src/tools/gimp.desktop	Mon Feb 18 19:29:52 2008
 @@ -1,6 +1,6 @@

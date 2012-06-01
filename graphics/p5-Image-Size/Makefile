@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/p5-Image-Size/Makefile,v 1.18 2010/11/17 08:05:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	module to determine the size of images in several formats
 

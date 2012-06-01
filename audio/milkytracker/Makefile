@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/milkytracker/Makefile,v 1.4 2010/11/15 00:22:47 espie Exp $
+# $OpenBSD$
 
 COMMENT =		Fasttracker II inspired MOD tracker
 DISTNAME =		milkytracker-0.90.80

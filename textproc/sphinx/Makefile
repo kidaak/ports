@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/sphinx/Makefile,v 1.9 2011/11/16 15:56:37 robert Exp $
+# $OpenBSD$
 
 COMMENT =	free open-source SQL full-text search engine
 

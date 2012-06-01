@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/p5-Compress-Bzip2/patches/patch-ppport_h,v 1.1.1.1 2008/11/11 13:55:21 kevlo Exp $
+$OpenBSD$
 --- ppport.h.orig	Thu Apr 14 04:33:35 2005
 +++ ppport.h	Tue Nov  4 15:48:27 2008
 @@ -221,14 +221,16 @@ __DATA__

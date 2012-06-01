@@ -1,4 +1,4 @@
-# $OpenBSD: ports/infrastructure/lib/OpenBSD/FS.pm,v 1.1 2010/08/20 15:22:22 espie Exp $
+# $OpenBSD$
 # Copyright (c) 2008 Marc Espie <espie@openbsd.org>
 #
 # Permission to use, copy, modify, and distribute this software for any

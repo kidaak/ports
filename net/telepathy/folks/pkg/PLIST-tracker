@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/telepathy/folks/pkg/PLIST-tracker,v 1.1 2012/02/18 23:05:40 ajacoutot Exp $
+@comment $OpenBSD$
 include/folks/folks-tracker.h
 lib/folks/${API_V}/backends/tracker/
 @comment lib/folks/${API_V}/backends/tracker/tracker.a

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/discount/pkg/PLIST,v 1.2 2010/08/30 21:40:29 jasper Exp $
+@comment $OpenBSD$
 @bin bin/discount
 @bin bin/makepage
 @bin bin/mkd2html

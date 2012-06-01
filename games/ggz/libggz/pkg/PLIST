@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/ggz/libggz/pkg/PLIST,v 1.1.1.1 2008/11/17 18:22:14 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/ggz.h
 include/ggz_common.h

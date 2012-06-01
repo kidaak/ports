@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/mozilla-dicts/Makefile,v 1.15 2010/11/22 09:38:08 espie Exp $
+# $OpenBSD$
 
 # keep in sync with www/mozilla/mozilla.port.mk 
 ONLY_FOR_ARCHS=	alpha amd64 arm i386 powerpc sparc64

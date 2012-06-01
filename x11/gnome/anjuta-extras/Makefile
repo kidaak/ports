@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/gnome/anjuta-extras/Makefile,v 1.22 2012/04/02 08:38:47 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-SNMP_Session/Makefile,v 1.15 2011/12/02 11:19:32 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	provides rudimentary access to remote SNMP agents
 

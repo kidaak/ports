@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/wmfishtime/Makefile,v 1.18 2011/09/16 12:29:17 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; clock application with clock, date and fish
 

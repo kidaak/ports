@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/gimp/stable/patches/patch-plug-ins_file-uri_uri-backend-libcurl_c,v 1.1 2011/07/07 08:16:17 jasper Exp $
+$OpenBSD$
 --- plug-ins/file-uri/uri-backend-libcurl.c.orig	Thu Jul  7 10:05:46 2011
 +++ plug-ins/file-uri/uri-backend-libcurl.c	Thu Jul  7 10:05:50 2011
 @@ -24,7 +24,6 @@

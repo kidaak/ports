@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/gmapcatcher/patches/patch-gmapcatcher_mapPixbuf_py,v 1.2 2011/06/27 06:33:33 ajacoutot Exp $
+$OpenBSD$
 --- gmapcatcher/mapPixbuf.py.orig	Mon Jun 20 18:29:34 2011
 +++ gmapcatcher/mapPixbuf.py	Sun Jun 26 09:33:56 2011
 @@ -15,7 +15,7 @@ else:

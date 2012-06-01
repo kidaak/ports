@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/math/p5-Math-Round/pkg/PLIST,v 1.1.1.1 2006/12/27 17:29:39 steven Exp $
+@comment $OpenBSD$
 ${P5SITE}/Math/
 ${P5SITE}/Math/Round.pm
 ${P5SITE}/auto/

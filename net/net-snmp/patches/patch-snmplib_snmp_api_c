@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/net-snmp/patches/patch-snmplib_snmp_api_c,v 1.1 2011/11/28 22:40:25 sthen Exp $
+$OpenBSD$
 
 bug #3423915: Change default number of retries back from 0 to 5
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Generate/pkg/PLIST,v 1.1.1.1 2007/07/28 14:51:32 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/
 ${P5SITE}/Class/Generate.pm
 ${P5SITE}/Class/Generate.pod

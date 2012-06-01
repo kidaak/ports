@@ -1,5 +1,5 @@
-@comment $OpenBSD: ports/net/rbldnsd/pkg/PLIST,v 1.1.1.1 2006/05/23 05:53:07 alek Exp $
+@comment $OpenBSD$
 @newgroup _rbldns:561
-@newuser _rbldns:561:_rbldns:daemon:rbldns Account:/var/empty:/sbin/nologin
+@newuser _rbldns:561:_rbldns:daemon:rbldns Account:/nonexistent:/sbin/nologin
 @man man/man8/rbldnsd.8
-sbin/rbldnsd
+@bin sbin/rbldnsd

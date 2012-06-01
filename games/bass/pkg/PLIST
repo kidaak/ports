@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/bass/pkg/PLIST,v 1.3 2005/11/03 11:06:28 jsg Exp $
+@comment $OpenBSD$
 share/bass/
 share/bass/sky.cpt
 share/bass/sky.dnr

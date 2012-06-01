@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/tomcat/v6/pkg/PLIST-main,v 1.6 2011/12/13 09:28:37 dcoppa Exp $
+@comment $OpenBSD$
 @conflict jakarta-tomcat-*
 @pkgpath www/tomcat/v6
 @newgroup _tomcat:526

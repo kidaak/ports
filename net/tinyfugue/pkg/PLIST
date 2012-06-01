@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/tinyfugue/pkg/PLIST,v 1.8 2004/09/15 18:17:46 espie Exp $
+@comment $OpenBSD$
 bin/tf
 @man man/man1/tf.1
 share/tinyfugue/

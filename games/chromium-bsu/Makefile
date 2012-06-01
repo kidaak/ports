@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/chromium-bsu/Makefile,v 1.2 2012/03/13 06:42:56 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		fast paced arcade-style space shooter
 DISTNAME =		chromium-bsu-0.9.15

@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/rsp-hle/patches/patch-source_mupen64plus-rsp-hle_src_ucode1_cpp,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 --- src/ucode1.cpp.orig	Mon Dec 19 00:02:57 2011
 +++ src/ucode1.cpp	Sun Dec 18 19:51:29 2011
 @@ -825,17 +825,17 @@ static void LOADADPCM (void) { // Loads an ADPCM table

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/db/v4/pkg/PLIST-main,v 1.2 2007/10/26 14:06:02 steven Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict db->=4,<5
 @pkgpath databases/db/v4,no_tcl

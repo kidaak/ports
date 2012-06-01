@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/mc/Makefile,v 1.44 2012/04/13 13:42:21 robert Exp $
+# $OpenBSD$
 
 COMMENT=		free Norton Commander clone with many useful features
 

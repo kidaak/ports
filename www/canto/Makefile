@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/canto/Makefile,v 1.4 2011/09/16 12:00:06 espie Exp $
+# $OpenBSD$
 
 COMMENT =	ncurses Atom/RSS newsreader for the console
 DISTNAME =	canto-0.7.10

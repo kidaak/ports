@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/directoryassistant/Makefile,v 1.15 2011/12/20 11:26:24 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	small application for managing a LDAP address book
 

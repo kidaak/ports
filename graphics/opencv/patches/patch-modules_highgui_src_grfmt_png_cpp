@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/opencv/patches/patch-modules_highgui_src_grfmt_png_cpp,v 1.1 2011/07/08 20:36:09 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

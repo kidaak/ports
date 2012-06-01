@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/openmdns/Makefile,v 1.5 2011/06/23 22:50:28 naddy Exp $
+# $OpenBSD$
 
 COMMENT =		MDNS/DNS-SD daemon
 

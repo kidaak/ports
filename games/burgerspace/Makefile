@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/burgerspace/Makefile,v 1.24 2011/07/08 22:38:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	burgertime clone for X
 

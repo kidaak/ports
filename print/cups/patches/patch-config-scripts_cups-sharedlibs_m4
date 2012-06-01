@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/cups/patches/patch-config-scripts_cups-sharedlibs_m4,v 1.6 2011/09/08 10:33:12 ajacoutot Exp $
+$OpenBSD$
 --- config-scripts/cups-sharedlibs.m4.orig	Wed Jun 16 02:48:25 2010
 +++ config-scripts/cups-sharedlibs.m4	Fri Sep  2 09:35:38 2011
 @@ -84,12 +84,12 @@ if test x$enable_shared != xno; then

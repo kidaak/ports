@@ -1,4 +1,4 @@
-# $OpenBSD: ports/math/matio/Makefile,v 1.8 2010/10/23 15:09:57 steven Exp $
+# $OpenBSD$
 
 COMMENT=	library for reading and writing Matlab MAT files
 

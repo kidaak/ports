@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/emulators/mednafen/pkg/PLIST,v 1.1.1.1 2011/03/14 21:04:51 jeremy Exp $
+@comment $OpenBSD$
 @bin bin/mednafen
 share/doc/mednafen/
 share/doc/mednafen/README.jpeg4a

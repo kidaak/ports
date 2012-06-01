@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/srcpd/Makefile,v 1.6 2012/04/05 20:36:03 jasper Exp $
+# $OpenBSD$
 
 COMMENT =	daemon to control digital model railroad systems
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/sysgen/Makefile,v 1.8 2010/11/20 17:22:42 espie Exp $
+# $OpenBSD$
 
 COMMENT=		calculates QBUS CSR and Vector assignments
 

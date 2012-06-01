@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/netpbm/pkg/PLIST,v 1.9 2010/07/02 02:54:59 naddy Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/411toppm
 bin/anytopnm

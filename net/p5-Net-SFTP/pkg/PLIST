@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-SFTP/pkg/PLIST,v 1.1.1.1 2005/02/23 20:16:09 sturm Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/SFTP/
 ${P5SITE}/Net/SFTP.pm
 ${P5SITE}/Net/SFTP/Attributes.pm

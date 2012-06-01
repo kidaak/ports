@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/eclipse/plugins/uml2/Makefile,v 1.8 2011/09/11 16:32:27 fgsch Exp $
+# $OpenBSD$
 
 COMMENT=		UML diagram framework for Eclipse
 

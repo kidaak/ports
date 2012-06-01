@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/xkcd-viewer/Makefile,v 1.5 2010/11/19 07:23:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	XKCD comic viewer
 

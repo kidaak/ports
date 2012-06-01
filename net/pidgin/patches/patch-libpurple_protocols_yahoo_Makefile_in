@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/pidgin/patches/patch-libpurple_protocols_yahoo_Makefile_in,v 1.6 2010/10/24 19:17:31 steven Exp $
+$OpenBSD$
 --- libpurple/protocols/yahoo/Makefile.in.orig	Wed Oct 20 11:51:00 2010
 +++ libpurple/protocols/yahoo/Makefile.in	Thu Oct 21 19:57:19 2010
 @@ -78,7 +78,7 @@ am__v_lt_0 = --silent

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/qca-ossl/Makefile,v 1.3 2012/01/26 09:25:46 sebastia Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/mdbtools/snapshot/Makefile,v 1.29 2011/11/04 08:16:24 jasper Exp $
+# $OpenBSD$
 
 COMMENT-main=	read microsoft Access MDB
 COMMENT-gmdb=	graphical interface to MDB tools

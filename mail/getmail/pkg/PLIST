@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/getmail/pkg/PLIST,v 1.13 2010/09/14 12:45:24 jasper Exp $
+@comment $OpenBSD$
 bin/getmail
 bin/getmail_fetch
 bin/getmail_maildir

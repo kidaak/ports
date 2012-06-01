@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-Class-Validation/Makefile,v 1.8 2012/04/07 14:32:37 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	data validation for DBIx::Class
 

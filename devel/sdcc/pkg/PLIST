@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/sdcc/pkg/PLIST,v 1.3 2010/04/06 17:15:40 naddy Exp $
+@comment $OpenBSD$
 @bin bin/as-gbz80
 @bin bin/as-hc08
 @bin bin/as-z80

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/cvstrac/pkg/PLIST,v 1.1.1.1 2009/02/17 00:16:04 sthen Exp $
+@comment $OpenBSD$
 @bin bin/cvstrac
 share/doc/cvstrac/
 share/doc/cvstrac/howitworks.html

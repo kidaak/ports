@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/net/aircontrol/pkg/aircontrol.rc,v 1.6 2011/07/01 10:54:53 sthen Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/catalina.sh"
 daemon_flags="-Xmx768M -server"

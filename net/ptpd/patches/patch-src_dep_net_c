@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/ptpd/patches/patch-src_dep_net_c,v 1.1.1.1 2009/01/20 19:05:23 naddy Exp $
+$OpenBSD$
 --- src/dep/net.c.orig	Mon Apr  2 23:57:44 2007
 +++ src/dep/net.c	Sun Oct 26 13:38:49 2008
 @@ -8,26 +8,26 @@ Boolean lookupSubdomainAddress(Octet *subdomainName, O

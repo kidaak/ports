@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-DateTime-Format-Natural/pkg/PLIST,v 1.2 2009/05/20 06:40:40 pea Exp $
+@comment $OpenBSD$
 bin/dateparse
 ${P5SITE}/DateTime/Format/
 ${P5SITE}/DateTime/Format/Natural/

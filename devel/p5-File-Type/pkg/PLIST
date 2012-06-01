@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-File-Type/pkg/PLIST,v 1.1.1.1 2004/12/03 02:03:10 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/File/
 ${P5SITE}/File/Type/
 ${P5SITE}/File/Type.pm

@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gfortran/patches/patch-gcc_config_alpha_openbsd_h,v 1.1.1.1 2010/10/10 17:39:06 steven Exp $
+$OpenBSD$
 --- gcc/config/alpha/openbsd.h.orig	Sat Jun 25 03:22:41 2005
 +++ gcc/config/alpha/openbsd.h	Mon Jun 14 19:23:03 2010
 @@ -18,23 +18,13 @@ along with GCC; see the file COPYING.  If not, write t

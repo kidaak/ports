@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Tie-Array-Sorted/pkg/PLIST,v 1.1.1.1 2004/12/30 03:16:15 msf Exp $
+@comment $OpenBSD$
 ${P5SITE}/Tie/
 ${P5SITE}/Tie/Array/
 ${P5SITE}/Tie/Array/Sorted/

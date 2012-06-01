@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/metamail/patches/patch-src_metamail_mailto_c,v 1.1 2012/03/17 10:57:23 sthen Exp $
+$OpenBSD$
 --- src/metamail/mailto.c.orig	Wed Feb  9 20:30:26 1994
 +++ src/metamail/mailto.c	Sat Mar 17 10:51:52 2012
 @@ -37,6 +37,8 @@ STILL NEED TO DO/SUPPORT:

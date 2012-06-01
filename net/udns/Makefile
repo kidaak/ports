@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/udns/Makefile,v 1.3 2011/05/17 11:36:26 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		stub DNS resolver library
 

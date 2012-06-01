@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/dcraw/Makefile,v 1.16 2012/03/29 13:38:31 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	digital camera RAW format conversion tool
 

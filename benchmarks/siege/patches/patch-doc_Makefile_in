@@ -1,4 +1,4 @@
-$OpenBSD: ports/benchmarks/siege/patches/patch-doc_Makefile_in,v 1.2 2010/09/15 09:59:39 sthen Exp $
+$OpenBSD$
 --- doc/Makefile.in.orig	Fri Jul 16 15:52:41 2010
 +++ doc/Makefile.in	Wed Sep 15 10:42:30 2010
 @@ -190,8 +190,8 @@ urls.txt               \

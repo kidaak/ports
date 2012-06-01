@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/lcdproc/Makefile,v 1.7 2012/02/28 10:32:00 edd Exp $
+# $OpenBSD$
 
 SHARED_ONLY =		Yes
 

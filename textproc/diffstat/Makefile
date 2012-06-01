@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/diffstat/Makefile,v 1.14 2011/03/20 20:25:23 simon Exp $
+# $OpenBSD$
 
 COMMENT=		accumulates and displays statistics from a diff file
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/archivers/fastjar/Makefile,v 1.16 2009/06/01 22:37:50 benoit Exp $
+# $OpenBSD$
 # $FreeBSD: ports/archivers/fastjar/Makefile,v 1.4 2000/04/24 15:51:08 knu Exp $
 
 COMMENT =	Sun JDK's jar command written entirely in C

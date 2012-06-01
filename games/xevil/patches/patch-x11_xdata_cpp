@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xevil/patches/patch-x11_xdata_cpp,v 1.1 2007/12/07 15:54:56 ajacoutot Exp $
+$OpenBSD$
 --- x11/xdata.cpp.orig	Fri Dec  7 13:35:03 2007
 +++ x11/xdata.cpp	Fri Dec  7 13:35:20 2007
 @@ -30,7 +30,10 @@

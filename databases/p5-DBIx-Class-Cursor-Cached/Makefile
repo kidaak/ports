@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/p5-DBIx-Class-Cursor-Cached/Makefile,v 1.1.1.1 2012/04/08 21:01:07 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	cursor class with built-in caching support
 

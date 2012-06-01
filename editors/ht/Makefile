@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/ht/Makefile,v 1.20 2012/04/15 18:38:53 gonzalo Exp $
+# $OpenBSD$
 
 COMMENT =		file editor/viewer/analyzer for executables
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/adsuck/Makefile,v 1.22 2012/02/17 14:21:17 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		DNS relay for ad blocking
 

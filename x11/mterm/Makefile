@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/mterm/Makefile,v 1.7 2010/11/22 08:37:03 espie Exp $
+# $OpenBSD$
 
 COMMENT=		dockable program launcher
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/net/winexe/pkg/PLIST,v 1.1.1.1 2008/12/01 21:47:19 sthen Exp $
+@comment $OpenBSD$
 @bin bin/winexe

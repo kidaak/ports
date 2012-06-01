@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/lout/patches/patch-doc_user_README,v 1.1 2011/04/23 21:49:27 kili Exp $
+$OpenBSD$
 --- doc/user/README.orig	Tue Sep 21 04:57:27 2010
 +++ doc/user/README	Sun Jan  2 12:19:14 2011
 @@ -4,7 +4,7 @@ This directory contains the Lout source files for the 

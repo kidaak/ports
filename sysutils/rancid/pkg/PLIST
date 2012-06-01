@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/rancid/pkg/PLIST,v 1.6 2010/11/08 08:24:32 jasper Exp $
+@comment $OpenBSD$
 @conflict par-*
 @newgroup _rancid:613
 @newuser _rancid:613:_rancid:daemon:Rancid user:/var/rancid:/bin/sh

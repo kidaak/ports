@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/xfaces/pkg/PLIST,v 1.6 2008/06/09 15:59:17 eric Exp $
+@comment $OpenBSD$
 @conflict asmail-*
 @bin bin/xfaces
 include/X11/pixmaps/

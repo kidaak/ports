@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/gmapcatcher/patches/patch-setup_py,v 1.1 2010/09/07 10:23:02 kevlo Exp $
+$OpenBSD$
 --- setup.py.orig	Mon Aug 23 02:36:19 2010
 +++ setup.py	Tue Sep  7 16:43:32 2010
 @@ -15,13 +15,12 @@ if os.name == "posix":

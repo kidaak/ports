@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/boehm-gc/patches/patch-mach_dep_c,v 1.4 2007/07/14 22:16:17 kili Exp $
+$OpenBSD$
 --- mach_dep.c.orig	Wed Jul 11 12:46:22 2007
 +++ mach_dep.c	Wed Jul 11 12:58:50 2007
 @@ -159,7 +159,7 @@ void GC_push_regs()

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-DateTime-Format-W3CDTF/Makefile,v 1.7 2010/12/03 11:44:30 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		parse and format W3CDTF datetime strings
 

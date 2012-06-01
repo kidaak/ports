@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/japanese/kakasi/pkg/PFRAG.shared,v 1.7 2005/12/24 16:21:03 espie Exp $
+@comment $OpenBSD$
 @lib lib/libkakasi.so.${LIBkakasi_VERSION}

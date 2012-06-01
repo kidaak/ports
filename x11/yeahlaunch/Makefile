@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/yeahlaunch/Makefile,v 1.2 2010/10/24 21:15:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	animated autohiding applications launcher
 

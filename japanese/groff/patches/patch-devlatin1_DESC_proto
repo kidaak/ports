@@ -1,4 +1,4 @@
-$OpenBSD: ports/japanese/groff/patches/patch-devlatin1_DESC_proto,v 1.1.1.1 2000/04/12 20:34:11 espie Exp $
+$OpenBSD$
 --- devlatin1/DESC.proto.orig	Wed Apr 12 16:48:05 2000
 +++ devlatin1/DESC.proto	Wed Apr 12 16:48:08 2000
 @@ -5,4 +5,4 @@ unitwidth 10

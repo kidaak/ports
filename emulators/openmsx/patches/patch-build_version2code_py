@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/openmsx/patches/patch-build_version2code_py,v 1.1.1.1 2011/08/28 18:57:51 bentley Exp $
+$OpenBSD$
 
 Fix a systrace warning when devel/subversion is installed.
 

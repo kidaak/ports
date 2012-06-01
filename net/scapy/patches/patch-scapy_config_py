@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/scapy/patches/patch-scapy_config_py,v 1.1 2012/01/12 03:16:24 bluhm Exp $
+$OpenBSD$
 --- scapy/config.py.orig	Mon Dec 14 16:31:55 2009
 +++ scapy/config.py	Tue Sep 20 23:49:47 2011
 @@ -366,7 +366,7 @@ extensions_paths: path or list of paths where extensio

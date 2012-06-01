@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/p5-Gtk2-Ex-Simple-List/Makefile,v 1.8 2010/12/03 11:46:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =		simple interface to Gtk2 complex MVC list widget
 

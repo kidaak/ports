@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/security/stunnel/pkg/stunnel.rc,v 1.1 2011/09/14 01:45:31 william Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/stunnel"
 

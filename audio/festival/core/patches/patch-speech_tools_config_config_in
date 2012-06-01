@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/festival/core/patches/patch-speech_tools_config_config_in,v 1.1 2004/07/11 06:27:07 jolan Exp $
+$OpenBSD$
 --- speech_tools/config/config.in.orig	2002-07-22 17:58:44.000000000 -0500
 +++ speech_tools/config/config.in	2004-05-06 14:57:04.000000000 -0500
 @@ -28,7 +28,7 @@ EST_HOME := $(shell (cd $(EST); pwd))

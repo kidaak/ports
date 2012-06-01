@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Catalyst-Plugin-StackTrace/Makefile,v 1.14 2012/04/08 22:01:41 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	stack trace for catalyst
 

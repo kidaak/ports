@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/drupal7/auto_nodetitle/Makefile,v 1.1.1.1 2012/04/10 12:49:31 espie Exp $
+# $OpenBSD$
 
 COMMENT =	automatic node titles for drupal
 MAINTAINER =	Marc Espie <espie@openbsd.org>

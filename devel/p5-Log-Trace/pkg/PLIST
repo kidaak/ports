@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Log-Trace/pkg/PLIST,v 1.1.1.1 2008/09/09 21:14:17 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Log/
 ${P5SITE}/Log/Trace/
 ${P5SITE}/Log/Trace.pm

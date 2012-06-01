@@ -1,4 +1,4 @@
-$OpenBSD: ports/converters/libdvd/patches/patch-src_scrambletables_h,v 1.1 2005/08/29 20:28:17 hshoexer Exp $
+$OpenBSD$
 --- src/scrambletables.h.orig	Sun Apr 17 20:48:13 2005
 +++ src/scrambletables.h	Wed Aug 24 23:37:02 2005
 @@ -390,22 +390,38 @@ static uint8_t p_crypt_tab3[ 288 ] =

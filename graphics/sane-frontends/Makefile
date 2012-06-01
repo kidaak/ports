@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/sane-frontends/Makefile,v 1.30 2011/12/02 14:36:14 espie Exp $
+# $OpenBSD$
 
 COMMENT=	API for accessing scanners, frontends
 

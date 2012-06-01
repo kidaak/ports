@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/kde/base3/patches/patch-ksysguard_ksysguardd_OpenBSD_Makefile_in,v 1.5 2008/03/25 17:34:14 espie Exp $
+$OpenBSD$
 --- ksysguard/ksysguardd/OpenBSD/Makefile.in.orig	Wed Feb 13 16:25:21 2008
 +++ ksysguard/ksysguardd/OpenBSD/Makefile.in	Fri Feb 15 00:05:14 2008
 @@ -48,11 +48,11 @@ LIBRARIES = $(noinst_LIBRARIES)

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-PDF-API2-Simple/pkg/PLIST,v 1.1.1.1 2011/04/15 21:07:33 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/PDF/API2/Simple.pm
 @man man/man3p/PDF::API2::Simple.3p
 share/examples/p5-PDF-API2-Simple/

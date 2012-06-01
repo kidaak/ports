@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Parse-PlainConfig/Makefile,v 1.6 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	parser for plain-text configuration files
 

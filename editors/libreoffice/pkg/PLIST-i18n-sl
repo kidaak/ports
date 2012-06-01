@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/libreoffice/pkg/PLIST-i18n-sl,v 1.9 2012/04/03 08:56:50 robert Exp $
+@comment $OpenBSD$
 @conflict openoffice-i18n-sl-*
 @pkgpath editors/openoffice3,-i18n-sl
 !%%no_java%%

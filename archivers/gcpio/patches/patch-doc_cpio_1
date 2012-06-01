@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/gcpio/patches/patch-doc_cpio_1,v 1.2 2007/07/09 17:38:42 naddy Exp $
+$OpenBSD$
 --- doc/cpio.1.orig	Thu Jun 28 10:59:17 2007
 +++ doc/cpio.1	Fri Jul  6 18:06:24 2007
 @@ -1,8 +1,8 @@

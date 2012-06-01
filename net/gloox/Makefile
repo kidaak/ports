@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/gloox/Makefile,v 1.6 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	extensible C++ library for XMPP clients and components
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/math/cblas/pkg/PFRAG.no_mips64,v 1.1 2010/06/14 05:42:00 jasper Exp $
+@comment $OpenBSD$
 lib/libcblas_pic.a

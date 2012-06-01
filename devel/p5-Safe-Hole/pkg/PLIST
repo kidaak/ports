@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Safe-Hole/pkg/PLIST,v 1.1.1.1 2007/12/30 22:34:41 okan Exp $
+@comment $OpenBSD$
 %%SHARED%%
 ${P5ARCH}/
 ${P5ARCH}/Safe/

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/openexr/pkg/PLIST-main,v 1.2 2008/04/11 11:16:20 jasper Exp $
+@comment $OpenBSD$
 @pkgpath graphics/openexr
 %%SHARED%%
 include/OpenEXR/

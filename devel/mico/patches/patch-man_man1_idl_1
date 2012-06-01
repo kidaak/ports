@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/mico/patches/patch-man_man1_idl_1,v 1.2 2010/09/22 08:42:53 landry Exp $
+$OpenBSD$
 --- man/man1/idl.1.orig	Fri Jul 25 15:41:42 2008
 +++ man/man1/idl.1	Mon Sep 13 21:10:57 2010
 @@ -251,8 +251,8 @@ operations and attributes inherited from all base inte

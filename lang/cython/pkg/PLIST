@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/lang/cython/pkg/PLIST,v 1.1.1.1 2011/06/29 08:27:26 rpointel Exp $
+@comment $OpenBSD$
 bin/cygdb
 bin/cython
 lib/python${MODPY_VERSION}/site-packages/Cython/

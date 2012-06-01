@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/devel/libunicode/pkg/PFRAG.shared,v 1.3 2005/12/23 17:02:47 bernd Exp $
+@comment $OpenBSD$
 @lib lib/libunicode.so.${LIBunicode_VERSION}

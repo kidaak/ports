@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mailscanner/patches/patch-lib_MailScanner_ConfigDefs_pl,v 1.10 2010/06/22 07:38:14 sthen Exp $
+$OpenBSD$
 --- lib/MailScanner/ConfigDefs.pl.orig	Wed Jun  9 17:21:30 2010
 +++ lib/MailScanner/ConfigDefs.pl	Mon Jun 21 21:49:22 2010
 @@ -360,8 +360,8 @@ qmailintdhashnumber		1

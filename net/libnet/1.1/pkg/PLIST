@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/libnet/1.1/pkg/PLIST,v 1.1 2005/05/23 23:50:40 msf Exp $
+@comment $OpenBSD$
 @option no-default-conflict
 @conflict libnet-1.1->=1.1
 %%SHARED%%

@@ -1,4 +1,4 @@
-$OpenBSD: ports/archivers/libarchive/patches/patch-cpio_bsdcpio_1,v 1.2 2012/04/01 10:50:47 naddy Exp $
+$OpenBSD$
 --- cpio/bsdcpio.1.orig	Tue Jan 10 07:41:09 2012
 +++ cpio/bsdcpio.1	Sat Mar 31 21:50:15 2012
 @@ -28,7 +28,7 @@

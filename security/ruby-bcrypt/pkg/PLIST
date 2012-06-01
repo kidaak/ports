@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/ruby-bcrypt/pkg/PLIST,v 1.5 2011/09/07 16:10:49 jeremy Exp $
+@comment $OpenBSD$
 ${GEM_LIB}/cache/${DISTNAME}.gem
 ${GEM_LIB}/gems/${DISTNAME}/
 ${GEM_LIB}/gems/${DISTNAME}/.gitignore

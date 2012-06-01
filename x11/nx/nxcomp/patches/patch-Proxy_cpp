@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/nx/nxcomp/patches/patch-Proxy_cpp,v 1.3 2012/01/03 16:35:28 sebastia Exp $
+$OpenBSD$
 
 fix bounds length warnings
 

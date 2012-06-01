@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/tntnet/patches/patch-etc-Makefile_in,v 1.1.1.1 2007/06/26 21:03:17 jasper Exp $
+$OpenBSD$
 --- etc/Makefile.in.orig	Mon May 28 17:39:29 2007
 +++ etc/Makefile.in	Tue May 29 16:05:49 2007
 @@ -192,12 +192,10 @@ target_cpu = @target_cpu@

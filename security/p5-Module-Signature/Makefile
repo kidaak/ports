@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/p5-Module-Signature/Makefile,v 1.15 2011/05/28 12:14:25 bluhm Exp $
+# $OpenBSD$
 
 COMMENT =		module signature file manipulation
 

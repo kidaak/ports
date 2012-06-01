@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/pidgin-otr/pkg/PLIST,v 1.2 2007/11/29 14:07:42 okan Exp $
+@comment $OpenBSD$
 lib/pidgin/pidgin-otr.la
 lib/pidgin/pidgin-otr.so
 share/doc/pidgin/otr-plugin.txt

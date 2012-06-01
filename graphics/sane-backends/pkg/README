@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/sane-backends/pkg/README,v 1.9 2012/02/16 22:29:15 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

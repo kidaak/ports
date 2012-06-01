@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/ee/patches/patch-create_make,v 1.2 2006/01/15 01:01:29 brad Exp $
+$OpenBSD$
 --- create.make.orig	Mon Sep 23 00:18:30 2002
 +++ create.make	Sat Jan 14 19:47:28 2006
 @@ -11,6 +11,11 @@

@@ -1,14 +1,11 @@
-# $OpenBSD: ports/x11/gnome/gedit/Makefile,v 1.83 2012/04/12 17:30:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		lightweight GNOME text editor
 
 GNOME_PROJECT=		gedit
-GNOME_VERSION=		3.4.0
-REVISION=		0
+GNOME_VERSION=		3.4.2
 
 CATEGORIES=		editors
-
-SHARED_LIBS +=  gedit-private             0.0 # 0.0
 
 HOMEPAGE=		http://projects.gnome.org/gedit/
 
@@ -52,6 +49,8 @@ CONFIGURE_ARGS=		--disable-static \
 			--enable-gvfs-metadata \
 			--disable-updater \
 			--disable-zeitgeist
+
+REGRESS_IS_INTERACTIVE=	X11
 
 USE_GROFF=		Yes
 

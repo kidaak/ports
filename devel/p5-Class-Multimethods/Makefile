@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Multimethods/Makefile,v 1.3 2010/12/03 11:44:28 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	support multimethods and function overloading in Perl
 

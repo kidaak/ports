@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-CGI-Application-Plugin-ConfigAuto/pkg/PLIST,v 1.1.1.1 2009/02/06 22:09:10 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/CGI/Application/Plugin/
 ${P5SITE}/CGI/Application/Plugin/ConfigAuto.pm
 @man man/man3p/CGI::Application::Plugin::ConfigAuto.3p

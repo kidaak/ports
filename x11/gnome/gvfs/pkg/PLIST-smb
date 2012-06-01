@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/gvfs/pkg/PLIST-smb,v 1.2 2011/06/16 08:38:20 dcoppa Exp $
+@comment $OpenBSD$
 @conflict gvfs-<=1.8.2p3
 @bin libexec/gvfsd-smb
 @bin libexec/gvfsd-smb-browse

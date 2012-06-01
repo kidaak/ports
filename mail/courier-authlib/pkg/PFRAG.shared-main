@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/courier-authlib/pkg/PFRAG.shared-main,v 1.1 2006/11/25 20:51:02 steven Exp $
+@comment $OpenBSD$
 @lib lib/libauthpipe.so.${LIBauthpipe_VERSION}
 @lib lib/libauthpwd.so.${LIBauthpwd_VERSION}
 @lib lib/libcourierauth.so.${LIBcourierauth_VERSION}

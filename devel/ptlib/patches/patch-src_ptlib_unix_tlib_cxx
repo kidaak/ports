@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/ptlib/patches/patch-src_ptlib_unix_tlib_cxx,v 1.1.1.1 2010/03/23 21:10:17 ajacoutot Exp $
+$OpenBSD$
 --- src/ptlib/unix/tlib.cxx.orig	Thu Jun  4 06:03:05 2009
 +++ src/ptlib/unix/tlib.cxx	Thu Jun  4 06:03:45 2009
 @@ -70,6 +70,10 @@

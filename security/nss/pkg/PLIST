@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/nss/pkg/PLIST,v 1.6 2010/04/03 09:21:00 landry Exp $
+@comment $OpenBSD$
 @bin bin/certutil
 @bin bin/cmsutil
 @bin bin/crlutil

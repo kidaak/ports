@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/p5-Text-Wrapper/pkg/PLIST,v 1.1.1.1 2004/12/22 03:09:18 msf Exp $
+@comment $OpenBSD$
 ${P5SITE}/Text/
 ${P5SITE}/Text/Wrapper.pm
 @man man/man3p/Text::Wrapper.3p

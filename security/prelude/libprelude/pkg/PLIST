@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/prelude/libprelude/pkg/PLIST,v 1.10 2011/05/11 08:24:41 ajacoutot Exp $
+@comment $OpenBSD$
 @newgroup _prelude:564
 @newuser _prelude:564:564:daemon:Prelude IDS:/var/empty:/sbin/nologin
 @extraunexec rm -rf ${SYSCONFDIR}/prelude/profile/*

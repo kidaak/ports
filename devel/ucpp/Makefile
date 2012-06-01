@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ucpp/Makefile,v 1.8 2011/12/29 17:51:27 espie Exp $
+# $OpenBSD$
 
 DISTNAME =	ucpp-1.3.2
 COMMENT =	C preprocessor and lexer

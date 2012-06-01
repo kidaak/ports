@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-WWW-Shorten/pkg/PLIST,v 1.4 2012/04/07 08:29:48 sthen Exp $
+@comment $OpenBSD$
 bin/shorten.pl
 ${P5SITE}/WWW/Shorten/
 ${P5SITE}/WWW/Shorten.pm

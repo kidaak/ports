@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-Amazon/pkg/PLIST,v 1.10 2010/01/18 13:16:49 stephan Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/Amazon/
 ${P5SITE}/Net/Amazon.pm
 ${P5SITE}/Net/Amazon/Attribute/

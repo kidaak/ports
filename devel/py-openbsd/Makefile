@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-openbsd/Makefile,v 1.12 2011/09/16 09:24:55 espie Exp $
+# $OpenBSD$
 
 COMMENT=	specific Python bindings for OpenBSD
 

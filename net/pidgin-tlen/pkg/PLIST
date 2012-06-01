@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pidgin-tlen/pkg/PLIST,v 1.2 2007/11/29 14:01:19 okan Exp $
+@comment $OpenBSD$
 lib/purple-2/libtlen.so
 share/doc/pidgin/tlen-plugin.txt
 share/pixmaps/pidgin/protocols/16/tlen.png

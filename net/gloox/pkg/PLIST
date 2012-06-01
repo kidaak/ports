@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/gloox/pkg/PLIST,v 1.1.1.1 2010/07/28 14:20:50 sebastia Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/gloox-config
 include/gloox/

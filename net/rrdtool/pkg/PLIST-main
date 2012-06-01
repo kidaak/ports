@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/rrdtool/pkg/PLIST-main,v 1.2 2009/01/26 21:26:32 sthen Exp $
+@comment $OpenBSD$
 @bin bin/rrdcgi
 @bin bin/rrdtool
 @bin bin/rrdupdate

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/soprano/Makefile,v 1.7 2012/03/29 13:38:13 sthen Exp $
+# $OpenBSD$
 
 SHARED_ONLY =	Yes
 COMMENT =	rdf framework

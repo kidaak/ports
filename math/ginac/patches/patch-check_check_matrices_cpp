@@ -1,4 +1,4 @@
-$OpenBSD: ports/math/ginac/patches/patch-check_check_matrices_cpp,v 1.2 2009/03/17 11:53:01 pirofti Exp $
+$OpenBSD$
 --- check/check_matrices.cpp.orig	Tue Feb 17 14:39:22 2009
 +++ check/check_matrices.cpp	Tue Mar 10 16:12:26 2009
 @@ -217,7 +217,7 @@ unsigned check_matrices()

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/gconf-editor/pkg/PLIST,v 1.24 2011/12/03 19:38:09 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gconf-editor
 @man man/man1/gconf-editor.1
 share/applications/gconf-editor.desktop

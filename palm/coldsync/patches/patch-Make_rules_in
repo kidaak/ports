@@ -1,4 +1,4 @@
-$OpenBSD: ports/palm/coldsync/patches/patch-Make_rules_in,v 1.3 2006/07/17 18:51:49 espie Exp $
+$OpenBSD$
 --- Make.rules.in.orig	Wed Feb 25 12:40:29 2004
 +++ Make.rules.in	Sat Jul 15 09:58:22 2006
 @@ -17,10 +17,10 @@ PACKAGE =	@PACKAGE@

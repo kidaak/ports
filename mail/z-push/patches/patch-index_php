@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/z-push/patches/patch-index_php,v 1.1 2011/04/02 15:42:18 robert Exp $
+$OpenBSD$
 --- index.php.orig	Sat Apr  2 15:43:08 2011
 +++ index.php	Sat Apr  2 15:42:44 2011
 @@ -53,6 +53,23 @@ include_once("debug.php");

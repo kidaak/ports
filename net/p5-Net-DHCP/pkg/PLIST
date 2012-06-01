@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/p5-Net-DHCP/pkg/PLIST,v 1.1.1.1 2011/03/11 19:56:39 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Net/
 ${P5SITE}/Net/DHCP/
 ${P5SITE}/Net/DHCP/Constants.pm

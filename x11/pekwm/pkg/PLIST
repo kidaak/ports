@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/pekwm/pkg/PLIST,v 1.6 2009/04/29 20:11:25 sthen Exp $
+@comment $OpenBSD$
 @bin bin/pekwm
 @man man/man1/pekwm.1
 share/examples/pekwm/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/meta/haskell-platform/Makefile,v 1.3 2012/01/12 20:20:41 kili Exp $
+# $OpenBSD$
 
 COMMENT =	Haskell platform meta-package
 

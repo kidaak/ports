@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/hs-crypto-api/pkg/PLIST,v 1.4 2012/01/22 17:21:54 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Crypto/
 lib/ghc/${DISTNAME}/Crypto/CPoly.hi

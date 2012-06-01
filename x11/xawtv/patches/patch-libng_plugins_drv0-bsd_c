@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xawtv/patches/patch-libng_plugins_drv0-bsd_c,v 1.1 2007/09/28 08:24:42 jakemsr Exp $
+$OpenBSD$
 --- libng/plugins/drv0-bsd.c.orig	Thu Sep 27 15:42:52 2007
 +++ libng/plugins/drv0-bsd.c	Thu Sep 27 16:39:59 2007
 @@ -242,7 +242,7 @@ static int signal_off = METEOR_SIG_MODE_MASK;

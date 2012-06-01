@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gmt/Makefile,v 1.15 2011/09/16 10:02:37 espie Exp $
+# $OpenBSD$
 
 COMMENT-main=		draw maps and charts
 COMMENT-high=		high resolution coastline data for GMT

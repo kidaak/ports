@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/p5-Weather-Com/patches/patch-lib_Weather_Com_Base_pm,v 1.1 2011/04/16 11:57:01 simon Exp $
+$OpenBSD$
 
 Bug #67228 for Weather-Com: test suite under perl 5.12 outputs warnings
 https://rt.cpan.org/Public/Bug/Display.html?id=67228

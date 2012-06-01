@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/libass/pkg/PLIST,v 1.1.1.1 2011/06/23 09:03:37 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/ass/
 include/ass/ass.h

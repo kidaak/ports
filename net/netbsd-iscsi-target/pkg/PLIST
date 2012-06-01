@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/netbsd-iscsi-target/pkg/PLIST,v 1.2 2012/02/21 22:41:30 sthen Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/iscsi-target
 lib/libiscsi.a

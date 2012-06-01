@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/last.fm/patches/patch-src_iconshack_cpp,v 1.2 2011/03/30 14:00:48 dcoppa Exp $
+$OpenBSD$
 --- src/iconshack.cpp.orig	Mon Mar 28 15:20:33 2011
 +++ src/iconshack.cpp	Mon Mar 28 15:20:35 2011
 @@ -108,6 +108,33 @@ IconShack::GenerateIpodScrobblingIcons( MooseEnums::Us

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/tintin++/patches/patch-Makefile_in,v 1.1 2007/10/26 22:10:06 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.in.orig	Fri Sep  9 17:35:20 1994
 +++ Makefile.in	Sat Oct 27 00:05:07 2007
 @@ -10,8 +10,7 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/pgbouncer/pkg/PLIST,v 1.5 2012/01/17 13:57:24 pea Exp $
+@comment $OpenBSD$
 @newgroup _pgbouncer:653
 @newuser _pgbouncer:653:653:daemon:pgbouncer:/nonexistent:/sbin/nologin
 @extraunexec rm -rf /var/log/pgbouncer/*

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/productivity/glabels/Makefile,v 1.24 2011/12/03 23:04:37 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	labels and business card designer
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/john/Makefile,v 1.46 2012/04/13 09:12:21 naddy Exp $
+# $OpenBSD$
 
 COMMENT =		extremely fast password cracker
 

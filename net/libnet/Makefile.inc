@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/libnet/Makefile.inc,v 1.2 2007/09/15 22:36:55 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	raw IP packet construction library
 

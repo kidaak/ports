@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Params-Util/Makefile,v 1.11 2010/12/03 11:44:34 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		utility to make parameter checking easier
 

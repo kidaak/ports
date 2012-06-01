@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/mac/Makefile,v 1.4 2010/11/15 00:22:47 espie Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS= amd64 arm i386
 

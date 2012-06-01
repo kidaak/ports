@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/amaya/browser/patches/patch-Amaya_thotlib_internals_var_boxes_tv_h,v 1.1 2010/06/06 12:27:26 kili Exp $
+$OpenBSD$
 --- Amaya/thotlib/internals/var/boxes_tv.h.orig	Thu Mar  2 12:50:29 2000
 +++ Amaya/thotlib/internals/var/boxes_tv.h	Sat Jun  5 13:47:13 2010
 @@ -23,12 +23,3 @@ THOT_EXPORT ThotBool    AnyWidthUpdate;

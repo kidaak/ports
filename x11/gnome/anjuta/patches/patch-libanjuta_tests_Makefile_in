@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/anjuta/patches/patch-libanjuta_tests_Makefile_in,v 1.1 2012/03/29 07:22:04 ajacoutot Exp $
+$OpenBSD$
 
 /usr/bin/ld: cannot find -lgcov
 

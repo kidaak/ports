@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Digest-Skein/pkg/PLIST,v 1.1.1.1 2009/09/23 20:30:55 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 ${P5ARCH}/
 ${P5ARCH}/Digest/

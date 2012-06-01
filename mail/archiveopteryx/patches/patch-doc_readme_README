@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/archiveopteryx/patches/patch-doc_readme_README,v 1.1.1.1 2011/01/09 09:36:21 landry Exp $
+$OpenBSD$
 --- doc/readme/README.orig	Fri Apr  9 21:27:30 2010
 +++ doc/readme/README	Fri Apr  9 21:28:48 2010
 @@ -33,12 +33,10 @@ Archiveopteryx for the first time (see below if you're

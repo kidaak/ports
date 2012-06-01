@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/makefaq/pkg/PLIST,v 1.2 2004/08/10 14:00:27 xsa Exp $
+@comment $OpenBSD$
 bin/makefaq
 @man man/man1/makefaq.1
 share/doc/makefaq/

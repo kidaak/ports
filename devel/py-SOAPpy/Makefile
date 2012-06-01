@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/py-SOAPpy/Makefile,v 1.11 2011/09/16 09:24:54 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Python API for SOAP HTTP/RPC
 

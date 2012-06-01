@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/p5-CDDB_get/Makefile,v 1.10 2010/11/15 00:22:48 espie Exp $
+# $OpenBSD$
 
 COMMENT=		perl interface to query for cddb-information
 

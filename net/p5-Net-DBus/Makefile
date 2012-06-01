@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Net-DBus/Makefile,v 1.11 2011/03/24 22:03:34 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

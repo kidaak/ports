@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/p5-gnupod/patches/patch-src_ext_FileMagic_pm,v 1.1 2010/10/21 21:44:36 sthen Exp $
+$OpenBSD$
 
 Using a hash as a reference is deprecated in perl 5.12
 

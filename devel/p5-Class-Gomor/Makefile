@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Class-Gomor/Makefile,v 1.2 2011/03/19 09:18:37 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	class and object builder
 

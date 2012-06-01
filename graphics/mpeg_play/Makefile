@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/mpeg_play/Makefile,v 1.24 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	play mpeg movies on X11
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/runit/pkg/PLIST,v 1.2 2006/12/26 15:04:55 simon Exp $
+@comment $OpenBSD$
 @man man/man8/chpst.8
 @man man/man8/runit-init.8
 @man man/man8/runit.8

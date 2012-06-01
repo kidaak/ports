@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/productivity/tryton/account_be/pkg/PLIST,v 1.1.1.1 2011/06/20 11:36:28 ajacoutot Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_be/
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_be/__init__.py
 lib/python${MODPY_VERSION}/site-packages/trytond/modules/account_be/__init__.pyc

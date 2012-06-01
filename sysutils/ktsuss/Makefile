@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/ktsuss/Makefile,v 1.8 2011/03/24 22:01:08 landry Exp $
+# $OpenBSD$
 
 COMMENT =	graphical su wrapper
 DISTNAME =	ktsuss-1.4

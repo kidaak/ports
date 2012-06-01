@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/libexif-gtk/pkg/PLIST,v 1.1.1.1 2007/10/16 07:30:49 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/libexif-gtk/
 include/libexif-gtk/gtk-exif-browser.h

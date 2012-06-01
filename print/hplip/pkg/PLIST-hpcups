@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/print/hplip/pkg/PLIST-hpcups,v 1.4 2012/01/17 09:54:27 ajacoutot Exp $
+@comment $OpenBSD$
 @bin libexec/cups/filter/hpcups
 @bin libexec/cups/filter/hpcupsfax
 @bin libexec/cups/filter/hpps

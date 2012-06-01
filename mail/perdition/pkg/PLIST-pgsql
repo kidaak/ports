@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/perdition/pkg/PLIST-pgsql,v 1.1.1.1 2006/11/16 23:26:00 msf Exp $
+@comment $OpenBSD$
 %%SHARED%%
 lib/libperditiondb_postgresql.a
 lib/libperditiondb_postgresql.la

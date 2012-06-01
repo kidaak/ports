@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/gamine/pkg/PLIST,v 1.2 2011/12/03 19:49:45 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/gamine
 share/applications/gamine.desktop
 share/doc/gamine/

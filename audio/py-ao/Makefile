@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/py-ao/Makefile,v 1.17 2011/10/12 12:54:30 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

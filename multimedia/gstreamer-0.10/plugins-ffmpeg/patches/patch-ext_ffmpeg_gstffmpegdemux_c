@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/gstreamer-0.10/plugins-ffmpeg/patches/patch-ext_ffmpeg_gstffmpegdemux_c,v 1.5 2012/02/18 08:32:54 ajacoutot Exp $
+$OpenBSD$
 
 From upstream:
 Demote SWF demuxer to GST_RANK_NONE.

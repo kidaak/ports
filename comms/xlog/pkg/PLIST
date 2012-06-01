@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/comms/xlog/pkg/PLIST,v 1.6 2011/09/12 14:09:56 jasper Exp $
+@comment $OpenBSD$
 @bin bin/xlog
 @man man/man1/xlog.1
 share/applications/xlog.desktop

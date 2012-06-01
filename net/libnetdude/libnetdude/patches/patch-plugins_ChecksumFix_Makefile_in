@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnetdude/libnetdude/patches/patch-plugins_ChecksumFix_Makefile_in,v 1.2 2007/09/26 20:18:08 rui Exp $
+$OpenBSD$
 --- plugins/ChecksumFix/Makefile.in.orig	Fri Jul 27 14:37:42 2007
 +++ plugins/ChecksumFix/Makefile.in	Fri Jul 27 14:38:39 2007
 @@ -79,7 +79,7 @@ HEADERS = $(pkginclude_HEADERS)

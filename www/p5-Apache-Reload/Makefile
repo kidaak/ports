@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Apache-Reload/Makefile,v 1.6 2011/04/09 14:30:13 simon Exp $
+# $OpenBSD$
 
 COMMENT =	Reload changed modules for mod_perl
 

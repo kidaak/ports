@@ -1,4 +1,4 @@
-# $OpenBSD: ports/misc/dialog/Makefile,v 1.18 2010/10/18 20:52:07 espie Exp $
+# $OpenBSD$
 
 COMMENT =	format the display of a shell script
 

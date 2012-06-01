@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/p5-Catalyst-Plugin-Authentication/pkg/PLIST,v 1.4 2012/04/08 22:02:33 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Catalyst/Authentication/
 ${P5SITE}/Catalyst/Authentication/Credential/
 ${P5SITE}/Catalyst/Authentication/Credential/Password.pm

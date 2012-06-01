@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/itcl/patches/patch-generic_itcl_cmds_c,v 1.4 2011/10/30 07:36:05 sebastia Exp $
+$OpenBSD$
 
 On OpenBSD we only have one version installed.
 

@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/mail/courier-authlib/pkg/PFRAG.shared-ldap,v 1.1.1.1 2006/11/03 11:45:31 mbalmer Exp $
+@comment $OpenBSD$
 @lib lib/libauthldap.so.${LIBauthldap_VERSION}

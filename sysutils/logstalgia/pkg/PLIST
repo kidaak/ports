@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/logstalgia/pkg/PLIST,v 1.1.1.1 2011/10/20 10:58:21 jasper Exp $
+@comment $OpenBSD$
 @bin bin/logstalgia
 @man man/man1/logstalgia.1
 share/logstalgia/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Drupal-Admin/Makefile,v 1.5 2011/08/01 19:36:02 stephan Exp $
+# $OpenBSD$
 
 COMMENT = 		screen scraping Perl API to some Drupal admin functions
 

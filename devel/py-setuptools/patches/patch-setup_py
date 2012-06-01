@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-setuptools/patches/patch-setup_py,v 1.1 2007/03/27 09:25:26 djm Exp $
+$OpenBSD$
 --- setup.py.orig	Tue Mar 27 19:22:33 2007
 +++ setup.py	Tue Mar 27 19:23:10 2007
 @@ -30,7 +30,7 @@ setup(

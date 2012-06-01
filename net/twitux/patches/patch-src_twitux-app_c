@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/twitux/patches/patch-src_twitux-app_c,v 1.1 2011/04/21 07:05:51 ajacoutot Exp $
+$OpenBSD$
 
 Fix with libnotify>=0.7
 (notify_notification_new has lost its widget argument)

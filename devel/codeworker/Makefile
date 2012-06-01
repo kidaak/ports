@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/codeworker/Makefile,v 1.3 2010/11/15 19:45:57 espie Exp $
+# $OpenBSD$
 
 COMMENT =		universal parsing tool & source code generator
 

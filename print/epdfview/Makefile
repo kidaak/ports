@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/epdfview/Makefile,v 1.26 2012/01/13 19:07:25 landry Exp $
+# $OpenBSD$
 
 COMMENT=	lightweight PDF document viewer
 

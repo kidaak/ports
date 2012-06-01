@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libftdi/Makefile,v 1.6 2011/11/13 13:54:04 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	libftdi, interface to ftdi debug device
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/foomatic-filters/patches/patch-util_h,v 1.2 2010/08/22 06:56:25 ajacoutot Exp $
+$OpenBSD$
 --- util.h.orig	Tue Aug 10 12:08:04 2010
 +++ util.h	Sun Aug 22 07:15:52 2010
 @@ -70,8 +70,10 @@ char * strcasestr (const char *haystack, const char *n

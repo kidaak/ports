@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/oath-toolkit/Makefile,v 1.3 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	toolkit for OATH/HOTP and TOTP
 DISTNAME =	oath-toolkit-1.6.2

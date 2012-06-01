@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/avahi/patches/patch-avahi-core_fdutil_c,v 1.2 2010/07/17 14:12:38 ajacoutot Exp $
+$OpenBSD$
 
 Missing prototype for memset().
 

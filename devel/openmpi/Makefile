@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/openmpi/Makefile,v 1.9 2010/11/15 19:46:01 espie Exp $
+# $OpenBSD$
 
 COMMENT =		open source MPI-2 implementation
 

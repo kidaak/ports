@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hs-xmlhtml/Makefile,v 1.1.1.1 2011/09/24 19:04:46 kili Exp $
+# $OpenBSD$
 
 COMMENT=		XML parser and renderer with HTML 5 quirks mode
 

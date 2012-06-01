@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/qt-creator/patches/patch-src_libs_cplusplus_TypePrettyPrinter_cpp,v 1.1 2010/10/27 14:45:27 espie Exp $
+$OpenBSD$
 --- src/libs/cplusplus/TypePrettyPrinter.cpp.orig	Wed Oct 27 16:40:17 2010
 +++ src/libs/cplusplus/TypePrettyPrinter.cpp	Wed Oct 27 16:43:10 2010
 @@ -70,7 +70,7 @@ static QString fullyQualifiedName(Symbol *symbol, cons

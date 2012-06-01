@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/fennec/patches/patch-extensions_auth_nsAuthGSSAPI_cpp,v 1.4 2012/02/20 20:21:43 landry Exp $
+$OpenBSD$
 https://bugzilla.mozilla.org/show_bug.cgi?id=667325
 --- extensions/auth/nsAuthGSSAPI.cpp.orig	Wed Jan 11 18:14:40 2012
 +++ extensions/auth/nsAuthGSSAPI.cpp	Sat Jan 14 20:21:44 2012

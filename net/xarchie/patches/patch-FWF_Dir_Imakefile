@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/xarchie/patches/patch-FWF_Dir_Imakefile,v 1.1 2003/12/31 17:49:34 espie Exp $
+$OpenBSD$
 --- FWF/Dir/Imakefile.orig	1993-06-30 20:19:17.000000000 +0200
 +++ FWF/Dir/Imakefile	2003-12-31 13:08:13.000000000 +0100
 @@ -28,7 +28,7 @@ first:

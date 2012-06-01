@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-CatalystX-Component-Traits/pkg/PLIST,v 1.1.1.1 2012/04/08 21:06:25 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/CatalystX/
 ${P5SITE}/CatalystX/Component/
 ${P5SITE}/CatalystX/Component/Traits.pm

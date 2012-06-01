@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde4/extragear-plasma/pkg/PLIST,v 1.2 2008/02/09 13:18:16 espie Exp $
+@comment $OpenBSD$
 lib/kde4/plasma_applet_bluemarble.so
 lib/kde4/plasma_applet_comic.so
 lib/kde4/plasma_applet_dict.so

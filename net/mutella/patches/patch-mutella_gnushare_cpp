@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/mutella/patches/patch-mutella_gnushare_cpp,v 1.2 2008/10/24 14:31:28 jasper Exp $
+$OpenBSD$
 --- mutella/gnushare.cpp.orig	Mon May 26 20:54:30 2003
 +++ mutella/gnushare.cpp	Mon Oct 13 22:43:15 2008
 @@ -51,6 +51,7 @@

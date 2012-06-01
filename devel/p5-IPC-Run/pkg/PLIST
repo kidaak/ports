@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-IPC-Run/pkg/PLIST,v 1.1.1.1 2006/11/13 15:18:26 espie Exp $
+@comment $OpenBSD$
 ${P5SITE}/IPC/
 ${P5SITE}/IPC/Run/
 ${P5SITE}/IPC/Run.pm

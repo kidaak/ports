@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Locale-PGettext/Makefile,v 1.14 2010/12/03 11:44:32 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		perl i18n routines
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/dumb/Makefile,v 1.4 2010/11/15 00:22:46 espie Exp $
+# $OpenBSD$
 
 COMMENT=	IT/MOD/XM player and library
 
@@ -20,6 +20,8 @@ WANTLIB=	alleg c m pthread
 
 USE_GMAKE=	yes
 LIB_DEPENDS=	games/allegro
+
+MAKE_FLAGS =	CC="${CC}"
 
 NO_REGRESS=	Yes
 

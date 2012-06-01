@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/xerces-c/patches/patch-obj_Makefile_in,v 1.1.1.1 2008/10/26 23:15:18 ajacoutot Exp $
+$OpenBSD$
 --- obj/Makefile.in.orig	Tue Aug 28 20:47:18 2007
 +++ obj/Makefile.in	Sun Oct 26 21:21:44 2008
 @@ -148,12 +148,6 @@ ${FQ_REAL_NAME}: $(ALL_OBJECTS)

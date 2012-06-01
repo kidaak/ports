@@ -1,4 +1,4 @@
-$OpenBSD: ports/textproc/calibre/patches/patch-src_calibre_ebooks_pdf_reflow_h,v 1.1 2011/11/26 19:50:08 kili Exp $
+$OpenBSD$
 
 With poppler-0.18, the classes Link and AnnotLink had been merged
 into AnnotLink. The latter should now contain all functionality of

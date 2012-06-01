@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Object-Pluggable/pkg/PLIST,v 1.1.1.1 2010/10/24 11:39:32 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Object/
 ${P5SITE}/Object/Pluggable/
 ${P5SITE}/Object/Pluggable.pm

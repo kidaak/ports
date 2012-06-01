@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/leafpad/Makefile,v 1.36 2011/12/03 19:49:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	simple GTK+ text editor
 

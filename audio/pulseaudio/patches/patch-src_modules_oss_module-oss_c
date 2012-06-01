@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/pulseaudio/patches/patch-src_modules_oss_module-oss_c,v 1.2 2011/10/01 08:37:30 ajacoutot Exp $
+$OpenBSD$
 
 - Fix path to soundcard.h
 - Use correct fd.

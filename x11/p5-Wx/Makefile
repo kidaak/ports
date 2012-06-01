@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/p5-Wx/Makefile,v 1.7 2010/12/03 11:46:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	interface to the wxWidgets cross-platform GUI toolkit
 

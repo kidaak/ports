@@ -1,4 +1,4 @@
-# $OpenBSD: ports/biology/nutdb/Makefile,v 1.29 2011/11/28 10:18:53 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	record and analyze your meals for nutrient composition
 

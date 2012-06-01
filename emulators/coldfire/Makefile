@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/coldfire/Makefile,v 1.2 2007/09/16 00:45:13 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	Motorola Coldfire emulator
 

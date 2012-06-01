@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-Net-IDN-Encode/pkg/PLIST,v 1.1.1.1 2010/09/16 07:26:16 jasper Exp $
+@comment $OpenBSD$
 @pkgpath converters/p5-IDNA-Punycode
 @conflict converters/p5-IDNA-Punycode-*
 ${P5ARCH}/

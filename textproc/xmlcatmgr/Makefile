@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/xmlcatmgr/Makefile,v 1.7 2010/11/22 08:56:47 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	small utility used to manipulate SGML and XML catalogs
 

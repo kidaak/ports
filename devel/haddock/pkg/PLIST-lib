@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/haddock/pkg/PLIST-lib,v 1.4 2011/04/11 14:31:01 kili Exp $
+@comment $OpenBSD$
 lib/ghc/${DISTNAME}/
 lib/ghc/${DISTNAME}/Documentation/
 lib/ghc/${DISTNAME}/Documentation/Haddock.hi

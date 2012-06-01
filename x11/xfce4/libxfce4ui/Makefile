@@ -1,13 +1,12 @@
-# $OpenBSD: ports/x11/xfce4/libxfce4ui/Makefile,v 1.7 2012/02/19 21:23:03 landry Exp $
+# $OpenBSD$
 
 COMMENT=	Xfce4 widget library
 
 XFCE_PROJECT=	libxfce4ui
-XFCE_VERSION=	4.8.1
-REVISION=	0
+REVISION =	0
 
-SHARED_LIBS=	xfce4ui-1		0.0	\
-		xfce4kbd-private-2	0.0	# 0.0
+SHARED_LIBS=	xfce4ui-1		0.1	\
+		xfce4kbd-private-2	1.0	# 0.0
 
 HOMEPAGE=	http://www.xfce.org/projects/libraries
 
@@ -23,6 +22,7 @@ MODULES=	x11/xfce4
 
 MODXFCE_ICON_CACHE=	Yes
 LIB_DEPENDS=	x11/xfce4/xfconf>=4.8.0 \
+		devel/glade3 \
 		x11/gtk+2 \
 		devel/startup-notification
 
@@ -35,7 +35,7 @@ WANTLIB += freetype gdk-x11-2.0 gdk_pixbuf-2.0 gio-2.0 glib-2.0
 WANTLIB += gmodule-2.0 gobject-2.0 gthread-2.0 gtk-x11-2.0 m pango-1.0
 WANTLIB += pangocairo-1.0 pangoft2-1.0 pcre pixman-1 png pthread-stubs
 WANTLIB += startup-notification-1 xcb xcb-aux xcb-render xcb-shm
-WANTLIB += xfce4util xfconf-0 z
+WANTLIB += xfce4util xfconf-0 z c pthread stdc++ gladeui-1 xml2
 
 FAKE_FLAGS=	settingsdir=${PREFIX}/share/examples/xfconf
 

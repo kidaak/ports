@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/pango/pkg/PLIST,v 1.26 2012/03/23 13:20:21 ajacoutot Exp $
+@comment $OpenBSD$
 %%SHARED%%
 @bin bin/pango-querymodules
 @bin bin/pango-view

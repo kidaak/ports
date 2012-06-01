@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/avidemux/patches/patch-admin_detect-autoconf_sh,v 1.1 2008/03/19 09:21:37 ajacoutot Exp $
+$OpenBSD$
 --- admin/detect-autoconf.sh.orig	Tue Jan  8 15:02:17 2008
 +++ admin/detect-autoconf.sh	Tue Jan  8 15:03:15 2008
 @@ -7,67 +7,6 @@ AUTOM4TE="autom4te"

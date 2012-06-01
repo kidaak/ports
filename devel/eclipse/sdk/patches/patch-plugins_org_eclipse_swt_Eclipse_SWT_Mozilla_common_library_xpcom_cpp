@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_swt_Eclipse_SWT_Mozilla_common_library_xpcom_cpp,v 1.5 2007/04/13 14:30:43 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.swt/Eclipse SWT Mozilla/common/library/xpcom.cpp.orig	Mon Feb 12 13:46:47 2007
 +++ plugins/org.eclipse.swt/Eclipse SWT Mozilla/common/library/xpcom.cpp	Fri Apr  6 17:23:40 2007
 @@ -68,14 +68,15 @@ fail:

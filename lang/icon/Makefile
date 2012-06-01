@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/icon/Makefile,v 1.11 2010/02/01 17:00:13 espie Exp $
+# $OpenBSD$
 
 SUBDIR =
 SUBDIR += interp

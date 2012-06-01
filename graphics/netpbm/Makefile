@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/netpbm/Makefile,v 1.58 2012/04/14 20:24:02 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	toolkit for converting images between different formats
 

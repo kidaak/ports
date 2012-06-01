@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Data-Dumper-Simple/Makefile,v 1.4 2010/12/03 11:44:29 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		easily dump variables with names
 

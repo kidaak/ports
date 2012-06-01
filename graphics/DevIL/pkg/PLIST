@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/DevIL/pkg/PLIST,v 1.3 2011/03/30 09:50:53 jasper Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/IL/
 include/IL/devil_cpp_wrapper.hpp

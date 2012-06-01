@@ -1,4 +1,4 @@
-# $OpenBSD: ports/fonts/ru-ptsans/Makefile,v 1.2 2012/01/07 08:03:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	free Cyrillic fonts
 PKG_ARCH =	*

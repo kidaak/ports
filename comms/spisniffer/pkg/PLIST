@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/comms/spisniffer/pkg/PLIST,v 1.1.1.1 2011/06/21 19:14:59 jasper Exp $
+@comment $OpenBSD$
 @bin bin/spisniffer

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/dellflash/Makefile,v 1.3 2011/01/10 19:19:37 marco Exp $
+# $OpenBSD$
 
 
 COMMENT =		tool to flash dell bios

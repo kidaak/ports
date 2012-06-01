@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/xps/Makefile,v 1.20 2011/09/16 11:41:40 espie Exp $
+# $OpenBSD$
 
 DISTNAME=       xps-4.2
 REVISION=	6

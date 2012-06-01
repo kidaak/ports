@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/polkit/patches/patch-docs_polkit_Makefile_am,v 1.1 2010/07/08 15:20:45 ajacoutot Exp $
+$OpenBSD$
 
 Force disabling gtk-doc.
 

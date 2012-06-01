@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gtk+2/pkg/PLIST-docs,v 1.37 2012/02/16 22:09:14 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict gtk+2-<2.4.9
 share/gtk-doc/
 share/gtk-doc/html/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/syslog-ng/patches/patch-Makefile_in,v 1.4 2010/09/24 17:54:16 steven Exp $
+$OpenBSD$
 --- Makefile.in.orig	Mon Aug  2 17:26:31 2010
 +++ Makefile.in	Wed Aug  4 19:55:04 2010
 @@ -218,7 +218,7 @@ timezonedir = @timezonedir@

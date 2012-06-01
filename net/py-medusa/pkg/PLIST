@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/py-medusa/pkg/PLIST,v 1.1.1.1 2008/02/09 01:10:00 okan Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/medusa/
 lib/python${MODPY_VERSION}/site-packages/medusa-0.5.4-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/medusa/__init__.py

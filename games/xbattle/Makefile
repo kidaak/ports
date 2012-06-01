@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xbattle/Makefile,v 1.23 2011/10/21 16:23:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	concurrent multi-player battle strategy game
 

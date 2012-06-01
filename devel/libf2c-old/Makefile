@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libf2c-old/Makefile,v 1.7 2012/01/13 00:55:14 naddy Exp $
+# $OpenBSD$
 
 V =		2.95.3
 CONFIG = 	${MACHINE_ARCH}-unknown-openbsd${OSREV}

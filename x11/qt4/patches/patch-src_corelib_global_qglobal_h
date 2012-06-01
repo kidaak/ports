@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/qt4/patches/patch-src_corelib_global_qglobal_h,v 1.14 2011/09/07 09:54:07 espie Exp $
+$OpenBSD$
 --- src/corelib/global/qglobal.h.orig	Tue Aug 23 14:02:27 2011
 +++ src/corelib/global/qglobal.h	Mon Sep  5 11:19:03 2011
 @@ -2243,7 +2243,7 @@ typedef uint Flags;

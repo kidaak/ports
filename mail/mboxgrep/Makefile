@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/mboxgrep/Makefile,v 1.10 2010/11/19 07:23:07 espie Exp $
+# $OpenBSD$
 
 COMMENT=	scan mailboxes for messages matching a regular expression
 

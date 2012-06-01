@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_config_arm_openbsd_h,v 1.2 2006/01/13 20:07:53 espie Exp $
+$OpenBSD$
 --- gcc/config/arm/openbsd.h.orig	Fri Jan 13 20:30:20 2006
 +++ gcc/config/arm/openbsd.h	Fri Jan 13 20:43:31 2006
 @@ -0,0 +1,258 @@

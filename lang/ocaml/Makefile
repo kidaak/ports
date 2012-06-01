@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/ocaml/Makefile,v 1.54 2011/12/21 21:31:50 avsm Exp $
+# $OpenBSD$
 
 # XXX Don't even think of updating ocaml alone.
 # Do check that the ports that depend on it still work, or repair them. 

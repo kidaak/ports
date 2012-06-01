@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/piwik/Makefile,v 1.45 2012/02/27 10:44:15 giovanni Exp $
+# $OpenBSD$
 
 COMMENT=		open source web analytics software program
 

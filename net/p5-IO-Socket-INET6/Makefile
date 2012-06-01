@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-IO-Socket-INET6/Makefile,v 1.11 2011/12/09 17:19:01 bluhm Exp $
+# $OpenBSD$
 
 COMMENT =		object interface for AF_INET and AF_INET6 domain sockets
 

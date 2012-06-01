@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/ruby-bunny/Makefile,v 1.8 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	another synchronous Ruby amqp client
 

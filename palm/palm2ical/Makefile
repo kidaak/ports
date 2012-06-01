@@ -1,4 +1,4 @@
-# $OpenBSD: ports/palm/palm2ical/Makefile,v 1.3 2011/09/21 07:49:15 giovanni Exp $
+# $OpenBSD$
 
 COMMENT =	Palm Databook/Calendar export to iCalendar
 

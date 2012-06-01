@@ -1,4 +1,4 @@
-/*	$OpenBSD: ports/productivity/sunbird/files/nsSound.cpp,v 1.4 2011/07/22 05:25:27 landry Exp $	*/
+/*	$OpenBSD$	*/
 
 /*
  * Copyright (c) 2009 Martynas Venckus <martynas@openbsd.org>

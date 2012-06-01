@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/evolution-data-server/patches/patch-tests_libedata-cal_Makefile_in,v 1.6 2012/04/16 14:22:30 jasper Exp $
+$OpenBSD$
 --- tests/libedata-cal/Makefile.in.orig	Mon Apr 16 06:02:38 2012
 +++ tests/libedata-cal/Makefile.in	Mon Apr 16 15:42:53 2012
 @@ -449,8 +449,7 @@ test_intervaltree_coverage_LDADD = \

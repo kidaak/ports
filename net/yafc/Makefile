@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/yafc/Makefile,v 1.21 2010/10/18 18:37:00 espie Exp $
+# $OpenBSD$
 
 COMMENT=	powerful console ftp client with many features
 

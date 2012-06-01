@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/hs-simple-sendfile/Makefile,v 1.1.1.1 2011/11/16 14:14:05 kili Exp $
+# $OpenBSD$
 
 COMMENT =		cross platform library for the sendfile system call
 

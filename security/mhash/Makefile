@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/mhash/Makefile,v 1.19 2010/10/18 21:41:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	strong hash library
 

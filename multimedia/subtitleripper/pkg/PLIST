@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/subtitleripper/pkg/PLIST,v 1.1.1.1 2007/07/29 17:07:49 ajacoutot Exp $
+@comment $OpenBSD$
 @conflict subrip-*
 bin/srttool
 bin/subtitle2pgm

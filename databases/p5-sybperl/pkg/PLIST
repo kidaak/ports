@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/p5-sybperl/pkg/PLIST,v 1.11 2010/09/01 22:32:46 sthen Exp $
+@comment $OpenBSD$
 @conflict sybperl-*
 ${P5ARCH}/
 ${P5ARCH}/Sybase/

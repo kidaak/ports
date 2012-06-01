@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/xmms2-scrobbler/pkg/PLIST,v 1.2 2010/04/24 17:38:06 jasper Exp $
+@comment $OpenBSD$
 @bin bin/xmms2-scrobbler
 share/doc/xmms2-scrobbler/
 share/doc/xmms2-scrobbler/README

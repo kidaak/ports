@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/wmi/pkg/PLIST,v 1.1.1.1 2004/10/17 07:36:55 sturm Exp $
+@comment $OpenBSD$
 bin/wmi
 bin/wmiremote
 @man man/man1/wmi.1

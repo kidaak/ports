@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Class-Autouse/pkg/PLIST,v 1.1.1.1 2005/03/09 03:09:19 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/Class/
 ${P5SITE}/Class/Autouse/
 ${P5SITE}/Class/Autouse.pm

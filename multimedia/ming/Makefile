@@ -1,4 +1,4 @@
-# $OpenBSD: ports/multimedia/ming/Makefile,v 1.2 2011/11/07 12:11:55 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Flash 4/5 movie output library
 

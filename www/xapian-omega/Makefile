@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/xapian-omega/Makefile,v 1.9 2012/01/07 12:03:29 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	web search application
 

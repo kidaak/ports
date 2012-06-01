@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/heartbeat/patches/patch-tools_hb_report_in,v 1.1.1.1 2007/11/21 18:48:40 ajacoutot Exp $
+$OpenBSD$
 --- tools/hb_report.in.orig	Thu Oct 25 09:40:41 2007
 +++ tools/hb_report.in	Mon Nov 12 11:13:26 2007
 @@ -56,10 +56,10 @@ fi

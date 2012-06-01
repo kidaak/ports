@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/festival/arctic/festvox_cmu_us_bdl_arctic_hts/pkg/PLIST,v 1.1.1.1 2004/08/06 03:33:36 jolan Exp $
+@comment $OpenBSD$
 lib/festival/voices/
 lib/festival/voices/us/
 lib/festival/voices/us/cmu_us_bdl_arctic_hts/

@@ -1,4 +1,4 @@
-$OpenBSD: ports/print/cups/patches/patch-scheduler_main_c,v 1.6 2012/02/16 22:12:08 ajacoutot Exp $
+$OpenBSD$
 
 main.c:376: warning: implicit declaration of function '_thread_sys_closefrom'
 (XXX rework after rthreads are enabled)

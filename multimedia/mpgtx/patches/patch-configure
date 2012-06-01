@@ -1,4 +1,4 @@
-$OpenBSD: ports/multimedia/mpgtx/patches/patch-configure,v 1.1.1.1 2008/05/17 17:08:17 jasper Exp $
+$OpenBSD$
 --- configure.orig	Sun Jan  2 22:19:23 2005
 +++ configure	Thu May 15 22:24:51 2008
 @@ -9,7 +9,7 @@

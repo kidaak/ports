@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/opennap/patches/patch-opennap_h,v 1.2 2009/02/14 09:41:35 jasper Exp $
+$OpenBSD$
 --- opennap.h.orig	Mon Oct  1 00:12:37 2001
 +++ opennap.h	Sat Feb 14 10:40:49 2009
 @@ -143,9 +143,26 @@ struct _user

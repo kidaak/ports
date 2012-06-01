@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/automake/1.10/patches/patch-automake_in,v 1.1.1.1 2010/07/22 19:12:22 ajacoutot Exp $
+$OpenBSD$
 --- automake.in.orig	Tue Dec  8 20:36:30 2009
 +++ automake.in	Thu Jul 22 06:54:11 2010
 @@ -4055,7 +4055,7 @@ sub handle_configure ($$$@)

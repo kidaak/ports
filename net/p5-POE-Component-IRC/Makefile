@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-POE-Component-IRC/Makefile,v 1.31 2010/12/10 11:56:45 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	event-driven IRC-client module
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-PPIx-Regexp/Makefile,v 1.5 2011/07/10 12:17:42 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		parse regular expressions
 

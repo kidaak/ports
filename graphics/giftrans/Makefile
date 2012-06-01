@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/giftrans/Makefile,v 1.17 2010/10/24 21:21:00 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	handle GIF89a transparent option and interlace mode
 

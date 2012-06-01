@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_auth_mysql/Makefile,v 1.20 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Apache MySQL authentication module
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_auth_bsd/Makefile,v 1.14 2012/03/08 19:17:27 nigel Exp $
+# $OpenBSD$
 
 COMMENT=	provides HTTP Basic authentication via bsd auth
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/wmpop3/pkg/PLIST,v 1.2 2004/09/15 09:09:45 espie Exp $
+@comment $OpenBSD$
 bin/wmpop3
 share/doc/wmpop3/
 share/doc/wmpop3/README

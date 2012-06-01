@@ -1,8 +1,8 @@
-# $OpenBSD: ports/math/wxMaxima/Makefile,v 1.6 2012/02/28 14:38:30 edd Exp $
+# $OpenBSD$
 
 COMMENT =		wxWidgets GUI for the computer algebra system maxima
 
-DISTNAME =		wxMaxima-12.01.0
+DISTNAME =		wxMaxima-12.04.0
 CATEGORIES =		math
 
 HOMEPAGE =		http://wxmaxima.sourceforge.net/

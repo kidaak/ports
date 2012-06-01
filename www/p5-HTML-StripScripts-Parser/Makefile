@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-StripScripts-Parser/Makefile,v 1.4 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	XSS filter using HTML::Parser
 

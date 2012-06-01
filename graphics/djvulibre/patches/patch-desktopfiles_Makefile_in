@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/djvulibre/patches/patch-desktopfiles_Makefile_in,v 1.1 2010/09/03 21:20:49 sthen Exp $
+$OpenBSD$
 --- desktopfiles/Makefile.in.orig	Sat Mar 20 01:39:50 2010
 +++ desktopfiles/Makefile.in	Sun Aug 29 21:21:02 2010
 @@ -40,6 +40,8 @@ RM = @RM@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/security/cgichk/pkg/PLIST,v 1.5 2004/09/15 18:35:59 espie Exp $
+@comment $OpenBSD$
 bin/cgichk
 share/examples/cgichk/
 share/examples/cgichk/cgichk.conf

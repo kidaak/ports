@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/ladspa/patches/patch-src_plugins_filter_c,v 1.1 2006/08/04 23:34:39 espie Exp $
+$OpenBSD$
 --- src/plugins/filter.c.orig	Sat Aug  5 01:15:43 2006
 +++ src/plugins/filter.c	Sat Aug  5 01:16:38 2006
 @@ -250,10 +250,13 @@ LADSPA_Descriptor * g_psHPFDescriptor = 

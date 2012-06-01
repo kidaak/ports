@@ -1,4 +1,4 @@
-$OpenBSD: ports/editors/vim/patches/patch-src_auto_configure,v 1.8 2011/06/15 12:27:06 sthen Exp $
+$OpenBSD$
 --- src/auto/configure.orig	Wed Jun 15 13:26:17 2011
 +++ src/auto/configure	Wed Jun 15 13:26:18 2011
 @@ -11514,6 +11514,7 @@ $as_echo_n "checking for sysctl... " >&6; }

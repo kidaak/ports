@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/igmpproxy/patches/patch-defs_h,v 1.1.1.1 2008/02/08 19:30:51 sthen Exp $
+$OpenBSD$
 --- defs.h.orig	Sat Aug 20 13:44:47 2005
 +++ defs.h	Mon Nov 19 12:56:50 2007
 @@ -40,10 +40,18 @@

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/p5-Data-AMF/pkg/PLIST,v 1.1.1.1 2011/03/07 23:37:51 sthen Exp $
+@comment $OpenBSD$
 ${P5SITE}/Data/
 ${P5SITE}/Data/AMF/
 ${P5SITE}/Data/AMF.pm

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libf2c-old/pkg/PLIST,v 1.1.1.1 2010/05/27 08:36:54 espie Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/g2c.h
 lib/gcc-lib/

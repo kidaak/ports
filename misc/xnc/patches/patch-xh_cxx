@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/xnc/patches/patch-xh_cxx,v 1.1.1.1 2000/12/31 12:54:27 reinhard Exp $
+$OpenBSD$
 --- xh.cxx.orig	Thu Dec  7 09:12:00 2000
 +++ xh.cxx	Sun Dec 31 13:34:51 2000
 @@ -40,7 +40,7 @@ int        init_starts=0, xnc_starts=0;

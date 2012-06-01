@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/multimedia/moovida/core/pkg/PLIST,v 1.1 2009/10/15 15:44:41 landry Exp $
+@comment $OpenBSD$
 bin/elisa
 lib/python${MODPY_VERSION}/site-packages/elisa/
 lib/python${MODPY_VERSION}/site-packages/elisa-1.0.7-py${MODPY_VERSION}-nspkg.pth

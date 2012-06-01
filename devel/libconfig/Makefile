@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libconfig/Makefile,v 1.8 2011/01/16 11:16:12 rpointel Exp $
+# $OpenBSD$
 
 COMMENT=		library for manipulating structured configuration files
 

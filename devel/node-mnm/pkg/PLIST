@@ -1,0 +1,9 @@
+@comment $OpenBSD$
+lib/node_modules/mnm/
+lib/node_modules/mnm/.npmignore
+lib/node_modules/mnm/README.md
+lib/node_modules/mnm/index.js
+lib/node_modules/mnm/lib/
+lib/node_modules/mnm/lib/ansi.js
+lib/node_modules/mnm/lib/builder.js
+lib/node_modules/mnm/package.json

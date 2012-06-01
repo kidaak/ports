@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Algorithm-Dependency/pkg/PLIST,v 1.2 2010/11/24 15:28:45 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Algorithm/
 ${P5SITE}/Algorithm/Dependency/
 ${P5SITE}/Algorithm/Dependency.pm

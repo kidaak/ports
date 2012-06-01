@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/libev/pkg/PLIST,v 1.2 2009/09/14 15:53:09 landry Exp $
+@comment $OpenBSD$
 %%SHARED%%
 include/ev++.h
 include/ev.h

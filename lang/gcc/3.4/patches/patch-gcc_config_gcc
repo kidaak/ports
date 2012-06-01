@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.4/patches/patch-gcc_config_gcc,v 1.4 2005/09/26 09:47:33 espie Exp $
+$OpenBSD$
 --- gcc/config.gcc.orig	Tue Jul 19 23:08:46 2005
 +++ gcc/config.gcc	Mon Sep 26 10:15:33 2005
 @@ -977,11 +977,11 @@ x86_64-*-netbsd*)

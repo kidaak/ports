@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/databases/py-sqlite2/pkg/PLIST,v 1.8 2010/09/07 16:57:03 eric Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/pysqlite-${MODPY_EGG_VERSION}-py${MODPY_VERSION}.egg-info
 lib/python${MODPY_VERSION}/site-packages/pysqlite2/
 lib/python${MODPY_VERSION}/site-packages/pysqlite2/__init__.py

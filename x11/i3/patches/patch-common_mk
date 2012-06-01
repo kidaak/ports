@@ -1,13 +1,14 @@
-$OpenBSD: ports/x11/i3/patches/patch-common_mk,v 1.8 2012/02/21 14:05:39 dcoppa Exp $
---- common.mk.orig	Sat Dec 24 16:25:15 2011
-+++ common.mk	Tue Dec 27 09:50:07 2011
-@@ -1,90 +1,28 @@
+$OpenBSD$
+--- common.mk.orig	Mon May  7 16:43:19 2012
++++ common.mk	Mon May  7 16:47:01 2012
+@@ -1,5 +1,5 @@
  UNAME=$(shell uname)
 -DEBUG=1
 +DEBUG=0
  COVERAGE=0
  INSTALL=install
- ifndef PREFIX
+ FLEX=flex
+@@ -8,86 +8,23 @@ ifndef PREFIX
    PREFIX=/usr
  endif
  ifndef SYSCONFDIR
@@ -19,8 +20,8 @@ $OpenBSD: ports/x11/i3/patches/patch-common_mk,v 1.8 2012/02/21 14:05:39 dcoppa 
 +  SYSCONFDIR=/etc
  endif
  # The escaping is absurd, but we need to escape for shell, sed, make, define
- GIT_VERSION:="4.1.2 (2012-01-27, branch \\\"release-4.1.2\\\")"
- VERSION:=4.1.2
+ GIT_VERSION:="4.2 (2012-04-25, branch \\\"release-4.2\\\")"
+ VERSION:=4.2
  
 -ifeq ($(shell which pkg-config 2>/dev/null 1>/dev/null || echo 1),1)
 -$(error "pkg-config was not found")
@@ -73,6 +74,7 @@ $OpenBSD: ports/x11/i3/patches/patch-common_mk,v 1.8 2012/02/21 14:05:39 dcoppa 
 -endif
  
 -LIBS += -lm
+-LIBS += -lrt
 -LIBS += -L $(TOPDIR)/libi3 -li3
 -LIBS += $(call ldflags_for_lib, xcb-event,xcb-event)
 -LIBS += $(call ldflags_for_lib, xcb-keysyms,xcb-keysyms)
@@ -92,11 +94,11 @@ $OpenBSD: ports/x11/i3/patches/patch-common_mk,v 1.8 2012/02/21 14:05:39 dcoppa 
 -LIBS += $(call ldflags_for_lib, libev,ev)
 -LIBS += $(call ldflags_for_lib, libpcre,pcre)
 -LIBS += $(call ldflags_for_lib, libstartup-notification-1.0,startup-notification-1)
-+LIBS += -L$(TOPDIR)/libi3 -li3 -lX11 -lXcursor -lev -lm -lxcb -lxcb-atom -lxcb-aux -lxcb-event -lxcb-icccm -lxcb-keysyms -lxcb-property -lxcb-randr -lxcb-xinerama -lyajl -lpcre -lstartup-notification-1
++LIBS += -L$(TOPDIR)/libi3 -lX11 -lX11-xcb -lXau -lXcursor -lXdmcp -lXfixes -lXrender -lev -li3 -lm -lpcre -lpthread-stubs -lstartup-notification-1 -lxcb -lxcb-atom -lxcb-aux -lxcb-event -lxcb-icccm -lxcb-keysyms -lxcb-property -lxcb-randr -lxcb-xinerama -lyajl
  
  # Please test if -Wl,--as-needed works on your platform and send me a patch.
  # it is known not to work on Darwin (Mac OS X)
-@@ -99,9 +37,9 @@ LDFLAGS += -Wl,-rpath,/usr/local/lib -Wl,-rpath,/usr/p
+@@ -102,9 +39,9 @@ LDFLAGS += -Wl,-rpath,/usr/local/lib -Wl,-rpath,/usr/p
  endif
  
  ifeq ($(UNAME),OpenBSD)
@@ -108,7 +110,7 @@ $OpenBSD: ports/x11/i3/patches/patch-common_mk,v 1.8 2012/02/21 14:05:39 dcoppa 
  endif
  
  ifeq ($(UNAME),FreeBSD)
-@@ -124,18 +62,12 @@ ifeq ($(DEBUG),1)
+@@ -127,18 +64,12 @@ ifeq ($(DEBUG),1)
  # Extended debugging flags, macros shall be available in gcc
  CFLAGS += -gdwarf-2
  CFLAGS += -g3

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/p5-Email-MIME-Attachment-Stripper/pkg/PLIST,v 1.1.1.1 2009/08/10 17:45:05 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Email/MIME/Attachment/
 ${P5SITE}/Email/MIME/Attachment/Stripper.pm
 @man man/man3p/Email::MIME::Attachment::Stripper.3p

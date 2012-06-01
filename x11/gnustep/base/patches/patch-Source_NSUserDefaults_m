@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnustep/base/patches/patch-Source_NSUserDefaults_m,v 1.2 2011/04/18 11:54:49 sebastia Exp $
+$OpenBSD$
 
 Introduce the GS_DEFAULTS_LOCKDIR to allow the gnustep ports to
 build with systrace. Otherwise plmerge would try to create a lock

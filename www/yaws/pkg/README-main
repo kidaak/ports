@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/yaws/pkg/README-main,v 1.3 2011/06/02 13:41:42 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/imap-uw/patches/patch-Makefile,v 1.14 2011/11/06 09:03:28 ajacoutot Exp $
+$OpenBSD$
 --- Makefile.orig	Sat Jul 23 02:20:21 2011
 +++ Makefile	Sun Nov  6 09:59:50 2011
 @@ -333,7 +333,7 @@ bsf:	an

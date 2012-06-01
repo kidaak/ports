@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/nvi-m17n/pkg/PLIST,v 1.3 2006/11/11 18:20:43 sturm Exp $
+@comment $OpenBSD$
 bin/nex
 bin/nvi
 bin/nvi-big5

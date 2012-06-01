@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/abcde/pkg/PLIST,v 1.2 2004/08/05 03:28:11 espie Exp $
+@comment $OpenBSD$
 bin/abcde
 bin/cd-discid
 bin/cddb-tool

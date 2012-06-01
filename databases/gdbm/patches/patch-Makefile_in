@@ -1,4 +1,4 @@
-$OpenBSD: ports/databases/gdbm/patches/patch-Makefile_in,v 1.5 2008/10/20 20:26:21 steven Exp $
+$OpenBSD$
 --- Makefile.in.orig	Tue Oct  8 18:09:12 2002
 +++ Makefile.in	Mon Oct 20 22:24:03 2008
 @@ -8,7 +8,7 @@ CC = @CC@

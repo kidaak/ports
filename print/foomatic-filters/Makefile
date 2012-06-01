@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/foomatic-filters/Makefile,v 1.37 2012/04/11 15:47:48 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		Foomatic PPD print filters
 

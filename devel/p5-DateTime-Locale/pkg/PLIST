@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-DateTime-Locale/pkg/PLIST,v 1.5 2009/08/17 09:36:00 kevlo Exp $
+@comment $OpenBSD$
 ${P5SITE}/DateTime/
 ${P5SITE}/DateTime/Locale/
 ${P5SITE}/DateTime/Locale.pm

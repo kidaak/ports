@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/Xdialog/Makefile,v 1.14 2011/09/16 12:29:12 espie Exp $
+# $OpenBSD$
 
 COMMENT=	X11 counterpart of curses-based misc/dialog
 

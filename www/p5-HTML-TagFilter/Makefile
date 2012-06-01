@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-HTML-TagFilter/Makefile,v 1.4 2010/12/03 11:46:52 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	fine-grained html-filter, xss-blocker and mailto-obfuscator
 

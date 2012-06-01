@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nagios/check_sip/Makefile,v 1.7 2010/11/19 22:31:34 espie Exp $
+# $OpenBSD$
 
 COMMENT=		Nagios plugin to check SIP
 

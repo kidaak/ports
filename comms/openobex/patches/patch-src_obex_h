@@ -1,4 +1,4 @@
-$OpenBSD: ports/comms/openobex/patches/patch-src_obex_h,v 1.1.1.1 2004/11/12 08:04:22 grange Exp $
+$OpenBSD$
 --- src/obex.h.orig	Wed Oct 20 21:47:57 2004
 +++ src/obex.h	Wed Oct 20 21:48:22 2004
 @@ -30,7 +30,11 @@

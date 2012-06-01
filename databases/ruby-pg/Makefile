@@ -1,4 +1,4 @@
-# $OpenBSD: ports/databases/ruby-pg/Makefile,v 1.17 2012/04/06 19:22:29 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	PostgreSQL database interface for ruby
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libupnp/patches/patch-upnp_src_inc_config_h,v 1.1 2012/03/30 06:48:01 ajacoutot Exp $
+$OpenBSD$
 
 http://lifewithushare.blogspot.fr/2008/01/simultaneous-streaming-to-multiple.html
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/apc-upsd/Makefile,v 1.21 2012/03/17 10:35:10 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	UPS software for APC UPS models
 

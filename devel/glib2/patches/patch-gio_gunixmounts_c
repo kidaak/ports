@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/glib2/patches/patch-gio_gunixmounts_c,v 1.7 2012/03/30 10:25:35 ajacoutot Exp $
+$OpenBSD$
 
 https://bugzilla.gnome.org/show_bug.cgi?id=583330
 From FreeBSD: poll the list of mounted filesystems since we can't rely

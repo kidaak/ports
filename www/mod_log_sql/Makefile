@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/mod_log_sql/Makefile,v 1.18 2011/09/17 10:29:44 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Apache module for logging to an SQL database
 

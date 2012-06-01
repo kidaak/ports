@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/puppet-dashboard/Makefile,v 1.9 2012/01/16 21:10:28 robert Exp $
+# $OpenBSD$
 
 COMMENT=	overview of your Puppet ecosystem
 

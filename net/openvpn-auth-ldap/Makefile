@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/openvpn-auth-ldap/Makefile,v 1.2 2012/03/29 13:38:48 sthen Exp $
+# $OpenBSD$
 
 COMMENT =		LDAP authentication plugin for OpenVPN 2.x
 

@@ -1,9 +1,10 @@
-# $OpenBSD: ports/sysutils/accountsservice/Makefile,v 1.22 2012/03/28 09:05:54 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	D-Bus interface for user account query and manipulation
 
-DISTNAME=	accountsservice-0.6.17
+DISTNAME=	accountsservice-0.6.20
 EXTRACT_SUFX=	.tar.xz
+REVISION=	0
 
 SHARED_LIBS +=  accountsservice           0.0 # 0.0
 
@@ -41,7 +42,6 @@ CONFIGURE_STYLE=gnu
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
 CONFIGURE_ARGS=	${CONFIGURE_SHARED} \
-		--localstatedir=/var \
 		--enable-introspection \
 		--disable-docbook-docs
 

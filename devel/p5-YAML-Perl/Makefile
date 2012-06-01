@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-YAML-Perl/Makefile,v 1.2 2011/03/16 07:22:25 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		pure Perl implementation of YAML
 

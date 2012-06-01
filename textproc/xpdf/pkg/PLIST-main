@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/textproc/xpdf/pkg/PLIST-main,v 1.2 2009/04/17 20:55:46 kili Exp $
+@comment $OpenBSD$
 @pkgpath textproc/xpdf
 @bin bin/pdftoppm
 @bin bin/pdftops

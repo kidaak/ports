@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/jailkit/Makefile,v 1.7 2012/03/12 17:56:44 sebastia Exp $
+# $OpenBSD$
 			
 COMMENT=		utilities for jailing a user or process
 

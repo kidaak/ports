@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/p5-Business-PayPal-IPN/Makefile,v 1.3 2010/12/03 11:45:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	extension that implements PayPal IPN v1.5
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-JavaScript-Minifier/Makefile,v 1.3 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	Perl extension for minifying JavaScript code
 

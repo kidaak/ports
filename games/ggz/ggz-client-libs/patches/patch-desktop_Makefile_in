@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ggz/ggz-client-libs/patches/patch-desktop_Makefile_in,v 1.1.1.1 2008/11/17 18:22:14 jasper Exp $
+$OpenBSD$
 --- desktop/Makefile.in.orig	Sat Feb 16 22:45:45 2008
 +++ desktop/Makefile.in	Mon Nov 17 19:08:38 2008
 @@ -184,9 +184,9 @@ top_builddir = @top_builddir@

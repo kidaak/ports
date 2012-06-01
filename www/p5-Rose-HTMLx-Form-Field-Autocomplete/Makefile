@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Rose-HTMLx-Form-Field-Autocomplete/Makefile,v 1.5 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 COMMENT=	HTML ajax autocompleter for Rose
 
 MODULES=	cpan

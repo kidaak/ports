@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/games/quake/pkg/PFRAG.shared-libs,v 1.1 2011/07/11 16:33:06 jasper Exp $
+@comment $OpenBSD$
 @lib lib/libQFcd.so.${LIBQFcd_VERSION}
 @lib lib/libQFconsole.so.${LIBQFconsole_VERSION}
 @lib lib/libQFgamecode.so.${LIBQFgamecode_VERSION}

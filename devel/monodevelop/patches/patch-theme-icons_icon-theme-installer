@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/monodevelop/patches/patch-theme-icons_icon-theme-installer,v 1.1 2010/03/29 07:44:28 ajacoutot Exp $
+$OpenBSD$
 --- theme-icons/icon-theme-installer.orig	Thu Nov  5 19:12:21 2009
 +++ theme-icons/icon-theme-installer	Mon Mar 29 08:59:39 2010
 @@ -1,4 +1,4 @@

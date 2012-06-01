@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/wmcube/patches/patch-wmcube_wmcube_c,v 1.3 2001/08/28 14:08:57 wilfried Exp $
+$OpenBSD$
 --- wmcube/wmcube.c.orig	Mon Oct 23 22:11:47 2000
 +++ wmcube/wmcube.c	Tue Aug 28 14:37:36 2001
 @@ -858,6 +858,10 @@ void print_help() {

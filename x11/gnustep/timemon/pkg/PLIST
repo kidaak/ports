@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnustep/timemon/pkg/PLIST,v 1.1.1.1 2010/10/26 17:41:55 sebastia Exp $
+@comment $OpenBSD$
 bin/TimeMon
 libexec/GNUstep/
 libexec/GNUstep/TimeMon.app/

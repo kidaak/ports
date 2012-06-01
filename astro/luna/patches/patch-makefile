@@ -1,4 +1,4 @@
-$OpenBSD: ports/astro/luna/patches/patch-makefile,v 1.3 2007/12/18 09:43:36 ajacoutot Exp $
+$OpenBSD$
 --- makefile.orig	Tue Dec 18 09:36:17 2007
 +++ makefile	Tue Dec 18 09:36:17 2007
 @@ -2,23 +2,14 @@

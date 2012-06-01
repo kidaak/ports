@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/editors/emacs21/pkg/PLIST-leim,v 1.4 2010/02/26 18:17:38 espie Exp $
+@comment $OpenBSD$
 @pkgpath editors/emacs21,-leim,no_x11
 share/emacs/${VERSION}/leim/ja-dic/
 share/emacs/${VERSION}/leim/ja-dic/ja-dic.elc

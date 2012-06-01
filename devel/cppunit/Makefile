@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/cppunit/Makefile,v 1.6 2010/11/15 19:45:57 espie Exp $
+# $OpenBSD$
 
 COMMENT=	c++ unit testing framework
 DISTNAME=	cppunit-1.12.1

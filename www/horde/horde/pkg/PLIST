@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/horde/horde/pkg/PLIST,v 1.5 2012/03/19 15:44:33 sthen Exp $
+@comment $OpenBSD$
 @pkgpath devel/horde
 @pkgpath devel/horde,-ldap
 @pkgpath devel/horde,-mysql

@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/glib/patches/patch-configure,v 1.5 2007/12/11 10:57:25 jakemsr Exp $
+$OpenBSD$
 --- configure.orig	Thu Mar 15 07:44:01 2001
 +++ configure	Sun Oct 21 01:39:52 2007
 @@ -4385,6 +4385,13 @@ else

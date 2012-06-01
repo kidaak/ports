@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-POE-Loop-Tk/Makefile,v 1.9 2011/09/16 09:24:52 espie Exp $
+# $OpenBSD$
 
 COMMENT=		bridge that allows POE to be driven by Tk
 

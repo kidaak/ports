@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/grub/Makefile,v 1.8 2011/06/02 13:41:41 ajacoutot Exp $
+# $OpenBSD$
 
 ONLY_FOR_ARCHS=	i386
 

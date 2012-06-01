@@ -1,4 +1,4 @@
-# $OpenBSD: ports/cad/klogic/Makefile,v 1.23 2011/11/01 19:00:25 jasper Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 COMMENT= 	logic circuit simulator for KDE

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/hypermail/Makefile,v 1.31 2010/11/19 07:23:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=		generate a cross-referenced HTML mail archive
 

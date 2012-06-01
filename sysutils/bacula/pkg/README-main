@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/bacula/pkg/README-main,v 1.1 2011/11/17 23:45:56 ajacoutot Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

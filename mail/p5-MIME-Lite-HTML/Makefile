@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/p5-MIME-Lite-HTML/Makefile,v 1.4 2010/12/03 11:45:38 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	transform a HTML page in a MIME-Lite mail
 

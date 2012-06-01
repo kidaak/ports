@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-HTTP-Request/Makefile,v 1.20 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	provide an easy way to perform HTTP requests
 

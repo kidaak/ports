@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/sysutils/firmware/malo/pkg/PLIST,v 1.2 2011/07/08 21:20:49 sthen Exp $
+@comment $OpenBSD$
 @pkgpath malo-firmware
 @pkgpath mystuff/malo-firmware
 @pkgpath sysutils/malo-firmware

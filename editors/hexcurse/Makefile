@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/hexcurse/Makefile,v 1.8 2010/10/18 18:00:16 espie Exp $
+# $OpenBSD$
 
 COMMENT=	user-friendly ncurses-based hexeditor with many features
 

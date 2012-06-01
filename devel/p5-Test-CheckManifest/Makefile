@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Test-CheckManifest/Makefile,v 1.2 2011/06/02 08:43:27 rpointel Exp $
+# $OpenBSD$
 
 COMMENT =	check Manifest matches your distro
 

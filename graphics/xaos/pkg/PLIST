@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/graphics/xaos/pkg/PLIST,v 1.1.1.1 2011/04/14 07:02:21 jasper Exp $
+@comment $OpenBSD$
 @bin bin/xaos
 @info info/xaos.info
 @man man/man6/xaos.6

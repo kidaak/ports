@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/webkit/patches/patch-Source_JavaScriptCore_wtf_Platform_h,v 1.4 2012/04/03 15:39:35 landry Exp $
+$OpenBSD$
 
 Allow webkit to build and run on mips64
 

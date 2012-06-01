@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Rose-HTML-Objects/Makefile,v 1.7 2010/12/03 11:46:53 ajacoutot Exp $
+# $OpenBSD$
 COMMENT=	HTML objects for Rose
 
 MODULES=	cpan

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/p5-PPIx-Utilities/Makefile,v 1.5 2011/07/10 12:17:36 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		extensions to PPI
 

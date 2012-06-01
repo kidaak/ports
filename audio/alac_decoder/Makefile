@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/alac_decoder/Makefile,v 1.1.1.1 2012/02/28 11:16:18 bentley Exp $
+# $OpenBSD$
 
 COMMENT =		basic Apple Lossless Audio Codec decoder
 

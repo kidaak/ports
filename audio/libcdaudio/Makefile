@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/libcdaudio/Makefile,v 1.19 2010/07/26 18:59:18 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	multi-platform cd player development library
 DISTNAME=	libcdaudio-0.99.12

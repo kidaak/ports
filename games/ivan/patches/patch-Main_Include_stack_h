@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/ivan/patches/patch-Main_Include_stack_h,v 1.1 2010/06/07 14:48:32 espie Exp $
+$OpenBSD$
 --- Main/Include/stack.h.orig	Mon Jun  7 16:41:04 2010
 +++ Main/Include/stack.h	Mon Jun  7 16:41:09 2010
 @@ -56,7 +56,7 @@ class stackiterator

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/plan9/9libs/Makefile,v 1.17 2012/03/29 13:38:49 sthen Exp $
+# $OpenBSD$
 
 # varargs misuse, and unportable software
 ONLY_FOR_ARCHS= 	i386 sparc sparc64

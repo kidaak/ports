@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_ada_gnatlink_adb,v 1.1.1.1 2011/11/14 13:00:57 pascal Exp $
+$OpenBSD$
 --- gcc/ada/gnatlink.adb.orig	Mon Nov 14 13:40:53 2011
 +++ gcc/ada/gnatlink.adb	Mon Nov 14 13:41:06 2011
 @@ -137,7 +137,7 @@ procedure Gnatlink is

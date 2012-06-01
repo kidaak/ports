@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/fennec/pkg/PLIST,v 1.8 2012/02/20 20:21:43 landry Exp $
+@comment $OpenBSD$
 bin/${MOZILLA_PROJECT}
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/application.ini

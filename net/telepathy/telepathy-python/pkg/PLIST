@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/telepathy/telepathy-python/pkg/PLIST,v 1.7 2011/01/17 00:16:52 jasper Exp $
+@comment $OpenBSD$
 lib/python${MODPY_VERSION}/site-packages/telepathy/
 lib/python${MODPY_VERSION}/site-packages/telepathy/__init__.py
 lib/python${MODPY_VERSION}/site-packages/telepathy/__init__.pyc

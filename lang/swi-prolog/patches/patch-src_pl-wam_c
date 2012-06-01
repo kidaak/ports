@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/swi-prolog/patches/patch-src_pl-wam_c,v 1.1 2011/09/07 11:25:18 naddy Exp $
+$OpenBSD$
 --- src/pl-wam.c.orig	Wed Sep  7 00:30:34 2011
 +++ src/pl-wam.c	Wed Sep  7 00:42:47 2011
 @@ -790,7 +790,8 @@ MSB(unsigned int i)

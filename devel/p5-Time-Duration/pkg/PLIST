@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Time-Duration/pkg/PLIST,v 1.1.1.1 2007/10/13 06:44:59 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Time/
 ${P5SITE}/Time/Duration.pm
 @man man/man3p/Time::Duration.3p

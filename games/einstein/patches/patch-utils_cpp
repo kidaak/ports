@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/einstein/patches/patch-utils_cpp,v 1.1.1.1 2009/04/03 17:56:41 landry Exp $
+$OpenBSD$
 --- utils.cpp.orig	Thu Apr  2 09:00:22 2009
 +++ utils.cpp	Thu Apr  2 09:14:42 2009
 @@ -275,7 +275,16 @@ std::wstring secToStr(int time)

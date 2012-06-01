@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/qlandkarte/patches/patch-src_CCentralResources_cpp,v 1.1 2010/05/21 22:00:54 jasper Exp $
+$OpenBSD$
 
 Nuke obvious dialog, ofcourse we run UTC.
 

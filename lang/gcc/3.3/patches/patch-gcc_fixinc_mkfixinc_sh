@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/3.3/patches/patch-gcc_fixinc_mkfixinc_sh,v 1.1.1.1 2005/01/03 15:21:27 espie Exp $
+$OpenBSD$
 --- gcc/fixinc/mkfixinc.sh.orig	Fri Nov  7 00:13:36 2003
 +++ gcc/fixinc/mkfixinc.sh	Mon Jan  3 10:17:44 2005
 @@ -47,7 +47,7 @@ case $machine in

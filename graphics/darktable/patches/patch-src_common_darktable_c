@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/darktable/patches/patch-src_common_darktable_c,v 1.1 2011/12/09 20:11:00 sthen Exp $
+$OpenBSD$
 --- src/common/darktable.c.orig	Fri Dec  9 16:24:27 2011
 +++ src/common/darktable.c	Fri Dec  9 16:28:10 2011
 @@ -49,7 +49,7 @@

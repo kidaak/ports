@@ -1,4 +1,4 @@
-$OpenBSD: ports/graphics/netpbm/patches/patch-converter_other_pnmtopng_c,v 1.2 2011/12/13 21:39:17 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

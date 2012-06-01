@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/zarafa/zarafa/patches/patch-php-webclient-ajax_config_php_dist,v 1.6 2012/03/15 17:04:31 ajacoutot Exp $
+$OpenBSD$
 --- php-webclient-ajax/config.php.dist.orig	Tue Mar 13 11:24:11 2012
 +++ php-webclient-ajax/config.php.dist	Thu Mar 15 16:42:28 2012
 @@ -11,9 +11,9 @@

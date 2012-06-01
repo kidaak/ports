@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/slib-guile/pkg/PLIST,v 1.2 2009/01/21 18:32:51 kili Exp $
+@comment $OpenBSD$
 share/guile/
 share/guile/site/
 share/guile/site/slibcat

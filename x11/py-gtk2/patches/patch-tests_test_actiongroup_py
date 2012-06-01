@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/py-gtk2/patches/patch-tests_test_actiongroup_py,v 1.2 2008/04/22 14:50:54 ajacoutot Exp $
+$OpenBSD$
 --- tests/test_actiongroup.py.orig	Fri Apr 18 13:29:37 2008
 +++ tests/test_actiongroup.py	Fri Apr 18 13:29:52 2008
 @@ -110,10 +110,10 @@ class ActionGroupTest(unittest.TestCase):

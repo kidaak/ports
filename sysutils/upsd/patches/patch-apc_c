@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/upsd/patches/patch-apc_c,v 1.1 2002/08/05 02:25:30 kevlo Exp $
+$OpenBSD$
 --- apc.c.orig	Fri Aug  2 21:44:22 1996
 +++ apc.c	Mon Aug  5 10:01:35 2002
 @@ -164,12 +164,12 @@ apc_tune(val)

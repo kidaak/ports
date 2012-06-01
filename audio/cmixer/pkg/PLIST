@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/audio/cmixer/pkg/PLIST,v 1.1.1.1 2009/10/11 14:20:15 landry Exp $
+@comment $OpenBSD$
 bin/cmixer

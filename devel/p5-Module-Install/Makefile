@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Module-Install/Makefile,v 1.18 2012/04/07 20:57:18 sthen Exp $
+# $OpenBSD$
 
 COMMENT=        standalone extensible Perl module installer
 

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/p5-HTML-Mason-PSGIHandler/pkg/PLIST,v 1.1.1.1 2011/06/14 12:08:28 robert Exp $
+@comment $OpenBSD$
 ${P5SITE}/HTML/
 ${P5SITE}/HTML/Mason/
 ${P5SITE}/HTML/Mason/PSGIHandler/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/nagios/p5-Nagios-Plugin/Makefile,v 1.9 2011/05/20 08:40:12 sthen Exp $
+# $OpenBSD$
 
 COMMENT=		helper routines for writing Nagios plugins
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/comms/gmfsk/Makefile,v 1.27 2011/11/04 08:21:59 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	GNOME multimode HF terminal
 

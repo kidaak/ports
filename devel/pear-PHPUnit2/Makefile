@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pear-PHPUnit2/Makefile,v 1.9 2011/09/16 09:24:53 espie Exp $
+# $OpenBSD$
 
 COMMENT=	regression testing framework for PHP 5
 

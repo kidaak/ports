@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/converters/p5-DateManip/pkg/PLIST,v 1.8 2010/10/26 15:23:05 jasper Exp $
+@comment $OpenBSD$
 ${P5SITE}/Date/
 ${P5SITE}/Date/Manip/
 ${P5SITE}/Date/Manip.pm

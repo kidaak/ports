@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xkeycaps/patches/patch-Imakefile,v 1.2 2010/02/07 15:18:10 landry Exp $
+$OpenBSD$
 --- Imakefile.orig	Sun Dec 12 18:27:27 1999
 +++ Imakefile	Sun Feb  7 03:16:36 2010
 @@ -1,5 +1,5 @@

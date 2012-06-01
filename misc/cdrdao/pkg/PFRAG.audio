@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/misc/cdrdao/pkg/PFRAG.audio,v 1.1 2005/06/04 23:12:31 fgsch Exp $
+@comment $OpenBSD$
 bin/toc2mp3

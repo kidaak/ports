@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/hpodder/patches/patch-FeedParser_hs,v 1.4 2012/03/20 13:33:54 dcoppa Exp $
+$OpenBSD$
 
 Fix the "Invalid or incomplete multibyte or wide character" error
 caused by some feeds: set binary mode on the handle before hGetContents

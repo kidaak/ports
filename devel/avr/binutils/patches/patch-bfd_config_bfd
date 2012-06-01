@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/avr/binutils/patches/patch-bfd_config_bfd,v 1.3 2010/06/27 20:58:10 ckuethe Exp $
+$OpenBSD$
 --- bfd/config.bfd.orig	Sat Jun 26 11:23:53 2010
 +++ bfd/config.bfd	Sat Jun 26 11:31:17 2010
 @@ -339,6 +339,7 @@ case "${targ}" in

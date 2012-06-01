@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/petite-chez/patches/patch-custom_Mf-ti3ob,v 1.2 2011/11/11 20:12:51 jasper Exp $
+$OpenBSD$
 
 Link with system zlib.
 

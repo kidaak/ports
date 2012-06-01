@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/kde/games3/pkg/PLIST,v 1.27 2011/12/03 23:34:04 ajacoutot Exp $
+@comment $OpenBSD$
 @bin bin/atlantik
 @bin bin/kasteroids
 @bin bin/katomic

@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/mutt/stable/pkg/SECURITY,v 1.2 2002/06/14 17:43:51 fgsch Exp $
+$OpenBSD$
 
 Note: in ${WRKDIR}/muttlib.c the function mutt_adv_mktemp
 uses mktemp(3), but the resulting name is used much later in

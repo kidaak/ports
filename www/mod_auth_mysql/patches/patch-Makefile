@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/mod_auth_mysql/patches/patch-Makefile,v 1.2 2008/03/25 23:23:15 simon Exp $
+$OpenBSD$
 --- Makefile.orig	Mon Sep 10 16:12:08 2001
 +++ Makefile	Fri Feb 15 16:14:36 2008
 @@ -3,7 +3,7 @@ APXSFLAGS =

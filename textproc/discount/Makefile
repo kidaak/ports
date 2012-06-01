@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/discount/Makefile,v 1.5 2010/11/20 19:56:48 espie Exp $
+# $OpenBSD$
 
 COMMENT =		fast C implementation of Markdown
 

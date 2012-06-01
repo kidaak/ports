@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/tremor/patches/patch-autogen_sh,v 1.1 2011/08/17 12:38:35 jasper Exp $
+$OpenBSD$
 --- autogen.sh.orig	Sat Jul 30 20:24:00 2011
 +++ autogen.sh	Sat Jul 30 20:24:38 2011
 @@ -98,11 +98,6 @@ if test "$DIE" -eq 1; then

@@ -1,9 +1,9 @@
-# $OpenBSD: ports/security/logsentry/Makefile,v 1.7 2011/05/11 08:24:41 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	logfile auditing tool
 
 DISTNAME=	logsentry-1.1.1
-REVISION =	3
+REVISION =	4
 CATEGORIES=	security
 
 MAINTAINER=	Srebrenko Sehic <haver@insecure.dk>

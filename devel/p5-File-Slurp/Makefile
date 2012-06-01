@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-File-Slurp/Makefile,v 1.8 2011/03/10 23:15:37 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	efficient reading/writing of complete files
 

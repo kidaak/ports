@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/makehuman/Makefile,v 1.14 2012/03/20 16:36:16 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	parametrical modeling of 3D humanoid characters
 

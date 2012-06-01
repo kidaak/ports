@@ -1,4 +1,4 @@
-$OpenBSD: ports/geo/emerillon/patches/patch-data_emerillon_pc_in,v 1.1 2010/09/30 07:33:38 jasper Exp $
+$OpenBSD$
 
 Fix dependency for champlain 0.8.
 

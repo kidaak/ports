@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/babl/Makefile,v 1.12 2011/12/10 09:12:19 ajacoutot Exp $
+# $OpenBSD$
 
 SHARED_ONLY=	Yes
 

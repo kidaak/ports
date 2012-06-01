@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/py-notify/patches/patch-src___init___py,v 1.1 2011/04/21 07:05:12 ajacoutot Exp $
+$OpenBSD$
 
 Fix with libnotify>=0.7
 (Patch from Fedora)

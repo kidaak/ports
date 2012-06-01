@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/ruby-prof/Makefile,v 1.5 2011/11/17 16:08:00 jeremy Exp $
+# $OpenBSD$
 
 COMMENT =	fast code profiler for Ruby
 

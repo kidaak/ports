@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/eclipse/sdk/patches/patch-plugins_org_eclipse_core_resources_build_xml,v 1.1 2006/07/07 01:48:55 kurt Exp $
+$OpenBSD$
 --- plugins/org.eclipse.core.resources/build.xml.orig	Wed Jun  7 00:04:03 2006
 +++ plugins/org.eclipse.core.resources/build.xml	Wed Jun  7 00:05:07 2006
 @@ -102,6 +102,10 @@

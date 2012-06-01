@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-configure,v 1.20 2011/10/07 14:04:18 ajacoutot Exp $
+$OpenBSD$
 --- configure.orig	Tue Sep 27 00:50:02 2011
 +++ configure	Fri Oct  7 14:44:39 2011
 @@ -22996,6 +22996,8 @@ cat confdefs.h - <<_ACEOF >conftest.$ac_ext

@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/zarafa/libvmime/pkg/PLIST,v 1.2 2011/06/02 12:45:43 ajacoutot Exp $
+@comment $OpenBSD$
 include/zarafa/
 include/zarafa/vmime/
 include/zarafa/vmime/address.hpp

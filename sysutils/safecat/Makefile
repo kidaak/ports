@@ -1,4 +1,4 @@
-# $OpenBSD: ports/sysutils/safecat/Makefile,v 1.18 2011/07/03 22:38:12 naddy Exp $
+# $OpenBSD$
 
 COMMENT=	copy stdin to a qmail-style maildir
 

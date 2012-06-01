@@ -1,4 +1,4 @@
-$OpenBSD: ports/audio/exaile/patches/patch-Makefile,v 1.4 2010/10/13 17:11:10 giovanni Exp $
+$OpenBSD$
 --- Makefile.orig	Sat Jun 26 01:21:23 2010
 +++ Makefile	Tue Oct 12 12:54:09 2010
 @@ -1,14 +1,14 @@

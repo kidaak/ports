@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/chromium/patches/patch-media_audio_openbsd_audio_manager_openbsd_cc,v 1.9 2012/04/03 13:59:35 robert Exp $
+$OpenBSD$
 --- media/audio/openbsd/audio_manager_openbsd.cc.orig	Sun Apr  1 22:50:49 2012
 +++ media/audio/openbsd/audio_manager_openbsd.cc	Sun Apr  1 22:56:04 2012
 @@ -51,20 +51,17 @@ AudioOutputStream* AudioManagerOpenBSD::MakeAudioOutpu

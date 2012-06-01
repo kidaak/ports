@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/audio/cmu-sphinx3/pkg/PLIST,v 1.1.1.1 2009/06/07 07:18:39 eric Exp $
+@comment $OpenBSD$
 %%SHARED%%
 bin/sphinx3-simple
 @bin bin/sphinx3_align

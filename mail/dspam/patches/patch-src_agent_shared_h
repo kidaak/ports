@@ -1,4 +1,4 @@
-$OpenBSD: ports/mail/dspam/patches/patch-src_agent_shared_h,v 1.1 2007/12/21 14:42:23 todd Exp $
+$OpenBSD$
 --- src/agent_shared.h.orig	Thu Dec 20 18:03:38 2007
 +++ src/agent_shared.h	Thu Dec 20 18:03:54 2007
 @@ -107,6 +107,8 @@ int initialize_atx      (AGENT_CTX *ATX);

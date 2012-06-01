@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/x11/gnome/media/pkg/PLIST,v 1.21 2012/03/29 07:07:28 ajacoutot Exp $
+@comment $OpenBSD$
 @pkgpath x11/gnome/media
 @pkgpath x11/gnome/media,-main
 @pkgpath x11/gnome/media,-glade3

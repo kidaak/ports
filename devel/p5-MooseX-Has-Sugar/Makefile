@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-MooseX-Has-Sugar/Makefile,v 1.5 2011/04/13 18:45:55 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		Sugar syntax for moose 'has' fields
 DISTNAME=		MooseX-Has-Sugar-0.05070419

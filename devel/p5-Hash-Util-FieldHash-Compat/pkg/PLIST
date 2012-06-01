@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/devel/p5-Hash-Util-FieldHash-Compat/pkg/PLIST,v 1.1.1.1 2009/05/12 23:33:06 simon Exp $
+@comment $OpenBSD$
 ${P5SITE}/Hash/
 ${P5SITE}/Hash/Util/
 ${P5SITE}/Hash/Util/FieldHash/

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/xdg-user-dirs/Makefile,v 1.12 2011/09/16 06:27:26 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	utilities to manage well known user directories
 

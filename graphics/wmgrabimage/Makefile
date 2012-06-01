@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/wmgrabimage/Makefile,v 1.22 2011/11/02 09:57:22 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; WWW image monitor
 

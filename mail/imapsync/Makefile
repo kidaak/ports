@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/imapsync/Makefile,v 1.11 2010/11/19 07:23:06 espie Exp $
+# $OpenBSD$
 
 COMMENT=	IMAP synchronization tool
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/graphics/gd/Makefile,v 1.55 2010/11/17 08:05:13 espie Exp $
+# $OpenBSD$
 
 COMMENT=	library for dynamic creation of images
 

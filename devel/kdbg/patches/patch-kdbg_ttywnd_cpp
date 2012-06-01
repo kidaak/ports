@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/kdbg/patches/patch-kdbg_ttywnd_cpp,v 1.2 2002/07/24 15:34:59 naddy Exp $
+$OpenBSD$
 --- kdbg/ttywnd.cpp.orig	Tue Jul 23 19:09:56 2002
 +++ kdbg/ttywnd.cpp	Tue Jul 23 19:10:36 2002
 @@ -32,6 +32,9 @@

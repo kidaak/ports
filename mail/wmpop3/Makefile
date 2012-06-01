@@ -1,4 +1,4 @@
-# $OpenBSD: ports/mail/wmpop3/Makefile,v 1.16 2010/11/19 07:23:09 espie Exp $
+# $OpenBSD$
 
 COMMENT=		wm-dockapp; POP3 mail check
 

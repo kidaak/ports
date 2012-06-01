@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfce4/xfce4-taskmanager/patches/patch-configure,v 1.1.1.1 2010/06/14 19:54:29 landry Exp $
+$OpenBSD$
 --- configure.orig	Mon Jun 14 20:58:43 2010
 +++ configure	Mon Jun 14 20:59:06 2010
 @@ -15568,7 +15568,7 @@ fi

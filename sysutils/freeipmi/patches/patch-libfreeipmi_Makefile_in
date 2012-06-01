@@ -1,4 +1,4 @@
-$OpenBSD: ports/sysutils/freeipmi/patches/patch-libfreeipmi_Makefile_in,v 1.1 2012/04/13 20:53:19 sthen Exp $
+$OpenBSD$
 --- libfreeipmi/Makefile.in.orig	Fri Apr 13 16:41:25 2012
 +++ libfreeipmi/Makefile.in	Fri Apr 13 16:43:37 2012
 @@ -196,7 +196,7 @@ CLEANFILES = 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/shells/zoidberg/Makefile,v 1.8 2010/12/03 11:46:47 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	modular perl shell
 CATEGORIES=	shells

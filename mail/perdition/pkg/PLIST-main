@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/mail/perdition/pkg/PLIST-main,v 1.3 2008/06/08 10:55:25 simon Exp $
+@comment $OpenBSD$
 @pkgpath mail/perdition
 @newgroup _perdition:573
 @newuser _perdition:573:573:daemon:Perdition proxy:/var/empty:/sbin/nologin

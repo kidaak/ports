@@ -1,4 +1,4 @@
-# $OpenBSD: ports/lang/scala/Makefile,v 1.5 2011/10/06 13:44:45 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	general purpose multi-paradigm programming language
 

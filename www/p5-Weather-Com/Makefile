@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/p5-Weather-Com/Makefile,v 1.7 2011/04/16 11:57:01 simon Exp $
+# $OpenBSD$
 
 COMMENT=	module to get weather information from weather.com
 

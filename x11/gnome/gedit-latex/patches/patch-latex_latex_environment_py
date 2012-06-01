@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gedit-latex/patches/patch-latex_latex_environment_py,v 1.2 2012/03/29 07:10:11 ajacoutot Exp $
+$OpenBSD$
 --- latex/latex/environment.py.orig	Tue Mar 13 12:24:53 2012
 +++ latex/latex/environment.py	Wed Mar 28 13:43:48 2012
 @@ -184,8 +184,8 @@ from ..file import File

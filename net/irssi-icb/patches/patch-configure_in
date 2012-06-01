@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/irssi-icb/patches/patch-configure_in,v 1.1 2010/06/11 13:56:33 dcoppa Exp $
+$OpenBSD$
 --- configure.in.orig	Sun Nov 24 14:17:32 2002
 +++ configure.in	Wed Jun  9 16:23:05 2010
 @@ -9,7 +9,6 @@ AC_ISC_POSIX

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/emulators/snes9x/Makefile,v 1.23 2011/12/03 19:49:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	emulates the Super Nintendo Entertainment System
 

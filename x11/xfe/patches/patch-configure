@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/xfe/patches/patch-configure,v 1.7 2010/10/24 19:55:46 stephan Exp $
+$OpenBSD$
 --- configure.orig	Wed Sep 15 16:42:49 2010
 +++ configure	Thu Oct  7 14:50:32 2010
 @@ -5464,7 +5464,7 @@ elif test $ac_cv_prog_cxx_g = yes; then

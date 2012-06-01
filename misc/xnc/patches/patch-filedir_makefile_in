@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/xnc/patches/patch-filedir_makefile_in,v 1.1 2001/07/13 14:03:22 reinhard Exp $
+$OpenBSD$
 --- filedir/makefile.in.orig	Tue Apr 17 10:45:25 2001
 +++ filedir/makefile.in	Wed Jul 11 18:29:32 2001
 @@ -34,7 +34,7 @@ include ../make.conf

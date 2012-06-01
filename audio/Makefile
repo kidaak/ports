@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/Makefile,v 1.275 2012/03/27 19:46:10 ratchov Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.40 1997/11/16 22:49:20 fenner Exp $
 
      SUBDIR =
@@ -24,9 +24,9 @@
      SUBDIR += celt
      SUBDIR += cmixer
      SUBDIR += cmt
-     SUBDIR += cmus
      SUBDIR += cmu-sphinx3
      SUBDIR += cmu-sphinxbase
+     SUBDIR += cmus
      SUBDIR += cplay
      SUBDIR += daapd
      SUBDIR += disc-cover
@@ -78,7 +78,6 @@
      SUBDIR += libmikmod
      SUBDIR += libmodplug
      SUBDIR += libmp3splt
-     SUBDIR += libmpcdec
      SUBDIR += libmpd
      SUBDIR += libmpdclient
      SUBDIR += libmusicbrainz
@@ -119,9 +118,9 @@
      SUBDIR += mpegaudio
      SUBDIR += mpg123
      SUBDIR += mpg321
-     SUBDIR += mppenc
      SUBDIR += mt-daapd
      SUBDIR += multimux
+     SUBDIR += musepack
      SUBDIR += nap
      SUBDIR += ncmpc
      SUBDIR += ncmpcpp
@@ -161,8 +160,8 @@
      SUBDIR += pms
      SUBDIR += portaudio-svn
      SUBDIR += pulseaudio
-     SUBDIR += py-audio
      SUBDIR += py-ao
+     SUBDIR += py-audio
      SUBDIR += py-cddb
      SUBDIR += py-eyed3
      SUBDIR += py-id3
@@ -187,6 +186,7 @@
      SUBDIR += ruby-vorbis_comment,ruby19
      SUBDIR += scmpc
      SUBDIR += shell-fm
+     SUBDIR += shntool
      SUBDIR += shorten
      SUBDIR += sidplay
      SUBDIR += snack

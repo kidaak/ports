@@ -1,4 +1,4 @@
-$OpenBSD: ports/emulators/mupen64plus/input-sdl/pkg/README,v 1.1.1.1 2011/12/26 13:38:27 stsp Exp $
+$OpenBSD$
 
 +-----------------------------------------------------------------------
 | Running ${FULLPKGNAME} on OpenBSD

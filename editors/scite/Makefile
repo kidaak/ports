@@ -1,4 +1,4 @@
-# $OpenBSD: ports/editors/scite/Makefile,v 1.22 2011/11/15 19:17:09 jeremy Exp $
+# $OpenBSD$
 
 COMMENT=		flexible and small GTK+ editor
 

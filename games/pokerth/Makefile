@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/pokerth/Makefile,v 1.20 2012/03/29 13:38:30 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	Qt4 poker game with online capabilities
 

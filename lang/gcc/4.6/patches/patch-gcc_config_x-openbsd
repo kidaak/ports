@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-gcc_config_x-openbsd,v 1.2 2011/11/20 11:10:36 pascal Exp $
+$OpenBSD$
 --- gcc/config/x-openbsd.orig	Sun Nov 20 02:06:19 2011
 +++ gcc/config/x-openbsd	Sun Nov 20 02:07:24 2011
 @@ -0,0 +1,4 @@

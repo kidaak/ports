@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pork/Makefile,v 1.16 2007/09/15 22:36:58 merdely Exp $
+# $OpenBSD$
 
 COMMENT=	programmable ncurses-based AIM client
 DISTNAME=	pork-0.99.8.1

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/print/lout/Makefile,v 1.9 2011/05/11 07:45:53 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT-main= 	object oriented type setting language
 COMMENT-doc=	Lout user and expert documentation

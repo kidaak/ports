@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/snownews/patches/patch-configure,v 1.3 2009/09/18 20:51:35 martynas Exp $
+$OpenBSD$
 --- configure.orig	Thu Sep 17 09:44:27 2009
 +++ configure	Thu Sep 17 11:10:45 2009
 @@ -12,7 +12,7 @@ my $xmlldflags = `xml2-config --libs`;

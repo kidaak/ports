@@ -1,3 +1,3 @@
-@comment $OpenBSD: ports/www/sqtop/pkg/PLIST,v 1.1.1.1 2012/02/20 16:03:01 sthen Exp $
+@comment $OpenBSD$
 @bin bin/sqtop
 @man man/man1/sqtop.1

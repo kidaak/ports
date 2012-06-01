@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/p5-Package-Stash-XS/Makefile,v 1.2 2012/04/06 10:01:51 sthen Exp $
+# $OpenBSD$
 
 COMMENT =	faster and more correct implementation of Package::Stash
 SHARED_ONLY =	Yes

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/weblint/Makefile,v 1.16 2010/11/11 12:35:19 sthen Exp $
+# $OpenBSD$
 
 COMMENT=	perl lint program for html
 

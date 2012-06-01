@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/rubinius/patches/patch-lib_zlib_rb_ffi,v 1.1 2011/01/21 16:36:53 jeremy Exp $
+$OpenBSD$
 
 OpenBSD uses off_t instead of unsigned long for the total_in and
 total_out struct members, so it works on files >4GB.  Rubinius has

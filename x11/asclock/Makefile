@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/asclock/Makefile,v 1.20 2010/10/24 21:15:31 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	afterstep clock with some language extensions
 

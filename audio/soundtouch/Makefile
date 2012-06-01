@@ -1,4 +1,4 @@
-# $OpenBSD: ports/audio/soundtouch/Makefile,v 1.9 2011/08/21 14:37:53 jasper Exp $
+# $OpenBSD$
 
 COMMENT=	tempo/pitch audio processing library
 

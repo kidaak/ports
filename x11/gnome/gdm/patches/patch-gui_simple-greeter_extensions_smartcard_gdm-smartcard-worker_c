@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gnome/gdm/patches/patch-gui_simple-greeter_extensions_smartcard_gdm-smartcard-worker_c,v 1.1 2011/10/07 14:04:18 ajacoutot Exp $
+$OpenBSD$
 --- gui/simple-greeter/extensions/smartcard/gdm-smartcard-worker.c.orig	Fri Oct  7 14:59:08 2011
 +++ gui/simple-greeter/extensions/smartcard/gdm-smartcard-worker.c	Fri Oct  7 14:59:20 2011
 @@ -2,7 +2,9 @@

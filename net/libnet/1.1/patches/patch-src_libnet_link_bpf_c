@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/libnet/1.1/patches/patch-src_libnet_link_bpf_c,v 1.1 2008/11/08 22:17:41 sthen Exp $
+$OpenBSD$
 --- src/libnet_link_bpf.c.orig	Sat Nov  8 21:55:03 2008
 +++ src/libnet_link_bpf.c	Sat Nov  8 21:56:56 2008
 @@ -43,6 +43,7 @@

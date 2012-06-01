@@ -1,4 +1,4 @@
-# $OpenBSD: ports/net/pear-HTTP/Makefile,v 1.11 2011/09/16 11:13:39 espie Exp $
+# $OpenBSD$
 
 COMMENT=	miscellaneous HTTP utilities for PHP
 

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/libtalloc/Makefile,v 1.1.1.1 2010/04/26 17:23:25 sthen Exp $
+# $OpenBSD$
 
 SHARED_LIBS=	talloc 0.0	# .2.0
 

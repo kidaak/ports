@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/pwsafe/Makefile,v 1.11 2012/01/17 15:34:50 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=		program that manages encrypted password databases
 DISTNAME=		pwsafe-0.2.0

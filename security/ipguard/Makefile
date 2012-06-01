@@ -1,4 +1,4 @@
-# $OpenBSD: ports/security/ipguard/Makefile,v 1.11 2012/03/30 07:24:45 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT =	protect LAN IP address space by ARP spoofing
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/bwidget/patches/patch-tests_entry_test,v 1.1 2009/10/13 01:35:06 sthen Exp $
+$OpenBSD$
 --- tests/entry.test.orig	Mon Feb 28 13:06:41 2000
 +++ tests/entry.test	Mon Oct 12 10:30:58 2009
 @@ -1,7 +1,5 @@

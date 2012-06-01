@@ -1,4 +1,4 @@
-$OpenBSD: ports/net/p5-Net-NTP/patches/patch-t_1_t,v 1.2 2011/07/19 20:03:26 gsoares Exp $
+$OpenBSD$
 
 do regress tests.
 

@@ -1,4 +1,4 @@
-$OpenBSD: ports/misc/rpm/patches/patch-rpm2cpio_c,v 1.1 2001/08/28 19:55:30 naddy Exp $
+$OpenBSD$
 --- rpm2cpio.c.orig	Tue Aug 14 17:17:09 2001
 +++ rpm2cpio.c	Tue Aug 14 17:17:42 2001
 @@ -55,7 +55,7 @@ int main(int argc, char **argv)

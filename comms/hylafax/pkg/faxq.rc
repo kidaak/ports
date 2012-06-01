@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $OpenBSD: ports/comms/hylafax/pkg/faxq.rc,v 1.1 2011/05/24 16:24:35 giovanni Exp $
+# $OpenBSD$
 
 daemon="${TRUEPREFIX}/sbin/faxq"
 

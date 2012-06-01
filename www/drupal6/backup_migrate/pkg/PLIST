@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/www/drupal6/backup_migrate/pkg/PLIST,v 1.4 2011/01/08 12:54:52 stephan Exp $
+@comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
 ${DRUPAL_ROOT}/files/backup_migrate/

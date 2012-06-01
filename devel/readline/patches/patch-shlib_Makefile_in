@@ -1,4 +1,4 @@
-$OpenBSD: ports/devel/readline/patches/patch-shlib_Makefile_in,v 1.1.1.1 2010/07/23 14:51:11 laurent Exp $
+$OpenBSD$
 --- shlib/Makefile.in.orig	Tue Jul 13 11:58:49 2010
 +++ shlib/Makefile.in	Tue Jul 13 12:00:00 2010
 @@ -118,8 +118,8 @@ CCFLAGS = $(DEFS) $(LOCAL_DEFS) $(CPPFLAGS) $(INCLUDES

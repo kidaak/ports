@@ -1,4 +1,4 @@
-# $OpenBSD: ports/games/xteddy/Makefile,v 1.25 2010/11/16 11:23:29 espie Exp $
+# $OpenBSD$
 
 COMMENT=	cuddlesome teddy for the X11 desktop
 

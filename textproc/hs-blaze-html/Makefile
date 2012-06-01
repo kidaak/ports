@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/hs-blaze-html/Makefile,v 1.1.1.1 2011/09/24 19:04:12 kili Exp $
+# $OpenBSD$
 
 COMMENT=		fast HTML combinator library
 

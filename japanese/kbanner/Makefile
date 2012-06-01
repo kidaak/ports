@@ -1,4 +1,4 @@
-# $OpenBSD: ports/japanese/kbanner/Makefile,v 1.10 2010/10/18 18:13:15 espie Exp $
+# $OpenBSD$
 
 COMMENT=	display kanji files in large letters
 

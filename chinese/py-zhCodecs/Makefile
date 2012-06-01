@@ -1,4 +1,4 @@
-# $OpenBSD: ports/chinese/py-zhCodecs/Makefile,v 1.17 2011/10/21 16:23:45 espie Exp $
+# $OpenBSD$
 
 COMMENT=	Python Unicode codecs for Chinese charsets
 

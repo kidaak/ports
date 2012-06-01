@@ -1,4 +1,4 @@
-$OpenBSD: ports/www/polipo/patches/patch-forbidden_c,v 1.1 2009/03/24 16:49:08 naddy Exp $
+$OpenBSD$
 --- forbidden.c.orig	Tue Mar 24 09:43:44 2009
 +++ forbidden.c	Tue Mar 24 09:44:02 2009
 @@ -190,6 +190,7 @@ parseDomainFile(AtomPtr file,

@@ -1,4 +1,4 @@
-# $OpenBSD: ports/devel/pango/Makefile,v 1.63 2012/04/05 11:39:19 jasper Exp $
+# $OpenBSD$
 
 COMMENT=		library for layout and rendering of text
 

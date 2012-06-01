@@ -1,4 +1,4 @@
-$OpenBSD: ports/security/cfs/patches/patch-netbsd_make_with_bad_rpcgen,v 1.1 2004/06/15 18:32:22 sturm Exp $
+$OpenBSD$
 --- netbsd_make_with_bad_rpcgen.orig	2004-06-09 19:47:08.000000000 +0200
 +++ netbsd_make_with_bad_rpcgen	2004-06-09 19:47:36.000000000 +0200
 @@ -1,7 +1,7 @@

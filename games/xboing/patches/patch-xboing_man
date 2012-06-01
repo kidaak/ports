@@ -1,4 +1,4 @@
-$OpenBSD: ports/games/xboing/patches/patch-xboing_man,v 1.1 2010/01/04 11:21:21 sthen Exp $
+$OpenBSD$
 --- xboing.man.orig	Sun Jan  3 11:09:12 2010
 +++ xboing.man	Sun Jan  3 11:10:26 2010
 @@ -45,7 +45,7 @@

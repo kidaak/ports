@@ -1,2 +1,2 @@
-@comment $OpenBSD: ports/lang/gcc/4.7/pkg/PFRAG.shared-estdc,v 1.1.1.1 2012/04/23 15:56:42 pascal Exp $
+@comment $OpenBSD$
 @lib lib/libestdc++.so.${LIBestdc++_VERSION}

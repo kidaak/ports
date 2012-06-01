@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/matchbox/libmatchbox/patches/patch-libmb_mbpixbuf_c,v 1.1 2011/07/08 20:38:01 naddy Exp $
+$OpenBSD$
 
 Fix build with png-1.5.
 

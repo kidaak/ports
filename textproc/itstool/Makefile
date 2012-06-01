@@ -1,4 +1,4 @@
-# $OpenBSD: ports/textproc/itstool/Makefile,v 1.2 2012/03/22 09:35:27 ajacoutot Exp $
+# $OpenBSD$
 
 COMMENT=	translate XML documents with PO files
 

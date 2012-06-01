@@ -1,4 +1,4 @@
-@comment $OpenBSD: ports/net/pear-Services-oEmbed/pkg/PLIST,v 1.1.1.1 2009/11/18 19:13:04 jasper Exp $
+@comment $OpenBSD$
 @group daemon
 pear/lib/.registry/services_oembed.reg
 pear/lib/Services/

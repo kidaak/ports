@@ -1,4 +1,4 @@
-# $OpenBSD: ports/x11/viewfax/Makefile,v 1.24 2010/10/24 21:15:35 ajacoutot Exp $
+# $OpenBSD$
 # $FreeBSD: Makefile,v 1.9 1998/03/07 23:26:23 jmz Exp $
 
 COMMENT=	display files containing g3 and/or g4 coded fax pages

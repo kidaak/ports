@@ -1,4 +1,4 @@
-# $OpenBSD: ports/www/awl/Makefile,v 1.2 2012/03/05 18:19:55 landry Exp $
+# $OpenBSD$
 
 COMMENT =	Andrew's web libraries for PHP
 

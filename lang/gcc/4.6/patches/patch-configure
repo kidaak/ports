@@ -1,4 +1,4 @@
-$OpenBSD: ports/lang/gcc/4.6/patches/patch-configure,v 1.4 2012/04/08 12:40:51 pascal Exp $
+$OpenBSD$
 --- configure.orig	Sun Dec 18 11:03:44 2011
 +++ configure	Sun Apr  8 14:36:19 2012
 @@ -2698,8 +2698,7 @@ host_libs="intl mmalloc libiberty opcodes bfd readline

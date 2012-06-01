@@ -1,4 +1,4 @@
-$OpenBSD: ports/x11/gbdfed/patches/patch-Makefile_in,v 1.5 2010/09/30 07:23:47 ajacoutot Exp $
+$OpenBSD$
 
 XXX make it compile with gtk+2 2.22 (*_DISABLE_DEPRECATED)
 gectrl.c:639: warning: implicit declaration of function 'gdk_gc_set_clip_rectangle'

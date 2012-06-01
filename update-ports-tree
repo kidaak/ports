@@ -1,0 +1,25 @@
+#!/bin/sh
+
+set -e
+
+if [ -n "$UPDATE_BASE_BRANCH_RUNNING" ] && \
+   [ -n "$CHANGELOG" ]; then
+	echo "Sync with OpenBSD repository." > "$CHANGELOG"
+fi
+
+cmd="$(update-base-branch --wrapper -b upstream)"
+eval "$cmd"
+
+working_tree="$(dirname "$0")"
+cvs_tree="$working_tree/.upstream-cvs"
+cvs_root=anoncvs@ftp5.eu.openbsd.org:/cvs
+
+if [ ! -d "$cvs_tree/ports" ]; then
+	echo "Checking out CVS shadow tree from $cvs_root"
+	(cd "$cvs_tree" && CVS_RSH=ssh cvs -qd"$cvs_root" co -P -kk ports)
+else
+	echo "Updating CVS shadow tree from $cvs_root"
+	(cd "$cvs_tree/ports" && CVS_RSH=ssh cvs -qd"$cvs_root" up -Pd -kk)
+fi
+echo "Running rsync"
+rsync -a --exclude CVS "$cvs_tree/ports"/ ./

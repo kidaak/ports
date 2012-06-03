@@ -31,8 +31,6 @@ MPC_VERSION=0.9
 MPC_URL=http://www.multiprecision.org/mpc/download/mpc-$MPC_VERSION.tar.gz
 GCC_VERSION=4.7.0
 GCC_URL=http://ftp.nluug.nl/languages/gcc/releases/gcc-$GCC_VERSION/gcc-$GCC_VERSION.tar.bz2
-#PCC_VERSION=1.0.0
-#PCC_LIBS_VERSION=$PCC_VERSION
 LINUX_VERSION=3.3.5
 LINUX_URL=http://kernel.org/pub/linux/kernel/v3.0/linux-$LINUX_VERSION.tar.bz2
 UCLIBC_VERSION=0.9.33.1
@@ -148,23 +146,6 @@ if [ ! -f .gcc_done ]; then
 	"$MAKE" install
 	build_done gcc
 fi
-
-#if [ ! -f .pcc_done ]; then
-#	LDFLAGS=-static
-#	rm -rf "pcc-$PCC_VERSION"
-#	tar zxf "$PORTSDIR/distfiles/pcc-$PCC_VERSION.tgz"
-#	cd "pcc-$PCC_VERSION"
-#	patch -b -p0 -i "$PORTSDIR/bootstrap/patches/pcc-1"
-#	LDFLAGS="$LDFLAGS" ./configure --prefix="$DSTDIR"
-#	"$MAKE" all install
-#	cd "$WRKDIR"
-#	tar zxf "$PORTSDIR/distfiles/pcc-libs-${PCC_LIBS_VERSION}.tgz"
-#	cd "pcc-libs-${PCC_LIBS_VERSION}"
-#	CC="$CC" LDFLAGS="$LDFLAGS" ./configure --prefix="$DSTDIR"
-#	CC="$CC" "$MAKE" all install
-#	cd "$WRKDIR"
-#	touch .pcc_done
-#fi
 
 if [ ! -f .linux_done ]; then
 	clean "linux-$LINUX_VERSION"

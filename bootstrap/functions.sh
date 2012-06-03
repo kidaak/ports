@@ -50,7 +50,7 @@ clean()
 	for i in "$@"; do
 		test -d "$WRKDIR/$i" && \
 			mv -f "$WRKDIR/$i" "$WRKDIR/.removing_$i" && \
-			rm -rf "$WRKDIR/.removing_$i" &
+			( rm -rf "$WRKDIR/.removing_$i" & )
 	done
 }
 

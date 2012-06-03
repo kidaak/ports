@@ -1,0 +1,192 @@
+#!/bin/sh
+
+# XXX
+# x can be removed
+set -eux
+set +h
+
+# GNU make required
+MAKE=gmake
+CC=gcc
+
+BASE=$(cd -- "$(dirname -- "$0")"; pwd)
+
+FETCH_CMD="wget -c"
+DESTDIR=/buildroot
+PREFIX=/tools
+PORTSDIR=$(dirname $BASE)
+DISTDIR=$PORTSDIR/distfiles
+WRKDIR="${PORTSDIR}/pobj/bootstrap"
+
+TARGET=`uname -m`-unknown-linux-gnu
+export PATH=/tools/bin:/bin:/usr/bin
+
+BINUTILS_VERSION=2.22
+BINUTILS_URL=http://ftp.gnu.org/gnu/binutils/binutils-$BINUTILS_VERSION.tar.gz
+MPFR_VERSION=3.1.0
+MPFR_URL=http://www.mpfr.org/mpfr-$MPFR_VERSION/mpfr-$MPFR_VERSION.tar.gz
+GMP_VERSION=5.0.2
+GMP_URL=ftp://ftp.gmplib.org/pub/gmp-$GMP_VERSION/gmp-$GMP_VERSION.tar.gz
+MPC_VERSION=0.9
+MPC_URL=http://www.multiprecision.org/mpc/download/mpc-$MPC_VERSION.tar.gz
+GCC_VERSION=4.7.0
+GCC_URL=http://ftp.nluug.nl/languages/gcc/releases/gcc-$GCC_VERSION/gcc-$GCC_VERSION.tar.bz2
+#PCC_VERSION=1.0.0
+#PCC_LIBS_VERSION=$PCC_VERSION
+LINUX_VERSION=3.3.5
+LINUX_URL=http://kernel.org/pub/linux/kernel/v3.0/linux-$LINUX_VERSION.tar.bz2
+UCLIBC_VERSION=0.9.33.1
+UCLIBC_URL=http://www.uclibc.org/downloads/uClibc-$UCLIBC_VERSION.tar.xz
+
+# Pick up functions
+. ./functions.sh
+
+mkdir -p "$WRKDIR"
+cd "$WRKDIR"
+
+if [ ! -f .binutils_done ]; then
+#	LDFLAGS=-all-static
+#		--disable-shared \
+	clean "binutils-$BINUTILS_VERSION" binutils-build
+	extract_distfile "$BINUTILS_URL"
+	apply_patch binutils
+	mkdir binutils-build
+	cd binutils-build
+	"../binutils-$BINUTILS_VERSION/configure"	\
+		--with-sysroot="$DESTDIR"		\
+		--with-lib-path="$PREFIX/lib"		\
+		--prefix="$PREFIX"			\
+		--target="$TARGET"			\
+		--disable-werror			\
+		--disable-nls
+	"$MAKE"
+	case $(uname -m) in
+		x86_64) mkdir -p "$PREFIX/lib" && ln -sv lib "$PREFIX/lib64" ;;
+	esac
+	"$MAKE" install
+	build_done binutils
+fi
+
+if [ ! -f .gcc_done ]; then
+	clean "gcc-$GCC_VERSION" gcc-build
+	extract_distfile "gcc;$GCC_URL"
+	cd "gcc-$GCC_VERSION"
+	extract_distfile \
+		"mpfr-$MPFR_VERSION;$MPFR_URL" \
+		"$GMP_URL" \
+		"$MPC_URL"
+	mv "mpfr-$MPFR_VERSION" mpfr
+	mv "gmp-$GMP_VERSION" gmp
+	mv "mpc-$MPC_VERSION" mpc
+	for file in $(find gcc/config -name linux64.h -o -name linux.h -o -name sysv4.h); do
+		cp -uv "$file" "$file.orig"
+		sed -e 's@/lib\(64\)\?\(32\)\?/ld@/tools&@g' \
+			-e 's@/usr@/tools@g' "$file.orig" > "$file"
+		printf '\n\n/* Added by Obscure Linux bootstrap script */\n' >> "$file"
+		printf '#undef STANDARD_STARTFILE_PREFIX_1\n' >> "$file"
+		printf '#undef STANDARD_STARTFILE_PREFIX_2\n' >> "$file"
+		printf '#define STANDARD_STARTFILE_PREFIX_1 "%s/lib/"\n' "$PREFIX" >> "$file"
+		printf '#define STANDARD_STARTFILE_PREFIX_2 ""\n' >> "$file"
+		# XXX Is this needed?
+		touch "$file.orig"
+	done
+
+	mkdir -v ../gcc-build
+	cd ../gcc-build
+
+#       /home/iku/temp/buildroot-2012.05-rc1/output/toolchain/gcc-4.5.3/configure  \
+#        --prefix=/home/iku/temp/buildroot-2012.05-rc1/output/host/usr \
+#        --build=x86_64-unknown-linux-gnu \
+#        --host=x86_64-unknown-linux-gnu \
+#        --target=x86_64-unknown-linux-uclibc \
+#        --enable-languages=c \
+#        --with-sysroot=/home/iku/temp/buildroot-2012.05-rc1/output/toolchain/uClibc_dev/ \
+#        --disable-__cxa_atexit \
+#        --enable-target-optspace \
+#        --disable-libquadmath \
+#        --disable-libgomp \
+#        --with-gnu-ld \
+#        --disable-shared \
+#        --disable-libssp \
+#        --without-headers \
+#        --with-newlib \
+#        --disable-multilib \
+#        --enable-tls \
+#        --with-gmp=/home/iku/temp/buildroot-2012.05-rc1/output/host/usr \
+#        --with-mpfr=/home/iku/temp/buildroot-2012.05-rc1/output/host/usr \
+#        --with-mpc=/home/iku/temp/buildroot-2012.05-rc1/output/host/usr \
+#        --disable-nls \
+#        --enable-threads \
+#        --disable-decimal-float \
+#         \
+#          --with-tune="generic"  \
+#        --with-pkgversion="Buildroot 2012.05-rc1" --with-bugurl="http://bugs.buildroot.net/"  \
+
+	"../gcc-$GCC_VERSION/configure"		\
+		--build="$TARGET"		\
+		--host="$TARGET"		\
+		--target="$TARGET"		\
+		--prefix="$PREFIX"		\
+		--disable-nls			\
+		--disable-shared		\
+		--disable-multilib		\
+		--disable-decimal-float		\
+		--disable-threads		\
+		--disable-libmudflap		\
+		--disable-libssp		\
+		--disable-libgomp		\
+		--disable-libquadmath		\
+		--enable-languages=c		\
+		--with-sysroot="$DESTDIR"	\
+		--with-newlib			\
+		--without-headers		\
+		--with-local-prefix="$PREFIX"	\
+		--with-native-system-header-dir="$PREFIX/include" \
+		--with-mpfr-include="$(pwd)/../gcc-$GCC_VERSION/mpfr/src" \
+		--with-mpfr-lib=$(pwd)/mpfr/src/.libs
+	"$MAKE"
+	"$MAKE" install
+	build_done gcc
+fi
+
+#if [ ! -f .pcc_done ]; then
+#	LDFLAGS=-static
+#	rm -rf "pcc-$PCC_VERSION"
+#	tar zxf "$PORTSDIR/distfiles/pcc-$PCC_VERSION.tgz"
+#	cd "pcc-$PCC_VERSION"
+#	patch -b -p0 -i "$PORTSDIR/bootstrap/patches/pcc-1"
+#	LDFLAGS="$LDFLAGS" ./configure --prefix="$DSTDIR"
+#	"$MAKE" all install
+#	cd "$WRKDIR"
+#	tar zxf "$PORTSDIR/distfiles/pcc-libs-${PCC_LIBS_VERSION}.tgz"
+#	cd "pcc-libs-${PCC_LIBS_VERSION}"
+#	CC="$CC" LDFLAGS="$LDFLAGS" ./configure --prefix="$DSTDIR"
+#	CC="$CC" "$MAKE" all install
+#	cd "$WRKDIR"
+#	touch .pcc_done
+#fi
+
+if [ ! -f .linux_done ]; then
+	clean "linux-$LINUX_VERSION"
+	extract_distfile "$LINUX_URL"
+	cd "linux-$LINUX_VERSION"
+	"$MAKE" headers_check
+	"$MAKE" INSTALL_HDR_PATH=dest headers_install
+	cp -rv dest/include/* "$DSTDIR/include"
+	build_done linux
+fi
+
+if [ ! -f .uclibc_done ]; then
+	clean "uClibc-$UCLIBC_VERSION"
+	extract_distfile "$UCLIBC_URL"
+	cd "uClibc-$UCLIBC_VERSION"
+	"$MAKE" defconfig
+	"$MAKE" \
+		PREFIX="" \
+		DEVEL_PREFIX="${DSTDIR}/" \
+		RUNTIME_PREFIX="${DSTDIR}/" \
+		MULTILIB_DIR=lib/ \
+		MAKE_IS_SILENT=n SECHO=@echo VERBOSE=1 \
+		all utils install install_utils
+	build_done uclibc
+fi

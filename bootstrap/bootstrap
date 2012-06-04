@@ -155,6 +155,7 @@ if [ ! -f .gcc_done ]; then
 		--target="$TARGET"		\
 		--prefix="$PREFIX"		\
 		--disable-nls			\
+		--disable-shared		\
 		--disable-multilib		\
 		--disable-decimal-float		\
 		--disable-threads		\
@@ -166,12 +167,9 @@ if [ ! -f .gcc_done ]; then
 		--without-ppl			\
 		--without-cloog			\
 		--with-sysroot="$DESTDIR"	\
-		--with-newlib="$PREFIX"		\
+		--with-newlib			\
 		--without-headers		\
 		--with-local-prefix="$PREFIX"	\
-		--with-gmp="$PREFIX"		\
-		--with-mpfr="$PREFIX"		\
-		--with-mpc="$PREFIX"		\
 		--with-native-system-header-dir="$PREFIX/include"
 	$MAKE
 	$MAKE install

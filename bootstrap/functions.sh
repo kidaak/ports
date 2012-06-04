@@ -56,7 +56,7 @@ clean()
 
 apply_patch()
 {
-	for i in "$PORTSDIR/bootstrap/patches/"binutils-*; do
+	for i in "$PORTSDIR/bootstrap/patches/$1"-*; do
 		(cd "$WRKDIR" && patch -b -p0 -i "$i")
 	done
 }

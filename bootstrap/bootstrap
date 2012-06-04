@@ -36,7 +36,7 @@ PORTSDIR=$(dirname $BASE)
 DISTDIR=$PORTSDIR/distfiles
 WRKDIR="${PORTSDIR}/pobj/bootstrap"
 
-TARGET=`uname -m`-unknown-linux-gnu
+TARGET=`uname -m`-obscure-linux-gnu
 PATH=/tools/bin:/bin:/usr/bin:/usr/local/bin
 
 BINUTILS_VERSION=2.22
@@ -59,12 +59,12 @@ export PATH CC
 # Pick up functions
 . ./functions.sh
 
-mkdir -p "$WRKDIR"
+mkdir -p "$WRKDIR" "$DESTDIR/tools"
+ln -fs "$DESTDIR/tools" /
+
 cd "$WRKDIR"
 
 if [ ! -f .binutils_done ]; then
-#	LDFLAGS=-all-static
-#		--disable-shared \
 	clean "binutils-$BINUTILS_VERSION" binutils-build
 	extract_distfile "$BINUTILS_URL"
 	apply_patch binutils
@@ -77,76 +77,84 @@ if [ ! -f .binutils_done ]; then
 		--target="$TARGET"			\
 		--disable-werror			\
 		--disable-nls
-	"$MAKE"
+	$MAKE
 	case $(uname -m) in
 		x86_64) mkdir -p "$PREFIX/lib" && ln -sv lib "$PREFIX/lib64" ;;
 	esac
-	"$MAKE" install
+	$MAKE install
 	build_done binutils
+	rm -rf binutils-build
+fi
+
+if [ ! -f .gmp_done ]; then
+	clean "gmp-$GMP_VERSION" gmp-build
+	extract_distfile "$GMP_URL"
+	mkdir gmp-build
+	cd gmp-build
+	"../gmp-$GMP_VERSION/configure" \
+		--prefix="$PREFIX"
+	$MAKE
+	$MAKE install
+	build_done gmp
+fi
+
+if [ ! -f .mpfr_done ]; then
+	clean "mpfr-$MPFR_VERSION" mpfr-build
+	extract_distfile "mpfr-$MPFR_VERSION;$MPFR_URL"
+	mkdir mpfr-build
+	cd mpfr-build
+	"../mpfr-$MPFR_VERSION/configure"	\
+		--prefix="$PREFIX"		\
+		--with-gmp="$PREFIX"
+	$MAKE
+	$MAKE install
+	build_done mpfr
+fi
+
+if [ ! -f .mpc_done ]; then
+	clean "mpc-$MPC_VERSION" mpc-build
+	extract_distfile "$MPC_URL"
+	mkdir mpc-build
+	cd mpc-build
+	"../mpc-$MPC_VERSION/configure"	\
+		--prefix="$PREFIX"	\
+		--with-gmp="$PREFIX"	\
+		--with-mpfr="$PREFIX"
+	$MAKE
+	$MAKE install
+	build_done mpc
 fi
 
 if [ ! -f .gcc_done ]; then
-	clean "gcc-$GCC_VERSION" gcc-build
-	extract_distfile "gcc;$GCC_URL"
-	cd "gcc-$GCC_VERSION"
-	extract_distfile \
-		"mpfr-$MPFR_VERSION;$MPFR_URL" \
-		"$GMP_URL" \
-		"$MPC_URL"
-	mv "mpfr-$MPFR_VERSION" mpfr
-	mv "gmp-$GMP_VERSION" gmp
-	mv "mpc-$MPC_VERSION" mpc
-	for file in $(find gcc/config -name linux64.h -o -name linux.h -o -name sysv4.h); do
-		cp -uv "$file" "$file.orig"
-		sed -e 's@/lib\(64\)\?\(32\)\?/ld@/tools&@g' \
-			-e 's@/usr@/tools@g' "$file.orig" > "$file"
-		printf '\n\n/* Added by Obscure Linux bootstrap script */\n' >> "$file"
-		printf '#undef STANDARD_STARTFILE_PREFIX_1\n' >> "$file"
-		printf '#undef STANDARD_STARTFILE_PREFIX_2\n' >> "$file"
-		printf '#define STANDARD_STARTFILE_PREFIX_1 "%s/lib/"\n' "$PREFIX" >> "$file"
-		printf '#define STANDARD_STARTFILE_PREFIX_2 ""\n' >> "$file"
-		# XXX Is this needed?
-		touch "$file.orig"
-	done
+	# If gcc-build exists that means we have a working gcc source directory
+	# in that case just wipe out the build.
+	# This saves at least 2-3 minutes on another run of
+	# gcc after a failed build.
+	if [ -d "gcc-build" -a -d "gcc-$GCC_VERSION" ]; then
+		clean gcc-build
+	else
+		clean "gcc-$GCC_VERSION" gcc-build
+		extract_distfile "gcc;$GCC_URL"
+		for file in $(find "gcc-$GCC_VERSION/gcc/config" -name linux64.h -o -name linux.h -o -name sysv4.h); do
+			cp -uv "$file" "$file.orig"
+			sed -e 's@/lib\(64\)\?\(32\)\?/ld@/tools&@g' \
+				-e 's@/usr@/tools@g' "$file.orig" > "$file"
+			printf '\n\n/* Added by Obscure Linux bootstrap script */\n' >> "$file"
+			printf '#undef STANDARD_STARTFILE_PREFIX_1\n' >> "$file"
+			printf '#undef STANDARD_STARTFILE_PREFIX_2\n' >> "$file"
+			printf '#define STANDARD_STARTFILE_PREFIX_1 "%s/lib/"\n' "$PREFIX" >> "$file"
+			printf '#define STANDARD_STARTFILE_PREFIX_2 ""\n' >> "$file"
+			touch "$file.orig"
+		done
+	fi
 
-	mkdir -v ../gcc-build
-	cd ../gcc-build
-
-#       /home/iku/temp/buildroot-2012.05-rc1/output/toolchain/gcc-4.5.3/configure  \
-#        --prefix=/home/iku/temp/buildroot-2012.05-rc1/output/host/usr \
-#        --build=x86_64-unknown-linux-gnu \
-#        --host=x86_64-unknown-linux-gnu \
-#        --target=x86_64-unknown-linux-uclibc \
-#        --enable-languages=c \
-#        --with-sysroot=/home/iku/temp/buildroot-2012.05-rc1/output/toolchain/uClibc_dev/ \
-#        --disable-__cxa_atexit \
-#        --enable-target-optspace \
-#        --disable-libquadmath \
-#        --disable-libgomp \
-#        --with-gnu-ld \
-#        --disable-shared \
-#        --disable-libssp \
-#        --without-headers \
-#        --with-newlib \
-#        --disable-multilib \
-#        --enable-tls \
-#        --with-gmp=/home/iku/temp/buildroot-2012.05-rc1/output/host/usr \
-#        --with-mpfr=/home/iku/temp/buildroot-2012.05-rc1/output/host/usr \
-#        --with-mpc=/home/iku/temp/buildroot-2012.05-rc1/output/host/usr \
-#        --disable-nls \
-#        --enable-threads \
-#        --disable-decimal-float \
-#         \
-#          --with-tune="generic"  \
-#        --with-pkgversion="Buildroot 2012.05-rc1" --with-bugurl="http://bugs.buildroot.net/"  \
+	mkdir gcc-build
+	cd gcc-build
 
 	"../gcc-$GCC_VERSION/configure"		\
-		--build="$TARGET"		\
-		--host="$TARGET"		\
 		--target="$TARGET"		\
 		--prefix="$PREFIX"		\
 		--disable-nls			\
-		--disable-shared		\
 		--disable-multilib		\
 		--disable-decimal-float		\
 		--disable-threads		\
@@ -155,25 +163,30 @@ if [ ! -f .gcc_done ]; then
 		--disable-libgomp		\
 		--disable-libquadmath		\
 		--enable-languages=c		\
+		--without-ppl			\
+		--without-cloog			\
 		--with-sysroot="$DESTDIR"	\
-		--with-newlib			\
+		--with-newlib="$PREFIX"		\
 		--without-headers		\
 		--with-local-prefix="$PREFIX"	\
-		--with-native-system-header-dir="$PREFIX/include" \
-		--with-mpfr-include="$(pwd)/../gcc-$GCC_VERSION/mpfr/src" \
-		--with-mpfr-lib=$(pwd)/mpfr/src/.libs
-	"$MAKE"
-	"$MAKE" install
+		--with-gmp="$PREFIX"		\
+		--with-mpfr="$PREFIX"		\
+		--with-mpc="$PREFIX"		\
+		--with-native-system-header-dir="$PREFIX/include"
+	$MAKE
+	$MAKE install
+	rm -f ../.gcc_started
 	build_done gcc
+	rm -rf gcc-build
 fi
 
 if [ ! -f .linux_done ]; then
 	clean "linux-$LINUX_VERSION"
 	extract_distfile "$LINUX_URL"
 	cd "linux-$LINUX_VERSION"
-	"$MAKE" headers_check
-	"$MAKE" INSTALL_HDR_PATH=dest headers_install
-	cp -rv dest/include/* "$DSTDIR/include"
+	$MAKE headers_check
+	$MAKE INSTALL_HDR_PATH=dest headers_install
+	cp -rv dest/include/* "$PREFIX/include"
 	build_done linux
 fi
 
@@ -181,11 +194,11 @@ if [ ! -f .uclibc_done ]; then
 	clean "uClibc-$UCLIBC_VERSION"
 	extract_distfile "$UCLIBC_URL"
 	cd "uClibc-$UCLIBC_VERSION"
-	"$MAKE" defconfig
-	"$MAKE" \
+	$MAKE defconfig
+	$MAKE \
 		PREFIX="" \
-		DEVEL_PREFIX="${DSTDIR}/" \
-		RUNTIME_PREFIX="${DSTDIR}/" \
+		DEVEL_PREFIX="${PREFIX}/" \
+		RUNTIME_PREFIX="${PREFIX}/" \
 		MULTILIB_DIR=lib/ \
 		MAKE_IS_SILENT=n SECHO=@echo VERBOSE=1 \
 		all utils install install_utils

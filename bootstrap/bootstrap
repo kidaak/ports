@@ -203,9 +203,9 @@ if [ ! -f .uclibc_done ]; then
 fi
 
 if [ ! -f .binutils2_done ]; then
-	clean binutils-build
-	mkdir -p binutils-build
-	cd binutils-build
+	clean binutils2-build
+	mkdir -p binutils2-build
+	cd binutils2-build
 	CC=$TARGET-gcc					\
 	AR=$TARGET-ar					\
 	RANLIB=$TARGET-ranlib				\

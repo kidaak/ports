@@ -83,7 +83,7 @@ if [ ! -f .binutils_done ]; then
 	esac
 	$MAKE install
 	build_done binutils
-	rm -rf binutils-build
+	clean binutils-build
 fi
 
 if [ ! -f .gmp_done ]; then
@@ -175,9 +175,8 @@ if [ ! -f .gcc_done ]; then
 		--with-native-system-header-dir="$PREFIX/include"
 	$MAKE
 	$MAKE install
-	rm -f ../.gcc_started
 	build_done gcc
-	rm -rf gcc-build
+	clean gcc-build
 fi
 
 if [ ! -f .linux_done ]; then

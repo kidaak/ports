@@ -204,3 +204,22 @@ if [ ! -f .uclibc_done ]; then
 		all utils install install_utils
 	build_done uclibc
 fi
+
+if [ ! -f .binutils2_done ]; then
+	clean binutils-build
+	mkdir -p binutils-build
+	cd binutils-build
+	CC=$TARGET-gcc					\
+	AR=$TARGET-ar					\
+	RANLIB=$TARGET-ranlib				\
+	"../binutils-$BINUTILS_VERSION/configure"	\
+		--with-lib-path="$PREFIX/lib"		\
+		--prefix="$PREFIX"			\
+		--disable-nls
+	$MAKE
+	$MAKE install
+	$MAKE -C ld clean
+	$MAKE -C ld LIB_PATH=/usr/lib:/lib
+	cp -v ld/ld-new "$PREFIX/bin"
+	build_done binutils2
+fi

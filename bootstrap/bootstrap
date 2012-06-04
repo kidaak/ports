@@ -51,7 +51,7 @@ GCC_VERSION=4.7.0
 GCC_URL=http://ftp.nluug.nl/languages/gcc/releases/gcc-$GCC_VERSION/gcc-$GCC_VERSION.tar.bz2
 LINUX_VERSION=3.3.5
 LINUX_URL=http://kernel.org/pub/linux/kernel/v3.0/linux-$LINUX_VERSION.tar.bz2
-UCLIBC_VERSION=0.9.33.1
+UCLIBC_VERSION=0.9.33.2
 UCLIBC_URL=http://www.uclibc.org/downloads/uClibc-$UCLIBC_VERSION.tar.xz
 
 export PATH CC
@@ -192,7 +192,12 @@ if [ ! -f .uclibc_done ]; then
 	extract_distfile "$UCLIBC_URL"
 	cd "uClibc-$UCLIBC_VERSION"
 	$MAKE defconfig
+	apply_patch uclibc
+	# Fix paths
+	sed -Ee "s,(KERNEL_HEADERS=).*,\1$PREFIX/include," .config > .config.new
+	sed -Ee "s,(CROSS_COMPILER_PREFIX=).*,\1$PREFIX/bin/$TARGET-," .config.new > .config
 	$MAKE \
+		CC="$PREFIX/bin/$TARGET-gcc" \
 		PREFIX="" \
 		DEVEL_PREFIX="${PREFIX}/" \
 		RUNTIME_PREFIX="${PREFIX}/" \

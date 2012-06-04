@@ -36,7 +36,7 @@ PORTSDIR=$(dirname $BASE)
 DISTDIR=$PORTSDIR/distfiles
 WRKDIR="${PORTSDIR}/pobj/bootstrap"
 
-TARGET=`uname -m`-obscure-linux-gnu
+TARGET=`uname -m`-obscure-linux
 PATH=/tools/bin:/bin:/usr/bin:/usr/local/bin
 
 BINUTILS_VERSION=2.22

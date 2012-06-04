@@ -20,8 +20,12 @@ set -eux
 set +h
 
 # GNU make required
-MAKE=gmake
-CC=gcc
+#
+# Adjust -j parameter to speed up build on a multi-core system.
+# See what the following prints if you're unsure:
+# grep -c ^processor /proc/cpuinfo
+MAKE="gmake -j $(grep -c ^processor /proc/cpuinfo)"
+CC="ccache gcc"
 
 BASE=$(cd -- "$(dirname -- "$0")"; pwd)
 
@@ -33,7 +37,7 @@ DISTDIR=$PORTSDIR/distfiles
 WRKDIR="${PORTSDIR}/pobj/bootstrap"
 
 TARGET=`uname -m`-unknown-linux-gnu
-export PATH=/tools/bin:/bin:/usr/bin
+PATH=/tools/bin:/bin:/usr/bin:/usr/local/bin
 
 BINUTILS_VERSION=2.22
 BINUTILS_URL=http://ftp.gnu.org/gnu/binutils/binutils-$BINUTILS_VERSION.tar.gz
@@ -49,6 +53,8 @@ LINUX_VERSION=3.3.5
 LINUX_URL=http://kernel.org/pub/linux/kernel/v3.0/linux-$LINUX_VERSION.tar.bz2
 UCLIBC_VERSION=0.9.33.1
 UCLIBC_URL=http://www.uclibc.org/downloads/uClibc-$UCLIBC_VERSION.tar.xz
+
+export PATH CC
 
 # Pick up functions
 . ./functions.sh

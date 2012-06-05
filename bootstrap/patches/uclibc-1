@@ -1,5 +1,5 @@
---- uClibc-0.9.33.2/.config.old	2012-06-04 21:54:30.000000000 +0000
-+++ uClibc-0.9.33.2/.config	2012-06-04 21:54:49.000000000 +0000
+--- uClibc-0.9.33.2/.config.default	2012-06-05 00:40:24.000000000 +0000
++++ uClibc-0.9.33.2/.config	2012-06-05 00:44:43.000000000 +0000
 @@ -49,10 +49,11 @@
  ARCH_USE_MMU=y
  UCLIBC_HAS_FLOATS=y
@@ -46,10 +46,11 @@
 -UCLIBC_HAS_LFS=y
 +# UCLIBC_HAS_LFS is not set
  # MALLOC is not set
- # MALLOC_SIMPLE is not set
- MALLOC_STANDARD=y
--# MALLOC_GLIBC_COMPAT is not set
-+MALLOC_GLIBC_COMPAT=y
+-# MALLOC_SIMPLE is not set
+-MALLOC_STANDARD=y
++MALLOC_SIMPLE=y
++# MALLOC_STANDARD is not set
+ # MALLOC_GLIBC_COMPAT is not set
  UCLIBC_DYNAMIC_ATEXIT=y
  # COMPAT_ATEXIT is not set
 -# UCLIBC_SUSV3_LEGACY is not set
@@ -172,7 +173,7 @@
  MULTILIB_DIR="lib"
  HARDWIRED_ABSPATH=y
  
-@@ -218,13 +224,13 @@
+@@ -218,20 +224,19 @@
  # UCLIBC_HAS_ARC4RANDOM is not set
  # UCLIBC_HAS_SSP is not set
  UCLIBC_BUILD_RELRO=y
@@ -188,3 +189,10 @@
  UCLIBC_EXTRA_CFLAGS=""
  # DODEBUG is not set
  DOSTRIP=y
+ # DOASSERTS is not set
+ # SUPPORT_LD_DEBUG is not set
+ # SUPPORT_LD_DEBUG_EARLY is not set
+-# UCLIBC_MALLOC_DEBUGGING is not set
+ # UCLIBC_HAS_BACKTRACE is not set
+ WARNINGS="-Wall"
+ # EXTRA_WARNINGS is not set

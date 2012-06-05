@@ -194,10 +194,12 @@ if [ ! -f .uclibc_done ]; then
 	extract_distfile "$UCLIBC_URL"
 	cd "uClibc-$UCLIBC_VERSION"
 	$MAKE defconfig
+	# Copy the default if we want to regenerate the patch.
+	cp -f .config .config.default
 	apply_patch uclibc
 	# Fix paths
-	sed -Ee "s,(KERNEL_HEADERS=).*,\1$PREFIX/include," .config > .config.new
-	sed -Ee "s,(CROSS_COMPILER_PREFIX=).*,\1$PREFIX/bin/$TARGET-," .config.new > .config
+	sed -Ee "s,(KERNEL_HEADERS=).*,\1\"$PREFIX/include\"," .config > .config.sed
+	sed -Ee "s,(CROSS_COMPILER_PREFIX=).*,\1\"$PREFIX/bin/$TARGET-\"," .config.sed > .config
 	$MAKE \
 		CC="$PREFIX/bin/$TARGET-gcc" \
 		PREFIX="" \

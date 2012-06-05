@@ -1,6 +1,7 @@
 # $OpenBSD$
 
 COMMENT =		ebook management application
+BROKEN =		fake step gets stuck
 
 DISTNAME =		calibre-0.8.20
 CATEGORIES =		textproc

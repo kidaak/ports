@@ -16,6 +16,7 @@
      SUBDIR += datalog
      SUBDIR += eagle
      SUBDIR += ecl
+     SUBDIR += elixir
      SUBDIR += eltclsh
      SUBDIR += erlang
      SUBDIR += expect

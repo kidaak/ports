@@ -1,7 +1,7 @@
 @comment $OpenBSD$
 lib/libreoffice/program/libhsqldb.so
 lib/libreoffice/program/libjdbclo.so
-lib/libreoffice/program/libofficebeanlo.so
+lib/libreoffice/program/libofficebean.so
 lib/libreoffice/ure/lib/javaloader.uno.so
 lib/libreoffice/ure/lib/javavm.uno.so
 lib/libreoffice/ure/lib/libjava_uno.so

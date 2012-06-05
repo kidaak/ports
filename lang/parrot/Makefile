@@ -5,6 +5,7 @@ SHARED_ONLY =	Yes
 COMMENT=	virtual machine designed for interpreted languages
 
 V=		4.3.0
+REVISION=	0
 DISTNAME=	parrot-$V
 CATEGORIES=	lang perl6
 SHARED_LIBS=	parrot	5.0
@@ -24,7 +25,8 @@ PERMIT_DISTFILES_FTP=	Yes
 WANTLIB += GL GLU c glut gmp icudata icuuc m ncurses pthread
 WANTLIB += readline stdc++ util z
 
-BUILD_DEPENDS=		graphics/glew
+BUILD_DEPENDS=		graphics/glew \
+			devel/pcre
 LIB_DEPENDS=		textproc/icu4c \
 			devel/gmp \
 			graphics/freeglut

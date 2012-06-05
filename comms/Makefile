@@ -2,6 +2,7 @@
 # $FreeBSD: Makefile,v 1.27 1997/11/22 14:56:56 peter Exp $
 
      SUBDIR =
+     SUBDIR += amtterm
      SUBDIR += birda
      SUBDIR += bottlerocket
      SUBDIR += c3270

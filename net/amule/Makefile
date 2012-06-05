@@ -6,7 +6,7 @@ COMMENT-daemon =stand-alone daemon/cmdline for amule
 
 V =		2.3.1
 DISTNAME =	aMule-$V
-REVISION =	7
+REVISION =	8
 CATEGORIES =	net
 
 HOMEPAGE =	http://www.amule.org/

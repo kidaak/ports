@@ -2,8 +2,7 @@
 
 COMMENT=		open-source CFML engine
 
-V=			3.3.1.000
-REVISION=		1
+V=			3.3.3.001
 DISTNAME=		railo-$V
 EXTRACT_SUFX=		.war
 

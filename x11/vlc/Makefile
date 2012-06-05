@@ -10,6 +10,7 @@ DISTNAME=	vlc-${V}
 PKGNAME-main=	${DISTNAME}
 REVISION-main=	2
 PKGNAME-jack=	vlc-jack-${V}
+REVISION-jack=	0
 CATEGORIES=	x11
 MASTER_SITES=	http://download.videolan.org/pub/videolan/vlc/${V}/
 EXTRACT_SUFX=	.tar.xz

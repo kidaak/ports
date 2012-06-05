@@ -47,10 +47,7 @@ CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 .include <bsd.port.arch.mk>
 
 # XXX rendering bug on big-endian systems 
-.if ${MACHINE_ARCH} != "hppa" && ${MACHINE_ARCH} != "m68k" && \
-${MACHINE_ARCH} != "m88k" && ${MACHINE_ARCH} != "mips64" && \
-${MACHINE_ARCH} != "powerpc" && ${MACHINE_ARCH} != "sparc" && \
-${MACHINE_ARCH} != "sparc64"
+.if ${PROPERTIES:Mle}
 CONFIGURE_ARGS+= --enable-gradients
 .endif
 

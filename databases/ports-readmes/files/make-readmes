@@ -130,7 +130,7 @@ my $broken_req = $db->prepare(
 	    order by arch.value});
 	
 my $broken;
-$broken_req->bind_columns(\($broken, $arch));
+$broken_req->bind_columns(\($arch, $broken));
 
 my $cat = {};
 

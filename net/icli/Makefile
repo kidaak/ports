@@ -2,8 +2,7 @@
 
 COMMENT=	command-line interface to Icinga
 
-DISTNAME=	icli-0.41
-REVISION=	1
+DISTNAME=	icli-0.42
 
 CATEGORIES=	net
 
@@ -30,7 +29,8 @@ PATCH_LIST+=		icinga-*
 RUN_DEPENDS=		net/icinga/core
 .endif
 
-RUN_DEPENDS+=		devel/p5-Term-Size \
+RUN_DEPENDS+=		devel/p5-List-MoreUtils \
+			devel/p5-Term-Size \
 			devel/p5-Time-TimeDate
 
 CONFIGURE_STYLE=	modbuild

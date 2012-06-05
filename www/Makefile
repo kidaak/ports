@@ -375,6 +375,7 @@
      SUBDIR += py-CherryPy
      SUBDIR += py-beaker
      SUBDIR += py-beautifulsoup
+     SUBDIR += py-beautifulsoup4
      SUBDIR += py-cherrypy2
      SUBDIR += py-clientform
      SUBDIR += py-django

@@ -7,6 +7,7 @@ DISTNAME=		openldap-2.4.31
 PKGNAME-main=		${DISTNAME:S/-/-client-/}
 PKGNAME-server=		${DISTNAME:S/-/-server-/}
 
+REVISION-server=	0
 
 SHARED_LIBS +=	lber                 12.0      # .10.1
 SHARED_LIBS +=	ldap                 12.0      # .10.1

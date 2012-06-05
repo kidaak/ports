@@ -16,8 +16,8 @@
 #
 # XXX
 # x can be removed
-set -eux
 set +h
+set -eux
 
 # GNU make required
 #
@@ -36,6 +36,8 @@ PORTSDIR=$(dirname $BASE)
 DISTDIR=$PORTSDIR/distfiles
 WRKDIR="${PORTSDIR}/pobj/bootstrap"
 
+# Having the target triplet without the annoying -gnu
+# suffix might not work on i386 systems.
 TARGET=`uname -m`-obscure-linux
 PATH=/tools/bin:/bin:/usr/bin:/usr/local/bin
 

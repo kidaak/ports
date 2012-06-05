@@ -15,7 +15,7 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 #
 # XXX
-# x can be removed
+# x can be removed if less verbose is desired.
 set +h
 set -eux
 
@@ -38,7 +38,8 @@ WRKDIR="${PORTSDIR}/pobj/bootstrap"
 
 # Having the target triplet without the annoying -gnu
 # suffix might not work on i386 systems.
-TARGET=`uname -m`-obscure-linux
+ARCH=`uname -m`
+TARGET=$ARCH-obscure-linux
 PATH=/tools/bin:/bin:/usr/bin:/usr/local/bin
 
 BINUTILS_VERSION=2.22
@@ -148,6 +149,19 @@ if [ ! -f .gcc_done ]; then
 			printf '#define STANDARD_STARTFILE_PREFIX_2 ""\n' >> "$file"
 			touch "$file.orig"
 		done
+		# Fixes x86 and x86_64
+		printf '#undef GLIBC_DYNAMIC_LINKER\n' >> "gcc-$GCC_VERSION/gcc/config/linux.h"
+		printf '#define GLIBC_DYNAMIC_LINKER "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/linux.h"
+		printf '#undef GLIBC_DYNAMIC_LINKER\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux.h"
+		printf '#define GLIBC_DYNAMIC_LINKER "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux.h"
+
+		printf '#undef GLIBC_DYNAMIC_LINKER32\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+		printf '#undef GLIBC_DYNAMIC_LINKER64\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+		printf '#undef GLIBC_DYNAMIC_LINKERX32\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+		printf '#define GLIBC_DYNAMIC_LINKER32 "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+		printf '#define GLIBC_DYNAMIC_LINKER64 "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+		printf '#define GLIBC_DYNAMIC_LINKERX32 "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+
 	fi
 
 	mkdir gcc-build
@@ -200,14 +214,27 @@ if [ ! -f .uclibc_done ]; then
 	# Fix paths
 	sed -Ee "s,(KERNEL_HEADERS=).*,\1\"$PREFIX/include\"," .config > .config.sed
 	sed -Ee "s,(CROSS_COMPILER_PREFIX=).*,\1\"$PREFIX/bin/$TARGET-\"," .config.sed > .config
-	$MAKE \
-		CC="$PREFIX/bin/$TARGET-gcc" \
-		PREFIX="" \
-		DEVEL_PREFIX="${PREFIX}/" \
-		RUNTIME_PREFIX="${PREFIX}/" \
-		MULTILIB_DIR=lib/ \
-		MAKE_IS_SILENT=n SECHO=@echo VERBOSE=1 \
-		all utils install install_utils
+	MAKE_FLAGS="UCLIBC_LDSO_NAME=ld-$ARCH ldso_FULL_NAME=ld-$ARCH.so.0.0"
+	for i in c crypt dl m pthread rt nsl resolv util; do
+		MAKE_FLAGS="$MAKE_FLAGS lib${i}_FULL_NAME=lib${i}.so.0.0"
+	done
+	MAKE_FLAGS="$MAKE_FLAGS				\
+		CC=$TARGET-gcc				\
+		MAJOR_VERSION=0				\
+		MINOR_VERSION=0				\
+		SUBLEVEL=0				\
+		EXTRAVERSION=0				\
+		VERSION=				\
+		ABI_VERSION=0.0				\
+		PREFIX=					\
+		DEVEL_PREFIX=${PREFIX}/			\
+		RUNTIME_PREFIX=${PREFIX}/		\
+		MULTILIB_DIR=lib/			\
+		MAKE_IS_SILENT=n SECHO=@echo VERBOSE=1"
+	$MAKE $MAKE_FLAGS all
+	$MAKE $MAKE_FLAGS utils
+	$MAKE $MAKE_FLAGS install install_utils
+	ln -fs "ld-$ARCH.so.0.0" "$PREFIX/lib/ld-$ARCH.so"
 	build_done uclibc
 fi
 

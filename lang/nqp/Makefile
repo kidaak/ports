@@ -1,5 +1,7 @@
 # $OpenBSD$
 
+NOT_FOR_ARCHS =		${BE_ARCHS}
+
 SHARED_ONLY =		Yes
 
 VMEM_WARNING =		Yes
@@ -8,6 +10,7 @@ COMMENT =		Not Quite Perl
 
 V =			2012.04.1
 DISTNAME =		nqp-${V}
+REVISION =		0
 
 PARROT_VERSION =	4.3.0
 SUBST_VARS +=		PARROT_VERSION
@@ -35,6 +38,8 @@ USE_GMAKE =		Yes
 CONFIGURE_STYLE =	simple
 CONFIGURE_SCRIPT =	/usr/bin/perl Configure.pl
 CONFIGURE_ARGS =	--with-parrot="${LOCALBASE}/bin/parrot"
+
+MAKE_ENV +=		CC="${CC}"
 
 REGRESS_TARGET =	test
 

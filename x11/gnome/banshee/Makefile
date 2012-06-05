@@ -4,7 +4,7 @@ SHARED_ONLY=	Yes
 
 COMMENT=	music management and playback application for GNOME
 
-GNOME_VERSION=	2.4.0
+GNOME_VERSION=	2.4.1
 GNOME_PROJECT=	banshee
 
 CATEGORIES=	audio

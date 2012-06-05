@@ -82,10 +82,8 @@ DISTFILES+=	${MDIST}
 DISTFILES+=	${VDIST}
 .endif
 
-BYTEORDER!=sysctl -n hw.byteorder
-
 do-configure:
-.if ${BYTEORDER} == "1234"
+.if ${PROPERTIES:Mle}
 	@sed -e "s|@PREFIX@|${PREFIX}|g ; s|@ENDIAN@|undef|g" \
 		${FILESDIR}/config_unix.h > ${WRKSRC}/src/config_unix.h
 .else

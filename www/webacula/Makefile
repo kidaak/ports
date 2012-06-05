@@ -3,7 +3,7 @@
 COMMENT=	bacula(8) web interface
 
 DISTNAME=	webacula-5.5.1
-REVISION=	1
+REVISION=	2
 
 CATEGORIES=	www sysutils
 

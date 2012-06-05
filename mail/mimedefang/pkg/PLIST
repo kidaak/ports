@@ -25,6 +25,7 @@ share/examples/gen-ip-validator.pl
 share/examples/mimedefang/
 share/examples/mimedefang/mail/
 share/examples/mimedefang/mail/mimedefang-filter
+share/examples/mimedefang/mail/mimedefang-filter-openbsd-ports
 @sample ${SYSCONFDIR}/mail/mimedefang-filter
 @mode 0400
 @owner _mdefang

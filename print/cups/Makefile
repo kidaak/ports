@@ -5,7 +5,7 @@ COMMENT=	Common Unix Printing System
 VERSION=	1.5.3
 DISTNAME=	cups-${VERSION}-source
 PKGNAME=	cups-${VERSION}
-REVISION=	3
+REVISION=	4
 
 CATEGORIES=	print sysutils
 
@@ -123,7 +123,8 @@ pre-configure:
 
 post-configure:
 	cd ${WRKBUILD} && perl -pi -e 's|\$${DESTDIR}||g' \
-		config.h cups-config man/*.man
+		config.h cups-config man/*.man conf/cupsd.conf \
+		doc/help/*.html
 
 post-install:
 	ln -sf ${LOCALBASE}/bin/smbspool \

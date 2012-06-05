@@ -41,6 +41,7 @@
      SUBDIR += deja-dup
      SUBDIR += dellflash
      SUBDIR += detox
+     SUBDIR += dfc
      SUBDIR += diskrescue
      SUBDIR += dmassage
      SUBDIR += dmidecode

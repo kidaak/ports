@@ -19,9 +19,9 @@ PERMIT_DISTFILES_FTP =	Yes
 
 MODULES =	cpan
 
-BYTEORDER !=	sysctl -n hw.byteorder
+.include <bsd.port.arch.mk>
 
-.if ${BYTEORDER} == "1234"
+.if ${PROPERTIES:Mle}
 BO=	LITTLE
 .else
 BO=	BIG

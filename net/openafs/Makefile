@@ -68,13 +68,9 @@ CONFIGURE_ARGS+=	--enable-debug
 CONFIGURE_ARGS+=	--enable-debug-lwp
 .endif
 
-.if ${MACHINE} == "alpha" || \
-	${MACHINE} == "amd64" || \
-	${MACHINE} == "arm" || \
-	${MACHINE} == "i386" || \
-	${MACHINE} == "mips64" || \
-	${MACHINE} == "sh" || \
-	${MACHINE} == "vax"
+.include <bsd.port.arch.mk>
+
+.if ${PROPERTIES:Mle}
 CONFIGURE_ARGS+=	--enable-littleendian
 .else
 CONFIGURE_ARGS+=	--enable-bigendian

@@ -29,6 +29,7 @@ MODULES=	x11/qt4 \
 MODPY_VERSION=	2.7
 MODPY_RUNDEP=	No
 
+BUILD_DEPENDS=	devel/boost
 RUN_DEPENDS=	misc/shared-mime-info \
 		devel/desktop-file-utils \
 		${MODPY_TKINTER_DEPENDS} \

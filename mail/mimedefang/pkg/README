@@ -15,6 +15,11 @@ to your .mc file:
 
 Then re-generate your .cf file.
 
+When using administrator notifications, it is advised to add the
+"_mdefang" user to the list of users that are allowed to set their
+envelope "from" address to a different user. This is done in:
+    /etc/mail/trusted-user
+
 IP validation header
 ====================
 To retain relay's IP address information between Mail eXchangers, an

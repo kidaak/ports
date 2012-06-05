@@ -4,6 +4,7 @@ COMMENT=	SDL multi-channel audio mixer library
 
 DISTNAME=	SDL_mixer-1.2.12
 PKGNAME=	${DISTNAME:L:S/_/-/}
+REVISION=	0
 CATEGORIES=	devel audio
 MASTER_SITES=	${HOMEPAGE}release/
 

@@ -2,9 +2,9 @@
 
 COMMENT=		library to access data on a CDDB server
 
-DISTNAME=		libcddb-1.3.0
+DISTNAME=		libcddb-1.3.2
 CATEGORIES=		audio devel
-SHARED_LIBS +=	cddb                 0.0      # .4.3
+SHARED_LIBS +=	cddb                 0.1      # .4.3
 
 HOMEPAGE=		http://libcddb.sourceforge.net/
 

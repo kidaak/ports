@@ -52,6 +52,7 @@ clean()
 			mv -f "$WRKDIR/$i" "$WRKDIR/.removing_$i" && \
 			( rm -rf "$WRKDIR/.removing_$i" & )
 	done
+	return 0
 }
 
 apply_patch()

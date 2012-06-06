@@ -34,13 +34,14 @@ PORTSDIR=$(dirname $BASE)
 DISTDIR=$PORTSDIR/distfiles
 WRKDIR="${PORTSDIR}/pobj/bootstrap"
 DESTDIR=$WRKDIR/buildroot
-PREFIX=$DESTDIR/tools
+PREFIX=/tools
+TRUEPREFIX=$DESTDIR$PREFIX
 
 # Having the target triplet without the annoying -gnu
 # suffix might not work on i386 systems.
 ARCH=`uname -m`
 TARGET=$ARCH-obscure-linux
-PATH=$PREFIX/bin:/bin:/usr/bin:/usr/local/bin
+PATH=$TRUEPREFIX/bin:/bin:/usr/bin:/usr/local/bin
 
 BINUTILS_VERSION=2.22
 BINUTILS_URL=http://ftp.gnu.org/gnu/binutils/binutils-$BINUTILS_VERSION.tar.gz
@@ -62,7 +63,7 @@ export PATH CC
 # Pick up functions
 . ./functions.sh
 
-mkdir -p "$WRKDIR" "$DESTDIR" "$PREFIX"
+mkdir -p "$WRKDIR" "$DESTDIR" "$TRUEPREFIX"
 
 cd "$WRKDIR"
 
@@ -74,14 +75,14 @@ if [ ! -f .binutils_done ]; then
 	cd binutils-build
 	"../binutils-$BINUTILS_VERSION/configure"	\
 		--with-sysroot="$DESTDIR"		\
-		--with-lib-path="$PREFIX/lib"		\
-		--prefix="$PREFIX"			\
+		--with-lib-path="$PREFIX/lib"	\
+		--prefix="$TRUEPREFIX"			\
 		--target="$TARGET"			\
 		--disable-werror			\
 		--disable-nls
 	$MAKE
 	case $(uname -m) in
-		x86_64) mkdir -p "$PREFIX/lib" && ln -sv lib "$PREFIX/lib64" ;;
+		x86_64) mkdir -p "$TRUEPREFIX/lib" && ln -fs lib "$TRUEPREFIX/lib64" ;;
 	esac
 	$MAKE install
 	build_done binutils
@@ -94,7 +95,7 @@ if [ ! -f .gmp_done ]; then
 	mkdir gmp-build
 	cd gmp-build
 	"../gmp-$GMP_VERSION/configure" \
-		--prefix="$PREFIX"
+		--prefix="$TRUEPREFIX"
 	$MAKE
 	$MAKE install
 	build_done gmp
@@ -106,8 +107,8 @@ if [ ! -f .mpfr_done ]; then
 	mkdir mpfr-build
 	cd mpfr-build
 	"../mpfr-$MPFR_VERSION/configure"	\
-		--prefix="$PREFIX"		\
-		--with-gmp="$PREFIX"
+		--prefix="$TRUEPREFIX"		\
+		--with-gmp="$TRUEPREFIX"
 	$MAKE
 	$MAKE install
 	build_done mpfr
@@ -118,10 +119,10 @@ if [ ! -f .mpc_done ]; then
 	extract_distfile "$MPC_URL"
 	mkdir mpc-build
 	cd mpc-build
-	"../mpc-$MPC_VERSION/configure"	\
-		--prefix="$PREFIX"	\
-		--with-gmp="$PREFIX"	\
-		--with-mpfr="$PREFIX"
+	"../mpc-$MPC_VERSION/configure"		\
+		--prefix="$TRUEPREFIX"		\
+		--with-gmp="$TRUEPREFIX"	\
+		--with-mpfr="$TRUEPREFIX"
 	$MAKE
 	$MAKE install
 	build_done mpc
@@ -139,27 +140,27 @@ if [ ! -f .gcc_done ]; then
 		extract_distfile "gcc;$GCC_URL"
 		for file in $(find "gcc-$GCC_VERSION/gcc/config" -name linux64.h -o -name linux.h -o -name sysv4.h); do
 			cp -uv "$file" "$file.orig"
-			sed -e "s@/lib\(64\)\?\(32\)\?/ld@${PREFIX}&@g" \
-				-e "s@/usr@${PREFIX}@g" "$file.orig" > "$file"
+			sed -e "s@/lib\(64\)\?\(32\)\?/ld@${TRUEPREFIX}&@g" \
+				-e "s@/usr@${TRUEPREFIX}@g" "$file.orig" > "$file"
 			printf '\n\n/* Added by Obscure Linux bootstrap script */\n' >> "$file"
 			printf '#undef STANDARD_STARTFILE_PREFIX_1\n' >> "$file"
 			printf '#undef STANDARD_STARTFILE_PREFIX_2\n' >> "$file"
-			printf '#define STANDARD_STARTFILE_PREFIX_1 "%s/lib/"\n' "$PREFIX" >> "$file"
+			printf '#define STANDARD_STARTFILE_PREFIX_1 "%s/lib/"\n' "$TRUEPREFIX" >> "$file"
 			printf '#define STANDARD_STARTFILE_PREFIX_2 ""\n' >> "$file"
 			touch "$file.orig"
 		done
 		# Fixes x86 and x86_64
 		printf '#undef GLIBC_DYNAMIC_LINKER\n' >> "gcc-$GCC_VERSION/gcc/config/linux.h"
-		printf '#define GLIBC_DYNAMIC_LINKER "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/linux.h"
+		printf '#define GLIBC_DYNAMIC_LINKER "%s/lib/ld-%s.so"\n' "$TRUEPREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/linux.h"
 		printf '#undef GLIBC_DYNAMIC_LINKER\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux.h"
-		printf '#define GLIBC_DYNAMIC_LINKER "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux.h"
+		printf '#define GLIBC_DYNAMIC_LINKER "%s/lib/ld-%s.so"\n' "$TRUEPREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux.h"
 
 		printf '#undef GLIBC_DYNAMIC_LINKER32\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
 		printf '#undef GLIBC_DYNAMIC_LINKER64\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
 		printf '#undef GLIBC_DYNAMIC_LINKERX32\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
-		printf '#define GLIBC_DYNAMIC_LINKER32 "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
-		printf '#define GLIBC_DYNAMIC_LINKER64 "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
-		printf '#define GLIBC_DYNAMIC_LINKERX32 "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+		printf '#define GLIBC_DYNAMIC_LINKER32 "%s/lib/ld-%s.so"\n' "$TRUEPREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+		printf '#define GLIBC_DYNAMIC_LINKER64 "%s/lib/ld-%s.so"\n' "$TRUEPREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+		printf '#define GLIBC_DYNAMIC_LINKERX32 "%s/lib/ld-%s.so"\n' "$TRUEPREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
 
 	fi
 
@@ -168,7 +169,7 @@ if [ ! -f .gcc_done ]; then
 
 	"../gcc-$GCC_VERSION/configure"		\
 		--target="$TARGET"		\
-		--prefix="$PREFIX"		\
+		--prefix="$TRUEPREFIX"		\
 		--disable-nls			\
 		--disable-shared		\
 		--disable-multilib		\
@@ -184,8 +185,8 @@ if [ ! -f .gcc_done ]; then
 		--with-sysroot="$DESTDIR"	\
 		--with-newlib			\
 		--without-headers		\
-		--with-local-prefix="$PREFIX"	\
-		--with-native-system-header-dir="$PREFIX/include"
+		--with-local-prefix="$TRUEPREFIX" \
+		--with-native-system-header-dir="$TRUEPREFIX/include"
 	$MAKE
 	$MAKE install
 	build_done gcc
@@ -198,7 +199,7 @@ if [ ! -f .linux_done ]; then
 	cd "linux-$LINUX_VERSION"
 	$MAKE headers_check
 	$MAKE INSTALL_HDR_PATH=dest headers_install
-	cp -rv dest/include/* "$PREFIX/include"
+	cp -rv dest/include/* "$TRUEPREFIX/include"
 	build_done linux
 fi
 
@@ -211,8 +212,8 @@ if [ ! -f .uclibc_done ]; then
 	cp -f .config .config.default
 	apply_patch uclibc
 	# Fix paths
-	sed -Ee "s,(KERNEL_HEADERS=).*,\1\"$PREFIX/include\"," .config > .config.sed
-	sed -Ee "s,(CROSS_COMPILER_PREFIX=).*,\1\"$PREFIX/bin/$TARGET-\"," .config.sed > .config
+	sed -Ee "s,(KERNEL_HEADERS=).*,\1\"$TRUEPREFIX/include\"," .config > .config.sed
+	sed -Ee "s,(CROSS_COMPILER_PREFIX=).*,\1\"$TRUEPREFIX/bin/$TARGET-\"," .config.sed > .config
 	MAKE_FLAGS="UCLIBC_LDSO_NAME=ld-$ARCH ldso_FULL_NAME=ld-$ARCH.so.0.0"
 	for i in c crypt dl m pthread rt nsl resolv util; do
 		MAKE_FLAGS="$MAKE_FLAGS lib${i}_FULL_NAME=lib${i}.so.0.0"
@@ -225,15 +226,15 @@ if [ ! -f .uclibc_done ]; then
 		EXTRAVERSION=0				\
 		VERSION=				\
 		ABI_VERSION=0.0				\
-		PREFIX=					\
-		DEVEL_PREFIX=${PREFIX}/			\
-		RUNTIME_PREFIX=${PREFIX}/		\
+		PREFIX=				\
+		DEVEL_PREFIX=${TRUEPREFIX}/		\
+		RUNTIME_PREFIX=${TRUEPREFIX}/	\
 		MULTILIB_DIR=lib/			\
 		MAKE_IS_SILENT=n SECHO=@echo VERBOSE=1"
 	$MAKE $MAKE_FLAGS all
 	$MAKE $MAKE_FLAGS utils
 	$MAKE $MAKE_FLAGS install install_utils
-	ln -fs "ld-$ARCH.so.0.0" "$PREFIX/lib/ld-$ARCH.so"
+	ln -fs "ld-$ARCH.so.0.0" "$TRUEPREFIX/lib/ld-$ARCH.so"
 	build_done uclibc
 fi
 
@@ -246,12 +247,12 @@ if [ ! -f .binutils2_done ]; then
 	RANLIB=$TARGET-ranlib				\
 	"../binutils-$BINUTILS_VERSION/configure"	\
 		--with-lib-path="$PREFIX/lib"		\
-		--prefix="$PREFIX"			\
+		--prefix="$TRUEPREFIX"			\
 		--disable-nls
 	$MAKE
 	$MAKE install
 	$MAKE -C ld clean
 	$MAKE -C ld LIB_PATH=/usr/lib:/lib
-	cp -v ld/ld-new "$PREFIX/bin"
+	cp -v ld/ld-new "$TRUEPREFIX/bin"
 	build_done binutils2
 fi

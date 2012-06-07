@@ -96,7 +96,8 @@ if [ ! -f .gmp_done ]; then
 	extract_distfile "$GMP_URL"
 	mkdir gmp-build
 	cd gmp-build
-	"../gmp-$GMP_VERSION/configure" \
+	"../gmp-$GMP_VERSION/configure"	\
+		--disable-shared	\
 		--prefix="$PREFIX"
 	$MAKE
 	$MAKE install
@@ -110,6 +111,7 @@ if [ ! -f .mpfr_done ]; then
 	mkdir mpfr-build
 	cd mpfr-build
 	"../mpfr-$MPFR_VERSION/configure"	\
+		--disable-shared		\
 		--prefix="$PREFIX"		\
 		--with-gmp="$PREFIX"
 	$MAKE
@@ -124,6 +126,7 @@ if [ ! -f .mpc_done ]; then
 	mkdir mpc-build
 	cd mpc-build
 	"../mpc-$MPC_VERSION/configure"		\
+		--disable-shared		\
 		--prefix="$PREFIX"		\
 		--with-gmp="$PREFIX"		\
 		--with-mpfr="$PREFIX"

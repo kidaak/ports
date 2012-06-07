@@ -24,7 +24,7 @@ set -eux
 # Adjust -j parameter to speed up build on a multi-core system.
 # See what the following prints if you're unsure:
 # grep -c ^processor /proc/cpuinfo
-MAKE="${MAKE-:make } -j $(grep -c ^processor /proc/cpuinfo)"
+MAKE="${MAKE:-make} -j $(grep -c ^processor /proc/cpuinfo)"
 CC=${CC:-cc}
 
 BASE=$(cd -- "$(dirname -- "$0")"; pwd)

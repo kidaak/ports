@@ -101,6 +101,7 @@ if [ ! -f .gmp_done ]; then
 	$MAKE
 	$MAKE install
 	build_done gmp
+	clean "gmp-$GMP_VERSION" gmp-build
 fi
 
 if [ ! -f .mpfr_done ]; then
@@ -114,6 +115,7 @@ if [ ! -f .mpfr_done ]; then
 	$MAKE
 	$MAKE install
 	build_done mpfr
+	clean "mpfr-$MPFR_VERSION" mpfr-build
 fi
 
 if [ ! -f .mpc_done ]; then
@@ -128,6 +130,7 @@ if [ ! -f .mpc_done ]; then
 	$MAKE
 	$MAKE install
 	build_done mpc
+	clean "mpc-$MPC_VERSION" mpc-build
 fi
 
 if [ ! -f .gcc_done ]; then
@@ -203,6 +206,7 @@ if [ ! -f .linux_done ]; then
 	$MAKE INSTALL_HDR_PATH=dest headers_install
 	cp -rv dest/include/* "$PREFIX/include"
 	build_done linux
+	clean "linux-$LINUX_VERSION"
 fi
 
 if [ ! -f .uclibc_done ]; then
@@ -238,6 +242,7 @@ if [ ! -f .uclibc_done ]; then
 	$MAKE $MAKE_FLAGS install install_utils
 	ln -fs "ld-$ARCH.so.0.0" "$PREFIX/lib/ld-$ARCH.so"
 	build_done uclibc
+	clean "uClibc-$UCLIBC_VERSION"
 fi
 
 if [ ! -f .binutils2_done ]; then
@@ -257,4 +262,5 @@ if [ ! -f .binutils2_done ]; then
 	$MAKE -C ld LIB_PATH=/usr/lib:/lib
 	cp -v ld/ld-new "$PREFIX/bin"
 	build_done binutils2
+	clean "binutils-$BINUTILS_VERSION" binutils2-build
 fi

@@ -228,7 +228,7 @@ if [ ! -f .binutils2_done ]; then
 	mkdir -p binutils2-build
 	cd binutils2-build
 
-	CC="${CCACHE} ${CC}"				\
+	CC="${CCACHE} $TARGET-gcc"			\
 	AR=$TARGET-ar					\
 	RANLIB=$TARGET-ranlib				\
 	"../binutils-$BINUTILS_VERSION/configure"	\
@@ -272,7 +272,7 @@ if [ ! -f .gcc2_done ]; then
 		(cd "gcc-$GCC_VERSION" && \
 			cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
 				`dirname "$("$TARGET-gcc" -print-libgcc-file-name)"`/include-fixed/limits.h && \
-			cp gcc/Makefile.in{,.tmp} && \
+			cp gcc/Makefile.in gcc/Makefile.in.tmp && \
 			sed 's/^T_CFLAGS =$/& -fomit-frame-pointer/' gcc/Makefile.in.tmp \
 				> gcc/Makefile.in)
 
@@ -289,7 +289,7 @@ if [ ! -f .gcc2_done ]; then
 	mkdir gcc2-build
 	cd gcc2-build
 
-	CC="${CCACHE} ${CC}"			\
+	CC="${CCACHE} $TARGET-gcc"		\
 	AR=$TARGET-ar				\
 	RANLIB=$TARGET-ranlib			\
 	"../gcc-$GCC_VERSION/configure"		\

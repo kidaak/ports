@@ -15,8 +15,7 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 #
 # XXX
-# x can be removed if less verbose is desired.
-set +h
+# x can be removed if less verbose output is desired.
 set -eux
 
 # GNU make required
@@ -24,8 +23,11 @@ set -eux
 # Adjust -j parameter to speed up build on a multi-core system.
 # See what the following prints if you're unsure:
 # grep -c ^processor /proc/cpuinfo
-MAKE="${MAKE:-make} -j $(grep -c ^processor /proc/cpuinfo)"
+JOBS=${JOBS:--j $(grep -c ^processor /proc/cpuinfo)}
+MAKE="${MAKE:-make} $JOBS"
 CC=${CC:-cc}
+CXX=${CXX:-c++}
+CCACHE=${CCACHE:-}
 
 BASE=$(cd -- "$(dirname -- "$0")"; pwd)
 
@@ -52,12 +54,12 @@ GMP_VERSION=5.0.2
 GMP_URL=ftp://ftp.gmplib.org/pub/gmp-$GMP_VERSION/gmp-$GMP_VERSION.tar.gz
 MPC_VERSION=0.9
 MPC_URL=http://www.multiprecision.org/mpc/download/mpc-$MPC_VERSION.tar.gz
-GCC_VERSION=4.7.0
+GCC_VERSION=4.7.1
 GCC_URL=http://ftp.nluug.nl/languages/gcc/releases/gcc-$GCC_VERSION/gcc-$GCC_VERSION.tar.bz2
 LINUX_VERSION=3.3.5
 LINUX_URL=http://kernel.org/pub/linux/kernel/v3.0/linux-$LINUX_VERSION.tar.bz2
-UCLIBC_VERSION=0.9.33.2
-UCLIBC_URL=http://www.uclibc.org/downloads/uClibc-$UCLIBC_VERSION.tar.xz
+GLIBC_VERSION=2.15
+GLIBC_URL=http://ftp.gnu.org/gnu/glibc/glibc-$GLIBC_VERSION.tar.xz
 
 export PATH CC
 
@@ -73,8 +75,11 @@ if [ ! -f .binutils_done ]; then
 	clean "binutils-$BINUTILS_VERSION" binutils-build
 	extract_distfile "$BINUTILS_URL"
 	apply_patch binutils
+
 	mkdir binutils-build
 	cd binutils-build
+
+	CC="${CCACHE} ${CC}"				\
 	"../binutils-$BINUTILS_VERSION/configure"	\
 		--with-sysroot="$DESTDIR"		\
 		--with-lib-path="$PREFIX/lib"		\
@@ -91,51 +96,6 @@ if [ ! -f .binutils_done ]; then
 	clean binutils-build
 fi
 
-if [ ! -f .gmp_done ]; then
-	clean "gmp-$GMP_VERSION" gmp-build
-	extract_distfile "$GMP_URL"
-	mkdir gmp-build
-	cd gmp-build
-	"../gmp-$GMP_VERSION/configure"	\
-		--disable-shared	\
-		--prefix="$PREFIX"
-	$MAKE
-	$MAKE install
-	build_done gmp
-	clean "gmp-$GMP_VERSION" gmp-build
-fi
-
-if [ ! -f .mpfr_done ]; then
-	clean "mpfr-$MPFR_VERSION" mpfr-build
-	extract_distfile "mpfr-$MPFR_VERSION;$MPFR_URL"
-	mkdir mpfr-build
-	cd mpfr-build
-	"../mpfr-$MPFR_VERSION/configure"	\
-		--disable-shared		\
-		--prefix="$PREFIX"		\
-		--with-gmp="$PREFIX"
-	$MAKE
-	$MAKE install
-	build_done mpfr
-	clean "mpfr-$MPFR_VERSION" mpfr-build
-fi
-
-if [ ! -f .mpc_done ]; then
-	clean "mpc-$MPC_VERSION" mpc-build
-	extract_distfile "$MPC_URL"
-	mkdir mpc-build
-	cd mpc-build
-	"../mpc-$MPC_VERSION/configure"		\
-		--disable-shared		\
-		--prefix="$PREFIX"		\
-		--with-gmp="$PREFIX"		\
-		--with-mpfr="$PREFIX"
-	$MAKE
-	$MAKE install
-	build_done mpc
-	clean "mpc-$MPC_VERSION" mpc-build
-fi
-
 if [ ! -f .gcc_done ]; then
 	# If gcc-build exists that means we have a working gcc source directory
 	# in that case just wipe out the build.
@@ -145,7 +105,8 @@ if [ ! -f .gcc_done ]; then
 		clean gcc-build
 	else
 		clean "gcc-$GCC_VERSION" gcc-build
-		extract_distfile "gcc;$GCC_URL"
+		extract_distfile \
+			"gcc;$GCC_URL"
 		for file in $(find "gcc-$GCC_VERSION/gcc/config" -name linux64.h -o -name linux.h -o -name sysv4.h); do
 			cp -uv "$file" "$file.orig"
 			sed -e "s@/lib\(64\)\?\(32\)\?/ld@${PREFIX}&@g" \
@@ -157,24 +118,21 @@ if [ ! -f .gcc_done ]; then
 			printf '#define STANDARD_STARTFILE_PREFIX_2 ""\n' >> "$file"
 			touch "$file.orig"
 		done
-		# Fixes x86 and x86_64
-		printf '#undef GLIBC_DYNAMIC_LINKER\n' >> "gcc-$GCC_VERSION/gcc/config/linux.h"
-		printf '#define GLIBC_DYNAMIC_LINKER "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/linux.h"
-		printf '#undef GLIBC_DYNAMIC_LINKER\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux.h"
-		printf '#define GLIBC_DYNAMIC_LINKER "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux.h"
-
-		printf '#undef GLIBC_DYNAMIC_LINKER32\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
-		printf '#undef GLIBC_DYNAMIC_LINKER64\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
-		printf '#undef GLIBC_DYNAMIC_LINKERX32\n' >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
-		printf '#define GLIBC_DYNAMIC_LINKER32 "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
-		printf '#define GLIBC_DYNAMIC_LINKER64 "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
-		printf '#define GLIBC_DYNAMIC_LINKERX32 "%s/lib/ld-%s.so"\n' "$PREFIX" "$ARCH" >> "gcc-$GCC_VERSION/gcc/config/i386/linux64.h"
+		(cd "gcc-$GCC_VERSION" && \
+			extract_distfile "$GMP_URL" && \
+			extract_distfile "mpfr-$MPFR_VERSION;$MPFR_URL" && \
+			extract_distfile "$MPC_URL" && \
+			ln -sf "gmp-$GMP_VERSION" gmp && \
+			ln -sf "mpfr-$MPFR_VERSION" mpfr && \
+			ln -sf "mpc-$MPC_VERSION" mpc && \
+			apply_patch mpfr)
 
 	fi
 
 	mkdir gcc-build
 	cd gcc-build
 
+	CC="${CCACHE} ${CC}"			\
 	"../gcc-$GCC_VERSION/configure"		\
 		--target="$TARGET"		\
 		--prefix="$PREFIX"		\
@@ -190,15 +148,20 @@ if [ ! -f .gcc_done ]; then
 		--enable-languages=c		\
 		--without-ppl			\
 		--without-cloog			\
-		--with-sysroot="$DESTDIR"	\
-		--with-newlib			\
 		--without-headers		\
-		--with-local-prefix="$PREFIX" \
-		--with-native-system-header-dir="$PREFIX/include"
+		--with-newlib			\
+		--with-sysroot="$DESTDIR"	\
+		--with-local-prefix="$PREFIX"	\
+		--with-native-system-header-dir="$PREFIX/include" \
+		--with-mpfr-include="$(pwd)/../gcc-$GCC_VERSION/mpfr/src" \
+		--with-mpfr-lib="$(pwd)"/mpfr/src/.libs
 	$MAKE
 	DESTDIR="$DESTDIR" $MAKE install
+
+	ln -s libgcc.a "`$TARGET-gcc -print-libgcc-file-name | sed 's/libgcc/&_eh/'`"
+
 	build_done gcc
-	clean gcc-build
+	clean "gcc-$GCC_VERSION" gcc-build
 fi
 
 if [ ! -f .linux_done ]; then
@@ -212,58 +175,142 @@ if [ ! -f .linux_done ]; then
 	clean "linux-$LINUX_VERSION"
 fi
 
-if [ ! -f .uclibc_done ]; then
-	clean "uClibc-$UCLIBC_VERSION"
-	extract_distfile "$UCLIBC_URL"
-	cd "uClibc-$UCLIBC_VERSION"
-	$MAKE defconfig
-	# Copy the default if we want to regenerate the patch.
-	cp -f .config .config.default
-	apply_patch uclibc
-	# Fix paths
-	sed -Ee "s,(KERNEL_HEADERS=).*,\1\"$PREFIX/include\"," .config > .config.sed
-	sed -Ee "s,(CROSS_COMPILER_PREFIX=).*,\1\"$PREFIX/bin/$TARGET-\"," .config.sed > .config
-	MAKE_FLAGS="UCLIBC_LDSO_NAME=ld-$ARCH ldso_FULL_NAME=ld-$ARCH.so.0.0"
-	for i in c crypt dl m pthread rt nsl resolv util; do
-		MAKE_FLAGS="$MAKE_FLAGS lib${i}_FULL_NAME=lib${i}.so.0.0"
-	done
-	MAKE_FLAGS="$MAKE_FLAGS
-		CC=$TARGET-gcc
-		MAJOR_VERSION=0
-		MINOR_VERSION=0
-		SUBLEVEL=0
-		EXTRAVERSION=0
-		VERSION=
-		ABI_VERSION=0.0
-		PREFIX=
-		DEVEL_PREFIX=${PREFIX}/
-		RUNTIME_PREFIX=${PREFIX}/
-		MULTILIB_DIR=lib/
-		MAKE_IS_SILENT=n SECHO=@echo VERBOSE=1"
-	$MAKE $MAKE_FLAGS all
-	$MAKE $MAKE_FLAGS utils
-	$MAKE $MAKE_FLAGS install install_utils
-	ln -fs "ld-$ARCH.so.0.0" "$PREFIX/lib/ld-$ARCH.so"
-	build_done uclibc
-	clean "uClibc-$UCLIBC_VERSION"
+if [ ! -f .glibc_done ]; then
+	if [ -d "glibc-build" -a -d "glibc-$GLIBC_VERSION" ]; then
+		clean glibc-build
+	else
+		clean "glibc-$GLIBC_VERSION"
+		extract_distfile "$GLIBC_URL"
+		apply_patch glibc
+
+		(cd "glibc-$GLIBC_VERSION" && \
+			sed -i 's#$ac_includes_default#\n\n#' sysdeps/i386/configure && \
+			sed -i "s#/var/db#${PREFIX}/var/db#" Makeconfig)
+	fi
+
+	mkdir glibc-build
+	cd glibc-build
+
+	# Glibc doesn't support i386, use i486.
+	case `uname -m` in
+		i?86) echo "CFLAGS += -march=i486 -mtune=native" > configparms ;;
+	esac
+
+	CC="$CCACHE $TARGET-gcc"						\
+	../glibc-"$GLIBC_VERSION"/configure					\
+		--prefix=/tools							\
+		--host=$TARGET							\
+		--build="$(../glibc-"$GLIBC_VERSION"/scripts/config.guess)"	\
+		--disable-profile						\
+		--enable-add-ons						\
+		--enable-kernel=2.6.25						\
+		--with-headers="$PREFIX"/include				\
+		libc_cv_forced_unwind=yes					\
+		libc_cv_ctors_header=yes					\
+		libc_cv_c_cleanup=yes
+
+	$MAKE
+	$MAKE install
+
+	# Test the new setup.
+	echo 'main(){}' > dummy.c
+	"$TARGET"-gcc dummy.c
+	readelf -l a.out | grep -Eq ': /tools/lib(32|64)?/ld-linux.*\.so\..+' || \
+		(echo "Dynamic linker does not seem right in the test program" ; exit 1)
+
+	build_done glibc
+	clean "glibc-$GLIBC_VERSION" glibc-build
 fi
 
 if [ ! -f .binutils2_done ]; then
 	clean binutils2-build
+
 	mkdir -p binutils2-build
 	cd binutils2-build
-	CC=$TARGET-gcc					\
+
+	CC="${CCACHE} ${CC}"				\
 	AR=$TARGET-ar					\
 	RANLIB=$TARGET-ranlib				\
 	"../binutils-$BINUTILS_VERSION/configure"	\
 		--with-lib-path="$PREFIX/lib"		\
 		--prefix="$PREFIX"			\
 		--disable-nls
+
 	$MAKE
 	$MAKE install
+
 	$MAKE -C ld clean
 	$MAKE -C ld LIB_PATH=/usr/lib:/lib
-	cp -v ld/ld-new "$PREFIX/bin"
+	cp ld/ld-new "$PREFIX/bin"
+
 	build_done binutils2
 	clean "binutils-$BINUTILS_VERSION" binutils2-build
+fi
+
+if [ ! -f .gcc2_done ]; then
+	# If gcc2-build exists that means we have a working gcc source directory
+	# in that case just wipe out the build.
+	# This saves at least 2-3 minutes on another run of
+	# gcc after a failed build.
+	if [ -d "gcc2-build" -a -d "gcc-$GCC_VERSION" ]; then
+		clean gcc2-build
+	else
+		clean "gcc-$GCC_VERSION" gcc2-build
+		extract_distfile "gcc;$GCC_URL"
+		for file in $(find "gcc-$GCC_VERSION/gcc/config" -name linux64.h -o -name linux.h -o -name sysv4.h); do
+			cp -uv "$file" "$file.orig"
+			sed -e "s@/lib\(64\)\?\(32\)\?/ld@${PREFIX}&@g" \
+				-e "s@/usr@${PREFIX}@g" "$file.orig" > "$file"
+			printf '\n\n/* Added by Obscure Linux bootstrap script */\n' >> "$file"
+			printf '#undef STANDARD_STARTFILE_PREFIX_1\n' >> "$file"
+			printf '#undef STANDARD_STARTFILE_PREFIX_2\n' >> "$file"
+			printf '#define STANDARD_STARTFILE_PREFIX_1 "%s/lib/"\n' "$PREFIX" >> "$file"
+			printf '#define STANDARD_STARTFILE_PREFIX_2 ""\n' >> "$file"
+			touch "$file.orig"
+		done
+
+		(cd "gcc-$GCC_VERSION" && \
+			cat gcc/limitx.h gcc/glimits.h gcc/limity.h > \
+				`dirname "$("$TARGET-gcc" -print-libgcc-file-name)"`/include-fixed/limits.h && \
+			cp gcc/Makefile.in{,.tmp} && \
+			sed 's/^T_CFLAGS =$/& -fomit-frame-pointer/' gcc/Makefile.in.tmp \
+				> gcc/Makefile.in)
+
+		(cd "gcc-$GCC_VERSION" && \
+			extract_distfile "$GMP_URL" && \
+			extract_distfile "mpfr-$MPFR_VERSION;$MPFR_URL" && \
+			extract_distfile "$MPC_URL" && \
+			ln -sf "gmp-$GMP_VERSION" gmp && \
+			ln -sf "mpfr-$MPFR_VERSION" mpfr && \
+			ln -sf "mpc-$MPC_VERSION" mpc && \
+			apply_patch mpfr)
+	fi
+
+	mkdir gcc2-build
+	cd gcc2-build
+
+	CC="${CCACHE} ${CC}"			\
+	AR=$TARGET-ar				\
+	RANLIB=$TARGET-ranlib			\
+	"../gcc-$GCC_VERSION/configure"		\
+		--prefix="$PREFIX"		\
+		--disable-libstdcxx-pch		\
+		--disable-multilib		\
+		--disable-bootstrap		\
+		--disable-libgomp		\
+		--enable-clocale=gnu		\
+		--enable-shared			\
+		--enable-threads=posix		\
+		--enable-__cxa_atexit		\
+		--enable-languages=c,c++	\
+		--without-ppl			\
+		--without-cloog			\
+		--with-local-prefix="$PREFIX"	\
+		--with-mpfr-include=$(pwd)/../gcc-"$GCC_VERSION"/mpfr/src	\
+		--with-mpfr-lib=$(pwd)/mpfr/src/.libs				\
+		--with-native-system-header-dir="$PREFIX/include"
+	$MAKE
+	DESTDIR="$DESTDIR" $MAKE install
+	build_done gcc2
+	clean "gcc-$GCC_VERSION" gcc2-build
 fi

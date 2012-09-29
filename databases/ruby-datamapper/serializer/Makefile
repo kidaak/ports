@@ -3,7 +3,7 @@
 COMMENT =	allows DataMapper models and collections to be serialized
 
 DISTNAME =	dm-serializer-${VERSION}
-REVISION =	1
+REVISION =	2
 
 RUN_DEPENDS =	databases/ruby-datamapper/core,${MODRUBY_FLAVOR}${DM_REL_VER_SPEC} \
 		converters/ruby-json,${MODRUBY_FLAVOR}>=1.4,<2.0 \

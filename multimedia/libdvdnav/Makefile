@@ -1,16 +1,18 @@
 # $OpenBSD$
 
+SHARED_ONLY=	Yes
+
 COMMENT=	DVD navigation library
 
 DISTNAME=	libdvdnav-4.2.0
+REVISION=	2
 EPOCH=		0
-REVISION =	0
 CATEGORIES=	multimedia
 MASTER_SITES=	${HOMEPAGE}releases/
 EXTRACT_SUFX=	.tar.bz2
 
-SHARED_LIBS=	dvdnav		6.1 \
-		dvdnavmini	6.1
+SHARED_LIBS=	dvdnav		6.2 \
+		dvdnavmini	6.2
 
 HOMEPAGE=	http://dvdnav.mplayerhq.hu/
 
@@ -20,7 +22,7 @@ PERMIT_DISTFILES_FTP=	Yes
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 
-WANTLIB=	dvdread
+WANTLIB=	dvdread pthread
 
 AUTOCONF_VERSION= 2.61
 AUTOMAKE_VERSION= 1.10

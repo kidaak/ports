@@ -3,7 +3,7 @@
 # $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/mimedefang"
-daemon_flags="-U _mdefang -P /var/spool/MIMEDefang/mimedefang.pid -p /var/spool/MIMEDefang/mimedefang.sock -m /var/spool/MIMEDefang/mimedefang-multiplexor.sock"
+daemon_flags="-G -U _mdefang -P /var/spool/MIMEDefang/mimedefang.pid -p /var/spool/MIMEDefang/mimedefang.sock -m /var/spool/MIMEDefang/mimedefang-multiplexor.sock"
 
 . /etc/rc.d/rc.subr
 

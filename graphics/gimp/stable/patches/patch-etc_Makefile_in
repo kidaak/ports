@@ -1,7 +1,7 @@
 $OpenBSD$
---- etc/Makefile.in.orig	Tue Jan 31 15:25:20 2012
-+++ etc/Makefile.in	Wed Feb  8 15:30:13 2012
-@@ -344,7 +344,7 @@ gimpdatadir = @gimpdatadir@
+--- etc/Makefile.in.orig	Wed May  2 10:56:39 2012
++++ etc/Makefile.in	Wed May  9 09:39:03 2012
+@@ -398,7 +398,7 @@ gimpdatadir = @gimpdatadir@
  gimpdir = @gimpdir@
  gimplocaledir = @gimplocaledir@
  gimpplugindir = @gimpplugindir@

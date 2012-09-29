@@ -2,7 +2,7 @@
 
 COMMENT=	validating DNS resolver
 
-DISTNAME=	unbound-1.4.16
+DISTNAME=	unbound-1.4.18
 CATEGORIES=	net
 
 MASTER_SITES=	http://www.unbound.net/downloads/
@@ -17,16 +17,16 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 SEPARATE_BUILD=		Yes
-CONFIGURE_STYLE=	autoconf
-AUTOCONF_VERSION=	2.68
+CONFIGURE_STYLE=	gnu
 USE_LIBTOOL=		Yes
 NO_REGRESS=		Yes
 
-SHARED_LIBS+=		unbound 3.2
+SHARED_LIBS+=		unbound 3.3
 
-WANTLIB=		c crypto event expat ldns>=4.10 ssl
-LIB_DEPENDS+=		net/ldns/libldns>=1.6.12
+WANTLIB=		c crypto event expat ldns>=4.11 ssl
+LIB_DEPENDS+=		net/ldns/libldns>=1.6.13
 
+CONFIGURE_ENV=		CFLAGS="${CFLAGS}"
 CONFIGURE_ARGS+=	--enable-allsymbols \
 			--with-ssl=/usr \
 			--with-libevent=/usr \

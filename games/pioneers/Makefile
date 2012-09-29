@@ -3,8 +3,7 @@
 COMMENT=	Settlers of Catan for GNOME/Gtk
 
 GNOME_PROJECT=	pioneers
-GNOME_VERSION=	0.12.3.1
-REVISION=	0
+GNOME_VERSION=	14.1
 
 CATEGORIES=	games
 
@@ -35,7 +34,8 @@ MODULES=	devel/gettext \
 		x11/gnome
 
 BUILD_DEPENDS=	${RUN_DEPENDS}
-RUN_DEPENDS=	x11/gnome/librsvg
+RUN_DEPENDS=	x11/gnome/librsvg \
+		x11/gtk+2,-guic
 LIB_DEPENDS=	x11/gnome/libgnome \
 		x11/gtk+2
 

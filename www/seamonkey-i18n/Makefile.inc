@@ -5,7 +5,7 @@ ONLY_FOR_ARCHS =	amd64 i386 powerpc
 
 PKG_ARCH =	*
 
-FV =		2.9.1
+FV =		2.12.1
 V =		${FV:C/b.$//}
 NAME =		seamonkey-i18n
 

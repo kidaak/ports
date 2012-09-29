@@ -1,0 +1,11 @@
+$OpenBSD$
+--- watchdog/wd_lifecheck.c.orig	Sun Sep 16 12:23:44 2012
++++ watchdog/wd_lifecheck.c	Sun Sep 16 12:23:52 2012
+@@ -30,6 +30,7 @@
+ #include <signal.h>
+ #include <unistd.h>
+ #include <netdb.h>
++#include <stdint.h>
+ #include "pool.h"
+ #include "pool_config.h"
+ #include "watchdog.h"

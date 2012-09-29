@@ -3,6 +3,7 @@
 COMMENT =		secure password storage
 
 DISTNAME =		pwstore-fast-2.2
+REVISION =		0
 CATEGORIES =		security
 
 # BSD3
@@ -16,6 +17,7 @@ MODULES =		lang/ghc
 MODGHC_BUILD =		cabal hackage haddock register
 
 RUN_DEPENDS =		devel/hs-base64-bytestring>=0.1 \
+			devel/hs-random>=1 \
 			security/hs-cryptohash>=0.6
 BUILD_DEPENDS =		${RUN_DEPENDS}
 

@@ -2,10 +2,9 @@
 
 COMMENT =	command line todo list manager
 
-VERSION =	2.0.0
+VERSION =	2.1.2
 DISTNAME =	task-${VERSION}
 PKGNAME =	taskwarrior-${VERSION}
-REVISION =	0
 CATEGORIES =	productivity
 
 HOMEPAGE =	http://www.taskwarrior.org/
@@ -20,6 +19,7 @@ PERMIT_DISTFILES_FTP =		Yes
 
 MODULES =		devel/cmake \
 			lang/lua
+MODLUA_SA =		Yes
 
 WANTLIB =		c e2fs-uuid m stdc++ ${MODLUA_WANTLIB}
 

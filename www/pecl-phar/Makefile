@@ -2,7 +2,7 @@
 
 COMMENT=	support for PHP archives (.phar)
 DISTNAME=	phar-2.0.0
-REVISION=	6
+REVISION=	9
 
 # PHP
 PERMIT_PACKAGE_CDROM=	Yes

@@ -1,3 +1,2 @@
 @comment $OpenBSD$
-@comment lib/gstreamer-${VERSION}/libgstlame.la
 lib/gstreamer-${VERSION}/libgstlame.so

@@ -3,7 +3,8 @@
 COMMENT=		lightweight GNOME text editor
 
 GNOME_PROJECT=		gedit
-GNOME_VERSION=		3.4.2
+GNOME_VERSION=		3.6.0
+REVISION=		0
 
 CATEGORIES=		editors
 
@@ -23,6 +24,8 @@ WANTLIB += glib-2.0 gmodule-2.0 gobject-2.0 gthread-2.0 gtk-3
 WANTLIB += gtksourceview-3.0 m pango-1.0 pangocairo-1.0 pangoft2-1.0
 WANTLIB += pcre peas-1.0 peas-gtk-1.0 pixman-1 png pthread pthread-stubs
 WANTLIB += stdc++ xcb xcb-render xcb-shm xml2 z
+WANTLIB += atk-bridge-2.0 atspi dbus-1 harfbuzz icudata icule
+WANTLIB += icuuc
 
 MODULES=		devel/dconf \
 			devel/gettext \
@@ -52,6 +55,7 @@ CONFIGURE_ARGS=		--disable-static \
 
 REGRESS_IS_INTERACTIVE=	X11
 
-USE_GROFF=		Yes
+post-install:
+	rm ${PREFIX}/lib/gedit/plugins/*.la
 
 .include <bsd.port.mk>

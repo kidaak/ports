@@ -4,6 +4,7 @@ COMMENT =	wraps web resources in model classes
 
 VERSION =	3.1.3
 DISTNAME =	activeresource-${VERSION}
+REVISION =	0
 CATEGORIES =	www
 
 # MIT License

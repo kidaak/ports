@@ -3,7 +3,7 @@
 COMMENT=		terminal emulator for X
 
 DISTNAME=		roxterm-2.0.1
-REVISION=		5
+REVISION=		6
 CATEGORIES=		x11
 
 HOMEPAGE=		http://roxterm.sourceforge.net/
@@ -32,8 +32,7 @@ LIB_DEPENDS=		devel/vte3 \
 			x11/dbus-glib \
 			devel/libglade2 
 
-BUILD_DEPENDS=		textproc/docbook-xsl \
-			textproc/libxslt
+BUILD_DEPENDS=		textproc/docbook-xsl
 
 RUN_DEPENDS=		devel/desktop-file-utils \
 			x11/gnome/librsvg \

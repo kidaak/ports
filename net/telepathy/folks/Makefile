@@ -5,6 +5,7 @@ COMMENT-tracker=	(meta-)tracker backend for folks
 
 GNOME_PROJECT=		folks
 GNOME_VERSION=		0.7.0
+REVISION=		0
 API_V=			33
 
 PKGNAME-main=		${DISTNAME}
@@ -59,7 +60,6 @@ REGRESS_DEPENDS=	${FULLPKGNAME}:${BASE_PKGPATH}
 MODGNOME_TOOLS= 	goi vala
 MODGNOME_LDFLAGS=	-Wl,-rpath,${LOCALBASE}/lib/tracker-${TRACKER_VERSION}
 
-CONFIGURE_STYLE=	gnu
 CONFIGURE_ARGS+=	--enable-import-tool \
 			--enable-inspect-tool \
 			--enable-tracker-backend \

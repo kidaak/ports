@@ -2,8 +2,7 @@
 
 COMMENT=		curses calendar front-end to remind
 
-DISTNAME=		wyrd-1.4.4
-REVISION=		3
+DISTNAME=		wyrd-1.4.5
 CATEGORIES=		productivity
 
 HOMEPAGE=		http://pessimization.com/software/wyrd/
@@ -27,12 +26,10 @@ USE_GMAKE=		Yes
 BUILD_DEPENDS=		${RUN_DEPENDS}
 RUN_DEPENDS=		misc/remind
 
-USE_GROFF=		Yes
 NO_REGRESS=		Yes
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/wyrd
 	${INSTALL_DATA} ${WRKSRC}/wyrdrc ${PREFIX}/share/examples/wyrd
-	${INSTALL_DATA} ${WRKSRC}/wyrdrc ${DESTDIR}/${SYSCONFDIR}/wyrdrc
 
 .include <bsd.port.mk>

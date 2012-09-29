@@ -16,7 +16,7 @@ $OpenBSD$
 -	$(PERL) install.pl
 +	$(PERL) install.pl --prefix ${TRUEPREFIX} --libdir ${TRUEPREFIX}/share/cbb  \
 +		--destdir ${PREFIX} --perlpath /usr/bin/perl \
-+		--wishpath ${LOCALBASE}/bin/wish8.4
++		--wishpath ${MODTK_BIN}
  
  docs/cbb-man.dvi: docs/cbb-man.tex
  	(cd docs; \

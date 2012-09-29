@@ -4,6 +4,7 @@ COMMENT=	Perl interface to gpgme
 SHARED_ONLY=	Yes
 
 DISTNAME=	Crypt-GpgME-0.09
+REVISION=	0
 CATEGORIES=	devel security
 USE_GROFF =	Yes
 
@@ -15,7 +16,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	assuan gpg-error gpgme
+WANTLIB += c assuan gpg-error gpgme
 
 MODULES=	cpan \
 		devel/gettext

@@ -3,7 +3,7 @@
 COMMENT =	network traffic monitor
 
 DISTNAME =	vnstat-1.11
-REVISION =	1
+REVISION =	2
 CATEGORIES =	net sysutils
 
 HOMEPAGE =	http://humdi.net/vnstat/

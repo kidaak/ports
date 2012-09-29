@@ -1,10 +1,10 @@
 # $OpenBSD$
 
-COMMENT =	TDD framework for node.js
+COMMENT =	TDD framework for Node.js
 
 NPM_VERSION =	0.9.2
 NPM_NAME =	expresso
-REVISION =	0
+REVISION =	1
 CATEGORIES =	devel
 
 HOMEPAGE =	http://visionmedia.github.com/expresso/

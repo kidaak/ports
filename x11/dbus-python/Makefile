@@ -2,7 +2,7 @@
 
 COMMENT =	dbus bindings for Python
 
-DISTNAME =	dbus-python-1.0.0
+DISTNAME =	dbus-python-1.1.1
 
 CATEGORIES =	x11
 

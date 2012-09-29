@@ -2,8 +2,7 @@
 
 COMMENT =		bindings to the X11 graphics library for GHC
 
-DISTNAME =		X11-1.5.0.0
-REVISION =		8
+DISTNAME =		X11-1.6.0
 
 CATEGORIES =		x11 devel
 

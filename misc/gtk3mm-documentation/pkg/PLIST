@@ -157,6 +157,7 @@ share/doc/gtkmm-3.0/tutorial/html/sec-dragcontext.html
 share/doc/gtkmm-3.0/tutorial/html/sec-draw-images.html
 share/doc/gtkmm-3.0/tutorial/html/sec-drawing-clock-example.html
 share/doc/gtkmm-3.0/tutorial/html/sec-drawing-text.html
+share/doc/gtkmm-3.0/tutorial/html/sec-exceptions-in-signal-handlers.html
 share/doc/gtkmm-3.0/tutorial/html/sec-extending-print-dialog.html
 share/doc/gtkmm-3.0/tutorial/html/sec-font-chooser-dialog.html
 share/doc/gtkmm-3.0/tutorial/html/sec-gtkmm.html

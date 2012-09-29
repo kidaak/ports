@@ -1,31 +1,26 @@
 # $OpenBSD$
 
-COMMENT=		GTK+2 widget for clutter
+COMMENT=		GTK+ widget for clutter
 
-DISTNAME=		clutter-gtk-${API_VERSION}.2
-REVISION=		7
-SHARED_LIBS +=  clutter-gtk-0.10      0.0      # .0.0
+GNOME_PROJECT=		clutter-gtk
+GNOME_VERSION=		1.3.2
+REVISION=		0
 
-MASTER_SITES=		${MASTER_SITES_CLUTTER:=clutter-gtk/${MAJOR}/}
+SHARED_LIBS +=  clutter-gtk-1.0      0.0      # .0.0
 
-MODULES=		devel/gettext
+WANTLIB += GL ICE SM X11 Xau Xcomposite Xcursor Xdamage Xdmcp
+WANTLIB += Xext Xfixes Xi Xinerama Xrandr Xrender Xxf86vm atk-1.0
+WANTLIB += atk-bridge-2.0 atspi cairo cairo-gobject clutter-1.0
+WANTLIB += cogl cogl-pango dbus-1 drm expat ffi fontconfig freetype
+WANTLIB += gdk-3 gdk_pixbuf-2.0 gio-2.0 glib-2.0 gmodule-2.0 gobject-2.0
+WANTLIB += gthread-2.0 gtk-3 harfbuzz icudata icule icuuc json-glib-1.0
+WANTLIB += m pango-1.0 pangocairo-1.0 pangoft2-1.0 pcre pixman-1
+WANTLIB += png pthread pthread-stubs stdc++ xcb xcb-render xcb-shm
+WANTLIB += z
 
-WANTLIB += GL X11 Xcomposite Xcursor Xdamage Xext Xfixes
-WANTLIB += Xi Xinerama Xrandr Xrender atk-1.0 cairo expat fontconfig
-WANTLIB += freetype gdk-x11-2.0 gdk_pixbuf-2.0 gio-2.0 glib-2.0
-WANTLIB += gmodule-2.0 gobject-2.0 gthread-2.0 gtk-x11-2.0
-WANTLIB += json-glib-1.0 m pango-1.0 pangocairo-1.0 pangoft2-1.0
-WANTLIB += pcre pixman-1 png pthread-stubs xcb z xcb-render
-WANTLIB += clutter-glx-1.0 ffi xcb-shm
+MODGNOME_TOOLS=		goi
 
-BUILD_DEPENDS=		devel/gobject-introspection
-LIB_DEPENDS=		graphics/clutter/core>=1.0.6p3 \
-			x11/gtk+2
-
-CONFIGURE_ARGS+=	${CONFIGURE_SHARED} \
-			--enable-introspection
-
-# XXX fix building with glib2 >= 2.29 (G_CONST_RETURN is deprecated)
-CFLAGS +=      "-DG_CONST_RETURN=const"
+LIB_DEPENDS=		graphics/clutter/core>=${MAJOR} \
+			x11/gtk+3
 
 .include <bsd.port.mk>

@@ -1,8 +1,6 @@
 #-*- mode: Makefile; tab-width: 4; -*-
 # ex:ts=4 sw=4 filetype=make:
 #	$OpenBSD$
-#	$FreeBSD: bsd.port.mk,v 1.264 1996/12/25 02:27:44 imp Exp $
-#	$NetBSD: bsd.port.mk,v 1.62 1998/04/09 12:47:02 hubertf Exp $
 #
 #	bsd.port.mk - 940820 Jordan K. Hubbard.
 #	This file is in the public domain.
@@ -91,10 +89,12 @@ FORCE_UPDATE ?= No
 DPB ?= All Fetch
 PREPARE_CHECK_ONLY ?= No
 _SHSCRIPT = sh ${PORTSDIR}/infrastructure/bin
+DPB_PROPERTIES ?=
 
 # All variables relevant to the port's description
 _ALL_VARIABLES = BUILD_DEPENDS IS_INTERACTIVE \
-	SUBPACKAGE MULTI_PACKAGES FLAVOR
+	SUBPACKAGE MULTI_PACKAGES FLAVOR BUILD_PACKAGES \
+	DPB_PROPERTIES
 # and stuff needing to be MULTI_PACKAGE'd
 _ALL_VARIABLES_INDEXED = FULLPKGNAME RUN_DEPENDS LIB_DEPENDS \
 	PKG_ARCH IGNORE 
@@ -122,7 +122,7 @@ _ALL_VARIABLES_PER_ARCH += BROKEN
 _ALL_VARIABLES_INDEXED += COMMENT PKGNAME \
 	ONLY_FOR_ARCHS NOT_FOR_ARCHS PKGSPEC \
 	PERMIT_PACKAGE_FTP PERMIT_PACKAGE_CDROM WANTLIB CATEGORIES DESCR \
-	EPOCH REVISION
+	EPOCH REVISION STATIC_PLIST
 .endif
 # special purpose user settings
 PATCH_CHECK_ONLY ?= No
@@ -140,6 +140,10 @@ UPDATE_COOKIES_DIR ?= ${PORTSDIR}/update/${MACHINE_ARCH}
 PLIST_DB ?= ${PORTSDIR}/plist/${MACHINE_ARCH}
 
 PACKAGE_REPOSITORY ?= ${PORTSDIR}/packages
+
+.if !exists(${X11BASE}/man/whatis.db)
+ERRORS += "Fatal: building ports requires correctly installed X11"
+.endif
 
 # local path locations
 .include "${PORTSDIR}/infrastructure/mk/pkgpath.mk"
@@ -172,7 +176,7 @@ PKG_INFO ?= /usr/sbin/pkg_info
 PKG_CREATE ?= /usr/sbin/pkg_create
 PKG_DELETE ?= /usr/sbin/pkg_delete
 
-_PKG_ADD = ${PKG_ADD} ${_PROGRESS}
+_PKG_ADD = ${PKG_ADD} ${_PROGRESS} -I
 _PKG_CREATE = ${PKG_CREATE} ${_PROGRESS}
 _PKG_DELETE = ${PKG_DELETE} ${_PROGRESS}
 
@@ -343,15 +347,11 @@ MAKE_PROGRAM = ${MAKE}
 USE_LIBTOOL ?= No
 _lt_libs =
 .if ${USE_LIBTOOL:L} != "no"
-# XXX: this chould use ifdef-OS glue.
-# Default to always use gnu libtool.
-#.  if ${USE_LIBTOOL:L} == "gnu"
-LIBTOOL ?= ${DEPBASE}/bin/libtool
-BUILD_DEPENDS += devel/libtool
-#.  else
-#LIBTOOL ?= ${PORTSDIR}/infrastructure/bin/libtool
-#MAKE_ENV += PORTSDIR="${PORTSDIR}"
-#.  endif
+.  if ${USE_LIBTOOL:L} == "gnu"
+.  else
+LIBTOOL ?= /usr/bin/libtool
+MAKE_ENV += PORTSDIR="${PORTSDIR}"
+.  endif
 CONFIGURE_ENV += LIBTOOL="${LIBTOOL} ${LIBTOOL_FLAGS}" ${_lt_libs}
 MAKE_ENV += LIBTOOL="${LIBTOOL} ${LIBTOOL_FLAGS}" ${_lt_libs}
 MAKE_FLAGS += LIBTOOL="${LIBTOOL} ${LIBTOOL_FLAGS}" ${_lt_libs}
@@ -599,7 +599,7 @@ GMAKE ?= gmake
 CHECKSUM_FILE ?= ${.CURDIR}/distinfo
 
 # Don't touch !!! Used for generating checksums.
-_CIPHERS = sha256 sha1 rmd160 md5
+_CIPHERS = sha256
 
 # This is the one you can override
 PREFERRED_CIPHERS ?= ${_CIPHERS}
@@ -727,9 +727,10 @@ PKGNAMES += ${FULLPKGNAME${_s}}
 PKGFILES += ${PKGFILE${_s}}
 .endfor
 
+STATIC_PLIST ?= Yes
 .for _s in ${MULTI_PACKAGES}
 .  for _v in PKG_ARCH PERMIT_PACKAGE_FTP PERMIT_PACKAGE_CDROM \
-	RUN_DEPENDS WANTLIB LIB_DEPENDS PREFIX CATEGORIES
+	RUN_DEPENDS WANTLIB LIB_DEPENDS PREFIX CATEGORIES STATIC_PLIST
 ${_v}${_s} ?= ${${_v}}
 .  endfor
 .endfor
@@ -886,14 +887,15 @@ PKG_ARGS${_S} ?= ${PKG_ARGS}
 PKG_ARGS${_S} += ${_PKG_ARGS}
 .  for _v in ${SUBST_VARS}
 .    if defined(${_v:S/^^//}${_S})
-PKG_ARGS${_S} += -D${_v}=${${_v:S/^^//}${_S}:Q}
+_substvars${_S} += -D${_v}=${${_v:S/^^//}${_S}:Q}
 _tmpvars += ${_v}${_S}=${${_v:S/^^//}${_S}:Q}
 .    else
-PKG_ARGS${_S} += -D${_v}=${${_v:S/^^//}:Q}
+_substvars${_S} += -D${_v}=${${_v:S/^^//}:Q}
 _tmpvars += ${_v}=${${_v:S/^^//}:Q}
 .    endif
 .  endfor
 
+PKG_ARGS${_S} += ${_substvars${_S}}
 PKG_ARGS${_S} += -DFULLPKGPATH=${FULLPKGPATH${_S}}
 PKG_ARGS${_S} += -DPERMIT_PACKAGE_CDROM=${PERMIT_PACKAGE_CDROM${_S}:Q}
 PKG_ARGS${_S} += -DPERMIT_PACKAGE_FTP=${PERMIT_PACKAGE_FTP${_S}:Q}
@@ -903,6 +905,8 @@ PKG_ARGS${_S} += -DREVISION=${REVISION${_S}}
 .  if !empty(EPOCH${_S})
 PKG_ARGS${_S} += -DEPOCH=${EPOCH${_S}}
 .  endif
+
+SUBST_CMD${_S} = ${_PERLSCRIPT}/pkg_subst ${_substvars${_S}}
 .endfor
 
 SUBST_CMD = ${_PERLSCRIPT}/pkg_subst
@@ -983,10 +987,10 @@ MTREE_FILE += ${PORTSDIR}/infrastructure/db/fake.mtree
 # Fill out package command, and package dependencies
 PKG_ARGS${_S} += -DCOMMENT=${_COMMENT${_S}:Q} -d ${DESCR${_S}}
 PKG_ARGS${_S} += -f ${PLIST${_S}} -p ${PREFIX${_S}}
-.  if defined(MESSAGE${_S})
+.  if defined(MESSAGE${_S}) && !empty(MESSAGE${_S})
 PKG_ARGS${_S} += -M ${MESSAGE${_S}}
 .  endif
-.  if defined(UNMESSAGE${_S})
+.  if defined(UNMESSAGE${_S}) && !empty(UNMESSAGE${_S})
 PKG_ARGS${_S} += -U ${UNMESSAGE${_S}}
 .  endif
 PKG_ARGS${_S} += -A'${PKG_ARCH${_S}}'
@@ -1266,10 +1270,6 @@ IGNORE += "is not an interactive port"
 _EXTRA_IGNORE += "is an interactive port: missing files"
 .endif
 
-.if !exists(${X11BASE})
-IGNORE += "building ports requires X11 but ${X11BASE} not found"
-.endif
-
 .if ${SHARED_ONLY:L} == "yes" && ${NO_SHARED_LIBS:L} == "yes"
 IGNORE += "requires shared libraries"
 .endif
@@ -1501,6 +1501,7 @@ ECHO_REORDER ?= :
 
 # Lock infrastructure:
 # to remove locks handling, define LOCKDIR to an empty value
+LOCKDIR ?= ${WRKOBJDIR}/locks
 
 LOCK_CMD ?= ${_PERLSCRIPT}/dolock
 UNLOCK_CMD ?= rm -f
@@ -1537,6 +1538,31 @@ _SIMPLE_LOCK = \
 .endif
 _SIMPLE_LOCK ?= :
 _DO_LOCK ?= :
+
+CHECKSUM_PACKAGES ?= No
+_PACKAGE_CHECKSUM_DIR = ${PACKAGE_REPOSITORY}/${MACHINE_ARCH}/cksums
+
+_do_checksum_package = \
+	mkdir -p ${_PACKAGE_CHECKSUM_DIR} && \
+	cd ${_TMP_REPO} && \
+	cksum -b -a sha256 $$pkgname \
+		>${_PACKAGE_CHECKSUM_DIR}/`basename $$pkgname .tgz`.sha256
+
+.if ${CHECKSUM_PACKAGES:L} == "yes"
+_checksum_package = ${_do_checksum_package}
+.elif ${CHECKSUM_PACKAGES:L} == "ftp"
+_checksum_package = \
+	case $${permit_ftp} in yes) \
+		${_do_checksum_package};; \
+	esac
+.elif ${CHECKSUM_PACKAGES:L} == "cdrom"
+_checksum_package = \
+	case $${permit_cdrom} in yes) \
+		${_do_checksum_package};; \
+	esac
+.else
+_checksum_package = :
+.endif
 
 _size_fragment = wc -c $$file 2>/dev/null| \
 	awk '{print "SIZE (" $$2 ") = " $$1}'
@@ -1655,6 +1681,13 @@ _CHECK_LIB_DEPENDS += -d ${_PKG_REPO} -B ${WRKINST}
 _CHECK_LIB_DEPENDS += -o
 .  endif
 
+.for _s in ${MULTI_PACKAGES}
+.  if ${STATIC_PLIST${_s}:L} == "no"
+_register_plist${_s} = :
+.  else
+_register_plist${_s} = ${_register_plist}
+.  endif
+.endfor
 
 ###
 ### end of variable setup. Only targets now
@@ -1704,13 +1737,14 @@ ${_PACKAGE_COOKIE${_S}}:
 	@${ECHO_MSG} "===>  Building package for ${FULLPKGNAME${_S}}"
 	@${ECHO_MSG} "Create ${_PACKAGE_COOKIE${_S}}"
 	@cd ${.CURDIR} && \
-	tmp=${_TMP_REPO}${_PKGFILE${_S}} && \
+	tmp=${_TMP_REPO}${_PKGFILE${_S}} pkgname=${_PKGFILE${_S}} permit_ftp=${PERMIT_PACKAGE_FTP${_S}:L:Q} permit_cdrom=${PERMIT_PACKAGE_CDROM${_S}:L:Q} && \
 	if deps=`SUBPACKAGE=${_S} wantlib_args=${_pkg_wantlib_args} \
 			${MAKE} print-package-args` && \
 		${SUDO} ${_PKG_CREATE} -DPORTSDIR="${PORTSDIR}" \
 			$$deps ${PKG_ARGS${_S}} $$tmp && \
 		${_check_lib_depends} $$tmp && \
-		${_register_plist} $$tmp && \
+		${_register_plist${_S}} $$tmp && \
+		${_checksum_package} && \
 		mv $$tmp ${_PACKAGE_COOKIE${_S}} && \
 		mode=`id -u`:`id -g` && \
 		${SUDO} chown $${mode} ${_PACKAGE_COOKIE${_S}}; then \
@@ -2141,7 +2175,7 @@ _internal-install-all: ${_INSTALL_COOKIES}
 _internal-fake: ${_FAKE_COOKIE}
 _internal-subupdate: ${_UPDATE_COOKIE${SUBPACKAGE}}
 _internal-update: ${_UPDATE_COOKIES}
-_internal-update-or-install: ${_FUPDATE_COOKIE${SUBPACKAGE}
+_internal-update-or-install: ${_FUPDATE_COOKIE${SUBPACKAGE}}
 _internal-update-or-install-all: ${_FUPDATE_COOKIES}
 
 
@@ -2229,7 +2263,7 @@ unlock:
 .endfor
 
 subpackage:
-	@${_DO_LOCK}; ${_cache_fragment}; cd ${.CURDIR} && ${MAKE} _internal-subpackage
+	@${_DO_LOCK}; (${_cache_fragment}; cd ${.CURDIR} && ${MAKE} _internal-subpackage)
 
 _internal-package: 
 	@${_cache_fragment}; cd ${.CURDIR} && ${MAKE} _internal-package-only
@@ -2258,6 +2292,11 @@ ${_WRKDIR_COOKIE}:
 	@rm -rf ${WRKDIR}
 	@if test -h ${PORTSDIR}; then \
 		echo 1>&2 "Fatal: ${PORTSDIR} is a symlink. Please set to the real directory"; \
+		exit 1; \
+	fi
+	@appdefaults=${LOCALBASE}/lib/X11/app-defaults; \
+	if ! test -d $$appdefaults -a -h $$appdefaults; then \
+		echo 1>&2 "Fatal: $$appdefaults should exist and be a symlink"; \
 		exit 1; \
 	fi
 	@mkdir -p ${WRKDIR} ${WRKDIR}/bin ${DEPDIR}
@@ -2575,7 +2614,7 @@ ${_FAKE_COOKIE}: ${_BUILD_COOKIE}
 	@if test -e ${PKGDIR}/README${_s}; then \
 		r=${WRKINST}${_README_DIR}/${FULLPKGNAME${_s}}; \
 		echo "Installing ${PKGDIR}/README${_s} as $$r"; \
-		${SUDO} ${SUBST_CMD} -o ${SHAREOWN} -g ${SHAREGRP} -c ${PKGDIR}/README${_s} $$r; \
+		${SUDO} ${SUBST_CMD${_s}} -o ${SHAREOWN} -g ${SHAREGRP} -c ${PKGDIR}/README${_s} $$r; \
 	fi
 .  endfor
 .endif
@@ -2638,7 +2677,7 @@ print-plist-libs:
 
 _internal-package-only: ${_PACKAGE_COOKIES}
 
-_internal-subpackage: ${_PACKAGE_COOKIES${SUBPACKAGE}
+_internal-subpackage: ${_PACKAGE_COOKIES${SUBPACKAGE}}
 
 # Separate target for each file fetch-all will retrieve
 
@@ -2972,7 +3011,7 @@ _print-package-signature-run:
 	@${_emit_run_depends} |while ${_read_spec}; do \
 		${_parse_spec}; \
 		${_compute_default}; \
-		echo "$$default"; \
+		echo "@$$default"; \
 	done
 
 _print-package-signature-lib:
@@ -2980,7 +3019,7 @@ _print-package-signature-lib:
 	${_emit_lib_depends}| while ${_read_spec}; do \
 		${_if_check_needed}; then \
 			${_complete_pkgspec}; \
-			echo "$$default"; \
+			echo "@$$default"; \
 		fi; \
 	done
 

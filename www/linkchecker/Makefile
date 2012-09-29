@@ -2,9 +2,8 @@
 
 COMMENT=	checks HTML documents for broken links
 
-MODPY_EGG_VERSION=7.1
+MODPY_EGG_VERSION=7.9
 DISTNAME=	LinkChecker-${MODPY_EGG_VERSION}
-REVISION=	1
 PKGNAME=	${DISTNAME:L}
 
 CATEGORIES=    	www
@@ -24,11 +23,10 @@ EXTRACT_SUFX=	.tar.bz2
 
 MODULES=	lang/python
 
-MODPY_DISTUTILS_INSTALLARGS=	--no-compile
-
 WANTLIB+=	${MODPY_WANTLIB}
 
-RUN_DEPENDS=	net/py-dnspython
+RUN_DEPENDS=	devel/desktop-file-utils \
+		net/py-dnspython
 
 NO_REGRESS=	Yes
 

@@ -41,6 +41,7 @@ lib/ghc/${DISTNAME}/Data/Text/Lazy/IO.hi
 lib/ghc/${DISTNAME}/Data/Text/Lazy/Internal.hi
 lib/ghc/${DISTNAME}/Data/Text/Lazy/Read.hi
 lib/ghc/${DISTNAME}/Data/Text/Lazy/Search.hi
+lib/ghc/${DISTNAME}/Data/Text/Private.hi
 lib/ghc/${DISTNAME}/Data/Text/Read.hi
 lib/ghc/${DISTNAME}/Data/Text/Search.hi
 lib/ghc/${DISTNAME}/Data/Text/Unsafe/

@@ -1,4 +1,0 @@
-@comment $OpenBSD$
-@comment lib/jpilot/plugins/libsyncmal.a
-@comment lib/jpilot/plugins/libsyncmal.la
-lib/jpilot/plugins/libsyncmal.so

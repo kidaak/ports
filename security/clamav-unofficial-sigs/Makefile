@@ -3,6 +3,7 @@
 COMMENT =	fetch and update unofficial signatures for ClamAV
 
 DISTNAME =	clamav-unofficial-sigs-3.7.1
+REVISION =	0
 
 CATEGORIES =	security mail
 

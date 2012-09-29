@@ -344,3 +344,5 @@ myreview/tmpPdf/
 myreview/tmpPdf/tmpF1i7ad.pdf
 myreview/trash/
 myreview/trash/FormConfig.php
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

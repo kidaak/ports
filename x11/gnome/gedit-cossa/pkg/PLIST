@@ -1,9 +1,7 @@
 @comment $OpenBSD$
 @bin bin/cossa-standalone-previewer
 lib/gedit/plugins/cossa.plugin
-lib/gedit/plugins/libcossa.a
-@comment lib/gedit/plugins/libcossa.la
-@lib lib/gedit/plugins/libcossa.so.${LIBcossa_VERSION}
+lib/gedit/plugins/libcossa.so
 share/gedit/plugins/cossa/
 share/gedit/plugins/cossa/samples/
 share/gedit/plugins/cossa/samples/calendar.ui

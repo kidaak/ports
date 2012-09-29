@@ -1,7 +1,0 @@
-@comment $OpenBSD$
-@bin bin/prelude-pflogger
-share/doc/pkg-readmes/${FULLPKGNAME}
-share/examples/pflogger/
-share/examples/pflogger/prelude-pflogger.conf
-@sample ${SYSCONFDIR}/prelude-pflogger/
-@sample ${SYSCONFDIR}/prelude-pflogger/prelude-pflogger.conf

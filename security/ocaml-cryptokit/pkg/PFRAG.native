@@ -1,0 +1,5 @@
+@comment $OpenBSD$
+lib/ocaml/cryptokit/cryptokit.a
+lib/ocaml/cryptokit/cryptokit.cmx
+lib/ocaml/cryptokit/cryptokit.cmxa
+%%dynlink%%

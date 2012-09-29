@@ -2,9 +2,8 @@
 
 COMMENT =		HTTP reverse proxy/load balancer/SSL offload
 
-DISTNAME =		Pound-2.5
+DISTNAME =		Pound-2.6
 PKGNAME =		${DISTNAME:L}
-REVISION =		2
 
 CATEGORIES =		www
 
@@ -29,7 +28,6 @@ CONFIGURE_ARGS +=	CPPFLAGS="-I${LOCALBASE}/include" \
 			--with-owner=root \
 			--with-group=bin
 
-USE_GROFF =		Yes
 NO_REGRESS =		Yes
 
 pre-configure:

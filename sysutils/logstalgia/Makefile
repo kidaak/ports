@@ -21,6 +21,8 @@ WANTLIB += ftgl GL GLU SDL SDL_image c jpeg m pcre png pthread stdc++
 MODULES =	converters/libiconv
 
 CONFIGURE_STYLE =gnu
+CONFIGURE_ENV=	CPPFLAGS="-I${X11BASE}/include" \
+		LDFLAGS="-L${X11BASE}/lib"
 
 LIB_DEPENDS =	graphics/ftgl \
 		devel/pcre \

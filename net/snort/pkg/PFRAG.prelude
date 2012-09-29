@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@exec usermod -G _prelude _snort

@@ -5,7 +5,7 @@ SHARED_ONLY =		Yes
 COMMENT =		retrieve names of code references
 
 DISTNAME =		Sub-Identify-0.04
-REVISION =		2
+REVISION =		3
 CATEGORIES =		devel
 
 # perl
@@ -13,6 +13,8 @@ PERMIT_PACKAGE_CDROM =	Yes
 PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =	Yes
 PERMIT_DISTFILES_FTP =	Yes
+
+WANTLIB += c
 
 MODULES =		cpan
 USE_GROFF =		Yes

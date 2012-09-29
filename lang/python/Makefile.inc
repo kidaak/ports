@@ -82,10 +82,10 @@ LIB_DEPENDS-bsddb +=	databases/db/v4,no_tcl,no_java,bootstrap
 LIB_DEPENDS-bsddb +=	databases/db/v4
 .endif
 
-WANTLIB-bsddb =		lib/db4/db>=4 python${VERSION}${LIB_SUFX}
+WANTLIB-bsddb =		lib/db4/db>=4 python${VERSION}${LIB_SUFX} c pthread
 LIB_DEPENDS-gdbm =	databases/gdbm \
 			lang/python/${VERSION},-main
-WANTLIB-gdbm =		gdbm>=3 python${VERSION}${LIB_SUFX}
+WANTLIB-gdbm =		gdbm>=3 python${VERSION}${LIB_SUFX} c pthread
 RUN_DEPENDS-idle =	${RUN_DEPENDS} \
 			lang/python/${VERSION},-tkinter
 # XXX Tcl/Tk version number handled in patch-setup_py
@@ -93,6 +93,7 @@ MODULES +=		x11/tk
 LIB_DEPENDS-tkinter =	${MODTK_LIB_DEPENDS} \
 			lang/python/${VERSION},-main
 WANTLIB-tkinter =	X11 ${MODTK_WANTLIB} python${VERSION}${LIB_SUFX}
+WANTLIB-tkinter +=	c pthread
 
 .if ${VERSION} < 3.2
 .if ${PROPERTIES:Mlp64}

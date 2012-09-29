@@ -1,3 +1,2 @@
 @comment $OpenBSD$
-@comment lib/gstreamer-${VERSION}/libgstdv.la
 lib/gstreamer-${VERSION}/libgstdv.so

@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.121 1997/11/17 10:14:33 tg Exp $
-#
 
      SUBDIR =
      SUBDIR += WordGenerator
@@ -13,7 +11,9 @@
      SUBDIR += cbb
      SUBDIR += ccze
      SUBDIR += cdrdao
+     SUBDIR += cdrdao,audio
      SUBDIR += clex
+     SUBDIR += cmdpack
      SUBDIR += deco
      SUBDIR += delay
      SUBDIR += dialog

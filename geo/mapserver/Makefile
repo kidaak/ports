@@ -9,6 +9,8 @@ COMMENT-php=	PHP Mapscript extension
 COMMENT-perl=	Perl Mapscript binding
 
 V =		6.0.2
+REVISION-perl=	0
+REVISION-php=	1
 DISTNAME=	mapserver-${V}
 PKGNAME-main=	${DISTNAME}
 PKGNAME-utils=	mapserver-utils-${V}
@@ -50,8 +52,8 @@ WANTLIB += pixman-1 pthread-stubs xcb xcb-render xcb-shm
 
 WANTLIB-main=	${WANTLIB} pthread c gif
 WANTLIB-utils=	${WANTLIB} pthread c gif
-WANTLIB-php=	${WANTLIB}
-WANTLIB-perl=	${WANTLIB} gif
+WANTLIB-php=	${WANTLIB} c pthread
+WANTLIB-perl=	${WANTLIB} c gif
 
 USE_GMAKE=	yes
 CONFIGURE_STYLE=gnu

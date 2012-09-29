@@ -3,7 +3,7 @@
 COMMENT=		simple, blog aware, static site generator
 
 DISTNAME=		jekyll-0.8.0
-REVISION=	0
+REVISION=	1
 CATEGORIES=		www
 
 HOMEPAGE=		http://jekyllrb.com/

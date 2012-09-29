@@ -1,7 +1,7 @@
 $OpenBSD$
---- mozilla/toolkit/xre/nsXREDirProvider.cpp.orig	Fri Mar  9 21:29:48 2012
-+++ mozilla/toolkit/xre/nsXREDirProvider.cpp	Sat Mar 10 13:20:27 2012
-@@ -1131,11 +1131,7 @@ nsXREDirProvider::GetSystemExtensionsDirectory(nsILoca
+--- mozilla/toolkit/xre/nsXREDirProvider.cpp.orig	Sat Aug 25 02:31:34 2012
++++ mozilla/toolkit/xre/nsXREDirProvider.cpp	Sat Sep  1 01:59:42 2012
+@@ -1177,11 +1177,7 @@ nsXREDirProvider::GetSystemExtensionsDirectory(nsILoca
    NS_ENSURE_SUCCESS(rv, rv);
  #elif defined(XP_UNIX)
    static const char *const sysSExtDir = 

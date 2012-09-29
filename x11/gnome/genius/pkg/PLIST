@@ -17,8 +17,6 @@ include/genius/plug_api.h
 include/genius/structs.h
 include/genius/utype.h
 lib/genius/
-@comment lib/genius/libtestplugin.a
-@comment lib/genius/libtestplugin.la
 lib/genius/libtestplugin.so
 @bin libexec/genius-readline-helper-fifo
 share/application-registry/
@@ -195,8 +193,8 @@ share/omf/genius/genius-cs.omf
 share/omf/genius/genius-de.omf
 share/omf/genius/genius-es.omf
 share/omf/genius/genius-fr.omf
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-mime-database %D/share/mime
 @unexec-delete %D/bin/update-mime-database %D/share/mime
 @exec %D/bin/update-desktop-database

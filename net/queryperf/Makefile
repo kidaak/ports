@@ -2,12 +2,12 @@
 
 COMMENT =	DNS query performance tester from BIND 9
 
-VERSION =	9.7.3
-DISTNAME =	bind-${VERSION}
-PKGNAME =	queryperf-${VERSION}
+V =		9.9.1-P1
+DISTNAME =	bind-$V
+PKGNAME =	queryperf-${V:S/-P/pl/}
 CATEGORIES =	net benchmarks
 
-MASTER_SITES +=	${MASTER_SITE_ISC:=bind9/${VERSION}/}
+MASTER_SITES +=	${MASTER_SITE_ISC:=bind9/$V/}
 
 HOMEPAGE =	http://www.isc.org/products/BIND/
 

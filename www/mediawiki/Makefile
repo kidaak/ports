@@ -2,7 +2,9 @@
 
 COMMENT =	web-based collaborative editing environment
 
-DISTNAME =	mediawiki-1.19.0
+V =		1.19.2
+DISTNAME =	mediawiki-${V}
+REVISION =	0
 CATEGORIES =	www
 
 HOMEPAGE =	http://www.mediawiki.org/
@@ -15,7 +17,7 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-MASTER_SITES=	http://download.wikimedia.org/mediawiki/1.19/
+MASTER_SITES=	http://download.wikimedia.org/mediawiki/${V:R}/
 
 NO_BUILD=	Yes
 NO_REGRESS=	Yes

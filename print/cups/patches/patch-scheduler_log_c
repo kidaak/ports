@@ -2,8 +2,8 @@ $OpenBSD$
 
 log.c:289: warning: passing argument 1 of 'localtime' from incompatible pointer type
 
---- scheduler/log.c.orig	Mon Feb  6 13:30:19 2012
-+++ scheduler/log.c	Mon Feb  6 13:31:24 2012
+--- scheduler/log.c.orig	Thu Jan  5 06:50:57 2012
++++ scheduler/log.c	Sat Feb  4 15:58:39 2012
 @@ -235,6 +235,7 @@ char *					/* O - Date/time string */
  cupsdGetDateTime(struct timeval *t,	/* I - Time value or NULL for current */
                   cupsd_time_t   format)	/* I - Format to use */

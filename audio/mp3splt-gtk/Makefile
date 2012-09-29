@@ -3,7 +3,7 @@
 COMMENT =	graphical mp3/ogg file splitter
 
 DISTNAME =	mp3splt-gtk-0.5.4
-REVISION =	9
+REVISION =	11
 
 CATEGORIES =	audio
 

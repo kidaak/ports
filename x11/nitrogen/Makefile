@@ -3,7 +3,7 @@
 COMMENT=		background browser and setter for X11
 
 DISTNAME=		nitrogen-1.5.2
-REVISION=		2
+REVISION=		4
 CATEGORIES=		x11 graphics
 
 HOMEPAGE=		http://projects.l3ib.org/nitrogen/
@@ -34,9 +34,8 @@ RUN_DEPENDS=		x11/gnome/icon-theme \
 			x11/gtk+2,-guic
 
 CONFIGURE_STYLE=	gnu
-CONFIGURE_ARGS+=	--disable-xinerama \
-			--disable-inotify
+CONFIGURE_ARGS+=	--disable-inotify
 CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include" \
-			LDFLAGS="-L${LOCALBASE}/lib"
+			LDFLAGS="-L${X11BASE}/lib -L${LOCALBASE}/lib"
 
 .include <bsd.port.mk>

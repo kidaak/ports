@@ -3,7 +3,7 @@ $OpenBSD$
 +++ rubynative/estcmd.rb	Thu Apr 12 14:42:29 2007
 @@ -1,4 +1,4 @@
 -#! /usr/bin/ruby -w
-+#! /usr/bin/env ruby
++#! ${RUBY}
  #--
  # Ruby binding of Hyper Estraier
  #                                                       Copyright (C) 2004-2007 Mikio Hirabayashi

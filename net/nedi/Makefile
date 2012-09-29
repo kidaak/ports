@@ -4,7 +4,7 @@ COMMENT =			network discovery tool
 
 DISTNAME =			nedi-bsd-1.0.7
 PKGNAME =			nedi-1.0.7
-REVISION =			0
+REVISION =			1
 EXTRACT_SUFX =			.tgz
 CATEGORIES =			net
 

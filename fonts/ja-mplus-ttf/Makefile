@@ -4,11 +4,9 @@ COMMENT=	high quality japanese truetype fonts
 
 DISTNAME=	mixfont-mplus-ipa-TrueType-20060520
 PKGNAME=	ja-mplus-ttf-20060520
-REVISION=	1
+REVISION=	2
 EXTRACT_SUFX=	.tar.bz2
 CATEGORIES=	fonts japanese x11
-
-MAINTAINER=	Mathieu Sauve-Frankel <msf@openbsd.org>
 
 # BSD
 PERMIT_PACKAGE_CDROM=	Yes

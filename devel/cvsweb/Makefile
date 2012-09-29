@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: ports/devel/cvsweb/Makefile,v 1.28 2000/09/23 20:48:45 knu Exp $
 
 COMMENT=	WWW CGI script to browse CVS repository trees
 

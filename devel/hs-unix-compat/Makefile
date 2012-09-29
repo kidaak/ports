@@ -2,8 +2,7 @@
 
 COMMENT =		portable POSIX-compatibility layer
 
-DISTNAME =		unix-compat-0.2
-REVISION=		0
+DISTNAME =		unix-compat-0.3.0.1
 CATEGORIES =		devel
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>

@@ -2,8 +2,7 @@
 
 COMMENT =		portable sendfile functionality
 
-DISTNAME =		sendfile-0.7.2
-REVISION =		1
+DISTNAME =		sendfile-0.7.6
 CATEGORIES =		devel
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>
@@ -19,7 +18,7 @@ MODULES =		lang/ghc
 MODGHC_BUILD =		cabal hackage haddock register
 
 RUN_DEPENDS +=		devel/hs-mtl \
-			devel/hs-network
+			devel/hs-network>=2,<3
 BUILD_DEPENDS +=	${RUN_DEPENDS}
 
 .include <bsd.port.mk>

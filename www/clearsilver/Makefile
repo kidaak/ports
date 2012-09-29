@@ -10,6 +10,7 @@ V=		0.10.4
 DISTNAME=	clearsilver-${V}
 EPOCH=		0
 REVISION=	7
+REVISION-perl=	8
 PKGNAME-main=	${DISTNAME}
 PKGNAME-perl=	clearsilver-perl-${V}
 PKGNAME-python=	clearsilver-python-${V}

@@ -13,6 +13,7 @@ MODPY_ADJ_FILES=	bin/pinocchio-ctl
 
 USE_LIBTOOL=		No
 USE_GMAKE=		No
+CONFIGURE_STYLE=	# empty
 NO_REGRESS=		Yes
 
 pre-configure:

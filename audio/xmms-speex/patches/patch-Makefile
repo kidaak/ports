@@ -18,7 +18,7 @@ $OpenBSD$
  
  libspeex.so: libspeex.c libspeex.h $(OBJS) $(GUIOBJS)
 -	$(CC) -shared -logg -lspeex -lgtk -lpthread -lxmms $(INCDIRS) $(CFLAGS) -DVERSION=$(VERSION) -DPACKAGE=\"libspeex\" -o libspeex.so libspeex.c $(OBJS) $(GUIOBJS)
-+	$(CC) -shared -lspeex -logg -lm -pthread -lxmms $(LIBDIRS) $(INCDIRS) $(CFLAGS) -DVERSION=$(VERSION) -DPACKAGE=\"libspeex\" -o libspeex.so libspeex.c $(OBJS) $(GUIOBJS)
++	$(CC) -shared -lspeex -logg -lm -lpthread -lxmms $(LIBDIRS) $(INCDIRS) $(CFLAGS) -DVERSION=$(VERSION) -DPACKAGE=\"libspeex\" -o libspeex.so libspeex.c $(OBJS) $(GUIOBJS)
  
  #utf8.o: utf8.c utf8.h
  #	$(CC) -c $(INCDIRS) $(CFLAGS) -DHAVE_ICONV -DICONV_CONST= -o utf8.o utf8.c

@@ -1,5 +1,8 @@
 # $OpenBSD$
 
+BROKEN-sparc64 =	ICE in scipy/optimize/minpack/qrsolv.f:189
+BROKEN-hppa =		ICE in scipy/special/specfun/specfun.f:5151
+
 COMMENT=		maths, science and engineering modules for Python
 
 MODPY_EGG_VERSION=	0.10.0

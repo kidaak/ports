@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.2 1998/08/11 09:57:51 andreas Exp $
 
 COMMENT=	network usage, interface similar to top(1)
 

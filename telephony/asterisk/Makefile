@@ -3,14 +3,9 @@
 SHARED_ONLY=		Yes
 COMMENT-main=		open source multi-protocol PBX and telephony toolkit
 
-VER=			1.8.12.2
+VER=			10.8.0
 DISTNAME=		asterisk-${VER:S/beta/-beta/:S/rc/-rc/}
 PKGNAME-main=		asterisk-${VER}
-
-SOUNDS=			CORE MOH EXTRA
-SOUNDS_CORE=		asterisk-core-sounds-en-gsm-1.4.22
-SOUNDS_MOH=		asterisk-moh-opsound-wav-2.03
-SOUNDS_EXTRA=		asterisk-extra-sounds-en-gsm-1.4.11
 
 CATEGORIES=		telephony
 
@@ -20,8 +15,8 @@ MAINTAINER=		Stuart Henderson <sthen@openbsd.org>
 
 # Mostly GPL v2 (only). "Specific permission is also granted to link
 # Asterisk with OpenSSL and OpenH323 and distribute the resulting binary
-# files." core-sounds-*: GPLv2/CC-BY-SA. iLBC codec has BSD-like license
-# terms, but also see patent notes in codecs/ilbc/LICENSE_ADDENDUM.
+# files." iLBC codec has BSD-like license terms, but also see patent
+# notes in codecs/ilbc/LICENSE_ADDENDUM.
 PERMIT_PACKAGE_CDROM=	patent licensing clauses
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM= patent licensing clauses
@@ -39,8 +34,6 @@ MULTI_PACKAGES=		-main -calendar -http_post -ldap -odbc \
 PSEUDO_FLAVORS=		no_calendar no_http_post no_ldap no_odbc \
 			no_pgsql no_snmp no_speex
 
-SUBST_VARS+=		${SOUNDS:S/^/SOUNDS_/}
-
 LIB_DEPENDS-main=	audio/gsm \
 			audio/libogg \
 			audio/libvorbis \
@@ -51,21 +44,16 @@ LIB_DEPENDS-main=	audio/gsm \
 			textproc/iksemel \
 			textproc/libxml \
 			${MODGETTEXT_LIB_DEPENDS}
-RUN_DEPENDS-main=	${MODGETTEXT_RUN_DEPENDS}
+RUN_DEPENDS-main=	${MODGETTEXT_RUN_DEPENDS} \
+			telephony/asterisk-sounds/core-sounds/en,gsm \
+			telephony/asterisk-sounds/moh-opsound,wav
 BUILD_DEPENDS=		security/libsrtp>=1.4.4 # statically linked
 
-MASTER_SITES=	http://downloads.digium.com/pub/telephony/asterisk/releases/ \
-		http://downloads.digium.com/pub/telephony/asterisk/old-releases/
-MASTER_SITES0=	${MASTER_SITES:C/asterisk/sounds/}
+MASTER_SITES=	http://downloads.asterisk.org/pub/telephony/asterisk/releases/ \
+		http://downloads.asterisk.org/pub/telephony/asterisk/old-releases/
 
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
-
-.for i in ${SOUNDS}
-SVER_$i = ${SOUNDS_$i:C/^[-a-z]*//}
-SUBST_VARS += SVER_$i
-DISTFILES += ${SOUNDS_$i}${EXTRACT_SUFX}:0 ${SOUNDS_$i}${EXTRACT_SUFX}.sha1:0
-.endfor
 
 USE_GMAKE=		Yes
 USE_LIBTOOL=		Yes
@@ -88,13 +76,14 @@ MAKE_FLAGS+=		ASTCFLAGS="${CFLAGS}" \
 			NOISY_BUILD="Yes" \
 			OPTIMIZE=
 
-CONFIGURE_ARGS+=	--with-sounds-cache=${DISTDIR}
+CONFIGURE_ARGS+=	--localstatedir=/var
 
 CONFIGURE_ARGS+=	--with-asound=no \
 			--with-avcodec=no \
 			--with-cap=no \
 			--with-dahdi=no \
 			--with-gtk2=no \
+			--with-h323=no \
 			--with-isdnnet=no \
 			--with-misdn=no \
 			--with-nbs=no \
@@ -102,6 +91,7 @@ CONFIGURE_ARGS+=	--with-asound=no \
 			--with-osptk=no \
 			--with-oss=no \
 			--with-pri=no \
+			--with-pwlib=no \
 			--with-SDL_image=no \
 			--with-sdl=no \
 			--with-sqlite=no \
@@ -114,7 +104,6 @@ CONFIGURE_ARGS+=	--with-asound=no \
 CONFIGURE_ARGS+=	--with-jack=no \
 			--with-lua=no \
 			--with-portaudio=no \
-			--with-pwlib=no \
 			--with-radius=no \
 			--with-resample=no \
 			--with-tds=no
@@ -185,7 +174,7 @@ CONFIGURE_ARGS+=	--with-ldap=no
 # odbc
 COMMENT-odbc=		ODBC support for Asterisk
 LIB_DEPENDS-odbc=	databases/iodbc
-WANTLIB-odbc=		iodbc
+WANTLIB-odbc=		iodbc pthread
 .if !${BUILD_PACKAGES:M-odbc}
 CONFIGURE_ARGS+=	--with-iodbc=no \
 			--with-ltdl=no
@@ -229,10 +218,6 @@ RUN_DEPENDS$i +=	asterisk-${VER}:${BUILD_PKGPATH}
 .endfor
 
 post-patch:
-	@grep _VERSION:= ${WRKSRC}/sounds/Makefile # maintainer aid
-.for i in ${SOUNDS}
-	@echo ${SOUNDS_$i}
-.endfor
 	cd ${WRKSRC}; \
 	    AUTOMAKE_VERSION=${AUTOMAKE_VERSION} \
 	    AUTOCONF_VERSION=${AUTOCONF_VERSION} \
@@ -254,7 +239,6 @@ post-install:
 		${WRKSRC}/contrib/scripts/asterisk.ldap-schema \
 		${PREFIX}/share/examples/asterisk/
 	@mv ${WRKINST}/${SYSCONFDIR}/asterisk ${EXAMPLEDIR}/default
-	@mv ${WRKINST}/var/spool/asterisk/voicemail ${EXAMPLEDIR}/voicemail
 	@chown -R ${SHAREOWN}:${SHAREGRP} ${EXAMPLEDIR}
 	@rm -rf ${WRKINST}/{etc,var/{log,run,spool}}/asterisk
 

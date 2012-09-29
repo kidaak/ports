@@ -3,8 +3,7 @@
 COMMENT=		dialogs for GNOME
 
 GNOME_PROJECT=		zenity
-GNOME_VERSION=		3.4.0
-REVISION=		1
+GNOME_VERSION=		3.6.0
 
 HOMEPAGE=		https://live.gnome.org/Zenity
 

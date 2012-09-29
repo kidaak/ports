@@ -16,10 +16,6 @@ share/examples/mirmon/countries.list
 @sample /var/www/htdocs/mirmon/
 @owner
 @sample /var/db/mirmon/countries.list
-share/examples/mirmon/mirmon.db
-@owner _mirmon
-@sample /var/db/mirmon/mirmon.db
-@owner
 share/examples/mirmon/icons/
 @sample /var/www/htdocs/mirmon/icons/
 share/examples/mirmon/icons/bar.gif
@@ -235,3 +231,6 @@ share/examples/mirmon/icons/vbrw.gif
 @sample /var/www/htdocs/mirmon/icons/vbrw.gif
 share/examples/mirmon/mirmon.conf
 @sample /etc/mirmon.conf
+share/examples/mirmon/mirmon.db
+@owner _mirmon
+@sample /var/db/mirmon/mirmon.db

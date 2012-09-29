@@ -57,50 +57,30 @@ lib/pkgconfig/tracker-miner-${MAJ_V}.pc
 lib/pkgconfig/tracker-sparql-${MAJ_V}.pc
 lib/tracker-${MAJ_V}/
 lib/tracker-${MAJ_V}/extract-modules/
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-abw.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-abw.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-epub.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-epub.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-gif.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-gif.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-gstreamer.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-gstreamer.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-html.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-html.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-icon.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-icon.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-jpeg.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-jpeg.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-mp3.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-mp3.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-msoffice-xml.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-msoffice-xml.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-msoffice.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-msoffice.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-oasis.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-oasis.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-pdf.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-pdf.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-playlist.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-playlist.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-png.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-png.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-ps.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-ps.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-text.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-text.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-tiff.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-tiff.so
-@comment lib/tracker-${MAJ_V}/extract-modules/libextract-xmp.la
 lib/tracker-${MAJ_V}/extract-modules/libextract-xmp.so
 lib/tracker-${MAJ_V}/libtracker-common.la
 @lib lib/tracker-${MAJ_V}/libtracker-common.so.${LIBtracker-common_VERSION}
 lib/tracker-${MAJ_V}/libtracker-data.la
 @lib lib/tracker-${MAJ_V}/libtracker-data.so.${LIBtracker-data_VERSION}
 lib/tracker-${MAJ_V}/writeback-modules/
-@comment lib/tracker-${MAJ_V}/writeback-modules/libwriteback-taglib.la
 lib/tracker-${MAJ_V}/writeback-modules/libwriteback-taglib.so
-@comment lib/tracker-${MAJ_V}/writeback-modules/libwriteback-xmp.la
 lib/tracker-${MAJ_V}/writeback-modules/libwriteback-xmp.so
 @bin libexec/tracker-extract
 @bin libexec/tracker-miner-flickr
@@ -274,6 +254,7 @@ share/locale/sl/LC_MESSAGES/tracker.mo
 share/locale/sr/LC_MESSAGES/tracker.mo
 share/locale/sr@latin/LC_MESSAGES/tracker.mo
 share/locale/sv/LC_MESSAGES/tracker.mo
+share/locale/te/LC_MESSAGES/tracker.mo
 share/locale/th/LC_MESSAGES/tracker.mo
 share/locale/zh_CN/LC_MESSAGES/tracker.mo
 share/tracker/
@@ -380,7 +361,7 @@ share/vala/vapi/tracker-sparql-${MAJ_V}.deps
 share/vala/vapi/tracker-sparql-${MAJ_V}.vapi
 @exec %D/bin/glib-compile-schemas %D/share/glib-2.0/schemas >/dev/null
 @unexec-delete %D/bin/glib-compile-schemas %D/share/glib-2.0/schemas >/dev/null
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

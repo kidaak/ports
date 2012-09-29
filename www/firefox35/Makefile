@@ -8,7 +8,7 @@ MOZILLA_PROJECT =	firefox35
 MOZILLA_DIST =		firefox
 MOZILLA_CODENAME =	browser
 
-REVISION =		11
+REVISION =		16
 
 SO_VERSION =	24.0
 # NOTE: Must bump minor version if any shlib's are removed from the

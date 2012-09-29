@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.5 1999/01/26 22:19:07 billf Exp $
 
 COMMENT=	simple and easy to use TCP port scanner
 

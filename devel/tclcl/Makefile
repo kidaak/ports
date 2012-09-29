@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: ports/devel/tclcl/Makefile,v 1.4 1999/11/28 18:31:57 steve Exp $
 
 COMMENT=	Tcl/C++ interface used by ns and nam
 

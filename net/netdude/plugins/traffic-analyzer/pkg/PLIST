@@ -1,4 +1,0 @@
-@comment $OpenBSD$
-%%SHARED%%
-lib/netdude/plugins/nd_ta.a
-lib/netdude/plugins/nd_ta.la

@@ -1,12 +1,16 @@
 $OpenBSD$
---- configure.orig	Tue Jul  5 15:48:00 2011
-+++ configure	Tue Jul  5 15:48:25 2011
-@@ -13,7 +13,7 @@ crammd5="yes"
+--- configure.orig	Sun Mar  6 13:46:56 2011
++++ configure	Sun Jul  8 20:59:51 2012
+@@ -13,10 +13,10 @@ crammd5="yes"
  incdirs="-I/usr/local/include"
  libdirs="-L/usr/local/lib"
  
 -mycflags="$CFLAGS -Wall -O"
-+mycflags="$CFLAGS -Wall"
++mycflags="$CFLAGS -Wall -I${MODLUA_INCL_DIR}"
  myldflags="$LDFLAGS"
  
- libs="-lm -llua -lpcre"
+-libs="-lm -llua -lpcre"
++libs="-lm ${MODLUA_LIB} -lpcre"
+ libssl="-lssl"
+ libcrypto="-lcrypto"
+ 

@@ -1,5 +1,0 @@
-@comment $OpenBSD$
-lib/libcanberra-${V}/libcanberra-multi.so
-lib/libcanberra-${V}/libcanberra-null.so
-lib/libcanberra-${V}/libcanberra-sndio.so
-@lib lib/libcanberra.so.${LIBcanberra_VERSION}

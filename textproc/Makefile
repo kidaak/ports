@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.15 1997/11/22 00:31:24 jseger Exp $
 
      SUBDIR =
      SUBDIR += TclXML
@@ -8,6 +7,7 @@
      SUBDIR += arabica
      SUBDIR += asciidoc
      SUBDIR += aspell
+     SUBDIR += bibelot
      SUBDIR += boust
      SUBDIR += c2html
      SUBDIR += calibre
@@ -16,6 +16,7 @@
      SUBDIR += catfish
      SUBDIR += chmsee
      SUBDIR += clo++
+     SUBDIR += cloc
      SUBDIR += clucene
      SUBDIR += dblatex
      SUBDIR += diction
@@ -40,7 +41,6 @@
      SUBDIR += groff
      SUBDIR += gsed
      SUBDIR += gtk-doc
-     SUBDIR += gtkaml
      SUBDIR += gtkspell
      SUBDIR += gtkspell3
      SUBDIR += gtranslator
@@ -52,6 +52,7 @@
      SUBDIR += hs-attoparsec-enumerator
      SUBDIR += hs-attoparsec-iteratee
      SUBDIR += hs-blaze-html
+     SUBDIR += hs-blaze-markup
      SUBDIR += hs-bytestring-nums
      SUBDIR += hs-bytestring-show
      SUBDIR += hs-heist
@@ -100,7 +101,9 @@
      SUBDIR += mxml
      SUBDIR += namazu
      SUBDIR += ocaml-rss
+     SUBDIR += ocaml-text
      SUBDIR += ocaml-xml-light
+     SUBDIR += ocaml-xmlm
      SUBDIR += odt2txt
      SUBDIR += oniguruma
      SUBDIR += openjade
@@ -120,6 +123,8 @@
      SUBDIR += p5-Font-AFM
      SUBDIR += p5-Font-TTF
      SUBDIR += p5-HTML-Summary
+     SUBDIR += p5-LaTeX-Driver
+     SUBDIR += p5-LaTeX-Encode
      SUBDIR += p5-LaTeX-Pod
      SUBDIR += p5-LaTeX-TOM
      SUBDIR += p5-LibXML-Common
@@ -259,6 +264,7 @@
      SUBDIR += p5-ack
      SUBDIR += p5-sdf
      SUBDIR += p5-tkispell
+     SUBDIR += palm-bookmarks
      SUBDIR += par
      SUBDIR += pdftk
      SUBDIR += pear-File
@@ -284,7 +290,9 @@
      SUBDIR += py-nltk
      SUBDIR += py-pdf
      SUBDIR += py-polib
+     SUBDIR += py-prettytable
      SUBDIR += py-pygments
+     SUBDIR += py-rdflib
      SUBDIR += py-rtf
      SUBDIR += py-sphinx
      SUBDIR += py-vatnumber
@@ -301,13 +309,13 @@
      SUBDIR += ruby-builder
      SUBDIR += ruby-classifier
      SUBDIR += ruby-erubis
-     SUBDIR += ruby-fastercsv
-     SUBDIR += ruby-fastri
+     SUBDIR += ruby-fastercsv,ruby18
+     SUBDIR += ruby-fastri,ruby18
      SUBDIR += ruby-fast-stemmer
-     SUBDIR += ruby-fast-stemmer,ruby19
+     SUBDIR += ruby-fast-stemmer,ruby18
      SUBDIR += ruby-haml
      SUBDIR += ruby-hpricot
-     SUBDIR += ruby-hpricot,ruby19
+     SUBDIR += ruby-hpricot,ruby18
      SUBDIR += ruby-htmlentities
      SUBDIR += ruby-hyperestraier
      SUBDIR += ruby-hyperestraier,ruby19
@@ -317,21 +325,18 @@
      SUBDIR += ruby-maruku
      SUBDIR += ruby-mustache
      SUBDIR += ruby-nokogiri
-     SUBDIR += ruby-nokogiri,ruby19
+     SUBDIR += ruby-nokogiri,ruby18
      SUBDIR += ruby-pdf-reader
-     SUBDIR += ruby-pdf-writer
-     SUBDIR += ruby-prawn
      SUBDIR += ruby-randexp
      SUBDIR += ruby-rdiscount
-     SUBDIR += ruby-rdiscount,ruby19
+     SUBDIR += ruby-rdiscount,ruby18
      SUBDIR += ruby-redcarpet
-     SUBDIR += ruby-redcarpet,ruby19
+     SUBDIR += ruby-redcarpet,ruby18
      SUBDIR += ruby-redcloth
-     SUBDIR += ruby-redcloth,ruby19
+     SUBDIR += ruby-redcloth,ruby18
      SUBDIR += ruby-ronn
      SUBDIR += ruby-rss
      SUBDIR += ruby-rtex
-     SUBDIR += ruby-rubigen
      SUBDIR += ruby-syntax
      SUBDIR += ruby-templater
      SUBDIR += ruby-treetop

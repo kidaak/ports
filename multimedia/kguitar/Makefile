@@ -3,7 +3,7 @@
 COMMENT =		guitar tab editor
 
 DISTNAME =		kguitar-0.5.1
-REVISION=		1
+REVISION=		3
 
 CATEGORIES =		multimedia kde
 

@@ -4,7 +4,7 @@ COMMENT=	automatic color temperature adjustment
 
 V=		1.7
 DISTNAME=	redshift-${V}
-REVISION=	2
+REVISION=	3
 EXTRACT_SUFX=	.tar.bz2
 
 CATEGORIES=	misc

@@ -1,0 +1,12 @@
+$OpenBSD$
+--- third_party/libjingle/source/talk/base/nethelpers.cc.orig	Thu Aug 23 09:13:32 2012
++++ third_party/libjingle/source/talk/base/nethelpers.cc	Thu Aug 23 09:13:43 2012
+@@ -36,6 +36,8 @@
+ #include "talk/base/byteorder.h"
+ #include "talk/base/signalthread.h"
+ 
++#define AI_ADDRCONFIG 0
++
+ namespace talk_base {
+ 
+ int ResolveHostname(const std::string& hostname, int family,

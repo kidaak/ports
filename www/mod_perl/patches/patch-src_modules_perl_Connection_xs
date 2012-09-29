@@ -27,7 +27,7 @@ $OpenBSD$
      RETVAL = conn->remote_ip;
 - 
 +
-+    struct addrinfo hints, *res, *res0;
++    struct addrinfo rhints, *res, *res0;
 +    int error;
      if(items > 1) {
  #ifdef SGI_BOOST
@@ -37,10 +37,10 @@ $OpenBSD$
          conn->remote_ip = pstrdup(conn->pool, (char *)SvPV(ST(1),na));
  #endif
 -        conn->remote_addr.sin_addr.s_addr = inet_addr(conn->remote_ip);
-+        memset(&hints, 0, sizeof(hints));
-+        hints.ai_family = PF_UNSPEC;
-+        hints.ai_socktype = SOCK_STREAM;
-+        error = getaddrinfo(conn->remote_ip, NULL, &hints, &res0);
++        memset(&rhints, 0, sizeof(rhints));
++        rhints.ai_family = PF_UNSPEC;
++        rhints.ai_socktype = SOCK_STREAM;
++        error = getaddrinfo(conn->remote_ip, NULL, &rhints, &res0);
 +        if (!error) {
 +            memcpy(&conn->remote_addr, (const void *)res0->ai_addr,
 +                (size_t) res0->ai_addrlen);

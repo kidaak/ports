@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 
 MODULES=	cpan
 DISTNAME=	Authen-Krb5-Simple-0.40
-REVISION=	3
+REVISION=	4
 CATEGORIES=	security
 
 MAINTAINER=	Stephen Kirkham <sk@openbsd.org>
@@ -16,7 +16,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM= Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB += com_err crypto krb5
+WANTLIB += c com_err crypto krb5
 
 CONFIGURE_ENV += KRB5_INCLUDE="/usr/include/kerberosV" \
 		 KRB5_LIB="/usr/lib"

@@ -24,7 +24,6 @@ LIB_DEPENDS=	audio/libid3tag \
 WANTLIB=	c id3tag>=3 m mad>=2 sndio z
 
 USE_LIBTOOL=	Yes
-USE_GROFF =	Yes
 SEPARATE_BUILD=	Yes
 AUTOCONF_VERSION=2.59
 CONFIGURE_STYLE= autoconf

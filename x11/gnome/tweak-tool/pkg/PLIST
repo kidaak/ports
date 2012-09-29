@@ -35,6 +35,12 @@ lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_interface.pyo
 lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_nautilus.py
 lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_nautilus.pyc
 lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_nautilus.pyo
+lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_shell.py
+lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_shell.pyc
+lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_shell.pyo
+lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_shell_extensions.py
+lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_shell_extensions.pyc
+lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_shell_extensions.pyo
 lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_test.py
 lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_test.pyc
 lib/python${MODPY_VERSION}/site-packages/gtweak/tweaks/tweak_test.pyo

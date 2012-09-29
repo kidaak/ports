@@ -1,12 +1,12 @@
 $OpenBSD$
---- src/interfaces/ecpg/ecpglib/Makefile.orig	Mon Mar 28 15:42:09 2011
-+++ src/interfaces/ecpg/ecpglib/Makefile	Wed Apr  6 09:14:11 2011
+--- src/interfaces/ecpg/ecpglib/Makefile.orig	Fri May 11 00:35:09 2012
++++ src/interfaces/ecpg/ecpglib/Makefile	Tue May 15 10:25:56 2012
 @@ -14,8 +14,8 @@ top_builddir = ../../../..
  include $(top_builddir)/src/Makefile.global
  
  NAME= ecpg
 -SO_MAJOR_VERSION= 6
--SO_MINOR_VERSION= 3
+-SO_MINOR_VERSION= 4
 +SO_MAJOR_VERSION= ${LIBecpg_MAJOR}
 +SO_MINOR_VERSION= ${LIBecpg_MINOR}
  

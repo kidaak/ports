@@ -3,10 +3,8 @@
 COMMENT=	convert text strings to printed bars
 
 DISTNAME=	barcode-0.98
-REVISION =	1
+REVISION =	2
 CATEGORIES=	graphics
-
-MAINTAINER=	Mathieu Sauve-Frankel <msf@openbsd.org>
 
 # GPLv2
 PERMIT_PACKAGE_CDROM=	Yes

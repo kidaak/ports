@@ -17,7 +17,7 @@ CONFIGURE_ARGS+=--with-ogle-includes=${LOCALBASE}/include
 
 MODULES=	x11/kde devel/gettext
 
-REVISION = 7
+REVISION = 8
 WANTLIB += ICE SM X11 Xau Xdmcp Xext Xrender art_lgpl_2 c dvdcontrol fam idn \
 	jpeg lib/kde3/DCOP lib/kde3/kdecore>=4 lib/kde3/kdefx lib/kde3/kdesu \
 	lib/kde3/kdeui lib/kde3/kio lib/kde3/kwalletclient m msgevents png \

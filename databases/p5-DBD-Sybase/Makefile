@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	Sybase database driver for the DBI module
 
 DISTNAME=	DBD-Sybase-1.10
-REVISION=	1
+REVISION=	2
 CATEGORIES=	databases
 USE_GROFF =	Yes
 
@@ -15,7 +15,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	m
+WANTLIB=	c m
 
 MODULES=	devel/gettext \
 		cpan

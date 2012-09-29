@@ -3,4 +3,3 @@
 bin/dsocks-torify.sh
 bin/dsocks.sh
 lib/libdsocks.a
-%%no_mips64%%

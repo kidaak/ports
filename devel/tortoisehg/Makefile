@@ -2,7 +2,7 @@
 
 COMMENT =		series of applications for Mercurial
 
-MODPY_EGG_VERSION =	2.4
+MODPY_EGG_VERSION =	2.5
 DISTNAME =		tortoisehg-${MODPY_EGG_VERSION}
 
 CATEGORIES =		devel
@@ -26,7 +26,7 @@ BUILD_DEPENDS =		x11/py-qt4 \
 
 RUN_DEPENDS =		${BUILD_DEPENDS} \
 			editors/py-qscintilla \
-			devel/mercurial>=2.2.1 \
+			devel/mercurial>=2.3.1 \
 			devel/py-iniparse
 
 NO_REGRESS =		Yes

@@ -8,7 +8,7 @@ COMMENT-dvi=	evince document viewer backend for dvi documents
 COMMENT-nautilus= evince plugin for nautilus
 
 GNOME_PROJECT=	evince
-GNOME_VERSION=	3.4.0
+GNOME_VERSION=	3.6.0
 
 MAJ_V=		3.0
 SUBST_VARS=	MAJ_V
@@ -49,6 +49,7 @@ WANTLIB += freetype gdk-3 gdk_pixbuf-2.0 gio-2.0 glib-2.0
 WANTLIB += gmodule-2.0 gobject-2.0 gtk-3 pango-1.0 Xau Xdmcp Xxf86vm
 WANTLIB += pangocairo-1.0 pangoft2-1.0 pcre pixman-1 png pthread-stubs
 WANTLIB += GL xcb-shm xcb xcb-render z gthread-2.0 cairo-gobject m ffi
+WANTLIB += atk-bridge-2.0 atspi harfbuzz icudata icule icuuc
 
 MODGNOME_TOOLS= goi yelp
 
@@ -56,7 +57,7 @@ LIB_DEPENDS=	x11/gtk+3
 
 WANTLIB-main=	${WANTLIB} ICE SM c dbus-1 gailutil-3 \
 		gnome-keyring gs gcrypt gpg-error \
-		jpeg pthread tiff xml2 lcms openjpeg \
+		jpeg pthread tiff xml2 lcms2 openjpeg \
 		poppler poppler-glib spectre gnome-keyring
 LIB_DEPENDS-main= print/poppler \
 		print/libspectre \
@@ -69,13 +70,13 @@ RUN_DEPENDS-main= ${RUN_DEPENDS} \
 		x11/gnome/icon-theme \
 		${MODGNOME_RUN_DEPENDS_yelp}
 
-WANTLIB-djvu=	${WANTLIB} jpeg evdocument3 djvulibre
+WANTLIB-djvu=	${WANTLIB} jpeg evdocument3 djvulibre ICE SM \
+		 dbus-1 pthread
 # port-lib-depends-check misses these ones because the depending lib
 # is under lib/evince/3/backends/
-# we don't need qt3 support in djvulibre, hence no_x11
 LIB_DEPENDS-djvu= ${LIB_DEPENDS} \
 		${BASE_PKGPATH} \
-		graphics/djvulibre,no_x11
+		graphics/djvulibre
 
 WANTLIB-dvi=	${WANTLIB} gs evdocument3 kpathsea spectre ICE SM \
 		jpeg
@@ -86,7 +87,8 @@ LIB_DEPENDS-dvi= ${LIB_DEPENDS} \
 		print/texlive/base \
 		print/libspectre
 
-WANTLIB-nautilus= ${WANTLIB} gthread-2.0 nautilus-extension evdocument3
+WANTLIB-nautilus= ${WANTLIB} gthread-2.0 nautilus-extension evdocument3 \
+		ICE SM dbus-1 pthread
 LIB_DEPENDS-nautilus= ${BASE_PKGPATH} \
 		${LIB_DEPENDS} \
 		x11/gnome/nautilus

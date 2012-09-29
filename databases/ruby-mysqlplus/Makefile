@@ -3,7 +3,7 @@
 COMMENT=	enhanced ruby mysql driver, supporting async and threading
 
 DISTNAME=	mysqlplus-0.1.2
-REVISION =	2
+REVISION =	3
 CATEGORIES=	databases
 
 HOMEPAGE=	http://github.com/oldmoe/mysqlplus

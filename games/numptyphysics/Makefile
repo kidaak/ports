@@ -5,7 +5,7 @@ COMMENT-npcomplete =	extra levels for physics-based drawing puzzle game
 
 DISTNAME =		numptyphysics-0.3.r20090104
 PKGNAME-main =		${DISTNAME}
-REVISION-main =		11
+REVISION-main =		12
 PKGNAME-npcomplete =	npcomplete-0.0.r20090116
 REVISION-npcomplete =	3
 

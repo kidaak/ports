@@ -5,7 +5,7 @@ COMMENT=	perl interface to a variant of the MD5 algorithm
 
 MODULES=	cpan
 DISTNAME=	Digest-MD5-M4p-0.01
-REVISION=	2
+REVISION=	3
 CATEGORIES=	security
 USE_GROFF =	Yes
 
@@ -14,6 +14,8 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
+
+WANTLIB += c
 
 INSTALL_TARGET=	install_site
 

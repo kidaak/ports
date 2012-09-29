@@ -3,7 +3,7 @@
 COMMENT =	lean and RESTful interface to CouchDB
 
 DISTNAME =	couchrest-0.33
-REVISION =	4
+REVISION =	5
 CATEGORIES =	databases
 
 HOMEPAGE =	http://github.com/jchris/couchrest/

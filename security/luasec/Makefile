@@ -4,7 +4,7 @@ SHARED_ONLY=	Yes
 
 COMMENT=	lua binding to OpenSSL to provide TLS/SSL communication
 DISTNAME=	luasec-0.4.1
-REVISION=	1
+REVISION=	3
 CATEGORIES=	security
 MASTER_SITES=	${HOMEPAGE}/download/
 
@@ -20,10 +20,10 @@ PERMIT_PACKAGE_FTP=	Yes
 
 MODULES=	lang/lua
 NO_REGRESS=	Yes
-RUN_DEPENDS+=	net/luasocket
+MODLUA_RUN_DEPENDS+=	net/luasocket
 WANTLIB+=	crypto ssl
 
-MAKE_ENV+=	INCDIR="-I${LOCALBASE}/include/" SAVECFLAGS="${CFLAGS}"
+MAKE_ENV+=	INCDIR="-I${MODLUA_INCL_DIR}" SAVECFLAGS="${CFLAGS}"
 ALL_TARGET=	bsd
 
 do-install:

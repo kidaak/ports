@@ -1,6 +1,6 @@
 # $OpenBSD$
 
-MODPY_EGG_VERSION ?=	2.4.1
+MODPY_EGG_VERSION ?=	2.4.2
 
 CATEGORIES +=		productivity
 
@@ -15,7 +15,7 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 DIST_SUBDIR=		tryton
-MASTER_SITES=		http://downloads.tryton.org/${MODPY_EGG_VERSION:C/^([0-9]+\.[0-9]+).*/\1/}/
+MASTER_SITES=		http://downloads2.tryton.org/${MODPY_EGG_VERSION:C/^([0-9]+\.[0-9]+).*/\1/}/
 
 MODULES +=		lang/python
 

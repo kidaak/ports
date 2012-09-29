@@ -5,6 +5,7 @@ ONLY_FOR_ARCHS=		${APM_ARCHS}
 COMMENT=		generate a statusbar for use with i3/xmobar/dzen2
 
 DISTNAME=		i3status-2.5.1
+REVISION=		1
 CATEGORIES=		x11 sysutils
 
 HOMEPAGE=		http://i3wm.org/i3status/

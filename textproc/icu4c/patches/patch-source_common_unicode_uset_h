@@ -1,7 +1,7 @@
 $OpenBSD$
---- source/common/unicode/uset.h.orig	Mon Apr 30 19:46:06 2012
-+++ source/common/unicode/uset.h	Mon Apr 30 19:46:29 2012
-@@ -247,7 +247,7 @@ typedef struct USerializedSet {
+--- source/common/unicode/uset.h.orig	Fri Jun  1 16:52:36 2012
++++ source/common/unicode/uset.h	Thu Jun 21 08:27:54 2012
+@@ -251,7 +251,7 @@ typedef struct USerializedSet {
   * @stable ICU 4.2
   */
  U_STABLE USet* U_EXPORT2

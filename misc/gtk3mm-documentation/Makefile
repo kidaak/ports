@@ -3,7 +3,7 @@
 COMMENT=	documentation for gtk3mm
 
 GNOME_PROJECT=	gtkmm-documentation
-GNOME_VERSION=	3.4.0
+GNOME_VERSION=	3.4.1
 
 PKGNAME=	gtk3mm-documentation-${GNOME_VERSION}
 

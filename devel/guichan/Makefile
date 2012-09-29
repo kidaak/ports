@@ -32,8 +32,8 @@ LIB_DEPENDS=	devel/sdl
 USE_LIBTOOL=	Yes
 
 CONFIGURE_STYLE=gnu
-CONFIGURE_ENV=	CPPFLAGS="`sdl-config --cflags`" \
-		LDFLAGS="`sdl-config --libs`"
+CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include -I${X11BASE}/include" \
+		LDFLAGS="-L${LOCALBASE}/lib -L${X11BASE}/lib"
 CONFIGURE_ARGS=	${CONFIGURE_SHARED} \
 		--enable-allegro=no
 

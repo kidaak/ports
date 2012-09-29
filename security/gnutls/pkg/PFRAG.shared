@@ -1,5 +1,4 @@
 @comment $OpenBSD$
-@lib lib/libgnutls-extra.so.${LIBgnutls-extra_VERSION}
 @lib lib/libgnutls-openssl.so.${LIBgnutls-openssl_VERSION}
 @lib lib/libgnutls.so.${LIBgnutls_VERSION}
 @lib lib/libgnutlsxx.so.${LIBgnutlsxx_VERSION}

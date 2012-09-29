@@ -2,7 +2,7 @@
 
 COMMENT =	simple archive manager
 CATEGORIES =	x11 archivers
-REVISION=	9
+REVISION=	10
 DISTNAME =	xarchiver-0.5.2
 
 MAINTAINER =	Landry Breuil <gaston@gcu.info>

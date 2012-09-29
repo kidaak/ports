@@ -2,7 +2,7 @@
 
 COMMENT =		Efficient algorithms for vector arrays
 
-DISTNAME =		vector-algorithms-0.4
+DISTNAME =		vector-algorithms-0.5.4
 CATEGORIES =		devel
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>
@@ -17,8 +17,8 @@ MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
 
-RUN_DEPENDS +=		devel/hs-primitive \
-			devel/hs-vector
+RUN_DEPENDS +=		devel/hs-primitive>=0.3,<0.5 \
+			devel/hs-vector>=0.6,<0.10
 BUILD_DEPENDS +=	${RUN_DEPENDS}
 
 .include <bsd.port.mk>

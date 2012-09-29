@@ -4,7 +4,7 @@ COMMENT=	Emacs Lisp-like runtime library
 
 SHARED_ONLY=	Yes
 
-VERSION=	0.92.2
+VERSION=	0.92.2.1
 DISTNAME=	librep-${VERSION}
 
 SHARED_LIBS +=  rep                  14.0     # .16.0

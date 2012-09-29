@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libfakekey.so.${LIBfakekey_VERSION}

@@ -4,6 +4,7 @@ COMMENT =	GNUstep performance library
 
 VERSION =	0.3.2
 DISTNAME =	Performance-${VERSION}
+REVISION =	1
 PKGNAME =	gnustep-performance-${VERSION}
 CATEGORIES =	devel
 SHARED_LIBS +=  Performance               0.1

@@ -3,7 +3,7 @@
 COMMENT=		screenshot application for GNOME
 
 GNOME_PROJECT=		gnome-screenshot
-GNOME_VERSION=		3.4.1
+GNOME_VERSION=		3.6.0
 
 # GPLv2
 PERMIT_PACKAGE_CDROM=	Yes

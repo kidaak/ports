@@ -1,3 +1,0 @@
-@comment $OpenBSD$
-lib/prelude-lml/debug.so
-lib/prelude-lml/pcre.so

@@ -4,7 +4,7 @@ COMMENT =		Ruby interface to LBL pcap library (Metasploit fork)
 
 DISTNAME =		pcaprub-msf-r7343
 PKGNAME =		pcaprub-msf-7343
-REVISION =		3
+REVISION =		4
 CATEGORIES =		net
 EXTRACT_SUFX =		.tgz
 

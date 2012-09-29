@@ -1,0 +1,2 @@
+@comment $OpenBSD$
+@lib lib/libdshconfig.so.${LIBdshconfig_VERSION}

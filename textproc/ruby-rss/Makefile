@@ -3,8 +3,8 @@
 COMMENT=	improved ruby RSS and Atom parser
 
 DISTNAME=	rss-0.2.4
-PKGNAME=	ruby-${DISTNAME}
-REVISION=	2
+PKGNAME=	ruby19-${DISTNAME}
+REVISION=	3
 CATEGORIES=	textproc devel
 
 # ruby
@@ -16,6 +16,7 @@ PERMIT_DISTFILES_FTP=	yes
 MASTER_SITES=	http://www.cozmixng.org/~kou/download/
 
 MODULES=	lang/ruby
+MODRUBY_REV =	1.9
 
 CONFIGURE_STYLE=ruby setup
 

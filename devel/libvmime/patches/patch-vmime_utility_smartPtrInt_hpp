@@ -1,6 +1,6 @@
 $OpenBSD$
---- vmime/utility/smartPtrInt.hpp.orig	Sun Oct 12 10:54:33 2008
-+++ vmime/utility/smartPtrInt.hpp	Sun May 23 15:41:45 2010
+--- vmime/utility/smartPtrInt.hpp.orig	Sun Sep  6 14:10:27 2009
++++ vmime/utility/smartPtrInt.hpp	Sun Aug 28 17:11:55 2011
 @@ -53,7 +53,11 @@ class refCounter (private)
  #if defined(_WIN32)
  	long m_value;

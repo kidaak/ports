@@ -3,7 +3,7 @@
 COMMENT=	simple creation of MIME email messages in Ruby
 
 DISTNAME=	mailfactory-1.4.0
-REVISION=	4
+REVISION=	5
 CATEGORIES=	mail
 
 HOMEPAGE=	http://rubyforge.org/projects/mailfactory/

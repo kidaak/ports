@@ -3,7 +3,7 @@
 COMMENT=	graphic library for gtk+2
 
 GNOME_PROJECT=	gdk-pixbuf
-GNOME_VERSION=	2.26.1
+GNOME_VERSION=	2.26.4
 
 CATEGORIES=	graphics
 

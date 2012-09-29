@@ -1,7 +1,7 @@
 $OpenBSD$
---- mozilla/nsprpub/pr/tests/prpollml.c.orig	Wed Mar 18 11:49:45 2009
-+++ mozilla/nsprpub/pr/tests/prpollml.c	Sun Jun 21 16:37:17 2009
-@@ -47,14 +47,10 @@
+--- mozilla/nsprpub/pr/tests/prpollml.c.orig	Tue Mar  6 14:14:30 2012
++++ mozilla/nsprpub/pr/tests/prpollml.c	Sun Sep  2 00:30:57 2012
+@@ -15,14 +15,10 @@
  #include <stdlib.h>
  #include <string.h>
  

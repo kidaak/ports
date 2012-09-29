@@ -1,6 +1,5 @@
 @comment $OpenBSD$
 %%SHARED%%
-%%no_mips64%%
 include/libshp/
 include/libshp/shapefil.h
 lib/libshp.a

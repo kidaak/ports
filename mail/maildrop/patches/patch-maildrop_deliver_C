@@ -15,9 +15,9 @@ gracefully handle the delivery of new mail to an open folder.
 [1] http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=132411
 [2] http://markmail.org/message/w5mwn3jpmn3qeo5x
 
---- maildrop/deliver.C.orig	Sat Jun 27 13:26:54 2009
-+++ maildrop/deliver.C	Wed Jun 23 15:45:28 2010
-@@ -231,15 +231,7 @@ Buffer	b;
+--- maildrop/deliver.C.orig	Mon Apr  4 12:58:58 2011
++++ maildrop/deliver.C	Mon Sep  3 14:44:36 2012
+@@ -230,15 +230,7 @@ Buffer	b;
  		{
  			format_mbox.Init(1);
  

@@ -2,13 +2,15 @@
 #
 # $OpenBSD$
 
+datadir="/var/postgresql/data"
+
 daemon="${TRUEPREFIX}/bin/pg_ctl"
 daemon_flags="-l /var/postgresql/logfile"
 daemon_user="_postgresql"
 
 . /etc/rc.d/rc.subr
 
-datadir="/var/postgresql/data"
+rc_usercheck=NO
 
 rc_check() {
 	${rcexec} "${daemon} -D ${datadir} status"

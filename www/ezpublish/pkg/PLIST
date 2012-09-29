@@ -4451,3 +4451,5 @@ ezpublish/var/storage/contributors/
 @mode
 @group
 ezpublish/webdav.php
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

@@ -2,11 +2,10 @@
 
 COMMENT=	small network calculator
 
-DISTNAME=	ipcalc-1.3
-REVISION=	2
+DISTNAME=	ipcalc-1.4
 CATEGORIES=	net
 
-HOMEPAGE=	http://spootnik.org/ipcalc/
+HOMEPAGE=	https://github.com/pyr/ipcalc 
 
 MAINTAINER=	Pierre-Yves Ritschard <pyr@spootnik.org>
 
@@ -16,7 +15,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-MASTER_SITES=	${HOMEPAGE}
+MASTER_SITES=	https://github.com/downloads/pyr/ipcalc/
 
 FAKE_FLAGS=	MANDIR="${PREFIX}/man/man"
 

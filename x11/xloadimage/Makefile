@@ -28,7 +28,6 @@ LIB_DEPENDS=	graphics/png \
 		graphics/tiff
 WANTLIB=	X11 c jpeg m png tiff z
 
-USE_GROFF =	Yes
 CONFIGURE_STYLE=gnu
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include/libpng \
 		    -I${LOCALBASE}/include" \

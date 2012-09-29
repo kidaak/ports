@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libdvd.so.${LIBdvd_VERSION}

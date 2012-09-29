@@ -2,18 +2,19 @@
 
 COMMENT=	simple and clean multi-user web file manager
 
-DISTNAME=	mollify_1.6.5.5
-REVISION=	2
+DISTNAME=	mollify_1.8.8.3
 PKGNAME=	${DISTNAME:S/_/-/}
+REVISION=	0
 EXTRACT_SUFX=	.zip
 CATEGORIES=	www
 
 HOMEPAGE=	http://www.mollify.org/
 
-# Eclipse Public License v1.0
-PERMIT_PACKAGE_CDROM=	Yes
+# "For non-commercial use Mollify is available with EPL 1.0 license."
+# For commercial use, see http://www.mollify.org/license.php
+PERMIT_PACKAGE_CDROM=	No
 PERMIT_PACKAGE_FTP=	Yes
-PERMIT_DISTFILES_CDROM=	Yes
+PERMIT_DISTFILES_CDROM=	No
 PERMIT_DISTFILES_FTP=	Yes
 
 MASTER_SITES=	http://mollify.googlecode.com/files/

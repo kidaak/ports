@@ -4,6 +4,7 @@ COMMENT=	easy email delivery and testing for ruby
 
 VERSION=	3.1.3
 DISTNAME=	actionmailer-${VERSION}
+REVISION =	0
 CATEGORIES=	mail
 
 # MIT License

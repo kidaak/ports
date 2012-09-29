@@ -12,7 +12,7 @@ $OpenBSD$
 
 2) openfire may be started by executing:
 
-   ${SYSCONFDIR}/rc.d/openfire start
+   ${RCDIR}/openfire start
 
    as root. To arrange for this to happen at boot, include 'openfire'
    in the pkg_scripts variable in /etc/rc.conf.local

@@ -1,0 +1,13 @@
+$OpenBSD$
+--- lib/daemon.js.orig	Thu Jun  7 14:29:46 2012
++++ lib/daemon.js	Thu Jun  7 14:30:40 2012
+@@ -9,7 +9,8 @@
+ var fs = require('fs'),
+     binding;
+ 
+-binding = require('./daemon.' + process.version);
++// Remove version for OpenBSD PLIST Compatibility    
++binding = require('./daemon');
+ 
+ var daemon = exports;
+ 

@@ -3,6 +3,7 @@
 COMMENT =		robust daemon management
 
 DISTNAME =		daemon_controller-0.2.6
+REVISION =		0
 CATEGORIES =		devel
 
 HOMEPAGE =		https://github.com/FooBarWidget/daemon_controller

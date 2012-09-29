@@ -5,6 +5,7 @@ SHARED_ONLY =		yes
 COMMENT =		efficient generation of combinatorial sequences
 
 DISTNAME =		Algorithm-Combinatorics-0.27
+REVISION =		0
 CATEGORIES =		math
 
 CPAN_AUTHOR =		FXN
@@ -16,6 +17,8 @@ PERMIT_PACKAGE_CDROM =	Yes
 PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
+
+WANTLIB += c
 
 MODULES =		cpan
 

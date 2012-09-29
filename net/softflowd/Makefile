@@ -3,9 +3,8 @@
 COMMENT=	flow-based network traffic analyser
 
 DISTNAME=	softflowd-0.9.8
+REVISION=	0
 CATEGORIES=	net
-
-MAINTAINER=	Mathieu Sauve-Frankel <msf@openbsd.org> 
 
 # BSD
 PERMIT_PACKAGE_CDROM=	Yes

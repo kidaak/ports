@@ -4,6 +4,7 @@ COMMENT=	Xfce4 extension library
 
 XFCE_VERSION=	0.8.0
 XFCE_PROJECT=	exo
+REVISION=	0
 
 SHARED_LIBS=	exo-1		0.1
 

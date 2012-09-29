@@ -3,11 +3,9 @@
 COMMENT=	tools for managing samba ldap 
 
 DISTNAME=	smbldap-tools-0.9.2a
-REVISION =	1
+REVISION =	2
 CATEGORIES=	sysutils
 EXTRACT_SUFX=	.tgz
-
-MAINTAINER=	Mathieu Sauve-Frankel <msf@openbsd.org>
 
 HOMEPAGE=	http://samba.idealx.org/
 

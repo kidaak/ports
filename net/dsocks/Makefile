@@ -2,7 +2,7 @@
 
 COMMENT=		SOCKS client wrapper for *BSD
 DISTNAME=		dsocks-1.6
-REVISION=		0
+REVISION=		1
 CATEGORIES=		net
 SHARED_LIBS=		dsocks 1.0
 

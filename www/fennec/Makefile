@@ -2,11 +2,12 @@
 
 COMMENT =	Mozilla mobile web browser
 
-MOZILLA_VERSION =	10.0.4esr
+MOZILLA_VERSION =	10.0.5esr
 MOZILLA_BRANCH =	esr10
 MOZILLA_PROJECT =	fennec
 MOZILLA_CODENAME =	mobile
 PKGNAME =	${MOZILLA_PROJECT}-${MOZILLA_VERSION:S/esr//}
+REVISION =	2
 
 SO_VERSION =	6.0
 # NOTE: Must bump minor version if any shlib's are removed from the
@@ -31,7 +32,6 @@ MODULES =	www/mozilla devel/gettext lang/python
 
 MODPY_RUNDEP =	No
 
-USE_GROFF =	Yes
 # Regression tests are too hard to adapt to run here
 NO_REGRESS =	Yes
 

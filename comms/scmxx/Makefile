@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $NetBSD: Makefile,v 1.18 2002/10/22 15:33:10 kleink Exp $
 
 COMMENT=		data exchange utility for Siemens mobile phones
 

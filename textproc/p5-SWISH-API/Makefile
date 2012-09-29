@@ -5,7 +5,7 @@ SHARED_ONLY =	Yes
 
 DISTNAME =	swish-e-2.4.7
 PKGNAME =	p5-SWISH-API-0.04
-REVISION =	3
+REVISION =	4
 CATEGORIES =	textproc
 MODULES =	cpan
 USE_GROFF =	Yes
@@ -21,8 +21,9 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
+WANTLIB += c m z swish-e>=2.1
+
 LIB_DEPENDS =	textproc/swish-e>=2.4.7
-WANTLIB +=	m z swish-e>=2.1
 
 WRKSRC =	${WRKDIST}/perl
 

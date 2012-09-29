@@ -5,7 +5,7 @@ COMMENT=		dbus debugger
 MODPY_EGG_VERSION=	0.1.14
 DISTNAME=		d-feet-${MODPY_EGG_VERSION}
 CATEGORIES=		sysutils x11
-REVISION=		1
+REVISION=		2
 
 HOMEPAGE=		http://live.gnome.org/DFeet/
 

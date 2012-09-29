@@ -1,7 +1,7 @@
 $OpenBSD$
---- src/3rdparty/javascriptcore/JavaScriptCore/wtf/Platform.h.orig	Fri Sep 10 11:05:23 2010
-+++ src/3rdparty/javascriptcore/JavaScriptCore/wtf/Platform.h	Sun Oct 24 14:17:40 2010
-@@ -870,7 +870,7 @@
+--- src/3rdparty/javascriptcore/JavaScriptCore/wtf/Platform.h.orig	Thu Apr 26 21:46:22 2012
++++ src/3rdparty/javascriptcore/JavaScriptCore/wtf/Platform.h	Sun Jun 10 13:25:08 2012
+@@ -884,7 +884,7 @@
  #endif
  
  #if !defined(WTF_USE_JSVALUE64) && !defined(WTF_USE_JSVALUE32) && !defined(WTF_USE_JSVALUE32_64)

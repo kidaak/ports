@@ -6,7 +6,7 @@ COMMENT=	advanced general purpose calculator
 
 GNOME_PROJECT=	genius
 GNOME_VERSION=	1.0.15
-REVISION=	0
+REVISION=	2
 
 HOMEPAGE=	http://www.jirka.org/genius.html
 
@@ -46,5 +46,8 @@ MODGNOME_ICON_CACHE=	Yes
 MODGNOME_LDFLAGS=	-L${X11BASE}/lib -lgmp
 CONFIGURE_ARGS=	--disable-update-mimedb \
 		--disable-extra-gcc-optimization
+
+post-install:
+	rm ${PREFIX}/lib/genius/*.{a,la}
 
 .include <bsd.port.mk>

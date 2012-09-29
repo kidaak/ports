@@ -1,7 +1,7 @@
 $OpenBSD$
---- src/globs.c.orig	Fri Mar 15 00:48:45 2002
-+++ src/globs.c	Sun Aug 25 20:37:31 2002
-@@ -19,9 +19,6 @@
+--- src/globs.c.orig	Tue Mar 11 18:50:42 2008
++++ src/globs.c	Wed Sep 12 00:24:44 2012
+@@ -25,9 +25,6 @@
  #include "indent.h"
  #include "globs.h"
  

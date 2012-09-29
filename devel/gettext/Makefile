@@ -3,7 +3,7 @@
 COMMENT=	GNU gettext
 
 DISTNAME=	gettext-0.18.1
-REVISION=	1
+REVISION=	4
 SHARED_LIBS +=  intl                 6.0      # .9.1
 SHARED_LIBS +=  asprintf             1.0      # .0.0
 SHARED_LIBS +=  gettextlib           3.0      # .0.0
@@ -11,6 +11,8 @@ SHARED_LIBS +=  gettextsrc           3.0      # .0.0
 SHARED_LIBS +=  gettextpo            4.0      # .5.1
 
 CATEGORIES=	devel
+# DPB: parallel-safe, not worth it. Too much time in configure
+
 MASTER_SITES=	${MASTER_SITE_GNU:=gettext/}
 
 HOMEPAGE=	http://www.gnu.org/software/gettext/

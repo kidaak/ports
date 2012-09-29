@@ -7,6 +7,8 @@ XFCE_PROJECT=	Thunar
 # :L is here for a reason
 PKGNAME=	${DISTNAME:L}
 
+REVISION=	0
+
 SHARED_LIBS=	thunarx-2	0.0
 
 # GPLv2

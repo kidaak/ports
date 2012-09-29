@@ -3,7 +3,7 @@
 COMMENT=	printed circuit board layout tool
 DISTNAME=	pcb-20110918
 CATEGORIES=	cad
-REVISION=	0
+REVISION=	2
 
 HOMEPAGE=	http://pcb.gpleda.org/
 

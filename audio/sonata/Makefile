@@ -4,7 +4,7 @@ COMMENT=	elegant music player for MPD
 
 MODPY_EGG_VERSION=1.6.2.1
 DISTNAME=	sonata-${MODPY_EGG_VERSION}
-REVISION =	12
+REVISION =	13
 CATEGORIES=	audio
 
 HOMEPAGE=	http://sonata.berlios.de/

@@ -2,7 +2,7 @@
 
 ONLY_FOR_ARCHS ?=	amd64 i386
 SHARED_ONLY = 		Yes
-VERSION ?= 		1.99.4
+VERSION ?= 		1.99.5
 DISTNAME ?=		mupen64plus-${MUPEN64PLUS_MOD}-src-${VERSION}
 PKGNAME ?= 		mupen64plus-${MUPEN64PLUS_MOD}-${VERSION}
 HOMEPAGE ?=		http://code.google.com/p/mupen64plus/
@@ -17,7 +17,7 @@ FAKE_FLAGS ?=		PREFIX=${PREFIX} LDCONFIG=true
 
 .if ${MUPEN64PLUS_MOD} != "core"
 MAKE_FLAGS += 		APIDIR=${LOCALBASE}/include/mupen64plus
-LIB_DEPENDS += 		emulators/mupen64plus/core
+LIB_DEPENDS += 		emulators/mupen64plus/core>=1.99.5
 .endif
 
 WRKBUILD ?=	${WRKDIST}/projects/unix

@@ -4,7 +4,7 @@ COMMENT =	module for using Textile in Ruby
 
 DISTNAME =	RedCloth-4.2.7
 PKGNAME =	${DISTNAME:L}
-REVISION=	1
+REVISION=	2
 CATEGORIES =	textproc
 
 HOMEPAGE =	http://redcloth.org/

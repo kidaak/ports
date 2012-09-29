@@ -1,8 +1,8 @@
 $OpenBSD$
---- main/features.c.orig	Thu May 17 23:30:18 2012
-+++ main/features.c	Thu May 17 23:31:57 2012
-@@ -960,7 +960,9 @@ static void bridge_call_thread_launch(void *data) 
- 	ast_pthread_create(&thread, &attr, bridge_call_thread, data);
+--- main/features.c.orig	Tue Sep 11 17:15:05 2012
++++ main/features.c	Wed Sep 12 14:36:19 2012
+@@ -1045,7 +1045,9 @@ static void bridge_call_thread_launch(struct ast_bridg
+ 	}
  	pthread_attr_destroy(&attr);
  	memset(&sched, 0, sizeof(sched));
 +#if defined(_POSIX_THREAD_PRIORITY_SCHEDULING) && (_POSIX_THREAD_PRIORITY_SCHEDULING > 0)

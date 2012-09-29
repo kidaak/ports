@@ -3,9 +3,11 @@
 COMMENT =	simple webbrowser based on webkit/gtk+
 
 DISTNAME =	surf-0.4.1
-REVISION=	3
+REVISION=	4
 CATEGORIES =	www
 HOMEPAGE =	http://surf.suckless.org/
+
+MAINTAINER=	Joerg Zinke <zinke@openbsd.org>
 
 # MIT
 PERMIT_PACKAGE_CDROM =	Yes

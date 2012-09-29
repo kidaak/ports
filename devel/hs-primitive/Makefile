@@ -2,8 +2,7 @@
 
 COMMENT =		wrappers for primitive array operations from GHC.Prim
 
-DISTNAME =		primitive-0.3.1
-REVISION =		1
+DISTNAME =		primitive-0.4.1
 CATEGORIES =		devel
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>

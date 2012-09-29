@@ -1,0 +1,14 @@
+$OpenBSD$
+
+kvs20xx_opt.c:186: warning: implicit declaration of function 'malloc'
+
+--- backend/kvs20xx_opt.c.orig	Tue Aug 28 09:32:29 2012
++++ backend/kvs20xx_opt.c	Tue Aug 28 09:32:53 2012
+@@ -9,6 +9,7 @@
+ #include "../include/sane/config.h"
+ 
+ #include <string.h>
++#include <stdlib.h> /* malloc(3) */
+ 
+ #define DEBUG_DECLARE_ONLY
+ #define BACKEND_NAME kvs20xx

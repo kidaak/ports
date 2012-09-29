@@ -1,7 +1,7 @@
 $OpenBSD$
---- Modules/FindPythonLibs.cmake.orig	Mon Apr 30 11:57:25 2012
-+++ Modules/FindPythonLibs.cmake	Mon Apr 30 12:04:05 2012
-@@ -31,6 +31,9 @@ INCLUDE(CMakeFindFrameworks)
+--- Modules/FindPythonLibs.cmake.orig	Thu Aug 23 11:39:18 2012
++++ Modules/FindPythonLibs.cmake	Thu Aug 23 11:42:40 2012
+@@ -36,6 +36,9 @@ INCLUDE(CMakeFindFrameworks)
  # Search for the python framework on Apple.
  CMAKE_FIND_FRAMEWORKS(Python)
  
@@ -11,7 +11,7 @@ $OpenBSD$
  SET(_PYTHON1_VERSIONS 1.6 1.5)
  SET(_PYTHON2_VERSIONS 2.7 2.6 2.5 2.4 2.3 2.2 2.1 2.0)
  SET(_PYTHON3_VERSIONS 3.3 3.2 3.1 3.0)
-@@ -58,10 +61,14 @@ ENDIF(PythonLibs_FIND_VERSION)
+@@ -69,10 +72,14 @@ ENDIF(PythonLibs_FIND_VERSION)
  
  # Set up the versions we know about, in the order we will search. Always add
  # the user supplied additional versions to the front.
@@ -30,7 +30,7 @@ $OpenBSD$
  
  UNSET(_PYTHON_FIND_OTHER_VERSIONS)
  UNSET(_PYTHON1_VERSIONS)
-@@ -113,15 +120,19 @@ FOREACH(_CURRENT_VERSION ${_Python_VERSIONS})
+@@ -129,18 +136,22 @@ FOREACH(_CURRENT_VERSION ${_Python_VERSIONS})
      ENDFOREACH(dir)
    ENDIF(Python_FRAMEWORKS AND NOT PYTHON_INCLUDE_DIR)
  
@@ -41,6 +41,9 @@ $OpenBSD$
 -      [HKEY_LOCAL_MACHINE\\SOFTWARE\\Python\\PythonCore\\${_CURRENT_VERSION}\\InstallPath]/include
 -      [HKEY_CURRENT_USER\\SOFTWARE\\Python\\PythonCore\\${_CURRENT_VERSION}\\InstallPath]/include
 -    PATH_SUFFIXES
+-      python${_CURRENT_VERSION}mu
+-      python${_CURRENT_VERSION}m
+-      python${_CURRENT_VERSION}u
 -      python${_CURRENT_VERSION}
 -  )
 +  IF(MODPY_VERSION AND MODPY_INCDIR)
@@ -53,9 +56,12 @@ $OpenBSD$
 +        [HKEY_LOCAL_MACHINE\\SOFTWARE\\Python\\PythonCore\\${_CURRENT_VERSION}\\InstallPath]/include
 +        [HKEY_CURRENT_USER\\SOFTWARE\\Python\\PythonCore\\${_CURRENT_VERSION}\\InstallPath]/include
 +      PATH_SUFFIXES
++        python${_CURRENT_VERSION}mu
++        python${_CURRENT_VERSION}m
++        python${_CURRENT_VERSION}u
 +        python${_CURRENT_VERSION}
 +    )
 +  ENDIF(MODPY_VERSION AND MODPY_INCDIR)
  
-   # For backward compatibility, set PYTHON_INCLUDE_PATH, but make it internal.
-   SET(PYTHON_INCLUDE_PATH "${PYTHON_INCLUDE_DIR}" CACHE INTERNAL
+   # For backward compatibility, set PYTHON_INCLUDE_PATH.
+   SET(PYTHON_INCLUDE_PATH "${PYTHON_INCLUDE_DIR}")

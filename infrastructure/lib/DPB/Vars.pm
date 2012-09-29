@@ -30,20 +30,11 @@ sub run_command
 
 	my $ports = $grabber->ports;
 
-	if (defined $shell) {
-		my $s='';
-		if (defined $subdirs) {
-			$s="SUBDIR='".$class->subdirlist($subdirs)."'";
-		}
-		$shell->run("cd $ports && $s ".
-		    join(' ', $grabber->make_args, @args));
-	} else {
-		if (defined $subdirs) {
-			$ENV{SUBDIR} = $class->subdirlist($subdirs);
-		}
-		chdir($ports) or die "Bad directory $ports";
-		exec {$grabber->make} ($grabber->make_args, @args);
+	$shell->chdir($ports);
+	if (defined $subdirs) {
+		$shell->env(SUBDIR => $class->subdirlist($subdirs));
 	}
+	$shell->exec($grabber->make_args, @args);
 	exit(1);
 }
 
@@ -72,6 +63,7 @@ PERMIT_DISTFILES_CDROM=Yes
 PERMIT_DISTFILES_FTP=Yes
 WRKOBJDIR=
 IGNORE=Yes
+_MAKEFILE_INC_DONE=Yes
 ECHO_MSG=:
 .include <bsd.port.mk>
 EOT
@@ -89,6 +81,7 @@ EOT
 		waitpid($pid, 0);
 	} else {
 		close STDIN;
+		chdir('/');
 		open(STDIN, '<&', $rh);
 		exec {$make} ('make', '-f', '-');
 		die "oops couldn't exec $make";
@@ -127,6 +120,7 @@ sub grab_list
 		    };
 
 	my @current = ();
+	my ($previous, $info);
 	while(<$fh>) {
 		push(@current, $_);
 		chomp;
@@ -164,9 +158,12 @@ sub grab_list
 				$value = $1;
 			}
 			my $o = DPB::PkgPath->compose($pkgpath, $subdir);
-			$seen->{$o} //= DPB::PortInfo->new($o);
-			my $info = $seen->{$o};
-			$h->{$o} = $o;
+			if (!defined $previous || $previous != $o) {
+				$seen->{$o} = DPB::PortInfo->new($o);
+				$previous = $o;
+				$info = $seen->{$o};
+				$h->{$o} = $o;
+			}
 			eval { $info->add($var, $value, $o); };
 			if ($@) {
 				print $log $@;

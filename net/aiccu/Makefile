@@ -23,7 +23,6 @@ WANTLIB=	c pthread
 
 WRKDIST=	${WRKDIR}/aiccu
 USE_GMAKE=	Yes
-USE_GROFF =	Yes
 MAKE_FLAGS=	CC='${CC}' RPM_OPT_FLAGS='${CFLAGS} ${DEFS}'
 DEFS=		-DAICCU_CACHE=\"/var/db/aiccu.cache\" \
 		-DAICCU_CONFIG=\"${SYSCONFDIR}/aiccu.conf\"

@@ -5,7 +5,7 @@ SHARED_ONLY =	Yes
 COMMENT =	circuit drawing and schematic capture
 
 BASEVER =	3.7
-DISTNAME =	xcircuit-${BASEVER}.39
+DISTNAME =	xcircuit-${BASEVER}.40
 CATEGORIES =	cad
 HOMEPAGE =	http://opencircuitdesign.com/xcircuit/
 MAINTAINER =	Stuart Cassoff <stwo@users.sourceforge.net>

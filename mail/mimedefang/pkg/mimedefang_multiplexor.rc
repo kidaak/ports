@@ -3,7 +3,7 @@
 # $OpenBSD$
 
 daemon="${TRUEPREFIX}/bin/mimedefang-multiplexor"
-daemon_flags="-U _mdefang -l -m 2 -b 600 -p /var/spool/MIMEDefang/mimedefang-multiplexor.pid"
+daemon_flags="-G -U _mdefang -E -l -m 2 -b 600 -p /var/spool/MIMEDefang/mimedefang-multiplexor.pid"
 
 . /etc/rc.d/rc.subr
 

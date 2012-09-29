@@ -4,7 +4,7 @@ COMMENT=	module that embeds a Perl interpreter into Apache
 
 DISTNAME=	mod_perl-1.31
 PKGNAME=	${DISTNAME}
-REVISION=	5
+REVISION=	6
 CATEGORIES=	www perl5
 MASTER_SITES=	http://perl.apache.org/dist/ \
 		${MASTER_SITE_PERL_CPAN:=Apache/}

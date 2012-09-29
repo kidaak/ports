@@ -15,16 +15,15 @@ XMKMF +=		-DPorts
 IGNORE =	"uses imake, but ${X11BASE} not found"
 .endif
 
+MODIMAKE_DEPENDS = \
+				 devel/imake \
+				 devel/imake-cf
+
+BUILD_DEPENDS += ${MODIMAKE_DEPENDS}
+
 MODIMAKE_configure = \
-	if [ -e ${X11BASE}/lib/X11/config/ports.cf ] || \
-		fgrep >/dev/null 2>/dev/null Ports \
-			${X11BASE}/lib/X11/config/OpenBSD.cf; then \
-		cd ${WRKSRC} && ${_SYSTRACE_CMD} ${SETENV} ${MAKE_ENV} ${XMKMF}; \
-	else \
-		echo >&2 "Error: your X installation is incomplete"; \
-		echo >&2 "Please install the xshare tarball"; \
-		exit 1; \
-	fi
+		cd ${WRKSRC} && ${_SYSTRACE_CMD} ${SETENV} ${MAKE_ENV} ${XMKMF};
+
 # Kludge
 .if ${CONFIGURE_STYLE:Mimake}
 MODIMAKE_pre-install = \

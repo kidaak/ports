@@ -472,6 +472,9 @@ share/locale/fur/
 share/locale/fur/LC_MESSAGES/
 share/locale/fur/LC_MESSAGES/vlc.mo
 share/locale/ga/LC_MESSAGES/vlc.mo
+share/locale/gd/
+share/locale/gd/LC_MESSAGES/
+share/locale/gd/LC_MESSAGES/vlc.mo
 share/locale/gl/LC_MESSAGES/vlc.mo
 share/locale/he/LC_MESSAGES/vlc.mo
 share/locale/hi/LC_MESSAGES/vlc.mo
@@ -498,6 +501,7 @@ share/locale/lv/LC_MESSAGES/vlc.mo
 share/locale/mk/LC_MESSAGES/vlc.mo
 share/locale/ml/LC_MESSAGES/vlc.mo
 share/locale/mn/LC_MESSAGES/vlc.mo
+share/locale/mr/LC_MESSAGES/vlc.mo
 share/locale/ms/LC_MESSAGES/vlc.mo
 share/locale/my/LC_MESSAGES/vlc.mo
 share/locale/nb/LC_MESSAGES/vlc.mo
@@ -529,6 +533,7 @@ share/locale/th/LC_MESSAGES/vlc.mo
 share/locale/tl/LC_MESSAGES/vlc.mo
 share/locale/tr/LC_MESSAGES/vlc.mo
 share/locale/uk/LC_MESSAGES/vlc.mo
+share/locale/uz/LC_MESSAGES/vlc.mo
 share/locale/vi/LC_MESSAGES/vlc.mo
 share/locale/wa/LC_MESSAGES/vlc.mo
 share/locale/zh_CN/LC_MESSAGES/vlc.mo
@@ -583,5 +588,5 @@ share/vlc/utils/video-vlc-default.sh
 share/vlc/vlc.ico
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor

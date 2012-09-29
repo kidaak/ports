@@ -3,11 +3,8 @@
 COMMENT =		complex graphical design & layout library
 DISTNAME =		edje-1.0.0
 
-REVISION =		1
+REVISION =		4
 EPOCH =			2
-
-# XXX stop lua module creating a no-arch package
-SHARED_ONLY =		Yes
 
 SHARED_LIBS +=		edje 1.0
 
@@ -22,7 +19,7 @@ WANTLIB += Xrandr Xrender Xss Xtst c cares crypto curl ecore ecore_con
 WANTLIB += ecore_evas ecore_file ecore_imf ecore_imf_evas ecore_input
 WANTLIB += ecore_input_evas ecore_x eet eina embryo evas expat fontconfig
 WANTLIB += freetype fribidi glib-2.0 idn jpeg m pcre pthread
-WANTLIB += ssl xcb z ${MODLUA_WANTLIB
+WANTLIB += ssl xcb z ${MODLUA_WANTLIB}
 
 MODULES =		devel/gettext \
 			lang/lua

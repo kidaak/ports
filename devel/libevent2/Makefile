@@ -2,7 +2,7 @@
 
 COMMENT=	event notification library
 
-V=		2.0.19
+V=		2.0.20
 DISTNAME=	libevent-$V-stable
 PKGNAME=	libevent-$V
 CATEGORIES=	devel
@@ -21,7 +21,7 @@ PERMIT_DISTFILES_FTP=	Yes
 
 MASTER_SITES=	https://github.com/downloads/libevent/libevent/
 
-WANTLIB=	crypto ssl
+WANTLIB=	crypto pthread ssl
 
 USE_LIBTOOL=	Yes
 CONFIGURE_STYLE=gnu

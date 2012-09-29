@@ -9,7 +9,7 @@ DISTNAME=	freeciv-${VERSION}
 PKGNAME-main=	freeciv-server-${VERSION}
 PKGNAME-client=	freeciv-client-${VERSION}
 PKGNAME-share=	freeciv-share-${VERSION}
-REVISION-client=1
+REVISION-client=2
 CATEGORIES=	games
 HOMEPAGE=	http://www.freeciv.org/
 

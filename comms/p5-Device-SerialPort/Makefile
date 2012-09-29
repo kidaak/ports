@@ -6,6 +6,7 @@ COMMENT=	talk to modem devices connected via serial port
 
 DISTNAME=	Device-SerialPort-1.04
 EPOCH=		0
+REVISION=	0
 CATEGORIES=	comms
 MODULES=	cpan
 
@@ -16,6 +17,8 @@ PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
+
+WANTLIB += c
 
 .if ${MACHINE_ARCH} == "sparc"
 CONFIGURE_ARGS= TESTPORT=/dev/cuaa

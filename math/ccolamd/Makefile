@@ -4,6 +4,7 @@ COMMENT =	library for column approximate minimum degree ordering
 
 DISTNAME =	CCOLAMD-2.7.4
 PKGNAME = 	${DISTNAME:L}
+REVISION =	0
 SHARED_LIBS +=  ccolamd	0.0
 CATEGORIES =	math
 

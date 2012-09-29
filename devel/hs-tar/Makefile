@@ -2,8 +2,7 @@
 
 COMMENT =		tar bindings for Haskell
 
-DISTNAME =		tar-0.3.1.0
-REVISION =		3
+DISTNAME =		tar-0.3.2.0
 CATEGORIES =		devel archivers
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>

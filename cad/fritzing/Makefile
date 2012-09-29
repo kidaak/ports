@@ -2,14 +2,12 @@
 
 COMMENT=	interactive electronics designing software
 
-V=		0.7.4
+V=		0.7.7
 DISTNAME=	fritzing-$Vb.source
 PKGNAME=	fritzing-$V
 CATEGORIES=	cad
 
 HOMEPAGE=	http://fritzing.org/
-
-MAINTAINER=	Jasper Lievisse Adriaanse <jasper@openbsd.org>
 
 # Code: GPLv3+
 # Rest: CreativeCommons:BY-SA
@@ -28,8 +26,10 @@ MODULES=        x11/qt4
 NO_REGRESS=	Yes
 
 BUILD_DEPENDS=	devel/boost
-RUN_DEPENDS=	devel/desktop-file-utils \
-		x11/qt4,-sqlite
+RUN_DEPENDS=	devel/desktop-file-utils
+
+# XXX: Sigh...words fail me.
+WRKDIST=	${WRKDIR}/fritzing-0.7.6b.source
 
 pre-configure:
 	${SUBST_CMD} ${WRKSRC}/phoenix.pro ${WRKSRC}/src/fapplication.cpp

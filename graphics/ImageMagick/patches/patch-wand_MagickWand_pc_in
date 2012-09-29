@@ -7,5 +7,5 @@ $OpenBSD$
  Requires: ImageMagick
 -Libs: -L${libdir} -lMagickWand -lMagickCore
 -Cflags: -I${includedir} @MAGICK_PCFLAGS@
-+Libs: -L${libdir} -lMagickWand -lMagickCore -pthread
++Libs: -L${libdir} -L${X11BASE}/lib -lMagickWand -lMagickCore -pthread
 +Cflags: -I${includedir} @MAGICK_PCFLAGS@ -pthread

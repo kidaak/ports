@@ -36,6 +36,7 @@ lib/pkgconfig/libcares.pc
 @man man/man3/ares_parse_naptr_reply.3
 @man man/man3/ares_parse_ns_reply.3
 @man man/man3/ares_parse_ptr_reply.3
+@man man/man3/ares_parse_soa_reply.3
 @man man/man3/ares_parse_srv_reply.3
 @man man/man3/ares_parse_txt_reply.3
 @man man/man3/ares_process.3

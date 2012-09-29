@@ -2,6 +2,7 @@
 
 COMMENT =		ruby framework for Behaviour Driven Development
 DISTNAME =		rspec-1.3.2
+REVISION =		0
 SUBST_VARS =            MODRUBY_FLAVOR MODRUBY_PREFIX
 
 # When you have two different versions of a ruby gem installed, the

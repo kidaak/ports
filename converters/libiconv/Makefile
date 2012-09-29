@@ -32,8 +32,7 @@ CONFIGURE_ARGS= ${CONFIGURE_SHARED} \
 		--disable-nls \
 		--enable-extra-encodings \
 		--enable-static
-CONFIGURE_ENV=	am_cv_proto_iconv='extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);' \
-		LDFLAGS="-lbsd"
+CONFIGURE_ENV=	LDFLAGS="-lbsd"
 
 pre-configure:
 	@cd ${WRKSRC}; \

@@ -1,11 +1,10 @@
 # $OpenBSD$
 
 COMMENT=	2d geometry and topology engine
-DISTNAME=	geos-3.2.2
-REVISION=	0
+DISTNAME=	geos-3.3.4
 CATEGORIES=	geo
-SHARED_LIBS=	geos	6.0 \
-		geos_c	3.0
+SHARED_LIBS=	geos	7.0 \
+		geos_c	4.0
 
 MAINTAINER=	Eric Faurot <eric@openbsd.org>
 

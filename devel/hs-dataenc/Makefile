@@ -2,8 +2,7 @@
 
 COMMENT =		data encoding library for Haskell
 
-DISTNAME =		dataenc-0.13.0.4
-REVISION =		0
+DISTNAME =		dataenc-0.14.0.3
 CATEGORIES =		devel
 
 HOMEPAGE =		http://www.haskell.org/haskellwiki/Library/Data_encoding

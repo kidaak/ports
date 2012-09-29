@@ -2,7 +2,7 @@
 
 COMMENT=	library for loading and enumurating of PKCS\#11 modules
 
-DISTNAME=	p11-kit-0.12
+DISTNAME=	p11-kit-0.14
 
 CATEGORIES=	security
 
@@ -32,12 +32,12 @@ CONFIGURE_ARGS=	${CONFIGURE_SHARED} \
 # no translation yet
 CONFIGURE_ARGS += --disable-nls
 
-# some warning options not available with gcc < 4
-CONFIGURE_ARGS += --disable-more-warnings
+# If one of these tools is found at configure stage, it might be used,
+# no matter whether we use --disable-gtk-doc or not.
+CONFIGURE_ENV +=ac_cv_path_GTKDOC_CHECK="" \
+		ac_cv_path_GTKDOC_REBASE="" \
+		ac_cv_path_GTKDOC_MKPDF=""
 
 FAKE_FLAGS=	exampledir=${PREFIX}/share/examples/p11-kit/pkcs11
-
-pre-configure:
-	perl -pi -e 's,-lpthread,-pthread,g' ${WRKSRC}/configure
 
 .include <bsd.port.mk>

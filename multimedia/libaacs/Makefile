@@ -4,9 +4,8 @@ SHARED_ONLY =		Yes
 
 COMMENT =		AACS support library for Blu-ray playback
 
-V =			0.3.1
+V =			0.5.0
 DISTNAME =		libaacs-${V}
-REVISION =		0
 
 CATEGORIES =		multimedia
 
@@ -21,9 +20,9 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Free speech issue
 PERMIT_DISTFILES_FTP =	Yes
 
-SHARED_LIBS +=		aacs	0.0	# 0.0
+SHARED_LIBS +=		aacs	1.0	# 2.0
 
-WANTLIB +=		gcrypt gpg-error pthread
+WANTLIB +=		c gcrypt gpg-error pthread
 
 MODULES =		devel/gettext
 
@@ -33,6 +32,7 @@ BUILD_DEPENDS =		devel/bison \
 
 MAKE_FLAGS =		CFLAGS="${CFLAGS}"
 
+SEPARATE_BUILD =	Yes
 CONFIGURE_STYLE =	gnu
 USE_LIBTOOL =		yes
 YACC =			${LOCALBASE}/bin/bison -y

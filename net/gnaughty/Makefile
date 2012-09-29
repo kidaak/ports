@@ -3,9 +3,9 @@
 COMMENT=	fast and easy porn downloader
 
 DISTNAME=	gnaughty-1.2.5
-CATEGORIES=	net graphics biology productivity education russian inputmethods palm
+CATEGORIES=	net graphics biology productivity education inputmethods benchmarks
 
-REVISION=	6
+REVISION=	10
 
 HOMEPAGE=	http://gnaughty.sourceforge.net/
 

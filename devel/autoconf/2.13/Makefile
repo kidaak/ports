@@ -4,7 +4,6 @@ VERSION =	2.13
 REVISION =	2
 
 CONFIGURE_STYLE = gnu dest
-USE_GROFF =	No
 
 MAKE_FLAGS = 	acdatadir=${PREFIX}/share/autoconf${SUFFIX}
 FAKE_FLAGS = 	acdatadir=${WRKINST}${PREFIX}/share/autoconf${SUFFIX}

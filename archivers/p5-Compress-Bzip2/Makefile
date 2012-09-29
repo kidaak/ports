@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	interface to bzip2 compression library
 
 DISTNAME=	Compress-Bzip2-2.09
-REVISION=	1
+REVISION=	2
 CATEGORIES=	archivers
 
 MAINTAINER=	Kevin Lo <kevlo@openbsd.org>
@@ -18,7 +18,7 @@ PERMIT_DISTFILES_FTP=	Yes
 
 MODULES=	cpan
 LIB_DEPENDS =	archivers/bzip2
-WANTLIB =	bz2>=10
+WANTLIB =	bz2>=10 c
 
 pre-configure:
 	${SUBST_CMD} ${WRKSRC}/config.in

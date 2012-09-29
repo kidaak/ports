@@ -4,7 +4,7 @@ COMMENT=	Nagios Remote Plugin Executor
 
 # packaged from Icinga git repo.
 DISTNAME=	icinga-nrpe-2.12.20100914
-REVISION=	1
+REVISION=	4
 PKGNAME=	${DISTNAME:S/icinga-//}
 WRKDIST=	${WRKDIR}/icinga-nrpe
 CATEGORIES=	net

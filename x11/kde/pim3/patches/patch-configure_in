@@ -57,12 +57,3 @@ $OpenBSD$
  		)
  fi
  fi
-@@ -899,7 +901,7 @@ if test "x$with_mal" = "xCHECK" ; then
-         mal_libdir)
-       if test -r $mal_libdir/libmal.$ext ; then
-         if test "x$mal_libdir" != "x/usr/lib$kdelibsuff" ; then
--          MAL_LIB="-L$mal_libdir "
-+          MAL_LIB="-pthread -L$mal_libdir "
-           test "$USE_RPATH" = yes && MAL_RPATH="-R $mal_libdir"
-         fi
-         MAL_LIB="${MAL_LIB}-lmal"

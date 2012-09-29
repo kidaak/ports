@@ -213,7 +213,7 @@ sub new
 	$singleton->{clear} = $singleton->{terminal}->Tputs("cl", 1);
 	$singleton->{down} = $singleton->{terminal}->Tputs("do", 1);
 	$singleton->{glitch} = $singleton->{terminal}->Tputs("xn", 1);
-	$singleton->{cleareol} = $singleton->{terminal}->Tputs("", 1);
+	$singleton->{cleareol} = $singleton->{terminal}->Tputs("ce", 1);
 	if ($state->{subst}->value("NO_CURSOR")) {
 		$singleton->{invisible} = 
 		    $singleton->{terminal}->Tputs("vi", 1);

@@ -4,6 +4,7 @@ COMMENT =	diary and journal application
 
 MODPY_EGG_VERSION =	1.4.0
 DISTNAME =	rednotebook-${MODPY_EGG_VERSION}
+REVISION =	0
 
 CATEGORIES =	productivity
 

@@ -4,6 +4,7 @@ COMMENT=	Apache Portable Runtime
 
 V=		1.4.6
 DISTNAME=	apr-$V
+REVISION=	0
 SHARED_LIBS +=	apr-1             4.6     # .4.6
 
 CATEGORIES=	devel

@@ -31,8 +31,7 @@ WANTLIB=	ao>=3 c curl>=2 crypto idn ogg>=5 pthread ssl vorbisidec>=1 z
 CONFIGURE_STYLE=gnu
 CONFIGURE_ARGS+=--disable-vorbistest
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
-		LDFLAGS="-L${LOCALBASE}/lib" \
-		PTHREAD_CFLAGS="-pthread" PTHREAD_LIBS="-pthread"
+		LDFLAGS="-L${LOCALBASE}/lib"
 
 pre-configure:
 	${SUBST_CMD} ${WRKSRC}/ogg123/cfgfile_options.c

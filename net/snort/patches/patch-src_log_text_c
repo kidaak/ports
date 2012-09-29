@@ -1,7 +1,7 @@
 $OpenBSD$
---- src/log_text.c.orig	Tue Jan 26 19:10:51 2010
-+++ src/log_text.c	Thu Apr 22 07:53:46 2010
-@@ -66,7 +66,7 @@ extern OptTreeNode *otn_tmp;    /* global ptr to curre
+--- src/log_text.c.orig	Thu Jan 12 23:11:40 2012
++++ src/log_text.c	Sat May 26 15:10:20 2012
+@@ -73,7 +73,7 @@ extern int IsJSNormData(void *);
  void LogTimeStamp(TextLog* log, Packet* p)
  {
      char timestamp[TIMEBUF_SIZE];

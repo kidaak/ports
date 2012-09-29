@@ -4,7 +4,7 @@ COMMENT=		DLNA integration for GUPnP
 
 GNOME_PROJECT=		gupnp-dlna
 GNOME_VERSION=		0.6.6
-REVISION =		0
+REVISION =		1
 
 SHARED_LIBS +=  gupnp-dlna-1.0       0.0      # 2.0
 

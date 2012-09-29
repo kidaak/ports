@@ -41,9 +41,7 @@ MULTI_PACKAGES=		-main -tk -qt
 
 MODULES=		x11/tk x11/qt4
 
-BUILD_DEPENDS=		textproc/libxslt \
-			textproc/docbook \
-			textproc/docbook-xsl
+BUILD_DEPENDS=		textproc/docbook-xsl
 LIB_DEPENDS-main=	devel/libusb-compat \
 			devel/shapelib
 

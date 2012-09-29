@@ -2,10 +2,10 @@
 
 COMMENT =	simple curses mixer
 
-DISTNAME =	cmixer-0.1
+DISTNAME =	cmixer-0.2
 CATEGORIES =	audio
 
-MAINTAINER =	Landry Breuil <gaston@gcu.info>
+MAINTAINER =	Landry Breuil <landry@openbsd.org>
 
 # BSD
 PERMIT_PACKAGE_CDROM =	Yes
@@ -18,7 +18,8 @@ MASTER_SITES =	http://rhaalovely.net/stuff/
 NO_BUILD=	yes
 NO_REGRESS=	yes
 
-RUN_DEPENDS=	devel/p5-Curses-UI
+RUN_DEPENDS=	devel/p5-Curses-UI \
+		audio/aucatctl
 
 PKG_ARCH=	*
 

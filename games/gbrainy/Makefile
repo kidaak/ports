@@ -3,6 +3,7 @@
 COMMENT=	brain teaser game
 
 DISTNAME=	gbrainy-2.1.1
+REVISION=	0
 EPOCH=		0
 
 CATEGORIES=	games

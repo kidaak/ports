@@ -2,7 +2,7 @@
 
 COMMENT =	small, portable, general purpose computer algebra system
 
-DISTNAME =	mathomatic-15.6.1
+DISTNAME =	mathomatic-16.0.0
 
 CATEGORIES =	math
 

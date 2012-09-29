@@ -30,7 +30,7 @@ MODULES=		x11/qt4 devel/scons
 
 MAKE_ENV+=		QTDIR="${MODQT4_QTDIR}"
 MODSCONS_FLAGS=		localinc="-I${LOCALBASE}/include -I${X11BASE}/include" \
-			locallib="-L${LOCALBASE}/lib -L${X11BASE}/lib -logg -pthread" \
+			locallib="-L${LOCALBASE}/lib -L${X11BASE}/lib -logg -lpthread" \
 			optflags="${CXXFLAGS} " \
 			libarchive="1" sndio="1" oss="0" alsa="0" portmidi="0" \
 			portaudio="0" lash="0" lrdf="1"

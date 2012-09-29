@@ -12,6 +12,7 @@ lib/girepository-1.0/
 lib/girepository-1.0/Xkl-1.0.typelib
 lib/libxklavier.a
 lib/libxklavier.la
+lib/pkgconfig/
 lib/pkgconfig/libxklavier.pc
 share/gir-1.0/
 share/gir-1.0/Xkl-1.0.gir

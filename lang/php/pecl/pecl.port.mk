@@ -35,3 +35,7 @@ MODPHP_DO_PHPIZE ?= Yes
 REGRESS_TARGET = test
 REGRESS_FLAGS =  NO_INTERACTION=1
 .endif
+
+.if ${SHARED_ONLY:L} == "yes"
+WANTLIB += c
+.endif

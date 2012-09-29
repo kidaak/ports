@@ -14,10 +14,10 @@ HOMEPAGE=		http://www.jamesholmes.com/struts/console/
 MAINTAINER=		Ian Darwin <ian@openbsd.org>
 
 # Free for use, but no redistribution. 
-PERMIT_PACKAGE_CDROM=	"no redistribution"
-PERMIT_PACKAGE_FTP=	"no redistribution"
-PERMIT_DISTFILES_CDROM=	"no redistribution"
-PERMIT_DISTFILES_FTP=	"no redistribution"
+PERMIT_PACKAGE_CDROM=	no redistribution
+PERMIT_PACKAGE_FTP=	no redistribution
+PERMIT_DISTFILES_CDROM=	no redistribution
+PERMIT_DISTFILES_FTP=	no redistribution
 
 MASTER_SITES=		http://www.jamesholmes.com/struts/
 

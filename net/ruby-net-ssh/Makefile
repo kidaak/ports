@@ -3,7 +3,7 @@
 COMMENT =	pure-ruby implementation of the SSH2 client protocol
 
 DISTNAME =	net-ssh-2.0.15
-REVISION =	4
+REVISION =	5
 CATEGORIES =	net
 
 # bsd/ruby

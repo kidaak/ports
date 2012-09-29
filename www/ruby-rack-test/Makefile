@@ -3,6 +3,7 @@
 COMMENT=		small, simple testing API for Rack apps
 
 DISTNAME=		rack-test-0.6.1
+REVISION =		0
 CATEGORIES=		www
 
 HOMEPAGE=		https://github.com/brynary/rack-test

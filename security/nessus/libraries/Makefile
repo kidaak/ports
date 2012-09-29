@@ -2,7 +2,7 @@
 
 COMMENT=	libraries for Nessus
 DISTNAME=	nessus-libraries-${V}
-REVISION =	1
+REVISION=	2
 
 SHARED_LIBS=	hosts_gatherer	4.7 \
 		nessus		4.7

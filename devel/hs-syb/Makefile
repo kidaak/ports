@@ -2,7 +2,7 @@
 
 COMMENT =		Scrap Your Boilerplate
 
-DISTNAME =		syb-0.3.3
+DISTNAME =		syb-0.3.6.1
 CATEGORIES =		devel
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>

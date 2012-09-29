@@ -2,7 +2,7 @@
 
 COMMENT =	access web services that claim to be RESTful
 
-GNOME_VERSION =	0.7.12
+GNOME_VERSION =	0.7.90
 GNOME_PROJECT =	rest
 PKGNAME =	lib${DISTNAME}
 

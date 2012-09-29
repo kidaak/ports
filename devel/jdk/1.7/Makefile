@@ -84,11 +84,15 @@ VMEM_WARNING=	Yes
 BUILD_DEPENDS+=	devel/apache-ant>=1.8.2 \
 		archivers/zip \
 		archivers/unzip \
-		print/cups
+		print/cups,-libs
 MODULES=	converters/libiconv
 WANTLIB=	X11 Xext Xi Xtst Xrender c freetype m pthread sndio stdc++ z
 
 USE_GMAKE=	Yes
+
+# Don't call make -jN, instead pass MAKE_JOBS to HOTSPOT_BUILD_JOBS
+PARALLEL_BUILD=         No
+
 
 MAKE_ENV=	ALT_BOOTDIR=${ALT_BOOTDIR} \
 		ALT_FREETYPE_HEADERS_PATH=${X11BASE}/include \
@@ -104,7 +108,7 @@ MAKE_ENV=	ALT_BOOTDIR=${ALT_BOOTDIR} \
 		MILESTONE=fcs \
 		BUILD_NUMBER=b04 \
 		JDK_UPDATE_VERSION=03 \
-		HOTSPOT_BUILD_JOBS=${HOTSPOT_BUILD_JOBS}
+		HOTSPOT_BUILD_JOBS=${MAKE_JOBS}
 
 #ALL_TARGET=	debug_build
 

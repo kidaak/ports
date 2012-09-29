@@ -1,7 +1,7 @@
 $OpenBSD$
---- mozilla/parser/html/Makefile.in.orig	Sat Apr 21 00:40:21 2012
-+++ mozilla/parser/html/Makefile.in	Wed Apr 25 17:50:16 2012
-@@ -122,4 +122,7 @@ INCLUDES	+= \
+--- mozilla/parser/html/Makefile.in.orig	Sat Aug 25 02:31:27 2012
++++ mozilla/parser/html/Makefile.in	Sat Sep  1 01:59:39 2012
+@@ -96,4 +96,7 @@ INCLUDES	+= \
  		-I$(srcdir)/../../content/base/src \
  		$(NULL)
  

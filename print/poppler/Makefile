@@ -3,20 +3,23 @@
 COMMENT-main=	PDF rendering library
 COMMENT-qt=	qt interface to PDF rendering library
 COMMENT-qt4=	qt4 interface to PDF rendering library
+COMMENT-utils=	PDF conversion tools and utilities
 
-V=		0.18.4
+V=		0.20.4
 DISTNAME=	poppler-$V
 CATEGORIES=	print
 PKGNAME-main=	poppler-$V
-FULLPKGNAME-qt=	poppler-qt-$V
-FULLPKGNAME-qt4=poppler-qt4-$V
+PKGNAME-utils= poppler-utils-$V
+PKGNAME-qt=	poppler-qt-$V
+PKGNAME-qt4=	poppler-qt4-$V
 OLDSHIT = poppler-0.16.7
 
-SHARED_LIBS +=	poppler              11.0
-SHARED_LIBS +=  poppler-cpp          1.0
-SHARED_LIBS +=	poppler-glib         9.0
-SHARED_LIBS +=	poppler-qt           8.0
-SHARED_LIBS +=	poppler-qt4          8.0
+SHARED_LIBS +=  poppler              14.0     # 28.0
+SHARED_LIBS +=  poppler-glib         10.0     # 12.0
+SHARED_LIBS +=  poppler-qt           9.0      # 3.0
+SHARED_LIBS +=  poppler-qt4          10.0      # 4.0
+SHARED_LIBS +=  poppler-cpp          2.0      # 2.0
+
 DISTFILES = ${DISTNAME}${EXTRACT_SUFX} ${OLDSHIT}${EXTRACT_SUFX}
 
 HOMEPAGE=	http://poppler.freedesktop.org/
@@ -31,17 +34,17 @@ PERMIT_DISTFILES_CDROM=	Yes
 
 MASTER_SITES=	${HOMEPAGE}
 
-PSEUDO_FLAVORS=no_qt no_qt4
-FLAVOR?=
+PSEUDO_FLAVORS=no_qt no_qt4 bootstrap
+# XXX not strictly a bootstrap loop, but on the critical path for libreoffice
+FLAVOR?=no_qt no_qt4 bootstrap
 
 NOT_FOR_ARCHS-qt4 = arm
 
-MULTI_PACKAGES=-main -qt -qt4
+MULTI_PACKAGES=-main -qt -qt4 -utils
 
 .include <bsd.port.arch.mk>
 
-
-cWANTLIB=	expat freetype fontconfig jpeg m tiff z stdc++
+cWANTLIB=	expat freetype fontconfig jpeg m pthread tiff z stdc++
 
 .if ${BUILD_PACKAGES:M-qt}
 MODULES+=	x11/qt3
@@ -49,61 +52,52 @@ MODULES+=	x11/qt3
 CONFIGURE_ARGS+=	--disable-poppler-qt
 .endif
 
-
 .if ${BUILD_PACKAGES:M-qt4}
 MODULES+=	x11/qt4
 .else
 CONFIGURE_ARGS+=	--disable-poppler-qt4
 .endif
 
-# XXX g-ir-scanner failure with gcc3
-.if ${COMPILER_VERSION:L:Mgcc4*}
-PKG_ARGS+= 	-DGCC4=1
-BUILD_DEPENDS+=	devel/gobject-introspection
-CONFIGURE_ARGS+=--enable-introspection
-.else
-PKG_ARGS+=	-DGCC4=0
-CONFIGURE_ARGS+=--disable-introspection
-.endif
+MODULES+=	devel/gettext
 
-MODULES+=	devel/gettext converters/libiconv
+BUILD_DEPENDS+= devel/gobject-introspection
 
 LIB_DEPENDS-main=${MODGETTEXT_LIB_DEPENDS} \
-		${MODLIBICONV_LIB_DEPENDS} \
 		devel/glib2 \
-		devel/libffi \
 		graphics/cairo \
-		graphics/lcms \
+		graphics/lcms2 \
 		graphics/openjpeg \
 		graphics/png \
 		graphics/tiff
 
 LIB_DEPENDS-qt=	${MODQT3_LIB_DEPENDS} \
-		${MODLIBICONV_LIB_DEPENDS} \
-		print/poppler \
-		graphics/png \
-		graphics/tiff
-
-LIB_DEPENDS-qt4=x11/qt4 \
-		${MODGETTEXT_LIB_DEPENDS} \
 		print/poppler
 
-WANTLIB-main=	${cWANTLIB} Xext Xfixes c ffi \
+LIB_DEPENDS-qt4=${MODQT4_LIB_DEPENDS} \
+		print/poppler
+
+LIB_DEPENDS-utils=${MODGETTEXT_LIB_DEPENDS} \
+		print/poppler
+
+WANTLIB-main=	${cWANTLIB} Xext Xfixes ffi \
 		glib-2.0 gobject-2.0 gthread-2.0 \
 		pixman-1 openjpeg \
 		X11 Xau Xdamage Xdmcp Xrender cairo pcre png \
-		pthread pthread-stubs xcb xcb-render lcms GL Xxf86vm \
+		pthread-stubs xcb xcb-render lcms2 GL Xxf86vm \
 		drm xcb-shm ${MODGETTEXT_WANTLIB}
-WANTLIB-qt=	${cWANTLIB} lcms openjpeg poppler png ${MODQT3_WANTLIB} \
-		${MODLIBICONV_WANTLIB}
-WANTLIB-qt4=	${cWANTLIB} ICE QtCore QtGui QtXml SM X11 Xext Xi \
-                Xinerama Xrender lcms \
-		openjpeg png poppler \
-		QtCore QtGui QtXml
+WANTLIB-qt=	${cWANTLIB} lcms2 openjpeg poppler png ${MODQT3_WANTLIB}
+WANTLIB-qt4=	${cWANTLIB} ${MODQT4_WANTLIB} ICE QtGui QtXml SM X11 Xext Xi \
+                Xinerama Xrender lcms2 openjpeg png poppler QtCore QtGui QtXml
+WANTLIB-utils=	GL X11 Xau Xdamage Xdmcp Xext Xfixes Xrender Xxf86vm \
+		c cairo drm expat ffi fontconfig freetype glib-2.0 \
+		gobject-2.0 gthread-2.0 jpeg lcms2 m pcre pixman-1 png \
+		pthread pthread-stubs stdc++ tiff xcb xcb-render xcb-shm \
+		openjpeg poppler z ${cWANTLIB} ${MODGETTEXT_WANTLIB}
 
 CONFIGURE_STYLE=autoconf
-AUTOCONF_VERSION=2.68
-CONFIGURE_ARGS+= --enable-xpdf-headers \
+AUTOCONF_VERSION=2.69
+CONFIGURE_ARGS+= --disable-gtk-doc \
+		--enable-xpdf-headers \
 		--enable-poppler-cpp \
 		--enable-utils \
 		--enable-zlib \
@@ -111,6 +105,12 @@ CONFIGURE_ARGS+= --enable-xpdf-headers \
 
 CONFIGURE_ENV+= CPPFLAGS="-I${X11BASE}/include -I${LOCALBASE}/include -I${LOCALBASE}/include/libpng" \
 		LDFLAGS="-L${LOCALBASE}/lib"
+
+# If one of these tools is found at configure stage, it might be used,
+# no matter whether we use --disable-gtk-doc or not.
+CONFIGURE_ENV +=ac_cv_path_GTKDOC_CHECK="" \
+		ac_cv_path_GTKDOC_REBASE="" \
+		ac_cv_path_GTKDOC_MKPDF=""
 
 USE_LIBTOOL=	Yes
 USE_GMAKE=	Yes

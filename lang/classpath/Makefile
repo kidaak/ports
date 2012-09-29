@@ -6,7 +6,7 @@ ONLY_FOR_ARCHS=	i386 amd64 sparc64
 COMMENT=	essential libraries for java
 
 DISTNAME=	classpath-0.98
-REVISION=	9
+REVISION=	10
 
 CATEGORIES=	lang java
 
@@ -50,7 +50,7 @@ WANTLIB += freetype gconf-2 gdk-x11-2.0 gdk_pixbuf-2.0 gio-2.0
 WANTLIB += glib-2.0 gmodule-2.0 gmp gobject-2.0 gthread-2.0 gtk-x11-2.0
 WANTLIB += m magic pango-1.0 pangocairo-1.0 pangoft2-1.0 pcre
 WANTLIB += pixman-1 png pthread-stubs stdc++ xcb xcb-render xcb-shm
-WANTLIB += z
+WANTLIB += z c pthread
 
 MASTER_SITES=	${MASTER_SITE_GNU:=classpath/}
 MASTER_SITES0=	http://archive.eclipse.org/eclipse/downloads/drops/R-3.2.2-200702121330/

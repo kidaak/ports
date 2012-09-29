@@ -17,6 +17,7 @@ lib/pkgconfig/
 lib/pkgconfig/libcurl.pc
 @man man/man1/curl-config.1
 @man man/man1/curl.1
+@man man/man1/mk-ca-bundle.1
 @man man/man3/curl_easy_cleanup.3
 @man man/man3/curl_easy_duphandle.3
 @man man/man3/curl_easy_escape.3

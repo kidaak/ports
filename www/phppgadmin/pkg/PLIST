@@ -378,3 +378,5 @@ phpPgAdmin/views.php
 phpPgAdmin/xloadtree/
 phpPgAdmin/xloadtree/xloadtree2.js
 phpPgAdmin/xloadtree/xtree2.js
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

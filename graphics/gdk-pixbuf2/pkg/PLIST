@@ -77,7 +77,6 @@ share/gtk-doc/html/
 share/gtk-doc/html/gdk-pixbuf/
 share/gtk-doc/html/gdk-pixbuf/GdkPixbufLoader.html
 share/gtk-doc/html/gdk-pixbuf/annotation-glossary.html
-share/gtk-doc/html/gdk-pixbuf/api-index-2-10.html
 share/gtk-doc/html/gdk-pixbuf/api-index-2-12.html
 share/gtk-doc/html/gdk-pixbuf/api-index-2-14.html
 share/gtk-doc/html/gdk-pixbuf/api-index-2-2.html
@@ -99,7 +98,11 @@ share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Scaling.html
 share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-The-GdkPixbuf-Structure.html
 share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Utilities.html
 share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Versioning.html
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-X-Drawables-to-Pixbufs.html
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-Xlib-Rendering.html
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-XlibRGB.html
 share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-csource.html
+share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf-Xlib-initialization.html
 share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf-from-drawables.html
 share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-gdk-pixbuf-rendering.html
 share/gtk-doc/html/gdk-pixbuf/gdk-pixbuf-query-loaders.html
@@ -157,6 +160,9 @@ share/locale/crh/
 share/locale/crh/LC_MESSAGES/
 share/locale/crh/LC_MESSAGES/gdk-pixbuf.mo
 share/locale/cs/LC_MESSAGES/gdk-pixbuf.mo
+share/locale/csb/
+share/locale/csb/LC_MESSAGES/
+share/locale/csb/LC_MESSAGES/gdk-pixbuf.mo
 share/locale/cy/
 share/locale/cy/LC_MESSAGES/
 share/locale/cy/LC_MESSAGES/gdk-pixbuf.mo

@@ -1,7 +1,7 @@
 $OpenBSD$
---- source3/configure.in.orig	Sat Apr  7 14:23:20 2012
-+++ source3/configure.in	Tue Apr 10 23:47:13 2012
-@@ -834,9 +834,15 @@ if test x$enable_cups != xno; then
+--- source3/configure.in.orig	Fri Sep 14 04:12:09 2012
++++ source3/configure.in	Tue Sep 18 21:51:47 2012
+@@ -869,9 +869,15 @@ if test x$enable_cups != xno; then
  
          if test "x$CUPS_CONFIG" != x; then
  
@@ -17,7 +17,7 @@ $OpenBSD$
  
  		if test x"$ac_cv_header_cups_cups_h" = xyes -a \
  		        x"$ac_cv_header_cups_language_h" = xyes; then
-@@ -844,18 +850,19 @@ if test x$enable_cups != xno; then
+@@ -879,18 +885,19 @@ if test x$enable_cups != xno; then
  			# underlinked. With cups-config --libs we pull in unwanted and unneeded
  			# dendencies including thread libraries - use cups-config only if really
  			# required. 
@@ -41,7 +41,7 @@ $OpenBSD$
  			PRINT_LIBS=$ac_save_PRINT_LIBS
  		fi
  
-@@ -1640,8 +1647,7 @@ DSO_EXPORTS=""
+@@ -1675,8 +1682,7 @@ DSO_EXPORTS=""
  			;;
  		*openbsd*)  BLDSHARED="true"
  			LDSHFLAGS="-shared"
@@ -51,7 +51,7 @@ $OpenBSD$
  			PICFLAG="-fPIC"
  			AC_DEFINE(STAT_ST_BLOCKSIZE,512,[The size of a block])
  			AC_DEFINE(BROKEN_GETGRNAM,1,[Does getgrnam work correctly])
-@@ -6747,13 +6753,43 @@ fi
+@@ -6784,13 +6790,43 @@ fi
  
  CFLAGS=$CFLAGS_SAVE
  

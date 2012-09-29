@@ -1,0 +1,13 @@
+$OpenBSD$
+--- src/Makefile.in.orig	Mon Sep 24 06:40:14 2012
++++ src/Makefile.in	Mon Sep 24 14:12:34 2012
+@@ -6791,9 +6791,6 @@ libvirt_qemu.def: $(srcdir)/libvirt_qemu.syms
+ 
+ install-data-local:
+ 	$(MKDIR_P) "$(DESTDIR)$(localstatedir)/cache/libvirt"
+-	$(MKDIR_P) "$(DESTDIR)$(localstatedir)/lib/libvirt/images"
+-	$(MKDIR_P) "$(DESTDIR)$(localstatedir)/lib/libvirt/filesystems"
+-	$(MKDIR_P) "$(DESTDIR)$(localstatedir)/lib/libvirt/boot"
+ @HAVE_SANLOCK_TRUE@	$(MKDIR_P) "$(DESTDIR)$(localstatedir)/lib/libvirt/sanlock"
+ @WITH_QEMU_TRUE@	$(MKDIR_P) "$(DESTDIR)$(localstatedir)/lib/libvirt/qemu"
+ @WITH_QEMU_TRUE@	$(MKDIR_P) "$(DESTDIR)$(localstatedir)/run/libvirt/qemu"

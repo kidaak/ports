@@ -1,7 +1,6 @@
 @comment $OpenBSD$
 @conflict g77-<3.3.5v0
 %%SHARED%%
-%%no_mips64%%
 include/g2c.h
 lib/gcc-lib/
 lib/gcc-lib/${CONFIG}/

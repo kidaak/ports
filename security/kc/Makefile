@@ -2,7 +2,7 @@
 
 COMMENT =	console based password storing application
 
-DISTNAME =	kc-2.1.5
+DISTNAME =	kc-2.1.6
 CATEGORIES =    security
 
 HOMEPAGE =	http://code.google.com/p/keychain

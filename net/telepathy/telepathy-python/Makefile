@@ -19,8 +19,6 @@ RUN_DEPENDS=		devel/py-gobject \
 			x11/dbus-python \
 			x11/py-gtk2
 
-CONFIGURE_STYLE=	gnu
-
 USE_LIBTOOL=		No
 
 SUBST_VARS+=		V

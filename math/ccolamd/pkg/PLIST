@@ -4,4 +4,3 @@ include/ccolamd/
 include/ccolamd/ccolamd.h
 lib/libccolamd.a
 lib/libccolamd_p.a
-%%no_mips64%%

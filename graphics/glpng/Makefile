@@ -5,7 +5,7 @@ COMMENT=	load PNG graphics files and bind them to an OpenGL texture
 VERSION=	1.45
 DISTNAME=	glpng
 PKGNAME=	${DISTNAME}-${VERSION}
-REVISION =	2
+REVISION =	3
 SHARED_LIBS=	glpng 0.0
 CATEGORIES=	graphics
 

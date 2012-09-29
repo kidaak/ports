@@ -2,11 +2,14 @@
 
 COMMENT=	message bus system
 
-DISTNAME=	dbus-1.4.20
+DISTNAME=	dbus-1.6.4
+REVISION=	1
 EPOCH=		0
 
-SHARED_LIBS +=	dbus-1	9.1 # .8.9
+SHARED_LIBS +=  dbus-1               10.2     # 10.2
+
 CATEGORIES=	x11
+# DPB: not parallel-safe
 
 HOMEPAGE=	http://dbus.freedesktop.org/
 
@@ -27,9 +30,10 @@ SEPARATE_BUILD=	Yes
 USE_GMAKE=	Yes
 USE_LIBTOOL=	Yes
 
-CONFIGURE_STYLE= gnu
+CONFIGURE_STYLE= autoconf
+AUTOCONF_VERSION= 2.69
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
-		LDFLAGS="-L${LOCALBASE}/lib -pthread"
+		LDFLAGS="-L${LOCALBASE}/lib"
 CONFIGURE_ARGS=	--with-dbus-user=_dbus \
 		--with-xml=expat \
 		--with-x \
@@ -41,7 +45,8 @@ CONFIGURE_ARGS=	--with-dbus-user=_dbus \
 		--disable-selinux \
 		--disable-libaudit \
 		--disable-dnotify \
-		--disable-inotify
+		--disable-inotify \
+		--disable-systemd
 
 # gives no chance of picking up devel/libexecinfo
 CONFIGURE_ENV+=	ac_cv_header_execinfo_h=no \

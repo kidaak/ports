@@ -4,9 +4,10 @@ SHARED_ONLY=	Yes
 
 COMMENT=	perl binding for curl
 
-MODULES=	cpan
+MODULES=	cpan devel/gettext
 DISTNAME=	WWW-Curl-4.15
 EPOCH=		0
+REVISION=	0
 CATEGORIES=	www net
 
 HOMEPAGE=	http://curl.haxx.se/libcurl/perl/
@@ -17,7 +18,7 @@ PERMIT_DISTFILES_FTP=	Yes
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 
-WANTLIB += crypto curl>=2.2 idn ssl z
+WANTLIB += c crypto curl>=2.2 idn ssl z
 
 LIB_DEPENDS=	net/curl
 

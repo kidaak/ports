@@ -5,6 +5,7 @@ SHARED_ONLY =	Yes
 COMMENT =	intelligent input bus framework
 
 DISTNAME =	ibus-1.4.1
+REVISION =	0
 
 SHARED_LIBS =	ibus-1.0	1.0
 
@@ -58,5 +59,11 @@ CONFIGURE_ARGS = --enable-introspection \
 		 --enable-gtk-doc-html=no
 CONFIGURE_ENV =	CPPFLAGS="${CPPFLAGS} -I${LOCALBASE}/include -I${X11BASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
+
+# If one of these tools is found at configure stage, it might be used,
+# no matter whether we use --disable-gtk-doc or not.
+CONFIGURE_ENV +=ac_cv_path_GTKDOC_CHECK="" \
+		ac_cv_path_GTKDOC_REBASE="" \
+		ac_cv_path_GTKDOC_MKPDF=""
 
 .include <bsd.port.mk>

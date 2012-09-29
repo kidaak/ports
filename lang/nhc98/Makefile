@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $NetBSD: Makefile,v 1.29 2004/03/26 21:19:53 wiz Exp $
 
 COMMENT=	portable Haskell compiler
 

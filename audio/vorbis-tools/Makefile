@@ -27,13 +27,11 @@ LIB_DEPENDS=	audio/libao \
 		audio/speex \
 		audio/libvorbis
 
-USE_GROFF=	Yes
 USE_LIBTOOL=	Yes
 CONFIGURE_STYLE=gnu
 CONFIGURE_ARGS=	--without-kate
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
-		LDFLAGS="-L${LOCALBASE}/lib" \
-		PTHREAD_CFLAGS="-pthread" PTHREAD_LIBS="-pthread"
+		LDFLAGS="-L${LOCALBASE}/lib"
 SEPARATE_BUILD=	Yes
 
 post-install:

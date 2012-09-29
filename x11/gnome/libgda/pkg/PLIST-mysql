@@ -1,5 +1,4 @@
 @comment $OpenBSD$
-@comment lib/libgda-${GDA_MAJOR}/providers/libgda-mysql.la
 lib/libgda-${GDA_MAJOR}/providers/libgda-mysql.so
 lib/pkgconfig/libgda-mysql-${GDA_MAJOR}.pc
 share/libgda-${GDA_MAJOR}/mysql_specs_add_column.xml

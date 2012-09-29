@@ -3,7 +3,7 @@
 COMMENT=	CPU load monitor
 
 DISTNAME=	TimeMon-4.1
-REVISION =	0
+REVISION =	2
 CATEGORIES=	sysutils
 
 HOMEPAGE=	http://gap.nongnu.org/timemon/

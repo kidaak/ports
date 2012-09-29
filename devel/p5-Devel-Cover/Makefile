@@ -5,6 +5,7 @@ SHARED_ONLY =	Yes
 
 MODULES =	cpan
 DISTNAME =	Devel-Cover-0.78
+REVISION =	0
 CATEGORIES =	devel
 USE_GROFF =	Yes
 
@@ -13,6 +14,8 @@ PERMIT_PACKAGE_CDROM =		Yes
 PERMIT_PACKAGE_FTP =		Yes
 PERMIT_DISTFILES_CDROM =	Yes
 PERMIT_DISTFILES_FTP =		Yes
+
+WANTLIB += c
 
 RUN_DEPENDS =	devel/p5-Pod-Coverage \
 		devel/p5-Test-Differences \

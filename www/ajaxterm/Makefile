@@ -4,7 +4,7 @@ COMMENT = 		web-based SSH client
 
 DISTNAME =		Ajaxterm-0.10
 PKGNAME =		ajaxterm-0.10
-REVISION =		6
+REVISION =		8
 
 CATEGORIES =		net security www
 PKG_ARCH =		*
@@ -23,6 +23,8 @@ MASTER_SITES =		${HOMEPAGE}/files/
 USE_GROFF =		Yes
 NO_BUILD =		Yes
 
+BUILD_DEPENDS =			${_MODPY_BUILD_DEPENDS}
+
 MODULES =		lang/python
 
 SHARE =			${PREFIX}/share/ajaxterm
@@ -39,6 +41,7 @@ do-install:
 	${INSTALL_DATA} ${WRKDIST}/sarissa_dhtml.js ${SHARE}
 	perl -pi -e 's/ajaxterm.py/ajaxterm/' ${WRKDIST}/ajaxterm.1
 	${INSTALL_MAN}  ${WRKDIST}/ajaxterm.1 ${PREFIX}/man/man1/ajaxterm.1
+	${MODPY_BIN} ${MODPY_LIBDIR}/compileall.py ${PREFIX}/share/ajaxterm
 
 
 

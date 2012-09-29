@@ -8,6 +8,8 @@ TARGET=			msp430
 
 DISTNAME?=		${TOOL}-${TOOL_V}
 
+COMMENT?=		${TOOL} for ${TARGET}
+
 .if defined(GNU_TOOL) && ${GNU_TOOL:L:Myes}
     PKGNAME?=		${TARGET}-${DISTNAME}
 

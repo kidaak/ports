@@ -3,13 +3,11 @@
 COMMENT =	beginner's drill tool to learn Japanese kana characters 
 
 DISTNAME =	kanatest-0.4.6
-REVISION=	6
+REVISION=	7
 
 CATEGORIES =	japanese
 
 HOMEPAGE =	http://clay.ll.pl/kanatest/
-
-MAINTAINER =	Mathieu Sauve-Frankel <msf@openbsd.org> 
 
 # GPL
 PERMIT_PACKAGE_CDROM =	Yes

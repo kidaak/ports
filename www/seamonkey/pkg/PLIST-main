@@ -21,12 +21,9 @@ lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/ablistWindow48.pn
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/addressbookWindow.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/addressbookWindow16.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/addressbookWindow48.png
-lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/bmPropsWindow.png
-lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/bmPropsWindow16.png
-lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/bmPropsWindow48.png
-lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/bookmark-window.png
-lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/bookmark-window16.png
-lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/bookmark-window48.png
+lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/bookmarkproperties.png
+lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/bookmarkproperties16.png
+lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/bookmarkproperties48.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/default.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/default16.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/default48.png
@@ -54,6 +51,9 @@ lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/messengerWindow48
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/msgcomposeWindow.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/msgcomposeWindow16.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/msgcomposeWindow48.png
+lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/places.png
+lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/places16.png
+lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/places48.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/${MOZILLA_PROJECT}.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/venkman-window.png
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/chrome/icons/default/venkman-window16.png
@@ -102,7 +102,7 @@ lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/platform.ini
 @bin lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/plugin-container
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/removed-files
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/run-mozilla.sh
-lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/${MOZILLA_PROJECT}
+@bin lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/${MOZILLA_PROJECT}
 @bin lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/${MOZILLA_PROJECT}-bin
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/searchplugins/
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/searchplugins/creativecommons.xml

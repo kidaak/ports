@@ -3,7 +3,7 @@
 COMMENT =		PHP support for retrieving info about files
 
 DISTNAME =		Fileinfo-1.0.4
-REVISION =		3
+REVISION =		7
 CATEGORIES =		sysutils
 MAINTAINER =		Johan Huldtgren <jhuldtgren@gmail.com>
 

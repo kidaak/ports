@@ -12,9 +12,9 @@ FULLPKGNAME-client=	samhain-${VERSION}
 FULLPKGPATH-client=	security/samhain,-client
 PKGNAME-server=		samhain-server-${VERSION}
 
-REVISION-main=		2
-REVISION-client=	5
-REVISION-server=	4
+REVISION-main=		3
+REVISION-client=	7
+REVISION-server=	5
 
 CATEGORIES=		security
 

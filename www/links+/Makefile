@@ -3,6 +3,7 @@
 COMMENT=	graphics and text browser
 
 VER=		2.6
+REVISION=	1
 DISTNAME=	links-${VER}
 PKGNAME=	links+-${VER}
 
@@ -16,11 +17,12 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	bz2>=10 c crypto m ssl z
+WANTLIB=	bz2>=10 c crypto lzma m ssl z
 
 MASTER_SITES=	${HOMEPAGE}download/
 
-LIB_DEPENDS=	archivers/bzip2
+LIB_DEPENDS=	archivers/bzip2 \
+		archivers/xz
 
 AUTOCONF_VERSION=2.13
 CONFIGURE_STYLE= autoconf

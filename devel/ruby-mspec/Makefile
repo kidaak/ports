@@ -3,7 +3,7 @@
 COMMENT =	specialized test framework for running RubySpecs
 
 DISTNAME =	mspec-1.5.17
-REVISION=		0
+REVISION=		1
 CATEGORIES =	devel
 
 HOMEPAGE =	http://www.rubyspec.org/projects/show/mspec

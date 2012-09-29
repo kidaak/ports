@@ -3,6 +3,7 @@
 COMMENT=		modular Ruby webserver interface
 
 DISTNAME=		rack-1.3.6
+REVISION =		0
 CATEGORIES=		www
 
 HOMEPAGE=		http://rack.rubyforge.org/

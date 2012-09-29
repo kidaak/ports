@@ -10,12 +10,3 @@ $OpenBSD$
   if test $? = 0; then
    echo "found!"
    ENCS="mpeg4 $ENCS"
-@@ -1884,7 +1884,7 @@ ffmpeg -formats 2>&1|egrep " aac" > /dev/null
- 
- echo $ECHO_N "checking for ImageMagick..."
- convert --version > /dev/null 2>&1
-- if test $? = 0; then
-+ if test $? = 1; then
-   echo "found!"
-   IMAGIC="Yes"
-  else

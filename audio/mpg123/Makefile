@@ -2,8 +2,8 @@
 
 COMMENT=	fast console MPEG audio player and decoder library
 
-DISTNAME=	mpg123-1.14.2
-SHARED_LIBS=	mpg123		3.0	# .36.3
+DISTNAME=	mpg123-1.14.4
+SHARED_LIBS=	mpg123		3.0	# .36.6
 CATEGORIES=	audio
 HOMEPAGE=	http://www.mpg123.de/
 

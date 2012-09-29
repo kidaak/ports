@@ -31,3 +31,5 @@ share/open-cobol/config/default.conf
 share/open-cobol/config/ibm.conf
 share/open-cobol/config/mf.conf
 share/open-cobol/config/mvs.conf
+share/open-cobol/copy/
+share/open-cobol/copy/screenio.cpy

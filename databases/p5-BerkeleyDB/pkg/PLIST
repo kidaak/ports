@@ -10,4 +10,6 @@ ${P5ARCH}/auto/BerkeleyDB/
 ${P5ARCH}/auto/BerkeleyDB/BerkeleyDB.bs
 ${P5ARCH}/auto/BerkeleyDB/BerkeleyDB.so
 ${P5ARCH}/auto/BerkeleyDB/autosplit.ix
+@comment ${P5ARCH}/mkconsts.pl
+@comment ${P5ARCH}/scan.pl
 @man man/man3p/BerkeleyDB.3p

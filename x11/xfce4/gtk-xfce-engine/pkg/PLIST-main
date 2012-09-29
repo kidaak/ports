@@ -1,4 +1,6 @@
 @comment $OpenBSD$
+@conflict gtk-xfce-engine-<=3.0.0p0
+@pkgpath x11/xfce4/gtk-xfce-engine
 lib/gtk-2.0/
 lib/gtk-2.0/2.10.0/
 lib/gtk-2.0/2.10.0/engines/

@@ -3,7 +3,7 @@
 COMMENT =		Haskell binding for the OpenGL Utility Toolkit
 
 DISTNAME =		GLUT-2.1.2.1
-REVISION =		8
+REVISION =		9
 CATEGORIES =		graphics devel
 HOMEPAGE =		http://www.haskell.org/HOpenGL/
 
@@ -17,7 +17,8 @@ PERMIT_DISTFILES_FTP =	Yes
 
 MODULES =		lang/ghc
 
-MODGHC_BUILD =		cabal hackage haddock register
+# Haddock vomits on this.
+MODGHC_BUILD =		cabal hackage register
 
 # Should be changed to LIB_DEPENDS as soon as we have a GHC with
 # shared libs.

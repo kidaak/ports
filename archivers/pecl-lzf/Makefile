@@ -6,7 +6,7 @@ DISTNAME =		LZF-1.5.2
 CATEGORIES =		archivers
 MAINTAINER =		Johan Huldtgren <jhuldtgren@gmail.com>
 
-REVISION =		3
+REVISION =		5
 
 # PHP
 PERMIT_PACKAGE_CDROM =	Yes

@@ -5,12 +5,10 @@ COMMENT=		PPTP Server
 V=			1.3.4
 DISTNAME=		pptpd-$V
 PKGNAME=		poptop-$V
-REVISION=		3
+REVISION=		4
 CATEGORIES=		net
 
 HOMEPAGE=		http://www.poptop.org/
-
-MAINTAINER=		Giovanni Bechis <giovanni@openbsd.org>
 
 # GPLv2+
 PERMIT_PACKAGE_CDROM=	Yes

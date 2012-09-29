@@ -40,7 +40,6 @@
      SUBDIR += par2cmdline
      SUBDIR += pecl-lzf
      SUBDIR += pecl-rar
-     SUBDIR += pecl-zip
      SUBDIR += py-lzo
      SUBDIR += ripole
      SUBDIR += ruby-archive-tar-minitar

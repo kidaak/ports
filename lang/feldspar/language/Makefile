@@ -1,5 +1,7 @@
 # $OpenBSD$
 
+BROKEN=			Does not build with ghc-7.4.
+
 COMMENT=		language front-end and interpreter for the Feldspar DSL
 
 DISTNAME=		feldspar-language-0.4.0.2

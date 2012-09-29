@@ -63,5 +63,5 @@ share/icons/Tango/scalable/devices/multimedia-player-ipod-standard-monochrome.sv
 share/icons/Tango/scalable/devices/multimedia-player-ipod-video-black.svg
 share/icons/Tango/scalable/devices/multimedia-player-ipod-video-white.svg
 share/icons/Tango/scalable/devices/multimedia-player-motorola-rokr.svg
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/Tango 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/Tango 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/Tango
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/Tango

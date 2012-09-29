@@ -2,11 +2,9 @@
 
 COMMENT=		simple X terminal
 
-DISTNAME=		0.1.1
+DISTNAME=		0.2.1
 PKGNAME=		st-${DISTNAME}
 DIST_SUBDIR=		st
-
-REVISION=		0
 
 CATEGORIES=		x11
 

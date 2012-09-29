@@ -37,6 +37,7 @@ lib/sane/libsane-hpljm1005.so
 lib/sane/libsane-hs2p.so
 lib/sane/libsane-ibm.so
 lib/sane/libsane-kodak.so
+lib/sane/libsane-kodakaio.so
 lib/sane/libsane-kvs1025.so
 lib/sane/libsane-kvs20xx.so
 lib/sane/libsane-leo.so

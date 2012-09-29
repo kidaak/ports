@@ -2,8 +2,8 @@
 
 COMMENT=	get files from FTP, Gopher, HTTP or HTTPS servers
 
-DISTNAME=	curl-7.25.0
-SHARED_LIBS=	curl                 22.1     # .6.0
+DISTNAME=	curl-7.26.0
+SHARED_LIBS=	curl                 23.0     # .6.0
 CATEGORIES=	net
 MASTER_SITES=	http://curl.haxx.se/download/ \
 		ftp://ftp.sunet.se/pub/www/utilities/curl/

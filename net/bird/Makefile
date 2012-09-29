@@ -1,9 +1,9 @@
 # $OpenBSD$
 
-COMMENT-main=	bird internet routing daemon
-COMMENT-doc=	bird internet routing daemon (documentation)
+COMMENT-main=	BIRD internet routing daemon
+COMMENT-doc=	BIRD internet routing daemon (documentation)
 
-V=		1.3.7
+V=		1.3.8
 DISTNAME=	bird-$V
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 		${DISTNAME:S/-/-doc-/}${EXTRACT_SUFX}

@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libmb.so.${LIBmb_VERSION}

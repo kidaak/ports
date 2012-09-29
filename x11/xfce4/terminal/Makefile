@@ -6,7 +6,7 @@ XFCE_VERSION=	0.4.8
 XFCE_GOODIE=	Terminal
 # :L is here for a reason
 PKGNAME=	xfce4-${DISTNAME:L}
-REVISION=	5
+REVISION=	6
 
 # GPLv2
 PERMIT_DISTFILES_CDROM=	Yes

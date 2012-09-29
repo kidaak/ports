@@ -2,8 +2,7 @@
 
 COMMENT =		manipulating Haskell source code
 
-DISTNAME =		haskell-src-1.0.1.4
-REVISION =		2
+DISTNAME =		haskell-src-1.0.1.5
 CATEGORIES =		lang devel
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>

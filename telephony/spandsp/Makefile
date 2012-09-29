@@ -3,6 +3,7 @@
 COMMENT=	DSP library for telephony
 
 DISTNAME=	spandsp-0.0.6pre18
+REVISION=	0
 CATEGORIES=	telephony
 MASTER_SITES=	${HOMEPAGE}downloads/spandsp/
 EXTRACT_SUFX=	.tgz
@@ -19,7 +20,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	jpeg m tiff z
+WANTLIB=	c jpeg m tiff z
 
 WRKDIST=	${WRKDIR}/spandsp-0.0.6
 

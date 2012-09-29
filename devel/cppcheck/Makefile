@@ -2,7 +2,7 @@
 
 COMMENT =		C/C++ static checker
 
-DISTNAME =		cppcheck-1.54
+DISTNAME =		cppcheck-1.56
 
 CATEGORIES =		devel
 
@@ -18,8 +18,7 @@ PERMIT_DISTFILES_FTP =	Yes
 
 WANTLIB =		c m pcre stdc++
 
-BUILD_DEPENDS =		textproc/docbook-xsl \
-			textproc/libxslt
+BUILD_DEPENDS =		textproc/docbook-xsl
 
 LIB_DEPENDS =		devel/pcre
 

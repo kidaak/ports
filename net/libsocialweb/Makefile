@@ -6,7 +6,7 @@ COMMENT=		social web services integration framework
 
 GNOME_PROJECT=		libsocialweb
 GNOME_VERSION=		0.25.20
-REVISION=		0
+REVISION=		1
 
 SHARED_LIBS +=  socialweb-client          2.0 # 2.0
 SHARED_LIBS +=  socialweb-keyfob          0.0 # 0.0
@@ -41,7 +41,8 @@ LIB_DEPENDS=		devel/json-glib \
 LIBTOOL_FLAGS=		--tag=disable-static
 
 CONFIGURE_STYLE=	gnu
-CONFIGURE_ARGS+=	--enable-all-services \
+CONFIGURE_ARGS+=	--disable-static \
+			--enable-all-services \
 			--with-online=always # Other choices are ConnMan and NM
 
 .include <bsd.port.mk>

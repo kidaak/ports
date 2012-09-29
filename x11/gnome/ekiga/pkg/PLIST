@@ -3,14 +3,11 @@
 bin/ekiga-config-tool
 @bin bin/ekiga-helper
 lib/ekiga/
-lib/ekiga/3.3.2/
-@comment lib/ekiga/3.3.2/libekiga.la
-lib/ekiga/3.3.2/libekiga.so
-lib/ekiga/3.3.2/plugins/
-@comment lib/ekiga/3.3.2/plugins/libgmevolution.la
-lib/ekiga/3.3.2/plugins/libgmevolution.so
-@comment lib/ekiga/3.3.2/plugins/libgmldap.la
-lib/ekiga/3.3.2/plugins/libgmldap.so
+lib/ekiga/${GNOME_VERSION}/
+lib/ekiga/${GNOME_VERSION}/libekiga.so
+lib/ekiga/${GNOME_VERSION}/plugins/
+lib/ekiga/${GNOME_VERSION}/plugins/libgmevolution.so
+lib/ekiga/${GNOME_VERSION}/plugins/libgmldap.so
 @man man/man1/ekiga.1
 share/applications/ekiga.desktop
 share/dbus-1/services/org.ekiga.Ekiga.service
@@ -40,6 +37,7 @@ share/gnome/help/ekiga/C/figures/config_d5.png
 share/gnome/help/ekiga/C/figures/config_d6.png
 share/gnome/help/ekiga/C/figures/config_d7.png
 share/gnome/help/ekiga/C/figures/config_d8.png
+share/gnome/help/ekiga/C/figures/config_d9.png
 share/gnome/help/ekiga/C/figures/lumi.png
 share/gnome/help/ekiga/C/figures/monitoring_lines.png
 share/gnome/help/ekiga/C/figures/roster.png
@@ -67,6 +65,7 @@ share/gnome/help/ekiga/bg/figures/config_d5.png
 share/gnome/help/ekiga/bg/figures/config_d6.png
 share/gnome/help/ekiga/bg/figures/config_d7.png
 share/gnome/help/ekiga/bg/figures/config_d8.png
+share/gnome/help/ekiga/bg/figures/config_d9.png
 share/gnome/help/ekiga/bg/figures/lumi.png
 share/gnome/help/ekiga/bg/figures/monitoring_lines.png
 share/gnome/help/ekiga/bg/figures/roster.png
@@ -94,6 +93,7 @@ share/gnome/help/ekiga/ca/figures/config_d5.png
 share/gnome/help/ekiga/ca/figures/config_d6.png
 share/gnome/help/ekiga/ca/figures/config_d7.png
 share/gnome/help/ekiga/ca/figures/config_d8.png
+share/gnome/help/ekiga/ca/figures/config_d9.png
 share/gnome/help/ekiga/ca/figures/lumi.png
 share/gnome/help/ekiga/ca/figures/monitoring_lines.png
 share/gnome/help/ekiga/ca/figures/roster.png
@@ -121,6 +121,7 @@ share/gnome/help/ekiga/de/figures/config_d5.png
 share/gnome/help/ekiga/de/figures/config_d6.png
 share/gnome/help/ekiga/de/figures/config_d7.png
 share/gnome/help/ekiga/de/figures/config_d8.png
+share/gnome/help/ekiga/de/figures/config_d9.png
 share/gnome/help/ekiga/de/figures/lumi.png
 share/gnome/help/ekiga/de/figures/monitoring_lines.png
 share/gnome/help/ekiga/de/figures/roster.png
@@ -148,6 +149,7 @@ share/gnome/help/ekiga/el/figures/config_d5.png
 share/gnome/help/ekiga/el/figures/config_d6.png
 share/gnome/help/ekiga/el/figures/config_d7.png
 share/gnome/help/ekiga/el/figures/config_d8.png
+share/gnome/help/ekiga/el/figures/config_d9.png
 share/gnome/help/ekiga/el/figures/lumi.png
 share/gnome/help/ekiga/el/figures/monitoring_lines.png
 share/gnome/help/ekiga/el/figures/roster.png
@@ -175,6 +177,7 @@ share/gnome/help/ekiga/en_GB/figures/config_d5.png
 share/gnome/help/ekiga/en_GB/figures/config_d6.png
 share/gnome/help/ekiga/en_GB/figures/config_d7.png
 share/gnome/help/ekiga/en_GB/figures/config_d8.png
+share/gnome/help/ekiga/en_GB/figures/config_d9.png
 share/gnome/help/ekiga/en_GB/figures/lumi.png
 share/gnome/help/ekiga/en_GB/figures/monitoring_lines.png
 share/gnome/help/ekiga/en_GB/figures/roster.png
@@ -202,6 +205,7 @@ share/gnome/help/ekiga/es/figures/config_d5.png
 share/gnome/help/ekiga/es/figures/config_d6.png
 share/gnome/help/ekiga/es/figures/config_d7.png
 share/gnome/help/ekiga/es/figures/config_d8.png
+share/gnome/help/ekiga/es/figures/config_d9.png
 share/gnome/help/ekiga/es/figures/lumi.png
 share/gnome/help/ekiga/es/figures/monitoring_lines.png
 share/gnome/help/ekiga/es/figures/roster.png
@@ -229,6 +233,7 @@ share/gnome/help/ekiga/eu/figures/config_d5.png
 share/gnome/help/ekiga/eu/figures/config_d6.png
 share/gnome/help/ekiga/eu/figures/config_d7.png
 share/gnome/help/ekiga/eu/figures/config_d8.png
+share/gnome/help/ekiga/eu/figures/config_d9.png
 share/gnome/help/ekiga/eu/figures/lumi.png
 share/gnome/help/ekiga/eu/figures/monitoring_lines.png
 share/gnome/help/ekiga/eu/figures/roster.png
@@ -256,6 +261,7 @@ share/gnome/help/ekiga/fi/figures/config_d5.png
 share/gnome/help/ekiga/fi/figures/config_d6.png
 share/gnome/help/ekiga/fi/figures/config_d7.png
 share/gnome/help/ekiga/fi/figures/config_d8.png
+share/gnome/help/ekiga/fi/figures/config_d9.png
 share/gnome/help/ekiga/fi/figures/lumi.png
 share/gnome/help/ekiga/fi/figures/monitoring_lines.png
 share/gnome/help/ekiga/fi/figures/roster.png
@@ -283,6 +289,7 @@ share/gnome/help/ekiga/fr/figures/config_d5.png
 share/gnome/help/ekiga/fr/figures/config_d6.png
 share/gnome/help/ekiga/fr/figures/config_d7.png
 share/gnome/help/ekiga/fr/figures/config_d8.png
+share/gnome/help/ekiga/fr/figures/config_d9.png
 share/gnome/help/ekiga/fr/figures/lumi.png
 share/gnome/help/ekiga/fr/figures/monitoring_lines.png
 share/gnome/help/ekiga/fr/figures/roster.png
@@ -310,6 +317,7 @@ share/gnome/help/ekiga/oc/figures/config_d5.png
 share/gnome/help/ekiga/oc/figures/config_d6.png
 share/gnome/help/ekiga/oc/figures/config_d7.png
 share/gnome/help/ekiga/oc/figures/config_d8.png
+share/gnome/help/ekiga/oc/figures/config_d9.png
 share/gnome/help/ekiga/oc/figures/lumi.png
 share/gnome/help/ekiga/oc/figures/monitoring_lines.png
 share/gnome/help/ekiga/oc/figures/roster.png
@@ -337,6 +345,7 @@ share/gnome/help/ekiga/pt_BR/figures/config_d5.png
 share/gnome/help/ekiga/pt_BR/figures/config_d6.png
 share/gnome/help/ekiga/pt_BR/figures/config_d7.png
 share/gnome/help/ekiga/pt_BR/figures/config_d8.png
+share/gnome/help/ekiga/pt_BR/figures/config_d9.png
 share/gnome/help/ekiga/pt_BR/figures/lumi.png
 share/gnome/help/ekiga/pt_BR/figures/monitoring_lines.png
 share/gnome/help/ekiga/pt_BR/figures/roster.png
@@ -364,6 +373,7 @@ share/gnome/help/ekiga/ru/figures/config_d5.png
 share/gnome/help/ekiga/ru/figures/config_d6.png
 share/gnome/help/ekiga/ru/figures/config_d7.png
 share/gnome/help/ekiga/ru/figures/config_d8.png
+share/gnome/help/ekiga/ru/figures/config_d9.png
 share/gnome/help/ekiga/ru/figures/lumi.png
 share/gnome/help/ekiga/ru/figures/monitoring_lines.png
 share/gnome/help/ekiga/ru/figures/roster.png
@@ -391,6 +401,7 @@ share/gnome/help/ekiga/sl/figures/config_d5.png
 share/gnome/help/ekiga/sl/figures/config_d6.png
 share/gnome/help/ekiga/sl/figures/config_d7.png
 share/gnome/help/ekiga/sl/figures/config_d8.png
+share/gnome/help/ekiga/sl/figures/config_d9.png
 share/gnome/help/ekiga/sl/figures/lumi.png
 share/gnome/help/ekiga/sl/figures/monitoring_lines.png
 share/gnome/help/ekiga/sl/figures/roster.png
@@ -418,6 +429,7 @@ share/gnome/help/ekiga/sv/figures/config_d5.png
 share/gnome/help/ekiga/sv/figures/config_d6.png
 share/gnome/help/ekiga/sv/figures/config_d7.png
 share/gnome/help/ekiga/sv/figures/config_d8.png
+share/gnome/help/ekiga/sv/figures/config_d9.png
 share/gnome/help/ekiga/sv/figures/lumi.png
 share/gnome/help/ekiga/sv/figures/monitoring_lines.png
 share/gnome/help/ekiga/sv/figures/roster.png
@@ -445,6 +457,7 @@ share/gnome/help/ekiga/uk/figures/config_d5.png
 share/gnome/help/ekiga/uk/figures/config_d6.png
 share/gnome/help/ekiga/uk/figures/config_d7.png
 share/gnome/help/ekiga/uk/figures/config_d8.png
+share/gnome/help/ekiga/uk/figures/config_d9.png
 share/gnome/help/ekiga/uk/figures/lumi.png
 share/gnome/help/ekiga/uk/figures/monitoring_lines.png
 share/gnome/help/ekiga/uk/figures/roster.png
@@ -472,6 +485,7 @@ share/gnome/help/ekiga/zh_CN/figures/config_d5.png
 share/gnome/help/ekiga/zh_CN/figures/config_d6.png
 share/gnome/help/ekiga/zh_CN/figures/config_d7.png
 share/gnome/help/ekiga/zh_CN/figures/config_d8.png
+share/gnome/help/ekiga/zh_CN/figures/config_d9.png
 share/gnome/help/ekiga/zh_CN/figures/lumi.png
 share/gnome/help/ekiga/zh_CN/figures/monitoring_lines.png
 share/gnome/help/ekiga/zh_CN/figures/roster.png
@@ -602,7 +616,7 @@ share/sounds/ekiga/dialtone.wav
 share/sounds/ekiga/newmessage.wav
 share/sounds/ekiga/ring.wav
 share/sounds/ekiga/voicemail.wav
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

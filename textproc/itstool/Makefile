@@ -1,8 +1,10 @@
 # $OpenBSD$
 
+PKG_ARCH=	*
+
 COMMENT=	translate XML documents with PO files
 
-DISTNAME=	itstool-1.1.2
+DISTNAME=	itstool-1.2.0
 EXTRACT_SUFX=	.tar.bz2
 
 CATEGORIES=	textproc

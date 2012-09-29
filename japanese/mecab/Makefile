@@ -3,7 +3,9 @@
 COMMENT-main =	japanese morphological analyzer engine
 COMMENT-ipadic = IPA japanese dictionary for mecab
 
-DISTNAME =	mecab-0.993
+DISTNAME =	mecab-0.994
+REVISION-main =	0
+REVISION-ipadic = 0
 PKGNAME-main =	${DISTNAME}
 PKGNAME-ipadic = mecab-ipadic-2.7.0
 

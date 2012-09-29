@@ -1,7 +1,7 @@
 $OpenBSD$
---- buildsys.mk.in.orig	Fri Jan 20 20:48:30 2012
-+++ buildsys.mk.in	Sun Feb  5 19:59:45 2012
-@@ -100,7 +100,7 @@ PLUGIN_OBJS = ${OBJS:.o=.plugin.o}
+--- buildsys.mk.in.orig	Sat Aug 11 22:13:39 2012
++++ buildsys.mk.in	Thu Aug 16 13:45:42 2012
+@@ -101,7 +101,7 @@ PLUGIN_OBJS = ${OBJS:.o=.plugin.o}
  
  MO_FILES = ${LOCALES:.po=.mo}
  

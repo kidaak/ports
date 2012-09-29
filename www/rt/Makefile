@@ -2,7 +2,7 @@
 
 COMMENT=		industrial-grade ticketing system
 
-DISTNAME=		rt-4.0.4
+DISTNAME=		rt-4.0.7
 CATEGORIES=		www
 
 MAINTAINER=		Robert Nagy <robert@openbsd.org>

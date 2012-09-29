@@ -24,6 +24,10 @@ post-extract:
 
 # Don't use SEPARATE_BUILD, the doc doesn't like it
 CONFIGURE_STYLE =	gnu
+# fix build on vax, otherwise compilation ends with ICE
+.if ${MACHINE_ARCH} == "vax"
+CFLAGS:= ${CFLAGS:N-O*}
+.endif
 # and it also insists upon installing under $(prefix)/doc...
 MAKE_FLAGS =	docdir='${TRUEPREFIX}/share/doc/gperf'
 

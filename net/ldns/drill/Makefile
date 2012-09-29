@@ -4,8 +4,8 @@ COMMENT=	DNS debugger
 
 PKGNAME=	drill-${VERSION}
 
-WANTLIB=	c crypto ldns>=4.10
-LIB_DEPENDS+=	net/ldns/libldns>=1.6.11
+WANTLIB=	c crypto ldns>=4.11
+LIB_DEPENDS+=	net/ldns/libldns>=1.6.13
 
 WRKSRC=		${WRKDIST}/drill
 

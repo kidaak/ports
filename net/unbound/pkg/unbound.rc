@@ -10,6 +10,14 @@ daemon_flags="-c /var/unbound/etc/unbound.conf"
 pexp="unbound${daemon_flags:+ ${daemon_flags}}"
 rc_reload=NO
 
+rc_pre() {
+	if ! [[ -f /var/unbound/etc/unbound_server.pem ||
+	    -f /var/unbound/etc/unbound_control.key ||
+	    -f /var/unbound/etc/unbound_control.pem ]]; then
+		unbound-control-setup >/dev/null 2>&1
+	fi
+}
+
 rc_start() {
 	${rcexec} "${daemon} ${daemon_flags} start"
 }

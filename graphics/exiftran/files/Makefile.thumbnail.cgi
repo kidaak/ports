@@ -1,4 +1,3 @@
-# $FreeBSD: ports/graphics/exiftran/files/Makefile.thumbnail.cgi,v 1.1 2011/06/03 12:51:23 mm Exp $
 # $OpenBSD$
 
 PROG=	thumbnail.cgi

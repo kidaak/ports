@@ -2,7 +2,7 @@
 
 COMMENT =	bug tracker client
 DISTNAME =	entomologist-0.6
-REVISION=	1
+REVISION=	3
 CATEGORIES =	productivity
 
 MASTER_SITES =	${MASTER_SITE_SOURCEFORGE:=entomologist/}
@@ -16,7 +16,6 @@ PERMIT_DISTFILES_FTP =	Yes
 
 MODULES =	x11/qt4
 RUN_DEPENDS =	devel/desktop-file-utils \
-		x11/qt4,-sqlite \
 		x11/gtk+2 \
 		x11/gtk+2,-guic
 WANTLIB +=	QtGui QtNetwork QtSql QtXml c m pthread stdc++

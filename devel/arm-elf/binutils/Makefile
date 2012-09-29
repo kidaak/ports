@@ -3,6 +3,7 @@
 COMMENT=	binutils for arm-elf cross-development
 
 V=		2.20
+REVISION=	0
 DISTNAME=	binutils-${V}
 
 HOMEPAGE=	http://www.gnu.org/software/binutils/

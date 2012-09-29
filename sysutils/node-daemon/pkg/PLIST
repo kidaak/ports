@@ -20,7 +20,7 @@ lib/node_modules/daemon/examples/wrapper.js
 lib/node_modules/daemon/install
 lib/node_modules/daemon/lib/
 lib/node_modules/daemon/lib/daemon.js
-@bin lib/node_modules/daemon/lib/daemon.v0.6.18.node
+@bin lib/node_modules/daemon/lib/daemon.node
 lib/node_modules/daemon/package.json
 lib/node_modules/daemon/src/
 lib/node_modules/daemon/src/daemon.cc

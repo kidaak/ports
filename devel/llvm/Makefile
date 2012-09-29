@@ -10,15 +10,18 @@ COMMENT =	modular, fast C/C++/ObjC compiler, static analyzer and tools
 LLVM_V =	3.1
 DISTNAME =	llvm-${LLVM_V}.src
 PKGNAME =	llvm-${LLVM_V}
-
+REVISION =	8
 CATEGORIES =	devel
 
 # packager notes in http://llvm.org/docs/Packaging.html
 HOMEPAGE =	http://www.llvm.org/
 
 VMEM_WARNING =	Yes
-ONLY_FOR_ARCHS = amd64 i386 powerpc sparc64
-# some chance of building on other GCC4 arch, but is known to be
+
+.include <bsd.port.arch.mk>
+ONLY_FOR_ARCHS = ${LLVM_ARCHS}
+#
+# there is some chance of building on other GCC4 arch, but is known to be
 # broken on alpha/sparc.
 
 # BSD
@@ -50,10 +53,10 @@ REGRESS_FLAGS =	RUNTESTFLAGS=
 
 SEPARATE_BUILD =	Yes
 USE_LIBTOOL =		Yes
-MAKE_ENV =		REQUIRES_RTTI=1
 
 CONFIGURE_STYLE =	cmake
 CONFIGURE_ARGS =	-DLLVM_ENABLE_FFI:Bool=False \
+			-DLLVM_REQUIRES_RTTI:Bool=True \
 			-DCMAKE_BUILD_TYPE:String=Release
 
 CLANG_INCLUDE_PATH =	lib/clang/${LLVM_V}/include

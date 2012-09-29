@@ -2,7 +2,7 @@
 
 COMMENT=		genealogical database and programming system
 DISTNAME=		lifelines-3.0.60
-REVISION=		3
+REVISION=		4
 CATEGORIES=		misc
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=lifelines/}
 
@@ -14,7 +14,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=		c m ncurses
+WANTLIB=		c m ncursesw
 
 CONFIGURE_STYLE=	gnu
 CONFIGURE_ENV+=		YACC="bison -y" \

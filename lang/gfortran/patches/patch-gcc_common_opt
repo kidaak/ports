@@ -1,0 +1,12 @@
+$OpenBSD$
+--- gcc/common.opt.orig	Thu Aug 30 11:25:34 2012
++++ gcc/common.opt	Thu Aug 30 11:25:48 2012
+@@ -669,7 +669,7 @@ Common Report Var(flag_pic,2)
+ Generate position-independent code if possible (large mode)
+ 
+ fPIE
+-Common Report Var(flag_pie,2)
++Common Report Var(flag_pie,2) Init(PIE_DEFAULT)
+ Generate position-independent code for executables if possible (large mode)
+ 
+ fpic

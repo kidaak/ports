@@ -298,7 +298,12 @@ my $stem_extensions = {
 	'p5-Email-MIME-Creator' => 'p5-Email-MIME',
 	'p5-Email-MIME-Modifier' => 'p5-Email-MIME',
 	'libmpcdec' => 'musepack',
-	'mppenc' => 'musepack'
+	'mppenc' => 'musepack',
+	'xxxterm' => 'xombrero',
+	'pecl-zip' => 'php-zip',
+	'XML-Sablotron' => 'p5-XML-Sablotron',
+# 5.3
+	'postler' => 'geary'
 };
 
 # ->is_base_system($handle, $state):

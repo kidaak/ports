@@ -1,6 +1,6 @@
 $OpenBSD$
---- src/redis.c.orig	Wed May 23 11:32:58 2012
-+++ src/redis.c	Mon May 28 09:16:01 2012
+--- src/redis.c.orig	Thu Aug 30 17:42:47 2012
++++ src/redis.c	Tue Sep 18 15:08:20 2012
 @@ -33,7 +33,9 @@
  
  #ifdef HAVE_BACKTRACE
@@ -11,15 +11,7 @@ $OpenBSD$
  #endif /* HAVE_BACKTRACE */
  
  #include <time.h>
-@@ -43,6 +45,7 @@
- #include <assert.h>
- #include <ctype.h>
- #include <stdarg.h>
-+#include <netinet/in.h>
- #include <arpa/inet.h>
- #include <sys/stat.h>
- #include <fcntl.h>
-@@ -1808,7 +1811,9 @@ int main(int argc, char **argv) {
+@@ -1816,7 +1818,9 @@ int main(int argc, char **argv) {
  
  #ifdef HAVE_BACKTRACE
  static void *getMcontextEip(ucontext_t *uc) {
@@ -30,7 +22,7 @@ $OpenBSD$
      return (void*) uc->uc_mcontext.mc_eip;
  #elif defined(__dietlibc__)
      return (void*) uc->uc_mcontext.eip;
-@@ -1837,14 +1842,6 @@ static void *getMcontextEip(ucontext_t *uc) {
+@@ -1845,14 +1849,6 @@ static void *getMcontextEip(ucontext_t *uc) {
  #endif
  }
  
@@ -45,7 +37,7 @@ $OpenBSD$
  static void sigsegvHandler(int sig, siginfo_t *info, void *secret) {
      void *trace[100];
      char **messages = NULL;
-@@ -1920,7 +1917,7 @@ static void sigsegvHandler(int sig, siginfo_t *info, v
+@@ -1928,7 +1924,7 @@ static void sigsegvHandler(int sig, siginfo_t *info, v
  "=== REDIS BUG REPORT END. Make sure to include from START to END. ===\n\n"
  "       Please report the crash opening an issue on github:\n\n"
  "           http://github.com/antirez/redis/issues\n\n"
@@ -54,7 +46,7 @@ $OpenBSD$
  );
      /* free(messages); Don't call free() with possibly corrupted memory. */
      if (server.daemonize) unlink(server.pidfile);
-@@ -1936,6 +1933,14 @@ static void sigsegvHandler(int sig, siginfo_t *info, v
+@@ -1944,6 +1940,14 @@ static void sigsegvHandler(int sig, siginfo_t *info, v
      kill(getpid(),sig);
  }
  #endif /* HAVE_BACKTRACE */

@@ -5,6 +5,7 @@ SHARED_ONLY =		Yes
 
 GNOME_VERSION =		3.8.2
 GNOME_PROJECT = 	glade3
+REVISION =		0
 
 CATEGORIES =		devel
 SHARED_LIBS +=  gladeui-1            1.0      # 10.0

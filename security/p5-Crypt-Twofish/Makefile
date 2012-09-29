@@ -6,7 +6,7 @@ COMMENT=	module to implement the Twofish cipher
 
 MODULES=	cpan
 DISTNAME=	Crypt-Twofish-2.13
-REVISION=	1
+REVISION=	2
 CATEGORIES=	security
 USE_GROFF =	Yes
 
@@ -17,6 +17,8 @@ PERMIT_PACKAGE_CDROM=   Yes
 PERMIT_PACKAGE_FTP=     Yes
 PERMIT_DISTFILES_CDROM= Yes
 PERMIT_DISTFILES_FTP=   Yes
+
+WANTLIB += c
 
 REGRESS_DEPENDS=	security/p5-Crypt-CBC
 

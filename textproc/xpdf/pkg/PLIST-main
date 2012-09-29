@@ -1,8 +1,0 @@
-@comment $OpenBSD$
-@pkgpath textproc/xpdf
-@bin bin/pdftoppm
-@bin bin/pdftops
-@bin bin/xpdf
-@man man/man1/pdftoppm.1
-@man man/man1/pdftops.1
-@man man/man1/xpdf.1

@@ -6,8 +6,7 @@ COMMENT=		personal photo management application for GNOME
 
 GNOME_VERSION=		0.8.2
 GNOME_PROJECT=		f-spot
-
-REVISION=		3
+REVISION=		5
 
 CATEGORIES=		graphics
 
@@ -59,7 +58,7 @@ MODGCONF2_SCHEMAS_DIR=	f-spot
 
 LIBTOOL_FLAGS=		--tag=disable-static
 
-CONFIGURE_ARGS+=	--enable-shave=no \
+CONFIGURE_ARGS+=	--disable-shave \
 			--disable-static
 
 DLLMAP_FILES=		lib/unique-sharp/unique/unique-sharp.dll.config \
@@ -80,5 +79,8 @@ pre-configure:
 		${WRKSRC}/src/Clients/MainApp/f-spot.in \
 		${WRKSRC}/src/Clients/MainApp/FSpot/ColorManagement.cs \
 		${WRKSRC}/src/Clients/MainApp/FSpot.UI.Dialog/PreferenceDialog.cs
+
+post-install:
+	rm ${PREFIX}/lib/f-spot/*.la
 
 .include <bsd.port.mk>

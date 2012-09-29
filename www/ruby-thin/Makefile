@@ -3,6 +3,7 @@
 COMMENT =	fast and very simple Ruby web server
 
 DISTNAME =	thin-1.3.0
+REVISION =	0
 CATEGORIES =	www
 
 HOMEPAGE =	http://code.macournoyer.com/thin/

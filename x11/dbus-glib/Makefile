@@ -2,11 +2,11 @@
 
 COMMENT=	glib bindings for dbus message system
 
-DISTNAME=	dbus-glib-0.98
-
+DISTNAME=	dbus-glib-0.100
+REVISION=	1
 EPOCH=		0
 
-SHARED_LIBS+=	dbus-glib-1	4.3 # .4.0
+SHARED_LIBS+=	dbus-glib-1	4.3 # .4.2
 
 CATEGORIES=	x11
 
@@ -36,11 +36,19 @@ USE_LIBTOOL=	Yes
 CONFIGURE_STYLE=gnu
 CONFIGURE_ARGS=	${CONFIGURE_SHARED} \
 		--enable-bash-completion \
-		--enable-gtk-doc=no \
+		--disable-gtk-doc \
 		--with-test-socket-dir=${WRKDIR}
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
 
-FAKE_FLAGS=	completiondir="${PREFIX}/share/examples/dbus-glib"
+# If one of these tools is found at configure stage, it might be used,
+# no matter whether we use --disable-gtk-doc or not.
+CONFIGURE_ENV +=ac_cv_path_GTKDOC_CHECK="" \
+		ac_cv_path_GTKDOC_REBASE="" \
+		ac_cv_path_GTKDOC_MKPDF=""
+
+post-install:
+	rm ${WRKINST}/etc/bash_completion.d/dbus-bash-completion.sh
+	rmdir ${WRKINST}/etc/bash_completion.d/
 
 .include <bsd.port.mk>

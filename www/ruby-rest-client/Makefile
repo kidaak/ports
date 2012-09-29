@@ -3,7 +3,7 @@
 COMMENT =	simple REST client for Ruby
 
 DISTNAME =	rest-client-1.0.3
-REVISION =	4
+REVISION =	5
 CATEGORIES =	www
 
 HOMEPAGE =	http://rest-client.heroku.com/

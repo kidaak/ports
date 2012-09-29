@@ -26,7 +26,6 @@ PERMIT_DISTFILES_FTP=	Yes
 WANTLIB += X11 Xau Xdmcp Xext Xi m pthread-stubs xcb glib gmodule
 
 USE_LIBTOOL=	Yes
-USE_GROFF =	Yes
 CONFIGURE_STYLE= gnu
 CONFIGURE_ARGS+= ${CONFIGURE_SHARED}
 CONFIGURE_ARGS+= --enable-static --with-xinput="xfree"

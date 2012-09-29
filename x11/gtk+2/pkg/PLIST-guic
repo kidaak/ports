@@ -2,4 +2,4 @@
 @conflict gtk+2-<2.24.8p0
 @unexec rm -f %D/share/icons/hicolor/icon-theme.cache
 @bin bin/gtk-update-icon-cache
-@exec /usr/bin/find %D/share/icons -type d -maxdepth 1 -exec %D/bin/gtk-update-icon-cache -q -f {} \; 2>/dev/null || true
+@exec /usr/bin/find %D/share/icons -type d -maxdepth 1 -exec %D/bin/gtk-update-icon-cache -q -t -f {} \; 2>/dev/null || true

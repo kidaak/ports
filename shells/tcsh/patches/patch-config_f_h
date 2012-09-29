@@ -1,6 +1,6 @@
 $OpenBSD$
 
-http://bugs.gw.com/view.php?id=180
+http://bugs.gw.com/view.php?id=180 (committed)
 
 --- config_f.h.orig	Sat May 26 12:50:00 2012
 +++ config_f.h	Sat May 26 12:50:31 2012

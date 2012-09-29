@@ -25,7 +25,6 @@ BUILD_DEPENDS=		textproc/libxslt
 LIB_DEPENDS=		devel/libglade2 \
 			net/telepathy/telepathy-glib
 
-CONFIGURE_STYLE=	gnu
 USE_LIBTOOL=		No
 
 .include <bsd.port.mk>

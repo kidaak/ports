@@ -3,8 +3,8 @@
 COMMENT=	emulator for US Robotics Pilot PDA
 
 DISTNAME=	xcopilot-0.6.6
-REVISION=	0
-CATEGORIES=	emulators palm
+REVISION=	1
+CATEGORIES=	emulators
 
 # GPL
 PERMIT_PACKAGE_CDROM=	Yes

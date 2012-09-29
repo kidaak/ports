@@ -16,6 +16,7 @@
 # OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 use strict;
 use warnings;
+use feature qw(say);
 
 # Handles PkgPath;
 # all this code is *seriously* dependent on unique objects
@@ -49,8 +50,20 @@ sub fullpkgname
 	if (defined $self->{info} && defined $self->{info}{FULLPKGNAME}) {
 		return ${$self->{info}{FULLPKGNAME}};
 	} else {
-		return undef;
+		say STDERR $self->fullpkgpath, " has no associated fullpkgname\n";
+		if (defined $self->{info}) {
+			say STDERR "But info is defined"; 
+			require Data::Dumper;
+			say STDERR Dumper($self->{info});
+		}
+		die;
 	}
+}
+
+sub has_fullpkgname
+{
+	my $self = shift;
+	return defined $self->{info} && defined $self->{info}{FULLPKGNAME};
 }
 
 # requires flavor as a hash
@@ -185,7 +198,7 @@ sub merge_depends
 			}
 	    	}
 			
-		for my $k (qw(DIST LIB_DEPENDS BUILD_DEPENDS RUN_DEPENDS 
+		for my $k (qw(LIB_DEPENDS BUILD_DEPENDS RUN_DEPENDS 
 		    SUBPACKAGE FLAVOR EXTRA PERMIT_DISTFILES_FTP 
 		    PERMIT_DISTFILES_CDROM)) {
 			delete $info->{$k};

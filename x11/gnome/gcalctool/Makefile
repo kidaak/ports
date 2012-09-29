@@ -3,7 +3,7 @@
 COMMENT=		GTK desktop calculator
 
 GNOME_PROJECT=		gcalctool
-GNOME_VERSION=		6.4.2.1
+GNOME_VERSION=		6.6.0
 
 CATEGORIES=		math
 
@@ -32,5 +32,8 @@ RUN_DEPENDS=		x11/gnome/gvfs
 
 MODGNOME_TOOLS= 	yelp
 MODGNOME_DESKTOP_FILE=	Yes
+
+AUTOCONF_VERSION=	2.69
+CONFIGURE_STYLE=	autoconf
 
 .include <bsd.port.mk>

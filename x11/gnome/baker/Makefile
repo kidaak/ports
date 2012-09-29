@@ -5,7 +5,7 @@ COMMENT=		CD/DVD authoring application for GNOME
 GNOME_PROJECT=		gnomebaker
 GNOME_VERSION=		0.6.4
 
-REVISION=		17
+REVISION=		18
 
 CATEGORIES=		sysutils multimedia
 

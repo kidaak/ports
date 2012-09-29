@@ -3,7 +3,7 @@
 COMMENT=		lightweight Jabber client library
 
 DISTNAME=       	loudmouth-1.4.3
-REVISION=		3
+REVISION=		4
 SHARED_LIBS +=	loudmouth-1          3.0      # .1.0
 CATEGORIES=		net devel
 
@@ -34,5 +34,11 @@ CONFIGURE_ARGS+=	${CONFIGURE_SHARED} \
 			--disable-mono \
 			--with-check=${LOCALBASE} \
 			--with-ssl=openssl
+
+# If one of these tools is found at configure stage, it might be used,
+# no matter whether we use --disable-gtk-doc or not.
+CONFIGURE_ENV +=ac_cv_path_GTKDOC_CHECK="" \
+		ac_cv_path_GTKDOC_REBASE="" \
+		ac_cv_path_GTKDOC_MKPDF=""
 
 .include <bsd.port.mk>

@@ -3,6 +3,7 @@
 COMMENT =	force SSL/TLS in your rack app
 
 DISTNAME =	rack-ssl-1.3.2
+REVISION =	0
 CATEGORIES =	www
 
 HOMEPAGE =	https://github.com/josh/rack-ssl

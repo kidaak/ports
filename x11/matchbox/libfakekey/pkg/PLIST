@@ -1,8 +1,0 @@
-@comment $OpenBSD$
-%%SHARED%%
-include/fakekey/
-include/fakekey/fakekey.h
-lib/libfakekey.a
-lib/libfakekey.la
-lib/pkgconfig/
-lib/pkgconfig/libfakekey.pc

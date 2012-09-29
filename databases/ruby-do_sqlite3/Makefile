@@ -5,7 +5,7 @@ COMMENT =	DataObjects driver for SQLite3
 VERSION =	0.10.8
 DISTNAME =	do_sqlite3-${VERSION}
 CATEGORIES =	databases
-REVISION =	0
+REVISION =	1
 
 # MIT
 PERMIT_PACKAGE_CDROM = Yes

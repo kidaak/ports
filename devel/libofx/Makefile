@@ -2,14 +2,14 @@
 
 COMMENT=	opensource implementation of the OFX specification
 
-DISTNAME=	libofx-0.9.2
+DISTNAME=	libofx-0.9.5
 CATEGORIES=	devel
 
 HOMEPAGE=	http://libofx.sourceforge.net/
 
 MAINTAINER=	Landry Breuil <landry@openbsd.org>
 
-SHARED_LIBS=	ofx 5.0	# .4.2
+SHARED_LIBS=	ofx 6.0	# .5.0
 
 # GPLv2
 PERMIT_PACKAGE_CDROM=	Yes
@@ -23,11 +23,12 @@ MODULES=	devel/gettext
 WANTLIB=	c m pthread stdc++ osp
 
 LIB_DEPENDS=	textproc/opensp
+BUILD_DEPENDS =	devel/help2man
 
 USE_LIBTOOL=	Yes
 
 CONFIGURE_STYLE=gnu
-CONFIGURE_ENV=	LDFLAGS="-L${LOCALBASE}/lib -lm -pthread" \
+CONFIGURE_ENV=	LDFLAGS="-L${LOCALBASE}/lib -lm" \
 		CPPFLAGS="-I${LOCALBASE}/include"
 
 CONFIGURE_ARGS=	${CONFIGURE_SHARED} \

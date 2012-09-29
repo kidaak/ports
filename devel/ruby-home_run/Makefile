@@ -3,6 +3,7 @@
 COMMENT =	fast Date/DateTime classes for ruby
 
 DISTNAME =	home_run-1.0.6
+REVISION =	0
 CATEGORIES =	devel
 
 HOMEPAGE=	http://github.com/jeremyevans/home_run

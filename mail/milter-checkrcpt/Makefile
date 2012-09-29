@@ -2,7 +2,7 @@
 
 COMMENT=	sendmail milter plugin for recipient checking
 
-DISTNAME=	milter-checkrcpt-0.1
+DISTNAME=	milter-checkrcpt-0.3
 CATEGORIES=	mail
 MASTER_SITES=	http://www.benzedrine.cx/
 

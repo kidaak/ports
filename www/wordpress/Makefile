@@ -2,7 +2,8 @@
 
 COMMENT =	standard compliant weblog
 
-DISTNAME =	wordpress-3.3.2
+DISTNAME =	wordpress-3.4.1
+REVISION =	0
 CATEGORIES =	www
 
 HOMEPAGE =	http://wordpress.org/
@@ -11,7 +12,7 @@ MAINTAINER =	Michael Erdely <merdely@openbsd.org>
 # GPLv2
 PERMIT_PACKAGE_CDROM =	Yes
 PERMIT_PACKAGE_FTP =	Yes
-PERMIT_DISTFILES_CDROM =	Yes
+PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
 MASTER_SITES =	${HOMEPAGE}

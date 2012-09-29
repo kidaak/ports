@@ -1,3 +1,4 @@
 @comment $OpenBSD$
-@lib lib/libclucene-0.9.21b.so.${LIBclucene-0.9.21b_VERSION}
-@lib lib/libclucene.so.${LIBclucene_VERSION}
+@lib lib/libclucene-contribs-lib.so.${LIBclucene-contribs-lib_VERSION}
+@lib lib/libclucene-core.so.${LIBclucene-core_VERSION}
+@lib lib/libclucene-shared.so.${LIBclucene-shared_VERSION}

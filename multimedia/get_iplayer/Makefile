@@ -2,8 +2,8 @@
 
 COMMENT =		download/stream programmes from BBC iPlayer
 
-DISTNAME =		get_iplayer-2.80
-REVISION =		1
+DISTNAME =		get_iplayer-2.82
+REVISION =		0
 CATEGORIES =		multimedia
 
 # http://git.infradead.org/get_iplayer.git

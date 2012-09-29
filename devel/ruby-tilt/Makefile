@@ -3,7 +3,7 @@
 COMMENT =	generic interface to multiple Ruby template engines 
 
 DISTNAME =	tilt-1.2.2
-REVISION=		0
+REVISION=		1
 CATEGORIES =	devel textproc
 
 HOMEPAGE =	http://github.com/rtomayko/tilt

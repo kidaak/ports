@@ -5,6 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	Perl interface to the Imlib2 image library
 
 DISTNAME=	Image-Imlib2-2.03
+REVISION=	0
 CATEGORIES=	graphics
 
 # Perl
@@ -13,7 +14,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	X11 Xext freetype m z Imlib2>=1
+WANTLIB += c X11 Xext freetype m z Imlib2>=1
 
 LIB_DEPENDS=	graphics/imlib2
 

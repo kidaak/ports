@@ -6,7 +6,7 @@ COMMENT=	technical diagrams drawing tool
 
 GNOME_PROJECT=	dia
 GNOME_VERSION=	0.97.2
-REVISION=	1
+REVISION=	3
 
 CATEGORIES=	graphics
 
@@ -52,5 +52,9 @@ CONFIGURE_ARGS=	--disable-static \
 		--disable-db2html \
 		--disable-libemf \
 		--disable-gnome
+
+post-install:
+	mv ${PREFIX}/share/man/fr ${PREFIX}/man
+	rmdir ${PREFIX}/share/man/ ${PREFIX}/share/oaf/
 
 .include <bsd.port.mk>

@@ -3,6 +3,7 @@
 COMMENT=		flexible HTML parser
 
 DISTNAME=		hpricot-0.8.4
+REVISION =		0
 CATEGORIES=		textproc
 
 HOMEPAGE=		http://code.whytheluckystiff.net/hpricot/

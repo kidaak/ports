@@ -3,7 +3,7 @@
 COMMENT=	GNOME terminal
 
 GNOME_PROJECT=	gnome-terminal
-GNOME_VERSION=	3.4.1.1
+GNOME_VERSION=	3.6.0
 
 # GPLv3+
 PERMIT_PACKAGE_CDROM=	Yes
@@ -19,6 +19,7 @@ WANTLIB += glib-2.0 gmodule-2.0 gobject-2.0 gthread-2.0 gtk-3
 WANTLIB += m ncurses pango-1.0 pangocairo-1.0 pangoft2-1.0 pcre
 WANTLIB += pixman-1 png pthread pthread-stubs stdc++ util vte2_90
 WANTLIB += xcb xcb-render xcb-shm z
+WANTLIB += atk-bridge-2.0 atspi harfbuzz icudata icule icuuc
 
 MODULES=	devel/gconf2 \
 		devel/gettext \

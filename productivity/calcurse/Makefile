@@ -3,6 +3,7 @@
 COMMENT=	text-based calendar and scheduling application
 
 DISTNAME=	calcurse-2.9.2
+REVISION=	0
 CATEGORIES=	productivity
 
 MAINTAINER=	Frederic Culot <frederic@culot.org>
@@ -22,9 +23,6 @@ MASTER_SITES=	${HOMEPAGE}files/
 MODULES=	devel/gettext
 
 CONFIGURE_STYLE=gnu
-
-pre-configure:
-	perl -pi -e 's,-lpthread,-pthread,g' ${WRKSRC}/configure
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/calcurse

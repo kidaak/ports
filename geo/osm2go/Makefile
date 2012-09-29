@@ -5,7 +5,7 @@ COMMENT =	Openstreetmap editor for handheld devices
 VERSION =	0.7.22
 DISTNAME =	osm2go_${VERSION}-maemo1
 PKGNAME =	osm2go-${VERSION}
-REVISION=	6
+REVISION=	7
 
 WRKDIST =	${WRKDIR}/osm2go-${VERSION}
 CATEGORIES =	geo x11

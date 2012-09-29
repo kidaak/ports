@@ -65,8 +65,6 @@ sub run
 	my $builder = $job->{builder};
 	my $ports = $builder->ports;
 	my $fullpkgpath = $job->{v}->fullpkgpath;
-	my $sudo = OpenBSD::Paths->sudo;
-	my $shell = $core->{shell};
 	$self->handle_output($job);
 	close STDIN;
 	open STDIN, '</dev/null';
@@ -75,6 +73,9 @@ sub run
 	    "FETCH_PACKAGES=No",
 	    "PREPARE_CHECK_ONLY=Yes",
 	    "REPORT_PROBLEM='exit 1'", "BULK=No");
+	if ($job->{parallel}) {
+		push(@args, "MAKE_JOBS=$job->{parallel}");
+	}
 	if ($job->{special}) {
 		push(@args, "WRKOBJDIR=/tmp/ports");
 	}
@@ -91,28 +92,17 @@ sub run
 		}
 	}
 
-	if (defined $shell) {
-		unshift(@args, @l);
-		if ($self->{sudo}) {
-			unshift(@args, $sudo, "-E");
-		}
-		$shell->run("cd $ports && ".
-		    join(' ', "SUBDIR=$fullpkgpath",
-		    "PHASE=$t",
-		    "WRAPPER_OUTPUT=$builder->{rsslog}",
-		    @args));
-	} else {
-		chdir($ports) or
-		    die "Wrong ports tree $ports";
-		$ENV{SUBDIR} = $fullpkgpath;
-		$ENV{PHASE} = $t;
-		$ENV{WRAPPER_OUTPUT} = $builder->{rsslog};
-		if ($self->{sudo}) {
-			exec {$sudo}("sudo", "-E", @l, @args);
-		} else {
-			exec {$make} (@l, @args);
-		}
+	unshift(@args, @l);
+	if ($self->{sudo}) {
+		unshift(@args, OpenBSD::Paths->sudo, "-E");
 	}
+
+	$core->shell
+	    ->chdir($ports)
+	    ->env(SUBDIR => $fullpkgpath, 
+		PHASE => $t, 
+		WRAPPER_OUTPUT => $builder->{rsslog})
+	    ->exec(@args);
 	exit(1);
 }
 
@@ -195,6 +185,9 @@ sub run
 			unlink($dist->tempfilename);
 		}
 	}
+	if (!$exit) {
+		delete $job->{v}{info}{DIST};
+	}
 	exit($exit);
 }
 
@@ -228,10 +221,8 @@ sub run
 	$self->junk_lock($core);
 
 	exit(0) unless %$dep;
-	my $sudo = OpenBSD::Paths->sudo;
-	my $shell = $core->{shell};
 	$self->handle_output($job);
-	my @cmd = ('/usr/sbin/pkg_add', '-a');
+	my @cmd = ('/usr/sbin/pkg_add', '-aI');
 	if ($job->{builder}->{update}) {
 		push(@cmd, "-rqU", "-Dupdate", "-Dupdatedepends");
 	}
@@ -240,13 +231,8 @@ sub run
 	}
 	print join(' ', @cmd, (sort keys %$dep)), "\n";
 	my $path = $job->{builder}->{fullrepo}.'/';
-	if (defined $shell) {
-		$shell->run(join(' ', "PKG_PATH=$path", $sudo, @cmd,
-		    (sort keys %$dep)));
-	} else {
-		$ENV{PKG_PATH} = $path;
-		exec{$sudo}($sudo, @cmd, sort keys %$dep);
-	}
+	$core->shell->env(PKG_PATH => $path)
+	    ->exec(OpenBSD::Paths->sudo, @cmd, (sort keys %$dep));
 	exit(1);
 }
 
@@ -269,9 +255,8 @@ sub run
 	my $job = $core->job;
 	my $v = $job->{v};
 
-	my $sudo = OpenBSD::Paths->sudo;
 	$self->handle_output($job);
-	my @cmd = ('/usr/sbin/pkg_add');
+	my @cmd = ('/usr/sbin/pkg_add', '-I');
 	if ($job->{builder}->{update}) {
 		push(@cmd, "-rqU", "-Dupdate", "-Dupdatedepends");
 	}
@@ -281,7 +266,8 @@ sub run
 	print join(' ', @cmd, $v->fullpkgname, "\n");
 	my $path = $job->{builder}->{fullrepo}.'/';
 	$ENV{PKG_PATH} = $path;
-	exec{$sudo}($sudo, @cmd, $v->fullpkgname);
+	$core->shell->env(PKG_PATH => $path)
+	    ->exec(OpenBSD::Paths->sudo, @cmd, $v->fullpkgname);
 	exit(1);
 }
 
@@ -347,20 +333,14 @@ sub run
 	my $job = $core->job;
 	my $v = $job->{v};
 
-	my $sudo = OpenBSD::Paths->sudo;
 	$self->handle_output($job);
 
 	$self->junk_lock($core);
 	my @d = $core->job->{builder}->locker->find_dependencies(
 	    $core->hostname);
-	my @cmd = ('/usr/sbin/pkg_delete', '-aX', @d);
+	my @cmd = ('/usr/sbin/pkg_delete', '-aIX', @d);
 	print join(' ', @cmd, "\n");
-	my $shell = $core->{shell};
-	if (defined $shell) {
-		$shell->run(join(' ', $sudo, @cmd));
-	} else {
-		exec{$sudo}($sudo, @cmd);
-	}
+	$core->shell->exec(OpenBSD::Paths->sudo, @cmd);
 	exit(1);
 }
 
@@ -466,6 +446,8 @@ sub finalize
 	$self->SUPER::finalize($core);
 }
 
+package DPB::Task::Port::VerifyPackages;
+
 package DPB::Port::TaskFactory;
 my $repo = {
 	default => 'DPB::Task::Port',
@@ -478,6 +460,7 @@ my $repo = {
 	'show-size' => 'DPB::Task::Port::ShowSize',
 	'show-fake-size' => 'DPB::Task::Port::ShowFakeSize',
 	'junk' => 'DPB::Task::Port::Uninstall',
+	'final-check' => "DPB::Task::Port::VerifyPackages",
 };
 
 sub create
@@ -495,7 +478,7 @@ use Time::HiRes qw(time);
 
 sub new
 {
-	my ($class, $log, $v, $builder, $special, $endcode) = @_;
+	my ($class, $log, $v, $builder, $special, $parallel, $endcode) = @_;
 	my $e;
 	if ($builder->{rebuild}) {
 		$e = sub { $builder->register_built($v); &$endcode; };
@@ -508,6 +491,10 @@ sub new
 	    special => $special,  current => '',
 	    builder => $builder, endcode => $e},
 		$class;
+
+	if ($parallel && $v->{info}{DPB_PROPERTIES}{parallel}) {
+		$job->{parallel} = $parallel;
+	}
 
 	if ($builder->{rebuild}) {
 		push(@{$job->{tasks}},
@@ -550,6 +537,7 @@ sub add_normal_tasks
 	if (!$dontclean) {
 		push @todo, 'clean';
 	}
+#	push @todo, 'final-check';
 	$self->add_tasks(map {DPB::Port::TaskFactory->create($_)} @todo);
 }
 
@@ -599,6 +587,7 @@ sub totaltime
 		next if $plus->notime;
 		$t += $plus->elapsed;
     	}
+	$t *= $self->{parallel} if $self->{parallel};
 	return sprintf("%.2f", $t);
 }
 

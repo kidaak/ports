@@ -1,5 +1,9 @@
 @comment $OpenBSD$
 lib/ocaml/
-lib/ocaml/rss.cma
-lib/ocaml/rss.cmi
+lib/ocaml/rss/
+lib/ocaml/rss/LICENSE
+lib/ocaml/rss/META
+lib/ocaml/rss/rss.cma
+lib/ocaml/rss/rss.cmi
 %%native%%
+lib/ocaml/stublibs/

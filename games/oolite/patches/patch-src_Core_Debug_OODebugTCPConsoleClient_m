@@ -1,18 +1,6 @@
 $OpenBSD$
-
-fix: 'struct in_addr' declared inside parameter list
-
 --- src/Core/Debug/OODebugTCPConsoleClient.m.orig	Sun Aug 30 13:40:23 2009
 +++ src/Core/Debug/OODebugTCPConsoleClient.m	Fri Jan 14 13:22:16 2011
-@@ -40,6 +40,8 @@ SOFTWARE.
- #if OOLITE_WINDOWS
- #import <winsock2.h>
- #else
-+#include <sys/types.h>
-+#include <netinet/in.h>
- #import <arpa/inet.h>	// For htonl
- #endif
- 
 @@ -157,7 +159,7 @@ OOINLINE BOOL StatusIsSendable(OOTCPClientConnectionSt
  			// Attempt to connect
  			parameters = [NSDictionary dictionaryWithObjectsAndKeys:

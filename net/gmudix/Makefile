@@ -3,7 +3,7 @@
 COMMENT=		GNOME MUD/Moo Client
 
 DISTNAME=		gmudix-0.10
-REVISION=		11
+REVISION=		12
 CATEGORIES=		net x11
 
 HOMEPAGE=		http://dw.nl.eu.org/mudix.html

@@ -43,8 +43,3 @@ pre-configure:
 NO_REGRESS=	Yes
 
 .include <bsd.port.mk>
-
-# gcc4 is smarter !
-.if ${COMPILER_VERSION:L:Mgcc4*}
-CFLAGS += -Wno-error=address
-.endif

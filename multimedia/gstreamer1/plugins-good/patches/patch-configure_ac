@@ -1,0 +1,23 @@
+$OpenBSD$
+--- configure.ac.orig	Mon Sep 17 17:24:49 2012
++++ configure.ac	Tue Sep 18 08:59:53 2012
+@@ -471,6 +471,8 @@ AG_GST_CHECK_FEATURE(GST_V4L2, [Video 4 Linux 2], v4l2
+ #ifdef __sun /* Solaris */
+ #include <sys/types.h>
+ #include <sys/videodev2.h>
++#elif defined __OpenBSD__
++#include <sys/videoio.h>
+ #else /* Linux */
+ #include <linux/types.h>
+ #define _LINUX_TIME_H
+@@ -512,6 +514,10 @@ return 0;
+ #ifdef __sun /* Solaris */
+ #include <sys/types.h>
+ #include <sys/videodev2.h>
++#elif defined __OpenBSD__
++#include <sys/videoio.h>
++#elif defined __OpenBSD__
++#include <sys/videoio.h>
+ #else /* Linux */
+ #include <linux/types.h>
+ #define _LINUX_TIME_H

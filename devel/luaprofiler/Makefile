@@ -27,7 +27,7 @@ NO_REGRESS=		Yes
 # but references files from elsewhere (ie. src/clock.o).
 MAKE_FILE=		../Makefile.linux
 ALL_TARGET=		# empty
-CFLAGS +=       	-I${LOCALBASE}/include -fPIC
+CFLAGS +=       	-I${MODLUA_INCL_DIR} -fPIC
 
 WRKSRC= 		${WRKDIST}/src/
 

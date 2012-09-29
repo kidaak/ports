@@ -2,8 +2,7 @@
 
 COMMENT=		parser generator for Haskell
 
-DISTNAME=		happy-1.18.6
-REVISION=		2
+DISTNAME=		happy-1.18.9
 CATEGORIES=		devel
 
 HOMEPAGE=		http://www.haskell.org/happy/
@@ -19,10 +18,8 @@ WANTLIB=		c gmp m
 MODULES=		lang/ghc converters/libiconv
 MODGHC_BUILD=		cabal hackage nort
 
-BUILD_DEPENDS+=		devel/hs-mtl \
-			textproc/docbook \
-			textproc/docbook-xsl \
-			textproc/libxslt
+BUILD_DEPENDS+=		devel/hs-mtl>=1.0 \
+			textproc/docbook-xsl
 
 LIB_DEPENDS =		devel/gmp
 

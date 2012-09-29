@@ -1,6 +1,6 @@
 $OpenBSD$
---- make/lib.mak.orig	Tue Feb 21 23:57:07 2012
-+++ make/lib.mak	Fri Mar  2 08:37:06 2012
+--- make/lib.mak.orig	Thu Aug 23 04:12:44 2012
++++ make/lib.mak	Fri Aug 24 07:59:24 2012
 @@ -28,6 +28,13 @@
  # $Date$
  #

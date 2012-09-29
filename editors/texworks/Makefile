@@ -4,13 +4,15 @@ COMMENT-main =		easy to use LaTeX and ConTeXt editor
 COMMENT-python =	Python scripting for TeXworks
 COMMENT-lua =		Lua scripting for TeXworks
 
-V =			0.4.3
-R =			858
+V =			0.4.4
+R =			1004
 DISTNAME =		texworks-${V}-r${R}
 
 PKGNAME-main =		texworks-${V}
 PKGNAME-lua =		texworks-lua-${V}
 PKGNAME-python =	texworks-python-${V}
+
+REVISION-lua =		0
 
 WRKDIST =		${WRKDIR}/texworks-${V}
 
@@ -47,10 +49,10 @@ MULTI_PACKAGES =	-main -lua -python
 
 MASTER_SITES =		http://texworks.googlecode.com/files/
 
-LIB_DEPENDS-main =	qt4->=4.7.2:${MODQT4_LIB_DEPENDS} \
+LIB_DEPENDS-main =	qt4->=4.8.2:${MODQT4_LIB_DEPENDS} \
 			textproc/hunspell \
 			x11/dbus \
-			print/poppler,-qt4
+			print/poppler,,-qt4
 LIB_DEPENDS-lua =	${MODQT4_LIB_DEPENDS} \
 			${MODLUA_LIB_DEPENDS}
 LIB_DEPENDS-python =	${MODQT4_LIB_DEPENDS} \
@@ -60,6 +62,8 @@ RUN_DEPENDS-main = 	print/texlive/base \
 			devel/desktop-file-utils
 RUN_DEPENDS-lua =	editors/texworks,-main
 RUN_DEPENDS-python =	editors/texworks,-main
+
+MODLUA_SA =		Yes
 
 USE_GMAKE =		Yes
 NO_REGRESS =		Yes

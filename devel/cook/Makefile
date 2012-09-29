@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.5 2000/05/30 23:19:09 jasone Exp $
 
 COMMENT=	like make(1), but more powerful and clean
 

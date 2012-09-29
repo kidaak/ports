@@ -6260,3 +6260,5 @@ moodle/userpix/
 moodle/userpix/index.php
 moodle/userpix/upgrade.php
 moodle/version.php
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

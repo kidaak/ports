@@ -5,9 +5,8 @@ SHARED_ONLY=	Yes
 COMMENT=	unified perl interface for database access
 
 MODULES=	cpan
-DISTNAME=	DBI-1.616
+DISTNAME=	DBI-1.622
 CATEGORIES=	databases
-USE_GROFF=	Yes
 
 HOMEPAGE=	http://dbi.perl.org/
 MAINTAINER=	Simon Bertrang <simon@openbsd.org>
@@ -18,10 +17,12 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
+WANTLIB += c
+
+MAKE_ENV=		TEST_POD=1
 RUN_DEPENDS=	net/p5-PlRPC>=0.2017 \
-		databases/p5-SQL-Statement>=1.28 \
-		devel/p5-MLDBM
+				databases/p5-SQL-Statement>=1.28 \
+				devel/p5-MLDBM
 BUILD_DEPENDS=	${RUN_DEPENDS}
-REGRESS_DEPENDS=devel/p5-Test-Pod-Coverage
 
 .include <bsd.port.mk>

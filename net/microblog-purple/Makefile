@@ -7,7 +7,7 @@ COMMENT=	Twitter, Identica, and Status.net plugin for libpurple
 VERSION=	0.3.0
 DISTNAME=	mbpurple-${VERSION}
 PKGNAME=	microblog-purple-${VERSION}
-REVISION=	2
+REVISION=	3
 CATEGORIES=	net
 
 HOMEPAGE=	http://microblog-purple.googlecode.com/

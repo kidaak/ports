@@ -7,12 +7,10 @@ COMMENT =	Facebook plugin for Pidgin
 V =		1.68
 DISTNAME =	pidgin-facebookchat-source-${V}
 PKGNAME =	pidgin-facebookchat-${V}
-REVISION =	1
+REVISION =	2
 CATEGORIES =	net
 
 HOMEPAGE =	http://code.google.com/p/pidgin-facebookchat/
-
-MAINTAINER =	Steven Mestdagh <steven@openbsd.org>
 
 # GPL v3
 PERMIT_PACKAGE_FTP =	Yes

@@ -2,7 +2,7 @@
 
 COMMENT=		jabber server written in Erlang
 
-V=			2.1.10
+V=			2.1.11
 DISTNAME=		ejabberd-$V
 
 CATEGORIES=		net
@@ -20,6 +20,7 @@ PERMIT_DISTFILES_FTP=	Yes
 WANTLIB=		expat crypto ssl z
 
 MASTER_SITES=		http://www.process-one.net/downloads/ejabberd/$V/
+EXTRACT_SUFX=		.tgz
 
 MODULES=		converters/libiconv
 BUILD_DEPENDS=		lang/erlang

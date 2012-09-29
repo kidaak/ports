@@ -5,7 +5,7 @@ COMMENT=		Human icon theme from Ubuntu
 V=			0.36
 DISTNAME=		human-icon-theme_${V}
 PKGNAME=		human-icon-theme-${V}
-REVISION=		0
+REVISION=		1
 
 CATEGORIES=		x11
 

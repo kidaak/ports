@@ -4,7 +4,7 @@ COMMENT =	replacement for Ruby's URI implementation
 
 # test databases/ruby-datamapper/core before updating
 DISTNAME = 	addressable-2.2.2
-REVISION = 	1
+REVISION = 	2
 CATEGORIES =	www
 
 HOMEPAGE =	http://addressable.rubyforge.org/

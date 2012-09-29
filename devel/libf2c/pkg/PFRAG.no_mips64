@@ -1,5 +1,0 @@
-@comment $OpenBSD$
-lib/gcc-lib/${CONFIG}/${V}/libfrtbegin_pic.a
-lib/gcc-lib/${CONFIG}/${V}/libg2c_pic.a
-lib/libfrtbegin_pic.a
-lib/libg2c_pic.a

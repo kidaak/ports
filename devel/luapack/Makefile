@@ -2,7 +2,7 @@
 
 COMMENT=	library for packing and unpacking binary data
 DISTNAME=	luapack-20061124
-REVISION =	1
+REVISION =	2
 CATEGORIES=	devel
 MASTER_SITES=	${MASTER_SITE_BACKUP}
 
@@ -19,7 +19,7 @@ SHARED_ONLY=	Yes
 REGRESS_DEPENDS=${BUILD_PKGPATH}
 
 do-build:
-	${CC} ${CFLAGS} -fPIC -I${LOCALBASE}/include -shared \
+	${CC} ${CFLAGS} -fPIC -I${MODLUA_INCL_DIR} -shared \
 		${WRKSRC}/lpack.c -o ${WRKDIST}/pack.so
 
 do-install:

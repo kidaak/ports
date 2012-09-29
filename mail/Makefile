@@ -1,12 +1,9 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.51 1997/11/14 22:56:43 hoek Exp $
-#
  
      SUBDIR =
      SUBDIR += abook
      SUBDIR += adcomplain
      SUBDIR += akpop3d
-     SUBDIR += alpine
      SUBDIR += altermime
      SUBDIR += amavisd-new
      SUBDIR += archivemail
@@ -50,7 +47,6 @@
      SUBDIR += elm
      SUBDIR += evolution
      SUBDIR += evolution-ews
-     SUBDIR += evolution-exchange
      SUBDIR += evolution-rss
      SUBDIR += exim
      SUBDIR += exim,ldap
@@ -63,14 +59,14 @@
      SUBDIR += fdm
      SUBDIR += femail
      SUBDIR += fetchmail
+     SUBDIR += geary
      SUBDIR += getmail
-     SUBDIR += gmime
+     SUBDIR += gmime,
      SUBDIR += grepmail
      SUBDIR += greyscanner
      SUBDIR += hashcash
      SUBDIR += hypermail
      SUBDIR += hypermail,gdbm
-     SUBDIR += imap-uw
      SUBDIR += imapfilter
      SUBDIR += imapproxy
      SUBDIR += imapsync
@@ -173,7 +169,6 @@
      SUBDIR += poppy
      SUBDIR += postfix
      SUBDIR += postgrey
-     SUBDIR += postler
      SUBDIR += prepop
      SUBDIR += procmail
      SUBDIR += py-authres
@@ -183,6 +178,7 @@
      SUBDIR += pyzor
      SUBDIR += razor-agents
      SUBDIR += rcube-sieverules
+     SUBDIR += re-alpine
      SUBDIR += relaydb
      SUBDIR += roundcubemail
      SUBDIR += ruby-actionmailer
@@ -190,7 +186,6 @@
      SUBDIR += ruby-mailfactory
      SUBDIR += ruby-mime
      SUBDIR += ruby-mime-types
-     SUBDIR += ruby-rmail
      SUBDIR += sieve-connect
      SUBDIR += signify
      SUBDIR += sma

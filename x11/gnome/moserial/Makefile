@@ -3,7 +3,7 @@
 COMMENT=		serial terminal for GNOME
 
 GNOME_PROJECT=		moserial
-GNOME_VERSION=		3.0.6
+GNOME_VERSION=		3.0.7
 REVISION=		0
 
 CATEGORIES=		comms

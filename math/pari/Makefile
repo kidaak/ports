@@ -3,13 +3,11 @@
 COMMENT=	number theory-oriented computer algebra system
 
 DISTNAME=	pari-2.1.6
-REVISION=	1
+REVISION=	2
 EXTRACT_SUFX=	.tgz
 CATEGORIES=	math
 
 HOMEPAGE=	http://pari.math.u-bordeaux.fr/
-
-MAINTAINER=	Mathieu Sauve-Frankel <msf@openbsd.org>
 
 # GPL
 PERMIT_PACKAGE_CDROM=	Yes

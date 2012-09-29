@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.2 1997/11/10 11:33:04 asami Exp $
 
 COMMENT=	decode tcpdump(1) output
 

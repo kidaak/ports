@@ -5,6 +5,7 @@ COMMENT=		curses based frontend for mpd
 DISTNAME=		ncmpc-0.20
 EPOCH=			0
 CATEGORIES=		audio
+REVISION=	0
 
 HOMEPAGE=		http://mpd.wikia.com/wiki/Client:Ncmpc
 

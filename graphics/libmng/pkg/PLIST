@@ -4,7 +4,6 @@ include/libmng.h
 include/libmng_conf.h
 include/libmng_types.h
 lib/libmng.a
-@endfake
 @man man/man3/libmng.3
 @man man/man5/jng.5
 @man man/man5/mng.5

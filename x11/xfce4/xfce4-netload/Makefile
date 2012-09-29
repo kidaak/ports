@@ -2,9 +2,8 @@
 
 COMMENT=	Xfce4 network load monitor panel plugin
 
-XFCE_VERSION=	1.1.0
+XFCE_VERSION=	1.2.0
 XFCE_PLUGIN=	netload
-REVISION =	0
 
 # GPLv2
 PERMIT_DISTFILES_CDROM=	Yes
@@ -15,7 +14,6 @@ PERMIT_PACKAGE_FTP=	Yes
 MODULES=	x11/xfce4
 
 MODXFCE_ICON_CACHE=	Yes
-LIB_DEPENDS+=	x11/xfce4/libxfce4ui
 
 WANTLIB += GL X11 Xcomposite Xcursor Xdamage Xext Xfixes Xi Xinerama
 WANTLIB += Xrandr Xrender atk-1.0 c cairo expat fontconfig freetype

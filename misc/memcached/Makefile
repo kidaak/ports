@@ -4,6 +4,7 @@ COMMENT=	distributed memory object caching system
 
 DISTNAME =	memcached-1.4.13
 CATEGORIES=	misc
+REVISION=	0
 
 HOMEPAGE=	http://www.memcached.org/
 

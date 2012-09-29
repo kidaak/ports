@@ -3,7 +3,7 @@
 COMMENT=	simple mock object for unit testing
 
 DISTNAME=	flexmock-0.8.6
-REVISION =	4
+REVISION =	5
 CATEGORIES=	devel
 
 # BSD-like

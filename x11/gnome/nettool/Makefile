@@ -4,6 +4,7 @@ COMMENT=	GNOME interface for various networking tools
 
 GNOME_PROJECT=	gnome-nettool
 GNOME_VERSION=	3.2.0
+REVISION=	1
 
 CATEGORIES=	net
 

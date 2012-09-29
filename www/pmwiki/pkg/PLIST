@@ -232,3 +232,6 @@ pmwiki/wikilib.d/SiteAdmin.AuthUser
 pmwiki/wikilib.d/SiteAdmin.GroupAttributes
 pmwiki/wikilib.d/SiteAdmin.SiteAdmin
 pmwiki/wikilib.d/SiteAdmin.Status
+@group
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

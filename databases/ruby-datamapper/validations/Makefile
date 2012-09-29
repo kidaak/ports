@@ -3,7 +3,7 @@
 COMMENT =	provides validations for DataMapper model classes
 
 DISTNAME =	dm-validations-${VERSION}
-REVISION =	1
+REVISION =	2
 
 RUN_DEPENDS =	databases/ruby-datamapper/core,${MODRUBY_FLAVOR}${DM_REL_VER_SPEC}
 

@@ -8,6 +8,7 @@ REVISION=	1
 SHARED_LIBS=	elf 1.1
 
 CATEGORIES=	devel
+DPB_PROPERTIES=	parallel
 
 # The actual homepage is in german, this points to it.
 HOMEPAGE=	http://directory.fsf.org/all/libelf.html

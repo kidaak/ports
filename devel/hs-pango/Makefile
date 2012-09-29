@@ -2,8 +2,7 @@
 
 COMMENT =		Haskell bindings to pango
 
-DISTNAME =		pango-0.12.0
-REVISION =		1
+DISTNAME =		pango-0.12.3
 CATEGORIES =		devel x11
 
 HOMEPAGE =		http://www.haskell.org/gtk2hs/
@@ -26,8 +25,8 @@ BUILD_DEPENDS =		devel/gtk2hs-buildtools \
 
 LIB_DEPENDS =		devel/pango
 
-RUN_DEPENDS =		hs-glib->=0.12,<0.13:devel/hs-glib \
+RUN_DEPENDS =		devel/hs-glib>=0.12,<0.13 \
 			devel/hs-mtl \
-			hs-cairo->=0.12,<0.13:graphics/hs-cairo
+			graphics/hs-cairo>=0.12.0,<0.13
 
 .include <bsd.port.mk>

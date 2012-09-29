@@ -2,8 +2,7 @@
 
 COMMENT =		Haskell bindings to glib
 
-DISTNAME =		glib-0.12.0
-REVISION =		0
+DISTNAME =		glib-0.12.3.1
 CATEGORIES =		devel
 
 HOMEPAGE =		http://www.haskell.org/gtk2hs/

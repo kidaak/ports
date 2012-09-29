@@ -1,8 +1,8 @@
 $OpenBSD$
 Don't install the sdk (revert bug #639462)
---- mail/installer/Makefile.in.orig	Sat Apr 21 00:32:38 2012
-+++ mail/installer/Makefile.in	Wed Apr 25 18:48:38 2012
-@@ -105,10 +105,6 @@ endif
+--- mail/installer/Makefile.in.orig	Sat Aug 25 02:24:32 2012
++++ mail/installer/Makefile.in	Sat Sep  1 01:59:36 2012
+@@ -72,10 +72,6 @@ endif
  
  NON_OMNIJAR_FILES = defaults/messenger/mailViews.dat
  
@@ -12,4 +12,4 @@ Don't install the sdk (revert bug #639462)
 -
  GENERATE_CACHE=1
  
- include $(MOZILLA_SRCDIR)/toolkit/mozapps/installer/packager.mk
+ include $(MOZILLA_SRCDIR)/toolkit/mozapps/installer/signing.mk

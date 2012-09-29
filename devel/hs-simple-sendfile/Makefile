@@ -2,7 +2,7 @@
 
 COMMENT =		cross platform library for the sendfile system call
 
-DISTNAME =		simple-sendfile-0.1.3
+DISTNAME =		simple-sendfile-0.2.4
 CATEGORIES =		devel
 
 # BSD3
@@ -15,9 +15,9 @@ MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
 
-RUN_DEPENDS +=		devel/hs-enumerator \
+RUN_DEPENDS +=		devel/hs-conduit>=0.4.1,<0.5 \
 			devel/hs-network \
-			devel/hs-transformers
+			devel/hs-transformers>=0.2.2,<0.4
 BUILD_DEPENDS +=	${RUN_DEPENDS}
 
 .include <bsd.port.mk>

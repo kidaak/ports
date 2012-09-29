@@ -2,13 +2,10 @@
 
 COMMENT=		stub DNS resolver library
 
-VERSION=		0.0.9
-DISTNAME=		udns_${VERSION}
-PKGNAME=		udns-${VERSION}
-REVISION=		0
+DISTNAME=		udns-0.2
 CATEGORIES=		net
 
-SHARED_LIBS+=	udns 0.0
+SHARED_LIBS+=	udns 1.0
 
 MAINTAINER=		Sebastian Reitenbach <sebastia@openbsd.org>
 
@@ -32,7 +29,6 @@ ALL_TARGET=		staticlib static
 .endif
 
 CONFIGURE_STYLE=	simple
-WRKDIST=		${WRKDIR}/udns-${VERSION}
 NO_REGRESS=		Yes
 
 do-install:

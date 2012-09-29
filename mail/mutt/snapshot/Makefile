@@ -19,9 +19,7 @@ CONFIGURE_ARGS= --enable-hcache \
 		--without-gdbm
 
 LIB_DEPENDS=	databases/qdbm
-BUILD_DEPENDS+=	textproc/docbook \
-		textproc/docbook-xsl \
-		textproc/libxslt
+BUILD_DEPENDS+=	textproc/docbook-xsl
 
 .if ${FLAVOR:L:Msasl}
 CONFIGURE_ARGS+= --with-sasl=${LOCALBASE}

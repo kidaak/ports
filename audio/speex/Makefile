@@ -23,7 +23,6 @@ LIB_DEPENDS=	audio/libogg
 WANTLIB=	c m ogg>=5 sndio
 
 USE_LIBTOOL=	Yes
-USE_GROFF =	Yes
 CONFIGURE_STYLE=gnu
 CONFIGURE_ARGS=	${CONFIGURE_SHARED} \
 		--with-ogg=${LOCALBASE}

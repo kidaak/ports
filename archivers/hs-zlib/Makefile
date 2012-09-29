@@ -2,9 +2,8 @@
 
 COMMENT =		zlib bindings for Haskell
 
-DISTNAME =		zlib-0.5.3.1
+DISTNAME =		zlib-0.5.3.3
 CATEGORIES =		archivers devel
-REVISION =		0
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>
 

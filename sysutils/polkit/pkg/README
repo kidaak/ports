@@ -4,13 +4,13 @@ $OpenBSD$
 | Running ${FULLPKGNAME} on OpenBSD
 +-----------------------------------------------------------------------
 
-In most situations, PolicyKit will require a session to be marked as
+In most situations, polkit will require a session to be marked as
 "active" before granting privileges. This is done using ConsoleKit, so
 you will most likely want to install the consolekit package along with
 polkit.
 
-To grant privileges interactively in a GUI, PolicyKit will need the user
-to input his password. This is done using a helper daemon (launched when
+To grant privileges interactively in a GUI, polkit will need the user to
+input his password. This is done using a helper daemon (launched when
 starting your X session) which needs to be installed (if not already):
     for a GTK based Desktop	-> polkit-gnome
     for a QT based Desktop	-> polkit-qt4

@@ -28,11 +28,10 @@
 # what's linked, and what's in there.
 
 : ${PORTSDIR:=/usr/ports}
-: ${TMPDIR:=/tmp}
 : ${diffopts:=-u}
 
-known1=`mktemp ${TMPDIR}/known.XXXXXXXXX`
-known2=`mktemp ${TMPDIR}/known.XXXXXXXXX`
+known1=`mktemp -t known.XXXXXXXXX`
+known2=`mktemp -t known.XXXXXXXXX`
 cd ${PORTSDIR} && make show=FULLPKGPATH ECHO_MSG=: | tee ${known1}
 sort -o ${known1} -u ${known1}
 

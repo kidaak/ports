@@ -1,7 +1,7 @@
 $OpenBSD$
---- buildsys.mk.in.orig	Fri Jan 20 20:46:56 2012
-+++ buildsys.mk.in	Sun Feb  5 19:13:21 2012
-@@ -35,9 +35,9 @@ LD = ${CC}
+--- buildsys.mk.in.orig	Sat Aug 11 22:11:00 2012
++++ buildsys.mk.in	Thu Aug 16 13:13:37 2012
+@@ -36,9 +36,9 @@ LD = ${CC}
  RANLIB = @RANLIB@
  PYTHON = @PYTHON@
  ASFLAGS = @ASFLAGS@
@@ -13,7 +13,7 @@ $OpenBSD$
  DFLAGS = @DFLAGS@
  ERLCFLAGS = @ERLCFLAGS@
  OBJCFLAGS = @OBJCFLAGS@
-@@ -100,7 +100,7 @@ PLUGIN_OBJS = ${OBJS:.o=.plugin.o}
+@@ -101,7 +101,7 @@ PLUGIN_OBJS = ${OBJS:.o=.plugin.o}
  
  MO_FILES = ${LOCALES:.po=.mo}
  

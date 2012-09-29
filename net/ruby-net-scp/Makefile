@@ -3,7 +3,7 @@
 COMMENT =		pure-Ruby implementation of the SCP protocol
 
 DISTNAME =		net-scp-1.0.2
-REVISION =		5
+REVISION =		6
 CATEGORIES =		net
 
 # MIT

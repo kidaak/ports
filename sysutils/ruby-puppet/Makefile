@@ -2,9 +2,10 @@
 
 COMMENT=	centralised configuration management for networks
 
-VERSION=	2.7.14
+VERSION=	2.7.19
 DISTNAME=	puppet-${VERSION}
 PKGNAME=	ruby-${DISTNAME}
+REVISION=	0
 CATEGORIES=	sysutils net
 
 HOMEPAGE=	http://reductivelabs.com/projects/puppet/
@@ -20,7 +21,7 @@ PERMIT_DISTFILES_FTP=	Yes
 
 MODULES=	lang/ruby
 BUILD_DEPENDS=	${RUN_DEPENDS}
-RUN_DEPENDS=	converters/ruby-json \
+RUN_DEPENDS=	converters/ruby-json,${MODRUBY_FLAVOR} \
 		sysutils/ruby-facter \
 		${MODRUBY_ICONV_DEPENDS}
 

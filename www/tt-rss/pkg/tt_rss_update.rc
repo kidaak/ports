@@ -13,7 +13,7 @@ rc_bg=YES
 rc_reload=NO
 
 rc_post() {
-	rm ${INSTDIR}/lock/update_daemon.lock
+	rm -f ${INSTDIR}/lock/update_daemon.lock
 }
 
 rc_cmd $1

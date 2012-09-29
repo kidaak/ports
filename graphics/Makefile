@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.55 1997/11/03 12:12:27 tg Exp $
-#
 
      SUBDIR =
      SUBDIR += DevIL
@@ -22,10 +20,11 @@
      SUBDIR += cairo
      SUBDIR += cairomm
      SUBDIR += cal3d
-     SUBDIR += camlimages
+     SUBDIR += ocaml-camlimages
      SUBDIR += cfdg
      SUBDIR += clutter
      SUBDIR += colord
+     SUBDIR += colord-gtk
      SUBDIR += colorexplorer
      SUBDIR += comix
      SUBDIR += compface
@@ -40,7 +39,6 @@
      SUBDIR += discwrapper
      SUBDIR += djview4
      SUBDIR += djvulibre
-     SUBDIR += djvulibre,no_x11
      SUBDIR += dmtx-utils
      SUBDIR += dpic
      SUBDIR += dumpmpeg
@@ -66,11 +64,9 @@
      SUBDIR += gegl
      SUBDIR += geomview
      SUBDIR += gfract
-     SUBDIR += ggi
      SUBDIR += gif2png
      SUBDIR += gifsicle
      SUBDIR += giftrans
-     SUBDIR += gii
      SUBDIR += gimp
      SUBDIR += gle
      SUBDIR += glew
@@ -99,6 +95,7 @@
      SUBDIR += imlib2
      SUBDIR += indexpage
      SUBDIR += inkscape
+     SUBDIR += ipe
      SUBDIR += iview
      SUBDIR += jasper
      SUBDIR += jbig2dec
@@ -213,11 +210,10 @@
      SUBDIR += quesoglc
      SUBDIR += rawstudio
      SUBDIR += ruby-color
-     SUBDIR += ruby-gd2
      SUBDIR += ruby-gruff
      SUBDIR += ruby-mini_magick
      SUBDIR += ruby-rmagick
-     SUBDIR += ruby-rmagick,ruby19
+     SUBDIR += ruby-rmagick,ruby18
      SUBDIR += s10sh
      SUBDIR += sane-backends
      SUBDIR += sane-backends,snmp
@@ -243,6 +239,7 @@
      SUBDIR += vcdimager
      SUBDIR += vid
      SUBDIR += videod
+     SUBDIR += viewnior
      SUBDIR += wmgrabimage
      SUBDIR += wmicons
      SUBDIR += wmphoto

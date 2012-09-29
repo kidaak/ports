@@ -1,7 +1,7 @@
 $OpenBSD$
---- transmitters/multicast/fs-multicast-transmitter.c.orig	Wed Apr  4 22:48:14 2012
-+++ transmitters/multicast/fs-multicast-transmitter.c	Wed Apr  4 22:48:35 2012
-@@ -53,7 +53,10 @@
+--- transmitters/multicast/fs-multicast-transmitter.c.orig	Tue Sep 25 22:23:53 2012
++++ transmitters/multicast/fs-multicast-transmitter.c	Fri Sep 28 14:27:29 2012
+@@ -55,7 +55,10 @@
  #else /*G_OS_WIN32*/
  # include <netdb.h>
  # include <sys/socket.h>

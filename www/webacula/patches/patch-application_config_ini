@@ -1,6 +1,6 @@
 $OpenBSD$
---- application/config.ini.orig	Wed May 11 10:20:56 2011
-+++ application/config.ini	Thu Jul 28 10:47:40 2011
+--- application/config.ini.orig	Sat Sep 10 22:22:55 2011
++++ application/config.ini	Mon Jun 11 10:33:15 2012
 @@ -5,25 +5,25 @@
  
  [general]
@@ -9,7 +9,7 @@ $OpenBSD$
 +db.adapter = PDO_PGSQL
  db.config.host = localhost
 -db.config.username = root
-+db.config.username = postgres
++db.config.username = bacula
  db.config.password =
  db.config.dbname = bacula
 -;; for Sqlite db.config.dbname = "/full patch/bacula.db"

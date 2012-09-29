@@ -16,6 +16,10 @@ libexec/bacula/bacula-ctl-sd
 libexec/bacula/btraceback.dbx
 libexec/bacula/btraceback.gdb
 libexec/bacula/btraceback.mdb
+libexec/bacula/chio-changer-openbsd.dist
+@mode 0755
+@sample libexec/bacula/chio-changer-openbsd
+@mode
 libexec/bacula/create_bacula_database
 libexec/bacula/create_${BACKEND}_database
 libexec/bacula/delete_catalog_backup

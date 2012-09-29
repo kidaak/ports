@@ -15,7 +15,7 @@ FLAVORS =	debug
 
 SEPARATE_BUILD =	flavored
 
-REVISION =	6
+REVISION =	7
 WANTLIB = ICE SM X11 Xau Xdmcp Xext Xrender art_lgpl_2 c fam idn jpeg kabc \
 	kresources kwalletclient lib/kde3/DCOP lib/kde3/kdecore>=6 \
 	lib/kde3/kdefx lib/kde3/kdeprint lib/kde3/kdesu lib/kde3/kdeui \

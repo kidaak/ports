@@ -4,7 +4,7 @@ COMMENT=	GTK+ binding for librep Lisp environment
 
 SHARED_ONLY=	Yes
 
-VERSION=	0.90.8
+VERSION=	0.90.8.1
 DISTNAME=	rep-gtk-${VERSION}
 CATEGORIES=     x11
 

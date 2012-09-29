@@ -2,10 +2,10 @@
 
 COMMENT=		compact speech synthesizer
 
-DISTNAME=		espeak-1.40.02-source
+DISTNAME=		espeak-1.46.02-source
 PKGNAME=		${DISTNAME:S/-source//}
-REVISION=		1
-SHARED_LIBS=		espeak 0.0
+REVISION=		0
+SHARED_LIBS=		espeak 1.0
 
 CATEGORIES=		audio devel
 
@@ -25,7 +25,6 @@ WANTLIB=		c m pthread stdc++ portaudio
 LIB_DEPENDS=		audio/portaudio-svn
 
 USE_GMAKE=		Yes
-USE_LIBTOOL=		Yes
 
 NO_REGRESS=		Yes
 

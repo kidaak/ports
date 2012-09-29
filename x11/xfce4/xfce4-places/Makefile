@@ -2,7 +2,7 @@
 
 COMMENT=	Xfce4 places panel plugin
 
-XFCE_VERSION=	1.3.0
+XFCE_VERSION=	1.4.0
 XFCE_PLUGIN=	places
 
 # GPLv2

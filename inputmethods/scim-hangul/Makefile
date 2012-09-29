@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	scim input method module for hangul
 
 DISTNAME=	scim-hangul-0.3.2
-REVISION=	5
+REVISION=	6
 
 CATEGORIES=	inputmethods korean
 

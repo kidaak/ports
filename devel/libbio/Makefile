@@ -23,6 +23,6 @@ USE_GROFF =	Yes
 NO_REGRESS=	Yes
 
 pre-build:
-	@cp ${FILESDIR}/Make.OpenBSD ${WRKSRC
+	@cp ${FILESDIR}/Make.OpenBSD ${WRKSRC}
 
 .include <bsd.port.mk>

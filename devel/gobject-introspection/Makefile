@@ -2,7 +2,7 @@
 
 COMMENT=		GObject Introspection
 
-GNOME_VERSION=		1.32.1
+GNOME_VERSION=		1.34.0
 GNOME_PROJECT=		gobject-introspection
 CATEGORIES=		devel
 
@@ -27,7 +27,7 @@ MODULES=		devel/gettext \
 WANTLIB += c ffi gio-2.0 glib-2.0 gmodule-2.0 gobject-2.0 gthread-2.0
 WANTLIB += m pcre pthread z
 
-LIB_DEPENDS=		devel/glib2>=2.32.0
+LIB_DEPENDS=		devel/glib2>=2.33.14
 BUILD_DEPENDS=		devel/bison \
 			graphics/cairo
 RUN_DEPENDS=		graphics/cairo

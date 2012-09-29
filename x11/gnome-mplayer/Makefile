@@ -3,7 +3,7 @@
 COMMENT =		GTK+/GNOME frontend for MPlayer
 V =			1.0.6
 DISTNAME =		gnome-mplayer-${V}
-REVISION =		1
+REVISION =		3
 
 CATEGORIES =		x11 multimedia
 

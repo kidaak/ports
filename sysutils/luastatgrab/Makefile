@@ -6,7 +6,7 @@ COMMENT=		libstatgrab bindings for Lua
 
 DISTNAME=		lua-statgrab-0.3.0
 PKGNAME=		${DISTNAME:S/-//}
-REVISION=		1
+REVISION=		3
 CATEGORIES=		sysutils devel
 
 HOMEPAGE=		http://luaforge.net/projects/lua-statgrab
@@ -27,7 +27,7 @@ REGRESS_DEPENDS=${BUILD_PKGPATH}
 
 do-build:
 	cd ${WRKDIR} && \
-	${CC} ${CFLAGS} -fPIC -I${LOCALBASE}/include -shared\
+	${CC} ${CFLAGS} -fPIC -I${MODLUA_INCL_DIR} -shared\
 		`pkg-config --cflags libstatgrab` \
 		`pkg-config --libs libstatgrab` \
 		${WRKSRC}/libstatgrab.c -o ${WRKSRC}/libstatgrab.so

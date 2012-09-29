@@ -5,8 +5,8 @@ MOZILLA_BRANCH =	1.9.2
 MOZILLA_PROJECT =	xulrunner1.9
 MOZILLA_DIST =		firefox
 MOZILLA_DIST_VERSION =	3.6.28
-REVISION-devel =	0
-REVISION-main =		1
+REVISION-devel =	1
+REVISION-main =		4
 
 SO_VERSION =		3.2
 # NOTE: Must bump minor version if any shlib's are removed from the
@@ -21,9 +21,8 @@ PKG_ARGS+=	-Djit=1 -Damd64=1
 PKG_ARGS+=	-Djit=0 -Damd64=0
 .endif
 
-# use files and patches from www/firefox36
+# use patches from www/firefox36
 PATCHDIR =		${PORTSDIR}/www/firefox36/patches
-FILESDIR =		${PORTSDIR}/www/firefox36/files
 
 MOZILLA_DATADIRS =	chrome components defaults dictionaries greprefs \
 			icons modules plugins res

@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.23 1997/11/09 10:17:02 asami Exp $
-#
 
      SUBDIR =
      SUBDIR += ADMfzap
@@ -19,6 +17,7 @@
      SUBDIR += bounix
      SUBDIR += bsd-airtools
      SUBDIR += bunny
+     SUBDIR += ccid
      SUBDIR += ccrypt
      SUBDIR += cfs
      SUBDIR += cgichk
@@ -30,7 +29,7 @@
      SUBDIR += corkscrew
      SUBDIR += cracklib
      SUBDIR += cryptcat
-     SUBDIR += cryptokit
+     SUBDIR += ocaml-cryptokit
      SUBDIR += ctunnel
      SUBDIR += cyrus-sasl2
      SUBDIR += cyrus-sasl2,db4
@@ -46,9 +45,8 @@
      SUBDIR += fragroute
      SUBDIR += fragrouter
      SUBDIR += fwbuilder
-     SUBDIR += gnomint
      SUBDIR += gnupg
-     SUBDIR += gnupg,card,idea,ldap
+     SUBDIR += gnupg,card,ldap
      SUBDIR += gnupg2
      SUBDIR += gnutls
      SUBDIR += gpa
@@ -95,6 +93,7 @@
      SUBDIR += libnipper
      SUBDIR += libotr
      SUBDIR += libperseus
+     SUBDIR += libpwquality
      SUBDIR += libsrtp
      SUBDIR += libssh
      SUBDIR += libssh2
@@ -115,6 +114,7 @@
      SUBDIR += node-bcrypt
      SUBDIR += nss
      SUBDIR += oath-toolkit
+     SUBDIR += ocaml-ssl
      SUBDIR += onesixtyone
      SUBDIR += opencdk
      SUBDIR += openct
@@ -186,6 +186,7 @@
      SUBDIR += p5-Tie-EncryptedHash
      SUBDIR += parse
      SUBDIR += passwdqc
+     SUBDIR += password-gorilla
      SUBDIR += pcsc-lite
      SUBDIR += pdfcrack
      SUBDIR += pear-Auth
@@ -199,7 +200,6 @@
      SUBDIR += portscanner
      SUBDIR += portsentry
      SUBDIR += ppgen
-     SUBDIR += prelude
      SUBDIR += pwgen
      SUBDIR += pwsafe
      SUBDIR += py-Rijndael
@@ -220,7 +220,7 @@
      SUBDIR += rdp
      SUBDIR += ruby-bcrypt
      SUBDIR += ruby-bcrypt,rbx
-     SUBDIR += ruby-bcrypt,ruby19
+     SUBDIR += ruby-bcrypt,ruby18
      SUBDIR += ruby-ezcrypto
      SUBDIR += ruby-openid
      SUBDIR += ruby-yadis
@@ -251,12 +251,12 @@
      SUBDIR += swatch
      SUBDIR += tcltls
      SUBDIR += tempwatch
-     SUBDIR += tinyca
      SUBDIR += towitoko
      SUBDIR += vomit
      SUBDIR += vpnc
      SUBDIR += wpa_supplicant
      SUBDIR += xmlsec
+     SUBDIR += yubiserve
      SUBDIR += zebedee
      SUBDIR += zkt
 

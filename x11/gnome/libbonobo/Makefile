@@ -5,7 +5,7 @@ COMMENT=	GNOME component and compound document system
 GNOME_PROJECT=	libbonobo
 GNOME_VERSION=	2.32.1
 
-REVISION=	2
+REVISION=	3
 
 SHARED_LIBS +=	bonobo-activation    6.0      # .4.0
 SHARED_LIBS +=	bonobo-2             2.0      # .0.0

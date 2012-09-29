@@ -2,9 +2,9 @@
 
 COMMENT=	GNUstep gui backend
 
-V =		0.20.1
+V =		0.22.0
 DISTNAME=	gnustep-back-${V}
-REVISION =	1
+REVISION =	0
 
 CATEGORIES=	devel
 
@@ -14,10 +14,10 @@ MASTER_SITES=	${MASTER_SITE_GNUSTEP:=core/}
 MODULES=	devel/gettext x11/gnustep
 MODGNUSTEP_NEEDS_BACK=	No
 
-WANTLIB+= 	Xau Xdmcp Xft Xrender expat fontconfig pixman-1
+WANTLIB+= 	Xft Xrender expat fontconfig pixman-1
 WANTLIB+= 	png cairo pthread-stubs xcb xcb-render xcb-shm
-WANTLIB+= 	Xdamage Xfixes Xxf86vm drm glib-2.0 gobject-2.0
-WANTLIB+= 	gthread-2.0 freetype z GL X11 Xext Xmu Xt c m pthread
+WANTLIB+= 	Xfixes glib-2.0 gobject-2.0 Xcursor
+WANTLIB+= 	freetype z GL X11 Xext Xmu Xt c m pthread
 
 LIB_DEPENDS=	graphics/cairo
 

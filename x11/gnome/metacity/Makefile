@@ -5,8 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	lightweight window manager
 
 GNOME_PROJECT=	metacity
-GNOME_VERSION=	2.34.3
-REVISION=	0
+GNOME_VERSION=	2.34.8
 
 SHARED_LIBS +=  metacity-private     1.0      # .0.0
 

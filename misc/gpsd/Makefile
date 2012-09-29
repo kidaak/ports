@@ -13,8 +13,9 @@ SHARED_LIBS=		gps	19.0 \
 			gpsd	0.0
 CATEGORIES=		misc geo
 
-REVISION-main=		2
-REVISION-php=		2
+REVISION-main=		3
+REVISION-php=		3
+REVISION-x11=		0
 
 HOMEPAGE=		http://gpsd.berlios.de/
 
@@ -43,9 +44,7 @@ FLAVOR?=
 
 MULTI_PACKAGES=		-main -php
 
-BUILD_DEPENDS=		textproc/libxslt \
-			textproc/docbook \
-			textproc/docbook-xsl
+BUILD_DEPENDS=		textproc/docbook-xsl
 
 RUN_DEPENDS-main=	${MODPY_RUN_DEPENDS}
 

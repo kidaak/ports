@@ -2,8 +2,7 @@
 
 COMMENT = 	lightweight connection pooler for PostgreSQL
 
-DISTNAME = 	pgbouncer-1.5
-REVISION =	0
+DISTNAME = 	pgbouncer-1.5.2
 
 CATEGORIES = 	databases
 
@@ -19,7 +18,7 @@ PERMIT_DISTFILES_CDROM =Yes
 
 WANTLIB = 	c event
 
-MASTER_SITES = 	http://pgfoundry.org/frs/download.php/3197/
+MASTER_SITES = 	http://pgfoundry.org/frs/download.php/3293/
 
 BUILD_DEPENDS =	devel/libeventextra
 

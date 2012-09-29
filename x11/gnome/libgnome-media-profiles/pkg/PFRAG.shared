@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libgnome-media-profiles-3.0.so.${LIBgnome-media-profiles-3.0_VERSION}

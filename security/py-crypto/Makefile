@@ -8,6 +8,7 @@ MODPY_EGG_VERSION =	2.6
 DISTNAME =		pycrypto-${MODPY_EGG_VERSION}
 PKGNAME =		py-crypto-${MODPY_EGG_VERSION}
 CATEGORIES =    	security devel
+REVISION =		0
 
 HOMEPAGE =		https://www.dlitz.net/software/pycrypto/
 
@@ -44,7 +45,8 @@ pre-configure:
 	rm ${WRKSRC}/lib/Crypto/SelfTest/Hash/test_MD2.py
 
 do-configure:
-	${MODSIMPLE_configure}
+	cd ${WRKCONF} && ${SETENV} \
+		${CONFIGURE_ENV} ${_CONFIGURE_SCRIPT} ${CONFIGURE_ARGS}
 
 post-install:
 	${INSTALL_DATA_DIR} ${DOCSDIR}

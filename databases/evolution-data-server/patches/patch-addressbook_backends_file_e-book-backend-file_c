@@ -2,14 +2,14 @@ $OpenBSD$
 
 On OpenBSD, time_t is an int.
 
---- addressbook/backends/file/e-book-backend-file.c.orig	Mon Apr  9 07:00:58 2012
-+++ addressbook/backends/file/e-book-backend-file.c	Mon Apr 16 15:42:48 2012
-@@ -758,7 +758,7 @@ e_book_backend_file_create_unique_id (void)
+--- addressbook/backends/file/e-book-backend-file.c.orig	Fri Sep 28 07:55:56 2012
++++ addressbook/backends/file/e-book-backend-file.c	Fri Sep 28 07:56:06 2012
+@@ -755,7 +755,7 @@ e_book_backend_file_create_unique_id (void)
  	 * it's doubtful 2^32 id's will be created in a second, so we
  	 * should be okay. */
  	static guint c = 0;
--	return g_strdup_printf (PAS_ID_PREFIX "%08lX%08X", time(NULL), c++);
-+	return g_strdup_printf (PAS_ID_PREFIX "%08X%08X", time(NULL), c++);
+-	return g_strdup_printf (PAS_ID_PREFIX "%08lX%08X", time (NULL), c++);
++	return g_strdup_printf (PAS_ID_PREFIX "%08X%08X", time (NULL), c++);
  }
  
  static gchar *

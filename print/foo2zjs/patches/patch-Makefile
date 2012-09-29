@@ -1,6 +1,6 @@
 $OpenBSD$
---- Makefile.orig	Sat Mar 17 21:19:59 2012
-+++ Makefile	Wed Apr 11 17:51:48 2012
+--- Makefile.orig	Sat Jun  2 01:10:31 2012
++++ Makefile	Fri Aug 17 15:49:21 2012
 @@ -16,11 +16,6 @@ SYSNAME := $(shell uname -n)
  # No version number yet...
  VERSION=0.0
@@ -179,7 +179,7 @@ $OpenBSD$
  	    rm -f $(LOCALMODEL)/KonicaMinolta*; \
  	    cd PPD; \
  	    for ppd in *.ppd; do \
-@@ -1443,11 +1382,8 @@ install-doc: doc
+@@ -1450,11 +1389,8 @@ install-doc: doc
  	#
  	$(INSTALL) -d -m 755 $(DOCDIR)
  	$(INSTALL) -c -m 644 manual.pdf $(DOCDIR)

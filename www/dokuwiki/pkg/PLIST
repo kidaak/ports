@@ -3729,3 +3729,6 @@ dokuwiki/lib/tpl/default/print.css
 dokuwiki/lib/tpl/default/rtl.css
 dokuwiki/lib/tpl/default/style.ini
 dokuwiki/lib/tpl/index.php
+@owner
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

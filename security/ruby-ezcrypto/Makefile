@@ -3,7 +3,7 @@
 COMMENT=		Ruby interface to openssl
 
 DISTNAME=		ezcrypto-0.7.2
-REVISION =		4
+REVISION =		5
 CATEGORIES=		security
 
 HOMEPAGE=		http://rubyforge.org/projects/ezcrypto/

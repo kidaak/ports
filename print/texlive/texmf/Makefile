@@ -17,7 +17,7 @@ PKGNAME-docs =		texlive_texmf-docs-${V}
 PKGNAME-context =	texlive_texmf-context-${V}
 
 REVISION-docs =		2
-REVISION-full =		0
+REVISION-full =		1
 REVISION-main =		4
 REVISION-context =	1
 

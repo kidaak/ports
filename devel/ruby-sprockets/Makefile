@@ -3,6 +3,7 @@
 COMMENT =	rack-based asset packaging system
 
 DISTNAME =	sprockets-2.0.3
+REVISION =	0
 CATEGORIES =	devel	
 
 HOMEPAGE =	https://github.com/sstephenson/sprockets

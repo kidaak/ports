@@ -1,8 +1,10 @@
 $OpenBSD$
+
 Don't include ctype, _C macro conflicts. Use glib func instead.
---- src/e2_output.c.orig	Thu Nov 19 20:41:28 2009
-+++ src/e2_output.c	Mon Apr 12 19:47:33 2010
-@@ -40,7 +40,6 @@ ToDo
+
+--- src/e2_output.c.orig	Mon May 31 01:44:12 2010
++++ src/e2_output.c	Mon Sep  3 11:03:01 2012
+@@ -39,7 +39,6 @@ ToDo
  #include "emelfm2.h"
  #include <string.h>
  #include <pthread.h>

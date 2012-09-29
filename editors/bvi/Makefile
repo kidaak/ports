@@ -9,20 +9,19 @@ HOMEPAGE=	http://bvi.sourceforge.net/
 
 MAINTAINER=	Christian Weisgerber <naddy@openbsd.org>
 
-# GPL
+# GPLv2+
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=		c ncurses
+WANTLIB=	c ncurses
 
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=bvi/}
 EXTRACT_SUFX=	.src.tar.gz
 
 CONFIGURE_STYLE=gnu
 CONFIGURE_ARGS=	--libdir=${PREFIX}/share
-USE_GROFF =	Yes
 
 NO_REGRESS=	Yes
 

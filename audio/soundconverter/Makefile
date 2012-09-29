@@ -3,7 +3,7 @@
 COMMENT =		simple audio file converter for the GNOME Desktop
 
 DISTNAME =		soundconverter-1.5.4
-REVISION =		3
+REVISION =		6
 CATEGORIES =		audio
 
 HOMEPAGE =		http://soundconverter.berlios.de/
@@ -26,8 +26,7 @@ BUILD_DEPENDS =		x11/gnome/py-gnome \
 
 RUN_DEPENDS =		multimedia/gstreamer-0.10/py-gstreamer \
 			multimedia/gstreamer-0.10/plugins-good \
-			multimedia/gstreamer-0.10/plugins-bad \
-			multimedia/gstreamer-0.10/plugins-ffmpeg \
+			multimedia/gstreamer-0.10/plugins-ugly \
 			devel/desktop-file-utils \
 			x11/gnome/py-gnome \
 			x11/gtk+2,-guic

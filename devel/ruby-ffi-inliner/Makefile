@@ -4,7 +4,7 @@ COMMENT =	embed C code in your ruby script
 
 DISTNAME =	ffi-inliner-0.2.4
 CATEGORIES =	devel
-REVISION =	0
+REVISION =	1
 
 HOMEPAGE =	http://github.com/remogatto/ffi-inliner
 

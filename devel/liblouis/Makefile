@@ -2,9 +2,9 @@
 
 COMMENT=	braille translator and back-translator
 
-DISTNAME=	liblouis-2.3.0
+DISTNAME=	liblouis-2.5.1
 
-SHARED_LIBS +=  louis                0.0      # 4.3
+SHARED_LIBS +=  louis                1.0      # 5.1
 
 CATEGORIES=	devel
 
@@ -21,6 +21,8 @@ WANTLIB += c
 MASTER_SITES=	http://liblouis.googlecode.com/files/
 
 MODULES=	lang/python
+
+MODPY_ADJ_FILES=tools/lou_harnessGenerator
 
 BUILD_DEPENDS=	devel/help2man
 

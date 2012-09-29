@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.36 1997/10/04 15:54:31 jkh Exp $
-#
 
 PKGPATH =
 MIRROR_MK ?= ${.CURDIR}/distfiles/Makefile
@@ -59,11 +57,9 @@ SUBDIR += misc
 SUBDIR += multimedia
 SUBDIR += net
 SUBDIR += news
-SUBDIR += palm
 SUBDIR += plan9
 SUBDIR += print
 SUBDIR += productivity
-SUBDIR += russian
 SUBDIR += security
 SUBDIR += shells
 SUBDIR += sysutils

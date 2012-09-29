@@ -6,7 +6,7 @@ COMMENT=	perl interface to the cairo library
 
 MODULES=	cpan
 DISTNAME=	Cairo-1.061
-REVISION=	4
+REVISION=	5
 CATEGORIES=	graphics devel
 CPAN_AUTHOR=	TSCH
 USE_GROFF =	Yes
@@ -19,7 +19,7 @@ PERMIT_DISTFILES_FTP=	Yes
 
 WANTLIB=	X11 Xrender expat fontconfig freetype \
 		pixman-1 m z png pthread-stubs xcb cairo>=6
-WANTLIB += GL glib-2.0 gobject-2.0 gthread-2.0 iconv intl xcb-render
+WANTLIB += c GL glib-2.0 gobject-2.0 gthread-2.0 iconv intl xcb-render
 WANTLIB += xcb-shm
 
 LIB_DEPENDS=	graphics/cairo

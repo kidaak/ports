@@ -3,7 +3,7 @@
 COMMENT=	bacula(8) web interface
 
 DISTNAME=	webacula-5.5.1
-REVISION=	2
+REVISION=	5
 
 CATEGORIES=	www sysutils
 
@@ -19,7 +19,6 @@ MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=webacula/}
 
 MODULES=	lang/php
 RUN_DEPENDS=	lang/php/${MODPHP_VERSION},-gd \
-		php-pdo_pgsql-${MODPHP_VSPEC}|php-pdo_mysql-${MODPHP_VSPEC}|php-pdo_sqlite-${MODPHP_VSPEC}:lang/php/${MODPHP_VERSION},-pdo_pgsql \
 		www/zendframework>=1.10.8p1 \
 		sysutils/bacula,-main
 

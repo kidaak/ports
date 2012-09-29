@@ -1,9 +1,10 @@
 $OpenBSD$
---- plugins/project-wizard/templates/pygtk/src/main.py.orig	Sun Jan 29 11:43:18 2012
-+++ plugins/project-wizard/templates/pygtk/src/main.py	Wed Mar 28 18:14:09 2012
-@@ -1,6 +1,6 @@
- [+ autogen5 template +]
- [+INCLUDE (string-append "licenses/" (get "License") ".tpl") \+]
+--- plugins/project-wizard/templates/pygtk/src/main.py.orig	Wed Sep 26 22:53:47 2012
++++ plugins/project-wizard/templates/pygtk/src/main.py	Fri Sep 28 18:19:55 2012
+@@ -3,7 +3,7 @@
+ [+INCLUDE (string-append "indent.tpl") \+]
+ # [+INVOKE EMACS-MODELINE MODE="Python" \+]
+ [+INVOKE START-INDENT\+]
 -#!/usr/bin/python
 +#!${MODPY_BIN}
  #

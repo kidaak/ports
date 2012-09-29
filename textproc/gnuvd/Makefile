@@ -2,6 +2,7 @@
 
 COMMENT =		query the online Dutch Van Dale dictionary
 DISTNAME =		gnuvd-1.0.11
+REVISION =		0
 CATEGORIES =		textproc education
 
 HOMEPAGE =		http://www.djcbsoftware.nl/code/gnuvd/

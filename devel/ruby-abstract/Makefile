@@ -3,7 +3,7 @@
 COMMENT=		abstract methods for Ruby
 
 DISTNAME=		abstract-1.0.0
-REVISION=		5
+REVISION=		6
 CATEGORIES=		devel
 
 HOMEPAGE=		http://abstract.rubyforge.org/

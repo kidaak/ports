@@ -5,6 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	low-overhead image rescaling module for Perl
 
 DISTNAME=	Image-Scale-0.08
+REVISION=	0
 CATEGORIES=	graphics
 
 # GPLv2+
@@ -13,7 +14,7 @@ PERMIT_PACKAGE_FTP=     Yes
 PERMIT_DISTFILES_CDROM= Yes
 PERMIT_DISTFILES_FTP=   Yes
 
-WANTLIB += gif jpeg png z
+WANTLIB += c gif jpeg png z
 
 MODULES=	cpan
 

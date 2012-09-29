@@ -85,3 +85,5 @@ sabredav/lib/Sabre/HTTP/Request.php
 sabredav/lib/Sabre/HTTP/Response.php
 sabredav/lib/Sabre/PHP/
 sabredav/lib/Sabre/PHP/Exception.php
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

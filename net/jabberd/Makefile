@@ -2,9 +2,9 @@
 
 COMMENT=		jabber server
 DISTNAME=		jabberd-2.0s11
-EPOCH=			0
+EPOCH=			1
 CATEGORIES=		net
-HOMEPAGE=		http://jabberd2.xiaoka.com/
+HOMEPAGE=		http://codex.xiaoka.com/wiki/jabberd2:start
 
 # GPL
 PERMIT_PACKAGE_CDROM=	Yes

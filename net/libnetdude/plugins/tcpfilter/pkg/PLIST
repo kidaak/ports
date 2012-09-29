@@ -1,5 +1,0 @@
-@comment $OpenBSD$
-%%SHARED%%
-include/libnetdude/plugins/libnd_tcpfilter.h
-lib/libnetdude/plugins/libnd_tcpfilter.a
-lib/libnetdude/plugins/libnd_tcpfilter.la

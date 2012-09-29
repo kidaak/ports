@@ -2,12 +2,11 @@
 
 COMMENT =	full and incremental backups on filesystem
 DISTNAME =	faubackup-0.5.9
+REVISION =	0
 
 CATEGORIES =	sysutils
 
 HOMEPAGE =	http://faubackup.sourceforge.net/
-
-MAINTAINER =	Sebastian Trahm <basti@schleifi.com>
 
 # GPLv2
 PERMIT_PACKAGE_CDROM =	Yes

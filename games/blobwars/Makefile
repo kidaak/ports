@@ -3,7 +3,7 @@
 COMMENT =	2D arcade game
 
 DISTNAME =	blobwars-1.19
-REVISION=	2
+REVISION=	3
 
 CATEGORIES =	games
 

@@ -2,7 +2,7 @@
 
 COMMENT= 	connection pool server for PostgreSQL
 
-DISTNAME= 	pgpool-II-3.1
+DISTNAME= 	pgpool-II-3.2.0
 
 CATEGORIES= 	databases
 
@@ -18,9 +18,9 @@ PERMIT_PACKAGE_CDROM= 	Yes
 PERMIT_DISTFILES_FTP= 	Yes
 PERMIT_DISTFILES_CDROM= Yes
 
-MASTER_SITES= 		http://pgfoundry.org/frs/download.php/3114/
+MASTER_SITES=		http://www.pgpool.net/mediawiki/images/
 
-WANTLIB= 		c crypto m pq ssl
+WANTLIB= 		c crypto m pq ssl pthread
 
 CONFIGURE_STYLE= 	gnu
 CONFIGURE_ARGS= 	--with-openssl 

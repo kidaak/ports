@@ -1,7 +1,7 @@
 $OpenBSD$
---- Makefile.common.orig	Mon Nov 13 05:14:19 2006
-+++ Makefile.common	Wed Jun 30 02:05:13 2010
-@@ -408,19 +408,19 @@ install.bin: $(BINARIES:%=%_installbin) $(SCRIPTS:%=%_
+--- Makefile.common.orig	Thu Jun 21 22:40:36 2012
++++ Makefile.common	Tue Jul 10 00:10:52 2012
+@@ -417,19 +417,19 @@ install.bin: $(BINARIES:%=%_installbin) $(SCRIPTS:%=%_
  INSTALLBIN_TARGETS = $(BINARIES:%=%_installbin) netpbm_installbin
  .PHONY: $(INSTALLBIN_TARGETS)
  $(INSTALLBIN_TARGETS): $(PKGDIR)/bin

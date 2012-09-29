@@ -2,7 +2,7 @@
 @newgroup _tacacs:511
 @newuser _tacacs:511:_tacacs:daemon:TACACS+ user:/nonexistent:/sbin/nologin
 @man man/man1/tac_plus.1
-sbin/generate_passwd
-sbin/tac_plus
+@bin sbin/generate_passwd
+@bin sbin/tac_plus
 share/doc/tacacs+/
 share/doc/tacacs+/users_guide

@@ -2,13 +2,15 @@
 
 COMMENT =	GNUstep desktop meta-package
 
-VERSION =	0.9.0
+VERSION =	0.9.1
+REVISION =	1
 PKGNAME =	gnustep-desktop-${VERSION}
 
 RUN_DEPENDS += \
 		x11/gnustep/aclock \
 		x11/gnustep/affiche \
 		x11/gnustep/batmon \
+		x11/gnustep/corebase \
 		x11/gnustep/cdplayer \
 		x11/gnustep/databasin \
 		x11/gnustep/edenmath \
@@ -33,6 +35,7 @@ RUN_DEPENDS += \
 		x11/gnustep/matharray \
 		x11/gnustep/mpdcon \
 		x11/gnustep/netclasses \
+		x11/gnustep/paje \
 		x11/gnustep/price \
 		x11/gnustep/projectcenter \
 		x11/gnustep/remotedesk \

@@ -3,9 +3,8 @@
 COMMENT=	very fast web log analyzer
 
 DISTNAME=	visitors-0.7
+REVISION=	0
 CATEGORIES=	www sysutils
-
-MAINTAINER=	Mathieu Sauve-Frankel <msf@openbsd.org>
 
 # GPL
 PERMIT_PACKAGE_CDROM=   Yes

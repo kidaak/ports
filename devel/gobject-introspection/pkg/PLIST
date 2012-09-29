@@ -55,6 +55,9 @@ lib/gobject-introspection/giscanner/annotationmain.pyo
 lib/gobject-introspection/giscanner/annotationparser.py
 lib/gobject-introspection/giscanner/annotationparser.pyc
 lib/gobject-introspection/giscanner/annotationparser.pyo
+lib/gobject-introspection/giscanner/annotationpatterns.py
+lib/gobject-introspection/giscanner/annotationpatterns.pyc
+lib/gobject-introspection/giscanner/annotationpatterns.pyo
 lib/gobject-introspection/giscanner/ast.py
 lib/gobject-introspection/giscanner/ast.pyc
 lib/gobject-introspection/giscanner/ast.pyo

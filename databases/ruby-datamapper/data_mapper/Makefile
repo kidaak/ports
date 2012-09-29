@@ -3,7 +3,7 @@
 COMMENT =	ruby Object Relational Mapper
 
 DISTNAME =	data_mapper-${VERSION}
-REVISION =	1
+REVISION =	2
 
 RUN_DEPENDS =	databases/ruby-datamapper/core,${MODRUBY_FLAVOR}=${VERSION} \
 		databases/ruby-datamapper/aggregates,${MODRUBY_FLAVOR}=${VERSION} \

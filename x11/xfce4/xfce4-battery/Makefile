@@ -4,7 +4,7 @@ ONLY_FOR_ARCHS=	${APM_ARCHS}
 
 COMMENT=	Xfce4 battery monitor panel plugin
 
-XFCE_VERSION=	1.0.3
+XFCE_VERSION=	1.0.5
 XFCE_PLUGIN=	battery
 
 # BSD

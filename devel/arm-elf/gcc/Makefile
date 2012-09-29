@@ -3,6 +3,7 @@
 COMMENT=	gcc for arm-elf cross-development
 
 VERSION=	4.4.4
+REVISION=	0
 DISTNAME=	gcc-${VERSION}
 PKGNAME=	${CONFIG}-gcc-${VERSION}
 

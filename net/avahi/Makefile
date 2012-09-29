@@ -24,6 +24,7 @@ PKGNAME-qt3=	avahi-qt3-${V}
 PKGNAME-qt4=	avahi-qt4-${V}
 PKGNAME-ui=	avahi-ui-${V}
 
+REVISION=	0
 
 MAINTAINER=	Antoine Jacoutot <ajacoutot@openbsd.org>
 

@@ -10,7 +10,7 @@ MOZILLA_BRANCH =	1.9.2
 MOZILLA_CODENAME =	calendar
 
 EPOCH =			0
-REVISION =		17
+REVISION =		21
 
 HOMEPAGE =	http://www.mozilla.org/projects/calendar/sunbird/
 

@@ -2,8 +2,7 @@
 
 COMMENT =		Haskell 98 distributive functors
 
-DISTNAME =		distributive-0.2.0.1
-REVISION =		0
+DISTNAME =		distributive-0.2.2
 CATEGORIES =		devel
 
 # BSD3
@@ -16,7 +15,7 @@ MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
 
-RUN_DEPENDS =		devel/hs-transformers>=0.2.2,<0.3
+RUN_DEPENDS =		devel/hs-transformers>=0.2,<0.4
 BUILD_DEPENDS =		${RUN_DEPENDS}
 
 .include <bsd.port.mk>

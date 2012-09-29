@@ -27,7 +27,6 @@ CONFIGURE_ARGS+= --enable-static
 
 NO_REGRESS=	Yes
 USE_LIBTOOL=	Yes
-USE_GROFF =	Yes
 
 post-extract:
 	@rm -f ${WRKSRC}/docs/glib.info*

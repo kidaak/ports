@@ -1,0 +1,5 @@
+# $OpenBSD$
+#
+# mimics /etc/sysconfig/i18n from Red Hat Linux
+
+LANG="C"

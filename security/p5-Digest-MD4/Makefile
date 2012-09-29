@@ -5,7 +5,7 @@ COMMENT =	interface to md4 message-digest algorithm
 DISTNAME =	Digest-MD4-1.5
 CATEGORIES =	security
 
-REVISION =	2
+REVISION =	3
 
 MAINTAINER =	Benoit Lecocq <benoit@openbsd.org>
 
@@ -17,6 +17,8 @@ PERMIT_PACKAGE_CDROM =	Yes
 PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
+
+WANTLIB += c
 
 MODULES =	cpan
 

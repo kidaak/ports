@@ -1,5 +1,0 @@
-@comment $OpenBSD$
-@bin libexec/xscreensaver/extrusion
-@man man/man6/extrusion.6
-share/applications/screensavers/extrusion.desktop
-share/xscreensaver/config/extrusion.xml

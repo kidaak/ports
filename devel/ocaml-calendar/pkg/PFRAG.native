@@ -1,3 +1,6 @@
 @comment $OpenBSD$
-lib/ocaml/calendar.a
-lib/ocaml/calendar.cmxa
+%%dynlink%%
+lib/ocaml/calendar/calendarLib.a
+lib/ocaml/calendar/calendarLib.cmx
+lib/ocaml/calendar/calendarLib.cmxa
+lib/ocaml/calendar/calendarLib.o

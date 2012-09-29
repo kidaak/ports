@@ -20,6 +20,7 @@
 @bin bin/qemu-system-mips64
 @bin bin/qemu-system-mips64el
 @bin bin/qemu-system-mipsel
+@bin bin/qemu-system-or32
 @bin bin/qemu-system-ppc
 @bin bin/qemu-system-ppc64
 @bin bin/qemu-system-ppcemb
@@ -28,6 +29,7 @@
 @bin bin/qemu-system-sh4eb
 @bin bin/qemu-system-sparc
 @bin bin/qemu-system-sparc64
+@bin bin/qemu-system-unicore32
 @bin bin/qemu-system-x86_64
 @bin bin/qemu-system-xtensa
 @bin bin/qemu-system-xtensaeb
@@ -38,6 +40,7 @@ share/doc/pkg-readmes/${FULLPKGNAME}
 share/doc/qemu/
 share/doc/qemu/qemu-doc.html
 share/doc/qemu/qemu-tech.html
+share/doc/qemu/qmp-commands.txt
 share/examples/qemu/
 share/examples/qemu/qemu-ifdown
 @mode 755
@@ -53,8 +56,10 @@ share/examples/qemu/target-x86_64.conf
 share/qemu/
 share/qemu/bamboo.dtb
 share/qemu/bios.bin
+share/qemu/cpus-x86_64.conf
 share/qemu/keymaps/
 share/qemu/keymaps/ar
+share/qemu/keymaps/bepo
 share/qemu/keymaps/common
 share/qemu/keymaps/da
 share/qemu/keymaps/de
@@ -89,8 +94,8 @@ share/qemu/keymaps/sl
 share/qemu/keymaps/sv
 share/qemu/keymaps/th
 share/qemu/keymaps/tr
+share/qemu/kvmvapic.bin
 share/qemu/linuxboot.bin
-share/qemu/mpc8544ds.dtb
 share/qemu/multiboot.bin
 share/qemu/openbios-ppc
 share/qemu/openbios-sparc32
@@ -105,6 +110,7 @@ share/qemu/pxe-ne2k_pci.rom
 share/qemu/pxe-pcnet.rom
 share/qemu/pxe-rtl8139.rom
 share/qemu/pxe-virtio.rom
+share/qemu/qemu-icon.bmp
 share/qemu/s390-zipl.rom
 share/qemu/sgabios.bin
 share/qemu/slof.bin

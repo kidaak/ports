@@ -2,7 +2,7 @@
 
 COMMENT =	module to support sending messages to syslog
 
-NPM_VERSION =	1.1.2
+NPM_VERSION =	1.1.3
 NPM_NAME =	node-syslog
 REVISION =	0
 CATEGORIES =	sysutils

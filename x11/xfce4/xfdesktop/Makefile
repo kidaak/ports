@@ -3,6 +3,7 @@
 COMMENT=	Xfce4 desktop manager
 
 XFCE_PROJECT=	xfdesktop
+REVISION=	0
 
 # GPLv2
 PERMIT_DISTFILES_CDROM=	Yes

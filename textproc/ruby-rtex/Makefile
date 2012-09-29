@@ -3,7 +3,7 @@
 COMMENT =	ruby library to the LaTeX typesetting system
 
 DISTNAME =	rtex-2.1.1
-REVISION=	0
+REVISION=	1
 CATEGORIES =	textproc
 
 # MIT

@@ -1,5 +1,4 @@
 @comment $OpenBSD$
-@comment lib/evolution/${EVO_VERSION}/plugins/liborg-freedesktop-Tracker-evolution-plugin.la
 lib/evolution/${EVO_VERSION}/plugins/liborg-freedesktop-Tracker-evolution-plugin.so
 lib/evolution/${EVO_VERSION}/plugins/org-freedesktop-Tracker-evolution-plugin.eplug
 share/dbus-1/services/org.freedesktop.Tracker1.Miner.EMails.service

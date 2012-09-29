@@ -240,7 +240,7 @@ sub start_build
 	my $special = $self->{engine}{heuristics}->
 	    special_parameters($core->host, $v);
 	$self->log('J', $v, " ".$core->hostname." ".$special);
-	$self->{builder}->build($v, $core, $special,
+	$self->{builder}->build($v, $core, $special, $core->parallel,
 	    $lock, sub {$self->end($core, $v)});
 }
 
@@ -504,7 +504,7 @@ sub adjust_extra
 	for my $d (values %{$v->{info}{$kind}}) {
 		$self->{heuristics}->mark_depend($d, $v);
 		if ((defined $d->{info} && !$self->{tobuild}{$d}) ||
-		    (defined $d->fullpkgname &&
+		    ($d->has_fullpkgname &&
 		    $d->fullpkgname eq $v->fullpkgname)) {
 			delete $v->{info}{$kind}{$d};
 			$v->{info}{$kind2}{$d} = $d if defined $kind2;

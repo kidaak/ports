@@ -4,7 +4,7 @@
 # Not yet ported to other architectures
 ONLY_FOR_ARCHS =	i386 amd64
 
-MODGHC_VER =		7.0.4
+MODGHC_VER =		7.4.2
 SUBST_VARS +=		MODGHC_VER
 
 MODGHC_BIN =		${LOCALBASE}/bin/ghc

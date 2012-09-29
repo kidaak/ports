@@ -1,4 +1,5 @@
 @comment $OpenBSD$
+@pkgpath x11/freerdp,no_cups
 @bin bin/xfreerdp
 include/freerdp/
 include/freerdp/altsec.h

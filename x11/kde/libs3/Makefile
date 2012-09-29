@@ -54,8 +54,9 @@ FLAVORS =	debug
 VMEM_WARNING =	Yes
 
 
-MULTI_PACKAGES =	-main -cups
-CONFIGURE_ARGS += 	--enable-cups
+MULTI_PACKAGES =	-main # -cups
+# broken with cups>=1.6.0
+CONFIGURE_ARGS += 	--disable-cups
 
 MODULES =	x11/kde devel/gettext
 
@@ -89,12 +90,12 @@ RUN_DEPENDS-main = \
 LIB_DEPENDS-cups = \
 	${LIB_DEPENDS} \
 	x11/kde/libs3 \
-	print/cups>=1.5
+	print/cups,-libs
 
 WANTLIB-cups = ${WANTLIB}
 
-REVISION-main = 17
-REVISION-cups = 9
+REVISION-main = 18
+REVISION-cups = 10
 WANTLIB-main += Half Iex IlmImf>=4 IlmThread Imath artsflow>=1 \
 	artsflow_idl aspell audiofile bz2 glib-2.0 gmodule-2.0 gthread-2.0 \
 	jasper kmedia2_idl mad mcop ogg pcre pcreposix qtmcop sndio \

@@ -1,3 +1,5 @@
 @comment $OpenBSD$
 lib/ocaml/postgresql/postgresql.a
+lib/ocaml/postgresql/postgresql.cmx
 lib/ocaml/postgresql/postgresql.cmxa
+%%dynlink%%

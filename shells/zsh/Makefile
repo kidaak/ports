@@ -2,7 +2,7 @@
 
 COMMENT=	Z shell, Bourne shell-compatible
 
-V=		4.3.17
+V=		5.0.0
 DISTNAME=	zsh-$V
 CATEGORIES=	shells
 
@@ -47,6 +47,13 @@ REGRESS_FLAGS=	INSTALL_PROGRAM="install -c -s -m 555" \
 		INSTALL="install -c" \
 		TMPPREFIX=${WRKBUILD}/tmp \
 		TERM=xterm
+EXTFILES=	Misc/checkmail Misc/run-help Misc/sticky-note Misc/zcalc Misc/zed Misc/zkbd \
+		Calendar/calendar_add Example/cat Example/zless
+
+pre-configure:
+.for i in ${EXTFILES}
+	perl -pi -e "s,/bin/zsh,${TRUEPREFIX}/bin/zsh,g" ${WRKSRC}/Functions/${i}
+.endfor
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/zsh/$V/scripts/

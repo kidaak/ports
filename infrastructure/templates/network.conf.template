@@ -59,19 +59,14 @@ MASTER_SITE_BACKUP?=	\
 
 # Popular master sites, most useful sites come first.
 MASTER_SITE_GNU+=	\
+	http://ftpmirror.gnu.org/ \
 	http://ftp.gnu.org/gnu/ \
 	http://ftp.funet.fi/pub/gnu/prep/ \
-	http://mirrors.usc.edu/pub/gnu/ \
 	ftp://ftp.gnu.org/gnu/ \
 	ftp://ftp.cs.tu-berlin.de/pub/gnu/ \
-	ftp://aeneas.mit.edu/pub/gnu/ \
 	http://mirrors.dotsrc.org/gnu/ \
 	http://ftp.ibiblio.org/pub/mirrors/gnu/ftp/gnu/ \
 	http://ftp.kddilabs.jp/GNU/ \
-	ftp://ftp.informatik.hu-berlin.de/pub/gnu/ \
-	http://ftp.ist.utl.pt/pub/GNU/gnu/gnu/ \
-	ftp://mirror.cict.fr/gnu/ \
-	ftp://ftp.wayne.edu/pub/gnu/ \
 	ftp://ftp.sunet.se/pub/gnu/ \
 	ftp://ftp.nluug.nl/pub/gnu/
 
@@ -125,21 +120,12 @@ MASTER_SITE_SUNSITE+=	\
 	http://ftp.nluug.nl/metalab/ \
 	http://ftp.chg.ru/pub/Linux/sunsite/
 
+# XXX  We ought to be using full logical directory names in all the
+# sourceforge-hosted ports, rather than relying on the redirector to
+# find them.  Many of these contain embedded spaces which don't work
+# with ${MASTER_SITE_xx:=foo/} so we need something new...
 MASTER_SITE_SOURCEFORGE+=	\
-	http://downloads.sourceforge.net/sourceforge/ \
-	http://easynews.dl.sourceforge.net/sourceforge/ \
-	http://puzzle.dl.sourceforge.net/sourceforge/ \
-	http://optusnet.dl.sourceforge.net/sourceforge/ \
-	http://heanet.dl.sourceforge.net/sourceforge/ \
-	http://jaist.dl.sourceforge.net/sourceforge/ \
-	http://nchc.dl.sourceforge.net/sourceforge/ \
-	http://switch.dl.sourceforge.net/sourceforge/ \
-	http://kent.dl.sourceforge.net/sourceforge/ \
-	http://internap.dl.sourceforge.net/sourceforge/ \
-	http://mesh.dl.sourceforge.net/sourceforge/ \
-	http://ovh.dl.sourceforge.net/sourceforge/ \
-	http://surfnet.dl.sourceforge.net/sourceforge/ \
-	http://ufpr.dl.sourceforge.net/sourceforge/
+	http://downloads.sourceforge.net/sourceforge/
 
 MASTER_SITE_SOURCEFORGE_JP+=	\
 	http://osdn.dl.sourceforge.jp/ \

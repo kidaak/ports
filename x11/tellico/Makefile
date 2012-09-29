@@ -3,7 +3,7 @@
 COMMENT=	organizer for book/dvd/music collections
 
 DISTNAME=	tellico-1.3.6
-REVISION=	5
+REVISION=	6
 
 CATEGORIES=	x11 databases
 
@@ -50,7 +50,7 @@ LIB_DEPENDS=	${MODQT_LIB_DEPENDS} \
 		x11/kde/multimedia3 \
 		x11/kde/libs3 \
 		graphics/lcms \
-		print/poppler,-qt \
+		print/poppler,,-qt \
 		audio/taglib \
 		net/yaz
 

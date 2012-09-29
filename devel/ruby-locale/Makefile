@@ -3,7 +3,7 @@
 COMMENT =		basic APIs for localization
 
 DISTNAME =		locale-2.0.4
-REVISION =		4
+REVISION =		5
 CATEGORIES =		devel
 
 HOMEPAGE =		http://www.yotabanana.com/hiki/ruby-locale.html

@@ -4,8 +4,8 @@ COMMENT=	LDNS utilities
 
 PKGNAME=	ldns-utils-${VERSION}
 
-WANTLIB=	c crypto ldns>=4.10 pcap
-LIB_DEPENDS+=	net/ldns/libldns>=1.6.12rc1
+WANTLIB=	c crypto ldns>=4.11 pcap
+LIB_DEPENDS+=	net/ldns/libldns>=1.6.13
 
 WRKSRC=		${WRKDIST}/examples
 

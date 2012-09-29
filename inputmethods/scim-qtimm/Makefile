@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	scim plugin for qt
 
 DISTNAME=	scim-qtimm-0.9.4
-REVISION=	3
+REVISION=	4
 
 CATEGORIES=	inputmethods
 

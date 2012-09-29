@@ -1,7 +1,7 @@
 $OpenBSD$
---- mozilla/toolkit/library/Makefile.in.orig	Sat Apr 21 00:40:25 2012
-+++ mozilla/toolkit/library/Makefile.in	Wed Apr 25 17:50:16 2012
-@@ -484,6 +484,12 @@ OS_LIBS += \
+--- mozilla/toolkit/library/Makefile.in.orig	Sat Aug 25 02:31:32 2012
++++ mozilla/toolkit/library/Makefile.in	Sat Sep  1 01:59:42 2012
+@@ -464,6 +464,12 @@ OS_LIBS += \
    $(NULL)
  endif
  
@@ -14,7 +14,7 @@ $OpenBSD$
  ifeq ($(OS_ARCH),Darwin)
  ifdef MOZ_SYDNEYAUDIO
  OS_LIBS += \
-@@ -495,12 +501,6 @@ OS_LIBS += \
+@@ -475,12 +481,6 @@ OS_LIBS += \
    -framework Foundation \
    -framework AppKit \
    $(NULL)

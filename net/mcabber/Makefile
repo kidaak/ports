@@ -6,7 +6,7 @@ COMMENT=		console jabber client
 DISTNAME=		mcabber-0.10.1
 CATEGORIES=		net
 
-REVISION=		1
+REVISION=		2
 
 HOMEPAGE=		http://www.lilotux.net/~mikael/mcabber/
 

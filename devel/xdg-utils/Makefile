@@ -8,6 +8,7 @@ COMMENT=	utilities to assist desktop integration tasks
 
 DISTNAME=	xdg-utils-1.1.0-rc1
 PKGNAME=	xdg-utils-1.1.0rc1
+REVISION=	0
 
 CATEGORIES=	devel
 

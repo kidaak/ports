@@ -2,7 +2,7 @@
 
 COMMENT =		Unicode symbols for common functions
 
-DISTNAME =		base-unicode-symbols-0.2.2.3
+DISTNAME =		base-unicode-symbols-0.2.2.4
 CATEGORIES =		devel
 
 # BSD3

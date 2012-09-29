@@ -3,7 +3,7 @@
 COMMENT =	PHP interface to swish-e
 
 DISTNAME =	swish-0.4.0
-REVISION =	0
+REVISION =	3
 
 # PHP
 PERMIT_PACKAGE_CDROM =		Yes

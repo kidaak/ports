@@ -6,13 +6,12 @@ COMMENT-main=	MIME messages creation and parsing library
 COMMENT-mono=	mono bindings for gmime
 
 GNOME_PROJECT=	gmime
-GNOME_VERSION=	2.6.9
+GNOME_VERSION=	2.6.10
 
 PKGNAME-main=	${DISTNAME}
 PKGNAME-mono=	gmime-sharp-${GNOME_VERSION}
 
-REVISION-main=	0
-REVISION-mono=	0
+REVISION=	0
 
 SHARED_LIBS +=  gmime-2.6            0.0    # 600.0
 
@@ -46,7 +45,10 @@ CONFIGURE_ENV=	DOLT_BASH="/bin/ksh"
 
 ### mono subpackage
 PSEUDO_FLAVORS=	no_mono
-FLAVOR ?=
+# XXX disable mono unconditionally, lang/mono is often problematic to build
+# and nothing needs gmime-sharp in the tree
+#FLAVOR ?=
+FLAVOR=	no_mono
 
 MODMONO_DEPS=   No
 DLLMAP_FILES=	mono/gmime-sharp.dll.config

@@ -3,7 +3,7 @@
 COMMENT=	PHP upload progress meter
 
 DISTNAME=	uploadprogress-1.0.1
-REVISION=	3
+REVISION=	6
 
 # PHP
 PERMIT_PACKAGE_CDROM=	Yes

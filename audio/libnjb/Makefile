@@ -24,7 +24,7 @@ LIB_DEPENDS=		devel/libusb-compat
 USE_LIBTOOL=		Yes
 
 CONFIGURE_STYLE=	gnu
-CONFIGURE_ENV+= 	LDFLAGS="-L${LOCALBASE}/lib -pthread"
+CONFIGURE_ENV+= 	LDFLAGS="-L${LOCALBASE}/lib"
 CONFIGURE_ENV+= 	CPPFLAGS="-I${LOCALBASE}/include"
 
 post-install:

@@ -2,10 +2,9 @@
 
 COMMENT=		framework and a set of enhanced PyGTK widgets
 
-V=			1.9.26
+V=			1.9.29
 DISTNAME=		kiwi-$V
 PKGNAME=		py-kiwi-$V
-REVISION=		4
 CATEGORIES=		x11 devel
 
 HOMEPAGE=		http://www.async.com.br/projects/kiwi/
@@ -17,6 +16,7 @@ PERMIT_DISTFILES_CDROM= Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 MASTER_SITES=          ${MASTER_SITE_GNOME:=sources/kiwi/${V:C/^([0-9]+\.[0-9]+).*/\1/}/}
+EXTRACT_SUFX=		.tar.xz
 
 MODULES=		devel/gettext \
 			lang/python

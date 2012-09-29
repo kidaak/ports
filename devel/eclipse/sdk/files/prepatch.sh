@@ -1,6 +1,5 @@
 #!/bin/sh
 # $OpenBSD$
-# $FreeBSD: ports/java/eclipse/scripts/configure,v 1.2 2004/07/25 08:01:09 nork Exp $
 
 copy_file()
 {

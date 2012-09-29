@@ -4,8 +4,8 @@ COMMENT=	character encoding converter generator package
 
 DISTNAME=	trans120
 PKGNAME=	trans-1.20
-REVISION=	0
-CATEGORIES=	converters russian
+REVISION=	1
+CATEGORIES=	converters
 
 PERMIT_PACKAGE_CDROM=	no fee
 PERMIT_PACKAGE_FTP=	Yes

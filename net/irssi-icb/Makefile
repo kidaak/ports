@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	ICB plugin for irssi
 
 DISTNAME=	irssi-icb-0.14
-REVISION=	8
+REVISION=	9
 MASTER_SITES=   http://distfiles.nl/
 
 CATEGORIES=     net

@@ -2,11 +2,13 @@
 #
 # $OpenBSD$
 
+smbcontrol="${TRUEPREFIX}/bin/smbcontrol"
+
 daemon="${TRUEPREFIX}/libexec/smbd -D"
 
 . /etc/rc.d/rc.subr
 
-smbcontrol="${TRUEPREFIX}/bin/smbcontrol"
+rc_usercheck=NO
 
 rc_check() {
 	${smbcontrol} smbd ping

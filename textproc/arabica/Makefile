@@ -23,4 +23,6 @@ CONFIGURE_ENV =	CPPFLAGS='-I${LOCALBASE}/include'
 USE_LIBTOOL =	Yes
 WANTLIB +=	c expat m stdc++
 
+VMEM_WARNING =	Yes
+
 .include <bsd.port.mk>

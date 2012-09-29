@@ -4,6 +4,7 @@ COMMENT=	C++ binding for the ATK library
 
 GNOME_PROJECT=	atkmm
 GNOME_VERSION=	2.22.6
+REVISION=	0
 
 PKGNAME=	atk2mm-${GNOME_VERSION}
 

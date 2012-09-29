@@ -1,3 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libdvdnav.so.${LIBdvdnav_VERSION}
-@lib lib/libdvdnavmini.so.${LIBdvdnavmini_VERSION}

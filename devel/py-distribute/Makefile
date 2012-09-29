@@ -2,10 +2,9 @@
 
 COMMENT =		fork of setuptools Python packages
 
-MODPY_EGG_VERSION =	0.6.24
+MODPY_EGG_VERSION =	0.6.27
 DISTNAME =		distribute-${MODPY_EGG_VERSION}
 PKGNAME =		py-${DISTNAME}
-REVISION =		1
 
 CATEGORIES =		devel
 
@@ -25,6 +24,9 @@ MODULES =		lang/python
 FLAVORS =		python3
 FLAVOR ?=
 
-NO_REGRESS =		Yes
+do-regress:
+	cd ${WRKSRC} && PYTHONPATH=. \
+                ${MODPY_BIN} setup.py test
+
 
 .include <bsd.port.mk>

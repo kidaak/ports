@@ -1,0 +1,6 @@
+@comment $OpenBSD$
+lib/tcl/byzi/
+@lib lib/tcl/byzi/libbyzi01.so.${LIBbyzi01_VERSION}
+lib/tcl/byzi/license.terms
+lib/tcl/byzi/pkgIndex.tcl
+@man man/mann/byzi.n

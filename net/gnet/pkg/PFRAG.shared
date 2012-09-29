@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libgnet-2.0.so.${LIBgnet-2.0_VERSION}

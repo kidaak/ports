@@ -3,7 +3,7 @@
 COMMENT =		2D space trading and combat game
 
 DISTNAME =		naev-${VERSION}
-REVISION =		0
+REVISION =		2
 
 EXTRACT_SUFX = 		.tar.bz2
 

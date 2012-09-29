@@ -5,12 +5,10 @@ ONLY_FOR_ARCHS=	i386 amd64 arm
 
 COMMENT=	fast and lightweight key/value database library
 
-# svn rev 48, use a small version to allow seemless updating when the
-# project releases a tarball.
-DISTNAME=	leveldb-0.0.48
-SHARED_LIBS=	leveldb 0.0
+DISTNAME=	leveldb-1.5.0
+SHARED_LIBS=	leveldb 1.0
 CATEGORIES=	databases
-REVISION=	1
+REVISION=	0
 
 HOMEPAGE=	http://leveldb.googlecode.com/
 
@@ -20,14 +18,14 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-MASTER_SITES=	http://distfiles.nl/
+WANTLIB += c m pthread stdc++
 
-WANTLIB += m stdc++
+MASTER_SITES=	http://leveldb.googlecode.com/files/
 
 USE_GMAKE=	Yes
-MAKE_ENV+=	CC=c++ OPT="${CXXFLAGS}" \
-		SONAME_MAJOR=${LIBleveldb_VERSION:R} \
-		SONAME_MINOR=${LIBleveldb_VERSION:E}
+MAKE_ENV+=	CXX=${CXX} OPT="${CXXFLAGS}" \
+		SHARED_MAJOR=${LIBleveldb_VERSION:R} \
+		SHARED_MINOR=${LIBleveldb_VERSION:E}
 
 REGRESS_TARGET= check
 

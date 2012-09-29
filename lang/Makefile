@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.89 1997/11/24 09:24:06 tg Exp $
-#
 
      SUBDIR =
      SUBDIR += STk
@@ -89,6 +87,7 @@
      SUBDIR += swi-prolog
      SUBDIR += tcl
      SUBDIR += tcltutor
+     SUBDIR += tinyscheme
      SUBDIR += ucblogo
      SUBDIR += unicon
      SUBDIR += vala

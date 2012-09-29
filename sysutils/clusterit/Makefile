@@ -4,7 +4,7 @@ COMMENT=		suite of clustering tools based on IBM's PSSP
 
 DISTNAME=		clusterit-2.5
 PKGNAME=		${DISTNAME}
-REVISION =		0
+REVISION =		1
 CATEGORIES=		sysutils
 
 HOMEPAGE=		http://www.garbled.net/clusterit.html

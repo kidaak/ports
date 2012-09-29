@@ -25,11 +25,11 @@ PERMIT_DISTFILES_FTP =		Yes
 
 MASTER_SITES =	${MASTER_SITE_SOURCEFORGE:=lxde/}
 
-MODULES =	devel/gettext
+MODULES =	devel/gettext \
+		textproc/intltool
 
 LIB_DEPENDS =	x11/gtk+2
 RUN_DEPENDS =	devel/desktop-file-utils
-MODULES +=      textproc/intltool
 
 USE_GMAKE =	yes
 USE_LIBTOOL =	yes

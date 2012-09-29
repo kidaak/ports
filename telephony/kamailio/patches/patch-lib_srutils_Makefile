@@ -1,0 +1,11 @@
+$OpenBSD$
+--- lib/srutils/Makefile.orig	Mon Jul  9 00:12:33 2012
++++ lib/srutils/Makefile	Mon Jul  9 00:14:40 2012
+@@ -4,6 +4,7 @@ NAME:=srutils
+ MAJOR_VER=1
+ MINOR_VER=0
+ BUGFIX_VER=0
++OBSD_VER=$(LIBsrutils_VERSION)
+ LIBS= -lm
+ 
+ include ../../Makefile.libs

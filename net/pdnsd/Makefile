@@ -2,13 +2,12 @@
 
 COMMENT=		threaded DNS daemon, optimized for caching
 
-DISTNAME=		pdnsd-1.2.8-par
+DISTNAME=		pdnsd-1.2.9a-par
 PKGNAME=		${DISTNAME:S/-par//}
-REVISION=		3
 CATEGORIES=		net
 MASTER_SITES=		${HOMEPAGE}/releases/
 
-HOMEPAGE=		http://www.phys.uu.nl/~rombouts/pdnsd/
+HOMEPAGE=		http://members.home.nl/p.a.rombouts/pdnsd/
 
 WRKDIST=		${WRKDIR}/${DISTNAME:S/-par//}
 
@@ -21,7 +20,6 @@ PERMIT_DISTFILES_FTP=	Yes
 WANTLIB += c pthread
 
 USE_GMAKE=		yes
-USE_GROFF=		Yes
 CONFIGURE_STYLE=	gnu
 CONFIGURE_ARGS+=	--enable-ipv6 \
 			--enable-strict-rfc2181 \

@@ -1,7 +1,7 @@
 @comment $OpenBSD$
-bin/catdoc
-bin/catppt
-bin/xls2csv
+@bin bin/catdoc
+@bin bin/catppt
+@bin bin/xls2csv
 @man man/man1/catdoc.1
 @man man/man1/catppt.1
 @man man/man1/xls2csv.1

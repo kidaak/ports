@@ -34,7 +34,6 @@
     SUBDIR += spim
     SUBDIR += stella
     SUBDIR += uae
-    SUBDIR += vba
     SUBDIR += vbam
     SUBDIR += vgb
     SUBDIR += x48

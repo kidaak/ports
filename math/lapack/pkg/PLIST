@@ -1,6 +1,5 @@
 @comment $OpenBSD$
 %%SHARED%%
-%%no_mips64%%
 lib/liblapack.a
 lib/liblapack_p.a
 @man man/man3f/cbdsqr.3f

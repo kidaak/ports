@@ -5,7 +5,7 @@ COMMENT=	Ruby interface to the id3lib C++ library
 VERSION=	0.6.0
 DISTNAME=	id3lib-ruby-${VERSION}
 PKGNAME=	id3lib-${VERSION}
-REVISION =	1
+REVISION =	2
 CATEGORIES=	audio
 
 # Ruby License

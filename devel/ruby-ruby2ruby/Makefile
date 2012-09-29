@@ -3,7 +3,7 @@
 COMMENT =	generating pure Ruby code easily from ParseTree\'s Sexps
 
 DISTNAME =	ruby2ruby-1.2.4
-REVISION =	4
+REVISION =	5
 CATEGORIES =	devel
 
 # MIT
@@ -15,8 +15,7 @@ PERMIT_DISTFILES_FTP =	Yes
 MODULES =		lang/ruby
 
 BUILD_DEPENDS =		${RUN_DEPENDS}
-RUN_DEPENDS =		devel/ruby-parsetree,${MODRUBY_FLAVOR}>=3.0 \
-			devel/ruby-ruby_parser,${MODRUBY_FLAVOR}>=2.0 \
+RUN_DEPENDS =		devel/ruby-ruby_parser,${MODRUBY_FLAVOR}>=2.0 \
 			devel/ruby-sexp_processor,${MODRUBY_FLAVOR}>=3.0
 
 CONFIGURE_STYLE =	ruby gem

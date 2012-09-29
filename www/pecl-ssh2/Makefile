@@ -3,7 +3,7 @@
 COMMENT=	PHP bindings for the libssh2 library
 
 DISTNAME=	ssh2-0.11.3
-REVISION=	0
+REVISION=	3
 
 # PHP
 PERMIT_PACKAGE_CDROM=	Yes

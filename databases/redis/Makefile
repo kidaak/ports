@@ -1,7 +1,7 @@
 # $OpenBSD$
 
 COMMENT =		persistent key-value database
-DISTNAME =		redis-2.4.14
+DISTNAME =		redis-2.4.17
 CATEGORIES =		databases
 HOMEPAGE =		http://redis.io/
 

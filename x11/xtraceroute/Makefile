@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $NetBSD: Makefile,v 1.4 1999/03/04 08:58:42 tron Exp $
 
 COMMENT=	graphical version of traceroute
 

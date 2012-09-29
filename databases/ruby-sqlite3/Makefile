@@ -2,10 +2,10 @@
 
 COMMENT=	access a SQLite3 database from ruby
 
-VERSION=	1.3.5
+VERSION=	1.3.6
 DISTNAME=	sqlite3-${VERSION}
-CATEGORIES=	databases
 REVISION =	0
+CATEGORIES=	databases
 
 
 MAINTAINER =	Jeremy Evans <jeremy@openbsd.org>

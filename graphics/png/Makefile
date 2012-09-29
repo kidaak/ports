@@ -7,6 +7,7 @@ DISTNAME=	libpng-${VERSION}
 PKGNAME=	png-${VERSION}
 SHARED_LIBS=	png	15.0
 CATEGORIES=	graphics
+DPB_PROPERTIES=	parallel
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libpng/}
 
 HOMEPAGE=	http://www.libpng.org/pub/png/libpng.html

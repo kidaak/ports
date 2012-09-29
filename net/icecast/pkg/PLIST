@@ -44,6 +44,10 @@ share/examples/icecast/admin/stats.xsl
 @sample /var/icecast/admin/stats.xsl
 share/examples/icecast/admin/updatemetadata.xsl
 @sample /var/icecast/admin/updatemetadata.xsl
+share/examples/icecast/admin/vclt.xsl
+@sample /var/icecast/admin/vclt.xsl
+share/examples/icecast/admin/xspf.xsl
+@sample /var/icecast/admin/xspf.xsl
 @mode 600
 share/examples/icecast/icecast.xml.dist
 @sample /var/icecast/icecast.xml

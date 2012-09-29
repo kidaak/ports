@@ -2,10 +2,12 @@
 
 BRANCH=		21.4
 VERSION=	22
-REVISION =	5
+REVISION =	6
 
 WANTLIB=	c m ncurses util
 
+CFLAGS +=	-fno-pie
+CONFIGURE_ENV =	LDFLAGS="-nopie"
 CONFIGURE_ARGS+=--infodir='$${DESTDIR}${PREFIX}/info/${DISTNAME}' \
 		--infopath='${LOCALBASE}/info/${DISTNAME}:${LOCALBASE}/info:/usr/share/info' \
 		--site-prefixes='${LOCALBASE}:/usr' \

@@ -2,8 +2,8 @@
 
 COMMENT=		highly configurable framework window manager
 
-DISTNAME=		awesome-3.4.11
-REVISION=		3
+DISTNAME=		awesome-3.4.13
+REVISION=		2
 EXTRACT_SUFX=		.tar.xz
 CATEGORIES=		x11
 

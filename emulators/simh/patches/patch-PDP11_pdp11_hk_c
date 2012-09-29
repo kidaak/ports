@@ -1,7 +1,7 @@
 $OpenBSD$
---- PDP11/pdp11_hk.c.orig	Sat Nov 22 18:40:26 2008
-+++ PDP11/pdp11_hk.c	Wed Apr 20 11:37:12 2011
-@@ -904,7 +904,7 @@ switch (fnc) {                                        
+--- PDP11/pdp11_hk.c.orig	Mon Mar 19 17:41:44 2012
++++ PDP11/pdp11_hk.c	Wed Jun 13 06:36:24 2012
+@@ -905,7 +905,7 @@ switch (fnc) {                                        
              for (i = wc; i < awc; i++)                  /* fill buf */
                  hkxb[i] = 0;
              if (wc && !err) {                           /* write buf */

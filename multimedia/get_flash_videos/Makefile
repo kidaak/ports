@@ -2,11 +2,11 @@
 
 COMMENT=		download flash video files from various sites
 
-DISTNAME=		App-get_flash_videos-1.24.20120309
-PKGNAME=		${DISTNAME:S/App-//}
-CATEGORIES=		multimedia
-
+DISTNAME=		monsieurvideo-get-flash-videos-v1.24_02-268-g162d964
+PKGNAME=		get_flash_videos-1.24.20120716
 REVISION=		0
+WRKDIST=		${WRKDIR}/monsieurvideo-get-flash-videos-162d964
+CATEGORIES=		multimedia
 
 HOMEPAGE=		http://get-flash-videos.googlecode.com/
 
@@ -21,8 +21,8 @@ PERMIT_DISTFILES_FTP=	Yes
 MODULES=		cpan
 CPAN_AUTHOR=		MONSIEUR
 # git checkout
-#MASTER_SITES=		http://spacehopper.org/mirrors/
-MASTER_SITES=		https://github.com/downloads/njtaylor/get-flash-videos/
+MASTER_SITES=		http://spacehopper.org/mirrors/
+#MASTER_SITES=		https://github.com/downloads/njtaylor/get-flash-videos/
 
 BUILD_DEPENDS=		devel/p5-Tie-IxHash
 RUN_DEPENDS=		devel/p5-Term-ReadKey \

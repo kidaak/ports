@@ -3,9 +3,8 @@
 COMMENT =	extensible framework for Perl server engines
 
 MODULES =	cpan
-DISTNAME =	Net-Server-0.99
+DISTNAME =	Net-Server-2.006
 CATEGORIES =	devel net
-USE_GROFF =	Yes
 
 HOMEPAGE =	http://seamons.com/projects/
 

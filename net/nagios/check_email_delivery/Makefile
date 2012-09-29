@@ -3,7 +3,7 @@
 COMMENT=	Nagios plugin to check full email delivery loop (SMTP/IMAP)
 
 DISTNAME=	check_email_delivery-0.7.1b
-REVISION=	0
+REVISION=	1
 CATEGORIES=	net mail
 
 MAINTAINER=	Stuart Henderson <sthen@openbsd.org>
@@ -28,7 +28,7 @@ RUN_DEPENDS=	converters/p5-DateManip \
 		mail/p5-Mail-IMAPClient \
 		net/p5-Net-SMTP_auth \
 		net/p5-Net-SMTP-SSL \
-		net/p5-Net-SMTP-TLS \
+		net/p5-Net-SMTP-TLS-ButMaintained \
 		security/p5-Authen-SASL \
 		security/p5-IO-Socket-SSL \
 		textproc/p5-Text-Template

@@ -10,13 +10,13 @@ SHARED_ONLY=		Yes
 VERSION=		1.2.11
 DISTNAME=		xmms-${VERSION}
 PKGNAME-main=		xmms-${VERSION}
-REVISION-main=		10
+REVISION-main=		11
 PKGNAME-vorbis=		xmms-vorbis-${VERSION}
 REVISION-vorbis=	4
 PKGNAME-mikmod=		xmms-mikmod-${VERSION}
 REVISION-mikmod=	5
 PKGNAME-mp3=		xmms-mp3-${VERSION}
-REVISION-mp3=		6
+REVISION-mp3=		7
 SHARED_LIBS=		xmms	4.2
 CATEGORIES=		audio
 HOMEPAGE=		http://www.xmms.org
@@ -34,9 +34,7 @@ WANTLIB += gtk>=1.2 gdk>=1.2 gthread>=1.2
 
 V=			1.2.x
 MASTER_SITES=		${HOMEPAGE}/files/$V/ \
-			ftp://ftp.xmms.org/xmms/$V/ \
-			ftp://ftp.sunet.se/pub/multimedia/xmms/$V/ \
-			ftp://ftp.stealth.net/xmms/$V/
+			http://legacy.xmms2.org/
 
 MULTI_PACKAGES=		-main -vorbis -mikmod -mp3
 
@@ -81,8 +79,6 @@ LIB_DEPENDS-mikmod=	${LIB_DEPENDS} audio/libmikmod
 RUN_DEPENDS-mikmod=	audio/xmms
 WANTLIB-mikmod=		${WANTLIB} sndio mikmod
 
-PERMIT_PACKAGE_CDROM-mp3=	patent issues
-PERMIT_DISTFILES_CDROM-mp3= 	patent issues
 LIB_DEPENDS-mp3=	${LIB_DEPENDS} ${BUILD_PKGPATH}=${VERSION}
 WANTLIB-mp3=		${WANTLIB} xmms>=4 z
 

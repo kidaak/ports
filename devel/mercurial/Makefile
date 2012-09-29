@@ -2,13 +2,13 @@
 
 COMMENT =		fast, lightweight source control management
 
-MODPY_EGG_VERSION =	2.2.1
+MODPY_EGG_VERSION =	2.3.1
 DISTNAME =		mercurial-${MODPY_EGG_VERSION}
 CATEGORIES =     	devel
 
 HOMEPAGE =		http://www.selenic.com/mercurial/
 
-MAINTAINER =		Will Maier <wcmaier@openbsd.org>
+MAINTAINER =		Remi Pointel <rpointel@openbsd.org>
 
 # GPLv2
 PERMIT_PACKAGE_CDROM =	Yes
@@ -37,7 +37,7 @@ SCRIPTS =		convert-repo hg-ssh hgk \
 			tcsh_completion_build.sh dumprevlog \
 			undumprevlog simplemerge
 
-WANTLIB +=		${MODPY_WANTLIB}
+WANTLIB +=		${MODPY_WANTLIB} pthread
 
 post-install:
 	${INSTALL_MAN} ${WRKSRC}/doc/hg.1 ${PREFIX}/man/man1

@@ -3,6 +3,7 @@
 COMMENT =	unified Ruby API for popular databases
 
 DISTNAME =	data_objects-0.10.8
+REVISION =	0
 CATEGORIES =	databases
 
 # MIT

@@ -1,4 +1,5 @@
 $OpenBSD$
+http://www.thewildbeast.co.uk/claws-mail/bugzilla/show_bug.cgi?id=2639
 --- src/mbox.c.orig	Mon Sep 17 04:14:33 2007
 +++ src/mbox.c	Tue Sep 18 21:45:32 2007
 @@ -52,7 +52,7 @@

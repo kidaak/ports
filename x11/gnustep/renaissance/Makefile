@@ -4,6 +4,7 @@ COMMENT =	GNUstep layer to write portable GUIs
 
 VERSION =	0.9.0
 DISTNAME =	Renaissance-${VERSION}
+REVISION =	1
 PKGNAME =	gnustep-renaissance-${VERSION}
 
 SHARED_LIBS +=  Renaissance	0.0
@@ -13,7 +14,7 @@ HOMEPAGE =	http://www.gnustep.it/Renaissance/
 MASTER_SITES =	${HOMEPAGE:=Download/}
 
 MODULES =	x11/gnustep
-WANTLIB +=	c gnustep-base gnustep-gui m objc pthread
+WANTLIB +=	c gnustep-base gnustep-gui m objc2 pthread
 
 MAKE_FLAGS =	Renaissance_INTERFACE_VERSION=${LIBRenaissance_VERSION}
 

@@ -5,6 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	DTP program
 DISTNAME=	scribus-1.4.1
 CATEGORIES=	print
+REVISION=	0
 
 HOMEPAGE=	http://www.scribus.net/
 
@@ -40,7 +41,7 @@ LIB_DEPENDS= graphics/jpeg \
 		graphics/lcms2 \
 		graphics/tiff \
 		${MODPY_LIB_DEPENDS} \
-		print/cups \
+		print/cups,-libs \
 		textproc/libxml \
 		textproc/aspell/core \
 		devel/libexecinfo

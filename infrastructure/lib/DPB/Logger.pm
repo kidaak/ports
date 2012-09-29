@@ -65,7 +65,7 @@ sub log_pkgpath
 sub log_pkgname
 {
 	my ($self, $v) = @_;
-	if (defined $v->fullpkgname) {
+	if ($v->has_fullpkgname) {
 		return $self->logfile("/packages/".$v->fullpkgname);
 	} else {
 		return $self->logfile("/nopkgname/".$v->fullpkgpath);

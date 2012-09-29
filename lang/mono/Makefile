@@ -2,7 +2,8 @@
 
 COMMENT=	cross platform, open source .NET developement framework
 
-DISTNAME=	mono-2.10.8
+DISTNAME=	mono-2.10.9
+REVISION=	0
 
 CATEGORIES=	lang devel
 

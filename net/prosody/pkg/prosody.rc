@@ -9,6 +9,7 @@ daemon_user="_prosody"
 . /etc/rc.d/rc.subr
 
 rc_reload=NO
+rc_usercheck=NO
 
 rc_check() {
 	# return 1 is needed: prosodyctl returns a higher error code on failure

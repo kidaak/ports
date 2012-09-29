@@ -4,7 +4,7 @@ CATEGORIES=		geo
 COMMENT=		geographic location of OpenBSD developers
 
 DISTNAME=		openbsd-developers-1.0
-REVISION=		80
+REVISION=		84
 DISTFILES=
 HOMEPAGE=		http://www.openbsd.org/
 

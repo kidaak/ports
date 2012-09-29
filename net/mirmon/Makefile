@@ -2,8 +2,7 @@
 
 COMMENT=	monitors the status of mirrors
 
-DISTNAME=	mirmon-2.4
-REVISION=	0
+DISTNAME=	mirmon-2.6
 
 CATEGORIES=	net
 HOMEPAGE=	http://people.cs.uu.nl/henkp/mirmon/
@@ -22,7 +21,6 @@ MODULES=	perl
 ICONDIR=	${PREFIX}/share/examples/mirmon/icons
 
 RUN_DEPENDS=	net/rsync net/wget
-USE_GROFF =	Yes
 NO_REGRESS=	Yes
 PKG_ARCH=	*
 

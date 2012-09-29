@@ -3,6 +3,7 @@
 COMMENT =		complete front-end for MPlayer
 
 DISTNAME =		smplayer-0.8.0
+REVISION =		0
 
 CATEGORIES =		multimedia x11
 

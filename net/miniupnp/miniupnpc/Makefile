@@ -10,6 +10,8 @@ DISTNAME=	miniupnpc-${MODPY_EGG_VERSION}
 PKGNAME-main=	${DISTNAME}
 PKGNAME-python= py-${DISTNAME}
 
+REVISION-main=	0
+
 SHARED_LIBS +=	miniupnpc 0.0
 
 WANTLIB-main += c

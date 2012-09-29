@@ -4,7 +4,7 @@ COMMENT=	easy to use web gallery
 
 DISTNAME=	photoshow-0.0.20111228
 CATEGORIES=	www graphics
-REVISION=	0
+REVISION=	1
 
 HOMEPAGE=	http://www.photoshow-gallery.com/
 
@@ -27,7 +27,7 @@ INSTDIR=	${PREFIX}/photoshow
 TINSTDIR=	${TRUEPREFIX}/photoshow
 SUBST_VARS=	INSTDIR TINSTDIR
 
-RUN_DEPENDS=	archivers/pecl-zip
+RUN_DEPENDS=	lang/php/${MODPHP_VERSION},-zip
 
 do-install:
 	cp -R ${WRKSRC} ${INSTDIR}

@@ -2,7 +2,7 @@
 
 COMMENT =	ARP scanning and fingerprinting tool
 DISTNAME =	arp-scan-1.8
-REVISION =	4
+REVISION =	5
 CATEGORIES =	net
 
 HOMEPAGE =	http://www.nta-monitor.com/tools/arp-scan/
@@ -11,7 +11,7 @@ MAINTAINER =	Stuart Henderson <sthen@openbsd.org>
 MASTER_SITES =	${HOMEPAGE}download/
 MASTER_SITES0 =	http://spacehopper.org/mirrors/
 DISTFILES =	${DISTNAME}${EXTRACT_SUFX} \
-		oui-iab-20120604.tar.bz2:0
+		oui-iab-20120911.tar.bz2:0
 
 # GPLv3+
 PERMIT_DISTFILES_CDROM =Yes

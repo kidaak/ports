@@ -7,7 +7,7 @@ COMMENT=	interface to gettext() internationalization function
 MODULES=	cpan
 DISTNAME=	gettext-1.05
 PKGNAME=	p5-Locale-${DISTNAME}
-REVISION=	3
+REVISION=	4
 CPAN_AUTHOR=	PVANDRY
 CATEGORIES=	converters devel
 USE_GROFF =	Yes
@@ -17,6 +17,8 @@ PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
+
+WANTLIB += c
 
 MODULES+=	devel/gettext
 

@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: ports/net/nam/Makefile,v 1.3 1999/11/29 03:46:08 steve Exp $
 
 COMMENT=	UCB/LBNL Network Animator
 

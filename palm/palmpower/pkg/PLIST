@@ -1,8 +1,0 @@
-@comment $OpenBSD$
-bin/pila
-bin/pilotdis
-bin/splitprc
-@man man/man1/pilotdis.1
-share/doc/palmpower/
-share/doc/palmpower/FAQ
-share/doc/palmpower/README

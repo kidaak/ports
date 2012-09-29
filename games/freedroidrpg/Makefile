@@ -5,6 +5,7 @@ ONLY_FOR_ARCHS=	${GCC4_ARCHS}
 COMMENT=	isometric RPG game
 
 DISTNAME =	freedroidRPG-0.15.1
+REVISION =	2
 PKGNAME =	${DISTNAME:L}
 CATEGORIES=	games x11
 
@@ -26,6 +27,7 @@ MASTER_SITES =	${MASTER_SITE_SOURCEFORGE:=freedroid/}
 WRKDIST =	${WRKDIR}/${DISTNAME:L}
 
 MODULES=	lang/lua
+MODLUA_SA =	Yes
 
 LIB_DEPENDS=	devel/libexecinfo \
 		devel/sdl-gfx \

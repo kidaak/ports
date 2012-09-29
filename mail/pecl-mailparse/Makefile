@@ -3,7 +3,7 @@
 COMMENT =	PHP extension for parsing and working with rfc822/MIME mail
 
 DISTNAME =	mailparse-2.1.5
-REVISION =	7
+REVISION =	9
 CATEGORIES =	mail
 
 MAINTAINER =	Stuart Henderson <sthen@openbsd.org>

@@ -43,6 +43,7 @@ USE_GMAKE=	No
 
 LIBTOOL_FLAGS+=	--tag=disable-static
 CONFIGURE_STYLE=gnu
+CONFIGURE_ARGS=	--disable-static
 
 # pick bind_textdomain_codeset
 MODGNOME_LDFLAGS=-lintl -liconv

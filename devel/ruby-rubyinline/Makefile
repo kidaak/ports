@@ -4,7 +4,7 @@ COMMENT=		embed C/++ external module code in your Ruby script
 
 DISTNAME=		RubyInline-3.8.3
 PKGNAME=		${DISTNAME:L}
-REVISION=		4
+REVISION=		5
 CATEGORIES=		devel
 
 HOMEPAGE=		http://www.zenspider.com/ZSS/Products/RubyInline/

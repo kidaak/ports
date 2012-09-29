@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.65 1997/11/17 06:31:39 fenner Exp $
 
      SUBDIR =
      SUBDIR += ajaxterm
@@ -14,6 +13,7 @@
      SUBDIR += asql
      SUBDIR += august
      SUBDIR += awl
+     SUBDIR += bacula-web
      SUBDIR += bk2site
      SUBDIR += blogsum
      SUBDIR += bluefish
@@ -58,6 +58,7 @@
      SUBDIR += flyspray
      SUBDIR += gcap
      SUBDIR += gecko-mediaplayer
+     SUBDIR += glpi
      SUBDIR += gnash
      SUBDIR += gtkhtml3
      SUBDIR += gtkhtml4
@@ -105,6 +106,7 @@
      SUBDIR += mediawiki-httpauth
      SUBDIR += mhonarc
      SUBDIR += midori
+     SUBDIR += midori,gtk3
      SUBDIR += mimetex
      SUBDIR += mindterm
      SUBDIR += minitube
@@ -138,12 +140,12 @@
      SUBDIR += mono-xsp
      SUBDIR += moodle
      SUBDIR += mozilla-firefox
+     SUBDIR += mozilla-sync
      SUBDIR += mozplugger
      SUBDIR += mycalendar
      SUBDIR += myreview
      SUBDIR += netsurf
      SUBDIR += nginx
-     SUBDIR += nginx,passenger
      SUBDIR += nostromo
      SUBDIR += opera
      SUBDIR += owncloud
@@ -221,6 +223,7 @@
      SUBDIR += p5-Drupal-Admin
      SUBDIR += p5-FCGI-ProcManager
      SUBDIR += p5-Feed-Find
+     SUBDIR += p5-Gravatar-URL
      SUBDIR += p5-HTML-Base
      SUBDIR += p5-HTML-CGIChecker
      SUBDIR += p5-HTML-Calendar-Month-Simple
@@ -397,13 +400,16 @@
      SUBDIR += py-paste-script
      SUBDIR += py-pylons
      SUBDIR += py-quixote
+     SUBDIR += py-recaptcha-client
      SUBDIR += py-repoze-lru
      SUBDIR += py-repoze-profile
+     SUBDIR += py-repoze-who
      SUBDIR += py-requests
      SUBDIR += py-routes
      SUBDIR += py-tempita
      SUBDIR += py-tornado
      SUBDIR += py-turbogears
+     SUBDIR += py-urlgrabber
      SUBDIR += py-weberror
      SUBDIR += py-webhelpers
      SUBDIR += py-webkitgtk
@@ -423,37 +429,35 @@
      SUBDIR += reportmagic
      SUBDIR += retawq
      SUBDIR += rt
-     SUBDIR += ruby-activemerchant
      SUBDIR += ruby-activeresource
      SUBDIR += ruby-addressable
      SUBDIR += ruby-fcgi
      SUBDIR += ruby-httpclient
      SUBDIR += ruby-jekyll
      SUBDIR += ruby-mechanize
-     SUBDIR += ruby-merb
      SUBDIR += ruby-mongrel
      SUBDIR += ruby-passenger
-     SUBDIR += ruby-passenger,ruby19
+     SUBDIR += ruby-passenger,ruby18
      SUBDIR += ruby-rack
      SUBDIR += ruby-rack-cache
      SUBDIR += ruby-rack-mount
      SUBDIR += ruby-rack-ssl
      SUBDIR += ruby-rack-test
      SUBDIR += ruby-rails
-     SUBDIR += ruby-rails,ruby19
+     SUBDIR += ruby-rails,ruby18
      SUBDIR += ruby-railties
      SUBDIR += ruby-rainbows
-     SUBDIR += ruby-rainbows,ruby19
+     SUBDIR += ruby-rainbows,ruby18
      SUBDIR += ruby-raindrops
-     SUBDIR += ruby-raindrops,ruby19
+     SUBDIR += ruby-raindrops,ruby18
      SUBDIR += ruby-rest-client
      SUBDIR += ruby-sanitize
      SUBDIR += ruby-sinatra
      SUBDIR += ruby-thin
-     SUBDIR += ruby-thin,ruby19
+     SUBDIR += ruby-thin,ruby18
      SUBDIR += ruby-thin_http
      SUBDIR += ruby-unicorn
-     SUBDIR += ruby-unicorn,ruby19
+     SUBDIR += ruby-unicorn,ruby18
      SUBDIR += sabredav
      SUBDIR += sarg
      SUBDIR += seamonkey
@@ -514,10 +518,11 @@
      SUBDIR += xapian-omega
      SUBDIR += xcache
      SUBDIR += xmhtml
-     SUBDIR += xxxterm
+     SUBDIR += xombrero
      SUBDIR += yaws
      SUBDIR += youtube-dl
      SUBDIR += yui
      SUBDIR += zendframework
+     SUBDIR += zurmo
 
 .include <bsd.port.subdir.mk>

@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: ports/net/pchar/Makefile,v 1.1.1.1 1999/11/04 08:33:26 obrien Exp $
 
 COMMENT=	Sandia Internet path characterization tool
 

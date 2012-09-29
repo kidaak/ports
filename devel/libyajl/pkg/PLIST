@@ -9,3 +9,5 @@ include/yajl/yajl_parse.h
 include/yajl/yajl_tree.h
 include/yajl/yajl_version.h
 lib/libyajl_s.a
+share/pkgconfig/
+share/pkgconfig/yajl.pc

@@ -4,7 +4,7 @@ SHARED_ONLY =		Yes
 
 COMMENT =		CD/DVD creator
 DISTNAME =		k3b-1.0.4
-REVISION=		11
+REVISION=		13
 
 SHARED_LIBS =		k3b	0.0	# 3.0
 SHARED_LIBS +=		k3bdevice	0.0	# 5.0
@@ -19,13 +19,13 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-WANTLIB += DCOP FLAC FLAC++ ICE SM X11 Xau Xdmcp Xext Xfixes Xrender
-WANTLIB += Xt art_lgpl_2 artsc avcodec avformat avutil bz2 c dvdread
+WANTLIB += DCOP FLAC FLAC++ ICE SM X11 Xext Xfixes Xrender Xt
+WANTLIB += art_lgpl_2 artsc avcodec avformat avutil bz2 c dvdread
 WANTLIB += expat fontconfig freetype gsm idn jpeg kdecore kdefx kdesu
 WANTLIB += kdeui kio kparts kwalletclient m mad mp3lame mpcdec ogg
-WANTLIB += orc-0.4 png pthread pthread-stubs samplerate schroedinger-1.0
-WANTLIB += sndfile speex stdc++ tag theoradec theoraenc util vorbis
-WANTLIB += vorbisenc vorbisfile vpx x264 xcb z
+WANTLIB += orc-0.4 png pthread samplerate schroedinger-1.0 sndfile
+WANTLIB += speex stdc++ tag theoradec theoraenc util vorbis vorbisenc
+WANTLIB += vorbisfile vpx x264 xcb xvidcore z
 
 MASTER_SITES =		${MASTER_SITE_SOURCEFORGE:=k3b/}
 EXTRACT_SUFX =		.tar.bz2
@@ -67,8 +67,7 @@ CONFIGURE_ARGS +=	--with-qt-dir=${MODQT_QTDIR} \
 			--without-alsa \
 			--without-cdrecord-suid-root
 CONFIGURE_ENV =		CPPFLAGS="-I${LOCALBASE}/include" \
-			LDFLAGS="-L${LOCALBASE}/lib" \
-			PTHREAD_LIBS="-pthread"
+			LDFLAGS="-L${LOCALBASE}/lib"
 
 # For QSettings to write its setup
 PORTHOME=		${WRKDIST}

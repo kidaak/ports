@@ -1,4 +1,2 @@
 @comment $OpenBSD$
-@comment lib/gtk-3.0/3.0.0/printbackends/libprintbackend-cups.a
-@comment lib/gtk-3.0/3.0.0/printbackends/libprintbackend-cups.la
 lib/gtk-3.0/${GTK_BINARY_VERSION}/printbackends/libprintbackend-cups.so

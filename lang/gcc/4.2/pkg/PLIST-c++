@@ -508,13 +508,6 @@ include/c++/${V}/${CONFIG}/bits/gthr-tpf.h
 include/c++/${V}/${CONFIG}/bits/gthr.h
 include/c++/${V}/${CONFIG}/bits/messages_members.h
 include/c++/${V}/${CONFIG}/bits/os_defines.h
-include/c++/${V}/${CONFIG}/bits/stdc++.h
-include/c++/${V}/${CONFIG}/bits/stdc++.h.gch/
-include/c++/${V}/${CONFIG}/bits/stdc++.h.gch/O0g.gch
-include/c++/${V}/${CONFIG}/bits/stdc++.h.gch/O2g.gch
-include/c++/${V}/${CONFIG}/bits/stdtr1c++.h
-include/c++/${V}/${CONFIG}/bits/stdtr1c++.h.gch/
-include/c++/${V}/${CONFIG}/bits/stdtr1c++.h.gch/O2g.gch
 include/c++/${V}/${CONFIG}/bits/time_members.h
 include/c++/${V}/iomanip
 include/c++/${V}/ios

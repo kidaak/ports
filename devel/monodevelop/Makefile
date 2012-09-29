@@ -6,7 +6,7 @@ CATEGORIES=	devel lang
 MASTER_SITES=	http://ftp.novell.com/pub/mono/sources/monodevelop/
 EXTRACT_SUFX=	.tar.bz2
 
-REVISION=	1
+REVISION=	2
 
 HOMEPAGE=	http://monodevelop.com/
 

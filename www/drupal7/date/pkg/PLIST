@@ -1,10 +1,6 @@
 @comment $OpenBSD$
 @owner ${DRUPAL_OWNER}
 @group ${DRUPAL_GROUP}
-${DRUPAL_ROOT}/
-${DRUPAL_ROOT}/sites/
-${DRUPAL_ROOT}/sites/all/
-${DRUPAL_MODS}/
 ${DRUPAL_MODS}date/
 ${DRUPAL_MODS}date/CHANGELOG.txt
 ${DRUPAL_MODS}date/INSTALL.txt

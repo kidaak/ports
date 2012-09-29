@@ -1,7 +1,7 @@
 $OpenBSD$
---- base/threading/worker_pool_posix.cc.orig	Fri Jan 27 09:02:06 2012
-+++ base/threading/worker_pool_posix.cc	Thu Feb  9 09:31:06 2012
-@@ -24,7 +24,7 @@ namespace {
+--- base/threading/worker_pool_posix.cc.orig	Thu Jun 28 15:01:48 2012
++++ base/threading/worker_pool_posix.cc	Sat Jul  7 09:50:22 2012
+@@ -28,7 +28,7 @@ base::LazyInstance<ThreadLocalBoolean>::Leaky
  const int kIdleSecondsBeforeExit = 10 * 60;
  // A stack size of 64 KB is too small for the CERT_PKIXVerifyCert
  // function of NSS because of NSS bug 439169.

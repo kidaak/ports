@@ -5,7 +5,7 @@ COMMENT =		stylish PDF presentation generator
 MODPY_EGG_VERSION =	0.10.2
 DISTNAME =		Impressive-${MODPY_EGG_VERSION}
 PKGNAME =		impressive-${MODPY_EGG_VERSION}
-REVISION =		4
+REVISION =		5
 
 CATEGORIES =		productivity
 HOMEPAGE =		http://impressive.sourceforge.net/
@@ -26,8 +26,10 @@ USE_GROFF =		Yes
 RUN_DEPENDS =		graphics/py-opengl \
 			devel/pygame \
 			graphics/py-Imaging \
-			textproc/xpdf \
 			devel/xdg-utils
+
+# pdftoppm(1)
+RUN_DEPENDS +=		print/poppler,-utils
 
 MODPY_ADJ_FILES =	impressive.py
 

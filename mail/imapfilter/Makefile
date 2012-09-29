@@ -3,7 +3,7 @@
 COMMENT=	remote IMAP filtering utility
 
 DISTNAME=	imapfilter-2.2.3
-REVISION=	0
+REVISION=	2
 CATEGORIES=	mail
 
 HOMEPAGE=	http://imapfilter.hellug.gr/
@@ -22,6 +22,7 @@ PERMIT_DISTFILES_FTP=	Yes
 WANTLIB=	c crypto m ssl pcre ${MODLUA_WANTLIB}
 
 MODULES=	lang/lua
+MODLUA_SA=	Yes
 
 LIB_DEPENDS=	devel/pcre \
 		${MODLUA_LIB_DEPENDS}
@@ -36,6 +37,9 @@ MAKE_ENV+=	CC="${CC}"
 USE_GROFF =	Yes
 
 NO_REGRESS=	Yes
+
+pre-configure:
+	${SUBST_CMD} ${WRKSRC}/configure
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/imapfilter

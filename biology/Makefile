@@ -1,5 +1,4 @@
 # $OpenBSD$
-#
 
      SUBDIR =
      SUBDIR += AcePerl

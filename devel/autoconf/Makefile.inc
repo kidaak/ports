@@ -30,5 +30,3 @@ CONFIGURE_ENV +=	MKDIR_P='mkdir -p'
 CONFIGURE_ARGS += 	--program-suffix=${SUFFIX}
 MAKE_FLAGS +=		pkgdatadir=${PREFIX}/share/autoconf${SUFFIX}
 FAKE_FLAGS +=		lispdir=
-
-USE_GROFF ?=		Yes

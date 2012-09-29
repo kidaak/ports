@@ -5,7 +5,7 @@ PKG_ARCH=	*
 COMMENT=	technical documentation XML/SGML definitions
 
 DISTNAME=	docbook-4.5
-REVISION=	0
+REVISION=	1
 DIST_SUBDIR=	docbook
 CATEGORIES=	textproc
 

@@ -4,6 +4,7 @@ COMMENT=	ruby MVC web application framework
 
 VERSION=	3.1.3
 DISTNAME=	rails-${VERSION}
+REVISION =	0
 CATEGORIES=	www
 
 # MIT License

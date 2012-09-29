@@ -2,9 +2,9 @@ $OpenBSD$
 
 Fix build on OpenBSD's mips architectures.
 
---- CPU/run.c.orig	Wed Aug 25 18:33:09 2010
-+++ CPU/run.c	Wed Aug 25 18:33:38 2010
-@@ -25,7 +25,7 @@
+--- CPU/run.c.orig	Sat Jan  9 06:22:52 2010
++++ CPU/run.c	Mon Aug 20 16:55:19 2012
+@@ -31,7 +31,7 @@
  */
  
  

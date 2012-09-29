@@ -6,6 +6,8 @@ VERSION =		005
 DISTNAME =		usbutils_${VERSION}.orig
 PKGNAME =		usbutils-${VERSION}
 
+REVISION =		1
+
 CATEGORIES =		sysutils
 HOMEPAGE =		http://www.linux-usb.org
 
@@ -19,7 +21,7 @@ PERMIT_DISTFILES_FTP =	Yes
 
 MASTER_SITES =		http://ftp.de.debian.org/debian/pool/main/u/usbutils/
 
-WANTLIB =		c usb-1.0 pthread z
+WANTLIB =		c usb-1.0 z
 LIB_DEPENDS =		devel/libusb1
 
 AUTOMAKE_VERSION =	1.11
@@ -36,8 +38,7 @@ USE_GMAKE =		Yes
 USE_LIBTOOL =		Yes
 CONFIGURE_STYLE =	gnu
 CONFIGURE_ENV +=	CPPFLAGS="-I${LOCALBASE}/include" \
-			LDFLAGS="-L${LOCALBASE}/lib" \
-			LIBS="-L${LOCALBASE}/lib -pthread"
+			LDFLAGS="-L${LOCALBASE}/lib"
 CONFIGURE_ARGS +=	--datarootdir=${LOCALBASE}/lib \
 			--datadir=${LOCALBASE}/share/usbutils
 

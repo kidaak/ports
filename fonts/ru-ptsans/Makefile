@@ -4,9 +4,9 @@ COMMENT =	free Cyrillic fonts
 PKG_ARCH =	*
 DISTNAME =	ptsans-2.0
 PKGNAME =	ru-${DISTNAME}
-REVISION =	0
+REVISION =	1
 EXTRACT_SUFX =	.zip
-CATEGORIES =	fonts x11 russian
+CATEGORIES =	fonts x11
 
 MAINTAINER =	Vadim Zhukov <persgray@gmail.com>
 # Original distfile taken from http://www.fontstock.com/public/

@@ -83,6 +83,7 @@ our $vars = {
     SEPARATE_BUILD => 'YesKeyVar',
     SHARED_LIBS => 'SharedLibsVar',
     SHARED_ONLY => 'YesNoVar',
+    STATIC_PLIST => 'YesNoVar',
     SUBPACKAGE => 'DefinedVar',
     SUPDISTFILES => 'AnyVar',
     TARGETS => 'TargetsVar',

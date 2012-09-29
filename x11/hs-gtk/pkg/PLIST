@@ -460,6 +460,7 @@ share/doc/hs-${DISTNAME}/html/Graphics-UI-Gtk-Buttons-RadioButton.html
 share/doc/hs-${DISTNAME}/html/Graphics-UI-Gtk-Buttons-ScaleButton.html
 share/doc/hs-${DISTNAME}/html/Graphics-UI-Gtk-Buttons-ToggleButton.html
 share/doc/hs-${DISTNAME}/html/Graphics-UI-Gtk-Buttons-VolumeButton.html
+share/doc/hs-${DISTNAME}/html/Graphics-UI-Gtk-Cairo.html
 share/doc/hs-${DISTNAME}/html/Graphics-UI-Gtk-Display-AccelLabel.html
 share/doc/hs-${DISTNAME}/html/Graphics-UI-Gtk-Display-Image.html
 share/doc/hs-${DISTNAME}/html/Graphics-UI-Gtk-Display-InfoBar.html
@@ -687,6 +688,7 @@ share/doc/hs-${DISTNAME}/html/mini_Graphics-UI-Gtk-Buttons-RadioButton.html
 share/doc/hs-${DISTNAME}/html/mini_Graphics-UI-Gtk-Buttons-ScaleButton.html
 share/doc/hs-${DISTNAME}/html/mini_Graphics-UI-Gtk-Buttons-ToggleButton.html
 share/doc/hs-${DISTNAME}/html/mini_Graphics-UI-Gtk-Buttons-VolumeButton.html
+share/doc/hs-${DISTNAME}/html/mini_Graphics-UI-Gtk-Cairo.html
 share/doc/hs-${DISTNAME}/html/mini_Graphics-UI-Gtk-Display-AccelLabel.html
 share/doc/hs-${DISTNAME}/html/mini_Graphics-UI-Gtk-Display-Image.html
 share/doc/hs-${DISTNAME}/html/mini_Graphics-UI-Gtk-Display-InfoBar.html

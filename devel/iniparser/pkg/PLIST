@@ -1,0 +1,5 @@
+@comment $OpenBSD$
+%%SHARED%%
+include/dictionary.h
+include/iniparser.h
+lib/libiniparser.a

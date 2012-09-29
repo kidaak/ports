@@ -2,10 +2,12 @@
 
 # XXX could use brltty and brlapi (with python bindinds) -- not ported yet
 
+PKG_ARCH=		*
+
 COMMENT=		assistive screen reader
 
 GNOME_PROJECT=		orca
-GNOME_VERSION=		3.4.2
+GNOME_VERSION=		3.6.0
 
 HOMEPAGE=		http://live.gnome.org/Orca
 
@@ -33,8 +35,5 @@ MODGNOME_TOOLS= 	yelp
 CONFIGURE_ENV=		DATADIRNAME=share
 
 FAKE_FLAGS=		sysconfdir=${PREFIX}/share/examples/orca/
-
-pre-configure:
-	${SUBST_CMD} ${WRKSRC}/src/orca/espeechfactory.py
 
 .include <bsd.port.mk>

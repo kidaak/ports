@@ -1,16 +1,15 @@
 @comment $OpenBSD$
 @conflict libcanberra-<=0.24p1
-%%SHARED%%
 @bin bin/canberra-gtk-play
 lib/gnome-settings-daemon-3.0/
 lib/gnome-settings-daemon-3.0/gtk-modules/
 lib/gnome-settings-daemon-3.0/gtk-modules/canberra-gtk-module.desktop
 lib/gtk-3.0/
 lib/gtk-3.0/modules/
-@comment lib/gtk-3.0/modules/libcanberra-gtk3-module.a
-@comment lib/gtk-3.0/modules/libcanberra-gtk3-module.la
-lib/libcanberra-gtk3.a
+lib/gtk-3.0/modules/libcanberra-gtk-module.so
+lib/gtk-3.0/modules/libcanberra-gtk3-module.so
 lib/libcanberra-gtk3.la
+@lib lib/libcanberra-gtk3.so.${LIBcanberra-gtk3_VERSION}
 lib/pkgconfig/libcanberra-gtk3.pc
 share/gdm/
 share/gdm/autostart/

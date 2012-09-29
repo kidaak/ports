@@ -12,7 +12,7 @@ You should point this to the DocumentRoot of your web-server:
 
 and proceed to complete the installation by reading the online
 documentation. Which can be found at:
-http://tt-rss.org/trac/wiki/InstallationNotes
+http://tt-rss.org/redmine/projects/tt-rss/wiki/InstallationNotes
 
 Database Setup
 ==============

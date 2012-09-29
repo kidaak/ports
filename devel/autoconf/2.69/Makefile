@@ -2,6 +2,8 @@
 
 VERSION =	2.69
 
+REVISION =	0
+
 BUILD_DEPENDS =		devel/help2man
 
 CONFIGURE_ARGS +=	--without-lispdir \

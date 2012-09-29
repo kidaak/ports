@@ -2,8 +2,7 @@
 
 COMMENT =		continuous integration server
 
-VERSION =		1.401
-REVISION =		6
+VERSION =		1.472
 DISTNAME =		jenkins
 PKGNAME =		jenkins-${VERSION}
 DIST_SUBDIR =		jenkins-${VERSION}
@@ -12,7 +11,7 @@ CATEGORIES =		devel
 
 HOMEPAGE =		http://jenkins-ci.org/
 
-MAINTAINER=		Ian Darwin <ian@openbsd.org>
+MAINTAINER =		Ian Darwin <ian@openbsd.org>
 
 # Code under MIT license, Artwork under Creative Commons
 PERMIT_PACKAGE_CDROM =	Yes

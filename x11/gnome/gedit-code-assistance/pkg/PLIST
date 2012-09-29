@@ -1,11 +1,5 @@
 @comment $OpenBSD$
-lib/gedit/
-lib/gedit/plugins/
 lib/gedit/plugins/gcp.plugin
-lib/gedit/plugins/libgcp.a
-@comment lib/gedit/plugins/libgcp.la
 lib/gedit/plugins/libgcp.so
-share/gedit/
-share/gedit/plugins/
 share/gedit/plugins/gcp/
 share/gedit/plugins/gcp/gcp.css

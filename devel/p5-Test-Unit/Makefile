@@ -3,10 +3,8 @@
 COMMENT=	Perl unit testing framework
 
 DISTNAME=	Test-Unit-0.25
-REVISION=	0
+REVISION=	1
 CATEGORIES=	devel
-
-MAINTAINER=	Sebastian Trahm <basti@schleifi.com>
 
 # perl
 PERMIT_PACKAGE_CDROM=	Yes
@@ -15,7 +13,6 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 MODULES=	cpan
-USE_GROFF =	Yes
 
 BUILD_DEPENDS=	${RUN_DEPENDS}
 RUN_DEPENDS=	devel/p5-Devel-Symdump \

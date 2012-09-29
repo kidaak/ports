@@ -3,6 +3,7 @@
 COMMENT=		ruby application dependency manager
 
 DISTNAME=		bundler-1.0.21
+REVISION =		0
 CATEGORIES=		devel
 
 HOMEPAGE=		http://gembundler.com/

@@ -1,7 +1,7 @@
 $OpenBSD$
---- configure.orig	Wed May 12 10:12:02 2010
-+++ configure	Wed May 12 10:12:19 2010
-@@ -5596,7 +5596,7 @@ if test "${ac_cv_lib_cups_cupsServer+set}" = set; then
+--- configure.orig	Mon Jan 30 22:06:08 2012
++++ configure	Mon Apr  9 16:01:29 2012
+@@ -6104,7 +6104,7 @@ if ${ac_cv_lib_cups_cupsServer+:} false; then :
    $as_echo_n "(cached) " >&6
  else
    ac_check_lib_save_LIBS=$LIBS

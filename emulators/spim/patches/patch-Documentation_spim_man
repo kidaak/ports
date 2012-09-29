@@ -1,9 +1,0 @@
-$OpenBSD$
---- Documentation/spim.man.orig	Thu Oct 13 15:34:18 2005
-+++ Documentation/spim.man	Thu Oct 13 15:34:21 2005
-@@ -1,5 +1,4 @@
- .\" $Header$
--
- .TH spim 1
- .SH NAME
- spim \- A MIPS32 Simulator

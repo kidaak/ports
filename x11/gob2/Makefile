@@ -2,7 +2,7 @@
 
 COMMENT=		GTK+ Object Builder
 DISTNAME=		gob2-2.0.18
-REVISION=	0
+REVISION=	1
 
 CATEGORIES=		x11 devel
 

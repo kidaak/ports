@@ -4,7 +4,7 @@ COMMENT =	small, plain-text, DBMS written in Ruby
 
 DISTNAME =	KirbyBase-2.6
 PKGNAME =	${DISTNAME:L}
-REVISION =      4
+REVISION =      5
 CATEGORIES =	databases
 
 HOMEPAGE =	http://www.netpromi.com/kirbybase_ruby.html

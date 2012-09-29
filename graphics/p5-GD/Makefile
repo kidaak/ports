@@ -5,6 +5,7 @@ SHARED_ONLY =	Yes
 COMMENT =	module to interface with the GD graphics library
 
 DISTNAME =	GD-2.46
+REVISION =	0
 CATEGORIES =	graphics
 
 # perl
@@ -13,7 +14,7 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-WANTLIB =	fontconfig freetype jpeg m png z gd>=20.28
+WANTLIB =	c fontconfig freetype jpeg m png z gd>=20.28
 
 LIB_DEPENDS =	graphics/gd
 

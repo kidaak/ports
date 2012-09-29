@@ -8,6 +8,9 @@ DISTNAME =		zint-${V}
 PKGNAME-main = 		${DISTNAME}
 PKGNAME-x11 = 		zint-gui-${V}
 
+REVISION-main =		0
+REVISION-x11 =		0
+
 SHARED_ONLY = 		Yes
 
 SHARED_LIBS += 		QZint	0.0 # 2.4
@@ -25,7 +28,7 @@ PERMIT_DISTFILES_FTP =	Yes
 
 cWANTLIB = 		c m png z
 WANTLIB-main = 		${cWANTLIB}
-WANTLIB-x11 = 		${cWANTLIB} QtCore QtGui QtXml pthread stdc++ zint
+WANTLIB-x11 = 		${cWANTLIB} QtCore QtGui QtXml stdc++ zint
 
 MASTER_SITES =		${MASTER_SITE_SOURCEFORGE:=zint/}
 
@@ -33,7 +36,7 @@ MODULES =		devel/cmake
 
 CONFIGURE_ARGS =	-DCMAKE_BUILD_TYPE=RELEASE
 
-LIB_DEPENDS = 		graphics/png
+LIB_DEPENDS-main = 		graphics/png
 
 MULTI_PACKAGES = 	-main
 

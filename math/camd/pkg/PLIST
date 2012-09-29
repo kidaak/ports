@@ -1,6 +1,5 @@
 @comment $OpenBSD$
 %%SHARED%%
-%%no_mips64%%
 include/camd/
 include/camd/camd.h
 lib/libcamd.a

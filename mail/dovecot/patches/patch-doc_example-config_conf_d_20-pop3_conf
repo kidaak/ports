@@ -1,7 +1,7 @@
 $OpenBSD$
---- doc/example-config/conf.d/20-pop3.conf.orig	Tue Mar 22 15:09:10 2011
-+++ doc/example-config/conf.d/20-pop3.conf	Tue Mar 22 15:09:44 2011
-@@ -82,5 +82,5 @@ protocol pop3 {
+--- doc/example-config/conf.d/20-pop3.conf.orig	Mon May 14 14:07:32 2012
++++ doc/example-config/conf.d/20-pop3.conf	Fri Jun  1 16:26:41 2012
+@@ -87,5 +87,5 @@ protocol pop3 {
    #     Outlook Express and Netscape Mail breaks if end of headers-line is
    #     missing. This option simply sends it if it's missing.
    # The list is space-separated.

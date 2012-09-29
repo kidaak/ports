@@ -1,7 +1,7 @@
 $OpenBSD$
---- test.sh.orig	Sun Jan  8 14:40:55 2012
-+++ test.sh	Mon Jan  9 09:29:04 2012
-@@ -1801,7 +1801,7 @@ fi
+--- test.sh.orig	Sat Aug 11 10:03:17 2012
++++ test.sh	Sun Aug 12 14:20:16 2012
+@@ -1822,7 +1822,7 @@ fi
  
  compiler_version="`$COMPILER --version 2>&1 | head -1`"
  case $compiler_version in

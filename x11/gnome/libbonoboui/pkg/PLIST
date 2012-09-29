@@ -48,8 +48,8 @@ lib/libbonoboui-2.a
 lib/libbonoboui-2.la
 lib/libglade/
 lib/libglade/2.0/
-lib/libglade/2.0/libbonobo.a
-lib/libglade/2.0/libbonobo.la
+@comment lib/libglade/2.0/libbonobo.a
+@comment lib/libglade/2.0/libbonobo.la
 lib/pkgconfig/
 lib/pkgconfig/libbonoboui-2.0.pc
 share/applications/bonobo-browser.desktop

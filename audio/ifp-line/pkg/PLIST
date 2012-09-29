@@ -1,3 +1,0 @@
-@comment $OpenBSD$
-bin/ifp
-@man man/man1/ifp.1

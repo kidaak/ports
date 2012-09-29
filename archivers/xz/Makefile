@@ -4,10 +4,10 @@ NOT_FOR_ARCHS=	${GCC2_ARCHS}
 
 COMMENT=	LZMA compression and decompression tools
 
-DISTNAME=	xz-5.0.3
-REVISION=	1
-SHARED_LIBS=	lzma                 1.0      # .5.3
+DISTNAME=	xz-5.0.4
+SHARED_LIBS=	lzma                 1.0      # .5.4
 CATEGORIES=	archivers
+DPB_PROPERTIES=	parallel
 
 HOMEPAGE=	http://tukaani.org/xz/
 

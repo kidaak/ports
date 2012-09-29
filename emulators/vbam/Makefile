@@ -4,6 +4,7 @@ COMMENT =		emulator for Nintendo Game Boy (Color/Advance)
 
 DISTNAME =		vbam-1.8.0.1054-src
 PKGNAME =		${DISTNAME:S/-src//}
+REVISION=		1
 
 CATEGORIES =		emulators
 
@@ -41,7 +42,7 @@ NO_REGRESS =		Yes
 WRKDIST =		${WRKDIR}/${DISTNAME:S/-src//}
 
 # requires posix_openpt
-CONFIGURE_ARGS +=	-DENABLE_WX=OFF
+CONFIGURE_ARGS +=	-DENABLE_WX=OFF -DENABLE_FFMPEG=OFF
 
 VMEM_WARNING =		Yes
 

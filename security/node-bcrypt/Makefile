@@ -1,12 +1,11 @@
 # $OpenBSD$
 
-COMMENT =	bcrypt hashing library for nodejs
+COMMENT =	bcrypt hashing library for Node.js
 
-NPM_VERSION =	0.5.0
+NPM_VERSION =	0.6.0
 NPM_NAME =	bcrypt
+REVISION =	0
 CATEGORIES =	security
-
-REVISION =	2
 
 MAINTAINER =	Jeremy Evans <jeremy@openbsd.org>
 

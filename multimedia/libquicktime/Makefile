@@ -5,6 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	library for reading and writing QuickTime files
 
 DISTNAME=	libquicktime-1.2.4
+REVISION=	0
 CATEGORIES=	multimedia
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=libquicktime/}
 
@@ -55,7 +56,6 @@ CONFIGURE_ARGS=	--enable-gpl \
 		--without-faac
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include -I${LOCALBASE}/include/libpng -I${X11BASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib -L${X11BASE}/lib" \
-		ac_cv_search_pthread_create=-pthread \
 		ac_cv_lib_ossaudio__oss_ioctl=no \
 		ac_cv_header_soundcard_h=no
 

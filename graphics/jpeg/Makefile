@@ -1,11 +1,12 @@
 # $OpenBSD$
 
-COMMENT=	IJG's JPEG compression utilities
+COMMENT=	IJG's JPEG compression utilities #'
 
 V=		8c
 DISTNAME=	jpeg-$V
 SHARED_LIBS=	jpeg	64.0	# 11.0
 CATEGORIES=	graphics
+DPB_PROPERTIES=	parallel
 HOMEPAGE=	http://www.ijg.org/
 
 # BSD-style

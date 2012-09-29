@@ -3,6 +3,7 @@
 COMMENT =	generate random strings from most regular expressions
 
 DISTNAME =	randexp-0.1.6
+REVISION =	0
 CATEGORIES =	textproc
 
 # MIT
@@ -18,8 +19,5 @@ CONFIGURE_STYLE =	ruby gem
 REGRESS_DEPENDS =	devel/ruby-rcov,${MODRUBY_FLAVOR}
 MODRUBY_REGRESS =	rake rspec
 MODRUBY_REGRESS_TARGET = specs
-
-RUN_DEPENDS =		devel/ruby-parsetree
-BUILD_DEPENDS = 	${RUN_DEPENDS}
 
 .include <bsd.port.mk>

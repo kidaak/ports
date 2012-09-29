@@ -3,9 +3,9 @@
 COMMENT=		utility library for XKB
 
 GNOME_PROJECT=		libxklavier
-GNOME_VERSION=		5.2.1
+GNOME_VERSION=		5.3
 
-SHARED_LIBS +=  xklavier             17.0     # .17.0
+SHARED_LIBS +=  xklavier             17.0     # .19.0
 
 HOMEPAGE=		http://www.freedesktop.org/wiki/Software/LibXklavier
 
@@ -16,7 +16,7 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 WANTLIB += X11 Xext Xi ffi glib-2.0 gobject-2.0 gthread-2.0 m
-WANTLIB += pcre xcb xkbfile xml2 z
+WANTLIB += pcre xcb xkbfile xml2 z pthread
 
 MODULES=		devel/gettext \
 			x11/gnome

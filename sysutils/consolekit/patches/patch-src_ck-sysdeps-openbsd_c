@@ -1,7 +1,7 @@
 $OpenBSD$
---- src/ck-sysdeps-openbsd.c.orig	Tue Dec 20 20:17:24 2011
-+++ src/ck-sysdeps-openbsd.c	Tue Dec 20 20:18:44 2011
-@@ -0,0 +1,425 @@
+--- src/ck-sysdeps-openbsd.c.orig	Mon Jul  9 00:16:43 2012
++++ src/ck-sysdeps-openbsd.c	Mon Jul  9 00:17:46 2012
+@@ -0,0 +1,429 @@
 +/* -*- Mode: C; tab-width: 8; indent-tabs-mode: nil; c-basic-offset: 8 -*-
 + *
 + * Copyright (C) 2006 William Jon McCann <mccann@jhu.edu>
@@ -134,6 +134,10 @@ $OpenBSD$
 +
 +        int mib[] = { CTL_KERN, KERN_PROC, KERN_PROC_PID, pid,
 +                      sizeof(struct kinfo_proc), 0 };
++
++#ifndef nitems
++#define nitems(_a)      (sizeof((_a)) / sizeof((_a)[0]))
++#endif
 +
 +        if (sysctl(mib, nitems(mib), NULL, &len, NULL, 0) < 0)
 +            return FALSE;

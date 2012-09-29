@@ -4,7 +4,7 @@ COMMENT=		JSON implementation for Ruby
 
 DISTNAME=		json-1.5.3
 CATEGORIES=		converters
-REVISION =		1
+REVISION =		2
 
 HOMEPAGE=		http://json.rubyforge.org/
 

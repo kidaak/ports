@@ -2,8 +2,7 @@
 
 COMMENT =		List monad transformer and a List class
 
-DISTNAME =		List-0.4.0
-REVISION =		4
+DISTNAME =		List-0.4.2
 CATEGORIES =		devel
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>

@@ -4,6 +4,7 @@ COMMENT=	fine-grained privileges PolicyKit helper for CUPS
 
 DISTNAME=	cups-pk-helper-0.2.2
 EXTRACT_SUFX=	.tar.xz
+REVISION=	0
 
 CATEGORIES=	print sysutils
 
@@ -24,7 +25,7 @@ MODULES=	devel/gettext \
 		textproc/intltool
 
 LIB_DEPENDS=	sysutils/polkit \
-		print/cups
+		print/cups,-libs
 
 USE_GMAKE=	Yes
 

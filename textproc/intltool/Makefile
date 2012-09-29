@@ -22,7 +22,6 @@ BUILD_DEPENDS=		textproc/p5-XML-Parser
 
 CONFIGURE_STYLE= 	gnu
 
-USE_GROFF=		Yes
 USE_GMAKE=		Yes
 PKG_ARCH=		*
 

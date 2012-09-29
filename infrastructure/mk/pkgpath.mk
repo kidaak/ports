@@ -9,7 +9,6 @@ PORTSDIR_PATH ?= ${PORTSDIR}:${PORTSDIR}/mystuff
 TMPDIR ?= /tmp
 READMES_TOP ?= ${PORTSDIR}
 DANGEROUS ?= No
-LOCKDIR ?= ${TMPDIR}/portslocks
 
 _PERLSCRIPT = perl ${PORTSDIR}/infrastructure/bin
 

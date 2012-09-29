@@ -3,7 +3,7 @@
 COMMENT=		Ruby library to physically locate iPhones
 
 DISTNAME=		findmyiphone-0.2.0
-REVISION=		6
+REVISION=		7
 CATEGORIES=		geo
 
 HOMEPAGE=		http://github.com/mattb/findmyiphone

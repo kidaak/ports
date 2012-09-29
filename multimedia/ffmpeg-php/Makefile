@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	PHP support for FFmpeg
 
 DISTNAME=	ffmpeg-php-0.6.0
-REVISION=	12
+REVISION=	13
 EXTRACT_SUFX=	.tbz2
 CATEGORIES=	multimedia www
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=ffmpeg-php/}

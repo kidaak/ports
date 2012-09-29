@@ -3,6 +3,7 @@
 COMMENT =	relational algebra for ruby
 
 DISTNAME =	arel-2.2.1
+REVISION =	0
 CATEGORIES =	databases
 
 HOMEPAGE =	https://github.com/rails/arel

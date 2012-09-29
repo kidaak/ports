@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libsoup-gnome-${API_VERSION}.so.${LIBsoup-gnome-2.4_VERSION}

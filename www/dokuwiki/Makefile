@@ -2,9 +2,10 @@
 
 COMMENT =	standards compliant, simple to use Wiki
 
-VERSION =	2012-01-25a
+VERSION =	2012-01-25b
 DISTNAME = 	dokuwiki-${VERSION}
 PKGNAME = 	dokuwiki-${VERSION:S/-/./g}
+REVISION =	0
 CATEGORIES =	www
 HOMEPAGE =	http://www.dokuwiki.org/dokuwiki
 

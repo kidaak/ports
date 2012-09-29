@@ -2,7 +2,7 @@
 
 COMMENT=	PDF, PS and EPS viewer for GNUstep
 
-DISTNAME=	GSPdf-0.4
+DISTNAME=	GSPdf-0.5
 REVISION =	0
 
 HOMEPAGE=	http://gap.nongnu.org/gspdf/

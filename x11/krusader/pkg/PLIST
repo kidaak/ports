@@ -264,9 +264,9 @@ share/locale/zh_CN/LC_MESSAGES/krusader.mo
 share/services/iso.protocol
 share/services/krarc.protocol
 share/services/virt.protocol
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/crystalsvg 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/crystalsvg 2>/dev/null || true
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/locolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/locolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/crystalsvg
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/crystalsvg
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/locolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/locolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

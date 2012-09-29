@@ -3,7 +3,7 @@
 COMMENT =	DataMapper plugin constraining relationships
 
 DISTNAME =	dm-constraints-${VERSION}
-REVISION =	1
+REVISION =	2
 
 RUN_DEPENDS =	databases/ruby-datamapper/core,${MODRUBY_FLAVOR}${DM_REL_VER_SPEC} \
 		databases/ruby-datamapper/migrations,${MODRUBY_FLAVOR}${DM_REL_VER_SPEC}

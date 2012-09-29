@@ -3,7 +3,7 @@
 COMMENT=		Foomatic PPD generator
 
 DISTNAME=		foomatic-db-engine-4.0.8
-REVISION=		0
+REVISION=		2
 CATEGORIES=		print
 
 HOMEPAGE=		http://www.linux-foundation.org/en/OpenPrinting/Database/Foomatic
@@ -23,7 +23,6 @@ MODULES=		converters/libiconv
 
 LIB_DEPENDS=		textproc/libxml
 RUN_DEPENDS=		print/foomatic-filters \
-			print/foomatic-db \
 			databases/p5-DBI \
 			curl-*|wget-*:net/curl
 WANTLIB=		c m xml2>=8 z

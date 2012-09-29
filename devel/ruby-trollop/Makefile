@@ -3,6 +3,7 @@
 COMMENT =	Ruby commandline parsing library
 
 DISTNAME =	trollop-1.16.2
+REVISION =	0
 
 CATEGORIES =	devel
 

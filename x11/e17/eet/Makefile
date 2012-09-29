@@ -2,6 +2,7 @@
 
 COMMENT =		library to write an arbitary set of chunks of data to a file
 DISTNAME =		eet-1.4.0
+REVISION =		0
 
 EPOCH =			2
 
@@ -13,9 +14,7 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-WANTLIB += c crypto eina jpeg m pthread ssl z
-
-MODULES =		converters/libiconv
+WANTLIB += c crypto eina jpeg m pthread z
 
 LIB_DEPENDS =		x11/e17/eina>=1.0 \
 			graphics/jpeg

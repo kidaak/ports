@@ -3,7 +3,7 @@
 COMMENT=	ruby library to provide colorspace support
 
 DISTNAME=	color-tools-1.3.0
-REVISION=	5
+REVISION=	6
 CATEGORIES=	devel
 
 # mit

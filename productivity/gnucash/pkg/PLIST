@@ -97,6 +97,7 @@ include/gnucash/gnc-entry-quickfill.h
 include/gnucash/gnc-euro.h
 include/gnucash/gnc-event.h
 include/gnucash/gnc-exp-parser.h
+include/gnucash/gnc-features.h
 include/gnucash/gnc-file.h
 include/gnucash/gnc-frequency.h
 include/gnucash/gnc-general-search.h
@@ -345,7 +346,7 @@ libexec/gnucash/overrides/gnucash-make-guids
 libexec/gnucash/overrides/guile
 @man man/man1/gnucash.1
 share/applications/gnucash.desktop
-share/examples/gnucach/
+share/examples/gnucash/
 @sample ${SYSCONFDIR}/gnucash/
 share/examples/gnucash/config
 @sample ${SYSCONFDIR}/gnucash/config
@@ -950,6 +951,9 @@ share/gnucash/accounts/sk/acctchrt_renter.gnucash-xea
 share/gnucash/accounts/sk/acctchrt_retiremt.gnucash-xea
 share/gnucash/accounts/sk/acctchrt_spouseinc.gnucash-xea
 share/gnucash/accounts/sk/acctchrt_spouseretire.gnucash-xea
+share/gnucash/accounts/sv_SE/
+share/gnucash/accounts/sv_SE/bas_2012.gnucash-xea
+share/gnucash/accounts/sv_SE/swedish_small_business.gnucash-xea
 share/gnucash/accounts/tr_TR/
 share/gnucash/accounts/tr_TR/acctchrt_TEKDUZ.gnucash-xea
 share/gnucash/accounts/tr_TR/acctchrt_brokerage.gnucash-xea
@@ -1371,7 +1375,7 @@ ${SCHEMAS_INSTDIR}/apps_gnucash_warnings.schemas
 ${SCHEMAS_INSTDIR}/apps_gnucash_window_pages_account_tree.schemas
 ${SCHEMAS_INSTDIR}/apps_gnucash_window_pages_register.schemas
 @exec GCONF_CONFIG_SOURCE=`%D/bin/gconftool-2 --get-default-source` %D/bin/gconftool-2 --makefile-install-rule %D/${SCHEMAS_INSTDIR}/*.schemas > /dev/null
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

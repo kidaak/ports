@@ -5,7 +5,7 @@ COMMENT=	real-time strategy game
 V=		2.6.1
 DISTNAME=	boswars-${V}-src
 PKGNAME=	boswars-${V}
-REVISION=	0
+REVISION=	3
 CATEGORIES=	games x11
 
 HOMEPAGE=	http://www.boswars.org/

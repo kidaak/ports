@@ -1,4 +1,5 @@
 @comment $OpenBSD$
+@bin bin/aacs_info
 include/libaacs/
 include/libaacs/aacs-version.h
 include/libaacs/aacs.h

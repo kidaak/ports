@@ -32,6 +32,7 @@ ${DRUPAL_MODS}devel/devel_generate/list.devel_generate.inc
 ${DRUPAL_MODS}devel/devel_generate/number.devel_generate.inc
 ${DRUPAL_MODS}devel/devel_generate/taxonomy.devel_generate.inc
 ${DRUPAL_MODS}devel/devel_generate/text.devel_generate.inc
+${DRUPAL_MODS}devel/devel_krumo_path.js
 ${DRUPAL_MODS}devel/devel_node_access.api.php
 ${DRUPAL_MODS}devel/devel_node_access.info
 ${DRUPAL_MODS}devel/devel_node_access.install

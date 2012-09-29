@@ -3,7 +3,7 @@
 COMMENT =	extra types for DataMapper models
 
 DISTNAME =	dm-types-${VERSION}
-REVISION =	1
+REVISION =	2
 
 RUN_DEPENDS =	databases/ruby-datamapper/core,${MODRUBY_FLAVOR}${DM_REL_VER_SPEC} \
 		converters/ruby-json,${MODRUBY_FLAVOR}>=1.4,<2.0 \

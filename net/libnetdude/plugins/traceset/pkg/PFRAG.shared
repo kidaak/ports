@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-lib/libnetdude/plugins/libnd_traceset.so

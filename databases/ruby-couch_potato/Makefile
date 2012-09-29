@@ -3,7 +3,7 @@
 COMMENT =	CouchDB persistence layer written in Ruby
 
 DISTNAME =	couch_potato-0.2.12
-REVISION =	4
+REVISION =	5
 CATEGORIES =	databases
 
 HOMEPAGE =	http://github.com/langalex/couch_potato/

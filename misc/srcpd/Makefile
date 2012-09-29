@@ -4,7 +4,7 @@ COMMENT =	daemon to control digital model railroad systems
 
 DISTNAME =	srcpd-2.1.1
 CATEGORIES =	misc net
-REVISION =	4
+REVISION =	5
 
 HOMEPAGE =	http://srcpd.sourceforge.net/
 MASTER_SITES =	${MASTER_SITE_SOURCEFORGE:=srcpd/}
@@ -22,7 +22,7 @@ WANTLIB += 		c m pthread z xml2
 LIB_DEPENDS +=		textproc/libxml
 
 AUTOCONF_VERSION =	2.64
-CONFIGURE_STYLE =	gnu
+CONFIGURE_STYLE =	autoconf
 
 FAKE_FLAGS =		sysconfdir=${PREFIX}/share/examples/srcpd
 

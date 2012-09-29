@@ -2,7 +2,7 @@
 
 COMMENT=		client of the Tryton application platform
 
-MODPY_EGG_VERSION =	2.4.0
+MODPY_EGG_VERSION =	2.4.1
 DISTNAME=		tryton-${MODPY_EGG_VERSION}
 
 CATEGORIES=		x11

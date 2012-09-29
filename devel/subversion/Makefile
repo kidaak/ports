@@ -7,7 +7,7 @@ COMMENT-ruby=		ruby interface to subversion
 COMMENT-ap2=		apache2 subversion modules
 COMMENT-gnome-keyring=	GNOME keyring support for subversion
 
-VERSION=		1.7.5
+VERSION=		1.7.6
 DISTNAME=		subversion-${VERSION}
 PKGNAME-main=		${DISTNAME}
 FULLPKGNAME-perl=	p5-SVN-${VERSION}
@@ -56,7 +56,7 @@ FLAVOR += no_perl no_python no_ruby
 
 MODULES=	devel/gettext lang/python
 
-WANTLIB=	expat magic z
+WANTLIB=	expat magic pthread z
 
 # autogen.sh checks for libtoolize
 BUILD_DEPENDS=	${MODGNU_AUTOCONF_DEPENDS} \
@@ -73,7 +73,7 @@ LIB_DEPENDS-main = ${LIB_DEPENDS} \
 		devel/libmagic
 
 WANTLIB-main=	${WANTLIB} asn1 c crypto db gssapi krb5 ssl \
-		neon>=26 pthread apr-1 aprutil-1 sasl2>=2 sqlite3 \
+		neon>=26 apr-1 aprutil-1 sasl2>=2 sqlite3 \
 		m proxy stdc++
 RUN_DEPENDS-main= ${MODGETTEXT_RUN_DEPENDS}
 
@@ -98,7 +98,7 @@ NOT_FOR_ARCHS-perl = ${NO_SHARED_ARCHS}
 NOT_FOR_ARCHS-python = ${NO_SHARED_ARCHS}
 NOT_FOR_ARCHS-ruby = ${NO_SHARED_ARCHS}
 
-WANTLIB-perl=		${WANTLIB} apr-1 aprutil-1 sqlite3
+WANTLIB-perl=		${WANTLIB} apr-1 aprutil-1 sqlite3 
 RUN_DEPENDS-perl=	${MODGETTEXT_RUN_DEPENDS}
 LIB_DEPENDS-perl=	${MODGETTEXT_LIB_DEPENDS} ${MAINSPEC}
 .for _lib in svn_diff-1 svn_ra-1 svn_delta-1 svn_subr-1 svn_fs-1 \
@@ -134,7 +134,6 @@ LIB_DEPENDS-gnome-keyring= ${MAINSPEC} \
 
 RUN_DEPENDS-gnome-keyring=	${MODGETTEXT_RUN_DEPENDS}
 
-CFLAGS+=	-pthread
 MAKE_FLAGS=	MAKE=${MAKE_PROGRAM}
 USE_LIBTOOL=	Yes
 AUTOCONF_VERSION=2.64

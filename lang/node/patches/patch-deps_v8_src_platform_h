@@ -1,4 +1,8 @@
 $OpenBSD$
+
+This patch can be removed when node has has r12522 of v8 as a dep.
+ - https://code.google.com/p/v8/source/detail?r=12522
+
 --- deps/v8/src/platform.h.orig	Tue Nov  8 18:35:23 2011
 +++ deps/v8/src/platform.h	Tue Nov  8 18:39:05 2011
 @@ -88,7 +88,11 @@ namespace internal {

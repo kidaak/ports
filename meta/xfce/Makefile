@@ -8,6 +8,7 @@ PKGNAME=	xfce-${V}
 
 PKGNAME-main =		xfce-${V}
 PKGNAME-extras =	xfce-extras-${V}
+REVISION-extras = 0
 
 MAINTAINER =	Landry Breuil <landry@openbsd.org>
 
@@ -76,6 +77,7 @@ RUN_DEPENDS-extras += \
 		x11/xfce4/xfce4-systemload \
 		x11/xfce4/xfce4-time-out \
 		x11/xfce4/xfce4-verve \
-		x11/xfce4/xfce4-wavelan
+		x11/xfce4/xfce4-wavelan \
+		x11/xfce4/xfce4-weather
 
 .include <bsd.port.mk>

@@ -3,7 +3,7 @@
 COMMENT=	PHP interface to memcached
 
 DISTNAME=	memcache-3.0.6
-REVISION=	0
+REVISION=	3
 MAINTAINER=	William Yodlowsky <william@openbsd.org>
 
 # PHP

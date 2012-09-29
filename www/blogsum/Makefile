@@ -3,7 +3,7 @@
 COMMENT =		simple weblog
 
 DISTNAME =		blogsum-1.1
-REVISION =		1
+REVISION =		2
 CATEGORIES =		www
 HOMEPAGE =		http://blogsum.obfuscurity.com/
 

@@ -2,7 +2,7 @@
 
 COMMENT=	rather neat animated clock
 
-DISTNAME=	xdaliclock-2.23
+DISTNAME=	xdaliclock-2.36
 CATEGORIES=	x11
 
 HOMEPAGE=	http://www.jwz.org/xdaliclock/

@@ -16,6 +16,9 @@ PERMIT_DISTFILES_FTP =	Yes
 
 MASTER_SITES =	${HOMEPAGE}/files/
 
+# gource automake Makefiles are broken; CPPFLAGS does not work.
+CFLAGS+=	-I${LOCALBASE}/include
+
 CONFIGURE_STYLE =	gnu noman
 
 WANTLIB += GL GLEW GLU SDL SDL_image c freetype m pcre pthread

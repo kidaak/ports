@@ -9,7 +9,8 @@ xcache/admin/common-en.lang.php
 xcache/admin/common-zh-simplified-utf-8.lang.php
 xcache/admin/common-zh-traditional-utf-8.lang.php
 xcache/admin/common.php
-xcache/admin/config.php.example
+xcache/admin/config.default.php
+xcache/admin/config.example.php
 xcache/admin/edit.php
 xcache/admin/edit.tpl.php
 xcache/admin/footer.tpl.php

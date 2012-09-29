@@ -4,7 +4,7 @@ SHARED_ONLY=		Yes
 
 COMMENT=		MySQL drivers for the Perl DBI
 
-DISTNAME=		DBD-mysql-4.021
+DISTNAME=		DBD-mysql-4.022
 CATEGORIES=		databases
 
 MAINTAINER=		Giovanni Bechis <giovanni@openbsd.org>
@@ -16,7 +16,8 @@ PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
-WANTLIB=		crypto m ssl z
+
+WANTLIB=		c crypto m ssl z
 
 BUILD_DEPENDS=		databases/p5-DBI>=1.08
 RUN_DEPENDS=		databases/p5-DBI>=1.08

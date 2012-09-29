@@ -3,6 +3,7 @@
 COMMENT=	wiki-based system for collaborative creation of websites
 
 DISTNAME=	pmwiki-2.2.35
+REVISION=	0
 EXTRACT_SUFX=	.tgz
 
 CATEGORIES=	www

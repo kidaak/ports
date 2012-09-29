@@ -4,7 +4,7 @@ SHARED_ONLY =	Yes
 
 COMMENT =	pure-Java implementation of the Ruby language
 
-V =		1.6.7.2
+V =		1.6.8
 DISTNAME =	jruby-src-${V}
 PKGNAME =	jruby-${V}
 CATEGORIES =	lang lang/ruby
@@ -21,6 +21,8 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM = Yes
 PERMIT_DISTFILES_FTP =	Yes
 
+WANTLIB += c m pthread stdc++
+
 MASTER_SITES =	http://jruby.org.s3.amazonaws.com/downloads/${V}/
 MASTER_SITES0 =	http://distfiles.bsdfrog.org/
 
@@ -28,8 +30,6 @@ MODULES =	java
 MODJAVA_VER =	1.7+
 MODJAVA_JRERUN = Yes
 USE_GMAKE =	Yes
-
-WANTLIB =	c m stdc++
 
 BUILD_DEPENDS =	devel/apache-ant \
 		shells/bash \

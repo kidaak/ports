@@ -2,7 +2,7 @@
 
 COMMENT=	GNU versions of grep pattern matching utilities
 
-DISTNAME=	grep-2.12
+DISTNAME=	grep-2.14
 CATEGORIES=	sysutils
 HOMEPAGE=	http://www.gnu.org/software/grep/grep.html
 

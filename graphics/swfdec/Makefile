@@ -3,7 +3,7 @@
 COMMENT=	flash rendering library
 
 DISTNAME=	swfdec-0.8.4
-REVISION=	5
+REVISION=	7
 SHARED_LIBS +=	swfdec-0.8           0.0      # .90.0
 SHARED_LIBS +=	swfdec-gtk-0.8       0.0      # .90.0
 CATEGORIES=	graphics
@@ -34,7 +34,7 @@ LIB_DEPENDS=	devel/libsoup \
 		multimedia/gstreamer-0.10/plugins-base \
 		x11/gtk+2
 
-RUN_DEPENDS=	multimedia/gstreamer-0.10/plugins-bad \
+RUN_DEPENDS=	multimedia/gstreamer-0.10/plugins-good \
 		multimedia/gstreamer-0.10/plugins-ugly \
 		multimedia/gstreamer-0.10/plugins-ffmpeg
 MODULES=	devel/gettext

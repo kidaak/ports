@@ -3,7 +3,7 @@
 COMMENT=	console RSS aggregator
 
 DISTNAME=	raggle-0.4.4
-REVISION =	4
+REVISION =	5
 
 CATEGORIES=	www news
 
@@ -18,7 +18,7 @@ PERMIT_DISTFILES_FTP=	Yes
 MASTER_SITES=	${HOMEPAGE}/files/
 
 MODULES=	lang/ruby
-RUN_DEPENDS=	devel/ruby-ncurses
+RUN_DEPENDS=	devel/ruby-ncurses,${MODRUBY_FLAVOR}
 BUILD_DEPENDS+=${MODRUBY_BUILD_DEPENDS}
 
 NO_REGRESS=	Yes

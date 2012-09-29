@@ -4,7 +4,7 @@ COMMENT=	editor for the GConf configuration system
 
 GNOME_PROJECT=	gconf-editor
 GNOME_VERSION=	3.0.1
-REVISION=	0
+REVISION=	1
 
 CATEGORIES=	devel x11
 

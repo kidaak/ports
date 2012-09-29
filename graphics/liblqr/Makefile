@@ -7,7 +7,7 @@ HOMEPAGE = 			http://liblqr.wikidot.com/
 DISTNAME = 			liblqr-1-0.1.0-5
 PKGNAME = 			liblqr-0.1.0.5
 WRKDIST =			${WRKDIR}/liblqr-1-0.1.0
-REVISION =			1
+REVISION =			2
 MASTER_SITES =			${HOMEPAGE}local--files/en:download-page/
 
 # Library is LGPLv3, examples are GPLv3

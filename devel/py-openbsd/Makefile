@@ -5,7 +5,7 @@ COMMENT=	specific Python bindings for OpenBSD
 V=		0.1.2
 DISTNAME=	pyopenbsd-${V}
 PKGNAME=	py-openbsd-${V}
-REVISION=	10
+REVISION=	11
 CATEGORIES=	devel
 
 HOMEPAGE=	http://dev.nullcube.com/

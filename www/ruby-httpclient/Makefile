@@ -3,7 +3,7 @@
 COMMENT =	library to access web resources via HTTP
 
 DISTNAME =	httpclient-2.1.5.2
-REVISION =	4
+REVISION =	5
 CATEGORIES =	www
 
 HOMEPAGE =	http://dev.ctor.org/http-access2/

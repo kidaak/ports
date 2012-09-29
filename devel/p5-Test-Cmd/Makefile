@@ -3,10 +3,8 @@
 COMMENT=	perl module for portable testing of commands and scripts
 
 DISTNAME=	Test-Cmd-1.05
-REVISION=	0
+REVISION=	1
 CATEGORIES=	devel
-
-MAINTAINER=	Sebastian Trahm <basti@schleifi.com>
 
 # perl
 PERMIT_PACKAGE_CDROM=	Yes
@@ -15,6 +13,5 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 MODULES=cpan
-USE_GROFF =	Yes
 
 .include <bsd.port.mk>

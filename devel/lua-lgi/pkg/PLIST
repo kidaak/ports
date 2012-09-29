@@ -1,6 +1,6 @@
 @comment $OpenBSD$
 lib/lua/${MODLUA_VERSION}/lgi/
-lib/lua/${MODLUA_VERSION}/lgi/corelgilua51.so
+lib/lua/${MODLUA_VERSION}/lgi/corelgi${MODLUA_DEP}.so
 share/examples/${FULLPKGNAME}/
 share/examples/${FULLPKGNAME}/cairo.lua
 share/examples/${FULLPKGNAME}/clutterdemo.lua

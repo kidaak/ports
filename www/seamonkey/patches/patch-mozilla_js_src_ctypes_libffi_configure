@@ -1,6 +1,6 @@
 $OpenBSD$
---- mozilla/js/src/ctypes/libffi/configure.orig	Sat Apr 21 00:40:07 2012
-+++ mozilla/js/src/ctypes/libffi/configure	Wed Apr 25 17:50:16 2012
+--- mozilla/js/src/ctypes/libffi/configure.orig	Mon Aug 27 06:49:15 2012
++++ mozilla/js/src/ctypes/libffi/configure	Sat Sep  1 02:04:12 2012
 @@ -11213,7 +11213,7 @@ case "$host" in
  	TARGET=FRV; TARGETDIR=frv
  	;;
@@ -14,7 +14,7 @@ $OpenBSD$
    mips-sgi-irix5.* | mips-sgi-irix6.*)
  	TARGET=MIPS; TARGETDIR=mips
  	;;
--  mips*-*-linux*)
+-  mips*-*linux*)
 +  mips*-*-linux* | mips*-*-openbsd* )
  	# Support 128-bit long double for NewABI.
  	HAVE_LONG_DOUBLE='defined(__mips64)'

@@ -28,7 +28,6 @@ WANTLIB=		m z
 MODULES=		converters/libiconv
 
 USE_LIBTOOL=		Yes
-USE_GROFF =		Yes
 CONFIGURE_STYLE=	autoconf
 AUTOCONF_VERSION=	2.68 # should be 2.66
 CONFIGURE_ARGS+=	${CONFIGURE_SHARED}

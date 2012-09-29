@@ -3,9 +3,9 @@ $OpenBSD$
 Make sure try to compile/link with the right libtool,
 this overrides the --libtool option to girscanner.
 
---- giscanner/utils.py.orig	Tue Sep  7 16:25:05 2010
-+++ giscanner/utils.py	Thu Apr  7 12:52:18 2011
-@@ -107,22 +107,8 @@ def get_libtool_command(options):
+--- giscanner/utils.py.orig	Fri Jul 20 15:37:12 2012
++++ giscanner/utils.py	Thu Sep 20 13:02:31 2012
+@@ -110,22 +110,8 @@ def get_libtool_command(options):
      if not libtool_infection:
          return None
  
@@ -25,7 +25,7 @@ this overrides the --libtool option to girscanner.
 -        return None
 -
 -    return ['libtool']
-+    libtool_cmd = os.environ.get('LIBTOOL', '/usr/ports/infrastructure/bin/libtool')
++    libtool_cmd = os.environ.get('LIBTOOL', '/usr/bin/libtool')
 +    return libtool_cmd.split()
  
  

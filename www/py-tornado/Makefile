@@ -2,7 +2,7 @@
 
 COMMENT =		scalable, non-blocking web server
 
-MODPY_EGG_VERSION =	2.2.1
+MODPY_EGG_VERSION =	2.4
 DISTNAME =		tornado-${MODPY_EGG_VERSION}
 PKGNAME =		py-${DISTNAME}
 

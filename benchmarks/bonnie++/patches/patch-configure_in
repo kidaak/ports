@@ -10,23 +10,6 @@ $OpenBSD$
  
  AC_SUBST(linux_pthread)
  AC_TRY_COMPILE([#define _GNU_SOURCE
-@@ -72,15 +72,8 @@ if [[ -n "$linux_pthread" ]]; then
-    linux_pthread="#define LINUX_PTHREAD"
- fi
-  
--LDFLAGS=-lpthread
-+thread_ldflags="-pthread"
- AC_SUBST(thread_ldflags)
--AC_TRY_LINK([#include <pthread.h>
--void * thread_func(void * param) { return NULL; }
--] , [pthread_t thread_info;
--     pthread_attr_t attr;
--     pthread_create(&thread_info, &attr, &thread_func, NULL);]
--  , thread_ldflags="-lpthread"
--  , thread_ldflags="-pthread")
- 
- AC_SUBST(large_file)
- AC_TRY_RUN([#ifndef _LARGEFILE64_SOURCE
 @@ -89,9 +82,18 @@ AC_TRY_RUN([#ifndef _LARGEFILE64_SOURCE
  #include <stdio.h>
  #include <sys/types.h>

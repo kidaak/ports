@@ -8,16 +8,8 @@ V=		5.2.17
 SUHOSIN_PHPV=	5.2.16
 SUHOSIN_P_V=	0.9.7
 
-REVISION=		5
-REVISION-main=		9
-REVISION-fastcgi=	9
-REVISION-snmp=		6
-REVISION-gd=		6
-REVISION-pdo_sqlite =	6
-REVISION-dbase=		6
-REVISION-mhash=		6
-REVISION-ncurses=	6
-REVISION-sybase_ct=	6
+REVISION=		13
+REVISION-imap=		14
 
 INI_TEMPLATES=	dist recommended
 
@@ -26,27 +18,27 @@ MULTI_PACKAGES+=	-dbase
 COMMENT-dbase=		dBase database access extensions for php5
 CONFIGURE_ARGS+=	--enable-dbase=shared
 LIB_DEPENDS-dbase=
-WANTLIB-dbase=
+WANTLIB-dbase=		c pthread
 
 # mhash
 MULTI_PACKAGES+=	-mhash
 COMMENT-mhash=		mhash extensions for php5
 CONFIGURE_ARGS+=	--with-mhash=shared,${LOCALBASE}
 LIB_DEPENDS-mhash=	security/mhash
-WANTLIB-mhash=		mhash>=2
+WANTLIB-mhash=		c mhash>=2 pthread
 
 # ncurses
 MULTI_PACKAGES+=	-ncurses
 COMMENT-ncurses=	ncurses extensions for php5
 CONFIGURE_ARGS+=	--with-ncurses=shared,${LOCALBASE}
 LIB_DEPENDS-ncurses=
-WANTLIB-ncurses=	ncurses panel
+WANTLIB-ncurses=	c ncurses panel pthread
 
 # sybase-ct
 MULTI_PACKAGES+=	-sybase_ct
 COMMENT-sybase_ct=	sybase database access extensions for php5
 CONFIGURE_ARGS+=        --with-sybase-ct=shared,${LOCALBASE}
 LIB_DEPENDS-sybase_ct=	databases/freetds
-WANTLIB-sybase_ct=	ct
+WANTLIB-sybase_ct=	c ct pthread
 
 .include <bsd.port.mk>

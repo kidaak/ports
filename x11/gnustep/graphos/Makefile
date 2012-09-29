@@ -2,7 +2,7 @@
 
 COMMENT =	vector drawing application
 
-DISTNAME =	Graphos-0.2
+DISTNAME =	Graphos-0.3
 REVISION =	0
 CATEGORIES =	graphics
 

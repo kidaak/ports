@@ -33,7 +33,8 @@ CONFIGURE_ARGS=		--disable-threads \
 			--with-libpng --with-libpnginc=${LOCALBASE} \
 			--with-libxml --with-libxmlinc=${LOCALBASE}
 CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include" \
-			LDFLAGS="-L${LOCALBASE}/lib"
+			LDFLAGS="-L${LOCALBASE}/lib" \
+			ac_cv_prog_LIBTOOL=:
 MODGNU_CONFIG_GUESS_DIRS=${WRKSRC}/config
 FAKE_FLAGS=		DESTDIR=${WRKINST} \
 			etcdir=${WRKINST}${PREFIX}/share/examples/dcmtk \

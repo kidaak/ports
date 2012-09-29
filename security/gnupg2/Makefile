@@ -3,7 +3,7 @@
 COMMENT = 	gnu privacy guard - a free PGP replacement
 
 DISTNAME = 	gnupg-2.0.19
-REVISION =	0
+REVISION =	1
 CATEGORIES = 	security
 
 MASTER_SITES = 	ftp://ftp.gnupg.org/gcrypt/gnupg/ \
@@ -62,7 +62,7 @@ USE_GROFF =		Yes
 
 CONFIGURE_STYLE = 	gnu
 CONFIGURE_ENV = 	CPPFLAGS="-I${LOCALBASE}/include" \
-			LDFLAGS="-L${LOCALBASE}/lib -pthread"
+			LDFLAGS="-L${LOCALBASE}/lib"
 CONFIGURE_ARGS = 	docdir=${LOCALBASE}/share/doc/gnupg2 \
 			--enable-gpgtar
 

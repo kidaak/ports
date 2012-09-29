@@ -1,0 +1,5 @@
+@comment $OpenBSD$
+@bin bin/tinyscheme
+include/tinyscheme.h
+share/tinyscheme/
+share/tinyscheme/init.scm

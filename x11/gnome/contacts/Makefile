@@ -4,6 +4,7 @@ COMMENT=		contacts manager for GNOME
 
 GNOME_PROJECT=		gnome-contacts
 GNOME_VERSION=		3.4.1
+REVISION=	0
 
 CATEGORIES=		productivity
 

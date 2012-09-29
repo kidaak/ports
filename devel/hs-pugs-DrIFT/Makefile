@@ -2,8 +2,7 @@
 
 COMMENT =		DrIFT with pugs-specific rules
 
-DISTNAME =		pugs-DrIFT-2.2.3.1
-REVISION =		6
+DISTNAME =		pugs-DrIFT-2.2.3.20120203
 CATEGORIES =		devel
 HOMEPAGE =		http://pugscode.org/
 
@@ -20,7 +19,8 @@ MODGHC_BUILD =		cabal hackage haddock register
 
 BUILD_DEPENDS =		${RUN_DEPENDS}
 RUN_DEPENDS =		devel/hs-HsSyck \
-			devel/hs-mtl \
+			devel/hs-mtl>=0,<2.2.0.0 \
+			devel/hs-random \
 			devel/hs-stm
 
 .include <bsd.port.mk>

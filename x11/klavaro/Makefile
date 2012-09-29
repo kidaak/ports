@@ -3,7 +3,7 @@
 COMMENT =	touch typing tutor program
 
 DISTNAME =	klavaro-1.5.0
-REVISION =	3
+REVISION =	4
 
 CATEGORIES =	x11
 

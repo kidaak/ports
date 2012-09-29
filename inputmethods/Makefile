@@ -5,6 +5,7 @@ SUBDIR += anthy
 SUBDIR += ibus
 SUBDIR += ibus-anthy
 SUBDIR += ibus-skk
+SUBDIR += libskk
 SUBDIR += libtomoe-gtk
 SUBDIR += scim
 SUBDIR += scim-anthy

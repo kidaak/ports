@@ -2,7 +2,7 @@
 
 COMMENT =		Iteratee monad provides strict, safe, and functional I/O
 
-DISTNAME =		iteratee-0.8.8.1
+DISTNAME =		iteratee-0.8.8.2
 CATEGORIES =		devel
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>, \
@@ -19,9 +19,9 @@ MODULES =		lang/ghc
 MODGHC_BUILD =		cabal hackage haddock register
 
 RUN_DEPENDS +=		devel/hs-ListLike>=1.0,<4 \
-			devel/hs-MonadCatchIO-transformers>0.2,<0.3 \
+			devel/hs-MonadCatchIO-transformers>0.2,<0.4 \
 			devel/hs-parallel>=2,<4 \
-			devel/hs-transformers>=0.2,<0.3
+			devel/hs-transformers>=0.2,<0.4
 BUILD_DEPENDS +=	${RUN_DEPENDS}
 
 .include <bsd.port.mk>

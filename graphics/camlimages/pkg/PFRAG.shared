@@ -1,3 +1,0 @@
-@comment $OpenBSD$
-lib/ocaml/stublibs/dllcamlimages.so
-lib/ocaml/stublibs/dllcamlimages_core.so

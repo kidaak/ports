@@ -2,8 +2,7 @@
 
 COMMENT=	open source COBOL compiler
 
-DISTNAME=	open-cobol-1.0
-REVISION=	2
+DISTNAME=	open-cobol-1.1
 SHARED_LIBS +=	cob                  3.0      # .2.0
 CATEGORIES=	lang
 

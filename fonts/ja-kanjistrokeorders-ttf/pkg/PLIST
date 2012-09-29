@@ -2,6 +2,6 @@
 @pkgpath japanese/kanjistrokeorders-ttf
 lib/X11/fonts/
 @fontdir lib/X11/fonts/KanjiStrokeOrders/
-lib/X11/fonts/KanjiStrokeOrders/KanjiStrokeOrders_v2.015.ttf
+lib/X11/fonts/KanjiStrokeOrders/KanjiStrokeOrders_v3.000.ttf
 lib/X11/fonts/KanjiStrokeOrders/copyright.txt
-lib/X11/fonts/KanjiStrokeOrders/readme_en_v2.015.txt
+lib/X11/fonts/KanjiStrokeOrders/readme_en_v3.000.txt

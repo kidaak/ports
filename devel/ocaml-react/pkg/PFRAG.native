@@ -1,0 +1,5 @@
+@comment $OpenBSD$
+%%dynlink%%
+lib/ocaml/react/react.a
+lib/ocaml/react/react.cmx
+lib/ocaml/react/react.cmxa

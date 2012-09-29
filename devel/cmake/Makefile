@@ -6,8 +6,7 @@ BROKEN-arm =	build fails since move to gcc4
 HOMEPAGE =	http://www.cmake.org/
 CATEGORIES =	devel
 COMMENT =	portable build system
-DISTNAME =	cmake-2.8.8
-REVISION =	2
+DISTNAME =	cmake-2.8.9
 MASTER_SITES =	${HOMEPAGE}files/v2.8/
 
 MAINTAINER =	David Coppa <dcoppa@openbsd.org>
@@ -44,6 +43,7 @@ pre-configure:
 	${SUBST_CMD} ${WRKSRC}/Modules/CMakeDetermineJavaCompiler.cmake \
 		${WRKSRC}/Modules/FindJNI.cmake \
 		${WRKSRC}/Modules/FindJava.cmake \
+		${WRKSRC}/Modules/FindLuaLibs.cmake \
 		${WRKSRC}/Modules/FindMPEG.cmake \
 		${WRKSRC}/Modules/FindMPEG2.cmake \
 		${WRKSRC}/Modules/FindQt.cmake \

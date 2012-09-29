@@ -1,14 +1,12 @@
 $OpenBSD$
---- configure.orig	Thu Jan 12 04:11:55 2012
-+++ configure	Mon Jan 16 16:35:56 2012
-@@ -25308,8 +25308,8 @@ for ac_lib in '' pthread; do
-   if test -z "$ac_lib"; then
-     ac_res="none required"
-   else
--    ac_res=-l$ac_lib
--    LIBS="-l$ac_lib  $ac_func_search_save_LIBS"
-+    ac_res=-$ac_lib
-+    LIBS="-$ac_lib  $ac_func_search_save_LIBS"
-   fi
-   rm -f conftest.$ac_objext conftest$ac_exeext
- if { (ac_try="$ac_link"
+--- configure.orig	Thu Apr 26 10:27:12 2012
++++ configure	Thu Aug 16 18:00:15 2012
+@@ -15761,7 +15761,7 @@ fi
+ 	for ac_header in rpc/rpc.h rpc/pmap_prot.h rpcsvc/rquota.h
+ do :
+   as_ac_Header=`$as_echo "ac_cv_header_$ac_header" | $as_tr_sh`
+-ac_fn_c_check_header_mongrel "$LINENO" "$ac_header" "$as_ac_Header" "$ac_includes_default"
++ac_fn_c_check_header_mongrel "$LINENO" "$ac_header" "$as_ac_Header" "#include <rpc/rpc.h>"
+ if eval test \"x\$"$as_ac_Header"\" = x"yes"; then :
+   cat >>confdefs.h <<_ACEOF
+ #define `$as_echo "HAVE_$ac_header" | $as_tr_cpp` 1

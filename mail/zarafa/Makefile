@@ -1,7 +1,6 @@
 # $OpenBSD$
 
     SUBDIR =
-    SUBDIR += libvmime
     SUBDIR += webapp
     SUBDIR += zarafa
 

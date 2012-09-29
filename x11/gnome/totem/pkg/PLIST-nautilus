@@ -1,6 +1,4 @@
 @comment $OpenBSD$
-lib/nautilus/
-lib/nautilus/extensions-3.0/
 @comment lib/nautilus/extensions-3.0/libtotem-properties-page.a
 @comment lib/nautilus/extensions-3.0/libtotem-properties-page.la
 lib/nautilus/extensions-3.0/libtotem-properties-page.so

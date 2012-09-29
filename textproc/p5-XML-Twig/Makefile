@@ -2,7 +2,8 @@
 
 COMMENT=	perl module for parsing huge XML documents
 
-DISTNAME=	XML-Twig-3.38
+DISTNAME=	XML-Twig-3.41
+REVISION=	0
 CATEGORIES=	textproc
 
 HOMEPAGE=	http://www.xmltwig.com/xmltwig/
@@ -20,7 +21,9 @@ CPAN_AUTHOR=	MIROD
 
 USE_GROFF =	Yes
 
-RUN_DEPENDS=	textproc/p5-XML-Parser \
+RUN_DEPENDS=	devel/p5-Tie-IxHash \
+		textproc/p5-XML-Parser \
+		textproc/p5-XML-XPathEngine \
 		www/p5-HTML-Tidy \
 		www/p5-HTML-Tree
 BUILD_DEPENDS=	${RUN_DEPENDS}

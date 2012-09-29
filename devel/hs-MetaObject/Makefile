@@ -2,8 +2,7 @@
 
 COMMENT =		meta-object system for Haskell based on Perl 6
 
-DISTNAME =		MetaObject-0.0.6
-REVISION =		4
+DISTNAME =		MetaObject-0.0.6.20110925
 CATEGORIES =		devel
 
 # BSD3

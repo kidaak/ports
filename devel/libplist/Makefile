@@ -10,8 +10,8 @@ DISTNAME =		libplist-${VERSION}
 PKGNAME-main =		${DISTNAME}	
 PKGNAME-python =	py-plist-${VERSION}
 
-REVISION-main =		0
-REVISION-python =	0
+REVISION-main =		1
+REVISION-python =	1
 
 SHARED_LIBS +=		plist		0.0 # 1.1
 SHARED_LIBS +=		plist++		0.0 # 1.1

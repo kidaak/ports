@@ -3,7 +3,7 @@
 COMMENT =	aggregates support for DataMapper
 
 DISTNAME =	dm-aggregates-${VERSION}
-REVISION =	1
+REVISION =	2
 
 RUN_DEPENDS =	databases/ruby-datamapper/core,${MODRUBY_FLAVOR}${DM_REL_VER_SPEC}
 

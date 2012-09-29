@@ -4,6 +4,5 @@ include/GL/
 include/GL/glpng.h
 lib/libglpng.a
 lib/libglpng_p.a
-%%no_mips64%%
 share/doc/glpng/
 share/doc/glpng/glpng.html

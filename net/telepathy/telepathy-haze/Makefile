@@ -21,8 +21,4 @@ LIB_DEPENDS=		net/pidgin,-libpurple \
 
 MODPY_RUNDEP=		No
 
-CONFIGURE_STYLE=	gnu
-CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include" \
-			LDFLAGS="-L${LOCALBASE}/lib"
-
 .include <bsd.port.mk>

@@ -1,0 +1,12 @@
+$OpenBSD$
+--- plugins/musepack/musepack.c.orig	Fri Jun  8 21:59:04 2012
++++ plugins/musepack/musepack.c	Fri Jun  8 21:59:18 2012
+@@ -21,7 +21,7 @@
+ #include <limits.h>
+ #include <unistd.h>
+ #include <math.h>
+-#include "mpc/mpcdec.h"
++#include <mpc/mpcdec.h>
+ #ifdef HAVE_CONFIG_H
+ #  include <config.h>
+ #endif

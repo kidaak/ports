@@ -8,8 +8,8 @@ PKGNAME-main=	mdbtools-${DATE}
 PKGNAME-gmdb=	gmdb-${DATE}
 HOMEPAGE=	http://mdbtools.sourceforge.net/
 
-REVISION-main=	6
-REVISION-gmdb=	10
+REVISION-main=	7
+REVISION-gmdb=	11
 
 CATEGORIES=	databases converters
 MASTER_SITES=	ftp://quatramaran.ens.fr/pub/espie/

@@ -3,7 +3,7 @@
 COMMENT =	dependency-injection/inversion-of-control container for Ruby
 
 DISTNAME =	needle-1.3.0
-REVISION =	5
+REVISION =	6
 CATEGORIES =	devel
 
 # bsd/ruby

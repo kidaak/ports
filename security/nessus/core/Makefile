@@ -2,7 +2,7 @@
 
 COMMENT=	network security scanner
 DISTNAME=	nessus-core-${V}
-REVISION=	10
+REVISION=	11
 
 FLAVORS=	no_x11
 FLAVOR?=

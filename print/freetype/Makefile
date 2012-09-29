@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.6 1998/06/21 02:42:33 jseger Exp $
 
 COMMENT-main=	free and portable TrueType font rendering engine
 COMMENT-doc=	documentation for FreeType

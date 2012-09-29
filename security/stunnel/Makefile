@@ -2,8 +2,7 @@
 
 COMMENT=	SSL encryption wrapper for standard network daemons
 
-DISTNAME=	stunnel-4.50
-REVISION=	0
+DISTNAME=	stunnel-4.53
 CATEGORIES=	security
 
 MAINTAINER=     Stuart Henderson <sthen@openbsd.org>

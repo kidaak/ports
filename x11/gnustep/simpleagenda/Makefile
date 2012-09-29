@@ -3,6 +3,7 @@
 COMMENT=	calendaring application based on GNUstep
 
 VERSION =	0.42.2
+REVISION =	1
 DISTNAME=	SimpleAgenda-${VERSION}
 CATEGORIES+=	productivity
 

@@ -3,8 +3,7 @@
 COMMENT=	personal accounting application
 SHARED_ONLY =	Yes
 
-DISTNAME=	grisbi-0.8.1
-REVISION=	3
+DISTNAME=	grisbi-0.8.8
 
 CATEGORIES=	productivity x11
 

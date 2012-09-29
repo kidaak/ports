@@ -3,6 +3,7 @@
 COMMENT=		stackable dynamic tree based Rack router
 
 DISTNAME=		rack-mount-0.8.3
+REVISION =		0
 CATEGORIES=		www
 
 HOMEPAGE=		https://github.com/josh/rack-mount

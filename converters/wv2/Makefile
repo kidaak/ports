@@ -3,7 +3,7 @@
 COMMENT=	library functions to access Microsoft Word/Excel files
 
 DISTNAME=	wv2-0.2.3
-REVISION=	6
+REVISION=	7
 SHARED_LIBS +=	wv2                  3.0      # .1.8
 CATEGORIES=	converters
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=wvware/}

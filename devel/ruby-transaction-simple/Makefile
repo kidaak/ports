@@ -3,7 +3,7 @@
 COMMENT =	generic active transaction support for ruby objects
 
 DISTNAME =	transaction-simple-1.4.0
-REVISION =	6
+REVISION =	7
 CATEGORIES =	devel
 
 # mit

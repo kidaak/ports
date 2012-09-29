@@ -2,8 +2,7 @@
 
 COMMENT=	server for streaming various media formats
 
-DISTNAME=	icecast-2.3.2
-REVISION=	8
+DISTNAME=	icecast-2.3.3
 CATEGORIES=	net audio
 
 HOMEPAGE=	http://www.icecast.org/

@@ -1,7 +1,7 @@
 $OpenBSD$
---- net/base/network_change_notifier.cc.orig	Wed Dec  7 09:01:30 2011
-+++ net/base/network_change_notifier.cc	Tue Dec 13 21:23:12 2011
-@@ -64,7 +64,6 @@ NetworkChangeNotifier* NetworkChangeNotifier::Create()
+--- net/base/network_change_notifier.cc.orig	Tue Aug 14 09:01:30 2012
++++ net/base/network_change_notifier.cc	Wed Aug 15 23:14:35 2012
+@@ -71,7 +71,6 @@ NetworkChangeNotifier* NetworkChangeNotifier::Create()
  #elif defined(OS_MACOSX)
    return new NetworkChangeNotifierMac();
  #else

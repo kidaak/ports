@@ -11,8 +11,8 @@ SHARED_LIBS=	gpod	721.0	# 7.1
 CATEGORIES=	audio
 MASTER_SITES=   ${MASTER_SITE_SOURCEFORGE:=gtkpod/}
 
-REVISION-main=	2
-REVISION-python=1
+REVISION-main=	3
+REVISION-python=2
 
 HOMEPAGE=	http://www.gtkpod.org/libgpod/
 

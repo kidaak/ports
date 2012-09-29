@@ -3,13 +3,13 @@
 COMMENT=	GUI toolkit for X11
 
 DISTNAME=	xforms-1.0
-REVISION=	1
+REVISION=	2
 SHARED_LIBS=	flimage	1.0 \
 		forms	1.0 \
 		formsGL	1.0
 CATEGORIES=	x11
 
-HOMEPAGE=	http://world.std.com/~xforms/
+HOMEPAGE=	http://xforms-toolkit.org/
 
 MASTER_SITES=	${MASTER_SITE_SAVANNAH:=xforms/}
 
@@ -25,7 +25,8 @@ USE_GROFF =		Yes
 CONFIGURE_STYLE=	imake
 MAKE_FLAGS=		LIBflimage_VERSION=${LIBflimage_VERSION} \
 			LIBforms_VERSION=${LIBforms_VERSION} \
-			LIBformsGL_VERSION=${LIBformsGL_VERSION}
+			LIBformsGL_VERSION=${LIBformsGL_VERSION} \
+			OPTIMIZER="${CFLAGS}"
 
 BUILD_DEPENDS=		graphics/jpeg
 

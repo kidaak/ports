@@ -3,6 +3,7 @@
 COMMENT=		pure Ruby implementation of eRuby
 
 DISTNAME=		erubis-2.7.0
+REVISION =		0
 CATEGORIES=		textproc
 
 HOMEPAGE=		http://www.kuwata-lab.com/erubis/

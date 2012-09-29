@@ -2,9 +2,15 @@
 
 SHARED_ONLY?=		Yes
 
+DIST_SUBDIR=		clutter
+
 CATEGORIES+=		graphics/clutter x11
 
 HOMEPAGE?=		http://www.clutter-project.org/
+
+MAINTAINER?=		Jasper Lievisse Adriaanse <jasper@openbsd.org>, \
+			Antoine Jacoutot <ajacoutot@openbsd.org>
+
 
 # LGPLv2.1
 PERMIT_PACKAGE_CDROM?=  Yes
@@ -12,17 +18,14 @@ PERMIT_PACKAGE_FTP?=    Yes
 PERMIT_DISTFILES_CDROM?=Yes
 PERMIT_DISTFILES_FTP?=  Yes
 
-MASTER_SITES_CLUTTER?=	${HOMEPAGE}/sources/
-DIST_SUBDIR=		clutter
+MODULES +=		devel/gettext \
+			x11/gnome
 
-USE_GMAKE?=		Yes
-
-USE_LIBTOOL?=		Yes
 LIBTOOL_FLAGS?=		--tag=disable-static
 
 CONFIGURE_STYLE?=	gnu
-CONFIGURE_ARGS+=	--disable-shave
+CONFIGURE_ARGS +=	--disable-static
 
-API_VERSION?=		0.10
-MAJOR?=			1.0
+API_VERSION?=		1.0
+MAJOR?=			1.12
 SUBST_VARS?=		MAJOR API_VERSION

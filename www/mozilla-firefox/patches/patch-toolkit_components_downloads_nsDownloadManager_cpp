@@ -1,6 +1,6 @@
 $OpenBSD$
---- toolkit/components/downloads/nsDownloadManager.cpp.orig	Wed Apr 11 15:55:20 2012
-+++ toolkit/components/downloads/nsDownloadManager.cpp	Wed Apr 18 22:09:16 2012
+--- toolkit/components/downloads/nsDownloadManager.cpp.orig	Wed Aug 15 07:48:28 2012
++++ toolkit/components/downloads/nsDownloadManager.cpp	Sun Aug 19 13:50:39 2012
 @@ -1165,7 +1165,7 @@ nsDownloadManager::GetDefaultDownloadsDirectory(nsILoc
      rv = downloadDir->Exists(&exists);
      NS_ENSURE_SUCCESS(rv, rv);

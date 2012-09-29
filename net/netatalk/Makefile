@@ -4,8 +4,8 @@ SHARED_ONLY=	Yes
 
 COMMENT=	AFP file and print services for IP networks
 
-DISTNAME=	netatalk-2.2.2
-REVISION=	0
+DISTNAME=	netatalk-2.2.3
+REVISION=	2
 CATEGORIES=	net
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=netatalk/}
 EXTRACT_SUFX=	.tar.bz2
@@ -50,9 +50,6 @@ CONFIGURE_ARGS+= --disable-zeroconf
 
 NO_REGRESS=	Yes
 
-EXAMPLES=	AppleVolumes.default AppleVolumes.system netatalk.conf \
-		afpd.conf
-
 post-extract:
 	@${INSTALL} -m 555 ${FILESDIR}/krb5-config ${WRKDIR}/bin
 
@@ -61,12 +58,9 @@ post-build:
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/netatalk
-	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/netatalk
 	${INSTALL_DATA} ${WRKSRC}/doc/README.AppleTalk \
 	    ${PREFIX}/share/doc/netatalk
-.for i in ${EXAMPLES}
-	${INSTALL_DATA} ${WRKSRC}/config/$i ${PREFIX}/share/examples/netatalk
-.endfor
+	mv ${WRKINST}/etc/netatalk ${PREFIX}/share/examples/
 	@find ${PREFIX}/lib/netatalk/uams -name '*.a' -print | xargs rm
 	@find ${PREFIX}/lib/netatalk/uams -name '*.la' -print | xargs rm
 

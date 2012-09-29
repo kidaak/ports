@@ -2,8 +2,8 @@
 
 COMMENT=	a terminal emulator for GNUstep
 
-DISTNAME=	Terminal-0.9.7
-REVISION=	1
+DISTNAME=	Terminal-0.9.8
+REVISION =	0
 PKGNAME=	gnustep-${DISTNAME:L}
 CATEGORIES=	sysutils
 

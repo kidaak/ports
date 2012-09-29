@@ -3,6 +3,7 @@
 COMMENT=		open-source JPEG 2000 codec library
 
 DISTNAME=		openjpeg-1.5.0
+REVISION=		3
 
 SHARED_LIBS +=	openjpeg             5.0      # 6.0
 
@@ -18,7 +19,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM= Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB += c m z
+WANTLIB += c jpeg lcms2 m png tiff z
 
 MASTER_SITES=		http://openjpeg.googlecode.com/files/
 
@@ -26,10 +27,8 @@ CONFIGURE_STYLE=	gnu
 SEPARATE_BUILD=		Yes
 USE_LIBTOOL=		Yes
 
-# static linked
-BUILD_DEPENDS=		graphics/lcms2 \
-			graphics/png \
-			graphics/tiff
+LIB_DEPENDS=		graphics/lcms2 \
+			graphics/png
 
 pre-patch:
 	perl -i -pe 's/\r$$//; s/\t*$$//;' ${WRKSRC}/libopenjpeg/opj_malloc.h

@@ -3,6 +3,7 @@
 COMMENT=	newlib for arm-elf cross-development
 
 DISTNAME=	newlib-1.18.0
+REVISION=	0
 BROKEN-amd64 =	as: unrecognized option -mfpu=softfpa
 
 HOMEPAGE=	http://sourceware.org/newlib/

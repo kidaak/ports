@@ -3,7 +3,7 @@
 COMMENT=	MPEG-2 and MPEG-4 AAC encoder
 
 DISTNAME=	faac-1.28
-REVISION=	3
+REVISION=	4
 CATEGORIES=    	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=faac/}
 
@@ -12,8 +12,8 @@ SHARED_LIBS +=	faac                 1.0      # .0.0
 HOMEPAGE=	http://www.audiocoding.com/
 
 # LGPLv2 + MPEG reference (incompatible)
-PERMIT_PACKAGE_CDROM=	Patents
-PERMIT_PACKAGE_FTP=	Yes
+PERMIT_PACKAGE_CDROM=	Cannot distribute
+PERMIT_PACKAGE_FTP=	Cannot distribute
 PERMIT_DISTFILES_CDROM=	Patents
 PERMIT_DISTFILES_FTP=	Yes
 

@@ -1,0 +1,12 @@
+$OpenBSD$
+--- examples/radump/Makefile.in.orig	Wed Jun 27 23:14:08 2012
++++ examples/radump/Makefile.in	Wed Jun 27 23:14:47 2012
+@@ -110,7 +110,7 @@ install: force all
+ 	[ -d $(BINDIR) ] || \
+ 		(mkdir -p $(BINDIR); chmod 755 $(BINDIR))
+ 
+-	$(INSTALL) $(PROGS) $(BINDIR)
++	$(INSTALL) $(PROGS) $(DESTDIR)$(BINDIR)
+ 
+ clean:
+ 	rm -f $(CLEANFILES)

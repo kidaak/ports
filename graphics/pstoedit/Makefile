@@ -2,8 +2,8 @@
 
 COMMENT=	translate PostScript/PDF graphics to other vector formats
 
-DISTNAME=	pstoedit-3.50
-SHARED_LIBS=	pstoedit 2.0
+DISTNAME=	pstoedit-3.60
+SHARED_LIBS=	pstoedit 3.0
 CATEGORIES=	graphics
 
 HOMEPAGE=	http://www.pstoedit.net/

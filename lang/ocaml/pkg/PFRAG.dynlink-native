@@ -1,6 +1,5 @@
 @comment $OpenBSD$
 @bin lib/ocaml/bigarray.cmxs
-@bin lib/ocaml/dbm.cmxs
 lib/ocaml/dynlink.a
 lib/ocaml/dynlink.cmx
 lib/ocaml/dynlink.cmxa

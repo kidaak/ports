@@ -1,6 +1,7 @@
 # $OpenBSD$
 
 ONLY_FOR_ARCHS=	${GCC4_ARCHS}
+BROKEN-hppa =	ICE on src/tr1/assoc_laguerre.cpp
 
 COMMENT=	free peer-reviewed portable C++ source libraries
 

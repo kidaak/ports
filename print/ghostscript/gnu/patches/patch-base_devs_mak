@@ -1,7 +1,7 @@
 $OpenBSD$
---- base/devs.mak.orig	Fri Aug  5 13:12:20 2011
-+++ base/devs.mak	Mon Nov 14 17:20:40 2011
-@@ -1899,14 +1899,11 @@ $(DD)plibk.dev : $(DEVS_MAK) $(plib_) $(GLD)page.dev $
+--- base/devs.mak.orig	Wed Aug  8 10:01:36 2012
++++ base/devs.mak	Fri Aug 17 15:12:56 2012
+@@ -1831,14 +1831,11 @@ $(DD)plibk.dev : $(DEVS_MAK) $(plib_) $(GLD)page.dev $
  	$(SETPDEV2) $(DD)plibk $(plib_)
  
  ### ------------------------------- CUPS ------------------------------- ###

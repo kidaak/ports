@@ -1,5 +1,7 @@
 @comment $OpenBSD$
-@lib lib/cairo/libcairo-trace.so.${LIBcairo-trace_VERSION}
+bin/cairo-trace
+lib/cairo/cairo-fdr.so
+lib/cairo/libcairo-trace.so
 @lib lib/libcairo-gobject.so.${LIBcairo-gobject_VERSION}
 @lib lib/libcairo-script-interpreter.so.${LIBcairo-script-interpreter_VERSION}
 @lib lib/libcairo.so.${LIBcairo_VERSION}

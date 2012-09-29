@@ -2,8 +2,7 @@
 
 COMMENT=	draw pictures of the earth textured by an image
 
-DISTNAME=	xplanet-1.2.0
-REVISION=	3
+DISTNAME=	xplanet-1.3.0
 CATEGORIES=	astro geo x11
 
 MAINTAINER=	Robert Nagy <robert@openbsd.org>
@@ -17,16 +16,17 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	X11 c charset expat fontconfig freetype glib-2.0 gmodule-2.0 \
-		gobject-2.0 m stdc++ z pango-1.0 gif jpeg png \
-		pangoft2-1.0
+WANTLIB += X11 c charset expat fontconfig freetype gif glib-2.0
+WANTLIB += gobject-2.0 jpeg m pango-1.0 pangoft2-1.0 png pthread
+WANTLIB += stdc++ z
 
 MODULES=		devel/gettext
 
 LIB_DEPENDS=		devel/pango \
 			graphics/libungif \
 			graphics/jpeg \
-			graphics/png
+			graphics/png \
+			devel/glib2
 
 RUN_DEPENDS=		geo/openbsd-developers
 

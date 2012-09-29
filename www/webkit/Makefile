@@ -4,11 +4,12 @@ ONLY_FOR_ARCHS=	${GCC4_ARCHS}
 
 COMMENT =	open source web browser engine for Gtk+
 
-V =		1.8.1
+V =		1.8.3
 DISTNAME =	webkit-${V}
 EPOCH =		0
 CATEGORIES =	www
 EXTRACT_SUFX=	.tar.xz
+REVISION=	2
 
 HOMEPAGE =	http://webkitgtk.org/
 MASTER_SITES =	${HOMEPAGE}/releases/
@@ -39,6 +40,12 @@ CONFIGURE_ENV =	CPPFLAGS="-I${LOCALBASE}/include/libpng -I${LOCALBASE}/include -
 		LDFLAGS="-L${X11BASE}/lib -L${LOCALBASE}/lib -lX11" \
 		ac_cv_path_FLEX=${LOCALBASE}/bin/gflex
 
+# If one of these tools is found at configure stage, it might be used,
+# no matter whether we use --disable-gtk-doc or not.
+CONFIGURE_ENV +=ac_cv_path_GTKDOC_CHECK="" \
+		ac_cv_path_GTKDOC_REBASE="" \
+		ac_cv_path_GTKDOC_MKPDF=""
+
 LIBTOOL_FLAGS =	--tag=disable-static
 CONFIGURE_ARGS+=${CONFIGURE_SHARED} \
 		--disable-static \
@@ -56,7 +63,6 @@ MAKE_FLAGS=	EXTRA_FLAGS="-O0"
 .endif
 
 RUN_DEPENDS =	multimedia/gstreamer-0.10/plugins-ffmpeg \
-		multimedia/gstreamer-0.10/plugins-bad \
 		multimedia/gstreamer-0.10/plugins-good
 
 WANTLIB =	ICE SM X11 Xcomposite Xcursor Xdamage Xext \
@@ -64,7 +70,7 @@ WANTLIB =	ICE SM X11 Xcomposite Xcursor Xdamage Xext \
 		expat fontconfig freetype gio-2.0 glib-2.0 gmodule-2.0 \
 		gobject-2.0 gthread-2.0 jpeg m gstinterfaces-0.10 \
 		Xau Xdmcp Xxf86vm dbus-1 dbus-glib-1 drm geoclue \
-		gstaudio-0.10 gstfft-0.10 gdk_pixbuf-2.0 \
+		gstaudio-0.10 gstfft-0.10 gdk_pixbuf-2.0 orc-0.4 \
 		gstreamer-0.10 gstbase-0.10 gstvideo-0.10 gstapp-0.10 gstpbutils-0.10 \
 		icudata icui18n icuuc sqlite3 xslt enchant soup-2.4 \
 		pango-1.0 pangocairo-1.0 pangoft2-1.0 pcre pthread GL xcb-shm \

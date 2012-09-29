@@ -10,7 +10,7 @@ DISTNAME =		ufoai-${V}-source
 PKGNAME-main =		${DISTNAME:S/-source//}
 REVISION-main = 	3
 PKGNAME-editor = 	uforadiant-${V}
-REVISION-editor = 	3
+REVISION-editor = 	4
 
 EXTRACT_SUFX =		.tar.bz2
 

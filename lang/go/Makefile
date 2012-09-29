@@ -4,7 +4,8 @@ ONLY_FOR_ARCHS =	amd64 i386
 
 COMMENT =		Go programming language
 
-VERSION =		1.0.1
+VERSION =		1.0.2
+REVISION =		0
 EXTRACT_SUFX =		.src.tar.gz
 DISTNAME = 		go${VERSION}
 PKGNAME = 		go-${VERSION}
@@ -47,7 +48,10 @@ GOARCH =		386
 EXEPREFIX =		8
 PKG_ARGS +=		-Damd64=0
 PKG_ARGS +=		-Di386=1
+.else
+PKG_ARGS += 		-Damd64=0 -Di386=0
 .endif
+
 GOCFG =			/${GOOS}_${GOARCH}
 GOEXE =			${GOCFG}/${EXEPREFIX}
 

@@ -3,6 +3,7 @@
 COMMENT=	simple C Library for entropy measurement
 
 DISTNAME=	libdisorder-0.0.2
+REVISION=	0
 
 SHARED_LIBS=	disorder 0.0
 

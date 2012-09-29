@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	SILC plugin for irssi
 
 DISTNAME=	irssi-silc-1.1.8
-REVISION=	3
+REVISION=	4
 
 CATEGORIES=	net
 

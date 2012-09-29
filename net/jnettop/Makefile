@@ -3,7 +3,7 @@
 COMMENT=	capture network traffic, display streams sorted by bandwidth
 
 DISTNAME=	jnettop-0.13.0
-REVISION=	0
+REVISION=	1
 
 CATEGORIES=	net
 

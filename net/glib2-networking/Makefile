@@ -4,7 +4,7 @@ SHARED_ONLY=	Yes
 
 COMMENT=	network-related gio modules for glib2
 
-GNOME_VERSION=	2.32.3
+GNOME_VERSION=	2.34.0
 GNOME_PROJECT=	glib-networking
 
 PKGNAME=	glib2-networking-${GNOME_VERSION}
@@ -28,12 +28,12 @@ WANTLIB += stdc++ tasn1 z
 MODULES=	devel/gettext \
 		x11/gnome
 
-BUILD_DEPENDS=	devel/gsettings-desktop-schemas
-RUN_DEPENDS=	devel/gsettings-desktop-schemas
+BUILD_DEPENDS=	devel/gsettings-desktop-schemas>=3.6.0
+RUN_DEPENDS=	devel/gsettings-desktop-schemas>=3.6.0
 
-LIB_DEPENDS=	net/libproxy>=0.4.6 \
+LIB_DEPENDS=	net/libproxy \
 		security/gnutls \
-		devel/glib2>=2.32.0
+		devel/glib2>=2.34.0
 
 LIBTOOL_FLAGS=	--tag=disable-static
 

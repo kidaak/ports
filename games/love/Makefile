@@ -5,7 +5,7 @@ COMMENT=		2D games framework for use with Lua
 V=			0.8.0
 DISTNAME=		love-$V-linux-src
 PKGNAME=		love-$V
-REVISION=		0
+REVISION=		3
 
 HOMEPAGE=		http://love2d.org/
 
@@ -27,7 +27,7 @@ WANTLIB += GL Half IL Iex IlmImf IlmThread Imath SDL X11 Xdamage
 WANTLIB += Xext Xfixes Xxf86vm c drm freetype jasper jpeg lcms
 WANTLIB += ltdl ${MODLUA_WANTLIB} m modplug mpg123 ogg openal physfs-1.0
 WANTLIB += png pthread sndio stdc++ tiff usbhid vorbis vorbisfile
-WANTLIB += xcb z
+WANTLIB += xcb z mng
 
 LIB_DEPENDS=		audio/libmodplug \
 			audio/mpg123 \
@@ -44,7 +44,8 @@ USE_LIBTOOL=		Yes
 
 CONFIGURE_STYLE=	gnu
 CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include -I${LOCALBASE}/include/SDL/ \
-				-I${X11BASE}/include/ -I${X11BASE}/include/freetype2" \
+				-I${X11BASE}/include/ -I${X11BASE}/include/freetype2 \
+				`pkg-config --cflags ${MODLUA_DEP}`" \
 			LDFLAGS="-L${X11BASE}/lib -L${LOCALBASE}/lib -pthread"
 
 WRKDIST=		${WRKDIR}/love-$V/

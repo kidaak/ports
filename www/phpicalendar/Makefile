@@ -5,7 +5,7 @@ COMMENT=	web-based iCal file parser
 V=		2.31
 DISTNAME=	phpicalendar${V}
 PKGNAME=	phpicalendar-${V}
-REVISION=	2
+REVISION=	3
 CATEGORIES=	www
 
 HOMEPAGE=	http://phpicalendar.net/

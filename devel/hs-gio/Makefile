@@ -2,8 +2,7 @@
 
 COMMENT =		Haskell bindings to gio
 
-DISTNAME =		gio-0.12.0
-REVISION =		1
+DISTNAME =		gio-0.12.3
 CATEGORIES =		devel
 
 HOMEPAGE =		http://www.haskell.org/gtk2hs/
@@ -22,7 +21,7 @@ MODGHC_BUILD =		cabal hackage haddock register
 
 BUILD_DEPENDS =		devel/gtk2hs-buildtools \
 			${RUN_DEPENDS}
-RUN_DEPENDS =		hs-glib->=0.12,<0.13:devel/hs-glib \
+RUN_DEPENDS =		devel/hs-glib>=0.12.0,<0.13 \
 			devel/hs-mtl
 LIB_DEPENDS =		devel/glib2
 

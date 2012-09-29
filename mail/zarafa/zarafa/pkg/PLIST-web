@@ -3,6 +3,8 @@
 @pkgpath mail/zarafa/webaccess
 @pkgpath mail/zarafa/zarafa,-php
 @extraunexec rm -f %D/zarafa-webaccess/debug.php
+@extraunexec rm -rf /var/db/zarafa-webaccess/plugins/*
+@extraunexec rm -f /var/db/zarafa-webaccess/plugins
 include/
 include/php/
 include/php/mapi/
@@ -20,9 +22,6 @@ include/php/mapi/mapidefs.php
 include/php/mapi/mapiguid.php
 include/php/mapi/mapitags.php
 zarafa-webaccess/
-@owner www
-@sample zarafa-webaccess/tmp/
-@owner
 zarafa-webaccess/.htaccess
 zarafa-webaccess/client/
 zarafa-webaccess/client/core/
@@ -925,6 +924,7 @@ zarafa-webaccess/server/core/class.bus.php
 zarafa-webaccess/server/core/class.conversion.php
 zarafa-webaccess/server/core/class.createZipArchive.php
 zarafa-webaccess/server/core/class.dispatcher.php
+zarafa-webaccess/server/core/class.entryid.php
 zarafa-webaccess/server/core/class.filter.php
 zarafa-webaccess/server/core/class.language.php
 zarafa-webaccess/server/core/class.mapisession.php
@@ -941,6 +941,9 @@ zarafa-webaccess/server/core/class.xmlparser.php
 zarafa-webaccess/server/core/constants.php
 zarafa-webaccess/server/core/htmlfilter.php
 zarafa-webaccess/server/language/
+zarafa-webaccess/server/language/ca_ES.UTF-8/
+zarafa-webaccess/server/language/ca_ES.UTF-8/LC_MESSAGES/
+zarafa-webaccess/server/language/ca_ES.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
 zarafa-webaccess/server/language/cs_CZ.UTF-8/
 zarafa-webaccess/server/language/cs_CZ.UTF-8/LC_MESSAGES/
 zarafa-webaccess/server/language/cs_CZ.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
@@ -993,6 +996,9 @@ zarafa-webaccess/server/language/ja_JP.UTF-8/
 zarafa-webaccess/server/language/ja_JP.UTF-8/LC_MESSAGES/
 zarafa-webaccess/server/language/ja_JP.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
 zarafa-webaccess/server/language/ja_JP.UTF-8/language.txt
+zarafa-webaccess/server/language/ko_KR.UTF-8/
+zarafa-webaccess/server/language/ko_KR.UTF-8/LC_MESSAGES/
+zarafa-webaccess/server/language/ko_KR.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
 zarafa-webaccess/server/language/lt_LT.UTF-8/
 zarafa-webaccess/server/language/lt_LT.UTF-8/LC_MESSAGES/
 zarafa-webaccess/server/language/lt_LT.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
@@ -1029,6 +1035,9 @@ zarafa-webaccess/server/language/ru_RU.UTF-8/
 zarafa-webaccess/server/language/ru_RU.UTF-8/LC_MESSAGES/
 zarafa-webaccess/server/language/ru_RU.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
 zarafa-webaccess/server/language/ru_RU.UTF-8/language.txt
+zarafa-webaccess/server/language/sl_SI.UTF-8/
+zarafa-webaccess/server/language/sl_SI.UTF-8/LC_MESSAGES/
+zarafa-webaccess/server/language/sl_SI.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
 zarafa-webaccess/server/language/sv_SE.UTF-8/
 zarafa-webaccess/server/language/sv_SE.UTF-8/LC_MESSAGES/
 zarafa-webaccess/server/language/sv_SE.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
@@ -1041,6 +1050,9 @@ zarafa-webaccess/server/language/zh_CN.UTF-8/
 zarafa-webaccess/server/language/zh_CN.UTF-8/LC_MESSAGES/
 zarafa-webaccess/server/language/zh_CN.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
 zarafa-webaccess/server/language/zh_CN.UTF-8/language.txt
+zarafa-webaccess/server/language/zh_TW.UTF-8/
+zarafa-webaccess/server/language/zh_TW.UTF-8/LC_MESSAGES/
+zarafa-webaccess/server/language/zh_TW.UTF-8/LC_MESSAGES/zarafa_webaccess.mo
 zarafa-webaccess/server/mimetypes.dat
 zarafa-webaccess/server/modules/
 zarafa-webaccess/server/modules/class.addressbookitemmodule.php
@@ -1095,6 +1107,8 @@ zarafa-webaccess/static.php
 zarafa-webaccess/zarafa.conf.dist
 @sample /var/www/conf/modules.sample/zarafa.conf
 zarafa-webaccess/zarafa.php
+@sample /var/db/zarafa-webaccess/
+@exec ln -sf ${PREFIX}/zarafa-webaccess/plugins /var/db/zarafa-webaccess/plugins
 @cwd ${LOCALBASE}
 @comment lib/php-${MODPHP_VERSION}/modules/mapi.la
 lib/php-${MODPHP_VERSION}/modules/mapi.so

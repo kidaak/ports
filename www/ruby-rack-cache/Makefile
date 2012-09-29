@@ -3,6 +3,7 @@
 COMMENT =	HTTP Caching for Rack
 
 DISTNAME =	rack-cache-1.1
+REVISION =	0
 CATEGORIES =	www
 
 HOMEPAGE =	http://rtomayko.github.com/rack-cache/

@@ -1516,4 +1516,4 @@ share/locale/fr/LC_MESSAGES/human-icon-theme.mo
 share/locale/it/LC_MESSAGES/human-icon-theme.mo
 share/locale/pt_BR/LC_MESSAGES/human-icon-theme.mo
 share/locale/sv/LC_MESSAGES/human-icon-theme.mo
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/Human 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/Human

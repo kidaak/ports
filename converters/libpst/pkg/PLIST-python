@@ -1,6 +1,2 @@
 @comment $OpenBSD$
-lib/python${MODPY_VERSION}/
-lib/python${MODPY_VERSION}/site-packages/
-@comment lib/python${MODPY_VERSION}/site-packages/_libpst.a
-@comment lib/python${MODPY_VERSION}/site-packages/_libpst.la
 lib/python${MODPY_VERSION}/site-packages/_libpst.so

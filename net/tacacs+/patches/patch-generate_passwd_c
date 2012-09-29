@@ -1,0 +1,12 @@
+$OpenBSD$
+--- generate_passwd.c.orig	Sun Jun 18 18:26:54 2000
++++ generate_passwd.c	Tue Sep 11 13:39:19 2012
+@@ -25,6 +25,8 @@
+ */
+ 
+ #define NULL 0
++#include <stdio.h>
++#include <string.h>
+ 
+ main(argc, argv)
+ char **argv;

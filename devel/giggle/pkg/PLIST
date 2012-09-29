@@ -127,10 +127,6 @@ share/help/sl/giggle/introduction.page
 share/help/sl/giggle/license.page
 share/help/sl/giggle/opening-repositories.page
 share/help/sl/giggle/tagging-commits.page
-share/icons/
-share/icons/hicolor/
-share/icons/hicolor/16x16/
-share/icons/hicolor/16x16/apps/
 share/icons/hicolor/16x16/apps/giggle-branch.png
 share/icons/hicolor/16x16/apps/giggle-history-view.png
 share/icons/hicolor/16x16/apps/giggle-remote.png
@@ -138,25 +134,15 @@ share/icons/hicolor/16x16/apps/giggle-scm-git.png
 share/icons/hicolor/16x16/apps/giggle-scm-svn.png
 share/icons/hicolor/16x16/apps/giggle-tag.png
 share/icons/hicolor/16x16/apps/giggle.png
-share/icons/hicolor/22x22/
-share/icons/hicolor/22x22/apps/
 share/icons/hicolor/22x22/apps/giggle-history-view.png
 share/icons/hicolor/22x22/apps/giggle.png
-share/icons/hicolor/24x24/
-share/icons/hicolor/24x24/apps/
 share/icons/hicolor/24x24/apps/giggle-diff-view.png
 share/icons/hicolor/24x24/apps/giggle-history-view.png
 share/icons/hicolor/24x24/apps/giggle.png
-share/icons/hicolor/32x32/
-share/icons/hicolor/32x32/apps/
 share/icons/hicolor/32x32/apps/giggle-history-view.png
 share/icons/hicolor/32x32/apps/giggle.png
-share/icons/hicolor/48x48/
-share/icons/hicolor/48x48/apps/
 share/icons/hicolor/48x48/apps/giggle-scm-svn.png
 share/icons/hicolor/48x48/apps/giggle.png
-share/icons/hicolor/scalable/
-share/icons/hicolor/scalable/apps/
 share/icons/hicolor/scalable/apps/giggle.svg
 share/locale/ca/LC_MESSAGES/giggle.mo
 share/locale/ca@valencia/LC_MESSAGES/giggle.mo
@@ -180,7 +166,7 @@ share/locale/sv/LC_MESSAGES/giggle.mo
 share/locale/uk/LC_MESSAGES/giggle.mo
 share/locale/vi/LC_MESSAGES/giggle.mo
 share/locale/zh_CN/LC_MESSAGES/giggle.mo
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

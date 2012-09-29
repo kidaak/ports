@@ -1,0 +1,9 @@
+$OpenBSD$
+
++-----------------------------------------------------------------------
+| Running ${FULLPKGNAME} on OpenBSD
++-----------------------------------------------------------------------
+
+In order to use a card reader other than the few ones supported by
+GnuPG's internal CCID driver, ccid from security/ccid needs to be
+installed.

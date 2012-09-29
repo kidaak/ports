@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.44 1997/09/13 20:19:28 chuckr Exp $
-#
 
      SUBDIR =
      SUBDIR += abiword
@@ -21,7 +19,9 @@
      SUBDIR += emacs22,gtk
      SUBDIR += emacs23
      SUBDIR += emacs23,no_x11
+     SUBDIR += focuswriter
      SUBDIR += fte
+     SUBDIR += ged
      SUBDIR += gummi
      SUBDIR += hexcurse
      SUBDIR += hexedit
@@ -39,6 +39,7 @@
      SUBDIR += libreoffice
      SUBDIR += nano
      SUBDIR += nedit
+     SUBDIR += nvi
      SUBDIR += nvi-m17n
      SUBDIR += nvi-m17n,canna
      SUBDIR += py-qscintilla
@@ -53,7 +54,9 @@
      SUBDIR += texworks
      SUBDIR += uemacs
      SUBDIR += vim
+     SUBDIR += vim,gtk2,perl,python,ruby
      SUBDIR += vim,no_x11
+     SUBDIR += vim,no_x11,perl,python,ruby
      SUBDIR += vim-spell
      SUBDIR += xemacs21
      SUBDIR += xemacs21-sumo

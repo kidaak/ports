@@ -1,7 +1,7 @@
 $OpenBSD$
---- gcc/config/i386/i386.c.orig	Tue Feb 28 16:28:32 2012
-+++ gcc/config/i386/i386.c	Mon Apr  2 16:38:17 2012
-@@ -2413,6 +2413,8 @@ struct ix86_frame
+--- gcc/config/i386/i386.c.orig	Thu Sep 13 19:32:23 2012
++++ gcc/config/i386/i386.c	Mon Sep 24 16:32:08 2012
+@@ -2414,6 +2414,8 @@ struct ix86_frame
    HOST_WIDE_INT reg_save_offset;
    HOST_WIDE_INT sse_reg_save_offset;
  
@@ -10,7 +10,7 @@ $OpenBSD$
    /* When save_regs_using_mov is set, emit prologue using
       move instead of push instructions.  */
    bool save_regs_using_mov;
-@@ -8825,6 +8827,7 @@ ix86_compute_frame_layout (struct ix86_frame *frame)
+@@ -8832,6 +8834,7 @@ ix86_compute_frame_layout (struct ix86_frame *frame)
    HOST_WIDE_INT size = get_frame_size ();
    HOST_WIDE_INT to_allocate;
  
@@ -18,7 +18,7 @@ $OpenBSD$
    frame->nregs = ix86_nsaved_regs ();
    frame->nsseregs = ix86_nsaved_sseregs ();
  
-@@ -10152,6 +10155,9 @@ ix86_expand_prologue (void)
+@@ -10168,6 +10171,9 @@ ix86_expand_prologue (void)
        m->fs.sp_offset = INCOMING_FRAME_SP_OFFSET;
        m->fs.realigned = true;
      }
@@ -26,5 +26,5 @@ $OpenBSD$
 +  if (warn_stack_larger_than && frame.local_size > stack_larger_than_size)
 +    warning (OPT_Wstack_larger_than_, "stack usage is %d bytes", frame.local_size);
  
-   if (frame_pointer_needed && !m->fs.fp_valid)
-     {
+   int_registers_saved = (frame.nregs == 0);
+   sse_registers_saved = (frame.nsseregs == 0);

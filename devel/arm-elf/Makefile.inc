@@ -4,8 +4,6 @@ CONFIG=		arm-elf
 PKGNAME?=	${CONFIG}-${DISTNAME}
 CATEGORIES+=	devel devel/arm-elf
 
-MAINTAINER=	Sebastian Trahm <basti@schleifi.com>
-
 # GPLv3
 # For newlib: multiple copyrights, but basically BSD.
 #   See: ${PREFIX}/share/doc/newlib

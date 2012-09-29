@@ -2,8 +2,6 @@
 
 SHARED_ONLY?=		Yes
 
-MAINTAINER?=		Jasper Lievisse Adriaanse <jasper@openbsd.org>
-
 CATEGORIES+=		devel
 
 HOMEPAGE=		http://libgit2.github.com/

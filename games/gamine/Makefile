@@ -3,7 +3,7 @@
 COMMENT=	interactive game for young children
 
 DISTNAME=	gamine-1.1
-REVISION=	4
+REVISION=	5
 
 CATEGORIES=	games
 

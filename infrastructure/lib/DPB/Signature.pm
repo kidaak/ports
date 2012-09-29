@@ -91,11 +91,7 @@ sub new
 sub run
 {
 	my ($self, $core) = @_;
-	if (defined $core->{shell}) {
-		$core->{shell}->run("ls $self->{dir}");
-	} else {
-		exec {"/bin/ls"} ("ls", $self->{dir});
-	}
+	$core->shell->exec("/bin/ls", $self->{dir});
 }
 
 sub process

@@ -3,8 +3,9 @@
 COMMENT=		Visual Tcl development environment
 
 DISTNAME=		vtcl-1.6.1a1
-REVISION=		0
+REVISION=		1
 CATEGORIES=		devel
+MAINTAINER =		Stuart Cassoff <stwo@users.sourceforge.net>
 
 HOMEPAGE=		http://vtcl.sourceforge.net/
 
@@ -16,8 +17,6 @@ PERMIT_DISTFILES_FTP=	Yes
 
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=vtcl/}
 
-MODTCL_VERSION=		8.4
-MODTK_VERSION=		8.4
 MODULES=		x11/tk
 NO_BUILD=		Yes
 RUN_DEPENDS=		${MODTK_RUN_DEPENDS}
@@ -26,6 +25,7 @@ pre-patch:
 	@cd ${WRKSRC}; perl -i -pe 's/\r$$//' `find . -type f`
 
 do-install:
+	rm ${WRKSRC}/lib/propmgr.tcl.orig ${WRKSRC}/lib/tkcon.tcl.orig
 	${INSTALL_DATA_DIR} ${PREFIX}/lib/vtcl
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/vtcl
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/vtcl

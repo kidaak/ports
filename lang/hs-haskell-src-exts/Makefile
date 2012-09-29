@@ -2,8 +2,7 @@
 
 COMMENT=		abstract syntax, lexer, parser and pretty printer
 
-DISTNAME=		haskell-src-exts-1.11.1
-REVISION=		0
+DISTNAME=		haskell-src-exts-1.13.3
 CATEGORIES=		lang devel
 
 # 3-clause BSD
@@ -18,7 +17,7 @@ MODGHC_BUILD=		cabal hackage haddock register
 
 BUILD_DEPENDS=		${RUN_DEPENDS} \
 			devel/happy
-RUN_DEPENDS=		devel/cpphs,-lib>=1.11
+RUN_DEPENDS=		devel/cpphs,-lib>=1.3
 
 VMEM_WARNING=		Yes
 NO_REGRESS=		Yes

@@ -6,6 +6,7 @@ COMMENT=		module to interface the DNS resolver
 
 MODULES=		cpan
 DISTNAME=		Net-DNS-0.68
+REVISION=		0
 CATEGORIES=		net
 
 HOMEPAGE=		http://www.net-dns.org/
@@ -17,6 +18,8 @@ PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
+
+WANTLIB += c
 
 BUILD_DEPENDS=		${RUN_DEPENDS}
 RUN_DEPENDS=		security/p5-Digest-HMAC>=1.00

@@ -2,7 +2,8 @@
 
 COMMENT=	modern, simple and very fast Mysql library for Ruby
 
-DISTNAME=	mysql2-0.3.10
+DISTNAME=	mysql2-0.3.11
+REVISION =	0
 CATEGORIES=	databases
 
 HOMEPAGE=	http://github.com/brianmario/mysql2

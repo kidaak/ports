@@ -4,7 +4,7 @@ COMMENT =	japanese-english dictionary program
 
 V =		3.2.0
 DISTNAME =	gwaei-${V}
-REVISION =	1
+REVISION =	2
 
 SHARED_LIBS =	waei	0.0
 

@@ -4,6 +4,7 @@ COMMENT=		GNOME database designer and user interface
 
 GNOME_PROJECT=		glom
 GNOME_VERSION=		1.22.0
+REVISION=		0
 
 SHARED_LIBS +=  glom-1.22                 0.0 # 0.0
 

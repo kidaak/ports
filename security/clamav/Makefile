@@ -1,7 +1,7 @@
 # $OpenBSD$
 
 COMMENT=		virus scanner
-DISTNAME=		clamav-0.97.4
+DISTNAME=		clamav-0.97.6
 
 CATEGORIES=		security
 SHARED_LIBS=		clamav 19.0 \
@@ -59,6 +59,14 @@ LDFLAGS+=	-pthread -L/usr/lib \
 		-L${LOCALBASE}/lib
 CONFIGURE_ENV+=	LDFLAGS="${LDFLAGS}" \
 		CPPFLAGS="${CPPFLAGS}"
+
+.include <bsd.port.arch.mk>
+.if ${PROPERTIES:Mllvm}
+BUILD_DEPENDS+=		devel/llvm
+
+pre-configure:
+	rm -rf ${WRKSRC}/libclamav/c++/llvm
+.endif
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/doc/clamav \

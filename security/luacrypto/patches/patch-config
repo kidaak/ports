@@ -5,10 +5,10 @@ $OpenBSD$
  # Installation directories
  # System's libraries directory (where binary libraries are installed)
 -LUA_LIBDIR= /usr/local/lib/lua/5.0
-+LUA_LIBDIR= $(PREFIX)/lib/lua/5.1
++LUA_LIBDIR= ${MODLUA_LIBDIR}
  # Lua includes directory
 -LUA_INC= /usr/local/include
-+LUA_INC= $(PREFIX)/include
++LUA_INC= ${MODLUA_INCL_DIR}
  
  # OS dependent
  LIB_OPTION= -shared #for Linux

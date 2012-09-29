@@ -2,13 +2,11 @@
 
 COMMENT=	GNU implementation of the SASL framework
 
-DISTNAME=	libgsasl-1.4.4
+DISTNAME=	libgsasl-1.8.0
 CATEGORIES=	security
 HOMEPAGE=	http://www.gnu.org/software/gsasl/
 MASTER_SITES=	${MASTER_SITE_GNU:=gsasl/}
 MAINTAINER=	Sebastian Reitenbach <sebastia@openbsd.org>
-
-REVISION=	0
 
 SHARED_LIBS +=  gsasl 0.0 # 14.6
 

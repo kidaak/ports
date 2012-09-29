@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.2 1999/03/03 03:48:56 jkoshy Exp $
 
 COMMENT=	self-scaling network benchmark
 

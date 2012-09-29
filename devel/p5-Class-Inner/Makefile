@@ -3,11 +3,8 @@
 COMMENT=	perlish implementation of Java like inner classes
 
 DISTNAME=	Class-Inner-0.1
-REVISION=	1
+REVISION=	2
 CATEGORIES=	devel
-USE_GROFF =	Yes
-
-MAINTAINER=	Sebastian Trahm <basti@schleifi.com>
 
 # perl
 PERMIT_PACKAGE_CDROM=	Yes

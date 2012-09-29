@@ -2,7 +2,7 @@
 
 COMMENT=		accumulates and displays statistics from a diff file
 
-DISTNAME=		diffstat-1.54
+DISTNAME=		diffstat-1.55
 CATEGORIES=		textproc
 MASTER_SITES=		ftp://invisible-island.net/diffstat/
 EXTRACT_SUFX=		.tgz
@@ -15,10 +15,10 @@ PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
-WANTLIB=		c 
+
+WANTLIB=		c
 
 CONFIGURE_STYLE=	gnu
-USE_GROFF =		Yes
 
 MAKE_FILE=		makefile
 

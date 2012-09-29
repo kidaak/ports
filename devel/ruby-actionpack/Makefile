@@ -4,6 +4,7 @@ COMMENT =	eases web-request routing, handling, and response
 
 VERSION =	3.1.3
 DISTNAME =	actionpack-${VERSION}
+REVISION =	0
 CATEGORIES =	devel
 
 # MIT License

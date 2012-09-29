@@ -1,4 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libQtWebKit.so.${LIBQtWebKit_VERSION}
-@lib lib/qt4/libQtWebKit.so.${LIBQtWebKit_VERSION}
-lib/qt4/plugins/designer/libqwebview.so

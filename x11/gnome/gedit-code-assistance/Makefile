@@ -1,12 +1,14 @@
 # $OpenBSD$
 
+BROKEN-powerpc=	clang dumps core
+
 SHARED_ONLY=	Yes
 
 COMMENT=	code assistance for Gedit
 
 GNOME_PROJECT=	gedit-code-assistance
 GNOME_VERSION=	0.1.3
-REVISION=	0
+REVISION=	2
 
 CATEGORIES=	editors devel
 
@@ -40,5 +42,8 @@ RUN_DEPENDS=	x11/gnome/gedit>=3.2.0
 
 pre-configure:
 	${SUBST_CMD} ${WRKSRC}/src/backends/c/gcp-c-compile-args.c
+
+post-install:
+	rm ${PREFIX}/lib/gedit/plugins/*.{a,la}
 
 .include <bsd.port.mk>

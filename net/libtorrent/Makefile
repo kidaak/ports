@@ -2,8 +2,9 @@
 
 COMMENT=		BitTorrent library written in C++
 
-DISTNAME=		libtorrent-0.13.2
-SHARED_LIBS +=  	torrent	19.0	# .14.4
+DISTNAME=		libtorrent-0.12.9
+EPOCH=			0
+SHARED_LIBS +=  	torrent 20.0	# .14.1
 CATEGORIES=		net devel
 
 HOMEPAGE=		http://libtorrent.rakshasa.no/

@@ -3,7 +3,7 @@
 COMMENT=		minimalistic console-based audio player
 
 DISTNAME=		herrie-2.2
-REVISION=		1
+REVISION=		2
 CATEGORIES=		audio
 
 HOMEPAGE=		http://herrie.info/

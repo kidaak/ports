@@ -1,7 +1,0 @@
-@comment $OpenBSD$
-lib/heartbeat/SNMPAgentSanityCheck
-@bin lib/heartbeat/hbagent
-lib/stonith/plugins/stonith2/apcmastersnmp.la
-lib/stonith/plugins/stonith2/apcmastersnmp.so
-share/heartbeat/SNMPAgentSanityCheck
-share/snmp/mibs/LINUX-HA-MIB.mib

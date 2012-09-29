@@ -3,7 +3,7 @@
 COMMENT =	lightweight and user friendly HTTP client library for Ruby
 
 DISTNAME =	thin_http-0.1.1
-REVISION =	4
+REVISION =	5
 CATEGORIES =	www
 
 MAINTAINER =	Clint Pachl <pachl@ecentryx.com>

@@ -3,6 +3,7 @@
 COMMENT=	easy email delivery and testing for ruby
 
 DISTNAME=	mail-2.3.0
+REVISION =	0
 CATEGORIES=	mail
 
 # MIT License

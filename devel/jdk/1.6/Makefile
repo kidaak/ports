@@ -13,6 +13,7 @@ PKGNAME-jre=		jre-${V}
 REVISION-jre =		17
 
 CATEGORIES=		devel/jdk java
+DPB_PROPERTIES=		parallel
 
 MULTI_PACKAGES= 	-main -jre
 
@@ -47,7 +48,7 @@ BUILD_DEPENDS=		archivers/gtar \
 			archivers/zip \
 			archivers/unzip \
 			archivers/bzip2 \
-			print/cups \
+			print/cups,-libs \
 			x11/openmotif
 MODULES=		converters/libiconv
 WANTLIB=		X11 Xext Xi Xtst c m ossaudio pthread \
@@ -55,6 +56,9 @@ WANTLIB=		X11 Xext Xi Xtst c m ossaudio pthread \
 
 USE_GMAKE=		Yes
 USE_GROFF =		Yes
+
+# Don't call make -jN, instead pass MAKE_JOBS to HOTSPOT_BUILD_JOBS
+PARALLEL_BUILD=		No
 
 TAR=			${LOCALBASE}/bin/gtar
 
@@ -68,7 +72,7 @@ MAKE_ENV=		ALT_MOTIF_DIR="${LOCALBASE}" \
 			CXX="${CXX}" \
 			DEFAULT_LIBPATH="/usr/lib:${X11BASE}/lib:${LOCALBASE}/lib" \
 			USER="${USER}" \
-			HOTSPOT_BUILD_JOBS=${HOTSPOT_BUILD_JOBS}
+			HOTSPOT_BUILD_JOBS=${MAKE_JOBS}
 
 # Error message for distfile.
 FETCH_MANUALLY=		"You must manually fetch the distribution files, place"

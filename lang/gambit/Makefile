@@ -4,7 +4,7 @@ SHARED_ONLY=	Yes
 
 COMMENT=	complete, efficient and reliable implementation of Scheme
 
-V=		4.6.5
+V=		4.6.6
 DISTNAME=	gambc-v${V:S/./_/g}
 PKGNAME=	gambit-$V
 

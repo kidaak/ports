@@ -44,6 +44,8 @@ EXTRACT_SUFX =		.tar.bz2
 
 CONFIGURE_ARGS +=	-DOGRE_INSTALL_SAMPLES=1
 
+VMEM_WARNING =		Yes
+
 MODULES =		devel/cmake
 LIB_DEPENDS =		graphics/freeimage \
 			devel/boost \

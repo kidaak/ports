@@ -2,8 +2,8 @@
 
 COMMENT=	GNUstep address book
 
-DISTNAME=	Addresses-0.4.7
-REVISION=	6
+DISTNAME=	Addresses-0.4.8
+REVISION =	0
 
 SHARED_LIBS+=	Addresses 0.1	# .0.1
 SHARED_LIBS+=	AddressView 0.1	# .0.1
@@ -12,21 +12,20 @@ CATEGORIES=	mail
 
 HOMEPAGE=	http://gap.nongnu.org/addresses/index.html
 
-WANTLIB=	c m pthread
+WANTLIB=	c m pthread Inspector
 
 MASTER_SITES=	${MASTER_SITE_SAVANNAH:=gap/}
 
-WRKDIST=	${WRKDIR}/Addresses
-
 MODULES=	x11/gnustep
+LIB_DEPENDS +=	x11/gnustep/gworkspace
 
-MAKE_ENV+=	Addresses_VERSION=${LIBAddresses_VERSION} \
+MAKE_FLAGS+=	Addresses_VERSION=${LIBAddresses_VERSION} \
 		Addresses_INTERFACE_VERSION=${LIBAddresses_VERSION} \
 		AddressView_VERSION=${LIBAddressView_VERSION} \
-		AddressView_INTERFACE_VERSION=${LIBAddressView_VERSION}
+		AddressView_INTERFACE_VERSION=${LIBAddressView_VERSION} \
+		disable-ldapaddressbook=yes
 
-post-install:
-	@cd ${WRKINST}${TRUEPREFIX}/include && \
-		ln -sf ./../lib/GNUstep/Frameworks/Addresses.framework/Headers AddressBook
+ALL_TARGET =	all goodies
+INSTALL_TARGET = install goodies-install
 
 .include <bsd.port.mk>

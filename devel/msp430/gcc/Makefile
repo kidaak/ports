@@ -1,9 +1,9 @@
 # $OpenBSD$
 
-COMMENT=		GNU Compiler Collection for msp430
-
 TOOL=			gcc
 TOOL_V= 		4.6.3
+
+REVISION=		1
 
 GNU_TOOL=		Yes
 
@@ -11,6 +11,9 @@ MASTER_SITES= 		${MASTER_SITE_GCC:=releases/gcc-$(TOOL_V)/}
 
 DISTFILES=		gcc-core-${TOOL_V}${EXTRACT_SUFX} \
 			gcc-g++-${TOOL_V}${EXTRACT_SUFX}
+
+LTS_PATCHES=		msp430-gcc-4.6.3-20120406-sf3540953.patch \
+			msp430-gcc-4.6.3-20120406-sf3559978.patch
 
 WANTLIB +=		c gmp mpc mpfr
 

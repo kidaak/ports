@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libg2c.so.${LIBg2c_VERSION}

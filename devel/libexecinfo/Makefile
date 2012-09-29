@@ -5,11 +5,11 @@ COMMENT =	clone of backtrace facility found in the GNU libc
 V =		0.2
 DISTNAME =	backtrace-$V
 PKGNAME =	libexecinfo-$V
-REVISION =	0
+REVISION =	2
 EPOCH =		0
 CATEGORIES =	devel
 
-SHARED_LIBS =	execinfo	1.0
+SHARED_LIBS =	execinfo	2.0
 
 HOMEPAGE =	http://opensource.conformal.com/wiki/Backtrace
 MASTER_SITES =	http://opensource.conformal.com/snapshots/backtrace/

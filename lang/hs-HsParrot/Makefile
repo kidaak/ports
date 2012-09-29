@@ -2,8 +2,7 @@
 
 COMMENT =		Haskell integration with Parrot virtual machine
 
-DISTNAME =		HsParrot-0.0.2
-REVISION =		4
+DISTNAME =		HsParrot-0.0.2.20110925
 CATEGORIES =		lang devel
 
 # MIT (see comment in HsParrot.cabal)

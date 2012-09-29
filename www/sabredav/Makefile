@@ -2,7 +2,7 @@
 
 COMMENT =	php5 WebDAV server
 DISTNAME =	Sabre_DAV-1.0.0
-REVISION =	3
+REVISION =	4
 PKGNAME =	${DISTNAME:L:S/_//}
 PKG_ARCH =	*
 EXTRACT_SUFX =	.tgz

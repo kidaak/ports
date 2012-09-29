@@ -2,20 +2,17 @@
 
 COMMENT=		libgit2 bindings in Python
 
-V=			0.14.0
-DISTNAME=		libgit2-pygit2-v${V}-0-g1c9602e
+V=			0.17.1
+DISTNAME=		libgit2-pygit2-v${V}-0-ga1716a3
 PKGNAME=		py-git2-$V
-REVISION=		0
-
-EXTRACT_SUFX=		.zip
 
 MODULES=		lang/python
 
 WANTLIB += 		crypto git2 z ${MODPY_WANTLIB}
 
-LIB_DEPENDS=		devel/libgit2/libgit2>=${V}
+LIB_DEPENDS=		devel/libgit2/libgit2>=0.17.0
 
-WRKDIST= 		${WRKDIR}/libgit2-pygit2-1c9602e/
+WRKDIST= 		${WRKDIR}/libgit2-pygit2-a1716a3/
 
 NO_REGRESS=		Yes
 

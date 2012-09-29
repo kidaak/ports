@@ -6,10 +6,12 @@ COMMENT-standalone =	ruby web application server
 PASS_VERSION =		3.0.11
 NGINX_VERSION =		1.0.11
 DISTNAME =		passenger-${PASS_VERSION}
+REVISION =		1
 FULLPKGNAME-main =	${MODRUBY_PKG_PREFIX}-${DISTNAME}
 FULLPKGNAME-standalone = ${MODRUBY_PKG_PREFIX}-passenger-standalone-${PASS_VERSION}.${NGINX_VERSION}
 FULLPKGPATH-main =	${BASE_PKGPATH},-main
 FULLPKGPATH-standalone = ${BASE_PKGPATH},-standalone
+
 CATEGORIES =	www
 DISTFILES =	${DISTNAME}.gem \
 		nginx-${NGINX_VERSION}.tar.gz:0

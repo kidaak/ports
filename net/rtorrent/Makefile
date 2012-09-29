@@ -1,8 +1,11 @@
 # $OpenBSD$
 
+BROKEN-hppa =		undefined references to __sync atomic ops
+
 COMMENT=		ncurses BitTorrent client based on libTorrent
 
-DISTNAME=		rtorrent-0.9.2
+DISTNAME=		rtorrent-0.8.9
+EPOCH=			0
 CATEGORIES=		net
 
 HOMEPAGE=		http://libtorrent.rakshasa.no/
@@ -17,7 +20,7 @@ PERMIT_DISTFILES_FTP=	Yes
 
 WANTLIB=		c crypto curl>=14 idn m ncursesw \
 			pthread sigc-2.0 ssl stdc++ \
-			torrent>=19 z
+			torrent>=20 z
 
 MASTER_SITES=		${HOMEPAGE}downloads/
 
@@ -30,7 +33,7 @@ MODGCC4_LANGS=		c++
 MODGCC4_VERSION=	4.6
 
 BUILD_DEPENDS=		devel/cppunit
-LIB_DEPENDS=		net/libtorrent>=0.13.2 \
+LIB_DEPENDS=		net/libtorrent>=0.12.9 \
 			net/curl
 
 USE_LIBTOOL=		Yes

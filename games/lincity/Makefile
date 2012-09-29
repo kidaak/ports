@@ -19,6 +19,7 @@ WANTLIB=		X11 Xau Xdmcp Xext c m pthread-stubs stdc++ xcb
 MASTER_SITES=		ftp://ftp.demon.co.uk/pub/unix/linux/games/ \
 			ftp://ftp.sra.co.jp/pub/os/FreeBSD/distfiles/
 
+BUILD_DEPENDS=		devel/imake
 
 MAKE_FLAGS=		CXX="${CXX}" CXXFLAGS="${CXXFLAGS}"
 ALL_TARGET=		xlincity

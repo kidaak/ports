@@ -5,6 +5,7 @@ PKG_ARCH =		*
 COMMENT =		Nagios plugin to the status of ESX/i hardware
 
 V =			20120501
+REVISION =		0
 DISTNAME =		check_esxi_hardware.py.$V
 PKGNAME =		check_esxi_hardware-$V
 CATEGORIES =		net

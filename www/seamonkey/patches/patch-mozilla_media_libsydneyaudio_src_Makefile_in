@@ -1,7 +1,7 @@
 $OpenBSD$
---- mozilla/media/libsydneyaudio/src/Makefile.in.orig	Fri Mar  9 21:29:23 2012
-+++ mozilla/media/libsydneyaudio/src/Makefile.in	Sat Mar 10 13:20:45 2012
-@@ -100,6 +100,12 @@ CSRCS		= \
+--- mozilla/media/libsydneyaudio/src/Makefile.in.orig	Mon Aug 27 06:49:25 2012
++++ mozilla/media/libsydneyaudio/src/Makefile.in	Sat Sep  1 02:00:14 2012
+@@ -68,6 +68,12 @@ CSRCS		= \
  		$(NULL)
  endif
  

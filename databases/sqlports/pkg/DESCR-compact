@@ -29,6 +29,7 @@ stored in specialized tables, e.g.,:
     DIST_SUBDIR 
     EPOCH
     FLAVORS 
+    FULLPKGNAME
     HOMEPAGE 
     IS_INTERACTIVE 
     MAINTAINER
@@ -44,6 +45,7 @@ stored in specialized tables, e.g.,:
     REVISION
     SEPARATE_BUILD 
     SHARED_ONLY 
+    STATIC_PLIST
     SUBPACKAGE 
     SUPDISTFILES 
     USE_*

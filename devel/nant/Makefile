@@ -2,7 +2,7 @@
 
 COMMENT=	.NET build tool inspired by Ant
 
-V=		0.91
+V=		0.92
 DISTNAME=	nant-${V}-src
 PKGNAME=	${DISTNAME:S/-src//}
 CATEGORIES=	devel lang
@@ -26,9 +26,6 @@ WRKSRC=		${WRKDIR}/${DISTNAME:S/-src//}
 WRKDIST=	${WRKSRC}
 
 REGRESS_DEPENDS=	lang/mono-basic
-
-MAKE_FLAGS+=	MCS=gmcs \
-		TARGET=mono-2.0
 
 FAKE_FLAGS=	DESTDIR=${WRKINST} \
 		prefix=${TRUEPREFIX}

@@ -54,7 +54,7 @@ $OpenBSD$
  endif
  
 -ifneq ($(shell $(CC) -E -dM - < /dev/null | grep __FreeBSD__),)
-+ifneq ($(shell $(CXX) -E -dM - < /dev/null | egrep '__FreeBSD__|__OpenBSD__'),)
++ifneq ($(shell $(CXX) -E -dM - < /dev/null | grep __FreeBSD__),)
  	LIBS := $(LIBS) -pthread
  else
  	LIBS := $(LIBS) -lpthread

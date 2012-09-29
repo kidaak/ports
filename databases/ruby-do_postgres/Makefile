@@ -3,6 +3,7 @@
 COMMENT=		DataObjects driver for PostgreSQL
 
 DISTNAME=		do_postgres-0.10.8
+REVISION =		0
 CATEGORIES=		databases
 
 # MIT

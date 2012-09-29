@@ -2,10 +2,9 @@
 
 COMMENT =	Python client library for Google data APIs
 
-MODPY_EGG_VERSION = 2.0.14
+MODPY_EGG_VERSION = 2.0.17
 DISTNAME =	gdata-${MODPY_EGG_VERSION}
 PKGNAME =	py-gdata-${MODPY_EGG_VERSION}
-REVISION =	1
 CATEGORIES =	devel
 
 HOMEPAGE =	http://code.google.com/p/gdata-python-client/

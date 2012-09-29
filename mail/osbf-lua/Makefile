@@ -3,7 +3,7 @@
 COMMENT=	lua text classification module and anti-spam solution
 
 DISTNAME=	osbf-lua-2.0.4
-REVISION =	2
+REVISION =	4
 CATEGORIES=	mail
 
 MASTER_SITES=	http://luaforge.net/frs/download.php/2094/
@@ -16,12 +16,13 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 MODULES=	lang/lua
+MODLUA_SA=	Yes
 SHARED_ONLY=	Yes
 NO_REGRESS=	Yes
 
 do-build:
 .for f in losbflib osbf_bayes osbf_aux
-	${CC} ${CFLAGS} -DLIB_VERSION=\"2.0.4\" -fPIC -I${LOCALBASE}/include\
+	${CC} ${CFLAGS} -DLIB_VERSION=\"2.0.4\" -fPIC -I${MODLUA_INCL_DIR} \
 		-c ${WRKDIST}/$f.c -o ${WRKDIST}/$f.o
 .endfor
 	${CC} ${CFLAGS} -shared ${WRKDIST}/losbflib.o ${WRKDIST}/osbf_bayes.o\

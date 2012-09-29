@@ -1,7 +1,7 @@
 $OpenBSD$
---- lib/puppet/util/run_mode.rb.orig	Tue Oct  4 23:25:45 2011
-+++ lib/puppet/util/run_mode.rb	Tue Oct  4 23:25:59 2011
-@@ -34,7 +34,7 @@ module Puppet
+--- lib/puppet/util/run_mode.rb.orig	Tue Aug 21 23:41:17 2012
++++ lib/puppet/util/run_mode.rb	Wed Sep 19 11:53:07 2012
+@@ -36,7 +36,7 @@ module Puppet
  
        def var_dir
          which_dir(

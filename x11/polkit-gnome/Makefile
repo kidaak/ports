@@ -28,16 +28,10 @@ WANTLIB += pthread-stubs xcb xcb-render xcb-shm z stdc++
 MODULES=	devel/gettext \
 		x11/gnome
 
-BUILD_DEPENDS=	devel/gobject-introspection
-
 LIB_DEPENDS=	sysutils/polkit>=0.102 \
 		x11/gtk+3
 
 CONFIGURE_STYLE=gnu
-CONFIGURE_ARGS=	--disable-gtk-doc
-
-# XXX no introspection support anymore, but configure still has a check for it
-CONFIGURE_ARGS += --disable-introspection
 
 # revert the following commit:
 # ----------------------------------------------------------------------

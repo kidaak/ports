@@ -4,6 +4,7 @@ COMMENT=		project management application
 
 GNOME_PROJECT=		planner
 GNOME_VERSION=		0.14.6
+REVISION=		0
 
 CATEGORIES=		productivity
 

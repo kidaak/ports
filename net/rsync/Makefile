@@ -5,6 +5,7 @@ COMMENT =	mirroring/synchronization over low bandwidth links
 DISTNAME =	rsync-3.0.9
 CATEGORIES =	net
 HOMEPAGE =	http://rsync.samba.org/
+REVISION =	2
 
 MAINTAINER =	Marc Espie <espie@openbsd.org>
 
@@ -40,7 +41,8 @@ MODULES += converters/libiconv
 DOCDIR =	${PREFIX}/share/doc/rsync
 
 pre-configure:
-	${SUBST_CMD} ${WRKSRC}/rsyncd.conf.5
+	${SUBST_CMD} ${WRKSRC}/rsyncd.conf.5 \
+		${WRKSRC}/support/rrsync
 
 do-install:
 	${INSTALL_DATA_DIR} ${DOCDIR}
@@ -48,5 +50,6 @@ do-install:
 	${INSTALL_MAN} ${WRKSRC}/rsync.1 ${PREFIX}/man/man1
 	${INSTALL_MAN} ${WRKSRC}/rsyncd.conf.5 ${PREFIX}/man/man5
 	${INSTALL_DATA} ${WRKSRC}/tech_report.tex ${DOCDIR}
+	${INSTALL_PROGRAM} ${WRKSRC}/support/rrsync ${PREFIX}/bin
 
 .include <bsd.port.mk>

@@ -3,10 +3,11 @@
 COMMENT=	framework for making media discovery and browsing easy
 
 GNOME_PROJECT=	grilo
-GNOME_VERSION=	0.1.19
+GNOME_VERSION=	0.2.0
+API=		0.2
 
-SHARED_LIBS +=  grilo-0.1            0.0      # unknown
-SHARED_LIBS +=  grlnet-0.1           1.0      # unknown
+SHARED_LIBS +=  grilo-0.2            0.0      # 1.0
+SHARED_LIBS +=  grlnet-0.2           0.0      # 0.1
 
 CATEGORIES+=	multimedia
 
@@ -28,12 +29,14 @@ WANTLIB += gdk_pixbuf-2.0 gio-2.0 glib-2.0 gmodule-2.0 gobject-2.0
 WANTLIB += gthread-2.0 gtk-3 m pango-1.0 pangocairo-1.0 pangoft2-1.0
 WANTLIB += pcre pixman-1 png pthread pthread-stubs soup-2.4 stdc++
 WANTLIB += xcb xcb-render xcb-shm xml2 z
+WANTLIB += ICE SM atk-bridge-2.0 atspi dbus-1 harfbuzz icudata
+WANTLIB += icule icuuc
 
 LIB_DEPENDS=	devel/libsoup \
 		x11/gtk+3
 
 MODGNOME_TOOLS= goi vala
 
-CONFIGURE_ARGS+=--enable-grl-net
+SUBST_VARS+=	API
 
 .include <bsd.port.mk>

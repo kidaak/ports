@@ -2,10 +2,10 @@
 
 SHARED_ONLY =		Yes
 
-REVISION =		0
 COMMENT =		SSL/TLS plugin for QCA2
 DISTNAME =		qca-ossl-2.0.0-beta3
 PKGNAME =		${DISTNAME:S/-beta/beta/}
+REVISION =		1
 CATEGORIES =		security
 HOMEPAGE =		http://delta.affinix.com/qca/
 MAINTAINER =		Vadim Zhukov <persgray@gmail.com>

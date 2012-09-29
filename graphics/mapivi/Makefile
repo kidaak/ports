@@ -6,7 +6,7 @@ COMMENT=	image viewer and organizer
 
 DISTNAME=	mapivi097
 PKGNAME=	mapivi-0.97
-REVISION=	1
+REVISION=	2
 CATEGORIES=	graphics x11
 
 HOMEPAGE=	http://mapivi.de.vu/

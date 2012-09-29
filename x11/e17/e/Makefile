@@ -2,13 +2,10 @@
 
 COMMENT =		the enlightened window manager
 
-# XXX stop lua module creating a no-arch package...
-SHARED_ONLY =		Yes
-
 DISTNAME =		enlightenment-0.16.999.54504
 EXTRACT_SUFX=		.tar.bz2
 
-REVISION =		5
+REVISION =		8
 EPOCH =			0
 
 # BSD

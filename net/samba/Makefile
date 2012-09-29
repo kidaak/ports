@@ -5,8 +5,7 @@ SHARED_ONLY=		Yes
 COMMENT-main=		SMB and CIFS client and server for UNIX
 COMMENT-docs=		additional documentation and examples for Samba
 
-DISTNAME=		samba-3.6.5
-REVISION-main=		0
+DISTNAME=		samba-3.6.8
 PKGNAME-main=		${DISTNAME}
 FULLPKGNAME-docs=	${DISTNAME:S/-/-docs-/}
 FULLPKGPATH-docs=	net/samba,-docs
@@ -28,7 +27,8 @@ PERMIT_PACKAGE_FTP=		Yes
 PERMIT_DISTFILES_CDROM=		Yes
 PERMIT_DISTFILES_FTP=		Yes
 
-WANTLIB=	c execinfo ncurses popt pthread readline talloc tdb>=3.0 z
+WANTLIB += asn1 c crypto cups execinfo gssapi krb5 m ncurses popt
+WANTLIB += pthread readline ssl talloc tdb z
 
 MASTER_SITES=	http://download.samba.org/samba/ftp/ \
 		http://us2.samba.org/samba/ftp/ \
@@ -41,7 +41,8 @@ BUILD_DEPENDS=	${MODGNU_AUTOCONF_DEPENDS} \
 LIB_DEPENDS=	databases/tdb>=1.2.7 \
 		devel/popt \
 		devel/libexecinfo \
-		devel/libtalloc
+		devel/libtalloc \
+		print/cups,-libs
 
 MAKE_FLAGS+=	PASSWD_PROGRAM="/usr/bin/passwd" \
 		LIBSMBCLIENT_SHARED_TARGET_SONAME="bin/libsmbclient.so.${LIBsmbclient_VERSION}" \
@@ -58,7 +59,7 @@ USE_GMAKE=		Yes
 USE_GROFF=		Yes
 #SEPARATE_BUILD=		Yes
 CONFIGURE_STYLE=	gnu
-AUTOCONF_VERSION=	2.63
+AUTOCONF_VERSION=	2.68
 
 CONFIGURE_ARGS=		--disable-fam \
 			--libdir="${PREFIX}/lib/samba" \
@@ -86,17 +87,10 @@ CONFIGURE_ARGS=		--disable-fam \
 CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include" \
 			LDFLAGS="-L${LOCALBASE}/lib"
 
-FLAVORS=		cups ldap ads
+FLAVORS=		ldap ads
 FLAVOR?=
 
 MULTI_PACKAGES=		-main -docs
-
-.if ${FLAVOR:L:Mcups}
-LIB_DEPENDS+=		print/cups
-WANTLIB+=		asn1 crypto gssapi krb5 m ssl z cups
-.else
-CONFIGURE_ARGS+= --disable-cups
-.endif
 
 .if ${FLAVOR:L:Mldap} && ${FLAVOR:L:Mads}
 ERRORS+= "Fatal: ldap and ads flavors conflict"
@@ -118,7 +112,7 @@ CONFIGURE_ARGS+=	--with-krb5="${WRKDIR}/usr"
 #MODULES+=		lang/python
 #MODPY_RUNDEP=		No
 
-WANTLIB+=		asn1 com_err crypto gssapi krb5
+WANTLIB+=		com_err
 .else
 CONFIGURE_ARGS+=	--without-ads
 .endif

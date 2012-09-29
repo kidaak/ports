@@ -1,12 +1,12 @@
 # $OpenBSD$
 
-COMMENT =	generic resource pool for nodejs
+COMMENT =	generic resource pool for Node.js
 
 NPM_VERSION =	1.0.9
 NPM_NAME =	generic-pool
 CATEGORIES =	devel
 
-REVISION =	2
+REVISION =	3
 
 MAINTAINER =	Jeremy Evans <jeremy@openbsd.org>
 

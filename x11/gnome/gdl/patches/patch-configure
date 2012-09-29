@@ -1,0 +1,16 @@
+$OpenBSD$
+
+Fix DATADIRNAME: see LOCALBASE/share/aclocal/{glib-gettext.m4,intltool.m4}
+
+--- configure.orig	Wed Sep 26 21:17:31 2012
++++ configure	Fri Sep 28 11:24:12 2012
+@@ -17365,6 +17365,9 @@ else
+ fi
+ 
+     ;;
++    *-*-openbsd*)
++    DATADIRNAME=share
++    ;;
+     *)
+     DATADIRNAME=lib
+     ;;

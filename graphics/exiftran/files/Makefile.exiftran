@@ -1,4 +1,3 @@
-# $FreeBSD: ports/graphics/exiftran/files/Makefile.exiftran,v 1.1 2011/06/03 12:51:23 mm Exp $
 # $OpenBSD$
 
 .PATH: ${.CURDIR}/../..

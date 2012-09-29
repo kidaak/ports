@@ -14,7 +14,3 @@ lib/pkgconfig/
 lib/pkgconfig/dbus-glib-1.pc
 @bin libexec/dbus-bash-completion-helper
 @man man/man1/dbus-binding-tool.1
-share/examples/dbus-glib/
-@sample ${SYSCONFDIR}/bash_completion.d/
-share/examples/dbus-glib/dbus-bash-completion.sh
-@sample ${SYSCONFDIR}/bash_completion.d/dbus-bash-completion.sh

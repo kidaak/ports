@@ -1,4 +1,5 @@
 @comment $OpenBSD$
+@conflict dsh-*
 bin/barrier
 bin/barrierd
 bin/clustersed

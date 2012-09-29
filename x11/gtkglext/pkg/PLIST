@@ -48,7 +48,6 @@ lib/pkgconfig/gdkglext-1.0.pc
 lib/pkgconfig/gdkglext-x11-1.0.pc
 lib/pkgconfig/gtkglext-1.0.pc
 lib/pkgconfig/gtkglext-x11-1.0.pc
-share/aclocal/
 share/aclocal/gtkglext-1.0.m4
 share/examples/gtkglext/
 share/examples/gtkglext/alien.lwo

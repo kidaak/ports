@@ -1,9 +1,11 @@
 # $OpenBSD$
 
+PKG_ARCH =	*
+
 COMMENT =	encapsulate protected Lua calls with a coroutine based loop
 
 DISTNAME =	coxpcall-1.13.0
-REVISION=	1
+REVISION=	2
 CATEGORIES =	devel
 HOMEPAGE =	http://coxpcall.luaforge.net/
 
@@ -22,7 +24,7 @@ NO_BUILD =		Yes
 NO_REGRESS =		Yes
 
 do-install:
-	${INSTALL_DATA_DIR} ${PREFIX}/share/lua/5.1/
-	${INSTALL_DATA} ${WRKSRC}/src/coxpcall.lua ${PREFIX}/share/lua/5.1/
+	${INSTALL_DATA_DIR} ${MODLUA_DATADIR}
+	${INSTALL_DATA} ${WRKSRC}/src/coxpcall.lua ${MODLUA_DATADIR}
 
 .include <bsd.port.mk>

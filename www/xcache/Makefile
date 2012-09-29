@@ -4,7 +4,7 @@ SHARED_ONLY=	Yes
 
 COMMENT=	fast and stable PHP opcode cacher
 
-VERSION=	2.0.0
+VERSION=	2.0.1
 DISTNAME=	xcache-${VERSION}
 CATEGORIES=	www
 MASTER_SITES=	http://xcache.lighttpd.net/pub/Releases/${VERSION}/
@@ -55,16 +55,16 @@ post-extract:
 	@ln -sf ${LOCALBASE}/bin/gindent ${WRKDIR}/bin/indent
 
 post-install:
-	${INSTALL_DATA_DIR} ${WRKINST}/${WEBROOT}/xcache
-	${INSTALL_DATA_DIR} ${WRKINST}/${WEBROOT}/xcache/admin
+	${INSTALL_DATA_DIR} ${WRKINST}${WEBROOT}/xcache
+	${INSTALL_DATA_DIR} ${WRKINST}${WEBROOT}/xcache/admin
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/php-${MODPHP_VERSION}
-	cd ${WRKSRC}/admin && ${INSTALL_DATA} * ${WRKINST}/${WEBROOT}/xcache/admin
+	cd ${WRKSRC}/admin && ${INSTALL_DATA} * ${WRKINST}${WEBROOT}/xcache/admin
 	${INSTALL_DATA} ${WRKSRC}/xcache.ini \
 		${PREFIX}/share/examples/php-${MODPHP_VERSION}
 
 .if ${FLAVOR:L:Mcoverager}
-	${INSTALL_DATA_DIR} ${WRKINST}/${WEBROOT}/xcache/coverager
-	cd ${WRKSRC}/coverager && ${INSTALL_DATA} * ${WRKINST}/${WEBROOT}/xcache/coverager
+	${INSTALL_DATA_DIR} ${WRKINST}${WEBROOT}/xcache/coverager
+	cd ${WRKSRC}/coverager && ${INSTALL_DATA} * ${WRKINST}${WEBROOT}/xcache/coverager
 .endif
 
 .include <bsd.port.mk>

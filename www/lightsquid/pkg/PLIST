@@ -97,3 +97,5 @@ htdocs/lightsquid/user_detail.cgi
 htdocs/lightsquid/user_month.cgi
 htdocs/lightsquid/user_time.cgi
 htdocs/lightsquid/whousesite.cgi
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

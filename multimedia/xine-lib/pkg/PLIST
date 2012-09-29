@@ -64,6 +64,7 @@ lib/xine/plugins/${XINEAPI_REV}/post/xineplug_post_planar.so
 lib/xine/plugins/${XINEAPI_REV}/post/xineplug_post_switch.so
 lib/xine/plugins/${XINEAPI_REV}/post/xineplug_post_tvtime.so
 lib/xine/plugins/${XINEAPI_REV}/post/xineplug_post_visualizations.so
+@comment lib/xine/plugins/${XINEAPI_REV}/vidix/
 lib/xine/plugins/${XINEAPI_REV}/xineplug_ao_out_file.so
 lib/xine/plugins/${XINEAPI_REV}/xineplug_ao_out_none.so
 lib/xine/plugins/${XINEAPI_REV}/xineplug_ao_out_sndio.so

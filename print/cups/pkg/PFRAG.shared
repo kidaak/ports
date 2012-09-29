@@ -1,7 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libcups.so.${LIBcups_VERSION}
-@lib lib/libcupscgi.so.${LIBcupscgi_VERSION}
-@lib lib/libcupsdriver.so.${LIBcupsdriver_VERSION}
-@lib lib/libcupsimage.so.${LIBcupsimage_VERSION}
-@lib lib/libcupsmime.so.${LIBcupsmime_VERSION}
-@lib lib/libcupsppdc.so.${LIBcupsppdc_VERSION}

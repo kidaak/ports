@@ -1,4 +1,0 @@
-@comment $OpenBSD$
-lib/gtk-3.0/modules/libcanberra-gtk-module.so
-lib/gtk-3.0/modules/libcanberra-gtk3-module.so
-@lib lib/libcanberra-gtk3.so.${LIBcanberra-gtk3_VERSION}

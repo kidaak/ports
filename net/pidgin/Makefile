@@ -6,12 +6,14 @@ COMMENT-main=	multi-protocol instant messaging client
 COMMENT-finch=	multi-protocol instant messaging client, console client
 COMMENT-libpurple= multi-protocol instant messaging library
 
-VERSION=	2.10.4
-REVISION-main=	0
+VERSION=	2.10.6
 DISTNAME=	pidgin-${VERSION}
 PKGNAME-main=	pidgin-${VERSION}
+REVISION-main=	2
 PKGNAME-finch=	finch-${VERSION}
+REVISION-finch=	2
 PKGNAME-libpurple= libpurple-${VERSION}
+REVISION-libpurple= 2
 .for i in -finch -libpurple
 FULLPKGNAME$i= ${PKGNAME$i}${FLAVOR_EXT:S/-gtkspell//}
 FULLPKGPATH$i= ${PKGPATH},$i${FLAVOR_EXT:S/-gtkspell//:S/-/,/g}
@@ -83,7 +85,6 @@ AUTOCONF_VERSION= 2.68
 CONFIGURE_ARGS+= --disable-avahi \
 		 --disable-cap \
 		 --disable-doxygen \
-		 --disable-farsight \
 		 --disable-farstream \
 		 --disable-gevolution \
 		 --disable-gnutls \

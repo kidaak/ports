@@ -3,11 +3,9 @@
 COMMENT=	gtk2 comic book viewer
 
 DISTNAME=	comix-4.0.3
-REVISION=	8
+REVISION=	10
 
 CATEGORIES=	graphics
-
-MAINTAINER=	Mathieu Sauve-Frankel <msf@openbsd.org>
 
 # GPLv2
 PERMIT_PACKAGE_CDROM=	Yes

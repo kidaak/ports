@@ -8,6 +8,7 @@ CATEGORIES=		misc
 HOMEPAGE=		http://www.midnight-commander.org/
 MASTER_SITES=		${HOMEPAGE}downloads/
 MAINTAINER=		Robert Nagy <robert@openbsd.org>
+REVISION=	0
 
 EXTRACT_SUFX=		.tar.bz2
 

@@ -3,7 +3,7 @@
 COMMENT=	mouse accessibility enhancements for GNOME
 
 GNOME_PROJECT=	mousetweaks
-GNOME_VERSION=	3.4.2
+GNOME_VERSION=	3.6.0
 
 HOMEPAGE=	http://live.gnome.org/Mousetweaks/Home
 
@@ -25,9 +25,9 @@ MODULES=	devel/dconf \
 
 USE_GROFF=	Yes
 
-BUILD_DEPENDS=	devel/gsettings-desktop-schemas
-RUN_DEPENDS=	devel/gsettings-desktop-schemas
-LIB_DEPENDS=	x11/gtk+3
+BUILD_DEPENDS=	devel/gsettings-desktop-schemas>=3.6.0
+RUN_DEPENDS=	devel/gsettings-desktop-schemas>=3.6.0
+LIB_DEPENDS=	x11/gtk+3>=3.6.0
 
 MODGNOME_TOOLS= yelp
 

@@ -4,6 +4,7 @@ COMMENT =	GNUstep webserver framework
 
 VERSION =	1.4.6
 DISTNAME =	WebServer-${VERSION}
+REVISION =	1
 PKGNAME =	gnustep-webserver-${VERSION}
 
 SHARED_LIBS +=  WebServer	1.1

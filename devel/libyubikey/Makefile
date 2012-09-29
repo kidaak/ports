@@ -2,8 +2,7 @@
 
 COMMENT=	Yubikey OTP library
 
-DISTNAME=	libyubikey-1.8
-REVISION=	1
+DISTNAME=	libyubikey-1.9
 SHARED_LIBS +=  yubikey              0.0      # 1.3
 CATEGORIES=	devel security
 
@@ -19,19 +18,8 @@ MASTER_SITES=	${HOMEPAGE}/files/
 
 WANTLIB += c
 
-AUTOMAKE_VERSION=	1.11
-AUTOCONF_VERSION=	2.68
-
 CONFIGURE_STYLE=	gnu
-BUILD_DEPENDS += ${MODGNU_AUTOMAKE_DEPENDS}
-BUILD_DEPENDS += ${MODGNU_AUTOCONF_DEPENDS}
-BUILD_DEPENDS += devel/libtool #libtoolize
 
 USE_LIBTOOL=		Yes
-
-pre-configure:
-	cd ${WRKSRC} && ${SETENV} -i AUTOMAKE_VERSION=${AUTOMAKE_VERSION} \
-				AUTOCONF_VERSION=${AUTOCONF_VERSION} \
-				autoreconf-${AUTOCONF_VERSION} --install
 
 .include <bsd.port.mk>

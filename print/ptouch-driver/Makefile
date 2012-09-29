@@ -5,7 +5,7 @@ COMMENT=	Brother P-touch CUPS driver
 DISTNAME=	ptouch-driver-1.3
 CATEGORIES=	print
 
-REVISION=	0
+REVISION=	1
 
 HOMEPAGE=	http://www.diku.dk/hjemmesider/ansatte/panic/P-touch/
 
@@ -21,10 +21,10 @@ WANTLIB += c cups cupsimage m pthread
 
 MASTER_SITES=	${HOMEPAGE}
 
-LIB_DEPENDS=	print/cups
+LIB_DEPENDS=	print/cups,-libs
 
-RUN_DEPENDS=	print/foomatic-filters \
-		print/foomatic-db-engine
+# share/foomatic/db/source/*/*.xml
+RUN_DEPENDS +=	print/foomatic-db-engine
 
 CONFIGURE_STYLE=gnu
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \

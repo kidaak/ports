@@ -106,10 +106,23 @@ sub is_alive
 	return 1;
 }
 
+sub shellclass
+{
+	"DPB::Shell::Abstract"
+}
+
+sub shell
+{
+	my $self = shift;
+	return $self->{shell};
+}
+
 sub new
 {
 	my ($class, $host, $prop) = @_;
-	bless {host => DPB::Host->new($host, $prop)}, $class;
+	my $c = bless {host => DPB::Host->new($host, $prop)}, $class;
+	$c->{shell} = $class->shellclass->new($c->host);
+	return $c;
 }
 
 sub host
@@ -140,6 +153,12 @@ sub memory
 {
 	my $self = shift;
 	return $self->prop->{memory};
+}
+
+sub parallel
+{
+	my $self = shift;
+	return $self->prop->{parallel};
 }
 
 sub hostname
@@ -353,13 +372,7 @@ our @ISA = qw(DPB::Task::Pipe);
 sub run
 {
 	my ($self, $core) = @_;
-	my $shell = $core->{shell};
-	my $sysctl = OpenBSD::Paths->sysctl;
-	if (defined  $shell) {
-		$shell->run("$sysctl -n hw.ncpu");
-	} else {
-		exec{$sysctl} ($sysctl, '-n', 'hw.ncpu');
-	}
+	$core->shell->exec(OpenBSD::Paths->sysctl, '-n', 'hw.ncpu');
 }
 
 sub finalize
@@ -441,11 +454,7 @@ sub init_cores
 				my $shell = shift;
 				DPB::Task->redirect($logger->logfile("init.".
 				    $core->hostname));
-				if (defined $shell) {
-					$shell->run($startup);
-				} else {
-					exec{$startup}($startup);
-				}
+				$shell->exec($startup);
 			    }
 			));
 		}
@@ -498,9 +507,14 @@ sub one_core
 {
 	my ($core, $time) = @_;
 	my $hostname = $core->hostname;
-	return $core->job->name." [$core->{pid}]".
+		
+	my $s = $core->job->name." [$core->{pid}]".
 	    (DPB::Host->name_is_localhost($hostname) ? "" : " on ".$hostname).
 	    $core->job->watched($time, $core);
+	if (defined $core->{swallowed}) {
+		$s = (scalar(@{$core->{swallowed}})+1).'*'.$s;
+	}
+    	return $s;
 }
 
 sub report
@@ -560,10 +574,53 @@ sub available
 	return $available;
 }
 
+sub can_swallow
+{
+	my ($core, $n) = @_;
+	$core->{swallow} = $n;
+	$core->{swallowed} = [];
+	$core->host->{swallow}{$core} = $core;
+
+	# try to reswallow freed things right away.
+	if (@$available > 0) {
+		my @l = @$available;
+		$available = [];
+		$core->mark_available(@l);
+	}
+}
+
 sub mark_available
 {
 	my $self = shift;
-	push(@{$self->available}, @_);
+	LOOP: for my $core (@_) {
+		# okay, if this core swallowed stuff, then we release 
+		# the swallowed stuff first
+		if (defined $core->{swallowed}) {
+			my $l = $core->{swallowed};
+
+			# first prevent the recursive call from taking us into
+			# account
+			delete $core->{swallowed};
+			delete $core->host->{swallow}{$core};
+			delete $core->{swallow};
+
+			# then free up our swallowed jobs
+			$self->mark_available(@$l);
+		}
+
+		# if this host has cores that swallow things, let us 
+		# be swallowed
+		if (defined $core->host->{swallow}) {
+			for my $c (values %{$core->host->{swallow}}) {
+				push(@{$c->{swallowed}}, $core);
+				if (--$c->{swallow} == 0) {
+					delete $core->host->{swallow}{$c};
+				}
+				next LOOP;
+			}
+		}
+		push(@{$self->available}, $core);
+	}
 }
 
 sub running
@@ -689,6 +746,11 @@ sub is_local
 	return 1;
 }
 
+sub shellclass
+{
+	"DPB::Shell::Local"
+}
+
 package DPB::Core::Fetcher;
 our @ISA = qw(DPB::Core::Local);
 
@@ -711,6 +773,58 @@ sub start
 		sleep($timeout);
 		exit(0);
 		}), 'clock'));
+}
+
+# the shell package is used to exec commands.
+# note that we're dealing with exec, so we can modify the object/context
+# itself with abandon
+package DPB::Shell::Abstract;
+
+sub new
+{
+	my ($class, $host) = @_;
+	bless {}, $class;
+}
+
+sub chdir
+{
+	my ($self, $dir) = @_;
+	$self->{dir} = $dir;
+	return $self;
+}
+
+sub env
+{
+	my ($self, %h) = @_;
+	while (my ($k, $v) = each %h) {
+		$self->{env}{$k} = $v;
+	}
+	return $self;
+}
+
+package DPB::Shell::Local;
+our @ISA = qw(DPB::Shell::Abstract);
+
+sub chdir
+{
+	my ($self, $dir) = @_;
+	CORE::chdir($dir) or die "Can't chdir to $dir\n";
+	return $self;
+}
+
+sub env
+{
+	my ($self, %h) = @_;
+	while (my ($k, $v) = each %h) {
+		$ENV{$k} = $v;
+	}
+	return $self;
+}
+
+sub exec
+{
+	my ($self, @argv) = @_;
+	exec {$argv[0]} @argv;
 }
 
 1;

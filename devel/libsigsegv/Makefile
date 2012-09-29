@@ -1,13 +1,14 @@
 # $OpenBSD$
 
-ONLY_FOR_ARCHS = 	alpha amd64 arm i386 hppa m68k mips64 mips64el powerpc sparc64 sparc sh
+ONLY_FOR_ARCHS = 	alpha amd64 arm i386 hppa m68k m88k mips64 mips64el powerpc sparc64 sparc sh vax
 
 COMMENT =		library for handling page faults in user mode
 
-DISTNAME =		libsigsegv-2.8
+DISTNAME =		libsigsegv-2.10
 SHARED_LIBS =		sigsegv 1.0
 CATEGORIES =		devel
-HOMEPAGE =		http://libsigsegv.sourceforge.net/
+
+HOMEPAGE =		http://www.gnu.org/software/libsigsegv/
 
 MAINTAINER =		Scott Vokes <vokes.s@gmail.com>
 
@@ -25,11 +26,5 @@ USE_LIBTOOL =		Yes
 
 CONFIGURE_STYLE =	gnu
 CONFIGURE_ARGS +=	${CONFIGURE_SHARED}
-
-.if ${MACHINE_ARCH} == "hppa"
-CONFIGURE_ENV +=	sv_cv_leave_handler_longjmp_sigaltstack=no \
-			sv_cv_leave_handler_siglongjmp=no \
-			sv_cv_leave_handler_siglongjmp_sigaltstack=no
-.endif
 
 .include <bsd.port.mk>

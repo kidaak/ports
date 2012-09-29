@@ -1,6 +1,6 @@
 $OpenBSD$
---- setup.py.orig	Sun Sep 26 19:07:46 2010
-+++ setup.py	Sun Oct 31 07:30:55 2010
+--- setup.py.orig	Tue Sep  4 14:34:06 2012
++++ setup.py	Tue Sep 11 08:05:33 2012
 @@ -125,7 +125,7 @@ def restart_cups():
          return '/etc/init.d/cupsys restart'
  
@@ -10,7 +10,7 @@ $OpenBSD$
  
  
  mod = module.Module(__mod__, __title__, __version__, __doc__, USAGE,
-@@ -893,7 +893,7 @@ else: # INTERACTIVE_MODE
+@@ -879,7 +879,7 @@ else: # INTERACTIVE_MODE
                  if len(path) > 0:
                      cmd = 'hp-testpage %s' % param
                  else:

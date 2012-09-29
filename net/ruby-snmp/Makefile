@@ -3,7 +3,7 @@
 COMMENT=	SNMP network management library for Ruby
 
 DISTNAME=	snmp-1.0.2
-REVISION=	5
+REVISION=	6
 CATEGORIES=	net
 
 # bsd/ruby

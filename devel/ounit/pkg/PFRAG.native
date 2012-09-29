@@ -1,0 +1,6 @@
+@comment $OpenBSD$
+%%dynlink%%
+lib/ocaml/oUnit/oUnit.a
+lib/ocaml/oUnit/oUnit.cmx
+lib/ocaml/oUnit/oUnit.cmxa
+lib/ocaml/oUnit/oUnitDiff.cmx

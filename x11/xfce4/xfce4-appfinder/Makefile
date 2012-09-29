@@ -3,6 +3,7 @@
 COMMENT=	Xfce4 application finder
 
 XFCE_PROJECT=	xfce4-appfinder
+REVISION=	0
 
 # GPLv2
 PERMIT_DISTFILES_CDROM=	Yes

@@ -4,7 +4,7 @@ COMMENT=	robust library for verifying and serving OpenID identities
 
 DISTNAME=	ruby-${PKGNAME}
 PKGNAME=	openid-2.1.6
-REVISION =	6
+REVISION =	7
 CATEGORIES=	security
 
 # Apache License

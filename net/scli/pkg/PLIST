@@ -1,4 +1,0 @@
-@comment $OpenBSD$
-@bin bin/scli
-@info info/scli.info
-@man man/man1/scli.1

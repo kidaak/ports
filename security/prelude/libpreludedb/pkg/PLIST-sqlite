@@ -1,3 +1,0 @@
-@comment $OpenBSD$
-lib/libpreludedb/plugins/sql/sqlite3.la
-lib/libpreludedb/plugins/sql/sqlite3.so

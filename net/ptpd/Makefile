@@ -20,7 +20,6 @@ WANTLIB=	c
 
 WRKSRC=		${WRKDIST}/src
 MAKE_FLAGS=	CFLAGS="${CFLAGS}"
-USE_GROFF =	Yes
 
 do-install:
 	${INSTALL_PROGRAM} ${WRKBUILD}/ptpd ${PREFIX}/sbin

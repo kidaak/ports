@@ -1,9 +1,9 @@
 $OpenBSD$
---- spim/Configure.orig	Thu Oct 13 15:18:37 2005
-+++ spim/Configure	Thu Oct 13 15:18:54 2005
+--- spim/Configure.orig	Wed Nov 23 18:20:17 2011
++++ spim/Configure	Wed Nov 23 18:20:32 2011
 @@ -1,4 +1,4 @@
 -#!/usr/bin/env bash
-+#!/usr/bin/env sh
++#!/bin/sh
  #
  # Shell script to configure SPIM.
  #

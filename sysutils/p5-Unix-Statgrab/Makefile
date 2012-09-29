@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 
 MODULES=	cpan
 DISTNAME=	Unix-Statgrab-0.04
-REVISION=	3
+REVISION=	4
 CATEGORIES=	sysutils
 USE_GROFF =	Yes
 
@@ -17,7 +17,8 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB =	statgrab
+WANTLIB += c statgrab
+
 LIB_DEPENDS=	sysutils/libstatgrab
 
 CONFIGURE_ARGS=	INC="-I${LOCALBASE}/include" \

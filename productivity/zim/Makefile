@@ -2,13 +2,12 @@
 
 COMMENT =		desktop wiki
 
-MODPY_EGG_VERSION =	0.52
+MODPY_EGG_VERSION =	0.56
 DISTNAME =		zim-${MODPY_EGG_VERSION}
-REVISION =		2
 
 CATEGORIES =		productivity
 
-HOMEPAGE = 		http://zim-wiki.org/
+HOMEPAGE =		http://zim-wiki.org/
 
 MAINTAINER =		Sebastian Benoit <benoit-lists@fb12.de>
 

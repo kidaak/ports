@@ -2,9 +2,8 @@
 
 COMMENT=	PostgreSQL tools from Skype
 
-MODPY_EGG_VERSION=	2.1.12
+MODPY_EGG_VERSION=	3.1
 DISTNAME=		skytools-${MODPY_EGG_VERSION}
-REVISION =		2
 
 CATEGORIES=	databases
 
@@ -20,7 +19,7 @@ PERMIT_DISTFILES_CDROM=	Yes
 
 WANTLIB= 	c ${MODPY_WANTLIB}
 
-MASTER_SITES=	http://pgfoundry.org/frs/download.php/2872/
+MASTER_SITES=	http://pgfoundry.org/frs/download.php/3321/
 
 MODULES=	lang/python
 
@@ -45,10 +44,5 @@ pre-configure:
 	@find ${WRKSRC} -name '*.py' \
 		-exec perl -pi -e 's,/usr/bin/env python,${MODPY_BIN},' {} \; 
 	@perl -pi -e 's,share/doc,share/examples,' ${WRKSRC}/setup.py
-
-post-install:
-.for i in ${BINFILES}
-	@cd ${PREFIX}/bin && mv ${i} `basename ${i} .py`
-.endfor
 
 .include <bsd.port.mk>

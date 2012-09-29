@@ -1,0 +1,11 @@
+$OpenBSD$
+--- watchdog/watchdog.c.orig	Sun Sep 16 12:26:05 2012
++++ watchdog/watchdog.c	Sun Sep 16 12:26:12 2012
+@@ -25,7 +25,6 @@
+ #include <string.h>
+ #include <stdlib.h>
+ #include <signal.h>
+-#include <wait.h>
+ #include <ctype.h>
+ #include <sys/un.h>
+ #include <sys/types.h>

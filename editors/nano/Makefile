@@ -20,13 +20,13 @@ PERMIT_DISTFILES_FTP=	Yes
 MODULES=	devel/gettext
 WANTLIB=	c ncursesw
 
+# required to build HTML version of man pages
+BUILD_DEPENDS=	textproc/groff>=1.21
+
 SEPARATE_BUILD=	Yes
 CONFIGURE_STYLE=gnu
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
-
-# only required to build HTML version of man pages
-USE_GROFF =	Yes
 
 post-install:
 	perl -i -pe 's:SYSCONFDIR:${SYSCONFDIR}:g;' \

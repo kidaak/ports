@@ -3,6 +3,8 @@
 COMMENT=		console based player for last.fm radio streams
 
 DISTNAME=		shell-fm-0.20120417
+REVISION=		0
+
 CATEGORIES=		audio
 
 HOMEPAGE=		http://nex.scrapping.cc/shell-fm/

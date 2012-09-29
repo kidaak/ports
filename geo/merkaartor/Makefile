@@ -4,6 +4,7 @@ COMMENT =	OpenStreetMap editor
 
 DISTNAME =	merkaartor-0.17.2
 EXTRACT_SUFX =	.tar.bz2
+REVISION =	0
 
 CATEGORIES =	geo x11
 

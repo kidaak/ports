@@ -3,7 +3,7 @@
 COMMENT =		large library of utility functions
 
 DISTNAME =		MissingH-1.1.1.0
-REVISION =		0
+REVISION =		1
 CATEGORIES =		devel
 HOMEPAGE =		https://github.com/jgoerzen/missingh/wiki
 
@@ -22,6 +22,7 @@ MODGHC_BUILD =		cabal hackage haddock register
 RUN_DEPENDS +=		devel/hs-hslogger \
 			devel/hs-HUnit \
 			devel/hs-mtl \
+			devel/hs-random \
 			devel/hs-regex-compat
 BUILD_DEPENDS +=	${RUN_DEPENDS}
 

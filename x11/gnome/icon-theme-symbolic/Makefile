@@ -3,8 +3,7 @@
 COMMENT=	base icon theme extension for special UI contexts
 
 GNOME_PROJECT=	gnome-icon-theme-symbolic
-GNOME_VERSION=	3.4.0
-REVISION=	0
+GNOME_VERSION=	3.6.0
 
 CATEGORIES=	x11
 

@@ -3,7 +3,7 @@
 COMMENT=	library to parse flash media stream URLs
 
 DISTNAME=	libquvi-0.4.0
-REVISION=	1
+REVISION=	3
 SHARED_LIBS +=  quvi                 0.0      # 7.0
 
 MODULES=	devel/gettext \
@@ -17,6 +17,8 @@ LIB_DEPENDS=	net/curl \
 		${MODLUA_LIB_DEPENDS}
 
 USE_LIBTOOL=	Yes
+
+MODLUA_SA=	Yes
 
 CONFIGURE_ARGS+=${CONFIGURE_SHARED} \
 		--with-manual

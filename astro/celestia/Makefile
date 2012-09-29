@@ -3,7 +3,7 @@
 COMMENT=	free space simulator and planetarium
 
 DISTNAME=	celestia-1.6.1
-REVISION=	1
+REVISION=	4
 
 CATEGORIES=	astro x11
 
@@ -41,7 +41,9 @@ USE_GMAKE=	Yes
 CONFIGURE_STYLE=gnu
 CONFIGURE_ENV=	CPPFLAGS="-I${X11BASE}/include -I${LOCALBASE}/include \
 			-I${LOCALBASE}/include/libpng" \
-		LDFLAGS="-L${X11BASE}/lib -L${LOCALBASE}/lib -lm -lGL"
+		LDFLAGS="-L${X11BASE}/lib -L${LOCALBASE}/lib -lm -lGL" \
+		LUA_CFLAGS="`pkg-config --cflags ${MODLUA_DEP}`" \
+		LUA_LIBS="`pkg-config --libs ${MODLUA_DEP}`"
 CONFIGURE_ARGS=	${CONFIGURE_SHARED} \
 		--with-gtk \
 		--with-lua \

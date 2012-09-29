@@ -4,7 +4,7 @@ COMMENT-main=	Xfce4 theme engine for Gtk+2
 COMMENT-gtk3=	Xfce4 theme engine for Gtk+3
 
 XFCE_PROJECT=	gtk-xfce-engine
-XFCE_VERSION=	3.0.0
+XFCE_VERSION=	3.0.1
 
 MULTI_PACKAGES = -main -gtk3
 PKGNAME-main =	${PKGNAME}

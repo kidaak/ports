@@ -1,3 +1,0 @@
-@comment $OpenBSD$
-lib/libamd_pic.a
-lib/libamdf77_pic.a

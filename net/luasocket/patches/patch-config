@@ -1,6 +1,6 @@
 $OpenBSD$
---- config.orig	Sun Oct 14 23:21:05 2007
-+++ config	Sun Sep  6 08:25:57 2009
+--- config.orig	Mon Oct 15 06:21:05 2007
++++ config	Sun Jul  8 20:27:56 2012
 @@ -6,17 +6,17 @@
  # Output file names
  #
@@ -21,7 +21,7 @@ $OpenBSD$
  #
  #LUAINC=-I/usr/local/include/lua50
 -#LUAINC=-I/usr/local/include/lua5.1
-+LUAINC=-I$(LOCALBASE)/include
++LUAINC=-I${MODLUA_INCL_DIR}
  #LUAINC=-Ilua-5.1.1/src
  
  #------

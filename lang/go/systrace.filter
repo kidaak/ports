@@ -1,3 +1,4 @@
 # $OpenBSD$
 # Go programs (including go_bootstrap) currently need sysarch().
 	native-sysarch: permit
+	native-compat_o51___tfork: permit

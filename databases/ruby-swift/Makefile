@@ -14,6 +14,7 @@ PERMIT_DISTFILES_CDROM = Yes
 PERMIT_DISTFILES_FTP =	Yes
 
 MODULES =	lang/ruby
+FLAVORS =	ruby19
 FLAVOR =	ruby19
 
 WANTLIB =	c m stdc++ e2fs-uuid pcrecpp

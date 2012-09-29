@@ -3,7 +3,7 @@
 COMMENT =	Nintendo DS emulator
 
 DISTNAME =	desmume-0.9.7
-REVISION =	0
+REVISION =	2
 
 CATEGORIES =	emulators
 
@@ -36,11 +36,10 @@ LIB_DEPENDS =	archivers/zziplib \
 		textproc/libxml \
 		x11/gtkglext
 
-CONFIGURE_ENV +=	CPPFLAGS="-I${LOCALBASE}/include" \
-			LDFLAGS="-L${LOCALBASE}/lib -L${X11BASE}/lib -liconv"
+CONFIGURE_ENV +=	CPPFLAGS="-I${LOCALBASE}/include -I${X11BASE}/include" \
+			LDFLAGS="-L${LOCALBASE}/lib -L${X11BASE}/lib"
 
 MODULES =	devel/gettext \
-		lang/lua \
 		textproc/intltool
 
 CONFIGURE_STYLE =	gnu

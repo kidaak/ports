@@ -1,7 +1,7 @@
 $OpenBSD$
---- scan.py.orig	Sun Oct  2 05:06:19 2011
-+++ scan.py	Sun Oct  9 09:17:00 2011
-@@ -1040,7 +1040,7 @@ try:
+--- scan.py.orig	Tue Sep  4 14:34:06 2012
++++ scan.py	Tue Sep 11 08:05:33 2012
+@@ -1061,7 +1061,7 @@ try:
                  if hp_print:
                      cmd = 'hp-print %s &' % output
                  else:

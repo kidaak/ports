@@ -3,8 +3,8 @@
 COMMENT =	GNUstep webservices framework
 
 VERSION =	0.5.5
-REVISION =	0
 DISTNAME =	WebServices-${VERSION}
+REVISION =	1
 PKGNAME =	gnustep-webservices-${VERSION}
 CATEGORIES =	www
 SHARED_LIBS +=  WebServices	0.1

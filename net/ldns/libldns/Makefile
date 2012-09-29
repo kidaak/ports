@@ -3,8 +3,9 @@
 COMMENT=	DNS library modelled after Net::DNS
 
 PKGNAME=	libldns-${VERSION}
+REVISION =	0
 
-SHARED_LIBS +=	ldns 4.10
+SHARED_LIBS +=	ldns 4.11
 
 WANTLIB=	crypto
 

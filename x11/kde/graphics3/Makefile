@@ -42,8 +42,8 @@ LIB_DEPENDS-main = 	${LIB_DEPENDS} \
 			graphics/imlib \
 			graphics/libungif \
 			devel/fribidi>=0.19.2 \
-			print/poppler \
-			print/poppler,-qt
+			print/poppler, \
+			print/poppler,,-qt
 LIB_DEPENDS-kpov =	${LIB_DEPENDS}
 
 RUN_DEPENDS-kpov =	graphics/povray \
@@ -62,10 +62,10 @@ WANTLIB-kpov =		${WANTLIB}
 WANTLIB-kamera =	${WANTLIB}
 WANTLIB-sane =		${WANTLIB}
 
-REVISION-main = 13
+REVISION-main = 15
 REVISION-kamera = 7
 REVISION-kpov = 7
-REVISION-sane = 10
+REVISION-sane = 11
 
 WANTLIB-main +=	 GL Half ICE Iex IlmImf IlmThread Imath Imlib SM \
 	Xcursor Xdamage Xext Xfixes Xft Xi Xinerama Xmu Xrandr Xrender Xt \

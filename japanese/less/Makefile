@@ -1,12 +1,4 @@
-# imported from FreeBSD on 28 jul 98
-# New ports collection makefile for:	jless
-# Version required:	332
-# Date created:		7 March 1995
-# Whom:			Nobuhiro Yasutomi <nobu@psrc.isac.co.jp>
-#
-# $FreeBSD: Makefile,v 1.13 1998/07/17 20:36:13 steve Exp $
 # $OpenBSD$
-#
 
 COMMENT=	less + zcat + ISO-2022 - a pager similar to more and pg
 

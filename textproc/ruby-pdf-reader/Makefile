@@ -3,7 +3,7 @@
 COMMENT =	conforming pdf parser
 
 DISTNAME =	pdf-reader-0.7.7
-REVISION =	4
+REVISION =	5
 CATEGORIES =	textproc
 
 # mit

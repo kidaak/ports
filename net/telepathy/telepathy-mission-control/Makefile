@@ -2,8 +2,7 @@
 
 COMMENT=		abstraction layer between apps and connection managers
 
-DISTNAME=		telepathy-mission-control-5.12.0
-REVISION=		0
+DISTNAME=		telepathy-mission-control-5.12.3
 
 SHARED_LIBS +=  mission-control-plugins 1.1      # 3.1
 
@@ -23,15 +22,17 @@ LIB_DEPENDS=		net/telepathy/telepathy-glib>=0.18.0
 
 LIBTOOL_FLAGS=		--tag=disable-static
 
-CONFIGURE_STYLE=	gnu
 CONFIGURE_ARGS+=	${CONFIGURE_SHARED} \
 			--disable-static \
 			--disable-gtk-doc \
 			--disable-gnome-keyring \
 			--disable-upower \
-			--enable-mcclient-so6 \
 			--with-connectivity=no
-CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include" \
-			LDFLAGS="-L${LOCALBASE}/lib"
+
+# If one of these tools is found at configure stage, it might be used,
+# no matter whether we use --disable-gtk-doc or not.
+CONFIGURE_ENV +=ac_cv_path_GTKDOC_CHECK="" \
+		ac_cv_path_GTKDOC_REBASE="" \
+		ac_cv_path_GTKDOC_MKPDF=""
 
 .include <bsd.port.mk>

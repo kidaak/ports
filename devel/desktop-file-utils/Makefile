@@ -4,6 +4,7 @@ COMMENT=	utilities for dot.desktop entries
 
 DISTNAME=	desktop-file-utils-0.20
 EXTRACT_SUFX=	.tar.xz
+REVISION=	0
 
 CATEGORIES=	devel
 

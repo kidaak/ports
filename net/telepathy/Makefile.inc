@@ -26,3 +26,5 @@ MAINTAINER?=	Jasper Lievisse Adriaanse <jasper@openbsd.org>
 USE_GMAKE?=	Yes
 
 USE_LIBTOOL?=	Yes
+
+CONFIGURE_STYLE?=gnu

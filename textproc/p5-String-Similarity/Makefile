@@ -6,7 +6,7 @@ COMMENT=	calculate the similarity of two strings
 
 MODULES=	cpan
 DISTNAME=	String-Similarity-1.03
-REVISION=	1
+REVISION=	2
 CATEGORIES=	textproc
 USE_GROFF =	Yes
 
@@ -17,5 +17,7 @@ PERMIT_PACKAGE_CDROM=   Yes
 PERMIT_PACKAGE_FTP=     Yes
 PERMIT_DISTFILES_CDROM= Yes
 PERMIT_DISTFILES_FTP=   Yes
+
+WANTLIB += c
 
 .include <bsd.port.mk>

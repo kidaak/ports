@@ -4,7 +4,7 @@ COMMENT=		shared mime database for desktops
 
 DISTNAME=		shared-mime-info-1.0
 CATEGORIES=		misc
-REVISION=		0
+REVISION=		2
 
 HOMEPAGE=		http://www.freedesktop.org/wiki/Software/shared-mime-info
 
@@ -16,7 +16,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB += c glib-2.0 xml2
+WANTLIB += c glib-2.0 pthread xml2
 
 MASTER_SITES=		http://people.freedesktop.org/~hadess/
 EXTRACT_SUFX=		.tar.xz

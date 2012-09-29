@@ -1,2 +1,2 @@
 @comment $OpenBSD$
-lib/ocaml/site-lib/sqlite3/dllsqlite3_stubs.so
+lib/ocaml/stublibs/dllsqlite3_stubs.so

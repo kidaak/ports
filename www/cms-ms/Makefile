@@ -3,7 +3,7 @@
 COMMENT=		easy to use and powerfull CMS
 
 DISTNAME=		cmsmadesimple-1.9.4-full
-REVISION=		3
+REVISION=		4
 PKGNAME=		${DISTNAME:S/-full//}
 CATEGORIES=		www
 

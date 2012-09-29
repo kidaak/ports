@@ -9,7 +9,7 @@ V=		10.11
 OPERA_BUILD=	4791
 DISTNAME=	opera-${V}.gcc4-shared-qt3.i386
 PKGNAME=	opera-${V}
-REVISION=	3
+REVISION=	4
 CATEGORIES=	www
 
 MAINTAINER=	Antoine Jacoutot <ajacoutot@openbsd.org>

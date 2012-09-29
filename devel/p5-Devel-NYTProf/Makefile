@@ -4,7 +4,7 @@ SHARED_ONLY =		Yes
 
 COMMENT =		powerful feature-rich perl source code profiler
 
-DISTNAME =		Devel-NYTProf-4.06
+DISTNAME =		Devel-NYTProf-4.09
 
 CATEGORIES =		devel
 
@@ -16,7 +16,7 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-WANTLIB =		z
+WANTLIB +=		c z
 
 MODULES =		cpan
 RUN_DEPENDS =		converters/p5-JSON-Any

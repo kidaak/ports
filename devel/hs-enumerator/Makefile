@@ -2,8 +2,7 @@
 
 COMMENT=		implementation of Oleg Kiselyov's left-fold enumerators
 
-DISTNAME=		enumerator-0.4.14
-REVISION=		0
+DISTNAME=		enumerator-0.4.19
 CATEGORIES=		devel
 
 MAINTAINER=		Jasper Lievisse Adriaanse <jasper@openbsd.org>

@@ -17,9 +17,9 @@ SHARED_LIBS =	csirocsa	3.0	\
 PKGNAME-main =	${DISTNAME}
 PKGNAME-c++ =	plplot-c++-${VERSION}
 PKGNAME-f77 =	plplot-f77-${VERSION}
-REVISION-main =	7
-REVISION-c++ =	7
-REVISION-f77 =	10
+REVISION-main =	8
+REVISION-c++ =	8
+REVISION-f77 =	11
 
 CATEGORIES =	math graphics
 

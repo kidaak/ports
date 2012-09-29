@@ -3,7 +3,7 @@
 COMMENT =	DSL for quickly creating web-applications in Ruby
 
 DISTNAME =	sinatra-1.2.1
-REVISION=	0
+REVISION=	1
 CATEGORIES =	www
 
 HOMEPAGE =	http://www.sinatrarb.com/

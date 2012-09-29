@@ -3,7 +3,7 @@
 COMMENT=		wallpapers for GNOME
 
 GNOME_PROJECT=		gnome-backgrounds
-GNOME_VERSION=		3.4.2
+GNOME_VERSION=		3.6.0
 
 # GPLv2
 PERMIT_PACKAGE_CDROM=	Yes

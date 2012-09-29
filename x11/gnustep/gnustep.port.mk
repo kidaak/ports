@@ -25,7 +25,7 @@ MODGNUSTEP_NEEDS_GUI ?=		Yes
 MODGNUSTEP_NEEDS_BACK ?=	Yes
 
 .if ${MODGNUSTEP_NEEDS_GUI:L} == yes 
-MODGNUSTEP_WANTLIB +=		objc gnustep-base gnustep-gui
+MODGNUSTEP_WANTLIB +=		objc2 gnustep-base gnustep-gui
 MODGNUSTEP_LIB_DEPENDS +=	x11/gnustep/gui
 .  if ${MODGNUSTEP_NEEDS_BACK:L} == yes
 MODGNUSTEP_RUN_DEPENDS +=	x11/gnustep/back

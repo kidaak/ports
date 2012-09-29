@@ -3,7 +3,7 @@
 COMMENT=		Tango icon theme extras for GNOME and KDE
 
 DISTNAME=		tango-icon-theme-extras-0.1.0
-REVISION=		4
+REVISION=		5
 CATEGORIES=		x11
 
 HOMEPAGE=		http://tango.freedesktop.org/

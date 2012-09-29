@@ -4,13 +4,14 @@ ONLY_FOR_ARCHS=	${GCC4_ARCHS}
 
 COMMENT=	portable, easy to use, and efficient C++ crypto library
 
-DISTNAME=	Botan-1.10.1
+DISTNAME=	Botan-1.10.3
 PKGNAME=	${DISTNAME:L}
+REVISION=	1
 CATEGORIES=	security
 MASTER_SITES=	${HOMEPAGE}files/
 EXTRACT_SUFX=	.tbz
 
-SHARED_LIBS=	botan-1.10	0.0
+SHARED_LIBS=	botan-1.10	0.1
 
 HOMEPAGE=	http://botan.randombit.net/
 
@@ -20,7 +21,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	bz2 crypto gmp m stdc++ z
+WANTLIB=	bz2 crypto gmp m pthread stdc++ z
 
 MODULES=	lang/python
 MODPY_RUNDEP=	No
@@ -53,9 +54,6 @@ PKG_ARGS+=	-Damd64=1
 .else
 PKG_ARGS+=	-Damd64=0
 .endif
-
-post-configure:
-	@perl -pi -e "s|-lpthread|-pthread|g" ${WRKSRC}/Makefile
 
 do-regress:
 	@cd ${WRKBUILD} && ${SETENV} ${MAKE_ENV} ${MAKE_PROGRAM} ${ALL_REGRESS_FLAGS} \

@@ -3,7 +3,7 @@
 COMMENT =	sexp helper library for parsetree
 
 DISTNAME =	sexp_processor-3.0.3
-REVISION =	4
+REVISION =	5
 CATEGORIES =	devel
 
 # MIT

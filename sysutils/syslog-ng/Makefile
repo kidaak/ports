@@ -4,7 +4,7 @@ COMMENT=	syslogd replacement
 
 V =		3.1.4
 DISTNAME =	syslog-ng-$V
-REVISION =	5
+REVISION =	9
 CATEGORIES =	sysutils
 
 MAINTAINER =	Steven Mestdagh <steven@openbsd.org>

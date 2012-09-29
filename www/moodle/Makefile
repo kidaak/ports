@@ -3,6 +3,7 @@
 COMMENT=	learning management system
 
 DISTNAME=	moodle-1.9.16
+REVISION=	0
 CATEGORIES=	www education
 
 HOMEPAGE=	http://www.moodle.org/

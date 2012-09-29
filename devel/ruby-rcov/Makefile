@@ -3,7 +3,7 @@
 COMMENT=	code coverage tool for Ruby
 
 DISTNAME=	rcov-0.9.9
-REVISION=		0
+REVISION=		1
 CATEGORIES=	devel
 
 MAINTAINER=	Jeremy Evans <jeremy@openbsd.org>

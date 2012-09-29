@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.33 1999/02/27 03:09:57 andreas Exp $
 
 COMMENT-main=		C++ X11 GUI toolkit
 COMMENT-examples=	examples and tutorial for qt3
@@ -121,7 +120,7 @@ CONFIGURE_ARGS+=	-plugindir ${QT_PLUGINSDIR}
 CONFIGURE_ENV=	QTDIR="${WRKSRC}" 
 
 LIB_DEPENDS=
-BUILD_DEPENDS=print/cups
+BUILD_DEPENDS=print/cups,-libs
 
 .if ${BUILD_PACKAGES:M-mysql}
 CONFIGURE_ARGS+= -I${LOCALBASE}/include/mysql -L${LOCALBASE}/lib/mysql \

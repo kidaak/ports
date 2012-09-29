@@ -8,7 +8,7 @@ DISTNAME=		openmotif-${VERSION}
 PKGNAME-main=		openmotif-${VERSION}
 PKGNAME-demos=		openmotif-demos-${VERSION}
 
-REVISION-main=		3
+REVISION-main=		4
 REVISION-demos= 	2
 
 SHARED_LIBS=		Mrm	4.1	\

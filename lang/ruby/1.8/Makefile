@@ -7,7 +7,7 @@ COMMENT-tk=		tk interface for ruby
 COMMENT-ri_docs=	ri documentation files ruby
 
 VERSION=		1.8.7
-PATCHLEVEL=		358
+PATCHLEVEL=		370
 
 SHARED_LIBS=		ruby18 0.0
 PKGNAME-main=		ruby-${VERSION}.${PATCHLEVEL}

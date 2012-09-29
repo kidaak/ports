@@ -4,7 +4,7 @@ COMMENT=	simple application for modifying PDF documents
 
 GNOME_PROJECT=	pdfmod
 GNOME_VERSION=	0.9.1
-REVISION=	1
+REVISION=	2
 
 CATEGORIES=	graphics print
 

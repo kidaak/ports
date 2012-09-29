@@ -5,6 +5,7 @@ COMMENT=	lightweight video thumbnailer for file managers
 DISTNAME=	ffmpegthumbnailer-2.0.7
 CATEGORIES=	graphics multimedia
 MASTER_SITES=	http://ffmpegthumbnailer.googlecode.com/files/
+REVISION=	0
 
 SHARED_LIBS=	ffmpegthumbnailer	4.1
 
@@ -16,12 +17,10 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	avcodec avformat avutil bz2 c gsm jpeg m mp3lame ogg \
-		orc-0.4 png pthread schroedinger-1.0 speex stdc++ \
-		swscale theoradec theoraenc vorbis vorbisenc vpx x264 \
-		z
+WANTLIB += avcodec avformat avutil c jpeg m png pthread stdc++
+WANTLIB += swscale
 
-LIB_DEPENDS=	graphics/ffmpeg>=20100512 \
+LIB_DEPENDS=	graphics/ffmpeg \
 		graphics/jpeg \
 		graphics/png
 
@@ -30,6 +29,6 @@ CONFIGURE_STYLE= autoconf
 AUTOCONF_VERSION= 2.68
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
-CONFIGURE_ARGS= --disable-as-needed
+CONFIGURE_ARGS=	${CONFIGURE_SHARED}
 
 .include <bsd.port.mk>

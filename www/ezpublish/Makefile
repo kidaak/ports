@@ -3,7 +3,7 @@
 COMMENT =	professional PHP application framework
 
 VERSION =	4.1.3
-REVISION =	3
+REVISION =	4
 DISTNAME =	ezpublish-${VERSION}-gpl
 PKGNAME =	ezpublish-${VERSION}
 CATEGORIES =	www

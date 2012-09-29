@@ -160,7 +160,12 @@ By default,
 .Nm
 will use the
 .Ev BUILD_ONCE
-optimization if run with
+optimization
+.Po
+see
+.Xr bsd.port.mk 5
+.Pc
+if run with
 .Fl a :
 pseudo-flavors that disable subpackages and are not necessary for bootstrap
 will be disabled, so that the same port is built once, as far as possible.
@@ -303,6 +308,11 @@ solves by preventing more than one job on a given host to be in the
 \&...
 .Ar junk
 stages at one time, by using a per-host lock.
+.Pp
+Defaults to
+.Ar 250 .
+Can be disabled by setting to
+.Ar 0 .
 .It Fl j Ar n
 Number of concurrent local jobs to run (defaults to hw.ncpu if no hosts file).
 .It Fl L Ar logdir

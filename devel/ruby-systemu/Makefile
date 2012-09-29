@@ -3,6 +3,7 @@
 COMMENT=		portable replacement for popen4
 
 DISTNAME=		systemu-2.4.2
+REVISION =		0
 CATEGORIES=		devel
 
 HOMEPAGE=		http://rubyforge.org/projects/codeforpeople/

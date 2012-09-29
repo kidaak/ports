@@ -4,7 +4,7 @@ $OpenBSD$
 | Running ${FULLPKGNAME} on OpenBSD
 +-----------------------------------------------------------------------
 
-To add a CUPS printer, use the 'hp-makeuri' command.
+To add a CUPS printer, use the `hp-makeuri' command.
 e.g. for a network printer:
     $ hp-makeuri 192.168.10.100
     <...>

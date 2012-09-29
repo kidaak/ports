@@ -2,8 +2,7 @@
 
 COMMENT =		efficient conversion of values to readable byte strings
 
-DISTNAME =		bytestring-show-0.3.4
-REVISION=	0
+DISTNAME =		bytestring-show-0.3.5.1
 CATEGORIES =		textproc
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>

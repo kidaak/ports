@@ -5,7 +5,7 @@ COMMENT =	safe, customer facing template language
 DISTNAME =	liquid-2.2.2
 CATEGORIES =	textproc
 
-REVISION =	1
+REVISION =	2
 
 HOMEPAGE =	http://www.liquidmarkup.org/
 

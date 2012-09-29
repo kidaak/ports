@@ -4,7 +4,7 @@ SHARED_ONLY =		Yes
 
 COMMENT =		perl module for using OpenSSL
 
-DISTNAME =		Net-SSLeay-1.48
+DISTNAME =		Net-SSLeay-1.49
 
 CATEGORIES =		security
 
@@ -18,7 +18,7 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-WANTLIB =		crypto ssl z
+WANTLIB =		c crypto ssl z
 
 MODULES =		cpan
 REGRESS_DEPENDS =	devel/p5-Test-Exception \

@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.16 1997/11/17 18:36:43 max Exp $
 
      SUBDIR =
      SUBDIR += c2t

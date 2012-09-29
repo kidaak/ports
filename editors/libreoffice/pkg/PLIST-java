@@ -1,3 +1,5 @@
+@comment $OpenBSD$
+%%SHARED%%
 lib/libreoffice/share/extensions/wiki-publisher/
 lib/libreoffice/share/extensions/wiki-publisher/Addons.xcu
 lib/libreoffice/share/extensions/wiki-publisher/Filter.xcu

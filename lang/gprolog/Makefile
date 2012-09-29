@@ -33,7 +33,7 @@ CONFIGURE_ARGS+= --with-install-dir='${PREFIX}/libdata/gprolog' \
 	--with-examples-dir='${PREFIX}/share/examples/gprolog' \
 	--with-html-dir='${PREFIX}/share/doc/gprolog/html' \
 	--with-doc-dir='${PREFIX}/share/doc/gprolog' \
-	--with-c-flags="${CFLAGS}"
+	--with-c-flags="${CFLAGS} -fno-pie -nopie"
 
 WRKDIST=		${WRKDIR}/${DISTNAME}/src
 

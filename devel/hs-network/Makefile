@@ -2,7 +2,7 @@
 
 COMMENT =		Haskell networking library
 
-DISTNAME =		network-2.3.0.5
+DISTNAME =		network-2.3.0.13
 CATEGORIES =		devel net
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>
@@ -17,8 +17,7 @@ MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
 
-RUN_DEPENDS =		devel/hs-mtl \
-			devel/hs-parsec
+RUN_DEPENDS =		devel/hs-parsec>=2.0,<3.2
 BUILD_DEPENDS =		${RUN_DEPENDS}
 
 .include <bsd.port.mk>

@@ -5,6 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	secure, fast, compliant, and very flexible web-server
 
 DISTNAME=	lighttpd-1.4.31
+REVISION=	0
 CATEGORIES=	www net
 MASTER_SITES=	http://download.lighttpd.net/lighttpd/releases-1.4.x/
 
@@ -20,6 +21,7 @@ PERMIT_DISTFILES_FTP=	Yes
 WANTLIB=		c crypto ${MODLUA_WANTLIB} m pcre ssl z
 
 MODULES=	lang/lua
+MODLUA_SA=	Yes
 
 LIB_DEPENDS+=	devel/pcre \
 		${MODLUA_LIB_DEPENDS}
@@ -35,7 +37,9 @@ CONFIGURE_ARGS+= --libdir="${PREFIX}/lib/lighttpd" \
 		 --without-bzip2 \
 		 --without-libev
 CONFIGURE_ENV+=	CPPFLAGS="-I${LOCALBASE}/include" \
-		LDFLAGS="-L${LOCALBASE}/lib"
+		LDFLAGS="-L${LOCALBASE}/lib" \
+		LUA_CFLAGS="`pkg-config --cflags ${MODLUA_DEP}`" \
+		LUA_LIBS="`pkg-config --libs ${MODLUA_DEP}`"
 
 FLAVORS=	ldap mysql
 FLAVOR?=

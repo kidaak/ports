@@ -3,7 +3,7 @@
 COMMENT =	pure-ruby implementation of the SFTP client protocol
 
 DISTNAME =	net-sftp-2.0.2
-REVISION =	5
+REVISION =	6
 CATEGORIES =	net
 
 # bsd/ruby

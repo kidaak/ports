@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	Internationalizing Domain Names in Applications
 
 DISTNAME=	Net-IDN-Encode-1.100
-REVISION=	1
+REVISION=	2
 CATEGORIES=	net converters
 
 # perl
@@ -13,6 +13,8 @@ PERMIT_PACKAGE_CDROM =	Yes
 PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
+
+WANTLIB += c
 
 MODULES=		cpan
 

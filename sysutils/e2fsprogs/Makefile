@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: ports/sysutils/e2fsprogs/Makefile,v 1.8 2003/02/20 19:00:47 knu Exp $
 
 COMMENT=	utilities to manipulate ext2 filesystems
 

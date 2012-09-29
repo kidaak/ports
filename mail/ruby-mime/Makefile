@@ -3,7 +3,7 @@
 COMMENT =	MIME library for Ruby
 
 DISTNAME =	mime-0.1
-REVISION =	4
+REVISION =	5
 CATEGORIES =	mail
 
 MAINTAINER =	Clint Pachl <pachl@ecentryx.com>

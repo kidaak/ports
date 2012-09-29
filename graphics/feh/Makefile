@@ -2,8 +2,7 @@
 
 COMMENT=	lightweight image viewer
 
-DISTNAME=	feh-2.5
-REVISION=	1
+DISTNAME=	feh-2.6.1
 EXTRACT_SUFX=	.tar.bz2
 CATEGORIES=	graphics
 

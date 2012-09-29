@@ -3,6 +3,7 @@
 COMMENT =		logic-free template language
 
 DISTNAME =		mustache-0.99.4
+REVISION =		0
 CATEGORIES =		textproc
 
 # MIT

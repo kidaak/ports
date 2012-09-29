@@ -4,7 +4,7 @@ SHARED_ONLY =		Yes
 
 COMMENT =		lua library for the expat XML parser
 DISTNAME =		luaexpat-1.2.0
-REVISION =		0
+REVISION =		2
 
 CATEGORIES =		textproc
 HOMEPAGE =		http://matthewwild.co.uk/projects/luaexpat/
@@ -20,14 +20,16 @@ WANTLIB =		expat
 MASTER_SITES =		${HOMEPAGE}
 
 MODULES =		lang/lua
-REGRESS_DEPENDS =	textproc/luaexpat
+MODLUA_REGRESS_DEPENDS =	textproc/luaexpat
 
-MAKE_ENV+=		LUA_INC="${LOCALBASE}/include"
+REGRESS_FILES =		test-lom test
+
+MAKE_FLAGS+=		LUA_INC="${MODLUA_INCL_DIR}"
 USE_GMAKE =		Yes
 MAKE_FILE =		makefile
 ALL_TARGET =		lib
 
-LUA = 			${LOCALBASE}/bin/lua
+LUA = 			${MODLUA_BIN}
 
 do-install:
 	${INSTALL_DATA_DIR} ${MODLUA_LIBDIR} ${MODLUA_DATADIR}/lxp
@@ -39,6 +41,8 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/doc/us/luaexpat.png ${MODLUA_DOCDIR}
 
 do-regress:
-	cd ${WRKSRC}/tests && ${LUA} test-lom.lua && ${LUA} test.lua
+.for r in ${REGRESS_FILES}
+	cd ${WRKSRC}/tests && ${MODLUA_BIN} $r.lua
+.endfor
 
 .include <bsd.port.mk>

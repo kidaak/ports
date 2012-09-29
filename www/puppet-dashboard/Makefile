@@ -5,6 +5,7 @@ COMMENT=	overview of your Puppet ecosystem
 V=		1.2.4
 DISTNAME=	puppet-dashboard-bundled-gems-${V}
 PKGNAME=	puppet-dashboard-${V}
+REVISION=	1
 CATEGORIES=	www sysutils
 
 HOMEPAGE=	http://www.puppetlabs.com/puppet/related-projects/dashboard/
@@ -20,9 +21,9 @@ MODULES=	lang/ruby
 MASTER_SITES=	http://blade2k.humppa.hu/distfiles/ \
 		http://puppetlabs.com/downloads/dashboard/
 
-RUN_DEPENDS=	databases/ruby-mysql \
-		devel/ruby-rake \
-		devel/ruby-rdoc \
+RUN_DEPENDS=	databases/ruby-mysql,${MODRUBY_FLAVOR} \
+		devel/ruby-rake,${MODRUBY_FLAVOR} \
+		devel/ruby-rdoc,${MODRUBY_FLAVOR} \
 		${MODRUBY_ICONV_DEPENDS}
 
 PKG_ARCH=	*

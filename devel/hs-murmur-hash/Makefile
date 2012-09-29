@@ -2,8 +2,7 @@
 
 COMMENT =		general purpose, non-cryptographic hashing function
 
-DISTNAME =		murmur-hash-0.1.0.2
-REVISION=		0
+DISTNAME =		murmur-hash-0.1.0.5
 CATEGORIES =		devel
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>

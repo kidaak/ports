@@ -5,7 +5,7 @@ COMMENT =		official Last.fm client
 VER =			1.5.4.27091
 DISTNAME =		lastfm-${VER}+dfsg
 PKGNAME =		last.fm-${VER}
-REVISION =		6
+REVISION =		7
 
 SHARED_ONLY =		Yes
 

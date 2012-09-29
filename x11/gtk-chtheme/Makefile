@@ -3,7 +3,7 @@
 COMMENT=		gtk+-2 theme switcher
 
 DISTNAME=		gtk-chtheme-0.3.1
-REVISION=		7
+REVISION=		8
 CATEGORIES=		x11 graphics
 
 HOMEPAGE=		http://plasmasturm.org/programs/gtk-chtheme/

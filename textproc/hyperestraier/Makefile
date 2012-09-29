@@ -3,7 +3,7 @@
 COMMENT=		high performance full-text search system
 
 DISTNAME=		hyperestraier-1.4.13
-REVISION=		4
+REVISION=		5
 CATEGORIES=		textproc
 SHARED_LIBS=		estraier	8.38
 

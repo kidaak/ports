@@ -3,6 +3,7 @@
 COMMENT =		third party xmonad extensions
 
 DISTNAME =		xmonad-contrib-0.10
+REVISION =		1
 CATEGORIES =		x11
 HOMEPAGE =		http://www.xmonad.org/
 
@@ -19,6 +20,7 @@ MODGHC_BUILD =		cabal hackage register haddock
 
 BUILD_DEPENDS =		${RUN_DEPENDS}
 RUN_DEPENDS =		devel/hs-mtl \
+			devel/hs-random \
 			shells/bash \
 			x11/hs-X11-xft \
 			x11/xmonad,-lib

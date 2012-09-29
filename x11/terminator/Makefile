@@ -4,7 +4,7 @@ COMMENT=		GTK2 terminal emulator with split-window and tabs support
 
 MODPY_EGG_VERSION=	0.95
 DISTNAME=		terminator-${MODPY_EGG_VERSION}
-REVISION=		4
+REVISION=		5
 
 CATEGORIES=		x11
 

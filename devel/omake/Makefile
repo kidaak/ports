@@ -7,7 +7,7 @@ V=		0.9.8.5
 VEXTRA=		3
 DISTNAME=	omake-${V}-${VEXTRA}
 PKGNAME=	omake-${V}pl${VEXTRA}
-REVISION =	2
+REVISION =	4
 WRKDIST=	${WRKDIR}/omake-${V}
 MASTER_SITES=	http://omake.metaprl.org/downloads/ \
 		http://www.ocaml-programming.de/godi-backup/

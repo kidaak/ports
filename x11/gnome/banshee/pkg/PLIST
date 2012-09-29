@@ -14,7 +14,6 @@ lib/banshee/Backends/Banshee.NowPlaying.X11.dll.mdb
 lib/banshee/Backends/Banshee.Unix.dll
 lib/banshee/Backends/Banshee.Unix.dll.config
 lib/banshee/Backends/Banshee.Unix.dll.mdb
-@comment lib/banshee/Backends/libbnpx11.la
 lib/banshee/Backends/libbnpx11.so
 lib/banshee/Banshee.CollectionIndexer.dll
 lib/banshee/Banshee.CollectionIndexer.dll.mdb
@@ -129,9 +128,7 @@ lib/banshee/MusicBrainz.dll.mdb
 lib/banshee/Nereid.exe
 lib/banshee/Nereid.exe.mdb
 lib/banshee/gconf-schema-extractor.exe
-@comment lib/banshee/libbanshee.la
 lib/banshee/libbanshee.so
-@comment lib/banshee/libossifer.la
 lib/banshee/libossifer.so
 lib/monodoc/sources/banshee-docs.source
 lib/monodoc/sources/banshee-docs.tree
@@ -726,7 +723,7 @@ share/mime/packages/banshee-amz.xml
 share/mime/packages/banshee-emx.xml
 @exec %D/bin/update-mime-database %D/share/mime
 @unexec-delete %D/bin/update-mime-database %D/share/mime
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: ports/lang/otcl/Makefile,v 1.6 1999/11/28 18:31:28 steve Exp $
 
 COMMENT=	MIT Object Tcl
 

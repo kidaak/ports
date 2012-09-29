@@ -3,7 +3,7 @@
 COMMENT=	Ruby-FFI-based binding to the GObjectIntrospection API
 
 DISTNAME=	gir_ffi-0.0.10
-REVISION=		0
+REVISION=	1
 
 CATEGORIES=	devel
 
@@ -17,8 +17,11 @@ PERMIT_DISTFILES_FTP=	Yes
 
 MODULES=	lang/ruby
 
+FLAVORS=	ruby18
+FLAVOR=		ruby18
+
 BUILD_DEPENDS=	${RUN_DEPENDS}
-RUN_DEPENDS=	devel/ruby-ffi>=1.0.8
+RUN_DEPENDS=	devel/ruby-ffi,${MODRUBY_FLAVOR}>=1.0.8
 
 CONFIGURE_STYLE=ruby gem ext
 

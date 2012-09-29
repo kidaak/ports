@@ -17,7 +17,6 @@ PERMIT_DISTFILES_FTP=	Yes
 MASTER_SITES=	http://launchpad.net/bzr-svn/${MODPY_EGG_VERSION:C/..$//}/${MODPY_EGG_VERSION}/+download/
 
 MODULES=	lang/python
-USE_GROFF=	Yes
 
 RUN_DEPENDS=	devel/bzr
 

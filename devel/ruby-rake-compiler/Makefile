@@ -3,7 +3,7 @@
 COMMENT =	build and package Ruby extensions using Rake as glue
 
 DISTNAME =	rake-compiler-0.7.9
-REVISION =	1
+REVISION =	2
 CATEGORIES =	devel
 
 HOMEPAGE =	http://github.com/luislavena/rake-compiler

@@ -1,9 +1,11 @@
 # $OpenBSD$
 
+PKG_ARCH=		*
+
 COMMENT=		developer documentation for GNOME
 
 GNOME_PROJECT=		gnome-devel-docs
-GNOME_VERSION=		3.4.1
+GNOME_VERSION=		3.6.0
 
 # GPLv2
 PERMIT_PACKAGE_CDROM=	Yes
@@ -15,7 +17,13 @@ MODULES=		x11/gnome
 
 MODGNOME_TOOLS= 	yelp
 
-PKG_ARCH=		*
 USE_LIBTOOL=		No
+
+# XXX https://bugzilla.gnome.org/show_bug.cgi?id=684965
+post-install:
+.for i in ca de el es fr gl
+	cd ${PREFIX}/share/gnome/help/gnome-devel-demos/$i/samples/helloWorld  && find . \
+		 -type l -exec ln -sf ../../../C/samples/helloWorld/{} {} \;
+.endfor
 
 .include <bsd.port.mk>

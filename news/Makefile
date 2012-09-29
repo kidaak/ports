@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.32 1997/11/16 04:58:09 fenner Exp $
-#
 
      SUBDIR =
      SUBDIR += aub
@@ -14,6 +12,8 @@
      SUBDIR += pan
      SUBDIR += plor
      SUBDIR += py-yenc
+     SUBDIR += sabnzbd
+     SUBDIR += sickbeard
      SUBDIR += slrn
      SUBDIR += tin
      SUBDIR += trn

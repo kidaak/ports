@@ -3,7 +3,7 @@
 COMMENT =	simple subset sum problem solver for ruby
 
 DISTNAME =	subset_sum-1.0.1
-REVISION =	1
+REVISION =	2
 CATEGORIES =	devel
 
 HOMEPAGE=	http://subset-sum.rubyforge.org/

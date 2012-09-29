@@ -238,7 +238,7 @@ share/locale/km/LC_MESSAGES/gnash.mo
 share/locale/ne/LC_MESSAGES/gnash.mo
 share/locale/ru/LC_MESSAGES/gnash.mo
 share/locale/zh_TW/LC_MESSAGES/gnash.mo
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

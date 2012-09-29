@@ -3,7 +3,7 @@
 COMMENT =	simple AMQP driver for Ruby
 
 DISTNAME =	amqp-0.6.7
-REVISION =	3
+REVISION =	4
 CATEGORIES =	net
 
 # Ruby license

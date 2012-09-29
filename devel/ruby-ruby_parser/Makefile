@@ -3,7 +3,7 @@
 COMMENT =	Ruby parser written in pure Ruby
 
 DISTNAME =	ruby_parser-2.0.4
-REVISION =	4
+REVISION =	5
 CATEGORIES =	devel
 
 # MIT
@@ -17,8 +17,7 @@ MODULES =	lang/ruby
 CONFIGURE_STYLE = ruby gem
 
 BUILD_DEPENDS = ${RUN_DEPENDS}
-RUN_DEPENDS =	devel/ruby-sexp_processor,${MODRUBY_FLAVOR}>=3.0.1 \
-		devel/ruby-parsetree,${MODRUBY_FLAVOR}>=2.3.0
+RUN_DEPENDS =	devel/ruby-sexp_processor,${MODRUBY_FLAVOR}>=3.0.1
 
 REGRESS_DEPENDS = devel/ruby-hoe,${MODRUBY_FLAVOR} \
 		  devel/ruby-minitest,${MODRUBY_FLAVOR}

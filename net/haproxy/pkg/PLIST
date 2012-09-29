@@ -20,3 +20,4 @@ share/examples/haproxy/haproxy.cfg
 share/examples/haproxy/option-http_proxy.cfg
 share/examples/haproxy/tarpit.cfg
 share/examples/haproxy/url-switching.cfg
+@rcscript ${RCDIR}/haproxy

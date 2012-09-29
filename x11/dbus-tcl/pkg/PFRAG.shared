@@ -1,0 +1,2 @@
+@comment $OpenBSD$
+@lib lib/tcl/dbus-tcl/libdbus-tcl11.so.${LIBdbus-tcl11_VERSION}

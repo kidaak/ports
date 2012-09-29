@@ -27,6 +27,8 @@ FLAVORS =		debug
 
 MODULES =	x11/kde devel/gettext
 
+BUILD_DEPENDS = devel/imake
+
 LIB_DEPENDS =	x11/kde/libs3
 WANTLIB = ICE SM X11 Xext Xrender art_lgpl_2 idn jpeg \
 	lib/kde3/DCOP lib/kde3/kdecore>=6 lib/kde3/kdefx lib/kde3/kdesu \
@@ -47,7 +49,7 @@ LIB_DEPENDS-samba = ${LIB_DEPENDS} \
 		net/samba>=3
 
 
-REVISION-main =		16
+REVISION-main =		19
 WANTLIB-main = ${WANTLIB} GL GLU Half Iex IlmImf IlmThread Imath Xcomposite \
 	Xcursor Xdamage Xdamage Xfixes Xfixes Xft Xi Xinerama Xmu Xrandr Xss \
 	Xt Xtst Xxf86misc Xxf86vm Xxf86vm asn1 audiofile c com_err crypto drm \
@@ -61,7 +63,7 @@ WANTLIB-main = ${WANTLIB} GL GLU Half Iex IlmImf IlmThread Imath Xcomposite \
 	mng ogg pcre pcreposix pthread qtmcop sasl2 sndio soundserver_idl ssl \
 	usb vcard vorbis vorbisenc vorbisfile xkbfile Xau Xdmcp
 
-REVISION-samba =	4
+REVISION-samba =	5
 WANTLIB-samba = ${WANTLIB} execinfo lib/samba/smbclient pthread talloc tdb \
 	wbclient Xfixes Xt expat fontconfig freetype
 

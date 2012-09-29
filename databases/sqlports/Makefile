@@ -1,7 +1,8 @@
 # $OpenBSD$
 
 CATEGORIES =		databases
-V =			2.2
+V =			2.3
+REVISION =		0
 DISTNAME =		sqlports-$V
 DISTFILES =
 COMMENT =		sqlite database of ports

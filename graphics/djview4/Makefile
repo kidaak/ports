@@ -5,7 +5,7 @@ COMMENT=	portable DjVu viewer and browser plugin
 DISTNAME=	djview-4.8
 PKGNAME=	${DISTNAME:S/djview/djview4/}
 CATEGORIES=	graphics print
-REVISION=	0
+REVISION=	2
 
 HOMEPAGE=	http://djvu.sourceforge.net/djview4.html
 

@@ -5,13 +5,11 @@ COMMENT=	console napster client
 VERSION=	1.3g
 DISTNAME=	TekNap-${VERSION}
 PKGNAME=	teknap-${VERSION}
-REVISION=	0
+REVISION=	1
 CATEGORIES=	audio
 MASTER_SITES=	http://bwap.clawz.com/downloads/
 
 HOMEPAGE=	http://www.TekNap.com/
-
-MAINTAINER=	Jason Ish <ish@openbsd.org>
 
 PERMIT_PACKAGE_CDROM=   Yes
 PERMIT_PACKAGE_FTP=     Yes

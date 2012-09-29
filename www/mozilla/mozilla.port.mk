@@ -28,13 +28,13 @@ MODMOZ_BUILD_DEPENDS =	devel/libIDL \
 			archivers/zip>=2.3
 
 MODMOZ_LIB_DEPENDS =	x11/gtk+2 \
-			devel/nspr>=4.9 \
-			security/nss>=3.12.13
+			devel/nspr>=4.9.2 \
+			security/nss>=3.13.6
 
 MODMOZ_WANTLIB =	X11 Xcomposite Xcursor Xdamage Xext Xfixes Xi \
 		Xinerama Xrandr Xrender Xt atk-1.0 c cairo crypto expat \
 		fontconfig freetype gdk-x11-2.0 gdk_pixbuf-2.0 gio-2.0 glib-2.0 \
-		gmodule-2.0 gobject-2.0 gthread-2.0 gtk-x11-2.0 jpeg krb5 m \
+		gobject-2.0 gthread-2.0 gtk-x11-2.0 jpeg krb5 m \
 		nspr4>=21 nss3>=25 pango-1.0 pangocairo-1.0 pangoft2-1.0 \
 		pixman-1 plc4>=21 plds4>=21 png pthread pthread-stubs \
 		smime3>=25 sndio softokn3>=25 ssl3>=25 stdc++ xcb \
@@ -143,14 +143,6 @@ MODGNU_CONFIG_GUESS_DIRS +=	${WRKSRC}/${_MOZDIR}/build/autoconf \
 				${WRKSRC}/${_MOZDIR}/js/src/build/autoconf
 
 post-extract:
-# XXX nsSound.cpp different between mozilla branch - need to use local one
-.if ${MOZILLA_PROJECT} == "firefox" || \
-	 ${MOZILLA_PROJECT} == "thunderbird" || \
-	${MOZILLA_PROJECT} == "seamonkey"
-	cp -f ${FILESDIR}/nsSound.cpp ${WRKSRC}/${_MOZDIR}/widget/gtk2/
-.else
-	cp -f ${FILESDIR}/nsSound.cpp ${WRKSRC}/${_MOZDIR}/widget/src/gtk2/
-.endif
 # syndeyaudio sndio file comes from ffx FILESDIR
 	cp -f ${PORTSDIR}/www/mozilla-firefox/files/sydney_audio_sndio.c \
 		${WRKSRC}/${_MOZDIR}/media/libsydneyaudio/src/

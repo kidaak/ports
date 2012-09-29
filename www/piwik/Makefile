@@ -2,7 +2,7 @@
 
 COMMENT=		open source web analytics software program
 
-DISTNAME=		piwik-1.7.1
+DISTNAME=		piwik-1.8.4
 CATEGORIES=		www
 
 HOMEPAGE=		http://www.piwik.org/
@@ -26,10 +26,14 @@ PREFIX=			/var/www
 INSTDIR=		${PREFIX}/piwik/
 SUBST_VARS=		INSTDIR
 
-MODULES=	lang/php
+MODULES=	lang/php \
+		lang/python
 RUN_DEPENDS=	lang/php/${MODPHP_VERSION},-gd \
 		lang/php/${MODPHP_VERSION},-mysql \
 		lang/php/${MODPHP_VERSION},-pdo_mysql
+
+MODPY_ADJ_FILES=misc/log-analytics/import_logs.py
+MODPY_RUNDEP=	No
 
 post-patch:
 	@find ${WRKSRC} -name "*.orig" -exec rm -f {} \;

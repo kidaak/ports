@@ -2,7 +2,7 @@
 
 COMMENT =		monad-transformer version of Control.Exception.catch
 
-DISTNAME =		MonadCatchIO-mtl-0.3.0.4
+DISTNAME =		MonadCatchIO-mtl-0.3.0.5
 CATEGORIES =		devel
 HOMEPAGE =		http://darcsden.com/jcpetruzza/MonadCatchIO-mtl
 

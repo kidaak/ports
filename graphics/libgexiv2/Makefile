@@ -3,6 +3,7 @@
 COMMENT=	GObject wrapper around exiv2
 CATEGORIES=	graphics
 DISTNAME=	libgexiv2-0.4.1
+REVISION=	0
 
 SHARED_LIBS +=	gexiv2	1.0 # .0.0
 

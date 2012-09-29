@@ -43,6 +43,12 @@ share/gnome/help/ghex/fr/figures/ghex_window_empty.png
 share/gnome/help/ghex/fr/figures/ghex_window_open.png
 share/gnome/help/ghex/fr/ghex.xml
 share/gnome/help/ghex/fr/legal.xml
+share/gnome/help/ghex/id/
+share/gnome/help/ghex/id/figures/
+share/gnome/help/ghex/id/figures/ghex_window_empty.png
+share/gnome/help/ghex/id/figures/ghex_window_open.png
+share/gnome/help/ghex/id/ghex.xml
+share/gnome/help/ghex/id/legal.xml
 share/gnome/help/ghex/it/
 share/gnome/help/ghex/it/figures/
 share/gnome/help/ghex/it/figures/ghex_window_empty.png
@@ -166,6 +172,7 @@ share/omf/ghex/ghex-cs.omf
 share/omf/ghex/ghex-de.omf
 share/omf/ghex/ghex-es.omf
 share/omf/ghex/ghex-fr.omf
+share/omf/ghex/ghex-id.omf
 share/omf/ghex/ghex-it.omf
 share/omf/ghex/ghex-ja.omf
 share/omf/ghex/ghex-ko.omf
@@ -177,7 +184,7 @@ share/omf/ghex/ghex-zh_CN.omf
 share/omf/ghex/ghex-zh_TW.omf
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/glib-compile-schemas %D/share/glib-2.0/schemas >/dev/null
 @unexec-delete %D/bin/glib-compile-schemas %D/share/glib-2.0/schemas >/dev/null

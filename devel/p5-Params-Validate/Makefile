@@ -6,7 +6,7 @@ COMMENT=	perl module to validate function/method parameters
 
 MODULES=	cpan
 DISTNAME=	Params-Validate-0.95
-REVISION=	2
+REVISION=	3
 CATEGORIES=	devel
 USE_GROFF =	Yes
 
@@ -15,6 +15,8 @@ PERMIT_PACKAGE_CDROM=   Yes
 PERMIT_PACKAGE_FTP=     Yes
 PERMIT_DISTFILES_CDROM= Yes
 PERMIT_DISTFILES_FTP=   Yes
+
+WANTLIB += c
 
 REGRESS_DEPENDS=	devel/p5-Test-Taint>=1.04 \
 			devel/p5-Readonly>=1.03 \

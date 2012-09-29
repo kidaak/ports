@@ -2,9 +2,9 @@ $OpenBSD$
 
 Don't gzip(1) the manual pages.
 
---- install.rb.orig	Tue Apr 10 20:23:15 2012
-+++ install.rb	Fri Apr 13 09:29:03 2012
-@@ -126,9 +126,6 @@ def do_man(man, strip = 'man/')
+--- install.rb.orig	Tue Aug 21 23:41:17 2012
++++ install.rb	Wed Sep 19 11:53:07 2012
+@@ -148,9 +148,6 @@ def do_man(man, strip = 'man/')
        FileUtils.chmod(0755, om)
        FileUtils.install(mf, omf, {:mode => 0644, :verbose => true})
      end

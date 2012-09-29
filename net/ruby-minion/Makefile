@@ -3,10 +3,8 @@
 COMMENT =	super simple job queue over AMQP
 
 DISTNAME =	minion-0.1.10
-REVISION =	4
+REVISION =	5
 CATEGORIES =	net
-
-MAINTAINER =	Mathieu Sauve-Frankel <msf@openbsd.org>
 
 # MIT
 PERMIT_PACKAGE_CDROM=	Yes

@@ -3,8 +3,7 @@
 COMMENT=	PGP public keys sharing via DNS-SD and HKP
 
 GNOME_PROJECT=	seahorse-sharing
-GNOME_VERSION=	3.4.0
-REVISION=	0
+GNOME_VERSION=	3.6.0
 
 CATEGORIES=	net security
 
@@ -24,6 +23,7 @@ WANTLIB += gdk-3 gdk_pixbuf-2.0 gio-2.0 glib-2.0 gmodule-2.0 gobject-2.0
 WANTLIB += gpg-error gpgme gthread-2.0 gtk-3 m pango-1.0 pangocairo-1.0
 WANTLIB += pangoft2-1.0 pcre pixman-1 png pthread pthread-stubs
 WANTLIB += soup-2.4 xcb xcb-render xcb-shm xml2 z stdc++
+WANTLIB += atk-bridge-2.0 atspi harfbuzz icudata icule icuuc
 
 LIB_DEPENDS=	devel/libsoup \
 		security/gpgme \

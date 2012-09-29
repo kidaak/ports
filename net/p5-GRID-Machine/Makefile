@@ -4,6 +4,7 @@ COMMENT =	Remote Procedure Calls over a SSH link
 
 MODULES =	cpan
 DISTNAME =	GRID-Machine-0.127
+REVISION =	0
 CATEGORIES =	net sysutils
 
 CPAN_AUTHOR =	CASIANO

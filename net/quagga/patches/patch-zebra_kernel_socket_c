@@ -1,6 +1,6 @@
 $OpenBSD$
---- zebra/kernel_socket.c.orig	Wed Dec  9 12:37:12 2009
-+++ zebra/kernel_socket.c	Sun Jun 20 13:58:21 2010
+--- zebra/kernel_socket.c.orig	Tue May  1 20:40:13 2012
++++ zebra/kernel_socket.c	Wed Sep 19 14:40:24 2012
 @@ -136,7 +136,7 @@ const struct message rtm_type_str[] =
    {RTM_REDIRECT, "RTM_REDIRECT"},
    {RTM_MISS,     "RTM_MISS"},
@@ -10,7 +10,7 @@ $OpenBSD$
    {RTM_OLDADD,   "RTM_OLDADD"},
  #endif /* RTM_OLDADD */
  #ifdef RTM_OLDDEL
-@@ -728,9 +728,7 @@ rtm_read_mesg (struct rt_msghdr *rtm,
+@@ -740,9 +740,7 @@ rtm_read_mesg (struct rt_msghdr *rtm,
  
    /* rt_msghdr version check. */
    if (rtm->rtm_version != RTM_VERSION) 

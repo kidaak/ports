@@ -3,7 +3,7 @@
 COMMENT=	Embedded SQL implementation
 DISTNAME=	sqlite-2.8.17
 PKGNAME=	${DISTNAME}
-REVISION =	1
+REVISION =	2
 CATEGORIES=	databases
 SHARED_LIBS +=	sqlite               8.6      # .0.0
 
@@ -33,9 +33,11 @@ NO_REGRESS=	Yes
 CONFIGURE_ARGS+=--disable-tcl
 .else
 REGRESS_TARGET=	test
-BUILD_DEPENDS+=	lang/tcl/8.4
-CONFIGURE_ENV+=	config_TARGET_TCL_LIBS="-L${LOCALBASE}/lib -ltcl84 -lm"
-CONFIGURE_ENV+=	config_TARGET_TCL_INC="-I${LOCALBASE}/include/tcl8.4"
+MODULES=	lang/tcl
+MODTCL_VERSION=	8.4
+BUILD_DEPENDS+=	${MODTCL_BUILD_DEPENDS}
+CONFIGURE_ENV+=	config_TARGET_TCL_LIBS="-L${LOCALBASE}/lib -ltcl${MODTCL_VERSION:S/.//} -lm"
+CONFIGURE_ENV+=	config_TARGET_TCL_INC="-I${MODTCL_INCDIR}"
 .endif
 
 .include <bsd.port.mk>

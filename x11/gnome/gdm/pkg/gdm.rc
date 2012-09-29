@@ -9,17 +9,9 @@ daemon="${TRUEPREFIX}/sbin/gdm"
 pexp="${TRUEPREFIX}/sbin/gdm-binary"
 rc_reload=NO
 
-#rc_check() {
-#	pkill -0 -u _gdm -f "^${X11BASE}/bin/X.*gdm/auth.*"
-#}
-
-#rc_pre() {
-#	install -d -g _gdm -m 0711 /var/run/gdm
-#	install -d -o _gdm -g _gdm /var/run/gdm/greeter
-#}
-
-rc_start() {
-	(sleep 5; ${rcexec} "${daemon} ${daemon_flags}")&
+rc_pre() {
+	install -d -g _gdm -m 0711 /var/run/gdm
+	install -d -o _gdm -g _gdm /var/run/gdm/greeter
 }
 
 rc_cmd $1

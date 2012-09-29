@@ -1,6 +1,6 @@
 $OpenBSD$
---- gcc/config/pa/openbsd.h.orig	Wed Apr  4 05:01:01 2012
-+++ gcc/config/pa/openbsd.h	Wed Apr  4 08:28:10 2012
+--- gcc/config/pa/openbsd.h.orig	Wed Jun 20 14:46:16 2012
++++ gcc/config/pa/openbsd.h	Sun Jun 24 13:17:34 2012
 @@ -0,0 +1,186 @@
 +/* Configuration file for an hppa risc OpenBSD target.
 +
@@ -114,7 +114,7 @@ $OpenBSD$
 +  do								\
 +    {								\
 +      if (!FUNCTION_NAME_P (XSTR (FUN, 0)))			\
-+        hppa_encode_label (FUN);				\
++        pa_encode_label (FUN);				\
 +      (*targetm.asm_out.globalize_label) (FILE, XSTR (FUN, 0));	\
 +    }								\
 +  while (0)

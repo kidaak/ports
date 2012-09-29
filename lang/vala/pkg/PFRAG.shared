@@ -1,2 +1,2 @@
 @comment $OpenBSD$
-@lib lib/libvala-${API_V}.so.${LIBvala-0.16_VERSION}
+@lib lib/libvala-${API_V}.so.${LIBvala-0.18_VERSION}

@@ -44,7 +44,7 @@ CONFIGURE_ENV=	QTDIR=${LOCALBASE}
 
 MODULES+=	x11/qt4
 .endif
-.if ${ARCH:Mmips64} || ${ARCH:Mmips64el}
+.if ${MACHINE_ARCH} == "mips64" || ${MACHINE_ARCH} == "mips64el"
 # ld(1) fails
 CONFIGURE_ARGS+= --english-only
 .endif

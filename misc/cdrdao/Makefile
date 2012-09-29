@@ -30,7 +30,7 @@ FLAVOR?=
 .if ${FLAVOR:L:Maudio}
 CONFIGURE_ARGS+=	--with-lame-lib=${LOCALBASE}/lib \
 			--with-lame-include=${LOCALBASE}/include
-BUILD_DEPENDS+=		audio/libmad>=0.15bp0
+BUILD_DEPENDS+=		audio/libmad
 LIB_DEPENDS+=		audio/libao \
 			audio/lame \
 			audio/libmad \

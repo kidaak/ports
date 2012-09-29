@@ -5,7 +5,7 @@ COMMENT=	update LDAP entries with a text editor
 DISTNAME=	ldapvi-1.7
 CATEGORIES=	editors
 
-REVISION=	4
+REVISION=	5
 
 HOMEPAGE=	http://www.lichteblau.com/ldapvi.html
 

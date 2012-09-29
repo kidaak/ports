@@ -4,7 +4,7 @@ COMMENT=		allow keyword access to array instances
 
 DISTNAME=		arrayfields-4.7.4
 CATEGORIES=		devel
-REVISION=		0
+REVISION=		1
 
 HOMEPAGE=		http://codeforpeople.com/lib/ruby/arrayfields/
 

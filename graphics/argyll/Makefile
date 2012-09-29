@@ -5,7 +5,7 @@ COMMENT=	ICC compatible color management system
 V=		1.1.0-20100201
 DISTNAME=	hargyllcms-${V}
 PKGNAME=	argyll-${V:S/-/./}
-REVISION=	0
+REVISION=	1
 
 CATEGORIES=	graphics sysutils
 

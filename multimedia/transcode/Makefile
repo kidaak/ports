@@ -5,6 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	video stream processing tools
 
 DISTNAME=	transcode-1.1.7
+REVISION=	2
 CATEGORIES=	multimedia
 MASTER_SITES=	http://cdn.bitbucket.org/france/transcode-tcforge/downloads/
 EXTRACT_SUFX=	.tar.bz2
@@ -93,8 +94,7 @@ CONFIGURE_ARGS+=--enable-a52 \
 		--enable-xvid \
 		--enable-x264
 CONFIGURE_ENV+=	CPPFLAGS="-I${X11BASE}/include -I${LOCALBASE}/include" \
-		LDFLAGS="-L${X11BASE}/lib -L${LOCALBASE}/lib" \
-		LIBAVCODEC_EXTRA_LIBS="-pthread"
+		LDFLAGS="-L${X11BASE}/lib -L${LOCALBASE}/lib"
 
 .if ${FLAVOR:L:Mlzo}
 CONFIGURE_ARGS+=--enable-lzo

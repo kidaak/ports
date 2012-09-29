@@ -37,10 +37,10 @@ bin/pt-trend
 bin/pt-upgrade
 bin/pt-variable-advisor
 bin/pt-visual-explain
+@comment @man man/man1/pt-collect.1
 @man man/man1/percona-toolkit.1
 @man man/man1/pt-align.1
 @man man/man1/pt-archiver.1
-@comment @man man/man1/pt-collect.1
 @man man/man1/pt-config-diff.1
 @man man/man1/pt-deadlock-logger.1
 @comment @man man/man1/pt-diskstats.1

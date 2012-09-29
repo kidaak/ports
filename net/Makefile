@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.129 1997/11/20 13:47:40 itojun Exp $
-#
 
      SUBDIR =
      SUBDIR += BitTorrent
@@ -52,11 +50,13 @@
      SUBDIR += courtney
      SUBDIR += crawl
      SUBDIR += csup
+     SUBDIR += csync
      SUBDIR += ctrace
      SUBDIR += curl
      SUBDIR += cvsup
      SUBDIR += cvsup,no_x11
      SUBDIR += cvsync
+     SUBDIR += daq
      SUBDIR += darkstat
      SUBDIR += dclib
      SUBDIR += ddclient
@@ -102,13 +102,12 @@
      SUBDIR += gloox
      SUBDIR += gmudix
      SUBDIR += gnaughty
-     SUBDIR += gnet
      SUBDIR += gnugk
      SUBDIR += gopher
+     SUBDIR += gophernicus
      SUBDIR += gotthard
      SUBDIR += gpodder
      SUBDIR += grake
-     SUBDIR += gsnmp
      SUBDIR += gssdp
      SUBDIR += gtk-gnutella
      SUBDIR += gupnp
@@ -155,6 +154,8 @@
      SUBDIR += irssi,socks
      SUBDIR += irssi-icb
      SUBDIR += irssi-silc
+     SUBDIR += isc-bind
+     SUBDIR += isc-bind,ratelimit
      SUBDIR += isc-dhcp
      SUBDIR += jabberd,mysql
      SUBDIR += jabberd,mysql,ldap
@@ -174,7 +175,6 @@
      SUBDIR += libepc
      SUBDIR += libgadu
      SUBDIR += libnet
-     SUBDIR += libnetdude
      SUBDIR += libnice
      SUBDIR += libnids
      SUBDIR += liboauth
@@ -223,12 +223,10 @@
      SUBDIR += nemesis
      SUBDIR += neon
      SUBDIR += nepenthes
-     SUBDIR += nepenthes,prelude
      SUBDIR += nepim
      SUBDIR += net-snmp
      SUBDIR += netatalk
      SUBDIR += netbsd-iscsi-target
-     SUBDIR += netdude
      SUBDIR += netfwd
      SUBDIR += netpipes
      SUBDIR += netrate
@@ -310,6 +308,7 @@
      SUBDIR += p5-Net-Google
      SUBDIR += p5-Net-ICQ2000
      SUBDIR += p5-Net-ICal
+     SUBDIR += p5-Net-IMP
      SUBDIR += p5-Net-INET6Glue
      SUBDIR += p5-Net-IP
      SUBDIR += p5-Net-IPTrie
@@ -333,7 +332,7 @@
      SUBDIR += p5-Net-SFTP
      SUBDIR += p5-Net-SFTP-Foreign
      SUBDIR += p5-Net-SMTP-SSL
-     SUBDIR += p5-Net-SMTP-TLS
+     SUBDIR += p5-Net-SMTP-TLS-ButMaintained
      SUBDIR += p5-Net-SMTP_auth
      SUBDIR += p5-Net-SNMP
      SUBDIR += p5-Net-SNPP
@@ -343,6 +342,7 @@
      SUBDIR += p5-Net-Server-SS-PreFork
      SUBDIR += p5-Net-Snort-Parser
      SUBDIR += p5-Net-Subnets
+     SUBDIR += p5-Net-TCLink
      SUBDIR += p5-Net-TFTP
      SUBDIR += p5-Net-Telnet
      SUBDIR += p5-Net-Telnet-Cisco
@@ -361,6 +361,7 @@
      SUBDIR += p5-NetPacket
      SUBDIR += p5-Nmap-Parser
      SUBDIR += p5-Nmap-Scanner
+     SUBDIR += p5-OSPF-LSDB
      SUBDIR += p5-POE-Component-Client-DNS
      SUBDIR += p5-POE-Component-Client-HTTP
      SUBDIR += p5-POE-Component-Client-Keepalive
@@ -484,11 +485,9 @@
      SUBDIR += rtmpdump
      SUBDIR += rtorrent
      SUBDIR += ruby-amqp
-     SUBDIR += ruby-amqp-utils
      SUBDIR += ruby-bunny
-     SUBDIR += ruby-errand
      SUBDIR += ruby-eventmachine
-     SUBDIR += ruby-eventmachine,ruby19
+     SUBDIR += ruby-eventmachine,ruby18
      SUBDIR += ruby-minion
      SUBDIR += ruby-net-dns
      SUBDIR += ruby-net-scp
@@ -504,17 +503,13 @@
      SUBDIR += ruby-xmpp4r
      SUBDIR += samba
      SUBDIR += samba,ads
-     SUBDIR += samba,cups
-     SUBDIR += samba,cups,ads
-     SUBDIR += samba,cups,ldap
      SUBDIR += samba,ldap
      SUBDIR += scamper
      SUBDIR += scapy
-     SUBDIR += scli
      SUBDIR += sendxmpp
-     SUBDIR += ser
      SUBDIR += sharity-light
      SUBDIR += si
+     SUBDIR += sic
      SUBDIR += silc-client
      SUBDIR += silc-server
      SUBDIR += silc-server,operops
@@ -527,9 +522,6 @@
      SUBDIR += smokeping
      SUBDIR += snmptt
      SUBDIR += snort
-     SUBDIR += snort,mysql
-     SUBDIR += snort,postgresql
-     SUBDIR += snort,prelude
      SUBDIR += socat
      SUBDIR += softflowd
      SUBDIR += spectrum
@@ -570,6 +562,7 @@
      SUBDIR += transmission
      SUBDIR += trickle
      SUBDIR += ttcp
+     SUBDIR += ttg
      SUBDIR += twirssi
      SUBDIR += twitux
      SUBDIR += ucspi-unix
@@ -586,6 +579,7 @@
      SUBDIR += vnstat
      SUBDIR += vsftpd
      SUBDIR += walker
+     SUBDIR += weechat
      SUBDIR += weex
      SUBDIR += wget
      SUBDIR += wide-dhcp

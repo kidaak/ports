@@ -1,7 +1,7 @@
 $OpenBSD$
---- mozilla/browser/components/certerror/content/aboutCertError.xhtml.orig	Fri Mar  9 21:28:36 2012
-+++ mozilla/browser/components/certerror/content/aboutCertError.xhtml	Sat Mar 10 13:20:26 2012
-@@ -136,6 +136,9 @@
+--- mozilla/browser/components/certerror/content/aboutCertError.xhtml.orig	Sat Aug 25 02:30:57 2012
++++ mozilla/browser/components/certerror/content/aboutCertError.xhtml	Sat Sep  1 01:59:36 2012
+@@ -96,6 +96,9 @@
            tech.textContent = getDescription();
          
          addDomainErrorLink();

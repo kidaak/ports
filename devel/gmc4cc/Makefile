@@ -5,7 +5,7 @@ COMMENT=	C compiler for GMC-4
 DISTNAME=	gmc4cc-0.6.2
 CATEGORIES=	devel lang
 
-REVISION=	1
+REVISION=	2
 
 # Japanese, use this for the English version: http://goo.gl/LPtgg
 HOMEPAGE=	http://terus.jp/engineering/gmc4cc/
@@ -26,7 +26,7 @@ DISTFILES=	${DISTNAME}${EXTRACT_SUFX} \
 
 MODULES=	converters/libiconv
 
-WANTLIB += c gmp m pthread util
+WANTLIB += c gmp m
 
 BUILD_DEPENDS=	lang/ghc
 LIB_DEPENDS=	devel/gmp

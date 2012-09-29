@@ -23,13 +23,13 @@ SHARED_LIBS =	estdc++		7.0 \
 		objc		2.0 \
 		objc_gc		2.0
 
-REVISION-main =		2
-REVISION-c++ =		4
-REVISION-estdc =	1
-REVISION-g77 =		3
-REVISION-java =		3
-REVISION-objc =		3
-REVISION-ada =		3
+REVISION-main =		6
+REVISION-c++ =		8
+REVISION-estdc =	2
+REVISION-g77 =		7
+REVISION-java =		7
+REVISION-objc =		7
+REVISION-ada =		7
 EPOCH = 		0
 
 MAINTAINER =	Marc Espie <espie@openbsd.org>
@@ -68,7 +68,7 @@ DISTFILES =  		${DISTNAME}.tar.bz2
 SUPDISTFILES =		${ADASTRAP}:0
 
 MASTER_SITES =	${MASTER_SITE_GCC:=releases/gcc-$(FULL_VERSION)/}
-MASTER_SITES0 =	ftp://quatramaran.ens.fr/pub/espie/
+MASTER_SITES0 =	http://distfiles.tmux.org/adastrap/
 
 CONFIGURE_STYLE =	gnu
 MODGNU_CONFIG_GUESS_DIRS =	${WRKSRC} ${WRKSRC}/gcc

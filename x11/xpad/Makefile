@@ -3,7 +3,7 @@
 COMMENT=	virtual sticky pad system
 
 DISTNAME=	xpad-4.0
-REVISION=	4
+REVISION=	5
 CATEGORIES=	x11
 
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=xpad/}

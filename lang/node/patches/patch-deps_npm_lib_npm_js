@@ -1,0 +1,12 @@
+$OpenBSD$
+--- deps/npm/lib/npm.js.orig	Fri Sep 14 14:31:07 2012
++++ deps/npm/lib/npm.js	Fri Sep 14 14:31:23 2012
+@@ -323,7 +323,7 @@ function load (npm, cli, cb) {
+         }
+       }
+ 
+-      var umask = npm.config.get("umask")
++      var umask = 0022
+       npm.modes = { exec: 0777 & (~umask)
+                   , file: 0666 & (~umask)
+                   , umask: umask }

@@ -23,7 +23,6 @@ MAKE_ENV=	CC="${CC}"
 
 WRKDIST=	${WRKDIR}
 
-USE_GROFF =	Yes
 NO_REGRESS=	Yes
 
 .include <bsd.port.mk>

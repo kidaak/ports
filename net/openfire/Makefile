@@ -3,7 +3,7 @@
 COMMENT=	XMPP real time collaboration server
 DISTNAME=	openfire_src_3_7_0
 PKGNAME=	openfire-3.7.0
-REVISION=	5
+REVISION=	6
 CATEGORIES=	net
 
 MASTER_SITES=	http://www.igniterealtime.org/downloadServlet?filename=openfire/

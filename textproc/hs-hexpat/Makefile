@@ -2,8 +2,7 @@
 
 COMMENT =		XML parser/formatter based on expat
 
-DISTNAME =		hexpat-0.19.5
-REVISION =		2
+DISTNAME =		hexpat-0.19.10
 CATEGORIES =		textproc
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>
@@ -19,7 +18,6 @@ MODULES =		lang/ghc
 MODGHC_BUILD =		cabal hackage haddock register
 
 RUN_DEPENDS +=		devel/hs-List \
-			devel/hs-deepseq \
 			devel/hs-text \
 			devel/hs-transformers
 BUILD_DEPENDS +=	${RUN_DEPENDS}

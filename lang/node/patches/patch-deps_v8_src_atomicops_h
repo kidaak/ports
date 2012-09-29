@@ -1,4 +1,8 @@
 $OpenBSD$
+
+This patch can be removed when node has has r12522 of v8 as a dep.
+ - https://code.google.com/p/v8/source/detail?r=12522
+
 --- deps/v8/src/atomicops.h.orig	Tue Nov  8 18:37:38 2011
 +++ deps/v8/src/atomicops.h	Tue Nov  8 18:38:53 2011
 @@ -69,7 +69,11 @@ typedef intptr_t Atomic64;

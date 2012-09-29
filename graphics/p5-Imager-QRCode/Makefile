@@ -5,6 +5,7 @@ SHARED_ONLY=		Yes
 COMMENT=		generate QR Code with Imager using libqrencode
 
 DISTNAME=		Imager-QRCode-0.033
+REVISION=		0
 CATEGORIES=		graphics
 
 # perl
@@ -12,6 +13,8 @@ PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
+
+WANTLIB += c
 
 MODULES=		cpan
 

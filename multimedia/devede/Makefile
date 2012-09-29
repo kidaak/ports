@@ -3,6 +3,7 @@
 COMMENT=	video DVDs and CDs creation tool
 
 DISTNAME=	devede-3.22.0
+REVISION=	0
 
 CATEGORIES=	multimedia x11
 
@@ -26,7 +27,8 @@ RUN_DEPENDS=	x11/py-gtk2 \
 		sysutils/cdrtools \
 		x11/mplayer \
 		devel/xdg-utils \
-		devel/desktop-file-utils
+		devel/desktop-file-utils \
+		x11/dbus-python
 
 PKG_ARCH=	*
 NO_BUILD=	Yes

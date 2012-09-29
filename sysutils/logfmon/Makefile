@@ -3,9 +3,12 @@
 COMMENT=		log file monitoring daemon
 
 DISTNAME=		logfmon-1.1
+REVISION=		0
 CATEGORIES=		sysutils
 
 HOMEPAGE=		http://sourceforge.net/projects/logfmon/
+
+MAINTAINER=		Tom Doherty <tom@singlesecond.com>
 
 # ISC
 PERMIT_PACKAGE_CDROM=	Yes

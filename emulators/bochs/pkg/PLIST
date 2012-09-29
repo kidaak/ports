@@ -34,7 +34,8 @@ share/bochs/keymaps/x11-pc-uk.map
 share/bochs/keymaps/x11-pc-us.map
 share/doc/bochs/
 @comment share/doc/bochs/CHANGES
-@comment share/doc/bochs/COPYING
+share/doc/bochs/COPYING
+share/doc/bochs/LICENSE
 share/doc/bochs/README
 @comment share/doc/bochs/TODO
 share/doc/bochs/bxdebugger.html

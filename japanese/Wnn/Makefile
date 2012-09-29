@@ -1,6 +1,3 @@
-# From FreeBSD:		Satoshi Taoka <taoka@infonets.hiroshima-u.ac.jp>
-#
-# $FreeBSD: Makefile,v 1.19 1997/09/23 02:17:58 max Exp $
 # $OpenBSD$
 
 COMMENT-main = 		Japanese input method
@@ -85,7 +82,8 @@ PORT_CDOCDIR =	${PREFIX}/share/doc/zh-cWnn
 CDOC_FROM =	${WRKSRC}/cWnn
 
 # Will turn into a RUN_DEPENDS when we install non-formatted manpages
-BUILD_DEPENDS =	japanese/groff
+BUILD_DEPENDS =	devel/imake \
+		japanese/groff
 # Run depends ensure this does not turn into infinite recursion, since
 # this is not needed before package build time.
 
@@ -124,7 +122,7 @@ do-configure:
 
 # Xfree4 believes it can build html documentation, fat chance...
 #MAKE_FLAGS=IMAKE='imake -DBuildHtmlManPages=0 -DPorts' WNNOWNER_INDIRECT=_wnn
-MAKE_FLAGS =	IMAKE='imake -DPorts' WNNOWNER_INDIRECT=_wnn COPTS="${COPTS}"
+MAKE_FLAGS =	IMAKE='imake -DPorts' WNNOWNER_INDIRECT=_wnn COPTS="${COPTS}"  CONFIGSRC=${LOCALBASE}/lib/X11/config
 FAKE_FLAGS =	WNNOWNER_INDIRECT=bin
 
 MAKE_ENV =	IMAKEINCLUDE=-I${WRKSRC}/config

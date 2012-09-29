@@ -1,7 +1,7 @@
 @comment $OpenBSD$
 %%SHARED%%
-bin/TaskJugglerUI
-bin/taskjuggler
+@bin bin/TaskJugglerUI
+@bin bin/taskjuggler
 lib/libtaskjuggler.a
 lib/libtaskjuggler.la
 share/applications/kde/taskjuggler.desktop

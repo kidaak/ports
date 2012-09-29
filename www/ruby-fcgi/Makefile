@@ -3,7 +3,7 @@
 COMMENT=	ruby FastCGI library
 
 DISTNAME=	fcgi-0.8.7
-REVISION =	6
+REVISION =	7
 CATEGORIES=	www 
 
 # ruby license
@@ -13,6 +13,9 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 MODULES=	lang/ruby
+
+FLAVORS=	ruby18
+FLAVOR=		ruby18
 
 WANTLIB=	fcgi
 

@@ -3,7 +3,7 @@
 COMMENT=		small RSpec clone
 
 DISTNAME=		bacon-1.1.0
-REVISION =		4
+REVISION =		5
 CATEGORIES=		devel
 
 HOMEPAGE=		http://chneukirchen.org/repos/bacon/README

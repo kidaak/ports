@@ -3,7 +3,7 @@
 COMMENT=	qt home accounting program
 
 DISTNAME=	qhacc-3.4
-REVISION=	2
+REVISION=	3
 CATEGORIES=	productivity x11
 
 HOMEPAGE=	http://qhacc.sourceforge.net/

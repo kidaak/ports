@@ -20,7 +20,6 @@ share/doc/hs-${DISTNAME}/
 share/doc/hs-${DISTNAME}/LICENSE
 share/doc/hs-${DISTNAME}/html/
 share/doc/hs-${DISTNAME}/html/Pugs-Compat.html
-share/doc/hs-${DISTNAME}/html/doc-index-33.html
 share/doc/hs-${DISTNAME}/html/doc-index-37.html
 share/doc/hs-${DISTNAME}/html/doc-index-43.html
 share/doc/hs-${DISTNAME}/html/doc-index-46.html

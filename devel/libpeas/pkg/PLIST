@@ -25,8 +25,6 @@ lib/libpeas-1.0/loaders/
 lib/libpeas-1.0/loaders/libgjsloader.so
 @comment lib/libpeas-1.0/loaders/libpythonloader.la
 lib/libpeas-1.0/loaders/libpythonloader.so
-@comment lib/libpeas-1.0/loaders/libseedloader.la
-lib/libpeas-1.0/loaders/libseedloader.so
 lib/libpeas-gtk-1.0.la
 @lib lib/libpeas-gtk-1.0.so.${LIBpeas-gtk-1.0_VERSION}
 lib/peas-demo/
@@ -47,13 +45,6 @@ lib/peas-demo/plugins/secondtime/
 @comment lib/peas-demo/plugins/secondtime/libsecondtime.la
 lib/peas-demo/plugins/secondtime/libsecondtime.so
 lib/peas-demo/plugins/secondtime/secondtime.plugin
-lib/peas-demo/plugins/seedhello/
-lib/peas-demo/plugins/seedhello/seedhello.js
-lib/peas-demo/plugins/seedhello/seedhello.plugin
-lib/peas-demo/plugins/valahello/
-@comment lib/peas-demo/plugins/valahello/libvalahello.la
-lib/peas-demo/plugins/valahello/libvalahello.so
-lib/peas-demo/plugins/valahello/valahello.plugin
 lib/pkgconfig/libpeas-1.0.pc
 lib/pkgconfig/libpeas-gtk-1.0.pc
 share/gir-1.0/Peas-1.0.gir
@@ -93,6 +84,7 @@ share/locale/as/LC_MESSAGES/libpeas.mo
 share/locale/ast/LC_MESSAGES/libpeas.mo
 share/locale/be/LC_MESSAGES/libpeas.mo
 share/locale/bg/LC_MESSAGES/libpeas.mo
+share/locale/bn_IN/LC_MESSAGES/libpeas.mo
 share/locale/ca/LC_MESSAGES/libpeas.mo
 share/locale/ca@valencia/LC_MESSAGES/libpeas.mo
 share/locale/cs/LC_MESSAGES/libpeas.mo
@@ -119,6 +111,7 @@ share/locale/ko/LC_MESSAGES/libpeas.mo
 share/locale/lt/LC_MESSAGES/libpeas.mo
 share/locale/lv/LC_MESSAGES/libpeas.mo
 share/locale/ml/LC_MESSAGES/libpeas.mo
+share/locale/mr/LC_MESSAGES/libpeas.mo
 share/locale/nb/LC_MESSAGES/libpeas.mo
 share/locale/nds/LC_MESSAGES/libpeas.mo
 share/locale/nl/LC_MESSAGES/libpeas.mo
@@ -142,5 +135,5 @@ share/locale/vi/LC_MESSAGES/libpeas.mo
 share/locale/zh_CN/LC_MESSAGES/libpeas.mo
 share/locale/zh_HK/LC_MESSAGES/libpeas.mo
 share/locale/zh_TW/LC_MESSAGES/libpeas.mo
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor

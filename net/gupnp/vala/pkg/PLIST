@@ -1,8 +1,7 @@
 @comment $OpenBSD$
+@conflict gssdp-<0.12.2
 lib/pkgconfig/gupnp-vala-1.0.pc
 share/vala/vapi/
-share/vala/vapi/gssdp-1.0.deps
-share/vala/vapi/gssdp-1.0.vapi
 share/vala/vapi/gupnp-1.0.deps
 share/vala/vapi/gupnp-1.0.vapi
 share/vala/vapi/gupnp-av-1.0.deps

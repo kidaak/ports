@@ -4,7 +4,7 @@ COMMENT =	ruby library for reading/writing vorbis comments
 
 DISTNAME =	vorbis_comment-1.0.1
 CATEGORIES =	audio
-REVISION =	3
+REVISION =	4
 
 HOMEPAGE=	http://vorbiscomment.rubyforge.org/
 

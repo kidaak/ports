@@ -6,7 +6,7 @@ COMMENT=	communications server for Jabber/XMPP written in Lua
 DISTNAME=	prosody-0.8.2
 CATEGORIES=	net
 MASTER_SITES=	http://prosody.im/downloads/source/
-REVISION=	2
+REVISION=	7
 
 HOMEPAGE=	http://prosody.im/
 
@@ -19,26 +19,31 @@ PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 
 USE_GMAKE=	Yes
-USE_GROFF =	Yes
 MODULES=	lang/lua
-LIB_DEPENDS=	devel/libidn \
-		${MODLUA_LIB_DEPENDS}
-RUN_DEPENDS+=	archivers/luazlib \
+SUBST_VARS=	MODLUA_BIN
+LIB_DEPENDS=	devel/libidn
+MODLUA_RUN_DEPENDS+= archivers/luazlib \
+		databases/luadbi \
 		devel/luaevent \
 		devel/luafs \
 		security/luasec \
 		textproc/luaexpat
-WANTLIB+=	crypto idn ${MODLUA_WANTLIB}
+WANTLIB+=	crypto idn
+
+SUBST_VARS+=	FLAVOR
+
+NO_REGRESS=	Yes
 
 CONFIGURE_STYLE=simple
 CONFIGURE_ARGS+=--prefix="${PREFIX}" \
 		--sysconfdir="${SYSCONFDIR}/prosody" \
 		--datadir="/var/prosody" \
 		--with-lua="${LOCALBASE}" \
+		--with-lua-include="${MODLUA_INCL_DIR}" \
 		--c-compiler="${CC}" \
 		--linker="${CC}" \
 		--ldflags="-I/usr/include -I${LOCALBASE}/include -L/usr/lib -L${LOCALBASE}/lib -shared" \
-		--cflags="${CFLAGS} -fPIC"
+		--cflags="${CFLAGS} -I${LOCALBASE}/include -fPIC"
 
 FAKE_FLAGS+=	CONFIG=${DESTDIR}${PREFIX}/share/examples/prosody
 

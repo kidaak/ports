@@ -3,7 +3,7 @@
 COMMENT =	wrapper for ImageMagick command line tools
 
 DISTNAME =	mini_magick-1.2.5
-REVISION =	4
+REVISION =	5
 CATEGORIES =	graphics
 
 HOMEPAGE =	http://mini_magick.rubyforge.org/

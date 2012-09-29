@@ -3,7 +3,7 @@
 COMMENT =	command-line utility for POSIX tar(1) archive files
 
 DISTNAME =	archive-tar-minitar-0.5.2
-REVISION =	5
+REVISION =	6
 CATEGORIES =	archivers
 
 HOMEPAGE =	http://ruwiki.rubyforge.org/

@@ -1,3 +1,4 @@
+# $OpenBSD$
 
 VERSION =	1.0.7
 CATEGORIES =	multimedia x11
@@ -31,7 +32,6 @@ RUN_DEPENDS +=	audio/libgpod,-python \
 		graphics/py-pigment \
 		multimedia/coherence \
 		multimedia/gstreamer-0.10/py-gstreamer \
-		multimedia/gstreamer-0.10/plugins-bad \
 		multimedia/gstreamer-0.10/plugins-base \
 		multimedia/gstreamer-0.10/plugins-ffmpeg \
 		multimedia/gstreamer-0.10/plugins-good \

@@ -1,6 +1,4 @@
 /*	$OpenBSD$	*/
-/*	$NetBSD: _cdio_netbsd.c,v 1.4 2005/05/31 17:05:36 drochner Exp $	*/
-
 /*
  * Copyright (c) 2008 Federico G. Schwindt
  * Copyright (c) 2003 Matthias Drochner

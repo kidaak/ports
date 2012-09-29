@@ -3,7 +3,7 @@
 COMMENT =	graphical documentation browser for Perl
 
 DISTNAME =	podbrowser-0.12
-REVISION=	4
+REVISION=	5
 
 CATEGORIES =	devel x11
 

@@ -3,7 +3,7 @@
 COMMENT=		enhanced, MIME capable Berkeley Mail
 
 V=			12.4
-REVISION=		1
+REVISION=		2
 DISTNAME=		mailx-${V}
 PKGNAME=		nail-${V}
 CATEGORIES=		mail

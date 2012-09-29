@@ -1,9 +1,9 @@
 $OpenBSD$
 set secure_delete PRAGMA on by default, instead of using internal sqlite copy
 https://bugzilla.mozilla.org/show_bug.cgi?id=546162
---- storage/src/mozStorageConnection.cpp.orig	Wed Apr 11 15:55:19 2012
-+++ storage/src/mozStorageConnection.cpp	Wed Apr 18 22:09:15 2012
-@@ -701,6 +701,13 @@ Connection::initialize(nsIFile *aDatabaseFile,
+--- storage/src/mozStorageConnection.cpp.orig	Wed Aug 15 07:48:19 2012
++++ storage/src/mozStorageConnection.cpp	Sun Aug 19 13:50:39 2012
+@@ -663,6 +663,13 @@ Connection::initialize(nsIFile *aDatabaseFile,
      return convertResultCode(srv);
    }
  

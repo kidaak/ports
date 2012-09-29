@@ -4,7 +4,7 @@ COMMENT=		window manager based on the original Blackbox code
 
 DISTNAME=		fluxbox-1.3.2
 
-REVISION=		5
+REVISION=		6
 
 CATEGORIES=		x11
 

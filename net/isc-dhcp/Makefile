@@ -4,7 +4,7 @@ COMMENT-main=	ISC DHCP Server
 COMMENT-client=	ISC DHCP Client
 COMMENT-omapi=	ISC DHCP OMAPI
 
-VERSION=	4.2.3-P2
+VERSION=	4.2.4-P2
 DISTNAME=	isc-dhcp-${VERSION}
 PKGNAME=	isc-dhcp-${VERSION:S/-P/./}
 PKGNAME-main=	isc-dhcp-server-${VERSION:S/-P/./}
@@ -33,6 +33,7 @@ WANTLIB=		c
 MULTI_PACKAGES=		-main -omapi -client
 
 USE_GROFF=		Yes
+USE_GMAKE=		Yes
 CONFIGURE_STYLE=	gnu
 CONFIGURE_ARGS+= 	--enable-early-chroot \
 			--enable-paranoia \

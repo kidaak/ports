@@ -1,3 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libtiff.so.${LIBtiff_VERSION}
-@lib lib/libtiffxx.so.${LIBtiffxx_VERSION}

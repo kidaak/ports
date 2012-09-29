@@ -22,7 +22,7 @@ SEPARATE_BUILD =	flavored
 
 CONFIGURE_ARGS +=	--disable-kig-python-scripting
 
-REVISION =	7
+REVISION =	8
 WANTLIB = GL ICE SM X11 Xau Xcursor Xdamage Xdmcp Xext Xfixes Xft Xi Xinerama \
 	Xmu Xrandr Xrender Xt Xxf86vm art_lgpl_2 artsflow artsflow_idl artskde \
 	audiofile c drm expat fam fontconfig freetype glib-2.0>=800 \

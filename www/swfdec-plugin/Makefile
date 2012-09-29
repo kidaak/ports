@@ -7,7 +7,7 @@ COMMENT=		Flash plugin for Mozilla browsers
 V=			0.8.2
 DISTNAME=		swfdec-mozilla-$V
 PKGNAME=		swfdec-plugin-$V
-REVISION=		5
+REVISION=		6
 CATEGORIES=		graphics www
 
 HOMEPAGE=		http://swfdec.freedesktop.org/

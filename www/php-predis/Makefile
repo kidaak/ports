@@ -2,7 +2,7 @@
 
 COMMENT =		PHP client library for the Redis key-value database
 
-DISTNAME =		Predis-0.7.2
+DISTNAME =		Predis-0.7.3
 PKGNAME =		${DISTNAME:S/^P/php-p/}
 CATEGORIES =		www databases
 

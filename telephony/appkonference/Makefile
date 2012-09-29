@@ -6,7 +6,8 @@ COMMENT=	conferencing application for asterisk
 # #error Please add support for your architecture in typedefs.h
 ONLY_FOR_ARCHS=	i386 amd64
 
-DISTNAME=	appkonference-2.1
+DISTNAME=	appkonference-2.2
+REVISION=	0
 
 CATEGORIES=	telephony
 
@@ -20,11 +21,13 @@ PERMIT_DISTFILES_FTP=	Yes
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 
+WANTLIB += c
+
 NO_REGRESS=	Yes
 USE_GMAKE=	Yes
 
 BUILD_DEPENDS=	${RUN_DEPENDS}
-RUN_DEPENDS=	telephony/asterisk>=1.8,<1.9
+RUN_DEPENDS=	telephony/asterisk>=10.0,<=11.0
 
 MAKE_FLAGS+=	LOCALBASE=${LOCALBASE} \
 		DEBUG="${CFLAGS}" \

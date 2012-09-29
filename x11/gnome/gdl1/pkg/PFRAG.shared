@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libgdl-1.so.${LIBgdl-1_VERSION}

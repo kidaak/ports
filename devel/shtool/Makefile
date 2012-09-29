@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.3 1999/04/29 15:32:56 rse Exp $
 
 COMMENT=	GNU Portable Shell Tool
 

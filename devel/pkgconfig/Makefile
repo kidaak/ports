@@ -4,10 +4,9 @@ COMMENT=		tool for managing library compile/link flags
 
 # note if updating; metaauto is also built from the pkg-config distfile.
 IGNORE=			Replaced with BSD clone in OpenBSD 4.1
-VERSION=		0.26
+VERSION=		0.27.1
 DISTNAME=		pkg-config-${VERSION}
 PKGNAME=		pkgconfig-${VERSION}
-REVISION=		0
 CATEGORIES=		devel
 
 HOMEPAGE=		http://www.freedesktop.org/software/pkgconfig/

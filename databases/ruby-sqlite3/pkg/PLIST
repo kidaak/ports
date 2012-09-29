@@ -65,6 +65,7 @@ ${GEM_LIB}/gems/${DISTNAME}/test/test_integration_open_close.rb
 ${GEM_LIB}/gems/${DISTNAME}/test/test_integration_pending.rb
 ${GEM_LIB}/gems/${DISTNAME}/test/test_integration_resultset.rb
 ${GEM_LIB}/gems/${DISTNAME}/test/test_integration_statement.rb
+${GEM_LIB}/gems/${DISTNAME}/test/test_result_set.rb
 ${GEM_LIB}/gems/${DISTNAME}/test/test_sqlite3.rb
 ${GEM_LIB}/gems/${DISTNAME}/test/test_statement.rb
 ${GEM_LIB}/gems/${DISTNAME}/test/test_statement_execute.rb

@@ -5,6 +5,7 @@ COMMENT=		cross-python path, ini-parsing, io, code, log facilities
 MODPY_EGG_VERSION=	1.4.7
 DISTNAME=		py-${MODPY_EGG_VERSION}
 PKGNAME=		py-${DISTNAME}
+REVISION =		0
 
 EXTRACT_SUFX=		.zip
 

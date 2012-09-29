@@ -12,6 +12,7 @@
 @pkgpath x11/wxWidgets/lesstif
 @pkgpath x11/wxWidgets/gtk
 @pkgpath x11/wxWidgets/gtk2
+@pkgpath x11/wxWidgets
 bin/wx-config
 @bin bin/wxrc
 include/wx/

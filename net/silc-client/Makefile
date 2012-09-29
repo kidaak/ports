@@ -3,7 +3,7 @@
 COMMENT=	Secure Internet Live Conferencing (SILC) client
 
 DISTNAME=	silc-client-1.1.8
-REVISION=	7
+REVISION=	8
 CATEGORIES=	net
 
 HOMEPAGE=	http://www.silcnet.org/

@@ -6,7 +6,7 @@ COMMENT=	Perl extensions for event-based programming
 
 MODULES=	cpan
 DISTNAME=	Event-Lib-1.03
-REVISION=	3
+REVISION=	4
 CATEGORIES=	devel
 USE_GROFF =	Yes
 
@@ -18,6 +18,6 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	event m
+WANTLIB += c event m
 
 .include <bsd.port.mk>

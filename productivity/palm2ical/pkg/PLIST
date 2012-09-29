@@ -1,0 +1,4 @@
+@comment $OpenBSD$
+@pkgpath palm/palm2ical
+bin/fixpdb
+bin/palm2ical

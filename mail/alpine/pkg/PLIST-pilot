@@ -1,4 +1,0 @@
-@comment $OpenBSD$
-@pkgpath mail/pine,-pilot
-@bin bin/pilot
-@man man/man1/pilot.1

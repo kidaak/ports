@@ -4,7 +4,7 @@ SHARED_ONLY =		Yes
 
 COMMENT =		library supporting Blu-ray playback
 
-V =			0.2.2
+V =			0.2.3
 DISTNAME =		libbluray-${V}
 CATEGORIES =		multimedia
 
@@ -22,8 +22,8 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-SHARED_LIBS +=		bluray		0.0	# 0.0
-WANTLIB +=		m pthread xml2 z
+SHARED_LIBS +=		bluray		1.0	# 3.0
+WANTLIB +=		c m pthread xml2 z
 
 MODULES =		converters/libiconv
 
@@ -33,6 +33,7 @@ BUILD_DEPENDS =		devel/bison \
 
 MAKE_FLAGS =		CFLAGS="${CFLAGS}"
 
+SEPARATE_BUILD =	Yes
 CONFIGURE_STYLE =	gnu
 USE_LIBTOOL =		yes
 YACC =			${LOCALBASE}/bin/bison -y

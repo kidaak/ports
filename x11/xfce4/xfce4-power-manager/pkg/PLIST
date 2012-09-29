@@ -294,7 +294,7 @@ share/xfce4/doc/C/images/xfpm-general-settings.png
 share/xfce4/doc/C/xfce4-power-manager.html
 share/xfce4/panel-plugins/
 share/xfce4/panel-plugins/xfce4-brightness-plugin.desktop
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

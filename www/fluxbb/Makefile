@@ -2,10 +2,10 @@
 
 COMMENT =	fast, light, user-friendly web forum
 
-V=		1.4.2
+V=		1.5.0
 DISTNAME =	fluxbb-${V}
+REVISION =	0
 CATEGORIES =	www
-REVISION=	4
 
 HOMEPAGE =	http://fluxbb.org/
 
@@ -30,10 +30,6 @@ SUBST_VARS=	INSTDIR
 
 MODULES=	lang/php
 RUN_DEPENDS=	lang/php/${MODPHP_VERSION},-mysql
-
-do-extract:
-	@mkdir -p ${WRKDIST}
-	unzip -d ${WRKDIST} ${FULLDISTDIR}/${DISTNAME}${EXTRACT_SUFX}
 
 do-install:
 	@mv ${WRKDIST} ${INSTDIR}

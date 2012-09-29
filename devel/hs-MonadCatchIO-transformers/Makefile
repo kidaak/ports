@@ -2,8 +2,7 @@
 
 COMMENT =		functions to throw and catch exceptions
 
-DISTNAME =		MonadCatchIO-transformers-0.2.2.0
-REVISION =		4
+DISTNAME =		MonadCatchIO-transformers-0.3.0.0
 CATEGORIES =		devel
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>

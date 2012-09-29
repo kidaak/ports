@@ -3,6 +3,7 @@
 COMMENT =		ruby library wrapping calls to git CLI
 
 DISTNAME =		git-1.2.5
+REVISION =		0
 CATEGORIES =		devel
 
 HOMEPAGE =		https://github.com/schacon/ruby-git

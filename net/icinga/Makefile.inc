@@ -1,6 +1,6 @@
 # $OpenBSD$
 
-V ?= 1.7.0
+V ?= 1.7.2
 
 CATEGORIES+=	net net/icinga
 

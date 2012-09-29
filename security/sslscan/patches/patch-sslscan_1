@@ -1,0 +1,14 @@
+$OpenBSD$
+--- sslscan.1.orig	Fri Jun 22 20:14:29 2012
++++ sslscan.1	Fri Jun 22 20:14:41 2012
+@@ -34,10 +34,6 @@ ports (i.e. host:port). One target per line.
+ List only accepted ciphers
+ (default is to listing all ciphers).
+ .TP
+-.B \-\-ssl2
+-.br
+-Only check SSLv2 ciphers.
+-.TP
+ .B \-\-ssl3
+ .br
+ Only check SSLv3 ciphers.

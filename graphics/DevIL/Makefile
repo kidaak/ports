@@ -3,7 +3,7 @@
 COMMENT=		library for powerful image loading capabilities
 
 DISTNAME=		DevIL-1.7.8
-REVISION=		4
+REVISION=		5
 SHARED_LIBS+=		IL	0.0 # 2.0
 
 CATEGORIES=		graphics devel
@@ -19,11 +19,12 @@ PERMIT_DISTFILES_FTP=	Yes
 MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=openil/}
 EXTRACT_SUFX=		.zip
 
-WANTLIB += jasper jpeg lcms m png stdc++ tiff z
-WANTLIB += Half Iex IlmImf IlmThread Imath
+WANTLIB += Half Iex IlmImf IlmThread Imath jasper jpeg lcms m
+WANTLIB += mng png pthread stdc++ tiff z
 
 LIB_DEPENDS=		graphics/ilmbase \
 			graphics/jasper \
+			graphics/libmng \
 			graphics/lcms \
 			graphics/openexr \
 			graphics/openjpeg \

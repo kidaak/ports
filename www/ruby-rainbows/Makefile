@@ -3,6 +3,7 @@
 COMMENT =	ruby-unicorn for sleepy apps and slow clients
 
 DISTNAME =	rainbows-4.3.1
+REVISION =	0
 CATEGORIES =	www
 
 HOMEPAGE =	http://rainbows.rubyforge.org/

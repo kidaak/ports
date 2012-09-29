@@ -2,7 +2,7 @@
 
 COMMENT =	compiler cache
 
-DISTNAME =	ccache-3.1.7
+DISTNAME =	ccache-3.1.8
 CATEGORIES =	devel
 
 # The ccache(1) manual page causes ERRORs with mandoc(1),

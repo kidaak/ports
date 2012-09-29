@@ -3,7 +3,7 @@
 COMMENT =	case insensitive, case preserving hash class for ruby
 
 DISTNAME =	cicphash-1.0.0
-REVISION =	2
+REVISION =	3
 CATEGORIES =	devel
 
 HOMEPAGE=	http://cicphash.rubyforge.org/

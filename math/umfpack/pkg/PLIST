@@ -1,6 +1,5 @@
 @comment $OpenBSD$
 %%SHARED%%
-%%no_mips64%%
 include/umfpack/
 include/umfpack/UFconfig.h
 include/umfpack/umfpack.h

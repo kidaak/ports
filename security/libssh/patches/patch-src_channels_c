@@ -4,14 +4,6 @@ https://red.libssh.org/issues/86
 
 --- src/channels.c.orig	Fri Sep 16 21:57:36 2011
 +++ src/channels.c	Sun May 20 14:44:32 2012
-@@ -30,6 +30,7 @@
- #include <time.h>
- 
- #ifndef _WIN32
-+#include <netinet/in.h>
- #include <arpa/inet.h>
- #endif
- 
 @@ -678,21 +679,21 @@ SSH_PACKET_CALLBACK(channel_rcv_request) {
  	}
  

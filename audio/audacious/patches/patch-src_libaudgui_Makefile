@@ -1,9 +1,9 @@
 $OpenBSD$
---- src/libaudgui/Makefile.orig	Wed Apr 20 13:38:32 2011
-+++ src/libaudgui/Makefile	Wed Apr 20 13:39:06 2011
+--- src/libaudgui/Makefile.orig	Sat Aug 11 22:11:00 2012
++++ src/libaudgui/Makefile	Thu Aug 16 13:13:37 2012
 @@ -1,4 +1,4 @@
--LIB = ${LIB_PREFIX}audgui${LIB_SUFFIX}
-+LIB = ${LIB_PREFIX}audgui${LIB_SUFFIX}.${LIBaudgui_VERSION}
+-SHARED_LIB = ${LIB_PREFIX}audgui${LIB_SUFFIX}
++SHARED_LIB = ${LIB_PREFIX}audgui${LIB_SUFFIX}.${LIBaudgui_VERSION}
  LIB_MAJOR = 1
  LIB_MINOR = 0
  

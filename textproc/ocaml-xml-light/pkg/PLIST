@@ -1,5 +1,4 @@
 @comment $OpenBSD$
-lib/ocaml/
 lib/ocaml/dtd.cmi
 lib/ocaml/dtd.mli
 lib/ocaml/xml-light.cma

@@ -10,9 +10,7 @@ daemon_flags="--kill-on-powerfail"
 rc_reload=NO
 
 rc_pre() {
-	if [ -f ${SYSCONFDIR}/powerfail ]; then
-		rm -f ${SYSCONFDIR}/powerfail
-	fi
+	rm -f ${SYSCONFDIR}/powerfail
 }
 
 rc_cmd $1

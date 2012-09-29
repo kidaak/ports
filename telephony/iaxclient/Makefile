@@ -6,11 +6,11 @@ COMMENT-iaxcomm=IAX softphone
 
 DISTNAME=	iaxclient-2.1beta3
 PKGNAME-main=	${DISTNAME}
-REVISION-main=	8
+REVISION-main=	9
 PKGNAME-tcl=	${DISTNAME:S/iaxclient/iaxclient-tcl/}
-REVISION-tcl=	11
+REVISION-tcl=	12
 PKGNAME-iaxcomm= iaxcomm-1.1.0
-REVISION-iaxcomm= 12
+REVISION-iaxcomm= 13
 
 CATEGORIES=	telephony
 USE_LIBTOOL=	Yes
@@ -33,7 +33,7 @@ MODULES=	devel/gettext x11/tk
 cWANTLIB	+= avcodec avutil gsm m mp3lame ogg orc-0.4 ossaudio portaudio
 cWANTLIB	+= pthread schroedinger-1.0 speex speexdsp sndio theora
 cWANTLIB	+= theoradec theoraenc vidcap vorbis vorbisenc vpx x264
-cWANTLIB	+= z
+cWANTLIB	+= xvidcore z
 
 WANTLIB-main 	+= c ${cWANTLIB}
 

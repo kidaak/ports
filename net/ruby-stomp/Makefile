@@ -3,12 +3,10 @@
 COMMENT = 	streaming text orientated messaging protocol ruby client
 
 DISTNAME = 	stomp-1.1
-REVISION =	4
+REVISION =	5
 CATEGORIES = 	net
 
 HOMEPAGE =	http://stomp.codehaus.org/Ruby
-
-MAINTAINER =	Mathieu Sauve-Frankel <msf@openbsd.org>
 
 # Apache 2.0
 PERMIT_PACKAGE_CDROM = Yes

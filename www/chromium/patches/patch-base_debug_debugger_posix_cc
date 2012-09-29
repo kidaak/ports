@@ -1,7 +1,7 @@
 $OpenBSD$
---- base/debug/debugger_posix.cc.orig	Sat Apr 14 12:17:19 2012
-+++ base/debug/debugger_posix.cc	Sat Apr 14 16:54:46 2012
-@@ -92,33 +92,36 @@ bool BeingDebugged() {
+--- base/debug/debugger_posix.cc.orig	Tue Aug 14 09:01:47 2012
++++ base/debug/debugger_posix.cc	Wed Aug 15 23:14:34 2012
+@@ -103,33 +103,36 @@ bool BeingDebugged() {
  
    // Caution: struct kinfo_proc is marked __APPLE_API_UNSTABLE.  The source and
    // binary interfaces may change.

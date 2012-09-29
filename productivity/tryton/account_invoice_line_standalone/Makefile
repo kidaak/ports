@@ -1,5 +1,6 @@
 # $OpenBSD$
 
+MODPY_EGG_VERSION =	2.4.1
 TRYTOND_MODULE =	account_invoice_line_standalone
 REVISION =		0
 

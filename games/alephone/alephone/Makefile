@@ -3,9 +3,8 @@
 DIST_SUBDIR ?=		alephone
 COMMENT =		open source game engine based on Marathon 2: Durandal
 
-DISTNAME =		AlephOne-20111201
-PKGNAME =		alephone-1.0
-REVISION =		1
+DISTNAME =		AlephOne-20120514
+PKGNAME =		alephone-1.0.2
 
 EXTRACT_SUFX =		.tar.bz2
 CATEGORIES =		games x11

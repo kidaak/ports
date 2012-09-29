@@ -24,7 +24,7 @@ RUN_DEPENDS +=	security/qca-tls
 
 SEPARATE_BUILD =	flavored
 
-REVISION = 	7
+REVISION = 	8
 WANTLIB = GL ICE SM X11 Xau Xcursor Xdamage Xdmcp Xext Xfixes Xft Xi Xinerama \
 	Xmu Xrandr Xrender Xss Xt Xtst Xxf86vm art_lgpl_2 c crypto drm expat \
 	fam fontconfig freetype gdk glib glib-2.0 gmodule gmodule-2.0 gtk idn \

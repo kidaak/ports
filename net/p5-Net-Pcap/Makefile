@@ -6,7 +6,7 @@ COMMENT=	module for pcap access
 
 MODULES=	cpan
 DISTNAME=	Net-Pcap-0.16
-REVISION=	1
+REVISION=	2
 CATEGORIES=	net
 USE_GROFF =	Yes
 
@@ -15,7 +15,8 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=		pcap 
+WANTLIB += c pcap 
+
 RUN_DEPENDS=		net/p5-IO-Interface
 
 MODCPAN_EXAMPLES=	Yes

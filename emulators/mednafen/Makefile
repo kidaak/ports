@@ -2,8 +2,9 @@
 
 COMMENT =	emulates numerous game consoles
 
-DISTNAME =	mednafen-0.8.D.3
-PKGNAME =	mednafen-0.8.3
+DISTNAME =	mednafen-0.9.24-wip
+PKGNAME =	mednafen-0.9.24
+REVISION =	0
 
 CATEGORIES =	emulators games
 HOMEPAGE =	http://mednafen.sourceforge.net/
@@ -21,15 +22,13 @@ EXTRACT_SUFX =	.tar.bz2
 
 MODULES =	devel/gettext
 
-WANTLIB += SDL SDL_net c cdio m pthread sndfile sndio stdc++ usbhid
-WANTLIB += z
+WANTLIB += SDL c cdio m pthread sndfile sndio stdc++ usbhid z
 
 USE_GMAKE =	Yes
 
 LIB_DEPENDS =	audio/libcdio \
 		audio/libsndfile \
-		devel/sdl \
-		devel/sdl-net
+		devel/sdl
 		
 WRKDIST =	${WRKDIR}/mednafen
 

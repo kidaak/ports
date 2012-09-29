@@ -4,4 +4,3 @@ include/colamd/
 include/colamd/colamd.h
 lib/libcolamd.a
 lib/libcolamd_p.a
-%%no_mips64%%

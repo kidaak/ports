@@ -2,10 +2,8 @@
 
 COMMENT=		low-level bindings to the zlib package
 
-DISTNAME=		zlib-bindings-0.0.0
+DISTNAME=		zlib-bindings-0.1.0.1
 CATEGORIES=		archivers
-
-REVISION=		3
 
 # BSD3
 PERMIT_PACKAGE_CDROM =	Yes

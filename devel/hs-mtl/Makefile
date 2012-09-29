@@ -2,8 +2,7 @@
 
 COMMENT =		monad classes using functional dependencies
 
-DISTNAME =		mtl-2.0.1.0
-REVISION=		0
+DISTNAME =		mtl-2.1.1
 CATEGORIES =		devel
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>
@@ -19,6 +18,6 @@ MODULES =		lang/ghc
 MODGHC_BUILD =		cabal hackage haddock register
 
 BUILD_DEPENDS =		${RUN_DEPENDS}
-RUN_DEPENDS =		devel/hs-transformers
+RUN_DEPENDS =		devel/hs-transformers>=0.3,<0.4
 
 .include <bsd.port.mk>

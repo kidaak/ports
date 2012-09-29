@@ -1,0 +1,6 @@
+@comment $OpenBSD$
+lib/daq/daq_dump.so
+lib/daq/daq_ipfw.so
+lib/daq/daq_pcap.so
+@lib lib/libdaq.so.${LIBdaq_VERSION}
+@lib lib/libsfbpf.so.${LIBsfbpf_VERSION}

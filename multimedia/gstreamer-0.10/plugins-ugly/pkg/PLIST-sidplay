@@ -1,3 +1,2 @@
 @comment $OpenBSD$
-@comment lib/gstreamer-${VERSION}/libgstsid.la
 lib/gstreamer-${VERSION}/libgstsid.so

@@ -11,10 +11,10 @@ CATEGORIES=	cad graphics
 HOMEPAGE=	http://www.ribbonsoft.com/qcad.html
 
 # Source code is GPLv2 and data not specified
-PERMIT_PACKAGE_CDROM=	"Non-free data files"
-PERMIT_PACKAGE_FTP=	"Non-free data files"
-PERMIT_DISTFILES_CDROM=	"Non-free data files"
-PERMIT_DISTFILES_FTP=	"Non-free data files"
+PERMIT_PACKAGE_CDROM=	Non-free data files
+PERMIT_PACKAGE_FTP=	Non-free data files
+PERMIT_DISTFILES_CDROM=	Non-free data files
+PERMIT_DISTFILES_FTP=	Non-free data files
 
 WANTLIB=		X11 Xext c m pthread stdc++
 

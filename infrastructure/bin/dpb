@@ -163,7 +163,7 @@ sub handle_options
 		},
 	};
 
-	$state->SUPER::handle_options('acemqrRstuUvh:xA:C:f:F:I:j:J:M:P:b:L:S:',
+	$state->SUPER::handle_options('acemqrRstuUvh:xA:C:f:F:I:j:J:M:p:P:b:L:S:',
     "[-acemrRsuUvx] [-A arch] [-C plist] [-f N] [-F N] [-I plist] [-J p] [-j N]",
     "[-P plist] [-h hosts] [-L logdir] [-b log] [-t ctimeout] [-M threshold]",
     "[path ...]");
@@ -245,6 +245,9 @@ sub start_cores
 	my $prop = {};
 	if ($state->opt('j')) {
 		$prop->{jobs} = $state->opt('j');
+	}
+	if ($state->opt('p')) {
+		$prop->{parallel} = $state->opt('p');
 	}
 	if ($state->{stuck_timeout}) {
 		$prop->{stuck} = $state->{stuck_timeout};

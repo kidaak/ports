@@ -4,6 +4,7 @@ COMMENT =	object relation model implementation for ruby
 
 VERSION =	3.1.3
 DISTNAME =	activerecord-${VERSION}
+REVISION =	0
 CATEGORIES =	databases
 
 # MIT License

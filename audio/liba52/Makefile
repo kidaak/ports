@@ -5,6 +5,7 @@ COMMENT =	free library for decoding ATSC A/52 streams, aka AC-3
 V =		0.7.5
 DISTNAME =	a52dec-snapshot # 0.7.5-cvs
 PKGNAME =	liba52-${V}
+REVISION =	0
 CATEGORIES =	audio
 MASTER_SITES =	http://comstyle.com/source/
 

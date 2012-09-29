@@ -13,6 +13,10 @@ PKGNAME-main=		libproxy-${VERSION}
 PKGNAME-mozilla=	libproxy-mozilla-${VERSION}
 PKGNAME-webkit=		libproxy-webkit-${VERSION}
 
+REVISION-main=		2
+REVISION-mozilla=	1
+REVISION-webkit=	1
+
 CATEGORIES=		net
 
 SHARED_LIBS +=  proxy          1.0 # 0.0
@@ -73,8 +77,9 @@ WANTLIB-webkit += gtk-3 javascriptcoregtk-3.0 pango-1.0 pangocairo-1.0
 WANTLIB-webkit += pangoft2-1.0 pixman-1 png proxy pthread-stubs soup-2.4
 WANTLIB-webkit += webkitgtk-3.0 xcb xcb-render xcb-shm z
 
-CONFIGURE_ARGS=		-DCMAKE_C_FLAGS="${CFLAGS} -pthread" \
-			-DCMAKE_CXX_FLAGS="${CXXFLAGS} -pthread" \
+CONFIGURE_ARGS=		-DCMAKE_C_FLAGS="${CFLAGS}" \
+			-DCMAKE_CXX_FLAGS="${CXXFLAGS}" \
+			-DCMAKE_BUILD_TYPE:STRING=Release \
 			-DWITH_PYTHON:BOOL=ON \
 			-DWITH_PERL:BOOL=ON \
 			-DWITH_GNOME3:BOOL=ON \
@@ -97,8 +102,5 @@ CONFIGURE_ARGS +=	-DWITH_WEBKIT3:BOOL=ON
 .else
 CONFIGURE_ARGS +=	-DWITH_WEBKIT:BOOL=OFF
 .endif
-
-pre-configure:
-	${SUBST_CMD} ${WRKSRC}/libproxy/cmake/libproxy.cmk
 
 .include <bsd.port.mk>

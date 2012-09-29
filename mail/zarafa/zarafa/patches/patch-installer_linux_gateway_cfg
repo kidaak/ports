@@ -35,12 +35,3 @@ $OpenBSD$
  
  # Verify client certificate
  ssl_verify_client	=	no
-@@ -76,7 +76,7 @@ ssl_verify_file		=	
- ssl_verify_path		=
- 
- # Process model, using pthreads (thread) or processes (fork)
--process_model = fork
-+process_model = thread
- 
- ##############################################################
- # GATEWAY LOG SETTINGS

@@ -17,6 +17,7 @@
      SUBDIR += impressive
      SUBDIR += ledger
      SUBDIR += osmo
+     SUBDIR += palm2ical
      SUBDIR += qhacc
      SUBDIR += radicale
      SUBDIR += rednotebook

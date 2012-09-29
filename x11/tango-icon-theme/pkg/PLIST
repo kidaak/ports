@@ -4279,4 +4279,4 @@ share/icons/Tango/scalable/status/weather-showers.svg
 share/icons/Tango/scalable/status/weather-snow.svg
 share/icons/Tango/scalable/status/weather-storm.svg
 share/icons/Tango/scalable/status/xfce-trash_full.svg
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/Tango 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/Tango

@@ -1,8 +1,11 @@
 # $OpenBSD$
 
+PKG_ARCH =      *
+
 COMMENT=	fetch YouTube and Google videos
 
 PKGNAME=	yt-19
+REVISION=	1
 CATEGORIES=	net www
 DISTFILES=
 
@@ -21,6 +24,8 @@ NO_REGRESS=		Yes
 RUN_DEPENDS+=		devel/luastdlib \
 			graphics/ffmpeg \
 			net/luasocket
+MODLUA_SA=		Yes
+SUBST_VARS=		MODLUA_BIN
 
 do-install:
 	${INSTALL_SCRIPT} ${FILESDIR}/yt.lua ${PREFIX}/bin/yt

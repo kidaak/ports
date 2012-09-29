@@ -3,12 +3,13 @@
 COMMENT =		ncurses mpd client inspired by ncmpc
 
 DISTNAME =		ncmpcpp-0.5.10
+REVISION =		1
 
 EXTRACT_SUFX =		.tar.bz2
 
 CATEGORIES =		audio
 
-HOMEPAGE =		http://unkart.ovh.org/ncmpcpp/
+HOMEPAGE =		http://ncmpcpp.rybczak.net/
 
 MAINTAINER =		David Coppa <dcoppa@openbsd.org>
 
@@ -18,7 +19,7 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-MASTER_SITES =		${HOMEPAGE} \
+MASTER_SITES =		${HOMEPAGE}stable/ \
 			http://distfiles.nl/
 
 WANTLIB =		c crypto curl idn m mpdclient \

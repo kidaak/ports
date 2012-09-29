@@ -3,7 +3,7 @@
 COMMENT =	apply actions to directory changes
 
 DISTNAME =	directory_watcher-1.3.2
-REVISION=	0
+REVISION=	1
 CATEGORIES =	sysutils
 
 # MIT

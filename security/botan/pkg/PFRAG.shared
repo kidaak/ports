@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libbotan-1.10.so.${LIBbotan-1.10_VERSION}

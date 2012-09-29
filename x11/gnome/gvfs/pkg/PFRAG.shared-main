@@ -1,7 +1,6 @@
 @comment $OpenBSD$
 lib/gio/modules/libgioremote-volume-monitor.so
 lib/gio/modules/libgvfsdbus.so
-@lib lib/libgvfscommon-dnssd.so.${LIBgvfscommon-dnssd_VERSION}
 @lib lib/libgvfscommon.so.${LIBgvfscommon_VERSION}
 @exec %D/bin/gio-querymodules %D/lib/gio/modules/
 @unexec-delete %D/bin/gio-querymodules %D/lib/gio/modules/

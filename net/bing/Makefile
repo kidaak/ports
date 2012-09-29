@@ -3,7 +3,7 @@
 COMMENT=	point-to-point bandwidth measurement tool
 
 DISTNAME=	bing-1.0.5
-REVISION=	2
+REVISION=	3
 CATEGORIES=	net
 MASTER_SITES=	ftp://ftp.ens.fr/pub/unix/syst/
 
@@ -13,9 +13,8 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=		c
+WANTLIB=	c
 
-USE_GROFF =	Yes
 NO_REGRESS=	Yes
 
 post-install:

@@ -4,6 +4,7 @@ COMMENT =	toolkit for building modeling frameworks
 
 VERSION =	3.1.3
 DISTNAME =	activemodel-${VERSION}
+REVISION =	0
 CATEGORIES =	devel
 
 # MIT License

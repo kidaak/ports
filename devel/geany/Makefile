@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 COMMENT=	small and lightweight IDE
 
 DISTNAME=	geany-0.20
-REVISION =	4
+REVISION =	5
 
 CATEGORIES=	devel
 

@@ -4,7 +4,7 @@ COMMENT=		spreadsheet application for GNOME
 
 GNOME_PROJECT=		gnumeric
 GNOME_VERSION=		1.10.17
-REVISION=		3
+REVISION=		4
 
 CATEGORIES=    		math
 

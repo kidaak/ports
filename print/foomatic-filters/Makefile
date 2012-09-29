@@ -2,8 +2,9 @@
 
 COMMENT=		Foomatic PPD print filters
 
-DISTNAME=		foomatic-filters-4.0.15
+DISTNAME=		foomatic-filters-4.0.17
 CATEGORIES=		print
+REVISION=		0
 
 HOMEPAGE=		http://www.linuxfoundation.org/en/OpenPrinting/Database/Foomatic
 
@@ -25,8 +26,10 @@ LIB_DEPENDS=		x11/dbus
 BUILD_DEPENDS=		${MODGNU_AUTOMAKE_DEPENDS}
 
 RUN_DEPENDS=		print/ghostscript/gnu \
-			print/a2ps \
-			print/gstoraster
+			print/a2ps
+
+# don't enforce dependency on colord; it'll be used only if found
+#RUN_DEPENDS +=	graphics/colord
 
 AUTOMAKE_VERSION=1.10
 AUTOCONF_VERSION=2.65

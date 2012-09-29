@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.4 1997/06/03 09:14:50 asami Exp $
  
      SUBDIR =
      SUBDIR += emerillon
@@ -16,6 +15,7 @@
      SUBDIR += josm
      SUBDIR += libchamplain
      SUBDIR += mapserver
+     SUBDIR += memphis
      SUBDIR += merkaartor
      SUBDIR += openbsd-developers
      SUBDIR += osm-gps-map

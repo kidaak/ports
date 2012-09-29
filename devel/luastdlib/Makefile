@@ -1,9 +1,11 @@
 # $OpenBSD$
 
+PKG_ARCH =      *
+
 COMMENT=	lua library of common programming tasks
 DISTNAME=	stdlib-20
 PKGNAME=	lua${DISTNAME}
-REVISION=	0
+REVISION=	1
 CATEGORIES=	devel
 
 MASTER_SITES=	http://luaforge.net/frs/download.php/4805/

@@ -3,7 +3,7 @@
 COMMENT=		client for MPD to submit tracks to Last.fm
 CATEGORIES=		audio
 DISTNAME=		scmpc-0.3.1
-REVISION =		0
+REVISION =		1
 
 HOMEPAGE=		http://cmende.github.com/scmpc/
 

@@ -5,7 +5,7 @@ ONLY_FOR_ARCHS =	amd64 i386 powerpc sparc64
 COMMENT =		ANSI Common Lisp implementation
 
 DISTNAME=		clisp-2.48
-REVISION =		2
+REVISION =		3
 CATEGORIES=		lang
 HOMEPAGE=		http://clisp.cons.org/
 MAINTAINER =		Joshua Elsasser <joshe@openbsd.org>
@@ -33,7 +33,6 @@ SEPARATE_BUILD=		Yes
 
 CONFIGURE_STYLE=	gnu old
 CONFIGURE_ARGS=		--fsstnd=openbsd \
-			--with-gmalloc \
 			--disable-mmap \
 			--with-gettext \
 			--mandir=${PREFIX}/man \
@@ -45,6 +44,14 @@ CONFIGURE_ENV =		ac_cv_prog_DVIPDF=''
 
 .if ${MACHINE_ARCH} == "sparc64"
 CFLAGS +=		-DSAFETY=2 -DNO_ASM -mcmodel=medany
+.endif
+
+.if ${MACHINE_ARCH} == "powerpc"
+CONFIGURE_ARGS +=	--with-gmalloc
+CFLAGS +=		-fno-pie
+LDFLAGS +=		-nopie
+.else
+CONFIGURE_ARGS +=	--without-gmalloc
 .endif
 
 .include <bsd.port.mk>

@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.12 1996/12/01 01:23:22 obrien Exp $
 
 COMMENT=	X11 front-end program for the archie network search service
 

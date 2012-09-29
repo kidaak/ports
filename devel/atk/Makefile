@@ -3,9 +3,9 @@
 COMMENT=	accessibility toolkit used by gtk+
 
 GNOME_PROJECT=	atk
-GNOME_VERSION=	2.4.0
+GNOME_VERSION=	2.6.0
 
-SHARED_LIBS +=	atk-1.0          20402.1   # 20402.1
+SHARED_LIBS +=	atk-1.0          20600.1   # 20609.1
 
 CATEGORIES=	devel
 
@@ -20,14 +20,14 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB += pcre glib-2.0 gobject-2.0 gthread-2.0 ffi
+WANTLIB += ffi glib-2.0 gobject-2.0 gthread-2.0 pcre pthread
 
 MODULES=	devel/gettext \
 		x11/gnome
 
 MODGNOME_TOOLS= goi
 
-LIB_DEPENDS=	devel/glib2>=2.31.20
+LIB_DEPENDS=	devel/glib2>=2.33.14
 
 USE_GMAKE=	Yes
 USE_LIBTOOL=	Yes

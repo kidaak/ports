@@ -3,7 +3,8 @@
 COMMENT=	convert text into the Doc format used by PalmPilots
 
 PKGNAME=	pilot_makedoc-0.7
-CATEGORIES=	textproc palm
+CATEGORIES=	textproc
+REVISION=	0
 
 MASTER_SITES=	ftp://ftp.cs.tu-berlin.de/pub/palmtops/pilot/
 DISTFILES=	makedoc7.cpp

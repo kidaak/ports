@@ -5,7 +5,7 @@ SHARED_ONLY=		Yes
 COMMENT=		implementation of the FreeDesktop Desktop Menu Spec
 
 GNOME_PROJECT=		gnome-menus
-GNOME_VERSION=		3.4.2
+GNOME_VERSION=		3.6.0
 
 SHARED_LIBS +=  gnome-menu-3         0.0      # 0.0
 
@@ -16,7 +16,7 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 WANTLIB += ffi gio-2.0 glib-2.0 gmodule-2.0 gobject-2.0 gthread-2.0
-WANTLIB += pcre z
+WANTLIB += pcre pthread z
 
 MODULES=		devel/gettext \
 			lang/python \

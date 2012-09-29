@@ -1,0 +1,5 @@
+@comment $OpenBSD$
+@pkgpath mail/pine,-pico
+@pkgpath mail/alpine,-pico
+@bin bin/pico
+@man man/man1/pico.1

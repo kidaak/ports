@@ -19,7 +19,8 @@ MASTER_SITES=		https://github.com/downloads/elixir-lang/elixir/
 EXTRACT_SUFX=		.zip
 DIST_SUBDIR=		elixir
 
-BUILD_DEPENDS=		${RUN_DEPENDS}
+BUILD_DEPENDS=		devel/rebar \
+			lang/erlang
 RUN_DEPENDS=		lang/erlang
 
 ALL_TARGET=		compile

@@ -2,8 +2,7 @@
 
 COMMENT=		bindings for GHC to Xft, Freetype and Xrender
 
-DISTNAME=		X11-xft-0.3
-REVISION=		4
+DISTNAME=		X11-xft-0.3.1
 CATEGORIES=		x11 devel
 
 HOMEPAGE=		http://hackage.haskell.org/package/X11-xft

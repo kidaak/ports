@@ -3,7 +3,7 @@
 COMMENT=	C++ interface for glib2
 
 GNOME_PROJECT=	glibmm
-GNOME_VERSION=	2.32.0
+GNOME_VERSION=	2.33.13
 PKGNAME=	glib2mm-${GNOME_VERSION}
 
 V=		2.4
@@ -23,8 +23,8 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB += pcre z m stdc++ sigc-2.0 glib-2.0>=1803 gmodule-2.0 gobject-2.0
-WANTLIB += gio-2.0 gthread-2.0 ffi
+WANTLIB += ffi gio-2.0 glib-2.0 gmodule-2.0 gobject-2.0 gthread-2.0
+WANTLIB += m pcre pthread sigc-2.0 stdc++ z
 
 MODULES=	devel/gettext \
 		x11/gnome

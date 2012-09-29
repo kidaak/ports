@@ -3,7 +3,7 @@ $OpenBSD$
 fix for gcc-2.95
 
 --- gui/MyGL/AppController.m.orig	Thu Apr 15 01:01:19 2010
-+++ gui/MyGL/AppController.m	Sat Jun 25 13:28:26 2011
++++ gui/MyGL/AppController.m	Mon Jul  2 19:26:06 2012
 @@ -3,7 +3,9 @@
  #include <AppKit/AppKit.h>
  #include <AppKit/NSOpenGLView.h>

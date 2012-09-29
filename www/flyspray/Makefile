@@ -2,8 +2,8 @@
 
 COMMENT =	web-based bug tracking system
 
-DISTNAME =	flyspray-0.9.9.6
-REVISION =	3
+DISTNAME =	flyspray-0.9.9.7
+REVISION =	0
 CATEGORIES =	www devel
 
 HOMEPAGE =	http://flyspray.org/

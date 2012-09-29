@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.postgis.org/
 
 MAINTAINER=	Eric Faurot <eric@openbsd.org>
 
+BROKEN=		Doesn't build with PostgreSQL 9.2
+
 # GPLv2
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes

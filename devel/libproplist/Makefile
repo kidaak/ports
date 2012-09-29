@@ -5,15 +5,13 @@ COMMENT=	GNUstep/OPENSTEP property lists compatibility library
 V=		0.10.1
 DISTNAME=	libPropList-${V}
 PKGNAME=	libproplist-${V}
-REVISION=	1
+REVISION=	2
 SHARED_LIBS=		PropList 2.2
 MODGNU_SHARED_LIBS=	PropList ''
 
 CATEGORIES=	devel
 
 HOMEPAGE=	http://www.windowmaker.info/
-
-MAINTAINER=	Jason Ish <ish@openbsd.org>
 
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes

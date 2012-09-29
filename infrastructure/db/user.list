@@ -49,7 +49,7 @@ id  user		group		port options
 538 _vilter		_vilter		mail/smtp-vilter
 539 _clamav		_clamav		security/clamav
 540 _dspam		_dspam		mail/dspam
-541 _cups		_cups		print/cups, print/ghostscript/gnu
+541 _cups		_cups		print/cups
 542 _flowd		_flowd		net/flowd
 543 _cyrus		_cyrus		mail/cyrus-imapd
 544 _openldap		_openldap	databases/openldap
@@ -105,7 +105,7 @@ id  user		group		port options
 594 _ejabberd		_ejabberd	net/ejabberd
 595 _poppassd		_poppassd	sysutils/openpoppassd
 596 _heartbeat		_heartbeat	sysutils/heartbeat
-597			_kqemu		emulators/kqemu
+#597			_kqemu		emulators/kqemu
 598 _iodine		_iodine		net/iodine
 599 _bacula-sd				sysutils/bacula
 600 _ntlmaps		_ntlmaps	www/ntlmaps
@@ -207,3 +207,9 @@ id  user		group		port options
 696 _sslh		_sslh		net/sslh
 697 _cvsyncd		_cvsyncd	net/cvsync
 698 _yule		_yule		security/samhain
+699 _mozsync		_mozsync	www/mozilla-sync
+700 _yubiserve		_yubiserve	security/yubiserve
+701 _polkitd		_polkitd	sysutils/polkit
+702 _riak		_riak		databases/riak
+703 _ngircd		_ngircd		net/ngircd
+704 _gophernicus	_gophernicus	net/gophernicus

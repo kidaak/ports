@@ -54,7 +54,7 @@ CONFIGURE_STYLE = gnu
 CONFIGURE_ARGS = ${CONFIGURE_SHARED} \
 		--docdir=${PREFIX}/share/examples/openbox
 CONFIGURE_ENV =	CPPFLAGS="-I${LOCALBASE}/include -I${X11BASE}/include" \
-		LDFLAGS="-L${LOCALBASE}/lib"
+		LDFLAGS="-L${LOCALBASE}/lib -L${X11BASE}/lib"
 
 pre-configure:
 	${SUBST_CMD} ${WRKSRC}/data/autostart/autostart.in

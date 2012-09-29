@@ -2,8 +2,7 @@
 
 COMMENT =		parse numeric literals from bytestrings
 
-DISTNAME =		bytestring-nums-0.3.2
-REVISION =		3
+DISTNAME =		bytestring-nums-0.3.5
 CATEGORIES =		textproc
 HOMEPAGE =		http://github.com/solidsnack/bytestring-nums
 

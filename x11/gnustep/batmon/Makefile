@@ -3,6 +3,7 @@
 COMMENT =	GNUstep battery monitor
 
 DISTNAME =	batmon-0.6
+REVISION =	1
 CATEGORIES =	sysutils
 
 HOMEPAGE =	http://gap.nongnu.org/batmon/

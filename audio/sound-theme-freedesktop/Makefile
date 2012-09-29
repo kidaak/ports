@@ -2,10 +2,8 @@
 
 COMMENT=	XDG sound theme
 
-DISTNAME=	sound-theme-freedesktop-0.7
+DISTNAME=	sound-theme-freedesktop-0.8
 CATEGORIES=	audio
-
-REVISION=	2
 
 EXTRACT_SUFX=	.tar.bz2
 
@@ -20,31 +18,14 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM= Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-MASTER_SITES=	http://cgit.freedesktop.org/sound-theme-freedesktop/snapshot/
+MASTER_SITES=	http://people.freedesktop.org/~mccann/dist/
 
 MODULES=	textproc/intltool
-
-BUILD_DEPENDS=	${MODGNU_AUTOCONF_DEPENDS} \
-		${MODGNU_AUTOMAKE_DEPENDS}
-
-# XXX needed for autoreconf:
-# aclocal:configure.ac:17: warning: macro `AM_GLIB_GNU_GETTEXT' not found in library
-BUILD_DEPENDS+= devel/glib2
 
 USE_GMAKE=	Yes
 NO_REGRESS=	Yes
 
-AUTOMAKE_VERSION=1.9
-AUTOCONF_VERSION=2.62
-
 CONFIGURE_STYLE=gnu
-
-do-configure:
-	cd ${WRKSRC} && \
-		env ${CONFIGURE_ENV} \
-		AUTOMAKE_VERSION=${AUTOMAKE_VERSION} \
-		AUTOCONF_VERSION=${AUTOCONF_VERSION} \
-		./autogen.sh ${CONFIGURE_ARGS}
 
 post-install:
 	cd ${PREFIX}/share/sounds/freedesktop/stereo && \

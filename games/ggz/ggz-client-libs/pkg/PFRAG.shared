@@ -1,3 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libggzcore.so.${LIBggzcore_VERSION}
-@lib lib/libggzmod.so.${LIBggzmod_VERSION}

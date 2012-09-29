@@ -1,7 +1,7 @@
 # $OpenBSD$
 
 COMMENT =		n64 emulator core
-SHARED_LIBS = 		mupen64plus 2.0
+SHARED_LIBS = 		mupen64plus 2.1 # 2.0
 
 # GPLv2+
 PERMIT_PACKAGE_CDROM =	Yes
@@ -15,5 +15,8 @@ LIB_DEPENDS =		devel/sdl \
 			print/freetype
 
 MUPEN64PLUS_MOD = 	core
+
+MAKE_FLAGS =		TARGET=libmupen64plus.so.${LIBmupen64plus_VERSION} \
+			V=1
 
 .include <bsd.port.mk>

@@ -407,3 +407,6 @@ phpicalendar/templates/tan/todo.tpl
 phpicalendar/templates/tan/year.tpl
 phpicalendar/week.php
 phpicalendar/year.php
+@group
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

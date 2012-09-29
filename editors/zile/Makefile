@@ -1,11 +1,11 @@
 # $OpenBSD$
 
 COMMENT=		lightweight Emacs clone
-DISTNAME=		zile-2.4.7
+DISTNAME=		zile-2.4.8
 CATEGORIES=		editors
 HOMEPAGE=		http://www.gnu.org/software/zile/
 
-MAINTAINER=		Gonzalo L. R. <gonzalo@x61.com.ar>
+MAINTAINER=		Gonzalo L. R. <gonzalo@openbsd.org>
 
 # GPLv3
 PERMIT_PACKAGE_CDROM=	Yes

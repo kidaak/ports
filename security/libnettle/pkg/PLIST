@@ -39,6 +39,7 @@ include/nettle/realloc.h
 include/nettle/ripemd160.h
 include/nettle/rsa-compat.h
 include/nettle/rsa.h
+include/nettle/salsa20.h
 include/nettle/serpent.h
 include/nettle/sexp.h
 include/nettle/sha.h

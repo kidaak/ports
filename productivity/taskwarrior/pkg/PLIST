@@ -64,7 +64,7 @@ share/taskwarrior/scripts/add-ons/import-todo.sh.pl
 share/taskwarrior/scripts/add-ons/import-yaml.pl
 share/taskwarrior/scripts/add-ons/update-holidays.pl
 share/taskwarrior/scripts/bash/
-share/taskwarrior/scripts/bash/task_completion.sh
+share/taskwarrior/scripts/bash/task.sh
 share/taskwarrior/scripts/extensions/
 share/taskwarrior/scripts/extensions/command.lua
 share/taskwarrior/scripts/extensions/dom.lua

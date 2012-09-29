@@ -2,7 +2,7 @@
 
 COMMENT =		Haskell driver for Redis
 
-DISTNAME =		redis-0.12.1
+DISTNAME =		redis-0.13
 CATEGORIES =		databases
 
 MAINTAINER =		David Coppa <dcoppa@openbsd.org>

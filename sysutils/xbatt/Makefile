@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.4 1997/03/10 12:07:35 asami Exp $
 
 ONLY_FOR_ARCHS= ${APM_ARCHS}
 

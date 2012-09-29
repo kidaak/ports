@@ -111,6 +111,8 @@ pear/lib/Predis/Commands/SetRemove.php
 pear/lib/Predis/Commands/SetUnion.php
 pear/lib/Predis/Commands/SetUnionStore.php
 pear/lib/Predis/Commands/StringAppend.php
+pear/lib/Predis/Commands/StringBitCount.php
+pear/lib/Predis/Commands/StringBitOp.php
 pear/lib/Predis/Commands/StringDecrement.php
 pear/lib/Predis/Commands/StringDecrementBy.php
 pear/lib/Predis/Commands/StringGet.php

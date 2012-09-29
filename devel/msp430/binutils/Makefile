@@ -1,9 +1,9 @@
 # $OpenBSD$
 
-COMMENT=		GNU binutils for msp430
-
 TOOL=			binutils
 TOOL_V=			2.21.1a
+
+REVISION=		0
 
 GNU_TOOL=		Yes
 

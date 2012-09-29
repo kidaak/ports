@@ -1,8 +1,7 @@
 # $OpenBSD$
 
 COMMENT=	graphical adventure game interpreter
-DISTNAME=	scummvm-1.4.1
-REVISION=	2
+DISTNAME=	scummvm-1.5.0
 CATEGORIES=	games x11 emulators
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=scummvm/}
 
@@ -65,8 +64,5 @@ do-install:
 	${INSTALL_DATA} ${WRKSRC}/dists/scummvm.desktop \
 	    ${PREFIX}/share/applications
 	${INSTALL_PROGRAM} ${WRKSRC}/scummvm ${PREFIX}/bin
-
-post-patch:
-	@cp ${FILESDIR}/sndio.cpp ${WRKSRC}/backends/midi
 
 .include <bsd.port.mk>

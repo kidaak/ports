@@ -2,7 +2,7 @@
 
 COMMENT=	GNU awk
 
-V=		4.0.0
+V=		4.0.1
 DISTNAME=	gawk-$V
 CATEGORIES=	lang
 MASTER_SITES=	${MASTER_SITE_GNU:=gawk/}

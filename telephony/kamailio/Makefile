@@ -4,8 +4,7 @@ COMMENT-main =		mature and flexible open source SIP server
 
 SHARED_ONLY =		Yes
 
-VERSION =		3.2.3
-REVISION =		0
+VERSION =		3.3.1
 DISTNAME =		kamailio-${VERSION}_src
 PKGNAME-main =		kamailio-${VERSION}
 PKGNAME-mysql =		kamailio-mysql-${VERSION}
@@ -28,12 +27,14 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-SHARED_LIBS =		kcore	0.0	# 1.0
-SHARED_LIBS +=		kmi	0.0	# 1.0
-SHARED_LIBS +=		ser_cds	0.0	# 0.1
-SHARED_LIBS +=		srdb1	0.0	# 1.0
-SHARED_LIBS +=		srdb2	0.0	# 1.0
-SHARED_LIBS +=		trie	0.0	# 1.0
+SHARED_LIBS =		kcore	1.0	# 1.0
+SHARED_LIBS +=		kmi	1.0	# 1.0
+SHARED_LIBS +=		ser_cds	1.0	# 0.1
+SHARED_LIBS +=		srdb1	1.0	# 1.0
+SHARED_LIBS +=		srdb2	1.0	# 1.0
+SHARED_LIBS +=		trie	1.0	# 1.0
+SHARED_LIBS +=		binrpc	0.0	# 0.1
+SHARED_LIBS +=		srutils	0.0	# 1.0
 
 MAKE_ENV =		CC="${CC}" LDFLAGS="${LDFLAGS} -pthread" QUIET=verbose
 
@@ -42,9 +43,9 @@ WRKDIST =		${WRKDIR}/kamailio-${VERSION}
 
 MODULES =		devel/gettext
 WANTLIB-main =		c crypto curl db expat pcre pthread ssl xml2 \
-			idn ncurses readline z ${MODGETTEXT_WANTLIB}
+			idn ncurses readline z m ${MODGETTEXT_WANTLIB}
 LIB_DEPENDS-main =	net/curl \
-			databases/db/v4 \
+			databases/db/v4,-main,no_java \
 			devel/pcre \
 			textproc/libxml,-main,no_python \
 			${MODGETTEXT_LIB_DEPENDS}
@@ -74,14 +75,16 @@ MAKE_FLAGS =	FLAVOUR=kamailio \
 		LIBser_cds_VERSION=${LIBser_cds_VERSION} \
 		LIBsrdb1_VERSION=${LIBsrdb1_VERSION} \
 		LIBsrdb2_VERSION=${LIBsrdb2_VERSION} \
-		LIBtrie_VERSION=${LIBtrie_VERSION}
+		LIBtrie_VERSION=${LIBtrie_VERSION} \
+		LIBbinrpc_VERSION=${LIBbinrpc_VERSION} \
+		LIBsrutils_VERSION=${LIBsrutils_VERSION}
 
 PSEUDO_FLAVORS +=	no_postgresql
 .if !${FLAVOR:L:Mno_postgresql}
 MULTI_PACKAGES +=	-postgresql
 COMMENT-postgresql =	kamailio postgresql module
 KAMAILIO_MODULES +=	db_postgres
-WANTLIB-postgresql =	pq lib/kamailio/srdb1 lib/kamailio/srdb2
+WANTLIB-postgresql =	c pq lib/kamailio/srdb1 lib/kamailio/srdb2
 LIB_DEPENDS-postgresql =databases/postgresql,-main telephony/kamailio,-main
 .endif
 
@@ -90,7 +93,7 @@ PSEUDO_FLAVORS +=	no_mysql
 MULTI_PACKAGES +=	-mysql
 COMMENT-mysql =		kamailio mysql module
 KAMAILIO_MODULES +=	db_mysql
-WANTLIB-mysql =		crypto m ssl z mysqlclient \
+WANTLIB-mysql =		c crypto m ssl z mysqlclient \
 			lib/kamailio/srdb1 lib/kamailio/srdb2
 LIB_DEPENDS-mysql =	databases/mysql,-main telephony/kamailio,-main
 .endif
@@ -100,7 +103,7 @@ PSEUDO_FLAVORS +=	no_ldap
 MULTI_PACKAGES +=	-ldap
 COMMENT-ldap =		kamailio LDAP modules
 KAMAILIO_MODULES +=	ldap h350
-WANTLIB-ldap =		ldap lib/kamailio/srdb2
+WANTLIB-ldap =		c ldap lib/kamailio/srdb2
 LIB_DEPENDS-ldap =	databases/openldap,-main telephony/kamailio,-main
 .endif
 
@@ -109,7 +112,7 @@ PSEUDO_FLAVORS +=	no_xmlrpc
 MULTI_PACKAGES +=	-xmlrpc
 COMMENT-xmlrpc =	kamailio XML-RPC module
 KAMAILIO_MODULES +=	mi_xmlrpc
-WANTLIB-xmlrpc +=	pthread xmlrpc xmlrpc_abyss xmlrpc_server
+WANTLIB-xmlrpc +=	c pthread xmlrpc xmlrpc_abyss xmlrpc_server
 WANTLIB-xmlrpc +=	xmlrpc_server_abyss xmlrpc_util
 WANTLIB-xmlrpc +=	xmlrpc_xmlparse xmlrpc_xmltok lib/kamailio/kmi
 LIB_DEPENDS-xmlrpc =	net/xmlrpc-c telephony/kamailio,-main
@@ -120,7 +123,7 @@ PSEUDO_FLAVORS +=	no_snmpstats
 MULTI_PACKAGES +=	-snmpstats
 COMMENT-snmpstats =	kamailio snmpstats module
 KAMAILIO_MODULES +=	snmpstats
-WANTLIB-snmpstats =	netsnmp netsnmpagent netsnmpmibs lib/kamailio/kcore
+WANTLIB-snmpstats =	c netsnmp netsnmpagent netsnmpmibs lib/kamailio/kcore
 LIB_DEPENDS-snmpstats =	net/net-snmp telephony/kamailio,-main
 .endif
 
@@ -129,7 +132,7 @@ PSEUDO_FLAVORS +=	no_carrierroute
 MULTI_PACKAGES +=	-carrierroute
 COMMENT-carrierroute =	kamailio carrierroute module
 KAMAILIO_MODULES +=	carrierroute
-WANTLIB-carrierroute =	confuse ${MODGETTEXT_WANTLIB} \
+WANTLIB-carrierroute =	c confuse ${MODGETTEXT_WANTLIB} \
 			lib/kamailio/kcore lib/kamailio/kmi \
 			lib/kamailio/srdb1 lib/kamailio/trie
 LIB_DEPENDS-carrierroute = devel/libconfuse \

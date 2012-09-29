@@ -11,6 +11,7 @@ SRC=		libhdhomerun_20110323.tgz
 DISTFILES=	${FW} ${SRC}
 EXTRACT_ONLY=	${SRC}
 PKGNAME=	hdhomerun-20110323
+REVISION=	0
 CATEGORIES=	multimedia
 MASTER_SITES=	http://download.silicondust.com/hdhomerun/
 

@@ -2,9 +2,9 @@ $OpenBSD$
 
 sed(1) doesn't support -i, so use perl(1) instead.
 
---- tests/libpeas/plugins/extension-js/Makefile.in.orig	Wed Mar 28 13:10:20 2012
-+++ tests/libpeas/plugins/extension-js/Makefile.in	Thu Apr  5 11:18:31 2012
-@@ -508,14 +508,14 @@ extension-js.%:
+--- tests/libpeas/plugins/extension-js/Makefile.in.orig	Tue Sep 25 15:46:37 2012
++++ tests/libpeas/plugins/extension-js/Makefile.in	Tue Sep 25 16:06:30 2012
+@@ -537,14 +537,14 @@ extension-js.%:
  
  extension-gjs.gschema.xml extension-seed.gschema.xml: extension-js.gschema.xml
  	$(AM_V_GEN) cp $< $@ && \

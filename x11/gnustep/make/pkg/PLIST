@@ -155,4 +155,3 @@ share/GNUstep/Makefiles/test-tool.make
 share/GNUstep/Makefiles/tool.make
 share/GNUstep/Makefiles/vendor.sh
 share/GNUstep/installation-domains.conf
-share/doc/pkg-readmes/${FULLPKGNAME}

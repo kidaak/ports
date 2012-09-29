@@ -1,10 +1,12 @@
 $OpenBSD$
---- libproxy/libproxy-1.0.pc.in.orig	Mon Dec  5 10:16:33 2011
-+++ libproxy/libproxy-1.0.pc.in	Mon Dec  5 10:16:20 2011
-@@ -5,5 +5,5 @@ includedir=@PKGCONFIG_INCLUDEDIR@
- Name: libproxy-1.0
+
+Needed for static linking.
+
+--- libproxy/libproxy-1.0.pc.in.orig	Mon Jun  6 17:44:37 2011
++++ libproxy/libproxy-1.0.pc.in	Tue Aug 21 05:10:24 2012
+@@ -6,4 +6,5 @@ Name: libproxy-1.0
  Description: Proxy Configuration Library
  Version: @PROJECT_VERSION@
--Libs: -L${libdir} -lproxy
-+Libs: -L${libdir} -lproxy -pthread
+ Libs: -L${libdir} -lproxy
++Libs.private: -lpthread -lm
  Cflags: -I${includedir} 

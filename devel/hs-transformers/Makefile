@@ -2,8 +2,7 @@
 
 COMMENT =		concrete monad transformers
 
-DISTNAME =		transformers-0.2.2.0
-REVISION=		0
+DISTNAME =		transformers-0.3.0.0
 CATEGORIES =		devel
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>

@@ -1,6 +1,6 @@
 $OpenBSD$
 --- gui/MyGL/GNUmakefile.orig	Sat Mar 13 02:20:22 2010
-+++ gui/MyGL/GNUmakefile	Thu Jun  3 09:55:30 2010
++++ gui/MyGL/GNUmakefile	Mon Jul  2 19:26:06 2012
 @@ -7,13 +7,14 @@ MyGL_MAIN_MODEL_FILE=MyGL.gorm
  MyGL_APPLICATION_ICON=MyGL.tiff
  

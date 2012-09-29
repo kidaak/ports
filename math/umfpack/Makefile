@@ -5,7 +5,7 @@ COMMENT=	unsymmetric multifrontal sparse LU factorization package
 VERSION=	5.1.0
 DISTNAME=	UMFPACK-${VERSION}
 PKGNAME=	umfpack-${VERSION}
-REVISION=	3
+REVISION=	4
 SHARED_LIBS=	umfpack	0.0
 
 CATEGORIES=	math

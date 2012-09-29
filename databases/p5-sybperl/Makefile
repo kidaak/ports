@@ -2,6 +2,7 @@
 
 DISTNAME=	sybperl-2.19
 PKGNAME=	p5-${DISTNAME}
+REVISION=	0
 CATEGORIES=	databases perl5
 
 # perl
@@ -10,7 +11,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB +=	m sybdb>=5 ct>=3
+WANTLIB +=	c m sybdb>=5 ct>=3
 
 SHARED_ONLY=	Yes
 

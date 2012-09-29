@@ -7,6 +7,7 @@ include/mupen64plus/m64p_frontend.h
 include/mupen64plus/m64p_plugin.h
 include/mupen64plus/m64p_types.h
 include/mupen64plus/m64p_vidext.h
+lib/libmupen64plus.so.2
 @lib lib/libmupen64plus.so.${LIBmupen64plus_VERSION}
 share/mupen64plus/
 share/mupen64plus/font.ttf

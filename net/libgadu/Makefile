@@ -2,7 +2,7 @@
 
 COMMENT=	implementation of Gadu-Gadu IM protocol
 
-DISTNAME=	libgadu-1.11.0
+DISTNAME=	libgadu-1.11.2
 EPOCH=		0
 CATEGORIES=	net
 MASTER_SITES=	${HOMEPAGE}/files/
@@ -17,7 +17,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	z
+WANTLIB=	pthread z
 
 USE_LIBTOOL=	Yes
 CONFIGURE_STYLE=gnu

@@ -3,7 +3,7 @@
 COMMENT=		whitelist-based HTML sanitizer
 
 DISTNAME=		sanitize-2.0.3
-REVISION=	0
+REVISION=	1
 CATEGORIES=		www textproc
 
 HOMEPAGE=		https://github.com/rgrove/sanitize/

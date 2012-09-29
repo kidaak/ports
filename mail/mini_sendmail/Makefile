@@ -6,7 +6,7 @@ COMMENT-chroot=	static mini_sendmail for chrooted apache
 V=		1.3.6
 DISTNAME=	mini_sendmail-${V}
 PKGNAME-main=	mini_sendmail-${V}
-REVISION-main=	2
+REVISION-main=	3
 PKGNAME-chroot=	mini_sendmail-chroot-${V}
 REVISION-chroot=1
 CATEGORIES=	mail www
@@ -23,7 +23,6 @@ PERMIT_PACKAGE_FTP=	Yes
 NO_REGRESS=	Yes
 
 MAKE_ENV+=	LDFLAGS="${LDFLAGS}"
-USE_GROFF =	Yes
 
 MULTI_PACKAGES=	-main -chroot
 

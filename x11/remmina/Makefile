@@ -15,7 +15,7 @@ DISTNAME=		Remmina-${V}
 PKGNAME=		${DISTNAME:L}
 WRKDIST=		${WRKDIR}/FreeRDP-Remmina-356c033
 
-REVISION=		1
+REVISION=		3
 
 CATEGORIES=		x11 net
 
@@ -42,7 +42,7 @@ WANTLIB += gobject-2.0 gthread-2.0 pthread vte2_90 jpeg z telepathy-glib
 WANTLIB += util xkbfile ssh freerdp-kbd freerdp-rail
 WANTLIB += freerdp-channels freerdp-codec freerdp-core freerdp-gdi
 
-BUILD_DEPENDS=		net/avahi,-gtk3
+BUILD_DEPENDS=		net/avahi,-gtk3,no_mono,no_qt3,no_qt4
 
 LIB_DEPENDS=		devel/vte3 \
 			security/libssh \

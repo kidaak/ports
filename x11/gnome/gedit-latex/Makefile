@@ -3,7 +3,8 @@
 COMMENT=	LaTeX plugin for Gedit
 
 GNOME_PROJECT=	gedit-latex
-GNOME_VERSION=	3.4.0
+GNOME_VERSION=	3.4.1
+REVISION=	0
 
 CATEGORIES=	editors print
 

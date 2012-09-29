@@ -3,7 +3,7 @@
 COMMENT=	project management tool
 
 DISTNAME=	taskjuggler-2.4.1
-REVISION=	5
+REVISION=	6
 
 CATEGORIES=	productivity
 
@@ -37,7 +37,6 @@ CONFIGURE_STYLE=autoconf
 AUTOCONF_VERSION=2.61
 CONFIGURE_ARGS+=${MODKDE_CONFIGURE_ARGS} \
 		--enable-dependency-tracking \
-		--disable-as-needed \
 		--disable-final \
 		--with-docdir=${PREFIX}/share/examples/taskjuggler/
 CONFIGURE_ENV=	${MODKDE_CONFIGURE_ENV} \

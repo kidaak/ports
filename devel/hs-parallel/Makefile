@@ -2,8 +2,7 @@
 
 COMMENT =		parallel programming library
 
-DISTNAME =		parallel-3.1.0.1
-REVISION=		0
+DISTNAME =		parallel-3.2.0.2
 CATEGORIES =		devel
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>
@@ -17,8 +16,5 @@ PERMIT_DISTFILES_FTP =	Yes
 MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
-
-RUN_DEPENDS =		hs-deepseq->=1.1,<1.2:devel/hs-deepseq
-BUILD_DEPENDS =		${RUN_DEPENDS}
 
 .include <bsd.port.mk>

@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $NetBSD: Makefile,v 1.2 2000/01/07 04:20:49 hubertf Exp $
 
 COMMENT=	ac3 audio (as used on DVDs) decoding tools
 

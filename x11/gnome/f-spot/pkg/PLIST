@@ -93,7 +93,6 @@ lib/f-spot/gio-sharp.dll.config
 lib/f-spot/gkeyfile-sharp.dll
 lib/f-spot/gtk-sharp-beans.dll
 lib/f-spot/gtk-sharp-beans.dll.config
-@comment lib/f-spot/libfspot.la
 lib/f-spot/libfspot.so
 lib/f-spot/unique-sharp.dll
 lib/f-spot/unique-sharp.dll.config
@@ -502,7 +501,7 @@ share/locale/zh_TW/LC_MESSAGES/f-spot.mo
 ${SCHEMAS_INSTDIR}/
 ${SCHEMAS_INSTDIR}/f-spot.schemas
 @exec GCONF_CONFIG_SOURCE=`%D/bin/gconftool-2 --get-default-source` %D/bin/gconftool-2 --makefile-install-rule %D/${SCHEMAS_INSTDIR}/*.schemas > /dev/null
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

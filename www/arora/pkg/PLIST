@@ -46,7 +46,7 @@ share/icons/hicolor/16x16/apps/arora.png
 share/icons/hicolor/32x32/apps/arora.png
 share/icons/hicolor/scalable/apps/arora.svg
 share/pixmaps/arora.xpm
-@exec %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
-@unexec-delete %D/bin/gtk-update-icon-cache -q %D/share/icons/hicolor 2>/dev/null || true
+@exec %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
+@unexec-delete %D/bin/gtk-update-icon-cache -q -t %D/share/icons/hicolor
 @exec %D/bin/update-desktop-database
 @unexec-delete %D/bin/update-desktop-database

@@ -2,9 +2,8 @@
 
 COMMENT=	D-Bus interface for user account query and manipulation
 
-DISTNAME=	accountsservice-0.6.20
+DISTNAME=	accountsservice-0.6.25
 EXTRACT_SUFX=	.tar.xz
-REVISION=	0
 
 SHARED_LIBS +=  accountsservice           0.0 # 0.0
 
@@ -43,15 +42,13 @@ CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
 CONFIGURE_ARGS=	${CONFIGURE_SHARED} \
 		--enable-introspection \
+		--disable-systemd \
 		--disable-docbook-docs
 
 FAKE_FLAGS=	sysconfdir=${PREFIX}/share/examples/accountsservice
 
 pre-configure:
-	${SUBST_CMD} ${WRKSRC}/src/daemon.c
-
-# XXX
-post-configure:
-	echo '#undef WITH_SYSTEMD' >> ${WRKBUILD}/config.h
+	perl -pi -e 's,/etc/gdm,${SYSCONFDIR}/gdm,g' \
+		${WRKSRC}/src/daemon.c
 
 .include <bsd.port.mk>

@@ -3,7 +3,7 @@
 COMMENT =	personal accounting application
 
 DISTNAME =	homebank-4.4
-REVISION=	2
+REVISION=	3
 
 CATEGORIES =	productivity x11
 

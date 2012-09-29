@@ -1,5 +1,0 @@
-@comment $OpenBSD$
-lib/girepository-1.0/
-lib/girepository-1.0/Poppler-0.18.typelib
-share/gir-1.0/
-share/gir-1.0/Poppler-0.18.gir

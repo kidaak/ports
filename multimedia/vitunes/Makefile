@@ -3,6 +3,7 @@
 COMMENT =		curses media indexer and player for vi users
 
 DISTNAME =		vitunes-2.3
+REVISION =		0
 
 CATEGORIES =		multimedia
 

@@ -6,6 +6,7 @@ lib/ghc/${DISTNAME}/Network/Wai/
 lib/ghc/${DISTNAME}/Network/Wai/Handler/
 lib/ghc/${DISTNAME}/Network/Wai/Handler/Warp.hi
 lib/ghc/${DISTNAME}/Paths_warp.hi
+lib/ghc/${DISTNAME}/ReadInt.hi
 lib/ghc/${DISTNAME}/Timeout.hi
 lib/ghc/${DISTNAME}/libHS${DISTNAME}.a
 lib/ghc/${DISTNAME}/register.sh

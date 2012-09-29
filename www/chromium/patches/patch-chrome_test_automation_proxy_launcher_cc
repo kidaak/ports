@@ -1,7 +1,7 @@
 $OpenBSD$
---- chrome/test/automation/proxy_launcher.cc.orig	Fri Jan 27 09:02:35 2012
-+++ chrome/test/automation/proxy_launcher.cc	Thu Feb  9 09:31:06 2012
-@@ -33,6 +33,10 @@
+--- chrome/test/automation/proxy_launcher.cc.orig	Wed May 23 03:50:30 2012
++++ chrome/test/automation/proxy_launcher.cc	Fri Jun  1 06:13:04 2012
+@@ -35,6 +35,10 @@
  #include <signal.h>
  #endif
  

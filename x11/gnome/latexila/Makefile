@@ -4,6 +4,7 @@ COMMENT=	integrated LaTeX environment for GNOME
 
 GNOME_PROJECT=	latexila
 GNOME_VERSION=	2.4.1
+REVISION=	1
 
 CATEGORIES=	editors print
 

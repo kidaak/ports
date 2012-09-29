@@ -2,7 +2,7 @@
 
 COMMENT=		dynamic window manager
 
-DISTNAME=		dwm-5.9
+DISTNAME=		dwm-6.0
 
 CATEGORIES=		x11
 

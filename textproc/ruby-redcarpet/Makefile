@@ -2,11 +2,10 @@
 
 COMMENT=	fast, safe and extensible Markdown to (X)HTML parser
 
-DISTNAME=	redcarpet-2.0.0
+DISTNAME=	redcarpet-2.1.1
+REVISION =	0
 
 CATEGORIES=	textproc
-
-HOMEPAGE=	https://github.com/tanoku/redcarpet
 
 # MIT
 PERMIT_PACKAGE_CDROM=	Yes

@@ -1,5 +1,4 @@
 # $OpenBSD$
-#
 
      SUBDIR =
      SUBDIR += R
@@ -26,6 +25,7 @@
      SUBDIR += fftw3,float
      SUBDIR += freemat
      SUBDIR += galculator
+     SUBDIR += geogebra
      SUBDIR += ginac
      SUBDIR += gnumeric
      SUBDIR += gnuplot
@@ -96,6 +96,7 @@
      SUBDIR += py-numpy
      SUBDIR += py-probstat
      SUBDIR += py-scipy
+     SUBDIR += py-sympy
      SUBDIR += qhull
      SUBDIR += qrupdate
      SUBDIR += qtoctave

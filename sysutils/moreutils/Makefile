@@ -2,7 +2,7 @@
 
 COMMENT =	miscellaneous unix tools
 
-DISTNAME =	moreutils_0.46
+DISTNAME =	moreutils_0.47
 PKGNAME =	${DISTNAME:S/_/-/}
 WRKDIST =	${WRKDIR}/moreutils
 

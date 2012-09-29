@@ -5,11 +5,12 @@ COMMENT = 	Python-like language for the .NET/Mono platform
 PNAME =		boo
 V =		0.9.4
 BUILD_NUM =	9
+BROKEN =	hangs every 2 builds
 
 DISTNAME = 	${PKGNAME}.${BUILD_NUM}
 PKGNAME = 	${PNAME}-${V}
 CATEGORIES = 	lang
-REVISION =	1
+REVISION =	2
 
 EXTRACT_SUFX = 	-src.zip
 

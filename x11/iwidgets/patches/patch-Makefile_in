@@ -49,7 +49,7 @@ $OpenBSD$
 -	@$(MKINSTALLDIRS) $(SCRIPT_INSTALL_DIR)/demos/images $(SCRIPT_INSTALL_DIR)/demos/html
 -	@echo "Installing demos from $(srcdir)/demos into $(SCRIPT_INSTALL_DIR)/demos"
 +	@$(MKINSTALLDIRS) $(DEMOS_INSTALL_DIR)/images $(DEMOS_INSTALL_DIR)/html
-+	@echo "Installing demos from $(srcdir)/demos into $(DEMOS_INSTALL_DIR}"
++	@echo "Installing demos from $(srcdir)/demos into $(DEMOS_INSTALL_DIR)"
  	@for i in $(srcdir)/demos/*; \
  	    do \
  	    if [ -f $$i ] ; then \

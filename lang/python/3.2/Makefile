@@ -1,9 +1,9 @@
 # $OpenBSD$
 
 VERSION =		3.2
-PATCHLEVEL =		.2
+PATCHLEVEL =		.3
+REVISION =		0
 SHARED_LIBS =		python3.2m 1.0
-REVISION =		3
 VERSION_SPEC =		>=3.2,<3.3
 
 MAINTAINER =	Remi Pointel <rpointel@openbsd.org>

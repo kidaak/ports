@@ -3,7 +3,7 @@
 COMMENT =	very simple RubyGems sandbox
 
 DISTNAME =	isolate-3.2.1
-REVISION =	0
+REVISION =	1
 CATEGORIES =	devel
 
 HOMEPAGE=	http://github.com/jbarnette/isolate

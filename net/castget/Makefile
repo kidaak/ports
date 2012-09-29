@@ -3,7 +3,7 @@
 COMMENT=		command-line podcast downloader
 
 DISTNAME=		castget-1.0.1
-REVISION=		1
+REVISION=		2
 SHARED_LIBS +=	castget              0.0      # .0.0
 CATEGORIES=		net
 

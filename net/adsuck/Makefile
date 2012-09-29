@@ -2,11 +2,11 @@
 
 COMMENT=		DNS relay for ad blocking
 
-DISTNAME=		adsuck-2.4.2
+DISTNAME=		adsuck-2.4.3
 CATEGORIES=		net
 
 HOMEPAGE=		http://opensource.conformal.com/wiki/Adsuck
-MAINTAINER=		Gonzalo L. R. <gonzalo@x61.com.ar>
+MAINTAINER=		Gonzalo L. R. <gonzalo@openbsd.org>
 EXTRACT_SUFX=		.tgz
 
 # BSD

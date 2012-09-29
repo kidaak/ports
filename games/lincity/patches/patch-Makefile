@@ -54,7 +54,7 @@ $OpenBSD$
  #  /usr/X11R6/lib/X11/config/ is where Imake.tmpl lives, change the following
  # line if yours is somewhere else.
 -LC_IMAKE_ARGS = -DUseInstalled -I/usr/X11R6/lib/X11/config
-+LC_IMAKE_ARGS = -DUseInstalled -I$(X11BASE)/lib/X11/config
++LC_IMAKE_ARGS = -DUseInstalled -I$(LOCALBASE)/lib/X11/config
  
  dummy:
  	@echo

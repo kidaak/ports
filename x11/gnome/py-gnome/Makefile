@@ -43,6 +43,8 @@ RUN_DEPENDS=	x11/py-gtk2>=2.10.3 \
 
 LIBTOOL_FLAGS+=	--tag=disable-static
 
+CONFIGURE_ARGS += --disable-static
+
 pre-configure:
 	@find ${WRKDIST} -name \*.py | \
 		xargs perl -pi -e 's,/usr/bin/env python,${MODPY_BIN},g'

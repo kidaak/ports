@@ -26,6 +26,6 @@ USE_GROFF =		Yes
 CONFIGURE_STYLE=	gnu
 CONFIGURE_ARGS+=	--with-libusb
 CONFIGURE_ENV=		CPPFLAGS="-I${LOCALBASE}/include" \
-			LDFLAGS="-L${LOCALBASE}/lib -pthread"
+			LDFLAGS="-L${LOCALBASE}/lib"
 
 .include <bsd.port.mk>

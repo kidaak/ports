@@ -2,7 +2,7 @@
 
 COMMENT =		SMTP plugin for MUAs
 
-DISTNAME =		msmtp-1.4.28
+DISTNAME =		msmtp-1.4.29
 CATEGORIES =		mail
 
 HOMEPAGE =		http://msmtp.sourceforge.net/

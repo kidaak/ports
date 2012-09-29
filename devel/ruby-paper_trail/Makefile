@@ -3,7 +3,7 @@
 COMMENT =	paper_trail lets you track changes to your models' data
 
 DISTNAME =	paper_trail-1.6.4
-REVISION=		0
+REVISION=		1
 CATEGORIES =	devel
 
 # MIT

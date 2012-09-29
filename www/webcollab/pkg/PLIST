@@ -231,3 +231,5 @@ webcollab/users/user_menubox.php
 webcollab/users/user_online.php
 webcollab/users/user_show.php
 webcollab/users/user_submit.php
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

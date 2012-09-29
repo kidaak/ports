@@ -1,5 +1,0 @@
-@comment $OpenBSD$
-${P5SITE}/Net/
-${P5SITE}/Net/SMTP/
-${P5SITE}/Net/SMTP/TLS.pm
-@man man/man3p/Net::SMTP::TLS.3p

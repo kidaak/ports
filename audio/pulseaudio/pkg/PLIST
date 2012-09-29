@@ -110,6 +110,7 @@ lib/pulse-${VERSION}/modules/module-simple-protocol-tcp.so
 lib/pulse-${VERSION}/modules/module-simple-protocol-unix.so
 lib/pulse-${VERSION}/modules/module-sine-source.so
 lib/pulse-${VERSION}/modules/module-sine.so
+lib/pulse-${VERSION}/modules/module-sndio.so
 lib/pulse-${VERSION}/modules/module-stream-restore.so
 lib/pulse-${VERSION}/modules/module-suspend-on-idle.so
 lib/pulse-${VERSION}/modules/module-switch-on-connect.so

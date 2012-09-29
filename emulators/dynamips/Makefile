@@ -4,11 +4,11 @@ COMMENT=		cisco 3600/7200 platform emulator
 
 DISTNAME=		dynamips-0.2.8-RC2
 PKGNAME=		${DISTNAME:S/-RC/rc/}
-REVISION=		3
+REVISION=		4
 CATEGORIES=		emulators
 
-HOMEPAGE=		http://www.ipflow.utc.fr/index.php/Cisco_7200_Simulator
-MASTER_SITES=		http://www.ipflow.utc.fr/dynamips/
+HOMEPAGE=		http://www.gns3.net/dynamips/
+MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=gns-3/}
 
 MAINTAINER=		Stuart Henderson <sthen@openbsd.org>
 

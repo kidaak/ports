@@ -8,7 +8,7 @@ COMMENT=	photorealistic 3D rendering solution
 
 V=		1.6.0
 DISTNAME=	aqsis-${V}
-REVISION=	4
+REVISION=	5
 CATEGORIES=	graphics
 
 SO_VERSION=	0.0 # 1.6
@@ -49,7 +49,7 @@ MODCMAKE_WANTCOLOR=No
 SEPARATE_BUILD=	Yes
 MAKE_FLAGS=	VERBOSE=1
 
-CFLAGS+=	-pthread
+CFLAGS+=	-pthread -I${X11BASE}/include
 
 CONFIGURE_ARGS=	-DAQSIS_BOOST_FILESYSTEM_LIBRARY_NAME=boost_filesystem-mt \
 		-DAQSIS_BOOST_REGEX_LIBRARY_NAME=boost_regex-mt \

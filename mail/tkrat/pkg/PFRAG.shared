@@ -1,3 +1,2 @@
 @comment $OpenBSD$
-lib/tkrat/blt_busy.so.1.0
-lib/tkrat/ratatosk.so.2.1
+lib/tcl/tkrat/ratatosk.so.2.1

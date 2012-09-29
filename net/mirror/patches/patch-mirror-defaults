@@ -1,6 +1,4 @@
-# $NetBSD: patch-ab,v 1.6 2000/03/26 22:33:18 kim Exp $
-# $OpenBSD$
-
+$OpenBSD$
 --- mirror.defaults.orig	Fri May 29 12:57:46 1998
 +++ mirror.defaults	Mon Mar 19 18:31:12 2007
 @@ -11,29 +11,29 @@ package=defaults

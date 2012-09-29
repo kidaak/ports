@@ -3,7 +3,7 @@
 COMMENT=	docbook XSL modular stylesheet
 
 DISTNAME=	docbook-xsl-1.68.1
-REVISION =	3
+REVISION =	5
 CATEGORIES=	textproc
 
 HOMEPAGE=	http://docbook.sourceforge.net/projects/xsl/
@@ -16,8 +16,9 @@ PERMIT_DISTFILES_FTP=   Yes
 
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=docbook/}
 
-BUILD_DEPENDS=	textproc/libxml>=2.6.16p6
-RUN_DEPENDS=	textproc/libxml>=2.6.16p6
+BUILD_DEPENDS=	textproc/libxml
+RUN_DEPENDS=	textproc/docbook \
+		textproc/libxslt
 
 NO_REGRESS=	Yes
 PKG_ARCH=	*

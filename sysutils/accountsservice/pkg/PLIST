@@ -60,9 +60,15 @@ share/locale/hi/
 share/locale/hi/LC_MESSAGES/
 share/locale/hi/LC_MESSAGES/accounts-service.mo
 share/locale/hu/LC_MESSAGES/accounts-service.mo
+share/locale/ia/
+share/locale/ia/LC_MESSAGES/
+share/locale/ia/LC_MESSAGES/accounts-service.mo
 share/locale/id/LC_MESSAGES/accounts-service.mo
 share/locale/it/LC_MESSAGES/accounts-service.mo
 share/locale/ja/LC_MESSAGES/accounts-service.mo
+share/locale/ka/
+share/locale/ka/LC_MESSAGES/
+share/locale/ka/LC_MESSAGES/accounts-service.mo
 share/locale/kk/
 share/locale/kk/LC_MESSAGES/
 share/locale/kk/LC_MESSAGES/accounts-service.mo

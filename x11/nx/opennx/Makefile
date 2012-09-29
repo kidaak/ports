@@ -3,6 +3,7 @@
 COMMENT=		OSS replacement for the Nomachine nxclient
 
 DISTNAME=		opennx-0.16.0.709
+REVISION=		1
 
 CATEGORIES=		sysutils
 
@@ -28,8 +29,11 @@ LIB_DEPENDS=		x11/wxWidgets \
 			net/curl
 BUILD_DEPENDS=		archivers/zip \
 			devel/bison \
-			net/samba \
-			print/cups
+			net/samba
+
+# configure checks for cupsd(8)
+BUILD_DEPENDS +=	print/cups
+
 RUN_DEPENDS=		devel/desktop-file-utils \
 			x11/nx/nxproxy \
 			x11/nx/nxssh

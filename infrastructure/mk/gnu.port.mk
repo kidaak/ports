@@ -39,7 +39,8 @@ CONFIG_SITE_LIST += config.site
 	sysutils/ggrep ggrep \
 	textproc/gsed gsed \
 	archivers/gtar* gtar \
-	lang/gawk gawk
+	lang/gawk gawk \
+	misc/fileutils fileutils
 .  if !defined(BUILD_DEPENDS) || !${BUILD_DEPENDS:M$d}
 CONFIG_SITE_LIST += config.no-${name}
 .  endif

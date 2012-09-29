@@ -4,6 +4,7 @@ COMMENT=	provide cryptographic tunnel
 
 DISTNAME=	ctunnel-0.4
 CATEGORIES=	security
+REVISION=	0
 
 HOMEPAGE=	http://nardcore.org/ctunnel/
 

@@ -7,12 +7,3 @@ $OpenBSD$
  ##
  ##  configure.sh
  ##
-@@ -1082,7 +1082,7 @@ EOF
-         case ${toolchain} in
-             *-win*);;
-             *-android-gcc);;
--            *) check_header pthread.h && add_extralibs -lpthread
-+            *) check_header pthread.h && add_extralibs -pthread
-         esac
-     fi
- 

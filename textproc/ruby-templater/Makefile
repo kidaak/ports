@@ -3,7 +3,7 @@
 COMMENT =	system for generating files
 
 DISTNAME =	templater-1.0.0
-REVISION =	1
+REVISION =	2
 CATEGORIES =	textproc
 
 HOMEPAGE =	http://templater.rubyforge.org/

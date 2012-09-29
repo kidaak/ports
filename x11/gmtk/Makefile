@@ -2,7 +2,7 @@
 
 COMMENT =	gnome-mplayer toolkit
 DISTNAME =	gmtk-1.0.6
-REVISION =	1
+REVISION =	3
 
 SHARED_LIBS =	gmlib	0.0 \
 		gmtk	0.0

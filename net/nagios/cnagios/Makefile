@@ -3,12 +3,10 @@
 COMMENT =		console interface for nagios
 
 DISTNAME =		cnagios-0.29
-REVISION =		1
+REVISION =		2
 CATEGORIES =		net
 
 HOMEPAGE =		http://noc.hep.wisc.edu/cnagios.txt
-
-MAINTAINER=		Simon Kuhnle <simon@blarzwurst.de>
 
 WANTLIB =		c perl util curses m
 

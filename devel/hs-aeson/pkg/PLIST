@@ -13,6 +13,7 @@ lib/ghc/${DISTNAME}/Data/Aeson/TH.hi
 lib/ghc/${DISTNAME}/Data/Aeson/Types/
 lib/ghc/${DISTNAME}/Data/Aeson/Types.hi
 lib/ghc/${DISTNAME}/Data/Aeson/Types/Class.hi
+lib/ghc/${DISTNAME}/Data/Aeson/Types/Generic.hi
 lib/ghc/${DISTNAME}/Data/Aeson/Types/Internal.hi
 lib/ghc/${DISTNAME}/HS${DISTNAME}.o
 lib/ghc/${DISTNAME}/libHS${DISTNAME}.a

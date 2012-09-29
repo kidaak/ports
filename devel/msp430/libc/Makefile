@@ -1,6 +1,6 @@
 # $OpenBSD$
 
-COMMENT=		libc for msp430
+COMMENT=		libc for ${TARGET}
 
 TOOL=			${TARGET}-libc
 TOOL_V= 		20120224

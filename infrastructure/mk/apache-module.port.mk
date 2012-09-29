@@ -15,7 +15,7 @@
 
 # this will
 # - install your module
-# - create and install an axps wrapper
+# - create and install an apxs wrapper
 
 # subst_vars are provided:
 # MODAPACHE_MODULE, MODAPACHE_ENABLE, MODAPACHE_FINAL

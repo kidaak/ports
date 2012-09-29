@@ -2,17 +2,18 @@
 
 # Memory hog, stuck for days on the same file during build.
 NOT_FOR_ARCHS =		sh
+BROKEN-sparc64 =	build stuck on CORE.setting.pir generation
 
 SHARED_ONLY =		Yes
 
 COMMENT =		Rakudo Perl 6 compiler
 
 PORTNAME =		rakudo
-VERSION =		2012.04.1
+VERSION =		2012.06
 DISTNAME =		${PORTNAME}-star-${VERSION:S/.1//}
 PKGNAME =		${PORTNAME}-${VERSION}
 
-PARROT_VERSION =	4.3.0
+PARROT_VERSION =	4.5.0
 SUBST_VARS +=		PARROT_VERSION
 
 CATEGORIES =		lang perl6
@@ -28,7 +29,7 @@ PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
 WANTLIB = 		c gmp icudata icuuc m ncurses parrot pthread
-WANTLIB += 		readline stdc++ util
+WANTLIB += 		readline stdc++ util ffi
 
 VMEM_WARNING =		Yes
 

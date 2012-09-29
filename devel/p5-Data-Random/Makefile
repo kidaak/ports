@@ -2,7 +2,7 @@
 
 COMMENT =		perl module to generate random data
 
-DISTNAME =		Data-Random-0.06
+DISTNAME =		Data-Random-0.08
 
 CATEGORIES =		devel
 

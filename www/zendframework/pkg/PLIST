@@ -3222,3 +3222,6 @@ zendframework/Zend/XmlRpc/Value/Nil.php
 zendframework/Zend/XmlRpc/Value/Scalar.php
 zendframework/Zend/XmlRpc/Value/String.php
 zendframework/Zend/XmlRpc/Value/Struct.php
+@group
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

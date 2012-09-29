@@ -1,9 +1,10 @@
 # $OpenBSD$
+
 SHARED_ONLY=	Yes
 
 COMMENT=	binding of sqlite3 for lua
 PKGNAME=	luasqlite3-0.4.1
-REVISION=	5
+REVISION=	6
 DISTNAME=	lua-sqlite3-0.4.1
 CATEGORIES=	databases
 MASTER_SITES=	${HOMEPAGE}
@@ -22,7 +23,8 @@ MODULES=	lang/lua
 
 USE_GMAKE=	Yes
 CONFIGURE_STYLE=gnu
-CONFIGURE_ARGS+=--with-lua-dir=${PREFIX}
+CONFIGURE_ARGS+=--with-lua-dir=${PREFIX} \
+		--with-lua-includedir=${MODLUA_INCL_DIR}
 CFLAGS+=	-fPIC -DPIC
 
 REGRESS_DEPENDS=${BASE_PKGPATH}

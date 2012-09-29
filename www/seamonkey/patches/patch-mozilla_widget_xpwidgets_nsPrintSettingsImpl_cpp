@@ -1,7 +1,7 @@
 $OpenBSD$
---- mozilla/widget/xpwidgets/nsPrintSettingsImpl.cpp.orig	Sat Apr 21 00:40:27 2012
-+++ mozilla/widget/xpwidgets/nsPrintSettingsImpl.cpp	Wed Apr 25 17:50:16 2012
-@@ -61,7 +61,7 @@ nsPrintSettings::nsPrintSettings() :
+--- mozilla/widget/xpwidgets/nsPrintSettingsImpl.cpp.orig	Mon Aug 27 06:49:34 2012
++++ mozilla/widget/xpwidgets/nsPrintSettingsImpl.cpp	Sat Sep  1 02:00:15 2012
+@@ -29,7 +29,7 @@ nsPrintSettings::nsPrintSettings() :
    mIsCancelled(false),
    mPrintSilent(false),
    mPrintPreview(false),

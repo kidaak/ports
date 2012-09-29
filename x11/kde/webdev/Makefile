@@ -9,7 +9,7 @@ SHARED_LIBS +=	kommanderplugin      1.0      # .0.0
 SHARED_LIBS +=	kommanderwidget      1.0      # .0.0
 SHARED_LIBS +=	kommanderwidgets     1.0      # .0.0
 
-REVISION =	6
+REVISION =	7
 
 MODULES =	x11/kde devel/gettext
 

@@ -2,6 +2,7 @@
 
      SUBDIR =
      SUBDIR += acrofonts
+     SUBIDR += adobe-source-sans-pro
      SUBDIR += anonymous-pro
      SUBDIR += arabeyes-ttf
      SUBDIR += artwiz-aleczapka

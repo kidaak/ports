@@ -1,4 +1,2 @@
 @comment $OpenBSD$
-@comment lib/nautilus/extensions-3.0/libnautilus-fileroller.a
-@comment lib/nautilus/extensions-3.0/libnautilus-fileroller.la
 lib/nautilus/extensions-3.0/libnautilus-fileroller.so

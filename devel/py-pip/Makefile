@@ -6,6 +6,7 @@ MODPY_EGG_VERSION =	1.1
 DISTNAME =		pip-${MODPY_EGG_VERSION}
 PKGNAME =		py-${DISTNAME}
 CATEGORIES =		devel
+REVISION =		0
 
 MAINTAINER =		Wen Heping <wenheping@gmail.com>
 

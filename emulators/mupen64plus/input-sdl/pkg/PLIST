@@ -2,5 +2,4 @@
 lib/mupen64plus/
 lib/mupen64plus/mupen64plus-input-sdl.so
 share/doc/pkg-readmes/${FULLPKGNAME}
-share/mupen64plus/
 share/mupen64plus/InputAutoCfg.ini

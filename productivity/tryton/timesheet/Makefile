@@ -1,8 +1,7 @@
 # $OpenBSD$
 
-MODPY_EGG_VERSION =	2.4.0
+MODPY_EGG_VERSION =	2.4.1
 TRYTOND_MODULE =	timesheet
-REVISION =		0
 
 RUN_DEPENDS =		productivity/tryton/company \
 			productivity/tryton/company_work_time

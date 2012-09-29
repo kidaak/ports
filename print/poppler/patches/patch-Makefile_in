@@ -1,7 +1,7 @@
 $OpenBSD$
---- Makefile.in.orig	Wed Feb 15 18:22:45 2012
-+++ Makefile.in	Mon Mar 26 06:01:36 2012
-@@ -276,6 +276,8 @@ POPPLER_QT4_CXXFLAGS = @POPPLER_QT4_CXXFLAGS@
+--- Makefile.in.orig	Mon Sep 10 19:33:11 2012
++++ Makefile.in	Thu Sep 27 18:19:15 2012
+@@ -312,6 +312,8 @@ POPPLER_QT4_CXXFLAGS = @POPPLER_QT4_CXXFLAGS@
  POPPLER_QT4_LIBS = @POPPLER_QT4_LIBS@
  POPPLER_QT4_TEST_CFLAGS = @POPPLER_QT4_TEST_CFLAGS@
  POPPLER_QT4_TEST_LIBS = @POPPLER_QT4_TEST_LIBS@
@@ -10,7 +10,7 @@ $OpenBSD$
  POPPLER_VERSION = @POPPLER_VERSION@
  PTHREAD_CC = @PTHREAD_CC@
  PTHREAD_CFLAGS = @PTHREAD_CFLAGS@
-@@ -331,6 +333,8 @@ infodir = @infodir@
+@@ -368,6 +370,8 @@ infodir = @infodir@
  install_sh = @install_sh@
  libdir = @libdir@
  libexecdir = @libexecdir@
@@ -19,7 +19,7 @@ $OpenBSD$
  localedir = @localedir@
  localstatedir = @localstatedir@
  mandir = @mandir@
-@@ -356,12 +360,14 @@ DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc
+@@ -393,12 +397,14 @@ DISTCHECK_CONFIGURE_FLAGS = --enable-gtk-doc --with-te
  @BUILD_CAIRO_OUTPUT_TRUE@cairo_pc_file = poppler-cairo.pc
  @BUILD_POPPLER_GLIB_TRUE@glib_subdir = glib
  @BUILD_POPPLER_GLIB_TRUE@glib_pc_file = poppler-glib.pc
@@ -35,7 +35,7 @@ $OpenBSD$
  
  # Add CMake buildsystem files here so they get added on make dist
  EXTRA_DIST = README-XPDF poppler.pc.in poppler-uninstalled.pc.in \
-@@ -399,6 +405,7 @@ pkgconfig_DATA = \
+@@ -437,6 +443,7 @@ pkgconfig_DATA = \
  	$(cairo_pc_file)			\
  	$(splash_pc_file)			\
  	$(glib_pc_file)				\
@@ -43,7 +43,7 @@ $OpenBSD$
  	$(qt4_pc_file)				\
  	$(cpp_pc_file)
  
-@@ -472,6 +479,10 @@ poppler-splash-uninstalled.pc: $(top_builddir)/config.
+@@ -508,6 +515,10 @@ poppler-splash-uninstalled.pc: $(top_builddir)/config.
  poppler-glib.pc: $(top_builddir)/config.status $(srcdir)/poppler-glib.pc.in
  	cd $(top_builddir) && $(SHELL) ./config.status $@
  poppler-glib-uninstalled.pc: $(top_builddir)/config.status $(srcdir)/poppler-glib-uninstalled.pc.in

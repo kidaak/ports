@@ -3,6 +3,7 @@
 COMMENT=		Ruby timezone library
 
 DISTNAME=		tzinfo-0.3.29
+REVISION =		0
 CATEGORIES=		devel
 
 HOMEPAGE=		http://tzinfo.rubyforge.org/

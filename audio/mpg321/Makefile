@@ -5,8 +5,8 @@ SHARED_ONLY=	Yes
 
 COMMENT=	free clone of mpg123, a command-line mp3 player
 
-DISTNAME=	mpg321-0.2.10
-REVISION=	3
+VERSION=	0.3.2
+PKGNAME=	mpg321-${VERSION}
 CATEGORIES=	audio
 HOMEPAGE=	http://mpg321.sourceforge.net/
 
@@ -18,18 +18,19 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=		ao>=3 c id3tag>=2 mad>=2 z
+MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=mpg321/}
+DISTFILES=	mpg321_${VERSION}.orig.tar.gz
 
-MASTER_SITES=		${MASTER_SITE_SOURCEFORGE:=mpg321/}
-
+WANTLIB=	ao c id3tag m mad pthread z
 LIB_DEPENDS=	audio/libao \
 		audio/libid3tag \
 		audio/libmad
 
+WRKDIST=	${WRKDIR}/mpg321-${VERSION}-orig
 SEPARATE_BUILD=	Yes
-USE_GROFF =	Yes
 CONFIGURE_STYLE=gnu
-CONFIGURE_ARGS=	--disable-mpg123-symlink
+CONFIGURE_ARGS=	--disable-mpg123-symlink \
+		--disable-alsa
 CONFIGURE_ENV=	CPPFLAGS="-I${LOCALBASE}/include" \
 		LDFLAGS="-L${LOCALBASE}/lib"
 

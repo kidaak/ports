@@ -3,7 +3,7 @@
 COMMENT =		library for programmatically tunneling connections
 
 DISTNAME =		net-ssh-gateway-1.0.1
-REVISION =		4
+REVISION =		5
 CATEGORIES =		net
 
 # MIT

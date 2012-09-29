@@ -3,10 +3,8 @@
 COMMENT=	fast HTTP library and server for Ruby
 
 DISTNAME=	mongrel-1.1.5
-REVISION =	4
+REVISION =	5
 CATEGORIES=	www
-
-MAINTAINER=	Jason LaRiviere <jason@indelicate.net>
 
 HOMEPAGE=	http://mongrel.rubyforge.org/
 
@@ -17,6 +15,9 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 MODULES=	lang/ruby
+
+FLAVORS=	ruby18
+FLAVOR=		ruby18
 
 BUILD_DEPENDS=	${RUN_DEPENDS}
 RUN_DEPENDS=	devel/ruby-daemons,${MODRUBY_FLAVOR}>=1.0.3 \

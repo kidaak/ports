@@ -1,22 +1,9 @@
 # $OpenBSD$
 
-COMMENT=	GNU standards-compliant Makefile generator
-
 VERSION=	1.8
 DISTNAME=	automake-${VERSION}.5
-REVISION=	5
-PKGSPEC =	automake->=${VERSION},<1.9
-
-CATEGORIES=	devel
-MASTER_SITES=	${MASTER_SITE_GNU:=automake/}
-
-HOMEPAGE=	http://www.gnu.org/software/automake/
-
-# GPLv2
-PERMIT_PACKAGE_CDROM=	Yes
-PERMIT_PACKAGE_FTP=	Yes
-PERMIT_DISTFILES_CDROM=	Yes
-PERMIT_DISTFILES_FTP=	Yes
+REVISION=	7
+PKGSPEC=	automake->=${VERSION},<1.9
 
 AUTOCONF_VERSION=	2.59
 
@@ -29,7 +16,6 @@ CONFIGURE_ENV +=	AUTOCONF_VERSION=${AUTOCONF_VERSION}
 MAKE_FLAGS+=		MAKEINFO="makeinfo --no-split" \
 			pkgvdatadir=${PREFIX}/share/automake${SUFFIX} \
 			APIVERSION=${VERSION}
-SUBST_VARS=		SUFFIX
 
 REGRESS_DEPENDS=	${MODGNU_AUTOCONF_DEPENDS} \
 			devel/libtool

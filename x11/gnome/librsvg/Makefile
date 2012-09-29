@@ -1,9 +1,11 @@
 # $OpenBSD$
 
+SHARED_ONLY=	Yes
+
 COMMENT=	SAX-based render library for SVG files
 
 GNOME_PROJECT=	librsvg
-GNOME_VERSION=	2.36.1
+GNOME_VERSION=	2.36.3
 
 SHARED_LIBS +=	rsvg-2         38.0           # .38.0
 

@@ -2,7 +2,7 @@
 
 COMMENT=	user interface builder for the gtk+3 toolkit
 
-GNOME_VERSION=	3.12.1
+GNOME_VERSION=	3.14.0
 GNOME_PROJECT= 	glade
 
 CATEGORIES=	devel
@@ -18,7 +18,7 @@ MAINTAINER=	Jasper Lievisse Adriaanse <jasper@openbsd.org>, \
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
-PERMIT_DISTFILES_FTP=	Yes 
+PERMIT_DISTFILES_FTP=	Yes
 
 WANTLIB += GL X11 Xau Xcomposite Xcursor Xdamage Xdmcp Xext Xfixes
 WANTLIB += Xi Xinerama Xrandr Xrender Xxf86vm atk-1.0 c cairo
@@ -27,6 +27,8 @@ WANTLIB += gdk_pixbuf-2.0 gio-2.0 glib-2.0 gmodule-2.0 gobject-2.0
 WANTLIB += gthread-2.0 gtk-3 m pango-1.0 pangocairo-1.0 pangoft2-1.0
 WANTLIB += pcre pixman-1 png pthread pthread-stubs ${MODPY_WANTLIB} util
 WANTLIB += xcb xcb-render xcb-shm xml2 z stdc++
+WANTLIB += ICE SM atk-bridge-2.0 atspi dbus-1 harfbuzz icudata
+WANTLIB += icule icuuc
 
 MODULES=	devel/gettext \
 		x11/gnome \
@@ -34,7 +36,7 @@ MODULES=	devel/gettext \
 
 BUILD_DEPENDS=	devel/py-gobject3
 
-LIB_DEPENDS=	x11/gtk+3 \
+LIB_DEPENDS=	x11/gtk+3>=3.5.18 \
 		devel/libffi
 
 RUN_DEPENDS=	x11/gnome/devhelp \

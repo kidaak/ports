@@ -1,3 +1,2 @@
 @comment $OpenBSD$
-@comment lib/gstreamer-${VERSION}/libgstneonhttpsrc.la
 lib/gstreamer-${VERSION}/libgstneonhttpsrc.so

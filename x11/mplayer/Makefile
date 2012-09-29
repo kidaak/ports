@@ -6,14 +6,14 @@ ONLY_FOR_ARCHS =	${GCC4_ARCHS}
 COMMENT =		movie player supporting many formats
 
 V =			20110309
-FFMPEG_V =		20120422
+FFMPEG_V =		20120610
 
 SUBST_VARS += 		PREFIX CONFDIR
 
 # Distfiles must be hand-rolled, see README
 N =			mplayer
 DISTNAME =		mplayer-${V}
-REVISION =		16
+REVISION =		21
 
 CATEGORIES =		x11 multimedia
 
@@ -43,7 +43,7 @@ MODULES +=	converters/libiconv
 LIB_DEPENDS =	graphics/png \
 		graphics/jpeg \
 		graphics/libungif \
-		graphics/ffmpeg>=20120422 \
+		graphics/ffmpeg>=${FFMPEG_V} \
 		audio/cdparanoia>=3.a9.8 \
 		audio/speex \
 		audio/libogg \
@@ -51,7 +51,6 @@ LIB_DEPENDS =	graphics/png \
 		multimedia/libbluray \
 		multimedia/libdv \
 		devel/fribidi \
-		graphics/lcms \
 		graphics/libmng \
 		archivers/bzip2 \
 		multimedia/schroedinger>=1.0.10 \
@@ -63,9 +62,6 @@ LIB_DEPENDS =	graphics/png \
 
 BUILD_DEPENDS =	net/livemedia \
 		audio/rtunes>=0.8 \
-		textproc/libxml \
-		textproc/libxslt \
-		textproc/docbook \
 		textproc/docbook-xsl \
 		audio/ladspa
 # mplayer uses non-public interfaces to ffmpeg, so we still need

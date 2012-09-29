@@ -2,11 +2,11 @@
 
 COMMENT= 		currency conversion
 
-DISTNAME=		Finance-Currency-Convert-XE-0.19
+DISTNAME=		Finance-Currency-Convert-XE-0.21
 CATEGORIES=		converters
 MODULES=		cpan
 
-# Perl
+# Artistic 2.0
 PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes

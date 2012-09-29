@@ -1,6 +1,4 @@
-# $NetBSD: patch-aa,v 1.5 2000/04/19 16:16:52 kim Exp $
-# $OpenBSD$
-
+$OpenBSD$
 --- makefile.orig	Mon Jun  1 12:28:47 1998
 +++ makefile	Mon Mar 19 18:31:12 2007
 @@ -41,7 +41,7 @@ FILES=	README.txt \

@@ -2,7 +2,7 @@
 
 COMMENT =		perl oop implementation of Sender Policy Framework
 
-DISTNAME =		Mail-SPF-v2.007
+DISTNAME =		Mail-SPF-v2.8.0
 PKGNAME =		p5-${DISTNAME:S/-v/-/}
 CATEGORIES =		mail
 
@@ -26,7 +26,7 @@ REGRESS_DEPENDS =	mail/p5-Mail-SPF-Test
 
 SUBST_VARS =		WRKINST
 
-TEST_POD =		Yes
+MAKE_ENV =		TEST_POD=Yes
 
 pre-configure:
 	${SUBST_CMD} ${WRKSRC}/Build.PL

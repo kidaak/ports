@@ -4,6 +4,7 @@ COMMENT=		media aggregator and podcast client
 
 MODPY_EGG_VERSION=	3.1.0
 DISTNAME=		gpodder-${MODPY_EGG_VERSION}
+REVISION=		0
 CATEGORIES=		net www
 
 HOMEPAGE=		http://gpodder.org/

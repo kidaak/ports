@@ -3,7 +3,7 @@
 COMMENT =	module to allow Bayesian and other types of classifications
 
 DISTNAME =	classifier-1.3.3
-REVISION=	0
+REVISION=	1
 CATEGORIES =	textproc
 
 HOMEPAGE =	http://classifier.rubyforge.org/

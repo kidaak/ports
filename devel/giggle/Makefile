@@ -4,7 +4,7 @@ COMMENT=	gtk-based git repository viewer
 
 GNOME_VERSION=	0.6.1
 GNOME_PROJECT=	giggle
-REVISION=	1
+REVISION=	3
 
 CATEGORIES=	devel x11
 

@@ -4,6 +4,7 @@ COMMENT=	graphical diff and merge tool
 
 GNOME_VERSION=	1.6.0
 GNOME_PROJECT=	meld
+REVISION=	0
 
 CATEGORIES=	textproc x11
 

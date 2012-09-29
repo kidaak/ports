@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $NetBSD: Makefile,v 1.4 1999/01/30 23:18:49 agc Exp $
-# Original from: Andrew Plotkin, Mark Howell
 
 COMMENT=	z-code interpreter for X11 (Infocom game format)
 

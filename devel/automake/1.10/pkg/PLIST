@@ -1,5 +1,6 @@
 @comment $OpenBSD$
 @option no-default-conflict
+@conflict ${PKGSPEC}
 @comment bin/aclocal
 bin/aclocal${SUFFIX}
 @comment bin/automake

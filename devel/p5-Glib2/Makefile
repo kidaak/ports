@@ -9,7 +9,7 @@ COMMENT=	perl interface to the Glib libraries
 V=		1.222
 DISTNAME=	Glib-$V
 PKGNAME=	p5-Glib2-$V
-REVISION=	2
+REVISION=	3
 CATEGORIES=	x11 devel
 
 # LGPLv2.1

@@ -1,6 +1,15 @@
 $OpenBSD$
 --- gcc/gcc.c.orig	Mon Mar  5 21:37:05 2007
-+++ gcc/gcc.c	Mon Jun 14 19:23:04 2010
++++ gcc/gcc.c	Thu Aug 30 11:24:50 2012
+@@ -684,7 +684,7 @@ proper position among the other output files.  */
+ 
+ #ifndef LINK_PIE_SPEC
+ #ifdef HAVE_LD_PIE
+-#define LINK_PIE_SPEC "%{pie:-pie} "
++#define LINK_PIE_SPEC "%{pie:-pie} %{p|pg|nopie:-nopie} "
+ #else
+ #define LINK_PIE_SPEC "%{pie:} "
+ #endif
 @@ -1313,7 +1313,7 @@ translate_options (int *argcp, const char *const **arg
  		  /* Store the translation as one argv elt or as two.  */
  		  if (arg != 0 && strchr (arginfo, 'j') != 0)

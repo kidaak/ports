@@ -2,7 +2,7 @@
 
 COMMENT =		Python interface to Redis
 
-MODPY_EGG_VERSION =	2.4.13
+MODPY_EGG_VERSION =	2.6.2
 DISTNAME =		redis-${MODPY_EGG_VERSION}
 PKGNAME =		py-redis-${MODPY_EGG_VERSION}
 CATEGORIES =		databases
@@ -34,7 +34,6 @@ do-regress:
 	# fetch tests because they are not included in tarball...
 	rm -rf ${WRKSRC}/redis-tmp-tests/ ${WRKSRC}/run_tests ${WRKSRC}/tests
 	cd ${WRKSRC} && git clone git://github.com/andymccurdy/redis-py.git redis-tmp-tests
-	cd ${WRKSRC}/redis-tmp-tests && git checkout ${MODPY_EGG_VERSION}
 	mv ${WRKSRC}/redis-tmp-tests/run_tests ${WRKSRC}/redis-tmp-tests/tests ${WRKSRC}
 	rm -rf ${WRKSRC}/redis-tmp-tests/
 	# test

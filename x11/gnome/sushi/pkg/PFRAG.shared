@@ -1,0 +1,2 @@
+@comment $OpenBSD$
+@lib lib/libsushi-1.0.so.${LIBsushi-1.0_VERSION}

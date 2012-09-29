@@ -1,3 +1,5 @@
 @comment $OpenBSD$
 bin/icli
+@comment bin/icli.orig
 @man man/man1/icli.1
+@comment @man man/man1/icli.orig.1

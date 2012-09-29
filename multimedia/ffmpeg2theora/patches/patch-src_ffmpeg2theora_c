@@ -1,0 +1,12 @@
+$OpenBSD$
+--- src/ffmpeg2theora.c.orig	Tue Sep 11 14:35:27 2012
++++ src/ffmpeg2theora.c	Tue Sep 11 14:46:54 2012
+@@ -2970,7 +2970,7 @@ int main(int argc, char **argv) {
+                 fprintf(stderr,"\nUnable to decode input.\n");
+             return(1);
+         }
+-        avformat_close_input(&convert->context);
++        av_close_input_file(convert->context);
+     }
+     else{
+         if (info.frontend)

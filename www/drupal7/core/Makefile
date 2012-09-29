@@ -2,15 +2,14 @@
 
 COMMENT =	powerful content management system
 MAINTAINER =	Marc Espie <espie@openbsd.org>
- 
-DISTNAME =	drupal-7.14
-PKGNAME =	drupal-7.14
+
+DISTNAME =	drupal-7.15
+PKGNAME =	drupal-7.15
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX}
 
 MODULES =	lang/php
-RUN_DEPENDS =	php-pdo_mysql-${MODPHP_VSPEC}|php-pdo_sqlite-${MODPHP_VSPEC}|php-pdo_pgsql-${MODPHP_VSPEC}:lang/php/${MODPHP_VERSION},-pdo_sqlite \
-		lang/php/${MODPHP_VERSION},-gd
-		
+RUN_DEPENDS =	lang/php/${MODPHP_VERSION},-gd
+
 do-install:
 		mkdir -p ${PREFIX}/${DRUPAL_ROOT}
 		# copy base distrib

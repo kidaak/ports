@@ -2,8 +2,7 @@
 
 COMMENT=		source code suggestions for Haskell
 
-DISTNAME=		hlint-1.8.13
-REVISION =		0
+DISTNAME=		hlint-1.8.29
 CATEGORIES=		devel
 
 HOMEPAGE=		http://community.haskell.org/~ndm/hlint/
@@ -24,12 +23,12 @@ MODULES=		converters/libiconv \
 MODGHC_BUILD=		cabal hackage haddock register
 
 BUILD_DEPENDS=		${RUN_DEPENDS}
-RUN_DEPENDS=		devel/cpphs,-lib \
-			devel/hscolour>=1.17,<1.20 \
+RUN_DEPENDS=		devel/cpphs,-lib>=1.11,<1.14 \
+			devel/hscolour>=1.17,<1.21 \
 			devel/hs-syb \
-			devel/hs-transformers<0.3 \
+			devel/hs-transformers>=0.0,<0.4 \
 			devel/hs-uniplate>=1.5,<1.7 \
-			lang/hs-haskell-src-exts>=1.11.*
+			lang/hs-haskell-src-exts>=1.11,<1.14
 LIB_DEPENDS=		devel/gmp
 
 post-install:

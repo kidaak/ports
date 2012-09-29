@@ -2,7 +2,7 @@
 
 COMMENT =		case insensitive string comparison
 
-DISTNAME =		case-insensitive-0.3.0.1
+DISTNAME =		case-insensitive-0.4.0.1
 CATEGORIES =		devel
 
 # BSD3

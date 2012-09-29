@@ -3,7 +3,7 @@
 @bin bin/msp430-cpp
 @bin bin/msp430-g++
 @bin bin/msp430-gcc
-@bin bin/${FULLPKGNAME}
+@bin bin/msp430-gcc-4.6.3
 @bin bin/msp430-gcov
 lib/gcc/
 lib/gcc/msp430/

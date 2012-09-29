@@ -1,3 +1,5 @@
 @comment $OpenBSD$
-lib/ocaml/site-lib/pcre/pcre.a
-lib/ocaml/site-lib/pcre/pcre.cmxa
+%%dynlink%%
+lib/ocaml/pcre/pcre.a
+lib/ocaml/pcre/pcre.cmx
+lib/ocaml/pcre/pcre.cmxa

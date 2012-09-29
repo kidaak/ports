@@ -2,7 +2,7 @@
 
 COMMENT =		Haskell 98 semigroups
 
-DISTNAME =		semigroups-0.8
+DISTNAME =		semigroups-0.8.3.2
 CATEGORIES =		devel math
 
 # BSD3

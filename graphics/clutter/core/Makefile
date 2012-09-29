@@ -2,37 +2,35 @@
 
 COMMENT=		OpenGL-based interactive canvas library
 
-DISTNAME=		clutter-${MAJOR}.6
-REVISION=		7
-SHARED_LIBS +=  clutter-glx-1.0      0.0      # .0.6
+GNOME_PROJECT=		clutter
+GNOME_VERSION=		${MAJOR}.0
+REVISION=		0
 
-MASTER_SITES=		${MASTER_SITES_CLUTTER:=clutter/1.0/}
+SHARED_LIBS +=  clutter-1.0          1.0   # 1200.8
 
-MODULES=		devel/gettext
+WANTLIB += GL X11 Xau Xcomposite Xcursor Xdamage Xdmcp Xext Xfixes
+WANTLIB += Xi Xinerama Xrandr Xrender Xxf86vm atk-1.0 cairo cairo-gobject
+WANTLIB += cogl cogl-pango drm expat ffi fontconfig freetype gdk-3
+WANTLIB += gdk_pixbuf-2.0 gio-2.0 glib-2.0 gmodule-2.0 gobject-2.0
+WANTLIB += gthread-2.0 harfbuzz icudata icule icuuc json-glib-1.0
+WANTLIB += m pango-1.0 pangocairo-1.0 pangoft2-1.0 pcre pixman-1
+WANTLIB += png pthread pthread-stubs stdc++ xcb xcb-render xcb-shm
+WANTLIB += z
 
-WANTLIB += GL X11 Xau Xcomposite Xdamage Xdmcp Xext Xfixes
-WANTLIB += Xrender expat fontconfig freetype gio-2.0 glib-2.0
-WANTLIB += gmodule-2.0 gobject-2.0 gthread-2.0 m pangoft2-1.0
-WANTLIB += pcre pixman-1 png xcb-render ffi stdc++ xcb-shm
-WANTLIB += pthread-stubs xcb z Xxf86vm drm json-glib-1.0
-WANTLIB += gdk_pixbuf-2.0 cairo pango-1.0 pangocairo-1.0
+MODGNOME_TOOLS=		goi
 
-BUILD_DEPENDS=          devel/gobject-introspection
-LIB_DEPENDS+=		devel/json-glib \
-			devel/pango \
-			graphics/gdk-pixbuf2
+LIB_DEPENDS=		devel/json-glib \
+			graphics/clutter/cogl>=${MAJOR} \
+			x11/gtk+3
 
-CONFIGURE_ARGS+=	${CONFIGURE_SHARED} \
-			--enable-introspection \
-			--with-json=check \
-			--enable-manual=no \
-			--with-imagebackend=gdk-pixbuf \
-			--with-flavour=glx
+MODGNOME_CPPFLAGS=	-I${X11BASE}/include
+MODGNOME_LDFLAGS=	-L${X11BASE}/lib
 
-CONFIGURE_ENV=          CPPFLAGS="-I${LOCALBASE}/include -I${X11BASE}/include" \
-                        LDFLAGS="-L${LOCALBASE}/lib -L${X11BASE}/lib"
+CONFIGURE_ARGS=		--enable-x11-backend
 
-# XXX fix building with glib2 >= 2.29 (G_CONST_RETURN is deprecated)
-CFLAGS +=      "-DG_CONST_RETURN=const"
+REGRESS_IS_INTERACTIVE=	X11
+
+pre-configure:
+	${SUBST_CMD} ${WRKSRC}/clutter/Makefile.in
 
 .include <bsd.port.mk>

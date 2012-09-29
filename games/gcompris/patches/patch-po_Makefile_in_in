@@ -1,7 +1,7 @@
 $OpenBSD$
---- po/Makefile.in.in.orig	Fri Oct 16 23:53:28 2009
-+++ po/Makefile.in.in	Thu Dec 17 19:25:56 2009
-@@ -208,9 +208,6 @@ Makefile POTFILES: stamp-it
+--- po/Makefile.in.in.orig	Thu Jun  7 00:18:21 2012
++++ po/Makefile.in.in	Fri Jul  6 17:57:29 2012
+@@ -213,9 +213,6 @@ Makefile POTFILES: stamp-it
  	fi
  
  stamp-it: Makefile.in.in $(top_builddir)/config.status POTFILES.in

@@ -1,6 +1,6 @@
 $OpenBSD$
 
-http://bugs.gw.com/view.php?id=181
+http://bugs.gw.com/view.php?id=181 (committed)
 
 --- host.defs.orig	Wed Jan 11 21:20:15 2012
 +++ host.defs	Sat May 26 12:52:56 2012

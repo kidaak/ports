@@ -2,8 +2,8 @@
 
 COMMENT=		internationalized string handling
 
-DISTNAME=		libidn-1.24
-SHARED_LIBS=		idn 17.0	# .17.5
+DISTNAME=		libidn-1.25
+SHARED_LIBS=		idn 17.0	# .17.8
 
 CATEGORIES=		devel
 HOMEPAGE=		http://www.gnu.org/software/libidn/
@@ -19,15 +19,12 @@ MASTER_SITES=		${MASTER_SITE_GNU:=libidn/}
 WANTLIB=		c
 MODULES=		devel/gettext
 
+USE_LIBTOOL=		Yes
 CONFIGURE_STYLE=	gnu
 CONFIGURE_ARGS=		${CONFIGURE_SHARED} \
 			--disable-csharp \
 			--disable-java
-USE_GROFF =		Yes
-
 MODGNU_CONFIG_GUESS_DIRS=	${WRKSRC}/build-aux
-
-USE_LIBTOOL=		Yes
 
 post-extract:
 	@rm -f ${WRKSRC}/contrib/doxygen/*.orig

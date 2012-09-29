@@ -67,7 +67,7 @@ _MODGCC4_LINKS += egcj gcj egcjh gcjh egjar gjar egij gij
 #LIB_DEPENDS += lang/gcc/4.7,-go>=4.7,<4.8
 #_MODGCC4_LINKS += egccgo gccgo
 #.  endif
-#.endif
+.endif
 
 .if !empty(_MODGCC4_LINKS)
 .  for _src _dest in ${_MODGCC4_LINKS}

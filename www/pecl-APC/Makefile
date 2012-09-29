@@ -4,6 +4,7 @@ COMMENT=	Alternative PHP Cache
 
 DISTNAME=	APC-3.1.9
 PKGNAME=	pecl-${DISTNAME}
+REVISION=	3
 
 MAINTAINER=	William Yodlowsky <william@openbsd.org>
 

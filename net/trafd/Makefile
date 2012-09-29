@@ -1,4 +1,3 @@
-# $FreeBSD: ports/net/trafd/Makefile,v 1.4 2000/07/07 19:22:10 steve Exp $
 # $OpenBSD$
 
 COMMENT=	BPF traffic collector

@@ -3,6 +3,7 @@
 COMMENT =	chooses from multiple available json implementations
 
 DISTNAME =	multi_json-1.0.3
+REVISION =	0
 CATEGORIES =	converters
 
 HOMEPAGE =	https://github.com/intridea/multi_json

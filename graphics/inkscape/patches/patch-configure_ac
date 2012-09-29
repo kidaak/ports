@@ -1,7 +1,7 @@
 $OpenBSD$
---- configure.ac.orig	Fri Apr 29 17:50:22 2011
-+++ configure.ac	Fri Apr 29 17:51:09 2011
-@@ -767,7 +767,7 @@ if test "x$cairo_pdf" = "xyes"; then
+--- configure.ac.orig	Fri Jul  8 21:23:16 2011
++++ configure.ac	Thu Jul 12 18:27:17 2012
+@@ -795,7 +795,7 @@ if test "x$cairo_pdf" = "xyes"; then
  fi
  
  dnl Shouldn't we test for libpng and libz?

@@ -27,6 +27,7 @@ lib/pstoedit/
 share/aclocal/
 share/aclocal/pstoedit.m4
 share/pstoedit/
+share/pstoedit/drvhpgl.pencolors
 share/pstoedit/examplefigmap.fmp
 share/pstoedit/latex2e.fmp
 share/pstoedit/mpost.fmp

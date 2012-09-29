@@ -22,7 +22,9 @@ lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-00
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-006008948af5}/modules/commonFuncs.jsm
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-006008948af5}/modules/enigmailCommon.jsm
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-006008948af5}/modules/keyManagement.jsm
+lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-006008948af5}/modules/mimeDecrypt.jsm
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-006008948af5}/modules/pipeConsole.jsm
+lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-006008948af5}/modules/pipeTransport.jsm
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-006008948af5}/modules/subprocess.jsm
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-006008948af5}/modules/subprocess_worker_unix.js
 lib/${MOZILLA_PROJECT}-${MOZILLA_VERSION}/extensions/{847b3a00-7ab1-11d4-8f02-006008948af5}/modules/subprocess_worker_win.js

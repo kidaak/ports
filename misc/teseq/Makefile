@@ -24,7 +24,6 @@ WANTLIB=	c
 
 CONFIGURE_STYLE=gnu
 MAKE_FLAGS=	AM_CFLAGS=""
-USE_GROFF =	Yes
 
 .if ${FLAVOR:L:Mregress}
 BUILD_DEPENDS=	devel/check

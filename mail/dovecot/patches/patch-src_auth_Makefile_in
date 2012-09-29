@@ -4,9 +4,9 @@ Heimdal libkrb5 exports base64_encode and base64_decode conflicting
 with libdovecot's versions. Workaround the namespace pollution issue
 by statically linking libdovecot so its symbols take precedence.
 
---- src/auth/Makefile.in.orig	Sat Jan 28 20:46:02 2012
-+++ src/auth/Makefile.in	Sat Jan 28 20:46:30 2012
-@@ -218,7 +218,7 @@ LD = @LD@
+--- src/auth/Makefile.in.orig	Wed Aug  1 13:36:38 2012
++++ src/auth/Makefile.in	Sat Aug  4 19:58:19 2012
+@@ -265,7 +265,7 @@ LD = @LD@
  LDAP_LIBS = @LDAP_LIBS@
  LDFLAGS = @LDFLAGS@
  LIBCAP = @LIBCAP@

@@ -1,4 +1,5 @@
 @comment $OpenBSD$
+@conflict XML-Sablotron-*
 ${P5ARCH}/
 ${P5ARCH}/XML/
 ${P5ARCH}/XML/Sablotron/

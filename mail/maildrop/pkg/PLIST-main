@@ -43,6 +43,8 @@ share/doc/maildrop/html/deliverquota.html
 share/doc/maildrop/html/lockmail.html
 share/doc/maildrop/html/mailbot.html
 share/doc/maildrop/html/maildir.html
+share/doc/maildrop/html/maildiracl.html
+share/doc/maildrop/html/maildirkw.html
 share/doc/maildrop/html/maildirmake.html
 share/doc/maildrop/html/maildirquota.html
 share/doc/maildrop/html/maildrop.html

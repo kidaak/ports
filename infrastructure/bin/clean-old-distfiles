@@ -75,7 +75,7 @@ sub remove_file
 			if ($ck->stringize eq $sha) {
 				really_remove($file);
 			} else {
-				say STDERR "SHA256 mismatch on $file\n";
+				say STDERR "SHA256 mismatch on $file";
 			}
 	    	}
     	}

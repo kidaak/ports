@@ -4,6 +4,7 @@ COMMENT=		integrated music management application for GNOME
 
 GNOME_PROJECT=		rhythmbox
 GNOME_VERSION=		2.97
+REVISION=		3
 
 SHARED_LIBS +=  rhythmbox-core       0.0      # .0.0
 
@@ -32,7 +33,7 @@ WANTLIB += gtk-3 json-glib-1.0 lzma m notify pango-1.0 pangocairo-1.0
 WANTLIB += pangoft2-1.0 pcre peas-1.0 peas-gtk-1.0 pixman-1 plist
 WANTLIB += png pthread pthread-stubs soup-2.4 soup-gnome-2.4 sqlite3
 WANTLIB += stdc++ tdb totem-plparser xcb xcb-render xcb-shm xml2
-WANTLIB += z crypto curl idn lua quvi ssl
+WANTLIB += z crypto curl idn lua5.1 quvi ssl
 
 MODULES=		devel/gettext \
 			x11/gnome \
@@ -42,6 +43,9 @@ MODULES=		devel/gettext \
 BUILD_DEPENDS=		audio/libmusicbrainz \
 			devel/gobject-introspection \
 			devel/py-gobject3
+
+# needed for the tests
+BUILD_DEPENDS +=	devel/check
 
 LIB_DEPENDS=		audio/libgpod \
 			databases/tdb \
@@ -71,7 +75,6 @@ CONFIGURE_STYLE= 	gnu
 CONFIGURE_ARGS=		--with-database=tree \
 			--with-gnome-keyring \
 			--with-ipod \
-			--with-mdns=avahi \
 			--with-x \
 			--enable-python \
 			--without-brasero \
@@ -85,7 +88,8 @@ CONFIGURE_ARGS=		--with-database=tree \
 CONFIGURE_ARGS +=	--disable-vala
 
 # XXX requires libdmapsharing
-CONFIGURE_ARGS +=	--disable-daap
+CONFIGURE_ARGS +=	--disable-daap --without-mdns
+#CONFIGURE_ARGS	+=	--with-mdns=avahi
 
 # XXX requires hal|udev
 CONFIGURE_ARGS +=	--without-mtp

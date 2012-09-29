@@ -4,7 +4,7 @@ COMMENT=	generic spell checking library/wrapper
 
 V=		1.6.0
 DISTNAME=	enchant-${V}
-REVISION=	0
+REVISION=	1
 SHARED_LIBS=	enchant	6.1 # .7.0
 CATEGORIES=	textproc
 

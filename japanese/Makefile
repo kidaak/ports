@@ -27,5 +27,6 @@
      SUBDIR += onew,wnn4
      SUBDIR += onew,wnn4,canna
      SUBDIR += p5-Text-Kakasi
+     SUBDIR += skk-jisyo
 
 .include <bsd.port.subdir.mk>

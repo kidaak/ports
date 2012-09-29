@@ -1,6 +1,0 @@
-@comment $OpenBSD$
-include/libdvd/
-include/libdvd/libdvd.h
-lib/libdvd.a
-lib/libdvd.la
-%%SHARED%%

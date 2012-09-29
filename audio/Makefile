@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.40 1997/11/16 22:49:20 fenner Exp $
 
      SUBDIR =
      SUBDIR += abcde
@@ -9,7 +8,9 @@
      SUBDIR += alac_decoder
      SUBDIR += amarok
      SUBDIR += aqualung
+     SUBDIR += ardour
      SUBDIR += ascd
+     SUBDIR += aubio
      SUBDIR += aucatctl
      SUBDIR += audacious
      SUBDIR += audacious-plugins
@@ -22,6 +23,7 @@
      SUBDIR += caps-plugins
      SUBDIR += cdparanoia
      SUBDIR += celt
+     SUBDIR += celt051
      SUBDIR += cmixer
      SUBDIR += cmt
      SUBDIR += cmu-sphinx3
@@ -29,6 +31,7 @@
      SUBDIR += cmus
      SUBDIR += cplay
      SUBDIR += daapd
+     SUBDIR += deadbeef
      SUBDIR += disc-cover
      SUBDIR += dumb
      SUBDIR += easytag
@@ -58,7 +61,6 @@
      SUBDIR += hydrogen
      SUBDIR += id3ed
      SUBDIR += id3lib
-     SUBDIR += ifp-line
      SUBDIR += jack
      SUBDIR += ksmp3play
      SUBDIR += ladspa
@@ -74,6 +76,7 @@
      SUBDIR += libdca
      SUBDIR += libgpod
      SUBDIR += libid3tag
+     SUBDIR += liblo
      SUBDIR += libmad
      SUBDIR += libmikmod
      SUBDIR += libmodplug
@@ -129,7 +132,10 @@
      SUBDIR += nspmod
      SUBDIR += oggtag
      SUBDIR += openal
+     SUBDIR += opencore-amr
      SUBDIR += opennap
+     SUBDIR += opus
+     SUBDIR += opus-tools
      SUBDIR += p5-Audio-CD
      SUBDIR += p5-Audio-FLAC-Header
      SUBDIR += p5-Audio-M4P
@@ -181,9 +187,9 @@
      SUBDIR += rsynth
      SUBDIR += rtunes
      SUBDIR += ruby-id3lib
-     SUBDIR += ruby-id3lib,ruby19
+     SUBDIR += ruby-id3lib,ruby18
      SUBDIR += ruby-vorbis_comment
-     SUBDIR += ruby-vorbis_comment,ruby19
+     SUBDIR += ruby-vorbis_comment,ruby18
      SUBDIR += scmpc
      SUBDIR += shell-fm
      SUBDIR += shntool

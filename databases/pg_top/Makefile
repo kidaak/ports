@@ -4,7 +4,7 @@ COMMENT =	top for monitoring PostgreSQL processes
 
 DISTNAME =	pg_top-3.6.2
 CATEGORIES =	databases sysutils
-REVISION =	1
+REVISION =	2
 
 HOMEPAGE =	http://ptop.projects.postgresql.org/
 MASTER_SITES =	http://pgfoundry.org/frs/download.php/1781/

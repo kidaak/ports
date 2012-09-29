@@ -1,6 +1,7 @@
 # $OpenBSD$
 
 COMMENT =	3D creation software
+BROKEN-sparc64 = error: cast from 'ccl::uchar*' to 'CUdeviceptr' loses precision
 
 DISTNAME =	blender-2.63a
 

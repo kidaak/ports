@@ -10,7 +10,7 @@ PKGNAME=	kicad-${V:S/-//g}
 PKGNAME-main=	kicad-${V:S/-//g}
 PKGNAME-docs=	kicad-docs-${V:S/-//g}
 
-REVISION-main=	1
+REVISION-main=	2
 
 CATEGORIES=	cad
 

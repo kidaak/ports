@@ -1,0 +1,11 @@
+@comment $OpenBSD$
+@shell bin/nsh
+bin/save-ro.sh
+bin/save-rw.sh
+bin/save.sh
+share/doc/nsh/
+share/doc/nsh/COPYRIGHT
+share/doc/nsh/ChangeLog
+share/doc/nsh/MANUAL
+share/doc/nsh/README
+share/doc/nsh/TODO

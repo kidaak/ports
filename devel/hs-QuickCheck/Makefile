@@ -2,8 +2,7 @@
 
 COMMENT =		automatic testing of Haskell programs
 
-DISTNAME =		QuickCheck-2.4.1.1
-REVISION =		0
+DISTNAME =		QuickCheck-2.4.2
 CATEGORIES =		devel
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>
@@ -17,5 +16,9 @@ PERMIT_DISTFILES_FTP =	Yes
 MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
+
+RUN_DEPENDS =		devel/hs-random
+
+BUILD_DEPENDS =		${RUN_DEPENDS}
 
 .include <bsd.port.mk>

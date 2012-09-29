@@ -2,7 +2,6 @@
 %%SHARED%%
 lib/libarpack.a
 lib/libarpack_p.a
-%%no_mips64%%
 share/doc/arpack/
 share/doc/arpack/LICENSE
 share/doc/arpack/README

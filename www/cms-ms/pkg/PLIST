@@ -3050,4 +3050,7 @@ cms/uploads/ngrey/wbtmleft.gif
 cms/uploads/ngrey/wfootrt.gif
 cms/uploads/ngrey/wtopleft.gif
 cms/version.php
+@group
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}
 @extraunexec rm -rf ${INSTDIR}/tmp/

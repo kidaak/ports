@@ -7,9 +7,9 @@ VERSION =		3.5.10
 DISTNAME =		kdesdk-${VERSION}
 
 PKGNAME-main =		${DISTNAME}
-REVISION-main =		8
+REVISION-main =		9
 PKGNAME-svn =		kdesvn-${VERSION}
-REVISION-svn =		8
+REVISION-svn =		9
 
 MODKDE_VERSION =	3.5.8
 SHARED_LIBS +=	cvsservice           1.0      # .0.1

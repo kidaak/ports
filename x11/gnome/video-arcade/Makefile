@@ -4,7 +4,7 @@ COMMENT=	MAME front-end for GNOME
 
 GNOME_PROJECT=	gnome-video-arcade
 GNOME_VERSION=	0.8.3
-REVISION=	1
+REVISION=	3
 
 CATEGORIES=	emulators games
 

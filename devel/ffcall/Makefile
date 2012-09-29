@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: ports/devel/ffcall/Makefile,v 1.2 2001/08/31 14:20:18 sobomax Exp $
-# Original From:                jagapen@home.com
 
 # m68k: mmap configure test causes system hang
 # arm: doesn't build super-old and broken assember files

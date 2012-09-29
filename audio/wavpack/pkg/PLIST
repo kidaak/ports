@@ -12,3 +12,8 @@ lib/pkgconfig/wavpack.pc
 @man man/man1/wavpack.1
 @man man/man1/wvgain.1
 @man man/man1/wvunpack.1
+share/doc/wavpack/
+share/doc/wavpack/file_format.txt
+share/doc/wavpack/library_use.txt
+share/doc/wavpack/style.css
+share/doc/wavpack/wavpack_doc.html

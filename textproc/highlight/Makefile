@@ -3,7 +3,7 @@
 COMMENT =		convert source code to markup formats
 
 DISTNAME =		highlight-3.9
-REVISION =		0
+REVISION =		2
 CATEGORIES =		textproc converters
 
 HOMEPAGE =		http://www.andre-simon.de/
@@ -24,13 +24,16 @@ EXTRACT_SUFX =		.tar.bz2
 USE_GMAKE =		Yes
 
 MODULES =		lang/lua
+MODLUA_SA =		Yes
 
 BUILD_DEPENDS =		devel/boost
 LIB_DEPENDS =		${MODLUA_LIB_DEPENDS}
 
 MAKE_FILE =		makefile
 MAKE_FLAGS =		CXX=${CXX} \
-			LDFLAGS="-L${LOCALBASE}/lib"
+			LDFLAGS="-L${LOCALBASE}/lib" \
+			CFLAGS+="`pkg-config --cflags ${MODLUA_DEP}`" \
+			LUA_LIBS="`pkg-config --libs ${MODLUA_DEP}`"
 
 NO_REGRESS =		Yes
 

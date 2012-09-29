@@ -2,7 +2,7 @@
 
 COMMENT=		interface between mailer MTA and content checkers
 
-DISTNAME=		amavisd-new-2.7.1
+DISTNAME=		amavisd-new-2.8.0
 CATEGORIES=		mail security
 
 HOMEPAGE=		http://www.amavis.org/

@@ -1,6 +1,6 @@
 $OpenBSD$
 
-Fix DATADIRNAME: see LOCALBASE/share/aclocal/glib-gettext.m4.
+Fix DATADIRNAME: see LOCALBASE/share/aclocal/{glib-gettext.m4,intltool.m4}
 
 --- aclocal.m4.orig	Sun Oct  2 09:53:33 2011
 +++ aclocal.m4	Sun Oct  2 09:54:36 2011

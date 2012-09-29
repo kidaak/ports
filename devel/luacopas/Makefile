@@ -1,9 +1,11 @@
 # $OpenBSD$
 
+PKG_ARCH =      *
+
 COMMENT=	coroutine oriented portable asynchronous services for lua
 DISTNAME=	copas-1.1.6
 PKGNAME=	lua${DISTNAME}
-REVISION=	0
+REVISION=	1
 CATEGORIES=	devel
 MASTER_SITES=	http://github.com/downloads/keplerproject/copas/
 
@@ -18,7 +20,7 @@ PERMIT_DISTFILES_FTP=	Yes
 MODULES=	lang/lua
 NO_BUILD=	Yes
 NO_REGRESS=	Yes
-RUN_DEPENDS+=	devel/coxpcall \
+MODLUA_RUN_DEPENDS+=	devel/coxpcall \
 		net/luasocket
 
 do-install:

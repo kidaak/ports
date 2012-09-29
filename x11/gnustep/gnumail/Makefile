@@ -3,7 +3,7 @@
 COMMENT=	GNUstep mail application
 
 DISTNAME=	GNUMail-1.2.0pre3
-REVISION =	9
+REVISION =	11
 SHARED_LIBS=	GNUMail 2.0	# .1.2
 CATEGORIES=	mail
 

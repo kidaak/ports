@@ -4,7 +4,7 @@ COMMENT=	environment for rapid engineering and scientific processing
 
 V=		4.0
 DISTNAME=	FreeMat-${V}-Source
-REVISION=		0
+REVISION=		1
 PKGNAME=	freemat-${V}
 
 CATEGORIES=	graphics math

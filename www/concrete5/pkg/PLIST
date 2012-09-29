@@ -1458,3 +1458,6 @@ concrete5/packages/.DS_Store
 concrete5/single_pages/
 concrete5/themes/
 concrete5/tools/
+@group
+@cwd ${LOCALBASE}/share/doc/pkg-readmes
+${FULLPKGNAME}

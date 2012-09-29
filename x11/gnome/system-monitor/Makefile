@@ -3,7 +3,7 @@
 COMMENT=	sytem monitor for GNOME
 
 GNOME_PROJECT=	gnome-system-monitor
-GNOME_VERSION=	3.4.1
+GNOME_VERSION=	3.6.0
 
 CATEGORIES=	sysutils
 
@@ -23,6 +23,8 @@ WANTLIB += m pango-1.0 pangocairo-1.0 pangoft2-1.0 pangomm-1.4
 WANTLIB += pcre pixman-1 png pthread pthread-stubs rsvg-2 sigc-2.0
 WANTLIB += startup-notification-1 stdc++ wnck-3 xcb xcb-aux xcb-render
 WANTLIB += xcb-shm xml2 z
+WANTLIB += ICE SM atk-bridge-2.0 atspi dbus-1 harfbuzz icudata
+WANTLIB += icule icuuc
 
 MODULES=	devel/dconf \
 		devel/gettext \

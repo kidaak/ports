@@ -2,7 +2,7 @@
 
 PKG_ARCH=	*
 
-COMMENT=	C headers and binutils linker scripts for msp430
+COMMENT=	C headers and binutils linker scripts for ${TARGET}
 
 TOOL=		msp430mcu
 TOOL_V= 	${LTS_V}

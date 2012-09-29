@@ -5,6 +5,8 @@ DISTNAME =		groff-1.21
 REVISION =		8
 
 CATEGORIES =		textproc
+DPB_PROPERTIES =	parallel
+
 HOMEPAGE =		http://www.gnu.org/software/groff/
 MAINTAINER =		Ingo Schwarze <schwarze@openbsd.org>
 

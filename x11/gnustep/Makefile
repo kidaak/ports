@@ -8,6 +8,7 @@
      SUBDIR += base
      SUBDIR += batmon
      SUBDIR += cdplayer
+     SUBDIR += corebase
      SUBDIR += databasin
      SUBDIR += dbuskit
      SUBDIR += edenmath
@@ -31,10 +32,12 @@
      SUBDIR += jigsaw
      SUBDIR += lapispuzzle
      SUBDIR += laternamagica
+     SUBDIR += libobjc2
      SUBDIR += make
      SUBDIR += matharray
      SUBDIR += mpdcon
      SUBDIR += netclasses
+     SUBDIR += paje
      SUBDIR += pantomime
      SUBDIR += pdfkit
      SUBDIR += performance

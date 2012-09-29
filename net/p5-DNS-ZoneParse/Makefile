@@ -3,8 +3,7 @@
 COMMENT=		parse and manipulate DNS Zone files
 
 MODULES=		cpan
-DISTNAME=		DNS-ZoneParse-0.96
-REVISION=		0
+DISTNAME=		DNS-ZoneParse-1.10
 CATEGORIES=		net
 USE_GROFF =		Yes
 

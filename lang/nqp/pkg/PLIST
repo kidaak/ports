@@ -8,8 +8,8 @@ lib/parrot/${PARROT_VERSION}/languages/nqp/
 lib/parrot/${PARROT_VERSION}/languages/nqp/lib/
 lib/parrot/${PARROT_VERSION}/languages/nqp/lib/NQPCORE.setting.pbc
 lib/parrot/${PARROT_VERSION}/languages/nqp/lib/NQPHLL.pbc
-lib/parrot/${PARROT_VERSION}/languages/nqp/lib/NQPP6Regex.pbc
-lib/parrot/${PARROT_VERSION}/languages/nqp/lib/NQPRegex.pbc
+lib/parrot/${PARROT_VERSION}/languages/nqp/lib/NQPP6QRegex.pbc
+lib/parrot/${PARROT_VERSION}/languages/nqp/lib/QAST.pbc
 lib/parrot/${PARROT_VERSION}/languages/nqp/lib/QRegex.pbc
 lib/parrot/${PARROT_VERSION}/languages/nqp/lib/nqp.pbc
 lib/parrot/${PARROT_VERSION}/languages/nqp/lib/nqpmo.pbc

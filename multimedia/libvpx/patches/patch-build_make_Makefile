@@ -7,7 +7,7 @@ $OpenBSD$
  	$(if $(quiet),@echo "    [LD] $$@")
 -	$(qexec)$$(LD) -shared $$(LDFLAGS) \
 -            -Wl,--no-undefined -Wl,-soname,$$(SONAME) \
-+	$(qexec)$$(CC) -shared -fPIC $$(LDFLAGS) \
++	$(qexec)$$(LD) -shared -fPIC $$(LDFLAGS) \
              -Wl,--version-script,$$(SO_VERSION_SCRIPT) -o $$@ \
              $$(filter %.o,$$?) $$(extralibs)
  endef

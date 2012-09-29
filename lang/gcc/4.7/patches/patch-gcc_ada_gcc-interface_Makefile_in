@@ -1,6 +1,6 @@
 $OpenBSD$
---- gcc/ada/gcc-interface/Makefile.in.orig	Fri Feb 24 17:17:01 2012
-+++ gcc/ada/gcc-interface/Makefile.in	Sun Apr 15 13:36:35 2012
+--- gcc/ada/gcc-interface/Makefile.in.orig	Tue Jun 12 17:12:37 2012
++++ gcc/ada/gcc-interface/Makefile.in	Wed Jun 20 14:39:11 2012
 @@ -103,13 +103,13 @@ MAKEINFO = makeinfo
  TEXI2DVI = texi2dvi
  TEXI2PDF = texi2pdf
@@ -15,9 +15,9 @@ $OpenBSD$
 -GNATLIBCFLAGS = -g -O2
 +GNATLIBCFLAGS = -g -O1
  PICFLAG_FOR_TARGET = @PICFLAG_FOR_TARGET@
+ 
  # Pretend that _Unwind_GetIPInfo is available for the target by default.  This
- # should be autodetected during the configuration of libada and passed down to
-@@ -1252,6 +1252,32 @@ ifeq ($(strip $(filter-out %86_64 freebsd%,$(arch) $(o
+@@ -1253,6 +1253,32 @@ ifeq ($(strip $(filter-out %86_64 freebsd%,$(arch) $(o
  
    EH_MECHANISM=-gcc
    THREADSLIB= -lpthread

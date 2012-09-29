@@ -3,7 +3,7 @@
 COMMENT=	mailfilter to identify and mark spam
 
 DISTNAME=	mimedefang-2.73
-REVISION=	1
+REVISION=	4
 CATEGORIES=	mail
 
 HOMEPAGE=	http://www.mimedefang.org/
@@ -32,7 +32,6 @@ CONFIGURE_ARGS=	--with-user=_mdefang \
 		--disable-anti-virus \
 		--enable-poll
 
-USE_GROFF =	Yes
 NO_REGRESS=	Yes
 
 FAKE_FLAGS=	sysconfdir=${PREFIX}/share/examples/mimedefang

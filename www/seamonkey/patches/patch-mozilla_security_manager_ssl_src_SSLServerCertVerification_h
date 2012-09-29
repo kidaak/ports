@@ -1,7 +1,7 @@
 $OpenBSD$
---- mozilla/security/manager/ssl/src/SSLServerCertVerification.h.orig	Tue Mar 13 03:43:59 2012
-+++ mozilla/security/manager/ssl/src/SSLServerCertVerification.h	Thu Mar 15 08:42:17 2012
-@@ -51,6 +51,10 @@ namespace mozilla { namespace psm {
+--- mozilla/security/manager/ssl/src/SSLServerCertVerification.h.orig	Mon Aug 27 06:49:28 2012
++++ mozilla/security/manager/ssl/src/SSLServerCertVerification.h	Sat Sep  1 02:00:14 2012
+@@ -14,6 +14,10 @@ namespace mozilla { namespace psm {
  SECStatus AuthCertificateHook(void *arg, PRFileDesc *fd, 
                                PRBool checkSig, PRBool isServer);
  

@@ -3,11 +3,9 @@
 COMMENT=	front-end to an XSL toolchain
 
 DISTNAME=	xmlto-0.0.18
-REVISION=	2
+REVISION=	4
 EXTRACT_SUFX=	.tar.bz2
 CATEGORIES=	textproc
-
-MAINTAINER=	Mathieu Sauve-Frankel <msf@openbsd.org>
 
 # GPL
 PERMIT_PACKAGE_CDROM=	Yes
@@ -20,8 +18,6 @@ MASTER_SITES=	http://cyberelk.net/tim/data/xmlto/stable/
 
 RUN_DEPENDS=	shells/bash \
 		misc/gnugetopt \
-		textproc/libxml \
-		textproc/libxslt \
 		textproc/docbook-xsl
 BUILD_DEPENDS=	${RUN_DEPENDS} \
 		textproc/docbook

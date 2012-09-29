@@ -244,6 +244,7 @@ include/NGMime/NGMimePartParser.h
 include/NGMime/NGMimeType.h
 include/NGMime/NGMimeUtilities.h
 include/NGMime/NGPart.h
+include/NGMime/NSData+RFC822.h
 include/NGObjWeb/
 include/NGObjWeb/EOFetchSpecification+SoDAV.h
 include/NGObjWeb/NGObjWeb.h

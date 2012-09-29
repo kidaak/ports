@@ -4,7 +4,7 @@ COMMENT=	Xfce4 mailboxes monitor panel plugin
 
 XFCE_VERSION=	1.1.0
 XFCE_PLUGIN=	mailwatch
-REVISION=	10
+REVISION=	11
 
 HOMEPAGE=	http://spuriousinterrupt.org/projects/mailwatch
 

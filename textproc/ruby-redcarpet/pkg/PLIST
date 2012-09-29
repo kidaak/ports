@@ -44,7 +44,9 @@ ${GEM_LIB}/gems/${DISTNAME}/lib/
 ${GEM_LIB}/gems/${DISTNAME}/lib/redcarpet/
 ${GEM_LIB}/gems/${DISTNAME}/lib/redcarpet.rb
 ${GEM_LIB}/gems/${DISTNAME}/lib/redcarpet.so
+${GEM_LIB}/gems/${DISTNAME}/lib/redcarpet/compat.rb
 ${GEM_LIB}/gems/${DISTNAME}/lib/redcarpet/render_man.rb
+${GEM_LIB}/gems/${DISTNAME}/lib/redcarpet/render_strip.rb
 ${GEM_LIB}/gems/${DISTNAME}/redcarpet.gemspec
 ${GEM_LIB}/gems/${DISTNAME}/test/
 ${GEM_LIB}/gems/${DISTNAME}/test/redcarpet_test.rb

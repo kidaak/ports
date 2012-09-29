@@ -12,6 +12,8 @@ PKGNAME-qt=	transmission-qt-${VER}
 CATEGORIES=	net
 HOMEPAGE=	http://www.transmissionbt.com/
 
+REVISION-gtk=	0
+
 MAINTAINER=	Christian Weisgerber <naddy@openbsd.org>
 
 # GPLv2

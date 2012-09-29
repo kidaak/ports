@@ -1,6 +1,5 @@
 @comment $OpenBSD$
 %%SHARED%%
-%%no_mips64%%
 include/amd/
 include/amd/amd.h
 lib/libamd.a

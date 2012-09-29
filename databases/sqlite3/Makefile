@@ -3,8 +3,8 @@
 COMMENT-main=	embedded SQL implementation
 COMMENT-tcl=	TCL bindings for Sqlite3
 COMMENT-lemon=	LEMON LALR(1) parser generator
-V=		3.7.12
-DISTNAME=	sqlite-src-3071200
+V=		3.7.13
+DISTNAME=	sqlite-src-3071300
 EXTRACT_SUFX =	.zip
 PKGNAME-main=	sqlite3-${V}
 PKGNAME-tcl=	sqlite3-tcl-${V}

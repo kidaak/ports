@@ -1,6 +1,7 @@
 @comment $OpenBSD$
 @option no-default-conflict
 @conflict gnupg-<2
+@pkgpath ${BASE_PKGPATH},idea
 @bin bin/gpg
 bin/gpg-zip
 @bin bin/gpgsplit

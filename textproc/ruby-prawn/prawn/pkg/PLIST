@@ -1,6 +1,0 @@
-@comment $OpenBSD$
-${GEM_LIB}/cache/${DISTNAME}.gem
-${GEM_LIB}/gems/${DISTNAME}/
-${GEM_LIB}/gems/${DISTNAME}/lib/
-${GEM_LIB}/gems/${DISTNAME}/lib/prawn.rb
-${GEM_LIB}/specifications/${DISTNAME}.gemspec

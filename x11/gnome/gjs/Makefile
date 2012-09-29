@@ -1,14 +1,15 @@
 # $OpenBSD$
 
+SHARED_ONLY=		Yes
+
 COMMENT=		Javascript bindings for GNOME
 
 GNOME_PROJECT=		gjs
-GNOME_VERSION=		1.32.0
+GNOME_VERSION=		1.34.0
 REVISION=		0
 
-SHARED_LIBS +=  gjs                  1.0      # 0.0
-SHARED_LIBS +=  gjs-dbus             1.0      # 0.0
-SHARED_LIBS +=  gjs-gdbus            1.0      # 0.0
+SHARED_LIBS +=  gjs                  2.0      # 0.0
+SHARED_LIBS +=  gjs-dbus             2.0      # 0.0
 
 CATEGORIES=		devel
 
@@ -35,7 +36,7 @@ MODULES=		devel/gettext \
 			x11/gnome
 
 MODPY_RUNDEP=		No
-MODPY_BUILDDEP= 	Yes # scripts/make-tests needs python to run.
+MODPY_BUILDDEP= 	No
 MODPY_ADJ_FILES=	scripts/make-tests
 
 LIBTOOL_FLAGS=		--tag=disable-static
@@ -43,10 +44,15 @@ LIBTOOL_FLAGS=		--tag=disable-static
 LIB_DEPENDS=		devel/gobject-introspection>=1.32.0 \
 			devel/spidermonkey \
 			x11/dbus-glib
-REGRESS_DEPENDS=	sysutils/e2fsprogs # uuidgen(1)
+
+CONFIGURE_ARGS +=	--disable-static
+
+REGRESS_DEPENDS +=	sysutils/e2fsprogs # uuidgen(1)
+REGRESS_DEPENDS +=	${MODPY_RUN_DEPENDS} # scripts/make-tests needs python to run
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/examples/gjs/
 	${INSTALL_DATA} ${WRKSRC}/examples/* ${PREFIX}/share/examples/gjs/
+	rm ${PREFIX}/lib/gjs-1.0/*.la
 
 .include <bsd.port.mk>

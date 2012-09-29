@@ -9,8 +9,7 @@ daemon="${TRUEPREFIX}/sbin/sympa"
 rc_reload=NO
 
 rc_start() {
-	[ -f /var/spool/lock/sympa ] && \
-		rm /var/spool/lock/sympa
+	rm -f /var/spool/lock/sympa
 	${rcexec} "${daemon} start"
 }
 

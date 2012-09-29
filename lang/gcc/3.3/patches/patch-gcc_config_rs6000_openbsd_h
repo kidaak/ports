@@ -1,6 +1,6 @@
 $OpenBSD$
---- gcc/config/rs6000/openbsd.h.orig	Fri Jan 13 20:30:20 2006
-+++ gcc/config/rs6000/openbsd.h	Fri Jan 13 20:47:10 2006
+--- gcc/config/rs6000/openbsd.h.orig	Thu Aug 30 10:33:07 2012
++++ gcc/config/rs6000/openbsd.h	Thu Aug 30 10:39:58 2012
 @@ -0,0 +1,105 @@
 +/* Configuration file for an rs6000 OpenBSD target.
 +   Copyright (C) 1999 Free Software Foundation, Inc.
@@ -51,7 +51,7 @@ $OpenBSD$
 +    %{!static: \
 +      %{rdynamic:-export-dynamic} \
 +      %{!dynamic-linker:-dynamic-linker /usr/libexec/ld.so}} \
-+    %{static:-static}}"
++    %{static:-static}} -nopie"
 +
 +#undef	LIB_DEFAULT_SPEC
 +#define LIB_DEFAULT_SPEC "%(lib_openbsd)"

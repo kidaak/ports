@@ -1,10 +1,7 @@
 $OpenBSD$
-
-*** Warning: This system can not link to static lib archive ../../common/libcommon_XXX.la.
-
---- provider/client/Makefile.in.orig	Thu May  3 11:28:41 2012
-+++ provider/client/Makefile.in	Sat May  5 17:39:39 2012
-@@ -323,7 +323,7 @@ AM_CPPFLAGS = $(DEBUGFLAGS) $(BOOST_CPPFLAGS) -DLINUX	
+--- provider/client/Makefile.in.orig	Wed Aug  8 16:35:44 2012
++++ provider/client/Makefile.in	Sat Aug 25 17:06:13 2012
+@@ -374,7 +374,7 @@ AM_CPPFLAGS = $(DEBUGFLAGS) $(BOOST_CPPFLAGS) -DLINUX	
  	-I${top_srcdir}/common						\
  	-I${top_srcdir}/zarafa-libsync
  

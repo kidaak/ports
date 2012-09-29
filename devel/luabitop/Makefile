@@ -1,12 +1,15 @@
 # $OpenBSD$
 
 SHARED_ONLY=	Yes
+
 COMMENT=	library for bitwise operations in lua
-DISTNAME=	LuaBitOp-1.0.1
-PKGNAME=	luabitop-1.0.1
-REVISION=	2
+
+V=		1.0.2
+DISTNAME=	LuaBitOp-$V
+PKGNAME=	luabitop-$V
 CATEGORIES=	devel
-MASTER_SITES=	http://bitop.luajit.org/download/
+REVISION=	0
+MASTER_SITES=	${HOMEPAGE}/download/
 
 HOMEPAGE=	http://bitop.luajit.org/
 
@@ -18,8 +21,10 @@ PERMIT_PACKAGE_FTP=	Yes
 
 USE_GMAKE=	Yes
 MODULES=	lang/lua
-REGRESS_DEPENDS+=devel/luabitop
-MAKE_ENV+=	INCLUDES=-I${LOCALBASE}/include
+REGRESS_DEPENDS+=${BASE_PKGPATH}
+MAKE_ENV+=	INCLUDES=-I${MODLUA_INCL_DIR}
+
+REGRESS_FILES=	bittest md5test bitbench nsievebits
 
 do-install:
 	${INSTALL_DATA_DIR} ${MODLUA_LIBDIR} ${MODLUA_DOCDIR}
@@ -30,9 +35,8 @@ do-install:
 		find . ! -type d \
 			-exec ${INSTALL_DATA} -m 644 {} ${MODLUA_DOCDIR}/{} \;
 do-regress:
-	lua ${WRKSRC}/bittest.lua
-	lua ${WRKSRC}/md5test.lua
-	lua ${WRKSRC}/bitbench.lua
-	lua ${WRKSRC}/nsievebits.lua
+.for r in ${REGRESS_FILES}
+	${MODLUA_BIN} ${WRKSRC}/$r.lua
+.endfor
 
 .include <bsd.port.mk>

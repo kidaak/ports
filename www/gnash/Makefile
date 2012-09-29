@@ -8,6 +8,7 @@ COMMENT=	SWF player with Firefox browser plugin
 
 VER=		0.8.10
 DISTNAME=	gnash-${VER}
+REVISION=	1
 EPOCH=		0
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GNU:=gnash/${VER}/}
@@ -48,7 +49,8 @@ LIB_DEPENDS=	audio/speex \
 USE_GMAKE=	Yes
 USE_LIBTOOL=	Yes
 LIBTOOL_FLAGS+=	--tag=disable-static
-CONFIGURE_STYLE= gnu
+AUTOCONF_VERSION=2.64
+CONFIGURE_STYLE= autoconf
 CONFIGURE_ARGS=	--disable-cygnal \
 		--disable-jemalloc \
 		--enable-renderer=agg \

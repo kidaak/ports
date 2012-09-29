@@ -44,6 +44,8 @@ CONFIGURE_STYLE=	gnu
 CONFIGURE_ENV+=		CPPFLAGS="-I${LOCALBASE}/include" \
 			LDFLAGS="-L${LOCALBASE}/lib"
 
+CONFIGURE_ARGS +=	--disable-static
+
 # Force regen of pynotify.c to include missing functions.
 # See http://trac.galago-project.org/ticket/121
 post-extract:

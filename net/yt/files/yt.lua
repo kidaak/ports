@@ -1,4 +1,4 @@
-#!${LOCALBASE}/bin/lua
+#!${MODLUA_BIN}
 -- $OpenBSD$
 -- Fetch videos from YouTube.com/Videos.Google.com, and convert to MPEG.
 -- Written by Pedro Martelletto and Martynas Venckus.  Public domain.

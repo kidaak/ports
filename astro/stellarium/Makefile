@@ -2,7 +2,8 @@
 
 COMMENT=	free open source planetarium
 
-DISTNAME=	stellarium-0.11.2
+DISTNAME=	stellarium-0.11.4a
+WRKDIST=	${WRKDIR}/stellarium-0.11.4
 
 CATEGORIES=	astro x11
 
@@ -31,16 +32,18 @@ RUN_DEPENDS=	net/curl \
 
 CONFIGURE_STYLE=cmake
 CONFIGURE_ENV=	HOME=${WRKDIR}
-CONFIGURE_ARGS=	-Wno-dev
+CONFIGURE_ARGS=	-Wno-dev \
+		-DCMAKE_C_FLAGS="${CFLAGS} -I${X11BASE}/include" \
+		-DCMAKE_CXX_FLAGS="${CXXFLAGS} -I${X11BASE}/include"
 
 PORTHOME=	${WRKDIR}
 
 NO_REGRESS=	Yes
 
 pre-configure:
-	${SUBST_CMD} ${WRKSRC}/CMakeLists.txt \
-		${WRKSRC}/cmake/FindIconv.cmake \
-		${WRKSRC}/data/stellarium.desktop
+	perl -pi -e 's,/usr/local,${LOCALBASE},g' \
+		${WRKSRC}/CMakeLists.txt \
+		${WRKSRC}/cmake/FindIconv.cmake
 
 post-install:
 	${INSTALL_DATA_DIR} ${PREFIX}/share/applications

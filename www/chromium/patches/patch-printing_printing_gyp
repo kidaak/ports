@@ -1,7 +1,7 @@
 $OpenBSD$
---- printing/printing.gyp.orig	Fri Jan 27 09:01:11 2012
-+++ printing/printing.gyp	Thu Feb  9 09:31:06 2012
-@@ -259,6 +259,11 @@
+--- printing/printing.gyp.orig	Tue Aug 14 09:01:15 2012
++++ printing/printing.gyp	Wed Aug 15 23:14:35 2012
+@@ -270,6 +270,11 @@
                    '<!@(python cups_config_helper.py --cflags)',
                  ],
                }],

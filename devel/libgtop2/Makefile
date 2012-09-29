@@ -5,7 +5,7 @@ COMMENT=		portable library for obtaining system information
 GNOME_VERSION=		2.28.4
 GNOME_PROJECT=		libgtop
 PKGNAME=		libgtop2-${VERSION}
-REVISION=		6
+REVISION=		7
 
 SHARED_LIBS=		gtop-2.0	9.0	# .9.0
 

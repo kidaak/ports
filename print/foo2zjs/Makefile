@@ -3,7 +3,7 @@
 COMMENT-main=	driver for ZjStream wire protocol compatible printers
 COMMENT-cups=	Konica-Minolta foo2zjs command filter for CUPS
 
-VERSION=	20120223
+VERSION=	20120601
 DISTNAME=	foo2zjs-${VERSION}
 
 PKGNAME-main=	${DISTNAME}
@@ -33,12 +33,13 @@ WRKDIST=	${WRKDIR}/foo2zjs
 BUILD_DEPENDS=	print/ghostscript/gnu # ps2pdf
 
 WANTLIB-main += ${WANTLIB} m
-RUN_DEPENDS-main=print/foomatic-filters \
-		print/foomatic-db-engine
+
+# share/foomatic/db/source/*/*.xml
+RUN_DEPENDS-main +=	print/foomatic-db-engine
 
 WANTLIB-cups += ${WANTLIB} cups pthread
 RUN_DEPENDS-cups=${BASE_PKGPATH},-main
-LIB_DEPENDS-cups=print/cups
+LIB_DEPENDS-cups=print/cups,-libs
 
 MAKE_FLAGS+=	CUPS_SERVERBIN=`cups-config --serverbin`
 

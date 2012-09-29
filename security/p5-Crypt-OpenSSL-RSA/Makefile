@@ -7,7 +7,7 @@ COMMENT =	RSA encoding and decoding using OpenSSL
 MODULES =	cpan
 
 DISTNAME =	Crypt-OpenSSL-RSA-0.26
-REVISION =	1
+REVISION =	2
 CATEGORIES =	security
 HOMEPAGE =	http://perl-openssl.sourceforge.net/
 
@@ -17,7 +17,7 @@ PERMIT_PACKAGE_FTP = Yes
 PERMIT_DISTFILES_CDROM = Yes
 PERMIT_DISTFILES_FTP = Yes
 
-WANTLIB =	crypto ssl
+WANTLIB +=	c crypto ssl
 
 RUN_DEPENDS =	security/p5-Crypt-OpenSSL-Random>=0.03 \
 		security/p5-Crypt-OpenSSL-Bignum>=0.03

@@ -1,6 +1,4 @@
-# $NetBSD: patch-ad,v 1.5 1999/12/28 18:15:43 itojun Exp $
-# $OpenBSD$
-
+$OpenBSD$
 --- lchat.pl.orig	Fri May 29 13:05:46 1998
 +++ lchat.pl	Mon Mar 19 18:31:12 2007
 @@ -117,7 +117,7 @@ sub open_port { ## public

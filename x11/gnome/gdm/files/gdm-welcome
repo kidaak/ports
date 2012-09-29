@@ -1,0 +1,6 @@
+# $OpenBSD$
+
+auth		required	pam_permit.so
+account		include		system
+password	include		system
+session		include		system

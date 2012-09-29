@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libmal.so.${LIBmal_VERSION}

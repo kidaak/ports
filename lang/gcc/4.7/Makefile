@@ -1,8 +1,9 @@
 # $OpenBSD$
 
-ONLY_FOR_ARCHS = amd64 i386 hppa powerpc sparc sparc64
+ONLY_FOR_ARCHS = amd64 i386 powerpc sparc64
+BROKEN-sparc64 = ICE in libgcc
 
-V = 4.7.0
+V = 4.7.2
 FULL_VERSION = $V
 FULL_PKGVERSION = $V
 BOOTSTRAP_GEN = 0
@@ -13,14 +14,12 @@ PKGNAME-main =  gcc-${FULL_PKGVERSION}
 PKGNAME-c++ =   g++-${FULL_PKGVERSION}
 PKGNAME-estdc = libstdc++-${FULL_PKGVERSION}
 PKGNAME-f95 =   g95-${FULL_PKGVERSION}
-PKGNAME-java =  gcj-${FULL_PKGVERSION}
+# problem in boehm-gc
+#PKGNAME-java =  gcj-${FULL_PKGVERSION}
 PKGNAME-objc =  gobjc-${FULL_PKGVERSION}
 PKGNAME-ada =   gnat-${FULL_PKGVERSION}
 # needs [gs]etcontext
 #PKGNAME-go =	gccgo-${FULL_PKGVERSION}
-REVISION = 0
-REVISION-c++ = 1
-REVISION-java = 2
 PKGSPEC-main = gcc->=4.7,<4.8
 
 SHARED_LIBS =	estdc++		15.0 \
@@ -41,7 +40,9 @@ FLAVOR ?=
 ONLY_FOR_ARCHS-ada = i386
 ONLY_FOR_ARCHS-java = amd64 i386 sparc64
 
-MULTI_PACKAGES = -main -f95 -objc -java -c++ -estdc -ada
+MULTI_PACKAGES = -main -f95 -objc -c++ -estdc -ada
+
+MAINTAINER =	Pascal Stumpf <Pascal.Stumpf@cubes.de>
 
 .include <bsd.port.arch.mk>
 
@@ -59,15 +60,14 @@ EXTRACT_ONLY =	${DISTNAME}.tar.bz2
 
 USE_LIBTOOL =	Yes
 
-BUILD_DEPENDS +=	devel/bison
+BUILD_DEPENDS +=	devel/bison \
+			devel/libexecinfo
 
 REGRESS_DEPENDS = 	devel/dejagnu \
 			devel/autogen
 
 MASTER_SITES =	${MASTER_SITE_GCC:=releases/gcc-$(FULL_VERSION)/}
-#MASTER_SITES0 = http://spacehopper.org/mirrors/
-#MASTER_SITES0 = ftp://quatramaran.ens.fr/pub/espie/
-MASTER_SITES0 =	http://distfiles.bsdfrog.org/
+MASTER_SITES0 =	http://distfiles.tmux.org/adastrap/
 MASTER_SITES1 =	ftp://sources.redhat.com/pub/java/
 
 LANGS = c
@@ -105,6 +105,7 @@ MODGNU_CONFIG_GUESS_DIRS =	${WRKSRC} ${WRKSRC}/gcc
 
 EXTRA_ENV += am_cv_func_iconv=no JAR=no
 EXTRA_ENV += ac_cv_prog_M4=/usr/bin/m4
+EXTRA_ENV += ac_cv_header_magic_h=no
 MAKE_FLAGS +=	 ac_cv_path_mkdir=/bin/mkdir
 
 CONFIGURE_ENV += ${EXTRA_ENV}
@@ -130,6 +131,7 @@ CONFIGURE_ARGS += \
 	--enable-threads=posix \
 	--enable-wchar_t \
 	--with-gmp="${LOCALBASE}" \
+	--disable-libstdcxx-pch \
 	--enable-languages=${LANGS}
 
 # This is needed, as internal cpp is no longer compatible with the
@@ -174,7 +176,7 @@ PKG_ARGS += -DI386=0
 .endif
 
 RUN_DEPENDS =		${BUILD_PKGPATH},-main
-WANTLIB =		c gmp mpc mpfr z
+WANTLIB =		c gmp m mpc mpfr z
 
 RUN_DEPENDS-main =
 RUN_DEPENDS-estdc =
@@ -182,9 +184,8 @@ RUN_DEPENDS-estdc =
 RUN_DEPENDS-c++ =	${RUN_DEPENDS} \
 			${BUILD_PKGPATH},-estdc>=4.7,<4.8
 WANTLIB-estdc =		m
-WANTLIB-f95 =		${WANTLIB} m
-WANTLIB-java =		${WANTLIB} m pthread
-WANTLIB-go =		${WANTLIB} m
+WANTLIB-java =		${WANTLIB} pthread
+WANTLIB-main =		${WANTLIB} pthread
 
 LIB_DEPENDS +=		devel/gmp>=4.2 \
 			devel/mpfr \

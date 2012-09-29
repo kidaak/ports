@@ -3,7 +3,7 @@
 COMMENT=	gdb for arm-elf cross-development
 
 DISTNAME=	gdb-7.1
-REVISION=	0
+REVISION=	1
 
 HOMEPAGE=	http://www.gnu.org/software/gdb/
 

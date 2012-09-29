@@ -2,8 +2,7 @@
 
 COMMENT =		Software Transactional Memory
 
-DISTNAME =		stm-2.2.0.1
-REVISION=		0
+DISTNAME =		stm-2.3
 CATEGORIES =		devel
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>

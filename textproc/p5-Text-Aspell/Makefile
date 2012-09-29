@@ -5,7 +5,7 @@ SHARED_ONLY=	Yes
 
 MODULES=	cpan
 DISTNAME=	Text-Aspell-0.09
-REVISION=	3
+REVISION=	4
 CATEGORIES=	devel textproc
 USE_GROFF =	Yes
 
@@ -16,7 +16,8 @@ PERMIT_PACKAGE_CDROM=	Yes
 PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
-WANTLIB=	stdc++ aspell>=16
+
+WANTLIB += c stdc++ aspell>=16
 
 LIB_DEPENDS=	textproc/aspell/core
 

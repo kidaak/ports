@@ -25,7 +25,7 @@ LIB_DEPENDS =	x11/kde/libs3 \
 
 SEPARATE_BUILD =	flavored
 
-REVISION = 9
+REVISION = 10
 WANTLIB = ICE SM X11 Xau Xdmcp Xext Xi Xrender Xss Xtst art_lgpl_2 c crypto \
 	fam gdk glib gmodule gmp gtk idn jpeg kvm lib/kde3/DCOP lib/kde3/kabc \
 	lib/kde3/kdecore>=6 lib/kde3/kdefx lib/kde3/kdeprint lib/kde3/kdesu \

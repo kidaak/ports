@@ -15,5 +15,5 @@ C64|Epson Stylus C64:\
 	:lf=/var/log/lpd-errs:\
 	:sh:
 
-There are PPD files in the foomatic-db package.  foomatic-ppdfile(1)
-from the foomatic-db-engine package can be used to generate PPD files.
+Refer to the pkg-readmes documentation that comes with the
+foomatic-db-engine package to learn how to generate PPD files.

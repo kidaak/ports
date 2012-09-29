@@ -10,6 +10,7 @@ DISTNAME =	gdal-${V}
 PKGNAME-main =	${DISTNAME}
 PKGNAME-python =py-${DISTNAME}
 PKGNAME-perl =	p5-Geo-GDAL-${V}
+REVISION-perl = 0
 
 SHARED_LIBS =	gdal 18.0 #16.1
 CATEGORIES =	geo devel
@@ -50,8 +51,9 @@ LIB_DEPENDS-python =	${PKGNAME}:${BASE_PKGPATH},-main
 WANTLIB-python =	${MODPY_WANTLIB} gdal m stdc++
 
 LIB_DEPENDS-perl =	${PKGNAME}:${BASE_PKGPATH},-main
-WANTLIB-perl =		gdal crypto curl expat geos_c geotiff gif idn \
-			jasper jpeg m png pq ssl tiff z pthread
+WANTLIB-perl =		c gdal crypto curl expat geos_c geotiff gif idn \
+			jasper jpeg m png pq ssl tiff z pthread \
+			${MODGETTEXT_WANTLIB}
 
 RUN_DEPENDS +=		math/py-numpy
 BUILD_DEPENDS +=	${RUN_DEPENDS} devel/swig

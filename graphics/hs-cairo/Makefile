@@ -2,8 +2,7 @@
 
 COMMENT =		Haskell bindings to cairo
 
-DISTNAME =		cairo-0.12.0
-REVISION =		1
+DISTNAME =		cairo-0.12.3.1
 CATEGORIES =		graphics
 
 HOMEPAGE =		http://www.haskell.org/gtk2hs/

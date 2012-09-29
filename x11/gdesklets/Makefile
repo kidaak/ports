@@ -6,7 +6,7 @@ COMMENT=		mini programs for your desktop
 
 V=			0.36.3
 DISTNAME=		gdesklets-${V}
-REVISION=		2
+REVISION=		3
 
 EXTRACT_SUFX=		.tar.bz2
 

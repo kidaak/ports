@@ -3,6 +3,7 @@
 COMMENT =		simple helper for creating rubygem projects
 
 DISTNAME =		jeweler-1.6.4
+REVISION =		0
 CATEGORIES =		devel
 
 HOMEPAGE =		https://github.com/technicalpickles/jeweler

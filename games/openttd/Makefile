@@ -5,6 +5,7 @@ COMMENT=	open source clone of the game Transport Tycoon Deluxe
 V=		1.1.5
 DISTNAME=	openttd-${V}
 EXTRACT_SUFX=	-source.tar.gz
+REVISION=	1
 GFX_V=		0.3.5
 SFX_V=		0.2.3
 MSX_V=		0.3.1

@@ -2,8 +2,10 @@
 
 COMMENT=	easy and universal access to shared and/or personnal files
 
-DISTNAME=	owncloud-4.0.1
+DISTNAME=	owncloud-4.0.7
 EXTRACT_SUFX=	.tar.bz2
+
+REVISION=	0
 
 CATEGORIES=	www
 
@@ -25,6 +27,11 @@ PERMIT_DISTFILES_FTP=	Yes
 
 MASTER_SITES=	${HOMEPAGE}releases/
 
+# Yubikey support
+MASTER_SITES0=		http://nerd.hu/
+PATCHFILES=		owncloud-yubikey.patch:0
+PATCH_DIST_STRIP=	-p1
+
 MODULES=	lang/php
 
 NO_BUILD=	Yes
@@ -38,11 +45,10 @@ INSTDIR=	${PREFIX}/owncloud
 TINSTDIR=	${TRUEPREFIX}/owncloud
 SUBST_VARS=	INSTDIR TINSTDIR
 
-RUN_DEPENDS=	archivers/pecl-zip \
-		lang/php/${MODPHP_VERSION},-curl \
-		lang/php/${MODPHP_VERSION},-pdo_sqlite \
+RUN_DEPENDS=	lang/php/${MODPHP_VERSION},-curl \
 		lang/php/${MODPHP_VERSION},-gd \
-		lang/php/${MODPHP_VERSION},-xmlrpc
+		lang/php/${MODPHP_VERSION},-xmlrpc \
+		lang/php/${MODPHP_VERSION},-zip
 
 do-install:
 	cp -Rp ${WRKSRC} ${INSTDIR}

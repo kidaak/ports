@@ -4,7 +4,7 @@ COMMENT=		Ruby interface to LBL Packet Capture library
 
 DISTNAME=               ruby-${PKGNAME}
 PKGNAME=                pcap-0.6
-REVISION=		20
+REVISION=		21
 CATEGORIES=		net
 
 HOMEPAGE=		http://www.goto.info.waseda.ac.jp/~fukusima/ruby/pcap-e.html
@@ -16,6 +16,9 @@ PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
 WANTLIB=		pcap 
+
+FLAVORS=		ruby18
+FLAVOR=			ruby18
 
 MASTER_SITES=		http://www.goto.info.waseda.ac.jp/~fukusima/ruby/
 

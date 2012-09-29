@@ -5,7 +5,7 @@ COMMENT=	web-based conference management software
 V=		1.9.9
 DISTNAME=	myreview_${V:S/./_/g}
 PKGNAME=	myreview-${V}
-REVISION=	5
+REVISION=	6
 CATEGORIES=	www
 
 DISTFILES=	${DISTNAME}${EXTRACT_SUFX} myreview_v1.pdf:0

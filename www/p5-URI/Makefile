@@ -3,10 +3,8 @@
 COMMENT=	library to parse Uniform Resource Identifiers
 
 MODULES=	cpan
-DISTNAME=	URI-1.54
-REVISION=	0
+DISTNAME=	URI-1.60
 CATEGORIES=	www
-USE_GROFF =	Yes
 
 # Perl
 PERMIT_PACKAGE_CDROM=	Yes

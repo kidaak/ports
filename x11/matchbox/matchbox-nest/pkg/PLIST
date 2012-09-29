@@ -1,6 +1,0 @@
-@comment $OpenBSD$
-@bin bin/matchbox-nest
-share/matchbox-nest/
-share/matchbox-nest/dot.png
-share/matchbox-nest/ipaq3800.png
-share/matchbox-nest/ipaq3800.xml

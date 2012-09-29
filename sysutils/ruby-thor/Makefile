@@ -3,7 +3,7 @@
 COMMENT =	ruby scripting framework
 
 DISTNAME =	thor-0.14.6
-REVISION =	1
+REVISION =	2
 CATEGORIES =	sysutils
 
 HOMEPAGE =	https://github.com/wycats/thor

@@ -1,5 +1,5 @@
 @comment $OpenBSD$
-bin/wmbiff
+@bin bin/wmbiff
 @comment lib/wmbiff/
 @comment lib/wmbiff/security.debian.rb
 @man man/man1/wmbiff.1

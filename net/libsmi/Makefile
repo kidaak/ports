@@ -1,10 +1,11 @@
 # $OpenBSD$
 
-COMMENT=	library and tools to access SMI MIB information
+COMMENT=	library/tools (incl smilint) to access SMI MIB information
 
 SHARED_LIBS +=  smi                  0.0      # 2.27
 
 DISTNAME=	libsmi-0.4.8
+REVISION=	0
 CATEGORIES=	net
 
 HOMEPAGE=	http://www.ibr.cs.tu-bs.de/projects/libsmi/

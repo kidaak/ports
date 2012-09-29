@@ -3,7 +3,7 @@
 COMMENT-main=		callback framework for C++
 COMMENT-docs=		callback framework for C++ documentation
 
-VERSION=		2.2.10
+VERSION=		2.2.11
 DISTNAME=		libsigc++-${VERSION}
 PKGNAME-main =		${DISTNAME}
 PKGSPEC-main =		libsigc++->=2,<3

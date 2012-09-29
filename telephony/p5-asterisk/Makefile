@@ -2,7 +2,7 @@
 
 COMMENT=	collection of perl modules to be used with asterisk
 
-DISTNAME=	asterisk-perl-1.01
+DISTNAME=	asterisk-perl-1.03
 PKGNAME=	p5-${DISTNAME:S/perl-//}
 CATEGORIES=	telephony perl5
 HOMEPAGE=	http://asterisk.gnuinter.net/

@@ -1,8 +1,0 @@
-@comment $OpenBSD$
-@bin bin/a2kfcnv
-bin/fromdos
-bin/fromwin
-@bin bin/todos
-bin/towin
-share/doc/d1489/
-share/doc/d1489/README

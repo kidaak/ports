@@ -2,7 +2,7 @@
 
 COMMENT=	command-line interface to Icinga
 
-DISTNAME=	icli-0.42
+DISTNAME=	icli-0.43
 
 CATEGORIES=	net
 

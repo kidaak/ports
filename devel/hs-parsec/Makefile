@@ -2,7 +2,7 @@
 
 COMMENT =		Monadic parser combinators
 
-DISTNAME =		parsec-3.1.1
+DISTNAME =		parsec-3.1.2
 REVISION =		1
 CATEGORIES =		devel
 HOMEPAGE =		http://www.cs.uu.nl/~daan/parsec.html
@@ -19,7 +19,8 @@ MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
 
-RUN_DEPENDS =		devel/hs-mtl
+RUN_DEPENDS =		devel/hs-mtl \
+			devel/hs-text>=0.2,<0.12
 BUILD_DEPENDS =		${RUN_DEPENDS}
 
 .include <bsd.port.mk>

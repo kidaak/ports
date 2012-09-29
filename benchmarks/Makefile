@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.4 1997/02/16 13:32:59 andreas Exp $
-#
 
      SUBDIR =
      SUBDIR += blogbench
@@ -21,6 +19,7 @@
      SUBDIR += sysbench,mysql
      SUBDIR += sysbench,pgsql
      SUBDIR += tcpblast
+     SUBDIR += tsung
      SUBDIR += ubench
      SUBDIR += xengine
 

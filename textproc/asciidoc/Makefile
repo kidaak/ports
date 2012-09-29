@@ -3,7 +3,7 @@
 COMMENT=	text document format for writing documents and man pages 
 
 DISTNAME=	asciidoc-8.6.5
-REVISION=	0
+REVISION=	1
 CATEGORIES=	textproc
 
 MAINTAINER=	Robert Nagy <robert@openbsd.org>
@@ -19,9 +19,7 @@ PERMIT_DISTFILES_FTP=	Yes
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=asciidoc/}
 
 MODULES=	lang/python
-RUN_DEPENDS=	textproc/libxslt \
-		textproc/docbook \
-		textproc/docbook-xsl
+RUN_DEPENDS=	textproc/docbook-xsl
 
 MODPY_ADJ_FILES=a2x.py \
 		asciidoc.py \

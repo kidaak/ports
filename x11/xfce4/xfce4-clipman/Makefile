@@ -4,6 +4,7 @@ COMMENT=	Xfce4 clipboard history panel plugin
 
 XFCE_VERSION=	1.2.3
 XFCE_PLUGIN=	clipman
+REVISION=	0
 
 # GPLv2
 PERMIT_DISTFILES_CDROM=	Yes

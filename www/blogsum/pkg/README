@@ -4,20 +4,16 @@ $OpenBSD$
 | Running ${FULLPKGNAME} on OpenBSD
 +-----------------------------------------------------------------------
 
-#########################
-### UPGRADING BLOGSUM ###
-#########################
-
+Upgrading Blogsum
+=================
 1) Add any new settings from Blogsum/Config.pm.dist into your
    local Blogsum/Config.pm.
 
 2)  Stop and start your Apache service.
 
 
-##########################
-### INSTALLING BLOGSUM ###
-##########################
-
+Installing Blogsum
+==================
 1)  Enable the mod_perl module:
 
 	$ sudo mod_perl-enable

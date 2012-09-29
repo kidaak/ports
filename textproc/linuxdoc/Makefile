@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: Makefile,v 1.4 1998/01/17 17:25:46 jfieber Exp $
 
 COMMENT=	Linuxdoc SGML DTD
 

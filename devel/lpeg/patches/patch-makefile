@@ -1,10 +1,10 @@
 $OpenBSD$
 --- makefile.orig	Wed Feb 16 16:03:25 2011
-+++ makefile	Thu Aug 25 21:09:29 2011
++++ makefile	Sat Jul  7 15:02:14 2012
 @@ -1,14 +1,13 @@
  LIBNAME = lpeg
 -LUADIR = /usr/include/lua5.1/
-+LUADIR = ${LOCALBASE}/include/
++LUADIR = ${MODLUA_INCL_DIR}
  
 -COPT = -O2 -DNDEBUG
 +COPT = -O2 -DNDEBUG -fPIC -shared

@@ -2,7 +2,7 @@
 
 COMMENT =		minimalistic text based status bar
 
-DISTNAME =		xmobar-0.14
+DISTNAME =		xmobar-0.15
 CATEGORIES =		x11
 HOMEPAGE =		http://projects.haskell.org/xmobar
 
@@ -14,13 +14,12 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-WANTLIB =	c expat fontconfig freetype gmp m pthread pthread-stubs util \
-		X11 Xau xcb Xdmcp Xext Xft Xinerama Xrandr Xrender z
+WANTLIB =	c gmp m pthread util X11 Xext Xft Xinerama Xrandr
 
 MODULES =		lang/ghc converters/libiconv
 
 MODGHC_BUILD =		cabal hackage nort
-MODGHC_SETUP_CONF_ARGS = --flags="with_xft with_mpd with_utf8"
+MODGHC_SETUP_CONF_ARGS = --flags="with_xft with_mpd"
 
 LIB_DEPENDS =		devel/gmp
 

@@ -19,7 +19,8 @@ BUILD_DEPENDS =	databases/sqlports,-compact>=2.2 \
 
 PLIST = ${WRKINST}/plist
 # XXX this plist *will change*
-PLIST_DB =
+STATIC_PLIST = No
+
 do-build:
 	TEMPLATESDIR=${FILESDIR} \
 	OUTPUTDIR=${WRKBUILD} \

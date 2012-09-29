@@ -5,7 +5,7 @@ SHARED_ONLY=		Yes
 COMMENT=		terminal emulation library
 
 GNOME_PROJECT=		vte
-GNOME_VERSION=		0.32.2
+GNOME_VERSION=		0.34.0
 
 PKGNAME=		vte3-${GNOME_VERSION}
 
@@ -42,5 +42,9 @@ MODGNOME_TOOLS= 	goi
 CONFIGURE_STYLE=	gnu
 CONFIGURE_ARGS=		--disable-Bsymbolic \
 			--disable-gnome-pty-helper
+
+# XXX: https://bugzilla.gnome.org/show_bug.cgi?id=675987
+post-install:
+	rm -r ${WRKINST}${SYSCONFDIR}/profile.d
 
 .include <bsd.port.mk>

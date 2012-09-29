@@ -5,7 +5,7 @@ COMMENT =	python package to retrieve data of the IMDb movie database
 MODPY_EGG_VERSION = 4.6
 DISTNAME =	IMDbPY-${MODPY_EGG_VERSION}
 PKGNAME =	py-imdb-${MODPY_EGG_VERSION}
-REVISION =	1
+REVISION =	2
 CATEGORIES =	misc devel
 
 HOMEPAGE =	http://imdbpy.sourceforge.net/
@@ -17,6 +17,8 @@ PERMIT_PACKAGE_CDROM =	Yes
 PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM = Yes
 PERMIT_DISTFILES_FTP =	Yes
+
+WANTLIB += c pthread ${MODPY_WANTLIB}
 
 MASTER_SITES =	${MASTER_SITE_SOURCEFORGE:=imdbpy/}
 

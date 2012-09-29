@@ -1,6 +1,7 @@
 @comment $OpenBSD$
 @newgroup _dbus:572
 @newuser _dbus:572:_dbus:daemon:dbus user:/nonexistent:/sbin/nologin
+@extra /var/db/dbus/machine-id
 %%SHARED%%
 @bin bin/dbus-cleanup-sockets
 @bin bin/dbus-daemon
@@ -23,6 +24,7 @@ include/dbus-1.0/dbus/dbus-protocol.h
 include/dbus-1.0/dbus/dbus-server.h
 include/dbus-1.0/dbus/dbus-shared.h
 include/dbus-1.0/dbus/dbus-signature.h
+include/dbus-1.0/dbus/dbus-syntax.h
 include/dbus-1.0/dbus/dbus-threads.h
 include/dbus-1.0/dbus/dbus-types.h
 include/dbus-1.0/dbus/dbus.h
@@ -57,7 +59,6 @@ share/doc/dbus/dbus-tutorial.html
 share/doc/dbus/diagram.png
 share/doc/dbus/diagram.svg
 share/doc/dbus/system-activation.txt
-share/doc/pkg-readmes/${FULLPKGNAME}
 share/examples/dbus/
 share/examples/dbus/dbus-1/
 @sample ${SYSCONFDIR}/dbus-1/
@@ -71,5 +72,4 @@ share/examples/dbus/dbus-1/system.d/
 @sample ${SYSCONFDIR}/dbus-1/system.d/
 @sample /var/db/dbus/
 @exec ${PREFIX}/bin/dbus-uuidgen --ensure
-@extra /var/db/dbus/machine-id
 @rcscript ${RCDIR}/dbus_daemon

@@ -3,6 +3,7 @@
 COMMENT =	utility classes and extensions for rails framework 
 
 DISTNAME =	activesupport-3.1.3
+REVISION =	0
 CATEGORIES =	devel
 
 # MIT License

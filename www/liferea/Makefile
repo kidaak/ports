@@ -5,7 +5,7 @@ SHARED_ONLY=		Yes
 COMMENT=		simple GTK desktop news aggregator
 
 DISTNAME=		liferea-1.8.4
-REVISION =		0
+REVISION =		1
 CATEGORIES=		www x11
 
 HOMEPAGE=		http://liferea.sourceforge.net/

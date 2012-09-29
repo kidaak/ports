@@ -4,7 +4,7 @@ COMMENT =		record desktop sessions to an Ogg-Theora-Vorbis file
 
 DISTNAME =		recordmydesktop-0.3.8.1
 PKGNAME =		${DISTNAME}
-REVISION =		4
+REVISION =		5
 
 WANTLIB =		ICE SM X11 Xdamage Xext Xfixes c m ogg \
 			pthread sndio z

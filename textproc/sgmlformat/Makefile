@@ -1,11 +1,4 @@
-# New ports collection makefile for:	sgmlformat
-# Version required:	1.6
-# Date created:		July 16, 1997
-# Whom:			jfieber
-#
-# $FreeBSD: Makefile,v 1.9 1998/02/21 21:59:37 jfieber Exp $
 # $OpenBSD$
-#
 
 COMMENT=	generate groff/HTML from linuxdoc/docbook SGML documents
 

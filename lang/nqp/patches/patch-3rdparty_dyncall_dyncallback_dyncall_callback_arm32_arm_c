@@ -1,0 +1,12 @@
+$OpenBSD$
+--- 3rdparty/dyncall/dyncallback/dyncall_callback_arm32_arm.c.orig	Thu Jun  7 22:58:34 2012
++++ 3rdparty/dyncall/dyncallback/dyncall_callback_arm32_arm.c	Thu Jun  7 22:58:53 2012
+@@ -30,7 +30,7 @@
+ #include "dyncall_alloc_wx.h"
+ #include "dyncall_signature.h"
+ 
+-extern void dcCallbackThunkEntry();
++extern void dcCallbackThunkEntry(void);
+ 
+ void dcbInitCallback(DCCallback* pcb, const char* signature, DCCallbackHandler* handler, void* userdata)
+ {

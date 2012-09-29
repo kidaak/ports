@@ -1,7 +1,7 @@
 $OpenBSD$
---- Modules/Compiler/GNU.cmake.orig	Wed Apr 18 20:10:54 2012
-+++ Modules/Compiler/GNU.cmake	Mon Apr 30 11:07:25 2012
-@@ -39,8 +39,8 @@ macro(__compiler_gnu lang)
+--- Modules/Compiler/GNU.cmake.orig	Thu Aug  9 20:15:19 2012
++++ Modules/Compiler/GNU.cmake	Thu Aug 23 11:25:47 2012
+@@ -43,8 +43,8 @@ macro(__compiler_gnu lang)
    # Initial configuration flags.
    set(CMAKE_${lang}_FLAGS_INIT "")
    set(CMAKE_${lang}_FLAGS_DEBUG_INIT "-g")

@@ -5,6 +5,7 @@ COMMENT =	add-on for creating *nix daemons
 NPM_VERSION =	0.5.1
 NPM_NAME =	daemon
 CATEGORIES =	sysutils devel
+REVISION = 	0
 
 HOMEPAGE =	https://github.com/indexzero/daemon.node/
 
@@ -19,6 +20,6 @@ MODULES =		lang/node
 CONFIGURE_STYLE =	npm ext
 
 # Needs a new devel/node-vows
-NO_REGRESS =	Yes
+NO_REGRESS =		Yes
 
 .include <bsd.port.mk>

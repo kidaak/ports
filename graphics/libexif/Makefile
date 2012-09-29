@@ -2,9 +2,8 @@
 
 COMMENT=	extract digital camera info tags from JPEG images
 
-DISTNAME=	libexif-0.6.20
-REVISION=	0
-SHARED_LIBS=	exif	13.0
+DISTNAME=	libexif-0.6.21
+SHARED_LIBS=	exif	13.1
 
 CATEGORIES=	graphics
 

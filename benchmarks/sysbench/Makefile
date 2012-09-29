@@ -17,8 +17,7 @@ WANTLIB =		m c pthread
 
 MAINTAINER =		Jung <moorang@gmail.com>
 
-BUILD_DEPENDS =		textproc/libxslt \
-			textproc/docbook-xsl
+BUILD_DEPENDS =		textproc/docbook-xsl
 NO_REGRESS =		Yes
 
 CONFIGURE_STYLE =	gnu

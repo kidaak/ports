@@ -2,8 +2,7 @@
 
 COMMENT =	Really Awesome New Cisco confIg Differ
 
-DISTNAME =	rancid-2.3.3
-REVISION =	2
+DISTNAME =	rancid-2.3.8
 EPOCH = 	0
 CATEGORIES =	sysutils
 
@@ -12,8 +11,8 @@ HOMEPAGE =	http://www.shrubbery.net/rancid/
 MAINTAINER =	Pierre-Emmanuel Andre <pea@openbsd.org>
 
 # Custom
-PERMIT_PACKAGE_CDROM =	"not for commercial use"
-PERMIT_DISTFILES_CDROM ="not for commercial use"
+PERMIT_PACKAGE_CDROM =	not for commercial use
+PERMIT_DISTFILES_CDROM =not for commercial use
 PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_FTP =	Yes
 

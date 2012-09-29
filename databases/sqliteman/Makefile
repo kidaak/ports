@@ -4,7 +4,7 @@ COMMENT =	gui for sqlite
 CATEGORIES =	databases x11
 
 DISTNAME =	sqliteman-1.2.0
-REVISION =	3
+REVISION =	4
 
 MASTER_SITES =	${MASTER_SITE_SOURCEFORGE:=sqliteman/}
 HOMEPAGE =	http://sourceforge.net/projects/sqliteman/
@@ -24,8 +24,7 @@ LIB_DEPENDS =	x11/qt4 \
 WANTLIB +=	QtCore QtGui QtSql QtXml qscintilla2
 WANTLIB +=	c m pthread stdc++
 
-RUN_DEPENDS =	x11/qt4,-sqlite \
-		devel/desktop-file-utils
+RUN_DEPENDS =	devel/desktop-file-utils
 
 
 NO_REGRESS =	Yes

@@ -2,7 +2,7 @@
 
 COMMENT=	python library to access freedesktop.org standards
 
-MODPY_EGG_VERSION= 0.19
+MODPY_EGG_VERSION= 0.23
 DISTNAME=	pyxdg-${MODPY_EGG_VERSION}
 PKGNAME=	py-xdg-${MODPY_EGG_VERSION}
 
@@ -18,11 +18,10 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-MASTER_SITES=	http://people.freedesktop.org/~lanius/
+MASTER_SITES=	http://people.freedesktop.org/~takluyver/
 
 MODULES=	lang/python
 
-# regression tests are present, but don't make much sense
 NO_REGRESS=	Yes
 
 pre-configure:

@@ -9,7 +9,8 @@ DISTNAME=		libiodbc-$V
 PKGNAME=		iodbc-$V
 PKGNAME-main=		iodbc-$V
 PKGNAME-admin=		iodbc-admin-$V
-REVISION-admin =	1
+REVISION-main=		0
+REVISION-admin =	2
 
 CATEGORIES=		databases
 

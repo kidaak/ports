@@ -14,11 +14,11 @@ SEPARATE_BUILD =	flavored
 
 CONFIGURE_ENV +=	XSCREENSAVER=${LOCALBASE}/libexec/xscreensaver
 
-BUILD_DEPENDS =		x11/xscreensaver,-data,no_gle
-RUN_DEPENDS =		x11/xscreensaver,-data,no_gle \
+BUILD_DEPENDS =		x11/xscreensaver,-data
+RUN_DEPENDS =		x11/xscreensaver,-data \
 			x11/gtk+2,-guic
 
-REVISION =		10
+REVISION =		11
 
 WANTLIB = GL GLU ICE SM X11 Xau Xdamage Xdmcp Xext Xfixes Xrender Xt Xxf86vm \
 	art_lgpl_2 artsflow artsflow_idl artskde audiofile c drm fam glib-2.0 \

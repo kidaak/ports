@@ -3,6 +3,7 @@
 COMMENT =		extra concurrency primitives
 
 DISTNAME =		concurrent-extra-0.7.0.4
+REVISION =		0
 CATEGORIES =		devel
 
 # BSD3

@@ -1,7 +1,7 @@
 $OpenBSD$
---- check-plugin.py.orig	Tue Jan 17 10:31:58 2012
-+++ check-plugin.py	Tue Jan 17 10:32:09 2012
-@@ -227,7 +227,7 @@ sts,output = utils.run(cmd)
+--- check-plugin.py.orig	Mon Jun 18 12:44:13 2012
++++ check-plugin.py	Tue Jun 26 07:06:28 2012
+@@ -236,7 +236,7 @@ sts,output = utils.run(cmd)
  if sts != 0:
      log.warn("Failed to change log file permissions: %s" %output)
  

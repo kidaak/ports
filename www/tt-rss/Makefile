@@ -2,9 +2,9 @@
 
 COMMENT=		webbased rss reader with standalone look and feel
 
-DISTNAME=		tt-rss-1.5.10
+DISTNAME=		tt-rss-1.5.11
 CATEGORIES=		www
-REVISION=		1
+REVISION =		1
 
 HOMEPAGE=		http://tt-rss.org/
 

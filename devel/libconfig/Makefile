@@ -2,11 +2,10 @@
 
 COMMENT=		library for manipulating structured configuration files
 
-DISTNAME=		libconfig-1.4.6
-REVISION =		0
+DISTNAME=		libconfig-1.4.8
 
-SHARED_LIBS=		config		9.0 \
-			config++	9.0
+SHARED_LIBS +=	config               9.1      # 10.2
+SHARED_LIBS +=	config++             9.1      # 10.2
 
 CATEGORIES=		devel
 

@@ -4,6 +4,7 @@ COMMENT =	portable C compiler
 
 PCCVER =	1.0.0
 DISTNAME =	pcc-${PCCVER}
+REVISION =	0
 EXTRACT_SUFX =	.tgz
 
 CATEGORIES =	lang

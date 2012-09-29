@@ -6,7 +6,7 @@ COMMENT-lang=		language subpackage for Window Maker
 V=			0.92.0
 DISTNAME=		WindowMaker-${V}
 PKGNAME-main=		${DISTNAME:L}
-REVISION-main=		11
+REVISION-main=		12
 FULLPKGNAME-lang=       windowmaker-lang-${V}
 REVISION-lang=		2
 SHARED_LIBS=		wraster 5.0
@@ -63,6 +63,7 @@ pre-configure:
 	${WRKSRC}/WINGs/wapplication.c \
 	${WRKSRC}/WPrefs.app/Menu.c \
 	${WRKSRC}/WPrefs.app/Paths.c \
+	${WRKSRC}/WindowMaker/Defaults/WMWindowAttributes.in \
 	${WRKSRC}/WindowMaker/Defaults/WindowMaker.in
 
 post-install:

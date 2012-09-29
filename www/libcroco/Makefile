@@ -3,7 +3,7 @@
 COMMENT=		generic CSS parsing library for GNOME project
 
 GNOME_PROJECT=		libcroco
-GNOME_VERSION=		0.6.5
+GNOME_VERSION=		0.6.6
 SHARED_LIBS +=	croco-0.6            4.0      # .3.1
 CATEGORIES=		www textproc devel
 

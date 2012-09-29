@@ -6,7 +6,7 @@ COMMENT=	interface to the system's process table
 
 DISTNAME=	Proc-ProcessTable-0.45
 PKGNAME=	p5-${DISTNAME}
-REVISION=	3
+REVISION=	4
 CATEGORIES=	sysutils
 
 MAINTAINER=	William Yodlowsky <william@openbsd.org>
@@ -17,7 +17,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=	kvm
+WANTLIB += c kvm
 
 MODULES=	cpan
 USE_GROFF =	Yes

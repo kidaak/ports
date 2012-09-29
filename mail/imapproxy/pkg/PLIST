@@ -1,8 +1,8 @@
 @comment $OpenBSD$
 @newgroup _imapproxy:592
 @newuser _imapproxy:592:_imapproxy:daemon:IMAP Proxy Account:/nonexistent:/sbin/nologin
-sbin/imapproxyd
-sbin/pimpstat
+@bin sbin/imapproxyd
+@bin sbin/pimpstat
 share/doc/imapproxy/
 share/doc/imapproxy/README
 share/doc/imapproxy/README.ssl

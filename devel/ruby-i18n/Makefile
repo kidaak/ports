@@ -3,6 +3,7 @@
 COMMENT =	ruby internationalization and localization solution
 
 DISTNAME =	i18n-0.6.0
+REVISION =	0
 CATEGORIES =	devel
 
 HOMEPAGE=	https://github.com/svenfuchs/i18n

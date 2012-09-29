@@ -2,8 +2,8 @@
 
 COMMENT=		web-based double opt-in newsletter manager
 
-DISTNAME=		phplist-2.10.17
-REVISION=		2
+DISTNAME=		phplist-2.10.19
+REVISION=		0
 
 CATEGORIES=		www
 

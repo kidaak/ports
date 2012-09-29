@@ -2,7 +2,7 @@
 
 COMMENT =		perl interface to SSL sockets
 
-DISTNAME =		IO-Socket-SSL-1.74
+DISTNAME =		IO-Socket-SSL-1.76
 
 CATEGORIES =		security
 

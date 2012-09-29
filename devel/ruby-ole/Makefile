@@ -2,9 +2,8 @@
 
 COMMENT =	provides read/write access to OLE2 structured storage files
 
-DISTNAME =	ruby-ole-1.2.11.1
+DISTNAME =	ruby-ole-1.2.11.4
 PKGNAME =	${DISTNAME:S/ruby-//}
-REVISION=		0
 CATEGORIES =	devel
 
 # MIT

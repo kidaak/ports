@@ -2,7 +2,7 @@
 
 COMMENT=		portable cross-platform audio API
 DISTNAME=		portaudio-svn-1406
-REVISION=		2
+REVISION=		3
 
 SHARED_LIBS=		portaudio	1.0
 
@@ -16,7 +16,7 @@ PERMIT_PACKAGE_FTP=	Yes
 PERMIT_DISTFILES_CDROM=	Yes
 PERMIT_DISTFILES_FTP=	Yes
 
-WANTLIB=		m sndio
+WANTLIB=		c m pthread sndio
 
 MASTER_SITES=		http://jakemsr.trancell.org/distfiles/
 

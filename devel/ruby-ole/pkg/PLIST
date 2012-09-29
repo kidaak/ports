@@ -8,8 +8,6 @@ ${GEM_LIB}/gems/${DISTNAME}/README
 ${GEM_LIB}/gems/${DISTNAME}/Rakefile
 ${GEM_LIB}/gems/${DISTNAME}/bin/
 ${GEM_LIB}/gems/${DISTNAME}/bin/oletool
-${GEM_LIB}/gems/${DISTNAME}/data/
-${GEM_LIB}/gems/${DISTNAME}/data/propids.yaml
 ${GEM_LIB}/gems/${DISTNAME}/lib/
 ${GEM_LIB}/gems/${DISTNAME}/lib/ole/
 ${GEM_LIB}/gems/${DISTNAME}/lib/ole/base.rb

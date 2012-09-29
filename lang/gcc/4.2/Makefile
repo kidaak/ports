@@ -2,12 +2,13 @@
 
 ONLY_FOR_ARCHS = alpha i386 m68k sparc sparc64 powerpc vax amd64
 #BROKEN=adjust for types changes
+DPB_PROPERTIES = parallel
 
 V = 4.2.4
 FULL_VERSION = $V
 FULL_PKGVERSION = $V
 BOOTSTRAP_GEN = 5
-# XXX this needs libc.so.60.1 (from OpenBSD 5.0) to build on i386
+# XXX adastrap bundles libc.so.60.1 (from OpenBSD 5.0) to build on i386
 LIBC_VERSION = 60.1
 ADASTRAP = adastrap-i386-$V-${BOOTSTRAP_GEN}.tgz
 
@@ -19,13 +20,13 @@ PKGNAME-java =  gcj-${FULL_PKGVERSION}
 PKGNAME-objc =  gobjc-${FULL_PKGVERSION}
 PKGNAME-ada =   gnat-${FULL_PKGVERSION}
 
-REVISION-main = 8
-REVISION-c++ = 12
-REVISION-estdc = 2
-REVISION-f95 = 10
-REVISION-java = 10
-REVISION-objc = 9
-REVISION-ada = 8
+REVISION-main = 12
+REVISION-c++ = 16
+REVISION-estdc = 4
+REVISION-f95 = 14
+REVISION-java = 14
+REVISION-objc = 13
+REVISION-ada = 12
 EPOCH = 0
 
 SHARED_LIBS =	estdc++		13.0 \
@@ -76,8 +77,7 @@ DISTNAME =   	gcc-${FULL_VERSION}
 
 
 MASTER_SITES =	${MASTER_SITE_GCC:=releases/gcc-$(FULL_VERSION)/}
-#MASTER_SITES0 =	http://distfiles.bsdfrog.org/
-MASTER_SITES0 = ftp://quatramaran.ens.fr/pub/espie/
+MASTER_SITES0 = http://distfiles.tmux.org/adastrap/
 
 CONFIGURE_STYLE =	gnu
 MODGNU_CONFIG_GUESS_DIRS =	${WRKSRC} ${WRKSRC}/gcc
@@ -152,6 +152,7 @@ CONFIGURE_ARGS += \
 	--with-gnu-as \
 	--enable-threads=posix \
 	--enable-wchar_t \
+	--disable-libstdcxx-pch \
 	--enable-languages=${LANGS}
 
 # This is needed, as internal cpp is no longer compatible with the
@@ -207,7 +208,7 @@ RUN_DEPENDS-java =	archivers/unzip \
 			archivers/zip>=2.3p0
 
 RUN_DEPENDS-c++ =	${RUN_DEPENDS} libstdc++->=4.2,<4.3|libstdc++->=4.2v0,<4.3v0:${BUILD_PKGPATH},-estdc
-WANTLIB-estdc =		c m
+WANTLIB-estdc =		m
 WANTLIB-java =		c m pthread z
 
 LIB_DEPENDS-f95 =	devel/gmp>=4.2 \

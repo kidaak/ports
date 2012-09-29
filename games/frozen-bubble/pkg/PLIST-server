@@ -1,5 +1,5 @@
 @comment $OpenBSD$
-@comment @dirrm ${P5ARCH}/
-@comment @dirrm ${P5ARCH}/auto/
+@comment ${P5ARCH}/
+@comment ${P5ARCH}/auto/
 libexec/frozen-bubble/
 @bin libexec/frozen-bubble/fb-server

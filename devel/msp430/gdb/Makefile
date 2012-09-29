@@ -1,10 +1,10 @@
 # $OpenBSD$
 
-COMMENT=		GNU debugger for msp430
-
 TOOL=			gdb
 TOOL_V= 		7.2a
 LTS_V=			20111205
+
+REVISION=		0
 
 GNU_TOOL=		Yes
 

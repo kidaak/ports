@@ -4,10 +4,10 @@ NOT_FOR_ARCHS=	${GCC2_ARCHS}
 
 COMMENT=	lightweight caching DNS forwarder, DHCP and TFTP server
 
-DISTNAME=	dnsmasq-2.61
-REVISION=	1
+DISTNAME=	dnsmasq-2.63
 CATEGORIES=	net
 MASTER_SITES=	http://www.thekelleys.org.uk/dnsmasq/
+EXTRACT_SUFX=	.tar.xz
 
 HOMEPAGE=	http://www.thekelleys.org.uk/dnsmasq/doc.html
 

@@ -1,7 +1,7 @@
 $OpenBSD$
---- mozilla/netwerk/base/src/nsSocketTransportService2.cpp.orig	Tue Mar 13 03:43:37 2012
-+++ mozilla/netwerk/base/src/nsSocketTransportService2.cpp	Thu Mar 15 08:39:59 2012
-@@ -54,14 +54,6 @@
+--- mozilla/netwerk/base/src/nsSocketTransportService2.cpp.orig	Mon Aug 27 06:49:27 2012
++++ mozilla/netwerk/base/src/nsSocketTransportService2.cpp	Sat Sep  1 02:00:14 2012
+@@ -21,14 +21,6 @@
  
  #include "mozilla/FunctionTimer.h"
  
@@ -16,7 +16,7 @@ $OpenBSD$
  using namespace mozilla;
  
  #if defined(PR_LOGGING)
-@@ -617,8 +609,6 @@ nsSocketTransportService::Run()
+@@ -584,8 +576,6 @@ nsSocketTransportService::Run()
  {
      SOCKET_LOG(("STS thread init\n"));
  
@@ -25,7 +25,7 @@ $OpenBSD$
      gSocketThread = PR_GetCurrentThread();
  
      // add thread event to poll list (mThreadEvent may be NULL)
-@@ -674,8 +664,6 @@ nsSocketTransportService::Run()
+@@ -644,8 +634,6 @@ nsSocketTransportService::Run()
      NS_ProcessPendingEvents(thread);
  
      gSocketThread = nsnull;

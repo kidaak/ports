@@ -3,7 +3,7 @@
 COMMENT=		GNOME session
 
 GNOME_PROJECT=		gnome-session
-GNOME_VERSION=		3.4.2.1
+GNOME_VERSION=		3.6.0
 
 CATEGORIES=		x11
 
@@ -21,26 +21,27 @@ WANTLIB += gdk_pixbuf-2.0 gio-2.0 glib-2.0 gmodule-2.0 gobject-2.0
 WANTLIB += gthread-2.0 gtk-3 json-glib-1.0 m pango-1.0 pangocairo-1.0
 WANTLIB += pangoft2-1.0 pcre pixman-1 png pthread pthread-stubs
 WANTLIB += upower-glib xcb xcb-render xcb-shm z stdc++
+WANTLIB += atk-bridge-2.0 atspi harfbuzz icudata icule icuuc
 
 MODULES=	devel/gettext \
 		x11/gnome \
 		devel/dconf
 
 BUILD_DEPENDS=	textproc/xmlto \
-		x11/gnome/settings-daemon
+		x11/gnome/settings-daemon>=3.6.0
 LIB_DEPENDS=	devel/libexecinfo \
-		x11/gtk+3 \
+		x11/gtk+3>=3.6.0 \
 		devel/gconf2 \
 		sysutils/upower \
 		devel/json-glib
-RUN_DEPENDS=	x11/gnome/settings-daemon \
+RUN_DEPENDS=	x11/gnome/settings-daemon>=3.6.0 \
 		sysutils/consolekit
 
 # gnome.session+gnome-fallback.session RequiredComponents.
 RUN_DEPENDS+=	sysutils/notification-daemon
 
 # gnome.session RequiredComponents.
-#RUN_DEPENDS+=	x11/gnome/shell
+RUN_DEPENDS+=	x11/gnome/shell
 
 # gnome-fallback.session RequiredComponents.
 # polkit-gnome isn't strictly *required* but then we will loose the

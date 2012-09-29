@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libgtkaml.so.${LIBgtkaml_VERSION}

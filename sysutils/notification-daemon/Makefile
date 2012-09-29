@@ -2,7 +2,7 @@
 
 COMMENT=		send small notifications to your desktop
 
-GNOME_VERSION=		0.7.4
+GNOME_VERSION=		0.7.6
 GNOME_PROJECT=		notification-daemon
 
 CATEGORIES=		sysutils net

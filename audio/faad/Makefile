@@ -7,6 +7,7 @@ V=		2.7
 DISTNAME=	faad2-${V}
 PKGNAME-main=	faad-${V}
 PKGNAME-xmms=	faad-xmms-${V}
+REVISION-xmms=	0
 CATEGORIES=    	audio
 MASTER_SITES=	${MASTER_SITE_SOURCEFORGE:=faac/}
 EXTRACT_SUFX=	.tar.bz2
@@ -23,8 +24,8 @@ PERMIT_DISTFILES_CDROM=	Patents
 PERMIT_DISTFILES_FTP=	Yes
 
 WANTLIB-main=	c m
-WANTLIB-xmms=	X11 Xext Xi faad gdk glib gmodule gtk m mp4ff xcb \
-		xmms>=3 ${MODGETTEXT_WANTLIB}
+WANTLIB-xmms=	X11 Xext Xi faad gdk glib gmodule gtk m mp4ff pthread \
+		xcb xmms>=3 ${MODGETTEXT_WANTLIB}
 
 MODULES=	devel/gettext
 # bootstrap checks for libtoolize

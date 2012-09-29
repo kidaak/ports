@@ -3,6 +3,7 @@
 COMMENT =	tetris like puzzle game
 
 DISTNAME =	LapisPuzzle-1.2
+REVISION =	1
 CATEGORIES =	games
 
 HOMEPAGE =	http://gap.nongnu.org/lapispuzzle/

@@ -3,7 +3,7 @@
 COMMENT=		alternative to ruby ri command-line tool
 
 DISTNAME=		fastri-0.3.1.1
-REVISION =		5
+REVISION =		6
 CATEGORIES=		textproc
 
 HOMEPAGE=		http://rubyforge.org/projects/fastri/

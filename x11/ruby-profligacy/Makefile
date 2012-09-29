@@ -13,6 +13,7 @@ PERMIT_DISTFILES_CDROM =	Yes
 PERMIT_DISTFILES_FTP =		Yes
 
 MODULES =	lang/ruby
+FLAVORS =	jruby
 FLAVOR =	jruby
 
 CONFIGURE_STYLE =	ruby gem

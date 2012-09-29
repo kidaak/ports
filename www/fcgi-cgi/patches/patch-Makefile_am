@@ -10,5 +10,5 @@ $OpenBSD$
  fcgi_cgi_SOURCES=fastcgi.c fcgi-cgi.c
 +
 +fcgi_cgi_static_LDADD=$(fcgi_cgi_LDADD)
-+fcgi_cgi_static_LDFLAGS=-static
++fcgi_cgi_static_LDFLAGS=-static `pkg-config glib-2.0 --libs --static`
 +fcgi_cgi_static_SOURCES=$(fcgi_cgi_SOURCES)

@@ -8,7 +8,14 @@ Configuration
 =============
 Simplified sample configuration files have been provided
 in ${SYSCONFDIR}/asterisk; the full set from the Asterisk distribution
-is available in ${PREFIX}/share/examples/asterisk/default.
+is available in ${PREFIX}/share/examples/asterisk/default; some or all
+of these can be copied to ${SYSCONFDIR}/asterisk and edited.
+
+Asterisk logs to /var/log/asterisk/messages by default; log rotation
+can be handled by adding a line like the following to /etc/newsyslog.conf:
+
+/var/log/asterisk/messages		640  5     1000 *     Z "asterisk -rx 'logger reload'"
+
 
 Documentation
 =============

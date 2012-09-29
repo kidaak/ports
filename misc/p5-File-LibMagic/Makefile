@@ -5,6 +5,7 @@ SHARED_ONLY =		Yes
 COMMENT =		perl wrapper for libmagic
 
 DISTNAME =		File-LibMagic-0.96
+REVISION =		0
 
 CATEGORIES =		misc
 
@@ -16,7 +17,7 @@ PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
 
-WANTLIB +=		magic
+WANTLIB += c magic
 
 EXTRACT_SUFX =		.tgz
 

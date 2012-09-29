@@ -6,7 +6,7 @@ COMMENT=	themes design plugin for Gedit
 
 GNOME_PROJECT=	gedit-cossa
 GNOME_VERSION=	3.2.0
-SHARED_LIBS +=  cossa                     0.0 # 0.0
+REVISION=	1
 
 CATEGORIES=	editors
 
@@ -30,8 +30,14 @@ WANTLIB += xcb-shm xml2 z
 
 RUN_DEPENDS=	x11/gnome/gedit
 BUILD_DEPENDS=	${RUN_DEPENDS}
-LIB_DEPENDS=	devel/gobject-introspection \
-		devel/libpeas \
+LIB_DEPENDS=	devel/libpeas \
 		x11/gtksourceview3
+
+LIBTOOL_FLAGS=	--tag=disable-static
+
+CONFIGURE_ARGS=	--disable-static
+
+post-install:
+	rm ${PREFIX}/lib/gedit/plugins/*.la
 
 .include <bsd.port.mk>

@@ -2,7 +2,7 @@
 
 COMMENT =	generates ASCII banner art
 
-DISTNAME =	figlet-2.2.4
+DISTNAME =	figlet-2.2.5
 CATEGORIES =	misc graphics
 
 HOMEPAGE =	http://www.figlet.org/

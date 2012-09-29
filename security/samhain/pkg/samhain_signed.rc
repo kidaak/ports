@@ -2,7 +2,7 @@
 #
 # $OpenBSD$
 
-daemon="${TRUEPREFIX}/sbin/samhain.signed"
+daemon="${TRUEPREFIX}/sbin/samhain.signed -t check"
 
 . /etc/rc.d/rc.subr
 

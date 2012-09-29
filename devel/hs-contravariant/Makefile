@@ -2,8 +2,7 @@
 
 COMMENT =		Haskell 98 contravariant functors
 
-DISTNAME =		contravariant-0.1.2
-REVISION =		0
+DISTNAME =		contravariant-0.2.0.2
 CATEGORIES =		devel
 
 # BSD3
@@ -16,7 +15,7 @@ MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
 
-RUN_DEPENDS =		devel/hs-transformers>=0.2.2,<0.3
+RUN_DEPENDS =		devel/hs-transformers>=0.2,<0.4
 BUILD_DEPENDS =		${RUN_DEPENDS}
 
 .include <bsd.port.mk>

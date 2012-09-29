@@ -4,6 +4,7 @@ COMMENT=	glues the Ruby on Rails framework together
 
 VERSION=	3.1.3
 DISTNAME=	railties-${VERSION}
+REVISION =	0
 CATEGORIES=	www
 
 # MIT License

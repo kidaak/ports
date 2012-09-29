@@ -2,7 +2,7 @@
 
 COMMENT =		core event/X abstraction layer
 DISTNAME =		ecore-1.0.0
-REVISION =		1
+REVISION =		2
 
 EPOCH =			2
 

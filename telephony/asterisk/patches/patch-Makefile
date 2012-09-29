@@ -1,7 +1,7 @@
 $OpenBSD$
---- Makefile.orig	Thu Aug 25 20:08:04 2011
-+++ Makefile	Thu Sep  1 10:37:01 2011
-@@ -122,7 +122,7 @@ ASTTOPDIR:=$(subst $(space),\$(space),$(CURDIR))
+--- Makefile.orig	Wed Jun 13 15:30:34 2012
++++ Makefile	Tue Sep 18 23:47:38 2012
+@@ -123,7 +123,7 @@ ASTTOPDIR:=$(subst $(space),\$(space),$(CURDIR))
  OVERWRITE=y
  
  # Include debug and macro symbols in the executables (-g) and profiling info (-pg)
@@ -10,7 +10,7 @@ $OpenBSD$
  
  # Asterisk.conf is located in ASTETCDIR or by using the -C flag
  # when starting Asterisk
-@@ -152,8 +152,10 @@ LINKER_SYMBOL_PREFIX=
+@@ -153,8 +153,10 @@ LINKER_SYMBOL_PREFIX=
  # The file /etc/asterisk.makeopts will also be included but can be overridden
  # by the file in your home directory.
  
@@ -21,22 +21,12 @@ $OpenBSD$
  
  MOD_SUBDIR_CFLAGS="-I$(ASTTOPDIR)/include"
  OTHER_SUBDIR_CFLAGS="-I$(ASTTOPDIR)/include"
-@@ -196,7 +198,9 @@ endif
+@@ -164,7 +166,9 @@ OPTIONS=
  
  ifeq ($(findstring -save-temps,$(_ASTCFLAGS) $(ASTCFLAGS)),)
    ifeq ($(findstring -pipe,$(_ASTCFLAGS) $(ASTCFLAGS)),)
 +    ifneq ($(OSARCH),OpenBSD)
      _ASTCFLAGS+=-pipe
-+    endif
-   endif
- endif
- 
-@@ -222,7 +226,9 @@ endif
- 
- ifeq ($(findstring -march,$(_ASTCFLAGS) $(ASTCFLAGS)),)
-   ifneq ($(PROC),ultrasparc)
-+    ifneq ($(OSARCH),OpenBSD)
-     _ASTCFLAGS+=$(shell if $(CC) -march=$(PROC) -S -o /dev/null -xc /dev/null >/dev/null 2>&1; then echo "-march=$(PROC)"; fi)
 +    endif
    endif
  endif

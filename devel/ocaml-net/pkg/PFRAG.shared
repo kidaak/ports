@@ -1,0 +1,8 @@
+@comment $OpenBSD$
+@comment lib/ocaml/stublibs/
+lib/ocaml/stublibs/dllnetaccel_c.so
+@comment lib/ocaml/stublibs/dllnetaccel_c.so.owner
+lib/ocaml/stublibs/dllnetsys.so
+@comment lib/ocaml/stublibs/dllnetsys.so.owner
+lib/ocaml/stublibs/dllrpc_auth_local.so
+@comment lib/ocaml/stublibs/dllrpc_auth_local.so.owner

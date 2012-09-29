@@ -3,7 +3,7 @@
 COMMENT =		fast combinator parsing for bytestrings
 
 DISTNAME =		attoparsec-0.10.1.0
-REVISION =		0
+REVISION =		1
 CATEGORIES =		textproc
 
 MAINTAINER =		Jim Razmus II <jim@openbsd.org>, \
@@ -19,8 +19,7 @@ MODULES =		lang/ghc
 
 MODGHC_BUILD =		cabal hackage haddock register
 
-RUN_DEPENDS =		devel/hs-deepseq \
-			devel/hs-text>=0.11.1.5
+RUN_DEPENDS =		devel/hs-text>=0.11.1.5
 BUILD_DEPENDS =		${RUN_DEPENDS}
 
 .include <bsd.port.mk>

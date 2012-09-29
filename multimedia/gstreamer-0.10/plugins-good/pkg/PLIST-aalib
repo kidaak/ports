@@ -1,3 +1,2 @@
 @comment $OpenBSD$
-@comment lib/gstreamer-${VERSION}/libgstaasink.la
 lib/gstreamer-${VERSION}/libgstaasink.so

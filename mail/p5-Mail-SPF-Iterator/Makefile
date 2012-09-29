@@ -2,7 +2,7 @@
 
 COMMENT =		iterative SPF lookup
 
-DISTNAME =		Mail-SPF-Iterator-1.10
+DISTNAME =		Mail-SPF-Iterator-1.11
 
 CATEGORIES =		mail
 

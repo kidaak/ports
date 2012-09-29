@@ -1,2 +1,2 @@
 @comment $OpenBSD$
-@lib lib/libsecret-0.so.${LIBsecret-0_VERSION}
+@lib lib/libsecret-1.so.${LIBsecret-1_VERSION}

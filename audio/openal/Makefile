@@ -1,5 +1,7 @@
 # $OpenBSD$
 
+BROKEN-hppa =	undefined reference to __sync atomic ops
+
 COMMENT =	cross-platform 3D audio API
 
 V =		1.14

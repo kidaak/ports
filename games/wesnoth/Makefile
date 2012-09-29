@@ -2,7 +2,7 @@
 
 COMMENT=	fantasy turn-based strategy game
 
-DISTNAME=	wesnoth-1.10.2
+DISTNAME=	wesnoth-1.10.3
 
 CATEGORIES=	games x11
 

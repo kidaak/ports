@@ -10,7 +10,7 @@ COMMENT-docs=		documentation for OpenCV
 V=			2.2.0
 DISTNAME=		OpenCV-$V
 PKGNAME-main=		opencv-$V
-REVISION-main=		6
+REVISION-main=		7
 PKGNAME-docs=		opencv-docs-$V
 CATEGORIES=		graphics devel
 

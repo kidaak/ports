@@ -1,7 +1,7 @@
 $OpenBSD$
---- config.mk.orig	Sun Jul 10 17:24:25 2011
-+++ config.mk	Tue Jul 26 10:44:28 2011
-@@ -4,30 +4,30 @@ VERSION = 5.9
+--- config.mk.orig	Mon Dec 19 16:02:46 2011
++++ config.mk	Sat Jul  7 22:28:18 2012
+@@ -4,30 +4,30 @@ VERSION = 6.0
  # Customize below to fit your system
  
  # paths

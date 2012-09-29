@@ -6,7 +6,7 @@ CATEGORIES =		cad
 HOMEPAGE =		http://geda.seul.org
 MAINTAINER =		Edd Barrett <edd@openbsd.org>
 
-REVISION =		4
+REVISION =		5
 
 SHARED_LIBS = 		geda	0.0	# 38.0
 USE_LIBTOOL =		Yes

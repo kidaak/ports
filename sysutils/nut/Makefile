@@ -5,19 +5,15 @@ COMMENT-cgi=		CGIs for monitoring Nut-based UPSs
 COMMENT-snmp=		driver for monitoring UPS via SNMP
 COMMENT-xml=		driver for monitoring UPS via XML/HTTP
 
-DISTNAME=		nut-2.6.3
-REVISION-main=		5
-REVISION-cgi=		4
-REVISION-snmp=		4
-REVISION-xml=		4
+DISTNAME=		nut-2.6.5
 
 PKGNAME-main=		${DISTNAME}
 PKGNAME-cgi=		${DISTNAME:S/-/-cgi-/}
 PKGNAME-snmp=		${DISTNAME:S/-/-snmp-/}
 PKGNAME-xml=		${DISTNAME:S/-/-xml-/}
 
-SHARED_LIBS +=  upsclient            1.0      # 1.0
-SHARED_LIBS +=  nutscan              0.0      # 1.0
+SHARED_LIBS +=  upsclient            2.0      # 2.0
+SHARED_LIBS +=  nutscan              1.0      # 1.0
 
 CATEGORIES=		sysutils
 HOMEPAGE=		http://www.networkupstools.org/
@@ -43,7 +39,6 @@ MODULES=		devel/gettext \
 			lang/python
 MODPY_RUNDEP=		No
 BUILD_DEPENDS+=		textproc/asciidoc \
-			textproc/docbook \
 			textproc/docbook-xsl
 
 WEB_ROOT=		/var/www

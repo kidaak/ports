@@ -9,6 +9,7 @@
      SUBDIR += banshee
      SUBDIR += baker
      SUBDIR += baobab
+     SUBDIR += caribou
      SUBDIR += color-manager
      SUBDIR += common
      SUBDIR += contacts
@@ -18,6 +19,7 @@
      SUBDIR += devhelp
      SUBDIR += dictionary
      SUBDIR += doc-utils
+     SUBDIR += documents
      SUBDIR += ekiga
      SUBDIR += empathy
      SUBDIR += eog
@@ -30,7 +32,6 @@
      SUBDIR += gcalctool
      SUBDIR += gcr
      SUBDIR += gdl
-     SUBDIR += gdl1
      SUBDIR += gdlmm
      SUBDIR += gdm
      SUBDIR += gedit
@@ -52,9 +53,7 @@
      SUBDIR += icon-theme
      SUBDIR += icon-theme-extras
      SUBDIR += icon-theme-symbolic
-     SUBDIR += js-common
      SUBDIR += keyring
-     SUBDIR += krb5-auth-dialog
      SUBDIR += latexila
      SUBDIR += libbonobo
      SUBDIR += libbonoboui
@@ -63,15 +62,14 @@
      SUBDIR += libgdamm
      SUBDIR += libgnome
      SUBDIR += libgnome-keyring
-     SUBDIR += libgnome-media-profiles
      SUBDIR += libgnomecanvas
+     SUBDIR += libgnomecanvasmm
      SUBDIR += libgnomekbd
      SUBDIR += libgnomeui
      SUBDIR += libgweather
      SUBDIR += librsvg
      SUBDIR += libsecret
      SUBDIR += libxklavier
-     SUBDIR += media
      SUBDIR += menus
      SUBDIR += metacity
      SUBDIR += mime-data
@@ -79,6 +77,7 @@
      SUBDIR += mono-keyring
      SUBDIR += moserial
      SUBDIR += mousetweaks
+     SUBDIR += mutter
      SUBDIR += nautilus
      SUBDIR += nautilus-open-terminal
      SUBDIR += nautilus-sendto
@@ -97,9 +96,10 @@
      SUBDIR += seahorse-nautilus
      SUBDIR += seahorse-sharing
      SUBDIR += search-tool
-     SUBDIR += seed
      SUBDIR += session
      SUBDIR += settings-daemon
+     SUBDIR += shell
+     SUBDIR += sushi
      SUBDIR += system-log
      SUBDIR += system-monitor
      SUBDIR += terminal

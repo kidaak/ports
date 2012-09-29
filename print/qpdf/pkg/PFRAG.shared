@@ -1,0 +1,2 @@
+@comment $OpenBSD$
+@lib lib/libqpdf.so.${LIBqpdf_VERSION}

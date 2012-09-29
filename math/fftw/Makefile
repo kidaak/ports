@@ -1,6 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: ports/math/fftw/Makefile,v 1.11 2000/06/16 21:51:38 asami Exp $
-# Original from: Lars Koeller <Lars.Koeller@Uni-Bielefeld.DE>
 
 COMMENT=	C routines for computing the Discrete Fourier Transform
 

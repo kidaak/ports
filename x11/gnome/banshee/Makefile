@@ -6,6 +6,7 @@ COMMENT=	music management and playback application for GNOME
 
 GNOME_VERSION=	2.4.1
 GNOME_PROJECT=	banshee
+REVISION=	3
 
 CATEGORIES=	audio
 
@@ -48,8 +49,11 @@ RUN_DEPENDS=	devel/mono-notify \
 		shells/bash \
 		multimedia/gstreamer-0.10/plugins-good # libgstgconfelements
 
+# MP3 support
+RUN_DEPENDS +=	multimedia/gstreamer-0.10/plugins-ugly
+
 LIB_DEPENDS=	www/webkit \
-		multimedia/gstreamer-0.10/plugins-base,-cdda \
+		multimedia/gstreamer-0.10/plugins-base
 
 MODGNOME_DESKTOP_FILE=	Yes
 MODGNOME_ICON_CACHE=	Yes
@@ -62,7 +66,6 @@ CONFIGURE_ARGS=	--disable-static \
 		--enable-gapless-playback \
 		--enable-user-help \
 		--with-vendor-build-id="OpenBSD Ports" \
-		--disable-clutter \
 		--disable-upnp \
 		--disable-gst-sharp \
 		--disable-gio-hardware \
@@ -94,5 +97,9 @@ DLLMAP_FILES=	src/Hyena/Hyena/Hyena.dll.config \
 .if !target(do-install)
 MAKE_FLAGS +=	INSTALL_DATA='/usr/bin/install -c -m 444'
 .endif
+
+post-install:
+	rm ${PREFIX}/lib/banshee/Backends/*.la
+	rm ${PREFIX}/lib/banshee/*.la
 
 .include <bsd.port.mk>

@@ -2,7 +2,8 @@
 
 COMMENT =	faster SELECTs when using ruby-sequel with ruby-pg
 
-DISTNAME =	sequel_pg-1.3.0
+DISTNAME =	sequel_pg-1.5.0
+REVISION =	0
 CATEGORIES =	databases
 
 MAINTAINER =	Jeremy Evans <jeremy@openbsd.org>
@@ -18,7 +19,7 @@ WANTLIB =	pq>=2
 MODULES =	lang/ruby
 
 LIB_DEPENDS =	databases/postgresql
-RUN_DEPENDS =	databases/ruby-sequel,${MODRUBY_FLAVOR}>=3.34.0 \
+RUN_DEPENDS =	databases/ruby-sequel,${MODRUBY_FLAVOR}>=3.37.0 \
 		databases/ruby-pg,${MODRUBY_FLAVOR}
 BUILD_DEPENDS =	${RUN_DEPENDS}
 

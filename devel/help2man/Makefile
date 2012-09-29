@@ -17,9 +17,5 @@ PERMIT_DISTFILES_FTP=	Yes
 
 SEPARATE_BUILD=	Yes
 CONFIGURE_STYLE= gnu
-USE_GROFF =	Yes
-
-post-extract:
-	@rm -f ${WRKSRC}/help2man.info*
 
 .include <bsd.port.mk>

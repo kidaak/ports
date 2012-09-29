@@ -3,6 +3,7 @@
 COMMENT =		QuickCheck2 support for hs-test-framework
 
 DISTNAME =		test-framework-quickcheck2-0.2.12.2
+REVISION =		0
 CATEGORIES =		devel
 
 HOMEPAGE =		http://batterseapower.github.com/test-framework/
@@ -21,6 +22,7 @@ MODGHC_BUILD =		cabal hackage haddock register
 
 BUILD_DEPENDS =		${RUN_DEPENDS}
 RUN_DEPENDS =		devel/hs-QuickCheck>=2.4,<2.5 \
+			devel/hs-random>=1 \
 			devel/hs-test-framework>=0.6
 
 .include <bsd.port.mk>

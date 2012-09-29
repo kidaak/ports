@@ -4,7 +4,7 @@ COMMENT =	simple and fast ruby binding to FreeTDS
 
 DISTNAME =	tiny_tds-0.4.5
 CATEGORIES =	databases
-REVISION =	0
+REVISION =	1
 
 HOMEPAGE =	https://github.com/rails-sqlserver/tiny_tds
 

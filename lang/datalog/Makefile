@@ -3,6 +3,7 @@
 COMMENT=	deductive database system similar to Prolog
 
 DISTNAME=	datalog-2.2
+REVISION=	1
 SHARED_LIBS +=  datalog                   0.0 # 0.0
 CATEGORIES=	lang
 
@@ -23,6 +24,7 @@ MASTER_SITES=		${HOMEPAGE} \
 USE_LIBTOOL=		gnu
 
 MODULES=		lang/lua
+MODLUA_SA=		Yes
 
 CONFIGURE_STYLE=	gnu
 

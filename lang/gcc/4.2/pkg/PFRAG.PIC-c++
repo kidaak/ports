@@ -19,13 +19,6 @@ include/c++/${V}/${CONFIG}/fpic/bits/gthr-tpf.h
 include/c++/${V}/${CONFIG}/fpic/bits/gthr.h
 include/c++/${V}/${CONFIG}/fpic/bits/messages_members.h
 include/c++/${V}/${CONFIG}/fpic/bits/os_defines.h
-include/c++/${V}/${CONFIG}/fpic/bits/stdc++.h
-include/c++/${V}/${CONFIG}/fpic/bits/stdc++.h.gch/
-include/c++/${V}/${CONFIG}/fpic/bits/stdc++.h.gch/O0g.gch
-include/c++/${V}/${CONFIG}/fpic/bits/stdc++.h.gch/O2g.gch
-include/c++/${V}/${CONFIG}/fpic/bits/stdtr1c++.h
-include/c++/${V}/${CONFIG}/fpic/bits/stdtr1c++.h.gch/
-include/c++/${V}/${CONFIG}/fpic/bits/stdtr1c++.h.gch/O2g.gch
 include/c++/${V}/${CONFIG}/fpic/bits/time_members.h
 lib/fpic/
 lib/fpic/libestdc++.a

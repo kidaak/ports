@@ -3,7 +3,7 @@
 COMMENT =	html help viewer
 
 DISTNAME =	chmsee-1.2.0
-REVISION=	4
+REVISION=	5
 
 CATEGORIES =	textproc x11
 

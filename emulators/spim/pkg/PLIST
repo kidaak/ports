@@ -1,6 +1,6 @@
 @comment $OpenBSD$
-bin/spim
-bin/xspim
+@bin bin/spim
+@bin bin/xspim
 @man man/man1/spim.1
 @man man/man1/xspim.1
 share/spim/

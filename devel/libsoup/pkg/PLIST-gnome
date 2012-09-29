@@ -1,5 +1,4 @@
 @comment $OpenBSD$
-%%SHARED%%
 include/libsoup-gnome-${API_VERSION}/
 include/libsoup-gnome-${API_VERSION}/libsoup/
 include/libsoup-gnome-${API_VERSION}/libsoup/soup-cookie-jar-sqlite.h
@@ -8,5 +7,6 @@ include/libsoup-gnome-${API_VERSION}/libsoup/soup-gnome.h
 lib/girepository-1.0/SoupGNOME-${API_VERSION}.typelib
 lib/libsoup-gnome-${API_VERSION}.a
 lib/libsoup-gnome-${API_VERSION}.la
+@lib lib/libsoup-gnome-${API_VERSION}.so.${LIBsoup-gnome-2.4_VERSION}
 lib/pkgconfig/libsoup-gnome-${API_VERSION}.pc
 share/gir-1.0/SoupGNOME-${API_VERSION}.gir

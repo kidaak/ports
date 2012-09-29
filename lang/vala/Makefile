@@ -3,10 +3,10 @@
 COMMENT=		compiler for the GObject type system
 
 GNOME_PROJECT=		vala
-GNOME_VERSION=		0.16.0
-API_V=			0.16
+GNOME_VERSION=		0.18.0
+API_V=			0.18
 
-SHARED_LIBS +=  vala-0.16            0.0      # 0.0
+SHARED_LIBS +=  vala-0.18            0.0      # 0.0
 
 CATEGORIES=		lang
 

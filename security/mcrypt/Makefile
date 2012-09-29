@@ -3,8 +3,8 @@
 COMMENT =	extendable encryption program that supports many ciphers
 
 DISTNAME =		mcrypt-2.6.8
-REVISION =		1
-CATEGORIES =     	security
+REVISION =		2
+CATEGORIES =		security
 
 HOMEPAGE =		http://mcrypt.sf.net/
 

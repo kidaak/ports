@@ -3,7 +3,7 @@
 COMMENT=	genealogical research and analysis management program system
 
 DISTNAME=	gramps-3.2.6
-REVISION=	2
+REVISION=	3
 
 CATEGORIES=	misc x11
 

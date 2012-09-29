@@ -5,6 +5,7 @@ COMMENT =		perl interface to the arc4 random number generator
 SHARED_ONLY =		Yes
 MODULES =		cpan
 DISTNAME =		BSD-arc4random-1.50
+REVISION =		0
 CATEGORIES =		devel
 MAINTAINER =		Abel Abraham Camarillo Ojeda <acamari@verlet.org>
 
@@ -13,5 +14,7 @@ PERMIT_PACKAGE_CDROM =	Yes
 PERMIT_PACKAGE_FTP =	Yes
 PERMIT_DISTFILES_CDROM =Yes
 PERMIT_DISTFILES_FTP =	Yes
+
+WANTLIB += c
 
 .include <bsd.port.mk>

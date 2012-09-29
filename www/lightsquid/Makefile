@@ -3,6 +3,7 @@
 COMMENT =		light and fast log analyzer for squid proxy
 
 DISTNAME =		lightsquid-1.8
+REVISION =		0
 
 CATEGORIES =		www
 

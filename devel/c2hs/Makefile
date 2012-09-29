@@ -1,5 +1,4 @@
 # $OpenBSD$
-# $FreeBSD: ports/devel/hs-c2hs/Makefile,v 1.20 2004/03/25 08:29:28 obraun Exp $
 
 COMMENT=		interface generator for Haskell to C bindings
 
@@ -29,8 +28,6 @@ BUILD_DEPENDS=		devel/alex \
 			devel/happy \
 			devel/hs-language-c \
 			textproc/docbook-xsl \
-			textproc/libxml \
-			textproc/libxslt \
 			textproc/sgmlformat
 
 USE_GMAKE=		Yes

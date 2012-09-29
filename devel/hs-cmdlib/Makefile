@@ -3,6 +3,7 @@
 COMMENT =		command line parsing and online help
 
 DISTNAME =		cmdlib-0.3.5
+REVISION =		0
 CATEGORIES =		devel
 
 MAINTAINER =		Matthias Kilian <kili@openbsd.org>
@@ -18,7 +19,8 @@ MODULES =		lang/ghc
 MODGHC_BUILD =		cabal hackage haddock register
 
 BUILD_DEPENDS +=	${RUN_DEPENDS}
-RUN_DEPENDS +=		devel/hs-split \
+RUN_DEPENDS +=		devel/hs-mtl>=2 \
+			devel/hs-split \
 			devel/hs-syb \
 			devel/hs-transformers>=0.2.2
 

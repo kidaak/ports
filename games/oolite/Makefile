@@ -3,7 +3,7 @@
 COMMENT=	space combat and trading game in the style of Elite
 
 VERSION=	1.73.4
-REVISION =	1
+REVISION =	3
 DISTNAME=	oolite-dev-source-${VERSION}
 PKGNAME=	oolite-${VERSION}
 CATEGORIES=	games
@@ -27,7 +27,7 @@ MODGNUSTEP_NEEDS_GUI = No
 LIB_DEPENDS=	devel/sdl-mixer \
 		graphics/png
 
-WANTLIB += GL GLU SDL c m pthread SDL_mixer objc gnustep-base png
+WANTLIB += GL GLU SDL c m pthread SDL_mixer objc2 gnustep-base png
 
 MAKE_FILE =	Makefile
 ALL_TARGET=	release

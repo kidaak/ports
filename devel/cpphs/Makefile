@@ -5,11 +5,9 @@ COMMENT-lib =	cpphs library
 
 ONLY_FOR_ARCHS-lib =	i386 amd64
 
-DISTNAME =	cpphs-1.11
+DISTNAME =	cpphs-1.13.3
 PKGNAME-main =	${DISTNAME}
 PKGNAME-lib =	hs-${DISTNAME}
-REVISION-main =	7
-REVISION-lib =	4
 CATEGORIES =	devel
 MAINTAINER =	Matthias Kilian <kili@openbsd.org>
 

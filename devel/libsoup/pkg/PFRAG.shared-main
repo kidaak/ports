@@ -1,2 +1,0 @@
-@comment $OpenBSD$
-@lib lib/libsoup-${API_VERSION}.so.${LIBsoup-2.4_VERSION}

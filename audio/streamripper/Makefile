@@ -3,7 +3,7 @@
 COMMENT=	rip shoutcast streams to local mp3s
 
 DISTNAME=	streamripper-1.64.6
-REVISION=	0
+REVISION=	1
 CATEGORIES=	audio
 
 HOMEPAGE=	http://streamripper.sourceforge.net/
